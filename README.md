@@ -54,8 +54,11 @@ nervous, shy).
 - Menus to meet the cast (preview emotions, props and voices), browse
   locations, and change settings (voice mode, subtitles, volume).
 
-The **volume** and **fullscreen** buttons stay in the top-right corner on every
-screen. The volume slider controls music, sound effects and voices together.
+The **autoplay**, **volume** and **fullscreen** buttons stay in the top-right
+corner on every screen. The volume slider controls music, sound effects and
+voices together. With autoplay on (the button turns yellow), the next episode in
+the series starts five seconds after one ends; the end screen also has a **Next
+Episode** button either way.
 
 Controls while watching: **Space** pauses, **→ / Enter / click** skips the
 current line, and **Esc** opens the pause menu. **F3** (or adding `?debug` to

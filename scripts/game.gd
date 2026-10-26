@@ -12,6 +12,8 @@ var episodes: Array = []
 # Settings
 var voice_mode := "auto"  # auto | tts | babble | silent
 var subtitles := true
+## Play the next episode in the series automatically when one ends.
+var autoplay := false
 var music_volume := 0.5
 var voice_volume := 0.9
 ## Overall volume from the always-visible volume button (music, effects and voices).
@@ -77,6 +79,7 @@ func _load_settings() -> void:
 	if cfg.load(SETTINGS_PATH) == OK:
 		voice_mode = cfg.get_value("audio", "voice_mode", voice_mode)
 		subtitles = cfg.get_value("video", "subtitles", subtitles)
+		autoplay = cfg.get_value("video", "autoplay", autoplay)
 		music_volume = cfg.get_value("audio", "music_volume", music_volume)
 		voice_volume = cfg.get_value("audio", "voice_volume", voice_volume)
 		master_volume = cfg.get_value("audio", "master_volume", master_volume)
@@ -87,6 +90,7 @@ func save_settings() -> void:
 	var cfg := ConfigFile.new()
 	cfg.set_value("audio", "voice_mode", voice_mode)
 	cfg.set_value("video", "subtitles", subtitles)
+	cfg.set_value("video", "autoplay", autoplay)
 	cfg.set_value("audio", "music_volume", music_volume)
 	cfg.set_value("audio", "voice_volume", voice_volume)
 	cfg.set_value("audio", "master_volume", master_volume)

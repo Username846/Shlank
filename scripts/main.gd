@@ -35,8 +35,9 @@ func _ready() -> void:
 
 # ------------------------------------------- always-on controls (top right) --
 
-const GLOBAL_CONTROLS_WIDTH := 140.0  ## screens keep their own top-right UI left of this
+const GLOBAL_CONTROLS_WIDTH := 206.0  ## screens keep their own top-right UI left of this
 
+var _auto_btn: IconButton
 var _vol_btn: IconButton
 var _full_btn: IconButton
 var _vol_popup: PanelContainer
@@ -55,8 +56,16 @@ func _setup_global_controls() -> void:
 	layer.add_child(root)
 	var bar := HBoxContainer.new()
 	bar.add_theme_constant_override("separation", 10)
-	bar.position = Vector2(1280 - 18 - 56 * 2 - 10, 16)
+	bar.position = Vector2(1280 - 18 - 56 * 3 - 10 * 2, 16)
 	root.add_child(bar)
+	_auto_btn = IconButton.make(IconButton.Icon.AUTOPLAY, Color.WHITE, "")
+	_auto_btn.pressed.connect(func() -> void:
+		Game.autoplay = not Game.autoplay
+		Game.save_settings()
+		_update_autoplay_button()
+		UiKit.toast(root, "Autoplay next episode: %s" % ("ON" if Game.autoplay else "OFF")))
+	bar.add_child(_auto_btn)
+	_update_autoplay_button()
 	_vol_btn = IconButton.make(IconButton.Icon.VOLUME, Color.WHITE, "Volume")
 	_vol_btn.level = Game.master_volume
 	_vol_btn.pressed.connect(func() -> void: _vol_popup.visible = not _vol_popup.visible)
@@ -67,7 +76,7 @@ func _setup_global_controls() -> void:
 
 	_vol_popup = PanelContainer.new()
 	_vol_popup.add_theme_stylebox_override("panel", UiKit.box(Color.WHITE, 16, 4, 6))
-	_vol_popup.position = Vector2(bar.position.x - 2, 82)
+	_vol_popup.position = Vector2(bar.position.x + 66 - 2, 82)
 	_vol_popup.visible = false
 	root.add_child(_vol_popup)
 	var vb := VBoxContainer.new()
@@ -91,6 +100,14 @@ func _setup_global_controls() -> void:
 	_vol_slider.value_changed.connect(_on_volume)
 	vb.add_child(_vol_slider)
 	_on_volume(Game.master_volume, false)
+
+
+func _update_autoplay_button() -> void:
+	_auto_btn.on = Game.autoplay
+	_auto_btn.tooltip_text = "Autoplay the next episode in the series: %s" % ("on" if Game.autoplay else "off")
+	var col := UiKit.YELLOW if Game.autoplay else Color.WHITE
+	_auto_btn.add_theme_stylebox_override("normal", UiKit.box(col, 16))
+	_auto_btn.add_theme_stylebox_override("hover", UiKit.box(col.lightened(0.25), 16))
 
 
 func _on_volume(v: float, save: bool = true) -> void:
@@ -320,7 +337,7 @@ func show_episode_list(series: String) -> void:
 		var play := UiKit.button("PLAY", UiKit.YELLOW, 34)
 		play.custom_minimum_size = Vector2(150, 80)
 		play.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		play.pressed.connect(func() -> void: play_episode(sc, show_episode_list.bind(series)))
+		play.pressed.connect(_play_in_series.bind(series, shown.find(e)))
 		hb.add_child(play)
 	var more := UiKit.label("Make your own episodes with EDIT / CREATE on the title screen!", 18, Color.WHITE)
 	more.add_theme_constant_override("outline_size", 5)
@@ -339,9 +356,26 @@ func _series_line(sc: EpisodeScript, origin: String) -> String:
 	return s
 
 
-func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes) -> void:
+## Plays episode `index` of a series' list. The player is told what comes next, so it can
+## offer (or, with autoplay on, start) the following episode when this one ends.
+func _play_in_series(series: String, index: int) -> void:
+	var shown := _episodes.filter(func(e): return _episode_group(e) == series)
+	if index < 0 or index >= shown.size():
+		show_episode_list(series)
+		return
+	var next := Callable()
+	var next_title := ""
+	if index + 1 < shown.size():
+		next = _play_in_series.bind(series, index + 1)
+		next_title = shown[index + 1].script.title
+	play_episode(shown[index].script, show_episode_list.bind(series), next, next_title)
+
+
+func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes, next: Callable = Callable(), next_title: String = "") -> void:
 	Synth.set_mood("off")
 	var player := EpisodePlayer.new()
+	player.on_next = next
+	player.next_title = next_title
 	_set_screen(player)
 	player.exited.connect(on_exit)
 	player.play(sc)

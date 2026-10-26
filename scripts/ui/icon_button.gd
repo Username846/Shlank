@@ -2,11 +2,16 @@ class_name IconButton
 extends Button
 ## A square cartoon button with a vector icon drawn on top.
 
-enum Icon { FULLSCREEN, EXIT_FULLSCREEN, VOLUME, MUTED }
+enum Icon { FULLSCREEN, EXIT_FULLSCREEN, VOLUME, MUTED, AUTOPLAY }
 
 var icon_kind := Icon.VOLUME:
 	set(v):
 		icon_kind = v
+		queue_redraw()
+## AUTOPLAY: whether the toggle is on (drawn bold) or off (faded, with a slash).
+var on := true:
+	set(v):
+		on = v
 		queue_redraw()
 ## 0..1, only used by the VOLUME icon to choose how many sound waves to show.
 var level := 1.0:
@@ -60,3 +65,11 @@ func _draw() -> void:
 				for i in waves:
 					var r := s * (0.45 + i * 0.35)
 					draw_arc(c + Vector2(0.05 * s, 0), r, -0.8, 0.8, 10, Art.INK, 3.5, true)
+		Icon.AUTOPLAY:
+			# "Play next": a play triangle running into a bar
+			var col := Art.INK if on else Color(Art.INK, 0.4)
+			draw_colored_polygon(PackedVector2Array([c + Vector2(-s * 0.9, -s * 0.8), c + Vector2(s * 0.45, 0),
+				c + Vector2(-s * 0.9, s * 0.8)]), col)
+			draw_rect(Rect2(c + Vector2(s * 0.55, -s * 0.8), Vector2(s * 0.32, s * 1.6)), col)
+			if not on:
+				draw_line(c + Vector2(-s, s), c + Vector2(s, -s), Art.INK, 4.0, true)

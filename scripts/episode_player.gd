@@ -11,6 +11,10 @@ const SceneTransition := preload("res://scripts/ui/transition.gd")
 const TitleCard := preload("res://scripts/ui/title_card.gd")
 
 var ep: EpisodeScript
+## What to play when this episode ends (set by the menu); empty for the last one in a series.
+var on_next: Callable
+var next_title := ""
+const AUTOPLAY_DELAY := 5.0
 
 var _world: Node2D
 var _backdrop: Backdrop
@@ -31,6 +35,9 @@ var _time_label: Label
 var _pause_btn: Button
 var _pause_overlay: Control
 var _end_overlay: Control
+var _next_label: Label
+var _next_btn: Button
+var _next_t := AUTOPLAY_DELAY
 
 var _paused := false
 var _skip := false
@@ -129,7 +136,7 @@ func _build_ui() -> void:
 	# playback buttons, with the progress bar and time underneath.
 	var cluster := VBoxContainer.new()
 	cluster.add_theme_constant_override("separation", 8)
-	cluster.position = Vector2(1280 - 140 - 10 - 194, 16)
+	cluster.position = Vector2(1280 - 206 - 10 - 194, 16)
 	cluster.custom_minimum_size = Vector2(194, 0)
 	_hud.add_child(cluster)
 	var bar := HBoxContainer.new()
@@ -184,6 +191,19 @@ func _build_ui() -> void:
 	root.add_child(_pause_overlay)
 	_end_overlay = _make_overlay("THE END", [["Watch Again", UiKit.YELLOW, _restart], ["Back to Menu", UiKit.TEAL, quit]])
 	root.add_child(_end_overlay)
+	# "Up next" under the end buttons, when there's a next episode in the series
+	var end_box: VBoxContainer = _end_overlay.get_child(0)
+	_next_btn = UiKit.button("Next Episode >", UiKit.PINK, 32)
+	_next_btn.custom_minimum_size = Vector2(320, 64)
+	_next_btn.pressed.connect(_play_next)
+	end_box.add_child(_next_btn)
+	end_box.move_child(_next_btn, 1)
+	_next_label = UiKit.label("", 20, Color.WHITE)
+	_next_label.add_theme_constant_override("outline_size", 5)
+	_next_label.add_theme_color_override("font_outline_color", Art.INK)
+	_next_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_next_label.autowrap_mode = TextServer.AUTOWRAP_OFF
+	end_box.add_child(_next_label)
 
 
 func _make_overlay(title: String, buttons: Array) -> Control:
@@ -213,6 +233,15 @@ func play(episode: EpisodeScript) -> void:
 	_total = maxf(ep.estimate_duration(), 1.0)
 	Game.refresh_voices()
 	_run()
+
+
+func _play_next() -> void:
+	if not on_next.is_valid():
+		return
+	_quit = true
+	Game.stop_speaking()
+	get_tree().paused = false
+	on_next.call()
 
 
 func _restart() -> void:
@@ -282,6 +311,20 @@ func _process(delta: float) -> void:
 	var tl := "%s / %s" % [UiKit.fmt_time(_done_time), UiKit.fmt_time(_total)]
 	if tl != _time_label.text:
 		_time_label.text = tl
+	# Up next: count down while autoplay is on (it can be switched on or off right here).
+	if _end_overlay.visible and on_next.is_valid():
+		var txt := "Up next: %s" % next_title
+		if Game.autoplay:
+			_next_t -= delta
+			txt = "Up next in %d: %s" % [ceili(maxf(_next_t, 0.0)), next_title]
+			if _next_t <= 0.0:
+				_next_label.text = txt
+				_play_next()
+				return
+		else:
+			_next_t = AUTOPLAY_DELAY
+		if txt != _next_label.text:
+			_next_label.text = txt
 
 
 ## Waits `sec` seconds of un-paused time. Returns early when skipping if `skippable`.
@@ -315,6 +358,9 @@ func _run() -> void:
 		_skip = false
 	if not _quit:
 		_done_time = _total
+		_next_t = AUTOPLAY_DELAY
+		_next_btn.visible = on_next.is_valid()
+		_next_label.visible = on_next.is_valid()
 		_end_overlay.visible = true
 
 
