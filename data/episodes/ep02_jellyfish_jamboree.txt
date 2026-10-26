@@ -1,0 +1,165 @@
+@title The Jellyfish Jamboree
+@series Bikini Bottom
+@icon bubbles
+@number 2
+@description It's the annual Jellyfishing Jamboree, and SpongeBert and Pat are determined to win the Golden Net. Squidwerd is the judge, and he'd rather be anywhere else.
+
+# ------------------------------------------------------------ PINEAPPLE
+MUSIC happy
+SCENE pineapple_house cut
+TITLE
+PLACE spongebert center right excited
+SPONGEBERT (excited): It's here! It's finally here! The Jellyfishing Jamboree!
+HOLD spongebert net
+ENTER pat left midleft happy
+PAT (happy): Morning, SpongeBert! I brought my lucky net!
+SPONGEBERT (surprised): Pat, that's a hamburger bun on a stick.
+PAT (smug): It's lucky because I can eat it if we lose.
+SPONGEBERT (happy): That's genius, Pat. Let's go win that Golden Net!
+RUN spongebert offright &
+RUN pat offright
+
+# ------------------------------------------------------------ SQUIDWERD'S HOUSE
+MUSIC jazz
+SCENE squidwerd_house
+PLACE squidwerd center left angry
+ENTER mr_crabs right midright happy
+MR_CRABS (happy): Squidwerd, me boy! You've been chosen to judge the Jamboree this year!
+SQUIDWERD (angry): Absolutely not. I have a clarinet recital to rehearse.
+MR_CRABS (smug): The judge gets paid fifty dollars.
+SQUIDWERD (surprised): Fifty dollars?
+MR_CRABS (nervous): Well, five dollars. In coupons. For the Krusty Crab.
+SQUIDWERD (sad): I hate my life.
+
+# ------------------------------------------------------------ JELLYFISH FIELDS
+MUSIC happy 2
+SCENE jellyfish_fields
+PLACE squidwerd midright left neutral
+ENTER spongebert left left excited
+ENTER pat left midleft happy
+ENTER larry right right smug
+LARRY (smug): Feel the burn, losers. Larry the Lobster is here to take the Golden Net.
+SPONGEBERT (nervous): Larry? You don't even like jellyfishing!
+LARRY (smug): I like winning, bro. Jellyfish are just cardio with stingers.
+SQUIDWERD (neutral): Contestants. The rules are simple. Catch the most jellyfish in one hour. Please be quick about it.
+SFX ding
+SQUIDWERD (smug): Begin. Or don't. I'm not your mother.
+
+# ------------------------------------------------------------ PAT'S ROCK
+MUSIC jazz 3
+SCENE pat_rock
+PLACE pat center right happy
+ENTER spongebert left midleft nervous
+SPONGEBERT (nervous): Pat, Larry has a jar the size of a house. We have to think smarter.
+PAT (smug): I'm thinking. I'm thinking really hard.
+SPONGEBERT (excited): What are you thinking about?
+PAT (happy): Lunch.
+SPONGEBERT (happy): Okay, but after lunch?
+PAT (excited): Second lunch!
+SPONGEBERT (smug): Pat, I love you, but you're not helping.
+PAT (happy): I know, SpongeBert. That's my special skill.
+
+# ------------------------------------------------------------ KELP FOREST
+MUSIC sneaky
+SCENE kelp_forest
+ENTER spongebert left midleft nervous 200
+ENTER pat left left nervous 200
+SPONGEBERT (nervous): Shhh. The big ones hide in the kelp, Pat. We need to be very, very quiet.
+PAT (happy): I'M BEING QUIET!
+SFX sting
+SPONGEBERT (scared): Ow! Ow ow ow! I got one! It got me!
+PAT (excited): That counts! That counts as one!
+SPONGEBERT (happy): Two thousand more and we'll beat Larry.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC jazz 2
+SCENE treedome
+PLACE sandy center left excited
+ENTER spongebert left midleft sad
+SANDY (excited): Howdy, SpongeBert! Why the long face?
+SPONGEBERT (sad): Larry has thirty jellyfish already. He's using a net made of gym equipment.
+SANDY (smug): Well shoot, that ain't fair. But you've got something Larry don't.
+SPONGEBERT (surprised): What's that?
+SANDY (happy): Jellyfish actually like you. Try singing to 'em.
+SPONGEBERT (excited): Sandy, you're a genius!
+
+# ------------------------------------------------------------ BOATING SCHOOL
+MUSIC tense
+SCENE boating_school
+PLACE mrs_puff center left nervous
+ENTER larry right midright smug
+MRS_PUFF (nervous): Larry, why are there forty jellyfish in my classroom?
+LARRY (smug): Storage, Mrs. Puff. My jar's full. Gotta keep the lead.
+MRS_PUFF (scared): They're stinging my students!
+LARRY (smug): Builds character. And triceps.
+SFX sting
+MRS_PUFF (angry): That's it! Everybody out! Including the jellyfish!
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC action
+SCENE goo_lagoon
+PLACE larry center right smug
+ENTER pearl right midright happy
+PEARL (happy): Larry! Can I get a picture with you and your jellyfish?
+LARRY (smug): Sure, kid. Make sure you get my good side. All of them are my good side.
+SFX sting
+SHAKE 0.5
+LARRY (scared): Whoa! They're all getting out of the jar!
+PEARL (scared): Daddy! The jellyfish are loose!
+
+# ------------------------------------------------------------ JELLYFISH FIELDS
+MUSIC romantic
+SCENE jellyfish_fields
+PLACE spongebert center right happy
+PLACE pat midleft right happy
+SPONGEBERT (happy): La la la, little jellyfish, come and float with me...
+SFX bubbles
+PAT (surprised): SpongeBert! They're coming! All of them!
+SPONGEBERT (excited): It's working!
+PAT (excited): Let's catch them all!
+SPONGEBERT (shy): Actually, Pat, maybe we just say hello.
+
+# ------------------------------------------------------------ BIKINI BOTTOM DOWNTOWN
+MUSIC action 2
+SCENE bb_downtown
+PLACE mr_crabs center left scared
+ENTER pearl right midright scared
+PEARL (scared): Daddy! There are jellyfish all over the mall! They're buzzing at the shoe store!
+MR_CRABS (scared): Jellyfish? Downtown? That's terrible for business!
+PEARL (sad): And they stung my new purse!
+MR_CRABS (excited): Wait. Jellyfish everywhere means everyone's hiding indoors. And where do people hide?
+PEARL (smug): The Krusty Crab?
+MR_CRABS (excited): At full price! Ar ar ar ar!
+
+# ------------------------------------------------------------ THE KRUSTY CRAB
+MUSIC tense
+SCENE krusty_crab
+CARD The awards ceremony...
+PLACE squidwerd center left neutral
+PLACE mr_crabs midright left happy
+PLACE larry right left sad
+ENTER spongebert left midleft happy
+ENTER pat left left happy
+SQUIDWERD (neutral): The winner of the Golden Net is the contestant with the most jellyfish. Larry, how many do you have?
+LARRY (sad): Zero, bro. They all escaped. My net hurt their feelings.
+SQUIDWERD (smug): SpongeBert?
+SPONGEBERT (happy): Zero too! I set them all free, but they followed me here.
+SFX bubbles
+MR_CRABS (surprised): Me restaurant is full of jellyfish!
+SQUIDWERD (smug): Then I declare SpongeBert the winner. For being the most annoying to jellyfish and people alike.
+HOLD spongebert golden_spatula
+SPONGEBERT (excited): I won! I won the Golden Net!
+PAT (happy): It's a spatula, SpongeBert.
+SPONGEBERT (happy): It's a golden spatula, Pat. That's even better.
+SFX fanfare
+
+# ------------------------------------------------------------ PINEAPPLE
+MUSIC happy 3
+SCENE sponge_living_room
+PLACE spongebert center right happy
+PLACE gary midleft right happy
+GARY (happy): Meow.
+SPONGEBERT (happy): I know, Gary. Best Jamboree ever.
+GARY (smug): Meow meow.
+SPONGEBERT (nervous): Yes, I'll let the jellyfish out of the bathtub tomorrow.
+END

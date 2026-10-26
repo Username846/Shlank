@@ -4,10 +4,46 @@
 			"file": "res://data/episodes/ep01_golden_spatula.txt"
 		},
 		{
+			"file": "res://data/episodes/ep02_jellyfish_jamboree.txt"
+		},
+		{
+			"file": "res://data/episodes/ep03_planktons_plan.txt"
+		},
+		{
+			"file": "res://data/episodes/ep04_driving_test.txt"
+		},
+		{
+			"file": "res://data/episodes/ep05_rock_bottom.txt"
+		},
+		{
 			"file": "res://data/episodes/hw01_the_locket.txt"
 		},
 		{
+			"file": "res://data/episodes/hw02_big_game.txt"
+		},
+		{
+			"file": "res://data/episodes/hw03_treasure_map.txt"
+		},
+		{
+			"file": "res://data/episodes/hw04_alley_ghost.txt"
+		},
+		{
+			"file": "res://data/episodes/hw05_beeper_sale.txt"
+		},
+		{
 			"file": "res://data/episodes/bl01_beets_tickets.txt"
+		},
+		{
+			"file": "res://data/episodes/bl02_quailman.txt"
+		},
+		{
+			"file": "res://data/episodes/bl03_school_play.txt"
+		},
+		{
+			"file": "res://data/episodes/bl04_dink_robot.txt"
+		},
+		{
+			"file": "res://data/episodes/bl05_class_president.txt"
 		},
 		{
 			"file": "res://data/episodes/pp01_great_cookie_quest.txt"

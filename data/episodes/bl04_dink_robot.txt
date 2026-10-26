@@ -1,0 +1,185 @@
+@title Mr. Dink's Robot
+@series Bluffington
+@icon journal
+@number 4
+@description Mr. Dink buys a very expensive robot lawn mower. It works perfectly, until it mows its way across the whole of Bluffington.
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC happy
+SCENE dink_yard cut
+TITLE
+PLACE mr_dink center left excited
+ENTER dug left midleft happy
+MR_DINK (excited): Doug! Come see my newest gadget! The Mow-Bot Three Thousand!
+DUG (happy): Wow, Mister Dink. What does it do?
+MR_DINK (excited): It mows the lawn all by itself! It has lasers, a radio and a little umbrella for when it rains!
+DUG (surprised): Lasers? For mowing?
+MR_DINK (smug): For mowing precisely. It was very expensive.
+SFX beep
+DUG (nervous): Mister Dink, I think it just turned on.
+
+# ------------------------------------------------------------ FUNNIE HOUSE
+MUSIC tense
+SCENE funnie_house
+PLACE judie center left angry
+ENTER porkchop right midright scared
+PORKCHOP (scared): Arf! Arf arf arf!
+JUDIE (angry): Porkchop, I'm rehearsing a monologue. What is it?
+SFX whoosh
+JUDIE (surprised): Was that a lawn mower? On our porch?
+PORKCHOP (scared): Arf!
+JUDIE (scared): It mowed my bush shaped like Shakespeare! He's just a stump now!
+
+# ------------------------------------------------------------ DUG'S ROOM
+MUSIC sneaky
+SCENE dug_room
+PLACE dug center right nervous
+DUG (nervous): Dear Journal. Mister Dink's robot just mowed past my window.
+DUG (scared): It mowed the hedge, the mailbox and Dad's lawn gnome.
+DUG (sad): The lawn gnome was older than me.
+ENTER porkchop left midleft scared
+PORKCHOP (scared): Arf arf!
+DUG (surprised): It mowed your doghouse too? Porkchop, we have to stop it!
+
+# ------------------------------------------------------------ DOWNTOWN BLUFFINGTON
+MUSIC action
+SCENE bluffington_downtown
+PLACE skeetor center left happy
+PLACE chalky midright left happy
+SKEETOR (happy): Nice day, huh Chalky?
+CHALKY (happy): A beautiful day, Skeetor.
+SFX whoosh
+SHAKE 0.5
+SKEETOR (surprised): Honk! Was that a mower?
+CHALKY (surprised): It mowed the welcome mat at the movie theater!
+SKEETOR (excited): It's going toward the Honker Burger!
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC tense 2
+SCENE dink_yard
+PLACE mr_dink center left nervous
+PLACE dug midleft right nervous
+MR_DINK (nervous): It seems to have a mind of its own, Doug.
+DUG (nervous): Is there an off button?
+MR_DINK (smug): Of course! It's on the remote.
+DUG (happy): Great! Where's the remote?
+MR_DINK (nervous): On the Mow-Bot.
+DUG (sad): Dear Journal. This is going to be a long day.
+EXIT dug right 500
+
+# ------------------------------------------------------------ HONKER BURGER
+MUSIC action 2
+SCENE honker_burger
+PLACE patty midleft right surprised
+PLACE beebe center left scared
+PLACE rodger midright left smug
+SFX whoosh
+BEEBE (scared): Something just mowed the carpet! And my shoelaces!
+RODGER (smug): It's a robot. Robots are cool.
+SFX sting
+RODGER (scared): It mowed my jacket! My leather jacket!
+PATTY (excited): It's heading for the lake! Come on!
+RUN patty offleft &
+RUN rodger offleft
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC tense
+SCENE bluffington_park
+PLACE judie center left angry
+PLACE beebe midright left scared
+BEEBE (scared): Judie! It mowed the bandstand! Daddy paid for that bandstand!
+JUDIE (angry): First my Shakespeare bush. Now the bandstand. This machine has no respect for art.
+BEEBE (angry): Somebody should sue Mister Dink!
+JUDIE (smug): Somebody should write a tragedy about Mister Dink.
+SFX whoosh
+BEEBE (scared): It's coming back!
+JUDIE (scared): Run, Beebe! Run like it's the final act!
+RUN beebe offleft &
+RUN judie offleft
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC jazz 2
+SCENE dink_yard
+PLACE mr_dink center left nervous
+ENTER mr_bone right midright angry
+MR_BONE (angry): Mister Dink. A lawn mower is loose in my school. It mowed the gym floor.
+MR_DINK (nervous): The gym floor is wood.
+MR_BONE (angry): Not anymore.
+MR_DINK (excited): Fascinating! It's even more powerful than advertised!
+MR_BONE (angry): Mister Dink!
+
+# ------------------------------------------------------------ LUCKY DUCK LAKE
+MUSIC action 3
+SCENE lucky_duck_lake
+ENTER dug left midleft excited 500
+ENTER skeetor left left excited 500
+ENTER patty right midright excited 500
+PATTY (excited): Dug! It's going around the lake in circles!
+DUG (excited): The remote's taped to the top! If I can just jump on it...
+SKEETOR (scared): Dude, it has lasers!
+DUG (nervous): Lasers for precise mowing. How dangerous can they be?
+SFX laser
+DUG (scared): Okay, a little dangerous.
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE dug center right excited
+DUG (excited): This is a job for... QUAILMAN!
+DUG (smug): The Mow-Bot may be fast, but Quailman has the power of... the Quail Leap!
+SFX powerup
+DUG (excited): Quail Leap!
+JUMP dug
+NARRATOR: In real life, Dug jumped about two feet. But that was just enough.
+
+# ------------------------------------------------------------ LUCKY DUCK LAKE
+MUSIC tense
+SCENE lucky_duck_lake
+PLACE dug center right excited
+PLACE patty midright left excited
+PLACE skeetor left right surprised
+SFX beep
+DUG (excited): Got it! The remote! Off button!
+SFX ding
+PATTY (happy): It stopped!
+SKEETOR (excited): Honk honk! Dug saved Bluffington!
+DUG (shy): It was nothing. Just a little Quail Leap.
+PATTY (smug): A what?
+DUG (nervous): Nothing! A regular leap!
+
+# ------------------------------------------------------------ BLUFFINGTON SCHOOL
+MUSIC jazz
+SCENE bluffington_school
+PLACE mr_bone center left angry
+PLACE mr_dink midright left nervous
+MR_BONE (angry): Mister Dink. Your machine mowed the school sign. It now says "Bluff Elem."
+MR_DINK (nervous): A modern, minimalist look?
+MR_BONE (angry): And it mowed my moustache. While I was standing still.
+MR_DINK (smug): Very precisely, I bet.
+MR_BONE (angry): Mister Dink!
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC happy 2
+SCENE swirlys
+PLACE dug midleft right happy
+PLACE patty center left happy
+PLACE connie midright left happy
+CONNIE (happy): I heard you jumped on a robot, Dug. That's so brave.
+DUG (shy): It was a pretty small robot.
+PATTY (happy): With lasers.
+DUG (smug): With lasers.
+CONNIE (excited): Can I buy you an ice cream? As a thank you for saving the lake?
+HOLD dug ice_cream
+DUG (happy): Thanks, Connie!
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC happy 3
+SCENE dink_yard
+PLACE mr_dink center left happy
+PLACE dug midleft right happy
+MR_DINK (happy): Doug! Thank you for catching the Mow-Bot. I've decided to return it.
+DUG (happy): That's a great idea, Mister Dink.
+MR_DINK (excited): And buy the Mow-Bot Four Thousand! It flies!
+DUG (scared): Mister Dink, no!
+MR_DINK (smug): It was very expensive!
+END

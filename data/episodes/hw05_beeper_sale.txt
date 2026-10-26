@@ -1,0 +1,159 @@
+@title The Beeper Blowout
+@series Hillwood
+@icon city
+@number 5
+@description Big Bob needs to sell a thousand beepers in one weekend, so he hires the whole fourth grade. Helga is horrified. Arnald turns out to be an excellent salesman.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC tense
+SCENE big_bobs cut
+TITLE
+PLACE big_bob center left nervous
+PLACE helga midleft right smug
+BIG_BOB (nervous): Olga! I mean, Helga! We've got a problem. I ordered a thousand beepers by mistake.
+HELGA (smug): How do you order a thousand beepers by mistake?
+BIG_BOB (angry): The guy said "a few hundred" and I said "make it a thousand"! It was a power move!
+HELGA (smug): Great power move, Bob.
+BIG_BOB (excited): So this weekend, it's the Big Bob Beeper Blowout! And you're gonna get your friends to help sell 'em!
+HELGA (scared): My friends? Help YOU? Criminy.
+
+# ------------------------------------------------------------ THE CLASSROOM
+MUSIC jazz
+SCENE classroom
+PLACE helga center left angry
+PLACE arnald midleft right happy
+PLACE gerold left right smug
+PLACE harold midright left happy
+PLACE rhonda right left smug
+HELGA (angry): Listen up, losers. My dad's paying five bucks a day to sell beepers.
+HAROLD (excited): Five bucks? I could buy so many hot dogs!
+RHONDA (smug): Selling beepers? In public? I suppose I could make it chic.
+GEROLD (smug): Beepers are kind of old school, Helga.
+HELGA (angry): That's why we need to sell them!
+ARNALD (happy): I'll help, Helga.
+HELGA (shy): You will? I mean. Fine. Whatever.
+
+# ------------------------------------------------------------ HILLWOOD STREET
+MUSIC happy
+SCENE hillwood_street
+CARD Saturday...
+PLACE harold center left happy
+PLACE stinky midright left nervous
+HAROLD (happy): Beepers! Get your beepers! They beep! That's all they do!
+STINKY (nervous): Harold, I don't think that's how sellin' works.
+HAROLD (angry): Then how do YOU do it?
+STINKY (happy): Well, I tell folks they can beep their mama to say they love her.
+HAROLD (surprised): That's actually nice.
+STINKY (smug): Sold three already.
+
+# ------------------------------------------------------------ SLAUSEN'S
+MUSIC jazz 2
+SCENE slausens
+PLACE rhonda center left smug
+PLACE phoebee midright left neutral
+RHONDA (smug): The trick is presentation. Beepers in pastel cases. With bows.
+PHOEBEE: I calculated that people buy forty percent more when the product matches their shoes.
+RHONDA (excited): Phoebee, you're a genius! Pink beepers for pink shoes!
+PHOEBEE (happy): We've sold twenty-seven.
+RHONDA (excited): Fabulous!
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC happy 2
+SCENE hillwood_park
+PLACE arnald midleft right happy
+PLACE grandpa center left happy
+ARNALD (happy): Grandpa, would you like a beeper?
+GRANDPA (smug): What would I do with a beeper, Shortman?
+ARNALD (happy): Grandma could beep you when dinner's ready. Or when she's planning a sneak attack.
+GRANDPA (scared): A warning system! I'll take five!
+ARNALD (excited): That's fifty sold today!
+GRANDPA (happy): You're a natural, Shortman.
+
+# ------------------------------------------------------------ GEROLD FIELD
+MUSIC action
+SCENE gerold_field
+PLACE gerold center left smug
+PLACE sid midright left nervous
+GEROLD (smug): Sid, watch and learn. Beepers are about the legend.
+SID (nervous): The legend?
+GEROLD (excited): Legend has it, the first beeper ever made can beep from the moon. And this could be it.
+SID (excited): Wow! I'll take two!
+GEROLD (smug): That'll be twenty bucks.
+SID (nervous): Wait, is that true?
+GEROLD (happy): It's a legend, Sid. Legends are always a little bit true.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC tense 2
+SCENE big_bobs
+PLACE big_bob center left surprised
+PLACE helga midleft right sad
+BIG_BOB (surprised): Eight hundred beepers sold! Who's selling all of these?
+HELGA (sad): Mostly Arnald. And Rhonda. And Stinky. I sold two. To Harold's mom.
+BIG_BOB (smug): Well, keep up the hustle! Pataki's don't quit!
+HELGA (sad): Yeah. Pataki's don't quit.
+EXIT big_bob right
+HELGA (sad): Even when Pataki's are terrible at selling beepers.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC jazz 3
+SCENE boarding_kitchen
+PLACE grandma center left excited
+PLACE grandpa midright left smug
+GRANDMA (excited): Eleanor sold me a beeper! Now I can call in air support!
+GRANDPA (scared): Pookie, who exactly are you beeping?
+GRANDMA (smug): The other beeper. Which is yours.
+SFX beep
+GRANDPA (nervous): Oh no.
+GRANDMA (excited): Incoming!
+
+# ------------------------------------------------------------ ROOFTOP
+MUSIC romantic
+SCENE rooftop
+PLACE helga center left sad
+ENTER arnald left midleft happy
+ARNALD (happy): Helga? Your dad said you'd be up here. We've only got two hundred beepers left.
+HELGA (angry): Great. Go sell them, Mister Salesman of the Year.
+ARNALD (nervous): Helga, the only reason anyone's selling them is because you asked us.
+HELGA (surprised): Huh?
+ARNALD (smug): You got the whole class working for your dad. That's pretty impressive.
+HELGA (shy): You think?
+ARNALD (happy): I know.
+
+# ------------------------------------------------------------ CAFETERIA
+MUSIC sneaky
+SCENE cafeteria
+PLACE harold center left sad
+PLACE phoebee midright left neutral
+HAROLD (sad): I sold zero beepers. Zero. I'm the worst salesman in Hillwood.
+PHOEBEE (happy): You did eat forty-two free samples of Mister Green's sausages at the stand next door.
+HAROLD (smug): That's a different kind of talent.
+PHOEBEE: Perhaps you could sell beepers to Mister Green. He needs to know when the sausages are ready.
+HAROLD (excited): Phoebee, you're a genius! Beepers for butchers!
+PHOEBEE (shy): I just like helping.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC action
+SCENE hillwood_pier
+PLACE helga center left excited
+PLACE arnald midleft right happy
+PLACE gerold left right smug
+PLACE sid midright left nervous
+HELGA (excited): Okay, people! Two hundred beepers! One hour! Let's go!
+SID (nervous): What if nobody wants them? What if beepers are cursed?
+GEROLD (smug): Sid, the fishermen want them. They can beep each other when the fish are biting.
+SID (surprised): That's brilliant!
+HELGA (excited): Move, move, move! For the Beeper Blowout!
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC happy 3
+SCENE big_bobs
+PLACE big_bob center left excited
+PLACE helga midleft right happy
+PLACE arnald left right happy
+BIG_BOB (excited): A thousand beepers! Sold out! Helga, you did it!
+HELGA (smug): We did it, Bob. The whole class.
+BIG_BOB (happy): Then the whole class gets a free beeper!
+HELGA (angry): Bob, we just sold all of them.
+BIG_BOB (nervous): Right. I'll order another thousand.
+HELGA (angry): BOB!
+END

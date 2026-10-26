@@ -1,7 +1,7 @@
 extends Node
 ## Dev tool: renders screens to PNGs. Usage:
 ##   godot --path . res://tools/snapshot.tscn -- <out_dir> <mode> [arg]
-## modes: menu | cast | locations | episode <time_scale>
+## modes: menu | cast | locations | episode <time_scale> | estimate <index> | estimate_files <paths...>
 
 var out := "."
 var main: Node
@@ -22,6 +22,11 @@ func _ready() -> void:
 			for c in sc.commands:
 				by[c.type] = by.get(c.type, 0.0) + sc.command_duration(c, pos)
 			print("ESTIMATE ", UiKit.fmt_time(sc.estimate_duration()), " ", by, " errors=", sc.errors)
+		"estimate_files":
+			# Runtime of each episode file named after the mode: -- <out> estimate_files a.txt b.txt ...
+			for path in args.slice(2):
+				var sc := EpisodeScript.parse(FileAccess.get_file_as_string(path), Game.characters)
+				print("ESTIMATE %s %s errors=%s" % [path.get_file(), UiKit.fmt_time(sc.estimate_duration()), sc.errors])
 		"menu":
 			await _shot("menu")
 			main.show_episodes()

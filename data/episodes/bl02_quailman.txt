@@ -1,0 +1,165 @@
+@title Quailman and the Science Fair
+@series Bluffington
+@icon journal
+@number 2
+@description Dug's volcano is the best project at the science fair, until Rodger messes with it. Time for Quailman to save the day, at least in Dug's imagination.
+
+# ------------------------------------------------------------ DUG'S ROOM
+MUSIC happy
+SCENE dug_room cut
+TITLE
+PLACE dug center right excited
+DUG (excited): Dear Journal. Tomorrow is the Bluffington Science Fair, and my volcano is ready.
+DUG (happy): It's got real lava. Well, baking soda. And a little bit of ketchup for color.
+ENTER porkchop left midleft happy
+PORKCHOP (happy): Arf!
+DUG (nervous): No, Porkchop, you can't lick the lava. It's for science.
+PORKCHOP (sad): Arf.
+DUG (happy): If I win first prize, Patty will see how smart I am. And maybe she'll sit with me at lunch.
+DUG (shy): Every day. Forever.
+
+# ------------------------------------------------------------ FUNNIE KITCHEN
+MUSIC jazz
+SCENE funnie_kitchen
+PLACE judie midright left smug
+ENTER dug left midleft happy
+JUDIE (smug): Doug, why is there a volcano on the kitchen table?
+DUG (happy): It's for the science fair, Judie! It erupts!
+JUDIE (smug): Science is just poetry for people who can't rhyme.
+DUG (nervous): Okay. But do you want to see it erupt?
+JUDIE (excited): Obviously.
+SFX splat
+JUDIE (angry): Doug! My beret!
+DUG (nervous): It's a very artistic eruption?
+
+# ------------------------------------------------------------ SCHOOL HALLWAY
+MUSIC sneaky
+SCENE school_hallway
+PLACE rodger center left smug
+PLACE chalky midright left happy
+RODGER (smug): Funnie's volcano is gonna win. Unless somebody, you know, switches his baking soda with sugar.
+CHALKY (surprised): Rodger, that would be cheating.
+RODGER (smug): It's not cheating. It's chemistry.
+CHALKY (happy): I'm going to win fairly with my solar-powered hamster wheel!
+RODGER (angry): Nobody asked you, Studebaker.
+
+# ------------------------------------------------------------ BLUFFINGTON SCHOOL
+MUSIC tense
+SCENE bluffington_school
+CARD The day of the science fair...
+PLACE mr_bone center left neutral
+PLACE patty midright left happy
+PLACE connie right left shy
+ENTER dug left midleft excited
+ENTER skeetor left left happy
+MR_BONE: Welcome to the Bluffington Science Fair. No running. No yelling. No explosions.
+DUG (nervous): Um. Small explosions?
+MR_BONE (angry): Mister Funnie.
+PATTY (happy): Hi, Dug! I can't wait to see your volcano.
+DUG (shy): Thanks, Patty. It's really nothing. Just a volcano. With lava. That I made.
+CONNIE (shy): My project is about why goldfish forget things.
+SKEETOR (excited): Honk! Mine's about why I forget things!
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC happy 2
+SCENE swirlys
+PLACE beebe center left smug
+PLACE connie midright left shy
+BEEBE (smug): My meteorite is going to win. It came from space. Nothing beats space.
+CONNIE (shy): My goldfish project is also kind of from space. The goldfish's name is Astronaut.
+BEEBE (smug): That's adorable, Connie. Adorable and losing.
+CONNIE (sad): Oh.
+
+# ------------------------------------------------------------ BLUFFINGTON CAFETERIA
+MUSIC sneaky 2
+SCENE bluff_cafeteria
+PLACE rodger midleft right smug
+RODGER (smug): Here we go. Funnie's volcano. One bag of baking soda.
+RODGER (excited): And one bag of sugar. Heh heh heh.
+ENTER porkchop right midright angry
+PORKCHOP (angry): Grrrr.
+RODGER (scared): Whoa. Easy, dog. I'm just, uh, admiring the volcano.
+PORKCHOP (smug): Arf.
+NARRATOR: But Porkchop was a moment too late. The sugar was already in.
+
+# ------------------------------------------------------------ BLUFFINGTON SCHOOL
+MUSIC tense 2
+SCENE bluffington_school
+PLACE mr_bone center left neutral
+PLACE dug midleft right excited
+PLACE patty midright left happy
+PLACE beebe right left smug
+MR_BONE (neutral): Mister Funnie. Your volcano. Proceed.
+DUG (excited): Ladies and gentlemen! Behold!
+SFX pop
+DUG (surprised): It's... fizzing. Sort of. Very slowly.
+BEEBE (smug): Daddy bought me a real meteorite. That's a science fair project.
+DUG (sad): Someone switched my baking soda. Dear Journal. This is the worst day of my life.
+PATTY (nervous): Dug?
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE dug center right excited
+DUG (excited): But this looks like a job for... QUAILMAN!
+SFX powerup
+DUG (smug): With my belt on my head and my underwear on the outside, nobody suspects that I am Dug Funnie.
+ENTER skeetor left left excited
+SKEETOR (excited): And me! The Silver Skeetor! Honk honk!
+DUG (excited): To the science fair, Silver Skeetor!
+SKEETOR (happy): Can we stop for fries on the way?
+
+# ------------------------------------------------------------ DOWNTOWN BLUFFINGTON
+MUSIC action 2
+SCENE bluffington_downtown
+ENTER dug left midleft excited 500
+ENTER skeetor left left excited 500
+ENTER rodger right midright smug
+RODGER (smug): Well, well. If it isn't Quail-loser.
+DUG (angry): Doctor Rodger! You sabotaged my volcano with your evil sugar!
+RODGER (surprised): How'd you know it was sugar?
+DUG (smug): Quailman knows everything. Quail power!
+SFX blast
+SHAKE 0.6
+RODGER (scared): Aaah! Okay, okay! I confess!
+NARRATOR: In real life, Rodger simply tripped over Porkchop. But in Dug's head, it was magnificent.
+
+# ------------------------------------------------------------ BLUFFINGTON SCHOOL
+MUSIC tense
+SCENE bluffington_school
+PLACE mr_bone center left angry
+PLACE rodger midright left nervous
+PLACE porkchop right left smug
+PLACE dug midleft right happy
+MR_BONE (angry): Mister Klotz. Your dog-hair-covered sleeve and the sugar bag in your pocket suggest something.
+RODGER (nervous): That I like sugar?
+MR_BONE (angry): That you're going to detention. For a week.
+RODGER (sad): Aw, man.
+PORKCHOP (happy): Arf!
+DUG (excited): Porkchop! You caught him! You're the real hero!
+
+# ------------------------------------------------------------ HONKER BURGER
+MUSIC happy 2
+SCENE honker_burger
+PLACE patty midright left happy
+PLACE connie right left happy
+ENTER dug left midleft shy
+ENTER skeetor left left happy
+PATTY (happy): Dug, I heard what happened. That was really unfair.
+DUG (sad): I didn't win anything.
+CONNIE (happy): Actually, Mister Bone let you redo it after lunch. You won second place!
+DUG (surprised): Second place?
+PATTY (smug): Chalky's hamster wheel won first. But your volcano made the gym smell like ketchup for an hour. Everyone loved it.
+SKEETOR (excited): Honk! Second place, man! Killer!
+
+# ------------------------------------------------------------ DUG'S ROOM
+MUSIC romantic
+SCENE dug_room
+PLACE dug center right happy
+PLACE porkchop midleft right happy
+DUG (happy): Dear Journal. Second place. And Patty sat with me at lunch.
+DUG (shy): She said my volcano was "really cool."
+PORKCHOP (smug): Arf.
+DUG (happy): And Porkchop gets the ketchup. For being a hero.
+PORKCHOP (excited): Arf arf!
+END

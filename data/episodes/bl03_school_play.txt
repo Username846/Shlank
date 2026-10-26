@@ -1,0 +1,159 @@
+@title The School Play
+@series Bluffington
+@icon journal
+@number 3
+@description Judie is directing the school play, and Dug lands the lead. The bad news: it's a love story. The worse news: his co-star might be Patty. Or Beebe.
+
+# ------------------------------------------------------------ SCHOOL HALLWAY
+MUSIC happy
+SCENE school_hallway cut
+TITLE
+PLACE judie center left excited
+PLACE dug midleft right nervous
+PLACE skeetor left right happy
+JUDIE (excited): Attention, peasants! This year's school play is "Romeo and Juliet." Directed by me.
+SKEETOR (happy): Honk! Is there a part for a guy who honks?
+JUDIE (smug): There is now.
+DUG (nervous): Judie, why are you looking at me like that?
+JUDIE (excited): Because you, Doug, are my Romeo.
+DUG (scared): Me? I can't act! I can barely talk!
+JUDIE (smug): Perfect. Romeo was also a mess.
+
+# ------------------------------------------------------------ HONKER BURGER
+MUSIC jazz
+SCENE honker_burger
+PLACE patty midright left happy
+PLACE beebe right left smug
+BEEBE (smug): Of course I'll be Juliet. Daddy already bought the costume.
+PATTY (happy): I was going to try out too, Beebe.
+BEEBE (surprised): You? But you like baseball.
+PATTY (smug): A girl can like baseball and Shakespeare.
+BEEBE (smug): Fine. May the best Juliet win. That's me.
+
+# ------------------------------------------------------------ DUG'S ROOM
+MUSIC sad
+SCENE dug_room
+PLACE dug center right nervous
+PLACE porkchop midleft right happy
+DUG (nervous): Dear Journal. What if Patty is Juliet? I'll have to say "I love you" in front of the whole school!
+DUG (scared): What if Beebe is Juliet? I'll have to say it to Beebe!
+PORKCHOP (smug): Arf.
+DUG (sad): You're right, Porkchop. Either way, I'm doomed.
+DUG (excited): Unless I practice! O Juliet! Wherefore art thou! Um. Wherefore is... where?
+
+# ------------------------------------------------------------ BLUFFINGTON SCHOOL
+MUSIC tense
+SCENE bluffington_school
+CARD Auditions...
+PLACE judie center left smug
+PLACE patty midleft right excited
+PLACE beebe midright left smug
+JUDIE (smug): Beebe. Your line.
+BEEBE (excited): Romeo, Romeo, my daddy owns the balcony!
+JUDIE (angry): That is not the line.
+BEEBE (smug): It is in my version.
+JUDIE (smug): Patty. Your line.
+PATTY (happy): Romeo, Romeo. Wherefore art thou, Romeo.
+JUDIE (excited): Bravo! Patty is Juliet. Beebe, you're the balcony.
+BEEBE (angry): I'm a PROP?
+
+# ------------------------------------------------------------ BEEBE'S MANSION
+MUSIC sneaky
+SCENE beebe_mansion
+PLACE beebe center left angry
+PLACE rodger midright left smug
+BEEBE (angry): Rodger, I want you to ruin that play.
+RODGER (smug): What's in it for me?
+BEEBE (smug): Free burgers at the Honker Burger. For a year.
+RODGER (excited): Deal. What do you want me to do?
+BEEBE (smug): Just make sure Dug forgets all his lines.
+RODGER (smug): That won't be hard.
+
+# ------------------------------------------------------------ FUNNIE KITCHEN
+MUSIC jazz 2
+SCENE funnie_kitchen
+PLACE judie midright left excited
+PLACE dug center right nervous
+JUDIE (excited): Again, Doug. With feeling!
+DUG (nervous): But soft, what light through yonder window breaks. It is the east, and Patty is the sun.
+JUDIE (angry): Juliet! Juliet is the sun!
+DUG (shy): Right. Juliet. Juliet is the sun. Patty is... also pretty sunny.
+JUDIE (smug): Oh, Doug. You poor, transparent child.
+DUG (scared): Is it that obvious?
+JUDIE (happy): Like glass.
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC happy 3
+SCENE dink_yard
+PLACE mr_dink center left excited
+ENTER skeetor left midleft happy
+MR_DINK (excited): Skeetor! I hear you need a fog machine for the play!
+SKEETOR (surprised): Honk? We do?
+MR_DINK (smug): Every great play needs fog. And this one was very expensive.
+SKEETOR (excited): Killer!
+
+# ------------------------------------------------------------ BLUFFINGTON CAFETERIA
+MUSIC sneaky 2
+SCENE bluff_cafeteria
+PLACE rodger center left smug
+PLACE skeetor midright left happy
+RODGER (smug): Hey, Skeetor. Did you hear? Judie changed the play. Now it's in Spanish.
+SKEETOR (surprised): Spanish? Honk! I don't speak Spanish!
+RODGER (smug): Better tell Dug. He's gotta learn all his lines again by tonight.
+SKEETOR (scared): Tonight?! Honk honk honk!
+EXIT skeetor right 500
+RODGER (excited): Heh heh heh. Easy.
+
+# ------------------------------------------------------------ DUG'S ROOM
+MUSIC tense 2
+SCENE dug_room
+PLACE dug center right scared
+ENTER skeetor left midleft scared
+SKEETOR (scared): Dug! It's in Spanish now! Rodger said!
+DUG (scared): Spanish? I only know "hola" and "taco"!
+ENTER judie left left angry
+JUDIE (angry): What are you two screaming about?
+DUG (nervous): The play's in Spanish now, right?
+JUDIE (angry): Rodger Klotz. I'm going to make him play the dead guy. For the entire play.
+
+# ------------------------------------------------------------ THE BEETS CONCERT HALL
+MUSIC romantic
+SCENE beets_concert
+CARD Opening night...
+PLACE dug midleft right nervous
+PLACE patty midright left happy
+PLACE judie farleft right excited
+JUDIE (excited): Curtain up! Go, Romeo, go!
+DUG (nervous): But soft. What light through yonder window breaks.
+DUG (happy): It is the east, and Juliet is the sun.
+PATTY (happy): O Romeo, Romeo, wherefore art thou, Romeo?
+DUG (shy): Right here. I mean. Um. Deny thy father and refuse thy name!
+PATTY (smug): That's my line, Dug.
+DUG (excited): Oh. Then you say it. It's a great line.
+SFX fanfare
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC happy 2
+SCENE bluffington_park
+PLACE dug midleft right happy
+PLACE patty center left happy
+PLACE skeetor left right excited
+PATTY (happy): We got a standing ovation, Dug!
+DUG (shy): I mixed up half the lines.
+PATTY (smug): The audience thought it was a comedy. They loved it.
+SKEETOR (excited): And my honk got the biggest laugh! Honk!
+ENTER judie right right smug
+JUDIE (smug): A triumph. A disaster, but a triumph. Next year: Hamlet.
+DUG (scared): Can I be the skull?
+
+# ------------------------------------------------------------ DUG'S ROOM
+MUSIC romantic 2
+SCENE dug_room
+PLACE dug center right happy
+PLACE porkchop midleft right happy
+DUG (happy): Dear Journal. I said "Juliet is the sun" in front of the whole school, and nobody laughed at me.
+DUG (smug): Okay, they laughed. But the good kind of laughing.
+PORKCHOP (happy): Arf!
+DUG (shy): And Patty said I was the best Romeo she's ever seen.
+DUG (happy): I'm the only Romeo she's ever seen. But still.
+END
