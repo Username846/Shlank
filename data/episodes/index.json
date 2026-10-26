@@ -1,5 +1,10 @@
 {
 	"episodes": [
-		{"file": "res://data/episodes/ep01_golden_spatula.txt"}
+		{
+			"file": "res://data/episodes/ep01_golden_spatula.txt"
+		},
+		{
+			"file": "res://data/episodes/hw01_the_locket.txt"
+		}
 	]
 }

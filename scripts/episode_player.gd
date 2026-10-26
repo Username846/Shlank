@@ -120,47 +120,60 @@ func _build_ui() -> void:
 	_hud.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	_hud.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	root.add_child(_hud)
+	# Top-right cluster, left of the always-on volume/fullscreen buttons:
+	# playback buttons, with the progress bar and time underneath.
+	var cluster := VBoxContainer.new()
+	cluster.add_theme_constant_override("separation", 8)
+	cluster.position = Vector2(1280 - 140 - 10 - 194, 16)
+	cluster.custom_minimum_size = Vector2(194, 0)
+	_hud.add_child(cluster)
 	var bar := HBoxContainer.new()
-	bar.anchor_left = 1.0
-	bar.anchor_right = 1.0
-	bar.offset_left = -260
-	bar.offset_right = -18
-	bar.offset_top = 16
 	bar.alignment = BoxContainer.ALIGNMENT_END
 	bar.add_theme_constant_override("separation", 10)
-	_hud.add_child(bar)
+	cluster.add_child(bar)
 	_pause_btn = UiKit.button("II", UiKit.YELLOW, 24)
 	_pause_btn.tooltip_text = "Pause (Space)"
+	_pause_btn.custom_minimum_size = Vector2(58, 56)
 	_pause_btn.pressed.connect(toggle_pause)
 	bar.add_child(_pause_btn)
 	var skip_btn := UiKit.button(">>", UiKit.TEAL, 24)
 	skip_btn.tooltip_text = "Skip line (Right arrow / click)"
+	skip_btn.custom_minimum_size = Vector2(58, 56)
 	skip_btn.pressed.connect(func() -> void: _skip = true)
 	bar.add_child(skip_btn)
 	var quit_btn := UiKit.button("X", UiKit.RED, 24)
 	quit_btn.tooltip_text = "Back to menu (Esc)"
+	quit_btn.custom_minimum_size = Vector2(58, 56)
 	quit_btn.pressed.connect(quit)
 	bar.add_child(quit_btn)
-	_progress = ProgressBar.new()
-	_progress.show_percentage = false
-	_progress.anchor_top = 1.0
-	_progress.anchor_bottom = 1.0
-	_progress.anchor_right = 1.0
-	_progress.offset_top = -10
-	_progress.offset_bottom = -2
-	_progress.offset_left = 8
-	_progress.offset_right = -8
-	_progress.max_value = 1.0
-	_progress.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	_hud.add_child(_progress)
-	_time_label = UiKit.label("", 18, Color.WHITE)
+	var prow := HBoxContainer.new()
+	prow.add_theme_constant_override("separation", 8)
+	cluster.add_child(prow)
+	_time_label = UiKit.label("0:00 / 0:00", 16, Color.WHITE)
+	_time_label.autowrap_mode = TextServer.AUTOWRAP_OFF
 	_time_label.add_theme_constant_override("outline_size", 5)
 	_time_label.add_theme_color_override("font_outline_color", Art.INK)
-	_time_label.anchor_top = 1.0
-	_time_label.anchor_bottom = 1.0
-	_time_label.offset_left = 14
-	_time_label.offset_top = -38
-	_hud.add_child(_time_label)
+	_time_label.custom_minimum_size = Vector2(84, 0)
+	_time_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	prow.add_child(_time_label)
+	_progress = ProgressBar.new()
+	_progress.show_percentage = false
+	_progress.max_value = 1.0
+	_progress.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_progress.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	_progress.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	# Slim styles: no content margins, so the bar really is 10px tall.
+	var bg := UiKit.box(Color(0, 0, 0, 0.35), 5, 2, 0)
+	var fill := UiKit.box(UiKit.YELLOW, 5, 2, 0)
+	for sb in [bg, fill]:
+		sb.content_margin_left = 0
+		sb.content_margin_right = 0
+		sb.content_margin_top = 0
+		sb.content_margin_bottom = 0
+	_progress.add_theme_stylebox_override("background", bg)
+	_progress.add_theme_stylebox_override("fill", fill)
+	_progress.custom_minimum_size = Vector2(0, 10)
+	prow.add_child(_progress)
 
 	_pause_overlay = _make_overlay("PAUSED", [["Resume", UiKit.YELLOW, toggle_pause], ["Back to Menu", UiKit.RED, quit]])
 	root.add_child(_pause_overlay)
@@ -362,7 +375,7 @@ func _exec(c: Dictionary) -> void:
 			Synth.sfx("fanfare")
 			await _do_card([
 				{"text": "SHLANK PRESENTS", "size": 34, "color": Color.WHITE},
-				{"text": "EPISODE %d" % ep.number, "size": 40, "color": UiKit.PINK},
+				{"text": ("%s  -  EPISODE %d" % [ep.series.to_upper(), ep.number]) if ep.series != "" else "EPISODE %d" % ep.number, "size": 40, "color": UiKit.PINK},
 				{"text": ep.title.to_upper(), "size": 92, "color": UiKit.YELLOW}], "", 4.5, Color("3d8fe0"))
 		"end":
 			Synth.sfx("fanfare")

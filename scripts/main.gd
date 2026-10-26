@@ -1,17 +1,22 @@
 extends Node
 ## App shell: menus (episodes, cast, locations, settings) and the episode player.
 
-const LOCATION_ORDER := ["pineapple_house", "pat_rock", "squidwerd_house", "krusty_crab", "krusty_kitchen",
-	"treedome", "jellyfish_fields", "goo_lagoon", "chum_bucket", "boating_school"]
-const CAST_ORDER := ["spongebert", "pat", "squidwerd", "mr_crabs", "sandy"]
+const PROPS := ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money", "locket", "ice_cream", "fishing_rod", "beeper"]
 
 var _screen: Node
+## Everyone with a puppet, in data order (the narrator has no body).
+var _cast_order: Array = []
+var _location_order: Array = []
 var _theme: Theme
 var _episodes: Array = []  # [{path, script}]
 
 
 func _ready() -> void:
 	_theme = UiKit.make_theme()
+	for id in Game.characters:
+		if Game.characters[id].get("style", "none") != "none":
+			_cast_order.append(id)
+	_location_order = Game.locations.keys()
 	for e in Game.episodes:
 		var path := String(e.get("file", ""))
 		var sc := EpisodeScript.parse(Game.load_text(path), Game.characters)
@@ -19,7 +24,90 @@ func _ready() -> void:
 			push_warning("%s: %s" % [path, err])
 		_episodes.append({"path": path, "script": sc})
 	_setup_perf_overlay()
+	_setup_global_controls()
 	show_menu()
+
+
+# ------------------------------------------- always-on controls (top right) --
+
+const GLOBAL_CONTROLS_WIDTH := 140.0  ## screens keep their own top-right UI left of this
+
+var _vol_btn: IconButton
+var _full_btn: IconButton
+var _vol_popup: PanelContainer
+var _vol_slider: VSlider
+var _vol_label: Label
+
+
+func _setup_global_controls() -> void:
+	var layer := CanvasLayer.new()
+	layer.layer = 50
+	add_child(layer)
+	var root := Control.new()
+	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	root.theme = _theme
+	layer.add_child(root)
+	var bar := HBoxContainer.new()
+	bar.add_theme_constant_override("separation", 10)
+	bar.position = Vector2(1280 - 18 - 56 * 2 - 10, 16)
+	root.add_child(bar)
+	_vol_btn = IconButton.make(IconButton.Icon.VOLUME, Color.WHITE, "Volume")
+	_vol_btn.level = Game.master_volume
+	_vol_btn.pressed.connect(func() -> void: _vol_popup.visible = not _vol_popup.visible)
+	bar.add_child(_vol_btn)
+	_full_btn = IconButton.make(IconButton.Icon.FULLSCREEN, Color.WHITE, "Fullscreen")
+	_full_btn.pressed.connect(_toggle_fullscreen)
+	bar.add_child(_full_btn)
+
+	_vol_popup = PanelContainer.new()
+	_vol_popup.add_theme_stylebox_override("panel", UiKit.box(Color.WHITE, 16, 4, 6))
+	_vol_popup.position = Vector2(bar.position.x - 2, 82)
+	_vol_popup.visible = false
+	root.add_child(_vol_popup)
+	var vb := VBoxContainer.new()
+	vb.alignment = BoxContainer.ALIGNMENT_CENTER
+	vb.add_theme_constant_override("separation", 6)
+	_vol_popup.add_child(vb)
+	_vol_label = UiKit.label("", 18)
+	_vol_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_vol_label.autowrap_mode = TextServer.AUTOWRAP_OFF
+	vb.add_child(_vol_label)
+	_vol_slider = VSlider.new()
+	_vol_slider.min_value = 0.0
+	_vol_slider.max_value = 1.0
+	_vol_slider.step = 0.01
+	_vol_slider.custom_minimum_size = Vector2(32, 170)
+	_vol_slider.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	_vol_slider.add_theme_stylebox_override("slider", UiKit.box(Color(0.85, 0.9, 0.95), 8, 3, 0))
+	_vol_slider.add_theme_stylebox_override("grabber_area", UiKit.box(UiKit.BLUE, 8, 3, 0))
+	_vol_slider.add_theme_stylebox_override("grabber_area_highlight", UiKit.box(UiKit.BLUE.lightened(0.2), 8, 3, 0))
+	_vol_slider.value = Game.master_volume
+	_vol_slider.value_changed.connect(_on_volume)
+	vb.add_child(_vol_slider)
+	_on_volume(Game.master_volume, false)
+
+
+func _on_volume(v: float, save: bool = true) -> void:
+	Game.master_volume = v
+	_vol_btn.level = v
+	_vol_label.text = "%d%%" % roundi(v * 100.0)
+	Game.apply_settings()
+	if save:
+		Game.save_settings()
+
+
+func _toggle_fullscreen() -> void:
+	var full := DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
+	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED if full else DisplayServer.WINDOW_MODE_FULLSCREEN)
+
+
+func _input(event: InputEvent) -> void:
+	# Clicking anywhere outside the volume popup closes it.
+	if _vol_popup and _vol_popup.visible and event is InputEventMouseButton and event.pressed:
+		var p: Vector2 = event.position
+		if not _vol_popup.get_global_rect().has_point(p) and not _vol_btn.get_global_rect().has_point(p):
+			_vol_popup.visible = false
 
 
 # ------------------------------------------------------- perf overlay (F3) --
@@ -51,6 +139,12 @@ func _unhandled_key_input(event: InputEvent) -> void:
 
 
 func _process(delta: float) -> void:
+	# Keep the fullscreen icon in sync (the browser can leave fullscreen on Esc).
+	var full := DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
+	var kind := IconButton.Icon.EXIT_FULLSCREEN if full else IconButton.Icon.FULLSCREEN
+	if _full_btn and _full_btn.icon_kind != kind:
+		_full_btn.icon_kind = kind
+		_full_btn.tooltip_text = "Exit fullscreen" if full else "Fullscreen"
 	if not _perf_label.visible:
 		return
 	_perf_t -= delta
@@ -96,15 +190,28 @@ func _back_button(root: Control) -> void:
 
 # ----------------------------------------------------------------- menu --
 
+func _shows() -> Array:
+	var shows := []
+	for id in _cast_order:
+		var sh: String = Game.characters[id].get("show", "")
+		if not shows.has(sh):
+			shows.append(sh)
+	return shows
+
+
 func show_menu() -> void:
-	Synth.set_mood("happy")
-	var root := _screen_root("pineapple_house")
+	# Each visit to the menu features one show's cast in front of its first location.
+	var show: String = _shows().pick_random()
+	var crowd := _cast_order.filter(func(id): return Game.characters[id].get("show", "") == show).slice(0, 5)
+	var home: String = _location_order.filter(func(l): return Game.locations[l].get("show", "") == show)[0]
+	Synth.set_mood("happy" if show == "Bikini Bottom" else "jazz")
+	var root := _screen_root(home)
 	_set_screen(root)
 	var xs := [170.0, 330.0, 950.0, 1110.0, 1230.0]
 	var faces := [1, 1, -1, -1, -1]
-	for i in CAST_ORDER.size():
+	for i in crowd.size():
 		var p := Puppet.new()
-		p.setup(CAST_ORDER[i], Game.characters[CAST_ORDER[i]])
+		p.setup(crowd[i], Game.characters[crowd[i]])
 		p.position = Vector2(xs[i], 690)
 		p.facing = faces[i]
 		p.size_scale = 0.8
@@ -162,11 +269,15 @@ func show_episodes() -> void:
 	title.position = Vector2(0, 30)
 	title.size = Vector2(1280, 90)
 	root.add_child(title)
+	var scroll := ScrollContainer.new()
+	scroll.position = Vector2(200, 130)
+	scroll.size = Vector2(880, 500)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	root.add_child(scroll)
 	var list := VBoxContainer.new()
-	list.position = Vector2(240, 150)
-	list.size = Vector2(800, 400)
+	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 16)
-	root.add_child(list)
+	scroll.add_child(list)
 	for e in _episodes:
 		var sc: EpisodeScript = e.script
 		var card := PanelContainer.new()
@@ -180,6 +291,9 @@ func show_episodes() -> void:
 		var vb := VBoxContainer.new()
 		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		hb.add_child(vb)
+		if sc.series != "":
+			var series := UiKit.label(sc.series.to_upper(), 16, UiKit.BLUE)
+			vb.add_child(series)
 		var t := UiKit.title_label(sc.title.to_upper(), 34, UiKit.RED)
 		t.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 		vb.add_child(t)
@@ -202,7 +316,7 @@ func show_episodes() -> void:
 	more.add_theme_constant_override("outline_size", 5)
 	more.add_theme_color_override("font_outline_color", Art.INK)
 	more.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	more.position = Vector2(140, 640)
+	more.position = Vector2(140, 650)
 	more.size = Vector2(1000, 30)
 	root.add_child(more)
 
@@ -218,11 +332,11 @@ func play_episode(sc: EpisodeScript) -> void:
 # ----------------------------------------------------------------- cast --
 
 func show_cast(index: int = 0) -> void:
-	var root := _screen_root(["pineapple_house", "pat_rock", "squidwerd_house", "krusty_crab", "treedome"][index])
+	var id: String = _cast_order[index]
+	var cdata: Dictionary = Game.characters[id]
+	var root := _screen_root(String(cdata.get("home", _location_order[0])))
 	_set_screen(root)
 	_back_button(root)
-	var id: String = CAST_ORDER[index]
-	var cdata: Dictionary = Game.characters[id]
 	var p := Puppet.new()
 	p.setup(id, cdata)
 	p.position = Vector2(400, 650)
@@ -235,6 +349,8 @@ func show_cast(index: int = 0) -> void:
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 10)
 	panel.add_child(vb)
+	var show_l := UiKit.label("%s  •  %d/%d" % [String(cdata.get("show", "")).to_upper(), index + 1, _cast_order.size()], 16, UiKit.BLUE)
+	vb.add_child(show_l)
 	var name_l := UiKit.title_label(String(cdata.name).to_upper(), 48, Game.char_color(id))
 	name_l.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 	vb.add_child(name_l)
@@ -261,11 +377,11 @@ func show_cast(index: int = 0) -> void:
 	var props := HFlowContainer.new()
 	props.add_theme_constant_override("h_separation", 8)
 	vb.add_child(props)
-	for pr in ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money"]:
+	for pr in PROPS:
 		var b := UiKit.button(pr.replace("_", " ").to_upper(), Color("dff1fb"), 14)
 		b.pressed.connect(func() -> void: p.held = "" if pr == "none" else pr)
 		props.add_child(b)
-	_arrows(root, func(d: int) -> void: show_cast(posmod(index + d, CAST_ORDER.size())))
+	_arrows(root, func(d: int) -> void: show_cast(posmod(index + d, _cast_order.size())))
 	var walk := UiKit.button("WALK", UiKit.TEAL, 20)
 	walk.position = Vector2(330, 670)
 	walk.pressed.connect(func() -> void:
@@ -312,23 +428,26 @@ func _arrows(root: Control, cb: Callable) -> void:
 # ------------------------------------------------------------ locations --
 
 func show_locations(index: int = 0) -> void:
-	var id: String = LOCATION_ORDER[index]
+	var id: String = _location_order[index]
 	var root := _screen_root(id)
 	_set_screen(root)
 	_back_button(root)
 	var loc: Dictionary = Game.locations.get(id, {})
 	var panel := PanelContainer.new()
-	panel.position = Vector2(290, 600)
+	panel.position = Vector2(290, 566)
 	panel.custom_minimum_size = Vector2(700, 0)
 	root.add_child(panel)
 	var vb := VBoxContainer.new()
 	panel.add_child(vb)
-	var t := UiKit.title_label("%d/%d  %s" % [index + 1, LOCATION_ORDER.size(), String(loc.get("name", id)).to_upper()], 32, UiKit.RED)
+	var t := UiKit.title_label("%d/%d  %s" % [index + 1, _location_order.size(), String(loc.get("name", id)).to_upper()], 32, UiKit.RED)
 	vb.add_child(t)
+	var sh := UiKit.label(String(loc.get("show", "")).to_upper(), 16, UiKit.BLUE)
+	sh.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	vb.add_child(sh)
 	var d := UiKit.label(String(loc.get("description", "")), 20)
 	d.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	vb.add_child(d)
-	_arrows(root, func(dd: int) -> void: show_locations(posmod(index + dd, LOCATION_ORDER.size())))
+	_arrows(root, func(dd: int) -> void: show_locations(posmod(index + dd, _location_order.size())))
 
 
 # ------------------------------------------------------------- settings --

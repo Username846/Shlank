@@ -81,6 +81,17 @@ static func smooth(ctrl: PackedVector2Array, sub: int = 6, closed: bool = true) 
 	return out
 
 
+## Heart outline centred on c (used for the locket).
+static func heart(c: Vector2, s: float, n: int = 36) -> PackedVector2Array:
+	var pts := PackedVector2Array()
+	for i in n:
+		var t := TAU * i / n
+		var x := 16.0 * pow(sin(t), 3)
+		var y := 13.0 * cos(t) - 5.0 * cos(2.0 * t) - 2.0 * cos(3.0 * t) - cos(4.0 * t)
+		pts.append(c + Vector2(x, -y) * (s / 16.0))
+	return pts
+
+
 static func translate(pts: PackedVector2Array, off: Vector2) -> PackedVector2Array:
 	var out := PackedVector2Array()
 	out.resize(pts.size())

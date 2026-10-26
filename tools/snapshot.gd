@@ -16,7 +16,7 @@ func _ready() -> void:
 	await _frames(10)
 	match mode:
 		"estimate":
-			var sc: EpisodeScript = main._episodes[0].script
+			var sc: EpisodeScript = main._episodes[int(args[2]) if args.size() > 2 else 0].script
 			var by := {}
 			var pos := {}
 			for c in sc.commands:
@@ -31,7 +31,7 @@ func _ready() -> void:
 			await _frames(5)
 			await _shot("settings")
 		"cast":
-			for i in 5:
+			for i in main._cast_order.size():
 				main.show_cast(i)
 				await _frames(5)
 				await _shot("cast_%d" % i)
@@ -48,14 +48,14 @@ func _ready() -> void:
 				await _frames(30)
 				await _shot("emo_%s_%s" % [p.id, e])
 		"locations":
-			for i in 10:
+			for i in main._location_order.size():
 				main.show_locations(i)
 				await _frames(5)
 				await _shot("loc_%d" % i)
 		"episode":
 			var ts := float(args[2]) if args.size() > 2 else 8.0
 			Game.voice_mode = "silent"
-			main.play_episode(main._episodes[0].script)
+			main.play_episode(main._episodes[int(args[4]) if args.size() > 4 else 0].script)
 			var player: EpisodePlayer = main._screen
 			Engine.time_scale = ts
 			var real := 0.0

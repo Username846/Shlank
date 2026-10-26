@@ -12,21 +12,34 @@ dialogue is voiced with a speech synthesizer.
 
 ## What's in it
 
-- **5 test characters** (SpongeBob parodies): SpongeBert, Pat Starfish,
-  Squidwerd, Mr. Crabs and Sandy Acorn. Each one blinks, lip-flaps while
-  talking, walks, hops, holds props, and has 8 emotions (neutral, happy, sad,
-  angry, surprised, scared, smug, excited).
-- **10 animated locations**: SpongeBert's Pineapple, Pat's Rock, Squidwerd's
-  Head House, The Krusty Crab, Krusty Crab Kitchen, Sandy's Treedome,
-  Jellyfish Fields, Goo Lagoon, The Chum Bucket and Boating School.
-- **Episode 1: "The Golden Spatula"**, about 5 minutes, using every character
-  and location.
+Two test shows, each with 5 characters, 10 locations and a ~5 minute episode:
+
+- **Bikini Bottom** (SpongeBob parodies)
+  - Characters: SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs and Sandy
+    Acorn.
+  - Locations: SpongeBert's Pineapple, Pat's Rock, Squidwerd's Head House, The
+    Krusty Crab, Krusty Crab Kitchen, Sandy's Treedome, Jellyfish Fields, Goo
+    Lagoon, The Chum Bucket and Boating School.
+  - Episode: **"The Golden Spatula"**.
+- **Hillwood** (Hey Arnold! parodies)
+  - Characters: Arnald, Helga Potaki, Gerold, Grandpa Phil and Phoebee.
+  - Locations: Sunset Arms, Arnald's Room, P.S. 118, the Fourth Grade
+    Classroom, Gerold Field, Big Bob's Beepers, Slausen's Ice Cream, Green
+    Meats, Hillwood Pier and a Rooftop at Dusk.
+  - Episode: **"The Locket"**.
+
+Every character blinks, lip-flaps while talking, walks, hops, holds props, and
+has 8 emotions (neutral, happy, sad, angry, surprised, scared, smug, excited).
+
 - **Synthesized voices.** Dialogue is spoken with the browser's text-to-speech
   voices, and each character has their own pitch, speed and preferred voices.
   If the browser has no speech voices, it falls back to a synthesized
   "cartoon babble". The music and sound effects are synthesized live too.
 - Menus to meet the cast (preview emotions, props and voices), browse
   locations, and change settings (voice mode, subtitles, volume).
+
+The **volume** and **fullscreen** buttons stay in the top-right corner on every
+screen. The volume slider controls music, sound effects and voices together.
 
 Controls while watching: **Space** pauses, **→ / Enter / click** skips the
 current line, and **Esc** opens the pause menu. **F3** (or adding `?debug` to
@@ -53,6 +66,7 @@ Episodes are plain-text screenplays in `data/episodes/`. Each one is listed in
 
 ```
 @title The Golden Spatula
+@series Bikini Bottom
 @number 1
 @description One-line blurb for the episode list.
 
@@ -85,13 +99,13 @@ emotion is optional and stays until it's changed.
 | `MOVE <who> <pos> [speed]` / `RUN <who> <pos>` | Walks or runs to a position |
 | `FACE <who> <left\|right\|other-character>` | Turns around |
 | `EMOTE <who> <emotion>` | Changes expression |
-| `HOLD <who> <prop\|none>` | Props: `golden_spatula`, `spatula`, `patty`, `net`, `clarinet`, `detector`, `money` |
+| `HOLD <who> <prop\|none>` | Props: `golden_spatula`, `spatula`, `patty`, `net`, `clarinet`, `detector`, `money`, `locket`, `ice_cream`, `fishing_rod`, `beeper` |
 | `JUMP <who>` | Hop with a boing |
 | `CLOSE <who>` / `MEDIUM <who>` / `WIDE` | Camera shots |
 | `SHAKE [secs]` | Camera shake |
 | `WAIT <secs>` | Pause |
 | `SFX <name>` | `bubbles pop boing beep detector detector_crazy clarinet squeak slam sting splat sizzle ding cash fanfare wahwah drumroll whoosh gasp chomp sparkle` |
-| `MUSIC <happy\|tense\|sad\|sneaky\|off>` | Background music mood |
+| `MUSIC <happy\|jazz\|tense\|sad\|sneaky\|off>` | Background music mood |
 | `CARD <text>` | Full-screen title card read by the narrator ("Ten minutes later...") |
 | `TITLE` | Episode title card |
 | `END [text]` | Closing card |
@@ -102,12 +116,17 @@ Lines starting with `#` are comments.
 
 ### Adding characters and locations
 
-- Characters live in `data/characters.json`: name, colour, bio, catchphrase
+- Characters live in `data/characters.json`: name, show, home location (the
+  backdrop in the cast viewer), colour, bio, catchphrase
   and voice (`pitch`, `rate`, babble frequency, and a `prefer` list of
   speech-voice name keywords). Each `style` is drawn by a function in
   `scripts/puppet.gd`.
-- Locations live in `data/locations.json`, and each is drawn by a function in
-  `scripts/backdrop.gd`.
+- Locations live in `data/locations.json` (with the show they belong to), and
+  each is drawn by a function in `scripts/backdrop.gd`. Bikini Bottom sets get
+  underwater light rays and bubbles; the others don't.
+- A new episode goes in `data/episodes/` and gets listed in
+  `data/episodes/index.json`. Use `@series` to show the series name on the
+  episode card and title card.
 
 ## Project layout
 

@@ -146,12 +146,22 @@ func _draw_set() -> void:
 		"goo_lagoon": _goo_lagoon()
 		"chum_bucket": _chum_bucket()
 		"boating_school": _boating_school()
+		"sunset_arms": _sunset_arms()
+		"arnald_room": _arnald_room()
+		"ps118": _ps118()
+		"classroom": _classroom()
+		"gerold_field": _gerold_field()
+		"big_bobs": _big_bobs()
+		"slausens": _slausens()
+		"green_meats": _green_meats()
+		"hillwood_pier": _hillwood_pier()
+		"rooftop": _rooftop()
 		_: _sea_sky()
 
 
 ## Everything that moves. Drawn on top of the baked set every frame, so keep it light.
 func _draw_fx() -> void:
-	if location != "krusty_kitchen":
+	if is_underwater() and location != "krusty_kitchen":
 		for i in 5:
 			var x := 120.0 + i * 260.0 + sin(_t * 0.4 + i) * 30.0
 			var ray := PackedVector2Array([Vector2(x - 30, -PAD), Vector2(x + 40, -PAD), Vector2(x + 160, 560), Vector2(x + 30, 560)])
@@ -186,6 +196,8 @@ func _draw_fx() -> void:
 			_seaweed(1220, 625, 110)
 			var beam := PackedVector2Array([Vector2(160, 312), Vector2(160 + cos(_t) * 400, 290 + sin(_t) * 60), Vector2(160 + cos(_t) * 400, 340 + sin(_t) * 60)])
 			ci.draw_colored_polygon(beam, Color(1, 1, 0.7, 0.18))
+		_:
+			_fx_hillwood()
 
 
 # ---------------------------------------------------------------- shared --
@@ -249,7 +261,13 @@ func _coral(c: Vector2, s: float, color: Color) -> void:
 		Art.limb(ci, Art.curve(c, c.lerp(tip, 0.5) + Vector2(a * 10, 0), tip, 8), 12.0 * s, color)
 
 
+func is_underwater() -> bool:
+	return String(Game.locations.get(location, {}).get("show", "Bikini Bottom")) == "Bikini Bottom"
+
+
 func _draw_bubbles() -> void:
+	if not is_underwater():
+		return
 	for b in _bubbles:
 		var c := Vector2(b.x + sin(_t * 2.0 + b.phase) * 6.0, b.y)
 		var r: float = b.r + 1.0
@@ -610,3 +628,477 @@ func _goo_waves() -> void:
 			wave.append(Vector2(-40 + k * 50.0 + sin(_t * 2.0 + k + i) * 6.0, y + sin(_t * 2.0 + k) * 3.0))
 		for seg in Geometry2D.intersect_polyline_with_polygon(wave, _goo):
 			Art.stroke(ci, seg, 3.0, Color(1, 1, 1, 0.5))
+
+
+# ================================================================ HILLWOOD ==
+# City helpers
+
+const BRICK := Color("b0573e")
+const SIDEWALK := Color("c9c4ba")
+
+
+func _city_sky(top: Color = Color("5fa8e6"), bottom: Color = Color("cde9f7"), clouds: bool = true) -> void:
+	_sky_bottom = bottom
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), top, bottom)
+	if clouds:
+		for c in [Vector2(160, 90), Vector2(520, 60), Vector2(900, 110), Vector2(1200, 70)]:
+			_cloud(c, 1.0)
+
+
+func _cloud(c: Vector2, s: float, col: Color = Color(1, 1, 1, 0.92)) -> void:
+	var pts := Art.smooth(PackedVector2Array([c + Vector2(-70, 10) * s, c + Vector2(-50, -18) * s, c + Vector2(-14, -34) * s,
+		c + Vector2(26, -26) * s, c + Vector2(60, -10) * s, c + Vector2(74, 12) * s, c + Vector2(0, 22) * s]), 6)
+	Art.shape(ci, pts, col, 3.0)
+
+
+## A row of distant buildings with lit/unlit windows.
+func _skyline(base_y: float, color: Color, seed: int, window_col: Color = Color(1, 1, 1, 0.25), lit_chance: float = 0.0) -> void:
+	var rng := RandomNumberGenerator.new()
+	rng.seed = seed
+	var x := -PAD
+	while x < W + PAD:
+		var bw := rng.randf_range(70, 150)
+		var bh := rng.randf_range(90, 260)
+		var r := Rect2(x, base_y - bh, bw, bh + 2)
+		Art.shape(ci, PackedVector2Array([r.position, Vector2(r.end.x, r.position.y), r.end, Vector2(r.position.x, r.end.y)]), color, 3.0)
+		if rng.randf() < 0.3:
+			Art.shape(ci, Art.rrect(Rect2(r.position.x + bw * 0.3, r.position.y - 22, bw * 0.25, 24), 3), color, 3.0)
+		var wy := r.position.y + 14
+		while wy < base_y - 14:
+			var wx := r.position.x + 10
+			while wx < r.end.x - 16:
+				var col := window_col
+				if lit_chance > 0.0 and rng.randf() < lit_chance:
+					col = Color("ffd76a")
+				ci.draw_rect(Rect2(wx, wy, 9, 12), col)
+				wx += 20
+			wy += 24
+		x += bw + rng.randf_range(-4, 10)
+
+
+func _brick_wall(r: Rect2, color: Color = BRICK, w: float = 4.0) -> void:
+	var pts := PackedVector2Array([r.position, Vector2(r.end.x, r.position.y), r.end, Vector2(r.position.x, r.end.y)])
+	Art.fill(ci, pts, color)
+	var mortar := color.darkened(0.28)
+	var row := 0
+	var y := r.position.y + 16
+	while y < r.end.y:
+		Art.stroke(ci, PackedVector2Array([Vector2(r.position.x, y), Vector2(r.end.x, y)]), 1.5, mortar)
+		var x := r.position.x + (0.0 if row % 2 == 0 else 22.0)
+		while x < r.end.x:
+			Art.stroke(ci, PackedVector2Array([Vector2(x, y - 16), Vector2(x, y)]), 1.5, mortar)
+			x += 44
+		y += 16
+		row += 1
+	Art.outline(ci, pts, w)
+
+
+func _window(r: Rect2, frame: Color = Color("f2efe6"), glass: Color = Color("9ccbe8"), panes: bool = true) -> void:
+	Art.shape(ci, Art.rrect(r.grow(5), 3), frame, 3.0)
+	Art.shape(ci, Art.rrect(r, 2), glass, 2.5)
+	ci.draw_line(r.position + Vector2(r.size.x * 0.2, r.size.y * 0.75), r.position + Vector2(r.size.x * 0.6, r.size.y * 0.2), Color(1, 1, 1, 0.5), 4.0)
+	if panes:
+		Art.stroke(ci, PackedVector2Array([Vector2(r.get_center().x, r.position.y), Vector2(r.get_center().x, r.end.y)]), 3.0, frame)
+		Art.stroke(ci, PackedVector2Array([Vector2(r.position.x, r.get_center().y), Vector2(r.end.x, r.get_center().y)]), 3.0, frame)
+
+
+func _sidewalk(top_y: float = 575.0) -> void:
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, top_y), Vector2(W + PAD, top_y), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), SIDEWALK)
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, top_y), Vector2(W + PAD, top_y)]), 4.0)
+	for i in 12:
+		var x := -PAD + i * 140.0
+		Art.stroke(ci, PackedVector2Array([Vector2(x, top_y), Vector2(x - 40, 690)]), 2.0, SIDEWALK.darkened(0.2))
+	# Curb and street
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 690), Vector2(W + PAD, 690), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("55585f"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 690), Vector2(W + PAD, 690)]), 4.0)
+
+
+func _lamp_post(x: float, base_y: float) -> void:
+	Art.limb(ci, PackedVector2Array([Vector2(x, base_y), Vector2(x, base_y - 230)]), 8, Color("3e4a3f"))
+	Art.shape(ci, PackedVector2Array([Vector2(x - 16, base_y - 230), Vector2(x + 16, base_y - 230), Vector2(x + 10, base_y - 262), Vector2(x - 10, base_y - 262)]), Color("fff1b8"), 3.0)
+	Art.shape(ci, Art.rrect(Rect2(x - 20, base_y - 270, 40, 10), 3), Color("3e4a3f"), 3.0)
+
+
+func _wood_floor(top_y: float, color: Color) -> void:
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, top_y), Vector2(W + PAD, top_y), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), color)
+	for i in 6:
+		var y := top_y + 18 + i * 30.0
+		Art.stroke(ci, PackedVector2Array([Vector2(-PAD, y), Vector2(W + PAD, y)]), 2.0, color.darkened(0.25))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, top_y), Vector2(W + PAD, top_y)]), 4.0)
+
+
+# Hillwood locations ------------------------------------------------------
+
+func _sunset_arms() -> void:
+	_city_sky()
+	_skyline(470, Color("9bb6cc"), 11)
+	# Neighbours
+	_brick_wall(Rect2(-PAD, 170, 380, 420), Color("c9a27a"))
+	_brick_wall(Rect2(990, 140, 380, 450), Color("8f8a86"))
+	for x in [40, 160, 1040, 1160]:
+		for y in [230, 360]:
+			_window(Rect2(x, y, 60, 80))
+	# The boarding house
+	_brick_wall(Rect2(330, 80, 640, 510))
+	Art.shape(ci, Art.rrect(Rect2(316, 66, 668, 30), 4), Color("6e3426"), 4.0)
+	for row in 2:
+		for col in 4:
+			var x := 380.0 + col * 145.0
+			if row == 1 and (col == 1 or col == 2):
+				continue
+			_window(Rect2(x, 130 + row * 150, 72, 96), Color("e9e2cf"), Color("a9d0e6"))
+			Art.shape(ci, Art.rrect(Rect2(x - 14, 132 + row * 150, 10, 92), 2), Color("3f7a4a"), 2.5)
+			Art.shape(ci, Art.rrect(Rect2(x + 76, 132 + row * 150, 10, 92), 2), Color("3f7a4a"), 2.5)
+	# Sign, door and stoop
+	_sign_plate(Rect2(520, 270, 260, 46), "SUNSET ARMS", Color("2f5e3a"), Color("f7e7b0"), 28)
+	_door(Rect2(595, 340, 110, 170), Color("5a3a26"), true)
+	Art.blob(ci, Vector2(685, 430), 6, 6, Color("e8c040"), 2.5)
+	for i in 4:
+		var y := 510.0 + i * 20.0
+		var inset := 30.0 - i * 10.0
+		Art.shape(ci, Art.rrect(Rect2(555 + inset, y, 190 - inset * 2, 20), 2), Color("c4bfb5").darkened(i * 0.03), 3.0)
+	for sx in [548, 752]:
+		Art.limb(ci, PackedVector2Array([Vector2(sx, 590), Vector2(sx, 510)]), 5, Art.INK)
+	_sidewalk(585)
+	_lamp_post(250, 640)
+
+
+func _sign_plate(r: Rect2, label: String, bg: Color, fg: Color, size: int) -> void:
+	Art.shape(ci, Art.rrect(r, 6), bg, 4.0)
+	Art.text(ci, sign_font, Vector2(r.position.x, r.get_center().y + size * 0.36), label, size, fg, 6, HORIZONTAL_ALIGNMENT_CENTER, r.size.x)
+
+
+func _arnald_room() -> void:
+	# Walls
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("a5434e"), Color("7e2f3b"))
+	_sky_bottom = Color("7e2f3b")
+	# The famous skylight in the sloped ceiling
+	var sky := PackedVector2Array([Vector2(300, -PAD), Vector2(980, -PAD), Vector2(900, 240), Vector2(380, 240)])
+	Art.fill(ci, sky, Color("3a5fa8"))
+	var sky2 := PackedVector2Array([Vector2(300, -PAD), Vector2(980, -PAD), Vector2(940, 110), Vector2(340, 110)])
+	Art.fill(ci, sky2, Color("2b4686"))
+	for p in [Vector2(420, 40), Vector2(560, 120), Vector2(700, 30), Vector2(820, 150), Vector2(880, 60), Vector2(480, 190)]:
+		Art.dot(ci, p, 3, Color(1, 1, 0.85))
+	Art.outline(ci, sky, 6.0)
+	for i in range(1, 4):
+		var t := i / 4.0
+		Art.stroke(ci, PackedVector2Array([Vector2(lerpf(300, 980, t), -PAD), Vector2(lerpf(380, 900, t), 240)]), 6.0, Color("d8d2c2"))
+	Art.stroke(ci, PackedVector2Array([Vector2(340, 110), Vector2(940, 110)]), 6.0, Color("d8d2c2"))
+	# Wallpaper stripes and shelves
+	for i in 16:
+		var x := -PAD + i * 90.0
+		Art.stroke(ci, PackedVector2Array([Vector2(x, 260), Vector2(x, 540)]), 3.0, Color(0, 0, 0, 0.08))
+	_wood_floor(540, Color("8b5a36"))
+	# Couch
+	Art.shape(ci, Art.rrect(Rect2(60, 360, 330, 120), 22), Color("d86a3a"), 4.0, 0.12)
+	Art.shape(ci, Art.rrect(Rect2(70, 450, 310, 70), 14), Color("e98a4e"), 4.0, 0.1)
+	for x in [40, 380]:
+		Art.shape(ci, Art.rrect(Rect2(x, 420, 40, 100), 14), Color("c75a2e"), 4.0)
+	# Desk with computer and stereo
+	Art.shape(ci, Art.rrect(Rect2(880, 420, 300, 24), 4), Color("6b4428"), 4.0)
+	for x in [900, 1150]:
+		Art.limb(ci, PackedVector2Array([Vector2(x, 444), Vector2(x, 540)]), 10, Color("5a3820"))
+	Art.shape(ci, Art.rrect(Rect2(930, 330, 110, 90), 8), Color("d9d4c4"), 4.0)
+	Art.shape(ci, Art.rrect(Rect2(944, 342, 82, 58), 4), Color("2c5b6e"), 3.0)
+	Art.shape(ci, Art.rrect(Rect2(1070, 360, 90, 60), 6), Color("3a3a42"), 4.0)
+	for x in [1090, 1140]:
+		Art.blob(ci, Vector2(x, 390), 14, 14, Color("6b6b75"), 3.0)
+	# Poster
+	Art.shape(ci, Art.rrect(Rect2(500, 300, 120, 160), 4), Color("f2d34b"), 4.0)
+	Art.text(ci, sign_font, Vector2(500, 390), "JAZZ", 34, Color("d9473a"), 5, HORIZONTAL_ALIGNMENT_CENTER, 120)
+
+
+func _ps118() -> void:
+	_city_sky()
+	_skyline(430, Color("a7bfd3"), 23)
+	_brick_wall(Rect2(140, 120, 1000, 460), Color("b8573e"))
+	Art.shape(ci, Art.rrect(Rect2(124, 104, 1032, 30), 4), Color("e9e2cf"), 4.0)
+	for row in 2:
+		for col in 6:
+			if row == 1 and (col == 2 or col == 3):
+				continue
+			_window(Rect2(190 + col * 160, 170 + row * 140, 90, 90))
+	# Entrance
+	Art.shape(ci, Art.rrect(Rect2(520, 300, 240, 36), 4), Color("e9e2cf"), 4.0)
+	Art.text(ci, sign_font, Vector2(520, 330), "P.S. 118", 32, Color("2f5e8a"), 5, HORIZONTAL_ALIGNMENT_CENTER, 240)
+	_door(Rect2(545, 350, 90, 180), Color("2f5e8a"), false)
+	_door(Rect2(645, 350, 90, 180), Color("2f5e8a"), false)
+	for x in [580, 600, 680, 700]:
+		_window(Rect2(x - 10, 370, 28, 40), Color("e9e2cf"), Color("bfe0f2"), false)
+	for i in 3:
+		var y := 530.0 + i * 18.0
+		Art.shape(ci, Art.rrect(Rect2(500 - i * 20, y, 280 + i * 40, 18), 2), Color("c4bfb5"), 3.0)
+	# Flagpole
+	Art.limb(ci, PackedVector2Array([Vector2(90, 585), Vector2(90, 150)]), 6, Color("cfd3d8"))
+	Art.dot(ci, Vector2(90, 146), 7, Color("e8c040"))
+	_sidewalk(585)
+
+
+func _classroom() -> void:
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("d6e6c8"), Color("bcd2ac"))
+	_sky_bottom = Color("bcd2ac")
+	# Alphabet strip
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 60), Vector2(W + PAD, 60), Vector2(W + PAD, 96), Vector2(-PAD, 96)]), Color("f6f0dc"))
+	var letters := "AaBbCcDdEeFfGgHhIiJjKk"
+	for i in letters.length():
+		Art.text(ci, sign_font, Vector2(20 + i * 56, 90), letters[i], 26, [UiKit.RED, UiKit.BLUE, Color("3f8f3a")][i % 3], 0, HORIZONTAL_ALIGNMENT_LEFT)
+	# Chalkboard
+	Art.shape(ci, Art.rrect(Rect2(290, 130, 700, 240), 8), Color("8a5a36"), 5.0)
+	Art.shape(ci, Art.rrect(Rect2(306, 146, 668, 208), 4), Color("2f5a43"), 3.0)
+	Art.text(ci, sign_font, Vector2(306, 220), "SHOW & TELL TODAY!", 40, Color(1, 1, 1, 0.85), 0, HORIZONTAL_ALIGNMENT_CENTER, 668)
+	Art.text(ci, sign_font, Vector2(306, 290), "2 + 2 = 4", 32, Color(1, 1, 1, 0.7), 0, HORIZONTAL_ALIGNMENT_CENTER, 668)
+	Art.shape(ci, Art.rrect(Rect2(300, 362, 680, 12), 3), Color("6b4428"), 3.0)
+	# Windows
+	for y in [130]:
+		_window(Rect2(1060, y, 160, 200), Color("e9e2cf"), Color("9ccbe8"))
+	# Clock face (hands are in the moving layer)
+	Art.blob(ci, Vector2(160, 190), 48, 48, Color("f6f0dc"), 5.0)
+	for i in 12:
+		var a := TAU * i / 12.0
+		Art.stroke(ci, PackedVector2Array([Vector2(160, 190) + Vector2(cos(a), sin(a)) * 38, Vector2(160, 190) + Vector2(cos(a), sin(a)) * 44]), 3.0)
+	# Floor and desks
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("d9c9a3"))
+	for i in 14:
+		Art.stroke(ci, PackedVector2Array([Vector2(-PAD + i * 110, 540), Vector2(-PAD + i * 110 - 60, H + PAD)]), 2.0, Color("b8a77e"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540)]), 4.0)
+	Art.shape(ci, Art.rrect(Rect2(60, 440, 230, 30), 4), Color("8a5a36"), 4.0)
+	Art.shape(ci, Art.rrect(Rect2(70, 470, 210, 70), 4), Color("7a4a2a"), 4.0)
+	Art.blob(ci, Vector2(250, 428), 14, 14, Color("e6452f"), 3.0)
+	Art.stroke(ci, PackedVector2Array([Vector2(250, 414), Vector2(254, 406)]), 3.0, Color("3f8f3a"))
+
+
+func _gerold_field() -> void:
+	_city_sky(Color("6aaee6"), Color("d6eef8"))
+	# Brick buildings around the lot
+	_brick_wall(Rect2(-PAD, 140, 460, 420), Color("a24d38"))
+	_brick_wall(Rect2(360, 220, 560, 340), Color("bf7a52"))
+	_brick_wall(Rect2(900, 110, 460, 450), Color("8e5a4a"))
+	for x in [30, 150, 260, 960, 1080, 1200]:
+		_window(Rect2(x, 200, 56, 70), Color("e9e2cf"), Color("9ccbe8"))
+	Art.text(ci, sign_font, Vector2(380, 330), "GEROLD FIELD", 58, Color("f2d34b"), 9, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	# Dirt lot
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("c9a06a"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540)]), 4.0)
+	_rng.seed = 77
+	for i in 40:
+		Art.dot(ci, Vector2(_rng.randf_range(-PAD, W + PAD), _rng.randf_range(560, H)), _rng.randf_range(1.5, 3.0), Color("a8834f"))
+	# Chain-link fence
+	var fence := Rect2(-PAD, 380, W + PAD * 2, 170)
+	Art.fill(ci, PackedVector2Array([fence.position, Vector2(fence.end.x, fence.position.y), fence.end, Vector2(fence.position.x, fence.end.y)]), Color(0.6, 0.65, 0.7, 0.15))
+	var x := fence.position.x
+	while x < fence.end.x + 170:
+		Art.stroke(ci, PackedVector2Array([Vector2(x, fence.position.y), Vector2(x - 170, fence.end.y)]), 1.5, Color("8d959e"))
+		Art.stroke(ci, PackedVector2Array([Vector2(x - 170, fence.position.y), Vector2(x, fence.end.y)]), 1.5, Color("8d959e"))
+		x += 24
+	for px in [0, 320, 640, 960, 1280]:
+		Art.limb(ci, PackedVector2Array([Vector2(px, 550), Vector2(px, 376)]), 7, Color("9aa3ad"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 380), Vector2(W + PAD, 380)]), 5.0, Color("9aa3ad"))
+	# Bases
+	Art.shape(ci, PackedVector2Array([Vector2(640, 660), Vector2(660, 668), Vector2(660, 684), Vector2(620, 684), Vector2(620, 668)]), Color.WHITE, 3.0)
+	for p in [Vector2(230, 610), Vector2(1050, 610)]:
+		Art.shape(ci, Art.rrect(Rect2(p - Vector2(18, 8), Vector2(36, 16)), 3), Color.WHITE, 3.0)
+
+
+func _big_bobs() -> void:
+	_city_sky()
+	_skyline(420, Color("9fb4c8"), 41)
+	_brick_wall(Rect2(-PAD, 160, 300, 420), Color("8f8a86"))
+	_brick_wall(Rect2(1060, 140, 300, 440), Color("b0573e"))
+	# Storefront
+	Art.shape(ci, Art.rrect(Rect2(200, 120, 880, 460), 6), Color("e9e2cf"), 5.0, 0.08)
+	Art.shape(ci, Art.rrect(Rect2(180, 120, 920, 120), 10), Color("1f5fa8"), 5.0, 0.12)
+	Art.text(ci, sign_font, Vector2(180, 172), "BIG BOB'S", 50, Color("f2d34b"), 9, HORIZONTAL_ALIGNMENT_CENTER, 920)
+	Art.text(ci, sign_font, Vector2(180, 222), "BEEPER EMPORIUM", 40, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 920)
+	for r in [Rect2(240, 290, 300, 230), Rect2(740, 290, 300, 230)]:
+		_window(r, Color("6b6f78"), Color("bfe0f2"), false)
+		for i in 3:
+			var bp: Vector2 = r.position + Vector2(55 + i * 95, 150)
+			Art.shape(ci, Art.rrect(Rect2(bp, Vector2(56, 40)), 6), Color("2b2b33"), 3.0)
+			Art.fill(ci, Art.rrect(Rect2(bp + Vector2(8, 8), Vector2(40, 14)), 2), Color("9ee66e"))
+	Art.shape(ci, Art.rrect(Rect2(270, 300, 120, 50), 4), Color("e6452f"), 3.0)
+	Art.text(ci, sign_font, Vector2(270, 334), "50% OFF", 22, Color.WHITE, 3, HORIZONTAL_ALIGNMENT_CENTER, 120)
+	_door(Rect2(580, 330, 120, 250), Color("1f5fa8"), false)
+	_window(Rect2(600, 350, 80, 110), Color("1f5fa8"), Color("bfe0f2"), false)
+	Art.shape(ci, Art.rrect(Rect2(200, 240, 880, 30), 4), Color("e6452f"), 4.0)
+	for i in 11:
+		Art.stroke(ci, PackedVector2Array([Vector2(220 + i * 80, 242), Vector2(220 + i * 80, 268)]), 10.0, Color.WHITE)
+	_sidewalk(585)
+
+
+func _slausens() -> void:
+	# Candy-stripe wallpaper
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("fbe3ec"), Color("f6cdda"))
+	_sky_bottom = Color("f6cdda")
+	for i in 20:
+		var x := -PAD + i * 80.0
+		Art.fill(ci, PackedVector2Array([Vector2(x, -PAD), Vector2(x + 34, -PAD), Vector2(x + 34, 540), Vector2(x, 540)]), Color(1, 1, 1, 0.45))
+	# Menu board
+	Art.shape(ci, Art.rrect(Rect2(380, 60, 520, 190), 10), Color("5a3a26"), 5.0)
+	Art.text(ci, sign_font, Vector2(380, 110), "SLAUSEN'S", 44, Color("f7a7c4"), 8, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	var flavors := ["VANILLA ... 25c", "CHOCOLATE ... 25c", "TRIPLE SCOOP ... 60c"]
+	for i in flavors.size():
+		Art.text(ci, sign_font, Vector2(380, 155 + i * 32), flavors[i], 24, Color.WHITE, 0, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	# Giant cone sign
+	var cone := PackedVector2Array([Vector2(1090, 230), Vector2(1170, 230), Vector2(1130, 360)])
+	Art.shape(ci, cone, Color("e3a95c"), 4.0)
+	Art.blob(ci, Vector2(1130, 210), 48, 36, Color("f7a7c4"), 4.0, 0.1)
+	Art.blob(ci, Vector2(1130, 160), 40, 32, Color("fff3d6"), 4.0, 0.1)
+	# Counter with stools
+	Art.shape(ci, Art.rrect(Rect2(120, 330, 840, 30), 6), Color("e9e2cf"), 4.0)
+	Art.shape(ci, Art.rrect(Rect2(140, 360, 800, 180), 6), Color("ef7fa8"), 4.0, 0.12)
+	for i in 6:
+		Art.stroke(ci, PackedVector2Array([Vector2(180 + i * 130, 370), Vector2(180 + i * 130, 530)]), 3.0, Color("d8618c"))
+	for x in [250, 450, 650, 850]:
+		Art.limb(ci, PackedVector2Array([Vector2(x, 548), Vector2(x, 480)]), 8, Color("9aa3ad"))
+		Art.shape(ci, Art.rrect(Rect2(x - 32, 462, 64, 22), 10), Color("e6452f"), 3.5)
+	# Checkered floor
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 548), Vector2(W + PAD, 548), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color.WHITE)
+	for row in 5:
+		for col in 30:
+			if (row + col) % 2 == 0:
+				var p := Vector2(-PAD + col * 50.0, 548 + row * 50.0)
+				ci.draw_rect(Rect2(p, Vector2(50, 50)), Color("2b2b33"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 548), Vector2(W + PAD, 548)]), 4.0)
+
+
+func _green_meats() -> void:
+	# Tiled walls
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("eef4ec"), Color("dce8d8"))
+	_sky_bottom = Color("dce8d8")
+	for i in 30:
+		Art.stroke(ci, PackedVector2Array([Vector2(-PAD + i * 48, -PAD), Vector2(-PAD + i * 48, 540)]), 1.5, Color(0, 0.3, 0.1, 0.12))
+	for j in 14:
+		Art.stroke(ci, PackedVector2Array([Vector2(-PAD, j * 40.0), Vector2(W + PAD, j * 40.0)]), 1.5, Color(0, 0.3, 0.1, 0.12))
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 300), Vector2(W + PAD, 300), Vector2(W + PAD, 324), Vector2(-PAD, 324)]), Color("3f8f4a"))
+	# Sign
+	Art.shape(ci, Art.rrect(Rect2(400, 40, 480, 90), 10), Color("3f8f4a"), 5.0, 0.12)
+	Art.text(ci, sign_font, Vector2(400, 104), "GREEN MEATS", 52, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 480)
+	# Meat rail (sausages hang in the moving layer)
+	Art.stroke(ci, PackedVector2Array([Vector2(80, 170), Vector2(1200, 170)]), 6.0, Color("9aa3ad"))
+	# Display counter with meats
+	Art.shape(ci, Art.rrect(Rect2(140, 380, 1000, 160), 8), Color("f2f2ee"), 5.0, 0.1)
+	Art.shape(ci, Art.rrect(Rect2(160, 330, 960, 80), 6), Color(0.8, 0.93, 1.0, 0.75), 4.0)
+	for i in 7:
+		var x := 210.0 + i * 135.0
+		Art.blob(ci, Vector2(x, 384), 46, 18, Color("d0465a") if i % 2 == 0 else Color("e7838f"), 3.0, 0.15)
+		Art.blob(ci, Vector2(x + 18, 378), 9, 7, Color("f7e3d6"), 2.0)
+		Art.shape(ci, Art.rrect(Rect2(x - 20, 352, 40, 14), 2), Color.WHITE, 2.0)
+	# Scale
+	Art.shape(ci, Art.rrect(Rect2(1150, 300, 80, 80), 8), Color("cfd3d8"), 4.0)
+	Art.blob(ci, Vector2(1190, 330), 24, 24, Color.WHITE, 3.0)
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("d8c39a"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540)]), 4.0)
+	_rng.seed = 9
+	for i in 50:
+		Art.dot(ci, Vector2(_rng.randf_range(-PAD, W + PAD), _rng.randf_range(556, H)), 1.6, Color("b39c6e"))
+
+
+func _hillwood_pier() -> void:
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("f29a6a"), Color("fbd9a0"))
+	_sky_bottom = Color("fbd9a0")
+	Art.blob(ci, Vector2(980, 300), 70, 70, Color("ffe08a"), 0.0)
+	for c in [Vector2(220, 120), Vector2(700, 80)]:
+		_cloud(c, 1.1, Color(1, 0.85, 0.8, 0.9))
+	_skyline(400, Color("8a6b8e"), 57, Color(1, 0.85, 0.6, 0.35))
+	# River
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 400), Vector2(W + PAD, 400), Vector2(W + PAD, 560), Vector2(-PAD, 560)]), Color("4a78a8"))
+	Art.fill(ci, PackedVector2Array([Vector2(930, 400), Vector2(1030, 400), Vector2(1070, 560), Vector2(890, 560)]), Color(1, 0.85, 0.55, 0.25))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 400), Vector2(W + PAD, 400)]), 3.0)
+	# Pier planks
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 548), Vector2(W + PAD, 548), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("a77a4c"))
+	for i in 30:
+		var x := -PAD + i * 50.0
+		Art.stroke(ci, PackedVector2Array([Vector2(x, 548), Vector2(x - 30, H + PAD)]), 2.5, Color("7a5230"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 548), Vector2(W + PAD, 548)]), 4.0)
+	# Railing posts
+	for x in [60, 300, 980, 1220]:
+		Art.limb(ci, PackedVector2Array([Vector2(x, 560), Vector2(x, 470)]), 14, Color("8a5a36"))
+	Art.limb(ci, PackedVector2Array([Vector2(-PAD, 480), Vector2(340, 480)]), 8, Color("8a5a36"))
+	Art.limb(ci, PackedVector2Array([Vector2(940, 480), Vector2(W + PAD, 480)]), 8, Color("8a5a36"))
+	_lamp_post(1100, 600)
+
+
+func _rooftop() -> void:
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("3b2a6e"), Color("f2a07a"))
+	_sky_bottom = Color("f2a07a")
+	_skyline(470, Color("4a3a6a"), 71, Color(1, 1, 1, 0.08), 0.35)
+	# Water tower
+	for x in [1010, 1110]:
+		Art.limb(ci, PackedVector2Array([Vector2(x, 560), Vector2(x + (20 if x < 1050 else -20), 330)]), 8, Color("5a3a26"))
+	Art.shape(ci, Art.rrect(Rect2(990, 210, 140, 130), 12), Color("8a5a36"), 4.0, 0.15)
+	Art.shape(ci, PackedVector2Array([Vector2(980, 215), Vector2(1060, 160), Vector2(1140, 215)]), Color("6b4428"), 4.0)
+	for y in [250, 300]:
+		Art.stroke(ci, PackedVector2Array([Vector2(990, y), Vector2(1130, y)]), 4.0, Color("3e4a3f"))
+	# Chimney and antenna
+	_brick_wall(Rect2(170, 420, 80, 140), Color("8e4a3a"))
+	Art.limb(ci, PackedVector2Array([Vector2(420, 560), Vector2(420, 380)]), 4, Color("5f646b"))
+	for i in 3:
+		Art.stroke(ci, PackedVector2Array([Vector2(400 - i * 6, 400 + i * 30), Vector2(440 + i * 6, 400 + i * 30)]), 3.0, Color("5f646b"))
+	# Roof deck and ledge
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 555), Vector2(W + PAD, 555), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("5d5a63"))
+	Art.shape(ci, Art.rrect(Rect2(-PAD, 540, W + PAD * 2, 22), 2), Color("8e8a92"), 4.0)
+	_rng.seed = 3
+	for i in 30:
+		Art.dot(ci, Vector2(_rng.randf_range(-PAD, W + PAD), _rng.randf_range(575, H)), 2.0, Color("4a474f"))
+
+
+# Hillwood moving bits -------------------------------------------------------
+
+func _fx_hillwood() -> void:
+	match location:
+		"ps118":
+			# Waving flag
+			var pts := PackedVector2Array()
+			for i in 9:
+				var f := i / 8.0
+				pts.append(Vector2(94 + f * 90, 160 + sin(_t * 4.0 - f * 4.0) * 6.0 * f))
+			for i in range(8, -1, -1):
+				var f := i / 8.0
+				pts.append(Vector2(94 + f * 90, 214 + sin(_t * 4.0 - f * 4.0) * 6.0 * f))
+			ci.draw_colored_polygon(pts, Color("e6452f"))
+			pts.append(pts[0])
+			ci.draw_polyline(pts, Art.INK, 3.0)
+		"classroom":
+			var c := Vector2(160, 190)
+			var m := _t * 0.4
+			ci.draw_line(c, c + Vector2(cos(m / 12.0 - PI / 2), sin(m / 12.0 - PI / 2)) * 22, Art.INK, 5.0)
+			ci.draw_line(c, c + Vector2(cos(m - PI / 2), sin(m - PI / 2)) * 34, Art.INK, 3.5)
+		"big_bobs":
+			var on := fmod(_t, 1.6) < 1.1
+			var neon := Rect2(860, 300, 150, 56)
+			ci.draw_rect(neon, Color("2b2b33"))
+			Art.text(ci, sign_font, Vector2(860, 340), "OPEN", 34, Color("ff5a8a") if on else Color("6a3446"), 0, HORIZONTAL_ALIGNMENT_CENTER, 150)
+		"slausens":
+			var c := Vector2(640, 20)
+			for k in 3:
+				var a := _t * 5.0 + k * TAU / 3.0
+				ci.draw_line(c, c + Vector2(cos(a) * 90, sin(a) * 10), Color("6b4428"), 10.0)
+			ci.draw_circle(c, 10, Art.INK)
+		"green_meats":
+			for i in 6:
+				var top := Vector2(150 + i * 200, 170)
+				var sway := sin(_t * 1.5 + i) * 0.12
+				var pts := PackedVector2Array()
+				for k in 5:
+					pts.append(top + Vector2(0, 26 + k * 24).rotated(sway))
+				ci.draw_polyline(PackedVector2Array([top, pts[0]]), Art.INK, 2.0)
+				for p in pts:
+					ci.draw_circle(p, 13, Art.INK)
+					ci.draw_circle(p, 10, Color("b8483a"))
+		"hillwood_pier":
+			for i in 5:
+				var y := 420.0 + i * 28.0
+				var wave := PackedVector2Array()
+				for k in 12:
+					wave.append(Vector2(-PAD + k * 130.0 + sin(_t * 1.5 + i) * 20.0, y + sin(_t * 2.0 + k + i) * 3.0))
+				ci.draw_polyline(wave, Color(1, 1, 1, 0.35), 2.0)
+			for i in 2:
+				var g := Vector2(fmod(_t * (40 + i * 15) + i * 500, W + 200) - 100, 150 + i * 60 + sin(_t * 2 + i) * 10)
+				var flap := sin(_t * 8.0 + i) * 8.0
+				ci.draw_polyline(PackedVector2Array([g + Vector2(-18, -flap), g, g + Vector2(18, -flap)]), Art.INK, 3.0)
+		"rooftop":
+			_rng.seed = 5
+			for i in 24:
+				var p := Vector2(_rng.randf_range(0, W), _rng.randf_range(10, 260))
+				var tw := 0.4 + 0.6 * absf(sin(_t * _rng.randf_range(1.0, 3.0) + i))
+				ci.draw_circle(p, _rng.randf_range(1.5, 3.0), Color(1, 1, 0.9, tw))

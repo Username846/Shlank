@@ -1,12 +1,102 @@
 {
-	"pineapple_house": {"name": "SpongeBert's Pineapple", "description": "A two-story pineapple with a round door and a snail-sized mailbox."},
-	"pat_rock": {"name": "Pat's Rock", "description": "A rock. Pat lives under it. There is a weathervane."},
-	"squidwerd_house": {"name": "Squidwerd's Head House", "description": "A stone head with very judgemental eyebrows."},
-	"krusty_crab": {"name": "The Krusty Crab", "description": "The finest (only) lobster-trap restaurant in town."},
-	"krusty_kitchen": {"name": "Krusty Crab Kitchen", "description": "Where the magic (grease) happens."},
-	"treedome": {"name": "Sandy's Treedome", "description": "An air-filled glass dome with an oak tree inside. Bring a water helmet."},
-	"jellyfish_fields": {"name": "Jellyfish Fields", "description": "Rolling green hills full of buzzing pink jellyfish."},
-	"goo_lagoon": {"name": "Goo Lagoon", "description": "Bikini Bottom's favourite beach. Mind the goo."},
-	"chum_bucket": {"name": "The Chum Bucket", "description": "A gloomy metal bucket of a restaurant across the street. Usually empty."},
-	"boating_school": {"name": "Boating School", "description": "Where everyone learns to drive a boat. Some take longer than others."}
+	"pineapple_house": {
+		"name": "SpongeBert's Pineapple",
+		"description": "A two-story pineapple with a round door and a snail-sized mailbox.",
+		"show": "Bikini Bottom"
+	},
+	"pat_rock": {
+		"name": "Pat's Rock",
+		"description": "A rock. Pat lives under it. There is a weathervane.",
+		"show": "Bikini Bottom"
+	},
+	"squidwerd_house": {
+		"name": "Squidwerd's Head House",
+		"description": "A stone head with very judgemental eyebrows.",
+		"show": "Bikini Bottom"
+	},
+	"krusty_crab": {
+		"name": "The Krusty Crab",
+		"description": "The finest (only) lobster-trap restaurant in town.",
+		"show": "Bikini Bottom"
+	},
+	"krusty_kitchen": {
+		"name": "Krusty Crab Kitchen",
+		"description": "Where the magic (grease) happens.",
+		"show": "Bikini Bottom"
+	},
+	"treedome": {
+		"name": "Sandy's Treedome",
+		"description": "An air-filled glass dome with an oak tree inside. Bring a water helmet.",
+		"show": "Bikini Bottom"
+	},
+	"jellyfish_fields": {
+		"name": "Jellyfish Fields",
+		"description": "Rolling green hills full of buzzing pink jellyfish.",
+		"show": "Bikini Bottom"
+	},
+	"goo_lagoon": {
+		"name": "Goo Lagoon",
+		"description": "Bikini Bottom's favourite beach. Mind the goo.",
+		"show": "Bikini Bottom"
+	},
+	"chum_bucket": {
+		"name": "The Chum Bucket",
+		"description": "A gloomy metal bucket of a restaurant across the street. Usually empty.",
+		"show": "Bikini Bottom"
+	},
+	"boating_school": {
+		"name": "Boating School",
+		"description": "Where everyone learns to drive a boat. Some take longer than others.",
+		"show": "Bikini Bottom"
+	},
+	"sunset_arms": {
+		"name": "Sunset Arms",
+		"show": "Hillwood",
+		"description": "Grandpa's old brick boarding house, full of strange tenants and stranger pets."
+	},
+	"arnald_room": {
+		"name": "Arnald's Room",
+		"show": "Hillwood",
+		"description": "An attic bedroom with a giant skylight and a couch that folds out of the wall."
+	},
+	"ps118": {
+		"name": "P.S. 118",
+		"show": "Hillwood",
+		"description": "Hillwood's public school. The steps are prime territory for being told to move it."
+	},
+	"classroom": {
+		"name": "Fourth Grade Classroom",
+		"show": "Hillwood",
+		"description": "Chalkboard, cubbies, and a clock that never moves fast enough."
+	},
+	"gerold_field": {
+		"name": "Gerold Field",
+		"show": "Hillwood",
+		"description": "A vacant lot turned baseball diamond, surrounded by chain-link and brick."
+	},
+	"big_bobs": {
+		"name": "Big Bob's Beepers",
+		"show": "Hillwood",
+		"description": "Helga's dad's store. Home of the beeper. Beepers are the future."
+	},
+	"slausens": {
+		"name": "Slausen's Ice Cream",
+		"show": "Hillwood",
+		"description": "The neighborhood ice cream parlor. Checkered floor, triple scoops."
+	},
+	"green_meats": {
+		"name": "Green Meats",
+		"show": "Hillwood",
+		"description": "Mr. Green's butcher shop. Finest cuts in Hillwood."
+	},
+	"hillwood_pier": {
+		"name": "Hillwood Pier",
+		"show": "Hillwood",
+		"description": "Old wooden docks on the river with the whole city skyline across the water."
+	},
+	"rooftop": {
+		"name": "Rooftop at Dusk",
+		"show": "Hillwood",
+		"description": "Where everybody in Hillwood goes to think about life."
+	}
 }

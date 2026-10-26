@@ -12,6 +12,8 @@ var voice_mode := "auto"  # auto | tts | babble | silent
 var subtitles := true
 var music_volume := 0.5
 var voice_volume := 0.9
+## Overall volume from the always-visible volume button (music, effects and voices).
+var master_volume := 0.8
 
 var _tts_voices: Array = []
 var _voice_cache: Dictionary = {}
@@ -58,6 +60,7 @@ func _load_settings() -> void:
 		subtitles = cfg.get_value("video", "subtitles", subtitles)
 		music_volume = cfg.get_value("audio", "music_volume", music_volume)
 		voice_volume = cfg.get_value("audio", "voice_volume", voice_volume)
+		master_volume = cfg.get_value("audio", "master_volume", master_volume)
 	apply_settings()
 
 
@@ -67,6 +70,7 @@ func save_settings() -> void:
 	cfg.set_value("video", "subtitles", subtitles)
 	cfg.set_value("audio", "music_volume", music_volume)
 	cfg.set_value("audio", "voice_volume", voice_volume)
+	cfg.set_value("audio", "master_volume", master_volume)
 	cfg.save(SETTINGS_PATH)
 	apply_settings()
 
@@ -74,6 +78,8 @@ func save_settings() -> void:
 func apply_settings() -> void:
 	Synth.music_volume = music_volume
 	Synth.sfx_volume = 0.8
+	AudioServer.set_bus_volume_db(0, linear_to_db(maxf(master_volume, 0.0001)))
+	AudioServer.set_bus_mute(0, master_volume <= 0.001)
 
 
 # ---------------------------------------------------------------- voice --
@@ -152,7 +158,7 @@ func speak(id: String, text: String) -> float:
 	match mode:
 		"tts":
 			DisplayServer.tts_stop()
-			DisplayServer.tts_speak(clean, _voice_for(id), int(voice_volume * 100.0),
+			DisplayServer.tts_speak(clean, _voice_for(id), int(voice_volume * master_volume * 100.0),
 				float(v.get("pitch", 1.0)), float(v.get("rate", 1.0)))
 		"babble":
 			var dur := Synth.babble(clean, float(v.get("babble", 300.0)), float(v.get("rate", 1.0)))

@@ -1,0 +1,178 @@
+@title The Locket
+@series Hillwood
+@number 1
+@description Helga's secret locket goes missing at school, and Arnald is determined to return it to its owner. Helga is determined that he never, ever finds out who that is.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC jazz
+SCENE sunset_arms cut
+TITLE
+ENTER grandpa left midleft
+GRANDPA (happy): Rise and shine, Shortman! Big day at school!
+ENTER arnald right midright
+ARNALD (happy): Morning, Grandpa. Gerold's waiting for me.
+GRANDPA (smug): Have a good one. And never eat the cafeteria meatloaf. Trust me.
+ARNALD (happy): Sure thing, Grandpa. Where's Grandma?
+GRANDPA (scared): Practicing karate in the kitchen again. Duck on your way out.
+ENTER gerold right right
+GEROLD (smug): Arnald, my man! Let's move, we're gonna be late.
+EXIT arnald left &
+EXIT gerold left
+
+# ----------------------------------------------------------------- P.S. 118
+SCENE ps118
+PLACE arnald midright left
+PLACE gerold right left
+ENTER helga left midleft 420
+HELGA (angry): Move it, football head! You're blocking the steps!
+ARNALD: Good morning to you too, Helga.
+HELGA (smug): Hmph. Criminy, what a dweeb.
+EXIT arnald right &
+EXIT gerold right
+WAIT 0.6
+EMOTE helga happy
+HELGA (happy): Oh, Arnald. My football-headed angel.
+HELGA (surprised): Wait. My locket. Where's my locket?
+SFX gasp
+CLOSE helga
+HELGA (scared): It's gone! The locket with his picture inside! If anybody finds it, I'm doomed!
+SHAKE 0.5
+WIDE
+
+# --------------------------------------------------------------- CLASSROOM
+SCENE classroom
+PLACE helga left right
+PLACE phoebee midleft left
+HELGA (scared): Phoebee! Code red! I lost my locket!
+PHOEBEE (surprised): The one with the... special photograph?
+HELGA (angry): Shh! Yes, that one!
+ENTER arnald right midright
+HOLD arnald locket
+ARNALD (happy): Hey everybody. I found this locket in the hallway. Does it belong to anyone?
+SFX gasp
+EMOTE helga scared
+PHOEBEE: Helga, isn't that your...
+HELGA (angry): Not one word, Phoebee!
+PHOEBEE: Statistically, he's the most honest boy in the fourth grade. He won't peek.
+HELGA (scared): That's what worries me! What if he does?
+ARNALD: Nobody? Okay. I'll keep it safe until I find the owner.
+HELGA (smug): Ha! Who'd want a dumb old locket anyway?
+
+# ------------------------------------------------------------ GEROLD FIELD
+SCENE gerold_field
+CARD Recess.
+PLACE arnald midleft right
+HOLD arnald locket
+PLACE gerold midright left
+GEROLD: It's simple, Arnald. Just open it and look inside.
+ARNALD: I can't do that, Gerold. It's private.
+GEROLD (smug): You're too nice for your own good, man.
+GEROLD: Somebody carries a picture around in a heart? They like somebody. Big time.
+ENTER helga left farleft 150
+HELGA (scared): Don't open it. Don't open it. Don't open it.
+ARNALD: Whoever owns this must really miss it.
+HELGA (happy): Aww, he's so considerate.
+HELGA (angry): Ugh! Get a grip, Helga!
+EXIT helga left
+
+# ------------------------------------------------------------- BIG BOB'S
+SCENE big_bobs
+PLACE helga midleft right
+PLACE phoebee midright left
+HELGA (smug): Okay, Phoebee. My dad's store has a whole box of cheap lockets.
+HELGA: We swap his locket for a fake. Football head will never know.
+HELGA (smug): Beepers are the future, Phoebee. But lockets? Lockets are forever.
+PHOEBEE (excited): An ingenious decoy strategy!
+HOLD helga locket
+PHOEBEE: According to my calculations, he'll be at Slausen's by three fifteen.
+HELGA (smug): Then let's go get some ice cream.
+
+# ---------------------------------------------------------------- SLAUSEN'S
+SCENE slausens
+PLACE arnald midleft right
+PLACE gerold left right
+HOLD arnald ice_cream
+HOLD gerold ice_cream
+GEROLD (happy): Nothing beats a triple scoop after a long day.
+ENTER phoebee right right
+PHOEBEE (excited): Oh look! A rare bird outside the window!
+ARNALD (surprised): A bird? Where?
+ENTER helga right midright 500
+HOLD helga locket
+HELGA (smug): Easy does it...
+SFX splat
+SHAKE 0.4
+EMOTE helga angry
+HELGA (angry): Ack! I slipped on a cherry!
+ARNALD (surprised): Helga? Are you okay?
+HELGA (angry): I'm fine! Mind your own business, football head!
+GEROLD (smug): Helga Potaki, wiped out by a cherry. That's going in the legends book.
+EXIT helga right &
+EXIT phoebee right
+
+# ------------------------------------------------------------- GREEN MEATS
+SCENE green_meats
+PLACE grandpa midright left
+ENTER arnald left midleft
+GRANDPA (happy): Shortman! Help me pick out a nice pork chop.
+ARNALD: Grandpa, what do you do when someone doesn't want to be found?
+GRANDPA: Who are we talking about here, Shortman?
+ARNALD: Whoever owns this locket. They keep trying to get it back without asking.
+GRANDPA (smug): Well, back in nineteen thirty-two, I lost a love letter at the county fair.
+GRANDPA: A pig ate it. Then the pig won first prize. True story.
+ARNALD (sad): I don't think that helps, Grandpa.
+GRANDPA (happy): The point is, some things find their way home if you let them.
+ARNALD (happy): Thanks, Grandpa. I think I know what to do.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+SCENE hillwood_pier
+MUSIC sneaky
+PLACE arnald center right
+HOLD arnald locket
+ENTER helga left left 300
+HOLD helga fishing_rod
+HELGA (smug): Operation Fishing Line. Nobody suspects a girl with a fishing rod.
+SFX whoosh
+WAIT 0.6
+SFX splash
+HELGA (scared): Nooo! I hooked my own fake locket and flung it in the river!
+ARNALD (surprised): Helga? What are you doing here?
+HELGA (angry): Fishing! For fish! Obviously! Get lost, football head!
+EXIT helga left 500
+ARNALD: Something tells me she wasn't fishing.
+
+# ------------------------------------------------------------ ARNALD'S ROOM
+SCENE arnald_room
+MUSIC sad
+PLACE arnald center right
+HOLD arnald locket
+ARNALD: Whoever owns this keeps a secret very close to their heart.
+ENTER gerold left midleft
+GEROLD: Still thinking about that locket, huh?
+ARNALD: I'm going to give it back. No questions asked.
+GEROLD (smug): Like I said. Too nice for your own good.
+
+# ---------------------------------------------------------------- ROOFTOP
+SCENE rooftop
+MUSIC jazz
+CARD That evening...
+PLACE helga midleft right
+HELGA (sad): Some day this was. No locket, no plan, and no peace.
+ENTER arnald right midright
+HOLD arnald locket
+ARNALD: Hi, Helga. I think this might be yours.
+HELGA (surprised): Mine? What makes you think that, football head?
+ARNALD: Just a feeling. And don't worry. I didn't look inside.
+HOLD arnald none
+HOLD helga locket
+SFX sparkle
+HELGA (smug): Well. Good. Because it's none of your business.
+ARNALD (happy): Good night, Helga.
+EXIT arnald right
+WAIT 1.0
+CLOSE helga
+HELGA (happy): Oh, Arnald. My kind, gentle, football-headed beloved. You didn't even peek.
+HELGA (excited): Someday, Arnald. Someday you'll know.
+SFX ding
+WIDE
+END The End

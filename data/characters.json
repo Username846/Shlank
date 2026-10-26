@@ -18,7 +18,9 @@
 				"female",
 				"google us english"
 			]
-		}
+		},
+		"show": "Bikini Bottom",
+		"home": "pineapple_house"
 	},
 	"pat": {
 		"name": "Pat Starfish",
@@ -39,7 +41,9 @@
 				"male",
 				"google uk english male"
 			]
-		}
+		},
+		"show": "Bikini Bottom",
+		"home": "pat_rock"
 	},
 	"squidwerd": {
 		"name": "Squidwerd",
@@ -59,7 +63,9 @@
 				"uk english male",
 				"male"
 			]
-		}
+		},
+		"show": "Bikini Bottom",
+		"home": "squidwerd_house"
 	},
 	"mr_crabs": {
 		"name": "Mr. Crabs",
@@ -79,7 +85,9 @@
 				"male",
 				"google us english"
 			]
-		}
+		},
+		"show": "Bikini Bottom",
+		"home": "krusty_crab"
 	},
 	"sandy": {
 		"name": "Sandy Acorn",
@@ -97,6 +105,118 @@
 				"karen",
 				"hazel",
 				"moira",
+				"female",
+				"google uk english female"
+			]
+		},
+		"show": "Bikini Bottom",
+		"home": "treedome"
+	},
+	"arnald": {
+		"name": "Arnald",
+		"style": "arnald",
+		"color": "#4a78d0",
+		"width": 60,
+		"show": "Hillwood",
+		"home": "sunset_arms",
+		"bio": "A kind, optimistic fourth-grader with a football-shaped head who lives with his grandparents at a boarding house. Always tries to help.",
+		"catchphrase": "Everybody deserves a second chance.",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.0,
+			"babble": 340,
+			"prefer": [
+				"guy",
+				"alex",
+				"daniel",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"helga": {
+		"name": "Helga Potaki",
+		"style": "helga",
+		"color": "#ef5a9a",
+		"width": 58,
+		"show": "Hillwood",
+		"home": "big_bobs",
+		"bio": "The toughest kid in the fourth grade, with one eyebrow and a big pink bow. Secretly writes love poems about Arnald.",
+		"catchphrase": "Move it, football head!",
+		"voice": {
+			"pitch": 1.35,
+			"rate": 1.15,
+			"babble": 420,
+			"prefer": [
+				"karen",
+				"susan",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"gerold": {
+		"name": "Gerold",
+		"style": "gerold",
+		"color": "#d9473a",
+		"width": 62,
+		"show": "Hillwood",
+		"home": "gerold_field",
+		"bio": "Arnald's cool, level-headed best friend. Keeper of the neighborhood's urban legends. Tall hair, taller confidence.",
+		"catchphrase": "Arnald, my man!",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.05,
+			"babble": 260,
+			"prefer": [
+				"ryan",
+				"christopher",
+				"eric",
+				"male",
+				"google uk english male"
+			]
+		}
+	},
+	"grandpa": {
+		"name": "Grandpa Phil",
+		"style": "grandpa",
+		"color": "#7f8591",
+		"width": 60,
+		"show": "Hillwood",
+		"home": "green_meats",
+		"bio": "Arnald's grandpa. Runs the Sunset Arms boarding house, tells tall tales from the old days, and calls Arnald \"Shortman\".",
+		"catchphrase": "Shortman! Back in my day...",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.9,
+			"babble": 170,
+			"prefer": [
+				"george",
+				"fred",
+				"mark",
+				"male",
+				"uk english male"
+			]
+		}
+	},
+	"phoebee": {
+		"name": "Phoebee",
+		"style": "phoebee",
+		"color": "#3d6fd0",
+		"width": 54,
+		"show": "Hillwood",
+		"home": "classroom",
+		"bio": "Helga's brilliant, loyal best friend. Top of the class, fluent in facts, and always ready with a plan.",
+		"catchphrase": "Excellent! According to my calculations...",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.2,
+			"babble": 500,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
 				"female",
 				"google uk english female"
 			]

@@ -24,7 +24,10 @@ var data: Dictionary = {}
 var style := "sponge"
 var facing := 1:
 	set(v):
-		facing = 1 if v >= 0 else -1
+		var f := 1 if v >= 0 else -1
+		if f != facing:
+			facing = f
+			_redraw_now()  # writing on clothes is drawn un-mirrored
 		scale.x = facing * size_scale
 var size_scale := 1.0:
 	set(v):
@@ -228,6 +231,11 @@ func _draw_body() -> void:
 		"squid": _draw_squid()
 		"crab": _draw_crab()
 		"squirrel": _draw_squirrel()
+		"arnald": _draw_arnald()
+		"helga": _draw_helga()
+		"gerold": _draw_gerold()
+		"grandpa": _draw_grandpa()
+		"phoebee": _draw_phoebee()
 
 
 ## Arm raise amounts for (back, front) arms, 0 = hanging, ~1.5 = horizontal.
@@ -502,6 +510,33 @@ func _draw_prop(hand: Vector2, up: Vector2) -> void:
 				bill.append(xf * p)
 			Art.shape(ci, bill, Color(0.55, 0.85, 0.5), 3.0)
 			Art.text(ci, ThemeDB.fallback_font, xf * Vector2(-6, -16), "$", 18, Color(0.15, 0.45, 0.15), 0, HORIZONTAL_ALIGNMENT_LEFT)
+		"locket":
+			var c := xf * Vector2(0, -22)
+			Art.stroke(ci, PackedVector2Array([xf * Vector2(-4, 6), xf * Vector2(-10, -6), c + Vector2(-3, -12)]), 2.0, Color("c9a13a"))
+			Art.shape(ci, Art.heart(c, 15.0), Color("f2c14e"), 3.0, 0.15)
+			Art.shape(ci, Art.heart(c + Vector2(0, 1), 9.0), Color("f28cb8"), 2.0)
+		"ice_cream":
+			var cone := PackedVector2Array([xf * Vector2(-12, -14), xf * Vector2(12, -14), xf * Vector2(0, 14)])
+			Art.shape(ci, cone, Color("e3a95c"), 3.0)
+			Art.stroke(ci, PackedVector2Array([xf * Vector2(-6, -8), xf * Vector2(4, 4)]), 2.0, Color("b07a3a"))
+			Art.blob(ci, xf * Vector2(0, -22), 15, 12, Color("f7a7c4"), 3.0, 0.1)
+			Art.blob(ci, xf * Vector2(0, -40), 13, 11, Color("7a4a2a"), 3.0, 0.1)
+			Art.dot(ci, xf * Vector2(0, -54), 5, Color("d8352a"))
+		"fishing_rod":
+			var tip := xf * Vector2(10, -150)
+			Art.limb(ci, PackedVector2Array([xf * Vector2(0, 20), tip]), 5, Color("8a5a2b"))
+			var bob := tip + Vector2(46, 60 + sin(_t * 3.0) * 4.0)
+			Art.stroke(ci, Art.curve(tip, tip + Vector2(40, 0), bob, 8), 1.5, Color(1, 1, 1, 0.9))
+			Art.blob(ci, bob, 6, 6, Color("e6452f"), 2.0)
+		"beeper":
+			var box := PackedVector2Array()
+			for p in Art.rrect(Rect2(-14, -30, 28, 20), 4):
+				box.append(xf * p)
+			Art.shape(ci, box, Color("2b2b33"), 3.0)
+			var scr := PackedVector2Array()
+			for p in Art.rrect(Rect2(-9, -26, 18, 8), 2):
+				scr.append(xf * p)
+			Art.fill(ci, scr, Color("9ee66e"))
 
 
 func _leg_swing(side: int) -> float:
@@ -749,3 +784,198 @@ func _draw_squirrel() -> void:
 		Art.blob(ci, fc + Vector2(0, -11).rotated(k * TAU / 5 + sin(_t) * 0.2), 9, 9, Color("c56bd8"), 2.5)
 	Art.blob(ci, fc, 6, 6, Color("f5d63b"), 2.5)
 	_arm(Vector2(46, -148), 1, raise.y, 62, 20, suit, 13, suit)
+
+
+# ------------------------------------------------------------ human kids --
+# Shared pieces for the Hillwood cast.
+
+const SKIN := Color("f6d2b0")
+
+
+## Two legs with optional socks, plus shoes. Drawn back-to-front before the torso.
+func _human_legs(hip_y: float, foot_y: float, sep: float, width: float, leg_col: Color, shoe: Color,
+		sock: Color = Color(0, 0, 0, 0), sock_frac: float = 0.45) -> void:
+	for side in [-1, 1]:
+		var sw := _leg_swing(side)
+		var lift := maxf(0.0, -cos(_walk_phase + (0.0 if side > 0 else PI))) * 6.0 * float(walking)
+		var hip := Vector2(side * sep, hip_y)
+		var foot := Vector2(side * sep + sw * 0.8, foot_y - lift)
+		Art.limb(ci, PackedVector2Array([hip, foot]), width, leg_col)
+		if sock.a > 0.0:
+			Art.limb(ci, PackedVector2Array([hip.lerp(foot, 1.0 - sock_frac), foot]), width + 2.0, sock)
+		Art.blob(ci, foot + Vector2(7, 4), width * 0.55 + 7.0, 8.5, shoe, 3.0, 0.15)
+		Art.dot(ci, foot + Vector2(12, 1), 2.5, Color(1, 1, 1, 0.5))
+
+
+## A simple face-on eyebrow pair that follows the emotion.
+func _brows(y: float, x: float, half_w: float, thick: float, color: Color = Art.INK) -> void:
+	_brow(Vector2(-x, y), half_w, -1, thick, color)
+	_brow(Vector2(x, y), half_w, 1, thick, color)
+
+
+func _draw_arnald() -> void:
+	var sweater := Color("72b85a")
+	var raise := _arm_raise()
+	_arm(Vector2(-28, -122), -1, raise.x, 52, 9, sweater, 8, SKIN)
+	_human_legs(-64, -10, 13, 16, Color("6f8fd6"), Color("3a3340"))
+	# Plaid shirt tails sticking out under the sweater, like a little kilt
+	var kilt := PackedVector2Array([Vector2(-32, -78), Vector2(32, -78), Vector2(36, -56), Vector2(-36, -56)])
+	Art.shape(ci, kilt, Color("cc4a3e"), 3.0)
+	for x in [-22, -6, 10, 26]:
+		Art.stroke(ci, PackedVector2Array([Vector2(x, -77), Vector2(x * 1.08, -57)]), 3.0, Color("3c5fb8"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-34, -67), Vector2(34, -67)]), 3.0, Color("3c5fb8"))
+	# Sweater
+	Art.shape(ci, Art.rrect(Rect2(-30, -132, 60, 60), 14), sweater, 4.0, 0.15)
+	Art.stroke(ci, PackedVector2Array([Vector2(-26, -80), Vector2(26, -80)]), 3.0, sweater.darkened(0.3))
+	Art.shape(ci, Art.rrect(Rect2(-7, -146, 14, 18), 4), SKIN, 3.0)
+	# Football head with ears
+	for sx in [-1, 1]:
+		Art.blob(ci, Vector2(sx * 74, -166), 8, 11, SKIN, 3.0)
+	var head := Art.smooth(PackedVector2Array([Vector2(-94, -184), Vector2(-66, -213), Vector2(0, -229), Vector2(66, -213),
+		Vector2(94, -184), Vector2(64, -152), Vector2(0, -138), Vector2(-64, -152)]), 7)
+	Art.shape(ci, head, SKIN, 4.0, 0.1, Vector2(-14, -8))
+	# Blond hair tuft and the tiny blue cap
+	var tuft := PackedVector2Array([Vector2(-26, -222), Vector2(-20, -238), Vector2(-10, -226), Vector2(-2, -242),
+		Vector2(6, -227), Vector2(16, -240), Vector2(22, -224)])
+	Art.shape(ci, tuft, Color("f2d34b"), 3.0)
+	Art.shape(ci, Art.rrect(Rect2(-12, -251, 24, 15), 6), Color("4a78d0"), 3.0)
+	Art.stroke(ci, PackedVector2Array([Vector2(-16, -237), Vector2(16, -237)]), 4.0)
+	# Face
+	_eye(Vector2(-30, -190), 10, 13, 0, Color(0, 0, 0, 0), -1, 0.0, SKIN)
+	_eye(Vector2(30, -190), 10, 13, 0, Color(0, 0, 0, 0), 1, 0.0, SKIN)
+	_brows(-210, 30, 9, 3.0)
+	Art.stroke(ci, Art.curve(Vector2(0, -180), Vector2(8, -172), Vector2(0, -168), 6), 3.0)
+	_mouth(Vector2(0, -156), 34, 0)
+	_arm(Vector2(28, -122), 1, raise.y, 52, 9, sweater, 8, SKIN)
+
+
+func _draw_helga() -> void:
+	var pink := Color("f28cb8")
+	var hair := Color("f4d24e")
+	var raise := _arm_raise()
+	_arm(Vector2(-25, -122), -1, raise.x, 50, 7, SKIN, 7, SKIN, Color.WHITE, 11)
+	_human_legs(-48, -10, 12, 10, SKIN, Color("26222c"), Color.WHITE, 0.5)
+	# Dress over a white shirt
+	var dress := PackedVector2Array([Vector2(-24, -130), Vector2(24, -130), Vector2(44, -44), Vector2(-44, -44)])
+	Art.shape(ci, dress, pink, 4.0, 0.15)
+	for sx in [-1, 1]:
+		Art.shape(ci, PackedVector2Array([Vector2(0, -132), Vector2(sx * 16, -134), Vector2(sx * 10, -118)]), Color.WHITE, 3.0)
+	Art.shape(ci, Art.rrect(Rect2(-6, -144, 12, 14), 4), SKIN, 3.0)
+	# Pigtails behind the head
+	for sx in [-1, 1]:
+		Art.blob(ci, Vector2(sx * 50, -168), 25, 11, hair, 3.5, 0.1, sx * 0.35)
+	var hc := Vector2(0, -176)
+	var head := Art.ellipse(hc, 40, 42, 40)
+	Art.shape(ci, head, SKIN, 4.0, 0.1)
+	var cap := PackedVector2Array([hc + Vector2(-60, -60), hc + Vector2(60, -60), hc + Vector2(60, -22), hc + Vector2(30, -31),
+		hc + Vector2(0, -27), hc + Vector2(-30, -31), hc + Vector2(-60, -22)])
+	for poly in Geometry2D.intersect_polygons(head, cap):
+		Art.fill(ci, poly, hair)
+	Art.outline(ci, head, 4.0)
+	# Big pink bow
+	var bc := hc + Vector2(0, -44)
+	for sx in [-1, 1]:
+		var loop := PackedVector2Array([bc, bc + Vector2(sx * 34, -18), bc + Vector2(sx * 38, 6), bc + Vector2(sx * 6, 6)])
+		Art.shape(ci, Art.smooth(loop, 4), Color("ef5a9a"), 3.5, 0.12)
+	Art.blob(ci, bc + Vector2(0, -2), 8, 8, Color("ef5a9a"), 3.0)
+	# The famous unibrow: always a little scowly
+	var dip := 6.0
+	match emotion:
+		"happy", "excited": dip = -3.0
+		"sad", "scared": dip = -9.0
+		"angry": dip = 11.0
+		"surprised": dip = -6.0
+	var by := hc.y - 19.0 - (5.0 if emotion in ["surprised", "scared"] else 0.0)
+	Art.limb(ci, Art.curve(Vector2(-28, by - 2), Vector2(0, by + dip * 1.1), Vector2(28, by - 2), 10), 6.0, Art.INK, 0.0)
+	_eye(hc + Vector2(-14, -6), 8, 10, 4, Color("3d6fd0"), -1, 0.0, SKIN)
+	_eye(hc + Vector2(14, -6), 8, 10, 4, Color("3d6fd0"), 1, 0.0, SKIN)
+	Art.stroke(ci, Art.curve(hc + Vector2(1, 2), hc + Vector2(7, 9), hc + Vector2(1, 12), 6), 3.0)
+	_mouth(hc + Vector2(0, 22), 26, 0)
+	_arm(Vector2(25, -122), 1, raise.y, 50, 7, SKIN, 7, SKIN, Color.WHITE, 11)
+
+
+func _draw_gerold() -> void:
+	var skin := Color("8d5b3e")
+	var jersey := Color("d9473a")
+	var raise := _arm_raise()
+	_arm(Vector2(-30, -128), -1, raise.x, 56, 9, skin, 8, skin, jersey, 12)
+	_human_legs(-66, -10, 14, 17, Color("3b4e8c"), Color("f2f2f2"))
+	Art.shape(ci, Art.rrect(Rect2(-32, -138, 64, 76), 14), jersey, 4.0, 0.15)
+	# The node is mirrored when facing left; flip the number back so it never reads "EE".
+	ci.draw_set_transform(-BOUNDS.position * BAKE_SCALE, 0.0, Vector2(BAKE_SCALE * facing, BAKE_SCALE))
+	Art.text(ci, UiKit.TITLE_FONT, Vector2(-32, -90), "33", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 64)
+	ci.draw_set_transform(-BOUNDS.position * BAKE_SCALE, 0.0, Vector2.ONE * BAKE_SCALE)
+	Art.shape(ci, Art.rrect(Rect2(-7, -152, 14, 18), 4), skin, 3.0)
+	# The tower of hair
+	var hair := Art.rrect(Rect2(-36, -328, 72, 150), 34)
+	Art.shape(ci, hair, Color("2b211c"), 4.0, 0.2, Vector2(-10, -8))
+	for sx in [-1, 1]:
+		Art.blob(ci, Vector2(sx * 38, -178), 7, 10, skin, 3.0)
+	var hc := Vector2(0, -182)
+	Art.shape(ci, Art.ellipse(hc, 38, 40, 36), skin, 4.0, 0.12)
+	_eye(hc + Vector2(-14, -8), 9, 10, 0, Color(0, 0, 0, 0), -1, 0.35, skin)
+	_eye(hc + Vector2(14, -8), 9, 10, 0, Color(0, 0, 0, 0), 1, 0.35, skin)
+	_brows(hc.y - 24, 14, 8, 3.5)
+	Art.stroke(ci, Art.curve(hc + Vector2(-6, 8), hc + Vector2(0, 13), hc + Vector2(6, 8), 6), 3.0)
+	_mouth(hc + Vector2(0, 24), 30, 2, Color(0.3, 0.05, 0.08))
+	_arm(Vector2(30, -128), 1, raise.y, 56, 9, skin, 8, skin, jersey, 12)
+
+
+func _draw_grandpa() -> void:
+	var skin := Color("f2c9a5")
+	var shirt := Color("f3f0e6")
+	var raise := _arm_raise()
+	_arm(Vector2(-30, -196), -1, raise.x, 74, 8, skin, 8, skin)
+	_human_legs(-112, -10, 13, 15, Color("7f8591"), Color("6b4428"))
+	# Undershirt, trousers top and belt
+	Art.shape(ci, PackedVector2Array([Vector2(-36, -126), Vector2(36, -126), Vector2(34, -104), Vector2(-34, -104)]), Color("7f8591"), 3.5)
+	var tank := PackedVector2Array([Vector2(-22, -208), Vector2(-12, -208), Vector2(-6, -196), Vector2(6, -196), Vector2(12, -208),
+		Vector2(22, -208), Vector2(34, -186), Vector2(36, -122), Vector2(-36, -122), Vector2(-34, -186)])
+	Art.shape(ci, tank, shirt, 4.0, 0.1)
+	Art.stroke(ci, PackedVector2Array([Vector2(-36, -124), Vector2(36, -124)]), 6.0, Color("5a3a26"))
+	Art.shape(ci, Art.rrect(Rect2(-6, -230, 12, 26), 4), skin, 3.0)
+	# Long head, big ears, white fringe of hair
+	var hc := Vector2(0, -258)
+	for sx in [-1, 1]:
+		Art.blob(ci, hc + Vector2(sx * 33, 4), 9, 14, skin, 3.0)
+	Art.shape(ci, Art.ellipse(hc, 32, 42, 36), skin, 4.0, 0.12)
+	for sx in [-1, 1]:
+		Art.blob(ci, hc + Vector2(sx * 27, -10), 9, 13, Color("eeeeee"), 3.0)
+	for i in 3:
+		Art.stroke(ci, Art.curve(hc + Vector2(-14, -28 + i * 6), hc + Vector2(0, -31 + i * 6), hc + Vector2(14, -28 + i * 6), 6), 2.0, skin.darkened(0.3))
+	_eye(hc + Vector2(-12, -6), 6, 7, 0, Color(0, 0, 0, 0), -1, 0.25, skin)
+	_eye(hc + Vector2(12, -6), 6, 7, 0, Color(0, 0, 0, 0), 1, 0.25, skin)
+	_brows(hc.y - 18, 12, 9, 6.0, Color("eeeeee"))
+	_mouth(hc + Vector2(4, 30), 26, 0)
+	Art.blob(ci, hc + Vector2(8, 12), 11, 13, skin, 3.5, 0.15)
+	_arm(Vector2(30, -196), 1, raise.y, 74, 8, skin, 8, skin)
+
+
+func _draw_phoebee() -> void:
+	var top := Color("9cc8ee")
+	var hair := Color("1d1d2a")
+	var raise := _arm_raise()
+	_arm(Vector2(-22, -110), -1, raise.x, 44, 7, SKIN, 7, SKIN, top, 10)
+	_human_legs(-44, -10, 10, 9, SKIN, Color("26222c"), Color.WHITE, 0.5)
+	Art.shape(ci, PackedVector2Array([Vector2(-24, -72), Vector2(24, -72), Vector2(34, -40), Vector2(-34, -40)]), Color("34508f"), 3.5, 0.12)
+	Art.shape(ci, Art.rrect(Rect2(-23, -120, 46, 52), 12), top, 4.0, 0.12)
+	Art.shape(ci, Art.rrect(Rect2(-6, -132, 12, 14), 4), SKIN, 3.0)
+	var hc := Vector2(0, -162)
+	# Hair: bob behind, bun on top
+	Art.shape(ci, Art.rrect(Rect2(-40, -196, 80, 56), 20), hair, 3.5)
+	Art.blob(ci, hc + Vector2(0, -42), 14, 13, hair, 3.5)
+	Art.shape(ci, Art.rrect(Rect2(-8, -199, 16, 7), 3), Color("e2593a"), 2.5)
+	var head := Art.ellipse(hc, 34, 36, 36)
+	Art.shape(ci, head, SKIN, 4.0, 0.1)
+	var bangs := PackedVector2Array([hc + Vector2(-50, -50), hc + Vector2(50, -50), hc + Vector2(50, -14), hc + Vector2(-50, -14)])
+	for poly in Geometry2D.intersect_polygons(head, bangs):
+		Art.fill(ci, poly, hair)
+	Art.outline(ci, head, 4.0)
+	# Eyes behind big round glasses
+	for sx in [-1, 1]:
+		_eye(hc + Vector2(sx * 13, 2), 6, 7, 0, Color(0, 0, 0, 0), sx, 0.0, SKIN)
+		ci.draw_arc(hc + Vector2(sx * 13, 2), 12, 0, TAU, 24, Art.INK, 3.5)
+	Art.stroke(ci, PackedVector2Array([hc + Vector2(-2, 1), hc + Vector2(2, 1)]), 3.0)
+	_brows(hc.y - 16, 13, 6, 2.5)
+	_mouth(hc + Vector2(0, 22), 18, 0)
+	_arm(Vector2(22, -110), 1, raise.y, 44, 7, SKIN, 7, SKIN, top, 10)

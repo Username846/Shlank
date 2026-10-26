@@ -8,6 +8,7 @@ const SPOTS := {
 }
 
 var title := "Untitled"
+var series := ""
 var number := 0
 var description := ""
 var commands: Array[Dictionary] = []
@@ -30,6 +31,7 @@ static func parse(text: String, characters: Dictionary) -> EpisodeScript:
 			var val := line.substr(sp + 1).strip_edges() if sp > 0 else ""
 			match key:
 				"title": ep.title = val
+				"series": ep.series = val
 				"number": ep.number = int(val)
 				"description": ep.description = val
 			continue
