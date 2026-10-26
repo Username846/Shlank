@@ -1,0 +1,148 @@
+@title The Mineral Show
+@series Breaking Bad
+@icon element
+@number 3
+@description Hank's prize geode is stolen the night before the Albuquerque Mineral Show. Walt and Jessie use science to find it, and Hank has to admit that chemistry teachers are useful after all.
+
+# ------------------------------------------------------------ SCHRAEDER HOUSE
+MUSIC happy
+SCENE schraeder_house cut
+TITLE
+PLACE hank center left excited
+PLACE maree midright left smug
+HANK (excited): Maree, look at her. My prize geode. Big Purple.
+MAREE (smug): Hank, you named a rock.
+HANK (excited): She's not a rock! She's a mineral! An amethyst geode! She's gonna win the Mineral Show tomorrow!
+MAREE (happy): It does match the living room.
+HANK (smug): Everything matches the living room, Maree. Everything's purple.
+MAREE (smug): Exactly.
+
+# ------------------------------------------------------------ SCHRAEDER HOUSE
+MUSIC tense
+SCENE schraeder_house
+CARD The next morning...
+PLACE hank center left scared
+PLACE maree midright left nervous
+HANK (scared): Maree! Big Purple is gone! Somebody stole her!
+MAREE (nervous): Are you sure you didn't leave her in the car?
+HANK (angry): I'm an agent of the law! I don't lose evidence! I don't lose rocks!
+MAREE (smug): Minerals.
+HANK (sad): Minerals.
+HANK (excited): I'm calling Walt. He's a science guy. Science guys understand rocks.
+
+# ------------------------------------------------------------ WHYTE HOUSE
+MUSIC jazz
+SCENE whyte_house
+PLACE walt center right neutral
+PLACE skylar midleft right smug
+SFX beep
+WALT (surprised): Hank says someone stole his geode. He wants me to help find it.
+SKYLAR (smug): He wants you to do science at a crime scene?
+WALT (smug): Every crime scene is a science scene, Skylar.
+SKYLAR (happy): You're excited.
+WALT (shy): A little. It's like a mystery novel. With minerals.
+
+# ------------------------------------------------------------ SCHRAEDER HOUSE
+MUSIC sneaky
+SCENE schraeder_house
+PLACE hank center left nervous
+ENTER walt left midleft excited
+ENTER pinkman left left happy
+HANK (nervous): Walt. Why is your former student here?
+PINKMAN (happy): Yo, I'm his assistant. Lab partner. Science buddy.
+WALT (excited): Look here. Purple dust on the windowsill. Amethyst dust. The thief went out the window.
+HANK (surprised): That's good, Walt.
+WALT (smug): And there's a smudge. Motor oil and... something sweet. Like cotton candy.
+PINKMAN (excited): Cotton candy and motor oil? Yo, that's a weird combo.
+
+# ------------------------------------------------------------ DEA OFFICE
+MUSIC tense 2
+SCENE dea_office
+PLACE hank center left excited
+PLACE walt midright left smug
+HANK (excited): Motor oil and cotton candy. Where do you find both?
+WALT (smug): A fair. The traveling carnival is setting up next to the Mineral Show.
+HANK (surprised): The carnival guys stole Big Purple?
+WALT (nervous): Not necessarily. Maybe someone who walked through the carnival on the way to your house.
+HANK (smug): Walt, you're a natural detective. You ever think about joining the DEA?
+WALT (smug): I'm happy with my test tubes, Hank.
+
+# ------------------------------------------------------------ JUNKYARD
+MUSIC sneaky 2
+SCENE junkyard
+PLACE badgur center left nervous
+PLACE skinnee_pete midright left nervous
+BADGUR (nervous): Dude, I think we messed up.
+SKINNEE_PETE (nervous): Yeah. We definitely messed up.
+BADGUR (sad): When Jessie said "get a rock for the Mineral Show," I didn't think he meant a SPECIFIC rock.
+SKINNEE_PETE (sad): And we took it from the house of a DEA agent.
+BADGUR (scared): Through the window. After the carnival.
+SKINNEE_PETE (scared): We are so dead.
+
+# ------------------------------------------------------------ PINKMANN HOUSE
+MUSIC tense
+SCENE pinkman_house
+PLACE pinkman center left surprised
+ENTER badgur right midright nervous
+ENTER skinnee_pete right right nervous
+BADGUR (nervous): Yo, Jessie. We got you a rock. For the show. You said you wanted to enter.
+PINKMAN (surprised): Yo, that's not a rock. That's Big Purple. That's Hank's geode!
+SKINNEE_PETE (scared): Hank? The DEA guy Hank?
+PINKMAN (angry): I said BUY a rock! At the rock store!
+BADGUR (sad): Rock stores are expensive, man.
+PINKMAN (nervous): We gotta give it back. Before Mister Whyte figures it out.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC jazz 2
+SCENE saul_office
+PLACE saul center left excited
+ENTER pinkman left midleft nervous
+SAUL (excited): Jessie! What can I do for you? Lawsuit? Bail? Rock-related legal trouble?
+PINKMAN (nervous): How'd you know it was rock-related?
+SAUL (smug): You're holding a giant purple rock.
+PINKMAN (sad): My friends took it from Hank's house. How do we give it back without anyone getting in trouble?
+SAUL (smug): Simple. Anonymous return. Leave it at the Mineral Show with a note. "Found this. Sorry." Classic.
+PINKMAN (happy): That's actually good advice.
+
+# ------------------------------------------------------------ CAR WASH
+MUSIC action
+SCENE car_wash
+CARD The Albuquerque Mineral Show...
+PLACE hank center left sad
+PLACE walt midleft right neutral
+PLACE maree midright left nervous
+HANK (sad): Look at everyone's minerals. Quartz. Turquoise. Pyrite. And I've got nothing.
+WALT: We'll find her, Hank.
+MAREE (nervous): Hank, there's a box at the judges' table with your name on it.
+HANK (surprised): What?
+SFX drumroll
+HANK (excited): It's Big Purple! And a note! "Found this. Sorry. Signed, A Concerned Citizen."
+MAREE (smug): Concerned Citizen has terrible handwriting.
+
+# ------------------------------------------------------------ CAR WASH
+MUSIC sneaky 3
+SCENE car_wash
+PLACE walt center left smug
+ENTER pinkman right midright nervous
+WALT (smug): Jessie. A Concerned Citizen, hmm?
+PINKMAN (nervous): Yo, I don't know what you're talking about.
+WALT (smug): The note smells like cotton candy and motor oil.
+PINKMAN (sad): Okay. It was Badgur and Pete. They meant well. Kind of.
+WALT (happy): Then we'll keep it between us. Hank got his mineral back. That's what matters.
+PINKMAN (happy): You're cool, Mister Whyte.
+
+# ------------------------------------------------------------ CAR WASH
+MUSIC happy 2
+SCENE car_wash
+PLACE hank center left excited
+PLACE walt midleft right happy
+PLACE maree midright left happy
+PLACE flynn left right happy
+HANK (excited): First place! Big Purple wins the Albuquerque Mineral Show!
+SFX fanfare
+MAREE (happy): Congratulations, honey.
+FLYNN (excited): Uncle Hank, can I hold the trophy?
+HANK (happy): Sure, kid. And Walt? Thanks. Your science stuff actually helped.
+WALT (smug): Chemistry is the study of change, Hank. Including changing your mind about chemistry teachers.
+HANK (smug): Don't push it, Walt.
+END

@@ -1,0 +1,166 @@
+@title Father and Son Science Fair
+@series Breaking Bad
+@icon element
+@number 5
+@description Flynn needs a science fair project, and Walt is determined to help. A little too determined. The volcano is about to get extremely precise.
+
+# ------------------------------------------------------------ WHYTE HOUSE
+MUSIC happy
+SCENE whyte_house cut
+TITLE
+PLACE flynn center left nervous
+PLACE walt midleft right excited
+FLYNN (nervous): Dad, the science fair is on Friday and I don't have a project.
+WALT (excited): Flynn! This is the greatest day of my life!
+FLYNN (surprised): It is?
+WALT (excited): A science project! With my son! We'll do something incredible. Crystal growth. Electrochemistry. A precision titration!
+FLYNN (nervous): I was thinking a volcano.
+WALT (sad): A volcano.
+FLYNN (happy): With baking soda. And red food coloring.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC jazz
+SCENE chem_class
+PLACE walt center left nervous
+PLACE pinkman midright left happy
+WALT (nervous): Jessie, my son wants to make a baking soda volcano.
+PINKMAN (excited): Yo, volcanoes are awesome!
+WALT (sad): It's the most basic experiment in science.
+PINKMAN (smug): So make it the best basic experiment, yo. Like, the best volcano ever.
+WALT (excited): The best volcano ever. Jessie, you're right.
+PINKMAN (happy): I'm always right. Except about grades.
+
+# ------------------------------------------------------------ WHYTE BACKYARD
+MUSIC sneaky
+SCENE whyte_backyard
+PLACE walt center right excited
+PLACE flynn midleft right nervous
+WALT (excited): Okay, Flynn. Step one. We calculate the exact ratio of vinegar to baking soda.
+FLYNN (nervous): Can't we just pour it in?
+WALT (smug): Pour it in? Like animals? No. We measure. Point three moles of sodium bicarbonate.
+FLYNN (surprised): Dad, you're wearing safety goggles.
+WALT (smug): Safety is the first rule of chemistry.
+FLYNN (happy): Can I wear goggles too?
+WALT (happy): I have a pair in your size. I've been waiting years to give them to you.
+
+# ------------------------------------------------------------ SCHRAEDER HOUSE
+MUSIC jazz 2
+SCENE schraeder_house
+PLACE hank center left excited
+PLACE maree midright left smug
+HANK (excited): Maree, Flynn's science fair is Friday. I'm gonna help him with his project. Minerals!
+MAREE (smug): Walt is already helping him.
+HANK (surprised): With what?
+MAREE (smug): A volcano.
+HANK (excited): A volcano is basically a mineral factory! I'm bringing lava rocks!
+MAREE (nervous): Hank, don't compete with Walt.
+HANK (smug): It's not competing, Maree. It's helping. Aggressively.
+
+# ------------------------------------------------------------ WHYTE BACKYARD
+MUSIC action
+SCENE whyte_backyard
+PLACE walt midleft right excited
+PLACE flynn center left nervous
+ENTER hank right midright excited
+HANK (excited): Flynn! I brought real lava rocks! For your volcano!
+WALT (angry): Hank, it's a chemical model. It doesn't need real lava rocks.
+HANK (smug): Every volcano needs real lava rocks, Walt.
+FLYNN (nervous): Guys, it's my project.
+WALT (smug): The ratio is perfect. The rocks will throw off my calculations.
+HANK (angry): Your calculations will throw off my rocks!
+
+# ------------------------------------------------------------ WHYTE HOUSE
+MUSIC sad
+SCENE whyte_house
+PLACE flynn center left sad
+PLACE skylar midright left neutral
+FLYNN (sad): Mom, Dad and Uncle Hank are fighting about my volcano. It's not even my volcano anymore.
+SKYLAR (smug): That's what happens when grown-ups get excited.
+FLYNN (sad): I just wanted to make something cool. With Dad.
+SKYLAR (happy): Then tell him that. Just like that.
+FLYNN (nervous): What if he gets sad?
+SKYLAR (smug): He's your dad. He'll be fine. Eventually.
+
+# ------------------------------------------------------------ PINKMANN HOUSE
+MUSIC jazz 3
+SCENE pinkman_house
+PLACE pinkman center left happy
+PLACE badgur midright left excited
+PLACE skinnee_pete right left happy
+BADGUR (excited): Yo, a science fair? Back in school, I made a volcano too.
+PINKMAN (surprised): You did?
+BADGUR (smug): It didn't erupt. It just kind of sighed.
+SKINNEE_PETE (smug): Mine was a potato battery. It powered nothing.
+PINKMAN (happy): Mister Whyte's gonna make Flynn's volcano legendary.
+SKINNEE_PETE (smug): Word.
+
+# ------------------------------------------------------------ WHYTE BACKYARD
+MUSIC romantic
+SCENE whyte_backyard
+PLACE walt center right sad
+ENTER flynn left midleft nervous
+FLYNN (nervous): Dad? Can I tell you something?
+WALT (sad): Of course, son.
+FLYNN (nervous): I don't care if it's perfect. I just like doing it with you.
+WALT (surprised): You do?
+FLYNN (happy): Yeah. You get really excited about science. It's kind of cool.
+WALT (shy): Flynn. That's the nicest thing anyone's ever said to me.
+WALT (happy): Let's make it messy. And fun. Your way.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC jazz 2
+SCENE saul_office
+PLACE saul center left excited
+ENTER hank left midleft nervous
+SAUL (excited): Hank! What brings an officer of the law to my humble office?
+HANK (nervous): I need advice. Walt's mad at me about a volcano.
+SAUL (smug): Volcano disputes. Very common. Here's my advice. Apologize, and bring snacks.
+HANK (surprised): That's it?
+SAUL (happy): That's ninety percent of law, Hank. Apologies and snacks.
+HANK (smug): What's the other ten percent?
+SAUL (excited): Billboards!
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC tense
+SCENE chem_class
+CARD The science fair...
+PLACE gus center left neutral
+PLACE flynn midleft right nervous
+PLACE walt left right happy
+GUS: Good afternoon. Los Pollitos Hermanos is proud to sponsor this year's science fair. I will be judging.
+FLYNN (nervous): Mister Frinng is the judge?
+WALT (nervous): He's very polite. And very strict.
+GUS (smug): Young man. Your project?
+FLYNN (excited): A volcano! With a twist!
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC action 2
+SCENE chem_class
+PLACE flynn center right excited
+PLACE gus midright left neutral
+PLACE hank left right excited
+FLYNN (excited): Baking soda, vinegar, red coloring, and Uncle Hank's lava rocks. Dad helped me measure. A little.
+HANK (excited): Those are real lava rocks!
+SFX splat
+SHAKE 0.5
+GUS (surprised): The foam is... shaped like a chicken.
+FLYNN (happy): We did that on purpose. For you. We put a cookie cutter on top.
+GUS (happy): I am very impressed.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC happy 2
+SCENE chem_class
+PLACE gus center left happy
+PLACE flynn midleft right excited
+PLACE walt left right happy
+PLACE skylar midright left happy
+GUS (happy): First prize goes to Flynn Whyte, for the Chicken Volcano.
+SFX fanfare
+FLYNN (excited): I won! Dad, we won!
+WALT (happy): You won, son. I just wore the goggles.
+SKYLAR (happy): I'm proud of you both.
+FLYNN (excited): Can we celebrate with breakfast?
+WALT (happy): It's four in the afternoon.
+FLYNN (excited): Breakfast for dinner!
+WALT (smug): Breakfast for dinner it is.
+END
