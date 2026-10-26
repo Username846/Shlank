@@ -257,8 +257,13 @@ func _process(delta: float) -> void:
 			_cam.offset = Vector2.ZERO
 	var hud_a := 1.0 if (_hud_idle < 2.5 or _paused) else 0.0
 	_hud.modulate.a = move_toward(_hud.modulate.a, hud_a, delta * 4.0)
-	_progress.value = clampf(_done_time / _total, 0.0, 1.0)
-	_time_label.text = "%s / %s" % [UiKit.fmt_time(_done_time), UiKit.fmt_time(_total)]
+	# Only touch the bar/label when they change visibly (each redraw costs GPU uploads).
+	var prog := snappedf(clampf(_done_time / _total, 0.0, 1.0), 0.002)
+	if prog != _progress.value:
+		_progress.value = prog
+	var tl := "%s / %s" % [UiKit.fmt_time(_done_time), UiKit.fmt_time(_total)]
+	if tl != _time_label.text:
+		_time_label.text = tl
 
 
 ## Waits `sec` seconds of un-paused time. Returns early when skipping if `skippable`.

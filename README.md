@@ -29,7 +29,22 @@ dialogue is voiced with a speech synthesizer.
   locations, and change settings (voice mode, subtitles, volume).
 
 Controls while watching: **Space** pauses, **→ / Enter / click** skips the
-current line, and **Esc** opens the pause menu.
+current line, and **Esc** opens the pause menu. **F3** (or adding `?debug` to
+the page URL) shows a performance overlay.
+
+### Performance notes
+
+Everything is vector-drawn, and in the browser every re-drawn shape costs a GPU
+buffer upload, so the drawing is cached aggressively:
+
+- Location sets are rendered once into a texture (`Backdrop`). Only the moving
+  scenery is redrawn, at 15 fps, and bubbles are textured quads.
+- Each character renders into its own offscreen texture (`Puppet`), which is
+  only refreshed while something in the drawing changes (talking, walking,
+  blinking), at most 15 fps. That's Flash-style animation "on twos". The
+  smooth bob, hop and squash move the texture every frame.
+- Offscreen renders are supersampled 2×, so they skip per-shape
+  anti-aliasing.
 
 ## Writing episodes
 

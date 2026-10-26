@@ -49,7 +49,8 @@ func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	var gen := AudioStreamGenerator.new()
 	gen.mix_rate = RATE
-	gen.buffer_length = 0.15
+	# Generous buffer: the mixer runs on the main thread, so it must survive a slow frame.
+	gen.buffer_length = 0.35
 	_player = AudioStreamPlayer.new()
 	_player.stream = gen
 	# Web builds default to "sample" playback, which can't play generated audio.

@@ -18,7 +18,54 @@ func _ready() -> void:
 		for err in sc.errors:
 			push_warning("%s: %s" % [path, err])
 		_episodes.append({"path": path, "script": sc})
+	_setup_perf_overlay()
 	show_menu()
+
+
+# ------------------------------------------------------- perf overlay (F3) --
+
+var _perf_label: Label
+var _perf_t := 0.0
+
+
+func _setup_perf_overlay() -> void:
+	var layer := CanvasLayer.new()
+	layer.layer = 100
+	add_child(layer)
+	_perf_label = UiKit.label("", 16, Color.WHITE)
+	_perf_label.add_theme_constant_override("outline_size", 5)
+	_perf_label.add_theme_color_override("font_outline_color", Art.INK)
+	_perf_label.position = Vector2(10, 690)
+	_perf_label.autowrap_mode = TextServer.AUTOWRAP_OFF
+	layer.add_child(_perf_label)
+	RenderingServer.viewport_set_measure_render_time(get_viewport().get_viewport_rid(), true)
+	var debug := false
+	if OS.has_feature("web"):
+		debug = str(JavaScriptBridge.eval("window.location.search")).contains("debug")
+	_perf_label.visible = debug
+
+
+func _unhandled_key_input(event: InputEvent) -> void:
+	if event is InputEventKey and event.pressed and event.keycode == KEY_F3:
+		_perf_label.visible = not _perf_label.visible
+
+
+func _process(delta: float) -> void:
+	if not _perf_label.visible:
+		return
+	_perf_t -= delta
+	if _perf_t > 0.0:
+		return
+	_perf_t = 0.5
+	var vp := get_viewport().get_viewport_rid()
+	_perf_label.text = "%d fps | script %.1f ms | render cpu %.1f ms gpu %.1f ms | draw calls %d" % [
+		Engine.get_frames_per_second(),
+		Performance.get_monitor(Performance.TIME_PROCESS) * 1000.0,
+		RenderingServer.viewport_get_measured_render_time_cpu(vp) + RenderingServer.get_frame_setup_time_cpu(),
+		RenderingServer.viewport_get_measured_render_time_gpu(vp),
+		Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)]
+	if OS.has_feature("web") and str(JavaScriptBridge.eval("window.location.search")).contains("debug"):
+		print("PERF ", _perf_label.text)
 
 
 func _set_screen(n: Node) -> void:

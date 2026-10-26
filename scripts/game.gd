@@ -15,6 +15,7 @@ var voice_volume := 0.9
 
 var _tts_voices: Array = []
 var _voice_cache: Dictionary = {}
+var _last_voice_check := -100000
 
 
 func _ready() -> void:
@@ -85,7 +86,9 @@ func refresh_voices() -> void:
 
 
 func tts_available() -> bool:
-	if _tts_voices.is_empty():
+	# Browsers load voices asynchronously; re-check now and then, not every frame.
+	if _tts_voices.is_empty() and Time.get_ticks_msec() - _last_voice_check > 2000:
+		_last_voice_check = Time.get_ticks_msec()
 		refresh_voices()
 	return not _tts_voices.is_empty()
 

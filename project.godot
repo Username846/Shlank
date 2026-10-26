@@ -26,6 +26,7 @@ Game="*res://scripts/game.gd"
 
 general/text_to_speech=true
 general/default_playback_type.web=0
+driver/output_latency.web=100
 
 [display]
 
