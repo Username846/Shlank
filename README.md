@@ -127,7 +127,9 @@ Lines starting with `#` are comments.
 - Each show's scene transition lives in `data/shows.json`. The styles are
   `bubbles` (the underwater bubble wipe), `iris` (a cartoon iris-out that
   closes on whoever spoke last) and `fade`, which shows without an entry get.
-  Each show also sets the sound that plays with its transition.
+  Each show also sets the sound that plays with its transition, plus the
+  badge on its episode cards (`icon`: `bubbles` or `city`). A show without an
+  icon gets its initials on a badge in its `color`.
 - A new episode goes in `data/episodes/` and gets listed in
   `data/episodes/index.json`. Use `@series` to show the series name on the
   episode card and title card.

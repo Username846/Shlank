@@ -1,10 +1,14 @@
 {
 	"Bikini Bottom": {
 		"transition": "bubbles",
-		"transition_sfx": "bubbles"
+		"transition_sfx": "bubbles",
+		"icon": "bubbles",
+		"color": "#3d8fe0"
 	},
 	"Hillwood": {
 		"transition": "iris",
-		"transition_sfx": "slide_whistle"
+		"transition_sfx": "slide_whistle",
+		"icon": "city",
+		"color": "#d9473a"
 	}
 }

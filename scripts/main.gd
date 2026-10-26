@@ -252,27 +252,19 @@ func show_episodes() -> void:
 		var hb := HBoxContainer.new()
 		hb.add_theme_constant_override("separation", 18)
 		card.add_child(hb)
-		var badge := UiKit.title_label(str(sc.number), 64, UiKit.YELLOW)
-		badge.custom_minimum_size = Vector2(80, 0)
-		hb.add_child(badge)
+		hb.add_child(ShowIcon.make(sc.series, 92.0))
 		var vb := VBoxContainer.new()
 		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		hb.add_child(vb)
-		if sc.series != "":
-			var series := UiKit.label(sc.series.to_upper(), 16, UiKit.BLUE)
-			vb.add_child(series)
+		var series_text := ("%s  •  EPISODE %d" % [sc.series.to_upper(), sc.number]) if sc.series != "" else "EPISODE %d" % sc.number
+		vb.add_child(UiKit.label(series_text, 16, UiKit.BLUE))
 		var t := UiKit.title_label(sc.title.to_upper(), 34, UiKit.RED)
 		t.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 		vb.add_child(t)
 		var d := UiKit.label(sc.description, 20)
 		d.custom_minimum_size = Vector2(480, 0)
 		vb.add_child(d)
-		var cast := {}
-		for c in sc.commands:
-			if c.has("who") and c.who != "" and c.who != "narrator":
-				cast[Game.characters.get(c.who, {}).get("name", c.who)] = true
-		var meta := UiKit.label("Runtime ~%s  •  %d lines  •  Starring %s" % [UiKit.fmt_time(sc.estimate_duration()),
-			sc.commands.filter(func(c): return c.type == "say").size(), ", ".join(cast.keys())], 16, Color(0.3, 0.3, 0.35))
+		var meta := UiKit.label("Runtime ~%s" % UiKit.fmt_time(sc.estimate_duration()), 16, Color(0.3, 0.3, 0.35))
 		vb.add_child(meta)
 		var play := UiKit.button("PLAY", UiKit.YELLOW, 34)
 		play.custom_minimum_size = Vector2(150, 80)
