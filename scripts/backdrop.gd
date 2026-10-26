@@ -156,6 +156,7 @@ func _draw_set() -> void:
 		"green_meats": _green_meats()
 		"hillwood_pier": _hillwood_pier()
 		"rooftop": _rooftop()
+		"title_stage": _title_stage()
 		_: _sea_sky()
 
 
@@ -262,7 +263,7 @@ func _coral(c: Vector2, s: float, color: Color) -> void:
 
 
 func is_underwater() -> bool:
-	return String(Game.locations.get(location, {}).get("show", "Bikini Bottom")) == "Bikini Bottom"
+	return String(Game.locations.get(location, {}).get("show", "")) == "Bikini Bottom"
 
 
 func _draw_bubbles() -> void:
@@ -1046,6 +1047,8 @@ func _rooftop() -> void:
 
 func _fx_hillwood() -> void:
 	match location:
+		"title_stage":
+			_title_stage_fx()
 		"ps118":
 			# Waving flag
 			var pts := PackedVector2Array()
@@ -1102,3 +1105,135 @@ func _fx_hillwood() -> void:
 				var p := Vector2(_rng.randf_range(0, W), _rng.randf_range(10, 260))
 				var tw := 0.4 + 0.6 * absf(sin(_t * _rng.randf_range(1.0, 3.0) + i))
 				ci.draw_circle(p, _rng.randf_range(1.5, 3.0), Color(1, 1, 0.9, tw))
+
+
+
+# ============================================================ TITLE STAGE ==
+# A generic cartoon theater for the title screen (not listed as a location).
+
+const MARQUEE := Rect2(372, 62, 536, 196)
+static var _glow_tex: GradientTexture2D
+
+
+func _title_stage() -> void:
+	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("2a0f2e"), Color("4a1636"))
+	_sky_bottom = Color("4a1636")
+	# Back wall glow behind the sign
+	Art.blob(ci, MARQUEE.get_center(), 520, 300, Color(1, 0.6, 0.4, 0.08), 0.0)
+	# Stage floor
+	var floor_top := 600.0
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, floor_top), Vector2(W + PAD, floor_top), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("9b5f34"))
+	for i in 5:
+		var y := floor_top + 14 + i * 22.0
+		Art.stroke(ci, PackedVector2Array([Vector2(-PAD, y), Vector2(W + PAD, y)]), 2.0, Color("6e3f20"))
+	for i in 16:
+		var x := 640.0 + (i - 7.5) * 120.0
+		Art.stroke(ci, PackedVector2Array([Vector2(640 + (x - 640) * 0.8, floor_top), Vector2(640 + (x - 640) * 1.25, H + PAD)]), 1.5, Color("7a4826"))
+	Art.fill(ci, PackedVector2Array([Vector2(-PAD, floor_top - 8), Vector2(W + PAD, floor_top - 8), Vector2(W + PAD, floor_top + 4), Vector2(-PAD, floor_top + 4)]), Color("c8a04a"))
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, floor_top - 8), Vector2(W + PAD, floor_top - 8)]), 4.0)
+	# Curtains, gathered to each side
+	for side in [-1, 1]:
+		_curtain(side)
+	# Valance with scallops, gold trim and tassels
+	var val := PackedVector2Array([Vector2(-PAD, -PAD), Vector2(W + PAD, -PAD), Vector2(W + PAD, 40)])
+	var n := 12
+	for i in range(n, -1, -1):
+		var x0 := lerpf(-PAD, W + PAD, float(i) / n)
+		var x1 := lerpf(-PAD, W + PAD, float(i - 1) / n) if i > 0 else -PAD
+		val.append(Vector2(x0, 40))
+		if i > 0:
+			for k in range(1, 8):
+				var t := k / 8.0
+				val.append(Vector2(lerpf(x0, x1, t), 40 + sin(t * PI) * 26))
+	Art.shape(ci, val, Color("b3202f"), 4.0, 0.15, Vector2(0, -10))
+	for i in n:
+		var cx := lerpf(-PAD, W + PAD, (i + 0.5) / n)
+		Art.limb(ci, PackedVector2Array([Vector2(cx, 64), Vector2(cx, 80)]), 4, Color("f2c14e"), 2.0)
+		Art.blob(ci, Vector2(cx, 86), 6, 8, Color("f2c14e"), 2.5)
+	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 36), Vector2(W + PAD, 36)]), 6.0, Color("f2c14e"))
+	# Marquee sign (lit bulbs are in the moving layer)
+	Art.shape(ci, Art.rrect(MARQUEE.grow(14), 28), Color("f2c14e"), 5.0, 0.15)
+	Art.shape(ci, Art.rrect(MARQUEE, 18), Color("2c1530"), 4.0)
+	for p in _bulb_positions():
+		Art.dot(ci, p, 7, Color("7a5a20"))
+		ci.draw_arc(p, 7, 0, TAU, 12, Art.INK, 2.0)
+	# Audience silhouettes in the front row
+	_rng.seed = 314
+	var x := -PAD
+	while x < W + PAD:
+		var r := _rng.randf_range(30, 40)
+		var hc := Vector2(x, H - 8 + _rng.randf_range(-6, 6))
+		Art.blob(ci, hc + Vector2(0, 40), r * 1.5, 40, Color("140812"), 0.0)
+		Art.blob(ci, hc - Vector2(0, r * 0.4), r * 0.75, r * 0.85, Color("140812"), 0.0)
+		x += r * 2.4
+
+
+func _curtain(side: int) -> void:
+	var inner := 300.0 if side < 0 else 980.0
+	var outer := -PAD if side < 0 else W + PAD
+	var tie_y := 430.0
+	var pts := PackedVector2Array()
+	pts.append(Vector2(outer, -PAD))
+	pts.append(Vector2(inner + side * -10.0, -PAD))
+	pts.append(Vector2(inner - side * 120.0, tie_y))
+	pts.append(Vector2(inner + side * 30.0, 610))
+	pts.append(Vector2(outer, 610))
+	var body := Art.smooth(pts, 6)
+	Art.shape(ci, body, Color("c1272d"), 5.0, 0.2, Vector2(side * 30.0, 0))
+	# Folds
+	for k in 5:
+		var f := (k + 1) / 6.0
+		var top := Vector2(lerpf(outer, inner, f), -PAD)
+		var mid := Vector2(lerpf(outer, inner - side * 120.0, f), tie_y)
+		var bot := Vector2(lerpf(outer, inner + side * 30.0, f), 600)
+		for seg in Geometry2D.intersect_polyline_with_polygon(Art.curve(top, mid, mid, 10) + Art.curve(mid, bot, bot, 8), body):
+			Art.stroke(ci, seg, 4.0, Color("8a1620"))
+	# Gold tie-back
+	var tie := Vector2(lerpf(outer, inner - side * 120.0, 0.55), tie_y)
+	Art.shape(ci, Art.rrect(Rect2(tie - Vector2(26, 9), Vector2(52, 18)), 8), Color("f2c14e"), 3.5)
+	Art.blob(ci, tie + Vector2(side * 22, 24), 7, 12, Color("f2c14e"), 3.0)
+
+
+func _bulb_positions() -> PackedVector2Array:
+	var r := MARQUEE.grow(4)
+	var pts := PackedVector2Array()
+	var step := 34.0
+	var nx := int(r.size.x / step)
+	var ny := int(r.size.y / step)
+	for i in nx + 1:
+		pts.append(Vector2(r.position.x + r.size.x * i / nx, r.position.y))
+	for i in range(1, ny + 1):
+		pts.append(Vector2(r.end.x, r.position.y + r.size.y * i / ny))
+	for i in range(nx - 1, -1, -1):
+		pts.append(Vector2(r.position.x + r.size.x * i / nx, r.end.y))
+	for i in range(ny - 1, 0, -1):
+		pts.append(Vector2(r.position.x, r.position.y + r.size.y * i / ny))
+	return pts
+
+
+func _title_stage_fx() -> void:
+	if _glow_tex == null:
+		_glow_tex = GradientTexture2D.new()
+		_glow_tex.fill = GradientTexture2D.FILL_RADIAL
+		_glow_tex.fill_from = Vector2(0.5, 0.5)
+		_glow_tex.fill_to = Vector2(1.0, 0.5)
+		var g := Gradient.new()
+		g.set_color(0, Color(1, 1, 0.85, 1))
+		g.set_color(1, Color(1, 0.8, 0.3, 0))
+		g.add_point(0.25, Color(1, 0.95, 0.6, 1))
+		_glow_tex.gradient = g
+	# Sweeping spotlights from the top corners
+	for side in [-1, 1]:
+		var src := Vector2(640 + side * 700, -PAD)
+		var aim := Vector2(640 + side * -60 + sin(_t * 0.7 + side) * 260, 600)
+		var dir := (aim - src).normalized()
+		var perp := Vector2(-dir.y, dir.x)
+		var far := src + dir * 1100
+		ci.draw_colored_polygon(PackedVector2Array([src + perp * 12, src - perp * 12, far - perp * 170, far + perp * 170]), Color(1, 0.95, 0.75, 0.07))
+		ci.draw_colored_polygon(PackedVector2Array([src + perp * 6, src - perp * 6, far - perp * 90, far + perp * 90]), Color(1, 0.95, 0.75, 0.07))
+	# Chasing marquee bulbs
+	var bulbs := _bulb_positions()
+	var chase := int(_t * 10.0)
+	for i in bulbs.size():
+		if (i + chase) % 3 != 0:
+			ci.draw_texture_rect(_glow_tex, Rect2(bulbs[i] - Vector2(14, 14), Vector2(28, 28)), false)

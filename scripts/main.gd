@@ -190,47 +190,24 @@ func _back_button(root: Control) -> void:
 
 # ----------------------------------------------------------------- menu --
 
-func _shows() -> Array:
-	var shows := []
-	for id in _cast_order:
-		var sh: String = Game.characters[id].get("show", "")
-		if not shows.has(sh):
-			shows.append(sh)
-	return shows
-
-
 func show_menu() -> void:
-	# Each visit to the menu features one show's cast in front of its first location.
-	var show: String = _shows().pick_random()
-	var crowd := _cast_order.filter(func(id): return Game.characters[id].get("show", "") == show).slice(0, 5)
-	var home: String = _location_order.filter(func(l): return Game.locations[l].get("show", "") == show)[0]
-	Synth.set_mood("happy" if show == "Bikini Bottom" else "jazz")
-	var root := _screen_root(home)
+	Synth.set_mood("happy")
+	var root := _screen_root("title_stage")
 	_set_screen(root)
-	var xs := [170.0, 330.0, 950.0, 1110.0, 1230.0]
-	var faces := [1, 1, -1, -1, -1]
-	for i in crowd.size():
-		var p := Puppet.new()
-		p.setup(crowd[i], Game.characters[crowd[i]])
-		p.position = Vector2(xs[i], 690)
-		p.facing = faces[i]
-		p.size_scale = 0.8
-		root.add_child(p)
-		_menu_idle(p)
-	var logo := UiKit.title_label("SHLANK", 140, UiKit.YELLOW)
-	logo.position = Vector2(390, 30)
-	logo.size = Vector2(500, 160)
-	logo.pivot_offset = Vector2(250, 80)
+	var logo := UiKit.title_label("SHLANK", 124, UiKit.YELLOW)
+	logo.position = Vector2(390, 76)
+	logo.size = Vector2(500, 150)
+	logo.pivot_offset = Vector2(250, 75)
 	root.add_child(logo)
 	var tw := logo.create_tween().set_loops()
 	tw.tween_property(logo, "rotation", 0.03, 1.2).set_trans(Tween.TRANS_SINE)
 	tw.tween_property(logo, "rotation", -0.03, 1.2).set_trans(Tween.TRANS_SINE)
 	var sub := UiKit.title_label("CARTOON THEATER", 34, Color.WHITE)
-	sub.position = Vector2(390, 180)
+	sub.position = Vector2(390, 200)
 	sub.size = Vector2(500, 50)
 	root.add_child(sub)
 	var box := VBoxContainer.new()
-	box.position = Vector2(470, 250)
+	box.position = Vector2(470, 292)
 	box.size = Vector2(340, 300)
 	box.add_theme_constant_override("separation", 14)
 	root.add_child(box)
@@ -244,19 +221,9 @@ func show_menu() -> void:
 	hint.add_theme_constant_override("outline_size", 5)
 	hint.add_theme_color_override("font_outline_color", Art.INK)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	hint.position = Vector2(340, 560)
+	hint.position = Vector2(340, 612)
 	hint.size = Vector2(600, 30)
 	root.add_child(hint)
-
-
-## Little idle behaviours for the menu crowd.
-func _menu_idle(p: Puppet) -> void:
-	var tw := p.create_tween().set_loops()
-	tw.tween_interval(randf_range(2.0, 5.0))
-	tw.tween_callback(func() -> void:
-		p.set_emotion(["happy", "neutral", "excited", "smug", "surprised"].pick_random()))
-	tw.tween_interval(randf_range(2.0, 4.0))
-	tw.tween_callback(func() -> void: p.set_emotion("neutral"))
 
 
 # ------------------------------------------------------------- episodes --
