@@ -1,0 +1,147 @@
+@title The Royal Diet
+@series Kirby
+@icon warpstar
+@number 4
+@description The royal doctor has put King Dedeedee on a diet. No cake, no pie, no snacks. Then snacks start disappearing all over Dream Land, and the king insists it's definitely, absolutely not him.
+
+# ------------------------------------------------------------ DEDEEDEE'S THRONE ROOM
+MUSIC sad
+SCENE dedeedee_throne cut
+TITLE
+PLACE dedeedee center left sad
+PLACE waddle_dii midright left nervous
+WADDLE_DII (nervous): Your Majesty, the doctor says no more cake. Only vegetables.
+DEDEEDEE (sad): Vegetables? Like a common peasant?
+WADDLE_DII (nervous): And walks. Every day. Around the castle.
+DEDEEDEE (angry): Walks?! I'm the king! The castle walks around ME!
+WADDLE_DII (smug): The doctor says the castle will not walk around you.
+DEDEEDEE (sad): Fine. Bring me a carrot.
+
+# ------------------------------------------------------------ VEGETABLE VALLEY
+MUSIC happy
+SCENE vegetable_valley
+PLACE adelaine center left happy
+PLACE kirbie midleft right happy
+ADELAINE (happy): Kirbie, I'm painting the giant carrots! Aren't they beautiful?
+KIRBIE (happy): Poyo!
+ADELAINE (surprised): Wait. There were twelve carrots this morning. Now there are seven.
+KIRBIE (surprised): Poyo?
+ADELAINE (nervous): Someone's eating them. Big bites. Very big bites.
+KIRBIE (nervous): Poyo poyo.
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC jazz
+SCENE ice_cream_island
+PLACE ribbonn center left scared
+ENTER bandana_dii right midright surprised
+RIBBONN (scared): The strawberry ice cream mountain! Someone ate the top off!
+BANDANA_DII (surprised): The whole top? That's a lot of ice cream.
+RIBBONN (nervous): There are footprints. Big, flat, waddly footprints.
+BANDANA_DII (nervous): Big, flat, waddly footprints. I know only one person with feet like that.
+RIBBONN (surprised): Kirbie?
+BANDANA_DII (smug): Kirbie's feet are round. These are flat. And royal.
+
+# ------------------------------------------------------------ CASTLE DEDEEDEE
+MUSIC sneaky
+SCENE dedeedee_castle
+PLACE dedeedee center left nervous
+ENTER bandana_dii left midleft smug
+ENTER kirbie left left smug
+BANDANA_DII (smug): Your Majesty, someone has been eating carrots, ice cream and pies all over Dream Land.
+DEDEEDEE (nervous): How terrible! Shocking! Wasn't me!
+KIRBIE (smug): Poyo.
+DEDEEDEE (angry): Kirbie! It was probably YOU! You eat everything!
+BANDANA_DII (smug): Your Majesty, you have frosting on your crown.
+DEDEEDEE (scared): That's... decorative frosting.
+
+# ------------------------------------------------------------ BUTTER BUILDING
+MUSIC tense
+SCENE butter_building
+PLACE waddle_doo center left nervous
+ENTER kirbie left midleft excited
+WADDLE_DOO (nervous): Kirbie! Last night I saw the king sneaking out. Wearing a fake mustache.
+KIRBIE (surprised): Poyo?
+WADDLE_DOO (nervous): He said "I'm not the king. I'm a regular penguin named Bob." Then he took all the pies from the bakery.
+KIRBIE (angry): Poyo!
+WADDLE_DOO (sad): I don't want him to get in trouble. He's just very hungry.
+KIRBIE (sad): Poyo...
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC romantic
+SCENE fountain_of_dreams
+PLACE kirbie center right sad
+PLACE meta_nite midleft right neutral
+META_NITE: Kirbie. You look troubled.
+KIRBIE (sad): Poyo...
+META_NITE (smug): The king is sneaking snacks. Everyone knows. Even the fish know.
+KIRBIE (nervous): Poyo?
+META_NITE: Do not catch him to punish him. Catch him to help him. That is the way of a hero.
+KIRBIE (happy): Poyo!
+
+# ------------------------------------------------------------ GRAPE GARDEN
+MUSIC sneaky 2
+SCENE grape_garden
+CARD That night...
+PLACE dedeedee center left excited
+DEDEEDEE (excited): Grapes. Beautiful, delicious grapes. Nobody will miss a few hundred.
+DEDEEDEE (nervous): Is anyone watching? No? Good.
+SFX chomp
+DEDEEDEE (happy): Mmm. Royal grapes.
+ENTER kirbie left left smug
+KIRBIE (smug): Poyo.
+DEDEEDEE (scared): KIRBIE! I mean. I am not King Dedeedee. I am Bob. A regular penguin.
+
+# ------------------------------------------------------------ GRAPE GARDEN
+MUSIC sad
+SCENE grape_garden
+PLACE dedeedee center left sad
+PLACE kirbie midleft right sad
+DEDEEDEE (sad): Fine. It's me. I'm so hungry, Kirbie. Vegetables are boring. Walking is boring.
+KIRBIE (sad): Poyo.
+DEDEEDEE (sad): You don't understand. You can eat anything you want.
+KIRBIE (happy): Poyo poyo!
+NARRATOR: Kirbie had an idea. Kirbie always walked everywhere. And Kirbie ate everything. Maybe the trick was to do both.
+DEDEEDEE (surprised): You want me to... come on walks with you?
+KIRBIE (excited): Poyo!
+
+# ------------------------------------------------------------ YOGURT YARD
+MUSIC happy 2
+SCENE yogurt_yard
+ENTER kirbie left midleft excited 300
+ENTER dedeedee left left nervous 200
+KIRBIE (excited): Poyo!
+DEDEEDEE (nervous): Kirbie, slow down! A king doesn't run!
+NARRATOR: They walked up Yogurt Yard. Down Yogurt Yard. Around Yogurt Yard.
+DEDEEDEE (surprised): Hey. This is actually kind of fun.
+KIRBIE (happy): Poyo!
+DEDEEDEE (excited): And now I'm hungry for real! Is there a snack at the top?
+KIRBIE (smug): Poyo.
+NARRATOR: There was. An apple. A whole, big, crunchy apple. It was the best apple the king had ever tasted.
+
+# ------------------------------------------------------------ RAINBOW RESORT
+MUSIC jazz 2
+SCENE rainbow_resort
+PLACE marks center left smug
+PLACE magalor midright left happy
+MARKS (smug): Hee hee. The king is on a diet, and he's grumpy. Perfect time to take over Dream Land!
+MAGALOR (smug): Perhaps. But have you seen him lately? He's walking everywhere. With Kirbie.
+MARKS (surprised): Walking? With Kirbie?
+MAGALOR (nervous): He's getting very fit. And very fast.
+MARKS (scared): Maybe we wait until next year.
+
+# ------------------------------------------------------------ CASTLE DEDEEDEE
+MUSIC happy 3
+SCENE dedeedee_castle
+CARD One month later...
+PLACE dedeedee center left happy
+PLACE waddle_dii midright left happy
+PLACE kirbie midleft right happy
+WADDLE_DII (happy): Your Majesty, the doctor says you're the healthiest king in Dream Land history!
+DEDEEDEE (excited): Of course I am! I'm the best at everything!
+KIRBIE (happy): Poyo!
+DEDEEDEE (smug): And as a reward, the doctor says I can have one slice of cake. Every Sunday.
+WADDLE_DII (excited): Should I bring the cake, Your Majesty?
+DEDEEDEE (happy): Bring two slices. One for me. And one for my walking partner.
+KIRBIE (excited): POYO!
+NARRATOR: Kirbie ate his slice in one bite. Then he ate the plate. The king did not mind. He was busy enjoying his cake. Slowly.
+END

@@ -152,6 +152,18 @@
 		},
 		{
 			"file": "res://data/episodes/kb01_cake.txt"
+		},
+		{
+			"file": "res://data/episodes/kb02_crystal_shards.txt"
+		},
+		{
+			"file": "res://data/episodes/kb03_sword_school.txt"
+		},
+		{
+			"file": "res://data/episodes/kb04_royal_diet.txt"
+		},
+		{
+			"file": "res://data/episodes/kb05_living_paintings.txt"
 		}
 	]
 }

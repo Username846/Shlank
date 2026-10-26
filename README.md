@@ -13,30 +13,30 @@ dialogue is voiced with a speech synthesizer.
 ## What's in it
 
 Eleven shows, each with 11 characters, at least 15 locations (166 in all), its own
-scene transition and badge, and a ~5 minute episode. Browse them all under
-*Meet the Cast* and *Locations*.
+scene transition and badge, and five ~5 minute episodes (55 in all). Browse
+them under *Watch Episodes*, *Meet the Cast* and *Locations*.
 
-- **Bikini Bottom** (SpongeBob parodies). Episode: **"The Golden Spatula"**.
+- **Bikini Bottom** (SpongeBob parodies). Episodes: **"The Golden Spatula"**, **"The Jellyfish Jamboree"**, **"Plankton's Perfect Plan"**, **"Test Number Sixty-Seven"**, **"The Last Bus from Glove World"**.
   SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs, Sandy Acorn, Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
-- **Hillwood** (Hey Arnold! parodies). Episode: **"The Locket"**.
+- **Hillwood** (Hey Arnold! parodies). Episodes: **"The Locket"**, **"The Big Game"**, **"Grandma's Treasure Map"**, **"The Ghost of Hillwood Alley"**, **"The Beeper Blowout"**.
   Arnald, Helga Potaki, Gerold, Grandpa Phil, Phoebee, Grandma Pookie, Harold, Stinky, Sid, Rhonda and Big Bob.
-- **Bluffington** (Doug parodies). Episode: **"The Beets Tickets"**.
+- **Bluffington** (Doug parodies). Episodes: **"The Beets Tickets"**, **"Quailman and the Science Fair"**, **"The School Play"**, **"Mr. Dink's Robot"**, **"Funnie for President"**.
   Dug Funnie, Skeetor, Patty Mayonaise, Rodger Klotz, Porkchop, Judie Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky Studebaker and Mr. Bone.
-- **Playpen** (Rugrats parodies). Episode: **"The Great Cookie Quest"**.
+- **Playpen** (Rugrats parodies). Episodes: **"The Great Cookie Quest"**, **"Lost in Reptarland"**, **"Dill's Big Day"**, **"The Monster in the Attic"**, **"The Big Talent Show"**.
   Tommi Pickles, Chuckey Finster, Angelika Pickles, Phill DeVille, Lill DeVille, Stew Pickles, Didee Pickles, Grandpa Lew, Spyke, Suzie Carmichael and Dill Pickles.
-- **Pokemon** (Pokémon parodies). Episode: **"The Golden Snack Ball"**.
+- **Pokemon** (Pokémon parodies). Episodes: **"The Golden Snack Ball"**, **"Pikachew, I Choose You!"**, **"Splash Battle at Ceruleen Gym"**, **"The Great Monster Cook-Off"**, **"The Boss Takes a Vacation"**.
   Jessee, Jaymes, Meowt, Wobbafett, The Boss, Ashe Ketchum, Pikachew, Mistee, Brok, Nurse Joi and Officer Jenni.
-- **Dragonball Z** (Dragon Ball Z parodies). Episode: **"What's Your Power Level?"**.
+- **Dragonball Z** (Dragon Ball Z parodies). Episodes: **"What's Your Power Level?"**, **"Gokku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegitta's Surprise Party"**.
   Gokku, Vegitta, Gohann, Picollo, Krillen, Bulmah, Master Roshee, Freeza, Cel, Trunkz and Chee-Chee.
-- **Attack on Titan** (Attack on Titan parodies). Episode: **"The Last Potato"**.
+- **Attack on Titan** (Attack on Titan parodies). Episodes: **"The Last Potato"**, **"Inspection Day"**, **"The Runaway Horse"**, **"Titan School"**, **"Field Trip to the Ocean"**.
   Erren Jaeger, Mikasah Ackerman, Armen Arlert, Captain Levee, Hanjee Zoe, Jeen Kirstein, Sascha Braus, Konny Springer, Rayner, Commander Irwin and Grinning Titan.
-- **Breaking Bad** (Breaking Bad parodies). Episode: **"The Blue Candy"**.
+- **Breaking Bad** (Breaking Bad parodies). Episodes: **"The Blue Candy"**, **"Pizza on the Roof"**, **"The Mineral Show"**, **"Saul Goes Viral"**, **"Father and Son Science Fair"**.
   Walt Whyte, Jessie Pinkmann, Skylar Whyte, Hank Schraeder, Maree Schraeder, Flynn, Saul Goodmann, Gus Frinng, Mike Ermantrout, Badgur and Skinnee Pete.
-- **Super Mario Brothers** (the Super Mario games parodies). Episode: **"In Another Castle"**.
+- **Super Mario Brothers** (the Super Mario games parodies). Episodes: **"In Another Castle"**, **"The Rainbow Road Grand Prix"**, **"Luiggi's Spooky Rescue"**, **"Yoshee's Egg Hunt"**, **"Bowzer's Day Off"**.
   Mareo, Luiggi, Princess Peech, Princess Daizy, Waryo, Toadd, Bowzer, Yoshee, Donkee Kongg, Gumba and Kooper Troopa.
-- **Metroid** (the Metroid games parodies). Episode: **"Babysitting"**.
+- **Metroid** (the Metroid games parodies). Episodes: **"Babysitting"**, **"Who Stole the Gunship?"**, **"Double Trouble"**, **"Krayd's Toothache"**, **"The Choso Trial"**.
   Samuss Aran, Dark Samuss, Ridlee, Krayd, Mother Brane, Baby Metroyd, Adam Malkovitch, Choso Elder, Space Pirate, Etecoon and Dachoora.
-- **Kirby** (the Kirby games parodies). Episode: **"The Great Cake Heist"**.
+- **Kirby** (the Kirby games parodies). Episodes: **"The Great Cake Heist"**, **"Ribbonn's Crystal"**, **"Meta Nite's Sword School"**, **"The Royal Diet"**, **"The Living Paintings"**.
   Kirbie, King Dedeedee, Meta Nite, Waddle Dii, Bandana Dii, Waddle Doo, Magalor, Marks, Adelaine, Ribbonn and Whispee Woods.
 
 Kirbie only ever says "Poyo!" (and variations), and Samuss Aran rarely says

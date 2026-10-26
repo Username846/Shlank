@@ -1,0 +1,175 @@
+@title The Living Paintings
+@series Kirby
+@icon warpstar
+@number 5
+@description Adelaine's magic paintbrush makes everything she paints come to life. That's great for flowers and butterflies. It's less great when she paints a dragon.
+
+# ------------------------------------------------------------ VEGETABLE VALLEY
+MUSIC happy
+SCENE vegetable_valley cut
+TITLE
+PLACE adelaine center left excited
+PLACE kirbie midleft right happy
+ADELAINE (excited): Kirbie, look! My new paintbrush! Watch what happens when I paint a flower.
+SFX sparkle
+KIRBIE (surprised): Poyo!
+ADELAINE (happy): It's real! A real flower! I can smell it!
+KIRBIE (excited): Poyo poyo!
+ADELAINE (smug): Want me to paint you something? Anything at all.
+KIRBIE (excited): Poyo!
+ADELAINE (happy): A strawberry shortcake? Coming right up!
+
+# ------------------------------------------------------------ VEGETABLE VALLEY
+MUSIC happy 2
+SCENE vegetable_valley
+PLACE adelaine center left happy
+PLACE kirbie midleft right excited
+SFX sparkle
+NARRATOR: Adelaine painted a cake. It popped right off the canvas. Kirbie ate it in one bite.
+KIRBIE (happy): Poyo!
+ADELAINE (excited): And another! And a butterfly! And a little cloud!
+SFX sparkle
+SFX sparkle
+NARRATOR: Soon the valley was full of painted things. Painted butterflies. Painted clouds. A painted fish, which was very confused.
+ADELAINE (nervous): Maybe I should stop now.
+
+# ------------------------------------------------------------ CASTLE DEDEEDEE
+MUSIC sneaky
+SCENE dedeedee_castle
+PLACE dedeedee center left excited
+PLACE magalor midright left smug
+MAGALOR (smug): Your Majesty, I hear Adelaine has a magic brush. It brings paintings to life.
+DEDEEDEE (excited): Anything she paints becomes real?
+MAGALOR (happy): Anything at all.
+DEDEEDEE (excited): Then I'll make her paint me a hundred cakes! No, a thousand! No, a cake the size of a castle!
+MAGALOR (smug): Or perhaps a monster. To defeat Kirbie once and for all.
+DEDEEDEE (nervous): Hmm. Monster. Cake. Monster. Cake.
+DEDEEDEE (excited): Why not both? A monster made of cake!
+
+# ------------------------------------------------------------ VEGETABLE VALLEY
+MUSIC tense
+SCENE vegetable_valley
+PLACE adelaine center left nervous
+ENTER dedeedee right midright smug
+ENTER waddle_dii right right nervous
+DEDEEDEE (smug): Painter girl! By royal order, paint me a monster!
+ADELAINE (nervous): A monster? I only paint nice things.
+DEDEEDEE (angry): A big one! With teeth!
+WADDLE_DII (nervous): And maybe frosting?
+DEDEEDEE (excited): Yes! Frosting!
+ADELAINE (scared): Okay, okay! But I'm painting it small!
+
+# ------------------------------------------------------------ VEGETABLE VALLEY
+MUSIC tense 2
+SCENE vegetable_valley
+PLACE adelaine center left scared
+PLACE dedeedee midright left excited
+SFX sparkle
+NARRATOR: Adelaine painted a tiny dragon. With tiny teeth. And a tiny bit of frosting.
+SFX thud
+SHAKE 0.6
+NARRATOR: It popped off the canvas. Then it grew. And grew. And grew.
+DEDEEDEE (scared): It's not small anymore!
+SFX blast
+SHAKE 1.0
+ADELAINE (scared): It's flying toward Green Greens!
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC action
+SCENE green_greens
+PLACE kirbie center right happy
+SFX thud
+SHAKE 0.8
+KIRBIE (surprised): Poyo?!
+NARRATOR: A dragon made of cake and paint flew overhead. It smelled like strawberries. It roared like thunder.
+SFX blast
+KIRBIE (excited): Poyo!
+NARRATOR: Kirbie was not scared. Kirbie was hungry.
+
+# ------------------------------------------------------------ WHISPEE'S FOREST
+MUSIC action 2
+SCENE whispee_forest
+PLACE whispee_woods center left scared
+ENTER kirbie left midleft excited 500
+WHISPEE_WOODS (scared): Ohhh! A dragon is eating my apples! All of them!
+KIRBIE (angry): Poyo!
+WHISPEE_WOODS (scared): And now it's eating my leaves! I'll be bald!
+NARRATOR: The paint dragon was very hungry too. Hungry dragons and hungry Kirbies do not get along.
+KIRBIE (angry): POYO!
+
+# ------------------------------------------------------------ BUTTER BUILDING
+MUSIC tense 2
+SCENE butter_building
+PLACE waddle_doo center left scared
+PLACE waddle_dii midright left scared
+WADDLE_DOO (scared): The dragon just flew around the Butter Building! Three times!
+WADDLE_DII (scared): It licked the tower! It thinks the Butter Building is made of butter!
+WADDLE_DOO (nervous): Is it?
+WADDLE_DII (sad): A little bit. The bottom floor is.
+WADDLE_DOO (scared): Zap zap! Run!
+
+# ------------------------------------------------------------ CLOUDY PARK
+MUSIC tense
+SCENE cloudy_park
+PLACE meta_nite center left neutral
+PLACE bandana_dii midright left nervous
+BANDANA_DII (nervous): Meta Nite! A paint dragon is eating Dream Land!
+META_NITE (smug): A paint dragon? Then it has a weakness.
+BANDANA_DII (surprised): What weakness?
+META_NITE: Paint washes off. With water. Lots of water.
+BANDANA_DII (excited): The Orange Ocean!
+META_NITE (smug): Or a very large sponge.
+
+# ------------------------------------------------------------ ORANGE OCEAN
+MUSIC action 3
+SCENE orange_ocean
+PLACE kirbie center right excited
+ENTER bandana_dii left left excited
+BANDANA_DII (excited): Kirbie! Paint washes off with water! Inhale the ocean!
+KIRBIE (surprised): Poyo?
+BANDANA_DII (nervous): Just a little bit of the ocean!
+KIRBIE (smug): Poyo.
+SFX whoosh
+SHAKE 1.0
+NARRATOR: Kirbie inhaled. And inhaled. And inhaled. He became a very large, very round, very wet Kirbie.
+
+# ------------------------------------------------------------ WHISPEE'S FOREST
+MUSIC action
+SCENE whispee_forest
+PLACE kirbie center right excited
+PLACE whispee_woods midleft right scared
+KIRBIE (angry): POYO!
+SFX splash
+SHAKE 1.0
+NARRATOR: Kirbie sprayed the dragon with half an ocean. The paint dragon melted into a big, colorful puddle.
+WHISPEE_WOODS (surprised): It's gone! And it smells like strawberries!
+KIRBIE (happy): Poyo!
+WHISPEE_WOODS (smug): Also, I'm soaking wet now. Thank you. I suppose.
+
+# ------------------------------------------------------------ VEGETABLE VALLEY
+MUSIC sad
+SCENE vegetable_valley
+PLACE adelaine center left sad
+PLACE dedeedee midright left nervous
+ENTER kirbie left midleft happy
+ADELAINE (sad): I'm so sorry, everyone. I shouldn't have painted a monster.
+DEDEEDEE (nervous): Well. It was... my idea. Mostly. Magalor helped.
+KIRBIE (smug): Poyo.
+DEDEEDEE (sad): Fine. I'm sorry too. I'll pay for Whispee's new leaves.
+ADELAINE (happy): Maybe I'll only paint nice things from now on.
+KIRBIE (excited): Poyo poyo!
+ADELAINE (smug): And cake. For Kirbie. Lots of cake.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC romantic
+SCENE green_greens
+PLACE adelaine center left happy
+PLACE kirbie midleft right happy
+PLACE ribbonn midright left happy
+SFX sparkle
+NARRATOR: That evening, Adelaine painted a sunset. It was so beautiful that it stayed in the sky an extra hour.
+RIBBONN (happy): It's the prettiest sunset I've ever seen.
+ADELAINE (shy): It's my best painting.
+KIRBIE (happy): Poyo.
+NARRATOR: Kirbie did not eat the sunset. It was very hard for him. But he did not.
+END
