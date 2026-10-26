@@ -1157,6 +1157,1379 @@
 			]
 		}
 	},
+	"gokku": {
+		"name": "Gokku",
+		"style": "gokku",
+		"color": "#f2852a",
+		"width": 70,
+		"show": "Dragonball Z",
+		"home": "gokku_house",
+		"bio": "A cheerful Saiyan martial artist who's always hungry and always training.",
+		"catchphrase": "Hi, I'm Gokku!",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 1.1,
+			"babble": 380,
+			"prefer": [
+				"guy",
+				"alex",
+				"male"
+			]
+		}
+	},
+	"vegitta": {
+		"name": "Vegitta",
+		"style": "vegitta",
+		"color": "#2f4f9a",
+		"width": 66,
+		"show": "Dragonball Z",
+		"home": "capsool_corp",
+		"bio": "The proud prince of all Saiyans. Gokku's rival, whether Gokku likes it or not.",
+		"catchphrase": "I am the prince of all Saiyans!",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.05,
+			"babble": 300,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"gohann": {
+		"name": "Gohann",
+		"style": "gohann",
+		"color": "#5a3fa0",
+		"width": 60,
+		"show": "Dragonball Z",
+		"home": "gokku_house",
+		"bio": "Gokku's son. Would rather be studying, but secretly the strongest of them all.",
+		"catchphrase": "I'll protect everyone!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.0,
+			"babble": 400,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"picollo": {
+		"name": "Picollo",
+		"style": "picollo",
+		"color": "#6fbf4a",
+		"width": 70,
+		"show": "Dragonball Z",
+		"home": "the_lookout",
+		"bio": "A grumpy green warrior from Planet Nameck. Gohann's mentor and secret softie.",
+		"catchphrase": "Hmph. Pathetic.",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.95,
+			"babble": 220,
+			"prefer": [
+				"daniel",
+				"george",
+				"male"
+			]
+		}
+	},
+	"krillen": {
+		"name": "Krillen",
+		"style": "krillen",
+		"color": "#f2852a",
+		"width": 56,
+		"show": "Dragonball Z",
+		"home": "kamee_house",
+		"bio": "Gokku's best friend. Bald, brave and usually the first to get flattened.",
+		"catchphrase": "Not again!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.1,
+			"babble": 440,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"bulmah": {
+		"name": "Bulmah",
+		"style": "bulmah",
+		"color": "#3fbcc0",
+		"width": 58,
+		"show": "Dragonball Z",
+		"home": "capsool_corp",
+		"bio": "A genius inventor from Capsool Corp. Builds everything the heroes need.",
+		"catchphrase": "Do I have to do everything myself?",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.1,
+			"babble": 420,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"master_roshee": {
+		"name": "Master Roshee",
+		"style": "master_roshee",
+		"color": "#f2c14e",
+		"width": 62,
+		"show": "Dragonball Z",
+		"home": "kamee_house",
+		"bio": "The old Turtle Hermit who trained Gokku. Mostly naps and reads magazines now.",
+		"catchphrase": "Ho ho ho!",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 0.9,
+			"babble": 240,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"freeza": {
+		"name": "Freeza",
+		"style": "freeza",
+		"color": "#9b5fd0",
+		"width": 56,
+		"show": "Dragonball Z",
+		"home": "freeza_ship",
+		"bio": "A tiny, terribly polite tyrant who wants to rule the universe.",
+		"catchphrase": "How very disappointing.",
+		"voice": {
+			"pitch": 1.35,
+			"rate": 0.95,
+			"babble": 460,
+			"prefer": [
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"sel": {
+		"name": "Cel",
+		"style": "sel",
+		"color": "#8fd06a",
+		"width": 64,
+		"show": "Dragonball Z",
+		"home": "cel_ring",
+		"bio": "A perfect bio-android who loves holding tournaments about himself.",
+		"catchphrase": "I am perfection!",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 1.0,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"trunkz": {
+		"name": "Trunkz",
+		"style": "trunkz",
+		"color": "#b9a6e0",
+		"width": 60,
+		"show": "Dragonball Z",
+		"home": "capsool_corp",
+		"bio": "Vegitta and Bulmah's son from a gloomy future. Carries a very cool sword.",
+		"catchphrase": "I came from the future!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.05,
+			"babble": 340,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"chee_chee": {
+		"name": "Chee-Chee",
+		"style": "chee_chee",
+		"color": "#7a3fa0",
+		"width": 58,
+		"show": "Dragonball Z",
+		"home": "gokku_house",
+		"bio": "Gokku's wife. Wants Gohann to study and Gokku to get a job. Has a frying pan.",
+		"catchphrase": "GOKKU!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.15,
+			"babble": 440,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"erren": {
+		"name": "Erren Jaeger",
+		"style": "erren",
+		"color": "#c8a06a",
+		"width": 58,
+		"show": "Attack on Titan",
+		"home": "wall_top",
+		"bio": "A hot-headed Scout who swore to wipe out every last Titan.",
+		"catchphrase": "I'll destroy them all!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.15,
+			"babble": 340,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"mikasah": {
+		"name": "Mikasah Ackerman",
+		"style": "mikasah",
+		"color": "#c1272d",
+		"width": 56,
+		"show": "Attack on Titan",
+		"home": "wall_top",
+		"bio": "Erren's quiet, unstoppable friend. Never takes off her red scarf.",
+		"catchphrase": "Erren. Calm down.",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 0.95,
+			"babble": 360,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"armen": {
+		"name": "Armen Arlert",
+		"style": "armen",
+		"color": "#f4d24e",
+		"width": 54,
+		"show": "Attack on Titan",
+		"home": "training_grounds",
+		"bio": "The team's brilliant planner. Dreams of seeing the ocean.",
+		"catchphrase": "I have a plan!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.05,
+			"babble": 420,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"levee": {
+		"name": "Captain Levee",
+		"style": "levee",
+		"color": "#1d1d22",
+		"width": 54,
+		"show": "Attack on Titan",
+		"home": "scout_hq",
+		"bio": "Humanity's strongest soldier. Also humanity's fussiest cleaner.",
+		"catchphrase": "Clean it again.",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 0.9,
+			"babble": 280,
+			"prefer": [
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"hanjee": {
+		"name": "Hanjee Zoe",
+		"style": "hanjee",
+		"color": "#6b4428",
+		"width": 58,
+		"show": "Attack on Titan",
+		"home": "scout_hq",
+		"bio": "A scientist who thinks Titans are the most fascinating things ever.",
+		"catchphrase": "Isn't it beautiful?!",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.2,
+			"babble": 400,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"jeen": {
+		"name": "Jeen Kirstein",
+		"style": "jeen",
+		"color": "#a07a4a",
+		"width": 58,
+		"show": "Attack on Titan",
+		"home": "mess_hall",
+		"bio": "A cocky Scout who'd much rather have a nice safe job.",
+		"catchphrase": "Easy for you to say.",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.05,
+			"babble": 320,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"sascha": {
+		"name": "Sascha Braus",
+		"style": "sascha",
+		"color": "#8a5a36",
+		"width": 56,
+		"show": "Attack on Titan",
+		"home": "mess_hall",
+		"bio": "A sharpshooter with a bottomless appetite. Will steal your potato.",
+		"catchphrase": "Is that a potato?!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.1,
+			"babble": 420,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"konny": {
+		"name": "Konny Springer",
+		"style": "konny",
+		"color": "#6b6f78",
+		"width": 52,
+		"show": "Attack on Titan",
+		"home": "training_grounds",
+		"bio": "A loud, cheerful Scout who isn't always sure what's going on.",
+		"catchphrase": "Wait, what?",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.1,
+			"babble": 440,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"rayner": {
+		"name": "Rayner",
+		"style": "rayner",
+		"color": "#e8c860",
+		"width": 66,
+		"show": "Attack on Titan",
+		"home": "training_grounds",
+		"bio": "A big, dependable Scout everybody trusts. Has a lot on his mind.",
+		"catchphrase": "Leave it to me.",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 0.95,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"irwin": {
+		"name": "Commander Irwin",
+		"style": "irwin",
+		"color": "#f4d24e",
+		"width": 64,
+		"show": "Attack on Titan",
+		"home": "scout_hq",
+		"bio": "The Scouts' fearless commander. Gives very rousing speeches.",
+		"catchphrase": "Dedicate your hearts!",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 0.95,
+			"babble": 250,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"grinning_titan": {
+		"name": "Grinning Titan",
+		"style": "titan",
+		"color": "#e8b48a",
+		"width": 96,
+		"show": "Attack on Titan",
+		"home": "titan_plains",
+		"bio": "A huge, smiling Titan. Nobody knows what it's thinking. Probably lunch.",
+		"catchphrase": "Hehehe...",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 0.8,
+			"babble": 140,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"walt": {
+		"name": "Walt Whyte",
+		"style": "walt",
+		"color": "#8fa06a",
+		"width": 62,
+		"show": "Breaking Bad",
+		"home": "whyte_house",
+		"bio": "A mild-mannered chemistry teacher who makes the purest blue rock candy in the whole Southwest.",
+		"catchphrase": "Say my name.",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 0.95,
+			"babble": 280,
+			"prefer": [
+				"daniel",
+				"george",
+				"male"
+			]
+		}
+	},
+	"pinkman": {
+		"name": "Jessie Pinkmann",
+		"style": "pinkman",
+		"color": "#f2c14e",
+		"width": 60,
+		"show": "Breaking Bad",
+		"home": "pinkman_house",
+		"bio": "Walt's former student and candy-making partner. Says 'yo' a lot.",
+		"catchphrase": "Yeah, science!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.15,
+			"babble": 360,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"skylar": {
+		"name": "Skylar Whyte",
+		"style": "skylar",
+		"color": "#4a78d0",
+		"width": 58,
+		"show": "Breaking Bad",
+		"home": "whyte_house",
+		"bio": "Walt's wife. Suspects something. Keeps the family's books.",
+		"catchphrase": "Walt, where were you?",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 1.0,
+			"babble": 380,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"hank": {
+		"name": "Hank Schraeder",
+		"style": "hank",
+		"color": "#3d4a5a",
+		"width": 70,
+		"show": "Breaking Bad",
+		"home": "dea_office",
+		"bio": "Walt's brother-in-law. A loud, lovable agent who collects minerals.",
+		"catchphrase": "They're minerals!",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 1.05,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"maree": {
+		"name": "Maree Schraeder",
+		"style": "maree",
+		"color": "#9b5fd0",
+		"width": 58,
+		"show": "Breaking Bad",
+		"home": "schraeder_house",
+		"bio": "Hank's wife. Everything she owns is purple.",
+		"catchphrase": "It's not purple, it's lavender.",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.05,
+			"babble": 400,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"flynn": {
+		"name": "Flynn",
+		"style": "flynn",
+		"color": "#6a7a8a",
+		"width": 58,
+		"show": "Breaking Bad",
+		"home": "whyte_house",
+		"bio": "Walt's son. Loves breakfast more than anything in the world.",
+		"catchphrase": "Is breakfast ready?",
+		"voice": {
+			"pitch": 1.05,
+			"rate": 1.0,
+			"babble": 340,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"saul": {
+		"name": "Saul Goodmann",
+		"style": "saul",
+		"color": "#d9c27a",
+		"width": 62,
+		"show": "Breaking Bad",
+		"home": "saul_office",
+		"bio": "A fast-talking lawyer with loud suits and louder TV ads.",
+		"catchphrase": "Better call Saul!",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.2,
+			"babble": 320,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"gus": {
+		"name": "Gus Frinng",
+		"style": "gus",
+		"color": "#f2c14e",
+		"width": 62,
+		"show": "Breaking Bad",
+		"home": "pollitos",
+		"bio": "The calm, extremely polite owner of Los Pollitos Hermanos chicken.",
+		"catchphrase": "I hide in plain sight.",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 0.85,
+			"babble": 240,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"mike": {
+		"name": "Mike Ermantrout",
+		"style": "mike",
+		"color": "#a89a7a",
+		"width": 64,
+		"show": "Breaking Bad",
+		"home": "laundry",
+		"bio": "A tired fixer who's seen it all. Fond of half measures. Not fond of Jessie.",
+		"catchphrase": "No more half measures.",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.9,
+			"babble": 220,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"badgur": {
+		"name": "Badgur",
+		"style": "badgur",
+		"color": "#8a8f98",
+		"width": 56,
+		"show": "Breaking Bad",
+		"home": "junkyard",
+		"bio": "Jessie's friend. Has big ideas for a space movie.",
+		"catchphrase": "Yo, check this out!",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.05,
+			"babble": 300,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"skinnee_pete": {
+		"name": "Skinnee Pete",
+		"style": "skinnee_pete",
+		"color": "#b3202f",
+		"width": 52,
+		"show": "Breaking Bad",
+		"home": "pinkman_house",
+		"bio": "Jessie's other friend. Secretly a great piano player.",
+		"catchphrase": "Word.",
+		"voice": {
+			"pitch": 1.05,
+			"rate": 1.0,
+			"babble": 320,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"mareo": {
+		"name": "Mareo",
+		"style": "mareo",
+		"color": "#e6302a",
+		"width": 62,
+		"show": "Super Mario Brothers",
+		"home": "mushroom_kingdom",
+		"bio": "A plumber who jumps on things. Saves the princess most weekends.",
+		"catchphrase": "It's-a me, Mareo!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.15,
+			"babble": 440,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"luiggi": {
+		"name": "Luiggi",
+		"style": "luiggi",
+		"color": "#3fae4a",
+		"width": 58,
+		"show": "Super Mario Brothers",
+		"home": "mushroom_kingdom",
+		"bio": "Mareo's taller brother. Brave, mostly. Scared of ghosts, definitely.",
+		"catchphrase": "Mamma mia!",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 1.1,
+			"babble": 400,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"peech": {
+		"name": "Princess Peech",
+		"style": "peech",
+		"color": "#f7a6c8",
+		"width": 60,
+		"show": "Super Mario Brothers",
+		"home": "peech_castle",
+		"bio": "Ruler of the Mushroom Kingdom. Gets kidnapped a lot. Bakes a great cake.",
+		"catchphrase": "Thank you, Mareo!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.0,
+			"babble": 440,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"daizy": {
+		"name": "Princess Daizy",
+		"style": "daizy",
+		"color": "#f2a03a",
+		"width": 60,
+		"show": "Super Mario Brothers",
+		"home": "desert_land",
+		"bio": "A sporty princess from a neighboring kingdom. Very loud. Very fun.",
+		"catchphrase": "Hi, I'm Daizy!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.15,
+			"babble": 440,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"waryo": {
+		"name": "Waryo",
+		"style": "waryo",
+		"color": "#f2c14e",
+		"width": 66,
+		"show": "Super Mario Brothers",
+		"home": "pipe_land",
+		"bio": "Mareo's greedy rival. Loves gold and garlic.",
+		"catchphrase": "Waaah! I'm-a gonna win!",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 1.1,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"toadd": {
+		"name": "Toadd",
+		"style": "toadd",
+		"color": "#f4f4f2",
+		"width": 54,
+		"show": "Super Mario Brothers",
+		"home": "toad_house",
+		"bio": "A loyal mushroom retainer who tells everyone the princess is in another castle.",
+		"catchphrase": "The princess is in another castle!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.2,
+			"babble": 560,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"bowzer": {
+		"name": "Bowzer",
+		"style": "bowzer",
+		"color": "#3f8f3a",
+		"width": 100,
+		"show": "Super Mario Brothers",
+		"home": "bowzer_castle",
+		"bio": "King of the Koopas. Wants the princess and the kingdom. Gets neither.",
+		"catchphrase": "Gwahahaha!",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 0.9,
+			"babble": 140,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"yoshee": {
+		"name": "Yoshee",
+		"style": "yoshee",
+		"color": "#5ac85a",
+		"width": 70,
+		"show": "Super Mario Brothers",
+		"home": "mushroom_kingdom",
+		"bio": "A friendly green dinosaur who'll eat anything with his long tongue.",
+		"catchphrase": "Yoshee!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.1,
+			"babble": 520,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"donkee_kongg": {
+		"name": "Donkee Kongg",
+		"style": "kongg",
+		"color": "#8a4a24",
+		"width": 96,
+		"show": "Super Mario Brothers",
+		"home": "kong_jungle",
+		"bio": "A big banana-loving ape in a red tie.",
+		"catchphrase": "Ooh ooh!",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 1.0,
+			"babble": 180,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"gumba": {
+		"name": "Gumba",
+		"style": "gumba",
+		"color": "#a0602a",
+		"width": 64,
+		"show": "Super Mario Brothers",
+		"home": "pipe_land",
+		"bio": "A grumpy walking mushroom. Gets stepped on for a living.",
+		"catchphrase": "Hey! Watch where you're stomping!",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.1,
+			"babble": 300,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"kooper": {
+		"name": "Kooper Troopa",
+		"style": "troopa",
+		"color": "#3fae4a",
+		"width": 60,
+		"show": "Super Mario Brothers",
+		"home": "sky_land",
+		"bio": "A turtle soldier in Bowzer's army. Secretly just wants a vacation.",
+		"catchphrase": "Nobody kicks my shell!",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.1,
+			"babble": 400,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"samuss": {
+		"name": "Samuss Aran",
+		"style": "power_suit",
+		"color": "#e6702f",
+		"width": 70,
+		"show": "Metroid",
+		"home": "landing_site",
+		"bio": "A legendary bounty hunter in a power suit. A woman of very few words.",
+		"catchphrase": "...",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 0.95,
+			"babble": 320,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		}
+	},
+	"dark_samuss": {
+		"name": "Dark Samuss",
+		"style": "dark_suit",
+		"color": "#2b2f4a",
+		"width": 70,
+		"show": "Metroid",
+		"home": "tourian",
+		"bio": "A shadowy copy of Samuss made of strange blue energy.",
+		"catchphrase": "...",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.85,
+			"babble": 200,
+			"prefer": [
+				"female"
+			]
+		}
+	},
+	"ridlee": {
+		"name": "Ridlee",
+		"style": "ridlee",
+		"color": "#6a3f9a",
+		"width": 110,
+		"show": "Metroid",
+		"home": "ridlee_lair",
+		"bio": "A space-pirate dragon who never, ever stays defeated.",
+		"catchphrase": "SCREEEE!",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 1.1,
+			"babble": 180,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"krayd": {
+		"name": "Krayd",
+		"style": "krayd",
+		"color": "#4f9a3a",
+		"width": 110,
+		"show": "Metroid",
+		"home": "krayd_lair",
+		"bio": "An enormous reptile who fires the spikes off his own belly.",
+		"catchphrase": "GRRROOOAR!",
+		"voice": {
+			"pitch": 0.5,
+			"rate": 0.85,
+			"babble": 120,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"mother_brane": {
+		"name": "Mother Brane",
+		"style": "brain",
+		"color": "#e88aa0",
+		"width": 100,
+		"show": "Metroid",
+		"home": "tourian",
+		"bio": "The giant brain in a jar who runs the space pirates.",
+		"catchphrase": "You cannot win.",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.85,
+			"babble": 200,
+			"prefer": [
+				"daniel",
+				"female"
+			]
+		}
+	},
+	"baby_metroyd": {
+		"name": "Baby Metroyd",
+		"style": "metroyd",
+		"color": "#9be27a",
+		"width": 90,
+		"show": "Metroid",
+		"home": "save_room",
+		"bio": "A floating jellyfish creature that thinks Samuss is its mom.",
+		"catchphrase": "Skreee!",
+		"voice": {
+			"pitch": 1.8,
+			"rate": 1.2,
+			"babble": 700,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"adam": {
+		"name": "Adam Malkovitch",
+		"style": "adam",
+		"color": "#6b7a5a",
+		"width": 62,
+		"show": "Metroid",
+		"home": "ceres_station",
+		"bio": "Samuss's old commanding officer. Very good at saying 'any objections?'",
+		"catchphrase": "Any objections, lady?",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 0.95,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"choso_elder": {
+		"name": "Choso Elder",
+		"style": "choso",
+		"color": "#c8a06a",
+		"width": 64,
+		"show": "Metroid",
+		"home": "chozo_ruins",
+		"bio": "A wise, ancient bird-person who raised Samuss.",
+		"catchphrase": "The galaxy is at peace.",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 0.85,
+			"babble": 240,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"space_pirate": {
+		"name": "Space Pirate",
+		"style": "pirate",
+		"color": "#7a4a9a",
+		"width": 68,
+		"show": "Metroid",
+		"home": "wrecked_ship",
+		"bio": "A clawed space pirate grunt. Mostly guards doors.",
+		"catchphrase": "Intruder alert!",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 1.1,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"etecoon": {
+		"name": "Etecoon",
+		"style": "etecoon",
+		"color": "#8fd06a",
+		"width": 50,
+		"show": "Metroid",
+		"home": "brinstar",
+		"bio": "A tiny green wall-jumping critter. Very good at showing you the way.",
+		"catchphrase": "Eee! Eee!",
+		"voice": {
+			"pitch": 1.9,
+			"rate": 1.2,
+			"babble": 760,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"dachoora": {
+		"name": "Dachoora",
+		"style": "dachoora",
+		"color": "#e8d070",
+		"width": 70,
+		"show": "Metroid",
+		"home": "brinstar",
+		"bio": "A fast ostrich-like bird. Can run faster than the speed of plot.",
+		"catchphrase": "Kweh!",
+		"voice": {
+			"pitch": 1.5,
+			"rate": 1.2,
+			"babble": 560,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"kirbie": {
+		"name": "Kirbie",
+		"style": "kirbie",
+		"color": "#f7a6c4",
+		"width": 62,
+		"show": "Kirby",
+		"home": "green_greens",
+		"bio": "A round pink hero from Dream Land. Inhales anything. Only ever says 'Poyo!'",
+		"catchphrase": "Poyo!",
+		"voice": {
+			"pitch": 1.9,
+			"rate": 1.1,
+			"babble": 720,
+			"prefer": [
+				"zira",
+				"aria",
+				"female"
+			]
+		}
+	},
+	"dedeedee": {
+		"name": "King Dedeedee",
+		"style": "dedeedee",
+		"color": "#4a7fd8",
+		"width": 90,
+		"show": "Kirby",
+		"home": "dedeedee_castle",
+		"bio": "The greedy, self-proclaimed king of Dream Land. Loves food almost as much as Kirbie does.",
+		"catchphrase": "I'm the king around here!",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 1.0,
+			"babble": 200,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"meta_nite": {
+		"name": "Meta Nite",
+		"style": "meta_nite",
+		"color": "#2b2f6a",
+		"width": 62,
+		"show": "Kirby",
+		"home": "halberd_deck",
+		"bio": "A masked swordsman of honor. Always appears dramatically.",
+		"catchphrase": "Fight me, Kirbie.",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 0.9,
+			"babble": 240,
+			"prefer": [
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"waddle_dii": {
+		"name": "Waddle Dii",
+		"style": "waddle_dii",
+		"color": "#f2a65a",
+		"width": 60,
+		"show": "Kirby",
+		"home": "dedeedee_castle",
+		"bio": "One of the king's many round helpers. Friendly and easily flattened.",
+		"catchphrase": "Wah!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.1,
+			"babble": 560,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"bandana_dii": {
+		"name": "Bandana Dii",
+		"style": "bandana_dii",
+		"color": "#4a78d0",
+		"width": 60,
+		"show": "Kirby",
+		"home": "dedeedee_castle",
+		"bio": "The bravest Waddle Dii, with a blue bandana and a spear.",
+		"catchphrase": "I'll help, Kirbie!",
+		"voice": {
+			"pitch": 1.5,
+			"rate": 1.1,
+			"babble": 520,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"waddle_doo": {
+		"name": "Waddle Doo",
+		"style": "waddle_doo",
+		"color": "#e6702f",
+		"width": 60,
+		"show": "Kirby",
+		"home": "butter_building",
+		"bio": "A one-eyed helper who zaps things with his eye beam.",
+		"catchphrase": "Zap zap!",
+		"voice": {
+			"pitch": 1.4,
+			"rate": 1.1,
+			"babble": 480,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"magalor": {
+		"name": "Magalor",
+		"style": "magalor",
+		"color": "#3f6fd8",
+		"width": 60,
+		"show": "Kirby",
+		"home": "cloudy_park",
+		"bio": "A hooded traveler from another dimension. Very charming. Possibly up to something.",
+		"catchphrase": "Trust me, friend!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.05,
+			"babble": 420,
+			"prefer": [
+				"guy",
+				"male"
+			]
+		}
+	},
+	"marks": {
+		"name": "Marks",
+		"style": "marks",
+		"color": "#f2a1c8",
+		"width": 62,
+		"show": "Kirby",
+		"home": "fountain_of_dreams",
+		"bio": "A giggling jester who wants to rule Pop Star. Never trust that grin.",
+		"catchphrase": "Hee hee hee!",
+		"voice": {
+			"pitch": 1.4,
+			"rate": 1.15,
+			"babble": 480,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"adelaine": {
+		"name": "Adelaine",
+		"style": "adelaine",
+		"color": "#6fbf6a",
+		"width": 56,
+		"show": "Kirby",
+		"home": "vegetable_valley",
+		"bio": "A traveling painter whose drawings come to life.",
+		"catchphrase": "Let's paint something!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.0,
+			"babble": 420,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"ribbonn": {
+		"name": "Ribbonn",
+		"style": "ribbonn",
+		"color": "#f7a6c8",
+		"width": 50,
+		"show": "Kirby",
+		"home": "ice_cream_island",
+		"bio": "A tiny fairy from Ripple Star with a big red bow.",
+		"catchphrase": "Kirbie, help!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.05,
+			"babble": 560,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"whispee_woods": {
+		"name": "Whispee Woods",
+		"style": "whispee",
+		"color": "#a0703a",
+		"width": 110,
+		"show": "Kirby",
+		"home": "whispee_forest",
+		"bio": "A grumpy old tree who drops apples on people he doesn't like.",
+		"catchphrase": "Ohhhh, my leaves!",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.85,
+			"babble": 180,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		}
+	},
 	"narrator": {
 		"name": "Narrator",
 		"style": "none",

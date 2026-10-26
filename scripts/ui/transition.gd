@@ -8,6 +8,10 @@ extends Control
 ##   slide   - a striped curtain slides across
 ##   checker - checkerboard tiles pop in, then away
 ##   pinwheel - spinning pinwheel blades sweep the screen
+##   flash   - an energy burst: rays shoot out from the middle into a white-out
+##   slash   - two dark halves slam together along a diagonal blade cut
+##   pixel   - big square pixels pop in at random, video-game style
+##   door    - a sci-fi blast door slides shut from the top and bottom
 ##   fade    - plain fade through black (the default for shows without one)
 
 var style := "bubbles":
@@ -69,6 +73,10 @@ func _draw() -> void:
 		"slide": _draw_slide()
 		"checker": _draw_checker()
 		"pinwheel": _draw_pinwheel()
+		"flash": _draw_flash()
+		"slash": _draw_slash()
+		"pixel": _draw_pixel()
+		"door": _draw_door()
 		_: draw_rect(Rect2(Vector2.ZERO, size), Color(0, 0, 0, progress))
 
 
@@ -187,3 +195,70 @@ func _draw_pinwheel() -> void:
 			var a := lerpf(a0, a1, k / 8.0)
 			pts.append(c + Vector2(cos(a), sin(a)) * far)
 		draw_colored_polygon(pts, Color("b48be0") if i % 2 == 0 else Color("6b4fd6"))
+
+
+## Energy burst: yellow rays shoot out from the focus, then everything goes white.
+func _draw_flash() -> void:
+	var far := size.length()
+	var rays := 18
+	var grow := clampf(progress / 0.6, 0.0, 1.0)
+	for i in rays:
+		var a := TAU * i / rays + progress * 0.6
+		var w := 0.09 + 0.05 * float(i % 2)
+		var len := far * grow * (0.8 + 0.2 * float(i % 3))
+		draw_colored_polygon(PackedVector2Array([focus, focus + Vector2(cos(a - w), sin(a - w)) * len,
+			focus + Vector2(cos(a + w), sin(a + w)) * len]), Color("ffe36a"))
+	var glow := clampf((progress - 0.15) / 0.85, 0.0, 1.0)
+	draw_circle(focus, far * 0.5 * glow, Color(1, 1, 0.85, glow), true, -1.0, true)
+	draw_rect(Rect2(Vector2.ZERO, size), Color(1, 1, 1, clampf((progress - 0.5) * 2.0, 0.0, 1.0)))
+
+
+## Two dark halves slide in from opposite corners and meet along a diagonal, with a bright blade line.
+func _draw_slash() -> void:
+	var k := ease(progress, -1.8)
+	var d := Vector2(size.x, -size.y).normalized()  # along the cut
+	var n := Vector2(d.y, -d.x)  # across the cut
+	var c := size / 2.0
+	var far := size.length()
+	for side in [-1.0, 1.0]:
+		var off: Vector2 = n * side * (1.0 - k) * far * 0.6
+		var a := c + d * far + off
+		var b := c - d * far + off
+		var poly := PackedVector2Array([a, b, b + n * side * far, a + n * side * far])
+		draw_colored_polygon(poly, Color("26221f") if side < 0 else Color("3a2f26"))
+	if progress > 0.05 and progress < 0.999:
+		var glint := c + n * 0.0
+		draw_line(glint + d * far, glint - d * far, Color(1, 1, 1, 1.0 - absf(k - 0.9) * 3.0), 6.0, true)
+
+
+## Big pixels pop in at random until the screen is covered.
+func _draw_pixel() -> void:
+	var cols := 16
+	var rows := 9
+	var cell := Vector2(size.x / cols, size.y / rows)
+	for gy in rows:
+		for gx in cols:
+			var h := fmod(sin(float(gx * 12.9898 + gy * 78.233)) * 43758.5453, 1.0)
+			if h < 0.0:
+				h += 1.0
+			if progress < h * 0.9 + 0.05:
+				continue
+			var col := Color("1d1d22") if (gx + gy) % 3 else Color("2b2b40")
+			draw_rect(Rect2(Vector2(gx, gy) * cell, cell + Vector2.ONE), col)
+
+
+## A blue blast door: two halves slide shut from the top and bottom.
+func _draw_door() -> void:
+	var k := ease(progress, -1.6)
+	var half := size.y / 2.0 * k
+	var top := Rect2(Vector2(0, 0), Vector2(size.x, half))
+	var bottom := Rect2(Vector2(0, size.y - half), Vector2(size.x, half))
+	for r in [top, bottom]:
+		draw_rect(r, Color("2f5fa8"))
+		for i in 6:
+			var x := (i + 0.5) * size.x / 6.0
+			draw_line(Vector2(x, r.position.y), Vector2(x, r.end.y), Color("244a85"), 10.0)
+	draw_rect(Rect2(Vector2(0, half - 14), Vector2(size.x, 14)), Color("6fd0ff"))
+	draw_rect(Rect2(Vector2(0, size.y - half), Vector2(size.x, 14)), Color("6fd0ff"))
+	if progress > 0.95:
+		draw_circle(size / 2.0, 30, Color("e6452f"), true, -1.0, true)

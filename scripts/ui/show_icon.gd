@@ -4,6 +4,7 @@ extends Control
 ## The design comes from the show's "icon" in data/shows.json:
 ##   bubbles - Bikini Bottom style: sea-blue with a sky flower and bubbles
 ##   city    - Hillwood style: sunset sky with a brick skyline
+##   journal, bottle, rokket, dragonball, wings, element, mushroom, visor, warpstar - more show badges
 ##   star, heart, film, note, moon, bolt - generic badges for episodes
 ## Shows without one get their initials on a coloured badge.
 
@@ -103,6 +104,46 @@ func _draw() -> void:
 		"rokket":
 			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("ffffff"), Color("d9dde3")))
 			Art.text(self, UiKit.TITLE_FONT, Vector2(0, c.y + r * 0.42), "R", int(r * 1.25), Color("e6452f"), 7, HORIZONTAL_ALIGNMENT_CENTER, size.x)
+		"dragonball":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("3a7fd8"), Color("8fd0f6")))
+			var ball := r * 0.6
+			Art.blob(self, c, ball, ball, Color("f7a23a"), 3.0, 0.15)
+			Art.dot(self, c + Vector2(-ball * 0.4, -ball * 0.45), ball * 0.18, Color(1, 1, 1, 0.8))
+			for p in [Vector2(-0.25, 0.1), Vector2(0.25, 0.1), Vector2(0, -0.25), Vector2(0, 0.4)]:
+				Art.shape(self, Art.star(c + p * ball, ball * 0.2), Color("e6452f"), 0.0)
+		"wings":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("f4f0e6"), Color("cfc6b0")))
+			var shield := PackedVector2Array([c + Vector2(-0.55, -0.55) * r, c + Vector2(0.55, -0.55) * r, c + Vector2(0.5, 0.2) * r,
+				c + Vector2(0, 0.65) * r, c + Vector2(-0.5, 0.2) * r])
+			Art.shape(self, shield, Color("4a6fa8"), 3.0)
+			for sx in [-1, 1]:
+				var wing := PackedVector2Array([c + Vector2(sx * 0.02, -0.35) * r, c + Vector2(sx * 0.45, -0.4) * r,
+					c + Vector2(sx * 0.4, -0.1) * r, c + Vector2(sx * 0.3, 0.15) * r, c + Vector2(sx * 0.02, 0.35) * r])
+				Art.shape(self, wing, Color.WHITE if sx < 0 else Color("2b2b33"), 2.5)
+		"element":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("3f8f3a"), Color("1f4f22")))
+			var tile := Rect2(c - Vector2(r, r) * 0.5, Vector2(r, r))
+			Art.shape(self, _rect_pts(tile), Color("5aa84a"), 3.0)
+			Art.text(self, UiKit.TITLE_FONT, Vector2(0, c.y + r * 0.26), "Bb", int(r * 0.7), Color.WHITE, 4, HORIZONTAL_ALIGNMENT_CENTER, size.x)
+		"mushroom":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("6ab4ec"), Color("bfe6f6")))
+			Art.shape(self, Art.rrect(Rect2(c + Vector2(-0.3, 0.0) * r, Vector2(0.6, 0.55) * r), 8), Color("f6e6c8"), 3.0)
+			Art.shape(self, Art.arc_pts(c + Vector2(0, 0.08 * r), r * 0.62, r * 0.6, PI, TAU, 18), Color("e6452f"), 3.0)
+			for p in [Vector2(-0.35, -0.2), Vector2(0.3, -0.25), Vector2(0, -0.42)]:
+				Art.dot(self, c + p * r, r * 0.11, Color.WHITE)
+			for sx in [-1, 1]:
+				Art.dot(self, c + Vector2(sx * 0.12, 0.25) * r, r * 0.05, Art.INK)
+		"visor":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("1d2a3a"), Color("3a4a5a")))
+			var helm := Art.rrect(Rect2(c + Vector2(-0.5, -0.55) * r, Vector2(1.0, 1.1) * r), r * 0.4)
+			Art.shape(self, helm, Color("e6702f"), 3.0, 0.15)
+			Art.shape(self, Art.rrect(Rect2(c + Vector2(-0.38, -0.15) * r, Vector2(0.76, 0.32) * r), 6), Color("6fdc6a"), 3.0)
+			Art.shape(self, Art.rrect(Rect2(c + Vector2(-0.12, -0.6) * r, Vector2(0.24, 0.3) * r), 4), Color("e64a3a"), 2.5)
+		"warpstar":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("f7b6d0"), Color("f28cb8")))
+			Art.shape(self, Art.star(c + Vector2(0, 0.02 * r), r * 0.6), Color("ffe36a"), 3.0, 0.12)
+			for sx in [-1, 1]:
+				draw_line(c + Vector2(sx * 0.12, -0.12) * r, c + Vector2(sx * 0.12, 0.02) * r, Art.INK, 3.0)
 		"star":
 			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("6b4fd6"), Color("b48be0")))
 			var pts := PackedVector2Array()
@@ -159,3 +200,7 @@ static func _vertical_gradient(pts: PackedVector2Array, c: Vector2, r: float, to
 	for p in pts:
 		cols.append(top.lerp(bottom, clampf((p.y - (c.y - r)) / (2.0 * r), 0.0, 1.0)))
 	return cols
+
+
+static func _rect_pts(r: Rect2) -> PackedVector2Array:
+	return PackedVector2Array([r.position, Vector2(r.end.x, r.position.y), r.end, Vector2(r.position.x, r.end.y)])

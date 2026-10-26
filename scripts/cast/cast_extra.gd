@@ -23,7 +23,7 @@ static func draw(p: Puppet, style: String) -> bool:
 		"mouse": _mouse(p)
 		"cat": _cat(p)
 		"wobble": _wobble(p)
-		_: return false
+		_: return CastMore.draw(p, style)
 	return true
 
 

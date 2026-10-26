@@ -11,11 +11,13 @@ extends RefCounted
 ##   legs: leg colour (default skin, or bottom_col for pants); sock; shoe
 ##   head: Vector2 radii; head_shape: "round" | "long" | "wide"
 ##   hair: "none" | "crew" | "spiky" | "bob" | "long" | "pigtails" | "bun" |
-##         "fringe" | "curly" | "ponytail" | "tuft" | "slick" | "wild" | "big_wave"
+##         "fringe" | "curly" | "ponytail" | "tuft" | "slick" | "wild" | "big_wave" |
+##         "saiyan" (big spikes all round) | "flame" (tall upswept spikes)
 ##   hair_col; glasses: true; eye_iris: Color; lashes: int; base_lid
 ##   nose: "dot" | "big" | "long"; ears: true
 ##   extra: Callable(p, hc) drawn after the face (hats, bows, badges...)
 ##   torso_extra: Callable(p) drawn on the body
+##   back_extra: Callable(p, hc) drawn behind everything (capes, cloaks, wings, tails)
 
 const SIZES := {
 	"baby": {"hip": -34.0, "shoulder": -80.0, "head_y": -124.0, "head": Vector2(44, 42), "leg_w": 13.0, "arm": 34.0, "torso_w": 28.0},
@@ -43,6 +45,8 @@ static func draw(p: Puppet, c: Dictionary) -> void:
 	var bottom: String = c.get("bottom", "pants")
 	var bottom_col: Color = c.get("bottom_col", Color("3d5aa8"))
 
+	if c.has("back_extra"):
+		c.back_extra.call(p, hc)
 	_hair_back(p, c, hc, hr)
 	# Back arm
 	p._arm(Vector2(-tw + 3, sh + 8), -1, raise.x, arm_len, c.get("arm_w", 8.0), arm_col, 7, skin,
@@ -143,6 +147,20 @@ static func _hair_back(p: Puppet, c: Dictionary, hc: Vector2, hr: Vector2) -> vo
 			Art.blob(ci, hc + Vector2(-hr.x - 10, hr.y * 0.2), 14, 26, col, 3.5, 0.1, 0.4)
 		"bun":
 			Art.blob(ci, hc + Vector2(0, -hr.y - 6), 14, 12, col, 3.5)
+		"saiyan":
+			# Big spikes fanning out all round the top of the head
+			var spikes := PackedVector2Array()
+			for i in 13:
+				var a := PI * 0.92 + PI * 1.16 * i / 12.0
+				var rr := 1.0 if i % 2 == 0 else 1.75
+				spikes.append(hc + Vector2(cos(a) * hr.x * rr * 1.08, sin(a) * hr.y * rr * 1.02 + hr.y * 0.05))
+			Art.shape(ci, spikes, col, 4.0, 0.12)
+		"flame":
+			var flame := PackedVector2Array([hc + Vector2(-hr.x * 1.05, hr.y * 0.1), hc + Vector2(-hr.x * 1.2, -hr.y * 1.3),
+				hc + Vector2(-hr.x * 0.55, -hr.y * 1.1), hc + Vector2(-hr.x * 0.5, -hr.y * 2.2), hc + Vector2(-hr.x * 0.05, -hr.y * 1.4),
+				hc + Vector2(hr.x * 0.25, -hr.y * 2.5), hc + Vector2(hr.x * 0.5, -hr.y * 1.3), hc + Vector2(hr.x * 1.0, -hr.y * 1.9),
+				hc + Vector2(hr.x * 0.95, -hr.y * 0.8), hc + Vector2(hr.x * 1.05, hr.y * 0.1)])
+			Art.shape(ci, flame, col, 4.0, 0.12)
 
 
 ## Hair on top of the head.
@@ -160,6 +178,11 @@ static func _hair_front(p: Puppet, c: Dictionary, hc: Vector2, hr: Vector2, head
 	match kind:
 		"crew", "bob", "long", "pigtails", "ponytail", "bun", "big_wave":
 			cap.call(cap_y)
+		"saiyan", "flame":
+			cap.call(cap_y)
+			# Widow's peak
+			Art.fill(ci, PackedVector2Array([hc + Vector2(-hr.x * 0.35, hr.y * cap_y - 1), hc + Vector2(0, hr.y * (cap_y + 0.3)),
+				hc + Vector2(hr.x * 0.35, hr.y * cap_y - 1)]), col)
 		"spiky":
 			cap.call(cap_y)
 			for i in 5:

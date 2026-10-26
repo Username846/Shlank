@@ -378,5 +378,455 @@
 		"name": "Tall Grass Route",
 		"show": "Pokemon",
 		"description": "Wild monsters could be hiding anywhere in here."
+	},
+	"kamee_house": {
+		"name": "Kamee House",
+		"show": "Dragonball Z",
+		"description": "Master Roshee's pink house on a tiny island."
+	},
+	"capsool_corp": {
+		"name": "Capsool Corp",
+		"show": "Dragonball Z",
+		"description": "Bulmah's family company. Big dome, bigger inventions."
+	},
+	"the_lookout": {
+		"name": "The Lookout",
+		"show": "Dragonball Z",
+		"description": "A palace floating high above the clouds."
+	},
+	"planet_nameck": {
+		"name": "Planet Nameck",
+		"show": "Dragonball Z",
+		"description": "Green skies, blue grass and round little trees."
+	},
+	"rocky_wasteland": {
+		"name": "Rocky Wasteland",
+		"show": "Dragonball Z",
+		"description": "Where every big fight seems to happen. Lots of rocks to blow up."
+	},
+	"world_tournament": {
+		"name": "World Tournament",
+		"show": "Dragonball Z",
+		"description": "The famous fighting ring. Don't fall off the edge."
+	},
+	"gravity_room": {
+		"name": "Gravity Room",
+		"show": "Dragonball Z",
+		"description": "Training at a hundred times normal gravity."
+	},
+	"gokku_house": {
+		"name": "Gokku's House",
+		"show": "Dragonball Z",
+		"description": "A little round house in the mountains."
+	},
+	"time_chamber": {
+		"name": "Time Chamber",
+		"show": "Dragonball Z",
+		"description": "A year inside is only a day outside. Very white."
+	},
+	"snake_way": {
+		"name": "Snake Way",
+		"show": "Dragonball Z",
+		"description": "A very, very long road through the clouds of the Other World."
+	},
+	"kie_planet": {
+		"name": "King Kie's Planet",
+		"show": "Dragonball Z",
+		"description": "A tiny planet with huge gravity, a car and a monkey."
+	},
+	"cel_ring": {
+		"name": "The Cel Games",
+		"show": "Dragonball Z",
+		"description": "Cel's tournament ring in the middle of nowhere."
+	},
+	"freeza_ship": {
+		"name": "Freeza's Ship",
+		"show": "Dragonball Z",
+		"description": "Round, purple and full of bad intentions."
+	},
+	"west_city": {
+		"name": "West City",
+		"show": "Dragonball Z",
+		"description": "A busy future city full of capsule cars."
+	},
+	"korin_tower": {
+		"name": "Korin Tower",
+		"show": "Dragonball Z",
+		"description": "A tower so tall it pokes through the clouds."
+	},
+	"wall_top": {
+		"name": "Top of the Wall",
+		"show": "Attack on Titan",
+		"description": "Fifty meters up, with cannons and a view of Titan country."
+	},
+	"shiganshina": {
+		"name": "Shiganshina Town",
+		"show": "Attack on Titan",
+		"description": "A cozy town right next to the wall. What could go wrong?"
+	},
+	"training_grounds": {
+		"name": "Training Grounds",
+		"show": "Attack on Titan",
+		"description": "Where cadets learn to use their gear. Mostly by falling."
+	},
+	"scout_hq": {
+		"name": "Scout HQ",
+		"show": "Attack on Titan",
+		"description": "The Survey Corps' old castle headquarters."
+	},
+	"giant_forest": {
+		"name": "Forest of Giant Trees",
+		"show": "Attack on Titan",
+		"description": "Trees so tall the Scouts can swing through them."
+	},
+	"mess_hall": {
+		"name": "Mess Hall",
+		"show": "Attack on Titan",
+		"description": "Bread, soup and the occasional stolen potato."
+	},
+	"rooftops": {
+		"name": "Rooftops",
+		"show": "Attack on Titan",
+		"description": "The fastest way across town with the right gear."
+	},
+	"wall_gate": {
+		"name": "The Gate",
+		"show": "Attack on Titan",
+		"description": "The big gate where the Scouts head out on expeditions."
+	},
+	"titan_plains": {
+		"name": "Titan Plains",
+		"show": "Attack on Titan",
+		"description": "Wide open grass outside the walls. Watch out."
+	},
+	"stables": {
+		"name": "The Stables",
+		"show": "Attack on Titan",
+		"description": "Home of the Scouts' horses. Smells about how you'd expect."
+	},
+	"old_castle": {
+		"name": "Old Castle",
+		"show": "Attack on Titan",
+		"description": "A crumbling castle in the middle of the plains."
+	},
+	"underground_city": {
+		"name": "Underground City",
+		"show": "Attack on Titan",
+		"description": "A gloomy city hidden beneath the capital."
+	},
+	"the_ocean": {
+		"name": "The Ocean",
+		"show": "Attack on Titan",
+		"description": "Armen's dream. It's real, and it's salty."
+	},
+	"jaeger_basement": {
+		"name": "The Basement",
+		"show": "Attack on Titan",
+		"description": "The cellar that holds all the secrets."
+	},
+	"trost_district": {
+		"name": "Trost District",
+		"show": "Attack on Titan",
+		"description": "A busy district with a big gate and bigger trouble."
+	},
+	"whyte_house": {
+		"name": "The Whyte House",
+		"show": "Breaking Bad",
+		"description": "A beige house in Albuquerque. Very normal. Suspiciously normal."
+	},
+	"whyte_backyard": {
+		"name": "Whyte Backyard",
+		"show": "Breaking Bad",
+		"description": "The pool and the roof. There may be a pizza on the roof."
+	},
+	"rv_desert": {
+		"name": "The RV",
+		"show": "Breaking Bad",
+		"description": "An old RV parked in the middle of the desert."
+	},
+	"car_wash": {
+		"name": "A2A Car Wash",
+		"show": "Breaking Bad",
+		"description": "The cleanest cars in Albuquerque."
+	},
+	"pollitos": {
+		"name": "Los Pollitos Hermanos",
+		"show": "Breaking Bad",
+		"description": "Fried chicken, served with a very polite smile."
+	},
+	"superlab": {
+		"name": "The Superlab",
+		"show": "Breaking Bad",
+		"description": "A gleaming underground candy kitchen."
+	},
+	"chem_class": {
+		"name": "Chemistry Class",
+		"show": "Breaking Bad",
+		"description": "Mr. Whyte's high school classroom. Chemistry is the study of change."
+	},
+	"saul_office": {
+		"name": "Saul's Office",
+		"show": "Breaking Bad",
+		"description": "Strip-mall law office with a big inflatable Liberty."
+	},
+	"dea_office": {
+		"name": "DEA Office",
+		"show": "Breaking Bad",
+		"description": "Hank's desk, his rock collection and too much paperwork."
+	},
+	"pinkman_house": {
+		"name": "Pinkmann House",
+		"show": "Breaking Bad",
+		"description": "Jessie's house. Loud music, couches, video games."
+	},
+	"schraeder_house": {
+		"name": "Schraeder House",
+		"show": "Breaking Bad",
+		"description": "Hank and Maree's house. Mostly purple."
+	},
+	"desert_road": {
+		"name": "Desert Road",
+		"show": "Breaking Bad",
+		"description": "A long empty road under a very big sky."
+	},
+	"crossroads_motel": {
+		"name": "Crossroads Motel",
+		"show": "Breaking Bad",
+		"description": "A cheap motel with a flickering sign."
+	},
+	"junkyard": {
+		"name": "Junkyard",
+		"show": "Breaking Bad",
+		"description": "Old cars, scrap metal and a guard dog."
+	},
+	"laundry": {
+		"name": "Industrial Laundry",
+		"show": "Breaking Bad",
+		"description": "Washing machines as far as the eye can see."
+	},
+	"mushroom_kingdom": {
+		"name": "Mushroom Kingdom",
+		"show": "Super Mario Brothers",
+		"description": "Rolling hills, question blocks and green pipes."
+	},
+	"peech_castle": {
+		"name": "Princess Peech's Castle",
+		"show": "Super Mario Brothers",
+		"description": "The princess's castle. She's usually home. Usually."
+	},
+	"peech_throne": {
+		"name": "Throne Room",
+		"show": "Super Mario Brothers",
+		"description": "Inside Peech's castle, with a long red carpet."
+	},
+	"pipe_land": {
+		"name": "Pipe Land",
+		"show": "Super Mario Brothers",
+		"description": "Pipes everywhere. Some go somewhere."
+	},
+	"underground_bricks": {
+		"name": "Underground",
+		"show": "Super Mario Brothers",
+		"description": "Blue bricks, dark tunnels and coins in the ceiling."
+	},
+	"bowzer_castle": {
+		"name": "Bowzer's Castle",
+		"show": "Super Mario Brothers",
+		"description": "Lava, chains and a very big boss door."
+	},
+	"sky_land": {
+		"name": "Sky Land",
+		"show": "Super Mario Brothers",
+		"description": "Platforms on the clouds. Don't look down."
+	},
+	"desert_land": {
+		"name": "Desert Land",
+		"show": "Super Mario Brothers",
+		"description": "Sand, pyramids and angry suns."
+	},
+	"ice_land": {
+		"name": "Ice Land",
+		"show": "Super Mario Brothers",
+		"description": "Slippery, snowy and full of penguins."
+	},
+	"water_land": {
+		"name": "Water Land",
+		"show": "Super Mario Brothers",
+		"description": "Under the sea with coral and coins."
+	},
+	"toad_house": {
+		"name": "Toadd House",
+		"show": "Super Mario Brothers",
+		"description": "A mushroom house with a treasure chest inside."
+	},
+	"boo_mansion": {
+		"name": "Boo Mansion",
+		"show": "Super Mario Brothers",
+		"description": "A haunted house. Luiggi does not want to go in."
+	},
+	"kong_jungle": {
+		"name": "Kongg Jungle",
+		"show": "Super Mario Brothers",
+		"description": "Vines, bananas and barrels."
+	},
+	"goal_flagpole": {
+		"name": "The Flagpole",
+		"show": "Super Mario Brothers",
+		"description": "The end of the level. Jump as high as you can!"
+	},
+	"rainbow_road": {
+		"name": "Rainbow Road",
+		"show": "Super Mario Brothers",
+		"description": "A shining racetrack among the stars. No guardrails."
+	},
+	"landing_site": {
+		"name": "Landing Site",
+		"show": "Metroid",
+		"description": "Samuss's gunship parked on a stormy planet."
+	},
+	"crateria": {
+		"name": "Crateria",
+		"show": "Metroid",
+		"description": "Rocky, rainy and lonely. Something is watching."
+	},
+	"brinstar": {
+		"name": "Brinstar",
+		"show": "Metroid",
+		"description": "Green caverns full of plants and critters."
+	},
+	"norfair": {
+		"name": "Norfair",
+		"show": "Metroid",
+		"description": "Hot, hot, hot. Lava everywhere."
+	},
+	"maridia": {
+		"name": "Maridia",
+		"show": "Metroid",
+		"description": "An underwater cave full of sand and pipes."
+	},
+	"tourian": {
+		"name": "Tourian",
+		"show": "Metroid",
+		"description": "The pirates' base. Mother Brane lives here."
+	},
+	"wrecked_ship": {
+		"name": "Wrecked Ship",
+		"show": "Metroid",
+		"description": "A haunted old starship. The lights don't work."
+	},
+	"chozo_ruins": {
+		"name": "Choso Ruins",
+		"show": "Metroid",
+		"description": "Ancient bird-people statues hold upgrades in their hands."
+	},
+	"save_room": {
+		"name": "Save Room",
+		"show": "Metroid",
+		"description": "A safe little room with a glowing pad."
+	},
+	"elevator_shaft": {
+		"name": "Elevator",
+		"show": "Metroid",
+		"description": "A long shaft between areas. Mind the gap."
+	},
+	"ceres_station": {
+		"name": "Ceres Station",
+		"show": "Metroid",
+		"description": "A science space station. Something's gone wrong."
+	},
+	"ridlee_lair": {
+		"name": "Ridlee's Lair",
+		"show": "Metroid",
+		"description": "A dark lava chamber. Ridlee is waiting."
+	},
+	"krayd_lair": {
+		"name": "Krayd's Lair",
+		"show": "Metroid",
+		"description": "A huge chamber for a huge monster."
+	},
+	"item_room": {
+		"name": "Item Room",
+		"show": "Metroid",
+		"description": "A statue holds an item ball. Shiny!"
+	},
+	"map_station": {
+		"name": "Map Station",
+		"show": "Metroid",
+		"description": "Downloads the map. Very helpful."
+	},
+	"green_greens": {
+		"name": "Green Greens",
+		"show": "Kirby",
+		"description": "Grassy hills under a sunny Dream Land sky."
+	},
+	"whispee_forest": {
+		"name": "Whispee's Forest",
+		"show": "Kirby",
+		"description": "A cheerful forest with a grumpy old tree."
+	},
+	"dedeedee_castle": {
+		"name": "Castle Dedeedee",
+		"show": "Kirby",
+		"description": "The king's castle on the hill."
+	},
+	"dedeedee_throne": {
+		"name": "Throne Room",
+		"show": "Kirby",
+		"description": "King Dedeedee's throne, with a buffet nearby."
+	},
+	"kirbie_house": {
+		"name": "Kirbie's House",
+		"show": "Kirby",
+		"description": "A little dome house with a star on the door."
+	},
+	"butter_building": {
+		"name": "Butter Building",
+		"show": "Kirby",
+		"description": "A tall tower that spins. Hang on."
+	},
+	"cloudy_park": {
+		"name": "Cloudy Park",
+		"show": "Kirby",
+		"description": "Fluffy clouds you can walk on."
+	},
+	"fountain_of_dreams": {
+		"name": "Fountain of Dreams",
+		"show": "Kirby",
+		"description": "The magical fountain that gives everyone sweet dreams."
+	},
+	"ice_cream_island": {
+		"name": "Ice Cream Island",
+		"show": "Kirby",
+		"description": "A beach island with ice cream mountains."
+	},
+	"orange_ocean": {
+		"name": "Orange Ocean",
+		"show": "Kirby",
+		"description": "A sunset beach with orange waves."
+	},
+	"halberd_deck": {
+		"name": "The Halberd",
+		"show": "Kirby",
+		"description": "The deck of Meta Nite's battleship."
+	},
+	"rainbow_resort": {
+		"name": "Rainbow Resort",
+		"show": "Kirby",
+		"description": "A sparkly land of rainbows and stars."
+	},
+	"vegetable_valley": {
+		"name": "Vegetable Valley",
+		"show": "Kirby",
+		"description": "Fields of giant vegetables. Everybody's hungry."
+	},
+	"grape_garden": {
+		"name": "Grape Garden",
+		"show": "Kirby",
+		"description": "A garden in the sky, full of grapes."
+	},
+	"yogurt_yard": {
+		"name": "Yogurt Yard",
+		"show": "Kirby",
+		"description": "Mountains that look like dessert."
 	}
 }

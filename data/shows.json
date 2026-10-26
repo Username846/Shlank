@@ -28,5 +28,41 @@
 		"transition_sfx": "sparkle",
 		"icon": "rokket",
 		"color": "#e6452f"
+	},
+	"Dragonball Z": {
+		"transition": "flash",
+		"transition_sfx": "blast",
+		"icon": "dragonball",
+		"color": "#f2852a"
+	},
+	"Attack on Titan": {
+		"transition": "slash",
+		"transition_sfx": "sword",
+		"icon": "wings",
+		"color": "#4a6fa8"
+	},
+	"Breaking Bad": {
+		"transition": "slide",
+		"transition_sfx": "sizzle",
+		"icon": "element",
+		"color": "#3f8f3a"
+	},
+	"Super Mario Brothers": {
+		"transition": "pixel",
+		"transition_sfx": "powerup",
+		"icon": "mushroom",
+		"color": "#e6302a"
+	},
+	"Metroid": {
+		"transition": "door",
+		"transition_sfx": "hiss",
+		"icon": "visor",
+		"color": "#e6702f"
+	},
+	"Kirby": {
+		"transition": "heart",
+		"transition_sfx": "sparkle",
+		"icon": "warpstar",
+		"color": "#f28cb8"
 	}
 }

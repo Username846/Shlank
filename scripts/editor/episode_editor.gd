@@ -14,7 +14,8 @@ const STAGE_SIZE := Vector2(666, 374)
 const GROUND := 612.0
 const MOODS := ["happy", "jazz", "tense", "sad", "sneaky", "spooky", "action", "romantic", "off"]
 const SFX_NAMES := ["pop", "boing", "gasp", "whoosh", "slam", "splat", "sting", "ding", "cash", "fanfare", "wahwah",
-	"drumroll", "sparkle", "chomp", "sizzle", "beep", "detector", "detector_crazy", "clarinet", "squeak", "bubbles", "slide_whistle"]
+	"drumroll", "sparkle", "chomp", "sizzle", "beep", "detector", "detector_crazy", "clarinet", "squeak", "bubbles", "slide_whistle",
+	"blast", "sword", "thud", "coin", "powerup", "jump_8bit", "hiss", "laser"]
 const PROPS := ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money", "locket", "ice_cream", "fishing_rod", "beeper"]
 const SPEEDS := [["Slow", 150.0], ["Walk", 300.0], ["Run", 520.0]]
 
@@ -367,7 +368,8 @@ func _picker_button(cb: Callable) -> Button:
 
 static func _transition_name(t: String) -> String:
 	return {"bubbles": "Bubble wipe", "iris": "Iris", "star": "Star wipe", "heart": "Heart iris",
-		"slide": "Slide", "checker": "Checkerboard", "pinwheel": "Pinwheel", "fade": "Fade"}.get(t, t.capitalize())
+		"slide": "Slide", "checker": "Checkerboard", "pinwheel": "Pinwheel", "flash": "Energy flash",
+		"slash": "Blade slash", "pixel": "Pixels", "door": "Blast door", "fade": "Fade"}.get(t, t.capitalize())
 
 
 func _update_scene_buttons() -> void:

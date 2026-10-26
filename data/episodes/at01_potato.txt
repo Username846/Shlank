@@ -1,0 +1,169 @@
+@title The Last Potato
+@series Attack on Titan
+@icon wings
+@number 1
+@description The Scouts' supply of potatoes has gone missing, Sascha swears she didn't eat them, and a giant grinning Titan seems to know something.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC tense
+SCENE mess_hall cut
+TITLE
+PLACE jeen midleft right angry
+PLACE konny midright left nervous
+JEEN (angry): Empty. The whole potato barrel is empty. Again.
+KONNY (nervous): Maybe the potatoes ran away? Can potatoes run?
+ENTER sascha right right nervous
+SASCHA (nervous): Morning, everyone! Lovely day! Nobody's mad at me, right?
+JEEN (angry): Sascha. Where are the potatoes?
+SASCHA (scared): It wasn't me this time! I swear on my stomach!
+ENTER erren left left angry
+ERREN (angry): Who cares about potatoes? There are Titans out there!
+KONNY (sad): Erren, the Titans aren't going to make us breakfast.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC action
+SCENE training_grounds
+PLACE armen midleft right nervous
+ENTER mikasah left left neutral
+ENTER rayner right midright happy
+ARMEN (nervous): I've been thinking. The potatoes disappear every night, but the door is always locked.
+MIKASAH: So someone is getting in another way.
+RAYNER (happy): Or something. There were giant footprints by the wall this morning.
+ARMEN (surprised): Giant footprints? Going to the potato shed?
+RAYNER (nervous): Going... and coming back.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense 2
+SCENE scout_hq
+PLACE irwin center left neutral
+PLACE levee midright left smug
+ENTER armen left midleft nervous
+ARMEN (nervous): Commander Irwin! I think a Titan is stealing our potatoes!
+IRWIN (surprised): A Titan. Stealing potatoes.
+LEVEE (smug): Titans don't eat potatoes. They eat people. Much less tidy.
+ARMEN (nervous): That's what's so strange, sir.
+IRWIN (excited): Then we'll find out the truth. Scouts! Dedicate your hearts!
+LEVEE (angry): And wipe your boots. All of you.
+
+# ------------------------------------------------------------ SHIGANSHINA
+MUSIC sad
+SCENE shiganshina
+PLACE erren midleft right sad
+PLACE mikasah center left neutral
+ERREN (sad): Mikasah. Do you remember when we were kids, here in Shiganshina?
+MIKASAH (happy): You used to steal apples from the market.
+ERREN (angry): I was saving them! For later!
+MIKASAH (smug): You were saving them in your mouth.
+ERREN (happy): Huh. Maybe I'm not so different from that Titan.
+MIKASAH (shy): Don't tell Sascha. She'll want to be its friend.
+
+# ------------------------------------------------------------ TROST DISTRICT
+MUSIC sneaky
+SCENE trost_district
+ENTER konny left midleft nervous
+ENTER jeen left left angry
+KONNY (nervous): Jeen, if a Titan is stealing potatoes, what's next? Bread? Cheese? Soup?
+JEEN (angry): It's a Titan, Konny. It's not doing groceries.
+KONNY (scared): What if it does groceries?
+JEEN (smug): Then it's more organized than you.
+
+# ------------------------------------------------------------ TOP OF THE WALL
+MUSIC sneaky
+SCENE wall_top
+CARD That night...
+PLACE erren midleft right angry
+PLACE mikasah left right neutral
+PLACE sascha center left nervous
+ERREN (angry): When it shows up, I'm taking it down.
+MIKASAH: Erren. We're here to watch. Not to fight.
+SASCHA (scared): Um. Guys? Do you hear that?
+SFX thud
+SHAKE 0.5
+SFX thud
+SHAKE 0.7
+SASCHA (scared): It's coming from the potato shed!
+
+# ------------------------------------------------------------ THE GATE
+MUSIC action 2
+SCENE wall_gate
+ENTER grinning_titan right midright happy
+GRINNING_TITAN (happy): Hehehe...
+HOLD grinning_titan money
+ENTER erren left midleft angry 500
+ERREN (angry): Hey! Drop that sack!
+GRINNING_TITAN (scared): Hehe?
+EXIT grinning_titan right 260
+ENTER mikasah left left neutral 500
+MIKASAH (angry): It's getting away. After it!
+RUN erren offright &
+RUN mikasah offright
+
+# ------------------------------------------------------------ ROOFTOPS
+MUSIC action 3
+SCENE rooftops
+ENTER levee left midleft angry 600
+SFX sword
+LEVEE (angry): It went over the wall. With a sack of potatoes. Disgusting.
+ENTER hanjee left left excited 600
+HANJEE (excited): A Titan that collects food? Do you know what this means?
+LEVEE (smug): That you're about to say something weird.
+HANJEE (excited): It means it isn't eating them! It's saving them! For something!
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC tense
+SCENE titan_plains
+PLACE grinning_titan center left happy
+ENTER armen left left nervous
+ENTER erren left midleft angry
+ARMEN (nervous): Wait, Erren. Look. It's not attacking.
+GRINNING_TITAN (happy): Hehehe.
+ERREN (surprised): It's... setting down the potatoes. In a circle?
+ARMEN (excited): It's a picnic! It's having a picnic!
+ENTER hanjee right right excited
+HANJEE (excited): Oh, you beautiful, enormous weirdo! Can I sit with you?
+
+# ------------------------------------------------------------ GIANT FOREST
+MUSIC sad
+SCENE giant_forest
+PLACE irwin midleft right neutral
+PLACE levee left right smug
+PLACE armen midright left happy
+IRWIN: So. The Titan isn't a thief. It's lonely.
+ARMEN (happy): It only took potatoes because it saw us eating them. It wanted to join in.
+LEVEE (smug): We are not adopting a Titan.
+IRWIN (happy): No. But we can share one potato. As a gesture.
+
+# ------------------------------------------------------------ UNDERGROUND CITY
+MUSIC spooky
+SCENE underground_city
+PLACE levee center left smug
+ENTER hanjee left midleft excited
+HANJEE (excited): Levee! I've named it! Potato Pete!
+LEVEE (smug): You named the Titan.
+HANJEE (happy): He has a name, a favorite food and a very nice smile.
+LEVEE (angry): It has three hundred teeth.
+HANJEE (excited): Like I said! A very nice smile!
+
+# ------------------------------------------------------------ STABLES
+MUSIC happy
+SCENE stables
+PLACE sascha midleft right excited
+PLACE jeen midright left smug
+PLACE konny center left happy
+SASCHA (excited): Everyone's potatoes are back! Except one. Which I did not eat.
+JEEN (smug): Why do you have crumbs on your face then?
+SASCHA (nervous): Those are... decorations.
+KONNY (happy): I believe you, Sascha!
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC romantic
+SCENE the_ocean
+PLACE armen midleft right happy
+PLACE erren center left happy
+PLACE mikasah left right happy
+ARMEN (happy): Someday, we'll come out here for real. No Titans. No walls. Just the ocean.
+ERREN (happy): And potatoes. For everyone.
+MIKASAH (shy): Even the big one.
+ENTER rayner right right happy
+RAYNER (happy): Even the big one.
+END

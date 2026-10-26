@@ -221,6 +221,8 @@ static func icon_button(kind: String, caption: String, px: float) -> Button:
 	btn.add_child(icon)
 	var l := label(caption.to_upper(), 13, Art.INK)
 	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	l.clip_text = true
+	l.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	l.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	l.position = Vector2(0, px + 4)

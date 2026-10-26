@@ -81,6 +81,15 @@ static func smooth(ctrl: PackedVector2Array, sub: int = 6, closed: bool = true) 
 	return out
 
 
+## A five-pointed star of outer radius `r`.
+static func star(c: Vector2, r: float, inner: float = 0.45) -> PackedVector2Array:
+	var pts := PackedVector2Array()
+	for i in 10:
+		var a := -PI / 2 + TAU * i / 10.0
+		pts.append(c + Vector2(cos(a), sin(a)) * (r if i % 2 == 0 else r * inner))
+	return pts
+
+
 ## Heart outline centred on c (used for the locket).
 static func heart(c: Vector2, s: float, n: int = 36) -> PackedVector2Array:
 	var pts := PackedVector2Array()

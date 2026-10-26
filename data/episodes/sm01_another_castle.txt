@@ -1,0 +1,169 @@
+@title In Another Castle
+@series Super Mario Brothers
+@icon mushroom
+@number 1
+@description Princess Peech has been kidnapped again. Mareo and Luiggi race through pipes, clouds and a very haunted house, only to keep hearing the same five words.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy
+SCENE mushroom_kingdom cut
+TITLE
+PLACE mareo midleft right happy
+PLACE luiggi left right happy
+MAREO (happy): What a beautiful day in the Mushroom Kingdom, Luiggi!
+LUIGGI (happy): Not a single kidnapping all week. That's a new record!
+ENTER toadd right right scared 500
+TOADD (scared): Mareo! Mareo! The princess has been kidnapped!
+LUIGGI (sad): And there goes the record.
+MAREO (excited): Don't worry, Toadd! We'll save her! Let's-a go!
+SFX jump_8bit
+JUMP mareo
+RUN mareo offright &
+RUN luiggi offright
+
+# ------------------------------------------------------------ PEECH'S CASTLE
+MUSIC tense
+SCENE peech_castle
+PLACE gumba center left angry
+ENTER mareo left midleft excited
+GUMBA (angry): Hey! You can't come in here! Princess's orders! Well, Bowzer's orders.
+MAREO (smug): Sorry, little guy!
+SFX boing
+JUMP mareo
+GUMBA (sad): Every time. Every single time.
+ENTER luiggi left left nervous
+LUIGGI (nervous): Did you just jump on that poor mushroom?
+MAREO (happy): It's what we do, Luiggi!
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC happy 2
+SCENE pipe_land
+ENTER mareo left midleft happy
+ENTER luiggi left left happy
+ENTER waryo right midright smug
+WARYO (smug): Wah ha ha! Looking for the princess? Too bad! I'm gonna save her first and take all the reward gold!
+MAREO (angry): Waryo! This isn't a contest!
+WARYO (excited): Everything is a contest when there's gold! Waaah!
+EXIT waryo right 500
+SFX coin
+LUIGGI (nervous): Should we be worried?
+MAREO (smug): He's going down the wrong pipe. That one goes to the sewers.
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC spooky
+SCENE underground_bricks
+ENTER waryo left center angry
+WARYO (angry): Sewers! Why is it always the sewers! My shoes are ruined!
+SFX coin
+WARYO (excited): Wait. A coin! Waaah! Coins everywhere down here!
+WARYO (smug): Forget the princess. I'm rich! Wah ha ha!
+
+# ------------------------------------------------------------ ICE LAND
+MUSIC happy
+SCENE ice_land
+ENTER luiggi left midleft nervous
+ENTER mareo left left happy
+LUIGGI (nervous): Mareo, are you sure this is the way? It's very cold and very slippery.
+MAREO (happy): Every adventure needs an ice level, Luiggi!
+SFX boing
+LUIGGI (scared): Whoa! Whoa whoa whoa!
+MAREO (excited): Wahoo! Slide with it!
+
+# ------------------------------------------------------------ SKY LAND
+MUSIC happy 3
+SCENE sky_land
+ENTER yoshee right center excited
+YOSHEE (excited): Yoshee!
+ENTER mareo left midleft excited &
+ENTER luiggi left left happy
+MAREO (excited): Yoshee! Can you give us a lift to Bowzer's castle?
+YOSHEE (happy): Yoshee yoshee!
+ENTER kooper right right nervous
+KOOPER (nervous): Hey, uh, you didn't see me. I'm on vacation. Bowzer's castle is that way, past the desert.
+LUIGGI (happy): Thanks, Kooper!
+KOOPER (smug): Don't mention it. Seriously. Don't mention it.
+
+# ------------------------------------------------------------ BOWZER'S CASTLE
+MUSIC tense 2
+SCENE bowzer_castle
+PLACE bowzer midright left smug
+ENTER mareo left left angry
+ENTER luiggi left farleft nervous
+BOWZER (smug): Gwahahaha! Mareo! You came all this way for nothing!
+MAREO (angry): Where's the princess, Bowzer?
+BOWZER (happy): Oh, she's not here. Ask the little guy.
+ENTER toadd right right sad
+TOADD (sad): Thank you, Mareo! But our princess is in another castle!
+MAREO (surprised): Mamma mia!
+LUIGGI (angry): You were with US the whole time! How did you get here first?!
+TOADD (shy): Pipes. I know a lot of pipes.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC sneaky
+SCENE desert_land
+ENTER daizy right midright excited
+ENTER mareo left left nervous &
+ENTER luiggi left farleft nervous
+DAIZY (excited): Hi, I'm Daizy! You guys look lost.
+MAREO (sad): We've been to three castles. No princess anywhere.
+DAIZY (smug): That's because Bowzer hid her somewhere spooky. And everyone knows who's afraid of spooky.
+LUIGGI (scared): Please don't say it.
+DAIZY (happy): Boo Mansion!
+LUIGGI (scared): She said it.
+
+# ------------------------------------------------------------ KONGG JUNGLE
+MUSIC tense
+SCENE kong_jungle
+ENTER mareo left midleft nervous
+MAREO (nervous): Luiggi went ahead into the mansion by himself. That's not like him at all.
+ENTER daizy left left smug
+DAIZY (smug): I may have told him the princess was handing out free pasta in there.
+MAREO (surprised): Daizy!
+DAIZY (happy): What? It got him moving, didn't it? Come on!
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC spooky
+SCENE boo_mansion
+ENTER luiggi left midleft scared 160
+LUIGGI (scared): Mareo? Mareo, where'd you go? This isn't funny!
+SFX squeak
+LUIGGI (scared): Who's there?!
+ENTER donkee_kongg right midright happy
+DONKEE_KONGG (happy): Ooh ooh! Banana?
+LUIGGI (surprised): Donkee Kongg? What are you doing in a haunted house?
+DONKEE_KONGG (sad): Lost. Very lost. Looking for princess too.
+LUIGGI (excited): Wait. I hear singing upstairs. It's Peech!
+DONKEE_KONGG (excited): Ooh ooh!
+
+# ------------------------------------------------------------ THRONE ROOM
+MUSIC action
+SCENE peech_throne
+CARD Meanwhile...
+PLACE peech center left smug
+PLACE bowzer midright left nervous
+PEECH (smug): Bowzer, you've kidnapped me twelve times this year. Don't you get tired?
+BOWZER (sad): I just wanted somebody to come to my birthday party.
+PEECH (surprised): That's what this is about?
+BOWZER (shy): Nobody ever comes. They just jump on my head.
+ENTER luiggi left left excited 500
+ENTER mareo left midleft excited 500
+LUIGGI (excited): Princess! We're here to rescue you!
+PEECH (happy): Thank you, boys. But I think Bowzer needs rescuing more than I do.
+
+# ------------------------------------------------------------ THE FLAGPOLE
+MUSIC happy
+SCENE goal_flagpole
+PLACE bowzer center left happy
+PLACE peech midleft right happy
+PLACE mareo left right happy
+PLACE luiggi farleft right happy
+PEECH (happy): Happy birthday, Bowzer!
+BOWZER (excited): Gwahaha! A party! For me! Best kidnapping ever!
+MAREO (happy): Now everyone jump for the flagpole!
+SFX powerup
+JUMP mareo
+JUMP luiggi
+SFX fanfare
+ENTER toadd right right happy
+TOADD (happy): Thank you, Mareo! And this time, the princess really is in THIS castle!
+END

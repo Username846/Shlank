@@ -8,7 +8,7 @@ const SPOTS := {
 }
 
 ## Transition styles a SCENE line can ask for (besides "cut").
-const TRANSITIONS := ["bubbles", "iris", "star", "heart", "slide", "checker", "pinwheel", "fade"]
+const TRANSITIONS := ["bubbles", "iris", "star", "heart", "slide", "checker", "pinwheel", "flash", "slash", "pixel", "door", "fade"]
 ## Pause after each spoken line before the next beat starts.
 const LINE_GAP := 0.6
 

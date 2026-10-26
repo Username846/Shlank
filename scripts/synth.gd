@@ -361,6 +361,29 @@ func sfx(name: String) -> void:
 		"sparkle":
 			for i in 6:
 				note(midi(84 + [0, 4, 7, 12, 16, 19][i]), 0.3, Wave.SINE, 0.12, 6.0, 1.0, 0.0, i * 0.06)
+		"blast":
+			note(220, 0.7, Wave.SQUARE, 0.1, 0.5, 4.0, 0.02)
+			note(1, 0.6, Wave.NOISE, 0.4, 4.0, 1.0, 0.0, 0.6)
+			note(60, 0.6, Wave.SINE, 0.5, 4.0, 0.5, 0.0, 0.6)
+		"sword", "shing":
+			note(2400, 0.4, Wave.TRIANGLE, 0.16, 5.0, 1.15)
+			note(1, 0.12, Wave.NOISE, 0.18, 25.0)
+		"thud", "stomp":
+			note(55, 0.4, Wave.SINE, 0.6, 6.0, 0.6)
+			note(1, 0.25, Wave.NOISE, 0.3, 12.0)
+		"coin":
+			note(midi(83), 0.08, Wave.SQUARE, 0.13)
+			note(midi(88), 0.4, Wave.SQUARE, 0.13, 3.0, 1.0, 0.0, 0.08)
+		"powerup":
+			for i in 9:
+				note(midi(60 + i * 3), 0.07, Wave.SQUARE, 0.12, 0.0, 1.0, 0.0, i * 0.055)
+		"jump_8bit":
+			note(300, 0.22, Wave.SQUARE, 0.12, 2.0, 3.0)
+		"hiss":
+			note(1, 0.5, Wave.NOISE, 0.22, 3.0)
+			note(180, 0.4, Wave.SQUARE, 0.06, 3.0, 0.6, 0.0, 0.1)
+		"laser":
+			note(1800, 0.25, Wave.SQUARE, 0.12, 4.0, 0.25)
 		"title":
 			sfx("fanfare")
 		_:

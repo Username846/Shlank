@@ -12,53 +12,35 @@ dialogue is voiced with a speech synthesizer.
 
 ## What's in it
 
-Five shows with 11 characters each and 76 locations in all, with a ~5 minute episode for each
-show:
+Eleven shows, each with 11 characters, at least 15 locations (166 in all), its own
+scene transition and badge, and a ~5 minute episode. Browse them all under
+*Meet the Cast* and *Locations*.
 
-- **Bikini Bottom** (SpongeBob parodies)
-  - Characters: SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs, Sandy Acorn,
-    Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
-  - Locations: SpongeBert's Pineapple, SpongeBert's Living Room, Pat's Rock,
-    Squidwerd's Head House, The Krusty Crab, the Krusty Crab Dining Room and
-    Kitchen, Sandy's Treedome, Jellyfish Fields, Goo Lagoon, The Chum Bucket,
-    Boating School, Downtown Bikini Bottom, Glove World, Kelp Forest and Rock
-    Bottom.
-  - Episode: **"The Golden Spatula"**.
-- **Hillwood** (Hey Arnold! parodies)
-  - Characters: Arnald, Helga Potaki, Gerold, Grandpa Phil, Phoebee, Grandma
-    Pookie, Harold, Stinky, Sid, Rhonda and Big Bob.
-  - Locations: Sunset Arms, the Boarding House Kitchen, Arnald's Room, P.S.
-    118, the Fourth Grade Classroom, the School Cafeteria, Gerold Field, Big
-    Bob's Beepers, Slausen's Ice Cream, Green Meats, Hillwood Pier, a Rooftop
-    at Dusk, Hillwood Street, Hillwood Park and Hillwood Alley.
-  - Episode: **"The Locket"**.
-- **Bluffington** (Doug parodies)
-  - Characters: Dug Funnie, Skeetor, Patty Mayonaise, Rodger Klotz,
-    Porkchop, Judie Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky
-    Studebaker and Mr. Bone.
-  - Locations: The Funnie House, the Funnie Kitchen, Dug's Room, Bluffington
-    Elementary, the School Hallway, Bluffington Cafeteria, The Honker Burger,
-    Swirly's, Lucky Duck Lake, Beebe's Mansion, Mr. Dink's Yard, Downtown
-    Bluffington, Bluffington Park, The Beets Concert and Quailman's Secret
-    Lair.
-  - Episode: **"The Beets Tickets"**.
-- **Playpen** (Rugrats parodies)
-  - Characters: Tommi Pickles, Chuckey Finster, Angelika Pickles, Phill
-    DeVille, Lill DeVille, Stew Pickles, Didee Pickles, Grandpa Lew, Spyke,
-    Suzie Carmichael and Dill Pickles.
-  - Locations: the Pickles Living Room, Backyard, Kitchen and Attic, Tommi's
-    Nursery, Stu's Basement, The Playground, Reptarland, Java Lava, the
-    Supermarket, Finster House, Carmichael House, Toy Palace, Duck Pond Park
-    and the Pizza Place.
-  - Episode: **"The Great Cookie Quest"**.
-- **Pokemon** (Pokémon parodies)
-  - Characters: Ashe Ketchum, Pikachew, Mistee, Brok, Nurse Joi, Officer
-    Jenni, and Team Rokket: Jessee, Jaymes, Meowt, Wobbafett and The Boss.
-  - Locations: Pallut Town, the Professor's Lab, Tall Grass Route, Forest
-    Path, Team Rokket HQ, the Monster Clinic, the Clinic Lobby, Monster Mart,
-    Ceruleen Gym, Town Square, Crystal Cave, Sunny Beach, Cliff Top, Rokket
-    Camp and the Mecha Lab.
-  - Episode: **"The Golden Snack Ball"**.
+- **Bikini Bottom** (SpongeBob parodies). Episode: **"The Golden Spatula"**.
+  SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs, Sandy Acorn, Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
+- **Hillwood** (Hey Arnold! parodies). Episode: **"The Locket"**.
+  Arnald, Helga Potaki, Gerold, Grandpa Phil, Phoebee, Grandma Pookie, Harold, Stinky, Sid, Rhonda and Big Bob.
+- **Bluffington** (Doug parodies). Episode: **"The Beets Tickets"**.
+  Dug Funnie, Skeetor, Patty Mayonaise, Rodger Klotz, Porkchop, Judie Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky Studebaker and Mr. Bone.
+- **Playpen** (Rugrats parodies). Episode: **"The Great Cookie Quest"**.
+  Tommi Pickles, Chuckey Finster, Angelika Pickles, Phill DeVille, Lill DeVille, Stew Pickles, Didee Pickles, Grandpa Lew, Spyke, Suzie Carmichael and Dill Pickles.
+- **Pokemon** (Pokémon parodies). Episode: **"The Golden Snack Ball"**.
+  Jessee, Jaymes, Meowt, Wobbafett, The Boss, Ashe Ketchum, Pikachew, Mistee, Brok, Nurse Joi and Officer Jenni.
+- **Dragonball Z** (Dragon Ball Z parodies). Episode: **"What's Your Power Level?"**.
+  Gokku, Vegitta, Gohann, Picollo, Krillen, Bulmah, Master Roshee, Freeza, Cel, Trunkz and Chee-Chee.
+- **Attack on Titan** (Attack on Titan parodies). Episode: **"The Last Potato"**.
+  Erren Jaeger, Mikasah Ackerman, Armen Arlert, Captain Levee, Hanjee Zoe, Jeen Kirstein, Sascha Braus, Konny Springer, Rayner, Commander Irwin and Grinning Titan.
+- **Breaking Bad** (Breaking Bad parodies). Episode: **"The Blue Candy"**.
+  Walt Whyte, Jessie Pinkmann, Skylar Whyte, Hank Schraeder, Maree Schraeder, Flynn, Saul Goodmann, Gus Frinng, Mike Ermantrout, Badgur and Skinnee Pete.
+- **Super Mario Brothers** (the Super Mario games parodies). Episode: **"In Another Castle"**.
+  Mareo, Luiggi, Princess Peech, Princess Daizy, Waryo, Toadd, Bowzer, Yoshee, Donkee Kongg, Gumba and Kooper Troopa.
+- **Metroid** (the Metroid games parodies). Episode: **"Babysitting"**.
+  Samuss Aran, Dark Samuss, Ridlee, Krayd, Mother Brane, Baby Metroyd, Adam Malkovitch, Choso Elder, Space Pirate, Etecoon and Dachoora.
+- **Kirby** (the Kirby games parodies). Episode: **"The Great Cake Heist"**.
+  Kirbie, King Dedeedee, Meta Nite, Waddle Dii, Bandana Dii, Waddle Doo, Magalor, Marks, Adelaine, Ribbonn and Whispee Woods.
+
+Kirbie only ever says "Poyo!" (and variations), and Samuss Aran rarely says
+anything at all.
 
 Every character blinks, lip-flaps while talking, walks, hops, holds props, and
 has 10 emotions (neutral, happy, sad, angry, surprised, scared, smug, excited,
@@ -118,7 +100,8 @@ In the editor:
   window of thumbnails grouped by series. **Music** opens a list of every
   tune with a **Preview** button. **Transition** is the show's default, a
   hard cut, or any style (bubbles, iris, star wipe, heart, slide,
-  checkerboard, pinwheel, fade).
+  checkerboard, pinwheel, energy flash, blade slash, pixels, blast door,
+  fade).
 - **Stage (middle):** shows the scene at the playhead's moment. **Drag a
   character** to make them walk there at that moment. While an entrance or
   walk is selected, a see-through **ghost** shows where the character will
@@ -168,7 +151,7 @@ emotion is optional and stays until it's changed.
 
 | Command | What it does |
 |---|---|
-| `SCENE <location> [cut\|style]` | Changes the set and clears the stage. Uses the show's transition, a hard `cut`, or a style: `bubbles`, `iris`, `star`, `heart`, `slide`, `checker`, `pinwheel`, `fade` |
+| `SCENE <location> [cut\|style]` | Changes the set and clears the stage. Uses the show's transition, a hard `cut`, or a style: `bubbles`, `iris`, `star`, `heart`, `slide`, `checker`, `pinwheel`, `flash`, `slash`, `pixel`, `door`, `fade` |
 | `PLACE <who> <pos> [left\|right] [emotion]` | Puts a character on stage instantly |
 | `ENTER <who> <left\|right> <pos> [speed] [emotion]` | Walks on from that side, wearing that expression |
 | `EXIT <who> <left\|right> [speed]` | Walks off stage |
@@ -180,7 +163,7 @@ emotion is optional and stays until it's changed.
 | `CLOSE <who>` / `MEDIUM <who>` / `WIDE` | Camera shots |
 | `SHAKE [secs]` | Camera shake |
 | `WAIT <secs>` | Pause |
-| `SFX <name>` | `bubbles pop boing beep detector detector_crazy clarinet squeak slam sting splat sizzle ding cash fanfare wahwah drumroll whoosh gasp chomp sparkle` |
+| `SFX <name>` | `bubbles pop boing beep detector detector_crazy clarinet squeak slam sting splat sizzle ding cash fanfare wahwah drumroll whoosh gasp chomp sparkle blast sword thud coin powerup jump_8bit hiss laser` |
 | `MUSIC <mood> [1-3]` | Background music: `happy`, `jazz`, `tense`, `sad`, `sneaky`, `spooky`, `action`, `romantic` (each has variants 1-3), or `off` |
 | `CARD <text>` | Full-screen title card read by the narrator ("Ten minutes later...") |
 | `TITLE` | Episode title card |
@@ -196,12 +179,12 @@ Lines starting with `#` are comments.
   backdrop in the cast viewer), colour, bio, catchphrase
   and voice (`pitch`, `rate`, babble frequency, and a `prefer` list of
   speech-voice name keywords). Each `style` is drawn by a function in
-  `scripts/puppet.gd` or `scripts/cast/cast_extra.gd`. Most of the newer
+  `scripts/puppet.gd`, `scripts/cast/cast_extra.gd` or `scripts/cast/cast_more.gd`. Most of the newer
   people are built from `scripts/cast/human_rig.gd`, a configurable human
   (size, skin, hair, clothes, glasses, extras).
 - Locations live in `data/locations.json` (with the show they belong to), and
-  each is drawn by a function in `scripts/backdrop.gd` or
-  `scripts/sets/sets_extra.gd`. Bikini Bottom sets get underwater light rays
+  each is drawn by a function in `scripts/backdrop.gd`,
+  `scripts/sets/sets_extra.gd` or `scripts/sets/sets_more.gd`. Bikini Bottom sets get underwater light rays
   and bubbles; the others don't.
 - Each show's scene transition lives in `data/shows.json`: any of the
   `SCENE` styles above (`iris` closes on whoever spoke last; shows without an

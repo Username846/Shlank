@@ -45,7 +45,8 @@ var _card_i := 0
 var _last_speaker := ""
 
 const TRANSITION_SFX := {"bubbles": "bubbles", "iris": "slide_whistle", "star": "sparkle", "heart": "ding",
-	"slide": "whoosh", "checker": "pop", "pinwheel": "slide_whistle", "fade": ""}
+	"slide": "whoosh", "checker": "pop", "pinwheel": "slide_whistle", "flash": "blast", "slash": "sword",
+	"pixel": "powerup", "door": "hiss", "fade": ""}
 
 
 func _ready() -> void:

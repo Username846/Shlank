@@ -384,14 +384,14 @@ func _new_episode_dialog(root: Control) -> void:
 	vb.add_theme_constant_override("separation", 10)
 	vb.add_child(UiKit.label("Pick an icon for your episode. You can use characters and locations from any show.", 20))
 	var grid := GridContainer.new()
-	grid.columns = 4
-	grid.add_theme_constant_override("h_separation", 18)
+	grid.columns = 6
+	grid.add_theme_constant_override("h_separation", 14)
 	grid.add_theme_constant_override("v_separation", 12)
 	vb.add_child(grid)
 	var dialog := []  # holder: lambdas capture by value, so share it through an array
 	for ic in ShowIcon.episode_icons():
 		var kind: String = ic[0]
-		var btn := UiKit.icon_button(kind, ic[1], 96.0)
+		var btn := UiKit.icon_button(kind, ic[1], 84.0)
 		btn.pressed.connect(func() -> void:
 			dialog[0].queue_free()
 			open_editor(EpisodeDoc.new_episode(kind), 0, true))
@@ -463,31 +463,47 @@ func _series_picker(heading: String, items: Dictionary, open: Callable) -> void:
 	sub.position = Vector2(0, 108)
 	sub.size = Vector2(1280, 40)
 	root.add_child(sub)
-	var row := HBoxContainer.new()
-	row.alignment = BoxContainer.ALIGNMENT_CENTER
-	row.add_theme_constant_override("separation", 16)
-	row.position = Vector2(0, 190)
-	row.size = Vector2(1280, 320)
-	root.add_child(row)
+	# Cards in a centered grid, six to a row
+	var center := CenterContainer.new()
+	center.position = Vector2(0, 150)
+	center.size = Vector2(1280, 470)
+	root.add_child(center)
+	var grid := GridContainer.new()
+	grid.columns = 6
+	grid.add_theme_constant_override("h_separation", 14)
+	grid.add_theme_constant_override("v_separation", 14)
+	center.add_child(grid)
 	for show in items:
-		var card := PanelContainer.new()
-		card.custom_minimum_size = Vector2(224, 300)
-		row.add_child(card)
+		var card := Button.new()
+		card.custom_minimum_size = Vector2(186, 220)
+		card.focus_mode = Control.FOCUS_NONE
+		card.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		card.add_theme_stylebox_override("normal", UiKit.box(Color("fbf6ea"), 18, 4, 0))
+		card.add_theme_stylebox_override("hover", UiKit.box(Color("fff3c4"), 18, 4, 0))
+		card.add_theme_stylebox_override("pressed", UiKit.box(UiKit.YELLOW, 18, 4, 0))
+		card.pressed.connect(open.bind(show))
+		grid.add_child(card)
 		var vb := VBoxContainer.new()
 		vb.alignment = BoxContainer.ALIGNMENT_CENTER
-		vb.add_theme_constant_override("separation", 8)
+		vb.add_theme_constant_override("separation", 4)
+		vb.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+		vb.offset_left = 6
+		vb.offset_right = -6
+		vb.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		card.add_child(vb)
-		var icon := ShowIcon.make(show, 120.0)
+		var icon := ShowIcon.make(show, 96.0)
 		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		vb.add_child(icon)
-		vb.add_child(UiKit.title_label(show.to_upper(), 24, UiKit.RED))
-		var count := UiKit.label(items[show], 18, Color(0.35, 0.35, 0.4))
+		var show_l := UiKit.title_label(show.to_upper(), 20, UiKit.RED)
+		show_l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		show_l.custom_minimum_size = Vector2(170, 0)
+		show_l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		vb.add_child(show_l)
+		var count := UiKit.label(items[show], 15, Color(0.35, 0.35, 0.4))
 		count.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		count.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		vb.add_child(count)
-		var go := UiKit.button("OPEN", UiKit.YELLOW, 24)
-		go.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
-		go.pressed.connect(open.bind(show))
-		vb.add_child(go)
 
 
 func show_cast_picker() -> void:

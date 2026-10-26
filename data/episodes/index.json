@@ -14,6 +14,24 @@
 		},
 		{
 			"file": "res://data/episodes/tr01_golden_snack_ball.txt"
+		},
+		{
+			"file": "res://data/episodes/dz01_power_level.txt"
+		},
+		{
+			"file": "res://data/episodes/at01_potato.txt"
+		},
+		{
+			"file": "res://data/episodes/bb01_blue_candy.txt"
+		},
+		{
+			"file": "res://data/episodes/sm01_another_castle.txt"
+		},
+		{
+			"file": "res://data/episodes/mt01_baby_metroyd.txt"
+		},
+		{
+			"file": "res://data/episodes/kb01_cake.txt"
 		}
 	]
 }

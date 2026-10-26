@@ -73,7 +73,7 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"ceruleen_gym": _ceruleen_gym(b)
 		"monster_mart": _monster_mart(b)
 		"tall_grass": _tall_grass(b)
-		_: return false
+		_: return SetsMore.draw_set(b, id)
 	return true
 
 
@@ -861,6 +861,8 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 				"carmichael_house", "pallut_town":
 			for i in 2:
 				b._cloud(Vector2(fmod(t * (8 + i * 4) + i * 600, W + 300) - 150, 70 + i * 50), 0.8)
+		_:
+			SetsMore.draw_fx(b, id)
 
 
 # ---------------------------------------------------- more Bluffington --

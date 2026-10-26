@@ -1,0 +1,161 @@
+@title What's Your Power Level?
+@series Dragonball Z
+@icon dragonball
+@number 1
+@description Bulmah invents a machine that measures exactly how strong you are. Gokku and Vegitta both need to be number one, and Freeza wants the machine for himself.
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC action
+SCENE capsool_corp cut
+TITLE
+PLACE bulmah center right excited
+BULMAH (excited): Behold! The Power-O-Meter! It measures exactly how strong anyone is. To the decimal!
+ENTER vegitta right midright smug
+VEGITTA (smug): Finally, a machine worthy of me. It will prove I am the strongest in the universe.
+ENTER gokku left midleft happy
+GOKKU (happy): Hi, Bulmah! Hi, Vegitta! Ooh, is that a new snack machine?
+BULMAH (angry): It is NOT a snack machine, Gokku.
+VEGITTA (angry): Kakarot! We settle this now. Whoever scores higher is the greatest warrior alive.
+GOKKU (excited): Sounds fun! But can we eat first?
+VEGITTA (angry): NO!
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC action 2
+SCENE gravity_room
+PLACE vegitta center right angry
+VEGITTA (angry): Two hundred times gravity. Three hundred. More!
+SFX thud
+SHAKE 0.6
+ENTER trunkz left midleft nervous
+TRUNKZ (nervous): Dad, the whole floor is bending. Mom's going to be mad.
+VEGITTA (smug): Let her be mad. Tomorrow, I make history.
+
+# ------------------------------------------------------------ GOKKU'S HOUSE
+MUSIC happy
+SCENE gokku_house
+PLACE chee_chee midright left angry
+ENTER gokku left midleft happy
+CHEE_CHEE (angry): Gokku! Where have you been? And why is there a crater in the garden?
+GOKKU (nervous): Uh, training?
+ENTER gohann left left happy
+GOHANN (happy): Hi, Mom! Hi, Dad! I finished all my homework!
+CHEE_CHEE (happy): That's my boy. At least SOMEONE in this house uses his brain.
+GOKKU (excited): Gohann, come with me tomorrow! Bulmah's got a machine that measures how strong you are!
+CHEE_CHEE (angry): He's got a math test, Gokku!
+GOHANN (shy): I can do both, Mom. Promise.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC sad
+SCENE the_lookout
+PLACE picollo midright left smug
+ENTER gohann left midleft nervous
+GOHANN (nervous): Mister Picollo? Can I ask you something?
+PICOLLO (smug): You just did. Go on.
+GOHANN (nervous): Dad wants me to try the Power-O-Meter. But what if I'm really strong, and everybody expects me to fight all the time?
+PICOLLO: Then you tell them no. Strength isn't just about how hard you hit, kid.
+GOHANN (happy): Then what is it about?
+PICOLLO (shy): Protecting the people you care about. Now go away before somebody sees me being nice.
+GOHANN (happy): Thanks, Mister Picollo!
+
+# ------------------------------------------------------------ KAMEE HOUSE
+MUSIC jazz
+SCENE kamee_house
+PLACE master_roshee midleft right smug
+PLACE krillen midright left nervous
+KRILLEN (nervous): Master Roshee, everyone's going to the Power-O-Meter test. What if I get the lowest score?
+MASTER_ROSHEE (smug): Ho ho ho! Krillen, my boy, numbers aren't everything.
+KRILLEN (happy): Really?
+MASTER_ROSHEE (happy): No. They're very important. But you have heart! Probably.
+KRILLEN (sad): Thanks, Master.
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC tense
+SCENE world_tournament
+CARD The next day...
+PLACE bulmah center left excited
+PLACE krillen farleft right nervous
+PLACE gohann left right happy
+PLACE vegitta right left smug
+BULMAH (excited): Welcome to the first ever Power-O-Meter test! Krillen, you're up first.
+KRILLEN (nervous): Okay. Here goes nothing. Hyaaah!
+SFX blast
+BULMAH (happy): Eleven thousand! Not bad, Krillen!
+KRILLEN (excited): Eleven thousand! I'm a legend!
+VEGITTA (smug): Pathetic. Watch a real warrior. HAAAAH!
+SFX blast
+SHAKE 1.0
+BULMAH (surprised): Nine thousand... and the needle broke off!
+VEGITTA (excited): Ha! Beat THAT, Kakarot!
+ENTER gokku left midleft happy 400
+GOKKU (happy): Sorry I'm late! I stopped for lunch. And second lunch.
+
+# ------------------------------------------------------------ FREEZA'S SHIP
+MUSIC sneaky
+SCENE freeza_ship
+PLACE freeza center left smug
+FREEZA (smug): A machine that finds the strongest beings in the universe? How very useful.
+FREEZA (happy): I could find every warrior who might challenge me, and politely remove them.
+FREEZA (smug): I believe I shall borrow it. Forever.
+
+# ------------------------------------------------------------ BACK AT THE TOURNAMENT
+MUSIC tense 2
+SCENE world_tournament
+PLACE bulmah center left nervous
+PLACE gokku midleft right happy
+PLACE vegitta right left angry
+GOKKU (happy): Okay, my turn! Ready?
+BULMAH (nervous): Gokku, just a little bit, okay? It's the only one I've got.
+GOKKU (excited): Kaaa... meee...
+SFX gasp
+ENTER freeza right farright smug
+FREEZA (smug): Excuse me. I'll be taking that.
+VEGITTA (angry): Freeza! Get out of here! We're in the middle of something!
+FREEZA (happy): So rude. I'll take the machine and leave you all a lovely crater.
+SFX blast
+SHAKE 1.0
+EXIT freeza right 600
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC tense
+SCENE west_city
+ENTER krillen left midleft scared 500
+ENTER trunkz left left angry 500
+KRILLEN (scared): He flew that way! Toward the wasteland! With the machine AND my eleven thousand!
+TRUNKZ (angry): I'll go after him. I came back from the future for exactly this kind of thing.
+KRILLEN (surprised): You came back from the future to chase a guy who stole a scale?
+TRUNKZ (smug): The future is very boring.
+RUN trunkz offright &
+RUN krillen offright
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC action 3
+SCENE rocky_wasteland
+ENTER freeza right center smug 500
+FREEZA (smug): Now, let's see who's the strongest. Me, of course.
+ENTER picollo left midleft angry 500
+PICOLLO (angry): Not so fast. Put the machine down.
+FREEZA (smug): A Namekian? How quaint.
+ENTER gohann left left excited 500
+GOHANN (angry): Leave Mister Picollo alone!
+SFX blast
+SHAKE 0.8
+FREEZA (scared): Wait. What was that? The machine says... the child is the strongest?!
+PICOLLO (smug): Hmph. I've been telling you all that for years.
+FREEZA (angry): This machine is clearly broken. I don't want it anymore!
+EXIT freeza right 700
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC happy 2
+SCENE capsool_corp
+PLACE bulmah center right happy
+PLACE gokku midleft right happy
+PLACE vegitta right left angry
+PLACE gohann left right shy
+BULMAH (happy): Well, the results are in. The strongest fighter on Earth is... Gohann.
+GOHANN (shy): I really didn't mean to break it.
+VEGITTA (angry): Rematch. I demand a rematch!
+GOKKU (excited): That's my boy! Now can we PLEASE eat?
+ENTER chee_chee left farleft happy
+CHEE_CHEE (happy): Dinner's ready! And Gohann got a perfect score on his math test, too!
+GOKKU (excited): Best day ever!
+END

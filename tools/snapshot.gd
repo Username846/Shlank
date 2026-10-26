@@ -34,6 +34,11 @@ func _ready() -> void:
 			main.show_cast_picker()
 			await _frames(5)
 			await _shot("picker")
+			main.show_library()
+			await _frames(3)
+			main._new_episode_dialog(main._screen)
+			await _frames(5)
+			await _shot("new_episode")
 		"cast":
 			for i in main._cast_order.size():
 				main.show_cast("", i)
