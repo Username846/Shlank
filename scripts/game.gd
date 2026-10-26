@@ -21,6 +21,14 @@ var _tts_voices: Array = []
 var _voice_cache: Dictionary = {}
 var _last_voice_check := -100000
 
+# The line being spoken, so a volume change can re-speak the rest of it louder or quieter.
+var _line := {}  # id, text, base (chars already spoken before this utterance), volume, started, est
+var _line_pos := 0  # last word boundary reported for the current utterance
+var _utterance := 0
+var _restart_at := -1  # msec; re-speak the line once the volume slider settles
+var _speaking_until := 0  # msec; counts as speaking while silently "saying" a muted line
+var _tts_paused_at := -1
+
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -31,6 +39,14 @@ func _ready() -> void:
 	episodes = index.get("episodes", []) if index is Dictionary else []
 	_load_settings()
 	refresh_voices()
+	if DisplayServer.has_feature(DisplayServer.FEATURE_TEXT_TO_SPEECH):
+		DisplayServer.tts_set_utterance_callback(DisplayServer.TTS_UTTERANCE_BOUNDARY, _on_tts_boundary)
+
+
+func _process(_delta: float) -> void:
+	if _restart_at >= 0 and Time.get_ticks_msec() >= _restart_at and _tts_paused_at < 0:
+		_restart_at = -1
+		_respeak_rest()
 
 
 func _load_json(path: String) -> Variant:
@@ -83,6 +99,10 @@ func apply_settings() -> void:
 	Synth.sfx_volume = 0.8
 	AudioServer.set_bus_volume_db(0, linear_to_db(maxf(master_volume, 0.0001)))
 	AudioServer.set_bus_mute(0, master_volume <= 0.001)
+	# Text-to-speech doesn't go through Godot's audio buses: the volume is fixed
+	# when a line starts, so re-speak the rest of the current line.
+	if not _line.is_empty() and absf(float(_line.volume) - _tts_volume()) > 0.001 and is_speaking():
+		_restart_at = Time.get_ticks_msec() + 250
 
 
 # ---------------------------------------------------------------- voice --
@@ -129,11 +149,20 @@ func _voice_for(id: String) -> String:
 	var used := _voice_cache.values()
 	var best := ""
 	var best_score := -9999.0
+	var has_local := false
+	for d in _tts_voices:
+		var n := String(d.get("name", "")).to_lower()
+		if String(d.get("language", "")).to_lower().begins_with("en") and not n.begins_with("google"):
+			has_local = true
 	for d in _tts_voices:
 		var vid := String(d.get("id", ""))
 		var vname := String(d.get("name", "")).to_lower()
 		var lang := String(d.get("language", "")).to_lower()
 		var score := 0.0
+		# Chrome's online "Google ..." voices ignore the volume a page asks for,
+		# so voices installed on the device win whenever there are any.
+		if vname.begins_with("google") and has_local:
+			score -= 40.0
 		if lang.begins_with("en"):
 			score += 20.0
 		if lang.begins_with("en-us") or lang.begins_with("en_us"):
@@ -158,11 +187,15 @@ func speak(id: String, text: String) -> float:
 	var est := estimate_line(clean)
 	var mode := effective_voice_mode()
 	var v: Dictionary = characters.get(id, {}).get("voice", {})
+	_line = {}
+	_restart_at = -1
+	_speaking_until = 0
 	match mode:
 		"tts":
 			DisplayServer.tts_stop()
-			DisplayServer.tts_speak(clean, _voice_for(id), int(voice_volume * master_volume * 100.0),
-				float(v.get("pitch", 1.0)), float(v.get("rate", 1.0)))
+			_line = {"id": id, "text": clean, "base": 0, "volume": _tts_volume(),
+				"started": Time.get_ticks_msec(), "est": est}
+			_say(clean, 0)
 		"babble":
 			var dur := Synth.babble(clean, float(v.get("babble", 300.0)), float(v.get("rate", 1.0)))
 			est = maxf(est * 0.8, dur + 0.25)
@@ -171,11 +204,14 @@ func speak(id: String, text: String) -> float:
 
 func is_speaking() -> bool:
 	if effective_voice_mode() == "tts":
-		return DisplayServer.tts_is_speaking()
+		return DisplayServer.tts_is_speaking() or Time.get_ticks_msec() < _speaking_until
 	return false
 
 
 func stop_speaking() -> void:
+	_line = {}
+	_restart_at = -1
+	_speaking_until = 0
 	if not _tts_voices.is_empty():
 		DisplayServer.tts_stop()
 
@@ -183,9 +219,64 @@ func stop_speaking() -> void:
 func pause_speaking(p: bool) -> void:
 	if effective_voice_mode() == "tts":
 		if p:
+			_tts_paused_at = Time.get_ticks_msec()
 			DisplayServer.tts_pause()
 		else:
+			if _tts_paused_at >= 0:
+				var paused := Time.get_ticks_msec() - _tts_paused_at
+				if not _line.is_empty():
+					_line.started += paused
+				if _speaking_until > 0:
+					_speaking_until += paused
+			_tts_paused_at = -1
 			DisplayServer.tts_resume()
+
+
+func _tts_volume() -> float:
+	return clampf(voice_volume * master_volume, 0.0, 1.0)
+
+
+## Speaks `text` (which starts `base` characters into the current line) at the current volume.
+## A muted line isn't spoken, but still counts as speaking for as long as it would take.
+func _say(text: String, base: int) -> void:
+	_line.base = base
+	_line.volume = _tts_volume()
+	_line_pos = 0
+	_utterance += 1
+	var vol := int(round(_tts_volume() * 100.0))
+	if vol <= 0:
+		_speaking_until = Time.get_ticks_msec() + int(estimate_line(text) * 1000.0)
+		return
+	# Keep is_speaking() true across the gap before the browser starts the new utterance.
+	_speaking_until = Time.get_ticks_msec() + 600 if base > 0 else 0
+	var v: Dictionary = characters.get(_line.id, {}).get("voice", {})
+	DisplayServer.tts_speak(text, _voice_for(_line.id), vol, float(v.get("pitch", 1.0)),
+		float(v.get("rate", 1.0)), _utterance)
+
+
+func _on_tts_boundary(pos: int, utterance_id: int) -> void:
+	if utterance_id == _utterance:
+		_line_pos = pos
+
+
+## Re-speaks the unspoken part of the current line at the new volume.
+func _respeak_rest() -> void:
+	if _line.is_empty() or not is_speaking():
+		return
+	var text: String = _line.text
+	var at: int = _line.base + _line_pos
+	if _line_pos == 0:
+		# No word boundaries from this voice: guess from how long it has been talking.
+		var frac := float(Time.get_ticks_msec() - int(_line.started)) / (float(_line.est) * 1000.0)
+		at = maxi(at, int(clampf(frac, 0.0, 1.0) * text.length()))
+	# Back up to the start of the word.
+	while at > 0 and at < text.length() and text[at - 1] != " ":
+		at -= 1
+	var rest := text.substr(at).strip_edges()
+	if rest.is_empty():
+		return
+	DisplayServer.tts_stop()
+	_say(rest, at)
 
 
 static func clean_for_speech(text: String) -> String:
