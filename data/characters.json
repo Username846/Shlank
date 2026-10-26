@@ -581,6 +581,132 @@
 			]
 		}
 	},
+	"judie": {
+		"name": "Judie Funnie",
+		"style": "judie",
+		"color": "#2b2b33",
+		"width": 58,
+		"show": "Bluffington",
+		"home": "funnie_kitchen",
+		"bio": "Dug's older sister. A dramatic artist who quotes Shakespeare at breakfast.",
+		"catchphrase": "Doug, you are SUCH a philistine.",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 0.95,
+			"babble": 380,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		}
+	},
+	"beebe": {
+		"name": "Beebe Bluff",
+		"style": "beebe",
+		"color": "#f7c6d6",
+		"width": 58,
+		"show": "Bluffington",
+		"home": "beebe_mansion",
+		"bio": "Patty's best friend. Her family owns most of Bluffington.",
+		"catchphrase": "Daddy will just buy another one.",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.05,
+			"babble": 420,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"mr_dink": {
+		"name": "Mr. Dink",
+		"style": "mr_dink",
+		"color": "#e8d39a",
+		"width": 62,
+		"show": "Bluffington",
+		"home": "dink_yard",
+		"bio": "The Funnies' neighbor. Buys every gadget ever made.",
+		"catchphrase": "It was very expensive!",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 0.9,
+			"babble": 240,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"connie": {
+		"name": "Connie Benge",
+		"style": "connie",
+		"color": "#9b5fd0",
+		"width": 56,
+		"show": "Bluffington",
+		"home": "bluffington_school",
+		"bio": "A kind, quiet classmate who'd like to be noticed more.",
+		"catchphrase": "Oh! Um, hi.",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 0.95,
+			"babble": 400,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"chalky": {
+		"name": "Chalky Studebaker",
+		"style": "chalky",
+		"color": "#e6452f",
+		"width": 58,
+		"show": "Bluffington",
+		"home": "bluff_cafeteria",
+		"bio": "Straight-A student, star athlete, and annoyingly nice about it.",
+		"catchphrase": "Good game, everybody!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.0,
+			"babble": 330,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"mr_bone": {
+		"name": "Mr. Bone",
+		"style": "mr_bone",
+		"color": "#6b6f78",
+		"width": 62,
+		"show": "Bluffington",
+		"home": "school_hallway",
+		"bio": "The vice principal. Runs a very, very tight ship.",
+		"catchphrase": "Mister Funnie! In my office.",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 0.95,
+			"babble": 220,
+			"prefer": [
+				"daniel",
+				"george",
+				"male"
+			]
+		}
+	},
 	"tommi": {
 		"name": "Tommi Pickles",
 		"style": "tommi",
@@ -682,6 +808,132 @@
 			]
 		}
 	},
+	"stew": {
+		"name": "Stew Pickles",
+		"style": "stew",
+		"color": "#7a5fc0",
+		"width": 64,
+		"show": "Playpen",
+		"home": "stu_basement",
+		"bio": "Tommi's dad. Toy inventor. Most of his toys explode.",
+		"catchphrase": "This one's gonna be a winner!",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.05,
+			"babble": 260,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"didee": {
+		"name": "Didee Pickles",
+		"style": "didee",
+		"color": "#4a8fe0",
+		"width": 60,
+		"show": "Playpen",
+		"home": "pickles_kitchen",
+		"bio": "Tommi's mom. Has read every baby book ever written.",
+		"catchphrase": "Dr. Lipschitz says...",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.0,
+			"babble": 380,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"grandpa_lew": {
+		"name": "Grandpa Lew",
+		"style": "grandpa_lew",
+		"color": "#f2efe6",
+		"width": 60,
+		"show": "Playpen",
+		"home": "pickles_living_room",
+		"bio": "Tommi's grandpa. Supposed to be babysitting. Usually napping.",
+		"catchphrase": "Back in my day...",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.85,
+			"babble": 200,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"spyke": {
+		"name": "Spyke",
+		"style": "mutt",
+		"color": "#b07a48",
+		"width": 60,
+		"show": "Playpen",
+		"home": "pickles_backyard",
+		"bio": "The Pickles' big scruffy dog. The babies' noble steed.",
+		"catchphrase": "Woof!",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 1.0,
+			"babble": 300,
+			"prefer": [
+				"male"
+			]
+		}
+	},
+	"suzie": {
+		"name": "Suzie Carmichael",
+		"style": "suzie",
+		"color": "#f2c14e",
+		"width": 56,
+		"show": "Playpen",
+		"home": "carmichael_house",
+		"bio": "The kid across the street. Smart, brave, and Angelika's rival.",
+		"catchphrase": "Leave the babies alone, Angelika!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.05,
+			"babble": 420,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"dill": {
+		"name": "Dill Pickles",
+		"style": "dill",
+		"color": "#7ab8ea",
+		"width": 50,
+		"show": "Playpen",
+		"home": "nursery",
+		"bio": "Tommi's baby brother. Mostly drools.",
+		"catchphrase": "Gah!",
+		"voice": {
+			"pitch": 1.7,
+			"rate": 1.0,
+			"babble": 560,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
 	"jessee": {
 		"name": "Jessee",
 		"style": "jessee",
@@ -775,6 +1027,133 @@
 				"mark",
 				"george",
 				"male"
+			]
+		}
+	},
+	"ashe": {
+		"name": "Ashe Ketchum",
+		"style": "ashe",
+		"color": "#4a78d0",
+		"width": 58,
+		"show": "Pokemon",
+		"home": "pallut_town",
+		"bio": "A ten-year-old trainer who wants to be the very best. Like no one ever was.",
+		"catchphrase": "I choose you!",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.1,
+			"babble": 400,
+			"prefer": [
+				"guy",
+				"alex",
+				"male"
+			]
+		}
+	},
+	"pikachew": {
+		"name": "Pikachew",
+		"style": "mouse",
+		"color": "#f6d63c",
+		"width": 54,
+		"show": "Pokemon",
+		"home": "pallut_town",
+		"bio": "Ashe's electric mouse. Refuses to ride in a ball.",
+		"catchphrase": "Pika-chew!",
+		"voice": {
+			"pitch": 1.8,
+			"rate": 1.15,
+			"babble": 640,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"mistee": {
+		"name": "Mistee",
+		"style": "mistee",
+		"color": "#f07a2a",
+		"width": 56,
+		"show": "Pokemon",
+		"home": "ceruleen_gym",
+		"bio": "A water-monster trainer with a short temper and a big mallet.",
+		"catchphrase": "Ashe, you are SO dense!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.1,
+			"babble": 420,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"brok": {
+		"name": "Brok",
+		"style": "brok",
+		"color": "#e08a3a",
+		"width": 60,
+		"show": "Pokemon",
+		"home": "tall_grass",
+		"bio": "A rock-type trainer and great cook. Falls in love in every town.",
+		"catchphrase": "Leave it to Brok!",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 1.0,
+			"babble": 280,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		}
+	},
+	"nurse_joi": {
+		"name": "Nurse Joi",
+		"style": "nurse_joi",
+		"color": "#f28cb8",
+		"width": 58,
+		"show": "Pokemon",
+		"home": "clinic_lobby",
+		"bio": "Runs the Monster Clinic. Has a dozen cousins who look exactly like her.",
+		"catchphrase": "We hope to see you again!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 0.95,
+			"babble": 400,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		}
+	},
+	"officer_jenni": {
+		"name": "Officer Jenni",
+		"style": "officer_jenni",
+		"color": "#3d5aa8",
+		"width": 58,
+		"show": "Pokemon",
+		"home": "town_square",
+		"bio": "Town police. Has a dozen cousins who look exactly like her too.",
+		"catchphrase": "Freeze, Team Rokket!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.05,
+			"babble": 360,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
 			]
 		}
 	},

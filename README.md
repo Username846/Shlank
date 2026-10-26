@@ -12,7 +12,7 @@ dialogue is voiced with a speech synthesizer.
 
 ## What's in it
 
-Five shows, 61 locations and 37 characters, with a ~5 minute episode for each
+Five shows with 11 characters each and 76 locations in all, with a ~5 minute episode for each
 show:
 
 - **Bikini Bottom** (SpongeBob parodies)
@@ -33,24 +33,31 @@ show:
     at Dusk, Hillwood Street, Hillwood Park and Hillwood Alley.
   - Episode: **"The Locket"**.
 - **Bluffington** (Doug parodies)
-  - Characters: Dug Funnie, Skeetor, Patty Mayonaise, Rodger Klotz and
-    Porkchop.
-  - Locations: The Funnie House, Dug's Room, Bluffington Elementary, the
-    School Hallway, The Honker Burger, Lucky Duck Lake, Beebe's Mansion, Mr.
-    Dink's Yard, Downtown Bluffington and Bluffington Park.
+  - Characters: Dug Funnie, Skeetor, Patty Mayonaise, Rodger Klotz,
+    Porkchop, Judie Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky
+    Studebaker and Mr. Bone.
+  - Locations: The Funnie House, the Funnie Kitchen, Dug's Room, Bluffington
+    Elementary, the School Hallway, Bluffington Cafeteria, The Honker Burger,
+    Swirly's, Lucky Duck Lake, Beebe's Mansion, Mr. Dink's Yard, Downtown
+    Bluffington, Bluffington Park, The Beets Concert and Quailman's Secret
+    Lair.
   - Episode: **"The Beets Tickets"**.
 - **Playpen** (Rugrats parodies)
   - Characters: Tommi Pickles, Chuckey Finster, Angelika Pickles, Phill
-    DeVille and Lill DeVille.
-  - Locations: the Pickles Living Room, Backyard and Kitchen, Tommi's
+    DeVille, Lill DeVille, Stew Pickles, Didee Pickles, Grandpa Lew, Spyke,
+    Suzie Carmichael and Dill Pickles.
+  - Locations: the Pickles Living Room, Backyard, Kitchen and Attic, Tommi's
     Nursery, Stu's Basement, The Playground, Reptarland, Java Lava, the
-    Supermarket and Finster House.
+    Supermarket, Finster House, Carmichael House, Toy Palace, Duck Pond Park
+    and the Pizza Place.
   - Episode: **"The Great Cookie Quest"**.
-- **Pokemon** (Team Rocket parodies)
-  - Characters: Jessee, Jaymes, Meowt, Wobbafett and The Boss.
-  - Locations: Forest Path, Team Rokket HQ, the Monster Clinic, the Clinic
-    Lobby, Town Square, Crystal Cave, Sunny Beach, Cliff Top, Rokket Camp and
-    the Mecha Lab.
+- **Pokemon** (Pokémon parodies)
+  - Characters: Ashe Ketchum, Pikachew, Mistee, Brok, Nurse Joi, Officer
+    Jenni, and Team Rokket: Jessee, Jaymes, Meowt, Wobbafett and The Boss.
+  - Locations: Pallut Town, the Professor's Lab, Tall Grass Route, Forest
+    Path, Team Rokket HQ, the Monster Clinic, the Clinic Lobby, Monster Mart,
+    Ceruleen Gym, Town Square, Crystal Cave, Sunny Beach, Cliff Top, Rokket
+    Camp and the Mecha Lab.
   - Episode: **"The Golden Snack Ball"**.
 
 Every character blinks, lip-flaps while talking, walks, hops, holds props, and

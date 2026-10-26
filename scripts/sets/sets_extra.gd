@@ -36,6 +36,11 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"dink_yard": _dink_yard(b)
 		"bluffington_downtown": _bluffington_downtown(b)
 		"bluffington_park": _bluffington_park(b)
+		"swirlys": _swirlys(b)
+		"beets_concert": _beets_concert(b)
+		"bluff_cafeteria": _bluff_cafeteria(b)
+		"funnie_kitchen": _funnie_kitchen(b)
+		"quailman_lair": _quailman_lair(b)
 		# Playpen
 		"pickles_living_room": _pickles_living_room(b)
 		"pickles_backyard": _pickles_backyard(b)
@@ -47,6 +52,11 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"java_lava": _java_lava(b)
 		"supermarket": _supermarket(b)
 		"finster_house": _finster_house(b)
+		"pickles_attic": _pickles_attic(b)
+		"carmichael_house": _carmichael_house(b)
+		"toy_palace": _toy_palace(b)
+		"duck_pond": _duck_pond(b)
+		"pizza_place": _pizza_place(b)
 		# Pokemon (Team Rokket)
 		"forest_path": _forest_path(b)
 		"rokket_hq": _rokket_hq(b)
@@ -58,6 +68,11 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"cliff_top": _cliff_top(b)
 		"rokket_camp": _rokket_camp(b)
 		"mecha_lab": _mecha_lab(b)
+		"pallut_town": _pallut_town(b)
+		"prof_lab": _prof_lab(b)
+		"ceruleen_gym": _ceruleen_gym(b)
+		"monster_mart": _monster_mart(b)
+		"tall_grass": _tall_grass(b)
 		_: return false
 	return true
 
@@ -761,7 +776,7 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 				b._seaweed(200 + i * 400, 630, 160, Color("3f7a3a"))
 		"krusty_dining", "sponge_living_room":
 			pass
-		"lucky_duck_lake":
+		"lucky_duck_lake", "duck_pond":
 			for i in 4:
 				var y := 460.0 + i * 25.0
 				ci.draw_line(Vector2(60 + sin(t + i) * 30 + i * 180, y), Vector2(160 + sin(t + i) * 30 + i * 180, y), Color(1, 1, 1, 0.5), 2.0)
@@ -814,6 +829,310 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 				var h := 50.0 + sin(t * 9.0 + k) * 10.0 - k * 10.0
 				var flame := PackedVector2Array([c + Vector2(-26 + k * 8, 0), c + Vector2(0, -h), c + Vector2(26 - k * 8, 0)])
 				ci.draw_colored_polygon(flame, [Color("e6452f"), Color("f2a65a"), Color("ffe08a")][k])
-		"cliff_top", "forest_path", "funnie_house", "bluffington_park", "pickles_backyard", "playground", "finster_house", "hillwood_park":
+		"beets_concert":
+			for k in 3:
+				var a := sin(t * 0.9 + k * 2.1) * 0.5
+				var top := Vector2(260 + k * 380, -PAD)
+				var beam := PackedVector2Array([top, top + Vector2(-90, 640).rotated(a), top + Vector2(90, 640).rotated(a)])
+				ci.draw_colored_polygon(beam, [Color(1, 0.9, 0.4, 0.16), Color(1, 0.5, 0.8, 0.16), Color(0.5, 0.8, 1, 0.16)][k])
+		"quailman_lair", "prof_lab":
+			var lights := [Vector2(170, 250), Vector2(210, 250), Vector2(250, 250), Vector2(170, 290), Vector2(210, 290), Vector2(250, 290)]
+			for i in lights.size():
+				var on := fmod(t * 2.0 + i * 0.37, 1.0) > 0.5
+				Art.dot(ci, lights[i], 8, [Color("e6452f"), Color("6fbf6a"), Color("f2c14e")][i % 3] if on else Color("3a3d42"))
+		"ceruleen_gym":
+			for i in 5:
+				var y := 470.0 + i * 22.0
+				var w := PackedVector2Array()
+				for k in 10:
+					w.append(Vector2(180 + k * 102.0, y + sin(t * 2.0 + k + i) * 3.0))
+				ci.draw_polyline(w, Color(1, 1, 1, 0.45), 2.0)
+		"tall_grass":
+			var rng := RandomNumberGenerator.new()
+			rng.seed = 11
+			for i in 46:
+				var x := -PAD + i * 32.0 + rng.randf_range(-8, 8)
+				var h := rng.randf_range(70, 120)
+				var sway := sin(t * 1.6 + x * 0.02) * 10.0
+				var blade := PackedVector2Array([Vector2(x - 9, H + PAD), Vector2(x + sway, H - h), Vector2(x + 9, H + PAD)])
+				ci.draw_colored_polygon(blade, Color("4f9a3a") if i % 2 else Color("5fb04a"))
+				ci.draw_polyline(PackedVector2Array([Vector2(x - 9, H + PAD), Vector2(x + sway, H - h), Vector2(x + 9, H + PAD)]), INK, 2.5)
+		"cliff_top", "forest_path", "funnie_house", "bluffington_park", "pickles_backyard", "playground", "finster_house", "hillwood_park", \
+				"carmichael_house", "pallut_town":
 			for i in 2:
 				b._cloud(Vector2(fmod(t * (8 + i * 4) + i * 600, W + 300) - 150, 70 + i * 50), 0.8)
+
+
+# ---------------------------------------------------- more Bluffington --
+
+static func _swirlys(b: Backdrop) -> void:
+	_room(b, Color("dff3f2"), Color("bfe6e4"), 545, Color("f2f2ee"), "tile")
+	# Striped awning over the counter
+	for i in 12:
+		var col := Color("f28cb8") if i % 2 == 0 else Color.WHITE
+		Art.shape(b.ci, _rect(Rect2(140 + i * 84, 150, 84, 60)), col, 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(160, 380, 960, 165), 8), Color("7ac8c4"), 4.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(140, 364, 1000, 22), 4), Color.WHITE, 4.0)
+	# Tubs of ice cream behind glass
+	for i in 6:
+		var x := 230.0 + i * 140.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 300, 100, 64), 8), Color("dfe6ea"), 3.0)
+		Art.blob(b.ci, Vector2(x + 50, 310), 40, 18, [Color("fff1d6"), Color("8a5a36"), Color("f7b6c8"), Color("b8e0a0"), Color("f2c14e"), Color("c9a6e3")][i], 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(440, 40, 400, 90), 40), Color("f28cb8"), 5.0, 0.12)
+	Art.text(b.ci, b.sign_font, Vector2(440, 104), "SWIRLY'S", 54, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 400)
+
+
+static func _beets_concert(b: Backdrop) -> void:
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("140c2a"), Color("3a1f5a"))
+	b._sky_bottom = Color("3a1f5a")
+	# Stage, speaker stacks and the band's banner
+	Art.shape(b.ci, _rect(Rect2(-PAD, 470, W + PAD * 2, 90)), Color("2b2b33"), 4.0)
+	_fill_band(b, 560, H + PAD, Color("5a3a2a"))
+	for x in [60, 1110]:
+		for k in 2:
+			var r := Rect2(x, 250 + k * 110, 110, 110)
+			Art.shape(b.ci, Art.rrect(r, 6), Color("1d1d22"), 4.0)
+			Art.blob(b.ci, r.get_center(), 36, 36, Color("3a3d42"), 3.0)
+			Art.dot(b.ci, r.get_center(), 12, Color("6b6b75"))
+	Art.shape(b.ci, Art.rrect(Rect2(340, 60, 600, 140), 16), Color("e6452f"), 5.0, 0.15)
+	Art.text(b.ci, b.sign_font, Vector2(340, 160), "THE BEETS", 80, Color("f2c14e"), 10, HORIZONTAL_ALIGNMENT_CENTER, 600)
+	# Drum kit
+	Art.blob(b.ci, Vector2(640, 430), 60, 44, Color("e6452f"), 4.0, 0.15)
+	Art.blob(b.ci, Vector2(640, 430), 34, 26, Color("f2f2ee"), 3.0)
+	Art.text(b.ci, b.sign_font, Vector2(600, 442), "B", 30, Color("e6452f"), 0, HORIZONTAL_ALIGNMENT_CENTER, 80)
+	for x in [540, 740]:
+		Art.blob(b.ci, Vector2(x, 380), 40, 8, Color("f2c14e"), 3.0)
+		Art.stroke(b.ci, PackedVector2Array([Vector2(x, 388), Vector2(x, 470)]), 3.0)
+
+
+static func _bluff_cafeteria(b: Backdrop) -> void:
+	_room(b, Color("f6efc8"), Color("e8dca0"), 545, Color("c8d0c0"), "tile")
+	Art.shape(b.ci, _rect(Rect2(-PAD, 330, W + PAD * 2, 20)), Color("5aa84a"), 3.0)
+	for i in 2:
+		var x := 120.0 + i * 600.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 430, 440, 22), 6), Color("d9a65a"), 4.0)
+		for k in 2:
+			Art.limb(b.ci, PackedVector2Array([Vector2(x + 40 + k * 360, 452), Vector2(x + 40 + k * 360, 545)]), 10, Color("8a96a3"))
+		for k in 3:
+			Art.shape(b.ci, Art.rrect(Rect2(x + 50 + k * 130, 410, 70, 20), 4), Color("bfe0f2"), 2.5)
+	Art.shape(b.ci, Art.rrect(Rect2(400, 100, 480, 80), 10), Color("4a78d0"), 4.0)
+	Art.text(b.ci, b.sign_font, Vector2(400, 156), "GO BEAVERS!", 44, Color("f2c14e"), 6, HORIZONTAL_ALIGNMENT_CENTER, 480)
+	b._window(Rect2(100, 120, 180, 150))
+	b._window(Rect2(1000, 120, 180, 150))
+
+
+static func _funnie_kitchen(b: Backdrop) -> void:
+	_room(b, Color("fff3d0"), Color("f6e0a8"), 545, Color("b8d8f2"), "tile")
+	Art.shape(b.ci, _rect(Rect2(-PAD, 380, 620, 165)), Color("8a5a36"), 4.0, 0.12)
+	Art.shape(b.ci, _rect(Rect2(-PAD, 366, 640, 20)), Color("f2f2ee"), 4.0)
+	for i in 3:
+		Art.shape(b.ci, Art.rrect(Rect2(20 + i * 170, 400, 140, 120), 6), Color("a77a4c"), 3.0)
+		Art.dot(b.ci, Vector2(130 + i * 170, 460), 5, Color("f2c14e"))
+	b._window(Rect2(180, 120, 220, 170))
+	# Fridge covered in drawings, table with a fruit bowl
+	Art.shape(b.ci, Art.rrect(Rect2(1000, 200, 170, 345), 14), Color("f2f2ee"), 4.0, 0.12)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(1000, 330), Vector2(1170, 330)]), 3.0)
+	for p in [Vector2(1030, 230), Vector2(1100, 360), Vector2(1040, 420)]:
+		Art.shape(b.ci, _rect(Rect2(p, Vector2(50, 40))), [Color("f2c14e"), Color("7ac8c4"), Color("f28cb8")][int(p.y) % 3], 2.5)
+	_table(b, 760, 440, 260)
+	Art.blob(b.ci, Vector2(760, 430), 40, 14, Color("f2f2ee"), 3.0)
+	for k in 3:
+		Art.blob(b.ci, Vector2(735 + k * 25, 414), 14, 14, [Color("e6452f"), Color("f2c14e"), Color("6fbf6a")][k], 2.5)
+
+
+static func _quailman_lair(b: Backdrop) -> void:
+	# Dug's daydream: a comic-book secret lair
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("4a2a7a"), Color("9b5fd0"))
+	b._sky_bottom = Color("9b5fd0")
+	for y in 12:
+		for x in 24:
+			Art.dot(b.ci, Vector2(-40 + x * 60 + (y % 2) * 30, -40 + y * 60), 6, Color(1, 1, 1, 0.08))
+	_fill_band(b, 545, H + PAD, Color("2b2b40"))
+	# Big computer with blinking lights (the lights blink in draw_fx)
+	Art.shape(b.ci, Art.rrect(Rect2(120, 200, 400, 345), 12), Color("6b6f78"), 5.0, 0.15)
+	Art.shape(b.ci, Art.rrect(Rect2(290, 230, 200, 140), 8), Color("17331f"), 4.0)
+	Art.text(b.ci, b.sign_font, Vector2(290, 320), "Q", 70, Color("6dff8a"), 0, HORIZONTAL_ALIGNMENT_CENTER, 200)
+	for k in 3:
+		Art.shape(b.ci, Art.rrect(Rect2(160 + k * 110, 410, 80, 40), 6), Color("aab3bd"), 3.0)
+	# Emblem
+	Art.blob(b.ci, Vector2(900, 260), 150, 150, Color("f2c14e"), 6.0, 0.12)
+	Art.blob(b.ci, Vector2(900, 260), 110, 110, Color("e6452f"), 4.0)
+	Art.text(b.ci, b.sign_font, Vector2(750, 300), "Q", 130, Color.WHITE, 10, HORIZONTAL_ALIGNMENT_CENTER, 300)
+	Art.shape(b.ci, Art.rrect(Rect2(700, 440, 400, 60), 12), Color("2b2b33"), 4.0)
+	Art.text(b.ci, b.sign_font, Vector2(700, 484), "QUAILMAN HQ", 36, Color("f2c14e"), 6, HORIZONTAL_ALIGNMENT_CENTER, 400)
+
+
+# -------------------------------------------------------- more Playpen --
+
+static func _pickles_attic(b: Backdrop) -> void:
+	_room(b, Color("c9a06a"), Color("a77a4c"), 545, Color("8a5a36"))
+	# Sloped roof beams
+	Art.shape(b.ci, PackedVector2Array([Vector2(-PAD, -PAD), Vector2(520, -PAD), Vector2(-PAD, 380)]), Color("8a5a36"), 5.0, 0.15)
+	Art.shape(b.ci, PackedVector2Array([Vector2(W + PAD, -PAD), Vector2(760, -PAD), Vector2(W + PAD, 380)]), Color("8a5a36"), 5.0, 0.15)
+	# Round window with a light beam
+	Art.blob(b.ci, Vector2(640, 150), 70, 70, Color("f2efe6"), 5.0)
+	Art.blob(b.ci, Vector2(640, 150), 54, 54, Color("bfe0f2"), 3.0)
+	Art.fill(b.ci, PackedVector2Array([Vector2(600, 190), Vector2(680, 190), Vector2(820, 545), Vector2(460, 545)]), Color(1, 1, 0.8, 0.18))
+	# Boxes, a trunk and an old lamp
+	for r in [Rect2(120, 420, 150, 125), Rect2(160, 330, 110, 90), Rect2(960, 440, 180, 105)]:
+		Art.shape(b.ci, _rect(r), Color("d9b77e"), 4.0, 0.15)
+		Art.stroke(b.ci, PackedVector2Array([Vector2(r.position.x, r.position.y + 20), Vector2(r.end.x, r.position.y + 20)]), 2.5)
+	Art.shape(b.ci, Art.rrect(Rect2(320, 450, 200, 95), 12), Color("4a78d0"), 4.0, 0.15)
+	Art.shape(b.ci, _rect(Rect2(405, 470, 30, 24)), Color("f2c14e"), 2.5)
+	Art.limb(b.ci, PackedVector2Array([Vector2(860, 545), Vector2(860, 380)]), 8, Color("6b6b75"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(820, 380), Vector2(900, 380), Vector2(880, 330), Vector2(840, 330)]), Color("e6b0c8"), 3.5)
+
+
+static func _carmichael_house(b: Backdrop) -> void:
+	_day_sky(b)
+	_grass(b, 560)
+	_house(b, Rect2(300, 250, 620, 310), Color("d9c3f0"), Color("7a3fa0"))
+	for x in [180, 1060]:
+		_bush(b, Vector2(x, 545), 0.9, Color("5aa84a"))
+	_fence(b, 500, 590)
+
+
+static func _toy_palace(b: Backdrop) -> void:
+	_room(b, Color("fff1d6"), Color("ffe0b0"), 545, Color("e6452f"), "tile")
+	for row in 3:
+		var y := 190.0 + row * 120.0
+		Art.shape(b.ci, Art.rrect(Rect2(40, y, 1200, 14), 3), Color("c48a4f"), 3.0)
+		for i in 10:
+			var x := 70.0 + i * 118.0
+			var col: Color = [Color("4a78d0"), Color("f2c14e"), Color("6fbf6a"), Color("f28cb8"), Color("9b5fd0")][(i + row * 2) % 5]
+			match (i + row) % 3:
+				0: Art.blob(b.ci, Vector2(x + 30, y - 30), 30, 30, col, 3.0, 0.12)
+				1: Art.shape(b.ci, _rect(Rect2(x, y - 70, 70, 70)), col, 3.0, 0.12)
+				_:
+					Art.shape(b.ci, PackedVector2Array([Vector2(x, y), Vector2(x + 35, y - 76), Vector2(x + 70, y)]), col, 3.0)
+	# A giant green dinosaur doll at the end of the aisle
+	Art.blob(b.ci, Vector2(1100, 470), 70, 80, Color("6fbf6a"), 4.0, 0.15)
+	Art.blob(b.ci, Vector2(1080, 380), 46, 40, Color("6fbf6a"), 4.0, 0.15)
+	Art.dot(b.ci, Vector2(1066, 370), 6, INK)
+	Art.shape(b.ci, Art.rrect(Rect2(400, 30, 480, 80), 20), Color("9b5fd0"), 5.0, 0.12)
+	Art.text(b.ci, b.sign_font, Vector2(400, 90), "TOY PALACE", 52, Color("f2c14e"), 8, HORIZONTAL_ALIGNMENT_CENTER, 480)
+
+
+static func _duck_pond(b: Backdrop) -> void:
+	_day_sky(b)
+	_grass(b, 400, Color("8cd06a"))
+	_water(b, 440, 540, Color("6fb3e8"))
+	_fill_band(b, 540, H + PAD, Color("8cd06a"))
+	_tree(b, 120, 560, 0.8)
+	_tree(b, 1160, 560, 0.7)
+	# Bench and a lamp
+	Art.shape(b.ci, Art.rrect(Rect2(700, 520, 220, 18), 4), Color("a77a4c"), 3.5)
+	Art.shape(b.ci, Art.rrect(Rect2(700, 486, 220, 16), 4), Color("a77a4c"), 3.5)
+	for x in [716, 904]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 538), Vector2(x, 580)]), 8, Color("3a3d42"))
+
+
+static func _pizza_place(b: Backdrop) -> void:
+	_room(b, Color("f2e3b4"), Color("e6cf94"), 545, Color("2b2b33"), "tile")
+	# Checked floor
+	for i in 26:
+		for j in 4:
+			if (i + j) % 2 == 0:
+				Art.fill(b.ci, _rect(Rect2(-PAD + i * 56, 545 + j * 56, 56, 56)), Color("f2f2ee"))
+	Art.shape(b.ci, Art.rrect(Rect2(140, 380, 520, 165), 6), Color("e6452f"), 4.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(120, 364, 560, 22), 4), Color("f2f2ee"), 4.0)
+	# Brick oven
+	Art.shape(b.ci, Art.rrect(Rect2(820, 200, 340, 345), 40), Color("b8573e"), 5.0, 0.15)
+	Art.shape(b.ci, Art.arc_pts(Vector2(990, 400), 90, 80, PI, TAU, 16) + PackedVector2Array([Vector2(1080, 420), Vector2(900, 420)]), Color("3a1f14"), 4.0)
+	Art.fill(b.ci, PackedVector2Array([Vector2(930, 420), Vector2(990, 370), Vector2(1050, 420)]), Color("f2a65a"))
+	# Big pizza sign
+	Art.blob(b.ci, Vector2(400, 180), 110, 110, Color("f2c14e"), 5.0, 0.12)
+	Art.blob(b.ci, Vector2(400, 180), 92, 92, Color("e6452f"), 3.0)
+	for p in [Vector2(-40, -30), Vector2(30, -40), Vector2(10, 30), Vector2(-30, 40), Vector2(50, 20)]:
+		Art.dot(b.ci, Vector2(400, 180) + p, 14, Color("b3202f"))
+	Art.text(b.ci, b.sign_font, Vector2(520, 200), "PIZZA!", 56, Color("e6452f"), 8, HORIZONTAL_ALIGNMENT_LEFT, 280)
+
+
+# -------------------------------------------------------- more Pokemon --
+
+static func _monster_ball(b: Backdrop, c: Vector2, r: float) -> void:
+	Art.blob(b.ci, c, r, r, Color("f4f4f2"), 3.5)
+	var top := Art.arc_pts(c, r, r, PI, TAU, 16)
+	Art.shape(b.ci, top, Color("e6452f"), 3.5)
+	Art.stroke(b.ci, PackedVector2Array([c + Vector2(-r, 0), c + Vector2(r, 0)]), 4.0)
+	Art.blob(b.ci, c, r * 0.28, r * 0.28, Color.WHITE, 3.5)
+
+
+static func _pallut_town(b: Backdrop) -> void:
+	_day_sky(b)
+	_mountains(b, 420, Color("9fcf8f"), 21)
+	_grass(b, 545, Color("8cd06a"))
+	_house(b, Rect2(60, 280, 360, 260), Color("f2efe6"), Color("e6452f"))
+	_house(b, Rect2(860, 300, 340, 240), Color("f2efe6"), Color("4a78d0"))
+	# Dirt path, a mailbox and a town sign
+	Art.fill(b.ci, PackedVector2Array([Vector2(520, 545), Vector2(760, 545), Vector2(860, H + PAD), Vector2(420, H + PAD)]), Color("e8d39a"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, 545), Vector2(640, 470)]), 8, Color("8a5a36"))
+	Art.shape(b.ci, Art.rrect(Rect2(570, 410, 140, 60), 8), Color("c48a4f"), 3.5)
+	Art.text(b.ci, b.sign_font, Vector2(570, 450), "PALLUT", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 140)
+
+
+static func _prof_lab(b: Backdrop) -> void:
+	_room(b, Color("eef4f6"), Color("d6e2e8"), 545, Color("c8d0d6"), "tile")
+	# Machine bank with blinking lights (in draw_fx), bookshelves
+	Art.shape(b.ci, Art.rrect(Rect2(120, 200, 180, 345), 10), Color("aab3bd"), 4.0, 0.15)
+	Art.shape(b.ci, Art.rrect(Rect2(140, 330, 140, 80), 6), Color("17331f"), 3.0)
+	for i in 2:
+		var x := 900.0 + i * 170.0
+		Art.shape(b.ci, _rect(Rect2(x, 180, 150, 365)), Color("a77a4c"), 4.0, 0.12)
+		for k in 4:
+			var y := 220.0 + k * 85.0
+			Art.stroke(b.ci, PackedVector2Array([Vector2(x, y + 50), Vector2(x + 150, y + 50)]), 3.0)
+			for j in 5:
+				Art.shape(b.ci, _rect(Rect2(x + 10 + j * 27, y, 20, 50)), [Color("e6452f"), Color("4a78d0"), Color("f2c14e"), Color("6fbf6a")][(j + k) % 4], 2.0)
+	# Table with three monster balls to choose from
+	_table(b, 600, 440, 380)
+	for k in 3:
+		_monster_ball(b, Vector2(500 + k * 100, 412), 26)
+
+
+static func _ceruleen_gym(b: Backdrop) -> void:
+	_room(b, Color("bfe6f6"), Color("8fd0ee"), 545, Color("e9eef4"), "tile")
+	# Arched glass roof, stands, and the pool (ripples in draw_fx)
+	for i in 6:
+		Art.shape(b.ci, Art.arc_pts(Vector2(110 + i * 212, 260), 100, 160, PI, TAU, 14), Color("dff4fb"), 3.5)
+	Art.shape(b.ci, _rect(Rect2(-PAD, 260, W + PAD * 2, 80)), Color("f2f2ee"), 4.0)
+	for k in 3:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, 280 + k * 22), Vector2(W + PAD, 280 + k * 22)]), 2.0, Color("aab3bd"))
+	Art.shape(b.ci, Art.rrect(Rect2(160, 450, 960, 130), 10), Color("4aa8e0"), 5.0)
+	for x in [300, 980]:
+		Art.shape(b.ci, Art.rrect(Rect2(x - 40, 500, 80, 26), 6), Color("f2c14e"), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(420, 120, 440, 90), 20), Color("4a78d0"), 5.0, 0.12)
+	Art.text(b.ci, b.sign_font, Vector2(420, 184), "CERULEEN GYM", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 440)
+
+
+static func _monster_mart(b: Backdrop) -> void:
+	_room(b, Color("eaf2fb"), Color("cfe0f2"), 545, Color("f2f2ee"), "tile")
+	Art.shape(b.ci, Art.rrect(Rect2(380, 60, 520, 90), 20), Color("4a78d0"), 5.0, 0.12)
+	Art.text(b.ci, b.sign_font, Vector2(380, 124), "MONSTER MART", 48, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	# Shelves of potions and balls
+	for row in 2:
+		var y := 290.0 + row * 120.0
+		Art.shape(b.ci, Art.rrect(Rect2(620, y, 600, 14), 3), Color("aab3bd"), 3.0)
+		for i in 9:
+			var x := 650.0 + i * 64.0
+			if (i + row) % 2 == 0:
+				_monster_ball(b, Vector2(x + 18, y - 22), 20)
+			else:
+				Art.shape(b.ci, Art.rrect(Rect2(x, y - 56, 36, 56), 8), Color("9b5fd0"), 3.0)
+				Art.shape(b.ci, _rect(Rect2(x + 10, y - 66, 16, 12)), Color("aab3bd"), 2.5)
+	# Counter with a till
+	Art.shape(b.ci, Art.rrect(Rect2(60, 380, 440, 165), 6), Color("4a78d0"), 4.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(40, 364, 480, 22), 4), Color("f2f2ee"), 4.0)
+	Art.shape(b.ci, Art.rrect(Rect2(140, 300, 120, 64), 8), Color("6b6f78"), 3.5)
+
+
+static func _tall_grass(b: Backdrop) -> void:
+	_day_sky(b)
+	_mountains(b, 430, Color("8fbfa0"), 9)
+	_grass(b, 420, Color("8cd06a"))
+	_tree(b, 160, 470, 0.7, Color("3f8f3a"))
+	_tree(b, 1120, 460, 0.8, Color("3f8f3a"))
+	# Route sign (the tall grass along the bottom sways in draw_fx)
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, 520), Vector2(640, 440)]), 8, Color("8a5a36"))
+	Art.shape(b.ci, Art.rrect(Rect2(560, 380, 160, 64), 8), Color("c48a4f"), 3.5)
+	Art.text(b.ci, b.sign_font, Vector2(560, 422), "ROUTE 1", 28, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 160)

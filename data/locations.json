@@ -204,6 +204,31 @@
 		"show": "Bluffington",
 		"description": "A big green park with a bandstand."
 	},
+	"swirlys": {
+		"name": "Swirly's",
+		"show": "Bluffington",
+		"description": "The ice cream parlor where all of Bluffington hangs out."
+	},
+	"beets_concert": {
+		"name": "The Beets Concert",
+		"show": "Bluffington",
+		"description": "The greatest band in history, live! Bring earplugs."
+	},
+	"bluff_cafeteria": {
+		"name": "Bluffington Cafeteria",
+		"show": "Bluffington",
+		"description": "Mystery lunch and the Beavers banner."
+	},
+	"funnie_kitchen": {
+		"name": "Funnie Kitchen",
+		"show": "Bluffington",
+		"description": "Breakfast, homework and the fridge gallery."
+	},
+	"quailman_lair": {
+		"name": "Quailman's Secret Lair",
+		"show": "Bluffington",
+		"description": "Where Dug's superhero daydreams take him."
+	},
 	"pickles_living_room": {
 		"name": "Pickles Living Room",
 		"show": "Playpen",
@@ -254,6 +279,31 @@
 		"show": "Playpen",
 		"description": "Chuckey's house. Neat, quiet and a little bit scary."
 	},
+	"pickles_attic": {
+		"name": "Pickles Attic",
+		"show": "Playpen",
+		"description": "Boxes, trunks and dusty treasures. Very spooky."
+	},
+	"carmichael_house": {
+		"name": "Carmichael House",
+		"show": "Playpen",
+		"description": "Suzie's house across the street."
+	},
+	"toy_palace": {
+		"name": "Toy Palace",
+		"show": "Playpen",
+		"description": "Aisles and aisles of toys, and a giant dinosaur."
+	},
+	"duck_pond": {
+		"name": "Duck Pond Park",
+		"show": "Playpen",
+		"description": "A pond, a bench and some very bold ducks."
+	},
+	"pizza_place": {
+		"name": "Pizza Place",
+		"show": "Playpen",
+		"description": "Checkered floors and a big brick oven."
+	},
 	"forest_path": {
 		"name": "Forest Path",
 		"show": "Pokemon",
@@ -303,5 +353,30 @@
 		"name": "Mecha Lab",
 		"show": "Pokemon",
 		"description": "Where the giant robot of the week gets built."
+	},
+	"pallut_town": {
+		"name": "Pallut Town",
+		"show": "Pokemon",
+		"description": "A quiet little town where every journey begins."
+	},
+	"prof_lab": {
+		"name": "Professor's Lab",
+		"show": "Pokemon",
+		"description": "Machines, books and three monster balls to choose from."
+	},
+	"ceruleen_gym": {
+		"name": "Ceruleen Gym",
+		"show": "Pokemon",
+		"description": "A swimming-pool arena for water battles."
+	},
+	"monster_mart": {
+		"name": "Monster Mart",
+		"show": "Pokemon",
+		"description": "Potions, balls and everything a trainer needs."
+	},
+	"tall_grass": {
+		"name": "Tall Grass Route",
+		"show": "Pokemon",
+		"description": "Wild monsters could be hiding anywhere in here."
 	}
 }
