@@ -1,0 +1,181 @@
+@title The Rainbow Road Grand Prix
+@series Super Mario Brothers
+@icon mushroom
+@number 2
+@description It's the Mushroom Kingdom Grand Prix, and the final lap is on Rainbow Road. Waryo has a plan to win. Waryo always has a plan, and it always involves cheating.
+
+# ------------------------------------------------------------ PEECH'S CASTLE
+MUSIC happy
+SCENE peech_castle cut
+TITLE
+PLACE peech center left excited
+PLACE toadd midright left happy
+PEECH (excited): Welcome, everyone, to the Mushroom Kingdom Grand Prix!
+TOADD (excited): The winner gets the Golden Mushroom Cup! And a cake!
+ENTER mareo left midleft excited
+ENTER luiggi left left nervous
+MAREO (excited): Wahoo! I'm gonna win that cup!
+LUIGGI (nervous): I'm just hoping not to fall off the track.
+PEECH (smug): Luiggi, you're a wonderful driver. You just need confidence.
+LUIGGI (shy): Thanks, Princess.
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC sneaky
+SCENE pipe_land
+PLACE waryo center left smug
+WARYO (smug): Wah ha ha. Everyone thinks the race is about driving.
+WARYO (excited): But I have a secret! Banana peels! Thousands of them!
+WARYO (smug): And I know a guy who has a lot of bananas.
+SFX coin
+WARYO (excited): Waaah! I'm a genius!
+
+# ------------------------------------------------------------ KONGG JUNGLE
+MUSIC jazz
+SCENE kong_jungle
+PLACE donkee_kongg center left happy
+ENTER waryo right midright smug
+WARYO (smug): Hey, big monkey! I'll trade you all my gold coins for all your bananas.
+DONKEE_KONGG (surprised): All bananas?
+WARYO (smug): All of them. For the race.
+DONKEE_KONGG (angry): No! Bananas are for eating! Not for racing!
+WARYO (nervous): Okay, okay. How about half?
+DONKEE_KONGG (angry): Ooh ooh! NO!
+SFX thud
+WARYO (scared): Waaah! Okay! No bananas!
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC jazz 2
+SCENE underground_bricks
+PLACE mareo center right excited
+PLACE luiggi midleft right nervous
+MAREO (excited): Luiggi, the kart's ready! I tuned the engine, polished the wheels and added a horn that plays our theme song!
+LUIGGI (nervous): Mareo, what if I crash in front of everyone?
+MAREO (happy): Then you get back in and keep driving. That's what racing is!
+LUIGGI (surprised): That's it?
+MAREO (smug): That's everything, bro. Crashing is just practice for winning.
+LUIGGI (happy): Okay. I can do that. I've had a LOT of practice crashing.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC action
+SCENE mushroom_kingdom
+CARD Lap one...
+PLACE mareo midleft right excited
+PLACE luiggi left right nervous
+PLACE yoshee center left happy
+PLACE daizy midright left excited
+MAREO (excited): Here we go!
+SFX whoosh
+YOSHEE (excited): Yoshee!
+DAIZY (excited): Hi, I'm Daizy! And I'm passing you!
+SFX whoosh
+LUIGGI (nervous): Everyone's so fast!
+MAREO (happy): Hold on tight, Luiggi! It's just the first lap!
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC action 2
+SCENE desert_land
+PLACE waryo midright left smug
+PLACE mareo midleft right excited
+WARYO (smug): Wah ha ha! Eat my dust, Mareo!
+SFX whoosh
+MAREO (angry): Waryo! You took a shortcut through the pyramid!
+WARYO (smug): It's not a shortcut if nobody sees it!
+MAREO (smug): I saw it!
+WARYO (nervous): It's not a shortcut if the judges don't see it!
+
+# ------------------------------------------------------------ ICE LAND
+MUSIC tense
+SCENE ice_land
+PLACE luiggi center right scared
+PLACE kooper midleft right nervous
+LUIGGI (scared): It's so slippery! Whoa! Whoooa!
+SFX squeak
+KOOPER (nervous): Hey, green guy! Steer into the slide! Not away from it!
+LUIGGI (surprised): Steer into it?
+KOOPER (smug): Trust me. I've been sliding on ice in my shell for years.
+LUIGGI (excited): It worked! Thanks, Kooper!
+KOOPER (smug): Don't tell Bowzer I helped.
+
+# ------------------------------------------------------------ BOWZER'S CASTLE
+MUSIC spooky
+SCENE bowzer_castle
+PLACE bowzer center left smug
+PLACE gumba midright left nervous
+BOWZER (smug): Gumba. Are my racers in position?
+GUMBA (nervous): Uh, boss, you only have one racer. It's you. And you're not racing.
+BOWZER (angry): What? Why am I not racing?
+GUMBA (sad): You forgot to sign up. Again.
+BOWZER (sad): I always forget to sign up.
+GUMBA (smug): Want me to bring you a snack?
+BOWZER (happy): A big one.
+
+# ------------------------------------------------------------ SKY LAND
+MUSIC happy 3
+SCENE sky_land
+PLACE yoshee midleft right excited
+PLACE daizy center left excited
+DAIZY (excited): Yoshee, the cloud shortcut! Follow me!
+YOSHEE (excited): Yoshee!
+DAIZY (surprised): Wait, did that cloud just move?
+YOSHEE (scared): Yoshee!
+DAIZY (sad): We're floating the wrong way. We're going backwards!
+YOSHEE (sad): Yoshee...
+DAIZY (happy): Well. At least the view is nice!
+
+# ------------------------------------------------------------ RAINBOW ROAD
+MUSIC action 3
+SCENE rainbow_road
+CARD The final lap. Rainbow Road.
+PLACE mareo midleft right excited
+PLACE luiggi left right nervous
+PLACE waryo midright left smug
+WARYO (smug): Final lap! No guardrails! And I've got a banana peel I found on the ground!
+MAREO (scared): Waryo, don't!
+SFX squeak
+MAREO (scared): Mamma mia! I'm spinning!
+WARYO (excited): Waaah! First place is mine!
+LUIGGI (nervous): Mareo! Are you okay?
+MAREO (excited): Don't wait for me, Luiggi! Go! You can catch him!
+
+# ------------------------------------------------------------ RAINBOW ROAD
+MUSIC action
+SCENE rainbow_road
+PLACE luiggi center right excited
+PLACE waryo midright left nervous
+LUIGGI (nervous): I can do this. Confidence. Like the princess said.
+LUIGGI (excited): Steer into the slide! Just like Kooper said!
+SFX whoosh
+WARYO (surprised): Luiggi? How is the green guy catching me?
+LUIGGI (excited): Because I'm not afraid anymore!
+WARYO (scared): Waaaah! He's passing me!
+SFX powerup
+
+# ------------------------------------------------------------ GOAL FLAGPOLE
+MUSIC happy 2
+SCENE goal_flagpole
+PLACE peech center left excited
+PLACE toadd midright left excited
+ENTER luiggi left midleft excited 500
+PEECH (excited): And the winner of the Grand Prix is... Luiggi!
+SFX fanfare
+TOADD (excited): Luiggi wins! Luiggi wins!
+LUIGGI (surprised): I won? I actually won?
+ENTER mareo left left happy
+MAREO (happy): You did it, bro! I'm so proud of you!
+LUIGGI (shy): I couldn't have done it without you, Mareo.
+
+# ------------------------------------------------------------ PEECH'S THRONE ROOM
+MUSIC happy 3
+SCENE peech_throne
+PLACE peech center left happy
+PLACE luiggi midleft right happy
+PLACE waryo right left sad
+PLACE yoshee midright left happy
+PEECH (happy): Luiggi, here is your Golden Mushroom Cup. And the cake!
+LUIGGI (excited): Thank you, Princess!
+WARYO (sad): I came in second. Second is the first loser.
+YOSHEE (happy): Yoshee!
+PEECH (smug): And Waryo, the judges saw the pyramid shortcut. You're disqualified.
+WARYO (angry): WAAAAH!
+LUIGGI (happy): More cake for everyone!
+END

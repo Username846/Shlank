@@ -1,0 +1,162 @@
+@title Luiggi's Spooky Rescue
+@series Super Mario Brothers
+@icon mushroom
+@number 3
+@description Mareo went into Boo Mansion to look for a lost coin and never came out. Now it's up to Luiggi, who is scared of ghosts, the dark and also slightly scared of his own shadow.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy
+SCENE mushroom_kingdom cut
+TITLE
+PLACE mareo midleft right excited
+PLACE luiggi left right nervous
+MAREO (excited): Luiggi! Toadd says there's a giant golden coin in the Boo Mansion!
+LUIGGI (scared): The Boo Mansion? Mareo, that place is full of ghosts!
+MAREO (smug): Ghosts are just shy. I'll be in and out in five minutes.
+LUIGGI (nervous): What if you're not?
+MAREO (happy): Then you'll come rescue me! Wahoo!
+RUN mareo offright
+LUIGGI (nervous): I really hope it's five minutes.
+
+# ------------------------------------------------------------ TOADD HOUSE
+MUSIC jazz
+SCENE toad_house
+CARD Three hours later...
+PLACE toadd center left nervous
+ENTER luiggi left midleft scared
+LUIGGI (scared): Toadd! Mareo still isn't back!
+TOADD (nervous): Oh no. Nobody comes back from Boo Mansion in less than a day. The ghosts make you play board games.
+LUIGGI (surprised): Board games?
+TOADD (nervous): And they always cheat.
+LUIGGI (sad): I have to go get him. Don't I?
+TOADD (smug): Take this flashlight. Ghosts hate flashlights.
+
+# ------------------------------------------------------------ PEECH'S CASTLE
+MUSIC tense
+SCENE peech_castle
+PLACE peech center left nervous
+PLACE daizy midright left excited
+ENTER luiggi left midleft nervous
+PEECH (nervous): Luiggi, you're going into Boo Mansion alone? That's very brave.
+LUIGGI (nervous): I'm not brave. My legs are just walking there on their own.
+DAIZY (excited): Want me to come? I'm not scared of anything!
+LUIGGI (shy): Actually... yes, please.
+DAIZY (excited): Hi, I'm Daizy, and I'm a ghost hunter now!
+PEECH (happy): Be careful, both of you.
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC spooky
+SCENE boo_mansion
+ENTER luiggi left midleft scared 160
+ENTER daizy left left excited 160
+LUIGGI (scared): It's so dark. And creaky. And cold.
+DAIZY (excited): It's awesome!
+SFX squeak
+LUIGGI (scared): AAAH! What was that?
+DAIZY (smug): The door, Luiggi.
+LUIGGI (nervous): The door is very scary.
+SFX slam
+DAIZY (surprised): And now it's locked behind us. Cool.
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC spooky 2
+SCENE boo_mansion
+PLACE luiggi center right nervous
+PLACE daizy midleft right happy
+ENTER gumba right midright happy
+GUMBA (happy): Hey! Visitors! Nobody ever visits!
+LUIGGI (scared): AAAH! A ghost!
+GUMBA (angry): I'm not a ghost! I'm a Gumba! I'm the night janitor!
+DAIZY (surprised): Boo Mansion has a janitor?
+GUMBA (smug): Ghosts make a lot of mess. Ectoplasm everywhere.
+LUIGGI (nervous): Have you seen my brother? Red hat? Big moustache?
+GUMBA (happy): Oh, him? He's upstairs. Losing at board games.
+
+# ------------------------------------------------------------ BOWZER'S CASTLE
+MUSIC sneaky
+SCENE bowzer_castle
+PLACE bowzer center left excited
+PLACE kooper midright left nervous
+BOWZER (excited): Kooper! Mareo is trapped in the Boo Mansion! This is my chance!
+KOOPER (nervous): Your chance to do what, boss?
+BOWZER (smug): Kidnap the princess while he's busy!
+KOOPER (smug): Boss, it's Luiggi's turn to rescue people today. You'd be kidnapping her from Luiggi.
+BOWZER (surprised): Luiggi? The scared one? That's no fun.
+KOOPER (smug): Exactly.
+BOWZER (sad): Fine. I'll wait until Tuesday.
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC tense 2
+SCENE boo_mansion
+PLACE mareo center left sad
+ENTER luiggi left midleft excited 400
+ENTER daizy left left excited 400
+LUIGGI (excited): Mareo! We found you!
+MAREO (sad): Luiggi! You came! They've had me playing ghost checkers for three hours!
+DAIZY (surprised): Where are the ghosts?
+MAREO (nervous): Everywhere. They're invisible. Unless you look right at them. Then they hide their faces.
+LUIGGI (nervous): That's the scariest thing I've ever heard.
+MAREO (sad): And they cheat at checkers.
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC action
+SCENE boo_mansion
+PLACE luiggi center right excited
+PLACE mareo midleft right nervous
+PLACE daizy left right excited
+LUIGGI (nervous): Okay. Toadd said ghosts hate flashlights. Here goes.
+SFX sparkle
+DAIZY (excited): It's working! They're running away!
+MAREO (surprised): Luiggi! You're scaring the ghosts!
+LUIGGI (excited): I'm scaring the ghosts!
+SFX sparkle
+LUIGGI (smug): That's right! Run away! I'm Luiggi, and I'm the scary one now!
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC spooky 3
+SCENE boo_mansion
+PLACE luiggi center right surprised
+PLACE gumba midright left nervous
+GUMBA (nervous): Uh, Mister Luiggi? The ghosts are crying now. You hurt their feelings.
+LUIGGI (surprised): Their feelings?
+GUMBA (sad): They just wanted someone to play board games with. Nobody ever stays.
+LUIGGI (sad): Oh. I didn't know.
+LUIGGI (nervous): Tell them... I'll come back. Next week. For one game. If they promise not to cheat.
+GUMBA (happy): They promise! Well. They promise to cheat less.
+
+# ------------------------------------------------------------ KONGG JUNGLE
+MUSIC happy
+SCENE kong_jungle
+PLACE donkee_kongg center left nervous
+DONKEE_KONGG (nervous): Ooh ooh. Heard screaming from the mansion. Very loud.
+DONKEE_KONGG (surprised): Now heard laughing. Even louder.
+DONKEE_KONGG (happy): Ghosts having a party?
+DONKEE_KONGG (excited): Bring bananas! Ghosts like bananas?
+NARRATOR: Ghosts do not eat bananas. But they do like the shape. Very spooky.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy 2
+SCENE mushroom_kingdom
+PLACE mareo midleft right happy
+PLACE luiggi center left happy
+PLACE daizy left right happy
+PLACE peech midright left happy
+PEECH (happy): You're back! Luiggi, you did it!
+MAREO (excited): Luiggi was amazing! He scared the whole mansion!
+LUIGGI (shy): And then I made friends with them. Sort of.
+DAIZY (excited): Ghost hunting is the best! Same time next week?
+LUIGGI (nervous): For board games. Not hunting.
+MAREO (happy): Did anyone find the golden coin?
+SFX coin
+DAIZY (smug): I've had it in my pocket the whole time.
+
+# ------------------------------------------------------------ TOADD HOUSE
+MUSIC romantic
+SCENE toad_house
+PLACE toadd center left happy
+PLACE luiggi midleft right happy
+TOADD (happy): Luiggi, you're a hero! Can I tell everyone?
+LUIGGI (shy): Sure, Toadd. Just say I was a little brave.
+TOADD (excited): I'll say you were VERY brave!
+LUIGGI (happy): Okay. A little very brave.
+END
