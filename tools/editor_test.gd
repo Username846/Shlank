@@ -30,7 +30,7 @@ func _ready() -> void:
 	ed._select_beat(6)
 	await _shot("t_editor_selected")
 	ed._open_location_picker()
-	await _frames(20)
+	await _frames(40)
 	await _shot("t_loc_picker")
 	ed._picker.queue_free()
 	ed._open_music_picker()

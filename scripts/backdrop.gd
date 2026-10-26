@@ -16,6 +16,9 @@ const BAKE_SCALE := 1.5
 const THUMB_SCALE := 0.2
 
 static var _thumbs := {}  # location id -> ImageTexture
+## Thumbnails rendering right now. Capped so a picker full of them doesn't hitch.
+static var _thumbs_busy := 0
+const THUMBS_AT_ONCE := 4
 ## The moving scenery is redrawn at this rate (bubbles move every frame).
 const FX_FPS := 15.0
 
@@ -91,14 +94,20 @@ static func _make_bubble_texture() -> ImageTexture:
 ## Renders a small picture of a location (cached). `host` is any node in the
 ## tree to attach the temporary renderer to.
 static func make_thumbnail(host: Node, id: String) -> Texture2D:
+	while _thumbs_busy >= THUMBS_AT_ONCE:
+		await RenderingServer.frame_post_draw
+		if not is_instance_valid(host):
+			return null
 	if _thumbs.has(id):
 		return _thumbs[id]
+	_thumbs_busy += 1
 	var bd := Backdrop.new()
 	bd.visible = false
 	bd._vp.size = Vector2i(ceili((W + PAD * 2.0) * THUMB_SCALE), ceili((H + PAD * 2.0) * THUMB_SCALE))
 	host.add_child(bd)
 	bd.set_location(id)
 	await RenderingServer.frame_post_draw
+	_thumbs_busy -= 1
 	if not is_instance_valid(bd):
 		return null
 	var img := bd._vp.get_texture().get_image()
@@ -186,12 +195,14 @@ func _draw_set() -> void:
 		"hillwood_pier": _hillwood_pier()
 		"rooftop": _rooftop()
 		"title_stage", "theater": _title_stage()
-		_: _sea_sky()
+		_:
+			if not SetsExtra.draw_set(self, location):
+				_sea_sky()
 
 
 ## Everything that moves. Drawn on top of the baked set every frame, so keep it light.
 func _draw_fx() -> void:
-	if is_underwater() and location != "krusty_kitchen":
+	if is_underwater() and not location in ["krusty_kitchen", "krusty_dining", "sponge_living_room"]:
 		for i in 5:
 			var x := 120.0 + i * 260.0 + sin(_t * 0.4 + i) * 30.0
 			var ray := PackedVector2Array([Vector2(x - 30, -PAD), Vector2(x + 40, -PAD), Vector2(x + 160, 560), Vector2(x + 30, 560)])
@@ -228,6 +239,7 @@ func _draw_fx() -> void:
 			ci.draw_colored_polygon(beam, Color(1, 1, 0.7, 0.18))
 		_:
 			_fx_hillwood()
+			SetsExtra.draw_fx(self, location)
 
 
 # ---------------------------------------------------------------- shared --

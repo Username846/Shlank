@@ -98,5 +98,210 @@
 		"name": "Rooftop at Dusk",
 		"show": "Hillwood",
 		"description": "Where everybody in Hillwood goes to think about life."
+	},
+	"bb_downtown": {
+		"name": "Downtown Bikini Bottom",
+		"show": "Bikini Bottom",
+		"description": "Shops, a bus stop, and buildings shaped like anchors and barrels."
+	},
+	"glove_world": {
+		"name": "Glove World",
+		"show": "Bikini Bottom",
+		"description": "The greatest amusement park under the sea. Rest in peace, Glove Land."
+	},
+	"kelp_forest": {
+		"name": "Kelp Forest",
+		"show": "Bikini Bottom",
+		"description": "Tall swaying kelp. Easy to get lost in."
+	},
+	"rock_bottom": {
+		"name": "Rock Bottom",
+		"show": "Bikini Bottom",
+		"description": "A dark, deep, weird place with one very slow bus."
+	},
+	"krusty_dining": {
+		"name": "Krusty Crab Dining Room",
+		"show": "Bikini Bottom",
+		"description": "Tables made of barrels and a ship's wheel on the wall."
+	},
+	"sponge_living_room": {
+		"name": "SpongeBert's Living Room",
+		"show": "Bikini Bottom",
+		"description": "Inside the pineapple: a tiki chair, a porthole TV and Gary's food bowl."
+	},
+	"hillwood_street": {
+		"name": "Hillwood Street",
+		"show": "Hillwood",
+		"description": "A row of brownstones with stoops. Watch out for Stoop Kid."
+	},
+	"hillwood_park": {
+		"name": "Hillwood Park",
+		"show": "Hillwood",
+		"description": "Trees, a pond, and a bench perfect for thinking."
+	},
+	"cafeteria": {
+		"name": "School Cafeteria",
+		"show": "Hillwood",
+		"description": "Mystery meatloaf served daily."
+	},
+	"boarding_kitchen": {
+		"name": "Boarding House Kitchen",
+		"show": "Hillwood",
+		"description": "Grandma's kitchen at Sunset Arms. Something is always cooking."
+	},
+	"alley": {
+		"name": "Hillwood Alley",
+		"show": "Hillwood",
+		"description": "Fire escapes, a dumpster and a stray cat or two."
+	},
+	"funnie_house": {
+		"name": "The Funnie House",
+		"show": "Bluffington",
+		"description": "Dug's family home on a quiet street in Bluffington."
+	},
+	"dug_room": {
+		"name": "Dug's Room",
+		"show": "Bluffington",
+		"description": "Where Dug writes in his journal and dreams of being Quailman."
+	},
+	"bluffington_school": {
+		"name": "Bluffington Elementary",
+		"show": "Bluffington",
+		"description": "Home of the Beavers."
+	},
+	"school_hallway": {
+		"name": "School Hallway",
+		"show": "Bluffington",
+		"description": "Lockers, posters and a lot of nervous walking."
+	},
+	"honker_burger": {
+		"name": "The Honker Burger",
+		"show": "Bluffington",
+		"description": "Everybody's favorite burger joint. Honk if you love burgers."
+	},
+	"lucky_duck_lake": {
+		"name": "Lucky Duck Lake",
+		"show": "Bluffington",
+		"description": "A pretty lake with a dock and a lot of ducks."
+	},
+	"beebe_mansion": {
+		"name": "Beebe's Mansion",
+		"show": "Bluffington",
+		"description": "The fanciest house in Bluffington, with a fountain out front."
+	},
+	"dink_yard": {
+		"name": "Mr. Dink's Yard",
+		"show": "Bluffington",
+		"description": "The neighbor's yard, full of very expensive gadgets."
+	},
+	"bluffington_downtown": {
+		"name": "Downtown Bluffington",
+		"show": "Bluffington",
+		"description": "The main street: the movie theater, the record shop and more."
+	},
+	"bluffington_park": {
+		"name": "Bluffington Park",
+		"show": "Bluffington",
+		"description": "A big green park with a bandstand."
+	},
+	"pickles_living_room": {
+		"name": "Pickles Living Room",
+		"show": "Playpen",
+		"description": "The playpen, the TV and a whole lot of toys."
+	},
+	"pickles_backyard": {
+		"name": "Pickles Backyard",
+		"show": "Playpen",
+		"description": "A sandbox, a garden full of worms, and a fence to escape under."
+	},
+	"pickles_kitchen": {
+		"name": "Pickles Kitchen",
+		"show": "Playpen",
+		"description": "Where the cookies are kept. Up high. Very high."
+	},
+	"nursery": {
+		"name": "Tommi's Nursery",
+		"show": "Playpen",
+		"description": "Crib, mobile and a toy chest full of adventure."
+	},
+	"stu_basement": {
+		"name": "Stu's Basement",
+		"show": "Playpen",
+		"description": "Grandpa's... no, Stu's workshop full of half-built toys."
+	},
+	"playground": {
+		"name": "The Playground",
+		"show": "Playpen",
+		"description": "Slides, swings and a sandbox the size of a desert."
+	},
+	"reptarland": {
+		"name": "Reptarland",
+		"show": "Playpen",
+		"description": "The theme park of the giant green dinosaur. Rawr!"
+	},
+	"java_lava": {
+		"name": "Java Lava",
+		"show": "Playpen",
+		"description": "The coffee shop. Grown-ups only. Supposedly."
+	},
+	"supermarket": {
+		"name": "Supermarket",
+		"show": "Playpen",
+		"description": "Endless aisles. Endless cereal."
+	},
+	"finster_house": {
+		"name": "Finster House",
+		"show": "Playpen",
+		"description": "Chuckey's house. Neat, quiet and a little bit scary."
+	},
+	"forest_path": {
+		"name": "Forest Path",
+		"show": "Team Rokket",
+		"description": "A quiet trail. Perfect for a pitfall trap."
+	},
+	"rokket_hq": {
+		"name": "Team Rokket HQ",
+		"show": "Team Rokket",
+		"description": "The Boss's office. Do not touch the cat."
+	},
+	"monster_clinic": {
+		"name": "Monster Clinic",
+		"show": "Team Rokket",
+		"description": "Where every trainer heals their monsters. And where the treasure is."
+	},
+	"clinic_lobby": {
+		"name": "Clinic Lobby",
+		"show": "Team Rokket",
+		"description": "The front desk and the healing machine."
+	},
+	"town_square": {
+		"name": "Town Square",
+		"show": "Team Rokket",
+		"description": "A cheerful town with a fountain."
+	},
+	"crystal_cave": {
+		"name": "Crystal Cave",
+		"show": "Team Rokket",
+		"description": "Glowing crystals in the dark."
+	},
+	"sunny_beach": {
+		"name": "Sunny Beach",
+		"show": "Team Rokket",
+		"description": "Sand, sea and a suspicious submarine."
+	},
+	"cliff_top": {
+		"name": "Cliff Top",
+		"show": "Team Rokket",
+		"description": "Where the balloon lands. Usually upside down."
+	},
+	"rokket_camp": {
+		"name": "Rokket Camp",
+		"show": "Team Rokket",
+		"description": "A tent, a campfire and dreams of success."
+	},
+	"mecha_lab": {
+		"name": "Mecha Lab",
+		"show": "Team Rokket",
+		"description": "Where the giant robot of the week gets built."
 	}
 }

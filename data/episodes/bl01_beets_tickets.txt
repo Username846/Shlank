@@ -1,0 +1,164 @@
+@title The Beets Tickets
+@series Bluffington
+@icon journal
+@number 1
+@description Dug wins two tickets to see the Beets and works up the nerve to ask Patty Mayonaise. Now all he has to do is not lose them before Friday.
+
+# ---------------------------------------------------------------- DUG'S ROOM
+MUSIC happy
+SCENE dug_room cut
+TITLE
+PLACE dug center right nervous
+DUG (nervous): Dear Journal. Today is the day. The day I finally ask Patty Mayonaise to the Beets concert.
+DUG (shy): I have two tickets. I won them on the radio. Caller number nine.
+ENTER porkchop left midleft happy
+SFX boing
+PORKCHOP (excited): Arf! Arf arf!
+FACE dug porkchop
+DUG (happy): I know, Porkchop. Two tickets! Front row!
+HOLD dug money
+DUG (nervous): But what if she says no? What if she laughs? What if I sneeze on her?
+PORKCHOP (smug): Arf.
+DUG (happy): You're right, boy. A Funnie never gives up. Let's go!
+RUN dug offright &
+RUN porkchop offright
+
+# ------------------------------------------------------------ FUNNIE HOUSE
+SCENE funnie_house
+ENTER dug left midleft happy
+ENTER skeetor right midright excited
+SKEETOR (excited): Honk! Hey Dug! Honk honk!
+DUG (happy): Skeetor! Look what I've got. Two tickets to the Beets!
+JUMP skeetor
+SKEETOR (surprised): The Beets? Killer! Who are you taking? Me? Is it me?
+DUG (shy): Well, actually, I was going to ask Patty.
+SKEETOR (smug): Ohhh. Patty. Honk. Good luck, man.
+DUG (nervous): You think I need luck?
+SKEETOR (happy): Dude. Last time you talked to her you said "Hi, Patty" and walked into a pole.
+DUG (shy): It was a very sneaky pole.
+SKEETOR (excited): Come on. I'll help you practice. Honk!
+
+# --------------------------------------------------------------- DOWNTOWN
+MUSIC jazz 2
+SCENE bluffington_downtown
+ENTER dug left left nervous
+ENTER skeetor left farleft happy
+DUG (nervous): Okay. Practice. Hi, Patty. Would you like to... no. Hey, Patty, wanna... no.
+ENTER rodger right midright smug
+RODGER (smug): Well, well. If it isn't Funnie. Talking to yourself again?
+DUG (scared): Rodger!
+MOVE rodger center
+HOLD dug none
+HOLD rodger money
+SFX whoosh
+RODGER (excited): What have we got here? Beets tickets! Thanks, Funnie!
+DUG (angry): Give those back, Rodger!
+RODGER (smug): Catch me at the Honker Burger, loser. Ha!
+RUN rodger offright
+SKEETOR (angry): Not cool, man. Not cool. Honk.
+DUG (sad): Dear Journal. Rodger Klotz has stolen my future.
+SKEETOR (happy): We'll get 'em back, Dug. Quailman would get 'em back.
+DUG (excited): You're right. This is a job for... Quailman!
+
+# ---------------------------------------------------------- HONKER BURGER
+SCENE honker_burger
+PLACE rodger midright left smug
+PLACE patty right left neutral
+RODGER (smug): Hey Patty. Guess who's got tickets to the Beets?
+PATTY (surprised): Rodger? Those look exactly like the ones on the radio.
+ENTER dug left midleft angry
+ENTER porkchop left left
+DUG (angry): Those are mine, Rodger!
+PORKCHOP (angry): Grrrr. Arf!
+JUMP porkchop
+SFX squeak
+RODGER (scared): Hey! Call off your mutt! Fine! Take 'em!
+HOLD rodger none
+HOLD dug money
+RUN rodger offright
+PATTY (happy): Wow. Dug, those are yours?
+DUG (shy): Uh. Yeah. Mine. Ha ha.
+DUG (nervous): I gotta go! Bye!
+RUN dug offleft &
+RUN porkchop offleft
+
+# ------------------------------------------------------- LUCKY DUCK LAKE
+MUSIC sad
+SCENE lucky_duck_lake
+ENTER dug left center sad
+DUG (sad): Dear Journal. I had her right there. And I ran away. Again.
+ENTER porkchop left midleft
+PORKCHOP (sad): Arf.
+DUG (sad): Maybe she'd rather go with somebody cool. Like Rodger. Or the Beets themselves.
+DUG (happy): No! Tomorrow I'll ask her at school. No running.
+PORKCHOP (happy): Arf arf!
+DUG (happy): Thanks, Porkchop. You always know what to say.
+
+# ------------------------------------------------------------- THE SCHOOL
+MUSIC happy 2
+SCENE bluffington_school
+CARD The next morning...
+ENTER dug left midleft nervous
+ENTER skeetor right midright happy
+SKEETOR (happy): Big day, man! You got the tickets?
+DUG (surprised): Right here in my... wait.
+EMOTE dug scared
+SFX gasp
+CLOSE dug
+DUG (scared): They're gone! I must have left them at the lake!
+WIDE
+SKEETOR (scared): Honk?!
+DUG (nervous): Okay. Don't panic. Patty doesn't even know about the tickets. Yet.
+SKEETOR (nervous): Unless Rodger told the whole school.
+DUG (scared): Thanks, Skeetor. Very helpful.
+
+# --------------------------------------------------------- SCHOOL HALLWAY
+SCENE school_hallway
+ENTER patty right midright happy
+ENTER dug left midleft nervous
+PATTY (happy): Hi, Dug! Are you okay? You look kind of pale.
+DUG (nervous): Pale? Me? Ha. No. I'm just... looking for something. Bye!
+RUN dug offright
+PATTY (surprised): That's twice now.
+
+# ------------------------------------------------------------ BEEBE MANSION
+MUSIC sneaky
+SCENE beebe_mansion
+ENTER dug left midleft nervous
+ENTER skeetor left left
+SKEETOR (nervous): Why are we at the Beebe mansion?
+DUG (sad): The ducks took the tickets across the lake. Right into the Beebes' fountain.
+ENTER porkchop right midright excited
+HOLD porkchop money
+PORKCHOP (excited): Arf! Arf arf!
+DUG (excited): Porkchop! You found them! Good boy!
+HOLD porkchop none
+HOLD dug money
+SFX fanfare
+
+# --------------------------------------------------------------- DINK'S YARD
+MUSIC happy 3
+SCENE dink_yard
+PLACE dug center right happy
+PLACE skeetor left right happy
+DUG (happy): Okay. This time no running. Even if a giant robot attacks.
+SFX beep
+SKEETOR (surprised): Honk! Mister Dink's new gadget is on again!
+DUG (excited): Not today, robot. I have somewhere to be.
+RUN dug offright
+
+# -------------------------------------------------------- BLUFFINGTON PARK
+MUSIC romantic
+SCENE bluffington_park
+PLACE patty midright left happy
+ENTER dug left midleft shy
+DUG (shy): Patty? I have two tickets to the Beets on Friday. Would you, um... want to go? With me?
+PATTY (excited): The Beets? Dug, I'd love to!
+JUMP dug
+DUG (excited): Really?!
+PATTY (happy): Really. You could have just asked me this morning, you know.
+DUG (shy): I know. I'm working on it.
+ENTER porkchop left left happy
+PORKCHOP (happy): Arf!
+DUG (happy): Dear Journal. Best. Day. Ever.
+END

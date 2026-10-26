@@ -222,6 +222,562 @@
 			]
 		}
 	},
+	"plankton": {
+		"name": "Plankton",
+		"style": "plankton",
+		"color": "#4f9a3a",
+		"width": 30,
+		"show": "Bikini Bottom",
+		"home": "chum_bucket",
+		"bio": "A tiny evil genius who owns the Chum Bucket and wants the secret patty formula more than anything.",
+		"catchphrase": "I'll get that formula if it's the last thing I do!",
+		"voice": {
+			"pitch": 1.5,
+			"rate": 1.15,
+			"babble": 600,
+			"prefer": [
+				"daniel",
+				"george",
+				"male"
+			]
+		}
+	},
+	"karen": {
+		"name": "Karen",
+		"style": "computer",
+		"color": "#6dff8a",
+		"width": 50,
+		"show": "Bikini Bottom",
+		"home": "chum_bucket",
+		"bio": "Plankton's computer wife. Smarter than him, and she knows it.",
+		"catchphrase": "Plankton, that plan has a ninety-nine percent chance of failure.",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.0,
+			"babble": 440,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		}
+	},
+	"mrs_puff": {
+		"name": "Mrs. Puff",
+		"style": "puffer",
+		"color": "#e8d39a",
+		"width": 70,
+		"show": "Bikini Bottom",
+		"home": "boating_school",
+		"bio": "The very patient boating teacher. Puffs up when she's frightened, which is often.",
+		"catchphrase": "Oh, SpongeBert... not again.",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.0,
+			"babble": 360,
+			"prefer": [
+				"hazel",
+				"moira",
+				"female"
+			]
+		}
+	},
+	"pearl": {
+		"name": "Pearl",
+		"style": "whale",
+		"color": "#8fa7c4",
+		"width": 110,
+		"show": "Bikini Bottom",
+		"home": "krusty_dining",
+		"bio": "Mr. Crabs' teenage whale daughter. Loves the mall, hates being embarrassed.",
+		"catchphrase": "Daaad! You're embarrassing me!",
+		"voice": {
+			"pitch": 1.4,
+			"rate": 1.1,
+			"babble": 300,
+			"prefer": [
+				"zira",
+				"samantha",
+				"aria",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"gary": {
+		"name": "Gary",
+		"style": "snail",
+		"color": "#f2a1b4",
+		"width": 64,
+		"show": "Bikini Bottom",
+		"home": "sponge_living_room",
+		"bio": "SpongeBert's pet snail. Says only 'meow' but understands everything.",
+		"catchphrase": "Meow.",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.0,
+			"babble": 700,
+			"prefer": [
+				"female"
+			]
+		}
+	},
+	"larry": {
+		"name": "Larry the Lobster",
+		"style": "lobster",
+		"color": "#d9472f",
+		"width": 70,
+		"show": "Bikini Bottom",
+		"home": "goo_lagoon",
+		"bio": "Bikini Bottom's lifeguard and gym enthusiast. Never skips claw day.",
+		"catchphrase": "Feel the burn, bro!",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 1.0,
+			"babble": 180,
+			"prefer": [
+				"david",
+				"guy",
+				"alex",
+				"daniel",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"grandma": {
+		"name": "Grandma Pookie",
+		"style": "grandma",
+		"color": "#c9a6e3",
+		"width": 60,
+		"show": "Hillwood",
+		"home": "boarding_kitchen",
+		"bio": "Arnald's wildly adventurous grandma. Karate expert, explorer, and occasional pirate.",
+		"catchphrase": "Eleanor Roosevelt says hello!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.05,
+			"babble": 330,
+			"prefer": [
+				"susan",
+				"moira",
+				"female"
+			]
+		}
+	},
+	"harold": {
+		"name": "Harold",
+		"style": "harold",
+		"color": "#8a5fc0",
+		"width": 68,
+		"show": "Hillwood",
+		"home": "cafeteria",
+		"bio": "The biggest kid in the fourth grade. Loves food, hates being teased.",
+		"catchphrase": "Hey! I'm telling!",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 0.95,
+			"babble": 220,
+			"prefer": [
+				"david",
+				"guy",
+				"alex",
+				"daniel",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"stinky": {
+		"name": "Stinky",
+		"style": "stinky",
+		"color": "#c8d86a",
+		"width": 50,
+		"show": "Hillwood",
+		"home": "hillwood_park",
+		"bio": "Tall, slow-talking and kind. Lemon pudding is his favorite thing in the world.",
+		"catchphrase": "Well, I reckon that's mighty fine.",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 0.8,
+			"babble": 200,
+			"prefer": [
+				"david",
+				"guy",
+				"alex",
+				"daniel",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"sid": {
+		"name": "Sid",
+		"style": "sid",
+		"color": "#c8582e",
+		"width": 58,
+		"show": "Hillwood",
+		"home": "hillwood_street",
+		"bio": "Arnald's jumpy friend who believes every scary story he hears.",
+		"catchphrase": "Oh man, this is bad! This is really bad!",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.25,
+			"babble": 380,
+			"prefer": [
+				"david",
+				"guy",
+				"alex",
+				"daniel",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"rhonda": {
+		"name": "Rhonda",
+		"style": "rhonda",
+		"color": "#f28cb8",
+		"width": 56,
+		"show": "Hillwood",
+		"home": "classroom",
+		"bio": "The most fashionable girl at P.S. 118. Has opinions about everyone's outfits.",
+		"catchphrase": "How utterly gauche.",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.05,
+			"babble": 420,
+			"prefer": [
+				"zira",
+				"samantha",
+				"aria",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"big_bob": {
+		"name": "Big Bob",
+		"style": "big_bob",
+		"color": "#4a78d0",
+		"width": 80,
+		"show": "Hillwood",
+		"home": "big_bobs",
+		"bio": "Helga's loud dad and the Beeper King of Hillwood.",
+		"catchphrase": "Olga! I mean, Helga!",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 1.0,
+			"babble": 150,
+			"prefer": [
+				"mark",
+				"eric",
+				"male"
+			]
+		}
+	},
+	"dug": {
+		"name": "Dug Funnie",
+		"style": "dug",
+		"color": "#5aa84a",
+		"width": 60,
+		"show": "Bluffington",
+		"home": "dug_room",
+		"bio": "A thoughtful kid who writes everything in his journal and imagines himself as a superhero.",
+		"catchphrase": "Dear journal...",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.0,
+			"babble": 330,
+			"prefer": [
+				"david",
+				"guy",
+				"alex",
+				"daniel",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"skeetor": {
+		"name": "Skeetor",
+		"style": "skeetor",
+		"color": "#6fb8e0",
+		"width": 60,
+		"show": "Bluffington",
+		"home": "lucky_duck_lake",
+		"bio": "Dug's best friend. Blue, goofy and the world's best honker.",
+		"catchphrase": "Honk! Honk! Ha-honk!",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.15,
+			"babble": 300,
+			"prefer": [
+				"ryan",
+				"christopher",
+				"male"
+			]
+		}
+	},
+	"patty": {
+		"name": "Patty Mayonaise",
+		"style": "patty",
+		"color": "#5a8fd8",
+		"width": 56,
+		"show": "Bluffington",
+		"home": "bluffington_school",
+		"bio": "Sporty, smart and kind. Dug has had a crush on her since forever.",
+		"catchphrase": "Hi, Dug!",
+		"voice": {
+			"pitch": 1.35,
+			"rate": 1.05,
+			"babble": 420,
+			"prefer": [
+				"zira",
+				"samantha",
+				"aria",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"rodger": {
+		"name": "Rodger Klotz",
+		"style": "rodger",
+		"color": "#9ccf6a",
+		"width": 60,
+		"show": "Bluffington",
+		"home": "bluffington_downtown",
+		"bio": "The local bully with a leather jacket and a green complexion.",
+		"catchphrase": "Nice going, Funnie.",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 1.0,
+			"babble": 240,
+			"prefer": [
+				"george",
+				"male"
+			]
+		}
+	},
+	"porkchop": {
+		"name": "Porkchop",
+		"style": "dog",
+		"color": "#f4f2ec",
+		"width": 60,
+		"show": "Bluffington",
+		"home": "funnie_house",
+		"bio": "Dug's very smart dog. Walks on two legs when nobody's looking.",
+		"catchphrase": "Arf!",
+		"voice": {
+			"pitch": 1.5,
+			"rate": 1.1,
+			"babble": 520,
+			"prefer": [
+				"male"
+			]
+		}
+	},
+	"tommi": {
+		"name": "Tommi Pickles",
+		"style": "tommi",
+		"color": "#7ab8ea",
+		"width": 56,
+		"show": "Playpen",
+		"home": "nursery",
+		"bio": "A brave one-year-old with a toy screwdriver who can open any playpen.",
+		"catchphrase": "A baby's gotta do what a baby's gotta do!",
+		"voice": {
+			"pitch": 1.7,
+			"rate": 1.0,
+			"babble": 560,
+			"prefer": [
+				"zira",
+				"samantha",
+				"aria",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"chuckey": {
+		"name": "Chuckey Finster",
+		"style": "chuckey",
+		"color": "#e5642a",
+		"width": 56,
+		"show": "Playpen",
+		"home": "finster_house",
+		"bio": "Tommi's best friend. Scared of almost everything, brave when it counts.",
+		"catchphrase": "I don't think this is such a good idea!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.2,
+			"babble": 520,
+			"prefer": [
+				"alex",
+				"male"
+			]
+		}
+	},
+	"angelika": {
+		"name": "Angelika Pickles",
+		"style": "angelika",
+		"color": "#9b5fd0",
+		"width": 56,
+		"show": "Playpen",
+		"home": "pickles_living_room",
+		"bio": "Tommi's bossy three-year-old cousin. Rules the playpen with an iron fist.",
+		"catchphrase": "You dumb babies!",
+		"voice": {
+			"pitch": 1.55,
+			"rate": 1.1,
+			"babble": 480,
+			"prefer": [
+				"zira",
+				"samantha",
+				"aria",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"phill": {
+		"name": "Phill DeVille",
+		"style": "phill",
+		"color": "#6fbf6a",
+		"width": 54,
+		"show": "Playpen",
+		"home": "pickles_backyard",
+		"bio": "One of the twins. Loves worms, mud and arguing with his sister.",
+		"catchphrase": "Did not, Lill!",
+		"voice": {
+			"pitch": 1.65,
+			"rate": 1.15,
+			"babble": 540,
+			"prefer": [
+				"male"
+			]
+		}
+	},
+	"lill": {
+		"name": "Lill DeVille",
+		"style": "lill",
+		"color": "#f28cb8",
+		"width": 54,
+		"show": "Playpen",
+		"home": "playground",
+		"bio": "The other twin. Loves worms just as much, thank you very much.",
+		"catchphrase": "Did too, Phill!",
+		"voice": {
+			"pitch": 1.75,
+			"rate": 1.15,
+			"babble": 580,
+			"prefer": [
+				"female"
+			]
+		}
+	},
+	"jessee": {
+		"name": "Jessee",
+		"style": "jessee",
+		"color": "#d9407a",
+		"width": 62,
+		"show": "Team Rokket",
+		"home": "cliff_top",
+		"bio": "Team Rokket's dramatic, short-tempered leader of schemes.",
+		"catchphrase": "Prepare for trouble!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.1,
+			"babble": 400,
+			"prefer": [
+				"karen",
+				"susan",
+				"female"
+			]
+		}
+	},
+	"jaymes": {
+		"name": "Jaymes",
+		"style": "jaymes",
+		"color": "#8f8fd8",
+		"width": 62,
+		"show": "Team Rokket",
+		"home": "rokket_camp",
+		"bio": "Team Rokket's softhearted schemer. Loves bottle caps and dramatic poses.",
+		"catchphrase": "Make it double!",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.05,
+			"babble": 300,
+			"prefer": [
+				"daniel",
+				"male"
+			]
+		}
+	},
+	"meowt": {
+		"name": "Meowt",
+		"style": "cat",
+		"color": "#f3e3b4",
+		"width": 56,
+		"show": "Team Rokket",
+		"home": "mecha_lab",
+		"bio": "A cat who taught himself to talk and walk. The brains (and the mouth) of the team.",
+		"catchphrase": "Dat's right!",
+		"voice": {
+			"pitch": 1.3,
+			"rate": 1.2,
+			"babble": 460,
+			"prefer": [
+				"fred",
+				"male"
+			]
+		}
+	},
+	"wobbafett": {
+		"name": "Wobbafett",
+		"style": "wobble",
+		"color": "#6fa8e6",
+		"width": 62,
+		"show": "Team Rokket",
+		"home": "forest_path",
+		"bio": "A big blue blob who only ever says its own name, very enthusiastically.",
+		"catchphrase": "Wobbaaaa-fett!",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.9,
+			"babble": 160,
+			"prefer": [
+				"male"
+			]
+		}
+	},
+	"boss": {
+		"name": "The Boss",
+		"style": "boss",
+		"color": "#c8742a",
+		"width": 64,
+		"show": "Team Rokket",
+		"home": "rokket_hq",
+		"bio": "Team Rokket's stern boss. Disappointed. Always disappointed.",
+		"catchphrase": "You have failed me again.",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 0.85,
+			"babble": 140,
+			"prefer": [
+				"mark",
+				"george",
+				"male"
+			]
+		}
+	},
 	"narrator": {
 		"name": "Narrator",
 		"style": "none",

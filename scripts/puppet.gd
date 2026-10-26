@@ -236,6 +236,7 @@ func _draw_body() -> void:
 		"gerold": _draw_gerold()
 		"grandpa": _draw_grandpa()
 		"phoebee": _draw_phoebee()
+		_: CastExtra.draw(self, style)
 
 
 ## Arm raise amounts for (back, front) arms, 0 = hanging, ~1.5 = horizontal.

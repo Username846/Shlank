@@ -5,6 +5,15 @@
 		},
 		{
 			"file": "res://data/episodes/hw01_the_locket.txt"
+		},
+		{
+			"file": "res://data/episodes/bl01_beets_tickets.txt"
+		},
+		{
+			"file": "res://data/episodes/pp01_great_cookie_quest.txt"
+		},
+		{
+			"file": "res://data/episodes/tr01_golden_snack_ball.txt"
 		}
 	]
 }

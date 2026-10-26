@@ -1,0 +1,198 @@
+@title The Golden Snack Ball
+@series Team Rokket
+@icon rokket
+@number 1
+@description The Boss wants results, and Team Rokket has a plan: steal the legendary Golden Snack Ball from the Monster Clinic. What could possibly go wrong? Everything.
+
+# ------------------------------------------------------------ ROKKET HQ
+MUSIC tense
+SCENE rokket_hq cut
+TITLE
+PLACE boss midright left angry
+ENTER jessee left midleft nervous
+ENTER jaymes left left nervous
+ENTER meowt left farleft nervous
+BOSS (angry): Team Rokket. You have failed me again.
+JESSEE (nervous): Failed is such a strong word, sir.
+JAYMES (nervous): We prefer "temporarily un-succeeded."
+BOSS (angry): Silence! The Golden Snack Ball is at the Monster Clinic. Bring it to me. Or don't come back.
+MEOWT (scared): Yes, Boss! Right away, Boss!
+EXIT jessee left &
+EXIT jaymes left &
+EXIT meowt left
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC sneaky
+SCENE forest_path
+ENTER jessee left midleft smug
+ENTER jaymes left left smug
+ENTER meowt left center smug
+JESSEE (excited): Prepare for trouble!
+JAYMES (excited): And make it double!
+MEOWT (smug): Meowt! That's right!
+ENTER wobbafett right right happy
+SFX boing
+WOBBAFETT (excited): Wobbaaaaa-fett!
+JESSEE (angry): Wobbafett! Get back in your ball!
+WOBBAFETT (happy): Wobba.
+JAYMES (happy): So, what's the plan this time?
+MEOWT (smug): We dig a hole. We cover it with leaves. We wait.
+JESSEE (angry): We always dig a hole!
+MEOWT (smug): And this time, it's a really big hole.
+JAYMES (nervous): Last time we fell in our own hole.
+JESSEE (angry): Twice!
+MEOWT (smug): That's why I have a better idea. Follow me.
+
+# ------------------------------------------------------------ MECHA LAB
+MUSIC action
+SCENE mecha_lab
+PLACE meowt center right excited
+PLACE jaymes midleft right happy
+MEOWT (excited): Forget the hole. Behold! The Meowt-Mech Mark Seven!
+SFX drumroll
+JAYMES (surprised): It's a giant cat. Again.
+MEOWT (angry): It's a giant cat with lasers this time!
+JAYMES (nervous): How much did it cost?
+MEOWT (nervous): Don't tell Jessee.
+ENTER jessee left farleft angry
+JESSEE (angry): Don't tell Jessee what?
+MEOWT (scared): Nothin'! Nothin' at all! Look, a disguise kit!
+JESSEE (excited): Ooh. Disguises. I love disguises.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC happy
+SCENE town_square
+ENTER jessee left midleft happy
+ENTER jaymes left left happy
+JESSEE (happy): Step one: disguises. We're two friendly nurses. Totally normal.
+JAYMES (happy): I've always looked lovely in a hat.
+ENTER meowt right midright smug
+MEOWT (smug): And I'm a cute, harmless kitty. Purrr.
+JESSEE (smug): To the Monster Clinic!
+JAYMES (excited): Make it double!
+JESSEE (angry): We're undercover, Jaymes. No motto.
+JAYMES (sad): Not even a little motto?
+
+# ------------------------------------------------------------ MONSTER CLINIC
+SCENE monster_clinic
+ENTER jessee left midleft happy
+ENTER jaymes left left happy
+JESSEE (happy): Good morning! We're here from the, uh, Nurse Department.
+JAYMES (happy): Very official. Here are our very real badges.
+SFX ding
+JESSEE (smug): We're in.
+EXIT jessee right &
+EXIT jaymes right
+
+# ------------------------------------------------------------ CLINIC LOBBY
+MUSIC sneaky 2
+SCENE clinic_lobby
+ENTER jessee left midleft nervous
+ENTER jaymes left left nervous
+ENTER meowt left farleft nervous
+MEOWT (nervous): There it is. In the healing machine. The Golden Snack Ball.
+JAYMES (excited): It's so shiny!
+JESSEE (excited): Grab it!
+MOVE jaymes midright
+HOLD jaymes money
+SFX sparkle
+JAYMES (excited): Got it!
+SFX sting
+JESSEE (scared): The alarm!
+SHAKE 0.8
+MEOWT (scared): Run!
+RUN jessee offright &
+RUN jaymes offright &
+RUN meowt offright
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC spooky
+SCENE crystal_cave
+ENTER jaymes left center scared 300
+ENTER jessee left midleft scared 300
+ENTER meowt left left scared 300
+JAYMES (nervous): I think we lost them.
+JESSEE (happy): We did it. We actually did it!
+JAYMES (sad): It's... beautiful. Do we really have to give it to the Boss?
+MEOWT (angry): Yes! It's that or a lifetime of cleaning his cat's litter box!
+ENTER wobbafett right right excited
+WOBBAFETT (excited): Wobbaaaa!
+JUMP wobbafett
+SFX boing
+HOLD jaymes none
+SFX pop
+JESSEE (scared): Wobbafett bounced it out of your hands!
+MEOWT (scared): It's rolling away!
+JAYMES (excited): After it!
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC action 2
+SCENE sunny_beach
+ENTER meowt left center scared 400
+ENTER jessee left midleft angry 380
+ENTER jaymes left left angry 380
+MEOWT (scared): It rolled into the ocean!
+JESSEE (angry): Then we'll take the submarine!
+JAYMES (sad): We sold the submarine. To pay for the giant cat.
+JESSEE (angry): MEOWT!
+MEOWT (nervous): Heh heh. About that.
+
+# ------------------------------------------------------------ CLIFF TOP
+MUSIC tense 2
+SCENE cliff_top
+PLACE jessee midleft right angry
+PLACE jaymes left right sad
+PLACE meowt center left nervous
+JESSEE (angry): Everything was perfect! And then that blue blob ruined it!
+PLACE wobbafett right left happy
+WOBBAFETT (happy): Wobba?
+MEOWT (excited): Wait. Wobbafett, you're holding something.
+HOLD wobbafett money
+WOBBAFETT (excited): Wobbaaa-fett!
+JAYMES (excited): The Golden Snack Ball! You saved it!
+JESSEE (happy): Wobbafett, you beautiful blue disaster!
+SFX gasp
+MEOWT (scared): Uh oh. The mech. I left it on autopilot.
+SFX whoosh
+SHAKE 1.0
+JESSEE (scared): It's coming right at us!
+SFX splat
+CLOSE meowt
+MEOWT (sad): Team Rokket's blasting off again...
+SFX sparkle
+WIDE
+EXIT jessee right 600 &
+EXIT jaymes right 600 &
+EXIT meowt right 600 &
+EXIT wobbafett right 600
+
+# ------------------------------------------------------------ ROKKET CAMP
+MUSIC sad
+SCENE rokket_camp
+CARD That night...
+PLACE jessee midleft right sad
+PLACE jaymes center left sad
+PLACE meowt midright left sad
+JESSEE (sad): So we lost the ball, the mech and the submarine.
+JAYMES (happy): But we still have each other.
+MEOWT (smug): And we've got this.
+ENTER wobbafett right right happy
+HOLD wobbafett money
+JESSEE (surprised): He kept it?!
+WOBBAFETT (excited): Wobbaaaa-fett!
+MUSIC happy 3
+JAYMES (excited): We did it! We finally did it!
+JESSEE (excited): To the Boss!
+
+# ------------------------------------------------------------ ROKKET HQ
+SCENE rokket_hq
+PLACE boss midright left neutral
+PLACE jessee midleft right excited
+PLACE jaymes left right excited
+PLACE meowt farleft right excited
+JESSEE (excited): Boss! The Golden Snack Ball, as promised!
+BOSS (surprised): Hmm. It's... a tennis ball painted gold.
+JAYMES (scared): It's what?
+BOSS (angry): You have failed me again.
+MEOWT (sad): Some days you just can't win.
+END

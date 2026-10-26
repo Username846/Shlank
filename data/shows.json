@@ -10,5 +10,23 @@
 		"transition_sfx": "slide_whistle",
 		"icon": "city",
 		"color": "#d9473a"
+	},
+	"Bluffington": {
+		"transition": "checker",
+		"transition_sfx": "pop",
+		"icon": "journal",
+		"color": "#5aa84a"
+	},
+	"Playpen": {
+		"transition": "pinwheel",
+		"transition_sfx": "slide_whistle",
+		"icon": "bottle",
+		"color": "#7ab8ea"
+	},
+	"Team Rokket": {
+		"transition": "star",
+		"transition_sfx": "sparkle",
+		"icon": "rokket",
+		"color": "#e6452f"
 	}
 }

@@ -465,22 +465,22 @@ func _series_picker(heading: String, items: Dictionary, open: Callable) -> void:
 	root.add_child(sub)
 	var row := HBoxContainer.new()
 	row.alignment = BoxContainer.ALIGNMENT_CENTER
-	row.add_theme_constant_override("separation", 40)
+	row.add_theme_constant_override("separation", 16)
 	row.position = Vector2(0, 190)
 	row.size = Vector2(1280, 320)
 	root.add_child(row)
 	for show in items:
 		var card := PanelContainer.new()
-		card.custom_minimum_size = Vector2(300, 300)
+		card.custom_minimum_size = Vector2(224, 300)
 		row.add_child(card)
 		var vb := VBoxContainer.new()
 		vb.alignment = BoxContainer.ALIGNMENT_CENTER
 		vb.add_theme_constant_override("separation", 8)
 		card.add_child(vb)
-		var icon := ShowIcon.make(show, 150.0)
+		var icon := ShowIcon.make(show, 120.0)
 		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		vb.add_child(icon)
-		vb.add_child(UiKit.title_label(show.to_upper(), 30, UiKit.RED))
+		vb.add_child(UiKit.title_label(show.to_upper(), 24, UiKit.RED))
 		var count := UiKit.label(items[show], 18, Color(0.35, 0.35, 0.4))
 		count.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		vb.add_child(count)

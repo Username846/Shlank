@@ -87,6 +87,22 @@ func _draw() -> void:
 						draw_rect(Rect2(c + Vector2(x + bw * 0.3, wy), Vector2(bw * 0.4, r * 0.08)), Color("ffd76a"))
 					wy += r * 0.2
 				x += bw + r * 0.04
+		"journal":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("8fd06a"), Color("4f9a3a")))
+			var book := Rect2(c + Vector2(-r * 0.42, -r * 0.55), Vector2(r * 0.84, r * 1.1))
+			Art.shape(self, Art.rrect(book, 6), Color("e6452f"), 3.0, 0.15)
+			Art.shape(self, Art.rrect(Rect2(book.position + Vector2(r * 0.14, r * 0.18), Vector2(r * 0.56, r * 0.26)), 3), Color("fff6dc"), 2.0)
+			draw_line(book.position + Vector2(r * 0.1, 0), book.position + Vector2(r * 0.1, book.size.y), Art.INK, 3.0)
+		"bottle":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("bfe3fb"), Color("7ab8ea")))
+			Art.shape(self, Art.rrect(Rect2(c + Vector2(-r * 0.24, -r * 0.2), Vector2(r * 0.48, r * 0.8)), 10), Color("f4f4f2"), 3.0)
+			Art.shape(self, Art.rrect(Rect2(c + Vector2(-r * 0.24, r * 0.25), Vector2(r * 0.48, r * 0.35)), 8), Color("f2f2ee").lerp(Color.WHITE, 0.5), 0.0)
+			Art.shape(self, Art.rrect(Rect2(c + Vector2(-r * 0.28, -r * 0.32), Vector2(r * 0.56, r * 0.14)), 4), Color("f28cb8"), 3.0)
+			Art.shape(self, PackedVector2Array([c + Vector2(-r * 0.12, -r * 0.32), c + Vector2(r * 0.12, -r * 0.32), c + Vector2(r * 0.05, -r * 0.62),
+				c + Vector2(-r * 0.05, -r * 0.62)]), Color("f2c14e"), 3.0)
+		"rokket":
+			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("ffffff"), Color("d9dde3")))
+			Art.text(self, UiKit.TITLE_FONT, Vector2(0, c.y + r * 0.42), "R", int(r * 1.25), Color("e6452f"), 7, HORIZONTAL_ALIGNMENT_CENTER, size.x)
 		"star":
 			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("6b4fd6"), Color("b48be0")))
 			var pts := PackedVector2Array()

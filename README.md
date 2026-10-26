@@ -12,21 +12,46 @@ dialogue is voiced with a speech synthesizer.
 
 ## What's in it
 
-Two test shows, each with 5 characters, 10 locations and a ~5 minute episode:
+Five shows, 61 locations and 37 characters, with a ~5 minute episode for each
+show:
 
 - **Bikini Bottom** (SpongeBob parodies)
-  - Characters: SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs and Sandy
-    Acorn.
-  - Locations: SpongeBert's Pineapple, Pat's Rock, Squidwerd's Head House, The
-    Krusty Crab, Krusty Crab Kitchen, Sandy's Treedome, Jellyfish Fields, Goo
-    Lagoon, The Chum Bucket and Boating School.
+  - Characters: SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs, Sandy Acorn,
+    Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
+  - Locations: SpongeBert's Pineapple, SpongeBert's Living Room, Pat's Rock,
+    Squidwerd's Head House, The Krusty Crab, the Krusty Crab Dining Room and
+    Kitchen, Sandy's Treedome, Jellyfish Fields, Goo Lagoon, The Chum Bucket,
+    Boating School, Downtown Bikini Bottom, Glove World, Kelp Forest and Rock
+    Bottom.
   - Episode: **"The Golden Spatula"**.
 - **Hillwood** (Hey Arnold! parodies)
-  - Characters: Arnald, Helga Potaki, Gerold, Grandpa Phil and Phoebee.
-  - Locations: Sunset Arms, Arnald's Room, P.S. 118, the Fourth Grade
-    Classroom, Gerold Field, Big Bob's Beepers, Slausen's Ice Cream, Green
-    Meats, Hillwood Pier and a Rooftop at Dusk.
+  - Characters: Arnald, Helga Potaki, Gerold, Grandpa Phil, Phoebee, Grandma
+    Pookie, Harold, Stinky, Sid, Rhonda and Big Bob.
+  - Locations: Sunset Arms, the Boarding House Kitchen, Arnald's Room, P.S.
+    118, the Fourth Grade Classroom, the School Cafeteria, Gerold Field, Big
+    Bob's Beepers, Slausen's Ice Cream, Green Meats, Hillwood Pier, a Rooftop
+    at Dusk, Hillwood Street, Hillwood Park and Hillwood Alley.
   - Episode: **"The Locket"**.
+- **Bluffington** (Doug parodies)
+  - Characters: Dug Funnie, Skeetor, Patty Mayonaise, Rodger Klotz and
+    Porkchop.
+  - Locations: The Funnie House, Dug's Room, Bluffington Elementary, the
+    School Hallway, The Honker Burger, Lucky Duck Lake, Beebe's Mansion, Mr.
+    Dink's Yard, Downtown Bluffington and Bluffington Park.
+  - Episode: **"The Beets Tickets"**.
+- **Playpen** (Rugrats parodies)
+  - Characters: Tommi Pickles, Chuckey Finster, Angelika Pickles, Phill
+    DeVille and Lill DeVille.
+  - Locations: the Pickles Living Room, Backyard and Kitchen, Tommi's
+    Nursery, Stu's Basement, The Playground, Reptarland, Java Lava, the
+    Supermarket and Finster House.
+  - Episode: **"The Great Cookie Quest"**.
+- **Team Rokket** (Team Rocket parodies)
+  - Characters: Jessee, Jaymes, Meowt, Wobbafett and The Boss.
+  - Locations: Forest Path, Team Rokket HQ, the Monster Clinic, the Clinic
+    Lobby, Town Square, Crystal Cave, Sunny Beach, Cliff Top, Rokket Camp and
+    the Mecha Lab.
+  - Episode: **"The Golden Snack Ball"**.
 
 Every character blinks, lip-flaps while talking, walks, hops, holds props, and
 has 10 emotions (neutral, happy, sad, angry, surprised, scared, smug, excited,
@@ -126,7 +151,7 @@ RUN spongebert offright
 ```
 
 **Dialogue:** `NAME (emotion): text`. `NAME` is a character id or name
-(`SPONGEBERT`, `PAT`, `MR_CRABS`, `SANDY`, `SQUIDWERD`, `NARRATOR`). The
+(`SPONGEBERT`, `PAT`, `MR_CRABS`, `DUG`, `TOMMI`, `JESSEE`, `NARRATOR`, ...). The
 emotion is optional and stays until it's changed.
 
 **Positions** are pixel x values (0–1280) or the named spots `offleft`,
@@ -163,15 +188,19 @@ Lines starting with `#` are comments.
   backdrop in the cast viewer), colour, bio, catchphrase
   and voice (`pitch`, `rate`, babble frequency, and a `prefer` list of
   speech-voice name keywords). Each `style` is drawn by a function in
-  `scripts/puppet.gd`.
+  `scripts/puppet.gd` or `scripts/cast/cast_extra.gd`. Most of the newer
+  people are built from `scripts/cast/human_rig.gd`, a configurable human
+  (size, skin, hair, clothes, glasses, extras).
 - Locations live in `data/locations.json` (with the show they belong to), and
-  each is drawn by a function in `scripts/backdrop.gd`. Bikini Bottom sets get
-  underwater light rays and bubbles; the others don't.
-- Each show's scene transition lives in `data/shows.json`. The styles are
-  `bubbles` (the underwater bubble wipe), `iris` (a cartoon iris-out that
-  closes on whoever spoke last) and `fade`, which shows without an entry get.
-  Each show also sets the sound that plays with its transition, plus the
-  badge on its episode cards (`icon`: `bubbles` or `city`). A show without an
+  each is drawn by a function in `scripts/backdrop.gd` or
+  `scripts/sets/sets_extra.gd`. Bikini Bottom sets get underwater light rays
+  and bubbles; the others don't.
+- Each show's scene transition lives in `data/shows.json`: any of the
+  `SCENE` styles above (`iris` closes on whoever spoke last; shows without an
+  entry get `fade`). Each show also sets the sound that plays with its
+  transition, plus the badge on its episode cards (`icon`: `bubbles`, `city`,
+  `journal`, `bottle`, `rokket`, `star`, `heart`, `film`, `note`, `moon` or
+  `bolt`). A show without an
   icon gets its initials on a badge in its `color`.
 - A new episode goes in `data/episodes/` and gets listed in
   `data/episodes/index.json`. Use `@series` to show the series name on the
@@ -186,7 +215,9 @@ scripts/main.gd          Menus: episodes, cast, locations, settings
 scripts/episode_player.gd  Runs an episode: staging, camera, voices, subtitles
 scripts/episode_script.gd  Parser for the screenplay format
 scripts/puppet.gd        Vector-drawn animated characters
+scripts/cast/            More character drawings and the configurable human rig
 scripts/backdrop.gd      Vector-drawn animated locations
+scripts/sets/            More location drawings
 scripts/art.gd           Flash-style drawing helpers (outlines, cel shading)
 scripts/game.gd          Autoload: data, settings, text-to-speech voices
 scripts/synth.gd         Autoload: synthesized music, SFX and babble voice

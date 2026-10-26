@@ -30,6 +30,10 @@ func _ready() -> void:
 			main.show_settings()
 			await _frames(5)
 			await _shot("settings")
+		"picker":
+			main.show_cast_picker()
+			await _frames(5)
+			await _shot("picker")
 		"cast":
 			for i in main._cast_order.size():
 				main.show_cast("", i)
