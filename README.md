@@ -14,7 +14,8 @@ dialogue is voiced with a speech synthesizer.
 
 Eleven shows, each with 11 characters, at least 15 locations (166 in all), its own
 scene transition and badge, and five ~5 minute episodes (55 in all). Browse
-them under *Watch Episodes*, *Meet the Cast* and *Locations*.
+them under *Watch Episodes*, *Meet the Cast* and *Locations*, which each start
+with a series picker.
 
 - **Bikini Bottom** (SpongeBob parodies). Episodes: **"The Golden Spatula"**, **"The Jellyfish Jamboree"**, **"Plankton's Perfect Plan"**, **"Test Number Sixty-Seven"**, **"The Last Bus from Glove World"**.
   SpongeBert, Pat Starfish, Squidwerd, Mr. Crabs, Sandy Acorn, Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
@@ -88,7 +89,8 @@ buffer upload, so the drawing is cached aggressively:
   *Paste from clipboard* button) to add it to your library.
 
 Your episodes are saved in your browser's local storage, so they survive
-reloads. They also show up under *Watch Episodes*.
+reloads. They also show up under *Watch Episodes*, in the *Yours* section (an edited
+copy of a built-in episode stays with its series).
 
 In the editor:
 

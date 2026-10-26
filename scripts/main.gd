@@ -234,12 +234,43 @@ func show_menu() -> void:
 
 # ------------------------------------------------------------- episodes --
 
+const YOURS := "Yours"
+
+
+## Which series card an episode belongs under: the player's own episodes go in "Yours".
+func _episode_group(e: Dictionary) -> String:
+	return YOURS if e.origin == "mine" else String(e.script.series)
+
+
+func _count_label(n: int) -> String:
+	return "%d episode%s" % [n, "" if n == 1 else "s"]
+
+
+## Watch Episodes: pick a series first (plus "Yours" for the player's own episodes).
 func show_episodes() -> void:
+	_reload_episodes()
+	var counts := {}
+	for e in _episodes:
+		var g := _episode_group(e)
+		counts[g] = counts.get(g, 0) + 1
+	var items := {}
+	for show in Game.shows:
+		if counts.has(show):
+			items[show] = _count_label(counts[show])
+	# Built-in episodes from a series that isn't in shows.json still get a card.
+	for g in counts:
+		if g != YOURS and not items.has(g):
+			items[g] = _count_label(counts[g])
+	items[YOURS] = _count_label(counts[YOURS]) if counts.has(YOURS) else "Make your own!"
+	_series_picker("WATCH EPISODES", items, show_episode_list, {YOURS: "film"})
+
+
+func show_episode_list(series: String) -> void:
 	_reload_episodes()
 	var root := _screen_root("theater")
 	_set_screen(root)
-	_back_button(root)
-	var title := UiKit.title_label("EPISODES", 72)
+	_back_button(root, show_episodes)
+	var title := UiKit.title_label("YOUR EPISODES" if series == YOURS else series.to_upper(), 64)
 	title.position = Vector2(0, 30)
 	title.size = Vector2(1280, 90)
 	root.add_child(title)
@@ -252,7 +283,21 @@ func show_episodes() -> void:
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 16)
 	scroll.add_child(list)
-	for e in _episodes:
+	var shown := _episodes.filter(func(e): return _episode_group(e) == series)
+	if shown.is_empty():
+		var empty := VBoxContainer.new()
+		empty.alignment = BoxContainer.ALIGNMENT_CENTER
+		empty.add_theme_constant_override("separation", 20)
+		empty.custom_minimum_size = Vector2(860, 420)
+		var msg := UiKit.title_label("NO EPISODES OF YOUR OWN YET", 36, Color.WHITE)
+		msg.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		empty.add_child(msg)
+		var make := UiKit.button("MAKE ONE IN EDIT / CREATE", UiKit.YELLOW, 28)
+		make.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+		make.pressed.connect(show_library)
+		empty.add_child(make)
+		list.add_child(empty)
+	for e in shown:
 		var sc: EpisodeScript = e.script
 		var card := PanelContainer.new()
 		list.add_child(card)
@@ -275,7 +320,7 @@ func show_episodes() -> void:
 		var play := UiKit.button("PLAY", UiKit.YELLOW, 34)
 		play.custom_minimum_size = Vector2(150, 80)
 		play.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		play.pressed.connect(func() -> void: play_episode(sc))
+		play.pressed.connect(func() -> void: play_episode(sc, show_episode_list.bind(series)))
 		hb.add_child(play)
 	var more := UiKit.label("Make your own episodes with EDIT / CREATE on the title screen!", 18, Color.WHITE)
 	more.add_theme_constant_override("outline_size", 5)
@@ -451,7 +496,8 @@ func open_editor(doc: EpisodeDoc, scene_i: int = 0, dirty: bool = false) -> void
 # ----------------------------------------------------------------- cast --
 
 ## First step of "Meet the Cast" / "Locations": pick a series.
-func _series_picker(heading: String, items: Dictionary, open: Callable) -> void:
+## `kinds` gives a badge to a card that isn't a show in data/shows.json (like "Yours").
+func _series_picker(heading: String, items: Dictionary, open: Callable, kinds: Dictionary = {}) -> void:
 	var root := _screen_root("theater")
 	_set_screen(root)
 	_back_button(root)
@@ -491,7 +537,7 @@ func _series_picker(heading: String, items: Dictionary, open: Callable) -> void:
 		vb.offset_right = -6
 		vb.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		card.add_child(vb)
-		var icon := ShowIcon.make(show, 96.0)
+		var icon := ShowIcon.make_kind(kinds[show], 96.0) if kinds.has(show) else ShowIcon.make(show, 96.0)
 		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		vb.add_child(icon)
