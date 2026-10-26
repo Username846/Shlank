@@ -438,6 +438,80 @@ func _location_tile(lid: String, is_current: bool) -> Button:
 	return tile
 
 
+## Portraits of every character, one section per series. Calls `on_pick` with the chosen id.
+func _open_character_picker(current: String, with_narrator: bool, on_pick: Callable) -> void:
+	var scroll := ScrollContainer.new()
+	scroll.custom_minimum_size = Vector2(900, 470)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	var vb := VBoxContainer.new()
+	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	vb.add_theme_constant_override("separation", 10)
+	scroll.add_child(vb)
+	if with_narrator:
+		var nb := UiKit.button("NARRATOR", UiKit.YELLOW if current == "narrator" else Color.WHITE, 18)
+		nb.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+		nb.pressed.connect(_pick_character.bind("narrator", on_pick))
+		vb.add_child(nb)
+	for show in EpisodeDoc.character_shows():
+		var head := HBoxContainer.new()
+		head.add_theme_constant_override("separation", 10)
+		head.add_child(ShowIcon.make(show, 40.0))
+		head.add_child(UiKit.title_label(show.to_upper(), 26, UiKit.RED))
+		vb.add_child(head)
+		var grid := GridContainer.new()
+		grid.columns = 6
+		grid.add_theme_constant_override("h_separation", 12)
+		grid.add_theme_constant_override("v_separation", 12)
+		vb.add_child(grid)
+		for cid in EpisodeDoc.characters_of(show):
+			grid.add_child(_character_tile(cid, cid == current, on_pick))
+	_picker = UiKit.modal(self, "CHOOSE A CHARACTER", scroll, [["CANCEL", Color.WHITE, Callable()]])
+
+
+func _character_tile(cid: String, is_current: bool, on_pick: Callable) -> Button:
+	var tile := Button.new()
+	tile.custom_minimum_size = Vector2(136, 176)
+	tile.focus_mode = Control.FOCUS_NONE
+	tile.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	var col := UiKit.YELLOW if is_current else Color.WHITE
+	tile.add_theme_stylebox_override("normal", UiKit.box(col, 12, 3 if not is_current else 5, 0))
+	tile.add_theme_stylebox_override("hover", UiKit.box(Color("fff3c4"), 12, 4, 0))
+	tile.add_theme_stylebox_override("pressed", UiKit.box(UiKit.YELLOW, 12, 4, 0))
+	var pic := TextureRect.new()
+	pic.position = Vector2(8, 6)
+	pic.size = Vector2(120, 142)
+	pic.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	pic.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	pic.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var mat := CanvasItemMaterial.new()
+	mat.blend_mode = CanvasItemMaterial.BLEND_MODE_PREMULT_ALPHA
+	pic.material = mat
+	tile.add_child(pic)
+	_load_portrait(pic, cid)
+	var l := UiKit.label(TimelineStrip.char_name(cid), 14, Art.INK)
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	l.clip_text = true
+	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	l.position = Vector2(4, 148)
+	l.size = Vector2(128, 22)
+	l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	tile.add_child(l)
+	tile.pressed.connect(_pick_character.bind(cid, on_pick))
+	return tile
+
+
+func _pick_character(cid: String, on_pick: Callable) -> void:
+	if is_instance_valid(_picker):
+		_picker.queue_free()
+	on_pick.call(cid)
+
+
+func _load_portrait(pic: TextureRect, cid: String) -> void:
+	var tex: Texture2D = await Puppet.make_portrait(self, cid)
+	if is_instance_valid(pic) and tex:
+		pic.texture = tex
+
+
 func _load_thumb(pic: TextureRect, lid: String) -> void:
 	var tex: Texture2D = await Backdrop.make_thumbnail(self, lid)
 	if is_instance_valid(pic) and tex:
@@ -750,20 +824,15 @@ func _build_inspector() -> void:
 
 func _build_cast_palette() -> void:
 	_inspector.add_child(UiKit.label("Pick a beat on the timeline to edit it, or add one with + ADD BEAT.", 15))
-	_inspector.add_child(UiKit.label("Put on stage now:", 15, Color(0.35, 0.35, 0.4)))
-	var flow := HFlowContainer.new()
-	flow.add_theme_constant_override("h_separation", 6)
-	flow.add_theme_constant_override("v_separation", 6)
-	_inspector.add_child(flow)
-	for cid in doc.show_characters():
-		var b := UiKit.button(TimelineStrip.char_name(cid).get_slice(" ", 0).to_upper(), Game.char_color(cid).lerp(Color.WHITE, 0.4), 14)
-		b.pressed.connect(func() -> void:
+	var put := UiKit.button("PUT ON STAGE...", UiKit.TEAL, 16)
+	put.pressed.connect(func() -> void:
+		_open_character_picker("", false, func(cid: String) -> void:
 			var st := doc.state_at(scene_i, playhead)
 			if st.has(cid) and st[cid].visible:
 				UiKit.toast(self, "Already on stage - drag them to move")
 			else:
-				_insert_beat({"type": "place", "who": cid, "x": 640.0, "face": ""}))
-		flow.add_child(b)
+				_insert_beat({"type": "place", "who": cid, "x": 640.0, "face": ""})))
+	_inspector.add_child(put)
 
 
 func _pairs(values: Array) -> Array:
@@ -785,15 +854,17 @@ func _choice_field(label: String, b: Dictionary, key: String, options: Array) ->
 	return opt
 
 
+## The beat's character: a button that opens the character window.
 func _char_field(b: Dictionary, with_narrator: bool = false) -> void:
-	var opts := []
-	for cid in doc.show_characters():
-		opts.append([TimelineStrip.char_name(cid), cid])
-	if with_narrator:
-		opts.append(["Narrator", "narrator"])
-	if not opts.any(func(o): return o[1] == b.who):
-		opts.append([TimelineStrip.char_name(b.who), b.who])
-	_choice_field("Character", b, "who", opts)
+	_inspector.add_child(UiKit.label("Character", 15, Color(0.35, 0.35, 0.4)))
+	var btn := _picker_button(func() -> void:
+		_open_character_picker(b.who, with_narrator, func(cid: String) -> void:
+			b.who = cid
+			_mark_dirty()
+			_refresh(true)))
+	btn.text = TimelineStrip.char_name(b.who) + "  >"
+	btn.tooltip_text = String(Game.characters.get(b.who, {}).get("show", ""))
+	_inspector.add_child(btn)
 
 
 func _emotion_field(b: Dictionary) -> void:

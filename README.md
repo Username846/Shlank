@@ -120,7 +120,8 @@ In the editor:
   entrances and exits, walks, emotions, props, jumps, camera shots, shakes,
   pauses, sound effects, music changes and title/text/end cards. Selecting a
   beat lets you change who, what, where and how fast, or move it earlier or
-  later.
+  later. **Character** (and **Put on stage...** when no beat is selected)
+  opens a window of character portraits grouped by series.
 - **Timeline (bottom):** colored blocks for everything that takes time and
   dots for instant changes. Click a beat to edit it, click or drag the strip
   (or the scrub bar) to move through the scene, and press **>** to preview the

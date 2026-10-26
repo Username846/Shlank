@@ -90,6 +90,21 @@ static func location_shows() -> Array:
 	return shows
 
 
+## Every show that has characters, in data order (the narrator isn't one).
+static func character_shows() -> Array:
+	var shows := []
+	for cid in Game.characters:
+		var c: Dictionary = Game.characters[cid]
+		if c.get("style", "none") != "none" and not shows.has(c.get("show", "")):
+			shows.append(c.get("show", ""))
+	return shows
+
+
+static func characters_of(show: String) -> Array:
+	return Game.characters.keys().filter(func(c): return Game.characters[c].get("style", "none") != "none" \
+		and Game.characters[c].get("show", "") == show)
+
+
 static func locations_of(show: String) -> Array:
 	return Game.locations.keys().filter(func(l): return Game.locations[l].get("show", "") == show)
 

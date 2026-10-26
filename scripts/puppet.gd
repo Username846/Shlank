@@ -18,6 +18,8 @@ const BOUNDS := Rect2(-200, -365, 400, 400)
 const BAKE_SCALE := 2.0
 
 static var _shadow_tex: GradientTexture2D
+static var _portraits := {}  # character id -> ImageTexture
+static var _portraits_busy := 0
 
 var id := ""
 var data: Dictionary = {}
@@ -113,6 +115,39 @@ func _init() -> void:
 		g.set_color(1, Color(0, 0, 0, 0))
 		g.add_point(0.8, Color(0, 0, 0, 0.2))
 		_shadow_tex.gradient = g
+
+
+## Renders a small full-body picture of a character (cached). `host` is any node
+## in the tree to attach the temporary puppet to. The picture holds premultiplied
+## colour, like the puppet's own texture.
+static func make_portrait(host: Node, char_id: String) -> Texture2D:
+	while _portraits_busy >= 4:
+		await RenderingServer.frame_post_draw
+		if not is_instance_valid(host):
+			return null
+	if _portraits.has(char_id):
+		return _portraits[char_id]
+	_portraits_busy += 1
+	var p := Puppet.new()
+	p.visible = false
+	p.setup(char_id, Game.characters.get(char_id, {}))
+	p._blink_timer = 10.0
+	host.add_child(p)
+	p.set_process(false)
+	p._redraw_now()
+	await RenderingServer.frame_post_draw
+	_portraits_busy -= 1
+	if not is_instance_valid(p):
+		return null
+	var img := p._vp.get_texture().get_image()
+	p.queue_free()
+	# Trim the empty margins of the capture area, then shrink.
+	var k := BAKE_SCALE
+	img = img.get_region(Rect2i(int(40 * k), int(5 * k), int(320 * k), int(390 * k)))
+	img.resize(160, 195, Image.INTERPOLATE_BILINEAR)
+	var tex := ImageTexture.create_from_image(img)
+	_portraits[char_id] = tex
+	return tex
 
 
 func _redraw_now() -> void:
