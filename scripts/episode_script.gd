@@ -9,6 +9,7 @@ const SPOTS := {
 
 var title := "Untitled"
 var series := ""
+var icon := ""
 var number := 0
 var description := ""
 var commands: Array[Dictionary] = []
@@ -32,6 +33,7 @@ static func parse(text: String, characters: Dictionary) -> EpisodeScript:
 			match key:
 				"title": ep.title = val
 				"series": ep.series = val
+				"icon": ep.icon = val
 				"number": ep.number = int(val)
 				"description": ep.description = val
 			continue
@@ -128,7 +130,7 @@ static func _parse_command(line: String, aliases: Dictionary, ln: int) -> Dictio
 		"SFX", "SOUND":
 			c.merge({"type": "sfx", "name": arg.call(1, "pop").to_lower()})
 		"MUSIC":
-			c.merge({"type": "music", "mood": arg.call(1, "happy").to_lower()})
+			c.merge({"type": "music", "mood": arg.call(1, "happy").to_lower(), "variant": clampi(int(arg.call(2, "1")), 1, 3)})
 		"CARD":
 			c.merge({"type": "card", "text": rest})
 		"TITLE":

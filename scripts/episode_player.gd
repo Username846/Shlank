@@ -369,7 +369,7 @@ func _exec(c: Dictionary) -> void:
 		"sfx":
 			Synth.sfx(c.name)
 		"music":
-			Synth.set_mood(c.mood)
+			Synth.set_mood(c.mood, c.get("variant", 1))
 		"say": await _do_say(c)
 		"card": await _do_card([{"text": c.text, "size": 72}], c.text)
 		"title":

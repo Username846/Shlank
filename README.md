@@ -63,7 +63,9 @@ buffer upload, so the drawing is cached aggressively:
 
 **EDIT / CREATE** on the title screen opens your episode library:
 
-- **+ New Episode**: pick a show and start with a blank first scene.
+- **+ New Episode**: pick an icon for it (a show badge, or a star, heart,
+  film, music note, moon or lightning bolt) and start with a blank first
+  scene. Episodes aren't tied to one show: use any characters and locations.
 - **Edit**: opens any episode. A built-in episode you save becomes an
   "edited" copy, and **Reset** brings back the original.
 - **Copy**: puts that episode's script on the clipboard.
@@ -75,11 +77,12 @@ reloads. They also show up under *Watch Episodes*.
 
 In the editor:
 
-- **Top bar:** the episode name, **Info** (series, episode number,
+- **Top bar:** the episode name, **Info** (series, icon, episode number,
   description), **Save**, **Test Play** (plays the episode, then brings you
   back) and **Export** (copies the script to the clipboard and shows it).
 - **Scenes (left):** add, reorder and delete scenes. Each scene has a
-  location, music, and a transition (wipe or a hard cut).
+  location (pick the series, then one of its locations), music (any mood and
+  variant), and a transition (wipe or a hard cut).
 - **Stage (middle):** shows the scene at the playhead's moment. **Drag a
   character** to make them walk there at that moment. If the selected beat
   is that character's walk or entrance, dragging adjusts it instead.
@@ -101,6 +104,7 @@ Episodes are plain-text screenplays in `data/episodes/`. Each one is listed in
 ```
 @title The Golden Spatula
 @series Bikini Bottom
+@icon bubbles
 @number 1
 @description One-line blurb for the episode list.
 
@@ -139,7 +143,7 @@ emotion is optional and stays until it's changed.
 | `SHAKE [secs]` | Camera shake |
 | `WAIT <secs>` | Pause |
 | `SFX <name>` | `bubbles pop boing beep detector detector_crazy clarinet squeak slam sting splat sizzle ding cash fanfare wahwah drumroll whoosh gasp chomp sparkle` |
-| `MUSIC <happy\|jazz\|tense\|sad\|sneaky\|off>` | Background music mood |
+| `MUSIC <mood> [1-3]` | Background music: `happy`, `jazz`, `tense`, `sad`, `sneaky`, `spooky`, `action`, `romantic` (each has variants 1-3), or `off` |
 | `CARD <text>` | Full-screen title card read by the narrator ("Ten minutes later...") |
 | `TITLE` | Episode title card |
 | `END [text]` | Closing card |

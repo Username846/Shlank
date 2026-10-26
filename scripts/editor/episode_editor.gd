@@ -7,11 +7,11 @@ extends Control
 signal exited
 signal test_play(doc: EpisodeDoc, scene_i: int)
 
-const STAGE_SCALE := 0.55
-const STAGE_POS := Vector2(260, 76)
-const STAGE_SIZE := Vector2(704, 396)
+const STAGE_SCALE := 0.52
+const STAGE_POS := Vector2(298, 76)
+const STAGE_SIZE := Vector2(666, 374)
 const GROUND := 612.0
-const MOODS := ["happy", "jazz", "tense", "sad", "sneaky", "off"]
+const MOODS := ["happy", "jazz", "tense", "sad", "sneaky", "spooky", "action", "romantic", "off"]
 const SFX_NAMES := ["pop", "boing", "gasp", "whoosh", "slam", "splat", "sting", "ding", "cash", "fanfare", "wahwah",
 	"drumroll", "sparkle", "chomp", "sizzle", "beep", "detector", "detector_crazy", "clarinet", "squeak", "bubbles", "slide_whistle"]
 const PROPS := ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money", "locket", "ice_cream", "fishing_rod", "beeper"]
@@ -31,6 +31,7 @@ var _drag_start := Vector2.ZERO
 var _title_edit: LineEdit
 var _scene_list: ItemList
 var _loc_opt: OptionButton
+var _series_opt: OptionButton
 var _music_opt: OptionButton
 var _cut_opt: OptionButton
 var _stage: Control
@@ -115,13 +116,13 @@ func _build_ui() -> void:
 	top.add_child(_small_button("EXPORT", Color("b48be0"), _export, 20))
 
 	# Scenes panel
-	var left := _panel(Rect2(10, 76, 240, 404))
+	var left := _panel(Rect2(10, 76, 278, 404))
 	var lv := VBoxContainer.new()
 	lv.add_theme_constant_override("separation", 6)
 	left.add_child(lv)
 	lv.add_child(UiKit.title_label("SCENES", 22, UiKit.RED))
 	_scene_list = ItemList.new()
-	_scene_list.custom_minimum_size = Vector2(0, 132)
+	_scene_list.custom_minimum_size = Vector2(0, 112)
 	_scene_list.item_selected.connect(func(i: int) -> void: _load_scene(i))
 	lv.add_child(_scene_list)
 	var srow := HBoxContainer.new()
@@ -133,33 +134,31 @@ func _build_ui() -> void:
 	srow.add_child(_small_button("DEL", UiKit.RED, _delete_scene, 14))
 	for b in srow.get_children():
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	lv.add_child(UiKit.label("Location", 15, Color(0.35, 0.35, 0.4)))
+	# One labelled row per setting. Location: choose the series first, then one of its locations.
+	_series_opt = _compact_option()
+	for sh in EpisodeDoc.location_shows():
+		_series_opt.add_item(sh)
+	_series_opt.item_selected.connect(_on_location_series)
+	lv.add_child(_setting_row("Series", _series_opt))
 	_loc_opt = _compact_option()
 	_loc_opt.item_selected.connect(_on_location)
-	lv.add_child(_loc_opt)
-	var mrow := HBoxContainer.new()
-	lv.add_child(mrow)
-	var mv := VBoxContainer.new()
-	mv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	mrow.add_child(mv)
-	mv.add_child(UiKit.label("Music", 15, Color(0.35, 0.35, 0.4)))
+	lv.add_child(_setting_row("Location", _loc_opt))
 	_music_opt = _compact_option()
-	_music_opt.add_item("(keep)")
+	_music_opt.add_item("(keep playing)")
+	_music_opt.set_item_metadata(0, ["", 0])
 	for m in MOODS:
-		_music_opt.add_item(m)
+		for v in ([1, 2, 3] if m != "off" else [1]):
+			_music_opt.add_item(_music_name(m, v))
+			_music_opt.set_item_metadata(_music_opt.item_count - 1, [m, v])
 	_music_opt.item_selected.connect(_on_music)
-	mv.add_child(_music_opt)
-	var tv := VBoxContainer.new()
-	tv.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	mrow.add_child(tv)
-	tv.add_child(UiKit.label("Transition", 15, Color(0.35, 0.35, 0.4)))
+	lv.add_child(_setting_row("Music", _music_opt))
 	_cut_opt = _compact_option()
 	_cut_opt.add_item("Wipe")
 	_cut_opt.add_item("Cut")
+	lv.add_child(_setting_row("Transition", _cut_opt))
 	_cut_opt.item_selected.connect(func(i: int) -> void:
 		doc.scenes[scene_i].cut = i == 1
 		_mark_dirty())
-	tv.add_child(_cut_opt)
 
 	# Stage preview
 	_stage = Control.new()
@@ -272,6 +271,19 @@ func _build_ui() -> void:
 	bv.add_child(_scrub)
 
 
+func _setting_row(text: String, ctrl: Control) -> HBoxContainer:
+	var row := HBoxContainer.new()
+	var l := UiKit.label(text, 14, Color(0.35, 0.35, 0.4))
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	l.custom_minimum_size = Vector2(68, 0)
+	row.add_child(l)
+	ctrl.add_theme_font_size_override("font_size", 15)
+	ctrl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	ctrl.custom_minimum_size = Vector2(0, 38)
+	row.add_child(ctrl)
+	return row
+
+
 ## Dropdowns normally grow to fit their longest option, which would stretch the side panels.
 func _compact_option() -> OptionButton:
 	var o := OptionButton.new()
@@ -298,18 +310,16 @@ func _load_scene(i: int) -> void:
 	_puppets.clear()
 	var sc: Dictionary = doc.scenes[scene_i]
 	_backdrop.set_location(sc.location)
-	_loc_opt.clear()
-	var locs := doc.show_locations()
-	if not locs.has(sc.location):
-		locs.append(sc.location)
-	for lid in locs:
-		_loc_opt.add_item(String(Game.locations.get(lid, {}).get("name", lid)))
-		_loc_opt.set_item_metadata(_loc_opt.item_count - 1, lid)
-		if lid == sc.location:
-			_loc_opt.select(_loc_opt.item_count - 1)
+	var show: String = Game.locations.get(sc.location, {}).get("show", "")
+	_series_opt.select(maxi(EpisodeDoc.location_shows().find(show), 0))
+	_fill_locations(show, sc.location)
 	_cut_opt.select(1 if sc.cut else 0)
-	var mood := _scene_music()
-	_music_opt.select(0 if mood == "" else MOODS.find(mood) + 1)
+	var music := _scene_music()
+	_music_opt.select(0)
+	for k in _music_opt.item_count:
+		var md: Array = _music_opt.get_item_metadata(k)
+		if not music.is_empty() and md[0] == music.mood and (md[0] == "off" or md[1] == music.get("variant", 1)):
+			_music_opt.select(k)
 	_refresh_scene_list()
 	_refresh(true)
 
@@ -351,18 +361,43 @@ func _move_scene(d: int) -> void:
 	_load_scene(j)
 
 
+func _fill_locations(show: String, current: String) -> void:
+	_loc_opt.clear()
+	for lid in EpisodeDoc.locations_of(show):
+		_loc_opt.add_item(String(Game.locations.get(lid, {}).get("name", lid)))
+		_loc_opt.set_item_metadata(_loc_opt.item_count - 1, lid)
+		if lid == current:
+			_loc_opt.select(_loc_opt.item_count - 1)
+
+
+## Picking a series switches the scene to that series' first location.
+func _on_location_series(i: int) -> void:
+	var show: String = EpisodeDoc.location_shows()[i]
+	var first: String = EpisodeDoc.locations_of(show)[0]
+	_fill_locations(show, first)
+	_set_location(first)
+
+
 func _on_location(i: int) -> void:
-	doc.scenes[scene_i].location = _loc_opt.get_item_metadata(i)
-	_backdrop.set_location(doc.scenes[scene_i].location)
+	_set_location(_loc_opt.get_item_metadata(i))
+
+
+func _set_location(lid: String) -> void:
+	doc.scenes[scene_i].location = lid
+	_backdrop.set_location(lid)
 	_refresh_scene_list()
 	_mark_dirty()
 
 
-func _scene_music() -> String:
+static func _music_name(mood: String, v: int) -> String:
+	return "Off (silence)" if mood == "off" else "%s %d" % [mood.capitalize(), v]
+
+
+func _scene_music() -> Dictionary:
 	for b in doc.scenes[scene_i].beats:
 		if b.type == "music":
-			return b.mood
-	return ""
+			return b
+	return {}
 
 
 func _on_music(i: int) -> void:
@@ -375,10 +410,13 @@ func _on_music(i: int) -> void:
 	if i == 0:
 		if idx >= 0:
 			beats.remove_at(idx)
-	elif idx >= 0:
-		beats[idx].mood = MOODS[i - 1]
 	else:
-		beats.insert(0, {"type": "music", "mood": MOODS[i - 1]})
+		var md: Array = _music_opt.get_item_metadata(i)
+		if idx >= 0:
+			beats[idx].mood = md[0]
+			beats[idx].variant = md[1]
+		else:
+			beats.insert(0, {"type": "music", "mood": md[0], "variant": md[1]})
 	selected = -1
 	_mark_dirty()
 	_refresh(true)
@@ -554,7 +592,16 @@ func _build_inspector() -> void:
 			_choice_field("Sound", b, "name", _pairs(SFX_NAMES))
 			_inspector.add_child(_small_button("PLAY SOUND", Color.WHITE, func() -> void: Synth.sfx(b.name), 14))
 		"music":
+			if not b.has("variant"):
+				b.variant = 1
 			_choice_field("Mood", b, "mood", _pairs(MOODS))
+			if b.mood != "off":
+				_choice_field("Variant", b, "variant", [["Variant 1", 1], ["Variant 2", 2], ["Variant 3", 3]])
+			var prow := HBoxContainer.new()
+			prow.add_theme_constant_override("separation", 6)
+			prow.add_child(_small_button("PREVIEW", Color.WHITE, func() -> void: Synth.set_mood(b.mood, b.variant), 14))
+			prow.add_child(_small_button("STOP", Color.WHITE, func() -> void: Synth.set_mood("off"), 14))
+			_inspector.add_child(prow)
 		"card", "end":
 			_inspector.add_child(UiKit.label("Text", 15, Color(0.35, 0.35, 0.4)))
 			var le := LineEdit.new()
@@ -846,9 +893,9 @@ func _export() -> void:
 
 func _open_info() -> void:
 	var vb := VBoxContainer.new()
-	vb.custom_minimum_size = Vector2(560, 0)
-	vb.add_theme_constant_override("separation", 8)
-	vb.add_child(UiKit.label("Series", 16, Color(0.35, 0.35, 0.4)))
+	vb.custom_minimum_size = Vector2(620, 0)
+	vb.add_theme_constant_override("separation", 6)
+	vb.add_child(UiKit.label("Series (shown on the title card; also picks the transition style)", 16, Color(0.35, 0.35, 0.4)))
 	var series := OptionButton.new()
 	var shows: Array = Game.shows.keys()
 	for sh in shows:
@@ -856,6 +903,24 @@ func _open_info() -> void:
 	series.add_item("(no series)")
 	series.select(shows.find(doc.series) if shows.has(doc.series) else shows.size())
 	vb.add_child(series)
+	vb.add_child(UiKit.label("Icon", 16, Color(0.35, 0.35, 0.4)))
+	var chosen := [doc.icon]  # holder: lambdas capture by value
+	var icons := HFlowContainer.new()
+	icons.add_theme_constant_override("h_separation", 4)
+	vb.add_child(icons)
+	var icon_btns := []
+	var highlight := func() -> void:
+		for ib in icon_btns:
+			ib[0].modulate = Color.WHITE if ib[1] == chosen[0] else Color(1, 1, 1, 0.35)
+	for ic in ShowIcon.episode_icons():
+		var kind: String = ic[0]
+		var btn := UiKit.icon_button(kind, ic[1], 50.0)
+		btn.pressed.connect(func() -> void:
+			chosen[0] = kind
+			highlight.call())
+		icons.add_child(btn)
+		icon_btns.append([btn, kind])
+	highlight.call()
 	vb.add_child(UiKit.label("Episode number", 16, Color(0.35, 0.35, 0.4)))
 	var num := SpinBox.new()
 	num.min_value = 1
@@ -870,6 +935,7 @@ func _open_info() -> void:
 	vb.add_child(desc)
 	UiKit.modal(self, "EPISODE INFO", vb, [["OK", UiKit.YELLOW, func() -> void:
 		doc.series = shows[series.selected] if series.selected < shows.size() else ""
+		doc.icon = chosen[0]
 		doc.number = int(num.value)
 		doc.description = desc.text.replace("\n", " ")
 		_mark_dirty()

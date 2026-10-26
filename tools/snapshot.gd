@@ -32,11 +32,11 @@ func _ready() -> void:
 			await _shot("settings")
 		"cast":
 			for i in main._cast_order.size():
-				main.show_cast(i)
+				main.show_cast("", i)
 				await _frames(5)
 				await _shot("cast_%d" % i)
 		"emotions":
-			main.show_cast(int(args[2]) if args.size() > 2 else 0)
+			main.show_cast("", int(args[2]) if args.size() > 2 else 0)
 			await _frames(3)
 			var p: Puppet = null
 			for c in main._screen.get_children():
@@ -49,7 +49,7 @@ func _ready() -> void:
 				await _shot("emo_%s_%s" % [p.id, e])
 		"locations":
 			for i in main._location_order.size():
-				main.show_locations(i)
+				main.show_locations("", i)
 				await _frames(5)
 				await _shot("loc_%d" % i)
 		"episode":

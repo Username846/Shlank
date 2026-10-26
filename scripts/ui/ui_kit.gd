@@ -204,3 +204,26 @@ static func label(text: String, size: int = 22, color: Color = Art.INK) -> Label
 static func fmt_time(sec: float) -> String:
 	var s := int(roundf(sec))
 	return "%d:%02d" % [s / 60, s % 60]
+
+
+## A clickable badge with a caption (used by the episode icon pickers).
+static func icon_button(kind: String, caption: String, px: float) -> Button:
+	var btn := Button.new()
+	btn.flat = true
+	btn.focus_mode = Control.FOCUS_NONE
+	btn.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	btn.custom_minimum_size = Vector2(px + 20, px + 30)
+	btn.tooltip_text = caption
+	var icon := ShowIcon.make_kind(kind, px)
+	icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	icon.position = Vector2(10, 0)
+	icon.size = Vector2(px, px)
+	btn.add_child(icon)
+	var l := label(caption.to_upper(), 13, Art.INK)
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	l.position = Vector2(0, px + 4)
+	l.size = Vector2(px + 20, 20)
+	btn.add_child(l)
+	return btn

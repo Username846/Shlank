@@ -7,6 +7,8 @@ extends RefCounted
 var id := ""
 var title := "Untitled Episode"
 var series := ""
+## Badge shown on the episode's cards (see ShowIcon). Empty = use the series' badge.
+var icon := ""
 var number := 1
 var description := ""
 ## [{location: String, cut: bool, beats: Array[Dictionary]}]
@@ -24,6 +26,7 @@ static func from_script(sc: EpisodeScript) -> EpisodeDoc:
 	var doc := EpisodeDoc.new()
 	doc.title = sc.title
 	doc.series = sc.series
+	doc.icon = sc.icon
 	doc.number = maxi(sc.number, 1)
 	doc.description = sc.description
 	var pending: Array = []  # commands before the first SCENE
@@ -42,13 +45,14 @@ static func from_script(sc: EpisodeScript) -> EpisodeDoc:
 	return doc
 
 
-static func new_episode(show: String) -> EpisodeDoc:
+## A blank episode. It isn't tied to a show: any characters and locations can be used.
+static func new_episode(p_icon: String) -> EpisodeDoc:
 	var doc := EpisodeDoc.new()
-	doc.series = show
+	doc.icon = p_icon
 	doc.title = "My New Episode"
 	doc.description = "A brand new adventure."
 	doc.scenes.append({"location": doc.default_location(), "cut": true, "beats": [
-		{"type": "music", "mood": "jazz" if show == "Hillwood" else "happy"},
+		{"type": "music", "mood": "happy", "variant": 1},
 		{"type": "title"},
 	]})
 	return doc
@@ -60,17 +64,34 @@ func to_script() -> EpisodeScript:
 
 # ---------------------------------------------------------------- queries --
 
+## Every character with a body. The episode's own series comes first, but
+## any show's characters can appear in any episode.
 func show_characters() -> Array:
-	var out := []
+	var mine := []
+	var others := []
 	for cid in Game.characters:
 		var c: Dictionary = Game.characters[cid]
-		if c.get("style", "none") != "none" and (series == "" or c.get("show", "") == series):
-			out.append(cid)
-	if out.is_empty():
-		for cid in Game.characters:
-			if Game.characters[cid].get("style", "none") != "none":
-				out.append(cid)
-	return out
+		if c.get("style", "none") == "none":
+			continue
+		if series != "" and c.get("show", "") == series:
+			mine.append(cid)
+		else:
+			others.append(cid)
+	return mine + others
+
+
+## Every show that has locations, in data order.
+static func location_shows() -> Array:
+	var shows := []
+	for lid in Game.locations:
+		var sh: String = Game.locations[lid].get("show", "")
+		if not shows.has(sh):
+			shows.append(sh)
+	return shows
+
+
+static func locations_of(show: String) -> Array:
+	return Game.locations.keys().filter(func(l): return Game.locations[l].get("show", "") == show)
 
 
 func show_locations() -> Array:
@@ -188,6 +209,8 @@ func to_text() -> String:
 	out.append("@title %s" % _one_line(title))
 	if series != "":
 		out.append("@series %s" % series)
+	if icon != "":
+		out.append("@icon %s" % icon)
 	out.append("@number %d" % number)
 	if description != "":
 		out.append("@description %s" % _one_line(description))
@@ -238,7 +261,8 @@ static func beat_to_line(b: Dictionary) -> String:
 		"sfx":
 			return "SFX %s" % b.name
 		"music":
-			return "MUSIC %s" % b.mood
+			var v: int = b.get("variant", 1)
+			return "MUSIC %s%s" % [b.mood, (" %d" % v) if v > 1 and b.mood != "off" else ""]
 		"card":
 			return "CARD %s" % _one_line(b.text)
 		"title":

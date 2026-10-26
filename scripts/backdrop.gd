@@ -94,7 +94,8 @@ func set_location(id: String) -> void:
 	_baked = false
 	_set_layer.queue_redraw()
 	_vp.render_target_update_mode = SubViewport.UPDATE_ONCE
-	RenderingServer.frame_post_draw.connect(_on_baked, CONNECT_ONE_SHOT)
+	if not RenderingServer.frame_post_draw.is_connected(_on_baked):
+		RenderingServer.frame_post_draw.connect(_on_baked, CONNECT_ONE_SHOT)
 	queue_redraw()
 
 

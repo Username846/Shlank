@@ -7,6 +7,12 @@ func _ready() -> void:
 	var main = load("res://scripts/main.gd").new()
 	add_child(main)
 	await _frames(8)
+	main.show_cast_picker()
+	await _shot("t_cast_picker")
+	main.show_cast("Hillwood", 1)
+	await _shot("t_cast_hillwood")
+	main.show_location_picker()
+	await _shot("t_loc_picker")
 	main.show_episodes()
 	await _shot("t_episodes")
 	main.show_library()
@@ -46,7 +52,7 @@ func _ready() -> void:
 	print("RELOAD errors: ", reparsed.errors, " cmds ", reparsed.commands.size())
 	Library.delete(doc.id)
 	# Brand-new episode built from templates
-	var nd := EpisodeDoc.new_episode("Bikini Bottom")
+	var nd := EpisodeDoc.new_episode("bolt")
 	main.open_editor(nd, 0, true)
 	await _frames(4)
 	ed = main._screen
@@ -56,12 +62,24 @@ func _ready() -> void:
 			if t[0] == name:
 				ed._insert_beat(t[1].call())
 	ed._add_scene()
+	ed._on_location_series(1)  # second series -> its first location
 	ed._insert_beat(tpl[0][1].call())
+	for t in tpl:
+		if t[0] == "Change music":
+			var mb: Dictionary = t[1].call()
+			mb.mood = "spooky"
+			mb.variant = 3
+			ed._insert_beat(mb)
+	ed._open_info()
+	await _shot("t_info_icons")
+	for c in ed.get_children():
+		if c is ColorRect and c.color.a < 0.9:
+			c.queue_free()
 	await _shot("t_new_episode")
 	var text := nd.to_text()
 	print("NEW EPISODE TEXT:\n", text)
 	var sc := EpisodeScript.parse(text, Game.characters)
-	print("NEW errors: ", sc.errors, " est ", sc.estimate_duration())
+	print("NEW errors: ", sc.errors, " est ", sc.estimate_duration(), " icon=", sc.icon, " has spooky 3: ", text.contains("MUSIC spooky 3"))
 	# Make sure it plays to the end
 	Game.voice_mode = "silent"
 	main.play_episode(sc, func() -> void: pass)

@@ -186,10 +186,10 @@ func _screen_root(location: String) -> Control:
 	return root
 
 
-func _back_button(root: Control) -> void:
+func _back_button(root: Control, target: Callable = show_menu) -> void:
 	var b := UiKit.button("< BACK", UiKit.PINK, 24)
 	b.position = Vector2(20, 18)
-	b.pressed.connect(show_menu)
+	b.pressed.connect(target)
 	root.add_child(b)
 
 
@@ -217,7 +217,7 @@ func show_menu() -> void:
 	box.add_theme_constant_override("separation", 10)
 	root.add_child(box)
 	for b in [["WATCH EPISODES", UiKit.YELLOW, show_episodes], ["EDIT / CREATE", Color("f2a65a"), show_library],
-			["MEET THE CAST", UiKit.PINK, show_cast], ["LOCATIONS", UiKit.TEAL, show_locations],
+			["MEET THE CAST", UiKit.PINK, show_cast_picker], ["LOCATIONS", UiKit.TEAL, show_location_picker],
 			["SETTINGS", Color("b48be0"), show_settings]]:
 		var btn := UiKit.button(b[0], b[1], 28)
 		btn.custom_minimum_size = Vector2(340, 56)
@@ -259,7 +259,7 @@ func show_episodes() -> void:
 		var hb := HBoxContainer.new()
 		hb.add_theme_constant_override("separation", 18)
 		card.add_child(hb)
-		hb.add_child(ShowIcon.make(sc.series, 92.0))
+		hb.add_child(ShowIcon.for_episode(sc, 92.0))
 		var vb := VBoxContainer.new()
 		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		hb.add_child(vb)
@@ -342,7 +342,7 @@ func show_library() -> void:
 		var hb := HBoxContainer.new()
 		hb.add_theme_constant_override("separation", 14)
 		card.add_child(hb)
-		hb.add_child(ShowIcon.make(sc.series, 64.0))
+		hb.add_child(ShowIcon.for_episode(sc, 64.0))
 		var vb := VBoxContainer.new()
 		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		vb.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -382,24 +382,20 @@ func show_library() -> void:
 func _new_episode_dialog(root: Control) -> void:
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 10)
-	vb.add_child(UiKit.label("Which show is it for?", 20))
-	var row := HBoxContainer.new()
-	row.alignment = BoxContainer.ALIGNMENT_CENTER
-	row.add_theme_constant_override("separation", 20)
-	vb.add_child(row)
+	vb.add_child(UiKit.label("Pick an icon for your episode. You can use characters and locations from any show.", 20))
+	var grid := GridContainer.new()
+	grid.columns = 4
+	grid.add_theme_constant_override("h_separation", 18)
+	grid.add_theme_constant_override("v_separation", 12)
+	vb.add_child(grid)
 	var dialog := []  # holder: lambdas capture by value, so share it through an array
-	for show in Game.shows:
-		var col := VBoxContainer.new()
-		col.alignment = BoxContainer.ALIGNMENT_CENTER
-		row.add_child(col)
-		var icon := ShowIcon.make(show, 110.0)
-		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
-		col.add_child(icon)
-		var pick := UiKit.button(show.to_upper(), Color.WHITE, 20)
-		pick.pressed.connect(func() -> void:
+	for ic in ShowIcon.episode_icons():
+		var kind: String = ic[0]
+		var btn := UiKit.icon_button(kind, ic[1], 96.0)
+		btn.pressed.connect(func() -> void:
 			dialog[0].queue_free()
-			open_editor(EpisodeDoc.new_episode(show), 0, true))
-		col.add_child(pick)
+			open_editor(EpisodeDoc.new_episode(kind), 0, true))
+		grid.add_child(btn)
 	dialog.append(UiKit.modal(root, "NEW EPISODE", vb, [["CANCEL", Color.WHITE, Callable()]]))
 
 
@@ -451,12 +447,69 @@ func open_editor(doc: EpisodeDoc, scene_i: int = 0, dirty: bool = false) -> void
 
 # ----------------------------------------------------------------- cast --
 
-func show_cast(index: int = 0) -> void:
-	var id: String = _cast_order[index]
+## First step of "Meet the Cast" / "Locations": pick a series.
+func _series_picker(heading: String, items: Dictionary, open: Callable) -> void:
+	var root := _screen_root("theater")
+	_set_screen(root)
+	_back_button(root)
+	var title := UiKit.title_label(heading, 64)
+	title.position = Vector2(0, 30)
+	title.size = Vector2(1280, 80)
+	root.add_child(title)
+	var sub := UiKit.title_label("PICK A SERIES", 28, Color.WHITE)
+	sub.position = Vector2(0, 108)
+	sub.size = Vector2(1280, 40)
+	root.add_child(sub)
+	var row := HBoxContainer.new()
+	row.alignment = BoxContainer.ALIGNMENT_CENTER
+	row.add_theme_constant_override("separation", 40)
+	row.position = Vector2(0, 190)
+	row.size = Vector2(1280, 320)
+	root.add_child(row)
+	for show in items:
+		var card := PanelContainer.new()
+		card.custom_minimum_size = Vector2(300, 300)
+		row.add_child(card)
+		var vb := VBoxContainer.new()
+		vb.alignment = BoxContainer.ALIGNMENT_CENTER
+		vb.add_theme_constant_override("separation", 8)
+		card.add_child(vb)
+		var icon := ShowIcon.make(show, 150.0)
+		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+		vb.add_child(icon)
+		vb.add_child(UiKit.title_label(show.to_upper(), 30, UiKit.RED))
+		var count := UiKit.label(items[show], 18, Color(0.35, 0.35, 0.4))
+		count.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		vb.add_child(count)
+		var go := UiKit.button("OPEN", UiKit.YELLOW, 24)
+		go.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+		go.pressed.connect(open.bind(show))
+		vb.add_child(go)
+
+
+func show_cast_picker() -> void:
+	var items := {}
+	for id in _cast_order:
+		var sh: String = Game.characters[id].get("show", "")
+		items[sh] = "%d characters" % (_cast_order.filter(func(c): return Game.characters[c].get("show", "") == sh).size())
+	_series_picker("MEET THE CAST", items, func(show: String) -> void: show_cast(show, 0))
+
+
+func show_location_picker() -> void:
+	var items := {}
+	for show in EpisodeDoc.location_shows():
+		items[show] = "%d locations" % EpisodeDoc.locations_of(show).size()
+	_series_picker("LOCATIONS", items, func(show: String) -> void: show_locations(show, 0))
+
+
+func show_cast(show: String = "", index: int = 0) -> void:
+	var order := _cast_order.filter(func(c): return show == "" or Game.characters[c].get("show", "") == show)
+	index = posmod(index, order.size())
+	var id: String = order[index]
 	var cdata: Dictionary = Game.characters[id]
 	var root := _screen_root(String(cdata.get("home", _location_order[0])))
 	_set_screen(root)
-	_back_button(root)
+	_back_button(root, show_cast_picker)
 	var p := Puppet.new()
 	p.setup(id, cdata)
 	p.position = Vector2(400, 650)
@@ -469,7 +522,7 @@ func show_cast(index: int = 0) -> void:
 	var vb := VBoxContainer.new()
 	vb.add_theme_constant_override("separation", 10)
 	panel.add_child(vb)
-	var show_l := UiKit.label("%s  •  %d/%d" % [String(cdata.get("show", "")).to_upper(), index + 1, _cast_order.size()], 16, UiKit.BLUE)
+	var show_l := UiKit.label("%s  •  %d/%d" % [String(cdata.get("show", "")).to_upper(), index + 1, order.size()], 16, UiKit.BLUE)
 	vb.add_child(show_l)
 	var name_l := UiKit.title_label(String(cdata.name).to_upper(), 48, Game.char_color(id))
 	name_l.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
@@ -501,7 +554,7 @@ func show_cast(index: int = 0) -> void:
 		var b := UiKit.button(pr.replace("_", " ").to_upper(), Color("dff1fb"), 14)
 		b.pressed.connect(func() -> void: p.held = "" if pr == "none" else pr)
 		props.add_child(b)
-	_arrows(root, func(d: int) -> void: show_cast(posmod(index + d, _cast_order.size())))
+	_arrows(root, func(d: int) -> void: show_cast(show, index + d))
 	var walk := UiKit.button("WALK", UiKit.TEAL, 20)
 	walk.position = Vector2(330, 670)
 	walk.pressed.connect(func() -> void:
@@ -547,11 +600,13 @@ func _arrows(root: Control, cb: Callable) -> void:
 
 # ------------------------------------------------------------ locations --
 
-func show_locations(index: int = 0) -> void:
-	var id: String = _location_order[index]
+func show_locations(show: String = "", index: int = 0) -> void:
+	var order: Array = _location_order if show == "" else EpisodeDoc.locations_of(show)
+	index = posmod(index, order.size())
+	var id: String = order[index]
 	var root := _screen_root(id)
 	_set_screen(root)
-	_back_button(root)
+	_back_button(root, show_location_picker)
 	var loc: Dictionary = Game.locations.get(id, {})
 	var panel := PanelContainer.new()
 	panel.position = Vector2(290, 566)
@@ -559,7 +614,7 @@ func show_locations(index: int = 0) -> void:
 	root.add_child(panel)
 	var vb := VBoxContainer.new()
 	panel.add_child(vb)
-	var t := UiKit.title_label("%d/%d  %s" % [index + 1, _location_order.size(), String(loc.get("name", id)).to_upper()], 32, UiKit.RED)
+	var t := UiKit.title_label("%d/%d  %s" % [index + 1, order.size(), String(loc.get("name", id)).to_upper()], 32, UiKit.RED)
 	vb.add_child(t)
 	var sh := UiKit.label(String(loc.get("show", "")).to_upper(), 16, UiKit.BLUE)
 	sh.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -567,7 +622,7 @@ func show_locations(index: int = 0) -> void:
 	var d := UiKit.label(String(loc.get("description", "")), 20)
 	d.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	vb.add_child(d)
-	_arrows(root, func(dd: int) -> void: show_locations(posmod(index + dd, _location_order.size())))
+	_arrows(root, func(dd: int) -> void: show_locations(show, index + dd))
 
 
 # ------------------------------------------------------------- settings --
