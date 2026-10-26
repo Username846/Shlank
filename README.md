@@ -46,7 +46,7 @@ show:
     Nursery, Stu's Basement, The Playground, Reptarland, Java Lava, the
     Supermarket and Finster House.
   - Episode: **"The Great Cookie Quest"**.
-- **Team Rokket** (Team Rocket parodies)
+- **Pokemon** (Team Rocket parodies)
   - Characters: Jessee, Jaymes, Meowt, Wobbafett and The Boss.
   - Locations: Forest Path, Team Rokket HQ, the Monster Clinic, the Clinic
     Lobby, Town Square, Crystal Cave, Sunny Beach, Cliff Top, Rokket Camp and

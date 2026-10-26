@@ -47,7 +47,7 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"java_lava": _java_lava(b)
 		"supermarket": _supermarket(b)
 		"finster_house": _finster_house(b)
-		# Team Rokket
+		# Pokemon (Team Rokket)
 		"forest_path": _forest_path(b)
 		"rokket_hq": _rokket_hq(b)
 		"monster_clinic": _monster_clinic(b)
@@ -598,7 +598,7 @@ static func _finster_house(b: Backdrop) -> void:
 	_bush(b, Vector2(1020, 540))
 
 
-# ----------------------------------------------------------- Team Rokket --
+# --------------------------------------------- Pokemon (Team Rokket) --
 
 static func _forest_path(b: Backdrop) -> void:
 	_day_sky(b)

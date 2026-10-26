@@ -256,52 +256,52 @@
 	},
 	"forest_path": {
 		"name": "Forest Path",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "A quiet trail. Perfect for a pitfall trap."
 	},
 	"rokket_hq": {
 		"name": "Team Rokket HQ",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "The Boss's office. Do not touch the cat."
 	},
 	"monster_clinic": {
 		"name": "Monster Clinic",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "Where every trainer heals their monsters. And where the treasure is."
 	},
 	"clinic_lobby": {
 		"name": "Clinic Lobby",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "The front desk and the healing machine."
 	},
 	"town_square": {
 		"name": "Town Square",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "A cheerful town with a fountain."
 	},
 	"crystal_cave": {
 		"name": "Crystal Cave",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "Glowing crystals in the dark."
 	},
 	"sunny_beach": {
 		"name": "Sunny Beach",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "Sand, sea and a suspicious submarine."
 	},
 	"cliff_top": {
 		"name": "Cliff Top",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "Where the balloon lands. Usually upside down."
 	},
 	"rokket_camp": {
 		"name": "Rokket Camp",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "A tent, a campfire and dreams of success."
 	},
 	"mecha_lab": {
 		"name": "Mecha Lab",
-		"show": "Team Rokket",
+		"show": "Pokemon",
 		"description": "Where the giant robot of the week gets built."
 	}
 }

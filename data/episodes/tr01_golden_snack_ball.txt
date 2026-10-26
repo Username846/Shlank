@@ -1,5 +1,5 @@
 @title The Golden Snack Ball
-@series Team Rokket
+@series Pokemon
 @icon rokket
 @number 1
 @description The Boss wants results, and Team Rokket has a plan: steal the legendary Golden Snack Ball from the Monster Clinic. What could possibly go wrong? Everything.
