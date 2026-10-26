@@ -7,7 +7,7 @@ signal exited
 
 const GROUND := 612.0
 const CARD_COLORS := [Color("f5c542"), Color("f28ab3"), Color("63c3a5"), Color("6fb3e8"), Color("b48be0")]
-const BubbleWipe := preload("res://scripts/ui/bubble_wipe.gd")
+const SceneTransition := preload("res://scripts/ui/transition.gd")
 const TitleCard := preload("res://scripts/ui/title_card.gd")
 
 var ep: EpisodeScript
@@ -42,6 +42,7 @@ var _shake := 0.0
 var _hud_idle := 0.0
 var _first_scene := true
 var _card_i := 0
+var _last_speaker := ""
 
 
 func _ready() -> void:
@@ -112,7 +113,7 @@ func _build_ui() -> void:
 
 	_card = TitleCard.new()
 	root.add_child(_card)
-	_wipe = BubbleWipe.new()
+	_wipe = SceneTransition.new()
 	root.add_child(_wipe)
 
 	# HUD
@@ -419,10 +420,29 @@ func _auto_face(p: Puppet) -> void:
 		p.facing = 1 if target > p.position.x else -1
 
 
+## The show this episode belongs to (its @series), else the show of the location.
+func _show_for(location: String) -> Dictionary:
+	var name := ep.series if ep.series != "" else String(Game.locations.get(location, {}).get("show", ""))
+	return Game.shows.get(name, {})
+
+
+## Irises close in on whoever spoke last, like the old cartoons; otherwise centre stage.
+func _iris_focus() -> Vector2:
+	if _last_speaker != "" and _cast.has(_last_speaker):
+		var p: Puppet = _cast[_last_speaker]
+		return get_viewport().get_canvas_transform() * (p.global_position + Vector2(0, -150))
+	return Vector2(640, 360)
+
+
 func _do_scene(c: Dictionary) -> void:
 	_sub_panel.visible = false
 	if not _first_scene and not c.cut:
-		Synth.sfx("bubbles")
+		var show := _show_for(c.location)
+		_wipe.style = String(show.get("transition", "fade"))
+		_wipe.focus = _iris_focus()
+		var sfx := String(show.get("transition_sfx", ""))
+		if sfx != "":
+			Synth.sfx(sfx)
 		await _wipe.cover()
 	for p in _cast.values():
 		p.queue_free()
@@ -463,6 +483,7 @@ func _do_camera(c: Dictionary) -> void:
 func _do_say(c: Dictionary) -> void:
 	var who: String = c.who
 	var cdata: Dictionary = Game.characters.get(who, {})
+	_last_speaker = who
 	var p: Puppet = _cast.get(who)
 	if p and c.emotion != "":
 		p.set_emotion(c.emotion)

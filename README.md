@@ -124,6 +124,10 @@ Lines starting with `#` are comments.
 - Locations live in `data/locations.json` (with the show they belong to), and
   each is drawn by a function in `scripts/backdrop.gd`. Bikini Bottom sets get
   underwater light rays and bubbles; the others don't.
+- Each show's scene transition lives in `data/shows.json`. The styles are
+  `bubbles` (the underwater bubble wipe), `iris` (a cartoon iris-out that
+  closes on whoever spoke last) and `fade`, which shows without an entry get.
+  Each show also sets the sound that plays with its transition.
 - A new episode goes in `data/episodes/` and gets listed in
   `data/episodes/index.json`. Use `@series` to show the series name on the
   episode card and title card.
@@ -141,7 +145,7 @@ scripts/backdrop.gd      Vector-drawn animated locations
 scripts/art.gd           Flash-style drawing helpers (outlines, cel shading)
 scripts/game.gd          Autoload: data, settings, text-to-speech voices
 scripts/synth.gd         Autoload: synthesized music, SFX and babble voice
-scripts/ui/              Theme, bubble-wipe transition, title cards
+scripts/ui/              Theme, per-show scene transitions, title cards, icon buttons
 data/                    Characters, locations, episodes
 tools/snapshot.gd        Dev tool that renders screens and episodes to PNGs
 ```

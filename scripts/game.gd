@@ -5,6 +5,8 @@ const SETTINGS_PATH := "user://settings.cfg"
 
 var characters: Dictionary = {}
 var locations: Dictionary = {}
+## Per-show presentation settings (scene transition and its sound).
+var shows: Dictionary = {}
 var episodes: Array = []
 
 # Settings
@@ -24,6 +26,7 @@ func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	characters = _load_json("res://data/characters.json")
 	locations = _load_json("res://data/locations.json")
+	shows = _load_json("res://data/shows.json")
 	var index = _load_json("res://data/episodes/index.json")
 	episodes = index.get("episodes", []) if index is Dictionary else []
 	_load_settings()

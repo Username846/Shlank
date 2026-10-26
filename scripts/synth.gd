@@ -277,6 +277,8 @@ func sfx(name: String) -> void:
 				note(1, 0.05, Wave.NOISE, 0.1 + i * 0.006, 30.0, 1.0, 0.0, i * 0.05)
 			note(1, 0.4, Wave.NOISE, 0.4, 7.0, 1.0, 0.0, 1.22)
 			note(110, 0.4, Wave.SINE, 0.4, 6.0, 0.6, 0.0, 1.22)
+		"slide_whistle":
+			note(1400, 0.55, Wave.SINE, 0.22, 0.5, 0.25, 0.012)
 		"whoosh":
 			note(1, 0.4, Wave.NOISE, 0.2, 4.0)
 			note(300, 0.4, Wave.SINE, 0.12, 3.0, 3.0)

@@ -1,0 +1,10 @@
+{
+	"Bikini Bottom": {
+		"transition": "bubbles",
+		"transition_sfx": "bubbles"
+	},
+	"Hillwood": {
+		"transition": "iris",
+		"transition_sfx": "slide_whistle"
+	}
+}
