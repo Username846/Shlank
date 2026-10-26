@@ -59,7 +59,41 @@ buffer upload, so the drawing is cached aggressively:
 - Offscreen renders are supersampled 2×, so they skip per-shape
   anti-aliasing.
 
-## Writing episodes
+## Making episodes in the app (Edit / Create)
+
+**EDIT / CREATE** on the title screen opens your episode library:
+
+- **+ New Episode**: pick a show and start with a blank first scene.
+- **Edit**: opens any episode. A built-in episode you save becomes an
+  "edited" copy, and **Reset** brings back the original.
+- **Copy**: puts that episode's script on the clipboard.
+- **Import from clipboard**: paste a script (Ctrl+V into the box, or the
+  *Paste from clipboard* button) to add it to your library.
+
+Your episodes are saved in your browser's local storage, so they survive
+reloads. They also show up under *Watch Episodes*.
+
+In the editor:
+
+- **Top bar:** the episode name, **Info** (series, episode number,
+  description), **Save**, **Test Play** (plays the episode, then brings you
+  back) and **Export** (copies the script to the clipboard and shows it).
+- **Scenes (left):** add, reorder and delete scenes. Each scene has a
+  location, music, and a transition (wipe or a hard cut).
+- **Stage (middle):** shows the scene at the playhead's moment. **Drag a
+  character** to make them walk there at that moment. If the selected beat
+  is that character's walk or entrance, dragging adjusts it instead.
+- **Beat settings (right):** **+ Add Beat** inserts dialogue, narration,
+  entrances and exits, walks, emotions, props, jumps, camera shots, shakes,
+  pauses, sound effects, music changes and title/text/end cards. Selecting a
+  beat lets you change who, what, where and how fast, or move it earlier or
+  later.
+- **Timeline (bottom):** colored blocks for everything that takes time and
+  dots for instant changes. Click a beat to edit it, click or drag the strip
+  (or the scrub bar) to move through the scene, and press **>** to preview the
+  movement.
+
+## Writing episodes by hand
 
 Episodes are plain-text screenplays in `data/episodes/`. Each one is listed in
 `data/episodes/index.json`. Example:
@@ -148,6 +182,7 @@ scripts/art.gd           Flash-style drawing helpers (outlines, cel shading)
 scripts/game.gd          Autoload: data, settings, text-to-speech voices
 scripts/synth.gd         Autoload: synthesized music, SFX and babble voice
 scripts/ui/              Theme, per-show scene transitions, title cards, icon buttons
+scripts/editor/          The in-app episode editor, its data model and the episode library
 data/                    Characters, locations, episodes
 tools/snapshot.gd        Dev tool that renders screens and episodes to PNGs
 ```

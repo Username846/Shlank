@@ -156,7 +156,7 @@ func _draw_set() -> void:
 		"green_meats": _green_meats()
 		"hillwood_pier": _hillwood_pier()
 		"rooftop": _rooftop()
-		"title_stage": _title_stage()
+		"title_stage", "theater": _title_stage()
 		_: _sea_sky()
 
 
@@ -1047,7 +1047,7 @@ func _rooftop() -> void:
 
 func _fx_hillwood() -> void:
 	match location:
-		"title_stage":
+		"title_stage", "theater":
 			_title_stage_fx()
 		"ps118":
 			# Waving flag
@@ -1151,12 +1151,13 @@ func _title_stage() -> void:
 		Art.limb(ci, PackedVector2Array([Vector2(cx, 64), Vector2(cx, 80)]), 4, Color("f2c14e"), 2.0)
 		Art.blob(ci, Vector2(cx, 86), 6, 8, Color("f2c14e"), 2.5)
 	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 36), Vector2(W + PAD, 36)]), 6.0, Color("f2c14e"))
-	# Marquee sign (lit bulbs are in the moving layer)
-	Art.shape(ci, Art.rrect(MARQUEE.grow(14), 28), Color("f2c14e"), 5.0, 0.15)
-	Art.shape(ci, Art.rrect(MARQUEE, 18), Color("2c1530"), 4.0)
-	for p in _bulb_positions():
-		Art.dot(ci, p, 7, Color("7a5a20"))
-		ci.draw_arc(p, 7, 0, TAU, 12, Art.INK, 2.0)
+	# Marquee sign (lit bulbs are in the moving layer); the plain "theater" has none
+	if location == "title_stage":
+		Art.shape(ci, Art.rrect(MARQUEE.grow(14), 28), Color("f2c14e"), 5.0, 0.15)
+		Art.shape(ci, Art.rrect(MARQUEE, 18), Color("2c1530"), 4.0)
+		for p in _bulb_positions():
+			Art.dot(ci, p, 7, Color("7a5a20"))
+			ci.draw_arc(p, 7, 0, TAU, 12, Art.INK, 2.0)
 	# Audience silhouettes in the front row
 	_rng.seed = 314
 	var x := -PAD
@@ -1232,6 +1233,8 @@ func _title_stage_fx() -> void:
 		ci.draw_colored_polygon(PackedVector2Array([src + perp * 12, src - perp * 12, far - perp * 170, far + perp * 170]), Color(1, 0.95, 0.75, 0.07))
 		ci.draw_colored_polygon(PackedVector2Array([src + perp * 6, src - perp * 6, far - perp * 90, far + perp * 90]), Color(1, 0.95, 0.75, 0.07))
 	# Chasing marquee bulbs
+	if location != "title_stage":
+		return
 	var bulbs := _bulb_positions()
 	var chase := int(_t * 10.0)
 	for i in bulbs.size():

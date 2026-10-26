@@ -8,7 +8,17 @@ var _screen: Node
 var _cast_order: Array = []
 var _location_order: Array = []
 var _theme: Theme
-var _episodes: Array = []  # [{path, script}]
+var _episodes: Array = []  # [{id, path, origin, text, script}] built-in + the player's own
+
+
+func _reload_episodes() -> void:
+	_episodes.clear()
+	for e in Library.entries():
+		var sc := EpisodeScript.parse(e.text, Game.characters)
+		for err in sc.errors:
+			push_warning("%s: %s" % [e.path, err])
+		e["script"] = sc
+		_episodes.append(e)
 
 
 func _ready() -> void:
@@ -17,12 +27,7 @@ func _ready() -> void:
 		if Game.characters[id].get("style", "none") != "none":
 			_cast_order.append(id)
 	_location_order = Game.locations.keys()
-	for e in Game.episodes:
-		var path := String(e.get("file", ""))
-		var sc := EpisodeScript.parse(Game.load_text(path), Game.characters)
-		for err in sc.errors:
-			push_warning("%s: %s" % [path, err])
-		_episodes.append({"path": path, "script": sc})
+	_reload_episodes()
 	_setup_perf_overlay()
 	_setup_global_controls()
 	show_menu()
@@ -207,21 +212,22 @@ func show_menu() -> void:
 	sub.size = Vector2(500, 50)
 	root.add_child(sub)
 	var box := VBoxContainer.new()
-	box.position = Vector2(470, 292)
+	box.position = Vector2(470, 280)
 	box.size = Vector2(340, 300)
-	box.add_theme_constant_override("separation", 14)
+	box.add_theme_constant_override("separation", 10)
 	root.add_child(box)
-	for b in [["WATCH EPISODES", UiKit.YELLOW, show_episodes], ["MEET THE CAST", UiKit.PINK, show_cast],
-			["LOCATIONS", UiKit.TEAL, show_locations], ["SETTINGS", Color("b48be0"), show_settings]]:
-		var btn := UiKit.button(b[0], b[1], 30)
-		btn.custom_minimum_size = Vector2(340, 66)
+	for b in [["WATCH EPISODES", UiKit.YELLOW, show_episodes], ["EDIT / CREATE", Color("f2a65a"), show_library],
+			["MEET THE CAST", UiKit.PINK, show_cast], ["LOCATIONS", UiKit.TEAL, show_locations],
+			["SETTINGS", Color("b48be0"), show_settings]]:
+		var btn := UiKit.button(b[0], b[1], 28)
+		btn.custom_minimum_size = Vector2(340, 56)
 		btn.pressed.connect(b[2])
 		box.add_child(btn)
 	var hint := UiKit.label("Voices use your browser's speech synthesizer.", 18, Color.WHITE)
 	hint.add_theme_constant_override("outline_size", 5)
 	hint.add_theme_color_override("font_outline_color", Art.INK)
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	hint.position = Vector2(340, 612)
+	hint.position = Vector2(340, 626)
 	hint.size = Vector2(600, 30)
 	root.add_child(hint)
 
@@ -229,7 +235,8 @@ func show_menu() -> void:
 # ------------------------------------------------------------- episodes --
 
 func show_episodes() -> void:
-	var root := _screen_root("krusty_crab")
+	_reload_episodes()
+	var root := _screen_root("theater")
 	_set_screen(root)
 	_back_button(root)
 	var title := UiKit.title_label("EPISODES", 72)
@@ -256,8 +263,7 @@ func show_episodes() -> void:
 		var vb := VBoxContainer.new()
 		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		hb.add_child(vb)
-		var series_text := ("%s  •  EPISODE %d" % [sc.series.to_upper(), sc.number]) if sc.series != "" else "EPISODE %d" % sc.number
-		vb.add_child(UiKit.label(series_text, 16, UiKit.BLUE))
+		vb.add_child(UiKit.label(_series_line(sc, e.origin), 16, UiKit.BLUE))
 		var t := UiKit.title_label(sc.title.to_upper(), 34, UiKit.RED)
 		t.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 		vb.add_child(t)
@@ -271,7 +277,7 @@ func show_episodes() -> void:
 		play.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		play.pressed.connect(func() -> void: play_episode(sc))
 		hb.add_child(play)
-	var more := UiKit.label("More episodes coming soon! Episodes are plain-text scripts in data/episodes/.", 18, Color.WHITE)
+	var more := UiKit.label("Make your own episodes with EDIT / CREATE on the title screen!", 18, Color.WHITE)
 	more.add_theme_constant_override("outline_size", 5)
 	more.add_theme_color_override("font_outline_color", Art.INK)
 	more.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -280,12 +286,167 @@ func show_episodes() -> void:
 	root.add_child(more)
 
 
-func play_episode(sc: EpisodeScript) -> void:
+func _series_line(sc: EpisodeScript, origin: String) -> String:
+	var s := ("%s  •  EPISODE %d" % [sc.series.to_upper(), sc.number]) if sc.series != "" else "EPISODE %d" % sc.number
+	match origin:
+		"mine": s += "  •  MY EPISODE"
+		"edited": s += "  •  EDITED"
+	return s
+
+
+func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes) -> void:
 	Synth.set_mood("off")
 	var player := EpisodePlayer.new()
 	_set_screen(player)
-	player.exited.connect(show_episodes)
+	player.exited.connect(on_exit)
 	player.play(sc)
+
+
+# ---------------------------------------------------------- edit / create --
+
+func show_library() -> void:
+	_reload_episodes()
+	Synth.set_mood("happy")
+	var root := _screen_root("theater")
+	_set_screen(root)
+	_back_button(root)
+	var title := UiKit.title_label("EDIT / CREATE", 64)
+	title.position = Vector2(0, 30)
+	title.size = Vector2(1280, 80)
+	root.add_child(title)
+	var actions := HBoxContainer.new()
+	actions.position = Vector2(200, 116)
+	actions.size = Vector2(880, 56)
+	actions.alignment = BoxContainer.ALIGNMENT_CENTER
+	actions.add_theme_constant_override("separation", 14)
+	root.add_child(actions)
+	var new_btn := UiKit.button("+ NEW EPISODE", UiKit.YELLOW, 26)
+	new_btn.pressed.connect(func() -> void: _new_episode_dialog(root))
+	actions.add_child(new_btn)
+	var imp := UiKit.button("IMPORT FROM CLIPBOARD", UiKit.TEAL, 26)
+	imp.pressed.connect(func() -> void: _import_dialog(root))
+	actions.add_child(imp)
+	var scroll := ScrollContainer.new()
+	scroll.position = Vector2(200, 186)
+	scroll.size = Vector2(880, 450)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	root.add_child(scroll)
+	var list := VBoxContainer.new()
+	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	list.add_theme_constant_override("separation", 10)
+	scroll.add_child(list)
+	for e in _episodes:
+		var sc: EpisodeScript = e.script
+		var card := PanelContainer.new()
+		list.add_child(card)
+		var hb := HBoxContainer.new()
+		hb.add_theme_constant_override("separation", 14)
+		card.add_child(hb)
+		hb.add_child(ShowIcon.make(sc.series, 64.0))
+		var vb := VBoxContainer.new()
+		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		vb.alignment = BoxContainer.ALIGNMENT_CENTER
+		hb.add_child(vb)
+		vb.add_child(UiKit.label(_series_line(sc, e.origin), 14, UiKit.BLUE))
+		var t := UiKit.title_label(sc.title.to_upper(), 28, UiKit.RED)
+		t.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		vb.add_child(t)
+		var edit := UiKit.button("EDIT", UiKit.YELLOW, 22)
+		edit.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		edit.pressed.connect(func() -> void:
+			var doc := EpisodeDoc.from_script(sc)
+			doc.id = e.id
+			open_editor(doc))
+		hb.add_child(edit)
+		var copy := UiKit.button("COPY", UiKit.TEAL, 22)
+		copy.tooltip_text = "Copy this episode's script to the clipboard"
+		copy.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		copy.pressed.connect(func() -> void:
+			Library.copy_to_clipboard(e.text)
+			UiKit.toast(root, "Copied \"%s\" to the clipboard" % sc.title))
+		hb.add_child(copy)
+		if e.origin != "built-in":
+			var del := UiKit.button("RESET" if e.origin == "edited" else "DELETE", UiKit.RED, 22)
+			del.tooltip_text = "Go back to the original" if e.origin == "edited" else "Delete this episode"
+			del.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+			del.pressed.connect(func() -> void:
+				var msg := "Undo your changes to \"%s\"?" % sc.title if e.origin == "edited" else "Delete \"%s\" for good?" % sc.title
+				UiKit.modal(root, "ARE YOU SURE?", UiKit.label(msg, 20), [
+					["YES", UiKit.RED, func() -> void:
+						Library.delete(e.id)
+						show_library()],
+					["CANCEL", Color.WHITE, Callable()]]))
+			hb.add_child(del)
+
+
+func _new_episode_dialog(root: Control) -> void:
+	var vb := VBoxContainer.new()
+	vb.add_theme_constant_override("separation", 10)
+	vb.add_child(UiKit.label("Which show is it for?", 20))
+	var row := HBoxContainer.new()
+	row.alignment = BoxContainer.ALIGNMENT_CENTER
+	row.add_theme_constant_override("separation", 20)
+	vb.add_child(row)
+	var dialog := []  # holder: lambdas capture by value, so share it through an array
+	for show in Game.shows:
+		var col := VBoxContainer.new()
+		col.alignment = BoxContainer.ALIGNMENT_CENTER
+		row.add_child(col)
+		var icon := ShowIcon.make(show, 110.0)
+		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+		col.add_child(icon)
+		var pick := UiKit.button(show.to_upper(), Color.WHITE, 20)
+		pick.pressed.connect(func() -> void:
+			dialog[0].queue_free()
+			open_editor(EpisodeDoc.new_episode(show), 0, true))
+		col.add_child(pick)
+	dialog.append(UiKit.modal(root, "NEW EPISODE", vb, [["CANCEL", Color.WHITE, Callable()]]))
+
+
+func _import_dialog(root: Control) -> void:
+	var vb := VBoxContainer.new()
+	vb.add_theme_constant_override("separation", 8)
+	vb.add_child(UiKit.label("Paste an episode script below (Ctrl+V / Cmd+V), or use the button to read your clipboard.", 18))
+	var te := TextEdit.new()
+	te.placeholder_text = "@title My Episode\n@series Hillwood\n..."
+	te.custom_minimum_size = Vector2(640, 260)
+	vb.add_child(te)
+	var status := UiKit.label("", 16, UiKit.RED)
+	vb.add_child(status)
+	var paste := UiKit.button("PASTE FROM CLIPBOARD", Color.WHITE, 18)
+	paste.pressed.connect(func() -> void:
+		Library.read_clipboard(func(text: String) -> void:
+			if text.strip_edges() == "":
+				status.text = "Couldn't read the clipboard - try Ctrl+V in the box instead."
+			else:
+				te.text = text
+				status.text = ""))
+	vb.add_child(paste)
+	UiKit.modal(root, "IMPORT EPISODE", vb, [
+		["IMPORT", UiKit.YELLOW, func() -> Variant:
+			var sc := EpisodeScript.parse(te.text, Game.characters)
+			if not sc.commands.any(func(c): return c.type == "scene"):
+				status.text = "That doesn't look like an episode script (it has no SCENE lines)."
+				return false
+			var doc := EpisodeDoc.from_script(sc)
+			doc.id = Library.new_id(doc.title)
+			Library.save(doc.id, doc.to_text())
+			var note := "" if sc.errors.is_empty() else " (%d lines skipped)" % sc.errors.size()
+			show_library()
+			UiKit.toast(_screen, "Imported \"%s\"%s" % [doc.title, note])
+			return true],
+		["CANCEL", Color.WHITE, Callable()]])
+
+
+func open_editor(doc: EpisodeDoc, scene_i: int = 0, dirty: bool = false) -> void:
+	Synth.set_mood("off")
+	var ed := EpisodeEditor.new()
+	ed.setup(doc, scene_i, dirty)
+	_set_screen(ed)
+	ed.exited.connect(show_library)
+	ed.test_play.connect(func(d: EpisodeDoc, si: int) -> void:
+		var was_dirty := ed.dirty
+		play_episode(d.to_script(), func() -> void: open_editor(d, si, was_dirty)))
 
 
 # ----------------------------------------------------------------- cast --
