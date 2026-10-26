@@ -1,0 +1,172 @@
+@title Pikachew, I Choose You!
+@series Pokemon
+@icon rokket
+@number 2
+@description Ashe Ketchum oversleeps on the most important day of his life and ends up with the grumpiest monster in the lab. Team Rokket thinks it looks very valuable.
+
+# ------------------------------------------------------------ PALLUT TOWN
+MUSIC happy
+SCENE pallut_town cut
+TITLE
+PLACE ashe center right scared
+ASHE (scared): I overslept! Today's the day I get my first monster, and I overslept!
+ASHE (excited): Hold on, Professor! I'm coming! I'm going to be the very best!
+RUN ashe offright
+NARRATOR: Ashe Ketchum, age ten, ran all the way to the lab. In his pajamas.
+
+# ------------------------------------------------------------ PROFESSOR'S LAB
+MUSIC tense
+SCENE prof_lab
+PLACE nurse_joi midright left happy
+ENTER ashe left midleft excited 500
+NURSE_JOI (happy): Good morning, Ashe! The professor is out, so I'm filling in today.
+ASHE (excited): Great! I'll take the fire one! No, the water one! No, the grass one!
+NURSE_JOI (nervous): Ashe, the other kids came early. Those are all gone.
+ASHE (sad): All of them?
+NURSE_JOI (happy): There's one left. He's a little... feisty.
+ENTER pikachew right right angry
+PIKACHEW (angry): Pika!
+ASHE (excited): Whoa! An electric mouse! He's awesome!
+SFX zap
+ASHE (surprised): Ow! And shocking!
+
+# ------------------------------------------------------------ ROKKET HQ
+MUSIC sneaky
+SCENE rokket_hq
+PLACE boss midright left angry
+PLACE jessee midleft right nervous
+PLACE jaymes left right nervous
+PLACE meowt center left nervous
+BOSS (angry): Team Rokket. I am told a rare electric mouse has appeared in Pallut Town.
+MEOWT (excited): An electric mouse? Boss, that's worth a fortune!
+BOSS (smug): Bring it to me. Do not fail me again.
+JESSEE (smug): Fail? Us? Sir, we have never failed.
+JAYMES (nervous): We have only ever failed.
+JESSEE (angry): Shh!
+
+# ------------------------------------------------------------ TALL GRASS ROUTE
+MUSIC happy 2
+SCENE tall_grass
+ENTER ashe left midleft happy
+ENTER pikachew left left angry
+ASHE (happy): Come on, buddy. Get in the ball. It's comfy in there.
+PIKACHEW (angry): Pika. Pika pika.
+ASHE (nervous): You don't like balls? Okay. You can walk next to me. Like friends.
+PIKACHEW (surprised): Pika?
+ASHE (smug): Friends. You and me. Ashe and Pikachew.
+PIKACHEW (smug): Pika.
+NARRATOR: Pikachew was not convinced. But he did walk next to Ashe. A few feet away.
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC sneaky 2
+SCENE forest_path
+PLACE jessee midleft right excited
+PLACE jaymes center left excited
+PLACE meowt midright left smug
+JESSEE (excited): Prepare for trouble!
+JAYMES (excited): And make it double!
+MEOWT (smug): Meowt, that's right! Now, here's the plan. We dig a hole on the path.
+JAYMES (sad): We always dig a hole.
+MEOWT (smug): And it always almost works.
+JESSEE (excited): Dig, Jaymes! Dig like the wind!
+
+# ------------------------------------------------------------ TALL GRASS ROUTE
+MUSIC tense
+SCENE tall_grass
+PLACE ashe center right happy
+PLACE pikachew midleft right neutral
+ENTER mistee right midright angry
+MISTEE (angry): Hey! You! Is that your Pikachew?
+ASHE (happy): Sure is! We just met.
+MISTEE (angry): Well, it just zapped my bike! It's totally fried!
+ASHE (nervous): Pikachew, did you zap her bike?
+PIKACHEW (smug): Pika.
+MISTEE (angry): Then I'm following you until you pay me back. Every step.
+ASHE (nervous): Every step?
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC action
+SCENE forest_path
+ENTER ashe left midleft happy
+ENTER mistee left left angry
+ENTER pikachew left farleft neutral
+SFX splat
+ASHE (surprised): Whoa! A hole! A big one!
+NARRATOR: Ashe stepped around the hole. So did Mistee. So did Pikachew.
+ENTER jessee right right excited
+ENTER jaymes right midright excited
+JESSEE (excited): Ha! Got you! Wait. Why didn't anyone fall in?
+ASHE (smug): It was covered with a sign that said "Not a Hole."
+JAYMES (sad): I thought the sign was a nice touch.
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC action 2
+SCENE forest_path
+PLACE jessee midright left angry
+PLACE jaymes right left angry
+PLACE ashe midleft right angry
+PLACE pikachew center right angry
+PLACE meowt farright left smug
+JESSEE (angry): Hand over that Pikachew, twerp!
+ASHE (angry): No way! He's my friend!
+MEOWT (smug): Then we'll take him by force! Wobbafett, go!
+ENTER wobbafett right offright happy
+MOVE wobbafett farright
+WOBBAFETT (excited): Wobbaaaa-fett!
+MEOWT (angry): Not you! You don't even attack!
+WOBBAFETT (happy): Wobba.
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC action 3
+SCENE forest_path
+PLACE ashe midleft right excited
+PLACE pikachew center right excited
+PLACE jessee midright left scared
+PLACE jaymes right left scared
+ASHE (excited): Pikachew, please! I know you don't like me yet. But help me protect us!
+PIKACHEW (excited): Pikaaa...
+JAYMES (scared): Jessee, his cheeks are sparking.
+JESSEE (scared): Jaymes, I see the cheeks.
+PIKACHEW (angry): CHEWWWW!
+SFX zap
+SHAKE 1.0
+JESSEE (scared): Team Rokket's blasting off agaaaaain!
+EXIT jessee right 700 &
+EXIT jaymes right 700
+
+# ------------------------------------------------------------ MONSTER CLINIC
+MUSIC sad
+SCENE monster_clinic
+PLACE nurse_joi center left nervous
+ENTER ashe left midleft sad
+ENTER mistee left left nervous
+ASHE (sad): Nurse Joi, Pikachew used so much power, he's all worn out. Is he going to be okay?
+NURSE_JOI (happy): He just needs some rest. And a little ketchup. He loves ketchup.
+MISTEE (nervous): You really care about that mouse, huh?
+ASHE (shy): He saved me. Even though he doesn't like me.
+MISTEE (smug): He likes you. He's just stubborn. Like someone else I know.
+
+# ------------------------------------------------------------ CLINIC LOBBY
+MUSIC romantic
+SCENE clinic_lobby
+PLACE ashe midleft right happy
+ENTER pikachew right center happy
+PIKACHEW (happy): Pika!
+ASHE (excited): Pikachew! You're okay!
+PIKACHEW (happy): Pika pika.
+ASHE (surprised): You want to sit on my shoulder?
+PIKACHEW (smug): Pika.
+ASHE (happy): Okay, buddy. Partners from now on.
+
+# ------------------------------------------------------------ CLIFF TOP
+MUSIC sad 2
+SCENE cliff_top
+PLACE jessee midleft right sad
+PLACE jaymes center left sad
+PLACE meowt midright left sad
+JESSEE (sad): Our first mission and we got zapped by a mouse.
+JAYMES (sad): And I lost my favorite shovel.
+MEOWT (excited): But now we know the twerp's weakness! He cares about that mouse!
+JESSEE (excited): Then we'll be back! Tomorrow!
+JAYMES (happy): With a bigger hole!
+END

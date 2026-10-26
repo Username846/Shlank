@@ -1,0 +1,174 @@
+@title The Big Talent Show
+@series Playpen
+@icon bottle
+@number 5
+@description The Pizza Place is holding a kids' talent show. Angelika wants to win more than anything. Suzie wants to win too. The babies just want to be in the show.
+
+# ------------------------------------------------------------ PIZZA PLACE
+MUSIC happy
+SCENE pizza_place cut
+TITLE
+PLACE angelika center left excited
+PLACE suzie midright left happy
+ANGELIKA (excited): A talent show! With a trophy! And a free pizza every week for a year!
+SUZIE (happy): I'm going to sing. I've been practicing all summer.
+ANGELIKA (smug): Well, I'm going to sing AND dance AND juggle. At the same time.
+SUZIE (surprised): You can juggle?
+ANGELIKA (nervous): I will by Saturday.
+SUZIE (smug): Good luck, Angelika.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC jazz
+SCENE pickles_living_room
+PLACE tommi center right excited
+PLACE chuckey midleft right nervous
+PLACE phill left right happy
+PLACE lill farleft right happy
+TOMMI (excited): Guys! There's a talent show! Let's be in it!
+CHUCKEY (nervous): What's our talent, Tommi?
+PHILL (happy): I can eat a whole worm without chewing!
+LILL (smug): I can eat TWO worms without chewing!
+TOMMI (smug): That's great, guys. Maybe something the grown-ups would like.
+CHUCKEY (nervous): Grown-ups like singing. And dancing. And not eating worms.
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC sneaky
+SCENE pickles_backyard
+PLACE angelika center left excited
+HOLD angelika ice_cream
+ANGELIKA (excited): Okay. Juggling. One ice cream. Two ice creams. Three...
+SFX splat
+ANGELIKA (angry): That's my last ice cream!
+HOLD angelika none
+ENTER spyke right midright happy
+SPYKE (happy): Woof!
+ANGELIKA (angry): Spyke! Don't eat it! That's a prop!
+SFX chomp
+ANGELIKA (sad): Was a prop.
+
+# ------------------------------------------------------------ CARMICHAEL HOUSE
+MUSIC romantic
+SCENE carmichael_house
+PLACE suzie center left happy
+SUZIE (happy): La la la la. Do re mi fa so...
+ENTER tommi left midleft surprised
+ENTER chuckey left left surprised
+TOMMI (surprised): Suzie sings like an angel, Chuckey.
+CHUCKEY (shy): I think I'm gonna cry. The good kind of cry.
+SUZIE (happy): Hi, babies! Are you coming to the talent show?
+TOMMI (excited): We're gonna be IN the talent show!
+SUZIE (happy): Great! What's your act?
+TOMMI (nervous): We're... still deciding.
+
+# ------------------------------------------------------------ STEW'S BASEMENT
+MUSIC action
+SCENE stu_basement
+PLACE stew center left excited
+ENTER didee right midright nervous
+STEW (excited): Didee, I'm building a stage for the talent show! With lights and a smoke machine!
+DIDEE (nervous): Stew, it's a pizza restaurant. They have a little rug.
+STEW (smug): Not anymore. Now they'll have a Pickles Stage Three Thousand!
+SFX blast
+SHAKE 0.4
+DIDEE (smug): I'll get the fire extinguisher.
+STEW (sad): Thanks, honey.
+
+# ------------------------------------------------------------ PLAYGROUND
+MUSIC happy 2
+SCENE playground
+PLACE tommi center right excited
+PLACE chuckey midleft right nervous
+PLACE phill left right happy
+PLACE lill farleft right happy
+PLACE dill midright left happy
+TOMMI (excited): I've got it! We'll do a Reptar show! I'll be Reptar!
+PHILL (excited): We'll be the city he stomps on!
+LILL (excited): I'll be a building! A tall one!
+CHUCKEY (nervous): What do I do, Tommi?
+TOMMI (happy): You're the hero who saves the city, Chuckey.
+CHUCKEY (surprised): Me? A hero?
+DILL (happy): Ba ba!
+TOMMI (smug): And Dill is the sound effects.
+
+# ------------------------------------------------------------ JAVA LAVA
+MUSIC sneaky 2
+SCENE java_lava
+PLACE angelika center left nervous
+PLACE grandpa_lew midright left happy
+ANGELIKA (nervous): Grandpa, what if I don't win? What if Suzie is better than me?
+GRANDPA_LEW (happy): Angelika, back in my day, we didn't have talent shows. We had chores.
+ANGELIKA (angry): That's not helping, Grandpa.
+GRANDPA_LEW (smug): The point is, just have fun. Winning isn't everything.
+ANGELIKA (smug): Then why do they give out trophies?
+GRANDPA_LEW (nervous): Uh. Good question.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC happy
+SCENE duck_pond
+PLACE phill midleft right happy
+PLACE lill center left happy
+PHILL (happy): Lill, if we're buildings in the show, do we get to fall down?
+LILL (excited): That's the best part, Phill! Buildings fall down all the time!
+PHILL (excited): I'm gonna fall down the most!
+LILL (smug): No, I'm gonna fall down the most!
+PHILL (angry): Am not!
+LILL (angry): Are too!
+SFX splat
+PHILL (happy): We both fell in the mud.
+LILL (happy): We're really good at this.
+
+# ------------------------------------------------------------ PIZZA PLACE
+MUSIC tense
+SCENE pizza_place
+CARD The talent show...
+PLACE angelika center left excited
+PLACE suzie farright left nervous
+ANGELIKA (excited): Ladies and gentlemen! The amazing Angelika! Singing! Dancing! Juggling!
+SFX drumroll
+ANGELIKA (scared): Uh oh. I'm doing all three and I forgot the words.
+SFX splat
+ANGELIKA (sad): And I dropped the juggling balls.
+SUZIE (nervous): Keep going, Angelika! You can do it!
+ANGELIKA (surprised): You're cheering for me?
+SUZIE (happy): You're my friend. Even when you're bossy.
+
+# ------------------------------------------------------------ PIZZA PLACE
+MUSIC action 2
+SCENE pizza_place
+PLACE tommi center right excited
+PLACE chuckey midleft right nervous
+PLACE phill left right happy
+PLACE lill midright left happy
+TOMMI (excited): ROAR! I'm Reptar! I'm gonna stomp the city!
+PHILL (excited): Oh no! The city!
+LILL (excited): I'm a building! I'm falling down!
+SFX thud
+CHUCKEY (nervous): Stop, Reptar! I'm... I'm the hero!
+CHUCKEY (excited): Reptar, the city needs you to be its friend!
+TOMMI (happy): Okay! I'm a friendly Reptar now!
+SFX fanfare
+
+# ------------------------------------------------------------ PIZZA PLACE
+MUSIC happy 3
+SCENE pizza_place
+PLACE stew midright left happy
+PLACE angelika midleft right shy
+PLACE suzie center left happy
+STEW (happy): And the winner of the talent show is... everyone! The judge loved all of it!
+ANGELIKA (surprised): Everyone? Even me? I dropped everything!
+SUZIE (happy): You kept going. That's a talent too.
+ANGELIKA (shy): Thanks, Suzie. Your singing was really good.
+SUZIE (smug): I know.
+ANGELIKA (happy): Free pizza for everyone!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC romantic 2
+SCENE nursery
+PLACE tommi center right happy
+PLACE chuckey midleft right happy
+CHUCKEY (happy): Tommi, I was a hero today. A real one.
+TOMMI (happy): You sure were, Chuckey.
+CHUCKEY (shy): Can I be the hero next time too?
+TOMMI (smug): Next time, you can be Reptar.
+CHUCKEY (scared): Maybe the hero again.
+END

@@ -1,0 +1,180 @@
+@title Splash Battle at Ceruleen Gym
+@series Pokemon
+@icon rokket
+@number 3
+@description Ashe challenges the Ceruleen Gym, only to find out the gym leader is Mistee. Meanwhile, Team Rokket has gone undercover as the referees.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC happy
+SCENE town_square cut
+TITLE
+PLACE ashe midleft right excited
+PLACE pikachew left right happy
+PLACE brok center left happy
+PLACE mistee midright left nervous
+ASHE (excited): Ceruleen City! Home of my first gym badge!
+BROK (happy): The Ceruleen Gym is famous for water monsters. You'll need a strategy.
+ASHE (smug): My strategy is to win.
+PIKACHEW (smug): Pika.
+MISTEE (nervous): Um, Ashe. About that gym. There's something I should tell you.
+ASHE (excited): Tell me later! I've got a badge to win!
+RUN ashe offright
+
+# ------------------------------------------------------------ MECHA LAB
+MUSIC sneaky
+SCENE mecha_lab
+PLACE meowt center left excited
+PLACE jaymes midleft right nervous
+MEOWT (excited): The Ceruleen Gym is having a big battle today. Every monster in town will be there.
+JAYMES (nervous): And we're going to steal them all?
+MEOWT (smug): No. We're going to be the referees. Then we call it a tie, and take the prize monsters ourselves.
+JAYMES (happy): That's actually clever, Meowt.
+MEOWT (smug): I know. I'm the brains of this operation.
+JAYMES (smug): You're also the only one who can talk to the mecha.
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC sneaky 2
+SCENE crystal_cave
+PLACE jessee center left excited
+ENTER wobbafett right midright happy
+JESSEE (excited): Wobbafett! Do I look like a referee?
+WOBBAFETT (happy): Wobba.
+JESSEE (smug): I'll take that as a yes. Whistle, check. Striped shirt, check. Mustache, check.
+WOBBAFETT (nervous): Wobba wobba?
+JESSEE (angry): Yes, girls can have mustaches! It's a disguise!
+WOBBAFETT (happy): Wobbaaa!
+
+# ------------------------------------------------------------ CERULEEN GYM
+MUSIC tense
+SCENE ceruleen_gym
+ENTER ashe left midleft excited
+ENTER pikachew left left happy
+ASHE (excited): Hello? I'm here to challenge the gym leader!
+ENTER mistee right midright smug
+MISTEE (smug): You found her.
+ASHE (surprised): Mistee? YOU'RE the gym leader?
+MISTEE (smug): Surprise. Still want to battle?
+ASHE (excited): You bet I do!
+PIKACHEW (excited): Pika pika!
+
+# ------------------------------------------------------------ CLINIC LOBBY
+MUSIC jazz
+SCENE clinic_lobby
+PLACE nurse_joi center left happy
+PLACE brok midleft right shy
+BROK (shy): Nurse Joi. I couldn't help but notice. You're the most beautiful nurse in Ceruleen City.
+NURSE_JOI (happy): Thank you! You're very sweet.
+BROK (excited): Would you like to have dinner with me? I'm a great cook!
+NURSE_JOI (smug): I'm on duty all day. Ashe's battle starts in ten minutes. Lots of injured monsters coming.
+BROK (sad): Right. Of course. I'll just... go watch the battle.
+NURSE_JOI (happy): Bring me some of your cooking later!
+BROK (excited): Really?!
+
+# ------------------------------------------------------------ CERULEEN GYM
+MUSIC action
+SCENE ceruleen_gym
+PLACE ashe midleft right excited
+PLACE mistee midright left excited
+ENTER jessee right right smug
+ENTER jaymes right farright smug
+JESSEE (smug): Hello, competitors! We are your totally official referees. Definitely not villains.
+JAYMES (smug): Those are definitely real referee mustaches.
+ASHE (happy): Great! Let's battle!
+MISTEE (nervous): Why do the referees look so familiar?
+ASHE (smug): All referees look the same, Mistee.
+
+# ------------------------------------------------------------ CERULEEN GYM
+MUSIC action 2
+SCENE ceruleen_gym
+PLACE ashe midleft right excited
+PLACE pikachew center right excited
+PLACE mistee midright left excited
+MISTEE (excited): My water monsters can't be beaten! Splash attack!
+SFX splat
+SHAKE 0.5
+ASHE (excited): Pikachew, dodge!
+PIKACHEW (excited): Pika!
+MISTEE (smug): You can't dodge forever!
+ASHE (excited): Electric attack!
+SFX zap
+MISTEE (surprised): Water and electricity! I forgot about that part!
+
+# ------------------------------------------------------------ CERULEEN GYM
+MUSIC tense 2
+SCENE ceruleen_gym
+PLACE jessee midright left smug
+PLACE jaymes right left smug
+PLACE ashe midleft right excited
+PLACE mistee center left nervous
+JESSEE (smug): Stop the battle! The referees declare a tie!
+ASHE (angry): A tie? I was about to win!
+JAYMES (smug): And as the official prize, the referees will now take all your monsters!
+MISTEE (angry): Wait a minute! Those are fake mustaches!
+JESSEE (angry): They are NOT fake! I bought them at a very real mustache store!
+SFX pop
+JAYMES (scared): Mine fell off.
+
+# ------------------------------------------------------------ CERULEEN GYM
+MUSIC action 3
+SCENE ceruleen_gym
+PLACE jessee midright left angry
+PLACE jaymes right left angry
+PLACE meowt farright left excited
+PLACE ashe midleft right angry
+PLACE mistee center left angry
+MEOWT (excited): Plan B! The Meowt-Mech! Grab the monsters!
+SFX thud
+SHAKE 0.8
+MISTEE (angry): Nobody steals monsters in MY gym!
+ASHE (excited): Mistee, let's team up!
+MISTEE (smug): Fine. Just this once.
+SFX splat
+SFX zap
+SHAKE 1.0
+JESSEE (scared): Water plus electricity! Again!
+JAYMES (scared): We're blasting off agaaaain!
+EXIT jessee right 700 &
+EXIT jaymes right 700 &
+EXIT meowt right 700
+
+# ------------------------------------------------------------ CERULEEN GYM
+MUSIC happy 2
+SCENE ceruleen_gym
+PLACE ashe midleft right happy
+PLACE mistee midright left happy
+PLACE pikachew center right happy
+MISTEE (happy): You know what, Ashe? That was a good battle. Before the robbery.
+ASHE (excited): So do I get the badge?
+MISTEE (smug): Nope. You haven't beaten me yet.
+ASHE (sad): Aw.
+MISTEE (happy): But you can have a rematch. Tomorrow. And I'll go easy on you.
+ASHE (smug): I don't need you to go easy!
+PIKACHEW (nervous): Pika...
+ASHE (nervous): Okay, maybe a little easy.
+
+# ------------------------------------------------------------ MONSTER MART
+MUSIC jazz 2
+SCENE monster_mart
+PLACE brok center left happy
+PLACE officer_jenni midright left smug
+OFFICER_JENNI (smug): Did you see a group of fake referees with a giant robot cat come through here?
+BROK (surprised): They blasted off over the gym about ten minutes ago.
+OFFICER_JENNI (smug): Again? That's the fourth time this week.
+BROK (shy): Officer Jenni. Has anyone ever told you that you're very brave?
+OFFICER_JENNI (smug): Every day. Now buy something or move along.
+BROK (sad): Yes, ma'am.
+
+# ------------------------------------------------------------ ROKKET CAMP
+MUSIC sad
+SCENE rokket_camp
+PLACE jessee midleft right sad
+PLACE jaymes center left sad
+PLACE meowt midright left sad
+JESSEE (sad): Our mustaches were perfect.
+JAYMES (sad): Mine was glued on with jam.
+MEOWT (angry): That's why it fell off! Jam isn't glue!
+JAYMES (happy): But it's delicious.
+ENTER wobbafett right right happy
+WOBBAFETT (happy): Wobbaaa!
+JESSEE (sad): Not now, Wobbafett.
+END

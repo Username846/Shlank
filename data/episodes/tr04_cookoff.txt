@@ -1,0 +1,182 @@
+@title The Great Monster Cook-Off
+@series Pokemon
+@icon rokket
+@number 4
+@description Brok enters a cooking contest for monster food, judged by Nurse Joi. His rival is a mysterious chef with whiskers and a Brooklyn accent.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC happy
+SCENE town_square cut
+TITLE
+PLACE brok center right excited
+PLACE ashe midleft right happy
+PLACE pikachew left right happy
+BROK (excited): Ashe, look! A monster food cook-off! The prize is a lifetime supply of ingredients!
+ASHE (happy): You're the best cook I know, Brok. You'll win easy.
+BROK (shy): And guess who's judging? Nurse Joi.
+ASHE (smug): Oh boy.
+PIKACHEW (smug): Pika pika.
+BROK (excited): I need to make the most beautiful dish she's ever seen!
+
+# ------------------------------------------------------------ ROKKET CAMP
+MUSIC sneaky
+SCENE rokket_camp
+PLACE meowt center left excited
+PLACE jessee midleft right nervous
+PLACE jaymes left right nervous
+MEOWT (excited): A cooking contest! The winner gets a lifetime supply of food!
+JESSEE (excited): Food! We haven't eaten anything but berries for a week!
+JAYMES (sad): And one very old sandwich.
+MEOWT (smug): I will enter as Chef Meowtaine. With my cooking, we'll win easy.
+JESSEE (surprised): You can cook?
+MEOWT (smug): I can open a can. That's basically cooking.
+
+# ------------------------------------------------------------ MONSTER MART
+MUSIC jazz
+SCENE monster_mart
+PLACE brok center right excited
+PLACE mistee midleft right smug
+BROK (excited): Berries, rice, honey, and a secret spice that monsters love.
+MISTEE (smug): Brok, you're buying enough for an army.
+BROK (happy): It's for love, Mistee. Love needs a lot of ingredients.
+MISTEE (smug): Love also needs Nurse Joi to notice you. She thinks you're a nice cook.
+BROK (sad): A nice cook. That's the worst thing she could have said.
+MISTEE (happy): Then make the best food she's ever tasted.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC happy 2
+SCENE sunny_beach
+PLACE brok center right excited
+PLACE pikachew midleft right happy
+BROK (excited): The secret to great monster food is fresh ingredients. Like these sea berries.
+PIKACHEW (excited): Pika!
+BROK (smug): No eating them yet, Pikachew. They're for the contest.
+PIKACHEW (sad): Pika...
+BROK (happy): Okay. One. For quality control.
+SFX chomp
+PIKACHEW (happy): Pika-chew!
+
+# ------------------------------------------------------------ CLINIC LOBBY
+MUSIC romantic
+SCENE clinic_lobby
+PLACE nurse_joi center left happy
+PLACE officer_jenni midright left smug
+NURSE_JOI (happy): I'm so excited to judge the cook-off. I just love monster food.
+OFFICER_JENNI (smug): I'll be there too. On security duty. There's been a lot of crime involving giant robot cats lately.
+NURSE_JOI (surprised): That's oddly specific.
+OFFICER_JENNI (smug): It's an oddly specific town.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC tense
+SCENE town_square
+CARD The cook-off...
+PLACE nurse_joi center left happy
+PLACE brok midleft right nervous
+PLACE meowt midright left smug
+NURSE_JOI (happy): Welcome, chefs! You have one hour to cook the best monster food in town. Begin!
+SFX ding
+BROK (nervous): Okay. Breathe, Brok. Chop the berries. Stir the rice.
+MEOWT (smug): Bonjour. I am Chef Meowtaine. My dish is a secret family recipe.
+BROK (surprised): Wait. A talking cat? With a fake mustache?
+MEOWT (nervous): It is a very French mustache.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC sneaky 2
+SCENE town_square
+PLACE meowt center left smug
+ENTER jessee left midleft excited
+ENTER jaymes left left excited
+MEOWT (smug): Psst. Jessee. Jaymes. I need ingredients. Anything.
+JESSEE (excited): I brought a can of beans!
+JAYMES (excited): And I found this mushroom on the ground!
+MEOWT (scared): Is that mushroom glowing?
+JAYMES (happy): A little!
+MEOWT (sad): We're going to lose.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC action
+SCENE town_square
+PLACE brok center right excited
+PLACE ashe midleft right excited
+PLACE pikachew left right excited
+SFX sizzle
+ASHE (excited): Brok, that smells amazing! What is it?
+BROK (excited): Honey-glazed berry rice balls with a hint of cinnamon! Every monster's favorite!
+PIKACHEW (excited): Pika!
+ASHE (surprised): Pikachew wants to taste it!
+BROK (smug): Sorry, buddy. This one's for the judge.
+PIKACHEW (sad): Pika...
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC tense 2
+SCENE town_square
+PLACE nurse_joi center left happy
+PLACE meowt midright left nervous
+PLACE brok midleft right nervous
+NURSE_JOI (happy): Chef Meowtaine, what have you made?
+MEOWT (nervous): Haute cuisine! Cold beans with a glowing mushroom!
+NURSE_JOI (surprised): The mushroom is... humming.
+SFX beep
+MEOWT (nervous): That's how you know it's fresh.
+NURSE_JOI (nervous): I think I'll skip that one.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC romantic 2
+SCENE town_square
+PLACE nurse_joi center left surprised
+PLACE brok midleft right shy
+NURSE_JOI (surprised): Brok. This is incredible. The sweetness, the texture, the little cinnamon heart on top.
+BROK (shy): I made the heart for you. I mean. For the judge. Who is you.
+NURSE_JOI (happy): It's the best monster food I've ever tasted. And I've tasted a lot of monster food.
+BROK (excited): Really?
+NURSE_JOI (happy): The winner is Brok!
+SFX fanfare
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC action 2
+SCENE town_square
+PLACE meowt midright left angry
+PLACE jessee right left angry
+PLACE jaymes farright left angry
+PLACE officer_jenni midleft right smug
+MEOWT (angry): Plan B! Steal the prize anyway!
+JESSEE (excited): Prepare for trouble!
+JAYMES (excited): And make it double!
+OFFICER_JENNI (smug): Prepare for jail.
+JESSEE (scared): That's not how the motto goes!
+OFFICER_JENNI (smug): It is today.
+ENTER wobbafett right offright happy
+MOVE wobbafett right
+WOBBAFETT (excited): Wobbaaa!
+SFX boing
+JAYMES (scared): Wobbafett bounced the cop's whistle! Run!
+EXIT meowt right 700 &
+EXIT jessee right 700 &
+EXIT jaymes right 700 &
+EXIT wobbafett right 700
+
+# ------------------------------------------------------------ CLINIC LOBBY
+MUSIC romantic
+SCENE clinic_lobby
+PLACE nurse_joi center left happy
+PLACE brok midleft right shy
+NURSE_JOI (happy): Brok, would you write down that recipe for me? I'd love to make it for the monsters here.
+BROK (excited): Of course! I'll write it in my best handwriting!
+NURSE_JOI (smug): And maybe cook it with me sometime?
+BROK (surprised): Cook... with you?
+NURSE_JOI (happy): As friends.
+BROK (happy): Friends is great! Friends is the best!
+
+# ------------------------------------------------------------ ROKKET CAMP
+MUSIC sad
+SCENE rokket_camp
+PLACE jessee midleft right sad
+PLACE jaymes center left sad
+PLACE meowt midright left sad
+JESSEE (sad): No prize. No food. And Officer Jenni has our picture now.
+JAYMES (happy): At least we still have the glowing mushroom.
+MEOWT (scared): Jaymes, don't eat the glowing mushroom!
+SFX chomp
+JAYMES (surprised): It tastes like strawberries! And I can see sounds!
+JESSEE (sad): Great.
+END

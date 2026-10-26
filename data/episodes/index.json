@@ -49,7 +49,31 @@
 			"file": "res://data/episodes/pp01_great_cookie_quest.txt"
 		},
 		{
+			"file": "res://data/episodes/pp02_reptarland.txt"
+		},
+		{
+			"file": "res://data/episodes/pp03_baby_brother.txt"
+		},
+		{
+			"file": "res://data/episodes/pp04_attic_monster.txt"
+		},
+		{
+			"file": "res://data/episodes/pp05_talent_show.txt"
+		},
+		{
 			"file": "res://data/episodes/tr01_golden_snack_ball.txt"
+		},
+		{
+			"file": "res://data/episodes/tr02_i_choose_you.txt"
+		},
+		{
+			"file": "res://data/episodes/tr03_gym_battle.txt"
+		},
+		{
+			"file": "res://data/episodes/tr04_cookoff.txt"
+		},
+		{
+			"file": "res://data/episodes/tr05_bosss_vacation.txt"
 		},
 		{
 			"file": "res://data/episodes/dz01_power_level.txt"

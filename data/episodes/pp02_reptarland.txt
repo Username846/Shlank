@@ -1,0 +1,181 @@
+@title Lost in Reptarland
+@series Playpen
+@icon bottle
+@number 2
+@description Grandpa Lew takes the babies to Reptarland, then falls asleep on a bench. Tommi leads the gang on a quest to meet the real Reptar.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC happy
+SCENE pickles_living_room cut
+TITLE
+PLACE grandpa_lew center left happy
+PLACE tommi midleft right excited
+PLACE chuckey left right nervous
+GRANDPA_LEW (happy): Who wants to go to Reptarland today?
+TOMMI (excited): Reptarland! Chuckey, we're gonna see Reptar!
+CHUCKEY (nervous): The big green dinosaur? Tommi, he breathes fire. I saw it on TV.
+TOMMI (happy): That's what makes him the best!
+GRANDPA_LEW (smug): Back in my day, we didn't have dinosaur parks. We had a rock. And we liked the rock.
+CHUCKEY (sad): I think I'd like the rock better.
+
+# ------------------------------------------------------------ REPTARLAND
+MUSIC action
+SCENE reptarland
+PLACE grandpa_lew midright left happy
+ENTER tommi left midleft excited
+ENTER chuckey left left nervous
+ENTER phill left farleft happy
+ENTER lill left offleft happy
+MOVE lill farleft
+PHILL (excited): Look, Lill! A giant Reptar!
+LILL (excited): He's as big as a house! Bigger than two houses!
+GRANDPA_LEW (happy): You kids stay right here. I'm just gonna rest my eyes for one minute.
+GRANDPA_LEW (sad): Just... one... minute.
+SFX slide_whistle
+NARRATOR: Grandpa Lew was asleep in four seconds. A new record.
+
+# ------------------------------------------------------------ REPTARLAND
+MUSIC sneaky
+SCENE reptarland
+PLACE tommi center right excited
+PLACE chuckey midleft right nervous
+PLACE phill left right happy
+PLACE lill farleft right happy
+TOMMI (excited): Guys! I heard a grown-up say the real Reptar lives in the big castle!
+CHUCKEY (scared): The real one? I thought this was the real one!
+TOMMI (smug): This one's made of plastic, Chuckey. The real one's made of dinosaur.
+PHILL (happy): Let's go find him!
+LILL (excited): And ask him for his autograph!
+CHUCKEY (nervous): And ask him not to eat us. Please ask him that first.
+
+# ------------------------------------------------------------ JAVA LAVA
+MUSIC jazz
+SCENE java_lava
+PLACE angelika center left smug
+PLACE suzie midright left happy
+ANGELIKA (smug): My mom said I get to have a Reptar milkshake if I'm good.
+SUZIE (happy): Have you been good, Angelika?
+ANGELIKA (smug): Sure. Mostly. Okay, a little bit.
+SUZIE (surprised): Angelika, aren't those babies supposed to be with your grandpa?
+ANGELIKA (scared): Uh oh. If they're lost, I'm gonna get blamed.
+ANGELIKA (angry): Those dumb babies!
+
+# ------------------------------------------------------------ TOY PALACE
+MUSIC happy 2
+SCENE toy_palace
+ENTER tommi left midleft excited
+ENTER chuckey left left nervous
+ENTER phill left farleft happy
+TOMMI (excited): This must be the castle! It's full of treasure!
+PHILL (excited): Reptar toys! Hundreds of 'em!
+CHUCKEY (surprised): And a big Reptar statue! Tommi, is that the real one?
+TOMMI (smug): Nah. Real Reptar would roar.
+SFX thud
+SHAKE 0.5
+CHUCKEY (scared): Something roared! Something big!
+
+# ------------------------------------------------------------ REPTARLAND
+MUSIC tense
+SCENE reptarland
+PLACE grandpa_lew center left surprised
+ENTER angelika right midright angry
+ANGELIKA (angry): Grandpa! Wake up! The babies are gone!
+GRANDPA_LEW (surprised): Gone? I only closed my eyes for a minute!
+ANGELIKA (smug): It's been an hour, Grandpa.
+GRANDPA_LEW (scared): An hour! Stu is going to kill me! Didi is going to kill me twice!
+ANGELIKA (smug): I'll help you find them. For two milkshakes.
+GRANDPA_LEW (sad): Deal.
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC tense 2
+SCENE supermarket
+PLACE stew midleft right happy
+PLACE didee center left happy
+DIDEE (happy): Isn't it nice, Stew? Grandpa's got the kids all day. We can finally do the grocery shopping in peace.
+STEW (happy): Peace and quiet. Just you, me and the cereal aisle.
+SFX beep
+DIDEE (nervous): That's my beeper. It's Pop. From Reptarland.
+STEW (nervous): Is everything okay?
+DIDEE (scared): He says, and I quote, "Lost babies, send help, bring milkshakes."
+STEW (scared): We're on our way!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC sneaky 2
+SCENE duck_pond
+ENTER tommi left midleft happy
+ENTER lill left left happy
+ENTER phill left farleft happy
+LILL (happy): A pond! With duckies!
+PHILL (excited): And worms! Lill, the mud is full of worms!
+TOMMI (nervous): Guys, focus. We're looking for Reptar.
+LILL (smug): Maybe Reptar is a duck now.
+TOMMI (surprised): Wait. Where's Chuckey?
+PHILL (nervous): He was right behind us.
+
+# ------------------------------------------------------------ TOY PALACE
+MUSIC spooky
+SCENE toy_palace
+PLACE chuckey center right scared
+CHUCKEY (scared): Tommi? Tommi? I'm all alone with the roaring thing.
+SFX thud
+CHUCKEY (scared): It's coming closer!
+ENTER spyke right midright happy
+SPYKE (happy): Woof!
+CHUCKEY (surprised): Spyke! You're the roaring thing?
+SPYKE (excited): Woof woof!
+CHUCKEY (happy): Spyke, you came to find us! Good doggy! Take me to Tommi!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC action 2
+SCENE duck_pond
+PLACE tommi center right sad
+PLACE phill midleft right sad
+PLACE lill left right sad
+ENTER chuckey right right excited 500
+ENTER spyke right farright happy 500
+CHUCKEY (excited): Tommi! I found Spyke! Or Spyke found me!
+TOMMI (excited): Chuckey! You're okay!
+CHUCKEY (smug): I was very brave. I only cried twice.
+SPYKE (happy): Woof!
+PHILL (excited): Can Spyke take us to see Reptar?
+TOMMI (happy): A baby's gotta do what a baby's gotta do! Let's go!
+
+# ------------------------------------------------------------ REPTARLAND
+MUSIC happy 3
+SCENE reptarland
+PLACE grandpa_lew midright left scared
+PLACE angelika right left angry
+ENTER tommi left midleft excited
+ENTER chuckey left left happy
+ENTER spyke left farleft happy
+GRANDPA_LEW (excited): There they are! Thank goodness!
+TOMMI (excited): Grandpa! We were looking for the real Reptar!
+NARRATOR: And at that moment, the giant Reptar statue began its hourly show.
+SFX blast
+SHAKE 1.0
+CHUCKEY (surprised): He's roaring! He's breathing fire! He's real!
+TOMMI (excited): He's REAL!
+ANGELIKA (smug): It's a sprinkler, you dumb babies.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC jazz 2
+SCENE pickles_kitchen
+PLACE didee center left angry
+PLACE grandpa_lew midright left nervous
+DIDEE (angry): Pop. You fell asleep. At an amusement park. With four babies.
+GRANDPA_LEW (nervous): Now, Didee, in my defense, the bench was very comfortable.
+DIDEE (smug): You're grounded from babysitting.
+GRANDPA_LEW (happy): Really? Does that mean I can nap?
+DIDEE (angry): POP!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC romantic
+SCENE nursery
+PLACE tommi midleft right happy
+PLACE chuckey center left happy
+CHUCKEY (happy): Tommi, today was the best adventure ever.
+TOMMI (smug): We saw the real Reptar, Chuckey.
+CHUCKEY (shy): I know it was a sprinkler.
+TOMMI (happy): Yeah. But it was a real sprinkler.
+CHUCKEY (happy): Good night, Tommi.
+END
