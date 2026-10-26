@@ -1,0 +1,175 @@
+@title Gokku Gets a License
+@series Dragonball Z
+@icon dragonball
+@number 2
+@description Chee-Chee says that every grown-up needs a driver's license. Gokku can fly, teleport and blow up mountains, but parallel parking might be his greatest challenge yet.
+
+# ------------------------------------------------------------ GOKKU'S HOUSE
+MUSIC happy
+SCENE gokku_house cut
+TITLE
+PLACE chee_chee center left angry
+ENTER gokku left midleft happy
+CHEE_CHEE (angry): Gokku! You promised to drive me to the market today!
+GOKKU (happy): I'll just fly you there! It's faster!
+CHEE_CHEE (angry): I am not flying to the market! People stare!
+GOKKU (nervous): But I don't know how to drive a car.
+CHEE_CHEE (smug): Then you'll learn. And you'll get a license. Like a normal husband.
+GOKKU (sad): Aww, Chee-Chee.
+CHEE_CHEE (smug): And take Picollo with you. He doesn't have one either.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC jazz
+SCENE the_lookout
+PLACE picollo center left angry
+ENTER gokku left midleft happy
+PICOLLO (angry): Absolutely not. I am a warrior. Warriors do not drive.
+GOKKU (happy): Chee-Chee says you have to.
+PICOLLO (scared): Chee-Chee said that?
+GOKKU (nervous): Yeah. She had the frying pan.
+PICOLLO (sad): Fine. Where do we sign up?
+GOKKU (excited): West City! Let's fly there!
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC happy 2
+SCENE capsool_corp
+PLACE bulmah center left smug
+ENTER gokku left midleft happy
+ENTER picollo left left angry
+BULMAH (smug): You two want driving lessons? This I have to see.
+GOKKU (happy): Can you teach us, Bulmah?
+BULMAH (excited): Sure! I'll get you a capsule car. Try not to blast it.
+PICOLLO (smug): I make no promises.
+BULMAH (nervous): Please make one promise.
+PICOLLO (sad): Fine. One promise.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC tense
+SCENE west_city
+PLACE gokku center right excited
+PLACE picollo midleft right nervous
+GOKKU (excited): Okay! Gas pedal is go, brake is stop. Easy!
+SFX whoosh
+PICOLLO (scared): Gokku! Red light! RED LIGHT!
+GOKKU (surprised): What does red mean again?
+PICOLLO (angry): STOP!
+SFX slam
+SHAKE 0.6
+GOKKU (happy): Stopped!
+PICOLLO (angry): On top of a mailbox.
+
+# ------------------------------------------------------------ KAMEE HOUSE
+MUSIC jazz 2
+SCENE kamee_house
+PLACE master_roshee midleft right smug
+PLACE krillen midright left happy
+KRILLEN (happy): Gokku and Picollo are taking driving lessons? That's hilarious.
+MASTER_ROSHEE (smug): Ho ho! Back in my day, I drove a turtle. Much safer.
+KRILLEN (surprised): You drove Turtle?
+MASTER_ROSHEE (smug): Well, he drove. I napped on top.
+KRILLEN (happy): That's not really driving, Master.
+MASTER_ROSHEE (happy): It's the best kind of driving.
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC sneaky
+SCENE capsool_corp
+PLACE vegitta center left smug
+PLACE bulmah midright left happy
+VEGITTA (smug): Kakarot needs a license? Ha! I passed my driving test in five minutes.
+BULMAH (smug): You drove through the wall of the testing center.
+VEGITTA (angry): And then I passed! The examiner was very scared!
+BULMAH (happy): You scared him into giving you a license.
+VEGITTA (smug): A prince always passes.
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC action
+SCENE rocky_wasteland
+PLACE picollo center right nervous
+PLACE gokku midleft right happy
+PICOLLO (nervous): Okay. My turn. Slowly. Calmly.
+GOKKU (happy): You're doing great, Picollo!
+SFX whoosh
+PICOLLO (excited): This is actually kind of fun!
+SFX slam
+SHAKE 0.8
+PICOLLO (surprised): Why did it stop?
+GOKKU (nervous): You drove into a mountain. A small one.
+PICOLLO (angry): The mountain was in the way!
+
+# ------------------------------------------------------------ PLANET NAMECK
+MUSIC romantic
+SCENE planet_nameck
+PLACE picollo center right sad
+PICOLLO (sad): Planet Nameck. So peaceful. No roads. No cars. No red lights.
+PICOLLO (smug): My people never needed to drive. We simply walked. With dignity.
+PICOLLO (angry): And then Gokku showed up, and now I'm parallel parking.
+NARRATOR: Picollo had flown four hundred thousand miles just to complain somewhere quiet.
+PICOLLO (sad): Fine. Back to Earth. Back to the car.
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC action 2
+SCENE gravity_room
+PLACE vegitta center right smug
+PLACE trunkz midleft right nervous
+VEGITTA (smug): Watch, son. I'll show you how a Saiyan prince drives.
+TRUNKZ (nervous): Dad, this is the gravity room. There's no car in here.
+VEGITTA (angry): A true warrior imagines the car!
+TRUNKZ (nervous): And then crashes the imaginary car?
+VEGITTA (smug): Never.
+SFX thud
+VEGITTA (sad): Ow. Imaginary curb.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC tense 2
+SCENE west_city
+CARD The driving test...
+PLACE bulmah center left nervous
+PLACE gokku midleft right excited
+PLACE picollo left right nervous
+BULMAH (nervous): Okay. The examiner just quit. So I'll be your examiner now.
+GOKKU (excited): Great! What do we do?
+BULMAH (smug): Parallel parking. Between those two cars. Don't touch either one.
+PICOLLO (scared): That's impossible.
+GOKKU (excited): Nothing's impossible! I'll use instant transmission!
+BULMAH (angry): No teleporting the car, Gokku!
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC tense 3
+SCENE west_city
+PLACE gokku center right nervous
+PLACE bulmah midright left nervous
+GOKKU (nervous): Okay. Forward. Back. Turn the wheel. Forward again.
+SFX squeak
+GOKKU (nervous): Back. A little more. Little more.
+BULMAH (surprised): You're doing it!
+GOKKU (excited): I'm doing it!
+SFX ding
+BULMAH (excited): Perfect! You pass!
+GOKKU (excited): I got a license! I can drive!
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC sad
+SCENE west_city
+PLACE picollo center right sad
+PLACE bulmah midright left smug
+PICOLLO (sad): My turn. Let me guess. I fail.
+BULMAH (smug): Your car is upside down, Picollo.
+PICOLLO (angry): It was upside down when I got in!
+BULMAH (happy): It was not.
+PICOLLO (sad): Fine. I'll fly. Forever.
+BULMAH (happy): Probably for the best.
+
+# ------------------------------------------------------------ GOKKU'S HOUSE
+MUSIC happy 3
+SCENE gokku_house
+PLACE chee_chee center left happy
+PLACE gohann midright left happy
+ENTER gokku left midleft excited
+GOKKU (excited): Chee-Chee! I passed! I can drive you to the market!
+CHEE_CHEE (happy): Oh, Gokku! I'm so proud of you!
+GOHANN (happy): Way to go, Dad!
+CHEE_CHEE (smug): So where's the car?
+GOKKU (nervous): Bulmah needs it back. I kind of drove it into a lake on the way home.
+CHEE_CHEE (angry): GOKKU!
+GOKKU (happy): Want me to fly you instead?
+END

@@ -1,0 +1,187 @@
+@title Vegitta's Surprise Party
+@series Dragonball Z
+@icon dragonball
+@number 5
+@description It's Vegitta's birthday, and Bulmah is throwing a surprise party. The only problem: Vegitta hates surprises, hates parties and especially hates Gokku in a party hat.
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC sneaky
+SCENE capsool_corp cut
+TITLE
+PLACE bulmah center left excited
+PLACE trunkz midright left nervous
+BULMAH (excited): Trunkz, tomorrow is your father's birthday. We're throwing him a surprise party!
+TRUNKZ (nervous): Mom, Dad doesn't like surprises.
+BULMAH (smug): He doesn't like anything. That's why it's a surprise.
+TRUNKZ (nervous): What if he gets angry and blows up the house?
+BULMAH (happy): I'll make the cake extra big. Nobody blows up a house with cake inside.
+TRUNKZ (sad): Dad would.
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC action
+SCENE gravity_room
+PLACE vegitta center right angry
+VEGITTA (angry): Five hundred times gravity. Another day of training. Another day of getting stronger than Kakarot.
+VEGITTA (smug): Nobody remembers that tomorrow is my birthday. Good. Birthdays are for weaklings.
+SFX thud
+VEGITTA (nervous): Although a cake would be nice. A small one.
+VEGITTA (angry): No! No cake! Only training!
+
+# ------------------------------------------------------------ GOKKU'S HOUSE
+MUSIC happy
+SCENE gokku_house
+PLACE gokku center right excited
+PLACE chee_chee midleft right smug
+PLACE gohann midright left happy
+GOKKU (excited): A party! With cake! For Vegitta!
+CHEE_CHEE (smug): You'll wear a nice shirt. And you'll bring a present.
+GOKKU (nervous): What do you get a guy who only likes fighting?
+GOHANN (happy): Maybe a book? About gardening? He seems stressed.
+GOKKU (excited): I'll give him a fight! The best present ever!
+CHEE_CHEE (angry): No fighting at the party, Gokku!
+
+# ------------------------------------------------------------ KAMEE HOUSE
+MUSIC jazz
+SCENE kamee_house
+PLACE krillen midleft right happy
+PLACE master_roshee midright left smug
+KRILLEN (happy): Master Roshee, we're invited to Vegitta's surprise party.
+MASTER_ROSHEE (smug): Ho ho. I'll bring my famous party trick.
+KRILLEN (nervous): Is it the one where you fall asleep in the punch bowl?
+MASTER_ROSHEE (smug): It's a classic.
+KRILLEN (happy): I'll bring a card. "Happy birthday from the guy you always ignore."
+MASTER_ROSHEE (happy): Very honest.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC sneaky 2
+SCENE the_lookout
+PLACE picollo center left angry
+ENTER gohann left midleft happy
+GOHANN (happy): Mister Picollo, will you come to Vegitta's party?
+PICOLLO (angry): I would rather fight a hundred Freezas.
+GOHANN (smug): There'll be music. And games.
+PICOLLO (angry): Two hundred Freezas.
+GOHANN (sad): I really want you to come.
+PICOLLO (sad): ...Fine. But I'm standing in the corner the whole time.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC happy 2
+SCENE west_city
+PLACE bulmah center left excited
+PLACE chee_chee midright left smug
+BULMAH (excited): Okay, I need balloons, streamers and a cake big enough for Saiyans.
+CHEE_CHEE (smug): Saiyan-sized means at least ten layers. I've fed Gokku for years.
+BULMAH (nervous): Ten layers? The bakery only makes three.
+CHEE_CHEE (happy): Then we'll bake it ourselves. Together.
+BULMAH (surprised): Chee-Chee, you'd help?
+CHEE_CHEE (smug): Somebody has to keep Gokku away from the frosting.
+
+# ------------------------------------------------------------ TIME CHAMBER
+MUSIC tense 3
+SCENE time_chamber
+PLACE gohann center right excited
+PLACE trunkz midleft right nervous
+GOHANN (excited): Trunkz, we have a whole year in here to plan the perfect party game!
+TRUNKZ (nervous): A year to plan one game?
+GOHANN (happy): Pin the tail on the Saiyan!
+TRUNKZ (scared): Dad will destroy us.
+GOHANN (smug): Okay. Musical chairs?
+TRUNKZ (happy): He'd just win by blowing up the other chairs. Perfect.
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC tense
+SCENE capsool_corp
+CARD The next day...
+PLACE bulmah center left nervous
+PLACE gokku midleft right excited
+PLACE krillen left right happy
+PLACE picollo farleft right angry
+PLACE trunkz midright left nervous
+BULMAH (nervous): Everyone hide! He's coming!
+GOKKU (excited): Where do I hide? I'm too big for the couch!
+KRILLEN (happy): Behind the cake!
+PICOLLO (smug): I'm not hiding. I'm standing in the corner.
+TRUNKZ (scared): Here he comes!
+EXIT gokku left 300 &
+EXIT krillen left 300
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC action 2
+SCENE capsool_corp
+PLACE bulmah midright left excited
+PLACE trunkz right left excited
+ENTER vegitta left center neutral
+ENTER gokku left midleft excited 500
+ENTER krillen left left excited 500
+BULMAH (excited): SURPRISE!
+GOKKU (excited): Happy birthday, Vegitta!
+VEGITTA (surprised): What... is this?
+TRUNKZ (nervous): A party, Dad. For you.
+VEGITTA (angry): I hate parties!
+GOKKU (happy): And I got you a present! A fight! Just you and me!
+VEGITTA (excited): ...Okay, that's actually a good present.
+
+# ------------------------------------------------------------ FREEZA'S SHIP
+MUSIC sneaky 3
+SCENE freeza_ship
+PLACE freeza center left angry
+FREEZA (angry): A party? On Earth? And I wasn't invited?
+FREEZA (smug): How very rude. I shall attend anyway. With a gift.
+FREEZA (happy): A lovely planet-sized explosion. Wrapped in a bow.
+NARRATOR: Freeza did not understand birthdays.
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC tense 2
+SCENE capsool_corp
+PLACE vegitta center left happy
+PLACE bulmah midright left happy
+PLACE gokku midleft right happy
+ENTER freeza right right smug
+FREEZA (smug): Happy birthday, Vegitta. I brought a present. It's a bomb.
+BULMAH (angry): Freeza! You can't bring a bomb to a birthday party!
+FREEZA (surprised): Why not?
+GOKKU (angry): Because it's rude!
+FREEZA (sad): Nobody ever tells me these things.
+VEGITTA (angry): Get out of my party!
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC action 3
+SCENE rocky_wasteland
+PLACE vegitta midleft right excited
+PLACE gokku left right excited
+PLACE freeza midright left scared
+VEGITTA (excited): Kakarot! Your present to me: help me throw this bomb as far away as possible!
+GOKKU (excited): Happy birthday, Vegitta!
+SFX blast
+SHAKE 1.2
+FREEZA (scared): My bomb! My lovely bomb!
+VEGITTA (smug): Best birthday ever.
+FREEZA (sad): I'm going home. This planet has no manners.
+EXIT freeza right 700
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC happy 2
+SCENE capsool_corp
+PLACE vegitta center left happy
+PLACE bulmah midright left happy
+PLACE trunkz right left happy
+PLACE gohann midleft right happy
+BULMAH (happy): Okay, everyone. Time for cake!
+GOHANN (excited): Make a wish, Vegitta!
+VEGITTA (smug): I wish to be stronger than Kakarot.
+TRUNKZ (nervous): Dad, you're not supposed to say it out loud.
+VEGITTA (angry): Then it will come true louder!
+SFX sparkle
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC romantic
+SCENE capsool_corp
+PLACE vegitta center left shy
+PLACE bulmah midright left happy
+BULMAH (happy): So? Did you have fun?
+VEGITTA (angry): No.
+BULMAH (smug): You smiled four times.
+VEGITTA (shy): Three times. One was a sneeze.
+BULMAH (happy): Happy birthday, Vegitta.
+VEGITTA (shy): ...Thank you, Bulmah.
+END

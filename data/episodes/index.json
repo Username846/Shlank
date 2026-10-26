@@ -79,6 +79,18 @@
 			"file": "res://data/episodes/dz01_power_level.txt"
 		},
 		{
+			"file": "res://data/episodes/dz02_driving_test.txt"
+		},
+		{
+			"file": "res://data/episodes/dz03_snake_way.txt"
+		},
+		{
+			"file": "res://data/episodes/dz04_cel_show.txt"
+		},
+		{
+			"file": "res://data/episodes/dz05_vegitta_birthday.txt"
+		},
+		{
 			"file": "res://data/episodes/at01_potato.txt"
 		},
 		{

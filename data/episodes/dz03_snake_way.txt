@@ -1,0 +1,142 @@
+@title Lunch on Snake Way
+@series Dragonball Z
+@icon dragonball
+@number 3
+@description Gokku is training on King Kie's planet at the end of Snake Way, and he forgot his lunch. Gohann and Krillen have to deliver it, along a road that's a million miles long.
+
+# ------------------------------------------------------------ GOKKU'S HOUSE
+MUSIC happy
+SCENE gokku_house cut
+TITLE
+PLACE chee_chee center left angry
+PLACE gohann midright left nervous
+CHEE_CHEE (angry): Your father went to train on King Kie's planet and forgot his lunch! Again!
+GOHANN (nervous): He'll be okay, Mom. Dad doesn't need to eat that much.
+CHEE_CHEE (smug): Gohann. Your father eats forty bowls of rice for breakfast.
+GOHANN (sad): Right. He definitely needs it.
+CHEE_CHEE (smug): So you'll take it to him. Bring Krillen. And a very big backpack.
+GOHANN (surprised): Mom, King Kie's planet is at the end of Snake Way! It's a million miles long!
+CHEE_CHEE (happy): Then you'd better leave early!
+
+# ------------------------------------------------------------ KAMEE HOUSE
+MUSIC jazz
+SCENE kamee_house
+PLACE krillen center left happy
+PLACE master_roshee midright left smug
+ENTER gohann left midleft nervous
+GOHANN (nervous): Krillen, can you help me deliver Dad's lunch? On Snake Way?
+KRILLEN (surprised): Snake Way? The road to the Other World? That's for, you know, dead people.
+MASTER_ROSHEE (smug): Ho ho. Just tell the guards you're a delivery service. They love snacks.
+KRILLEN (nervous): Do we need to be dead to go?
+MASTER_ROSHEE (happy): Just a little bit. I'm kidding! Take this pass. I got it in a card game.
+GOHANN (happy): Thanks, Master Roshee!
+
+# ------------------------------------------------------------ KORIN TOWER
+MUSIC tense
+SCENE korin_tower
+ENTER gohann left midleft excited
+ENTER krillen left left nervous
+GOHANN (excited): We fly up past Korin Tower, through the clouds, and then turn left at the Check-In Station.
+KRILLEN (nervous): Left at the Check-In Station. Got it. Gohann, how heavy is that backpack?
+GOHANN (smug): Forty bowls of rice, twelve fish, six roast chickens and a cake.
+KRILLEN (surprised): A cake?
+GOHANN (happy): Mom says Dad needs dessert. For morale.
+
+# ------------------------------------------------------------ SNAKE WAY
+MUSIC happy 2
+SCENE snake_way
+ENTER gohann left midleft happy
+ENTER krillen left left happy
+GOHANN (happy): We made it! Snake Way!
+KRILLEN (surprised): It really does look like a giant snake. A giant, never-ending snake.
+GOHANN (nervous): Dad said it took him six months to run all the way.
+KRILLEN (scared): Six months?! I only brought one sandwich!
+GOHANN (smug): We can fly, Krillen. It'll only take a few days.
+KRILLEN (sad): That's still a lot of days for one sandwich.
+
+# ------------------------------------------------------------ CAPSOOL CORP
+MUSIC sneaky
+SCENE capsool_corp
+PLACE bulmah center left excited
+PLACE trunkz midright left nervous
+BULMAH (excited): A delivery to Snake Way? I've got just the thing! The Capsool Express Drone!
+TRUNKZ (nervous): Mom, the last drone exploded.
+BULMAH (smug): That was the old one. This one only explodes sometimes.
+TRUNKZ (nervous): Should we send it after them?
+BULMAH (excited): Absolutely! What could go wrong?
+SFX blast
+TRUNKZ (sad): That.
+
+# ------------------------------------------------------------ SNAKE WAY
+MUSIC action
+SCENE snake_way
+PLACE gohann midleft right sad
+PLACE krillen left right sad
+CARD Two days later...
+GOHANN (sad): Krillen, I'm so hungry.
+KRILLEN (sad): I ate my sandwich on the first day. Then I ate the wrapper.
+GOHANN (nervous): Maybe we could eat just one bowl of Dad's rice?
+KRILLEN (excited): Just one!
+NARRATOR: They ate one bowl. Then another. Then a fish. Then most of a chicken.
+GOHANN (scared): Krillen! There's only half the lunch left!
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC jazz 2
+SCENE the_lookout
+PLACE picollo center left smug
+PICOLLO (smug): Hmph. I can sense them from here. Gohann and Krillen. On Snake Way.
+PICOLLO (surprised): And they're eating the lunch. Of course they are.
+PICOLLO (smug): Fine. I'll make them a new one. Namekians don't eat, but I know how to cook.
+NARRATOR: Picollo had never cooked anything in his life.
+
+# ------------------------------------------------------------ KING KIE'S PLANET
+MUSIC tense 2
+SCENE kie_planet
+PLACE gokku center right sad
+GOKKU (sad): So... hungry. Can't train. Can't... think.
+GOKKU (nervous): King Kie told me a joke to cheer me up. It was about a tree. I didn't get it.
+GOKKU (sad): If I don't eat soon, I might have to eat the monkey's bananas.
+NARRATOR: The monkey, Bubbles, looked very worried.
+
+# ------------------------------------------------------------ SNAKE WAY
+MUSIC sad
+SCENE snake_way
+PLACE gohann center right sad
+PLACE krillen midleft right sad
+GOHANN (sad): Dad's going to be so disappointed. We ate most of his lunch.
+KRILLEN (nervous): Maybe he won't notice?
+GOHANN (smug): Krillen, there's only a cake and three grains of rice left.
+ENTER picollo left left smug 500
+PICOLLO (smug): You two are hopeless. Here. I made more food.
+KRILLEN (surprised): Picollo! You cooked?
+PICOLLO (nervous): I made... a soup. Of some kind. It's purple.
+GOHANN (happy): Thanks, Mister Picollo!
+
+# ------------------------------------------------------------ KING KIE'S PLANET
+MUSIC happy 3
+SCENE kie_planet
+PLACE gokku center right sad
+ENTER gohann left midleft excited 500
+ENTER krillen left left excited 500
+ENTER picollo left farleft smug 500
+GOHANN (excited): Dad! We brought lunch!
+GOKKU (excited): Food! Gohann, you're the best son in the universe!
+KRILLEN (nervous): Um. Some of it is a purple soup from Picollo.
+GOKKU (happy): I'll eat anything!
+SFX chomp
+GOKKU (surprised): Wow. That's... very purple.
+PICOLLO (smug): You're welcome.
+
+# ------------------------------------------------------------ KING KIE'S PLANET
+MUSIC romantic
+SCENE kie_planet
+PLACE gokku center right happy
+PLACE gohann midleft right happy
+GOKKU (happy): Thanks for coming all this way, Gohann. Snake Way is really long.
+GOHANN (shy): It was kind of fun. Krillen and I sang songs.
+GOKKU (excited): Hey, want to hear King Kie's tree joke?
+GOHANN (nervous): Sure.
+GOKKU (happy): Why did the tree go to school? I don't remember the rest. But it's really funny.
+GOHANN (happy): Dad, that's not a joke.
+GOKKU (excited): Then let's eat the cake!
+END
