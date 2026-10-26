@@ -1,0 +1,123 @@
+{
+	"spongebert": {
+		"name": "SpongeBert",
+		"style": "sponge",
+		"color": "#f6df4c",
+		"width": 78,
+		"bio": "An endlessly cheerful fry cook who lives in a pineapple and loves his job more than anything in the ocean.",
+		"catchphrase": "I'm ready! I'm ready! I'm ready!",
+		"voice": {
+			"pitch": 1.75,
+			"rate": 1.25,
+			"babble": 520,
+			"prefer": [
+				"zira",
+				"samantha",
+				"aria",
+				"jenny",
+				"female",
+				"google us english"
+			]
+		}
+	},
+	"pat": {
+		"name": "Pat Starfish",
+		"style": "starfish",
+		"color": "#f7a1b4",
+		"width": 80,
+		"bio": "SpongeBert's best friend. Lives under a rock. Thinks very hard about things, occasionally.",
+		"catchphrase": "Is mayonnaise an instrument?",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.95,
+			"babble": 190,
+			"prefer": [
+				"david",
+				"guy",
+				"fred",
+				"alex",
+				"male",
+				"google uk english male"
+			]
+		}
+	},
+	"squidwerd": {
+		"name": "Squidwerd",
+		"style": "squid",
+		"color": "#a4d4c8",
+		"width": 66,
+		"bio": "A grumpy cashier and self-declared artistic genius who just wants some peace and quiet for his clarinet.",
+		"catchphrase": "I'm surrounded by idiots.",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 1.0,
+			"babble": 150,
+			"prefer": [
+				"daniel",
+				"george",
+				"ryan",
+				"uk english male",
+				"male"
+			]
+		}
+	},
+	"mr_crabs": {
+		"name": "Mr. Crabs",
+		"style": "crab",
+		"color": "#e6452f",
+		"width": 90,
+		"bio": "Owner of the Krusty Crab. A retired sea captain whose one true love is money. Argh!",
+		"catchphrase": "Argh! That's me money!",
+		"voice": {
+			"pitch": 0.45,
+			"rate": 1.1,
+			"babble": 120,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male",
+				"google us english"
+			]
+		}
+	},
+	"sandy": {
+		"name": "Sandy Acorn",
+		"style": "squirrel",
+		"color": "#b26b3c",
+		"width": 70,
+		"bio": "A karate-chopping scientist squirrel from Texas who lives under the sea in an air-filled dome.",
+		"catchphrase": "Yee-haw! Science!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.15,
+			"babble": 380,
+			"prefer": [
+				"susan",
+				"karen",
+				"hazel",
+				"moira",
+				"female",
+				"google uk english female"
+			]
+		}
+	},
+	"narrator": {
+		"name": "Narrator",
+		"style": "none",
+		"color": "#ffe08a",
+		"bio": "A fancy voice from somewhere above the waves.",
+		"catchphrase": "Ah, Bikini Bottom.",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 1.0,
+			"babble": 230,
+			"prefer": [
+				"thomas",
+				"daniel",
+				"uk english male",
+				"male"
+			]
+		}
+	}
+}

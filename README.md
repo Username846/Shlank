@@ -1,0 +1,138 @@
+# Shlank — Cartoon Theater
+
+A Godot 4.7.2 "movie" game: you build characters, locations and scripted
+episodes, and the player sits back and watches them play out like a cartoon.
+Everything is drawn with code in a 2D Flash-cartoon style (flat colours, bold
+ink outlines, cel shading, tweened "puppet" animation), and every line of
+dialogue is voiced with a speech synthesizer.
+
+**Play it in your browser:** `https://username846.github.io/Shlank/`
+(published automatically by GitHub Actions on every push to `main`; see
+*Deploying* below for the one-time setup).
+
+## What's in it
+
+- **5 test characters** (SpongeBob parodies): SpongeBert, Pat Starfish,
+  Squidwerd, Mr. Crabs and Sandy Acorn. Each one blinks, lip-flaps while
+  talking, walks, hops, holds props, and has 8 emotions (neutral, happy, sad,
+  angry, surprised, scared, smug, excited).
+- **10 animated locations**: SpongeBert's Pineapple, Pat's Rock, Squidwerd's
+  Head House, The Krusty Crab, Krusty Crab Kitchen, Sandy's Treedome,
+  Jellyfish Fields, Goo Lagoon, The Chum Bucket and Boating School.
+- **Episode 1: "The Golden Spatula"**, about 5 minutes, using every character
+  and location.
+- **Synthesized voices.** Dialogue is spoken with the browser's text-to-speech
+  voices, and each character has their own pitch, speed and preferred voices.
+  If the browser has no speech voices, it falls back to a synthesized
+  "cartoon babble". The music and sound effects are synthesized live too.
+- Menus to meet the cast (preview emotions, props and voices), browse
+  locations, and change settings (voice mode, subtitles, volume).
+
+Controls while watching: **Space** pauses, **→ / Enter / click** skips the
+current line, and **Esc** opens the pause menu.
+
+## Writing episodes
+
+Episodes are plain-text screenplays in `data/episodes/`. Each one is listed in
+`data/episodes/index.json`. Example:
+
+```
+@title The Golden Spatula
+@number 1
+@description One-line blurb for the episode list.
+
+MUSIC happy
+SCENE pineapple_house cut
+TITLE
+NARRATOR: Ah, Bikini Bottom.
+ENTER spongebert left center
+SPONGEBERT (excited): Today's the Krusty Crab Patty Cook-Off!
+CLOSE spongebert
+SPONGEBERT (scared): It's gone!
+WIDE
+RUN spongebert offright
+```
+
+**Dialogue:** `NAME (emotion): text`. `NAME` is a character id or name
+(`SPONGEBERT`, `PAT`, `MR_CRABS`, `SANDY`, `SQUIDWERD`, `NARRATOR`). The
+emotion is optional and stays until it's changed.
+
+**Positions** are pixel x values (0–1280) or the named spots `offleft`,
+`farleft`, `left`, `midleft`, `center`, `midright`, `right`, `farright`,
+`offright`.
+
+| Command | What it does |
+|---|---|
+| `SCENE <location> [cut]` | Changes the set (bubble-wipe transition, or a hard `cut`) and clears the stage |
+| `PLACE <who> <pos> [left\|right]` | Puts a character on stage instantly |
+| `ENTER <who> <left\|right> <pos> [speed]` | Walks on from that side |
+| `EXIT <who> <left\|right> [speed]` | Walks off stage |
+| `MOVE <who> <pos> [speed]` / `RUN <who> <pos>` | Walks or runs to a position |
+| `FACE <who> <left\|right\|other-character>` | Turns around |
+| `EMOTE <who> <emotion>` | Changes expression |
+| `HOLD <who> <prop\|none>` | Props: `golden_spatula`, `spatula`, `patty`, `net`, `clarinet`, `detector`, `money` |
+| `JUMP <who>` | Hop with a boing |
+| `CLOSE <who>` / `MEDIUM <who>` / `WIDE` | Camera shots |
+| `SHAKE [secs]` | Camera shake |
+| `WAIT <secs>` | Pause |
+| `SFX <name>` | `bubbles pop boing beep detector detector_crazy clarinet squeak slam sting splat sizzle ding cash fanfare wahwah drumroll whoosh gasp chomp sparkle` |
+| `MUSIC <happy\|tense\|sad\|sneaky\|off>` | Background music mood |
+| `CARD <text>` | Full-screen title card read by the narrator ("Ten minutes later...") |
+| `TITLE` | Episode title card |
+| `END [text]` | Closing card |
+
+Adding `&` to the end of `ENTER`, `EXIT`, `MOVE` or `RUN` lets the next
+command start straight away, so several characters can walk at once.
+Lines starting with `#` are comments.
+
+### Adding characters and locations
+
+- Characters live in `data/characters.json`: name, colour, bio, catchphrase
+  and voice (`pitch`, `rate`, babble frequency, and a `prefer` list of
+  speech-voice name keywords). Each `style` is drawn by a function in
+  `scripts/puppet.gd`.
+- Locations live in `data/locations.json`, and each is drawn by a function in
+  `scripts/backdrop.gd`.
+
+## Project layout
+
+```
+project.godot            Godot 4.7.2 project (GL Compatibility renderer, for the web)
+scenes/main.tscn         Entry scene
+scripts/main.gd          Menus: episodes, cast, locations, settings
+scripts/episode_player.gd  Runs an episode: staging, camera, voices, subtitles
+scripts/episode_script.gd  Parser for the screenplay format
+scripts/puppet.gd        Vector-drawn animated characters
+scripts/backdrop.gd      Vector-drawn animated locations
+scripts/art.gd           Flash-style drawing helpers (outlines, cel shading)
+scripts/game.gd          Autoload: data, settings, text-to-speech voices
+scripts/synth.gd         Autoload: synthesized music, SFX and babble voice
+scripts/ui/              Theme, bubble-wipe transition, title cards
+data/                    Characters, locations, episodes
+tools/snapshot.gd        Dev tool that renders screens and episodes to PNGs
+```
+
+## Running locally
+
+Open the folder in Godot 4.7.2 and press Play. To build the web version:
+
+```
+godot --headless --export-release "Web" build/web/index.html
+```
+
+The export uses the single-threaded web template, so it runs on plain static
+hosting like GitHub Pages without special headers.
+
+## Deploying
+
+`.github/workflows/deploy.yml` downloads Godot 4.7.2, exports the web build
+and publishes it to GitHub Pages on every push to `main`. One-time setup: in
+the repository go to **Settings → Pages** and set **Source** to
+**GitHub Actions**.
+
+## Credits
+
+Fonts: [Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy) and
+[Fredoka](https://fonts.google.com/specimen/Fredoka), both under the SIL Open
+Font License. Characters and locations are affectionate parodies made for
+testing.

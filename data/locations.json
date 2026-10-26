@@ -1,0 +1,12 @@
+{
+	"pineapple_house": {"name": "SpongeBert's Pineapple", "description": "A two-story pineapple with a round door and a snail-sized mailbox."},
+	"pat_rock": {"name": "Pat's Rock", "description": "A rock. Pat lives under it. There is a weathervane."},
+	"squidwerd_house": {"name": "Squidwerd's Head House", "description": "A stone head with very judgemental eyebrows."},
+	"krusty_crab": {"name": "The Krusty Crab", "description": "The finest (only) lobster-trap restaurant in town."},
+	"krusty_kitchen": {"name": "Krusty Crab Kitchen", "description": "Where the magic (grease) happens."},
+	"treedome": {"name": "Sandy's Treedome", "description": "An air-filled glass dome with an oak tree inside. Bring a water helmet."},
+	"jellyfish_fields": {"name": "Jellyfish Fields", "description": "Rolling green hills full of buzzing pink jellyfish."},
+	"goo_lagoon": {"name": "Goo Lagoon", "description": "Bikini Bottom's favourite beach. Mind the goo."},
+	"chum_bucket": {"name": "The Chum Bucket", "description": "A gloomy metal bucket of a restaurant across the street. Usually empty."},
+	"boating_school": {"name": "Boating School", "description": "Where everyone learns to drive a boat. Some take longer than others."}
+}

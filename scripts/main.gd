@@ -1,0 +1,359 @@
+extends Node
+## App shell: menus (episodes, cast, locations, settings) and the episode player.
+
+const LOCATION_ORDER := ["pineapple_house", "pat_rock", "squidwerd_house", "krusty_crab", "krusty_kitchen",
+	"treedome", "jellyfish_fields", "goo_lagoon", "chum_bucket", "boating_school"]
+const CAST_ORDER := ["spongebert", "pat", "squidwerd", "mr_crabs", "sandy"]
+
+var _screen: Node
+var _theme: Theme
+var _episodes: Array = []  # [{path, script}]
+
+
+func _ready() -> void:
+	_theme = UiKit.make_theme()
+	for e in Game.episodes:
+		var path := String(e.get("file", ""))
+		var sc := EpisodeScript.parse(Game.load_text(path), Game.characters)
+		for err in sc.errors:
+			push_warning("%s: %s" % [path, err])
+		_episodes.append({"path": path, "script": sc})
+	show_menu()
+
+
+func _set_screen(n: Node) -> void:
+	if _screen:
+		_screen.queue_free()
+	Game.stop_speaking()
+	_screen = n
+	add_child(n)
+
+
+func _screen_root(location: String) -> Control:
+	var root := Control.new()
+	root.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	root.theme = _theme
+	var bd := Backdrop.new()
+	bd.set_location(location)
+	root.add_child(bd)
+	root.set_meta("backdrop", bd)
+	return root
+
+
+func _back_button(root: Control) -> void:
+	var b := UiKit.button("< BACK", UiKit.PINK, 24)
+	b.position = Vector2(20, 18)
+	b.pressed.connect(show_menu)
+	root.add_child(b)
+
+
+# ----------------------------------------------------------------- menu --
+
+func show_menu() -> void:
+	Synth.set_mood("happy")
+	var root := _screen_root("pineapple_house")
+	_set_screen(root)
+	var xs := [170.0, 330.0, 950.0, 1110.0, 1230.0]
+	var faces := [1, 1, -1, -1, -1]
+	for i in CAST_ORDER.size():
+		var p := Puppet.new()
+		p.setup(CAST_ORDER[i], Game.characters[CAST_ORDER[i]])
+		p.position = Vector2(xs[i], 690)
+		p.facing = faces[i]
+		p.size_scale = 0.8
+		root.add_child(p)
+		_menu_idle(p)
+	var logo := UiKit.title_label("SHLANK", 140, UiKit.YELLOW)
+	logo.position = Vector2(390, 30)
+	logo.size = Vector2(500, 160)
+	logo.pivot_offset = Vector2(250, 80)
+	root.add_child(logo)
+	var tw := logo.create_tween().set_loops()
+	tw.tween_property(logo, "rotation", 0.03, 1.2).set_trans(Tween.TRANS_SINE)
+	tw.tween_property(logo, "rotation", -0.03, 1.2).set_trans(Tween.TRANS_SINE)
+	var sub := UiKit.title_label("CARTOON THEATER", 34, Color.WHITE)
+	sub.position = Vector2(390, 180)
+	sub.size = Vector2(500, 50)
+	root.add_child(sub)
+	var box := VBoxContainer.new()
+	box.position = Vector2(470, 250)
+	box.size = Vector2(340, 300)
+	box.add_theme_constant_override("separation", 14)
+	root.add_child(box)
+	for b in [["WATCH EPISODES", UiKit.YELLOW, show_episodes], ["MEET THE CAST", UiKit.PINK, show_cast],
+			["LOCATIONS", UiKit.TEAL, show_locations], ["SETTINGS", Color("b48be0"), show_settings]]:
+		var btn := UiKit.button(b[0], b[1], 30)
+		btn.custom_minimum_size = Vector2(340, 66)
+		btn.pressed.connect(b[2])
+		box.add_child(btn)
+	var hint := UiKit.label("Voices use your browser's speech synthesizer.", 18, Color.WHITE)
+	hint.add_theme_constant_override("outline_size", 5)
+	hint.add_theme_color_override("font_outline_color", Art.INK)
+	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	hint.position = Vector2(340, 560)
+	hint.size = Vector2(600, 30)
+	root.add_child(hint)
+
+
+## Little idle behaviours for the menu crowd.
+func _menu_idle(p: Puppet) -> void:
+	var tw := p.create_tween().set_loops()
+	tw.tween_interval(randf_range(2.0, 5.0))
+	tw.tween_callback(func() -> void:
+		p.set_emotion(["happy", "neutral", "excited", "smug", "surprised"].pick_random()))
+	tw.tween_interval(randf_range(2.0, 4.0))
+	tw.tween_callback(func() -> void: p.set_emotion("neutral"))
+
+
+# ------------------------------------------------------------- episodes --
+
+func show_episodes() -> void:
+	var root := _screen_root("krusty_crab")
+	_set_screen(root)
+	_back_button(root)
+	var title := UiKit.title_label("EPISODES", 72)
+	title.position = Vector2(0, 30)
+	title.size = Vector2(1280, 90)
+	root.add_child(title)
+	var list := VBoxContainer.new()
+	list.position = Vector2(240, 150)
+	list.size = Vector2(800, 400)
+	list.add_theme_constant_override("separation", 16)
+	root.add_child(list)
+	for e in _episodes:
+		var sc: EpisodeScript = e.script
+		var card := PanelContainer.new()
+		list.add_child(card)
+		var hb := HBoxContainer.new()
+		hb.add_theme_constant_override("separation", 18)
+		card.add_child(hb)
+		var badge := UiKit.title_label(str(sc.number), 64, UiKit.YELLOW)
+		badge.custom_minimum_size = Vector2(80, 0)
+		hb.add_child(badge)
+		var vb := VBoxContainer.new()
+		vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		hb.add_child(vb)
+		var t := UiKit.title_label(sc.title.to_upper(), 34, UiKit.RED)
+		t.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		vb.add_child(t)
+		var d := UiKit.label(sc.description, 20)
+		d.custom_minimum_size = Vector2(480, 0)
+		vb.add_child(d)
+		var cast := {}
+		for c in sc.commands:
+			if c.has("who") and c.who != "" and c.who != "narrator":
+				cast[Game.characters.get(c.who, {}).get("name", c.who)] = true
+		var meta := UiKit.label("Runtime ~%s  •  %d lines  •  Starring %s" % [UiKit.fmt_time(sc.estimate_duration()),
+			sc.commands.filter(func(c): return c.type == "say").size(), ", ".join(cast.keys())], 16, Color(0.3, 0.3, 0.35))
+		vb.add_child(meta)
+		var play := UiKit.button("PLAY", UiKit.YELLOW, 34)
+		play.custom_minimum_size = Vector2(150, 80)
+		play.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		play.pressed.connect(func() -> void: play_episode(sc))
+		hb.add_child(play)
+	var more := UiKit.label("More episodes coming soon! Episodes are plain-text scripts in data/episodes/.", 18, Color.WHITE)
+	more.add_theme_constant_override("outline_size", 5)
+	more.add_theme_color_override("font_outline_color", Art.INK)
+	more.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	more.position = Vector2(140, 640)
+	more.size = Vector2(1000, 30)
+	root.add_child(more)
+
+
+func play_episode(sc: EpisodeScript) -> void:
+	Synth.set_mood("off")
+	var player := EpisodePlayer.new()
+	_set_screen(player)
+	player.exited.connect(show_episodes)
+	player.play(sc)
+
+
+# ----------------------------------------------------------------- cast --
+
+func show_cast(index: int = 0) -> void:
+	var root := _screen_root(["pineapple_house", "pat_rock", "squidwerd_house", "krusty_crab", "treedome"][index])
+	_set_screen(root)
+	_back_button(root)
+	var id: String = CAST_ORDER[index]
+	var cdata: Dictionary = Game.characters[id]
+	var p := Puppet.new()
+	p.setup(id, cdata)
+	p.position = Vector2(400, 650)
+	p.size_scale = 1.35
+	root.add_child(p)
+	var panel := PanelContainer.new()
+	panel.position = Vector2(700, 110)
+	panel.custom_minimum_size = Vector2(520, 0)
+	root.add_child(panel)
+	var vb := VBoxContainer.new()
+	vb.add_theme_constant_override("separation", 10)
+	panel.add_child(vb)
+	var name_l := UiKit.title_label(String(cdata.name).to_upper(), 48, Game.char_color(id))
+	name_l.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+	vb.add_child(name_l)
+	var bio := UiKit.label(String(cdata.get("bio", "")), 22)
+	bio.custom_minimum_size = Vector2(480, 0)
+	vb.add_child(bio)
+	var quote := UiKit.label("\"%s\"" % cdata.get("catchphrase", ""), 22, Color(0.35, 0.2, 0.45))
+	quote.custom_minimum_size = Vector2(480, 0)
+	vb.add_child(quote)
+	var voice_name := Game.voice_name_for(id)
+	var vl := UiKit.label("Voice: %s" % (voice_name if voice_name != "" else "synth babble"), 16, Color(0.35, 0.35, 0.4))
+	vb.add_child(vl)
+	var say := UiKit.button("HEAR VOICE", UiKit.YELLOW, 26)
+	say.pressed.connect(func() -> void: _cast_say(p, String(cdata.get("catchphrase", "Hello!"))))
+	vb.add_child(say)
+	var emo := HFlowContainer.new()
+	emo.add_theme_constant_override("h_separation", 8)
+	emo.add_theme_constant_override("v_separation", 8)
+	vb.add_child(emo)
+	for e in Puppet.EMOTIONS:
+		var b := UiKit.button(e.to_upper(), Color.WHITE, 16)
+		b.pressed.connect(func() -> void: p.set_emotion(e))
+		emo.add_child(b)
+	var props := HFlowContainer.new()
+	props.add_theme_constant_override("h_separation", 8)
+	vb.add_child(props)
+	for pr in ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money"]:
+		var b := UiKit.button(pr.replace("_", " ").to_upper(), Color("dff1fb"), 14)
+		b.pressed.connect(func() -> void: p.held = "" if pr == "none" else pr)
+		props.add_child(b)
+	_arrows(root, func(d: int) -> void: show_cast(posmod(index + d, CAST_ORDER.size())))
+	var walk := UiKit.button("WALK", UiKit.TEAL, 20)
+	walk.position = Vector2(330, 670)
+	walk.pressed.connect(func() -> void:
+		p.walk_to(560.0 if p.position.x < 450.0 else 260.0, 200.0))
+	root.add_child(walk)
+
+
+func _cast_say(p: Puppet, text: String) -> void:
+	var est := Game.speak(p.id, text)
+	var mode := Game.effective_voice_mode()
+	p.talking = true
+	var t := 0.0
+	var started := false
+	while is_instance_valid(p):
+		await get_tree().process_frame
+		if not is_instance_valid(p):
+			return
+		t += get_process_delta_time()
+		var sp := Game.is_speaking()
+		started = started or sp
+		if mode == "tts" and started:
+			p.talking = sp
+			if not sp:
+				break
+		elif t >= est:
+			break
+		if t > est * 3.0 + 3.0:
+			break
+	if is_instance_valid(p):
+		p.talking = false
+
+
+func _arrows(root: Control, cb: Callable) -> void:
+	var l := UiKit.button("<", Color.WHITE, 40)
+	l.position = Vector2(20, 320)
+	l.pressed.connect(cb.bind(-1))
+	root.add_child(l)
+	var r := UiKit.button(">", Color.WHITE, 40)
+	r.position = Vector2(1200, 320)
+	r.pressed.connect(cb.bind(1))
+	root.add_child(r)
+
+
+# ------------------------------------------------------------ locations --
+
+func show_locations(index: int = 0) -> void:
+	var id: String = LOCATION_ORDER[index]
+	var root := _screen_root(id)
+	_set_screen(root)
+	_back_button(root)
+	var loc: Dictionary = Game.locations.get(id, {})
+	var panel := PanelContainer.new()
+	panel.position = Vector2(290, 600)
+	panel.custom_minimum_size = Vector2(700, 0)
+	root.add_child(panel)
+	var vb := VBoxContainer.new()
+	panel.add_child(vb)
+	var t := UiKit.title_label("%d/%d  %s" % [index + 1, LOCATION_ORDER.size(), String(loc.get("name", id)).to_upper()], 32, UiKit.RED)
+	vb.add_child(t)
+	var d := UiKit.label(String(loc.get("description", "")), 20)
+	d.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	vb.add_child(d)
+	_arrows(root, func(dd: int) -> void: show_locations(posmod(index + dd, LOCATION_ORDER.size())))
+
+
+# ------------------------------------------------------------- settings --
+
+func show_settings() -> void:
+	var root := _screen_root("treedome")
+	_set_screen(root)
+	_back_button(root)
+	Game.refresh_voices()
+	var panel := PanelContainer.new()
+	panel.position = Vector2(340, 90)
+	panel.custom_minimum_size = Vector2(600, 0)
+	root.add_child(panel)
+	var vb := VBoxContainer.new()
+	vb.add_theme_constant_override("separation", 14)
+	panel.add_child(vb)
+	vb.add_child(UiKit.title_label("SETTINGS", 54, UiKit.BLUE))
+
+	var modes := ["auto", "tts", "babble", "silent"]
+	var mode_names := ["Auto (speech if available)", "Speech synthesizer", "Cartoon babble", "Silent (subtitles only)"]
+	var opt := OptionButton.new()
+	for i in modes.size():
+		opt.add_item(mode_names[i], i)
+	opt.selected = maxi(modes.find(Game.voice_mode), 0)
+	opt.item_selected.connect(func(i: int) -> void:
+		Game.voice_mode = modes[i]
+		Game.save_settings())
+	vb.add_child(_row("Voices", opt))
+
+	var subs := CheckButton.new()
+	subs.button_pressed = Game.subtitles
+	subs.toggled.connect(func(on: bool) -> void:
+		Game.subtitles = on
+		Game.save_settings())
+	vb.add_child(_row("Subtitles", subs))
+
+	vb.add_child(_row("Music", _slider(Game.music_volume, func(v: float) -> void:
+		Game.music_volume = v
+		Game.save_settings())))
+	vb.add_child(_row("Voice volume", _slider(Game.voice_volume, func(v: float) -> void:
+		Game.voice_volume = v
+		Game.save_settings())))
+
+	var n := Game._tts_voices.size()
+	var info := UiKit.label("Speech voices found in this browser: %d" % n if n > 0 else
+		"No speech voices found in this browser yet - using cartoon babble. (Some browsers load voices after the first click; reopen this page to re-check.)", 18, Color(0.3, 0.3, 0.35))
+	info.custom_minimum_size = Vector2(540, 0)
+	vb.add_child(info)
+	var test := UiKit.button("TEST VOICES", UiKit.YELLOW, 26)
+	test.pressed.connect(func() -> void:
+		Game.refresh_voices()
+		Game.speak("narrator", "Ah, Bikini Bottom. Testing, one, two, three."))
+	vb.add_child(test)
+
+
+func _row(text: String, ctrl: Control) -> HBoxContainer:
+	var hb := HBoxContainer.new()
+	var l := UiKit.label(text, 24)
+	l.custom_minimum_size = Vector2(200, 0)
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	hb.add_child(l)
+	ctrl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	hb.add_child(ctrl)
+	return hb
+
+
+func _slider(value: float, cb: Callable) -> HSlider:
+	var s := HSlider.new()
+	s.min_value = 0.0
+	s.max_value = 1.0
+	s.step = 0.05
+	s.value = value
+	s.custom_minimum_size = Vector2(300, 30)
+	s.value_changed.connect(cb)
+	return s
