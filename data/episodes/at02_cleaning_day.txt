@@ -1,0 +1,179 @@
+@title Inspection Day
+@series Attack on Titan
+@icon wings
+@number 2
+@description Captain Levee announces a surprise inspection of Scout HQ. Everything must be spotless by sundown. Unfortunately, a very muddy Titan has other plans.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq cut
+TITLE
+PLACE levee center left angry
+PLACE erren midleft right nervous
+PLACE mikasah left right neutral
+PLACE armen midright left nervous
+LEVEE (angry): Listen up. At sundown, I inspect this castle. Every room. Every corner. Every speck of dust.
+ERREN (nervous): Captain, shouldn't we be training to fight Titans?
+LEVEE (angry): Dust is the enemy, Jaeger. Dust is everywhere. Dust never sleeps.
+ARMEN (nervous): Sir, what happens if we fail the inspection?
+LEVEE (smug): You'll clean it again. With a toothbrush. Your own toothbrush.
+MIKASAH: Understood, Captain.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC happy
+SCENE mess_hall
+PLACE sascha center left nervous
+PLACE konny midright left happy
+SASCHA (nervous): Konny, Captain Levee is going to inspect the kitchen. And there are crumbs everywhere.
+KONNY (happy): Easy! We'll eat the crumbs!
+SASCHA (excited): Konny, that's brilliant!
+SFX chomp
+KONNY (surprised): Sascha, that's not a crumb. That's a whole loaf.
+SASCHA (shy): It was a very big crumb.
+
+# ------------------------------------------------------------ STABLES
+MUSIC jazz
+SCENE stables
+PLACE jeen center left angry
+PLACE rayner midright left happy
+JEEN (angry): Why do I always get the stables? It smells like a horse exploded in here.
+RAYNER (happy): Because you're good with horses, Jeen.
+JEEN (smug): I'm good with everything. That's my problem.
+RAYNER (happy): Grab a shovel. I'll take the left side.
+JEEN (sad): Fine. But I want it on the record that I'm a hero.
+RAYNER (smug): Noted.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC sneaky
+SCENE training_grounds
+PLACE hanjee center left excited
+PLACE armen midleft right nervous
+HANJEE (excited): Armen! I need your help. Potato Pete got out of his pen.
+ARMEN (scared): The Grinning Titan? Is loose? On inspection day?
+HANJEE (happy): He's very friendly! Just very, very muddy. He found the pig pond.
+ARMEN (nervous): Where is he now?
+HANJEE (nervous): Last I saw, he was heading toward the castle. To say hello.
+ARMEN (scared): Captain Levee is going to lose his mind.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC action
+SCENE scout_hq
+PLACE erren center right excited
+PLACE mikasah midleft right neutral
+ERREN (excited): The main hall is done! I scrubbed it so hard I could see my reflection!
+MIKASAH (happy): It's very clean, Erren.
+SFX thud
+SHAKE 0.6
+ERREN (surprised): What was that?
+SFX thud
+SHAKE 0.8
+MIKASAH (nervous): Something big is walking toward the front door.
+ENTER grinning_titan right right happy
+GRINNING_TITAN (happy): Hehehe!
+ERREN (scared): Muddy footprints! On my clean floor!
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense 2
+SCENE scout_hq
+PLACE grinning_titan midright left happy
+PLACE erren midleft right angry
+PLACE mikasah left right neutral
+ERREN (angry): Out! Out! Shoo!
+GRINNING_TITAN (happy): Hehe?
+MIKASAH: Erren. He thinks you're playing.
+ERREN (angry): I'm not playing! I'm furious!
+GRINNING_TITAN (excited): Hehehehe!
+SFX splat
+ERREN (sad): He shook himself off. Like a dog. There's mud on the ceiling now.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC action 2
+SCENE mess_hall
+PLACE sascha midleft right excited
+PLACE konny center left nervous
+ENTER armen right right scared
+ARMEN (scared): Sascha! We need to lure Potato Pete away from the castle before Captain Levee sees!
+SASCHA (excited): Lure him with what?
+ARMEN (nervous): Potatoes. All of them.
+SASCHA (sad): All of them?
+KONNY (smug): Sascha, it's for the mission.
+SASCHA (sad): Goodbye, my beautiful potatoes.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC happy 2
+SCENE titan_plains
+PLACE grinning_titan center left happy
+ENTER sascha left midleft nervous
+ENTER konny left left nervous
+SASCHA (nervous): Here, Potato Pete! Potatoes! Lots of potatoes!
+GRINNING_TITAN (excited): Hehehe!
+KONNY (excited): It's working! He's following the potato trail!
+SASCHA (sad): And eating the potato trail.
+GRINNING_TITAN (happy): Hehe.
+KONNY (happy): He looks so happy, Sascha.
+
+# ------------------------------------------------------------ ROOFTOPS
+MUSIC action 3
+SCENE rooftops
+ENTER jeen left midleft excited 600
+ENTER rayner left left excited 600
+SFX sword
+JEEN (excited): The castle's roof gutters! Nobody's cleaned them in a hundred years!
+RAYNER (nervous): Jeen, Captain Levee doesn't inspect the roof.
+JEEN (smug): Captain Levee inspects everything. He has a ladder. I've seen it.
+RAYNER (surprised): He has a special inspection ladder?
+JEEN (happy): It's very clean.
+RAYNER (sad): Of course it is.
+
+# ------------------------------------------------------------ WALL GATE
+MUSIC sneaky 2
+SCENE wall_gate
+PLACE irwin center left neutral
+ENTER levee right midright smug
+IRWIN: Captain. Ready for your inspection?
+LEVEE (smug): Always. I've been waiting all week for this.
+IRWIN (smug): You enjoy inspecting far too much, Levee.
+LEVEE (happy): It's the only thing I enjoy.
+IRWIN (surprised): You just smiled.
+LEVEE (angry): I did not.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq
+CARD Sundown...
+PLACE erren midleft right nervous
+PLACE mikasah left right neutral
+PLACE armen center left nervous
+ENTER levee right midright neutral
+LEVEE (neutral): Let's see. Main hall.
+ERREN (nervous): We cleaned it, sir. Twice. Okay, three times.
+LEVEE (surprised): There's... a footprint on the ceiling.
+ARMEN (nervous): Sir, I can explain. It's a long story involving a Titan, a pig pond and some potatoes.
+LEVEE (angry): A Titan was in my castle?
+MIKASAH: He wanted to say hello.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC sad
+SCENE scout_hq
+PLACE levee center left smug
+PLACE erren midleft right sad
+PLACE armen midright left nervous
+LEVEE (smug): You failed the inspection.
+ERREN (sad): Toothbrushes?
+LEVEE (smug): Toothbrushes. But first, one question.
+ARMEN (nervous): Sir?
+LEVEE (shy): Did the Titan wipe his feet on the way out?
+ARMEN (surprised): Actually, yes. On the doormat.
+LEVEE (happy): Good. At least someone around here has manners.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC romantic
+SCENE titan_plains
+PLACE grinning_titan center left happy
+PLACE hanjee midleft right excited
+HANJEE (excited): Potato Pete! You wiped your feet! You learned manners!
+GRINNING_TITAN (happy): Hehehe.
+HANJEE (shy): I'm so proud of you, big guy.
+GRINNING_TITAN (shy): Hehe.
+HANJEE (excited): Tomorrow, we work on using a napkin!
+END

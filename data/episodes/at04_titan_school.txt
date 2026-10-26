@@ -1,0 +1,175 @@
+@title Titan School
+@series Attack on Titan
+@icon wings
+@number 4
+@description Hanjee is convinced that Potato Pete, the Grinning Titan, can learn to talk. She recruits Armen as a teaching assistant. Captain Levee has many objections.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC happy
+SCENE training_grounds cut
+TITLE
+PLACE hanjee center left excited
+PLACE armen midleft right nervous
+HANJEE (excited): Armen! Today, history will be made! I'm going to teach a Titan to talk!
+ARMEN (nervous): Talk? Titans only grin and grunt.
+HANJEE (smug): So did I, until I was three. Then I learned words. Lots of them.
+ARMEN (happy): That's actually a good point.
+HANJEE (excited): You'll be my teaching assistant! We'll start with simple words. Hello. Potato. Friend.
+ARMEN (nervous): Does Captain Levee know about this?
+HANJEE (happy): He will. Eventually.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq
+PLACE levee center left angry
+PLACE irwin midright left neutral
+LEVEE (angry): Commander. Hanjee is teaching the Titan the alphabet. In my training field.
+IRWIN (smug): Is it working?
+LEVEE (angry): That's not the point.
+IRWIN (happy): If a Titan can learn to talk, maybe they can tell us where they come from.
+LEVEE (sad): Fine. But if it learns to say "Levee," I'm moving to a different wall.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC happy 2
+SCENE titan_plains
+PLACE grinning_titan center left happy
+ENTER hanjee left midleft excited
+ENTER armen left left nervous
+HANJEE (excited): Good morning, Pete! Today we learn words!
+GRINNING_TITAN (happy): Hehehe.
+HANJEE (excited): Repeat after me! Hel-lo!
+GRINNING_TITAN (happy): Hehe-hehe!
+ARMEN (happy): That was almost two syllables!
+HANJEE (excited): He's a genius!
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC jazz
+SCENE mess_hall
+PLACE sascha center left happy
+PLACE konny midright left excited
+PLACE jeen left right smug
+KONNY (excited): Did you hear? Hanjee's teaching the Titan to talk!
+JEEN (smug): What's the first thing a Titan would say? "Please don't kill me"?
+SASCHA (happy): I hope it says "potato." That's the most important word.
+KONNY (happy): Or "Konny"! I'd love it if it said my name!
+JEEN (smug): It's going to say "lunch," and it's going to mean you.
+KONNY (scared): Jeen!
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC sneaky
+SCENE titan_plains
+PLACE grinning_titan center left happy
+PLACE hanjee midleft right nervous
+PLACE armen left right nervous
+CARD Day three...
+HANJEE (nervous): Okay, Pete. Let's try again. Po-ta-to.
+GRINNING_TITAN (happy): Hehehe.
+ARMEN (sad): Three days and he still just giggles.
+HANJEE (sad): Maybe I'm a bad teacher.
+ARMEN (happy): You're a great teacher, Hanjee. You taught me to read maps.
+HANJEE (shy): You already knew how to read maps.
+ARMEN (smug): You taught me to read them faster.
+
+# ------------------------------------------------------------ JAEGER BASEMENT
+MUSIC spooky
+SCENE jaeger_basement
+PLACE hanjee center left nervous
+PLACE armen midright left happy
+HANJEE (nervous): Armen, these old books might have clues. Maybe someone tried to teach Titans before us.
+ARMEN (happy): This one is about farming. This one is about birds. This one is a cookbook.
+HANJEE (excited): A cookbook! What does it say about potatoes?
+ARMEN (surprised): It says Titans love the smell of roasted potatoes.
+HANJEE (excited): Then we'll cook for him! Food is the language of love!
+ARMEN (nervous): Hanjee, you burned water yesterday.
+HANJEE (smug): That's why you're cooking.
+
+# ------------------------------------------------------------ SHIGANSHINA
+MUSIC jazz 3
+SCENE shiganshina
+PLACE armen center left happy
+PLACE sascha midright left excited
+ARMEN (happy): Sascha, I need your help roasting potatoes. For science.
+SASCHA (excited): Science potatoes! The best kind!
+ARMEN (smug): You can't eat them. They're for the Titan.
+SASCHA (sad): Not even one?
+ARMEN (happy): Okay. One. For quality control.
+SASCHA (excited): I'll quality control all of them!
+
+# ------------------------------------------------------------ WALL TOP
+MUSIC jazz 2
+SCENE wall_top
+PLACE erren midleft right smug
+PLACE mikasah center left neutral
+ERREN (smug): Teaching a Titan to talk. That's the dumbest idea I've ever heard.
+MIKASAH: You said that about Armen's plan to use a giant fish net.
+ERREN (nervous): The giant fish net worked.
+MIKASAH (smug): So maybe this will too.
+ERREN (happy): ...Okay. Maybe I'll go watch.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC tense 2
+SCENE titan_plains
+PLACE grinning_titan center left happy
+PLACE hanjee midleft right excited
+PLACE armen left right excited
+ENTER sascha right right excited
+SASCHA (excited): I brought a potato! Maybe he needs to see one to learn the word!
+HOLD sascha patty
+HANJEE (excited): Sascha, that's brilliant! Show it to him!
+SASCHA (excited): Pete! Look! A po-ta-to!
+GRINNING_TITAN (excited): Hehe! Po... po...
+ARMEN (surprised): He's trying!
+GRINNING_TITAN (excited): Po-ta-to!
+HANJEE (excited): HE SAID IT!
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC action
+SCENE scout_hq
+PLACE irwin center left surprised
+PLACE levee midright left smug
+ENTER hanjee left midleft excited 500
+HANJEE (excited): Commander! Pete said "potato"! A real word!
+IRWIN (surprised): Remarkable.
+LEVEE (smug): A Titan that can say potato. Truly, humanity is saved.
+HANJEE (happy): Next week, I'm teaching him "please" and "thank you."
+LEVEE (surprised): Manners?
+HANJEE (smug): You love manners.
+LEVEE (shy): ...Carry on.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC happy 3
+SCENE titan_plains
+PLACE grinning_titan center left happy
+PLACE konny midleft right excited
+PLACE jeen left right smug
+KONNY (excited): Pete! Say my name! Kon-ny!
+GRINNING_TITAN (happy): Po-ta-to!
+KONNY (sad): No, Konny.
+GRINNING_TITAN (excited): Po-ta-to!
+JEEN (smug): That's all he knows, Konny.
+KONNY (happy): Close enough! I'll be Potato now!
+
+# ------------------------------------------------------------ STABLES
+MUSIC sneaky 2
+SCENE stables
+PLACE rayner center left nervous
+PLACE armen midright left happy
+RAYNER (nervous): Armen, if Titans can learn words, what if they can learn other things too?
+ARMEN (happy): Like what?
+RAYNER (nervous): Like... being people.
+ARMEN (smug): Then we'd have to be nice to them. Just in case.
+RAYNER (shy): Yeah. Just in case.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC romantic
+SCENE titan_plains
+PLACE grinning_titan center left happy
+PLACE hanjee midleft right happy
+PLACE armen left right happy
+HANJEE (happy): A good day of class, Pete. Same time tomorrow?
+GRINNING_TITAN (happy): Po-ta-to.
+ARMEN (happy): I think that means yes.
+HANJEE (shy): I think it means he's hungry.
+GRINNING_TITAN (excited): Po-ta-to!
+ARMEN (happy): Both. It means both.
+END
