@@ -124,6 +124,15 @@ func _ready() -> void:
 	while not player._end_overlay.visible and Time.get_ticks_msec() - t0 < 60000:
 		await get_tree().process_frame
 	print("TEST SCENE PLAYED TO END: ", player._end_overlay.visible)
+	Engine.time_scale = 1.0
+	# Leaving the editor goes back to the series list it was opened from
+	main.show_library_list("Kirby")
+	await _frames(3)
+	main.open_editor(EpisodeDoc.from_script(main._episodes.filter(func(e): return e.script.series == "Kirby")[0].script))
+	await _frames(3)
+	main._screen.exited.emit()
+	await _frames(3)
+	print("BACK TO LIBRARY LIST: ", main._library_series)
 	get_tree().quit()
 
 func _frames(n: int) -> void:

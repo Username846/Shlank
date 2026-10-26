@@ -80,7 +80,10 @@ buffer upload, so the drawing is cached aggressively:
 
 ## Making episodes in the app (Edit / Create)
 
-**EDIT / CREATE** on the title screen opens your episode library:
+**EDIT / CREATE** on the title screen opens your episode library. Like
+*Watch Episodes*, it starts with a series picker; your own episodes (new and
+imported ones) are under **Yours**, and leaving the editor brings you back to the
+list you came from:
 
 - **+ New Episode**: pick an icon for it (a show badge, or a star, heart,
   film, music note, moon or lightning bolt) and start with a blank first

@@ -263,9 +263,8 @@ func _count_label(n: int) -> String:
 	return "%d episode%s" % [n, "" if n == 1 else "s"]
 
 
-## Watch Episodes: pick a series first (plus "Yours" for the player's own episodes).
-func show_episodes() -> void:
-	_reload_episodes()
+## Series cards for the episode pickers: every show with episodes, then "Yours".
+func _episode_series_items() -> Dictionary:
 	var counts := {}
 	for e in _episodes:
 		var g := _episode_group(e)
@@ -279,7 +278,13 @@ func show_episodes() -> void:
 		if g != YOURS and not items.has(g):
 			items[g] = _count_label(counts[g])
 	items[YOURS] = _count_label(counts[YOURS]) if counts.has(YOURS) else "Make your own!"
-	_series_picker("WATCH EPISODES", items, show_episode_list, {YOURS: "film"})
+	return items
+
+
+## Watch Episodes: pick a series first (plus "Yours" for the player's own episodes).
+func show_episodes() -> void:
+	_reload_episodes()
+	_series_picker("WATCH EPISODES", _episode_series_items(), show_episode_list, {YOURS: "film"})
 
 
 func show_episode_list(series: String) -> void:
@@ -383,28 +388,58 @@ func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes, next: Ca
 
 # ---------------------------------------------------------- edit / create --
 
+## The series list Edit / Create last showed ("" = the series picker), so leaving the
+## editor goes back to the same place.
+var _library_series := ""
+
+
+## Edit / Create: pick a series first (plus "Yours"), like Watch Episodes.
 func show_library() -> void:
 	_reload_episodes()
 	Synth.set_mood("happy")
-	var root := _screen_root("theater")
-	_set_screen(root)
-	_back_button(root)
-	var title := UiKit.title_label("EDIT / CREATE", 64)
-	title.position = Vector2(0, 30)
-	title.size = Vector2(1280, 80)
-	root.add_child(title)
+	_library_series = ""
+	_series_picker("EDIT / CREATE", _episode_series_items(), show_library_list, {YOURS: "film"})
+	var root: Control = _screen
+	var actions := _library_actions(root)
+	actions.position = Vector2(200, 628)
+	root.add_child(actions)
+
+
+func _return_to_library() -> void:
+	if _library_series != "":
+		show_library_list(_library_series)
+	else:
+		show_library()
+
+
+## "+ New Episode" and "Import from Clipboard". Both add to Yours.
+func _library_actions(root: Control) -> HBoxContainer:
 	var actions := HBoxContainer.new()
-	actions.position = Vector2(200, 116)
 	actions.size = Vector2(880, 56)
 	actions.alignment = BoxContainer.ALIGNMENT_CENTER
 	actions.add_theme_constant_override("separation", 14)
-	root.add_child(actions)
 	var new_btn := UiKit.button("+ NEW EPISODE", UiKit.YELLOW, 26)
 	new_btn.pressed.connect(func() -> void: _new_episode_dialog(root))
 	actions.add_child(new_btn)
 	var imp := UiKit.button("IMPORT FROM CLIPBOARD", UiKit.TEAL, 26)
 	imp.pressed.connect(func() -> void: _import_dialog(root))
 	actions.add_child(imp)
+	return actions
+
+
+func show_library_list(series: String) -> void:
+	_reload_episodes()
+	_library_series = series
+	var root := _screen_root("theater")
+	_set_screen(root)
+	_back_button(root, show_library)
+	var title := UiKit.title_label("YOUR EPISODES" if series == YOURS else series.to_upper(), 60)
+	title.position = Vector2(0, 30)
+	title.size = Vector2(1280, 80)
+	root.add_child(title)
+	var actions := _library_actions(root)
+	actions.position = Vector2(200, 116)
+	root.add_child(actions)
 	var scroll := ScrollContainer.new()
 	scroll.position = Vector2(200, 186)
 	scroll.size = Vector2(880, 450)
@@ -414,7 +449,13 @@ func show_library() -> void:
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 10)
 	scroll.add_child(list)
-	for e in _episodes:
+	var shown := _episodes.filter(func(e): return _episode_group(e) == series)
+	if shown.is_empty():
+		var msg := UiKit.title_label("NO EPISODES OF YOUR OWN YET.\nPRESS + NEW EPISODE TO MAKE ONE!", 30, Color.WHITE)
+		msg.custom_minimum_size = Vector2(860, 300)
+		msg.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+		list.add_child(msg)
+	for e in shown:
 		var sc: EpisodeScript = e.script
 		var card := PanelContainer.new()
 		list.add_child(card)
@@ -453,7 +494,7 @@ func show_library() -> void:
 				UiKit.modal(root, "ARE YOU SURE?", UiKit.label(msg, 20), [
 					["YES", UiKit.RED, func() -> void:
 						Library.delete(e.id)
-						show_library()],
+						show_library_list(series)],
 					["CANCEL", Color.WHITE, Callable()]]))
 			hb.add_child(del)
 
@@ -473,6 +514,7 @@ func _new_episode_dialog(root: Control) -> void:
 		var btn := UiKit.icon_button(kind, ic[1], 84.0)
 		btn.pressed.connect(func() -> void:
 			dialog[0].queue_free()
+			_library_series = YOURS
 			open_editor(EpisodeDoc.new_episode(kind), 0, true))
 		grid.add_child(btn)
 	dialog.append(UiKit.modal(root, "NEW EPISODE", vb, [["CANCEL", Color.WHITE, Callable()]]))
@@ -507,7 +549,7 @@ func _import_dialog(root: Control) -> void:
 			doc.id = Library.new_id(doc.title)
 			Library.save(doc.id, doc.to_text())
 			var note := "" if sc.errors.is_empty() else " (%d lines skipped)" % sc.errors.size()
-			show_library()
+			show_library_list(YOURS)
 			UiKit.toast(_screen, "Imported \"%s\"%s" % [doc.title, note])
 			return true],
 		["CANCEL", Color.WHITE, Callable()]])
@@ -518,7 +560,7 @@ func open_editor(doc: EpisodeDoc, scene_i: int = 0, dirty: bool = false) -> void
 	var ed := EpisodeEditor.new()
 	ed.setup(doc, scene_i, dirty)
 	_set_screen(ed)
-	ed.exited.connect(show_library)
+	ed.exited.connect(_return_to_library)
 	ed.test_scene.connect(func(d: EpisodeDoc, si: int) -> void:
 		var was_dirty := ed.dirty
 		play_episode(EpisodeScript.parse(d.scene_text(si), Game.characters), func() -> void: open_editor(d, si, was_dirty)))
