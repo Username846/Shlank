@@ -139,6 +139,18 @@
 			"file": "res://data/episodes/mt01_baby_metroyd.txt"
 		},
 		{
+			"file": "res://data/episodes/mt02_gunship.txt"
+		},
+		{
+			"file": "res://data/episodes/mt03_dark_double.txt"
+		},
+		{
+			"file": "res://data/episodes/mt04_krayd_toothache.txt"
+		},
+		{
+			"file": "res://data/episodes/mt05_chozo_trial.txt"
+		},
+		{
 			"file": "res://data/episodes/kb01_cake.txt"
 		}
 	]

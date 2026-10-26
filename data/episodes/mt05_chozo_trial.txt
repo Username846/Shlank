@@ -1,0 +1,149 @@
+@title The Choso Trial
+@series Metroid
+@icon visor
+@number 5
+@description The Choso Elder says Baby Metroyd must pass an ancient trial to prove it belongs on the team. The trial is very old, very strange and mostly involves puzzles.
+
+# ------------------------------------------------------------ CHOSO RUINS
+MUSIC tense
+SCENE chozo_ruins cut
+TITLE
+PLACE choso_elder center left neutral
+ENTER samuss left midleft neutral
+ENTER baby_metroyd left left happy
+CHOSO_ELDER: Samuss. You have brought the young Metroyd. The ancient laws say every new member of a Choso team must pass the Trial.
+SAMUSS (nervous): ...
+CHOSO_ELDER (smug): Three tests. Courage. Wisdom. And kindness.
+BABY_METROYD (excited): Skree!
+CHOSO_ELDER (happy): It seems eager. Good.
+NARRATOR: Samuss did not like tests. She had failed her driver's test twice. Both times because of the parallel parking.
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC romantic
+SCENE save_room
+PLACE samuss center right neutral
+PLACE baby_metroyd midleft right nervous
+NARRATOR: The night before the trial, the baby could not sleep. It floated in circles around the save room.
+BABY_METROYD (nervous): Skree...
+SAMUSS (shy): ...it's okay.
+NARRATOR: Samuss told it a story. A story about a girl who was raised by bird people and became the greatest hunter in the galaxy.
+BABY_METROYD (happy): Skree.
+NARRATOR: The baby fell asleep halfway through. That was fine. Samuss knew how it ended.
+
+# ------------------------------------------------------------ ELEVATOR
+MUSIC tense 2
+SCENE elevator_shaft
+PLACE samuss center right neutral
+PLACE baby_metroyd midleft right nervous
+CARD The Trial of Courage...
+NARRATOR: The first test: ride the ancient elevator, all the way down. Alone. In the dark.
+SFX hiss
+BABY_METROYD (scared): Skree!
+NARRATOR: Samuss was not allowed to help. She could only watch from the top.
+SAMUSS (nervous): ...
+NARRATOR: The elevator creaked. The lights flickered. The elevator music was very, very bad.
+
+# ------------------------------------------------------------ NORFAIR
+MUSIC action
+SCENE norfair
+PLACE baby_metroyd center left scared
+ENTER etecoon right midright scared
+ETECOON (scared): Eee! Eee!
+NARRATOR: At the bottom, a little etecoon was trapped by rising lava.
+BABY_METROYD (nervous): Skree...
+NARRATOR: The baby was scared. But the etecoon was more scared.
+BABY_METROYD (excited): SKREE!
+NARRATOR: The baby flew down, grabbed the etecoon and carried it to safety. That was courage.
+ETECOON (happy): Eee!
+
+# ------------------------------------------------------------ MAP STATION
+MUSIC jazz
+SCENE map_station
+PLACE choso_elder center left smug
+PLACE samuss midleft right nervous
+CHOSO_ELDER (smug): The first test is passed. Your little one is brave.
+SAMUSS (happy): ...
+CHOSO_ELDER: The second test is wisdom. A puzzle, built by my great-great-great grandmother.
+SAMUSS (nervous): ...puzzle?
+CHOSO_ELDER (happy): She loved riddles. Nobody has solved it in a thousand years.
+SAMUSS (scared): ...
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC sneaky
+SCENE maridia
+PLACE baby_metroyd center left nervous
+CARD The Trial of Wisdom...
+NARRATOR: The puzzle room was underwater. Four doors. Each one had a riddle carved above it.
+NARRATOR: The riddle said: "What is always hungry, but never eats? What floats, but has no boat?"
+BABY_METROYD (nervous): Skree?
+NARRATOR: The baby thought very hard. The baby was always hungry. The baby always floated.
+BABY_METROYD (excited): Skree!
+NARRATOR: It pointed at itself. The door opened. The great-great-great grandmother had been very fond of Metroyds.
+
+# ------------------------------------------------------------ CRATERIA
+MUSIC sad
+SCENE crateria
+PLACE samuss center right nervous
+NARRATOR: While the baby took its tests, Samuss waited outside in the rain. She was not allowed to watch the puzzle.
+SAMUSS (nervous): ...
+NARRATOR: She paced back and forth. Back and forth. She was more nervous than the time she fought Mother Brane.
+NARRATOR: Parenting, it turns out, is harder than bounty hunting.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC spooky
+SCENE tourian
+PLACE mother_brane center left smug
+MOTHER_BRANE (smug): So. The bounty hunter's pet is taking the Choso Trial.
+MOTHER_BRANE (excited): If it fails the last test, it can't stay with her. And then it's mine!
+MOTHER_BRANE (smug): And the last test is kindness. How kind can a Metroyd be? They eat everything.
+NARRATOR: Mother Brane had never been kind a day in her life. She did not know what she was in for.
+
+# ------------------------------------------------------------ RIDLEE'S LAIR
+MUSIC tense
+SCENE ridlee_lair
+PLACE ridlee center left sad
+PLACE baby_metroyd midleft right nervous
+CARD The Trial of Kindness...
+NARRATOR: The final test. Ridlee, the dragon, sat alone in his lair. He had a cold.
+RIDLEE (sad): Scree... achoo!
+NARRATOR: The test was simple. Ridlee had always been the baby's enemy. What would it do?
+BABY_METROYD (nervous): Skree?
+RIDLEE (sad): Scree.
+NARRATOR: The baby floated over. It brought Ridlee a blanket. And a bowl of soup. And a tissue.
+RIDLEE (surprised): ...scree?
+
+# ------------------------------------------------------------ RIDLEE'S LAIR
+MUSIC romantic 2
+SCENE ridlee_lair
+PLACE ridlee center left happy
+PLACE baby_metroyd midleft right happy
+RIDLEE (happy): Scree scree.
+BABY_METROYD (happy): Skree!
+NARRATOR: Ridlee had never been given soup before. He ate it very slowly. He wanted it to last.
+NARRATOR: Somewhere far away, Mother Brane was very disappointed.
+
+# ------------------------------------------------------------ CHOSO RUINS
+MUSIC happy 2
+SCENE chozo_ruins
+PLACE choso_elder center left happy
+PLACE samuss midleft right happy
+PLACE baby_metroyd left right excited
+CHOSO_ELDER (happy): Courage. Wisdom. Kindness. Your little one has passed the Choso Trial.
+BABY_METROYD (excited): Skree!
+SAMUSS (happy): ...good job.
+CHOSO_ELDER (smug): The last Choso to pass all three tests on the first try was a little girl. Many years ago.
+SAMUSS (shy): ...
+CHOSO_ELDER (happy): She grew up to be quite something.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC romantic
+SCENE landing_site
+PLACE samuss center right happy
+PLACE baby_metroyd midleft right happy
+PLACE adam midright left happy
+ADAM (happy): A new official member of the team. Any objections?
+SAMUSS (happy): None.
+BABY_METROYD (excited): Skree skree!
+ADAM (smug): Then it gets a badge. And a very small helmet.
+NARRATOR: The helmet did not fit. The baby wore it anyway. Proudly.
+END
