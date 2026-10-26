@@ -440,6 +440,9 @@ func open_editor(doc: EpisodeDoc, scene_i: int = 0, dirty: bool = false) -> void
 	ed.setup(doc, scene_i, dirty)
 	_set_screen(ed)
 	ed.exited.connect(show_library)
+	ed.test_scene.connect(func(d: EpisodeDoc, si: int) -> void:
+		var was_dirty := ed.dirty
+		play_episode(EpisodeScript.parse(d.scene_text(si), Game.characters), func() -> void: open_editor(d, si, was_dirty)))
 	ed.test_play.connect(func(d: EpisodeDoc, si: int) -> void:
 		var was_dirty := ed.dirty
 		play_episode(d.to_script(), func() -> void: open_editor(d, si, was_dirty)))

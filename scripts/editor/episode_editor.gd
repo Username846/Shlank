@@ -6,6 +6,7 @@ extends Control
 
 signal exited
 signal test_play(doc: EpisodeDoc, scene_i: int)
+signal test_scene(doc: EpisodeDoc, scene_i: int)
 
 const STAGE_SCALE := 0.52
 const STAGE_POS := Vector2(298, 76)
@@ -30,10 +31,13 @@ var _drag_start := Vector2.ZERO
 
 var _title_edit: LineEdit
 var _scene_list: ItemList
-var _loc_opt: OptionButton
-var _series_opt: OptionButton
-var _music_opt: OptionButton
+var _loc_btn: Button
+var _music_btn: Button
 var _cut_opt: OptionButton
+## See-through copy of a character showing where the selected entrance/walk ends.
+var _ghost: Puppet
+var _picker: Control
+var _preview_row: Button
 var _stage: Control
 var _world: Node2D
 var _backdrop: Backdrop
@@ -84,7 +88,8 @@ func _small_button(text: String, color: Color, cb: Callable, size_px: int = 16) 
 			sb.content_margin_top = 5
 			sb.content_margin_bottom = 5
 			b.add_theme_stylebox_override(state, sb)
-	b.pressed.connect(cb)
+	if cb.is_valid():
+		b.pressed.connect(cb)
 	return b
 
 
@@ -104,7 +109,7 @@ func _build_ui() -> void:
 	_title_edit = LineEdit.new()
 	_title_edit.text = doc.title
 	_title_edit.placeholder_text = "Episode name"
-	_title_edit.custom_minimum_size = Vector2(330, 48)
+	_title_edit.custom_minimum_size = Vector2(250, 48)
 	_title_edit.add_theme_font_size_override("font_size", 22)
 	_title_edit.text_changed.connect(func(t: String) -> void:
 		doc.title = t
@@ -112,7 +117,8 @@ func _build_ui() -> void:
 	top.add_child(_title_edit)
 	top.add_child(_small_button("INFO", Color.WHITE, _open_info, 20))
 	top.add_child(_small_button("SAVE", UiKit.YELLOW, _save, 20))
-	top.add_child(_small_button("TEST PLAY", UiKit.TEAL, func() -> void: test_play.emit(doc, scene_i), 20))
+	top.add_child(_small_button("TEST SCENE", UiKit.TEAL, func() -> void: test_scene.emit(doc, scene_i), 20))
+	top.add_child(_small_button("TEST EPISODE", UiKit.TEAL, func() -> void: test_play.emit(doc, scene_i), 20))
 	top.add_child(_small_button("EXPORT", Color("b48be0"), _export, 20))
 
 	# Scenes panel
@@ -134,30 +140,21 @@ func _build_ui() -> void:
 	srow.add_child(_small_button("DEL", UiKit.RED, _delete_scene, 14))
 	for b in srow.get_children():
 		b.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	# One labelled row per setting. Location: choose the series first, then one of its locations.
-	_series_opt = _compact_option()
-	for sh in EpisodeDoc.location_shows():
-		_series_opt.add_item(sh)
-	_series_opt.item_selected.connect(_on_location_series)
-	lv.add_child(_setting_row("Series", _series_opt))
-	_loc_opt = _compact_option()
-	_loc_opt.item_selected.connect(_on_location)
-	lv.add_child(_setting_row("Location", _loc_opt))
-	_music_opt = _compact_option()
-	_music_opt.add_item("(keep playing)")
-	_music_opt.set_item_metadata(0, ["", 0])
-	for m in MOODS:
-		for v in ([1, 2, 3] if m != "off" else [1]):
-			_music_opt.add_item(_music_name(m, v))
-			_music_opt.set_item_metadata(_music_opt.item_count - 1, [m, v])
-	_music_opt.item_selected.connect(_on_music)
-	lv.add_child(_setting_row("Music", _music_opt))
+	# One labelled row per setting. Location and Music open picker windows.
+	_loc_btn = _picker_button(_open_location_picker)
+	lv.add_child(_setting_row("Location", _loc_btn))
+	_music_btn = _picker_button(_open_music_picker)
+	lv.add_child(_setting_row("Music", _music_btn))
 	_cut_opt = _compact_option()
-	_cut_opt.add_item("Wipe")
+	_cut_opt.add_item("Show default")
 	_cut_opt.add_item("Cut")
+	for t in EpisodeScript.TRANSITIONS:
+		_cut_opt.add_item(_transition_name(t))
 	lv.add_child(_setting_row("Transition", _cut_opt))
 	_cut_opt.item_selected.connect(func(i: int) -> void:
-		doc.scenes[scene_i].cut = i == 1
+		var sc: Dictionary = doc.scenes[scene_i]
+		sc.cut = i == 1
+		sc.transition = EpisodeScript.TRANSITIONS[i - 2] if i >= 2 else ""
 		_mark_dirty())
 
 	# Stage preview
@@ -310,16 +307,9 @@ func _load_scene(i: int) -> void:
 	_puppets.clear()
 	var sc: Dictionary = doc.scenes[scene_i]
 	_backdrop.set_location(sc.location)
-	var show: String = Game.locations.get(sc.location, {}).get("show", "")
-	_series_opt.select(maxi(EpisodeDoc.location_shows().find(show), 0))
-	_fill_locations(show, sc.location)
-	_cut_opt.select(1 if sc.cut else 0)
-	var music := _scene_music()
-	_music_opt.select(0)
-	for k in _music_opt.item_count:
-		var md: Array = _music_opt.get_item_metadata(k)
-		if not music.is_empty() and md[0] == music.mood and (md[0] == "off" or md[1] == music.get("variant", 1)):
-			_music_opt.select(k)
+	_update_scene_buttons()
+	var tr: String = sc.get("transition", "")
+	_cut_opt.select(1 if sc.cut else (EpisodeScript.TRANSITIONS.find(tr) + 2 if tr != "" else 0))
 	_refresh_scene_list()
 	_refresh(true)
 
@@ -361,31 +351,166 @@ func _move_scene(d: int) -> void:
 	_load_scene(j)
 
 
-func _fill_locations(show: String, current: String) -> void:
-	_loc_opt.clear()
-	for lid in EpisodeDoc.locations_of(show):
-		_loc_opt.add_item(String(Game.locations.get(lid, {}).get("name", lid)))
-		_loc_opt.set_item_metadata(_loc_opt.item_count - 1, lid)
-		if lid == current:
-			_loc_opt.select(_loc_opt.item_count - 1)
+func _picker_button(cb: Callable) -> Button:
+	var b := Button.new()
+	b.clip_text = true
+	b.alignment = HORIZONTAL_ALIGNMENT_LEFT
+	b.focus_mode = Control.FOCUS_NONE
+	b.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	b.add_theme_font_size_override("font_size", 15)
+	b.add_theme_stylebox_override("normal", UiKit.box(Color.WHITE, 12, 3, 0))
+	b.add_theme_stylebox_override("hover", UiKit.box(Color("fff3c4"), 12, 3, 0))
+	b.add_theme_stylebox_override("pressed", UiKit.box(Color("f6df4c"), 12, 3, 0))
+	b.pressed.connect(cb)
+	return b
 
 
-## Picking a series switches the scene to that series' first location.
-func _on_location_series(i: int) -> void:
-	var show: String = EpisodeDoc.location_shows()[i]
-	var first: String = EpisodeDoc.locations_of(show)[0]
-	_fill_locations(show, first)
-	_set_location(first)
+static func _transition_name(t: String) -> String:
+	return {"bubbles": "Bubble wipe", "iris": "Iris", "star": "Star wipe", "heart": "Heart iris",
+		"slide": "Slide", "checker": "Checkerboard", "pinwheel": "Pinwheel", "fade": "Fade"}.get(t, t.capitalize())
 
 
-func _on_location(i: int) -> void:
-	_set_location(_loc_opt.get_item_metadata(i))
+func _update_scene_buttons() -> void:
+	var lid: String = doc.scenes[scene_i].location
+	_loc_btn.text = String(Game.locations.get(lid, {}).get("name", lid)) + "  >"
+	_loc_btn.tooltip_text = "%s (%s)" % [_loc_btn.text, Game.locations.get(lid, {}).get("show", "")]
+	var music := _scene_music()
+	_music_btn.text = ("(keep playing)" if music.is_empty() else _music_name(music.mood, music.get("variant", 1))) + "  >"
+
+
+# ------------------------------------------------------- picker windows --
+
+## Thumbnails of every location, one section per series.
+func _open_location_picker() -> void:
+	var scroll := ScrollContainer.new()
+	scroll.custom_minimum_size = Vector2(900, 470)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	var vb := VBoxContainer.new()
+	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	vb.add_theme_constant_override("separation", 10)
+	scroll.add_child(vb)
+	var current: String = doc.scenes[scene_i].location
+	for show in EpisodeDoc.location_shows():
+		var head := HBoxContainer.new()
+		head.add_theme_constant_override("separation", 10)
+		head.add_child(ShowIcon.make(show, 40.0))
+		head.add_child(UiKit.title_label(show.to_upper(), 26, UiKit.RED))
+		vb.add_child(head)
+		var grid := GridContainer.new()
+		grid.columns = 4
+		grid.add_theme_constant_override("h_separation", 12)
+		grid.add_theme_constant_override("v_separation", 12)
+		vb.add_child(grid)
+		for lid in EpisodeDoc.locations_of(show):
+			grid.add_child(_location_tile(lid, lid == current))
+	_picker = UiKit.modal(self, "CHOOSE A LOCATION", scroll, [["CANCEL", Color.WHITE, Callable()]])
+
+
+func _location_tile(lid: String, is_current: bool) -> Button:
+	var tile := Button.new()
+	tile.custom_minimum_size = Vector2(208, 146)
+	tile.focus_mode = Control.FOCUS_NONE
+	tile.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+	var col := UiKit.YELLOW if is_current else Color.WHITE
+	tile.add_theme_stylebox_override("normal", UiKit.box(col, 12, 3 if not is_current else 5, 0))
+	tile.add_theme_stylebox_override("hover", UiKit.box(Color("fff3c4"), 12, 4, 0))
+	tile.add_theme_stylebox_override("pressed", UiKit.box(UiKit.YELLOW, 12, 4, 0))
+	var pic := TextureRect.new()
+	pic.position = Vector2(8, 8)
+	pic.size = Vector2(192, 108)
+	pic.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	pic.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	pic.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	tile.add_child(pic)
+	_load_thumb(pic, lid)
+	var l := UiKit.label(String(Game.locations.get(lid, {}).get("name", lid)), 14, Art.INK)
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	l.clip_text = true
+	l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	l.position = Vector2(4, 118)
+	l.size = Vector2(200, 22)
+	l.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	tile.add_child(l)
+	tile.pressed.connect(func() -> void:
+		_set_location(lid)
+		if is_instance_valid(_picker):
+			_picker.queue_free())
+	return tile
+
+
+func _load_thumb(pic: TextureRect, lid: String) -> void:
+	var tex: Texture2D = await Backdrop.make_thumbnail(self, lid)
+	if is_instance_valid(pic) and tex:
+		pic.texture = tex
+
+
+## Every tune, each with a preview button.
+func _open_music_picker() -> void:
+	var scroll := ScrollContainer.new()
+	scroll.custom_minimum_size = Vector2(560, 450)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	var vb := VBoxContainer.new()
+	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	vb.add_theme_constant_override("separation", 6)
+	scroll.add_child(vb)
+	var music := _scene_music()
+	vb.add_child(_music_row("(keep playing)", "", 0, music.is_empty()))
+	for m in MOODS:
+		if m == "off":
+			continue
+		vb.add_child(UiKit.title_label(m.to_upper(), 22, UiKit.RED))
+		for v in [1, 2, 3]:
+			var cur: bool = not music.is_empty() and music.mood == m and music.get("variant", 1) == v
+			vb.add_child(_music_row(_music_name(m, v), m, v, cur))
+	vb.add_child(UiKit.title_label("SILENCE", 22, UiKit.RED))
+	vb.add_child(_music_row("Off (silence)", "off", 1, not music.is_empty() and music.mood == "off"))
+	_picker = UiKit.modal(self, "CHOOSE MUSIC", scroll, [["CANCEL", Color.WHITE, func() -> void: _stop_preview()]])
+
+
+func _music_row(text: String, mood: String, v: int, is_current: bool) -> PanelContainer:
+	var panel := PanelContainer.new()
+	panel.add_theme_stylebox_override("panel", UiKit.box(UiKit.YELLOW if is_current else Color.WHITE, 10, 3, 0))
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 8)
+	panel.add_child(row)
+	var l := UiKit.label(text + ("   (current)" if is_current else ""), 18, Art.INK)
+	l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	l.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	row.add_child(l)
+	if mood != "" and mood != "off":
+		var prev := _small_button("PREVIEW", UiKit.TEAL, Callable(), 14)
+		prev.pressed.connect(func() -> void: _toggle_preview(prev, mood, v))
+		row.add_child(prev)
+	row.add_child(_small_button("USE", UiKit.YELLOW, func() -> void:
+		_stop_preview()
+		_set_scene_music(mood, v)
+		if is_instance_valid(_picker):
+			_picker.queue_free(), 14))
+	return panel
+
+
+func _toggle_preview(btn: Button, mood: String, v: int) -> void:
+	if _preview_row == btn:
+		_stop_preview()
+		return
+	_stop_preview()
+	_preview_row = btn
+	btn.text = "STOP"
+	Synth.set_mood(mood, v)
+
+
+func _stop_preview() -> void:
+	if is_instance_valid(_preview_row):
+		_preview_row.text = "PREVIEW"
+	_preview_row = null
+	Synth.set_mood("off")
 
 
 func _set_location(lid: String) -> void:
 	doc.scenes[scene_i].location = lid
 	_backdrop.set_location(lid)
 	_refresh_scene_list()
+	_update_scene_buttons()
 	_mark_dirty()
 
 
@@ -400,24 +525,24 @@ func _scene_music() -> Dictionary:
 	return {}
 
 
-func _on_music(i: int) -> void:
+## Sets (or removes, for mood "") the music that starts the current scene.
+func _set_scene_music(mood: String, v: int) -> void:
 	var beats: Array = doc.scenes[scene_i].beats
 	var idx := -1
 	for k in beats.size():
 		if beats[k].type == "music":
 			idx = k
 			break
-	if i == 0:
+	if mood == "":
 		if idx >= 0:
 			beats.remove_at(idx)
+	elif idx >= 0:
+		beats[idx].mood = mood
+		beats[idx].variant = v
 	else:
-		var md: Array = _music_opt.get_item_metadata(i)
-		if idx >= 0:
-			beats[idx].mood = md[0]
-			beats[idx].variant = md[1]
-		else:
-			beats.insert(0, {"type": "music", "mood": md[0], "variant": md[1]})
+		beats.insert(0, {"type": "music", "mood": mood, "variant": v})
 	selected = -1
+	_update_scene_buttons()
 	_mark_dirty()
 	_refresh(true)
 
@@ -428,10 +553,10 @@ func _beat_templates() -> Array:
 	return [
 		["Dialogue line", func() -> Dictionary: return {"type": "say", "who": _default_who(), "emotion": "", "text": "Type the line here."}],
 		["Narration", func() -> Dictionary: return {"type": "say", "who": "narrator", "emotion": "", "text": "Meanwhile..."}],
-		["Character enters", func() -> Dictionary: return {"type": "enter", "who": _default_who(true), "from": "left", "x": 640.0, "speed": 300.0, "parallel": false}],
+		["Character enters", func() -> Dictionary: return {"type": "enter", "who": _default_who(true), "from": "left", "x": 640.0, "speed": 300.0, "emotion": "", "parallel": false}],
 		["Character exits", func() -> Dictionary: return {"type": "exit", "who": _default_who(), "to": "right", "speed": 300.0, "parallel": false}],
 		["Walk to a spot", func() -> Dictionary: return {"type": "move", "who": _default_who(), "x": 640.0, "speed": 300.0, "parallel": false}],
-		["Put on stage", func() -> Dictionary: return {"type": "place", "who": _default_who(true), "x": 640.0, "face": ""}],
+		["Put on stage", func() -> Dictionary: return {"type": "place", "who": _default_who(true), "x": 640.0, "face": "", "emotion": ""}],
 		["Change emotion", func() -> Dictionary: return {"type": "emote", "who": _default_who(), "emotion": "happy"}],
 		["Hold a prop", func() -> Dictionary: return {"type": "hold", "who": _default_who(), "prop": "locket"}],
 		["Turn around", func() -> Dictionary: return {"type": "face", "who": _default_who(), "dir": "left", "target": ""}],
@@ -553,6 +678,7 @@ func _build_inspector() -> void:
 			_inspector.add_child(te)
 		"enter":
 			_char_field(b)
+			_emotion_field(b)
 			_choice_field("Comes in from", b, "from", [["Left", "left"], ["Right", "right"]])
 			_position_field(b)
 			_speed_field(b)
@@ -569,6 +695,7 @@ func _build_inspector() -> void:
 			_parallel_field(b)
 		"place":
 			_char_field(b)
+			_emotion_field(b)
 			_position_field(b)
 			_choice_field("Facing", b, "face", [["Automatic", ""], ["Left", "left"], ["Right", "right"]])
 		"face":
@@ -667,6 +794,12 @@ func _char_field(b: Dictionary, with_narrator: bool = false) -> void:
 	if not opts.any(func(o): return o[1] == b.who):
 		opts.append([TimelineStrip.char_name(b.who), b.who])
 	_choice_field("Character", b, "who", opts)
+
+
+func _emotion_field(b: Dictionary) -> void:
+	if not b.has("emotion"):
+		b.emotion = ""
+	_choice_field("Emotion", b, "emotion", [["(as before)", ""]] + _pairs(Puppet.EMOTIONS))
 
 
 func _position_field(b: Dictionary) -> void:
@@ -782,9 +915,46 @@ func _update_preview() -> void:
 		_line_label.text = ""
 	else:
 		_line_label.text = "%s: %s" % [TimelineStrip.char_name(line.who), line.text]
+	_update_ghost(st)
 	_strip.playhead = playhead
 	_strip.queue_redraw()
 	_time_label.text = "%s / %s" % [_fmt(playhead), _fmt(_times[_times.size() - 1])]
+
+
+## While an entrance or walk is selected, a see-through copy of the character
+## stands where they'll end up (and can be dragged to change it).
+func _update_ghost(st: Dictionary) -> void:
+	var beats: Array = doc.scenes[scene_i].beats
+	var b: Dictionary = beats[selected] if selected >= 0 and selected < beats.size() else {}
+	if b.is_empty() or not b.type in ["enter", "move"]:
+		if _ghost:
+			_ghost.visible = false
+		return
+	if _ghost == null or _ghost.id != b.who:
+		if _ghost:
+			_ghost.queue_free()
+		_ghost = Puppet.new()
+		_ghost.setup(b.who, Game.characters.get(b.who, {}))
+		# Premultiplied output: scale colour and alpha together for an even fade.
+		_ghost.modulate = Color(0.55, 0.55, 0.55, 0.55)
+		_actors.add_child(_ghost)
+	_ghost.visible = true
+	var s: Dictionary = st.get(b.who, {})
+	var from: float
+	if b.type == "enter":
+		from = EpisodeScript.SPOTS.offleft if b.from == "left" else EpisodeScript.SPOTS.offright
+	else:
+		from = s.get("x", b.x)
+	if _drag_id != "__ghost":
+		_ghost.position = Vector2(b.x, GROUND)
+	if absf(b.x - from) > 1.0:
+		_ghost.facing = 1 if b.x > from else -1
+	var emo: String = b.get("emotion", "") if b.type == "enter" else ""
+	if emo == "":
+		emo = s.get("emotion", "neutral")
+	if _ghost.emotion != emo:
+		_ghost.emotion = emo
+		_ghost._redraw_now()
 
 
 static func _fmt(t: float) -> String:
@@ -822,19 +992,25 @@ func _on_stage_input(event: InputEvent) -> void:
 				_playing = false
 		elif _drag_id != "":
 			if event.position.distance_to(_drag_start) > 4.0:
-				_commit_drag(_puppets[_drag_id].position.x)
+				_commit_drag(_drag_node().position.x)
 			_drag_id = ""
 		_stage.accept_event()
 	elif event is InputEventMouseMotion and _drag_id != "":
-		var p: Puppet = _puppets[_drag_id]
-		p.position.x = clampf(event.position.x / STAGE_SCALE, 40.0, 1240.0)
+		_drag_node().position.x = clampf(event.position.x / STAGE_SCALE, 40.0, 1240.0)
 		_stage.accept_event()
+
+
+func _drag_node() -> Puppet:
+	return _ghost if _drag_id == "__ghost" else _puppets[_drag_id]
 
 
 func _pick(stage_pos: Vector2) -> String:
 	var w := stage_pos / STAGE_SCALE
 	var best := ""
 	var best_d := 80.0
+	# The destination ghost wins when it's under the pointer.
+	if _ghost and _ghost.visible and w.y > GROUND - 320 and w.y < GROUND + 30 and absf(w.x - _ghost.position.x) < 70.0:
+		return "__ghost"
 	for cid in _puppets:
 		var p: Puppet = _puppets[cid]
 		if not p.visible or w.y < GROUND - 320 or w.y > GROUND + 30:
@@ -851,6 +1027,11 @@ func _pick(stage_pos: Vector2) -> String:
 func _commit_drag(x: float) -> void:
 	x = snappedf(x, 10.0)
 	var beats: Array = doc.scenes[scene_i].beats
+	if _drag_id == "__ghost":
+		beats[selected].x = x
+		_mark_dirty()
+		_refresh(true)
+		return
 	if selected >= 0 and selected < beats.size():
 		var b: Dictionary = beats[selected]
 		if b.get("who", "") == _drag_id and b.type in ["move", "place", "enter"]:

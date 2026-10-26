@@ -34,14 +34,14 @@ static func from_script(sc: EpisodeScript) -> EpisodeDoc:
 		var beat: Dictionary = c.duplicate()
 		beat.erase("line")
 		if beat.type == "scene":
-			doc.scenes.append({"location": beat.location, "cut": beat.cut, "beats": pending})
+			doc.scenes.append({"location": beat.location, "cut": beat.cut, "transition": beat.get("transition", ""), "beats": pending})
 			pending = []
 		elif doc.scenes.is_empty():
 			pending.append(beat)
 		else:
 			doc.scenes[-1].beats.append(beat)
 	if doc.scenes.is_empty():
-		doc.scenes.append({"location": doc.default_location(), "cut": true, "beats": pending})
+		doc.scenes.append({"location": doc.default_location(), "cut": true, "transition": "", "beats": pending})
 	return doc
 
 
@@ -145,6 +145,8 @@ func state_at(scene_i: int, t: float) -> Dictionary:
 				st[who] = _char(st, who)
 				st[who].x = b.x
 				st[who].visible = true
+				if b.get("emotion", "") != "":
+					st[who].emotion = b.emotion
 				if b.get("face", "") in ["left", "right"]:
 					st[who].facing = -1 if b.face == "left" else 1
 				motion.erase(who)
@@ -152,6 +154,8 @@ func state_at(scene_i: int, t: float) -> Dictionary:
 				var from: float = EpisodeScript.SPOTS.offleft if b.from == "left" else EpisodeScript.SPOTS.offright
 				st[who] = _char(st, who)
 				st[who].visible = true
+				if b.get("emotion", "") != "":
+					st[who].emotion = b.emotion
 				motion[who] = [from, b.x, time, absf(b.x - from) / maxf(b.speed, 1.0)]
 			"move", "exit":
 				if st.has(who):
@@ -218,9 +222,39 @@ func to_text() -> String:
 		var sc: Dictionary = scenes[i]
 		out.append("")
 		out.append("# ---- Scene %d: %s" % [i + 1, String(Game.locations.get(sc.location, {}).get("name", sc.location))])
-		out.append("SCENE %s%s" % [sc.location, " cut" if sc.cut else ""])
+		out.append(_scene_line(sc))
 		for b in sc.beats:
 			out.append(beat_to_line(b))
+	out.append("")
+	return "\n".join(out)
+
+
+static func _scene_line(sc: Dictionary) -> String:
+	var how := ""
+	if sc.cut:
+		how = " cut"
+	elif sc.get("transition", "") != "":
+		how = " " + sc.transition
+	return "SCENE %s%s" % [sc.location, how]
+
+
+## A one-scene episode for "Test Scene": the scene plus whatever music was
+## playing when it starts (from earlier scenes), opening with a hard cut.
+func scene_text(scene_i: int) -> String:
+	var out := PackedStringArray(["@title %s" % _one_line(title), "@number %d" % number])
+	if series != "":
+		out.append("@series %s" % series)
+	var sc: Dictionary = scenes[scene_i]
+	out.append("SCENE %s cut" % sc.location)
+	var has_music: bool = sc.beats.any(func(b): return b.type == "music")
+	if not has_music:
+		for i in range(scene_i - 1, -1, -1):
+			var music: Array = scenes[i].beats.filter(func(b): return b.type == "music")
+			if not music.is_empty():
+				out.append(beat_to_line(music[-1]))
+				break
+	for b in sc.beats:
+		out.append(beat_to_line(b))
 	out.append("")
 	return "\n".join(out)
 
@@ -234,9 +268,11 @@ static func beat_to_line(b: Dictionary) -> String:
 			return "%s%s: %s" % [who, (" (%s)" % emo) if emo != "" else "", _one_line(b.text)]
 		"place":
 			var face: String = b.get("face", "")
-			return "PLACE %s %s%s" % [who, _spot_name(b.x), (" " + face) if face != "" else ""]
+			var emo: String = b.get("emotion", "")
+			return "PLACE %s %s%s%s" % [who, _spot_name(b.x), (" " + face) if face != "" else "", (" " + emo) if emo != "" else ""]
 		"enter":
-			return "ENTER %s %s %s %d%s" % [who, b.from, _spot_name(b.x), int(b.speed), amp]
+			var emo: String = b.get("emotion", "")
+			return "ENTER %s %s %s %d%s%s" % [who, b.from, _spot_name(b.x), int(b.speed), (" " + emo) if emo != "" else "", amp]
 		"exit":
 			return "EXIT %s %s %d%s" % [who, b.to, int(b.speed), amp]
 		"move":

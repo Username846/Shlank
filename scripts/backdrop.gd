@@ -12,6 +12,10 @@ const GROUND := 640.0
 const PAD := 80.0
 ## Resolution of the baked set relative to the stage, so close-ups stay crisp.
 const BAKE_SCALE := 1.5
+## Thumbnails use a much smaller bake (see make_thumbnail()).
+const THUMB_SCALE := 0.2
+
+static var _thumbs := {}  # location id -> ImageTexture
 ## The moving scenery is redrawn at this rate (bubbles move every frame).
 const FX_FPS := 15.0
 
@@ -84,6 +88,29 @@ static func _make_bubble_texture() -> ImageTexture:
 	return ImageTexture.create_from_image(img)
 
 
+## Renders a small picture of a location (cached). `host` is any node in the
+## tree to attach the temporary renderer to.
+static func make_thumbnail(host: Node, id: String) -> Texture2D:
+	if _thumbs.has(id):
+		return _thumbs[id]
+	var bd := Backdrop.new()
+	bd.visible = false
+	bd._vp.size = Vector2i(ceili((W + PAD * 2.0) * THUMB_SCALE), ceili((H + PAD * 2.0) * THUMB_SCALE))
+	host.add_child(bd)
+	bd.set_location(id)
+	await RenderingServer.frame_post_draw
+	if not is_instance_valid(bd):
+		return null
+	var img := bd._vp.get_texture().get_image()
+	bd.queue_free()
+	# Crop away the off-stage padding so the thumbnail shows the stage only.
+	var pad := int(PAD * THUMB_SCALE)
+	img = img.get_region(Rect2i(pad, pad, int(W * THUMB_SCALE), int(H * THUMB_SCALE)))
+	var tex := ImageTexture.create_from_image(img)
+	_thumbs[id] = tex
+	return tex
+
+
 func set_location(id: String) -> void:
 	location = id
 	_rng.seed = hash(id)
@@ -135,7 +162,8 @@ func _draw() -> void:
 
 
 func _draw_set() -> void:
-	ci.draw_set_transform(Vector2(PAD, PAD) * BAKE_SCALE, 0.0, Vector2.ONE * BAKE_SCALE)
+	var k := _vp.size.x / (W + PAD * 2.0)
+	ci.draw_set_transform(Vector2(PAD, PAD) * k, 0.0, Vector2.ONE * k)
 	match location:
 		"pineapple_house": _pineapple_house()
 		"pat_rock": _pat_rock()

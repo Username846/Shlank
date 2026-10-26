@@ -7,6 +7,11 @@ const SPOTS := {
 	"midright": 810.0, "right": 980.0, "farright": 1130.0, "offright": 1440.0,
 }
 
+## Transition styles a SCENE line can ask for (besides "cut").
+const TRANSITIONS := ["bubbles", "iris", "star", "heart", "slide", "checker", "pinwheel", "fade"]
+## Pause after each spoken line before the next beat starts.
+const LINE_GAP := 0.6
+
 var title := "Untitled"
 var series := ""
 var icon := ""
@@ -95,13 +100,33 @@ static func _parse_command(line: String, aliases: Dictionary, ln: int) -> Dictio
 	var c := {"line": ln, "parallel": parallel}
 	match op:
 		"SCENE":
-			c.merge({"type": "scene", "location": arg.call(1).to_lower(), "cut": arg.call(2).to_lower() == "cut"})
+			var how: String = arg.call(2).to_lower()
+			c.merge({"type": "scene", "location": arg.call(1).to_lower(), "cut": how == "cut",
+				"transition": how if TRANSITIONS.has(how) else ""})
 		"PLACE":
-			c.merge({"type": "place", "who": _who(arg.call(1), aliases), "x": spot(arg.call(2, "center")), "face": arg.call(3, "").to_lower()})
+			# PLACE who pos [left|right] [emotion]
+			var face := ""
+			var emo := ""
+			for i in range(3, parts.size()):
+				var t := parts[i].to_lower()
+				if t in ["left", "right"]:
+					face = t
+				elif Puppet.EMOTIONS.has(t):
+					emo = t
+			c.merge({"type": "place", "who": _who(arg.call(1), aliases), "x": spot(arg.call(2, "center")), "face": face, "emotion": emo})
 		"ENTER":
+			# ENTER who side pos [speed] [emotion]
 			var side: String = arg.call(2, "left").to_lower()
+			var speed := 340.0
+			var emo := ""
+			for i in range(4, parts.size()):
+				var t := parts[i].to_lower()
+				if t.is_valid_float():
+					speed = float(t)
+				elif Puppet.EMOTIONS.has(t):
+					emo = t
 			c.merge({"type": "enter", "who": _who(arg.call(1), aliases), "from": side,
-				"x": spot(arg.call(3, "center")), "speed": float(arg.call(4, "340"))})
+				"x": spot(arg.call(3, "center")), "speed": speed, "emotion": emo})
 		"EXIT":
 			c.merge({"type": "exit", "who": _who(arg.call(1), aliases), "to": arg.call(2, "right").to_lower(), "speed": float(arg.call(3, "380"))})
 		"MOVE", "WALK":
@@ -155,7 +180,7 @@ func estimate_duration() -> float:
 
 func command_duration(c: Dictionary, pos: Dictionary) -> float:
 	match c.type:
-		"say": return Game.estimate_line(Game.clean_for_speech(c.text)) + 0.25
+		"say": return Game.estimate_line(Game.clean_for_speech(c.text)) + LINE_GAP
 		"scene":
 			pos.clear()
 			return 0.4 if c.cut else 1.5

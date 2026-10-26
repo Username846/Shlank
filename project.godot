@@ -14,6 +14,7 @@ config/name="Shlank"
 config/description="A cartoon \"movie\" player: characters, locations and scripted episodes."
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
 boot_splash/bg_color=Color(0.18, 0.55, 0.85, 1)
 boot_splash/show_image=false
 

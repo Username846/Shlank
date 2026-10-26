@@ -29,6 +29,28 @@ func _ready() -> void:
 	await _shot("t_editor")
 	ed._select_beat(6)
 	await _shot("t_editor_selected")
+	ed._open_location_picker()
+	await _frames(20)
+	await _shot("t_loc_picker")
+	ed._picker.queue_free()
+	ed._open_music_picker()
+	await _shot("t_music_picker")
+	ed._picker.queue_free()
+	# Entrance with an emotion: select Helga's ENTER (beat 2 of scene 2) and check the ghost
+	var enter_i := -1
+	for i in doc.scenes[1].beats.size():
+		if doc.scenes[1].beats[i].type == "enter":
+			enter_i = i
+			break
+	ed._select_beat(enter_i)
+	doc.scenes[1].beats[enter_i].emotion = "nervous"
+	ed._refresh(true)
+	await _shot("t_enter_ghost")
+	ed._drag_id = "__ghost"
+	ed._commit_drag(300.0)
+	ed._drag_id = ""
+	print("GHOST DRAG: x=", doc.scenes[1].beats[enter_i].x, " line: ", EpisodeDoc.beat_to_line(doc.scenes[1].beats[enter_i]))
+	await _shot("t_enter_ghost_moved")
 	ed._set_playhead(9.0)
 	await _shot("t_editor_scrub")
 	# Drag Helga to the far right at this moment
@@ -62,7 +84,7 @@ func _ready() -> void:
 			if t[0] == name:
 				ed._insert_beat(t[1].call())
 	ed._add_scene()
-	ed._on_location_series(1)  # second series -> its first location
+	ed._set_location("sunset_arms")
 	ed._insert_beat(tpl[0][1].call())
 	for t in tpl:
 		if t[0] == "Change music":
@@ -89,6 +111,15 @@ func _ready() -> void:
 	while not player._end_overlay.visible and Time.get_ticks_msec() - t0 < 60000:
 		await get_tree().process_frame
 	print("NEW EPISODE PLAYED TO END: ", player._end_overlay.visible)
+	# Test Scene: just scene 2 of The Locket
+	var single := EpisodeScript.parse(doc.scene_text(1), Game.characters)
+	print("SCENE TEXT errors ", single.errors, " cmds ", single.commands.size(), " first: ", single.commands[0])
+	main.play_episode(single, func() -> void: pass)
+	player = main._screen
+	t0 = Time.get_ticks_msec()
+	while not player._end_overlay.visible and Time.get_ticks_msec() - t0 < 60000:
+		await get_tree().process_frame
+	print("TEST SCENE PLAYED TO END: ", player._end_overlay.visible)
 	get_tree().quit()
 
 func _frames(n: int) -> void:

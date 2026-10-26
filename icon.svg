@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Shlank: a little cartoon theater with a gold star on stage -->
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a0f2e"/>
+      <stop offset="1" stop-color="#4a1636"/>
+    </linearGradient>
+    <linearGradient id="curtain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a1620"/>
+      <stop offset="0.5" stop-color="#d0313a"/>
+      <stop offset="1" stop-color="#9e1b25"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="8" y="8" width="240" height="240" rx="48"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="256" height="256" fill="url(#back)"/>
+    <!-- spotlight -->
+    <path d="M128 40 L58 212 L198 212 Z" fill="#fff6c8" opacity="0.18"/>
+    <!-- stage -->
+    <rect x="0" y="200" width="256" height="56" fill="#9b5f34"/>
+    <rect x="0" y="196" width="256" height="8" fill="#f2c14e" stroke="#170b18" stroke-width="4"/>
+    <!-- curtains -->
+    <path d="M0 0 H86 C78 70 64 120 30 156 C40 176 44 192 40 204 H0 Z" fill="url(#curtain)" stroke="#170b18" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M256 0 H170 C178 70 192 120 226 156 C216 176 212 192 216 204 H256 Z" fill="url(#curtain)" stroke="#170b18" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M24 10 C22 70 18 120 10 170 M50 10 C46 70 40 110 24 150 M232 10 C234 70 238 120 246 170 M206 10 C210 70 216 110 232 150" fill="none" stroke="#7a121b" stroke-width="5" stroke-linecap="round"/>
+    <!-- valance -->
+    <path d="M0 0 H256 V34 C240 54 224 54 213 34 C202 54 186 54 171 34 C160 54 144 54 128 34 C112 54 96 54 85 34 C70 54 54 54 43 34 C32 54 16 54 0 34 Z" fill="#b3202f" stroke="#170b18" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M0 30 H256" stroke="#f2c14e" stroke-width="6"/>
+    <!-- star -->
+    <path d="M128 72 L145 112 L188 115 L155 143 L166 185 L128 162 L90 185 L101 143 L68 115 L111 112 Z" fill="#f6df4c" stroke="#170b18" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M118 104 L124 92" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="none" stroke="#170b18" stroke-width="10"/>
+</svg>

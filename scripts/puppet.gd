@@ -11,7 +11,7 @@ extends Node2D
 
 signal finished_move
 
-const EMOTIONS := ["neutral", "happy", "sad", "angry", "surprised", "scared", "smug", "excited"]
+const EMOTIONS := ["neutral", "happy", "sad", "angry", "surprised", "scared", "smug", "excited", "nervous", "shy"]
 const DRAW_FPS := 15.0
 ## Area (in puppet space, feet at 0,0) captured into the texture, and its resolution.
 const BOUNDS := Rect2(-200, -365, 400, 400)
@@ -193,7 +193,7 @@ func _process(delta: float) -> void:
 	var bob := sin(_t * 2.4) * 1.6
 	if walking:
 		bob = -absf(sin(_walk_phase)) * 7.0
-	var jitter := randf_range(-1.5, 1.5) if emotion == "scared" else 0.0
+	var jitter := randf_range(-1.5, 1.5) if emotion == "scared" else (randf_range(-0.6, 0.6) if emotion == "nervous" else 0.0)
 	var sq := 1.0 + sin(_t * 2.4) * 0.008 + (_talk_open * 0.012 if talking else 0.0)
 	_display.position = Vector2(jitter, bob - lift)
 	_display.scale = Vector2(1.0 / sq, sq)
@@ -213,7 +213,7 @@ func _process(delta: float) -> void:
 
 func _is_animating() -> bool:
 	return talking or walking or _talk_open > 0.01 or _blink > 0.0 or absf(sin(_walk_phase)) > 0.01 \
-		or emotion in ["excited", "surprised", "angry"] or held in ["golden_spatula", "detector"]
+		or emotion in ["excited", "surprised", "angry", "nervous"] or held in ["golden_spatula", "detector"]
 
 
 # ---------------------------------------------------------------- drawing --
@@ -260,6 +260,13 @@ func _arm_raise() -> Vector2:
 		"scared":
 			back = 1.9
 			front = 1.9
+		"nervous":
+			# Wringing hands in front
+			back = 0.55 + sin(_t * 5.0) * 0.08
+			front = 0.55 - sin(_t * 5.0) * 0.08
+		"shy":
+			back = 0.1
+			front = 0.2 + sin(_t * 1.3) * 0.05
 	if held != "":
 		front = 1.25
 	return Vector2(back, front)
@@ -290,6 +297,17 @@ func _eye_params() -> Dictionary:
 		"smug":
 			p.lid = 0.48
 			p.tilt = 0.15
+		"nervous":
+			p.lid = 0.05
+			p.tilt = -0.3
+			p.scale = 1.06
+			p.pupil = 0.65
+			# Eyes darting side to side
+			p.look = Vector2(0.45 if fmod(_t, 1.6) < 0.8 else -0.45, 0.05)
+		"shy":
+			p.lid = 0.38
+			p.tilt = -0.25
+			p.look = Vector2(0.3, 0.55)
 	return p
 
 
@@ -327,6 +345,14 @@ func _eye(c: Vector2, rx: float, ry: float, iris_r: float, iris_col: Color, side
 		for e in edge:
 			Art.stroke(ci, e, 3.0)
 	Art.outline(ci, pts, 3.0)
+	# Emotion extras drawn around the eyes, so every character gets them.
+	if emotion == "shy":
+		Art.dot(ci, c + Vector2(side * rx * 0.55, ry * 1.45), rx * 0.62, Color(0.98, 0.45, 0.55, 0.55))
+	elif emotion == "nervous" and side > 0:
+		var drop := c + Vector2(rx * 1.35, -ry * 0.6)
+		var tear := PackedVector2Array([drop + Vector2(0, -10), drop + Vector2(5.5, 1), drop + Vector2(4, 6), drop + Vector2(0, 8),
+			drop + Vector2(-4, 6), drop + Vector2(-5.5, 1)])
+		Art.shape(ci, tear, Color(0.6, 0.85, 1.0), 2.5)
 	if lashes > 0 and lid < 0.6:
 		for i in lashes:
 			var a := -PI / 2 + (float(i) - (lashes - 1) / 2.0) * 0.45 + side * 0.15
@@ -342,6 +368,10 @@ func _brow(c: Vector2, half_w: float, side: int, thick: float = 4.0, color: Colo
 		"sad": tilt = -0.45
 		"surprised", "scared": lift = -8.0
 		"smug": tilt = 0.2
+		"nervous":
+			tilt = -0.5
+			lift = -4.0
+		"shy": tilt = -0.3
 	var inner := c + Vector2(-side * half_w, lift + tilt * half_w)
 	var outer := c + Vector2(side * half_w, lift - tilt * half_w * 0.4)
 	var mid := (inner + outer) * 0.5 + Vector2(0, -4)
@@ -356,6 +386,8 @@ func _mouth_kind() -> String:
 		"surprised": return "o"
 		"scared": return "wobble"
 		"smug": return "smirk"
+		"nervous": return "grimace"
+		"shy": return "small"
 	return "smile"
 
 
@@ -418,8 +450,11 @@ func _mouth(c: Vector2, w: float, teeth: int = 0, inside: Color = Color(0.36, 0.
 			for i in 9:
 				pts.append(c + Vector2(lerpf(-hw * 0.8, hw * 0.8, i / 8.0), (3.0 if i % 2 == 0 else -3.0) + sin(_t * 20.0) * 1.5))
 			Art.stroke(ci, pts, 3.0)
-		"grit":
-			var r := Rect2(c + Vector2(-hw * 0.75, -w * 0.08), Vector2(hw * 1.5, w * 0.18))
+		"small":
+			Art.stroke(ci, Art.curve(c + Vector2(-hw * 0.4, -w * 0.02), c + Vector2(0, w * 0.1), c + Vector2(hw * 0.4, -w * 0.02)), 3.0)
+		"grit", "grimace":
+			var gw := 0.75 if kind == "grit" else 0.6
+			var r := Rect2(c + Vector2(-hw * gw, -w * 0.08), Vector2(hw * gw * 2.0, w * 0.18))
 			var rp := Art.rrect(r, 4)
 			Art.fill(ci, rp, Color.WHITE)
 			Art.stroke(ci, PackedVector2Array([Vector2(r.position.x, r.get_center().y), Vector2(r.end.x, r.get_center().y)]), 2.0)
@@ -882,7 +917,7 @@ func _draw_helga() -> void:
 	var dip := 6.0
 	match emotion:
 		"happy", "excited": dip = -3.0
-		"sad", "scared": dip = -9.0
+		"sad", "scared", "nervous", "shy": dip = -9.0
 		"angry": dip = 11.0
 		"surprised": dip = -6.0
 	var by := hc.y - 19.0 - (5.0 if emotion in ["surprised", "scared"] else 0.0)

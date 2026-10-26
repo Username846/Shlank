@@ -29,7 +29,8 @@ Two test shows, each with 5 characters, 10 locations and a ~5 minute episode:
   - Episode: **"The Locket"**.
 
 Every character blinks, lip-flaps while talking, walks, hops, holds props, and
-has 8 emotions (neutral, happy, sad, angry, surprised, scared, smug, excited).
+has 10 emotions (neutral, happy, sad, angry, surprised, scared, smug, excited,
+nervous, shy).
 
 - **Synthesized voices.** Dialogue is spoken with the browser's text-to-speech
   voices, and each character has their own pitch, speed and preferred voices.
@@ -78,14 +79,18 @@ reloads. They also show up under *Watch Episodes*.
 In the editor:
 
 - **Top bar:** the episode name, **Info** (series, icon, episode number,
-  description), **Save**, **Test Play** (plays the episode, then brings you
-  back) and **Export** (copies the script to the clipboard and shows it).
-- **Scenes (left):** add, reorder and delete scenes. Each scene has a
-  location (pick the series, then one of its locations), music (any mood and
-  variant), and a transition (wipe or a hard cut).
+  description), **Save**, **Test Scene** (plays just the current scene),
+  **Test Episode** (plays the whole episode; both bring you back) and
+  **Export** (copies the script to the clipboard and shows it).
+- **Scenes (left):** add, reorder and delete scenes. **Location** opens a
+  window of thumbnails grouped by series. **Music** opens a list of every
+  tune with a **Preview** button. **Transition** is the show's default, a
+  hard cut, or any style (bubbles, iris, star wipe, heart, slide,
+  checkerboard, pinwheel, fade).
 - **Stage (middle):** shows the scene at the playhead's moment. **Drag a
-  character** to make them walk there at that moment. If the selected beat
-  is that character's walk or entrance, dragging adjusts it instead.
+  character** to make them walk there at that moment. While an entrance or
+  walk is selected, a see-through **ghost** shows where the character will
+  end up; drag the ghost to change it.
 - **Beat settings (right):** **+ Add Beat** inserts dialogue, narration,
   entrances and exits, walks, emotions, props, jumps, camera shots, shakes,
   pauses, sound effects, music changes and title/text/end cards. Selecting a
@@ -130,9 +135,9 @@ emotion is optional and stays until it's changed.
 
 | Command | What it does |
 |---|---|
-| `SCENE <location> [cut]` | Changes the set (bubble-wipe transition, or a hard `cut`) and clears the stage |
-| `PLACE <who> <pos> [left\|right]` | Puts a character on stage instantly |
-| `ENTER <who> <left\|right> <pos> [speed]` | Walks on from that side |
+| `SCENE <location> [cut\|style]` | Changes the set and clears the stage. Uses the show's transition, a hard `cut`, or a style: `bubbles`, `iris`, `star`, `heart`, `slide`, `checker`, `pinwheel`, `fade` |
+| `PLACE <who> <pos> [left\|right] [emotion]` | Puts a character on stage instantly |
+| `ENTER <who> <left\|right> <pos> [speed] [emotion]` | Walks on from that side, wearing that expression |
 | `EXIT <who> <left\|right> [speed]` | Walks off stage |
 | `MOVE <who> <pos> [speed]` / `RUN <who> <pos>` | Walks or runs to a position |
 | `FACE <who> <left\|right\|other-character>` | Turns around |

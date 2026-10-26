@@ -44,6 +44,9 @@ var _first_scene := true
 var _card_i := 0
 var _last_speaker := ""
 
+const TRANSITION_SFX := {"bubbles": "bubbles", "iris": "slide_whistle", "star": "sparkle", "heart": "ding",
+	"slide": "whoosh", "checker": "pop", "pinwheel": "slide_whistle", "fade": ""}
+
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -322,6 +325,8 @@ func _exec(c: Dictionary) -> void:
 		"place":
 			var p := _puppet(c.who)
 			p.position = Vector2(c.x, GROUND)
+			if c.get("emotion", "") != "":
+				p.set_emotion(c.emotion)
 			if c.face in ["left", "right"]:
 				p.facing = -1 if c.face == "left" else 1
 			else:
@@ -329,6 +334,8 @@ func _exec(c: Dictionary) -> void:
 		"enter":
 			var p := _puppet(c.who)
 			p.position = Vector2(EpisodeScript.SPOTS.offleft if c.from == "left" else EpisodeScript.SPOTS.offright, GROUND)
+			if c.get("emotion", "") != "":
+				p.set_emotion(c.emotion)
 			await _walk(p, c.x, c.speed, c.parallel)
 		"exit":
 			if _cast.has(c.who):
@@ -437,10 +444,15 @@ func _iris_focus() -> Vector2:
 func _do_scene(c: Dictionary) -> void:
 	_sub_panel.visible = false
 	if not _first_scene and not c.cut:
+		# A scene can ask for its own transition; otherwise the show's default.
 		var show := _show_for(c.location)
-		_wipe.style = String(show.get("transition", "fade"))
+		var style: String = c.get("transition", "")
+		var sfx := String(TRANSITION_SFX.get(style, ""))
+		if style == "":
+			style = String(show.get("transition", "fade"))
+			sfx = String(show.get("transition_sfx", ""))
+		_wipe.style = style
 		_wipe.focus = _iris_focus()
-		var sfx := String(show.get("transition_sfx", ""))
 		if sfx != "":
 			Synth.sfx(sfx)
 		await _wipe.cover()
@@ -532,7 +544,7 @@ func _do_say(c: Dictionary) -> void:
 	if p:
 		p.talking = false
 	_skip = false
-	await _wait(0.25, true)
+	await _wait(EpisodeScript.LINE_GAP, true)
 	_sub_panel.visible = false
 
 
