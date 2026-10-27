@@ -1,0 +1,163 @@
+@title Daisy's Tennis Cup
+@series Super Mario Brothers
+@season 1
+@icon mushroom
+@number 7
+@description Princess Daisy is hosting the Mushroom Kingdom Tennis Cup, and everyone wants to be her doubles partner. She picks Luigi. Luigi has never held a tennis racket. Wario has been practicing cheating for weeks.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy
+SCENE mushroom_kingdom cut
+TITLE
+PLACE daisy center left excited
+PLACE mario midright left happy
+PLACE luigi right left nervous
+DAISY (excited): Hi, I'm Daisy! And I'm hosting the Mushroom Kingdom Tennis Cup! Doubles only!
+MARIO (excited): Wahoo! I'll be your partner, Daisy!
+DAISY (smug): Sorry, Mario. You're playing with Peach. I already picked my partner.
+MARIO (surprised): Who?
+DAISY (happy): Luigi!
+LUIGI (scared): ...Me?
+
+# ------------------------------------------------------------ TOAD HOUSE
+MUSIC jazz
+SCENE toad_house
+PLACE luigi center right nervous
+PLACE toad midleft right happy
+LUIGI (nervous): Toad, I've never played tennis. I don't know the rules. I don't even know which end of the racket to hold.
+TOAD (happy): The round end hits the ball, Luigi!
+LUIGI (scared): Which one's the round end?!
+TOAD (smug): Why do you think Daisy picked you?
+LUIGI (nervous): I don't know. Maybe she felt sorry for me.
+TOAD (happy): Or maybe she likes you.
+LUIGI (shy): ...Mamma mia.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC sneaky
+SCENE desert_land
+PLACE wario center left excited
+PLACE goomba midright left nervous
+WARIO (excited): Wahahaha! The Tennis Cup! First prize is a gold trophy! Solid gold!
+GOOMBA (nervous): Who's your partner, Wario?
+WARIO (smug): You are! You'll be the ball.
+GOOMBA (scared): The ball?!
+WARIO (excited): Nobody can return a ball that runs away! Wahahaha!
+GOOMBA (sad): I didn't sign up for this.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy 2
+SCENE mushroom_kingdom
+PLACE daisy center left excited
+PLACE luigi midright left nervous
+DAISY (excited): Practice time, partner! Swing!
+SFX boing
+NARRATOR: Luigi swung. He missed the ball. He hit a tree. The tree was fine. Luigi was a little dizzy.
+LUIGI (sad): I'm sorry, Daisy. I'm terrible. You should pick Mario.
+DAISY (smug): I don't want Mario. Mario's good at everything. That's boring.
+LUIGI (surprised): You... want a partner who's bad?
+DAISY (happy): I want a partner who tries. You fought ghosts in a haunted mansion, Luigi. You can hit a ball.
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC jazz 2
+SCENE peach_castle
+PLACE peach center left happy
+PLACE mario midright left excited
+MARIO (excited): Princess! We're gonna win! Me and you! The super team!
+PEACH (happy): We've won four years in a row, Mario.
+MARIO (smug): Five years!
+PEACH (nervous): You know, it might be nice if somebody else won. Just once.
+MARIO (surprised): Somebody else? Who?
+PEACH (smug): Oh, I don't know. Someone in green.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC tense
+SCENE mushroom_kingdom
+CARD The Tennis Cup...
+PLACE daisy center left excited
+PLACE luigi midleft right nervous
+PLACE wario midright left smug
+PLACE goomba right left scared
+DAISY (excited): First match! Daisy and Luigi versus Wario and... Goomba?
+WARIO (smug): Serve, Goomba!
+GOOMBA (scared): How?! I don't have arms!
+SFX boing
+NARRATOR: Wario hit the Goomba over the net. The Goomba ran around on the court. Nobody could hit him. It was chaos.
+LUIGI (scared): The ball has legs! The ball has legs!
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC action
+SCENE mushroom_kingdom
+PLACE luigi center right nervous
+PLACE goomba midleft right scared
+PLACE wario farleft right smug
+LUIGI (nervous): Okay. Okay. He's scared of me. I'm scared of him. We're both scared.
+GOOMBA (nervous): I just want to go home, man.
+LUIGI (happy): Me too! Here. Let me help you back over the net. Gently.
+SFX boing
+NARRATOR: Luigi tapped the Goomba very gently back over the net. Wario was not ready. Nobody is ever ready for kindness.
+WARIO (surprised): What?! WAHHH!
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC jazz
+SCENE mushroom_kingdom
+PLACE daisy center left excited
+PLACE wario midright left angry
+PLACE goomba right left nervous
+DAISY (excited): Point, Luigi! Game, set and match! We win!
+WARIO (angry): Cheaters! He was nice to my ball! That's against the rules!
+DAISY (smug): Your ball was a Goomba, Wario.
+WARIO (angry): It's a free country!
+GOOMBA (happy): I quit. I'm going to go be a ball for someone nicer.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC tense 2
+SCENE mushroom_kingdom
+CARD The final...
+PLACE mario center right excited
+PLACE peach midright left happy
+PLACE daisy midleft right excited
+PLACE luigi left right nervous
+MARIO (excited): The final! Mario and Peach versus Luigi and Daisy! Brother versus brother!
+LUIGI (nervous): Mario, go easy on me?
+MARIO (smug): I never go easy, Luigi! Wahoo!
+SFX boing
+NARRATOR: Mario served. It was the fastest serve in Mushroom Kingdom history. Luigi closed his eyes. He swung.
+SFX boing
+LUIGI (surprised): Did I... hit it?
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC action 2
+SCENE mushroom_kingdom
+PLACE mario center right surprised
+PLACE peach midright left smug
+NARRATOR: Luigi hit it. Straight back. So fast that Mario didn't even move.
+MARIO (surprised): Mamma mia! Luigi!
+PEACH (smug): Oh dear. I seem to have tripped. I couldn't possibly reach that one.
+MARIO (surprised): Princess, you didn't-a trip! You're just-a standing there!
+PEACH (happy): Did I say tripped? I meant... cheering.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy 3
+SCENE mushroom_kingdom
+PLACE daisy center left excited
+PLACE luigi midright left surprised
+PLACE mario right left happy
+DAISY (excited): We won! Luigi, we won the Tennis Cup!
+LUIGI (surprised): We did? I won something? Me?
+MARIO (happy): Congratulations, little brother. That was a super shot.
+LUIGI (shy): You really think so?
+MARIO (smug): Next year, I'm-a picking Daisy first.
+DAISY (smug): Not a chance, Mario. Luigi's my partner for life.
+LUIGI (shy): ...For life?
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky 2
+SCENE bowser_castle
+PLACE bowser center left angry
+PLACE goomba midright left happy
+BOWSER (angry): You quit being Wario's ball? And now you want to be MY ball?
+GOOMBA (happy): You're nicer than Wario, boss.
+BOWSER (surprised): ...I'm nicer?
+GOOMBA (smug): A little. Barely. But yes.
+BOWSER (happy): Gwahaha! Bowser, the nice one! Somebody write that down!
+END

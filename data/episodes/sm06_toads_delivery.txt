@@ -1,0 +1,151 @@
+@title Toad's Big Delivery
+@series Super Mario Brothers
+@season 1
+@icon mushroom
+@number 6
+@description It's Princess Peach's birthday, and Toad has to deliver her cake all the way across the Mushroom Kingdom. Through Pipe Land, over Ice Land and past Bowser's Castle. Alone. Toad is three feet tall.
+
+# ------------------------------------------------------------ TOAD HOUSE
+MUSIC happy
+SCENE toad_house cut
+TITLE
+PLACE toad center left excited
+PLACE mario midright left happy
+TOAD (excited): Mario! Today's the princess's birthday! And I baked her a cake! A seven-layer mushroom cake!
+MARIO (happy): Wahoo! That's-a beautiful, Toad!
+TOAD (nervous): But the castle is all the way on the other side of the kingdom. And I've never gone that far by myself.
+MARIO (excited): Then-a me and Luigi will come with you!
+TOAD (smug): No, Mario. I want to do this myself. Just once. Like a hero.
+MARIO (surprised): Mamma mia.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy 2
+SCENE mushroom_kingdom
+PLACE toad center right excited
+ENTER luigi left midleft nervous
+LUIGI (nervous): Toad, are you sure? There's Goombas out there. And Koopas. And very steep hills.
+TOAD (excited): I'm sure, Luigi! I have a map, a cake and a lot of courage!
+LUIGI (nervous): That cake is bigger than you.
+TOAD (smug): That's why it's called a big delivery.
+EXIT toad right 200
+LUIGI (scared): Mario, we're following him. Secretly. Right?
+ENTER mario left left smug
+MARIO (smug): Secretly. Like-a ninjas.
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC jazz
+SCENE pipe_land
+PLACE toad center right nervous
+TOAD (nervous): Pipe Land. Okay. The map says go through the green pipe. Not the red pipe. Never the red pipe.
+NARRATOR: There were forty pipes. Thirty-nine of them were green.
+TOAD (nervous): Eeny, meeny, miny...
+SFX jump_8bit
+NARRATOR: Toad jumped into a pipe. It was green. He made a very good choice. Mostly by luck.
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC sneaky
+SCENE pipe_land
+PLACE mario center right nervous
+PLACE luigi midleft right nervous
+MARIO (nervous): Which pipe did he go in?
+LUIGI (nervous): A green one.
+MARIO (sad): They're all-a green, Luigi!
+LUIGI (nervous): Except that red one.
+MARIO (surprised): Let's not-a go in the red one.
+SFX jump_8bit
+LUIGI (scared): Mario! You went in the red one!
+
+# ------------------------------------------------------------ ICE LAND
+MUSIC tense
+SCENE ice_land
+PLACE toad center right scared
+TOAD (scared): Ice Land! It's so slippery! And so cold! My cake is getting frosty! Well, frostier!
+SFX slide_whistle
+NARRATOR: Toad slipped. He slid down a hill on his back, holding the cake above his head the whole way. Not a single crumb fell off.
+TOAD (surprised): I'm okay! The cake's okay! Everything's okay!
+TOAD (nervous): Where am I?
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC spooky
+SCENE bowser_castle
+PLACE bowser center left smug
+PLACE goomba midright left nervous
+PLACE koopa_troopa right left nervous
+BOWSER (smug): Gwahaha! The princess's birthday! And I'm not invited. Again.
+GOOMBA (nervous): Maybe because you kidnap her every year, boss?
+BOWSER (angry): One time! Okay, nine times! But I always bring a gift!
+KOOPA_TROOPA (nervous): Boss, there's a little mushroom guy outside. With a giant cake.
+BOWSER (excited): A cake? Bring it to me!
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC tense 2
+SCENE bowser_castle
+PLACE bowser center left smug
+PLACE toad midright left scared
+BOWSER (smug): Well, well. A little Toad. Carrying a big cake. All alone.
+TOAD (scared): It's for Princess Peach! It's her birthday!
+BOWSER (smug): I know. And I wasn't invited. So I'll take that cake, and she'll have to come HERE to get it.
+TOAD (angry): No! I've walked through Pipe Land and slid down Ice Land! You're not taking it!
+BOWSER (surprised): ...You're very brave for something so small.
+TOAD (angry): I'm three feet of brave!
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC action
+SCENE bowser_castle
+PLACE bowser center left surprised
+PLACE toad midright left angry
+NARRATOR: Toad stood his ground. He did not run. He held the cake high and stared up at the King of the Koopas.
+BOWSER (nervous): Okay. Okay. Wow. Nobody has ever yelled at me like that. Except Mario. And Peach. And my mom.
+TOAD (smug): So I can go?
+BOWSER (sad): ...Can I at least smell the cake?
+TOAD (happy): One smell.
+BOWSER (happy): Ahhh. Mushroom cake. My favorite.
+
+# ------------------------------------------------------------ SKY LAND
+MUSIC happy
+SCENE sky_land
+PLACE mario center right nervous
+PLACE luigi midleft right nervous
+MARIO (nervous): The red pipe took us to Sky Land! Where's-a Toad?
+LUIGI (scared): Mario, we lost him! What if Bowser got him? What if he fell? What if the cake fell?!
+MARIO (angry): We have to find him! Let's-a go!
+SFX jump_8bit
+NARRATOR: Mario jumped from cloud to cloud. Luigi jumped from cloud to cloud too, while screaming the whole time.
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC tense
+SCENE peach_castle
+PLACE peach center left sad
+PLACE daisy midright left nervous
+PEACH (sad): It's almost sunset. And nobody's seen Toad all day.
+DAISY (nervous): Hi, I'm worried too! He left this morning with a giant cake.
+PEACH (nervous): Alone? Across the whole kingdom?
+DAISY (smug): That little guy's tougher than he looks.
+PEACH (sad): I hope so.
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC happy 2
+SCENE peach_castle
+PLACE peach center left surprised
+PLACE daisy midright left surprised
+ENTER toad right right excited
+TOAD (excited): Princess! Happy birthday! I made it!
+PEACH (surprised): Toad! You crossed the whole kingdom? By yourself?
+TOAD (smug): Through Pipe Land, down Ice Land and past Bowser. He only smelled the cake. Once.
+DAISY (excited): Past Bowser?! Toad, you're a hero!
+TOAD (shy): Just a delivery guy. A very brave delivery guy.
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC romantic
+SCENE peach_castle
+PLACE peach center left happy
+PLACE toad midright left happy
+PLACE mario right left nervous
+PLACE luigi farright left nervous
+MARIO (nervous): Princess! We lost Toad! He's-a somewhere out there with a cake!
+PEACH (happy): He's right here, Mario. He got here three hours before you.
+LUIGI (surprised): Three hours?!
+TOAD (smug): Thank you, Mario! But your Toad was in another castle! Mine!
+PEACH (happy): Let's cut the cake. The bravest Toad in the kingdom gets the first slice.
+NARRATOR: Toad got the first slice. Bowser got the second. Toad mailed it to him.
+END

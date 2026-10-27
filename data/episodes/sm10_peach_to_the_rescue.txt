@@ -1,0 +1,163 @@
+@title Peach to the Rescue
+@series Super Mario Brothers
+@season 1
+@icon mushroom
+@number 10
+@description For once, Bowser has kidnapped Mario instead of the princess. Peach and Daisy lead the rescue mission. Luigi comes along to carry the snacks. Yoshi comes along because Yoshi always comes along.
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC tense
+SCENE peach_castle cut
+TITLE
+PLACE peach center left nervous
+PLACE toad midright left scared
+TOAD (scared): Princess! Terrible news! Bowser has kidnapped Mario!
+PEACH (surprised): Mario? Not me?
+TOAD (nervous): He left a note. It says, "This time, the princess has to come to me. Gwahaha."
+PEACH (angry): Well. If Bowser wants the princess to come to him...
+PEACH (smug): Then the princess is coming. Toad, get my parasol. And call Daisy.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC spooky
+SCENE bowser_castle
+PLACE bowser center left smug
+PLACE mario midright left angry
+BOWSER (smug): Gwahaha! Finally! I kidnapped the right person! Now Peach will come to ME!
+MARIO (angry): Let-a me go, Bowser!
+BOWSER (happy): Nope! I made a cage! It's very comfortable. There's a pillow.
+MARIO (surprised): ...It is a nice pillow.
+BOWSER (smug): And when Peach comes to rescue you, she'll have to spend time with me. And see how charming I am.
+MARIO (sad): Mamma mia.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC action
+SCENE mushroom_kingdom
+PLACE peach center left excited
+PLACE daisy midright left excited
+PLACE luigi midleft right nervous
+PLACE yoshi left right happy
+DAISY (excited): Hi, I'm Daisy! And I'm ready to kick some Koopa shell!
+PEACH (smug): We're going to Bowser's Castle. We'll go through Sky Land, Water Land and Boo Mansion.
+LUIGI (scared): Boo Mansion?! Again?!
+PEACH (happy): You've been there before, Luigi. You're our expert.
+YOSHI (excited): Yoshi!
+LUIGI (nervous): ...I'm carrying the snacks. That's my job. Just the snacks.
+
+# ------------------------------------------------------------ SKY LAND
+MUSIC happy
+SCENE sky_land
+PLACE peach center left happy
+PLACE daisy midright left excited
+PLACE yoshi midleft right happy
+NARRATOR: Princess Peach opened her parasol. She floated gently from cloud to cloud, like a feather.
+DAISY (excited): Peach, that's so cool! Can I do that?
+PEACH (smug): Royal training. Twelve years of floating lessons.
+SFX jump_8bit
+NARRATOR: Daisy did not float. Daisy jumped. Really, really high. She landed on a Koopa Paratroopa and kept going.
+DAISY (excited): Woo! Princess power!
+YOSHI (excited): Yoshi yoshi!
+
+# ------------------------------------------------------------ WATER LAND
+MUSIC jazz
+SCENE water_land
+PLACE luigi center right nervous
+PLACE yoshi midleft right happy
+LUIGI (nervous): Water Land. Full of Cheep Cheeps and Bloopers. Okay. I can do this.
+YOSHI (happy): Yoshi!
+NARRATOR: Yoshi swallowed a Cheep Cheep. Then he spat it back out, because it was rude to eat someone you just met.
+LUIGI (surprised): Yoshi, you're very polite.
+YOSHI (smug): Yoshi.
+LUIGI (happy): Okay. If Yoshi's not scared, I'm not scared.
+
+# ------------------------------------------------------------ BOO MANSION
+MUSIC spooky 2
+SCENE boo_mansion
+PLACE luigi center right scared
+PLACE peach midleft right nervous
+PLACE daisy midright left nervous
+LUIGI (scared): Okay. Boo Mansion. The Boos only move when you're not looking at them.
+DAISY (nervous): So we just look at them?
+LUIGI (nervous): The whole time. Don't blink.
+PEACH (nervous): Luigi, there are a hundred of them.
+LUIGI (scared): Then we walk backwards. Very carefully. Staring at a hundred ghosts.
+NARRATOR: They walked backwards through the whole mansion. Nobody blinked. It took forty minutes. Daisy's eyes were very dry.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC jazz 2
+SCENE bowser_castle
+PLACE mario center right neutral
+PLACE bowser midleft right smug
+BOWSER (smug): While we wait, do you want to play cards, Mario?
+MARIO (surprised): Cards?
+BOWSER (happy): Go Fish. I'm very good. Do you have any... Goombas?
+MARIO (smug): Go-a fish.
+BOWSER (angry): Ugh! You always win!
+MARIO (happy): Do you have any... Bowsers?
+BOWSER (sad): ...Here. Take him.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky
+SCENE bowser_castle
+PLACE bowser center left nervous
+PLACE goomba midright left nervous
+PLACE koopa_troopa right left nervous
+BOWSER (nervous): Okay, everybody. Peach is coming. How do I look?
+GOOMBA (nervous): Like Bowser, boss.
+BOWSER (smug): Charming Bowser? Handsome Bowser?
+KOOPA_TROOPA (nervous): Spiky Bowser.
+BOWSER (angry): Ugh! I'll put on my good shell!
+GOOMBA (scared): Boss! They're here! And they brought two princesses and a dinosaur!
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC action 2
+SCENE bowser_castle
+PLACE bowser center left surprised
+ENTER peach right midright angry
+ENTER daisy right right angry
+PEACH (angry): Bowser! Release Mario. Right now.
+BOWSER (nervous): Princess! Welcome! Can I get you a drink? Some tea? A nice cake?
+DAISY (angry): We didn't come here for cake!
+BOWSER (sad): ...It's a really good cake. I baked it myself.
+PEACH (surprised): You baked a cake?
+BOWSER (shy): Chocolate. With little mushrooms on it.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sad
+SCENE bowser_castle
+PLACE bowser center left sad
+PLACE peach midright left neutral
+BOWSER (sad): I just wanted you to come visit. Just once. Without me kidnapping anybody. But you never come.
+PEACH (neutral): Bowser, you've never invited me.
+BOWSER (surprised): ...I haven't?
+PEACH (smug): You've kidnapped me nine times. You've never once sent an invitation.
+BOWSER (nervous): I didn't think you'd come.
+PEACH (happy): You could have asked.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC happy
+SCENE bowser_castle
+PLACE bowser center left happy
+PLACE peach midright left happy
+PLACE mario midleft right surprised
+PLACE luigi left right surprised
+PLACE yoshi farright left happy
+NARRATOR: Bowser opened the cage. Mario stepped out, still holding the pillow.
+MARIO (surprised): Princess! You rescued me!
+PEACH (smug): It happens, Mario.
+LUIGI (surprised): Wait. Are we all having cake now?
+BOWSER (happy): If you want! With little mushrooms!
+YOSHI (excited): Yoshi!
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC romantic
+SCENE peach_castle
+CARD One week later...
+PLACE peach center left happy
+PLACE daisy midright left happy
+PLACE toad midleft right excited
+TOAD (excited): Princess! A letter arrived! From Bowser's Castle!
+PEACH (happy): An invitation. "Dear Princess. Please come to a tea party at my castle. No kidnapping. I promise. Love, Bowser."
+DAISY (smug): You're actually going?
+PEACH (smug): Of course. He asked nicely.
+DAISY (happy): Then I'm bringing my tennis racket. Just in case.
+END

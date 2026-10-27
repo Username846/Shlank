@@ -268,6 +268,21 @@
 			]
 		},
 		{
+			"file": "res://data/episodes/sm06_toads_delivery.txt"
+		},
+		{
+			"file": "res://data/episodes/sm07_daisys_tennis.txt"
+		},
+		{
+			"file": "res://data/episodes/sm08_warios_gold_rush.txt"
+		},
+		{
+			"file": "res://data/episodes/sm09_banana_mystery.txt"
+		},
+		{
+			"file": "res://data/episodes/sm10_peach_to_the_rescue.txt"
+		},
+		{
 			"file": "res://data/episodes/mt01_baby_metroid.txt",
 			"aka": [
 				"mt01_baby_metroyd"

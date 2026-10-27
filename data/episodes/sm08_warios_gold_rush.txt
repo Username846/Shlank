@@ -1,0 +1,184 @@
+@title Wario's Gold Rush
+@series Super Mario Brothers
+@season 1
+@icon mushroom
+@number 8
+@description Wario finds a map to a legendary gold mine in Desert Land. He wants all the gold for himself. Then he falls into the mine, and the only one who can get him out is the one person he hates most: Mario.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC sneaky
+SCENE desert_land cut
+TITLE
+PLACE wario center left excited
+WARIO (excited): Wahahaha! Look at this! An old map! It says "Gold Mine. Lots of Gold. No Mario Allowed."
+WARIO (smug): Okay, I wrote that last part. But the gold part is real!
+WARIO (excited): Somewhere under this desert is a mountain of gold coins! And it's all going to be mine!
+SFX coin
+WARIO (happy): I can already hear them.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy
+SCENE mushroom_kingdom
+PLACE mario center right happy
+PLACE luigi midleft right happy
+PLACE toad midright left nervous
+TOAD (nervous): Mario! Wario went into Desert Land with a shovel and a big wagon. He's looking for treasure.
+MARIO (surprised): Treasure?
+TOAD (nervous): The old miners said there's a gold mine out there. But it's full of traps. And collapsing tunnels.
+LUIGI (scared): Collapsing tunnels? That sounds terrible.
+MARIO (nervous): Wario doesn't know about-a the traps?
+TOAD (sad): He didn't let me finish. He just yelled "Wahaha!" and ran.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC jazz
+SCENE desert_land
+PLACE wario center left excited
+SFX thud
+NARRATOR: Wario dug. And dug. For three hours. He found a cactus, a boot and a very annoyed scorpion.
+WARIO (angry): Where's the gold?! The map says right here!
+WARIO (surprised): Wait. Is the map upside down?
+SFX thud
+SHAKE 0.8
+WARIO (scared): The ground is moving! WAHHH!
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC spooky
+SCENE underground_bricks
+PLACE wario center left scared
+SFX thud
+SHAKE 1.0
+NARRATOR: The sand opened up. Wario fell. Down, down, down, into an underground tunnel made of old bricks.
+WARIO (scared): Hello? Anybody? It's dark down here!
+WARIO (surprised): Wait.
+SFX coin
+WARIO (excited): GOLD! A whole room of gold! It's real! Wahahaha!
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC jazz
+SCENE underground_bricks
+PLACE wario center left excited
+NARRATOR: On the wall, by the light of a glowing coin, Wario found an old note. Written by a miner, long ago.
+WARIO (excited): "To whoever finds this gold. It's yours. But beware. The gold is heavy. And the way out is high."
+WARIO (smug): Heavy? Ha! I can carry anything!
+WARIO (excited): "P.S. I left all of it behind. Gold is nice. Getting home is nicer."
+WARIO (smug): What a dummy. Wahaha.
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC tense
+SCENE underground_bricks
+PLACE wario center left nervous
+NARRATOR: Wario filled his pockets. He filled his hat. He filled his overalls. Then he looked for the way out.
+WARIO (nervous): Where's the exit? There's no exit. Why is there no exit?
+SFX thud
+SHAKE 0.6
+WARIO (scared): The ceiling's coming down! Somebody help! Anybody!
+WARIO (sad): Even... Mario.
+
+# ------------------------------------------------------------ TOAD HOUSE
+MUSIC jazz 2
+SCENE toad_house
+PLACE toad center left nervous
+PLACE luigi midright left nervous
+PLACE mario right left smug
+TOAD (nervous): You'll need rope. Lots of rope. And a lamp. And these mushrooms, in case you get small.
+LUIGI (nervous): Why would we get small?
+TOAD (smug): You always get small, Luigi. Every time something touches you.
+MARIO (smug): He's-a right, little brother.
+LUIGI (sad): ...Pack extra mushrooms.
+TOAD (happy): Already did! Seventeen of them!
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC action
+SCENE desert_land
+PLACE mario center right nervous
+PLACE luigi midleft right scared
+MARIO (nervous): There! A big hole in the sand! And Wario's wagon!
+LUIGI (scared): He fell in, didn't he?
+MARIO (excited): Then we jump in after him! Let's-a go!
+LUIGI (scared): Mario, there's a sign. It says "Danger. Do Not Jump In Hole."
+MARIO (smug): That's-a never stopped us before!
+SFX jump_8bit
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC tense 2
+SCENE underground_bricks
+PLACE wario center left sad
+ENTER mario right midright happy 400
+ENTER luigi right right scared 400
+MARIO (happy): Wario! You're-a okay!
+WARIO (surprised): Mario?! What are YOU doing here?
+MARIO (smug): Rescuing you. It's-a kind of my job.
+WARIO (angry): I don't need rescuing! Especially not by you!
+SFX thud
+SHAKE 1.0
+WARIO (scared): Okay, maybe a little rescuing.
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC action
+SCENE underground_bricks
+PLACE mario center right excited
+PLACE wario midleft right nervous
+PLACE luigi right left scared
+MARIO (excited): There's a pipe up there! That's-a the way out! But it's high. We need to jump.
+WARIO (nervous): I can't jump that high! I'm too heavy!
+LUIGI (nervous): Maybe if you put down some of the gold?
+WARIO (angry): Never! The gold stays with me!
+SFX thud
+SHAKE 1.0
+MARIO (angry): Wario! It's-a the gold or you!
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC sad
+SCENE underground_bricks
+PLACE wario center left sad
+PLACE mario midright left neutral
+WARIO (sad): You don't understand, Mario. Everybody loves you. Everybody cheers for you. Nobody cheers for Wario.
+WARIO (sad): Gold is the only thing that makes people notice me.
+MARIO (neutral): Wario. We came down here for you. Not-a for the gold.
+WARIO (surprised): ...You did?
+MARIO (happy): You're-a family. A grumpy, smelly, cheating kind of family. But family.
+WARIO (shy): ...Wahaha. That's the nicest thing anybody's ever said to me.
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC action 2
+SCENE underground_bricks
+PLACE wario center left excited
+PLACE mario midright left excited
+NARRATOR: Wario emptied his pockets. His hat. His overalls. A mountain of gold coins clattered onto the floor.
+SFX coin
+SFX coin
+SFX coin
+WARIO (excited): Okay! I'm light! Let's go!
+SFX jump_8bit
+SFX jump_8bit
+NARRATOR: One, two, three jumps. Into the pipe. Out into the sunshine. Just as the whole tunnel collapsed behind them.
+SFX thud
+SHAKE 1.0
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC happy
+SCENE desert_land
+PLACE wario center left sad
+PLACE mario midright left happy
+PLACE luigi right left happy
+WARIO (sad): All that gold. Gone. Buried forever.
+LUIGI (happy): But you're okay, Wario. That's what matters.
+WARIO (nervous): Yeah. Yeah, I guess it is.
+MARIO (smug): And-a look in your mustache.
+WARIO (surprised): ...One gold coin! It was stuck in my mustache!
+SFX coin
+WARIO (excited): Wahahaha! I'm rich! Well. A little rich.
+
+# ------------------------------------------------------------ PRINCESS PEACH'S CASTLE
+MUSIC romantic
+SCENE peach_castle
+CARD The next day...
+PLACE peach center left happy
+PLACE wario midright left shy
+PEACH (happy): Wario? What a surprise. What brings you here?
+WARIO (shy): I brought something. For the castle. For the... kids' hospital fund.
+PEACH (surprised): One gold coin?
+WARIO (smug): The most valuable one in the kingdom. It came from my mustache.
+PEACH (nervous): ...Thank you, Wario. That's very generous.
+WARIO (excited): And I want my name on a plaque! Big letters!
+END

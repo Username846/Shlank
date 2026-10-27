@@ -1,0 +1,153 @@
+@title The Banana Mystery
+@series Super Mario Brothers
+@season 1
+@icon mushroom
+@number 9
+@description Donkey Kong's whole banana hoard has vanished overnight, and he's very, very upset. Mario and Luigi become detectives. Every clue points to Bowser. Bowser doesn't even like bananas.
+
+# ------------------------------------------------------------ KONG JUNGLE
+MUSIC sad
+SCENE kong_jungle cut
+TITLE
+PLACE donkey_kong center left sad
+DONKEY_KONG (sad): Ooh ooh... Bananas. Gone. All gone.
+NARRATOR: Donkey Kong's banana hoard was the biggest in the world. Ten thousand bananas. Stacked in a cave. Guarded day and night.
+DONKEY_KONG (angry): Gone! Every banana! Not one left!
+DONKEY_KONG (sad): Only peel. One little peel.
+NARRATOR: Donkey Kong cried so loudly that birds flew away from three different jungles.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC jazz
+SCENE mushroom_kingdom
+PLACE mario center right happy
+PLACE luigi midleft right happy
+ENTER donkey_kong right farright sad 400
+DONKEY_KONG (sad): Mario! Bananas! Stolen! Help!
+MARIO (surprised): Your banana hoard? All of it?
+DONKEY_KONG (sad): All. Ten thousand. Need detective.
+LUIGI (excited): Mario! We could be detectives! I've always wanted a magnifying glass!
+MARIO (smug): The Mario Brothers, banana detectives. Let's-a go!
+
+# ------------------------------------------------------------ KONG JUNGLE
+MUSIC sneaky
+SCENE kong_jungle
+PLACE mario center right nervous
+PLACE luigi midleft right excited
+PLACE donkey_kong midright left sad
+LUIGI (excited): Clue number one! Footprints! Big ones! With claws!
+MARIO (nervous): Those look like-a Bowser's feet.
+DONKEY_KONG (angry): Bowser?! Grrr! Ooh ooh!
+LUIGI (excited): Clue number two! A shell! A spiky one!
+MARIO (smug): Definitely Bowser.
+LUIGI (surprised): Clue number three! A note that says "Bowser was here."
+MARIO (nervous): ...That's almost too easy.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC spooky
+SCENE bowser_castle
+PLACE bowser center left surprised
+ENTER mario right midright angry
+ENTER donkey_kong right right angry
+DONKEY_KONG (angry): Bowser! Bananas! Give back!
+BOWSER (surprised): Bananas? What bananas?
+MARIO (angry): Your footprints were in the cave, Bowser! And your shell! And a note with your name!
+BOWSER (angry): I hate bananas! They're mushy! They're yellow! They taste like sadness!
+BOWSER (nervous): Also, I was here all night. Doing a puzzle. With my minions. It was a thousand pieces.
+MARIO (surprised): ...That's-a a pretty good alibi.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky 2
+SCENE bowser_castle
+PLACE goomba center left nervous
+PLACE koopa_troopa midright left nervous
+PLACE bowser farleft right angry
+GOOMBA (nervous): It's true. We did the puzzle all night. It was a picture of a kitten.
+KOOPA_TROOPA (smug): Boss cried when we finished it. It was a very beautiful kitten.
+BOWSER (angry): I did NOT cry!
+KOOPA_TROOPA (nervous): ...He cried a little.
+GOOMBA (smug): But, boss. Didn't you lend your old shell to somebody last week?
+BOWSER (surprised): ...Wario.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC jazz 2
+SCENE desert_land
+PLACE wario center left smug
+ENTER luigi right midright nervous
+WARIO (smug): Wahaha. Can I help you, Luigi?
+LUIGI (nervous): Wario. Have you seen any bananas? Like, ten thousand of them?
+WARIO (nervous): Bananas? Never heard of 'em. What's a banana?
+LUIGI (smug): You have a banana sticker on your hat.
+WARIO (scared): ...That's a decoration!
+LUIGI (excited): Mario! I think I found him!
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC tense
+SCENE desert_land
+PLACE wario center left nervous
+PLACE mario midright left smug
+PLACE luigi right left smug
+MARIO (smug): Wario. You borrowed Bowser's shell. You wore fake claw feet. You left a note with his name.
+WARIO (nervous): I don't know what you're talking about.
+LUIGI (smug): You signed the note. At the bottom. It says "Love, Wario."
+WARIO (scared): ...I always sign my notes! It's polite!
+MARIO (angry): Where are the bananas, Wario?
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC sad
+SCENE desert_land
+PLACE wario center left sad
+PLACE mario midright left neutral
+WARIO (sad): I was gonna sell them. The Banana Festival is next week. Ten thousand bananas, one coin each. Rich!
+MARIO (neutral): Donkey Kong was saving those bananas for something, you know.
+WARIO (surprised): Saving them? For what?
+MARIO (smug): For-a the Banana Festival. He gives them away every year. For free. To all the kids in the kingdom.
+WARIO (sad): ...Oh. I didn't know that.
+WARIO (shy): That's kind of a nice thing to do.
+
+# ------------------------------------------------------------ KONG JUNGLE
+MUSIC happy
+SCENE kong_jungle
+PLACE donkey_kong center left surprised
+ENTER wario right midright sad
+WARIO (sad): Donkey Kong. Here. Your bananas. All ten thousand. In my wagon. Well, nine thousand, nine hundred and ninety-nine.
+DONKEY_KONG (surprised): Ooh ooh?
+WARIO (sad): I ate one. It was mushy. I'm sorry.
+DONKEY_KONG (happy): Ooh ooh! Bananas back! Thank you!
+NARRATOR: Donkey Kong hugged Wario. Wario did not expect this. Donkey Kong is very strong. Wario's back made a sound.
+
+# ------------------------------------------------------------ KONG JUNGLE
+MUSIC jazz
+SCENE kong_jungle
+PLACE donkey_kong center left happy
+PLACE wario midright left nervous
+DONKEY_KONG (happy): Wario. Come to festival. Help give bananas.
+WARIO (nervous): Me? Give stuff away? For free?
+DONKEY_KONG (excited): Fun! Kids happy! Very fun!
+WARIO (sad): ...I've never given anything away for free before.
+DONKEY_KONG (smug): First time. Good time.
+WARIO (shy): ...Okay. But I'm wearing my banana hat.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy 2
+SCENE mushroom_kingdom
+CARD The Banana Festival...
+PLACE donkey_kong center left excited
+PLACE wario midright left happy
+PLACE toad midleft right excited
+DONKEY_KONG (excited): Bananas! Free bananas! For everybody!
+TOAD (excited): Thank you, Donkey Kong! Thank you, Wario!
+WARIO (surprised): They're... thanking me?
+TOAD (happy): You're giving away bananas! You're a hero!
+WARIO (excited): Wahahaha! I'm a hero! Free bananas! Take two!
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky
+SCENE bowser_castle
+PLACE bowser center left angry
+PLACE goomba midright left happy
+BOWSER (angry): Everybody blamed me. For bananas. I don't even LIKE bananas.
+GOOMBA (happy): Donkey Kong sent you a gift basket, boss. To say sorry.
+BOWSER (surprised): A gift basket? For me?
+GOOMBA (smug): It's full of bananas.
+BOWSER (sad): ...Of course it is.
+END
