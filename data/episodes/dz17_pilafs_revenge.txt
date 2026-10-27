@@ -1,0 +1,180 @@
+@title Pilaf's Revenge
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 7
+@description Emperor Pilaf has found a Dragon Ball and wants to rule the world. Again. He kidnaps Bulma to make her build him a Dragon Radar. Goten and Trunks go to rescue her, mostly because they're bored. Pilaf's castle is full of traps. None of them work on Saiyans.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC happy
+SCENE capsule_corp cut
+TITLE
+PLACE bulma center left happy
+PLACE vegeta midright left smug
+BULMA (happy): Vegeta, honey, I'm going to the store. Watch Trunks and Goten, okay?
+VEGETA (smug): I'm a warrior, not a babysitter.
+BULMA (angry): You're both. Today.
+VEGETA (angry): Hmph.
+BULMA (smug): And no Gravity Room for them. Last time, Goten broke the ceiling.
+VEGETA (smug): That was impressive, actually.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC sneaky
+SCENE west_city
+PLACE bulma center left surprised
+SFX whoosh
+NARRATOR: On her way to the store, a tiny flying machine swooped down out of the sky. Inside were three tiny bad guys: Emperor Pilaf, Mai and Shu.
+BULMA (surprised): Pilaf?! You again?! You've been trying to rule the world since I was sixteen!
+NARRATOR: "And this time, I'll win! You'll build me a Dragon Radar, Bulma! Grab her, Shu!"
+BULMA (angry): Put me down, you little weirdo!
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz
+SCENE capsule_corp
+PLACE trunks center left excited
+PLACE goten midright left excited
+PLACE vegeta right left angry
+TRUNKS (excited): Dad! Mom just got kidnapped by a flying machine shaped like a frog!
+GOTEN (excited): It had a little guy with a cape! He was blue!
+VEGETA (angry): Pilaf. That pathetic little imp.
+TRUNKS (smug): Can we go rescue her? Please, Dad? We'll be careful.
+VEGETA (smug): ...Fine. Go. Fusion is not allowed. Destroying the castle is allowed.
+GOTEN (excited): Yay!
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC spooky
+SCENE pilaf_castle
+PLACE bulma center left angry
+NARRATOR: In the tallest tower of Pilaf's castle, Bulma was locked in a room full of tools. And one very angry Emperor stood outside the door.
+BULMA (angry): I'm not building you anything, Pilaf!
+NARRATOR: "Then you'll stay there until you do! No snacks! No phone! No hair spray!"
+BULMA (scared): No hair spray?! You monster!
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC happy 2
+SCENE capsule_corp
+PLACE trunks center left smug
+PLACE goten midright left nervous
+TRUNKS (smug): Okay. We'll need snacks. And a map. And my cool sunglasses.
+GOTEN (nervous): Do I need sunglasses?
+TRUNKS (smug): Every hero needs sunglasses, Goten.
+GOTEN (happy): I'll wear my mom's! They're purple!
+TRUNKS (surprised): ...You know what? Purple works.
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC sneaky 2
+SCENE pilaf_castle
+PLACE trunks center left smug
+PLACE goten midright left excited
+SFX whoosh
+TRUNKS (smug): There's the castle. It's purple. Who builds a purple castle?
+GOTEN (excited): I like it! It looks like a cake!
+TRUNKS (smug): Okay, Goten. We sneak in quietly. No flying through walls.
+GOTEN (nervous): Not even a little wall?
+TRUNKS (happy): ...Okay, maybe a little wall.
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC action
+SCENE pilaf_castle
+PLACE goten center right excited
+PLACE trunks midleft right excited
+SFX slide_whistle
+NARRATOR: Trap number one. The floor opened up. Goten and Trunks fell into a pit.
+GOTEN (excited): Whee! A slide!
+SFX whoosh
+NARRATOR: They flew right back out of the pit.
+TRUNKS (smug): That was the worst trap ever.
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC action 2
+SCENE pilaf_castle
+PLACE trunks center left excited
+PLACE goten midright left happy
+SFX thud
+NARRATOR: Trap number two. A giant boulder came rolling down the hall.
+TRUNKS (excited): My turn!
+SFX blast
+NARRATOR: Trunks punched the boulder into a million tiny pebbles.
+GOTEN (happy): Can I keep a pebble?
+TRUNKS (smug): Take two.
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC sneaky
+SCENE pilaf_castle
+PLACE goten center right happy
+NARRATOR: Trap number three. A room full of delicious food. With a cage hanging right above it.
+GOTEN (excited): Food! Look, Trunks! Cake! And dumplings! And meatballs!
+SFX thud
+NARRATOR: The cage fell on Goten. Goten kept eating.
+GOTEN (happy): This is the best trap!
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC jazz
+SCENE pilaf_castle
+PLACE bulma center left smug
+NARRATOR: Meanwhile, in the tower, Bulma had been busy. She hadn't built a Dragon Radar. She'd built something much better.
+BULMA (smug): A phone. Out of a toaster, two screws and a hairpin.
+SFX beep
+BULMA (happy): Hello, Vegeta? It's me. Yes, I'm fine. No, don't come. The boys are handling it.
+BULMA (surprised): ...What do you mean, you were "stretching"?
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC jazz 2
+SCENE pilaf_castle
+PLACE bulma center left nervous
+PLACE trunks midright left excited
+SFX door
+TRUNKS (excited): Mom! We found you!
+BULMA (surprised): Trunks! You came to rescue me?
+TRUNKS (smug): Dad said we could. And we could break the castle.
+BULMA (nervous): Where's Goten?
+TRUNKS (nervous): ...Eating. In a cage. He says he's fine.
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC action
+SCENE pilaf_castle
+PLACE goten center right excited
+PLACE trunks midleft right excited
+SFX powerup
+NARRATOR: Then Pilaf pulled a lever. The castle shook. And out of the wall came Pilaf's greatest weapon: a giant robot, three stories tall.
+GOTEN (excited): A giant robot! Cool!
+TRUNKS (excited): Goten! Same time! One, two...
+GOTEN (excited): THREE!
+SFX blast
+
+# ------------------------------------------------------------ PILAF'S CASTLE
+MUSIC action 2
+SCENE pilaf_castle
+PLACE bulma center left surprised
+SFX blast
+SHAKE 1.0
+NARRATOR: Two little boys, two little punches. The robot flew into the sky. It took the roof with it. Then the walls. Then most of the castle.
+BULMA (surprised): They're... seven and eight years old.
+NARRATOR: "My castle! My beautiful purple castle! That was a rental!"
+BULMA (smug): Should've read the fine print, Pilaf.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC happy
+SCENE capsule_corp
+CARD Back home...
+PLACE vegeta center left smug
+PLACE trunks midright left happy
+PLACE bulma right left happy
+VEGETA (smug): Well? Did you destroy the castle?
+TRUNKS (happy): All of it, Dad! Even the bathrooms!
+VEGETA (smug): Good. That's my son.
+BULMA (happy): And they rescued me. My heroes.
+VEGETA (nervous): ...I was going to come. I was just... stretching.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC romantic
+SCENE capsule_corp
+CARD That night...
+PLACE goten center right happy
+PLACE trunks midleft right happy
+GOTEN (happy): Trunks, that was the best day ever.
+TRUNKS (smug): Totally. Wanna go rescue somebody else tomorrow?
+GOTEN (excited): Yeah! Who?
+TRUNKS (happy): I don't know. Somebody's gotta get kidnapped first.
+GOTEN (sad): ...I hope it happens soon.
+END

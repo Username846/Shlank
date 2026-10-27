@@ -1,0 +1,179 @@
+@title King Kai's Joke Contest
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 9
+@description King Kai is holding a joke contest in the Other World, and the prize is a secret technique. Goku wants the technique. Goku is not funny. Piccolo, who has never told a joke in his life, enters too. King Yemma is the judge.
+
+# ------------------------------------------------------------ KING KAI'S PLANET
+MUSIC happy
+SCENE kai_planet cut
+TITLE
+PLACE king_kai center left excited
+PLACE goku midright left happy
+KING_KAI (excited): Goku! I'm holding a joke contest! At the Check-In Station! The winner gets a brand new secret technique!
+GOKU (excited): A secret technique? I'm in!
+KING_KAI (smug): You have to be funny, Goku. Really funny.
+GOKU (nervous): How funny?
+KING_KAI (smug): Funnier than me. And I'm hilarious.
+GOKU (nervous): ...Oh no.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC jazz
+SCENE the_lookout
+PLACE goku center right nervous
+PLACE piccolo midleft right angry
+GOKU (nervous): Piccolo, do you know any jokes?
+PICCOLO (angry): No.
+GOKU (happy): Not even one?
+PICCOLO (angry): I'm a warrior. Warriors don't joke.
+GOKU (smug): The prize is a secret technique.
+PICCOLO (smug): ...I may know one joke.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC happy 2
+SCENE other_world
+CARD The Check-In Station...
+PLACE king_kai center left excited
+PLACE goku midright left excited
+PLACE piccolo right left nervous
+NARRATOR: At the Check-In Station, the great King Yemma sat at his giant desk. He was the judge. He was enormous. He did not look like he laughed often.
+KING_KAI (excited): Welcome, everyone, to the first Other World Joke Contest!
+GOKU (excited): This is gonna be fun!
+PICCOLO (nervous): This is going to be humiliating.
+KING_KAI (smug): I'll go first, to show you how it's done.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC jazz 2
+SCENE other_world
+PLACE king_kai center left smug
+PLACE goku midright left nervous
+KING_KAI (smug): Why did the Saiyan bring a ladder to the fight?
+GOKU (nervous): Um. Why?
+KING_KAI (excited): Because he wanted to take his power to the next LEVEL! Ha ha ha ha!
+SFX drumroll
+NARRATOR: King Yemma did not laugh. Not even a little.
+KING_KAI (sad): ...Tough crowd.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC sneaky
+SCENE other_world
+PLACE goku center right nervous
+PLACE king_kai midleft right smug
+GOKU (nervous): Okay. My turn. Um. What do you call a... a fish... with no... eyes?
+KING_KAI (smug): Go on.
+GOKU (happy): A fish!
+SFX wahwah
+GOKU (surprised): That's not right? It's a fish without eyes. It's still a fish.
+KING_KAI (sad): Goku, the answer is "a fsh." No "i."
+GOKU (surprised): ...I don't get it.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC tense
+SCENE other_world
+PLACE piccolo center left nervous
+PLACE goku midright left excited
+PICCOLO (nervous): Ahem. I have one joke.
+GOKU (excited): Go, Piccolo!
+PICCOLO (nervous): A Namekian walks into a restaurant. The waiter says, "What will you have?" The Namekian says...
+PICCOLO (smug): "Water. I'm a Namekian. We only drink water."
+NARRATOR: Silence. Long silence.
+PICCOLO (angry): That was the joke.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC jazz
+SCENE other_world
+PLACE king_kai center left surprised
+PLACE goku midright left surprised
+PLACE piccolo midleft right neutral
+KING_KAI (surprised): Piccolo. That wasn't a joke. That was a fact about Namekians.
+PICCOLO (angry): It's a funny fact!
+GOKU (happy): I liked it, Piccolo!
+PICCOLO (shy): ...You did?
+GOKU (smug): No. But I wanted you to feel better.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC sad
+SCENE other_world
+PLACE goku center right sad
+PLACE piccolo midleft right sad
+GOKU (sad): Piccolo. We're terrible at this.
+PICCOLO (sad): I know.
+GOKU (nervous): Maybe we should practice. Tell me something funny.
+PICCOLO (smug): You.
+GOKU (surprised): Me? What's funny about me?
+PICCOLO (smug): Everything, Goku. Everything.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC sneaky 2
+SCENE other_world
+PLACE yamcha center left nervous
+PLACE king_kai midright left surprised
+SFX whoosh
+YAMCHA (nervous): Is this the joke contest? I'm not too late, am I?
+KING_KAI (surprised): Yamcha? You're entering too?
+YAMCHA (smug): I've got a good one. Why didn't the skeleton go to the dance?
+KING_KAI (nervous): Why?
+YAMCHA (happy): Because he had no BODY to go with!
+SFX drumroll
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC happy
+SCENE other_world
+PLACE king_kai center left excited
+PLACE yamcha midright left surprised
+NARRATOR: And then, for the first time in ten thousand years, King Yemma laughed. A huge, booming laugh. The clouds shook. The souls in line fell over.
+KING_KAI (excited): He's laughing! King Yemma is laughing!
+YAMCHA (surprised): He liked it? My skeleton joke?
+KING_KAI (happy): It's the oldest joke in the universe! He's never heard it!
+YAMCHA (excited): I'm winning! I'm actually winning something!
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC tense
+SCENE other_world
+PLACE goku center right nervous
+PLACE piccolo midleft right angry
+GOKU (nervous): Piccolo. We're losing. To Yamcha.
+PICCOLO (angry): Unacceptable.
+GOKU (excited): We need a better joke! A team joke!
+PICCOLO (smug): ...Fine. Here's what we'll do. You fall down. I say something sarcastic.
+GOKU (happy): That's not a joke, that's just us!
+PICCOLO (smug): Exactly.
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC action
+SCENE other_world
+PLACE goku center right excited
+PLACE piccolo midleft right smug
+SFX boing
+NARRATOR: Goku walked across the stage. He tripped over his own feet. He fell flat on his face.
+SFX thud
+PICCOLO (smug): And that's the strongest fighter in the universe.
+NARRATOR: King Yemma laughed again. Even harder this time. He slapped his giant desk so hard it cracked.
+GOKU (excited): It worked!
+
+# ------------------------------------------------------------ CHECK-IN STATION
+MUSIC jazz 2
+SCENE other_world
+PLACE king_kai center left smug
+PLACE yamcha midright left nervous
+PLACE goku midleft right excited
+KING_KAI (smug): The judge has decided. It's a tie! Yamcha, and Goku and Piccolo!
+YAMCHA (nervous): A tie? So I didn't lose?
+KING_KAI (happy): You didn't lose, Yamcha. For once!
+GOKU (excited): So what's the secret technique?
+KING_KAI (smug): It's the ultimate technique. The one I've been saving for centuries.
+
+# ------------------------------------------------------------ KING KAI'S PLANET
+MUSIC romantic
+SCENE kai_planet
+CARD The secret technique...
+PLACE king_kai center left smug
+PLACE goku midright left surprised
+PLACE yamcha right left surprised
+KING_KAI (smug): The secret technique is... a book! "One Thousand Jokes for Every Occasion!"
+GOKU (surprised): ...That's the technique?
+KING_KAI (excited): Comedy is the strongest technique of all, Goku!
+YAMCHA (happy): I'm gonna read the whole thing. Tonight.
+GOKU (sad): I was hoping for a punch.
+END

@@ -1,0 +1,175 @@
+@title Buu's Big Day
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 10
+@description Satan City is throwing a parade to celebrate the end of the Buu crisis, and Mr. Satan wants Buu to be the guest of honor. The city is terrified. Buu is excited. Bulma throws a party at Capsule Corp, and every fighter on Earth is invited. Vegeta is not happy about the karaoke.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC happy
+SCENE satan_city cut
+TITLE
+PLACE mr_satan center left excited
+PLACE videl midright left nervous
+MR_SATAN (excited): Videl! The city's throwing me a parade! For saving the world from Majin Buu!
+VIDEL (nervous): Dad. You didn't save the world from Buu. Buu is your best friend.
+MR_SATAN (smug): Exactly! I saved the world by making friends! That counts!
+VIDEL (smug): ...Okay. That actually does count.
+MR_SATAN (excited): And Buu is going to ride on the float with me!
+VIDEL (scared): Dad, the whole city is still afraid of him!
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC jazz
+SCENE buu_house
+PLACE majin_buu center left excited
+PLACE mr_satan midright left happy
+MAJIN_BUU (excited): Parade? Buu go to parade? With balloons?
+MR_SATAN (happy): Lots of balloons, Buu. And music. And candy.
+MAJIN_BUU (excited): Buu love parade!
+MR_SATAN (nervous): Just one rule, Buu. No turning anybody into candy. Not even a little.
+MAJIN_BUU (smug): Buu promise. Pinky promise.
+MR_SATAN (happy): Good boy, Buu.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC happy 2
+SCENE capsule_corp
+PLACE bulma center left excited
+PLACE vegeta midright left angry
+BULMA (excited): Vegeta! After the parade, I'm throwing a party! Everyone's coming! Goku, Gohan, Piccolo, everybody!
+VEGETA (angry): A party. With Kakarot. And the fat pink one.
+BULMA (smug): And karaoke!
+VEGETA (scared): Absolutely not.
+BULMA (happy): You have to sing one song, honey. Just one.
+VEGETA (angry): I would rather fight Frieza again.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC tense
+SCENE satan_city
+CARD The parade...
+PLACE videl center left nervous
+PLACE gohan midright left nervous
+SFX fanfare
+NARRATOR: The parade began. Drums. Trumpets. A giant balloon of Mr. Satan. And on the biggest float of all, Mr. Satan and Majin Buu, waving to the crowd.
+VIDEL (nervous): Nobody's cheering. Everyone's hiding behind cars.
+GOHAN (nervous): They're scared of Buu. Look, that guy just climbed a tree.
+VIDEL (sad): Dad was so excited.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC sad
+SCENE satan_city
+PLACE majin_buu center left sad
+PLACE mr_satan midright left nervous
+MAJIN_BUU (sad): Mister Satan. Why people hide from Buu?
+MR_SATAN (nervous): They're... shy, Buu. Very, very shy.
+MAJIN_BUU (sad): Buu make people scared. Buu don't want make people scared.
+MR_SATAN (sad): I know, buddy. Give them time.
+MAJIN_BUU (sad): ...Buu go home.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC sad
+SCENE satan_city
+PLACE gohan center right nervous
+PLACE videl midleft right sad
+GOHAN (nervous): Videl. Maybe the Great Saiyaman should do something. To show everyone Buu is okay.
+VIDEL (sad): Like what? A pose?
+GOHAN (smug): I've been working on a new one.
+VIDEL (smug): Gohan, no.
+GOHAN (sad): ...It has a spin.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC action
+SCENE satan_city
+PLACE videl center left scared
+SFX blast
+SHAKE 0.8
+NARRATOR: Then the giant Mr. Satan balloon broke loose. It floated up. It pulled the whole float with it. And it was drifting straight toward a crowd of kids by the fountain.
+VIDEL (scared): The float! It's going to crash into the crowd!
+SFX whoosh
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC action 2
+SCENE satan_city
+PLACE majin_buu center left angry
+PLACE mr_satan midright left scared
+SFX powerup
+MR_SATAN (scared): Buu! The kids!
+MAJIN_BUU (angry): Buu save!
+SFX whoosh
+NARRATOR: Buu stretched. His arms got longer, and longer, and longer. He grabbed the float right out of the sky and set it down gently on the grass. Not one kid was hurt.
+MAJIN_BUU (happy): All safe!
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC happy
+SCENE satan_city
+PLACE majin_buu center left surprised
+PLACE mr_satan midright left excited
+PLACE videl right left happy
+SFX fanfare
+NARRATOR: For a second, the whole city was quiet. Then one little kid started clapping. Then another. Then the whole city cheered.
+MAJIN_BUU (surprised): People... clap for Buu?
+MR_SATAN (excited): They're cheering for you, Buu! You're a hero!
+VIDEL (happy): Way to go, Buu!
+MAJIN_BUU (excited): Buu hero! BUU HERO!
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz 2
+SCENE capsule_corp
+CARD The party...
+PLACE goku center right excited
+PLACE krillin midleft right happy
+PLACE yamcha midright left happy
+GOKU (excited): Bulma! This party is amazing! Look at all this food!
+KRILLIN (happy): Goku, you've already eaten three tables.
+GOKU (smug): There's four tables.
+YAMCHA (excited): Anybody want to hear a joke? I've got a thousand!
+KRILLIN (nervous): Oh no. He read the whole book.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC sneaky
+SCENE capsule_corp
+PLACE majin_buu center left excited
+PLACE goten midright left excited
+PLACE trunks right left excited
+MAJIN_BUU (excited): Buu love party! Buu eat all cake!
+GOTEN (excited): Buu, can you turn the cake into MORE cake?
+MAJIN_BUU (smug): Buu try!
+SFX zap
+NARRATOR: Buu turned the cake into a bigger cake. Then into a cake shaped like a house. Then into a cake shaped like Vegeta.
+TRUNKS (excited): Ha! It's Dad! Made of cake!
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC tense
+SCENE capsule_corp
+PLACE bulma center left smug
+PLACE vegeta midright left angry
+BULMA (smug): Vegeta. It's your turn. Karaoke.
+VEGETA (angry): No.
+BULMA (smug): You promised. One song.
+VEGETA (angry): I promised NOTHING.
+BULMA (happy): Trunks is watching. He wants to see his dad be brave.
+VEGETA (nervous): ...One song. And nobody records it.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC romantic
+SCENE capsule_corp
+PLACE vegeta center left nervous
+PLACE goku midright left surprised
+SFX drumroll
+NARRATOR: The Prince of all Saiyans stood on the stage. He held the microphone like it was a dangerous weapon. And he sang. Badly. Loudly. With his whole heart.
+GOKU (surprised): Vegeta can sing?
+NARRATOR: Vegeta could not sing. But everyone cheered anyway. Even Piccolo.
+VEGETA (shy): ...That was the hardest battle of my life.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC romantic 2
+SCENE capsule_corp
+CARD Late that night...
+PLACE goku center right happy
+PLACE gohan midleft right happy
+PLACE majin_buu midright left happy
+GOKU (happy): This was a good day. Everybody's here. Everybody's safe.
+GOHAN (happy): Even Buu.
+MAJIN_BUU (happy): Buu have best day. Buu have friends.
+GOKU (smug): Hey, Buu. When you're ready, want to have a friendly fight? Just for fun?
+MAJIN_BUU (excited): Buu love fun!
+END

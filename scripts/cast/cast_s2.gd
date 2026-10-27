@@ -120,10 +120,72 @@ static func _human(style: String) -> Dictionary:
 		"delia_ketchum":
 			return {"size": "adult", "top": Color("f28cb8"), "sleeves": "short", "bottom": "skirt", "bottom_col": Color("7a3fa0"),
 				"legs": Puppet.SKIN, "shoe": Color("8a5a36"), "hair": "ponytail", "hair_col": Color("8a4a2a"), "lashes": 2, "torso_w": 28.0}
+		# Dragon Ball Z
+		"majin_buu":
+			return {"size": "adult", "skin": Color("f7a8c8"), "top": Color("3a2a4a"), "sleeves": "none", "bottom_col": Color("f4f4f2"),
+				"shoe": Color("f2c14e"), "hair": "none", "ears": false, "head": Vector2(40, 34), "head_shape": "wide", "torso_w": 46.0,
+				"belly": 30.0, "arm_w": 11.0, "leg_w": 20.0, "base_lid": 0.45, "torso_extra": _x_buu_belt,
+				"extra": _x_buu_antenna, "back_extra": CastMore._x_cape.bind(Color("6a3fa8"))}
+		"videl":
+			return {"size": "teen", "top": Color("f4f4f2"), "sleeves": "short", "bottom": "shorts", "bottom_col": Color("2b2b33"),
+				"legs": Color("2b2b33"), "shoe": Color("2b2b33"), "hair": "pigtails", "hair_col": Color("1d1d22"), "lashes": 2,
+				"eye_iris": Color("3d6fd0"), "torso_w": 25.0}
+		"mr_satan":
+			return {"size": "adult", "skin": Color("e9b48a"), "top": Color("f4f4f2"), "sleeves": "none", "bottom_col": Color("f4f4f2"),
+				"shoe": Color("2b2b33"), "hair": "curly", "hair_col": Color("2b211c"), "torso_w": 40.0, "belly": 6.0, "arm_w": 11.0,
+				"torso_extra": _x_champ_belt, "extra": CastS2._x_small_moustache.bind(Color("2b211c"))}
+		"goten":
+			return {"size": "kid", "top": Color("f2852a"), "sleeves": "none", "bottom_col": Color("f2852a"), "shoe": Color("2f5fa8"),
+				"hair": "saiyan", "hair_col": Color("1d1d22"), "eye": Vector2(8, 10), "torso_extra": _x_kid_gi.bind("kid", Color("2f5fa8"))}
+		"king_kai":
+			return {"size": "teen", "skin": Color("3d6fd0"), "top": Color("2b2b33"), "sleeves": "long", "bottom": "dress", "flare": 12.0,
+				"shoe": Color("8a5a36"), "hair": "none", "ears": false, "head": Vector2(36, 32), "head_shape": "wide", "torso_w": 32.0,
+				"belly": 8.0, "extra": _x_kai_face}
+		"yamcha":
+			return {"size": "adult", "top": Color("f2852a"), "sleeves": "none", "bottom_col": Color("f2852a"), "shoe": Color("2f5fa8"),
+				"hair": "spiky", "hair_col": Color("1d1d22"), "torso_w": 34.0, "arm_w": 9.0,
+				"torso_extra": _x_kid_gi.bind("adult", Color("2f5fa8")), "extra": _x_scar}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_kid_gi(p: Puppet, size: String, under: Color) -> void:
+	var sh: float = SHOULDER[size]
+	var hip: float = HumanRig.SIZES[size].hip
+	var tw: float = 30.0 if size == "kid" else 32.0
+	Art.shape(p.ci, PackedVector2Array([Vector2(-12, sh), Vector2(12, sh), Vector2(0, sh + 26)]), under, 2.5)
+	Art.shape(p.ci, Art.rrect(Rect2(-tw, hip - 12, tw * 2, 12), 4), under, 3.0)
+
+
+static func _x_buu_belt(p: Puppet) -> void:
+	Art.shape(p.ci, Art.rrect(Rect2(-60, -118, 120, 18), 6), Color("f2c14e"), 3.0)
+	Art.shape(p.ci, Art.rrect(Rect2(-12, -122, 24, 26), 4), Color("2b2b33"), 2.5)
+	Art.text(p.ci, ThemeDB.fallback_font, Vector2(-12, -101), "M", 18, Color("e6452f"), 0, HORIZONTAL_ALIGNMENT_CENTER, 24)
+
+
+static func _x_buu_antenna(p: Puppet, hc: Vector2) -> void:
+	Art.limb(p.ci, Art.curve(hc + Vector2(0, -30), hc + Vector2(-10, -64), hc + Vector2(-34, -70), 8), 10, Color("f7a8c8"))
+	for i in 4:
+		Art.dot(p.ci, hc + Vector2(-24 + i * 16, -18 + absf(i - 1.5) * 4), 3, Color("e6709a"))
+
+
+static func _x_champ_belt(p: Puppet) -> void:
+	Art.shape(p.ci, Art.rrect(Rect2(-42, -122, 84, 18), 5), Color("2b2b33"), 3.0)
+	Art.shape(p.ci, Art.rrect(Rect2(-18, -128, 36, 30), 6), Color("f2c14e"), 3.0)
+
+
+static func _x_kai_face(p: Puppet, hc: Vector2) -> void:
+	for sx in [-1, 1]:
+		Art.blob(p.ci, hc + Vector2(sx * 14, -4), 14, 9, Color("1d1d22"), 3.0)
+		Art.stroke(p.ci, Art.curve(hc + Vector2(sx * 12, -30), hc + Vector2(sx * 20, -56), hc + Vector2(sx * 34, -64), 8), 3.0)
+	Art.stroke(p.ci, PackedVector2Array([hc + Vector2(-2, -4), hc + Vector2(2, -4)]), 3.0)
+	Art.stroke(p.ci, Art.curve(hc + Vector2(-14, 26), hc + Vector2(0, 40), hc + Vector2(14, 26), 6), 4.0, Color("1d1d22"))
+
+
+static func _x_scar(p: Puppet, hc: Vector2) -> void:
+	Art.stroke(p.ci, PackedVector2Array([hc + Vector2(8, -16), hc + Vector2(24, 8)]), 2.5, Color("b8705a"))
+	Art.stroke(p.ci, PackedVector2Array([hc + Vector2(-20, 10), hc + Vector2(-10, 20)]), 2.5, Color("b8705a"))
 
 static func _x_pendant(p: Puppet) -> void:
 	Art.stroke(p.ci, Art.curve(Vector2(-12, -126), Vector2(0, -100), Vector2(12, -126), 8), 2.0)

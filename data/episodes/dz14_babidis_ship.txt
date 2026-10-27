@@ -1,0 +1,168 @@
+@title Inside Babidi's Ship
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 4
+@description A wizard named Babidi has landed a spaceship in the mountains. He's trying to wake up an ancient monster called Majin Buu. Goku, Vegeta and Gohan go inside to stop him. Babidi casts a spell on Vegeta, and Vegeta lets him.
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC tense
+SCENE rocky_wasteland cut
+TITLE
+PLACE goku center right nervous
+PLACE vegeta midleft right smug
+PLACE gohan midright left nervous
+GOKU (nervous): There it is. Babidi's ship. Buried in the rocks.
+VEGETA (smug): A tiny wizard in a spaceship. This should take five minutes.
+GOHAN (nervous): The Supreme Kai says Babidi is trying to wake up Majin Buu. Buu destroyed whole planets.
+VEGETA (smug): So did I. Let's go.
+GOKU (happy): That's not really something to brag about, Vegeta.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC spooky
+SCENE babidi_ship
+PLACE goku center right nervous
+PLACE gohan midleft right scared
+SFX door
+NARRATOR: The ship's door slid open by itself. Inside, it was dark and purple and humming.
+GOHAN (scared): Dad, it's like the ship wants us to come in.
+GOKU (nervous): That's never a good sign.
+SFX hiss
+NARRATOR: A small voice echoed through the halls. "Welcome, warriors! Come in, come in! Babidi has been expecting you!"
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC sneaky
+SCENE babidi_ship
+CARD Level one...
+PLACE vegeta center left smug
+PLACE goku midright left excited
+NARRATOR: On every level of the ship, Babidi sent a fighter. On level one, it was a giant with a spiked club.
+VEGETA (smug): Kakarot. Let me. I'm bored.
+SFX blast
+NARRATOR: Vegeta finished him in one hit.
+GOKU (excited): Hey, I wanted a turn!
+VEGETA (smug): Level two is yours. If it isn't also boring.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC action
+SCENE babidi_ship
+CARD Level two...
+PLACE gohan center right excited
+PLACE goku midleft right happy
+SFX thud
+SHAKE 0.6
+NARRATOR: On level two, the floor turned into goo. Every step, your feet got stickier.
+GOHAN (excited): It's like walking in glue! I can't move my legs!
+GOKU (happy): So don't use your legs! Fly!
+SFX whoosh
+GOHAN (smug): ...Oh. Right. I always forget I can fly.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC tense
+SCENE babidi_ship
+PLACE vegeta center left angry
+PLACE goku midright left nervous
+SFX hiss
+NARRATOR: Then a voice whispered right into Vegeta's head. "Vegeta. Prince of all Saiyans. Why do you let Kakarot be stronger than you?"
+VEGETA (angry): Get out of my head, wizard!
+NARRATOR: "I can make you stronger. Strong enough to finally beat him. All you have to do is let me in."
+GOKU (nervous): Vegeta? You okay? You look funny.
+VEGETA (nervous): ...I'm fine. Keep walking.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC sad
+SCENE babidi_ship
+PLACE vegeta center left sad
+NARRATOR: Vegeta stood alone for a moment. He thought about every time he had lost to Kakarot. Every single time.
+VEGETA (sad): I was a prince. I was the strongest warrior in the universe.
+VEGETA (angry): And then a third-class soldier from a backwater planet beat me. Again. And again. And again.
+VEGETA (smug): Fine, wizard. Do it. Make me stronger.
+SFX powerup
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC action 2
+SCENE babidi_ship
+PLACE vegeta center left angry
+PLACE goku midright left surprised
+PLACE gohan right left scared
+SFX powerup
+SHAKE 1.0
+NARRATOR: Vegeta's hair turned gold. His eyes turned cold. And on his forehead, a big red M appeared.
+GOKU (surprised): Vegeta! What did you do?
+VEGETA (angry): What I should have done years ago. Kakarot. Fight me. Right now.
+GOHAN (scared): Dad, he's got Babidi's mark!
+VEGETA (smug): Babidi's mark. My power. My choice.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC tense
+SCENE babidi_ship
+PLACE goku center right sad
+PLACE vegeta midleft right angry
+GOKU (sad): Vegeta. You don't need a wizard to be strong. You're already strong.
+VEGETA (angry): Not strong enough! Not stronger than you!
+GOKU (happy): Why does it matter so much? We're friends.
+VEGETA (angry): We are NOT friends! We are rivals!
+GOKU (smug): ...Okay. Rivals who sometimes eat lunch together.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC sneaky 2
+SCENE babidi_ship
+PLACE gohan center right nervous
+PLACE piccolo midleft right angry
+SFX whoosh
+GOHAN (surprised): Mr. Piccolo! You came!
+PICCOLO (angry): I sensed Vegeta's energy change. He's been taken over by the wizard's magic.
+GOHAN (nervous): Dad and Vegeta are about to fight. If they fight, Babidi takes all their energy for Majin Buu!
+PICCOLO (angry): That's his plan. We have to find Buu's egg before he wakes up.
+GOHAN (scared): Where is it?
+PICCOLO (smug): Follow the creepy music.
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC spooky 2
+SCENE babidi_ship
+CARD The bottom level...
+PLACE gohan center right scared
+PLACE piccolo midleft right nervous
+SFX hiss
+NARRATOR: At the very bottom of the ship sat a giant round ball. Pink smoke leaked from its cracks. And the ball was breathing.
+GOHAN (scared): Is that... the egg?
+PICCOLO (nervous): Don't touch it. Don't even look at it too hard.
+SFX powerup
+GOHAN (scared): It's moving! It's waking up!
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC action
+SCENE rocky_wasteland
+PLACE goku center right angry
+PLACE vegeta midleft right angry
+SFX blast
+SHAKE 1.0
+NARRATOR: Outside, Goku and Vegeta fought. The mountains shook. The sky turned dark. And every punch sent more energy down into Babidi's ship.
+VEGETA (angry): Fight me with everything you've got, Kakarot!
+GOKU (angry): Fine! But after this, you're buying lunch!
+SFX blast
+
+# ------------------------------------------------------------ BABIDI'S SPACESHIP
+MUSIC spooky
+SCENE babidi_ship
+PLACE majin_buu center left happy
+PLACE gohan midright left scared
+SFX blast
+SHAKE 0.9
+NARRATOR: The egg cracked open. Pink steam filled the room. And out stepped a big, round, pink creature with a cape and a very big smile.
+MAJIN_BUU (happy): Buu is awake! Buu is HUNGRY!
+GOHAN (scared): That's... Majin Buu?
+MAJIN_BUU (excited): Hi! You look like candy!
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC sad
+SCENE rocky_wasteland
+CARD To be continued...
+PLACE goku center right nervous
+PLACE vegeta midleft right surprised
+GOKU (nervous): Vegeta. Do you feel that? That energy?
+VEGETA (surprised): It's enormous. It's like nothing I've ever felt.
+GOKU (nervous): Buu's awake. We let him wake up.
+VEGETA (sad): ...I let him wake up.
+GOKU (happy): Then let's put him back to sleep. Together.
+END

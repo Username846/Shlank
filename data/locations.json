@@ -767,6 +767,56 @@
 		"show": "Dragon Ball Z",
 		"description": "A tower so tall it pokes through the clouds."
 	},
+	"satan_city": {
+		"name": "Satan City",
+		"description": "A city renamed after Mr. Satan. His face is on every billboard.",
+		"show": "Dragon Ball Z"
+	},
+	"orange_star_school": {
+		"name": "Orange Star High School",
+		"description": "Gohan's high school. Normal kids, normal homework, one secret Saiyan.",
+		"show": "Dragon Ball Z"
+	},
+	"buu_house": {
+		"name": "Buu's House",
+		"description": "Majin Buu's round pink house, full of candy, cake and a puppy named Bee.",
+		"show": "Dragon Ball Z"
+	},
+	"babidi_ship": {
+		"name": "Babidi's Spaceship",
+		"description": "A dark spaceship buried in the rocks, where the wizard Babidi hatches his plans.",
+		"show": "Dragon Ball Z"
+	},
+	"sacred_world": {
+		"name": "Sacred World of the Kai",
+		"description": "A peaceful green world where the Supreme Kai lives, with the Z Sword stuck in a rock.",
+		"show": "Dragon Ball Z"
+	},
+	"pilaf_castle": {
+		"name": "Pilaf's Castle",
+		"description": "Emperor Pilaf's castle. Full of trap doors and plans that never work.",
+		"show": "Dragon Ball Z"
+	},
+	"red_ribbon_base": {
+		"name": "Red Ribbon Army Base",
+		"description": "An old military base full of robots, red ribbons and Dr. Gero's leftovers.",
+		"show": "Dragon Ball Z"
+	},
+	"papaya_island": {
+		"name": "Papaya Island",
+		"description": "A tropical island where the World Martial Arts Tournament used to be held.",
+		"show": "Dragon Ball Z"
+	},
+	"mount_paozu": {
+		"name": "Mount Paozu",
+		"description": "The tall misty mountains around Goku's house. Great for training and fishing.",
+		"show": "Dragon Ball Z"
+	},
+	"other_world": {
+		"name": "Check-In Station",
+		"description": "The yellow-clouded entrance to the afterlife, where King Yemma checks everyone in.",
+		"show": "Dragon Ball Z"
+	},
 	"wall_top": {
 		"name": "Top of the Wall",
 		"show": "Attack on Titan",

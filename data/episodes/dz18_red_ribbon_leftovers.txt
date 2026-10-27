@@ -1,0 +1,188 @@
+@title Red Ribbon Leftovers
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 8
+@description Yamcha and Krillin go exploring in an old Red Ribbon Army base to find Dr. Gero's leftover robots before anyone else does. Yamcha is trying to prove he's still a great fighter. The base's security system has other ideas.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC happy
+SCENE kame_house cut
+TITLE
+PLACE yamcha center left sad
+PLACE krillin midright left happy
+YAMCHA (sad): Krillin. Everyone keeps saying I'm the weakest one. That I always get knocked out first.
+KRILLIN (happy): Aw, come on, Yamcha. That's not true.
+YAMCHA (sad): Name one fight where I didn't get knocked out first.
+KRILLIN (nervous): Well... there was... um...
+YAMCHA (sad): See?
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC jazz
+SCENE kame_house
+PLACE master_roshi center left smug
+PLACE yamcha midright left nervous
+PLACE krillin midleft right excited
+MASTER_ROSHI (smug): Bulma found an old Red Ribbon Army base. In the mountains. Dr. Gero might have left robots there.
+KRILLIN (excited): Robots? We should check it out before they turn on by themselves!
+YAMCHA (excited): That's my chance! I'll go! I'll prove I'm still a great fighter!
+MASTER_ROSHI (smug): Take Krillin. And try not to get knocked out first.
+YAMCHA (angry): Master Roshi!
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC jazz
+SCENE red_ribbon_base
+CARD Outside the base...
+PLACE yamcha center left nervous
+PLACE krillin midright left smug
+YAMCHA (nervous): Krillin. Can I tell you something? I miss baseball. I was really good at baseball.
+KRILLIN (smug): You were the best, Yamcha. You hit a ball so hard it went into space.
+YAMCHA (happy): It did, didn't it?
+KRILLIN (happy): Maybe that's your thing. Not fighting. Hitting stuff really far.
+YAMCHA (excited): ...Krillin, that's genius.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC spooky
+SCENE red_ribbon_base
+PLACE krillin center left nervous
+PLACE yamcha midright left smug
+SFX door
+KRILLIN (nervous): This place gives me the creeps. Look at all these red ribbons.
+YAMCHA (smug): It's just an old base, Krillin. Nobody's been here in years.
+SFX beep
+KRILLIN (nervous): Then what's beeping?
+YAMCHA (nervous): ...The beeping is new.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC tense
+SCENE red_ribbon_base
+PLACE yamcha center left surprised
+PLACE krillin midright left scared
+SFX laser
+NARRATOR: A red light swept across the room. Then a voice. "Intruders detected. Activating security."
+KRILLIN (scared): Security? What kind of security?
+SFX laser
+YAMCHA (surprised): The kind with lasers!
+SFX zap
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC action
+SCENE red_ribbon_base
+PLACE yamcha center left excited
+PLACE krillin midright left nervous
+SFX laser
+YAMCHA (excited): Leave it to me! Wolf Fang Fist!
+SFX blast
+NARRATOR: Yamcha leapt at the laser cannons. Punch. Kick. Punch. The cannons fell to the floor in pieces.
+KRILLIN (surprised): Wow, Yamcha! You got all of them!
+YAMCHA (smug): See? Still got it.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC sneaky
+SCENE red_ribbon_base
+PLACE krillin center left nervous
+PLACE yamcha midright left happy
+SFX door
+KRILLIN (nervous): Yamcha. Look. Rows of robots. Hundreds of them.
+YAMCHA (happy): All asleep. Good. Let's find the main computer and shut them down.
+KRILLIN (nervous): What if they wake up?
+YAMCHA (smug): Then I'll knock them out. All of them.
+KRILLIN (nervous): And if they knock you out first?
+YAMCHA (angry): Krillin!
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC jazz 2
+SCENE kame_house
+PLACE master_roshi center left nervous
+PLACE bulma midright left surprised
+MASTER_ROSHI (nervous): Bulma. You said the base was empty, right?
+BULMA (surprised): I said it was probably empty. Why?
+MASTER_ROSHI (nervous): Because my old radar says something there just woke up. Something big.
+BULMA (scared): How big?
+MASTER_ROSHI (nervous): Bigger than my house.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC tense
+SCENE red_ribbon_base
+PLACE yamcha center left scared
+PLACE krillin midright left scared
+SFX stomp
+SHAKE 0.9
+NARRATOR: Out of the floor rose the biggest robot either of them had ever seen. A giant metal soldier with Red Ribbon painted on its chest. And one big red eye.
+KRILLIN (scared): That's not a leftover. That's a whole meal!
+YAMCHA (scared): Krillin. Plan?
+KRILLIN (scared): Run?
+YAMCHA (angry): No! Not this time!
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC action 2
+SCENE red_ribbon_base
+PLACE yamcha center left angry
+PLACE krillin midright left surprised
+SFX blast
+SHAKE 0.8
+YAMCHA (angry): Krillin, find the computer! I'll keep it busy!
+KRILLIN (surprised): Alone?!
+YAMCHA (smug): Somebody's gotta get knocked out first. Might as well be on purpose.
+SFX thud
+NARRATOR: Yamcha jumped. He dodged. He bounced off walls. The giant robot swung and missed. Swung and missed again.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC action
+SCENE red_ribbon_base
+PLACE yamcha center left excited
+SFX blast
+NARRATOR: The giant robot shot a fireball. Yamcha didn't dodge. He grabbed a metal pipe from the wall.
+YAMCHA (excited): Batter up!
+SFX thud
+NARRATOR: He swung. The fireball flew right back at the robot and bounced off its big red eye.
+YAMCHA (smug): Home run.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC tense
+SCENE red_ribbon_base
+PLACE krillin center left nervous
+SFX beep
+KRILLIN (nervous): Main computer. Main computer. Where's the off switch?
+KRILLIN (surprised): There's a big red button. It says "DO NOT PRESS."
+KRILLIN (nervous): ...Every time I've seen one of these, it was a bad idea.
+SFX beep
+KRILLIN (smug): Next to it, a little blue switch. "OFF." Okay. That makes more sense.
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC action
+SCENE red_ribbon_base
+PLACE yamcha center left excited
+PLACE krillin midright left excited
+SFX zap
+NARRATOR: Krillin flipped the switch. Every robot in the base went dark. The giant robot froze, one fist just inches from Yamcha's face.
+YAMCHA (surprised): ...Whoa. That was close.
+KRILLIN (excited): Yamcha! You held off a giant robot! Alone! For five whole minutes!
+YAMCHA (excited): I did, didn't I?
+KRILLIN (happy): And you didn't get knocked out!
+
+# ------------------------------------------------------------ RED RIBBON ARMY BASE
+MUSIC sad
+SCENE red_ribbon_base
+PLACE yamcha center left happy
+PLACE krillin midright left nervous
+SFX thud
+NARRATOR: Then the frozen robot's fist, with no power left, slowly tipped forward. And tapped Yamcha on the head. Very gently.
+YAMCHA (surprised): ...Ow.
+SFX thud
+KRILLIN (nervous): Yamcha? Yamcha!
+NARRATOR: Yamcha was knocked out. By a robot that was turned off.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC romantic
+SCENE kame_house
+CARD That evening...
+PLACE yamcha center left sad
+PLACE krillin midright left happy
+PLACE master_roshi midleft right smug
+YAMCHA (sad): Knocked out. Again. By a robot that wasn't even on.
+KRILLIN (happy): Yamcha, you held off a giant robot for five minutes. That's amazing.
+MASTER_ROSHI (smug): Every great warrior falls down sometimes. The important thing is getting back up.
+YAMCHA (shy): ...Thanks, guys.
+KRILLIN (smug): And next time, stand to the left.
+END

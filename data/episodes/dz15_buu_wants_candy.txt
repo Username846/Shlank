@@ -1,0 +1,171 @@
+@title Buu Wants Candy
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 5
+@description Majin Buu has built himself a little pink house and spends all day eating candy. Mr. Satan, who is very scared, decides the only way to save the world is to make friends with him. He brings chocolate, a puppy and a lot of courage.
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC happy
+SCENE buu_house cut
+TITLE
+PLACE majin_buu center left happy
+NARRATOR: After waking up, Majin Buu did not destroy the world. Not yet. First, he built a house. A round, pink house. And he filled it with candy.
+MAJIN_BUU (happy): Buu like house. Buu like candy. Buu like naps.
+MAJIN_BUU (excited): Buu turn rock into chocolate! Mmm!
+SFX zap
+MAJIN_BUU (happy): Chocolate rock. Best rock.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC tense
+SCENE capsule_corp
+PLACE goku center right nervous
+PLACE bulma midleft right nervous
+PLACE piccolo midright left angry
+GOKU (nervous): Buu's power is huge. Bigger than Cell. Bigger than Frieza.
+BULMA (nervous): Then why hasn't he attacked anyone?
+PICCOLO (angry): Because he's eating. Every time someone gets close, he turns them into candy and eats them.
+BULMA (scared): CANDY?!
+GOKU (nervous): We need a plan. Gohan and the kids are training. We need time.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC sneaky
+SCENE satan_city
+PLACE mr_satan center left nervous
+PLACE videl midright left nervous
+MR_SATAN (nervous): Videl. I'm going to go see Majin Buu.
+VIDEL (scared): Dad! No! He turns people into candy!
+MR_SATAN (sad): I know. But I'm the champ. Everybody's counting on me. And for once, I want to really help.
+VIDEL (surprised): You're... serious?
+MR_SATAN (nervous): I'm very serious. And very scared. But mostly serious.
+VIDEL (shy): ...Be careful, Dad.
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC jazz
+SCENE buu_house
+PLACE mr_satan center right nervous
+PLACE majin_buu midleft right surprised
+MR_SATAN (nervous): H-hello, Mr. Buu. I'm Mr. Satan. The champ. I brought you a present.
+MAJIN_BUU (surprised): Present? For Buu?
+MR_SATAN (nervous): It's chocolate. Very fancy chocolate. From Satan City.
+MAJIN_BUU (excited): CHOCOLATE!
+SFX chomp
+MAJIN_BUU (happy): Mmm! You nice man! Buu not turn you into candy!
+MR_SATAN (shy): ...Oh, thank goodness.
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC happy 2
+SCENE buu_house
+PLACE majin_buu center left happy
+PLACE mr_satan midright left happy
+MAJIN_BUU (happy): Mister Satan, you play with Buu?
+MR_SATAN (nervous): Sure, Buu. What do you like to play?
+MAJIN_BUU (excited): Buu like to throw mountains!
+MR_SATAN (scared): Maybe something smaller. Like... catch? With a ball?
+MAJIN_BUU (excited): Ball! Buu like ball!
+SFX boing
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC jazz 2
+SCENE buu_house
+CARD A few days later...
+PLACE mr_satan center right happy
+PLACE majin_buu midleft right happy
+NARRATOR: Mr. Satan came back every day. He brought candy. He brought games. He taught Buu how to play cards, and lost every single time.
+MR_SATAN (happy): Buu, you're too good at this game.
+MAJIN_BUU (smug): Buu is champion of cards!
+MR_SATAN (excited): Then you're a champ, too! Like me!
+MAJIN_BUU (excited): Buu and Mister Satan! Two champs!
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC sad
+SCENE buu_house
+PLACE mr_satan center right nervous
+PLACE majin_buu midleft right sad
+MR_SATAN (nervous): Buu. Can I ask you something? Why do you hurt people?
+MAJIN_BUU (sad): Buu don't know. Babidi say hurt people. So Buu hurt people.
+MR_SATAN (happy): Babidi's gone, Buu. You don't have to listen to him anymore.
+MAJIN_BUU (surprised): ...Buu don't have to?
+MR_SATAN (smug): Nope. You can just eat candy. And play cards. And be nice.
+MAJIN_BUU (happy): Buu like nice.
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC sneaky 2
+SCENE buu_house
+PLACE majin_buu center left surprised
+NARRATOR: The next morning, a little dog wandered up to Buu's house. It was hurt. It had a bandage on its leg.
+MAJIN_BUU (surprised): Little dog? You hurt?
+SFX sparkle
+NARRATOR: Buu put his hand on the dog's leg. A pink light glowed. The leg was healed.
+MAJIN_BUU (happy): Buu fix! Buu call you... Bee!
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC jazz 2
+SCENE satan_city
+PLACE videl center left nervous
+PLACE gohan midright left surprised
+VIDEL (nervous): Gohan. My dad goes to Majin Buu's house every day. And comes back with candy wrappers in his pockets.
+GOHAN (surprised): Every day? And he's okay?
+VIDEL (happy): He says they play cards. And Buu always wins.
+GOHAN (smug): Your dad is braver than anybody I know, Videl.
+VIDEL (shy): ...Don't tell him I said this, but I'm kind of proud of him.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz
+SCENE capsule_corp
+PLACE goku center right surprised
+PLACE vegeta midleft right angry
+GOKU (surprised): Mr. Satan made friends with Majin Buu? Seriously?
+VEGETA (angry): The fool with the moustache did what we couldn't do with all our power?
+GOKU (happy): Ha! That's awesome!
+VEGETA (smug): It's ridiculous. Absolutely ridiculous.
+GOKU (smug): You're just mad because you didn't think of bringing chocolate.
+VEGETA (angry): ...Shut up, Kakarot.
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC tense
+SCENE buu_house
+PLACE majin_buu center left angry
+PLACE mr_satan midright left scared
+SFX blast
+NARRATOR: Then two bad guys from town came to Buu's house. They had heard that Majin Buu was dangerous. They wanted to be heroes. And they threw a rock at Bee the dog.
+MR_SATAN (scared): Bee! Somebody hurt Bee!
+MAJIN_BUU (angry): Who hurt Bee?! WHO HURT BEE?!
+SFX powerup
+SHAKE 1.0
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC action
+SCENE buu_house
+PLACE mr_satan center right nervous
+PLACE majin_buu midleft right angry
+SFX powerup
+SHAKE 0.9
+MR_SATAN (nervous): Buu! Buu, listen to me! Bee's okay! Look, he's wagging his tail!
+MAJIN_BUU (angry): Bad men hurt Bee! Buu make them candy!
+MR_SATAN (sad): Buu. If you turn them into candy, you're just like Babidi wanted. Be nice. Remember?
+MAJIN_BUU (sad): ...Buu remember.
+SFX sparkle
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC romantic
+SCENE buu_house
+PLACE majin_buu center left happy
+PLACE mr_satan midright left excited
+NARRATOR: Buu took a deep breath. He didn't turn the men into candy. He healed Bee instead. And the two men ran away so fast they left their shoes behind.
+MR_SATAN (excited): Buu! You did it! You stayed nice!
+MAJIN_BUU (happy): Buu stay nice. For Mister Satan. And for Bee.
+MR_SATAN (shy): Buu... you're my best friend.
+MAJIN_BUU (excited): Buu best friend! Buu have best friend!
+
+# ------------------------------------------------------------ BUU'S HOUSE
+MUSIC romantic 2
+SCENE buu_house
+CARD That night...
+PLACE mr_satan center right happy
+PLACE majin_buu midleft right happy
+MAJIN_BUU (happy): Mister Satan. Stay for dinner? Buu make cake.
+MR_SATAN (nervous): Out of what?
+MAJIN_BUU (smug): Out of... couch.
+MR_SATAN (happy): ...You know what, Buu? Couch cake sounds great.
+END

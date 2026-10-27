@@ -1,0 +1,167 @@
+@title The Great Saiyaman
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 1
+@description Gohan starts high school in Satan City and tries very hard to be normal. Then a bank robbery happens, and Gohan needs a secret identity. Bulma makes him a costume. It has a cape, a helmet and a lot of poses. Videl, the toughest girl in school, wants to know who he really is.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC happy
+SCENE goku_house cut
+TITLE
+PLACE chi_chi center left excited
+PLACE gohan midright left nervous
+CHI_CHI (excited): Gohan! Your first day of high school! In the big city! I'm so proud I could cry!
+GOHAN (nervous): Mom, you're already crying.
+CHI_CHI (smug): And remember. No flying to school. No Super Saiyan. Be NORMAL.
+GOHAN (nervous): Normal. Right. I can do normal.
+CHI_CHI (angry): And study! A scholar never skips class!
+GOHAN (happy): I know, Mom. Bye!
+
+# ------------------------------------------------------------ ORANGE STAR HIGH SCHOOL
+MUSIC jazz
+SCENE orange_star_school
+PLACE gohan center right nervous
+PLACE videl midleft right smug
+GOHAN (nervous): Hi. I'm Gohan. I'm new. I'm very normal.
+VIDEL (smug): I'm Videl. You live in Mount Paozu? That's five hundred miles away. How'd you get here so fast?
+GOHAN (nervous): I... ran. Very fast. Normally fast.
+VIDEL (surprised): You ran five hundred miles?
+GOHAN (nervous): ...With a bus. Part of the way.
+VIDEL (smug): Uh huh. I'm watching you, new kid.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC tense
+SCENE satan_city
+PLACE videl center left angry
+PLACE mr_satan midright left excited
+SFX blast
+VIDEL (angry): Dad! Somebody's robbing the bank downtown! I'm going!
+MR_SATAN (excited): That's my girl! Go get 'em, Videl! The champ's daughter fears nothing!
+VIDEL (smug): Aren't you coming, Dad?
+MR_SATAN (nervous): Uh... I've got a... photo shoot. Very important. For the cereal box.
+VIDEL (sad): Again?
+MR_SATAN (happy): Ha ha ha! Champions are very busy!
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC action
+SCENE satan_city
+PLACE gohan center right nervous
+SFX blast
+SHAKE 0.6
+NARRATOR: Gohan saw the robbers from the school window. A big truck. Four guys with masks. And Videl, running right toward them alone.
+GOHAN (nervous): She's going to get hurt. But if I go, everyone will see me.
+GOHAN (angry): I'll just have to be really, really fast.
+SFX whoosh
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC action 2
+SCENE satan_city
+PLACE videl center left surprised
+SFX thud
+SHAKE 0.5
+NARRATOR: The truck flipped over. The robbers flew out. A golden blur zipped down the street, and they were all tied up in a lamp post before anybody could blink.
+VIDEL (surprised): What was that? Who was that?
+VIDEL (angry): He had gold hair! And he flew! And he left!
+VIDEL (smug): ...And he was wearing the same shoes as the new kid.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz 2
+SCENE capsule_corp
+PLACE bulma center left excited
+PLACE gohan midright left nervous
+BULMA (excited): A secret identity? Gohan, I've got just the thing! Push this button on your watch!
+SFX powerup
+GOHAN (surprised): Whoa! A helmet! A cape! Sunglasses! A... very big belt.
+BULMA (smug): I call it the Great Saiyaman. Nobody will ever know it's you.
+GOHAN (excited): The Great Saiyaman! I love it! I need a pose!
+BULMA (nervous): Gohan, maybe don't do a pose.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC happy
+SCENE capsule_corp
+PLACE gohan center right excited
+PLACE vegeta midleft right angry
+GOHAN (excited): I am the Great Saiyaman! Defender of justice! Friend of the weak!
+VEGETA (angry): What is that ridiculous outfit?
+GOHAN (smug): It's my secret identity, Vegeta!
+VEGETA (smug): It's the most embarrassing thing I've ever seen. And I've seen Kakarot eat.
+GOHAN (sad): ...You don't like the pose?
+VEGETA (angry): Nobody likes the pose!
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC action
+SCENE satan_city
+CARD The next day...
+PLACE gohan center right excited
+PLACE videl midleft right surprised
+SFX whoosh
+GOHAN (excited): Halt, evildoers! The Great Saiyaman is here! Justice! Peace! Ta-da!
+VIDEL (surprised): What... are you wearing?
+GOHAN (smug): The costume of a hero!
+VIDEL (smug): You look like a cereal mascot.
+GOHAN (sad): ...That's what Vegeta said.
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC action 2
+SCENE satan_city
+PLACE videl center left angry
+PLACE gohan midright left excited
+SFX blast
+VIDEL (angry): Watch out! The robber has a rocket launcher!
+GOHAN (excited): Leave it to me!
+SFX thud
+NARRATOR: The rocket hit the Great Saiyaman right in the chest. It bounced off. It flew straight up into the sky and exploded like fireworks.
+VIDEL (surprised): That should have knocked you into next week!
+GOHAN (smug): Saiyaman is very tough. And very well-moisturized.
+
+# ------------------------------------------------------------ ORANGE STAR HIGH SCHOOL
+MUSIC sneaky
+SCENE orange_star_school
+PLACE videl center left smug
+PLACE gohan midright left nervous
+VIDEL (smug): Gohan. Where were you during second period?
+GOHAN (nervous): Bathroom. Long bathroom. Very long.
+VIDEL (smug): The Great Saiyaman showed up during second period. Funny, huh?
+GOHAN (nervous): Ha. Ha ha. What a funny guy, that Saiyaman.
+VIDEL (smug): He's got a scratch on his left hand. Exactly like yours.
+GOHAN (scared): ...Lots of people scratch their hands!
+
+# ------------------------------------------------------------ SATAN CITY
+MUSIC jazz
+SCENE satan_city
+PLACE mr_satan center left angry
+PLACE videl midright left smug
+MR_SATAN (angry): The Great Saiyaman? Who is this guy? Satan City only has one hero, and it's ME!
+VIDEL (smug): He stopped two robberies this week, Dad.
+MR_SATAN (nervous): Well, I... would have stopped them, but I was signing autographs.
+VIDEL (smug): And he catches rockets with his chest.
+MR_SATAN (scared): ...Rockets? Real rockets?
+VIDEL (happy): Real rockets, Dad.
+
+# ------------------------------------------------------------ ORANGE STAR HIGH SCHOOL
+MUSIC tense
+SCENE orange_star_school
+CARD After school...
+PLACE videl center left smug
+PLACE gohan midright left nervous
+VIDEL (smug): Okay, Gohan. Here's the deal. I know you're the Great Saiyaman.
+GOHAN (scared): What? No. No, I'm not. I'm Gohan. Normal Gohan.
+VIDEL (smug): If you don't want me to tell the whole school... you'll teach me how to fly.
+GOHAN (surprised): Teach you to fly?!
+VIDEL (excited): And you'll enter the World Martial Arts Tournament. So I can beat you fair and square.
+GOHAN (nervous): ...Mom is going to kill me.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC romantic
+SCENE goku_house
+CARD That night...
+PLACE gohan center right nervous
+PLACE goku midleft right happy
+PLACE chi_chi midright left surprised
+GOHAN (nervous): Dad. Mom. A girl from school is coming over tomorrow. To learn to fly.
+GOKU (happy): That's great, Gohan! Flying's fun!
+CHI_CHI (surprised): A girl?! Coming here?!
+CHI_CHI (excited): Gohan has a girlfriend! I have to clean the whole house! And bake a cake!
+GOHAN (nervous): She's not my girlfriend, Mom!
+END

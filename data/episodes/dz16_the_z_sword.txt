@@ -1,0 +1,151 @@
+@title The Z Sword
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 6
+@description The Supreme Kai takes Gohan to the Sacred World of the Kai, where a legendary sword is stuck in a rock. Whoever pulls it out gets incredible power. Gohan pulls it out. Then he breaks it. Then things get interesting.
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC happy
+SCENE sacred_world cut
+TITLE
+PLACE gohan center right surprised
+NARRATOR: The Supreme Kai brought Gohan to a secret world, far beyond the stars. A world of green hills and quiet skies.
+GOHAN (surprised): Wow. It's so peaceful here. Like Mount Paozu, but even quieter.
+NARRATOR: "There, Gohan. On the hill. The legendary Z Sword. Whoever pulls it from the stone will gain the power to defeat Buu."
+GOHAN (excited): A legendary sword? Cool!
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC tense
+SCENE sacred_world
+PLACE gohan center right nervous
+SFX drumroll
+GOHAN (nervous): Okay. Here goes. Pull!
+SFX thud
+GOHAN (angry): It's stuck! Really stuck!
+NARRATOR: "Use all your strength, Gohan. Go Super Saiyan."
+SFX powerup
+SHAKE 0.6
+GOHAN (angry): Haaaaaaa!
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC action
+SCENE sacred_world
+PLACE gohan center right excited
+SFX shing
+SHAKE 0.8
+NARRATOR: With a huge crack, the sword came out of the stone. The whole planet shook. Gohan held the Z Sword over his head.
+GOHAN (excited): I did it! I pulled out the Z Sword!
+GOHAN (nervous): It's... really heavy. Like, really, really heavy.
+GOHAN (scared): How do I swing this thing?!
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC jazz
+SCENE goku_house
+PLACE chi_chi center left angry
+PLACE goku midright left nervous
+CHI_CHI (angry): Goku! Where is Gohan? He was supposed to be home for dinner three days ago!
+GOKU (nervous): He's training with the Supreme Kai, Chi-Chi. On a secret planet.
+CHI_CHI (angry): A secret planet?! Does it have a school?!
+GOKU (nervous): Probably not.
+CHI_CHI (angry): Then he's going to fall behind in algebra!
+GOKU (smug): Chi-Chi, he's saving the universe.
+CHI_CHI (angry): AFTER his algebra!
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC action 2
+SCENE sacred_world
+CARD Training with the sword...
+PLACE gohan center right angry
+SFX sword
+NARRATOR: For days, Gohan swung the Z Sword. At first, it was too heavy. Then it was just heavy. Then it felt like part of his arm.
+SFX sword
+GOHAN (excited): I think I've got it! It's like the sword knows what I'm thinking!
+NARRATOR: "Very good, Gohan. Now let's test it. I'm going to throw a block of the hardest metal in the universe."
+GOHAN (smug): Bring it on!
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC tense
+SCENE sacred_world
+PLACE gohan center right surprised
+SFX sword
+SFX shing
+SHAKE 0.8
+NARRATOR: Gohan swung the sword at the metal block. There was a loud clang. And then a loud snap.
+GOHAN (surprised): Uh oh.
+GOHAN (scared): The sword broke! The legendary Z Sword! I broke it!
+GOHAN (sad): Mom is going to be so mad. And I don't even know how much a legendary sword costs.
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC spooky
+SCENE sacred_world
+PLACE gohan center right surprised
+SFX sparkle
+NARRATOR: Then, out of the broken sword, came a puff of smoke. And out of the smoke came a very, very old man with a big nose and long white hair.
+GOHAN (surprised): Who are you?!
+NARRATOR: "I'm the Elder Kai! Fifteen generations old! I was trapped in that sword for thousands of years. Thank you, young man!"
+GOHAN (surprised): You were INSIDE the sword?
+
+# ------------------------------------------------------------ KING KAI'S PLANET
+MUSIC jazz 2
+SCENE kai_planet
+PLACE king_kai center left surprised
+PLACE goku midright left happy
+KING_KAI (surprised): Goku! Did you hear? Gohan broke the Z Sword! And let out the Elder Kai!
+GOKU (happy): Is that good or bad?
+KING_KAI (nervous): The Elder Kai is the most powerful Kai there is. And also the grumpiest. And also the weirdest.
+GOKU (excited): Powerful? Cool! Can he train me too?
+KING_KAI (smug): Goku, before you ask, I want to tell you a joke.
+GOKU (nervous): ...Is it the one about the cow?
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC sneaky
+SCENE sacred_world
+PLACE gohan center right nervous
+NARRATOR: "Young man. I can unlock your hidden power. All of it. But it will take time."
+GOHAN (excited): How much time?
+NARRATOR: "Five hours of a ritual dance. And twenty hours of me sitting and thinking."
+GOHAN (surprised): Twenty-five hours?! Just sitting?
+NARRATOR: "Also, I'm going to need some snacks."
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC jazz
+SCENE sacred_world
+CARD Twenty-five hours later...
+PLACE gohan center right sad
+NARRATOR: The Elder Kai danced. He sat. He thought. He ate snacks. He fell asleep twice. Gohan sat still the whole time.
+GOHAN (sad): My legs are asleep. My arms are asleep. I think my hair is asleep.
+GOHAN (nervous): Is it working yet?
+NARRATOR: "Patience, young man. Patience. Also, pass the chips."
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC action
+SCENE sacred_world
+PLACE gohan center right excited
+SFX powerup
+SHAKE 1.0
+NARRATOR: Then the Elder Kai opened his eyes. He held his hands over Gohan's head. And a calm, quiet power flowed through Gohan. No gold hair. No shouting. Just power.
+GOHAN (surprised): I feel... different. Stronger. Calmer.
+GOHAN (excited): It's like everything inside me woke up at once!
+NARRATOR: "That's your true power, Gohan. It was there all along."
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC sad
+SCENE goku_house
+PLACE chi_chi center left sad
+PLACE goten midright left nervous
+CHI_CHI (sad): Goten, do you think Gohan is eating enough on that secret planet?
+GOTEN (nervous): I don't know, Mom.
+CHI_CHI (sad): What if they don't have vegetables? What if he's only eating snacks?
+GOTEN (happy): Gohan's smart, Mom. He'll find a vegetable.
+CHI_CHI (shy): ...You're a good boy, Goten.
+
+# ------------------------------------------------------------ SACRED WORLD OF THE KAI
+MUSIC romantic
+SCENE sacred_world
+PLACE gohan center right happy
+NARRATOR: Gohan stood on the hill where the sword had been. He looked up at the stars. Somewhere out there, his family was waiting. And somewhere out there, Buu was waiting too.
+GOHAN (happy): Thank you, Elder Kai. I'm ready.
+NARRATOR: "Good. Now go save the universe. And bring me back some comic books."
+GOHAN (smug): ...You got it.
+END

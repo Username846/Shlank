@@ -1,0 +1,180 @@
+@title Videl Learns to Fly
+@series Dragon Ball Z
+@season 2
+@icon dragonball
+@number 2
+@description Videl comes to Mount Paozu to learn to fly. Gohan is a patient teacher. Goten wants to learn too, and already can. Chi-Chi won't stop baking cakes, and Goku won't stop eating them.
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC happy
+SCENE mount_paozu cut
+TITLE
+PLACE videl center left excited
+PLACE gohan midright left nervous
+VIDEL (excited): So this is where you live. It's beautiful. And really far from everything.
+GOHAN (nervous): Yeah. Mom likes the quiet. And the fresh air. And the giant fish.
+VIDEL (smug): Okay, Gohan. Teach me to fly. Right now.
+GOHAN (happy): First, you have to find your ki. Your energy. It's inside you.
+VIDEL (surprised): Inside me? Where?
+GOHAN (smug): Everywhere. That's the tricky part.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC jazz
+SCENE goku_house
+PLACE chi_chi center left excited
+PLACE goku midright left happy
+CHI_CHI (excited): Goku! She's here! The girl! Go put on a clean shirt!
+GOKU (happy): Chi-Chi, my shirt is clean. I only wore it four days.
+CHI_CHI (angry): Four days?! Change it now! And don't eat the cake! It's for Videl!
+GOKU (sad): What about the other cake?
+CHI_CHI (smug): That's also for Videl.
+GOKU (sad): ...What about the third cake?
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC sneaky
+SCENE mount_paozu
+PLACE goten center right excited
+PLACE videl midleft right surprised
+GOTEN (excited): Hi! I'm Goten! Are you Gohan's girlfriend?
+VIDEL (surprised): No! I'm just here to learn to fly!
+GOTEN (happy): Oh, flying's easy! Watch!
+SFX whoosh
+NARRATOR: Goten floated up into the air, did three somersaults, and came down on Videl's shoulders.
+VIDEL (surprised): He's like seven! How can he fly?!
+GOTEN (smug): I'm eight. Almost.
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC jazz 2
+SCENE mount_paozu
+PLACE gohan center right happy
+PLACE videl midleft right angry
+GOHAN (happy): Okay. Close your eyes. Breathe. Feel the energy in your stomach. Push it into your hands.
+VIDEL (angry): I'm pushing! Nothing's happening!
+GOHAN (smug): Don't push so hard. It's like holding a bird. Gentle.
+VIDEL (nervous): ...Gentle.
+SFX sparkle
+VIDEL (surprised): There's a light! In my hands! A little glowing ball!
+GOHAN (excited): That's it, Videl! That's your ki!
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC sad
+SCENE mount_paozu
+PLACE videl center left sad
+PLACE gohan midright left nervous
+VIDEL (sad): Gohan. Can I tell you something? My dad says he beat Cell. But I'm not sure he did.
+GOHAN (nervous): Oh. Um. Why do you think that?
+VIDEL (sad): Because he can't fly. He can't shoot light out of his hands. And the people at the Cell Games could.
+GOHAN (nervous): ...Maybe he's strong in a different way.
+VIDEL (shy): Maybe. You're nicer than I thought, Gohan.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC happy 2
+SCENE goku_house
+PLACE goku center left happy
+PLACE goten midright left excited
+GOKU (happy): Goten! Want to go fishing? Gohan's busy, and I'm hungry.
+GOTEN (excited): Fishing! Can we catch the biggest one?
+GOKU (smug): The biggest one is mine. I've been chasing him for ten years.
+GOTEN (surprised): Ten years? Is he really big?
+GOKU (excited): He ate a bear once!
+GOTEN (excited): Cool!
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC jazz
+SCENE mount_paozu
+CARD Day two...
+PLACE videl center left angry
+PLACE goten midright left happy
+VIDEL (angry): Hmmmmmm! Float! Float! Why won't I float?!
+GOTEN (happy): You're making a funny face.
+VIDEL (angry): This is my concentrating face!
+GOTEN (smug): Gohan says you have to be calm. Like when you're about to fall asleep.
+VIDEL (surprised): ...That's actually good advice, kid.
+GOTEN (excited): I know! I fall asleep all the time!
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC action
+SCENE mount_paozu
+CARD Three days later...
+PLACE videl center left excited
+PLACE gohan midright left happy
+SFX whoosh
+VIDEL (excited): I'm floating! I'm actually floating!
+GOHAN (happy): A whole inch, Videl!
+VIDEL (smug): An inch is better than nothing!
+GOHAN (excited): Now, go higher. Think about the sky.
+SFX whoosh
+VIDEL (scared): Too high! Too high! How do I stop?!
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC action 2
+SCENE mount_paozu
+PLACE gohan center right surprised
+PLACE videl midleft right scared
+SFX whoosh
+NARRATOR: Videl shot straight up. Past the trees. Past the mountains. Into the clouds.
+GOHAN (surprised): Videl! Relax! Think about the ground!
+VIDEL (scared): I'm thinking about the ground! The ground is VERY far away!
+SFX whoosh
+NARRATOR: Gohan zipped up and caught her. Right in the middle of a cloud.
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC romantic
+SCENE mount_paozu
+PLACE videl center left shy
+PLACE gohan midright left nervous
+VIDEL (shy): Thanks for catching me, Gohan.
+GOHAN (nervous): You're welcome. You did great. Really great.
+VIDEL (smug): You're blushing.
+GOHAN (scared): I am not! It's the... altitude!
+VIDEL (happy): Sure, Gohan. The altitude.
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC jazz
+SCENE mount_paozu
+PLACE goku center left excited
+PLACE goten midright left excited
+SFX splash
+GOKU (excited): I've got him! The big fish! He's pulling!
+GOTEN (excited): Pull, Dad! Pull!
+SFX splash
+NARRATOR: The fish pulled Goku into the river. Goku pulled the fish out of the river. Then they both landed in Chi-Chi's garden.
+GOTEN (happy): We caught him! And Mom's tomatoes!
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC sneaky 2
+SCENE goku_house
+PLACE chi_chi center left angry
+PLACE goku midright left nervous
+CHI_CHI (angry): GOKU! My tomatoes! My garden! There's a giant fish on my porch!
+GOKU (nervous): It's dinner, Chi-Chi! For Videl!
+CHI_CHI (smug): ...Is it a good fish?
+GOKU (happy): The best fish in Mount Paozu.
+CHI_CHI (happy): Then go clean it. And you're still not getting the cake.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC happy
+SCENE goku_house
+CARD Dinner...
+PLACE videl center left surprised
+PLACE goku midright left happy
+PLACE gohan midleft right nervous
+VIDEL (surprised): Gohan. Your dad just ate fourteen bowls of rice.
+GOHAN (nervous): That's... normal. For him.
+GOKU (happy): This is a light dinner. I'm saving room for cake.
+VIDEL (smug): So this is the family of the Great Saiyaman.
+GOHAN (scared): Shh! Not in front of my mom!
+
+# ------------------------------------------------------------ MOUNT PAOZU
+MUSIC romantic 2
+SCENE mount_paozu
+CARD Sunset...
+PLACE videl center left happy
+PLACE gohan midright left happy
+PLACE goten midleft right excited
+VIDEL (happy): Thanks for teaching me, Gohan. I'm going to fly home. All by myself.
+GOHAN (happy): Be careful. Go slow. Think about the ground.
+GOTEN (excited): Bye, Gohan's girlfriend!
+VIDEL (angry): I'm NOT his girlfriend!
+GOHAN (shy): ...Bye, Videl.
+END

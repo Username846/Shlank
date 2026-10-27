@@ -66,6 +66,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"safari_zone": _safari_zone(b)
 		"cinnabar_island": _cinnabar_island(b)
 		"indigo_plateau": _indigo_plateau(b)
+		# Dragon Ball Z
+		"satan_city": _satan_city(b)
+		"orange_star_school": _orange_star_school(b)
+		"buu_house": _buu_house(b)
+		"babidi_ship": _babidi_ship(b)
+		"sacred_world": _sacred_world(b)
+		"pilaf_castle": _pilaf_castle(b)
+		"red_ribbon_base": _red_ribbon_base(b)
+		"papaya_island": _papaya_island(b)
+		"mount_paozu": _mount_paozu(b)
+		"other_world": _other_world(b)
 		_: return false
 	return true
 
@@ -147,6 +158,22 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 6:
 				var k := fmod(t * 0.3 + i / 6.0, 1.0)
 				Art.dot(ci, Vector2(1000 + sin(i * 2.0) * 20 + k * 40, 150 - k * 140), 14 + k * 24, Color(0.6, 0.6, 0.6, 0.5 * (1.0 - k)))
+		"other_world":
+			for i in 8:
+				var x := fmod(i * 170.0 + t * 25.0, W + 200) - 100
+				b._cloud(Vector2(x, 480 + (i % 3) * 40), 0.9, Color(1.0, 0.92, 0.5, 0.85))
+		"babidi_ship":
+			for i in 5:
+				var k := 0.5 + 0.5 * sin(t * 2.5 + i * 1.3)
+				Art.dot(ci, Vector2(200 + i * 220, 120), 10, Color(0.9, 0.3, 0.9, 0.3 + 0.6 * k))
+		"mount_paozu":
+			for i in 4:
+				var x := fmod(i * 360.0 + t * 12.0, W + 400) - 200
+				Art.blob(ci, Vector2(x, 330 + i * 20), 160, 26, Color(1, 1, 1, 0.35), 0.0)
+		"papaya_island":
+			for i in 3:
+				var y := 500.0 + i * 24.0 + sin(t * 1.5 + i) * 5.0
+				Art.stroke(ci, Art.curve(Vector2(-PAD, y), Vector2(640, y - 8), Vector2(W + PAD, y), 16), 3.0, Color(1, 1, 1, 0.6))
 		_: pass
 
 
@@ -950,4 +977,143 @@ static func _indigo_plateau(b: Backdrop) -> void:
 	Art.stroke(b.ci, Art.arc_pts(Vector2(640, 560), 90, 40, 0, TAU, 24), 5.0, Color.WHITE)
 	SetsExtra._poke_ball(b, Vector2(640, 560), 24)
 	b._sign(Rect2(440, 20, 400, 50), "POKéMON LEAGUE", Color("e6452f"), Color.WHITE, 30)
+
+
+# ------------------------------------------------------- Dragon Ball Z --
+
+static func _satan_city(b: Backdrop) -> void:
+	b._city_sky()
+	b._skyline(460, Color("8a9ab8"), 31, Color(1, 1, 1, 0.3))
+	b._sidewalk(560)
+	# A giant billboard of the champ, flexing
+	Art.shape(b.ci, Art.rrect(Rect2(380, 70, 520, 280), 8), Color("f4f4f2"), 5.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(480, 350), Vector2(480, 470)]), 14, Color("6a6a7a"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(800, 350), Vector2(800, 470)]), 14, Color("6a6a7a"))
+	Art.blob(b.ci, Vector2(530, 170), 80, 62, Color("2b211c"), 3.5)
+	Art.blob(b.ci, Vector2(530, 210), 52, 58, Color("e9b48a"), 3.5)
+	for sx in [-1, 1]:
+		Art.dot(b.ci, Vector2(530 + sx * 18, 200), 6, INK)
+	Art.shape(b.ci, PackedVector2Array([Vector2(500, 230), Vector2(560, 230), Vector2(550, 242), Vector2(510, 242)]), Color("2b211c"), 2.0)
+	Art.stroke(b.ci, Art.curve(Vector2(508, 252), Vector2(530, 270), Vector2(552, 252), 6), 4.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(440, 350), Vector2(470, 280), Vector2(590, 280), Vector2(620, 350)]), Color("f4f4f2"), 3.5)
+	Art.text(b.ci, b.sign_font, Vector2(640, 180), "THE CHAMP!", 44, Color("e6452f"), 6, HORIZONTAL_ALIGNMENT_CENTER, 260)
+	Art.text(b.ci, b.sign_font, Vector2(640, 260), "MR. SATAN", 36, Color("2b2b33"), 4, HORIZONTAL_ALIGNMENT_CENTER, 260)
+	for x in [120, 1160]:
+		b._lamp_post(x, 570)
+
+
+static func _orange_star_school(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f6ead2"), Color("e8d8b8"), 545, Color("c48a4f"))
+	# Classroom: big chalkboard, tiered desks, windows over the city
+	Art.shape(b.ci, Art.rrect(Rect2(380, 80, 520, 240), 6), Color("2f5a3a"), 6.0)
+	Art.text(b.ci, b.sign_font, Vector2(380, 160), "E = mc2", 40, Color(1, 1, 1, 0.85), 0, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	Art.text(b.ci, b.sign_font, Vector2(380, 230), "QUIZ FRIDAY", 30, Color(1, 1, 1, 0.7), 0, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	for x in [80, 1000]:
+		b._window(Rect2(x, 100, 200, 180), Color.WHITE, Color("bfe0f2"))
+	for i in 3:
+		Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 420 + i * 40, W + PAD * 2, 20)), Color("8a5a36").lightened(i * 0.1), 3.0)
+	b._sign(Rect2(480, 20, 320, 50), "ORANGE STAR HIGH", Color("f2852a"), Color.WHITE, 26)
+
+
+static func _buu_house(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 540, Color("9fd06a"))
+	# A round pink house like a big dome, with a candy garden
+	Art.shape(b.ci, Art.arc_pts(Vector2(780, 540), 300, 300, PI, TAU, 30), Color("f7a8c8"), 6.0, 0.12)
+	Art.shape(b.ci, Art.arc_pts(Vector2(780, 540), 70, 110, PI, TAU, 16), Color("6a3fa8"), 4.0)
+	for x in [640, 920]:
+		Art.blob(b.ci, Vector2(x, 380), 36, 36, Color("f4f4f2"), 4.0)
+	for i in 4:
+		var x: float = 100.0 + i * 90.0
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 600), Vector2(x, 500)]), 6, Color.WHITE)
+		Art.blob(b.ci, Vector2(x, 490), 26, 26, [Color("e6452f"), Color("f2c14e"), Color("5aa84a"), Color("4a78d0")][i], 3.0)
+		b.ci.draw_arc(Vector2(x, 490), 14, 0, PI * 1.5, 10, Color.WHITE, 3.0)
+
+
+static func _babidi_ship(b: Backdrop) -> void:
+	SetsMore._panels(b, Color("3a2a4a"), Color("c84ad0"), 540)
+	# The dark ship: round walls, a big M on the floor and Babidi's crystal ball
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 640), 480, 80, 0, TAU, 40), Color("2a1a3a"), 5.0)
+	Art.text(b.ci, b.sign_font, Vector2(540, 300), "M", 150, Color("e6452f"), 8, HORIZONTAL_ALIGNMENT_CENTER, 200)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1000, 540), Vector2(1000, 420)]), 20, Color("6a5a7a"))
+	Art.blob(b.ci, Vector2(1000, 380), 50, 50, Color("b88ae0"), 4.0, 0.2)
+	Art.dot(b.ci, Vector2(986, 366), 12, Color(1, 1, 1, 0.6))
+
+
+static func _sacred_world(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8fd8f0"), Color("e8f8e0"))
+	SetsMore._rolling(b, 440, Color("8fd06a"), 23, 50.0)
+	SetsExtra._grass(b, 540, Color("6fbf4a"))
+	# The Z Sword stuck in a rock on a hill
+	SetsMore._rock(b, 860, 540, 220, 120, Color("9a9a8a"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(860, 440), Vector2(860, 240)]), 14, Color("c8d0dc"))
+	Art.shape(b.ci, Art.rrect(Rect2(820, 220, 80, 16), 4), Color("2f5fa8"), 3.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(860, 220), Vector2(860, 170)]), 10, Color("8a5a36"))
+	for x in [200, 380]:
+		SetsExtra._tree(b, x, 540, 1.0, Color("4faf4a"))
+
+
+static func _pilaf_castle(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("e8a86a"), Color("f6e0b0"))
+	SetsMore._desert(b, 480)
+	# Pilaf's castle with onion domes and a trap door
+	Art.shape(b.ci, SetsExtra._rect(Rect2(360, 220, 560, 300)), Color("c8b8e0"), 5.0, 0.1)
+	for x in [400, 640, 880]:
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x - 60, 160, 120, 100)), Color("c8b8e0"), 4.0)
+		Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(x - 70, 160), Vector2(x - 40, 110), Vector2(x, 60), Vector2(x + 40, 110),
+			Vector2(x + 70, 160)]), 4), Color("9b5fd0"), 4.0)
+	b._door(Rect2(580, 380, 120, 140), Color("6a3fa8"))
+	Art.shape(b.ci, Art.rrect(Rect2(160, 560, 160, 30), 4), Color("2b2b33"), 3.0)
+
+
+static func _red_ribbon_base(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("8a8a8a"), Color("6a6a6a"), 545, Color("5a5a5a"), "tile")
+	# Steel walls, a red ribbon banner and an old robot slumped in the corner
+	for i in 7:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD + i * 200, -PAD), Vector2(-PAD + i * 200, 545)]), 4.0, Color("5a5a5a"))
+	Art.shape(b.ci, Art.rrect(Rect2(420, 90, 440, 120), 8), Color("e6452f"), 5.0)
+	Art.text(b.ci, b.sign_font, Vector2(420, 172), "RR", 80, Color.WHITE, 6, HORIZONTAL_ALIGNMENT_CENTER, 440)
+	Art.shape(b.ci, Art.rrect(Rect2(960, 330, 180, 210), 20), Color("6a7a5a"), 4.0, 0.15)
+	Art.blob(b.ci, Vector2(1050, 300), 60, 46, Color("6a7a5a"), 4.0, 0.15)
+	Art.dot(b.ci, Vector2(1050, 300), 16, Color("e6452f"))
+
+
+static func _papaya_island(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("5fb8f0"), Color("cdeefa"))
+	SetsExtra._water(b, 420, H + PAD, Color("3fa0d8"))
+	b._sand(520, Color("f4e2a6"), 10.0)
+	# The old tournament ring and palm trees
+	Art.shape(b.ci, PackedVector2Array([Vector2(300, 540), Vector2(980, 540), Vector2(1020, 600), Vector2(260, 600)]), Color("e8e0d0"), 5.0)
+	for i in 6:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(330 + i * 120, 540), Vector2(310 + i * 130, 600)]), 2.0, Color("c8c0b0"))
+	for x in [120, 1160]:
+		Art.limb(b.ci, Art.curve(Vector2(x, 600), Vector2(x - 20, 420), Vector2(x + 20, 280), 10), 16, Color("a8784a"))
+		for k in 5:
+			var a: float = PI + k * PI / 4.0
+			Art.limb(b.ci, Art.curve(Vector2(x + 20, 280), Vector2(x + 20 + cos(a) * 60, 250), Vector2(x + 20 + cos(a) * 110, 300 + absf(sin(a)) * 10), 8), 12, Color("4faf4a"))
+
+
+static func _mount_paozu(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8fc8f0"), Color("e0f0f8"))
+	# Tall, thin mountain spires with trees, a river below
+	for i in 7:
+		var x: float = 60.0 + i * 190.0
+		var top: float = 140.0 + (i % 3) * 60.0
+		Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(x - 70, 560), Vector2(x - 40, top + 40), Vector2(x, top), Vector2(x + 40, top + 40),
+			Vector2(x + 70, 560)]), 4), Color("7a9a7a").darkened((i % 2) * 0.12), 4.0, 0.1)
+		Art.blob(b.ci, Vector2(x, top + 10), 34, 18, Color("4faf4a"), 3.0)
+	SetsExtra._water(b, 540, 600, Color("4ab0e0"))
+	SetsExtra._grass(b, 600, Color("6fbf4a"))
+
+
+static func _other_world(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("e6a03a"), Color("f6d88a"))
+	# King Yemma's giant desk and the line of souls
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 520, W + PAD * 2, H)), Color("f2d06a"), 0.0)
+	Art.shape(b.ci, Art.rrect(Rect2(600, 200, 560, 320), 12), Color("8a2a2a"), 6.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(580, 180, 600, 40), 6), Color("6a1a1a"), 4.0)
+	b._sign(Rect2(720, 260, 320, 60), "CHECK-IN", Color("f2c14e"), Color("6a1a1a"), 40)
+	for i in 5:
+		Art.blob(b.ci, Vector2(100 + i * 90, 470), 30, 26, Color(1, 1, 1, 0.75), 3.0)
+		Art.stroke(b.ci, Art.curve(Vector2(80 + i * 90, 490), Vector2(100 + i * 90, 520), Vector2(70 + i * 90, 540), 6), 3.0, Color(1, 1, 1, 0.7))
 
