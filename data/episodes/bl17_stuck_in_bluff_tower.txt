@@ -1,0 +1,181 @@
+@title Stuck in Bluff Tower
+@series Doug
+@season 2
+@icon journal
+@number 7
+@description Beebe invites the class to see the view from the top of Bluff Tower. On the way down, the elevator gets stuck between floors with Doug, Beebe, Roger and Mr. Dink inside. Mr. Dink has a lot of very expensive gadgets. None of them help.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC happy
+SCENE bluff_tower cut
+TITLE
+PLACE beebe center left smug
+PLACE doug midright left surprised
+PLACE patti right left excited
+BEEBE (smug): Welcome to Bluff Tower. My father's office. Fifty floors up. The tallest building in Bluffington.
+PATTI (excited): Doug, look! You can see the whole town! There's the Honker Burger!
+DOUG (surprised): And Lucky Duck Lake! And my house! It's so small!
+BEEBE (smug): Everything looks small from up here. That's why my father likes it.
+DOUG (nervous): Beebe, how do we get down?
+BEEBE (happy): The elevator. It's very fast. And very safe.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC jazz
+SCENE bluff_tower
+PLACE mr_dink center left excited
+PLACE roger midright left neutral
+PLACE doug midleft right happy
+MR_DINK (excited): Doug! I'm here to sell Mr. Bluff my new invention! The Pocket Weather Machine! Very expensive!
+DOUG (surprised): What does it do?
+MR_DINK (smug): It tells you the weather. In your pocket.
+ROGER (smug): So does a window.
+MR_DINK (sad): ...Windows don't fit in your pocket, Roger.
+NARRATOR: The four of them stepped into the elevator. Doug. Beebe. Roger. And Mr. Dink. The doors closed.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC tense
+SCENE bluff_tower
+PLACE doug center right nervous
+PLACE beebe midleft right nervous
+PLACE roger right left angry
+PLACE mr_dink farleft right nervous
+SFX thud
+SHAKE 0.8
+DOUG (nervous): Did the elevator just stop?
+BEEBE (nervous): It's resting. It does that sometimes.
+SFX beep
+ROGER (angry): It's not resting! We're stuck! Between floor twenty-three and twenty-four!
+MR_DINK (scared): Stuck?! I have a meeting in ten minutes!
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC sneaky
+SCENE bluffington_school
+PLACE patti center left nervous
+PLACE skeeter midright left nervous
+PATTI (nervous): Skeeter! Doug, Beebe, Roger and Mr. Dink are stuck in the Bluff Tower elevator!
+SKEETER (nervous): Honk?! Did somebody call for help?
+PATTI (smug): The repair man is coming. In about two hours.
+SKEETER (scared): Two hours? With Roger AND Mr. Dink? In a box?
+PATTI (nervous): I know. Poor Doug.
+SKEETER (sad): Poor everybody, man.
+
+# ------------------------------------------------------------ BLUFFINGTON DOWNTOWN
+MUSIC tense 2
+SCENE bluffington_downtown
+PLACE patti center left nervous
+PLACE skeeter midright left nervous
+PATTI (nervous): There it is. Bluff Tower. Fifty floors. Which one are they on?
+SKEETER (nervous): The repair guy says the elevator computer is broken. He doesn't know which floor.
+PATTI (sad): So he's checking every floor? One at a time?
+SKEETER (sad): Starting from the top, man.
+PATTI (angry): That could take all day!
+SKEETER (smug): Let's wait right here and watch. Doug always thinks of something.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC jazz 2
+SCENE bluff_tower
+PLACE mr_dink center left excited
+PLACE roger midright left smug
+MR_DINK (excited): Don't worry, everyone! I have gadgets! Very expensive gadgets!
+SFX beep
+MR_DINK (happy): The Pocket Weather Machine says... it's sunny outside!
+ROGER (smug): Great. We're stuck in the sunshine.
+SFX zap
+MR_DINK (excited): The Laser Pointer Deluxe! It points at things! Very far away!
+ROGER (angry): We're in a metal box, Mr. Dink!
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC sad
+SCENE bluff_tower
+CARD One hour later...
+PLACE doug center right sad
+PLACE beebe midleft right sad
+BEEBE (sad): This is my father's building. My father's elevator. And I'm stuck in it.
+DOUG (sad): It's not your fault, Beebe.
+BEEBE (sad): Everybody thinks being a Bluff is easy. Big house. Big tower. But I've never been in an elevator that broke. I don't know what to do.
+DOUG (happy): Neither do I. But we're not alone in here.
+BEEBE (shy): ...That does help. A little.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC sneaky
+SCENE bluff_tower
+PLACE mr_dink center left nervous
+PLACE beebe midright left smug
+MR_DINK (nervous): Beebe. Could your father maybe... call someone? He's very rich.
+BEEBE (smug): My father is in Paris. Buying a smaller tower.
+MR_DINK (surprised): Why would anyone want a smaller tower?
+BEEBE (smug): For his other tower to look at, Mr. Dink.
+MR_DINK (sad): I'll never understand rich people. And I've tried. With very expensive books.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC jazz
+SCENE bluff_tower
+PLACE roger center left nervous
+PLACE doug midright left surprised
+ROGER (nervous): Funnie. I gotta tell you something. Don't tell anybody.
+DOUG (surprised): What, Roger?
+ROGER (scared): I'm scared of small spaces. Really scared.
+DOUG (surprised): You? Roger Klotz?
+ROGER (sad): That's why I live in a trailer. Lots of windows.
+DOUG (happy): Close your eyes, Roger. Pretend we're outside. At Lucky Duck Lake.
+
+# ------------------------------------------------------------ LUCKY DUCK LAKE
+MUSIC romantic
+SCENE lucky_duck_lake
+PLACE roger center left nervous
+PLACE doug midright left happy
+NARRATOR: In their minds, they were at the lake. The sky was big. The ducks were quacking. Nobody was stuck anywhere.
+DOUG (happy): See? Wide open. Water as far as you can see.
+ROGER (shy): ...Ducks. I see ducks.
+DOUG (smug): Are they nice ducks?
+ROGER (happy): They're the dumbest ducks I've ever seen. I love them.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC sneaky 2
+SCENE bluff_tower
+PLACE mr_dink center left nervous
+PLACE beebe midright left nervous
+PLACE doug midleft right excited
+DOUG (excited): Mr. Dink! Your laser pointer! Can you point it out the little window at the top? Down at the street?
+MR_DINK (surprised): Point it at the street? Why?
+DOUG (smug): Patti and Skeeter are probably waiting down there. If they see the light, they'll know which floor we're on.
+BEEBE (excited): Doug, that's brilliant!
+SFX zap
+MR_DINK (happy): The Laser Pointer Deluxe! Finally useful! Worth every penny!
+
+# ------------------------------------------------------------ BLUFFINGTON DOWNTOWN
+MUSIC action
+SCENE bluffington_downtown
+PLACE skeeter center right excited
+PLACE patti midleft right excited
+SKEETER (excited): Honk! A red dot! Up on the tower! Floor twenty-three!
+PATTI (excited): That's them! They're signaling!
+SKEETER (smug): I'll tell the repair guy. He's been looking at the wrong floor for an hour.
+PATTI (happy): Doug figured it out.
+SKEETER (happy): Of course he did. That's Doug.
+
+# ------------------------------------------------------------ BLUFF TOWER
+MUSIC happy
+SCENE bluff_tower
+CARD Ten minutes later...
+PLACE doug center right happy
+PLACE beebe midleft right happy
+PLACE roger right left happy
+PLACE mr_dink farleft right excited
+SFX ding
+NARRATOR: The elevator jerked. Then it moved. Then the doors opened on the ground floor. Everyone cheered.
+ROGER (happy): Air! Sweet, wide air!
+BEEBE (happy): Doug, thank you. My father wants to give you a reward.
+DOUG (shy): That's okay, Beebe. Just... maybe fix the elevator.
+MR_DINK (excited): And Mr. Bluff bought my laser pointer! For the security team! Very expensive!
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+PLACE doug center right happy
+PLACE porkchop midleft right smug
+DOUG (happy): Dear Journal. I was stuck in an elevator for two hours. And it was kind of okay.
+DOUG (shy): Beebe was nice. Roger was scared. Mr. Dink was Mr. Dink.
+PORKCHOP (smug): Arf.
+DOUG (smug): From now on, I'm taking the stairs. All fifty floors.
+END

@@ -1,0 +1,173 @@
+@title Dodgeball Day
+@series Doug
+@season 2
+@icon journal
+@number 6
+@description It's the annual dodgeball tournament in the Bluffington Gym. Roger's team has won four years in a row. Doug's team has Skeeter, Patti, Connie, Chalky and the Sleech twins, who have calculated exactly how to lose.
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC happy
+SCENE bluffington_gym cut
+TITLE
+PLACE mr_bone center left smug
+PLACE doug midright left nervous
+PLACE roger right left smug
+MR_BONE (smug): The annual dodgeball tournament is this Friday! Teams of six! No crying! No biting!
+ROGER (smug): Four years in a row, Funnie. My team's never lost. Ned can throw a ball through a wall.
+DOUG (nervous): I heard that wall was very thin.
+ROGER (angry): It was a regular wall!
+MR_BONE (angry): Mr. Klotz! Mr. Funnie! Save it for the court!
+DOUG (sad): Dear Journal. I'm going to get hit by a lot of balls.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC jazz
+SCENE honker_burger
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
+PLACE patti midright left excited
+SKEETER (excited): Honk! I'm in! I'm great at dodging! I dodge chores every day!
+PATTI (excited): Me too! I've been practicing my throw all summer.
+DOUG (happy): Great. That's three. We need three more.
+SKEETER (smug): Chalky's good at everything. And Connie's really fast.
+DOUG (nervous): That's five. Who's six?
+PATTI (smug): I know two geniuses who might count as one person.
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC sneaky
+SCENE sleech_lab
+PLACE al_sleech center left excited
+PLACE moo_sleech midleft right excited
+ENTER doug right midright nervous
+AL_SLEECH (excited): Dodgeball! A game of physics! Of angles! Of...
+MOO_SLEECH (excited): ...velocity! We'd be delighted to join!
+DOUG (happy): Really?
+AL_SLEECH (smug): We've already calculated our odds. We have a four percent chance of...
+MOO_SLEECH (sad): ...winning. And a ninety-six percent chance of being hit in the face.
+DOUG (nervous): ...Great. That's the spirit.
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC happy 2
+SCENE bluffington_park
+CARD Practice...
+PLACE doug center right excited
+PLACE patti midleft right excited
+PLACE skeeter midright left nervous
+DOUG (excited): Okay, team! Dodge!
+SFX boing
+SKEETER (scared): Honk! I got hit!
+PATTI (nervous): Skeeter, you dodged into the ball.
+SKEETER (sad): It looked lonely, man.
+DOUG (smug): Again! This time, dodge away from the ball.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC jazz
+SCENE bluffington_mall
+PLACE connie center left nervous
+PLACE chalky midright left happy
+PLACE doug midleft right excited
+DOUG (excited): Connie! Chalky! Will you be on our dodgeball team?
+CONNIE (nervous): Dodgeball? I'll try. But balls make me flinch.
+CHALKY (happy): Count me in, Doug. Teamwork is what matters.
+DOUG (happy): That's six! We have a team!
+CONNIE (smug): What's our team name?
+DOUG (nervous): I'm letting Skeeter pick. That was probably a mistake.
+CHALKY (happy): It'll be fine, Doug. Probably.
+
+# ------------------------------------------------------------ ROGER'S TRAILER
+MUSIC sneaky 2
+SCENE roger_trailer
+PLACE roger center left smug
+PLACE ned_cauphee midright left neutral
+ROGER (smug): Funnie's team has the Sleech twins. They're half the size of a normal kid. Each.
+NED_CAUPHEE (neutral): They're smart, though, Roger.
+ROGER (smug): Smart doesn't dodge, Ned. Strong throws. That's how we win.
+NED_CAUPHEE (nervous): Roger. What if... we lose?
+ROGER (angry): We don't lose! Klotzes don't lose!
+NED_CAUPHEE (smug): You lost the spelling bee.
+ROGER (angry): That was a dumb word!
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC jazz 2
+SCENE sleech_lab
+PLACE al_sleech center left excited
+PLACE moo_sleech midleft right excited
+PLACE doug midright left surprised
+AL_SLEECH (excited): Doug! We've analyzed four years of tape of Roger's team. They have a...
+MOO_SLEECH (excited): ...weakness! Ned always throws left. Roger always aims for the biggest target.
+DOUG (surprised): The biggest target?
+AL_SLEECH (smug): So we make ourselves small. And give him someone big to aim at.
+DOUG (nervous): Who's the biggest one on our team?
+MOO_SLEECH (happy): Nobody. That's the beauty of it.
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC tense
+SCENE bluffington_gym
+CARD Friday...
+PLACE mr_bone center left smug
+PLACE roger midright left smug
+PLACE doug midleft right nervous
+MR_BONE (smug): The final! The Klotz Crushers versus... the Funnie Bunch?
+DOUG (nervous): Skeeter named us.
+ROGER (smug): Ready to lose, Funnie?
+DOUG (nervous): Ready to... dodge, Roger.
+SFX ding
+MR_BONE (excited): BEGIN!
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC action
+SCENE bluffington_gym
+PLACE roger center left angry
+PLACE skeeter midright left scared
+SFX boing
+SFX boing
+NARRATOR: Roger threw. Skeeter ducked. Ned threw left. Patti was already on the right. Chalky caught one ball, Connie dodged three.
+ROGER (angry): Why can't I hit anybody?!
+SKEETER (excited): We're doing it, Doug! Honk!
+NARRATOR: The Sleech twins stood perfectly still, side by side, in the exact spot where the math said no ball would go. No ball went there.
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC action 2
+SCENE bluffington_gym
+PLACE doug center right nervous
+PLACE roger midleft right angry
+NARRATOR: Five minutes later, only two players were left. Roger Klotz. And Doug Funnie.
+ROGER (angry): Just you and me, Funnie.
+DOUG (nervous): Just you and me, Roger.
+ROGER (smug): You can't dodge forever.
+DOUG (smug): I don't have to dodge forever. I just have to catch one.
+SFX boing
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE doug center right excited
+NARRATOR: In Doug's mind, time slowed down. The ball floated toward him like a big red moon.
+DOUG (excited): Quailman's super-slow-motion vision! Activated!
+DOUG (smug): Arms out. Eyes open. Don't flinch.
+DOUG (excited): Quailman catches the moon!
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC happy
+SCENE bluffington_gym
+PLACE doug center right excited
+PLACE roger midleft right surprised
+PLACE mr_bone midright left surprised
+NARRATOR: Doug caught the ball. He actually caught it. It was the first ball he had ever caught in his life.
+MR_BONE (surprised): Klotz is out! The Funnie Bunch wins!
+ROGER (surprised): You caught it? YOU caught it?
+DOUG (surprised): I caught it!
+ROGER (smug): ...Fine. Good catch, Doug.
+DOUG (happy): Thanks, Roger.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC happy 2
+SCENE honker_burger
+PLACE doug center right happy
+PLACE skeeter midleft right excited
+PLACE patti midright left happy
+SKEETER (excited): Champions! The Funnie Bunch! Honk honk honk!
+PATTI (happy): Doug, that catch was amazing.
+DOUG (shy): It was the Sleech twins' plan. I just stood there with my arms out.
+PATTI (smug): And didn't flinch.
+DOUG (happy): Dear Journal. I didn't flinch.
+END

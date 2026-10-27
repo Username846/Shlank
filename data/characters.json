@@ -972,6 +972,110 @@
 			]
 		}
 	},
+	"theda_funnie": {
+		"name": "Theda Funnie",
+		"style": "theda_funnie",
+		"color": "#f28cb8",
+		"width": 58,
+		"bio": "Doug's mom. Calm, kind and always ready with a snack and some good advice.",
+		"catchphrase": "Oh, Doug, honey.",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.0,
+			"babble": 360,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		},
+		"show": "Doug",
+		"home": "funnie_kitchen"
+	},
+	"phil_funnie": {
+		"name": "Phil Funnie",
+		"style": "phil_funnie",
+		"color": "#4a78d0",
+		"width": 62,
+		"bio": "Doug's dad. Loves dad jokes, his garage and a good old-fashioned project.",
+		"catchphrase": "That's my boy!",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 1.0,
+			"babble": 300,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Doug",
+		"home": "funnie_garage"
+	},
+	"al_sleech": {
+		"name": "Al Sleech",
+		"style": "al_sleech",
+		"color": "#9b5fd0",
+		"width": 52,
+		"bio": "One half of the Sleech twins, Bluffington's youngest geniuses. Finishes his brother's sentences.",
+		"catchphrase": "Fascinating!",
+		"voice": {
+			"pitch": 1.55,
+			"rate": 1.25,
+			"babble": 430,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Doug",
+		"home": "sleech_lab"
+	},
+	"moo_sleech": {
+		"name": "Moo Sleech",
+		"style": "moo_sleech",
+		"color": "#5fa8d0",
+		"width": 52,
+		"bio": "The other half of the Sleech twins. Starts his brother's sentences.",
+		"catchphrase": "Most fascinating!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.25,
+			"babble": 440,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Doug",
+		"home": "sleech_lab"
+	},
+	"ned_cauphee": {
+		"name": "Ned Cauphee",
+		"style": "ned_cauphee",
+		"color": "#8a6a4a",
+		"width": 56,
+		"bio": "One of Roger's pals. Tall, slow and not quite as mean as he pretends to be.",
+		"catchphrase": "Yeah. What Roger said.",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 0.95,
+			"babble": 310,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Doug",
+		"home": "roger_trailer"
+	},
 	"tommy": {
 		"name": "Tommy Pickles",
 		"style": "tommy",

@@ -1,0 +1,163 @@
+@title Roger's Cat
+@series Doug
+@season 2
+@icon journal
+@number 3
+@description Roger's cat, Stinky, has run away from the trailer. Roger acts like he doesn't care. Doug notices that Roger hasn't stopped looking out the window all day. So Doug offers to help find her.
+
+# ------------------------------------------------------------ ROGER'S TRAILER
+MUSIC sad
+SCENE roger_trailer cut
+TITLE
+PLACE roger center left sad
+PLACE ned_cauphee midright left nervous
+ROGER (sad): She's gone, Ned. Stinky ran off this morning. Through the window.
+NED_CAUPHEE (nervous): That cat hates everybody, Roger. Maybe she just wanted a vacation.
+ROGER (angry): She doesn't hate everybody! She likes me!
+NED_CAUPHEE (surprised): She bit you last week.
+ROGER (smug): That's how she shows she likes me.
+ROGER (sad): ...She's never been gone this long.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC jazz
+SCENE bluffington_school
+PLACE roger center left angry
+PLACE doug midright left surprised
+ROGER (angry): What are you looking at, Funnie?
+DOUG (surprised): Nothing, Roger. You just seem... upset.
+ROGER (angry): I'm not upset! My cat ran away and I don't care! Cats are dumb!
+DOUG (nervous): Your cat ran away?
+ROGER (sad): ...She's been gone all day.
+DOUG (happy): I could help you look for her. Porkchop's a great tracker.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC sneaky
+SCENE doug_room
+PLACE doug center right nervous
+PLACE porkchop midleft right surprised
+DOUG (nervous): Dear Journal. I just offered to help Roger Klotz. Roger. The guy who calls me "Funnie-boy" every day.
+PORKCHOP (surprised): Arf?
+DOUG (sad): I know, boy. But he looked so sad. Like his whole world ran out a window.
+PORKCHOP (smug): Arf arf.
+DOUG (happy): You're right. Even Roger deserves to have his cat back.
+
+# ------------------------------------------------------------ ROGER'S TRAILER
+MUSIC jazz 2
+SCENE roger_trailer
+PLACE roger center left nervous
+ENTER doug right midright happy
+ENTER porkchop right right happy
+ROGER (nervous): You actually came. With your dog.
+DOUG (happy): Porkchop can find anything. What does Stinky like?
+ROGER (smug): Tuna. Sleeping on warm cars. And scratching Ned.
+PORKCHOP (excited): Arf!
+NARRATOR: Porkchop sniffed the windowsill. He sniffed Roger's shoe. He sniffed a can of tuna. Then he took off running.
+DOUG (excited): He's got the scent!
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC action
+SCENE bluffington_park
+PLACE doug center right excited
+PLACE roger midleft right nervous
+PLACE porkchop midright left excited
+PORKCHOP (excited): Arf! Arf arf!
+DOUG (excited): He thinks she came through the park!
+ROGER (nervous): Stinky! Here, kitty! I've got tuna!
+NARRATOR: A squirrel came. Two pigeons came. Mr. Dink came, because he heard the word tuna. No cat.
+ROGER (sad): She's not here.
+DOUG (smug): Then we keep looking.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC jazz 2
+SCENE honker_burger
+PLACE skeeter center right surprised
+PLACE patti midleft right happy
+SKEETER (surprised): Doug is helping Roger? Roger Klotz? Honk?!
+PATTI (happy): I saw them running through the park with Porkchop. Calling "here, kitty" together.
+SKEETER (nervous): That's weird, man. Roger stole Doug's lunch money in the third grade.
+PATTI (smug): Maybe that's why it's so nice. Doug helps people even when they don't deserve it.
+SKEETER (happy): Yeah. That's Doug. Honk.
+PATTI (shy): ...That's one of the things I like about him.
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC jazz
+SCENE dink_yard
+PLACE mr_dink center left excited
+PLACE doug midright left nervous
+PLACE roger right left nervous
+MR_DINK (excited): A cat? I saw a cat! On my very expensive new car! Sleeping on the hood!
+ROGER (excited): That's her! She loves warm cars!
+MR_DINK (sad): She left little paw prints. Very expensive paw prints.
+DOUG (nervous): Where did she go, Mr. Dink?
+MR_DINK (smug): Toward the mall. She looked like she was going shopping.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC sneaky 2
+SCENE bluffington_mall
+PLACE doug center right nervous
+PLACE roger midleft right nervous
+PLACE porkchop midright left excited
+NARRATOR: The mall was huge. Two floors. Forty stores. And one runaway cat somewhere inside.
+ROGER (nervous): Funnie, what if she's lost? What if she's scared?
+DOUG (surprised): Roger. You really love that cat.
+ROGER (shy): ...She's the only one who's always happy to see me. Well. Sometimes happy. Sometimes she hisses. But she comes back.
+DOUG (happy): She'll come back this time too.
+PORKCHOP (excited): Arf!
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC tense
+SCENE bluffington_mall
+PLACE porkchop center left excited
+PLACE doug midright left surprised
+PORKCHOP (excited): Arf! Arf arf arf!
+DOUG (surprised): The pet store! She's in the pet store window!
+NARRATOR: There she was. Stinky the cat. Sitting in the window of the pet store, between two puppies, looking extremely annoyed.
+DOUG (happy): Roger! We found her!
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC romantic
+SCENE bluffington_mall
+PLACE roger center left happy
+PLACE doug midright left happy
+ROGER (happy): Stinky! You dumb cat! I was so worried!
+NARRATOR: Stinky hissed. Then she jumped into Roger's arms. Then she bit him. Gently.
+ROGER (happy): See? She likes me!
+DOUG (smug): That's a lot of liking.
+ROGER (shy): ...Funnie. Thanks. For real.
+DOUG (happy): Anytime, Roger.
+
+# ------------------------------------------------------------ ROGER'S TRAILER
+MUSIC jazz 2
+SCENE roger_trailer
+PLACE ned_cauphee center left surprised
+PLACE roger midright left happy
+NED_CAUPHEE (surprised): You found her? With Funnie?
+ROGER (happy): His dog found her. In the pet store. She was trying to get adopted by somebody richer.
+NED_CAUPHEE (smug): So are you and Funnie friends now?
+ROGER (angry): No! Don't be stupid, Ned!
+ROGER (shy): ...Maybe I'll call him Doug. Instead of Funnie-boy. Once a week.
+NED_CAUPHEE (happy): That's real growth, Roger.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC happy
+SCENE bluffington_school
+CARD Monday...
+PLACE roger center left smug
+PLACE doug midright left nervous
+PLACE skeeter midleft right surprised
+ROGER (smug): Morning, Funnie-boy.
+DOUG (sad): Morning, Roger.
+ROGER (shy): I mean. Morning... Doug.
+SKEETER (surprised): Honk?! Did Roger just call you Doug?
+DOUG (smug): It's Monday. He gets one a week.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. Roger Klotz said "thanks." And called me Doug. Once.
+DOUG (smug): I think the world might be ending.
+PORKCHOP (smug): Arf.
+DOUG (happy): And Porkchop got a medal. Roger made it out of a bottle cap.
+END

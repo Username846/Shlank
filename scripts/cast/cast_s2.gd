@@ -60,6 +60,24 @@ static func _human(style: String) -> Dictionary:
 		"curly":
 			return {"size": "kid", "top": Color("c8642a"), "sleeves": "long", "bottom_col": Color("3d5aa8"), "shoe": Color("2b2b33"),
 				"hair": "wild", "hair_col": Color("1d1d22"), "glasses": true, "eye": Vector2(9, 11), "torso_extra": _x_plaid.bind("kid", Color("5a1a1a"))}
+		# Doug
+		"theda_funnie":
+			return {"size": "adult", "top": Color("f28cb8"), "sleeves": "long", "bottom": "skirt", "bottom_col": Color("6fbf6a"),
+				"legs": Puppet.SKIN, "shoe": Color("8a5a36"), "hair": "bob", "hair_col": Color("c8582e"), "lashes": 2, "torso_w": 28.0,
+				"extra": CastExtra._x_earrings}
+		"phil_funnie":
+			return {"size": "adult", "top": Color("f4f4f2"), "sleeves": "short", "bottom_col": Color("4a78d0"), "shoe": Color("6b4428"),
+				"hair": "tuft", "tuft_n": 3, "hair_col": Color("6b4428"), "nose": "big", "torso_w": 32.0, "belly": 6.0,
+				"torso_extra": CastMore._x_tie.bind(Color("4a78d0"))}
+		"al_sleech", "moo_sleech":
+			var al := style == "al_sleech"
+			return {"size": "kid", "skin": Color("c8a8e6") if al else Color("a8d0e6"), "top": Color("f4f4f2"), "sleeves": "long",
+				"bottom_col": Color("6a6a7a"), "shoe": Color("2b2b33"), "hair": "none", "glasses": true, "head": Vector2(40, 40),
+				"eye": Vector2(8, 10), "torso_extra": _x_lab_coat.bind("kid"), "extra": _x_bow_tie.bind("kid", Color("9b5fd0") if al else Color("5fa8d0"))}
+		"ned_cauphee":
+			return {"size": "teen", "skin": Color("e8c8a0"), "top": Color("8a6a4a"), "sleeves": "long", "bottom_col": Color("3d4a5a"),
+				"shoe": Color("2b2b33"), "hair": "fringe", "hair_col": Color("3a2416"), "head_shape": "long", "head": Vector2(28, 38),
+				"base_lid": 0.4}
 		_: return {}
 
 
@@ -125,6 +143,21 @@ static func _x_plaid(p: Puppet, size: String, col: Color) -> void:
 		Art.stroke(p.ci, PackedVector2Array([Vector2(-20, y), Vector2(20, y)]), 2.0, col)
 	for i in 3:
 		Art.stroke(p.ci, PackedVector2Array([Vector2(-12 + i * 12, sh + 8), Vector2(-12 + i * 12, hip - 4)]), 2.0, col)
+
+
+static func _x_lab_coat(p: Puppet, size: String) -> void:
+	var sh: float = SHOULDER[size]
+	var hip: float = HumanRig.SIZES[size].hip
+	for sx in [-1, 1]:
+		Art.shape(p.ci, PackedVector2Array([Vector2(sx * 4, sh + 2), Vector2(sx * 30, sh + 4), Vector2(sx * 32, hip + 30),
+			Vector2(sx * 10, hip + 30)]), Color("f4f4f2"), 2.5)
+	Art.dot(p.ci, Vector2(-18, sh + 30), 3, Color("4a78d0"))
+
+
+static func _x_bow_tie(p: Puppet, hc: Vector2, size: String, col: Color) -> void:
+	var y: float = SHOULDER[size] + 4
+	for sx in [-1, 1]:
+		Art.shape(p.ci, PackedVector2Array([Vector2(0, y), Vector2(sx * 12, y - 7), Vector2(sx * 12, y + 7)]), col, 2.0)
 
 
 static func _x_hair_bow(p: Puppet, hc: Vector2, col: Color) -> void:

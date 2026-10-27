@@ -33,6 +33,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"ps118_gym": _ps118_gym(b)
 		"school_bus": _school_bus(b)
 		"hillwood_rink": _hillwood_rink(b)
+		# Doug
+		"valentine_house": _valentine_house(b)
+		"patti_house": _patti_house(b)
+		"roger_trailer": _roger_trailer(b)
+		"sleech_lab": _sleech_lab(b)
+		"bluffington_mall": _bluffington_mall(b)
+		"bluffington_gym": _bluffington_gym(b)
+		"bluff_tower": _bluff_tower(b)
+		"funnie_garage": _funnie_garage(b)
+		"bluffington_fair": _bluffington_fair(b)
+		"bluffington_cinema": _bluffington_cinema(b)
 		_: return false
 	return true
 
@@ -63,6 +74,15 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 6:
 				var c := Vector2(1080, 260) + Vector2(cos(a + i * TAU / 6.0), sin(a + i * TAU / 6.0)) * 130
 				Art.shape(ci, Art.rrect(Rect2(c - Vector2(18, 12), Vector2(36, 26)), 6), [Color("e6452f"), Color("f2c14e"), Color("4a78d0")][i % 3], 2.5)
+		"sleech_lab":
+			for i in 4:
+				var k := fmod(t * 0.9 + i * 0.25, 1.0)
+				Art.dot(ci, Vector2(250 + i * 40, 380 - k * 80), 6 * (1.0 - k) + 2, Color(0.6, 1.0, 0.5, 1.0 - k))
+		"bluffington_fair":
+			var a := t * 0.4
+			for i in 8:
+				var c := Vector2(1040, 250) + Vector2(cos(a + i * TAU / 8.0), sin(a + i * TAU / 8.0)) * 150
+				Art.shape(ci, Art.rrect(Rect2(c - Vector2(16, 12), Vector2(32, 24)), 6), [Color("e6452f"), Color("5aa84a"), Color("f2c14e")][i % 3], 2.5)
 		_: pass
 
 
@@ -408,3 +428,145 @@ static func _hillwood_rink(b: Backdrop) -> void:
 	Art.shape(b.ci, Art.rrect(Rect2(960, 320, 220, 150), 8), Color("a24d38"), 4.0, 0.12)
 	b._sign(Rect2(950, 280, 240, 46), "HOT COCOA", Color("6b4428"), Color.WHITE, 26)
 	SetsExtra._tree(b, 120, 470, 0.7, Color("e8f4f8"))
+
+
+# ------------------------------------------------------------------ Doug --
+
+static func _valentine_house(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("a8d8f0"), Color("88c0e0"), 560, Color("8a5a36"))
+	b._window(Rect2(540, 110, 200, 160), Color.WHITE, Color("cfe9f7"))
+	# Model planes hanging from the ceiling and a shelf of comics
+	for p in [Vector2(250, 120), Vector2(1000, 150)]:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(p.x, -PAD), p]), 2.0)
+		Art.shape(b.ci, PackedVector2Array([p + Vector2(-50, 0), p + Vector2(50, -6), p + Vector2(50, 6)]), Color("e6452f"), 3.0)
+		Art.shape(b.ci, PackedVector2Array([p + Vector2(-6, -30), p + Vector2(10, 0), p + Vector2(-6, 30)]), Color("e6452f").darkened(0.15), 3.0)
+	_shelves(b, Rect2(880, 260, 300, 290), Color("c48a4f"), [Color("e6452f"), Color("f2c14e"), Color("4a78d0")], 61)
+	Art.shape(b.ci, Art.rrect(Rect2(110, 420, 330, 120), 12), Color("5aa84a"), 4.0, 0.12)
+	b._sign(Rect2(470, 330, 340, 50), "SKEETER'S ROOM", Color("f2a65a"), Color.WHITE, 30)
+
+
+static func _patti_house(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 560)
+	SetsExtra._house(b, Rect2(360, 260, 560, 300), Color("f2d9a8"), Color("5a8fd8"))
+	# Basketball hoop over the garage door and a ramp to the front door
+	Art.shape(b.ci, Art.rrect(Rect2(960, 240, 110, 70), 4), Color.WHITE, 3.5)
+	b.ci.draw_arc(Vector2(1015, 330), 26, 0, PI, 10, Color("e6702f"), 5.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1015, 310), Vector2(1015, 600)]), 8, Color("8a96a3"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(520, 560), Vector2(600, 520), Vector2(680, 520), Vector2(760, 560)]), Color("b8b0a0"), 3.5)
+	for x in [160, 260]:
+		SetsExtra._bush(b, Vector2(x, 560), 0.9, Color("f28cb8"))
+
+
+static func _roger_trailer(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 560, Color("a8b85a"))
+	Art.shape(b.ci, Art.rrect(Rect2(260, 300, 760, 240), 40), Color("dfe6ea"), 5.0, 0.12)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(270, 380), Vector2(1010, 380)]), 8.0, Color("3f8f4a"))
+	for x in [340, 820]:
+		b._window(Rect2(x, 400, 120, 80), Color("8a96a3"), Color("9ccbe8"))
+	b._door(Rect2(600, 400, 80, 140), Color("8a96a3"), false)
+	for x in [380, 900]:
+		Art.blob(b.ci, Vector2(x, 548), 40, 40, Color("2b2b33"), 4.0)
+	# The lawn flamingo
+	Art.limb(b.ci, PackedVector2Array([Vector2(1120, 600), Vector2(1120, 520)]), 4, Color("f28cb8"))
+	Art.blob(b.ci, Vector2(1120, 500), 30, 20, Color("f28cb8"), 3.0)
+	Art.limb(b.ci, Art.curve(Vector2(1140, 490), Vector2(1160, 450), Vector2(1145, 430), 6), 6, Color("f28cb8"))
+
+
+static func _sleech_lab(b: Backdrop) -> void:
+	SetsMore._panels(b, Color("6a6a8a"), Color("6fdc6a"), 550)
+	# Lab bench with bubbling beakers and a big red button
+	Art.shape(b.ci, Art.rrect(Rect2(150, 400, 420, 40), 6), Color("8a96a3"), 4.0)
+	for i in 4:
+		var x := 210.0 + i * 100.0
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 14, 340), Vector2(x + 14, 340), Vector2(x + 30, 400), Vector2(x - 30, 400)]),
+			[Color("6fdc6a"), Color("f28cb8"), Color("6fb3e8"), Color("f2c14e")][i], 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(820, 260, 300, 290), 16), Color("4a4a6a"), 4.0, 0.12)
+	Art.blob(b.ci, Vector2(970, 360), 50, 40, Color("e6452f"), 4.0, 0.15)
+	b._sign(Rect2(830, 470, 280, 40), "DO NOT PRESS", Color("f2c14e"), Color("e6452f"), 24)
+	b._sign(Rect2(440, 60, 400, 56), "SLEECH LABORATORIES", Color("2b2f4a"), Color("6fdc6a"), 28)
+
+
+static func _bluffington_mall(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f2ead2"), Color("dfd4b4"), 560, Color("c8c0b0"), "tile")
+	# Two floors of shops, a fountain and an escalator
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 260, W + PAD * 2, 24)), Color("8a96a3"), 4.0)
+	var shops := [["SHOES", Color("e6452f")], ["BOOKS", Color("4a78d0")], ["TOYS", Color("f2c14e")], ["PETS", Color("5aa84a")]]
+	for i in 4:
+		var x := 20.0 + i * 320.0
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x, 60, 280, 200)), Color("f4f2ec"), 3.5)
+		b._sign(Rect2(x + 40, 76, 200, 40), shops[i][0], shops[i][1], Color.WHITE, 24)
+		b._window(Rect2(x + 40, 130, 200, 110), Color("8a96a3"), Color("cfe9f7"), false)
+	Art.limb(b.ci, PackedVector2Array([Vector2(860, 560), Vector2(1100, 284)]), 50, Color("8a96a3"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(420, 560), 160, 50, PI, TAU, 16), Color("6fb3e8"), 4.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(420, 520), Vector2(420, 440)]), 12, Color("f4f2ec"))
+
+
+static func _bluffington_gym(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("e8dcc0"), Color("d4c4a0"), 520, Color("d8a868"))
+	for i in 8:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD + i * 200, 520), Vector2(-PAD + i * 200 - 60, H + PAD)]), 2.0, Color("b8884a"))
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, 520), Vector2(640, H + PAD)]), 4.0, Color("e6452f"))
+	# Climbing rope, banner and a rack of dodgeballs
+	Art.stroke(b.ci, Art.curve(Vector2(200, -PAD), Vector2(214, 200), Vector2(200, 420), 10), 8.0, Color("c8a86a"))
+	b._sign(Rect2(440, 100, 400, 60), "GO BLUFFINGTON!", Color("5aa84a"), Color.WHITE, 34)
+	Art.shape(b.ci, Art.rrect(Rect2(920, 400, 220, 120), 8), Color("8a96a3"), 4.0)
+	for k in 6:
+		Art.blob(b.ci, Vector2(950 + (k % 3) * 70, 430 + (k / 3) * 50), 26, 24, Color("e6452f"), 3.0)
+
+
+static func _bluff_tower(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("2a3a5a"), Color("4a5a7a"), 560, Color("6a4a3a"), "carpet")
+	# Wall of windows looking down on the town far below
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 60, W + PAD * 2, 380)), Color("8fc8f0"), 4.0)
+	b._skyline(440, Color("6a8ab0"), 21, Color(1, 1, 1, 0.3))
+	for i in 9:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD + i * 180, 60), Vector2(-PAD + i * 180, 440)]), 6.0, Color("2b2b33"))
+	Art.shape(b.ci, Art.rrect(Rect2(420, 420, 440, 40), 6), Color("6b4428"), 4.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(440, 460), Vector2(840, 460), Vector2(820, 560), Vector2(460, 560)]), Color("8a5a36"), 4.0)
+	b._sign(Rect2(500, 470, 280, 44), "MR. BLUFF", Color("f2c14e"), Color("2b2b33"), 26)
+
+
+static func _funnie_garage(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("c8c0b0"), Color("b0a898"), 560, Color("8a8a8a"), "tile")
+	# Workbench with a pegboard of tools, the family car and a pile of boxes
+	Art.shape(b.ci, SetsExtra._rect(Rect2(90, 140, 360, 200)), Color("c8a06a"), 4.0)
+	for k in 12:
+		Art.dot(b.ci, Vector2(110 + (k % 6) * 60, 170 + (k / 6) * 60), 4, Color("6b4428"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(140, 190), Vector2(150, 260)]), 8, Color("e6452f"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(260, 180), Vector2(250, 280)]), 6, Color("8a96a3"))
+	SetsExtra._table(b, 270, 380, 360, Color("8a5a36"))
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(640, 540), Vector2(660, 430), Vector2(760, 380), Vector2(1000, 380),
+		Vector2(1120, 440), Vector2(1140, 540)]), 4), Color("5aa84a"), 4.5, 0.12)
+	for x in [720, 1060]:
+		Art.blob(b.ci, Vector2(x, 548), 38, 38, Color("2b2b33"), 4.0)
+	b._window(Rect2(820, 400, 160, 60), Color("5aa84a"), Color("cfe9f7"), false)
+
+
+static func _bluffington_fair(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 560, Color("8fd06a"))
+	# Ferris wheel (cars turn in the moving layer), the pie tent and a pig pen
+	b.ci.draw_arc(Vector2(1040, 250), 150, 0, TAU, 40, INK, 9.0)
+	b.ci.draw_arc(Vector2(1040, 250), 150, 0, TAU, 40, Color("f4f2ec"), 5.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(960, 590), Vector2(1040, 250), Vector2(1120, 590)]), 12, Color("8a96a3"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(160, 360), Vector2(380, 220), Vector2(600, 360)]), Color("e6452f"), 4.0, 0.12)
+	for i in 6:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(380, 220), Vector2(160 + i * 88, 360)]), 3.0, Color.WHITE)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(180, 360, 400, 200)), Color("f4f2ec"), 4.0)
+	b._sign(Rect2(230, 380, 300, 50), "PIE CONTEST", Color("f2c14e"), Color("e6452f"), 30)
+	SetsExtra._fence(b, 500, 590, Color("c8a06a"))
+
+
+static func _bluffington_cinema(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("4a1a2a"), Color("6a2a3a"), 560, Color("3a1a1a"), "carpet")
+	# Screen, curtains and rows of red velvet seats
+	Art.shape(b.ci, Art.rrect(Rect2(260, 60, 760, 330), 8), Color("f4f2ec"), 4.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(-PAD, -PAD), Vector2(300, -PAD), Vector2(230, 420), Vector2(-PAD, 420)]), Color("b3202f"), 4.0, 0.12)
+	Art.shape(b.ci, PackedVector2Array([Vector2(980, -PAD), Vector2(W + PAD, -PAD), Vector2(W + PAD, 420), Vector2(1050, 420)]), Color("b3202f"), 4.0, 0.12)
+	for j in 2:
+		for i in 9:
+			var x := 60.0 + i * 150.0 + j * 70
+			Art.shape(b.ci, Art.rrect(Rect2(x, 440 + j * 70, 110, 70), 16), Color("b3202f"), 3.5, 0.12)
+	b._sign(Rect2(440, 200, 400, 60), "NOW SHOWING", Color("2b2b33"), Color("f2c14e"), 34)

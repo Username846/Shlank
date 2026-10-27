@@ -1,0 +1,144 @@
+@title Lost at the Mall
+@series Doug
+@season 2
+@icon journal
+@number 5
+@description Doug's mom takes him and Judy back-to-school shopping at Bluffington Mall. Doug wanders off to look at comic books and gets completely lost. Meanwhile, Judy is trying to buy a beret. A very specific beret.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC happy
+SCENE funnie_kitchen cut
+TITLE
+PLACE theda_funnie center left happy
+PLACE doug midright left sad
+PLACE judy midleft right excited
+THEDA_FUNNIE (happy): Back-to-school shopping! Everybody in the car! New shoes, new notebooks, new socks!
+DOUG (sad): Mom, I hate shopping. It's just walking around and trying on pants.
+JUDY (excited): I need a new beret. Black. With exactly one-and-a-half inches of droop.
+THEDA_FUNNIE (smug): And Doug needs pants that aren't three inches too short.
+DOUG (sad): I like my pants. They show my socks.
+JUDY (smug): That's not a feature, Douglas.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC jazz
+SCENE bluffington_mall
+PLACE theda_funnie center left happy
+PLACE doug midright left nervous
+PLACE judy midleft right excited
+THEDA_FUNNIE (happy): Okay, kids. Stay together. Don't wander off. If you get lost, meet at the fountain.
+JUDY (excited): The hat store! I'll be right back!
+DOUG (nervous): Mom, can I look at the comic store? It's right there.
+THEDA_FUNNIE (smug): Five minutes, Doug. Then meet me at the shoe store.
+DOUG (happy): Five minutes!
+NARRATOR: It was not five minutes.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC romantic
+SCENE bluffington_mall
+PLACE doug center right excited
+NARRATOR: The comic store had everything. Old comics. New comics. A first edition of "The Man-O-Steel." Doug lost all track of time.
+DOUG (excited): "Issue one hundred. Man-O-Steel meets his evil twin." Whoa.
+DOUG (happy): I'll just read one more page.
+NARRATOR: He read forty-two more pages. When he looked up, it had been an hour.
+DOUG (scared): Oh no.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC tense
+SCENE bluffington_mall
+PLACE doug center right nervous
+DOUG (nervous): The shoe store. Where was the shoe store? Left? Right? Up the escalator?
+NARRATOR: Doug was slightly afraid of escalators. He took the stairs. The stairs led to a different part of the mall. A part with no shoe store.
+DOUG (scared): Dear Journal. I'm lost. In a mall. At twelve years old.
+DOUG (sad): I'm going to live here now. I'll eat at the food court. I'll sleep in the furniture store.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC sneaky
+SCENE bluffington_mall
+PLACE judy center left nervous
+PLACE theda_funnie midright left nervous
+JUDY (nervous): Mother, I've tried on forty-one berets. None of them have the correct droop.
+THEDA_FUNNIE (nervous): Judy, have you seen your brother?
+JUDY (surprised): Douglas? He's probably reading comics.
+THEDA_FUNNIE (scared): He was supposed to meet me an hour ago!
+JUDY (smug): Then I suppose we have a mission. Like detectives. In berets.
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE doug center right angry
+NARRATOR: Doug imagined himself as Quailman, lost in the Labyrinth of the Evil Mall Lord.
+DOUG (angry): You can't trap me forever, Mall Lord! Quailman always finds a way out!
+DOUG (nervous): Which way is out? Is it past the pretzel stand?
+DOUG (smug): Quailman follows the smell of pretzels! It always leads somewhere!
+DOUG (surprised): ...It leads to more pretzels.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC jazz 2
+SCENE bluffington_mall
+PLACE doug center right nervous
+ENTER beebe left midleft smug
+BEEBE (smug): Doug Funnie. What are you doing on the second floor? Shopping for real clothes for once?
+DOUG (nervous): Beebe! I'm lost. I can't find my mom.
+BEEBE (smug): Lost? In Bluffington Mall? My father owns this mall.
+DOUG (surprised): He does?
+BEEBE (happy): Well, half of it. The fancy half. Come on. I know every shortcut.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC happy
+SCENE bluffington_mall
+PLACE beebe center left smug
+PLACE doug midright left happy
+BEEBE (smug): Through the perfume store. Past the piano. Down the secret staff elevator.
+DOUG (nervous): An elevator?
+BEEBE (happy): It's not an escalator, Doug. It doesn't move sideways. Very civilized.
+DOUG (shy): Thanks, Beebe. You're actually really nice when you want to be.
+BEEBE (smug): Don't tell anyone.
+DOUG (happy): I won't.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC tense 2
+SCENE bluffington_mall
+PLACE judy center left excited
+PLACE theda_funnie midright left nervous
+JUDY (excited): Mother! Over there! By the fountain!
+THEDA_FUNNIE (nervous): Is it Doug?
+JUDY (smug): It's a man in a giant pretzel costume. But next to him... yes. It's Douglas. And Beebe Bluff?
+THEDA_FUNNIE (happy): Oh, thank goodness!
+JUDY (surprised): And I see... a beret. In the window behind them. With the perfect droop.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC romantic 2
+SCENE bluffington_mall
+PLACE theda_funnie center left happy
+PLACE doug midright left sad
+PLACE beebe right left smug
+THEDA_FUNNIE (happy): Doug! Honey! Where have you been?
+DOUG (sad): I'm sorry, Mom. I read too many comics. Then I got lost. Then Beebe found me.
+THEDA_FUNNIE (happy): Thank you, Beebe. You're very kind.
+BEEBE (smug): It was nothing, Mrs. Funnie. I simply know the way around. My family owns... half of it.
+THEDA_FUNNIE (smug): And Doug. Next time, five minutes means five minutes.
+DOUG (shy): Five minutes. Got it.
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC happy 2
+SCENE bluffington_mall
+PLACE judy center left excited
+PLACE doug midright left happy
+JUDY (excited): Douglas! I found it! The perfect beret! One-and-a-half inches of droop!
+DOUG (happy): Congratulations, Judy.
+JUDY (smug): I suppose I should thank you. If you hadn't gotten lost, we never would have come to the fountain.
+DOUG (surprised): You're thanking me for getting lost?
+JUDY (happy): Art is about happy accidents, Douglas.
+DOUG (smug): Then I'm a great artist.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic
+SCENE doug_room
+CARD That night...
+PLACE doug center right happy
+PLACE porkchop midleft right smug
+DOUG (happy): Dear Journal. I got new pants. They're the right length. They don't show my socks.
+PORKCHOP (smug): Arf.
+DOUG (shy): And I learned something. Beebe Bluff isn't as bad as she seems.
+DOUG (excited): And I got issue one hundred of Man-O-Steel. Mom said I'd earned it.
+END

@@ -1,0 +1,145 @@
+@title Two Dougs Are Better Than One
+@series Doug
+@season 2
+@icon journal
+@number 4
+@description Doug has too much to do: homework, chores, band practice and a date with Patti, all on Saturday. The Sleech twins offer to help with their latest invention, a copying machine. Now there are two Dougs. Neither one is sure which is the real one.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC jazz
+SCENE doug_room cut
+TITLE
+PLACE doug center right nervous
+PLACE porkchop midleft right neutral
+DOUG (nervous): Dear Journal. Saturday is impossible. Homework at nine. Mow the lawn at ten. Help Judy with her play at noon.
+DOUG (scared): And at two o'clock, ice cream at Swirly's with Patti. The most important thing.
+PORKCHOP (nervous): Arf.
+DOUG (sad): There's only one of me, Porkchop. I can't be in four places at once.
+PORKCHOP (smug): Arf arf.
+DOUG (surprised): The Sleech twins? They do have a lot of weird inventions.
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC sneaky
+SCENE sleech_lab
+PLACE al_sleech center left excited
+PLACE moo_sleech midleft right excited
+ENTER doug right midright nervous
+AL_SLEECH (excited): Doug Funnie! What a fascinating...
+MOO_SLEECH (excited): ...coincidence! We just finished our newest...
+AL_SLEECH (smug): ...invention! The Duplicator!
+DOUG (surprised): The Duplicator?
+MOO_SLEECH (happy): Step inside, press the button, and...
+AL_SLEECH (excited): ...there are two of you! For twenty-four hours!
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC tense
+SCENE sleech_lab
+PLACE doug center right nervous
+PLACE al_sleech midleft right excited
+DOUG (nervous): Is it safe?
+AL_SLEECH (smug): We tested it on a hamster.
+DOUG (happy): And?
+AL_SLEECH (nervous): Now we have two hamsters. They don't get along.
+DOUG (nervous): ...I'll do it anyway. For Patti.
+SFX zap
+SHAKE 0.8
+NARRATOR: There was a flash of light. A puff of smoke. And when it cleared, there were two Dougs.
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC jazz 2
+SCENE sleech_lab
+PLACE doug center right surprised
+PLACE moo_sleech midleft right excited
+NARRATOR: The two Dougs looked at each other. They had the same vest. The same hair. The same nervous smile.
+DOUG (surprised): Whoa. Hi, me.
+NARRATOR: The other Doug said "Whoa. Hi, me" at exactly the same time.
+MOO_SLEECH (excited): Fascinating! A perfect copy! Now, which one of you...
+DOUG (nervous): ...is the real one?
+MOO_SLEECH (nervous): We forgot to put a label on.
+
+# ------------------------------------------------------------ THE FUNNIE HOUSE
+MUSIC happy
+SCENE funnie_house
+PLACE phil_funnie center left surprised
+PLACE doug midright left happy
+PHIL_FUNNIE (surprised): Doug? I just saw you mowing the lawn. Out back.
+DOUG (nervous): That's... the other me. I mean. That's me. I'm very fast.
+PHIL_FUNNIE (happy): That's my boy! Homework AND the lawn! Before ten o'clock!
+DOUG (nervous): Yep! Super productive!
+PHIL_FUNNIE (smug): You know, I was just like you at your age. Two places at once. Well. It felt like it.
+DOUG (shy): ...Ha. Yeah. Felt like it.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC jazz
+SCENE bluffington_school
+PLACE judy center left excited
+PLACE doug midright left nervous
+JUDY (excited): Douglas! You came to help with my play! Hold this tree. You're the tree.
+DOUG (nervous): Sure, Judy.
+JUDY (surprised): Wait. Didn't you just leave? I saw you running toward Swirly's.
+DOUG (scared): Did I? I mean. Did he? I mean. No!
+JUDY (smug): Douglas, are there two of you?
+DOUG (nervous): Can trees talk, Judy? No? Okay. Just being a tree.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC romantic
+SCENE swirlys
+CARD Two o'clock...
+PLACE patti center left happy
+PLACE doug midright left happy
+PATTI (happy): Doug! You're right on time! I got you a double chocolate.
+DOUG (happy): Thanks, Patti. This is the best part of my whole Saturday.
+PATTI (smug): You look tired. Busy day?
+DOUG (nervous): You have no idea. I've been... very busy. In two places.
+PATTI (surprised): Two places?
+DOUG (shy): It's a long story.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC tense 2
+SCENE swirlys
+PLACE patti center left surprised
+PLACE doug midright left nervous
+NARRATOR: Then the door opened. And the other Doug walked in. He was also there for ice cream with Patti.
+PATTI (surprised): Doug? And... Doug?
+DOUG (scared): Okay. I can explain.
+NARRATOR: The other Doug said "Okay. I can explain" at the exact same time.
+PATTI (surprised): Are you twins? Since when do you have a twin?
+DOUG (sad): Since about nine o'clock this morning.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC sad
+SCENE swirlys
+PLACE doug center right sad
+PLACE patti midleft right neutral
+DOUG (sad): I made a copy of myself. To get everything done. And now we both want to have ice cream with you.
+PATTI (neutral): Doug. Why didn't you just tell me you were busy? I'd have moved our ice cream to Sunday.
+DOUG (surprised): You would?
+PATTI (smug): Of course. It's just ice cream. You don't need to clone yourself for ice cream.
+DOUG (shy): I didn't want you to think I didn't care.
+PATTI (happy): I know you care, Doug. Both of you.
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC action
+SCENE sleech_lab
+PLACE al_sleech center left nervous
+PLACE moo_sleech midleft right nervous
+PLACE doug midright left nervous
+AL_SLEECH (nervous): The copy disappears at midnight. Automatically. But which one is...
+MOO_SLEECH (nervous): ...the copy? We truly don't know.
+DOUG (scared): So one of us is going to disappear and we don't know which?!
+AL_SLEECH (smug): Fascinating, isn't it?
+DOUG (angry): No!
+MOO_SLEECH (happy): Just kidding. The copy has a small hamster sticker on his shoe.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic
+SCENE doug_room
+CARD Midnight...
+PLACE doug center right nervous
+PLACE porkchop midleft right nervous
+NARRATOR: Both Dougs checked their shoes. One had a hamster sticker. He sighed. He smiled. And at midnight, he went "poof."
+DOUG (sad): Bye, me. Thanks for mowing the lawn.
+PORKCHOP (sad): Arf.
+DOUG (smug): Dear Journal. Tomorrow I'm only going to do one thing. Ice cream with Patti.
+DOUG (happy): One Doug is plenty.
+END

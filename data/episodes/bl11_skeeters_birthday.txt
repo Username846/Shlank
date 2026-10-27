@@ -1,0 +1,155 @@
+@title Skeeter's Surprise
+@series Doug
+@season 2
+@icon journal
+@number 1
+@description It's Skeeter's birthday, and Doug is planning a surprise party at the Valentine house. The problem: Skeeter is impossible to surprise. He knows everything. He hears everything. He honks at everything.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC happy
+SCENE doug_room cut
+TITLE
+PLACE doug center right excited
+PLACE porkchop midleft right happy
+DOUG (excited): Dear Journal. Saturday is Skeeter's birthday. And this year, I'm throwing him a surprise party.
+PORKCHOP (excited): Arf!
+DOUG (nervous): The only problem is, Skeeter has never been surprised. Ever. Not once.
+DOUG (sad): Last year we hid in his closet. He found us in four seconds. He said he could smell the cake.
+PORKCHOP (smug): Arf arf.
+DOUG (smug): This year, we'll use a cake with no smell. And hide somewhere he'd never look.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC jazz
+SCENE funnie_kitchen
+PLACE theda_funnie center left happy
+PLACE doug midright left nervous
+THEDA_FUNNIE (happy): A surprise party for Skeeter? Oh, Doug, honey, that's so thoughtful.
+DOUG (nervous): Mom, can you make a cake that doesn't smell like cake?
+THEDA_FUNNIE (surprised): A cake that doesn't smell like cake?
+DOUG (sad): Skeeter can smell a cake from three houses away.
+THEDA_FUNNIE (smug): Then I'll make it at Patti's house. Three houses away is four houses from Skeeter.
+DOUG (excited): Mom, you're a genius!
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC sneaky
+SCENE bluffington_school
+PLACE doug center right nervous
+PLACE patti midleft right happy
+PLACE beebe midright left smug
+PATTI (happy): A surprise party for Skeeter? Count me in, Doug! I'll make decorations.
+BEEBE (smug): I'll bring the party favors. Imported. From France.
+DOUG (happy): Great! But remember, we can't let Skeeter find out. He has super hearing.
+PATTI (nervous): Doug. He's standing right behind you.
+DOUG (scared): What?!
+NARRATOR: It was not Skeeter. It was a coat rack with Skeeter's hat on it. Doug nearly fainted anyway.
+
+# ------------------------------------------------------------ THE VALENTINE HOUSE
+MUSIC jazz 2
+SCENE valentine_house
+PLACE skeeter center right excited
+PLACE doug midleft right nervous
+SKEETER (excited): Honk honk! Doug! My birthday's Saturday! What are we doing?
+DOUG (nervous): Doing? Nothing! Nothing at all! It's a boring Saturday! Very boring!
+SKEETER (surprised): Boring? On my birthday?
+DOUG (nervous): We're going to... sit. In your room. Quietly. For several hours.
+SKEETER (smug): Doug. Are you throwing me a surprise party?
+DOUG (scared): NO! What? Pfft! No!
+
+# ------------------------------------------------------------ THE FUNNIE HOUSE
+MUSIC sad
+SCENE funnie_house
+PLACE doug center right sad
+PLACE judy midleft right smug
+DOUG (sad): Judy, he knows. He totally knows. I'm the worst liar in Bluffington.
+JUDY (smug): Douglas, you need misdirection. Like a magician. Make him think he's figured it out. Then surprise him with something else.
+DOUG (surprised): Something else?
+JUDY (excited): Let him think the party is at Swirly's. Then have it in his own house. While he's out.
+DOUG (excited): Judy! That's brilliant!
+JUDY (happy): I know. I'm an artist.
+
+# ------------------------------------------------------------ THE VALENTINE HOUSE
+MUSIC sneaky 2
+SCENE valentine_house
+PLACE skeeter center right smug
+PLACE doug midleft right nervous
+DOUG (nervous): Okay, Skeeter. You got me. There's a party. At Swirly's. Six o'clock. Act surprised.
+SKEETER (excited): I knew it! Honk! Swirly's! I love Swirly's!
+DOUG (smug): Just don't tell anybody I told you.
+SKEETER (happy): My lips are sealed, man. Honk.
+NARRATOR: Skeeter had never kept a secret in his life. Doug was counting on it.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC jazz
+SCENE swirlys
+CARD Saturday, six o'clock...
+PLACE skeeter center right excited
+PLACE porkchop midleft right happy
+SKEETER (excited): Surprise! I mean. I'm here! Where's everybody?
+PORKCHOP (smug): Arf.
+SKEETER (surprised): Porkchop? Just you? Where's the party?
+PORKCHOP (happy): Arf arf!
+NARRATOR: Porkchop handed Skeeter a note. It said: "Go home. Bring Porkchop. Signed, a Friend."
+SKEETER (nervous): ...Honk?
+
+# ------------------------------------------------------------ THE VALENTINE HOUSE
+MUSIC tense
+SCENE valentine_house
+PLACE doug center right nervous
+PLACE patti midleft right excited
+PLACE beebe midright left nervous
+PLACE theda_funnie farleft right happy
+DOUG (nervous): Okay, everybody! He's coming! Hide!
+PATTI (excited): The streamers are up! The cake is here!
+BEEBE (nervous): Where do I hide? This house is so small. My closet is bigger than this room.
+THEDA_FUNNIE (happy): Under the model airplanes, Beebe. Quickly, now.
+DOUG (excited): Lights off! Shhh!
+
+# ------------------------------------------------------------ THE VALENTINE HOUSE
+MUSIC happy
+SCENE valentine_house
+PLACE skeeter center right surprised
+PLACE doug midleft right excited
+PLACE patti midright left excited
+ENTER porkchop left farleft happy
+DOUG (excited): SURPRISE!
+PATTI (excited): Happy birthday, Skeeter!
+SKEETER (surprised): Honk! HONK! HOOONK!
+NARRATOR: Skeeter honked so loudly that two model airplanes fell from the ceiling. One landed on Beebe.
+SKEETER (excited): You got me! You actually got me! Nobody's ever surprised me before!
+DOUG (smug): Happy birthday, buddy.
+
+# ------------------------------------------------------------ THE VALENTINE HOUSE
+MUSIC jazz 2
+SCENE valentine_house
+PLACE skeeter center right happy
+PLACE beebe midleft right smug
+BEEBE (smug): Happy birthday, Skeeter. Here's your party favor. A tiny Eiffel Tower. Real gold.
+SKEETER (surprised): Real gold? For me?
+BEEBE (shy): Well. Gold-plated. My father says "real gold" is for special occasions.
+SKEETER (happy): This is a special occasion! Honk!
+BEEBE (happy): ...I suppose it is.
+
+# ------------------------------------------------------------ THE VALENTINE HOUSE
+MUSIC romantic
+SCENE valentine_house
+PLACE skeeter center right shy
+PLACE doug midleft right happy
+SKEETER (shy): Doug. How did you do it? I was so sure the party was at Swirly's.
+DOUG (smug): Because I told you it was. I knew you'd believe me.
+SKEETER (surprised): You lied to me?
+DOUG (nervous): A little. For a good reason. Is that okay?
+SKEETER (happy): Dude. That's the best lie anybody's ever told me.
+SKEETER (excited): Now let's eat the cake! I couldn't even smell it!
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+CARD That night...
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. Skeeter was surprised. For the first time ever. He honked for an hour.
+DOUG (shy): And Patti said I'm a good friend. A really good friend.
+PORKCHOP (smug): Arf.
+DOUG (excited): Next year, I'm surprising him on the moon.
+PORKCHOP (surprised): Arf?
+END

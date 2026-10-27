@@ -1,0 +1,171 @@
+@title The Garage Band
+@series Doug
+@season 2
+@icon journal
+@number 8
+@description Doug, Skeeter and Patti start a band in the Funnie garage to play at the school dance. They have one guitar, one drum and one song. Doug's dad has a lot of opinions about rock and roll.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC happy
+SCENE honker_burger cut
+TITLE
+PLACE doug center right excited
+PLACE skeeter midleft right excited
+PLACE patti midright left happy
+DOUG (excited): A band! We'll be just like the Beets!
+SKEETER (excited): Honk! I'll play the drums! I've been practicing on my lunchbox!
+PATTI (happy): I can play guitar. A little. Three chords.
+DOUG (nervous): And I'll... sing?
+SKEETER (surprised): Can you sing, man?
+DOUG (shy): I sing in the shower. Porkchop says it's okay.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC jazz
+SCENE funnie_garage
+PLACE phil_funnie center left excited
+PLACE doug midright left nervous
+PHIL_FUNNIE (excited): A band? In my garage? Doug, that's fantastic!
+DOUG (surprised): Really? You don't mind?
+PHIL_FUNNIE (smug): Mind? I was in a band! The Funnie Bones! 1971!
+DOUG (surprised): You were in a band?
+PHIL_FUNNIE (happy): I played the tambourine. And sometimes the cowbell. We had one hit. Well. One song.
+DOUG (happy): Dad, that's so cool.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC action
+SCENE funnie_garage
+CARD First practice...
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
+PLACE patti midright left nervous
+SFX thud
+SFX thud
+SKEETER (excited): One, two, three, four! Honk!
+NARRATOR: Skeeter drummed. Patti played her three chords. Doug sang. It was loud. It was messy. It sounded like a washing machine full of forks.
+PATTI (nervous): Was that... good?
+DOUG (sad): I think that was bad.
+SKEETER (happy): I think it was great! I honked in the middle!
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC sneaky
+SCENE funnie_kitchen
+PLACE theda_funnie center left nervous
+PLACE judy midright left angry
+JUDY (angry): Mother. There is a noise coming from the garage. It sounds like a goose in a blender.
+THEDA_FUNNIE (nervous): That's Doug's band, sweetie.
+JUDY (smug): It's an affront to music. And to geese.
+THEDA_FUNNIE (happy): They're just learning, Judy. Remember your first mime show?
+JUDY (sad): ...I was stuck in an invisible box for three hours.
+THEDA_FUNNIE (smug): Exactly.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC jazz 2
+SCENE funnie_garage
+PLACE phil_funnie center left smug
+PLACE doug midright left sad
+PHIL_FUNNIE (smug): Doug, can I give you a little advice? From one rocker to another?
+DOUG (sad): Sure, Dad.
+PHIL_FUNNIE (happy): Slow down. You're all playing as fast as you can. Rock and roll isn't a race.
+DOUG (surprised): It's not?
+PHIL_FUNNIE (smug): It's a heartbeat. Bum. Bum. Bum. Everybody together.
+DOUG (excited): A heartbeat!
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC happy 2
+SCENE funnie_garage
+PLACE doug center right excited
+PLACE skeeter midleft right happy
+PLACE patti midright left happy
+PLACE phil_funnie farleft right excited
+SFX thud
+NARRATOR: They tried again. Slower. Skeeter played the heartbeat. Patti played her chords along with it. Doug sang the song he'd written. It was about a dog.
+PATTI (surprised): Doug, that actually sounded good!
+SKEETER (excited): Honk! We're a real band!
+PHIL_FUNNIE (excited): That's my boy! Now let me get my tambourine!
+
+# ------------------------------------------------------------ BLUFFINGTON MALL
+MUSIC jazz
+SCENE bluffington_mall
+CARD Shopping for strings...
+PLACE patti center left happy
+PLACE doug midright left nervous
+PATTI (happy): I need new guitar strings. The old ones are older than me.
+DOUG (nervous): Patti, what if people laugh at us at the dance?
+PATTI (smug): Then we laugh too. It's a dance, Doug. Not a test.
+DOUG (surprised): I never thought of it like that.
+PATTI (happy): And your dog song is really good. I hum it while I ride Brownie.
+DOUG (shy): ...You hum my song?
+PATTI (shy): Don't tell Skeeter.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC sneaky 2
+SCENE bluffington_school
+PLACE roger center left smug
+PLACE ned_cauphee midright left neutral
+ROGER (smug): Funnie's got a band? Ha! They're gonna be terrible at the dance.
+NED_CAUPHEE (neutral): I heard them practicing. They're actually kind of good, Roger.
+ROGER (surprised): Good? Funnie?
+NED_CAUPHEE (smug): The song about the dog made me cry a little.
+ROGER (angry): Ned!
+NED_CAUPHEE (sad): It's a very sad dog song, Roger.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC sad
+SCENE doug_room
+CARD The night before the dance...
+PLACE doug center right nervous
+PLACE porkchop midleft right neutral
+DOUG (nervous): Dear Journal. Tomorrow we play in front of the whole school. What if I forget the words?
+PORKCHOP (smug): Arf.
+DOUG (sad): What if my voice cracks? What if Patti's string breaks? What if Skeeter honks in the wrong place?
+PORKCHOP (happy): Arf arf.
+DOUG (surprised): You're right. The song's about you. If I forget, I'll just look at you.
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC tense
+SCENE bluffington_gym
+CARD The dance...
+PLACE mr_bone center left nervous
+PLACE doug midright left nervous
+PLACE skeeter midleft right excited
+PLACE patti right left smug
+MR_BONE (nervous): And now, our student band. Please be... polite.
+DOUG (nervous): Hi, everybody. We're... uh... we don't have a name yet.
+SKEETER (excited): The Honkers!
+PATTI (smug): We're not called the Honkers, Skeeter.
+DOUG (happy): We're the Funnie Bones. Junior. This song is called "Porkchop."
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC romantic
+SCENE bluffington_gym
+PLACE doug center right happy
+PLACE patti midleft right happy
+PLACE skeeter midright left happy
+SFX thud
+NARRATOR: They played slow. Like a heartbeat. Doug sang about his best friend: a dog who reads the newspaper, makes grilled cheese and is always there when you need him.
+PATTI (happy): Doug, look. Everybody's dancing.
+SKEETER (excited): Even Roger! Honk!
+NARRATOR: Roger was not dancing. Roger was swaying, very slightly. With his eyes closed. Thinking about his cat.
+
+# ------------------------------------------------------------ BLUFFINGTON GYM
+MUSIC happy
+SCENE bluffington_gym
+PLACE phil_funnie center left excited
+PLACE doug midright left happy
+PHIL_FUNNIE (excited): Doug! That was beautiful! Better than the Funnie Bones ever were!
+DOUG (shy): You think so, Dad?
+PHIL_FUNNIE (happy): I know so. Can I join for the encore? I brought my tambourine.
+DOUG (excited): Dad, the Funnie Bones are back together!
+PHIL_FUNNIE (smug): Cowbell, too.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+CARD That night...
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. We played. Nobody threw anything. People danced.
+DOUG (shy): And Patti says we should write another song. About her horse.
+PORKCHOP (sad): Arf?
+DOUG (smug): Don't worry, buddy. You'll always be our biggest hit.
+END

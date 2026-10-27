@@ -1,0 +1,153 @@
+@title Dinner at Patti's
+@series Doug
+@season 2
+@icon journal
+@number 2
+@description Patti invites Doug to dinner at her house to help with a school project. Doug practices table manners for a week. Then he spills the gravy. Then things get worse.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC happy
+SCENE bluffington_school cut
+TITLE
+PLACE doug center right nervous
+PLACE patti midleft right happy
+PATTI (happy): Doug, want to work on the science project at my house on Friday? And stay for dinner?
+DOUG (surprised): Dinner? At your house? With you?
+PATTI (smug): And my dad. He makes the best meatloaf in Bluffington.
+DOUG (shy): I'd love to. I mean. Sure. That'd be okay. Fine. Great.
+PATTI (happy): Six o'clock!
+DOUG (nervous): Dear Journal. I have five days to learn how to eat like a normal person.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC jazz
+SCENE funnie_kitchen
+PLACE theda_funnie center left happy
+PLACE doug midright left nervous
+THEDA_FUNNIE (happy): Table manners? Of course, honey. Napkin on your lap. Elbows off the table. Chew with your mouth closed.
+DOUG (nervous): What if I sneeze?
+THEDA_FUNNIE (smug): Turn away and say "excuse me."
+DOUG (scared): What if I sneeze into the meatloaf?
+THEDA_FUNNIE (happy): Doug, honey. You're not going to sneeze into the meatloaf.
+DOUG (sad): You don't know that, Mom.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC sneaky
+SCENE funnie_garage
+PLACE phil_funnie center left happy
+PLACE doug midright left nervous
+PHIL_FUNNIE (happy): Dinner at a girl's house, eh, Doug? That's a big deal.
+DOUG (nervous): Dad, what do I talk about with her dad?
+PHIL_FUNNIE (smug): Sports. Every dad likes sports. Or the weather. Or lawnmowers.
+DOUG (surprised): Lawnmowers?
+PHIL_FUNNIE (excited): Doug, there's nothing two dads love more than talking about lawnmowers. Trust me.
+DOUG (nervous): But I'm not a dad.
+PHIL_FUNNIE (happy): You'll be a dad someday. Might as well practice.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC jazz 2
+SCENE doug_room
+CARD Practice...
+PLACE doug center right nervous
+PLACE porkchop midleft right smug
+DOUG (nervous): "Good evening, Mr. Mayonnaise. Lovely weather. How's your lawnmower?"
+PORKCHOP (smug): Arf.
+DOUG (sad): You're right. It sounds weird.
+DOUG (nervous): "Pass the potatoes, please." "Thank you, these are delicious." "Excuse me, I've sneezed in the meatloaf."
+PORKCHOP (scared): Arf!
+DOUG (sad): I KNOW, Porkchop.
+
+# ------------------------------------------------------------ PATTI'S HOUSE
+MUSIC romantic
+SCENE patti_house
+CARD Friday, six o'clock...
+PLACE doug center right nervous
+PLACE patti midleft right happy
+PATTI (happy): Doug! Come on in! Dad's just finishing the meatloaf.
+DOUG (nervous): Good evening! Lovely weather! How's your lawnmower?
+PATTI (surprised): ...My lawnmower?
+DOUG (scared): I mean. Hi, Patti. I brought you a flower. For the science project.
+PATTI (smug): It's a flower for a science project about rocks?
+DOUG (shy): ...It's a rock-colored flower.
+
+# ------------------------------------------------------------ PATTI'S HOUSE
+MUSIC jazz
+SCENE patti_house
+PLACE doug center right nervous
+PLACE patti midleft right happy
+NARRATOR: Dinner started well. Doug put his napkin on his lap. He kept his elbows off the table. He said "please" and "thank you." Twice each.
+PATTI (happy): Doug, you're so polite tonight.
+DOUG (nervous): I'm always polite. I'm a very polite guy.
+NARRATOR: Then he reached for the gravy.
+SFX splat
+DOUG (scared): Oh no.
+
+# ------------------------------------------------------------ PATTI'S HOUSE
+MUSIC tense
+SCENE patti_house
+PLACE doug center right scared
+PLACE patti midleft right surprised
+NARRATOR: The gravy went everywhere. On the table. On the meatloaf. On the flower. On Doug.
+DOUG (scared): I'm so sorry! I'll clean it up! I'll pay for it! I'll pay for the table!
+PATTI (surprised): Doug, it's just gravy.
+DOUG (sad): Then I sneezed. Into the meatloaf.
+PATTI (nervous): ...That one was a little worse.
+DOUG (sad): Dear Journal. My life is over.
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE doug center right angry
+NARRATOR: In his mind, Doug became Quailman, facing the evil Gravy Monster.
+DOUG (angry): Back, foul sauce! You shall not ruin this dinner!
+DOUG (sad): Too late. You already ruined it.
+DOUG (smug): Quailman never gives up! Even when he's covered in gravy! Especially then!
+DOUG (excited): Quailman will turn this dinner around!
+
+# ------------------------------------------------------------ PATTI'S HOUSE
+MUSIC sneaky 2
+SCENE patti_house
+PLACE doug center right nervous
+PLACE patti midleft right happy
+PATTI (happy): Doug, it's okay. Really. When Dad first had dinner with my mom's parents, he spilled a whole pot of soup.
+DOUG (surprised): He did?
+PATTI (smug): Into Grandpa's lap. And he married my mom anyway.
+DOUG (shy): That's... actually really nice to hear.
+PATTI (happy): Want to start the science project? We can use the gravy to show how lava flows.
+DOUG (excited): Patti, that's a great idea!
+
+# ------------------------------------------------------------ PATTI'S HOUSE
+MUSIC happy
+SCENE patti_house
+PLACE patti center left excited
+PLACE doug midright left excited
+NARRATOR: They made a volcano out of mashed potatoes. They poured gravy down the sides. They measured how fast it flowed. Four inches per second.
+PATTI (excited): It's the best science project ever!
+DOUG (excited): "The Gravy Volcano: A Study in Delicious Lava."
+PATTI (happy): Mr. Bone is going to love it.
+DOUG (nervous): Mr. Bone doesn't love anything.
+PATTI (smug): He'll love this.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC jazz 2
+SCENE bluffington_school
+CARD The science fair...
+PLACE mr_bone center left surprised
+PLACE doug midright left nervous
+PLACE patti midleft right happy
+MR_BONE (surprised): Mr. Funnie. Miss Mayonnaise. A volcano made of mashed potatoes and gravy?
+DOUG (nervous): It shows how lava flows, Mr. Bone. At four inches per second.
+MR_BONE (smug): It is the most ridiculous project I have ever seen.
+PATTI (nervous): Oh.
+MR_BONE (happy): A-plus. And may I have a spoon?
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic
+SCENE doug_room
+CARD That night...
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. We got an A-plus. Mr. Bone ate half the volcano.
+DOUG (shy): And Patti says I can come to dinner again next week. Her dad wants to hear about my lawnmower.
+PORKCHOP (smug): Arf.
+DOUG (nervous): I don't have a lawnmower. I'd better learn about lawnmowers.
+END

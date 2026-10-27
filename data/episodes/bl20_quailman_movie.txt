@@ -1,0 +1,177 @@
+@title Quailman: The Movie
+@series Doug
+@season 2
+@icon journal
+@number 10
+@description The Bluffington Cinema is holding a student film festival, and Doug decides to make a Quailman movie. Judy directs. Skeeter is the sidekick. Roger wants to be the villain. Everyone wants to be the star.
+
+# ------------------------------------------------------------ BLUFFINGTON CINEMA
+MUSIC happy
+SCENE bluffington_cinema cut
+TITLE
+PLACE doug center right excited
+PLACE skeeter midleft right excited
+DOUG (excited): A student film festival! At the Bluffington Cinema! On the big screen!
+SKEETER (excited): Honk! We should make a movie, man! A superhero movie!
+DOUG (smug): I know exactly what it's about. Quailman.
+SKEETER (excited): Can I be Silver Skeeter? His sidekick?
+DOUG (happy): You were born to be Silver Skeeter.
+SKEETER (excited): HONK!
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC jazz
+SCENE funnie_kitchen
+PLACE judy center left smug
+PLACE doug midright left nervous
+JUDY (smug): You want ME to direct your little superhero film?
+DOUG (nervous): You're the best director in Bluffington, Judy.
+JUDY (happy): That's true. Very true. Fine. But it will be serious. Artistic. Deep.
+DOUG (surprised): It's about a guy with underwear on his head.
+JUDY (smug): Deeply artistic underwear, Douglas.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC sneaky
+SCENE funnie_garage
+CARD Casting...
+PLACE judy center left smug
+PLACE roger midright left excited
+ROGER (excited): I want to be the villain. Doctor Klotz. The most evil guy in the universe.
+JUDY (smug): Can you be menacing?
+ROGER (angry): Grrr. I'm gonna take your lunch money.
+JUDY (happy): Perfect. You're hired.
+ROGER (smug): Do I get a cape?
+JUDY (nervous): We have a bath towel.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC jazz 2
+SCENE funnie_garage
+PLACE phil_funnie center left excited
+PLACE doug midright left excited
+PHIL_FUNNIE (excited): Doug! I hear you're making a movie! I've got my old video camera! From 1985!
+DOUG (excited): Dad, that's perfect!
+PHIL_FUNNIE (smug): It's a little heavy. And it only records in black and white. And sometimes it records sideways.
+DOUG (nervous): Sideways?
+PHIL_FUNNIE (happy): That's what makes it art, son.
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC action
+SCENE bluffington_park
+CARD Filming, day one...
+PLACE doug center right excited
+PLACE roger midleft right angry
+PLACE judy midright left smug
+JUDY (smug): Scene one. Quailman faces Doctor Klotz. Action!
+DOUG (excited): Stop right there, Doctor Klotz! Quailman is here!
+ROGER (angry): Ha ha ha! You'll never stop me, Quailman! I'll steal every quail in Bluffington!
+JUDY (angry): CUT! Roger, why would he steal quails?
+ROGER (smug): Because he's evil. And quails are delicious.
+JUDY (sad): ...Fine. Keep it.
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC jazz
+SCENE bluffington_park
+PLACE skeeter center right excited
+PLACE judy midleft right nervous
+SKEETER (excited): Silver Skeeter to the rescue! Honk honk!
+JUDY (nervous): Skeeter. Silver Skeeter doesn't honk.
+SKEETER (surprised): He doesn't?
+JUDY (smug): He's silent. Mysterious. Brooding.
+SKEETER (sad): ...Can he honk once? Very mysteriously?
+JUDY (sad): One mysterious honk.
+
+# ------------------------------------------------------------ THE SLEECH LAB
+MUSIC sneaky 2
+SCENE sleech_lab
+PLACE al_sleech center left excited
+PLACE moo_sleech midleft right excited
+ENTER doug right midright excited
+AL_SLEECH (excited): Special effects? We can do...
+MOO_SLEECH (excited): ...explosions! Smoke! Laser beams!
+DOUG (excited): Can you make Quailman fly?
+AL_SLEECH (smug): With a fan, a rope and a lot of...
+MOO_SLEECH (nervous): ...luck. Mostly luck.
+SFX zap
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC action 2
+SCENE bluffington_park
+PLACE doug center right scared
+PLACE judy midleft right excited
+SFX whoosh
+NARRATOR: The fan blew. The rope pulled. Quailman flew. Six feet up. Then four feet sideways. Then into a bush.
+DOUG (scared): Did we get it?!
+JUDY (excited): We got it! Sideways! In black and white! It's a masterpiece!
+DOUG (surprised): It is?
+JUDY (happy): Douglas, the bush shot is the best thing I've ever filmed.
+
+# ------------------------------------------------------------ FUNNIE GARAGE
+MUSIC sneaky
+SCENE funnie_garage
+CARD Editing...
+PLACE judy center left nervous
+PLACE phil_funnie midright left happy
+JUDY (nervous): Father. Every shot is sideways. Every single one.
+PHIL_FUNNIE (happy): Just tilt your head, Judy. Like this.
+JUDY (angry): I can't ask the whole audience to tilt their heads!
+PHIL_FUNNIE (smug): Sure you can. Call it a "new style."
+JUDY (surprised): ...A new style. Avant-garde. Sideways cinema.
+PHIL_FUNNIE (happy): That's my girl.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC sad
+SCENE bluffington_school
+PLACE doug center right sad
+PLACE patti midleft right happy
+DOUG (sad): Patti, the movie's a mess. The camera's sideways. Roger steals quails. Skeeter honks mysteriously.
+PATTI (happy): Doug, I watched some of it. It's really funny.
+DOUG (surprised): Funny? It's supposed to be serious.
+PATTI (smug): Some of the best movies are funny by accident.
+DOUG (shy): ...Will you come to the festival?
+PATTI (happy): Front row.
+
+# ------------------------------------------------------------ BLUFFINGTON CINEMA
+MUSIC tense
+SCENE bluffington_cinema
+CARD The film festival...
+PLACE mr_bone center left neutral
+PLACE doug midright left nervous
+MR_BONE (neutral): And now, the final film of the festival. "Quailman: The Movie." Directed by Judy Funnie.
+DOUG (nervous): Dear Journal. Everybody's here. The whole school. Mom. Dad. Porkchop.
+NARRATOR: The lights went down. The screen flickered. A sideways, black-and-white Quailman appeared.
+DOUG (scared): Here goes nothing.
+
+# ------------------------------------------------------------ BLUFFINGTON CINEMA
+MUSIC happy
+SCENE bluffington_cinema
+PLACE patti center left excited
+PLACE skeeter midright left excited
+PLACE mr_bone midleft right surprised
+NARRATOR: The audience laughed when Quailman flew into the bush. They cheered when Silver Skeeter did his one mysterious honk. They booed Doctor Klotz so loudly that Roger stood up and bowed.
+PATTI (excited): They love it!
+SKEETER (excited): Honk! They love my honk!
+MR_BONE (surprised): I... laughed. I haven't laughed since 1983.
+
+# ------------------------------------------------------------ BLUFFINGTON CINEMA
+MUSIC romantic
+SCENE bluffington_cinema
+PLACE mr_bone center left happy
+PLACE judy midright left surprised
+PLACE doug midleft right surprised
+MR_BONE (happy): The winner of the Bluffington Student Film Festival, for Best Comedy, is "Quailman: The Movie."
+JUDY (surprised): Best... comedy?
+DOUG (surprised): We won?
+JUDY (sad): I made a serious art film and it won best comedy.
+DOUG (happy): Judy. People laughed. They had fun. Isn't that art too?
+JUDY (shy): ...I suppose it is, Douglas. I suppose it is.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+CARD That night...
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. Quailman is a movie star. A sideways, black-and-white movie star.
+DOUG (shy): And Patti sat in the front row. She laughed the whole time. In a good way.
+PORKCHOP (smug): Arf.
+DOUG (excited): Judy's already writing the sequel. "Quailman Two: The Bush Strikes Back."
+END

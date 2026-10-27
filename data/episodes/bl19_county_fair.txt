@@ -1,0 +1,167 @@
+@title The Bluffington Fair
+@series Doug
+@season 2
+@icon journal
+@number 9
+@description The Bluffington Fair is in town. Doug's mom enters the pie contest. Mr. Dink enters his giant zucchini. Doug wants to win a giant stuffed quail for Patti at the ring toss, and has twelve tickets to do it.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC happy
+SCENE funnie_kitchen cut
+TITLE
+PLACE theda_funnie center left excited
+PLACE doug midright left happy
+THEDA_FUNNIE (excited): The fair is this weekend! And I'm entering my famous apple-cranberry pie!
+DOUG (happy): Mom, your pie is the best in Bluffington.
+THEDA_FUNNIE (nervous): Mrs. Dink has won the pie contest eleven years in a row.
+DOUG (surprised): Eleven years?
+THEDA_FUNNIE (smug): This year, it's twelve. For me.
+DOUG (smug): Go, Mom!
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC jazz
+SCENE bluffington_fair
+PLACE doug center right excited
+PLACE skeeter midleft right excited
+PLACE porkchop midright left happy
+SKEETER (excited): Honk! The Ferris wheel! The cotton candy! The pig race!
+DOUG (excited): And look. The ring toss. The grand prize is a giant stuffed quail.
+SKEETER (smug): For Patti, right?
+DOUG (shy): She loves quails. I think. She said they were "cute" once.
+PORKCHOP (smug): Arf.
+DOUG (nervous): I have twelve tickets. Each ring costs one. I need three in a row.
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC sneaky
+SCENE dink_yard
+PLACE mr_dink center left excited
+ENTER doug right midright surprised
+MR_DINK (excited): Doug! Look at my zucchini! It's the biggest one in the county!
+DOUG (surprised): It's as big as a canoe, Mr. Dink!
+MR_DINK (smug): I grew it with my new Super Fertilizer. Very expensive.
+DOUG (nervous): Is it... safe to eat?
+MR_DINK (nervous): I don't know. It ate my garden hose yesterday.
+DOUG (scared): Zucchinis don't eat things, Mr. Dink.
+MR_DINK (smug): This one does.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC tense
+SCENE bluffington_fair
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
+SFX pop
+NARRATOR: Doug threw his first ring. It bounced off. His second ring missed the bottle by a mile. His third ring hit Skeeter.
+SKEETER (excited): Honk! I'm fine!
+DOUG (sad): Nine tickets left.
+SFX pop
+NARRATOR: Ring four missed. Ring five missed. Ring six landed on the carnival worker's hat.
+DOUG (sad): Six tickets left.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC sneaky
+SCENE bluffington_fair
+PLACE roger center left smug
+PLACE doug midright left sad
+ROGER (smug): Having trouble, Funnie? I won three goldfish at the ring toss.
+DOUG (surprised): Three? How?
+ROGER (smug): You gotta flick the wrist. Like this. Easy.
+DOUG (nervous): Can you show me again?
+ROGER (smug): No. But here. You can have a goldfish. I got too many.
+DOUG (surprised): ...Thanks, Roger.
+ROGER (angry): Don't tell anybody I was nice!
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC jazz 2
+SCENE bluffington_fair
+PLACE theda_funnie center left nervous
+PLACE judy midright left smug
+THEDA_FUNNIE (nervous): The judges are tasting the pies now. I can't look.
+JUDY (smug): I'll describe it to you, Mother. Mrs. Dink's pie has a lattice crust. Very traditional. Very boring.
+THEDA_FUNNIE (nervous): And mine?
+JUDY (happy): Yours has a little apple carved on top. With a tiny leaf. It's art, Mother.
+THEDA_FUNNIE (shy): Oh, Judy. Thank you, sweetie.
+JUDY (smug): I don't give compliments lightly.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC sneaky 2
+SCENE bluffington_fair
+PLACE doug center right sad
+PLACE patti midleft right happy
+PATTI (happy): Doug! There you are! Want to ride the Ferris wheel?
+DOUG (sad): I was trying to win you something. At the ring toss. But I'm terrible at it.
+PATTI (surprised): Win me something? What?
+DOUG (shy): The giant quail. You said quails were cute.
+PATTI (happy): Doug, that's so sweet. But I don't need a giant quail.
+DOUG (sad): Oh.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC action
+SCENE bluffington_fair
+PLACE mr_dink center left scared
+PLACE doug midright left surprised
+SFX thud
+SHAKE 0.8
+MR_DINK (scared): My zucchini! It's rolling! It rolled off the judges' table!
+DOUG (surprised): It's heading for the pie tent!
+NARRATOR: A giant zucchini, the size of a canoe, was rolling straight downhill. Straight at the pie table. Straight at Mom's pie.
+MR_DINK (scared): Somebody stop it! It's very heavy! And very expensive!
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action 2
+SCENE quailman_lair
+PLACE doug center right angry
+NARRATOR: Doug became Quailman. The giant zucchini became the Green Menace.
+DOUG (angry): Halt, vegetable of evil! You shall not crush the pies of the innocent!
+DOUG (excited): Quailman's ring toss of justice!
+DOUG (smug): This time, I will not miss.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC action
+SCENE bluffington_fair
+PLACE doug center right excited
+PLACE patti midleft right surprised
+SFX pop
+NARRATOR: Doug grabbed his last six rings. He threw them on the ground in front of the rolling zucchini. The zucchini rolled over the rings. Bump. Bump. Bump. It wobbled. It slowed down.
+SFX thud
+NARRATOR: It stopped one inch from the pie table. One inch from Mom's pie.
+PATTI (excited): Doug! You stopped it!
+DOUG (surprised): I did? With ring toss rings?
+PATTI (happy): You finally hit something!
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC jazz
+SCENE bluffington_fair
+PLACE judy center left smug
+PLACE skeeter midright left excited
+PLACE porkchop midleft right happy
+SKEETER (excited): Honk! Did you see Doug? He stopped a zucchini with rings!
+JUDY (smug): I saw. It was the most dramatic thing to happen in Bluffington since my mime show.
+SKEETER (surprised): Your mime show had drama?
+JUDY (angry): My mime show had nothing BUT drama, Skeeter.
+PORKCHOP (happy): Arf!
+JUDY (happy): Even the dog agrees.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC happy
+SCENE bluffington_fair
+PLACE theda_funnie center left excited
+PLACE doug midright left happy
+PLACE mr_dink midleft right happy
+THEDA_FUNNIE (excited): Doug! The judges just announced it! First prize! My pie won first prize!
+DOUG (excited): Mom! You did it!
+MR_DINK (happy): And my zucchini won "Most Dangerous Vegetable." It's a brand new category.
+THEDA_FUNNIE (happy): The judges said they've never seen anyone save a pie with a ring toss before.
+DOUG (shy): It was kind of an accident.
+
+# ------------------------------------------------------------ BLUFFINGTON FAIR
+MUSIC romantic
+SCENE bluffington_fair
+CARD Sunset...
+PLACE doug center right happy
+PLACE patti midleft right happy
+NARRATOR: Doug and Patti rode the Ferris wheel. From the top, they could see the whole fair. And the giant zucchini, which was now being guarded by three security guards.
+PATTI (happy): Doug, I didn't need a giant quail. This is better.
+DOUG (shy): The Ferris wheel?
+PATTI (smug): The company.
+DOUG (shy): Dear Journal. Best fair ever.
+END

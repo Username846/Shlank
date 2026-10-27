@@ -347,6 +347,56 @@
 		"show": "Doug",
 		"description": "Where Doug's superhero daydreams take him."
 	},
+	"valentine_house": {
+		"name": "The Valentine House",
+		"description": "Skeeter's house. Full of model planes, comic books and honking.",
+		"show": "Doug"
+	},
+	"patti_house": {
+		"name": "Patti's House",
+		"description": "A cozy house with a big garden and a basketball hoop over the garage.",
+		"show": "Doug"
+	},
+	"roger_trailer": {
+		"name": "Roger's Trailer",
+		"description": "A trailer on the edge of town, with a lawn flamingo and a very grumpy cat.",
+		"show": "Doug"
+	},
+	"sleech_lab": {
+		"name": "The Sleech Lab",
+		"description": "The Sleech twins' basement laboratory. Beakers, gadgets and a big red button.",
+		"show": "Doug"
+	},
+	"bluffington_mall": {
+		"name": "Bluffington Mall",
+		"description": "Two floors of stores, a fountain and an escalator Doug is slightly afraid of.",
+		"show": "Doug"
+	},
+	"bluffington_gym": {
+		"name": "Bluffington Gym",
+		"description": "Where dodgeball dreams are made and destroyed.",
+		"show": "Doug"
+	},
+	"bluff_tower": {
+		"name": "Bluff Tower",
+		"description": "The tallest building in Bluffington. Mr. Bluff's office is on the very top floor.",
+		"show": "Doug"
+	},
+	"funnie_garage": {
+		"name": "Funnie Garage",
+		"description": "Dad's workbench, the family car and a whole lot of stuff nobody has used in years.",
+		"show": "Doug"
+	},
+	"bluffington_fair": {
+		"name": "Bluffington Fair",
+		"description": "The county fair: a pie tent, a prize pig and a Ferris wheel.",
+		"show": "Doug"
+	},
+	"bluffington_cinema": {
+		"name": "Bluffington Cinema",
+		"description": "An old movie theater with velvet seats and the best popcorn in town.",
+		"show": "Doug"
+	},
 	"pickles_living_room": {
 		"name": "Pickles Living Room",
 		"show": "Rugrats",
