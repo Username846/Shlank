@@ -1,0 +1,166 @@
+@title The Lost Etecoons
+@series Metroid
+@season 1
+@icon visor
+@number 7
+@description A family of etecoons has gotten lost in the deep waters of Maridia. Samus goes to find them. The Dachora comes too. The Dachora cannot swim, but it refuses to stay behind.
+
+# ------------------------------------------------------------ BRINSTAR
+MUSIC sad
+SCENE brinstar cut
+TITLE
+PLACE etecoon center left sad
+PLACE dachora midright left nervous
+ETECOON (sad): Eee... eee...
+NARRATOR: Every morning, the etecoons played in the vines of Brinstar. Today, only one came back. The other three were missing.
+DACHORA (nervous): Kweh?
+ETECOON (sad): Eee eee eee.
+NARRATOR: They had chased a glowing bug into a tunnel. The tunnel led down. Down to Maridia. Where the water is deep and the fish are hungry.
+DACHORA (angry): Kweh!
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC tense
+SCENE landing_site
+PLACE samus center right neutral
+ENTER etecoon left midleft scared 500
+ENTER dachora left left nervous 500
+ETECOON (scared): Eee! Eee eee!
+SAMUS (surprised): ...?
+DACHORA (nervous): Kweh kweh!
+NARRATOR: Samus did not speak etecoon. But she understood "lost." Everyone understands "lost."
+SAMUS (neutral): ...
+NARRATOR: She checked her map. She checked her missiles. She checked her helmet seal. Then she nodded.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC jazz
+SCENE ceres_station
+PLACE adam center left nervous
+PLACE samus midright left neutral
+ADAM (nervous): Maridia? Samus, the water pressure down there could crush a starship.
+SAMUS (neutral): ...
+ADAM (smug): And you're going anyway. Of course you are.
+ADAM (nervous): Take the Gravity Suit. And please, don't let the bird follow you.
+SAMUS (nervous): ...
+ADAM (sad): It's already in the elevator, isn't it.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC romantic 2
+SCENE chozo_ruins
+PLACE chozo_elder center left smug
+PLACE dachora midright left nervous
+CHOZO_ELDER (smug): Ah. The Dachora. You want to go with Samus to Maridia.
+DACHORA (nervous): Kweh.
+CHOZO_ELDER (happy): There is an old Chozo legend. That a Dachora, if it runs fast enough, can cross anything. Even water.
+DACHORA (surprised): Kweh?
+CHOZO_ELDER (smug): It is only a legend. No Dachora has ever been brave enough to try.
+DACHORA (smug): ...Kweh.
+
+# ------------------------------------------------------------ ELEVATOR
+MUSIC tense 2
+SCENE elevator_shaft
+PLACE samus center right neutral
+PLACE dachora midleft right excited
+PLACE etecoon left right nervous
+SFX hiss
+NARRATOR: The elevator went down. And down. And down. The Dachora stared at the floor numbers the whole time.
+DACHORA (excited): Kweh!
+SAMUS (nervous): ...
+NARRATOR: Samus tried to explain, with her eyes, that the Dachora could not swim.
+DACHORA (smug): Kweh.
+NARRATOR: The Dachora explained, with its eyes, that it did not care.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC spooky
+SCENE maridia
+PLACE samus center right neutral
+PLACE dachora midleft right nervous
+SFX bubbles
+NARRATOR: Maridia was dark and green and full of bubbles. Somewhere in the deep, three small voices were calling.
+NARRATOR: A tiny voice echoed from the deep. "Eee..."
+SAMUS (surprised): ...!
+DACHORA (excited): Kweh! Kweh!
+NARRATOR: The Dachora looked at the water. The Dachora looked at Samus. The Dachora stepped back. Very slowly.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC tense
+SCENE maridia
+PLACE samus center right nervous
+SFX bubbles
+NARRATOR: Samus dove alone. Her Gravity Suit glowed purple in the deep water. She swam past giant fish. Past snapping crabs. Past a sign that said "Turn Back."
+SAMUS (neutral): ...
+NARRATOR: She did not turn back. She never does.
+SFX splash
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC sad
+SCENE maridia
+PLACE etecoon center left scared
+PLACE samus midright left surprised
+ETECOON (scared): Eee! Eee eee!
+NARRATOR: The three etecoons were huddled on a rock at the bottom of a deep cave. The water was rising. They were cold and very, very scared.
+SAMUS (happy): ...
+ETECOON (surprised): Eee?
+NARRATOR: Samus held out her arm. The etecoons climbed on. All three. They held on very tightly.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC tense 2
+SCENE ceres_station
+PLACE adam center left nervous
+PLACE space_pirate midright left nervous
+ADAM (nervous): Her signal is very deep. Deeper than anyone has ever gone in Maridia.
+SPACE_PIRATE (nervous): The pirates used to say there's something living down there. Something big. With a lot of teeth.
+ADAM (surprised): You didn't think to mention that before she left?
+SPACE_PIRATE (sad): I thought it was just a story. To scare new pirates.
+ADAM (nervous): And?
+SPACE_PIRATE (scared): ...It worked. I was very scared.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC action
+SCENE maridia
+PLACE samus center right scared
+SFX thud
+SHAKE 0.8
+NARRATOR: Then something moved in the dark. Something big. With teeth.
+SFX thud
+SHAKE 1.0
+SAMUS (angry): ...!
+NARRATOR: Samus could not fire her arm cannon. Three etecoons were holding on to it. She had no way to fight.
+SFX bubbles
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC action 2
+SCENE maridia
+PLACE dachora center left angry
+SFX splash
+SHAKE 0.6
+DACHORA (angry): KWEEEH!
+NARRATOR: The Dachora could not swim. But the Dachora could run. Very, very fast. So fast that it ran across the top of the water. Like a skipping stone.
+SFX whoosh
+DACHORA (angry): Kweh! Kweh!
+NARRATOR: The big thing with teeth looked up. It had never seen a bird run on water before. It was very confused. It swam away.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC happy
+SCENE maridia
+PLACE samus center right happy
+PLACE dachora midleft right excited
+PLACE etecoon left right happy
+ETECOON (excited): Eee! Eee eee!
+DACHORA (excited): Kweh!
+SAMUS (surprised): ...!
+NARRATOR: Samus climbed out of the water with three etecoons on her arm. The Dachora was waiting. It was soaking wet and very proud.
+DACHORA (smug): Kweh.
+
+# ------------------------------------------------------------ BRINSTAR
+MUSIC romantic
+SCENE brinstar
+CARD That evening...
+PLACE etecoon center left excited
+PLACE samus midright left happy
+PLACE dachora midleft right happy
+ETECOON (excited): Eee! Eee eee eee!
+NARRATOR: The etecoon family was together again. Four of them, swinging in the vines of Brinstar. They taught Samus their wall jump. She already knew it. She let them teach her anyway.
+SAMUS (happy): ...
+DACHORA (happy): Kweh.
+NARRATOR: The Dachora never went near water again. But it told the story every day. Mostly to itself.
+END

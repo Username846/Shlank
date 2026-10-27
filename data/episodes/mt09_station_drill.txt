@@ -1,0 +1,157 @@
+@title Emergency Drill
+@series Metroid
+@season 1
+@icon visor
+@number 9
+@description Adam runs a surprise emergency drill on Ceres Station. Everyone must evacuate in under five minutes. Then the Baby Metroid gets loose in the air vents, and the drill becomes a real emergency. Sort of.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC tense
+SCENE ceres_station cut
+TITLE
+PLACE adam center left smug
+PLACE samus midright left neutral
+ADAM (smug): Samus. Today, Ceres Station will have a surprise emergency drill.
+SAMUS (neutral): ...
+ADAM (nervous): I realize I've just told you, so it's no longer a surprise. For you.
+ADAM (smug): But nobody else knows. When the alarm sounds, everyone must reach the escape pods in five minutes.
+SAMUS (smug): ...
+ADAM (happy): Last year it took them forty. Somebody stopped for a sandwich.
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC happy
+SCENE save_room
+PLACE baby_metroid center left happy
+PLACE samus midright left happy
+BABY_METROID (happy): Skree!
+NARRATOR: The Baby Metroid was staying on Ceres Station this week. It had its own little room. With a little bed. And a little window.
+SAMUS (happy): ...
+NARRATOR: Samus told it to stay put. With her eyes. The Baby Metroid nodded. With its whole body.
+BABY_METROID (happy): Skree skree.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC action
+SCENE ceres_station
+PLACE adam center left excited
+SFX beep
+SFX beep
+SFX beep
+ADAM (excited): Attention, Ceres Station! This is an emergency drill! Proceed to the escape pods! You have five minutes!
+NARRATOR: Scientists ran. Engineers ran. One man ran with half a sandwich.
+ADAM (angry): Drop the sandwich, Doctor Hayes!
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC tense
+SCENE save_room
+PLACE baby_metroid center left scared
+SFX beep
+SFX beep
+BABY_METROID (scared): Skree?!
+NARRATOR: The Baby Metroid had never heard an alarm before. It was loud. It was flashing. It was very scary.
+BABY_METROID (scared): Skreee!
+NARRATOR: It did what any frightened baby would do. It hid. In the air vent.
+SFX whoosh
+
+# ------------------------------------------------------------ ELEVATOR
+MUSIC action 2
+SCENE elevator_shaft
+PLACE samus center right neutral
+PLACE adam midleft right happy
+ADAM (happy): Three minutes, forty seconds. A new record! Everyone is at the pods.
+SAMUS (nervous): ...
+ADAM (surprised): What? Who's missing?
+SAMUS (scared): ...!
+ADAM (scared): The baby. Of course. The baby.
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC tense 2
+SCENE save_room
+PLACE samus center right scared
+NARRATOR: Samus ran back to the little room. The bed was empty. The window was empty. The air vent was open.
+SAMUS (scared): ...!
+NARRATOR: From somewhere inside the walls came a tiny, echoing sound.
+NARRATOR: A tiny, frightened "skree." Far away. Getting farther.
+SAMUS (nervous): ...
+
+# ------------------------------------------------------------ ELEVATOR
+MUSIC jazz 2
+SCENE elevator_shaft
+PLACE adam center left nervous
+NARRATOR: Adam paced back and forth by the escape pods. Every scientist was safe. Every engineer was safe. Doctor Hayes had found a new sandwich.
+ADAM (nervous): She's been gone four minutes. Five. Six.
+ADAM (sad): I designed this drill to keep everyone safe. And the one who's in danger is the smallest of us.
+ADAM (angry): Hayes. Put down the sandwich and help me check the vent maps.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC sneaky
+SCENE ceres_station
+PLACE adam center left nervous
+PLACE space_pirate midright left nervous
+SPACE_PIRATE (nervous): Is the drill over? Can I go back to fixing the gunship?
+ADAM (nervous): The Baby Metroid is loose in the air vents. Samus is looking for it.
+SPACE_PIRATE (excited): The vents? I know the vents! I used to hide in them all the time! From Samus!
+ADAM (surprised): You know these vents?
+SPACE_PIRATE (smug): Every space station has the same vents. They're all made by the same company. Vents R Us.
+ADAM (happy): Then show her the way.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC action
+SCENE ceres_station
+PLACE samus center right nervous
+PLACE space_pirate midleft right excited
+SPACE_PIRATE (excited): Okay! Left at the big fan! Right at the second junction! Then straight to the kitchen vent!
+SAMUS (surprised): ...?
+SPACE_PIRATE (smug): Babies always go to the kitchen. That's where the snacks are. Trust me. I was a baby once.
+SAMUS (smug): ...
+NARRATOR: Samus rolled into Morph Ball mode and zoomed into the vents. She rolled left at the big fan. Right at the second junction. Straight to the kitchen.
+SFX boing
+
+# ------------------------------------------------------------ MAP STATION
+MUSIC spooky
+SCENE map_station
+PLACE baby_metroid center left scared
+SFX beep
+SFX beep
+NARRATOR: The kitchen vent led to the map station. The alarm was still beeping. The Baby Metroid was trapped behind a grate, shaking.
+BABY_METROID (scared): Skree...
+SFX boing
+ENTER samus right midright happy 500
+SAMUS (happy): ...
+BABY_METROID (excited): Skree! Skree skree!
+
+# ------------------------------------------------------------ MAP STATION
+MUSIC romantic
+SCENE map_station
+PLACE samus center right happy
+PLACE baby_metroid midleft right happy
+NARRATOR: Samus took off her helmet. She sat on the floor. The Baby Metroid floated into her arms and stayed there.
+BABY_METROID (sad): Skree.
+SAMUS (shy): ...it's okay.
+NARRATOR: She said it out loud. Two whole words. The Baby Metroid had never heard her voice before. It stopped shaking.
+BABY_METROID (happy): Skree skree.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC happy
+SCENE ceres_station
+PLACE adam center left happy
+PLACE samus midright left happy
+PLACE baby_metroid right left happy
+PLACE space_pirate midleft right excited
+SPACE_PIRATE (excited): You found it! Was it in the kitchen? I bet it was in the kitchen!
+ADAM (happy): Total time: nine minutes. Not a record. But everyone is safe.
+SAMUS (smug): ...
+ADAM (smug): I've decided something. The drill alarm will be quieter next time. Gentler. With music.
+BABY_METROID (excited): Skree!
+ADAM (happy): The baby approves.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC jazz
+SCENE ceres_station
+CARD One month later...
+PLACE adam center left smug
+SFX ding
+ADAM (smug): Attention, Ceres Station. This is a gentle emergency drill. Please walk calmly to the escape pods.
+NARRATOR: The new alarm played a lullaby. Everyone reached the pods in three minutes. Nobody brought a sandwich.
+ADAM (surprised): ...Is everyone asleep?
+NARRATOR: Half the station had fallen asleep in the escape pods. The lullaby was too good. Adam never changed it back.
+END

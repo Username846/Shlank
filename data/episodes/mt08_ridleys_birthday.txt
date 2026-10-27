@@ -1,0 +1,149 @@
+@title Ridley's Birthday
+@series Metroid
+@season 1
+@icon visor
+@number 8
+@description It's Ridley's birthday, and nobody on Zebes remembers. Kraid feels bad. The Space Pirate feels bad. Together, they plan a surprise party. The only guest Ridley really wants is the one person who's been fighting him for twenty years.
+
+# ------------------------------------------------------------ RIDLEY'S LAIR
+MUSIC sad
+SCENE ridley_lair cut
+TITLE
+PLACE ridley center left sad
+RIDLEY (sad): Scree...
+NARRATOR: Ridley woke up early. He brushed his teeth. All four hundred of them. He looked at the calendar. It was circled in red.
+RIDLEY (excited): Scree! Scree scree!
+NARRATOR: It was his birthday. He waited by the door. Nobody came. He waited some more.
+RIDLEY (sad): ...Scree.
+
+# ------------------------------------------------------------ KRAID'S LAIR
+MUSIC jazz
+SCENE kraid_lair
+PLACE kraid center left neutral
+ENTER space_pirate right midright nervous
+SPACE_PIRATE (nervous): Kraid. Did you know it's Ridley's birthday today?
+KRAID (surprised): Grrr?
+SPACE_PIRATE (sad): Nobody remembered. He's just sitting in his lair. Looking at a calendar.
+KRAID (sad): Grrr... grr.
+SPACE_PIRATE (excited): Let's throw him a party! A surprise party! You and me!
+KRAID (excited): Grrr grr!
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC spooky
+SCENE tourian
+PLACE mother_brain center left smug
+ENTER space_pirate right midright nervous
+SPACE_PIRATE (nervous): Mother Brain? Can we use the big room for Ridley's birthday party?
+MOTHER_BRAIN (smug): Birthday? We are villains. Villains do not have birthdays. We have evil anniversaries.
+SPACE_PIRATE (nervous): Can we use the big room for Ridley's evil anniversary party?
+MOTHER_BRAIN (nervous): ...Will there be cake?
+SPACE_PIRATE (excited): Big cake!
+MOTHER_BRAIN (smug): Then yes. But I get a slice. A big one. In my jar.
+
+# ------------------------------------------------------------ NORFAIR
+MUSIC sneaky
+SCENE norfair
+PLACE space_pirate center left excited
+PLACE kraid midright left happy
+SPACE_PIRATE (excited): Decorations! I've got streamers! Balloons! A banner that says "Happy Evil Anniversary!"
+KRAID (excited): Grrr!
+NARRATOR: Kraid was in charge of the cake. He baked it in the lava. It came out a little crispy. Very crispy. Mostly charcoal.
+KRAID (sad): Grrr...
+SPACE_PIRATE (happy): It's the thought that counts, buddy!
+
+# ------------------------------------------------------------ RIDLEY'S LAIR
+MUSIC sad
+SCENE ridley_lair
+PLACE ridley center left sad
+RIDLEY (sad): Scree...
+NARRATOR: Ridley was making a list. A list of everyone who had ever wished him a happy birthday. The list had one name on it.
+NARRATOR: Twenty years ago, after a big battle, Samus had seen the date on his calendar. And she had nodded. Just once.
+RIDLEY (sad): Scree scree.
+NARRATOR: It was the best birthday he had ever had.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC tense
+SCENE landing_site
+PLACE samus center right neutral
+ENTER space_pirate left midleft nervous
+SPACE_PIRATE (nervous): Samus! Wait! Don't shoot! I'm on my lunch break!
+SAMUS (angry): ...
+SPACE_PIRATE (nervous): It's Ridley's birthday. We're having a party. And... he'd really like it if you came.
+SAMUS (surprised): ...?
+SPACE_PIRATE (sad): You're the only one who ever remembered. Twenty years ago. He still talks about it.
+SAMUS (neutral): ...
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC jazz 2
+SCENE ceres_station
+PLACE adam center left surprised
+PLACE samus midright left nervous
+ADAM (surprised): A birthday party? For Ridley? The space dragon who's tried to destroy you a hundred times?
+SAMUS (nervous): ...
+ADAM (smug): I see. And you want to bring a gift.
+SAMUS (shy): ...
+ADAM (happy): Samus, you are a very strange bounty hunter. Any objections to me coming along?
+SAMUS (smug): ...
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC sneaky 2
+SCENE tourian
+CARD The party...
+PLACE kraid center left excited
+PLACE space_pirate midleft right excited
+PLACE mother_brain midright left smug
+SPACE_PIRATE (excited): Places, everyone! He's coming! Hide!
+MOTHER_BRAIN (smug): I'm a giant brain in a jar. Where exactly would I hide?
+KRAID (excited): Grrr!
+NARRATOR: Kraid hid behind a pillar. Kraid is eighty feet tall. The pillar was six.
+SPACE_PIRATE (nervous): Perfect. He'll never see us.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC happy
+SCENE tourian
+PLACE ridley center left surprised
+PLACE kraid midright left excited
+PLACE space_pirate right left excited
+SPACE_PIRATE (excited): SURPRISE!
+KRAID (excited): GRRR!
+RIDLEY (surprised): Scree?!
+SPACE_PIRATE (happy): Happy birthday, Ridley! I mean, happy evil anniversary!
+RIDLEY (excited): Scree scree scree!
+NARRATOR: Ridley flapped his wings so hard that all the streamers blew away. It was the happiest anyone had seen him in years.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC romantic
+SCENE tourian
+PLACE ridley center left nervous
+PLACE samus midright left neutral
+ENTER adam right farright happy
+NARRATOR: And then the door opened. Samus Aran walked in. She was holding a small box with a bow on top.
+RIDLEY (surprised): ...Scree?
+SAMUS (shy): ...
+NARRATOR: She put the box down. She nodded. Just once. Just like twenty years ago.
+RIDLEY (shy): Scree.
+ADAM (happy): She says happy birthday, Ridley.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC happy 2
+SCENE tourian
+PLACE ridley center left excited
+PLACE mother_brain midright left smug
+NARRATOR: Inside the box was a toothbrush. A giant, fancy toothbrush. With four hundred bristles. One for every tooth.
+RIDLEY (excited): Scree! Scree scree!
+MOTHER_BRAIN (smug): Where is my slice of cake?
+NARRATOR: Kraid gave Mother Brain a slice of his charcoal cake. She ate it. In her jar. She said it was "crunchy." It was meant as a compliment.
+MOTHER_BRAIN (happy): Very crunchy.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC romantic 2
+SCENE landing_site
+CARD The next day...
+PLACE samus center right neutral
+PLACE adam midleft right smug
+ADAM (smug): You realize he'll try to shoot down your gunship again on Monday.
+SAMUS (smug): ...
+ADAM (happy): And you'll shoot him back. And next year, you'll go to his party again.
+SAMUS (happy): ...
+ADAM (smug): Very strange bounty hunter.
+END

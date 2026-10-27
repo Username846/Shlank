@@ -1,0 +1,149 @@
+@title Mother Brain Retires
+@series Metroid
+@season 1
+@icon visor
+@number 10
+@description After a thousand years of being evil, Mother Brain announces she is retiring to a nice tank in Maridia. Everyone on Zebes wants to be the new boss. Dark Samus wants it most of all. Dark Samus doesn't talk either.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC spooky
+SCENE tourian cut
+TITLE
+PLACE mother_brain center left neutral
+PLACE space_pirate midright left surprised
+PLACE kraid right left surprised
+MOTHER_BRAIN (neutral): Everyone. I have an announcement. After one thousand years of evil, I am retiring.
+SPACE_PIRATE (surprised): Retiring? You can retire from being evil?
+MOTHER_BRAIN (smug): I'm a brain in a jar. I can do whatever I want. I'm moving to Maridia. A nice warm tank. With a view of the ocean.
+KRAID (surprised): Grrr?
+MOTHER_BRAIN (smug): Someone else will have to run Zebes. I'll choose my replacement on Friday.
+SPACE_PIRATE (excited): An election!
+
+# ------------------------------------------------------------ RIDLEY'S LAIR
+MUSIC jazz
+SCENE ridley_lair
+PLACE ridley center left excited
+PLACE space_pirate midright left nervous
+RIDLEY (excited): Scree! Scree scree!
+SPACE_PIRATE (nervous): You want to be the new boss? Ridley, you can't even use a calendar.
+RIDLEY (angry): SCREE!
+SPACE_PIRATE (scared): Okay! Okay! You'd be a great boss! Very... fiery!
+RIDLEY (smug): Scree.
+NARRATOR: Ridley made campaign posters. They all said "Scree." Nobody knew what they meant.
+
+# ------------------------------------------------------------ KRAID'S LAIR
+MUSIC happy
+SCENE kraid_lair
+PLACE kraid center left excited
+KRAID (excited): Grrr grr! Grrr!
+NARRATOR: Kraid also wanted to be the boss. His campaign promise was simple: more naps. For everyone. Twice a day.
+KRAID (happy): Grrr.
+NARRATOR: It was, honestly, a very popular idea.
+
+# ------------------------------------------------------------ NORFAIR
+MUSIC tense
+SCENE norfair
+PLACE ridley center left angry
+PLACE kraid midright left happy
+PLACE space_pirate midleft right nervous
+SPACE_PIRATE (nervous): Welcome to the big debate! First question. What will you do for the people of Zebes? Ridley?
+RIDLEY (angry): Scree! SCREE!
+SPACE_PIRATE (nervous): Okay. Very passionate. Kraid?
+KRAID (happy): Grrr. Grrr grr.
+SPACE_PIRATE (happy): More naps. Again. The crowd loves it.
+NARRATOR: The crowd was one etecoon. It clapped for both of them.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC spooky 2
+SCENE wrecked_ship
+PLACE dark_samus center left smug
+DARK_SAMUS (smug): ...
+NARRATOR: And then there was Dark Samus. She looked exactly like Samus, but darker. And glowier. And much, much more interested in being in charge.
+DARK_SAMUS (excited): ...
+NARRATOR: Her campaign was very quiet. She didn't make posters. She just stood behind people until they agreed to vote for her.
+DARK_SAMUS (smug): ...
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC tense
+SCENE ceres_station
+PLACE adam center left nervous
+PLACE samus midright left neutral
+ADAM (nervous): Samus. Mother Brain is retiring. And Dark Samus might take over Zebes.
+SAMUS (surprised): ...!
+ADAM (nervous): A Dark Samus in charge of the whole planet. Copying you. Everywhere. Forever.
+SAMUS (angry): ...
+ADAM (smug): I thought you'd say that. Well, not say. But you know.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC jazz 2
+SCENE chozo_ruins
+PLACE chozo_elder center left smug
+PLACE samus midright left nervous
+CHOZO_ELDER (smug): Child. You cannot fight an election with a cannon.
+SAMUS (nervous): ...
+CHOZO_ELDER (happy): You need a candidate. Someone kind. Someone fair. Someone everyone already likes.
+SAMUS (surprised): ...?
+CHOZO_ELDER (smug): Not you. You're terrifying. Someone else.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC sneaky
+SCENE landing_site
+PLACE space_pirate center left nervous
+PLACE samus midright left smug
+SPACE_PIRATE (nervous): Me? Run for boss of Zebes?
+SAMUS (smug): ...
+SPACE_PIRATE (scared): But I'm just a mechanic! And I'm scared of everything! Including Ridley! And Kraid! And you!
+SAMUS (happy): ...
+NARRATOR: Samus pointed out, with her eyes, that everyone on Zebes liked the Space Pirate. He fixed their ships. He remembered birthdays. He brought Mother Brain her tea.
+SPACE_PIRATE (shy): ...You really think I could do it?
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC tense 2
+SCENE tourian
+CARD Election day...
+PLACE mother_brain center left smug
+PLACE ridley midleft right excited
+PLACE kraid right left excited
+PLACE space_pirate midright left nervous
+MOTHER_BRAIN (smug): The candidates. Ridley. Kraid. Dark Samus. And... the Space Pirate?
+SPACE_PIRATE (nervous): Hi. I'm running. My promise is: free tea, fixed ships and no more cleaning the Metroid tanks.
+RIDLEY (angry): Scree!
+KRAID (happy): Grrr grr!
+MOTHER_BRAIN (surprised): Kraid is... dropping out? And voting for the Pirate?
+KRAID (happy): Grrr. Nap.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC spooky
+SCENE tourian
+PLACE dark_samus center left angry
+PLACE space_pirate midright left scared
+NARRATOR: Dark Samus stood behind the Space Pirate. Very close. Very silently. Waiting for him to give up.
+SPACE_PIRATE (scared): I... I'm not quitting. I'm scared, but I'm not quitting.
+DARK_SAMUS (angry): ...
+ENTER samus right farright angry
+SAMUS (angry): ...
+NARRATOR: Samus stood behind Dark Samus. Very close. Very silently. Dark Samus turned around. They stared at each other for a very long time.
+DARK_SAMUS (nervous): ...
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC happy
+SCENE tourian
+PLACE mother_brain center left happy
+PLACE space_pirate midright left surprised
+MOTHER_BRAIN (happy): The votes are counted. Ridley, one vote. Ridley voted for himself. Dark Samus, zero votes. She forgot to vote.
+MOTHER_BRAIN (smug): And the Space Pirate. Everyone else.
+SPACE_PIRATE (surprised): I won? I'm the boss?
+MOTHER_BRAIN (happy): Congratulations. You're in charge of Zebes. The tea is in the cabinet. Two sugars for me when I visit.
+SPACE_PIRATE (shy): Yes, ma'am. I mean. Yes, retired ma'am.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC romantic
+SCENE maridia
+CARD One week later...
+PLACE mother_brain center left happy
+SFX bubbles
+MOTHER_BRAIN (happy): Ahhh. Warm water. A view of the ocean. No bounty hunters.
+NARRATOR: Mother Brain floated in her new tank. She read a book. She did a crossword. She did not plan a single evil thing.
+MOTHER_BRAIN (smug): ...Well. Maybe one small evil thing. On weekends.
+NARRATOR: On Zebes, the new boss declared every Friday "Tea Day." Even Ridley came. He brought his toothbrush.
+END

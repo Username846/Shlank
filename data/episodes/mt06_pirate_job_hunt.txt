@@ -1,0 +1,151 @@
+@title The Space Pirate Quits
+@series Metroid
+@season 1
+@icon visor
+@number 6
+@description After four hundred years of working for Mother Brain and getting zapped by Samus, one Space Pirate decides he's had enough. He quits. Now he needs a new job, and the only people hiring are the good guys.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC spooky
+SCENE tourian cut
+TITLE
+PLACE mother_brain center left angry
+PLACE space_pirate midright left nervous
+MOTHER_BRAIN (angry): You let Samus escape. Again. For the four hundredth time.
+SPACE_PIRATE (nervous): In my defense, she's very good at escaping.
+MOTHER_BRAIN (angry): No dental plan. No vacation. And this week, you're cleaning the Metroid tanks.
+SPACE_PIRATE (sad): The Metroid tanks? Those things try to eat my face.
+MOTHER_BRAIN (smug): Then clean faster.
+SPACE_PIRATE (angry): ...You know what? I quit!
+
+# ------------------------------------------------------------ CRATERIA
+MUSIC sad
+SCENE crateria
+PLACE space_pirate center left sad
+NARRATOR: For the first time in four hundred years, the Space Pirate was unemployed.
+SPACE_PIRATE (sad): What have I done? I don't know how to do anything except stand in hallways and shoot at Samus.
+SPACE_PIRATE (nervous): And miss. I'm really good at missing.
+SPACE_PIRATE (smug): Okay. I'll make a resume. Skills: hallways. Shooting. Missing. Running away screaming.
+SPACE_PIRATE (sad): ...That's not a great resume.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC jazz
+SCENE ceres_station
+PLACE adam center left surprised
+ENTER space_pirate right midright nervous
+ADAM (surprised): A Space Pirate. On my space station. With... a clipboard?
+SPACE_PIRATE (nervous): I'm here about the job? The sign said "Help Wanted."
+ADAM (smug): The sign meant scientists. Engineers. Pilots.
+SPACE_PIRATE (excited): I've been shot down by Samus forty times. I know a lot about crashing.
+ADAM (nervous): ...That's not quite the same as piloting.
+ADAM (smug): Next.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC jazz 2
+SCENE chozo_ruins
+PLACE chozo_elder center left smug
+ENTER space_pirate right midright nervous
+CHOZO_ELDER (smug): You wish to become a Chozo apprentice? You?
+SPACE_PIRATE (excited): I can learn! I'm a fast learner! Kind of!
+CHOZO_ELDER (smug): The first test is to sit in perfect silence. For one hundred days.
+SPACE_PIRATE (nervous): Can I bring a snack?
+CHOZO_ELDER (smug): No.
+SPACE_PIRATE (sad): ...Next.
+
+# ------------------------------------------------------------ KRAID'S LAIR
+MUSIC jazz
+SCENE kraid_lair
+PLACE kraid center left neutral
+ENTER space_pirate right midright nervous
+SPACE_PIRATE (nervous): Kraid. Buddy. Old pal. Do you need an assistant? I can do anything.
+KRAID (neutral): Grrr.
+SPACE_PIRATE (excited): Brush your teeth? Polish your claws? Scratch that spot on your back you can't reach?
+KRAID (happy): Grrr grr!
+NARRATOR: The Space Pirate scratched Kraid's back for three hours. It was the most useful he had ever felt. But Kraid could only pay him in rocks.
+SPACE_PIRATE (sad): Thanks, buddy. I'll... keep looking.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC sneaky
+SCENE landing_site
+PLACE samus center right neutral
+PLACE baby_metroid midleft right happy
+SAMUS (neutral): ...
+NARRATOR: Samus was fixing her gunship. Again. It had been shot down by Ridley. Again.
+BABY_METROID (happy): Skree!
+NARRATOR: She was not very good at fixing things. She was very good at breaking things. These are different skills.
+SAMUS (angry): ...!
+SFX blast
+SHAKE 0.6
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC tense
+SCENE landing_site
+PLACE samus center right surprised
+PLACE baby_metroid midleft right scared
+ENTER space_pirate left farleft scared
+SPACE_PIRATE (scared): Don't shoot! Don't shoot! I quit! I'm not a bad guy anymore! Probably!
+SAMUS (angry): ...
+BABY_METROID (angry): Skree!
+SPACE_PIRATE (nervous): Is that your gunship? The left engine is backwards. And you put the fuel line in the cupholder.
+SAMUS (surprised): ...?
+SPACE_PIRATE (excited): I used to fix Mother Brain's ships! Every time you blew them up! Which was a lot!
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC happy
+SCENE landing_site
+PLACE space_pirate center left excited
+PLACE samus midright left neutral
+NARRATOR: The Space Pirate fixed the left engine. He moved the fuel line out of the cupholder. He polished the windshield until it sparkled.
+SPACE_PIRATE (excited): Try it now!
+SFX powerup
+NARRATOR: The gunship roared to life. It had never sounded so good. Not even when it was new.
+SAMUS (surprised): ...!
+SPACE_PIRATE (shy): I'm actually a pretty good mechanic. Nobody ever asked.
+
+# ------------------------------------------------------------ TOURIAN
+MUSIC spooky 2
+SCENE tourian
+PLACE mother_brain center left angry
+MOTHER_BRAIN (angry): Where is that pirate? Nobody has cleaned the Metroid tanks. Nobody has fixed the ships.
+MOTHER_BRAIN (nervous): Nobody has brought me my morning tea.
+MOTHER_BRAIN (sad): He was the only one who knew how I like it. Two sugars. Floating in the jar.
+MOTHER_BRAIN (angry): I want him back! Find him!
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC jazz
+SCENE ceres_station
+PLACE adam center left surprised
+PLACE samus midright left neutral
+ADAM (surprised): You want to hire the Space Pirate? As your mechanic?
+SAMUS (neutral): ...
+ADAM (smug): I see. The gunship has never run better.
+SAMUS (happy): ...
+ADAM (nervous): And he's promised not to shoot at you?
+SAMUS (smug): ...
+ADAM (happy): Well. Any objections? No? Then he's hired.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC tense 2
+SCENE landing_site
+PLACE space_pirate center left happy
+PLACE mother_brain midright left angry
+MOTHER_BRAIN (angry): There you are! Come back to Tourian immediately! I'll give you... a dental plan!
+SPACE_PIRATE (surprised): A dental plan? After four hundred years?
+MOTHER_BRAIN (nervous): And vacation days. Two of them.
+SPACE_PIRATE (smug): Sorry, Mother Brain. I've got a new job. With benefits. And Samus says thank you sometimes.
+MOTHER_BRAIN (surprised): Samus doesn't talk!
+SPACE_PIRATE (happy): She says it with her eyes.
+
+# ------------------------------------------------------------ LANDING SITE
+MUSIC romantic
+SCENE landing_site
+CARD One week later...
+PLACE space_pirate center left happy
+PLACE samus midright left happy
+PLACE baby_metroid midleft right happy
+NARRATOR: The Space Pirate had his own little workshop next to the gunship. It had a toolbox, a radio and a sign that said "Employee of the Week."
+SPACE_PIRATE (happy): Morning, Samus! Engine's tuned. Missiles are loaded. And I fixed the cupholder.
+SAMUS (happy): ...
+BABY_METROID (excited): Skree skree!
+SPACE_PIRATE (shy): The baby made me the sign. Well, it chewed on it. But it's the thought that counts.
+END
