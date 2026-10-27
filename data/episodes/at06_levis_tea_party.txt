@@ -1,0 +1,169 @@
+@title Captain Levi's Tea Party
+@series Attack on Titan
+@season 1
+@icon wings
+@number 6
+@description Captain Levi is hosting a formal tea party for the King's visiting nobles. Everything must be perfect. The cups. The napkins. The Scouts' manners. Connie has never used a napkin in his life.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq cut
+TITLE
+PLACE levi center left neutral
+PLACE erwin midright left neutral
+ERWIN (neutral): Levi. Three nobles from the capital are visiting tomorrow. They control our funding.
+LEVI (neutral): So?
+ERWIN (smug): So they've asked for tea. Real tea. And I've told them you make the finest tea in the Walls.
+LEVI (surprised): You did what?
+ERWIN (happy): Make it perfect, Levi. Our horses depend on it.
+LEVI (angry): ...Tch.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC jazz
+SCENE mess_hall
+PLACE levi center left angry
+PLACE eren midright left nervous
+PLACE connie_springer right left nervous
+PLACE sasha midleft right excited
+LEVI (angry): Listen up. Tomorrow, we serve tea to nobles. You will be the waiters.
+SASHA (excited): Will there be cake?
+LEVI (angry): There will be cake. You will not eat the cake.
+SASHA (sad): Not even a crumb?
+LEVI (angry): Especially not a crumb. Crumbs are how it starts.
+CONNIE_SPRINGER (nervous): Captain, what's a napkin for?
+LEVI (surprised): ...We have a lot of work to do.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC sneaky
+SCENE mess_hall
+PLACE levi center left neutral
+PLACE connie_springer midright left nervous
+PLACE jean right left smug
+LEVI (neutral): Lesson one. The napkin goes on your lap. Not on your head.
+CONNIE_SPRINGER (nervous): It's on my lap, sir.
+LEVI (angry): That's your shirt, Springer.
+JEAN (smug): Ha! Connie doesn't even know what a lap is.
+LEVI (angry): Kirstein. Your pinky is not up.
+JEAN (scared): Sorry, Captain! Pinky up! Pinky way up!
+
+# ------------------------------------------------------------ OLD CASTLE
+MUSIC romantic
+SCENE old_castle
+PLACE mikasa center left neutral
+PLACE armin midright left happy
+ARMIN (happy): Mikasa, the books say the nobles in the capital drink tea in silence. For a whole hour.
+MIKASA (neutral): That sounds peaceful.
+ARMIN (nervous): And you bow when they enter. And you never turn your back on them.
+MIKASA (smug): Then I'll never turn my back on them.
+ARMIN (nervous): You don't have to stare at them, Mikasa.
+MIKASA (neutral): I'll stare politely.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz 2
+SCENE scout_hq
+PLACE hange center left excited
+PLACE levi midright left angry
+HANGE (excited): Levi! I hear you're throwing a tea party! Can Potato Pete come?
+LEVI (angry): No.
+HANGE (sad): But he's been learning manners! He almost didn't eat a chair yesterday!
+LEVI (angry): Absolutely not, Hange. Keep that Titan in the stables.
+HANGE (smug): Fine. But he'll be very sad. And when he's sad, he wanders.
+LEVI (scared): ...Lock the stables. Twice.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC tense
+SCENE mess_hall
+CARD The next day...
+PLACE levi center left nervous
+PLACE eren midright left nervous
+PLACE sasha right left nervous
+NARRATOR: The tea was steeped for exactly four minutes. The cups were polished until you could see your soul in them. The cake was untouched.
+SASHA (nervous): The cake is staring at me, Captain.
+LEVI (angry): Look away, Braus.
+EREN (nervous): The nobles are here!
+LEVI (neutral): Positions. Pinkies up. Nobody breathe on the china.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC romantic 2
+SCENE mess_hall
+PLACE levi center left smug
+PLACE erwin midright left smug
+NARRATOR: The nobles sat down. Levi poured the tea himself. Perfectly. Not a single drop spilled.
+ERWIN (smug): Lord Balto. Lady Fenn. Lord Ralph. Captain Levi's special blend.
+NARRATOR: The nobles sipped. They paused. They sipped again.
+LEVI (nervous): ...
+ERWIN (happy): They say it's the best tea they've ever had, Levi.
+LEVI (shy): ...Tch. Obviously.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC jazz 2
+SCENE mess_hall
+PLACE jean center left nervous
+PLACE connie_springer midright left nervous
+PLACE eren right left nervous
+JEAN (nervous): Springer, the nobles want more tea. Your turn to pour.
+CONNIE_SPRINGER (nervous): Pinky up. Pinky up. Don't spill. Don't breathe.
+NARRATOR: Connie poured the most careful cup of tea in history. It took two full minutes. Not a single drop was spilled.
+EREN (surprised): Connie, you did it!
+CONNIE_SPRINGER (excited): I did it! I'm a gentleman now!
+JEAN (smug): You poured it into the sugar bowl, Connie.
+
+# ------------------------------------------------------------ THE STABLES
+MUSIC spooky
+SCENE stables
+PLACE smiling_titan center left sad
+SMILING_TITAN (sad): Hehe...
+NARRATOR: Meanwhile, in the stables, Potato Pete was sad. Hange had told him there would be cake. And no one had invited him.
+SMILING_TITAN (sad): Ca... ke?
+NARRATOR: The stable doors were locked twice. Potato Pete was nine meters tall. The stables were eight.
+SFX thud
+SHAKE 0.8
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC tense 2
+SCENE mess_hall
+PLACE levi center left neutral
+PLACE connie_springer midright left scared
+SFX thud
+SHAKE 0.8
+CONNIE_SPRINGER (scared): Captain! There's a giant face in the window!
+LEVI (angry): Don't panic. Nobody panic. The nobles must not see.
+SFX thud
+SHAKE 1.0
+LEVI (scared): ...It's smiling at the cake.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC action
+SCENE mess_hall
+PLACE eren center right excited
+PLACE mikasa midleft right neutral
+PLACE sasha midright left excited
+EREN (excited): Distract the nobles! Sasha, the cake!
+SASHA (excited): Finally!
+NARRATOR: Sasha carried the cake outside to the Titan. Very slowly. Very carefully. It was the hardest thing she had ever done.
+MIKASA (neutral): Lord Balto, look at this painting. On the opposite wall. For a very long time.
+EREN (nervous): And Lady Fenn! Look at this... spoon!
+
+# ------------------------------------------------------------ THE STABLES
+MUSIC happy
+SCENE stables
+PLACE smiling_titan center left happy
+PLACE sasha midright left sad
+PLACE hange right left excited
+SASHA (sad): Here you go, Pete. The whole cake. Every last crumb.
+SMILING_TITAN (excited): Hehehe! Ca-ke!
+HANGE (excited): He said cake! Two syllables! Sasha, he said a new word!
+SASHA (sad): He's eating my dreams, Hange.
+HANGE (happy): For science, Sasha! For science!
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC happy 2
+SCENE mess_hall
+PLACE erwin center left happy
+PLACE levi midright left neutral
+ERWIN (happy): The nobles have increased our funding. Double. They called it the most charming tea they've ever attended.
+LEVI (surprised): Charming?
+ERWIN (smug): They thought the Titan in the window was part of the entertainment. A puppet show.
+LEVI (neutral): ...Tch. Next time, I'm serving the tea in the stables.
+ERWIN (happy): They'd love that, Levi.
+END

@@ -1,0 +1,189 @@
+@title Sasha's Hunting Lesson
+@series Attack on Titan
+@season 1
+@icon wings
+@number 7
+@description Food supplies are low, and Sasha volunteers to teach Connie and Jean how to hunt in the Forest of Giant Trees. Jean doesn't think he needs lessons. Connie thinks a deer is a type of horse.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC sad
+SCENE mess_hall cut
+TITLE
+PLACE sasha center left sad
+PLACE connie_springer midright left sad
+PLACE jean right left angry
+SASHA (sad): Bread. Again. Just bread. For the ninth day in a row.
+CONNIE_SPRINGER (sad): I had a dream about meat last night. It was a steak. It waved at me.
+JEAN (angry): The supply wagons are late. We'll be eating bread until spring.
+SASHA (excited): Not if we hunt! I grew up hunting in the forest! I can teach you!
+JEAN (smug): Hunting? How hard can it be? You see an animal, you catch it.
+SASHA (smug): Oh, Jean. Sweet, simple Jean.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz
+SCENE scout_hq
+PLACE levi center left neutral
+ENTER sasha right midright excited
+SASHA (excited): Captain! Permission to take Connie and Jean hunting in the forest!
+LEVI (neutral): Will you come back with food?
+SASHA (excited): Yes, sir!
+LEVI (smug): Will you come back clean?
+SASHA (nervous): ...Mostly, sir?
+LEVI (angry): Tch. Go. Before I change my mind.
+
+# ------------------------------------------------------------ THE STABLES
+MUSIC jazz
+SCENE stables
+PLACE jean center right smug
+PLACE connie_springer midleft right excited
+JEAN (smug): I'm bringing Buttercup. Real hunters ride horses.
+CONNIE_SPRINGER (excited): I'm bringing a net, a rope and three sandwiches.
+JEAN (surprised): Three sandwiches?
+CONNIE_SPRINGER (smug): Sasha said to bring bait.
+JEAN (nervous): Connie, I think she meant for the animals.
+CONNIE_SPRINGER (sad): ...Then what am I going to eat?
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC happy
+SCENE giant_forest
+PLACE sasha center left excited
+PLACE connie_springer midright left excited
+PLACE jean right left smug
+SASHA (excited): Lesson one. Be quiet. Animals can hear you breathe.
+CONNIE_SPRINGER (excited): I CAN BE QUIET!
+SASHA (angry): Connie!
+JEAN (smug): This is stupid. I'll just use my maneuver gear and fly at whatever we see.
+SASHA (smug): Jean, the gear makes a sound like a giant whistling teakettle.
+JEAN (nervous): ...Fine. Quiet.
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC sneaky
+SCENE giant_forest
+PLACE sasha center left neutral
+PLACE connie_springer midright left surprised
+SASHA (neutral): Lesson two. Look for tracks. See these? Deer tracks.
+CONNIE_SPRINGER (surprised): A deer? Is that like a small horse?
+SASHA (nervous): It's... not a horse, Connie.
+CONNIE_SPRINGER (excited): A horse with sticks on its head!
+SASHA (sad): Okay. Sure. A horse with sticks on its head.
+NARRATOR: Connie would go on to call deer "stick horses" for the rest of his life.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz 2
+SCENE scout_hq
+PLACE armin center left nervous
+PLACE mikasa midright left neutral
+PLACE eren right left angry
+EREN (angry): Why does Jean get to go hunting and I'm stuck counting supplies?
+MIKASA (neutral): Because you would charge at the deer, Eren.
+EREN (angry): I would not charge at the deer!
+ARMIN (nervous): Eren, you charged at a chicken last week.
+EREN (angry): It was looking at me funny!
+MIKASA (smug): See?
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC tense
+SCENE giant_forest
+PLACE sasha center left nervous
+PLACE jean midright left nervous
+PLACE connie_springer right left nervous
+SFX step
+SFX step
+SASHA (nervous): Shh. Something's there. Behind that tree. Something big.
+JEAN (nervous): How big?
+SASHA (excited): A wild boar. A big one. Enough meat for the whole regiment.
+CONNIE_SPRINGER (excited): A boar! Is that like a pig horse?
+JEAN (angry): Connie, stop comparing things to horses!
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC action
+SCENE giant_forest
+PLACE sasha center left excited
+PLACE jean midright left scared
+SFX stomp
+SHAKE 0.6
+NARRATOR: The boar charged. It was much bigger up close. And angrier.
+JEAN (scared): It's coming right at me!
+SASHA (excited): Jump, Jean!
+SFX whoosh
+NARRATOR: Jean jumped. Using his maneuver gear. It made a sound like a giant whistling teakettle.
+JEAN (scared): AAAAH!
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC action 2
+SCENE giant_forest
+PLACE sasha center left excited
+PLACE connie_springer midright left excited
+PLACE jean farright left scared
+SASHA (excited): Connie! Now! The net!
+CONNIE_SPRINGER (excited): Which one's the net?
+SASHA (angry): The thing in your hands!
+CONNIE_SPRINGER (excited): Oh! This!
+SFX thud
+SHAKE 0.8
+NARRATOR: Connie threw the net. It missed the boar. It caught Jean, who had just landed.
+JEAN (angry): CONNIE!
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq
+PLACE hange center left scared
+PLACE levi midright left neutral
+HANGE (scared): Levi! Potato Pete is gone! The stable door is wide open!
+LEVI (neutral): Again?
+HANGE (nervous): He saw Sasha leave with a bag that smelled like potatoes. He must have followed her.
+LEVI (angry): Into the forest. Where three trainees are hunting with nets.
+HANGE (excited): It's like a nature documentary!
+LEVI (angry): It's like a disaster, Hange.
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC tense 2
+SCENE giant_forest
+PLACE sasha center left surprised
+PLACE jean midright left angry
+PLACE connie_springer right left nervous
+SFX stomp
+SHAKE 1.0
+SASHA (surprised): Wait. Did you feel that?
+CONNIE_SPRINGER (scared): That's way too big for a boar.
+SFX stomp
+SHAKE 1.0
+JEAN (scared): Titan! There's a Titan coming!
+ENTER smiling_titan left farleft happy 200
+SMILING_TITAN (happy): Hehehe!
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC happy
+SCENE giant_forest
+PLACE smiling_titan center left happy
+PLACE sasha midright left surprised
+SASHA (surprised): Pete?! What are you doing out here?
+NARRATOR: Potato Pete had followed them from HQ. And in his giant hand, he was holding something. The boar. Very gently.
+SMILING_TITAN (excited): Hehe! Pig... horse!
+SASHA (surprised): He... caught it. He caught the boar for us.
+SMILING_TITAN (happy): Hehehe.
+
+# ------------------------------------------------------------ FOREST OF GIANT TREES
+MUSIC romantic
+SCENE giant_forest
+PLACE sasha center left happy
+PLACE jean midright left surprised
+PLACE connie_springer right left excited
+JEAN (surprised): The Titan's a better hunter than me.
+CONNIE_SPRINGER (excited): He called it a pig horse! He learned that from me!
+SASHA (happy): Thank you, Pete. Hunters always share. You get the first bite.
+NARRATOR: Pete did not take a bite. He did not eat pigs. He only wanted potatoes. Sasha found that very respectful.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC happy 2
+SCENE mess_hall
+CARD That evening...
+PLACE sasha center left excited
+PLACE levi midright left neutral
+PLACE eren right left excited
+EREN (excited): Meat! Real meat! Sasha, you're a hero!
+SASHA (happy): Thank Pete. And Connie. Sort of. Not Jean.
+LEVI (neutral): Braus. You're covered in mud.
+SASHA (nervous): Mostly, sir. Like I said.
+LEVI (smug): ...Tch. Pass the meat.
+END

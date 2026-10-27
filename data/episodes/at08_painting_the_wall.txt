@@ -1,0 +1,160 @@
+@title Painting the Wall
+@series Attack on Titan
+@season 1
+@icon wings
+@number 8
+@description Trost is holding its first town festival in a hundred years, and the Scouts are ordered to paint a mural on the Wall. Armin designs it. Eren and Jean argue about it. Hange wants Potato Pete to hold the ladder.
+
+# ------------------------------------------------------------ TROST DISTRICT
+MUSIC happy
+SCENE trost_district cut
+TITLE
+PLACE erwin center left happy
+PLACE armin midright left excited
+PLACE eren right left neutral
+ERWIN (happy): Trost is having a festival. The first in a hundred years. The townspeople asked for something special.
+ARMIN (excited): A parade? Fireworks?
+ERWIN (smug): A mural. On the Wall. Painted by the Scouts.
+EREN (surprised): We're soldiers, Commander. Not painters.
+ERWIN (smug): Today, you are both. Armin, you'll design it.
+ARMIN (shy): Me? Really?
+
+# ------------------------------------------------------------ OLD CASTLE
+MUSIC romantic
+SCENE old_castle
+PLACE armin center right excited
+PLACE mikasa midleft right neutral
+ARMIN (excited): I want to paint the ocean. On the Wall. So everyone inside can see it.
+MIKASA (neutral): Most people here have never seen the ocean.
+ARMIN (happy): That's why. If they can't go to the ocean, the ocean can come to them.
+MIKASA (smug): It's a good idea, Armin.
+ARMIN (shy): You think so?
+MIKASA (happy): Eren will say it's a good idea too. Then he'll argue with Jean about it.
+
+# ------------------------------------------------------------ TOP OF THE WALL
+MUSIC jazz
+SCENE wall_top
+PLACE eren center right angry
+PLACE jean midleft right smug
+JEAN (smug): The ocean? Boring. We should paint a giant picture of the Scouts. Flying. Heroically. Me in front.
+EREN (angry): Why would you be in front?
+JEAN (smug): Because I have the best hair.
+EREN (angry): It's Armin's design! We paint the ocean!
+JEAN (angry): Fine! But I'm painting the biggest wave!
+EREN (angry): No, I'M painting the biggest wave!
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC sneaky
+SCENE scout_hq
+PLACE hange center left excited
+PLACE levi midright left angry
+HANGE (excited): Levi! The Wall is fifty meters tall. They'll need a really, really tall ladder.
+LEVI (angry): We have maneuver gear, Hange.
+HANGE (smug): Or a really tall friend. Who loves to help. And smiles a lot.
+LEVI (angry): Absolutely not.
+HANGE (excited): Pete can hold the paint buckets! He has huge hands!
+LEVI (angry): ...If one drop of paint gets on my cloak, Hange, I'm painting YOU.
+
+# ------------------------------------------------------------ TOP OF THE WALL
+MUSIC happy 2
+SCENE wall_top
+CARD Day one of painting...
+PLACE armin center right excited
+PLACE sasha midleft right happy
+PLACE connie_springer midright left excited
+ARMIN (excited): Okay! Blue on the bottom for the water. White on top for the waves. And a little yellow for the sand.
+SASHA (happy): Can I paint a fish? A delicious fish?
+ARMIN (happy): Sure, Sasha. Just one.
+CONNIE_SPRINGER (excited): Can I paint a horse? In the ocean?
+ARMIN (nervous): Horses don't really go in the ocean, Connie.
+CONNIE_SPRINGER (smug): Mine does. He's a sea horse.
+
+# ------------------------------------------------------------ TROST DISTRICT
+MUSIC jazz 2
+SCENE trost_district
+PLACE smiling_titan center left happy
+PLACE hange midright left excited
+SMILING_TITAN (happy): Hehehe.
+HANGE (excited): Look at him go! He's holding six buckets at once!
+NARRATOR: Potato Pete was an excellent bucket-holder. He did not spill a drop. He did, however, drink one bucket of blue paint. He thought it was soup.
+HANGE (nervous): Pete. Your tongue is blue.
+SMILING_TITAN (happy): Hehe! Bloo!
+
+# ------------------------------------------------------------ THE GATE
+MUSIC jazz
+SCENE wall_gate
+PLACE erwin center left neutral
+PLACE hange midright left excited
+ERWIN (neutral): How's the mural coming along, Hange?
+HANGE (excited): Beautifully! The blue is perfect! The waves are huge! Pete only drank one bucket of paint!
+ERWIN (surprised): Only one?
+HANGE (happy): He's very well behaved now. He even said "bloo."
+ERWIN (smug): Then we'll put him in the festival parade. Next to the band.
+HANGE (excited): Pete in a parade! He'll be so happy!
+
+# ------------------------------------------------------------ TOP OF THE WALL
+MUSIC tense
+SCENE wall_top
+PLACE eren center right angry
+PLACE jean midleft right angry
+EREN (angry): My wave is bigger!
+JEAN (angry): No, mine is!
+SFX splat
+NARRATOR: Eren flicked his brush at Jean. Jean flicked his brush back. Within ten seconds, it was a full paint war.
+SFX splat
+SFX splat
+JEAN (angry): You got blue in my hair!
+EREN (smug): Now it matches the ocean.
+
+# ------------------------------------------------------------ TOP OF THE WALL
+MUSIC tense 2
+SCENE wall_top
+PLACE levi center left angry
+PLACE eren midright left scared
+PLACE jean right left scared
+NARRATOR: Then a single drop of white paint flew through the air. Slowly. It landed on Captain Levi's cloak.
+LEVI (angry): ...
+EREN (scared): Captain. That was... an accident.
+LEVI (angry): Jaeger. Kirstein. You will repaint the whole bottom half. Alone. By sunrise.
+JEAN (scared): The whole bottom half?!
+LEVI (angry): And then you'll wash my cloak. By hand.
+
+# ------------------------------------------------------------ TOP OF THE WALL
+MUSIC sad
+SCENE wall_top
+CARD Two in the morning...
+PLACE eren center right sad
+PLACE jean midleft right sad
+JEAN (sad): Jaeger. Your wave's actually pretty good.
+EREN (surprised): ...So is yours.
+JEAN (sad): I just wanted to be in the mural. In front. So people would remember me.
+EREN (neutral): Armin says the ocean will be here long after all of us. That's better than being remembered.
+JEAN (shy): ...Maybe we paint the waves together. One big wave.
+EREN (happy): One big wave.
+
+# ------------------------------------------------------------ TROST DISTRICT
+MUSIC romantic 2
+SCENE trost_district
+CARD The festival...
+PLACE armin center right surprised
+PLACE mikasa midleft right happy
+PLACE erwin midright left happy
+NARRATOR: The townspeople gathered in the square. They looked up at the Wall. And for the first time in a hundred years, the Wall did not look like a prison. It looked like a window to the sea.
+ARMIN (surprised): They're crying. Everyone's crying.
+MIKASA (happy): Happy crying, Armin.
+ERWIN (happy): Well done, Arlert. You gave them the ocean.
+
+# ------------------------------------------------------------ TROST DISTRICT
+MUSIC happy 3
+SCENE trost_district
+PLACE eren center right happy
+PLACE jean midleft right happy
+PLACE levi midright left neutral
+PLACE smiling_titan left right happy
+EREN (happy): Captain. We finished the bottom half.
+LEVI (neutral): I saw. There's one big wave in the middle.
+JEAN (shy): We painted it together, sir.
+LEVI (smug): And there's a tiny Titan with a blue tongue in the corner.
+SMILING_TITAN (excited): Hehehe! Pete!
+LEVI (neutral): ...Tch. It's acceptable.
+END

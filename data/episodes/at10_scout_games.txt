@@ -1,0 +1,178 @@
+@title The Scout Games
+@series Attack on Titan
+@season 1
+@icon wings
+@number 10
+@description Commander Erwin announces the first ever Scout Games: horse racing, maneuver gear races and a tug-of-war against a Titan. Squad Levi versus Squad Hange. The losing squad cleans the stables for a month.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC happy
+SCENE training_grounds cut
+TITLE
+PLACE erwin center left excited
+PLACE eren midright left excited
+PLACE jean right left smug
+ERWIN (excited): Scouts! This week, we hold the first ever Scout Games! A test of skill, speed and teamwork!
+EREN (excited): What's the prize?
+ERWIN (smug): The winning squad gets a feast. The losing squad cleans the stables. For a month.
+JEAN (scared): The stables? With Potato Pete in them?
+ERWIN (happy): He's very messy. Dedicate your hearts!
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz
+SCENE scout_hq
+PLACE levi center left neutral
+PLACE hange midright left excited
+HANGE (excited): Levi! Squad Hange versus Squad Levi! May the best squad win!
+LEVI (neutral): Mine will win.
+HANGE (smug): We'll see. I have Sasha. She's faster than anyone when there's food involved.
+LEVI (smug): I have Mikasa.
+HANGE (nervous): ...Okay, that's fair.
+LEVI (neutral): And my squad does not clean stables. Ever.
+
+# ------------------------------------------------------------ THE STABLES
+MUSIC action
+SCENE stables
+CARD Event one: the horse race...
+PLACE jean center right excited
+PLACE connie_springer midleft right excited
+JEAN (excited): This is my event! Buttercup and I are unstoppable!
+CONNIE_SPRINGER (excited): My horse is fast too! His name is Horse!
+SFX step
+SFX step
+NARRATOR: The race started. Jean and Buttercup took the lead. Connie and Horse were close behind. Then Horse stopped to eat a flower.
+CONNIE_SPRINGER (sad): Horse! Not now!
+JEAN (excited): Squad Levi wins the horse race!
+
+# ------------------------------------------------------------ ROOFTOPS
+MUSIC action 2
+SCENE rooftops
+CARD Event two: the maneuver gear race...
+PLACE mikasa center left neutral
+PLACE sasha midright left excited
+SASHA (excited): Mikasa, I'm going to win this one! I've been training!
+MIKASA (neutral): Good luck, Sasha.
+SFX whoosh
+SFX whoosh
+NARRATOR: Mikasa flew across the rooftops like a swallow. She finished the course before Sasha had finished saying "go."
+SASHA (surprised): ...Go?
+MIKASA (smug): Squad Levi wins.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC sad
+SCENE mess_hall
+PLACE hange center left sad
+PLACE sasha midright left sad
+PLACE armin right left nervous
+HANGE (sad): Two events down. Two losses. We're going to be cleaning stables until summer.
+SASHA (sad): Mikasa is too fast. It's not even fair.
+ARMIN (nervous): There's still the last event. The tug-of-war. Against Potato Pete.
+HANGE (excited): Armin! You're a genius! I know Pete better than anyone!
+ARMIN (nervous): I didn't say anything genius.
+HANGE (excited): You said "Potato Pete." That was enough!
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz 2
+SCENE scout_hq
+PLACE levi center left neutral
+PLACE mikasa midright left neutral
+PLACE eren right left excited
+EREN (excited): Two wins, Captain! One more and we never have to clean the stables!
+LEVI (neutral): Don't get comfortable, Jaeger. Hange is planning something.
+MIKASA (neutral): Hange is always planning something.
+LEVI (smug): Exactly. Tomorrow, pull like you're pulling me out of a Titan's mouth.
+EREN (surprised): Has that happened?
+LEVI (neutral): Not yet. Let's keep it that way.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC tense
+SCENE titan_plains
+CARD The final event: tug-of-war...
+PLACE erwin center left excited
+PLACE smiling_titan midright left happy
+ERWIN (excited): The final event! Each squad pulls against Potato Pete. Whoever pulls him over the line first wins the Scout Games!
+SMILING_TITAN (happy): Hehehe!
+ERWIN (smug): Squad Levi goes first.
+NARRATOR: Potato Pete held one end of a very thick rope. He smiled. He was having the best day of his life.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC action
+SCENE titan_plains
+PLACE levi center left angry
+PLACE mikasa midleft right excited
+PLACE eren left right excited
+PLACE smiling_titan midright left happy
+LEVI (angry): Pull!
+EREN (excited): PULL!
+SFX thud
+SHAKE 0.6
+NARRATOR: Squad Levi pulled with everything they had. Mikasa alone pulled like ten people. Potato Pete did not move. Not one step.
+SMILING_TITAN (happy): Hehehe.
+MIKASA (surprised): He's... not even trying.
+LEVI (angry): Tch.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC tense 2
+SCENE titan_plains
+PLACE hange center left excited
+PLACE sasha midleft right nervous
+PLACE armin left right nervous
+PLACE smiling_titan midright left happy
+HANGE (excited): Squad Hange! Our turn!
+SASHA (nervous): Hange, he didn't move for Mikasa. How are we going to move him?
+HANGE (smug): We don't pull him. We make him WANT to come.
+ARMIN (surprised): Sasha. Do you still have that potato?
+SASHA (nervous): I always have a potato.
+HANGE (excited): Hold it up, Sasha! High as you can!
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC happy
+SCENE titan_plains
+PLACE sasha center left nervous
+PLACE smiling_titan midright left excited
+HOLD sasha none
+SMILING_TITAN (excited): Po... ta... TO!
+NARRATOR: Potato Pete saw the potato. He forgot about the rope. He forgot about the game. He took one giant, happy step forward. Right over the line.
+SFX stomp
+SHAKE 1.0
+SASHA (excited): He crossed it! He crossed the line!
+SMILING_TITAN (happy): Hehehe! Potato!
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC jazz 2
+SCENE titan_plains
+PLACE erwin center left surprised
+PLACE levi midright left angry
+PLACE hange midleft right excited
+ERWIN (surprised): Squad Hange wins the tug-of-war! That makes it two events to one!
+HANGE (excited): We won one!
+LEVI (smug): We won two. We still win the games.
+ERWIN (smug): Ah, but the tug-of-war is worth three points. Squad Hange wins the Scout Games!
+LEVI (angry): Since when is it worth three points?!
+ERWIN (happy): Since the potato. It was very clever.
+
+# ------------------------------------------------------------ THE STABLES
+MUSIC sad
+SCENE stables
+CARD One week later...
+PLACE levi center left angry
+PLACE mikasa midright left neutral
+PLACE eren right left sad
+LEVI (angry): Scrub harder, Jaeger.
+EREN (sad): Captain, it's a stable. It's never going to be clean.
+LEVI (angry): With that attitude, it won't.
+MIKASA (neutral): Captain. You're smiling.
+LEVI (neutral): I am not. This is my cleaning face.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC happy 2
+SCENE mess_hall
+PLACE hange center left happy
+PLACE sasha midright left excited
+PLACE armin right left happy
+SASHA (excited): A feast! Meat! Bread! Raisin bread! And potatoes!
+HANGE (happy): Save the biggest potato. For the champion.
+ARMIN (happy): Pete?
+HANGE (excited): Pete!
+NARRATOR: That night, Potato Pete was given the biggest potato in the Walls. He held it all night. He never ate it. He just smiled at it.
+END
