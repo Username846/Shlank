@@ -3682,6 +3682,111 @@
 			"Dachoora"
 		]
 	},
+	"anthony_higgs": {
+		"name": "Anthony Higgs",
+		"style": "anthony_higgs",
+		"color": "#5a7a9a",
+		"width": 70,
+		"bio": "A big, friendly Galactic Federation soldier and Samus's old friend. Calls her 'Princess.' Very good at grilling.",
+		"catchphrase": "Hey there, Princess!",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 1.05,
+			"babble": 300,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Metroid",
+		"home": "gfs_olympus"
+	},
+	"phantoon": {
+		"name": "Phantoon",
+		"style": "phantoon",
+		"color": "#8a6ab0",
+		"width": 110,
+		"bio": "A huge ghostly creature with one giant eye who haunts the Wrecked Ship. Mostly wants some peace and quiet.",
+		"catchphrase": "Wooooo...",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 0.85,
+			"babble": 240,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Metroid",
+		"home": "wrecked_ship"
+	},
+	"crocomire": {
+		"name": "Crocomire",
+		"style": "crocomire",
+		"color": "#c8402a",
+		"width": 110,
+		"bio": "A big red Norfair beast with a row of eyes and a huge mouth. Afraid of exactly one thing: getting pushed into lava.",
+		"catchphrase": "GRAAAH!",
+		"voice": {
+			"pitch": 0.55,
+			"rate": 0.9,
+			"babble": 230,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Metroid",
+		"home": "magmoor_caverns"
+	},
+	"draygon": {
+		"name": "Draygon",
+		"style": "draygon",
+		"color": "#4a8a7a",
+		"width": 110,
+		"bio": "The giant crustacean queen of Maridia. Protective of her babies. Even more protective of her favorite rock.",
+		"catchphrase": "Skreeee!",
+		"voice": {
+			"pitch": 0.65,
+			"rate": 0.9,
+			"babble": 250,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Metroid",
+		"home": "maridia"
+	},
+	"torizo": {
+		"name": "Torizo",
+		"style": "torizo",
+		"color": "#a8a090",
+		"width": 72,
+		"bio": "An ancient Chozo guardian statue that wakes up to test anyone who takes its item. Very serious about rules.",
+		"catchphrase": "You... took... the item.",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.8,
+			"babble": 260,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Metroid",
+		"home": "chozo_ruins"
+	},
 	"kirby": {
 		"name": "Kirby",
 		"style": "kirby",

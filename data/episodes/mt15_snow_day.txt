@@ -1,0 +1,201 @@
+@title Snow Day on Phendrana
+@series Metroid
+@season 2
+@icon visor
+@number 5
+@description The Baby Metroid has never seen snow. Samus takes it, the etecoons and a dachora to the Phendrana Drifts for a snow day. There's sledding, a snow fort and a snowball fight. Then Dark Samus shows up, and Dark Samus has never had a snow day either.
+
+# ------------------------------------------------------------ SHIP
+MUSIC happy
+SCENE landing_site cut
+TITLE
+PLACE samus center right neutral
+PLACE baby_metroid midleft right excited
+BABY_METROID (excited): Skree! Skree!
+SAMUS (surprised): ...You want to go somewhere?
+BABY_METROID (happy): Skree skree!
+SAMUS (smug): ...The etecoons told you about snow.
+BABY_METROID (excited): SKREE!
+SAMUS (happy): ...Okay. Snow day.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC happy 2
+SCENE phendrana_drifts
+CARD Phendrana Drifts...
+PLACE baby_metroid center left surprised
+PLACE samus midright left happy
+NARRATOR: The Baby Metroid floated out of the ship. White flakes fell all around it. It caught one on its jelly body. The flake melted.
+BABY_METROID (surprised): Skree?
+SAMUS (happy): ...Snow.
+BABY_METROID (excited): SKREEEE!
+NARRATOR: The Baby Metroid zoomed in circles, trying to catch every single snowflake at once.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC jazz
+SCENE phendrana_drifts
+PLACE etecoon center left excited
+PLACE dachora midright left excited
+SFX slide_whistle
+ETECOON (excited): Eee! Eee!
+DACHORA (excited): Kweh!
+NARRATOR: The etecoons built a sled out of an old Chozo shield. The dachora pulled it up the hill. Then everyone piled on and slid down screaming.
+ETECOON (happy): EEEEEE!
+DACHORA (happy): KWEEEH!
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC sneaky
+SCENE phendrana_drifts
+PLACE samus center right smug
+PLACE etecoon midleft right surprised
+SFX splat
+SAMUS (smug): ...
+ETECOON (surprised): Eee?!
+NARRATOR: A snowball. Right on the etecoon's head. From behind a rock. Where a bounty hunter in orange armor was very carefully not looking at anybody.
+ETECOON (angry): EEE!
+SAMUS (happy): ...Snowball fight.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC action
+SCENE phendrana_drifts
+PLACE etecoon center left excited
+PLACE samus midright left excited
+SFX splat
+SFX splat
+NARRATOR: The etecoons threw snowballs. Samus threw snowballs. The dachora threw snowballs with its beak, somehow. The Baby Metroid ate snowballs out of the air.
+SAMUS (excited): ...Too slow!
+ETECOON (excited): Eee eee eee!
+SFX splat
+SAMUS (surprised): ...Not too slow.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC jazz 2
+SCENE phendrana_drifts
+PLACE samus center right happy
+PLACE dachora midleft right excited
+NARRATOR: After the snowball fight, they built a snow fort. It had walls, a tower and a little door. The dachora was very proud of the door. It had made it with its beak.
+DACHORA (excited): Kweh! Kweh!
+SAMUS (happy): ...It's a very good door.
+DACHORA (smug): Kweh.
+NARRATOR: The Baby Metroid tried to go through the door. It was too round. It went over the wall instead.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC spooky
+SCENE phendrana_drifts
+PLACE dark_samus center left neutral
+PLACE samus midright left surprised
+SFX hiss
+NARRATOR: Then the snow turned dark blue. A shadow moved behind the ice crystals. Dark Samus stepped out, glowing.
+SAMUS (surprised): ...You.
+DARK_SAMUS (neutral): ...
+SAMUS (angry): Not today. We're having a snow day.
+DARK_SAMUS (surprised): ...A... snow day?
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC tense
+SCENE phendrana_drifts
+PLACE dark_samus center left nervous
+PLACE samus midright left neutral
+DARK_SAMUS (nervous): What... is a snow day?
+SAMUS (surprised): ...You don't know?
+DARK_SAMUS (sad): I am made of Phazon. I do not have days. I have missions.
+SAMUS (neutral): ...
+SFX splat
+DARK_SAMUS (surprised): ...You threw snow at me.
+SAMUS (smug): ...That's a snow day.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC action 2
+SCENE phendrana_drifts
+PLACE dark_samus center left angry
+PLACE samus midright left excited
+SFX splat
+DARK_SAMUS (angry): ...Then I will win the snow day.
+NARRATOR: Dark Samus threw a snowball. It glowed blue. It was very fast. It hit a tree, and the whole tree fell over.
+SAMUS (surprised): ...Smaller snowballs.
+DARK_SAMUS (nervous): ...Smaller?
+SAMUS (smug): ...It's for fun. Not for destroying trees.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC jazz 2
+SCENE phendrana_drifts
+PLACE dark_samus center left nervous
+PLACE etecoon midright left excited
+SFX splat
+DARK_SAMUS (nervous): ...Small snowball.
+ETECOON (excited): Eee!
+NARRATOR: The tiny snowball bonked the etecoon gently on the nose. The etecoon laughed. Then it threw one right back.
+DARK_SAMUS (surprised): ...It hit me back.
+ETECOON (happy): Eee eee!
+DARK_SAMUS (happy): ...That was... nice.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC happy
+SCENE phendrana_drifts
+PLACE dark_samus center left nervous
+PLACE etecoon midright left excited
+DARK_SAMUS (nervous): ...What is this?
+ETECOON (excited): Eee! Eee!
+NARRATOR: The etecoon held out a carrot. And two little rocks. And a scarf. Then it pointed at a big ball of snow.
+DARK_SAMUS (surprised): ...You want me to make a... person? Out of snow?
+ETECOON (happy): Eee eee!
+DARK_SAMUS (happy): ...A snow Samus.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC happy
+SCENE phendrana_drifts
+CARD One hour later...
+PLACE dachora center left excited
+PLACE dark_samus midright left happy
+DACHORA (excited): Kweh!
+NARRATOR: Dark Samus rode the sled. Dark Samus built half a snow fort. Dark Samus made a snow angel, and it glowed blue in the dark.
+DARK_SAMUS (happy): ...I made an angel.
+DACHORA (happy): Kweh kweh!
+DARK_SAMUS (shy): ...It's not a very good angel.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC jazz
+SCENE phendrana_drifts
+PLACE samus center right smug
+PLACE dark_samus midleft right surprised
+NARRATOR: Dark Samus had made a snow Samus. It was very detailed. It had an arm cannon made of icicles. It had a helmet made of packed snow. It was, honestly, very good.
+SAMUS (smug): ...My cannon isn't that big.
+DARK_SAMUS (smug): ...It is in my memory.
+SAMUS (surprised): ...
+DARK_SAMUS (happy): ...That was a joke. I made a joke.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC sad
+SCENE phendrana_drifts
+PLACE baby_metroid center left sad
+PLACE samus midright left nervous
+BABY_METROID (sad): Skree...
+SAMUS (nervous): ...What's wrong?
+BABY_METROID (sad): Skree skree.
+SAMUS (surprised): ...You're cold.
+NARRATOR: The Baby Metroid was shivering. Metroids are not built for snow. It had been having too much fun to notice.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC romantic
+SCENE phendrana_drifts
+PLACE dark_samus center left nervous
+PLACE baby_metroid midright left sad
+PLACE samus midleft right neutral
+SFX sparkle
+DARK_SAMUS (nervous): ...I am made of Phazon. Phazon is warm.
+NARRATOR: Dark Samus held out her glowing hands. The Baby Metroid floated over and curled up next to them. It stopped shivering.
+BABY_METROID (happy): Skree.
+DARK_SAMUS (shy): ...It's... purring?
+SAMUS (happy): ...It likes you.
+
+# ------------------------------------------------------------ PHENDRANA DRIFTS
+MUSIC romantic 2
+SCENE phendrana_drifts
+CARD Sunset...
+PLACE samus center right happy
+PLACE dark_samus midleft right happy
+DARK_SAMUS (happy): ...Samus Aran. Thank you for the snow day.
+SAMUS (smug): ...Tomorrow, we're enemies again.
+DARK_SAMUS (smug): ...Of course.
+SAMUS (happy): ...Same time next winter?
+DARK_SAMUS (happy): ...Same time next winter.
+END

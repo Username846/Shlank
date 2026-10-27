@@ -24,6 +24,11 @@ static func draw(p: Puppet, style: String) -> bool:
 		"toadette": _toadette(p)
 		"bowser_jr": _bowser_jr(p)
 		"king_boo": _king_boo(p)
+		# Metroid
+		"phantoon": _phantoon(p)
+		"crocomire": _crocomire(p)
+		"draygon": _draygon(p)
+		"torizo": _torizo(p)
 		_: return false
 	return true
 
@@ -204,10 +209,26 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "top": Color("8fd8e0"), "bottom": "dress", "flare": 40.0, "hair": "long", "hair_col": Color("f4f0d8"),
 				"lashes": 2, "eye_iris": Color("3d8fe0"), "legs": Color("8fd8e0"), "shoe": Color("8fd8e0"), "sleeves": "long",
 				"torso_w": 26.0, "extra": _x_star_crown}
+		# Metroid
+		"anthony_higgs":
+			return {"size": "adult", "skin": Color("8a5a3a"), "top": Color("5a7a9a"), "sleeves": "long", "bottom_col": Color("4a5a6a"),
+				"shoe": Color("2b2b33"), "hair": "none", "torso_w": 40.0, "arm_w": 11.0, "leg_w": 17.0, "head": Vector2(36, 38),
+				"torso_extra": _x_armor_plate, "extra": _small_beard}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_armor_plate(p: Puppet) -> void:
+	Art.shape(p.ci, Art.rrect(Rect2(-40, -196, 80, 60), 10), Color("8a9ab0"), 3.5, 0.12)
+	for sx in [-1, 1]:
+		Art.shape(p.ci, Art.rrect(Rect2(sx * 40 - 16, -204, 32, 22), 8), Color("8a9ab0"), 3.0)
+	Art.shape(p.ci, Art.rrect(Rect2(-12, -180, 24, 14), 3), Color("f2c14e"), 2.0)
+
+
+static func _small_beard(p: Puppet, hc: Vector2) -> void:
+	Art.shape(p.ci, Art.arc_pts(hc + Vector2(0, 14), 28, 26, 0, PI, 14), Color("1d1d22"), 0.0)
+	p._mouth(hc + Vector2(0, 20), 22, 0)
 
 static func _x_bib(p: Puppet, size: String, col: Color) -> void:
 	var sh: float = SHOULDER[size]
@@ -569,4 +590,99 @@ static func _king_boo(p: Puppet) -> void:
 	Art.shape(ci, PackedVector2Array([Vector2(-34, y + 16), Vector2(-34, y - 14), Vector2(-17, y + 2), Vector2(0, y - 20), Vector2(17, y + 2),
 		Vector2(34, y - 14), Vector2(34, y + 16)]), Color("f2c14e"), 3.0, 0.12)
 	Art.dot(ci, Vector2(0, y + 4), 6, Color("e6452f"))
+
+
+
+
+# ------------------------------------------------------------- Metroid --
+
+static func _phantoon(p: Puppet) -> void:
+	var ci := p.ci
+	var bob := sin(p._t * 1.6) * 10.0
+	var c := Vector2(0, -230 + bob)
+	var body := Color(0.55, 0.45, 0.75, 0.9)
+	# Wavy tentacles hanging down
+	for i in 6:
+		var x := -70.0 + i * 28.0
+		var pts := PackedVector2Array()
+		for k in 8:
+			var f := k / 7.0
+			pts.append(c + Vector2(x + sin(f * 5.0 + p._t * 3.0 + i) * 10.0, 40 + f * 150))
+		Art.limb(ci, pts, 12 - i % 2 * 3, Color(0.6, 0.5, 0.8, 0.8))
+	Art.shape(ci, Art.smooth(PackedVector2Array([c + Vector2(-100, 30), c + Vector2(-80, -60), c + Vector2(0, -100), c + Vector2(80, -60),
+		c + Vector2(100, 30), c + Vector2(0, 60)]), 6), body, 4.0, 0.12)
+	# One huge eye, and a little crown of spikes
+	p._eye(c + Vector2(0, -16), 36, 30, 16.0, Color("e6452f"), 1, 0.1, body, Color("f6e05a"))
+	for k in 5:
+		var x := -40.0 + k * 20.0
+		Art.shape(ci, PackedVector2Array([c + Vector2(x - 8, -86), c + Vector2(x, -120), c + Vector2(x + 8, -86)]), Color("8a3a8a"), 2.5)
+	p._mouth(c + Vector2(0, 34), 40, 2)
+
+
+static func _crocomire(p: Puppet) -> void:
+	var ci := p.ci
+	var red := Color("c8402a")
+	var raise := p._arm_raise()
+	p._arm(Vector2(-60, -200), -1, raise.x, 60, 14, red, 14, Color("f2c14e"))
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.4
+		Art.limb(ci, PackedVector2Array([Vector2(sx * 34, -80), Vector2(sx * 40 + sw, -10)]), 30, red.darkened(0.15))
+	Art.shape(ci, Art.smooth(PackedVector2Array([Vector2(-70, -260), Vector2(70, -260), Vector2(80, -120), Vector2(50, -60), Vector2(-50, -60),
+		Vector2(-80, -120)]), 6), red, 4.5, 0.14)
+	Art.shape(ci, Art.smooth(PackedVector2Array([Vector2(-40, -200), Vector2(40, -200), Vector2(40, -90), Vector2(-40, -90)]), 4),
+		Color("f2a060"), 3.0)
+	# A row of eyes all the way up
+	Art.shape(ci, Art.smooth(PackedVector2Array([Vector2(-66, -250), Vector2(-50, -316), Vector2(0, -336), Vector2(50, -316), Vector2(66, -250)]), 5),
+		red, 4.0, 0.1)
+	for k in 4:
+		p._eye(Vector2(-42 + k * 28, -296), 9, 11, 0, Color(0, 0, 0, 0), 1 if k > 1 else -1, 0.2, red)
+	p._mouth(Vector2(0, -230), 80, 3)
+	p._arm(Vector2(60, -200), 1, raise.y, 60, 14, red, 14, Color("f2c14e"))
+
+
+static func _draygon(p: Puppet) -> void:
+	var ci := p.ci
+	var shell := Color("4a8a7a")
+	var belly := Color("e8d890")
+	var bob := sin(p._t * 2.0) * 6.0
+	var raise := p._arm_raise()
+	# A big swimming crustacean: tail, belly plates, six little arms
+	var tail := PackedVector2Array()
+	for i in 10:
+		var f := i / 9.0
+		tail.append(Vector2(-40 - f * 120, -120 + bob + sin(f * 4.0 + p._t * 2.0) * 16.0))
+	Art.limb(ci, tail, 26, shell)
+	Art.shape(ci, PackedVector2Array([tail[9] + Vector2(10, -30), tail[9] + Vector2(-40, 0), tail[9] + Vector2(10, 30)]), shell.lightened(0.2), 3.0)
+	for k in 3:
+		p._arm(Vector2(-10 + k * 20, -90 + bob), 1 if k % 2 == 0 else -1, raise.x * 0.5 + 0.6, 30, 6, shell, 5, belly)
+	Art.shape(ci, Art.smooth(PackedVector2Array([Vector2(-60, -200 + bob), Vector2(40, -220 + bob), Vector2(70, -150 + bob), Vector2(40, -60 + bob),
+		Vector2(-40, -60 + bob), Vector2(-70, -130 + bob)]), 6), shell, 4.5, 0.14)
+	for k in 4:
+		Art.shape(ci, Art.rrect(Rect2(-30, -170 + k * 26 + bob, 70, 20), 8), belly, 2.5)
+	var hc := Vector2(40, -232 + bob)
+	Art.blob(ci, hc, 40, 30, shell, 4.0, 0.12)
+	for sx in [-1, 1]:
+		p._eye(hc + Vector2(sx * 12 + 6, -8), 7, 8, 3.0, Color("e6452f"), sx, 0.1, shell, Color("f6e05a"))
+	p._mouth(hc + Vector2(16, 16), 24, 2)
+
+
+static func _torizo(p: Puppet) -> void:
+	var ci := p.ci
+	var stone := Color("a8a090")
+	var raise := p._arm_raise()
+	# An old Chozo statue that came to life: stone body, bird head, glowing eyes
+	p._arm(Vector2(-30, -200), -1, raise.x, 58, 12, stone, 12, stone.darkened(0.2))
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.5
+		Art.limb(ci, PackedVector2Array([Vector2(sx * 20, -110), Vector2(sx * 26 + sw, -60), Vector2(sx * 16 + sw, -10)]), 18, stone)
+	Art.shape(ci, Art.smooth(PackedVector2Array([Vector2(-36, -230), Vector2(36, -230), Vector2(30, -110), Vector2(-30, -110)]), 4), stone, 4.0, 0.15)
+	for d in [Vector2(-18, -200), Vector2(12, -170), Vector2(-8, -140)]:
+		Art.stroke(ci, PackedVector2Array([d, d + Vector2(14, 10)]), 2.0, stone.darkened(0.35))
+	var hc := Vector2(6, -270)
+	Art.blob(ci, hc, 30, 28, stone, 4.0, 0.12)
+	Art.shape(ci, PackedVector2Array([hc + Vector2(20, -6), hc + Vector2(60, 6), hc + Vector2(20, 14)]), Color("c8a050"), 3.0)
+	var glow := Color("f2602a") if p._blink < 0.5 else Color("8a3a2a")
+	for sx in [-1, 1]:
+		Art.blob(ci, hc + Vector2(sx * 10 + 4, -6), 6, 5, glow, 0.0)
+	p._arm(Vector2(30, -200), 1, raise.y, 58, 12, stone, 12, stone.darkened(0.2))
 

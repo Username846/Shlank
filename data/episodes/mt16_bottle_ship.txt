@@ -1,0 +1,197 @@
+@title The Bottle Ship
+@series Metroid
+@season 2
+@icon visor
+@number 6
+@description Samus and Anthony answer a distress call from the Bottle Ship, a Federation research station. The scientists are missing. The specimens are loose. And one of them is a very small, very cute baby Draygon who wants its mom. Its mom is very, very big.
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC tense
+SCENE gfs_olympus cut
+TITLE
+PLACE adam center left neutral
+PLACE samus midright left neutral
+PLACE anthony_higgs right left excited
+ADAM (neutral): Lady. A distress signal from the Bottle Ship. A research station. Nobody is answering.
+SAMUS (neutral): ...Any idea why?
+ADAM (nervous): The last message said: "It's loose. It's cute. Please send help."
+ANTHONY_HIGGS (excited): Cute? Something cute is loose? I'm in!
+SAMUS (sad): ...
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC spooky
+SCENE bottle_ship
+CARD The Bottle Ship...
+PLACE samus center right neutral
+PLACE anthony_higgs midleft right nervous
+SFX door
+ANTHONY_HIGGS (nervous): It's real quiet in here, Princess.
+SAMUS (neutral): ...Too quiet.
+ANTHONY_HIGGS (nervous): Look at these tubes. Something green. Something pink. Something yellow.
+SFX squeak
+ANTHONY_HIGGS (scared): And something with a lot of little legs. Running toward us.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC action
+SCENE bottle_ship
+PLACE samus center right excited
+PLACE anthony_higgs midleft right scared
+SFX squeak
+NARRATOR: It was small. About the size of a cat. It had a shell, six little arms and a very loud squeak. It jumped right into Anthony's arms.
+ANTHONY_HIGGS (scared): IT'S ON ME! IT'S ON ME!
+SAMUS (surprised): ...It's hugging you.
+ANTHONY_HIGGS (surprised): ...Oh. It is. It's kind of cute, actually.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC jazz
+SCENE bottle_ship
+PLACE anthony_higgs center left happy
+PLACE samus midright left neutral
+ANTHONY_HIGGS (happy): What is it, Princess? A crab? A shrimp? A lobster with a lot of arms?
+SAMUS (neutral): ...Scanning. It's a baby Draygon.
+ANTHONY_HIGGS (surprised): A baby what?
+SAMUS (nervous): ...Draygon. Queen of Maridia. Very big. Very protective.
+ANTHONY_HIGGS (nervous): So this little guy has a mom.
+SAMUS (nervous): ...A very big mom.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC jazz 2
+SCENE bottle_ship
+PLACE anthony_higgs center left happy
+PLACE samus midright left neutral
+NARRATOR: The baby Draygon would not let go of Anthony. It sat on his shoulder. It played with his ear. It squeaked every time he talked.
+ANTHONY_HIGGS (happy): I think he likes me, Princess.
+SAMUS (smug): ...He likes your shoulder pads.
+ANTHONY_HIGGS (happy): Everybody likes my shoulder pads. I'm calling him Squeaky.
+SAMUS (nervous): ...Don't name it.
+ANTHONY_HIGGS (smug): Too late. Squeaky's family now.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC sneaky
+SCENE bottle_ship
+PLACE samus center right neutral
+SFX detector
+NARRATOR: Samus found the scientists. They were all hiding in the cafeteria. Behind the fridge. Very scared.
+SAMUS (neutral): ...What happened?
+NARRATOR: "We took an egg from Maridia. To study it. It hatched. And now its mother is coming."
+SAMUS (angry): ...You took a baby from its mom.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC tense
+SCENE bottle_ship
+PLACE samus center right nervous
+PLACE anthony_higgs midleft right scared
+SFX thud
+SHAKE 0.8
+ANTHONY_HIGGS (scared): Princess. The whole ship just shook.
+SFX thud
+SHAKE 1.0
+SAMUS (nervous): ...She's here.
+ANTHONY_HIGGS (scared): The mom? She's HERE? In SPACE?
+SAMUS (smug): ...Draygons can swim through anything.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC action 2
+SCENE bottle_ship
+PLACE draygon center left angry
+PLACE samus midright left surprised
+SFX blast
+SHAKE 1.0
+NARRATOR: The wall of the lab burst open. Water poured in. And through the water swam the biggest crustacean in the galaxy, with her six arms raised.
+DRAYGON (angry): SKREEEEE!
+SAMUS (surprised): ...
+DRAYGON (angry): SKREE! SKREEEE!
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC action
+SCENE bottle_ship
+PLACE samus center right angry
+PLACE draygon midleft right angry
+SFX splash
+NARRATOR: Water rushed through the lab. Draygon swept her tail and knocked over a row of glass tubes. The green specimen slid across the floor. The pink specimen hid under a desk.
+SAMUS (angry): ...Wait!
+DRAYGON (angry): SKREEE!
+NARRATOR: Samus did not fire. She lowered her arm cannon. She stepped in front of Anthony and the baby.
+SAMUS (neutral): ...We're not the ones who took him.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC tense
+SCENE bottle_ship
+PLACE anthony_higgs center left scared
+PLACE draygon midright left angry
+ANTHONY_HIGGS (scared): Ma'am! Ma'am! Your baby is right here! He's fine! He's safe!
+DRAYGON (angry): SKREE!
+ANTHONY_HIGGS (nervous): I know! I know it was wrong to take him! It wasn't us!
+DRAYGON (surprised): ...Skree?
+ANTHONY_HIGGS (happy): Here. Here's your little guy.
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC romantic
+SCENE bottle_ship
+PLACE draygon center left happy
+PLACE anthony_higgs midright left happy
+SFX squeak
+NARRATOR: The baby Draygon jumped out of Anthony's arms and swam straight to its mother. Draygon wrapped all six arms around it.
+DRAYGON (happy): Skreee...
+ANTHONY_HIGGS (happy): There you go. Back with your mom.
+DRAYGON (smug): Skree.
+ANTHONY_HIGGS (surprised): ...Did she just thank me?
+
+# ------------------------------------------------------------ BOTTLE SHIP
+MUSIC jazz 2
+SCENE bottle_ship
+PLACE samus center right neutral
+PLACE draygon midleft right neutral
+SAMUS (neutral): ...We'll take you both home. To Maridia.
+DRAYGON (surprised): Skree?
+SAMUS (smug): ...And the scientists will write you an apology. A long one.
+DRAYGON (happy): Skree skree!
+SAMUS (happy): ...Good.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC happy
+SCENE maridia
+CARD Maridia...
+PLACE draygon center left happy
+PLACE anthony_higgs midright left happy
+PLACE samus midleft right neutral
+NARRATOR: Back home in Maridia, the baby Draygon swam in circles around its mother. All its brothers and sisters came out to see.
+DRAYGON (happy): Skree!
+ANTHONY_HIGGS (surprised): How many babies does she have?
+SAMUS (smug): ...Forty.
+ANTHONY_HIGGS (scared): FORTY?
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC romantic
+SCENE maridia
+PLACE draygon center left happy
+PLACE samus midright left happy
+NARRATOR: Draygon swam up to Samus. She held out one of her six arms. In it was a shiny pink shell. The most beautiful shell in all of Maridia.
+DRAYGON (happy): Skree.
+SAMUS (surprised): ...For me?
+DRAYGON (smug): Skree skree.
+SAMUS (happy): ...Thank you.
+
+# ------------------------------------------------------------ MARIDIA
+MUSIC jazz
+SCENE maridia
+PLACE anthony_higgs center left happy
+PLACE samus midright left neutral
+ANTHONY_HIGGS (happy): Princess. You know what? I think that was the best mission I've ever been on.
+SAMUS (surprised): ...No fighting.
+ANTHONY_HIGGS (smug): Exactly. Just a family. Back together.
+SAMUS (happy): ...Yes.
+ANTHONY_HIGGS (excited): Also, I got a hug from a baby crab monster!
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC romantic 2
+SCENE gfs_olympus
+CARD Later...
+PLACE adam center left neutral
+PLACE samus midright left neutral
+ADAM (neutral): Lady. The Bottle Ship scientists have been reassigned. To cleaning duty.
+SAMUS (smug): ...Good.
+ADAM (surprised): And Maridia sent a package. Addressed to "Anthony."
+SAMUS (happy): ...What's in it?
+ADAM (smug): A drawing. Of a very big crab hugging a very big man. With forty little crabs around them.
+END

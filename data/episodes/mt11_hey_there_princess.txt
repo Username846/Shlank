@@ -1,0 +1,197 @@
+@title Hey There, Princess
+@series Metroid
+@season 2
+@icon visor
+@number 1
+@description Samus is called to the Galactic Federation flagship for a mission briefing. Her old friend Anthony Higgs is there. He talks a lot. Samus doesn't. He calls her "Princess." She hates it. The mission is to find a missing cargo ship full of something very important: Federation barbecue sauce.
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC happy
+SCENE gfs_olympus cut
+TITLE
+PLACE anthony_higgs center left excited
+PLACE samus midright left neutral
+ANTHONY_HIGGS (excited): Well, well, well! Hey there, Princess! Long time no see!
+SAMUS (angry): ...Don't call me that.
+ANTHONY_HIGGS (happy): Aw, come on! I've been calling you Princess since the Academy!
+SAMUS (smug): And I've been telling you not to since the Academy.
+ANTHONY_HIGGS (excited): See? Tradition! I love it!
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC tense
+SCENE gfs_olympus
+PLACE adam center left neutral
+PLACE samus midright left neutral
+PLACE anthony_higgs right left nervous
+ADAM (neutral): Lady. A Federation cargo ship has gone missing. Near Tallon IV. Its cargo is extremely valuable.
+SAMUS (neutral): ...What's the cargo?
+ADAM (nervous): Barbecue sauce.
+SAMUS (surprised): ...
+ADAM (smug): The entire Federation's supply. For the annual Federation Cookout. Morale depends on it.
+ANTHONY_HIGGS (scared): No sauce? At the cookout? That's a galactic emergency!
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC jazz
+SCENE gfs_olympus
+PLACE anthony_higgs center left excited
+PLACE samus midright left neutral
+ANTHONY_HIGGS (excited): I'm coming with you, Princess! I've got my plasma cannon and my grilling apron!
+SAMUS (neutral): I work alone.
+ANTHONY_HIGGS (smug): You worked alone last time. And the time before that. How about some company?
+SAMUS (angry): ...
+ANTHONY_HIGGS (happy): I'll take that as a yes.
+SAMUS (sad): ...It wasn't.
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC jazz 2
+SCENE gfs_olympus
+PLACE anthony_higgs center left happy
+PLACE adam midright left neutral
+ANTHONY_HIGGS (happy): Commander Malkovich, sir! Permission to bring my portable grill on the mission?
+ADAM (neutral): Why would you need a grill on a rescue mission, Higgs?
+ANTHONY_HIGGS (smug): Sir, every mission is better with a grill. Morale goes up three hundred percent.
+ADAM (surprised): ...Is that a real number?
+ANTHONY_HIGGS (excited): I measured it myself, sir! At the last cookout!
+ADAM (sad): ...Permission granted. Please don't set the gunship on fire.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC sneaky
+SCENE frigate_orpheon
+PLACE space_pirate center left excited
+PLACE ridley midright left happy
+SPACE_PIRATE (excited): Commander Ridley! We captured a Federation cargo ship! Full of barrels!
+RIDLEY (excited): SCREEE!
+SPACE_PIRATE (nervous): We opened one. It's not weapons. It's... sauce.
+RIDLEY (surprised): Scree?
+SPACE_PIRATE (happy): It's actually really good on space rations, sir. Want to try?
+RIDLEY (happy): ...Scree.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC jazz 2
+SCENE tallon_overworld
+CARD Tallon IV...
+PLACE anthony_higgs center left nervous
+PLACE samus midright left neutral
+ANTHONY_HIGGS (nervous): It's raining. It's always raining here, huh, Princess?
+SAMUS (neutral): ...Yes.
+ANTHONY_HIGGS (happy): You know what goes great with rain? Barbecue. Under an umbrella. With friends.
+SAMUS (smug): Focus.
+ANTHONY_HIGGS (smug): I'm focused! I'm focused on barbecue!
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC tense
+SCENE tallon_overworld
+PLACE samus center right neutral
+PLACE anthony_higgs midleft right surprised
+SFX detector
+NARRATOR: Samus scanned the area with her visor. There were tracks in the mud. Big, three-toed tracks. And a trail of something brown and sticky.
+ANTHONY_HIGGS (surprised): Is that... sauce? A trail of sauce?
+SAMUS (smug): ...Pirates.
+ANTHONY_HIGGS (angry): Pirates stole the cookout sauce? Now it's personal.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC jazz
+SCENE frigate_orpheon
+PLACE space_pirate center left happy
+PLACE ridley midright left excited
+SPACE_PIRATE (happy): Sir, the whole crew loves the sauce. We put it on everything.
+RIDLEY (excited): SCREE!
+SPACE_PIRATE (surprised): You want to have a cookout? Here? On the frigate?
+RIDLEY (happy): Scree scree!
+SPACE_PIRATE (excited): A Space Pirate cookout! That's never happened before!
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC sneaky
+SCENE tallon_overworld
+PLACE samus center right neutral
+PLACE anthony_higgs midleft right excited
+NARRATOR: The trail of sauce led through the jungle, over a river and right up to a Space Pirate frigate, parked in a clearing. Smoke was coming out of the top. It smelled delicious.
+ANTHONY_HIGGS (excited): Princess. That's mesquite smoke. Somebody in there knows what they're doing.
+SAMUS (smug): ...Or they're on fire.
+ANTHONY_HIGGS (happy): Either way, we should go in.
+SAMUS (neutral): ...Quietly.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC sneaky 2
+SCENE frigate_orpheon
+PLACE samus center right neutral
+PLACE anthony_higgs midleft right nervous
+SFX door
+ANTHONY_HIGGS (nervous): Princess. Why does the frigate smell like hickory?
+SAMUS (surprised): ...
+NARRATOR: Down the hallway, there was music. And laughing. And the sound of a grill.
+ANTHONY_HIGGS (surprised): Are the Space Pirates... having a cookout? With OUR sauce?
+SAMUS (angry): ...
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC action
+SCENE frigate_orpheon
+PLACE samus center right angry
+PLACE ridley midleft right angry
+PLACE anthony_higgs midright left neutral
+SFX blast
+RIDLEY (angry): SCREEEE!
+SAMUS (angry): The sauce. Now.
+SFX laser
+NARRATOR: Ridley flapped. Samus fired. A barrel of barbecue sauce got hit, and sauce sprayed across the whole room.
+ANTHONY_HIGGS (scared): NOT THE SAUCE!
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC tense
+SCENE frigate_orpheon
+PLACE anthony_higgs center left angry
+PLACE space_pirate midright left scared
+ANTHONY_HIGGS (angry): STOP! Everybody stop!
+SPACE_PIRATE (scared): ...Why?
+ANTHONY_HIGGS (angry): Because you're cooking those burgers WRONG! You're flipping them way too much!
+SPACE_PIRATE (surprised): We are?
+ANTHONY_HIGGS (smug): Flip once. Only once. Let the grill do the work.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC happy
+SCENE frigate_orpheon
+PLACE anthony_higgs center left happy
+PLACE ridley midright left surprised
+PLACE samus midleft right neutral
+NARRATOR: And so, for the first time in galactic history, a Federation soldier taught a crew of Space Pirates how to grill. Ridley watched. Ridley took notes.
+ANTHONY_HIGGS (happy): See? Perfect sear. Juicy inside.
+RIDLEY (surprised): Scree...
+ANTHONY_HIGGS (smug): That's a happy screech, Princess. I can tell.
+SAMUS (surprised): ...
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC happy 2
+SCENE frigate_orpheon
+PLACE space_pirate center left happy
+PLACE anthony_higgs midright left smug
+NARRATOR: An hour later, the Space Pirates were flipping burgers perfectly. Once each. Ridley was wearing an apron. It said "Kiss the Cook." Nobody kissed the cook.
+SPACE_PIRATE (happy): Mister Higgs, this is the best food we've ever made!
+ANTHONY_HIGGS (smug): Told you. Low heat. Patience. And a little love.
+SPACE_PIRATE (surprised): Love?
+ANTHONY_HIGGS (happy): And barbecue sauce. Mostly barbecue sauce.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC jazz 2
+SCENE frigate_orpheon
+PLACE samus center right neutral
+PLACE ridley midleft right sad
+PLACE anthony_higgs midright left neutral
+SAMUS (neutral): Half the sauce. Back to the Federation.
+RIDLEY (sad): Scree.
+SAMUS (smug): ...You can keep the other half.
+RIDLEY (excited): SCREE!
+ANTHONY_HIGGS (happy): She's a softie, Ridley. Under all that armor.
+SAMUS (angry): ...I am not.
+
+# ------------------------------------------------------------ G.F.S. OLYMPUS
+MUSIC romantic
+SCENE gfs_olympus
+CARD The Federation Cookout...
+PLACE anthony_higgs center left happy
+PLACE samus midright left happy
+ANTHONY_HIGGS (happy): Princess. The cookout is saved. Everyone's got sauce.
+SAMUS (happy): ...Good.
+ANTHONY_HIGGS (smug): Admit it. Having a partner was kind of nice.
+SAMUS (smug): ...Kind of.
+ANTHONY_HIGGS (excited): I'll take it! Burger?
+END

@@ -1,0 +1,200 @@
+@title The SkyTown Delivery
+@series Metroid
+@season 2
+@icon visor
+@number 8
+@description The Federation needs a package delivered to SkyTown, a golden city floating in the clouds of planet Elysia. Easy job, says Adam. Then Ridley shows up. Then the package starts beeping. Then it turns out the package is a birthday cake.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC happy
+SCENE ceres_station cut
+TITLE
+PLACE adam center left neutral
+PLACE samus midright left neutral
+ADAM (neutral): Lady. A simple delivery. One package to SkyTown on planet Elysia. Do not open it.
+SAMUS (neutral): ...What's in it?
+ADAM (smug): That's classified.
+SAMUS (smug): ...It's always classified.
+ADAM (happy): And it must arrive by sundown. Exactly. Not a minute late.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC jazz
+SCENE skytown
+CARD SkyTown, Elysia...
+PLACE samus center right surprised
+PLACE anthony_higgs midleft right excited
+ANTHONY_HIGGS (excited): Princess! I heard you were coming to SkyTown! I'm stationed here!
+SAMUS (surprised): ...You live here?
+ANTHONY_HIGGS (happy): Floating golden buildings! Clouds for days! Best view in the galaxy!
+SAMUS (nervous): ...How do you get between buildings?
+ANTHONY_HIGGS (smug): Zip lines, Princess. Very long zip lines.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC tense
+SCENE skytown
+PLACE samus center right nervous
+SFX beep
+NARRATOR: Samus checked the package. It was square. It was heavy. And it had just started beeping.
+SAMUS (nervous): ...
+SFX beep
+SAMUS (scared): ...It's counting down.
+NARRATOR: The display on the side said: 3 HOURS, 59 MINUTES.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC action
+SCENE skytown
+PLACE ridley center left angry
+PLACE samus midright left surprised
+SFX whoosh
+NARRATOR: Out of the clouds came a big purple shape. Wings spread wide. A long spiked tail. And a very hungry look.
+RIDLEY (angry): SCREEEEE!
+SAMUS (surprised): ...Ridley. Here?
+RIDLEY (smug): Scree scree!
+SAMUS (angry): ...You want the package. Of course you do.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC action 2
+SCENE skytown
+PLACE samus center right excited
+PLACE anthony_higgs midleft right excited
+SFX whoosh
+NARRATOR: Samus grabbed the package and jumped onto a zip line. Anthony jumped on right behind her. They zoomed across the clouds toward the next golden tower.
+ANTHONY_HIGGS (excited): WOOO! Princess, this is the best delivery EVER!
+SAMUS (nervous): ...It's still beeping.
+SFX beep
+ANTHONY_HIGGS (scared): And Ridley's right behind us!
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC jazz 2
+SCENE skytown
+PLACE anthony_higgs center left excited
+PLACE samus midright left neutral
+NARRATOR: They landed on a golden tower. Below them, the clouds rolled like an ocean. Above them, the sky turned orange. The sun was starting to set.
+ANTHONY_HIGGS (excited): See that building with the dome? That's the town hall. That's where the package goes.
+SAMUS (neutral): ...How far?
+ANTHONY_HIGGS (smug): Three zip lines, one rope bridge and a really big jump.
+SAMUS (nervous): ...How big?
+ANTHONY_HIGGS (happy): Don't look down, Princess.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC sneaky
+SCENE skytown
+PLACE samus center right neutral
+PLACE anthony_higgs midright left nervous
+ANTHONY_HIGGS (nervous): Princess. What's in the box? Seriously.
+SAMUS (neutral): ...Classified.
+ANTHONY_HIGGS (nervous): It's beeping and counting down. Things that beep and count down are usually very bad.
+SAMUS (nervous): ...I know.
+ANTHONY_HIGGS (smug): So let's peek. A tiny peek.
+SAMUS (angry): ...No.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC tense
+SCENE skytown
+PLACE ridley center left angry
+PLACE samus midright left angry
+PLACE anthony_higgs midleft right neutral
+SFX blast
+SHAKE 0.8
+RIDLEY (angry): SCREE!
+SAMUS (angry): ...Not today.
+SFX laser
+NARRATOR: Ridley dove. Samus fired. Ridley grabbed the zip line with his tail and swung it like a jump rope. Samus and Anthony bounced into the air.
+ANTHONY_HIGGS (scared): THE PACKAGE!
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC action
+SCENE skytown
+PLACE ridley center left excited
+PLACE anthony_higgs midright left scared
+SFX whoosh
+NARRATOR: The package flew out of Samus's hands. It tumbled through the air. And Ridley caught it in his claws.
+RIDLEY (excited): SCREEE!
+ANTHONY_HIGGS (scared): He's got it! He's flying away with it!
+SFX beep
+NARRATOR: The display said: 0 HOURS, 1 MINUTE.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC action 2
+SCENE skytown
+PLACE samus center right angry
+PLACE anthony_higgs midleft right scared
+SFX whoosh
+NARRATOR: Samus grappled to the next tower. Anthony jumped after her and grabbed her boot. They swung through the clouds, chasing a purple dragon and a beeping box.
+ANTHONY_HIGGS (scared): Princess! Your boot is very slippery!
+SAMUS (angry): ...Hold on!
+ANTHONY_HIGGS (scared): I AM holding on! That's the problem!
+SFX thud
+NARRATOR: They landed on the tallest tower. Right behind Ridley.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC tense
+SCENE skytown
+PLACE ridley center left surprised
+SFX drumroll
+NARRATOR: Ridley landed on top of the tallest golden tower. He held up the box. The beeping got faster. And faster.
+RIDLEY (surprised): Scree?
+SFX beep
+SFX beep
+SFX beep
+NARRATOR: Three. Two. One.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC happy
+SCENE skytown
+PLACE ridley center left surprised
+PLACE samus midright left surprised
+PLACE anthony_higgs midleft right neutral
+SFX fanfare
+NARRATOR: The box popped open. Confetti flew out. Music played. And inside the box was a giant, beautiful cake that said "HAPPY BIRTHDAY, SKYTOWN! 1000 YEARS!"
+RIDLEY (surprised): ...Scree?
+SAMUS (surprised): ...A cake.
+ANTHONY_HIGGS (surprised): A CAKE? We almost got eaten for a CAKE?
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC jazz 2
+SCENE skytown
+PLACE anthony_higgs center left happy
+PLACE samus midright left smug
+ANTHONY_HIGGS (happy): It's SkyTown's thousandth birthday! The countdown was for the party!
+SAMUS (smug): ...Classified.
+ANTHONY_HIGGS (excited): The whole city's coming out! Look! The lights are coming on!
+SAMUS (happy): ...We made it by sundown.
+ANTHONY_HIGGS (smug): Well, technically Ridley made it by sundown.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC happy 2
+SCENE skytown
+PLACE adam center left happy
+PLACE samus midright left smug
+NARRATOR: A screen lit up on the side of the tower. It was Adam, calling from Ceres Station. He was wearing a party hat.
+ADAM (happy): Lady! Did the cake arrive on time?
+SAMUS (smug): ...You could have told me it was a cake.
+ADAM (smug): Then it wouldn't have been a surprise.
+SAMUS (angry): ...It almost exploded.
+ADAM (happy): It was supposed to almost explode. That's what makes it a surprise party, Lady.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC sad
+SCENE skytown
+PLACE ridley center left sad
+PLACE samus midright left neutral
+RIDLEY (sad): Scree...
+SAMUS (neutral): ...You thought it was a treasure.
+RIDLEY (sad): Scree scree.
+SAMUS (surprised): ...You've never been to a birthday party.
+RIDLEY (shy): ...Scree.
+SAMUS (smug): ...Fine. One slice.
+
+# ------------------------------------------------------------ SKYTOWN
+MUSIC romantic
+SCENE skytown
+CARD The party...
+PLACE ridley center left happy
+PLACE anthony_higgs midright left excited
+PLACE samus midleft right neutral
+NARRATOR: That night, all of SkyTown celebrated. There were lights and music and dancing. And on the tallest tower, a space dragon ate birthday cake next to a bounty hunter and a Federation soldier.
+RIDLEY (happy): Scree!
+ANTHONY_HIGGS (excited): He likes it, Princess! Look at his little face!
+SAMUS (happy): ...Happy birthday, SkyTown.
+END

@@ -1,0 +1,203 @@
+@title Crocomire's Fear
+@series Metroid
+@season 2
+@icon visor
+@number 4
+@description Crocomire lives in the Magmoor Caverns, surrounded by lava. Crocomire is terrified of lava. Every day he tiptoes across the stone bridges, eyes closed. When the biggest bridge starts to crack, Kraid shows up to help. Kraid is not good at helping.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC sad
+SCENE magmoor_caverns cut
+TITLE
+PLACE crocomire center left scared
+NARRATOR: Crocomire was big. Crocomire was red. Crocomire had six eyes and a mouth that could swallow a ship. And Crocomire was afraid of exactly one thing.
+SFX sizzle
+CROCOMIRE (scared): Grah...
+NARRATOR: Lava. He was afraid of lava. And he lived in a cave full of it.
+CROCOMIRE (sad): Grah. Grah grah.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC jazz
+SCENE magmoor_caverns
+PLACE crocomire center left nervous
+PLACE samus midright left surprised
+SFX footstep
+SAMUS (surprised): ...Crocomire?
+CROCOMIRE (scared): GRAH!
+SAMUS (neutral): ...Why are your eyes closed?
+CROCOMIRE (nervous): Grah grah. Grah.
+SAMUS (surprised): ...You're scared of lava? You live here.
+CROCOMIRE (sad): Grah.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC sad
+SCENE magmoor_caverns
+PLACE crocomire center left sad
+NARRATOR: Every morning, Crocomire had to cross six stone bridges to get breakfast. Six bridges over six rivers of lava. He crossed every one with his eyes shut tight, counting his steps.
+CROCOMIRE (nervous): Grah. Grah. Grah.
+NARRATOR: Forty-two steps. Every morning. If he counted wrong, he had to start over.
+CROCOMIRE (sad): ...Grah.
+NARRATOR: He had not had a hot breakfast in eleven years.
+
+# ------------------------------------------------------------ KRAID'S LAIR
+MUSIC happy
+SCENE kraid_lair
+PLACE kraid center left happy
+PLACE space_pirate midright left nervous
+KRAID (happy): GRRROOOAR!
+SPACE_PIRATE (nervous): Sir, Crocomire is your cousin? Really?
+KRAID (smug): Grrr.
+SPACE_PIRATE (surprised): And you want to visit him? In Magmoor?
+KRAID (excited): GROOOAR!
+SPACE_PIRATE (scared): Sir, you're very big. And those bridges are very old.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC sneaky
+SCENE magmoor_caverns
+PLACE crocomire center left sad
+PLACE samus midright left neutral
+CROCOMIRE (sad): Grah grah. Grah.
+SAMUS (neutral): ...When you were small, you fell in the lava.
+CROCOMIRE (sad): Grah.
+SAMUS (surprised): ...And your skin melted off. And grew back.
+CROCOMIRE (sad): Grah grah grah.
+SAMUS (sad): ...That would make anyone scared.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC jazz 2
+SCENE magmoor_caverns
+PLACE samus center right neutral
+PLACE crocomire midleft right sad
+SAMUS (neutral): ...Do you know why lava glows?
+CROCOMIRE (surprised): Grah?
+SAMUS (smug): ...Heat. Rocks get so hot they light up. Like a lamp.
+CROCOMIRE (nervous): Grah grah.
+NARRATOR: Crocomire peeked at the lava with one eye. Just one. It glowed orange and gold. It was, he had to admit, a little bit pretty.
+SAMUS (happy): ...It's dangerous. But it's not mean.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC tense
+SCENE magmoor_caverns
+PLACE samus center right surprised
+PLACE crocomire midleft right scared
+SFX thud
+SHAKE 0.8
+NARRATOR: The ground shook. Something heavy was coming. Very heavy.
+SAMUS (surprised): ...What is that?
+SFX stomp
+SHAKE 1.0
+CROCOMIRE (scared): GRAH!
+NARRATOR: It was Kraid. Stomping across the biggest stone bridge. And the bridge was not built for Kraid.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC jazz 2
+SCENE magmoor_caverns
+PLACE kraid center left excited
+PLACE crocomire midright left surprised
+KRAID (excited): GRRROOOAR!
+CROCOMIRE (surprised): Grah?!
+KRAID (happy): Grrr grrr!
+CROCOMIRE (happy): Grah grah!
+NARRATOR: The two cousins hugged. The bridge creaked. A little rock fell into the lava. Then a bigger rock.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC action
+SCENE magmoor_caverns
+PLACE samus center right scared
+SFX thud
+SHAKE 1.0
+SAMUS (scared): ...The bridge.
+NARRATOR: The bridge cracked. Right down the middle. Kraid was on one side. Crocomire was on the other side. And between them was lava.
+SAMUS (angry): ...Don't move. Either of you.
+SFX sizzle
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC tense
+SCENE magmoor_caverns
+PLACE space_pirate center left scared
+PLACE samus midright left angry
+SPACE_PIRATE (scared): Samus! I'm Kraid's assistant! He told me to wait at the cave entrance but I heard crashing!
+SAMUS (angry): ...Rope. Do you have rope?
+SPACE_PIRATE (nervous): I have a very long scarf. My mom knitted it.
+SAMUS (smug): ...That'll do.
+SPACE_PIRATE (sad): ...Please don't let it fall in the lava.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC tense
+SCENE magmoor_caverns
+PLACE crocomire center left scared
+PLACE kraid midright left nervous
+CROCOMIRE (scared): GRAH! GRAH!
+KRAID (nervous): Grrr...
+NARRATOR: Crocomire's side of the bridge tilted. Slowly. Toward the lava. Crocomire closed all six eyes.
+CROCOMIRE (scared): Grah... grah...
+KRAID (angry): GRRROOOAR!
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC action 2
+SCENE magmoor_caverns
+PLACE kraid center left angry
+PLACE samus midright left surprised
+SFX stomp
+NARRATOR: Kraid did the only thing Kraid knew how to do. He stomped. Hard. His side of the bridge slammed down and the other side flipped up, like a seesaw. Crocomire flew into the air.
+SAMUS (surprised): ...
+SFX whoosh
+NARRATOR: Samus fired her grapple beam. It caught Crocomire's tail in midair.
+SAMUS (angry): ...Heavy!
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC tense
+SCENE magmoor_caverns
+PLACE samus center right angry
+PLACE crocomire midleft right scared
+SAMUS (angry): ...Crocomire. Open your eyes.
+CROCOMIRE (scared): Grah!
+SAMUS (neutral): ...The ledge. Right there. You have to reach for it.
+CROCOMIRE (scared): Grah grah!
+SAMUS (smug): ...It's over the lava. I know. Reach anyway.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC happy
+SCENE magmoor_caverns
+PLACE crocomire center left surprised
+PLACE samus midright left happy
+SFX thud
+NARRATOR: Crocomire opened one eye. Then two. Then all six. He looked at the lava, right below him. He was scared. He reached for the ledge anyway.
+CROCOMIRE (surprised): Grah!
+SAMUS (happy): ...You did it.
+CROCOMIRE (excited): GRAH! GRAH!
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC happy 2
+SCENE magmoor_caverns
+PLACE samus center right happy
+PLACE space_pirate midleft right happy
+NARRATOR: Samus spent the rest of the afternoon building a new bridge out of fallen boulders. The Space Pirate helped by holding the scarf. Kraid helped by pushing the biggest rocks into place.
+SPACE_PIRATE (happy): That's a really good bridge, Samus.
+SAMUS (smug): ...Thank you.
+SPACE_PIRATE (excited): And my scarf survived!
+SAMUS (happy): ...Tell your mom it's a very strong scarf.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC jazz
+SCENE magmoor_caverns
+PLACE kraid center left happy
+PLACE crocomire midright left happy
+KRAID (happy): Grrr! Grrr grrr!
+CROCOMIRE (happy): Grah! Grah grah!
+NARRATOR: Kraid patted his cousin on the back. Crocomire hugged him. The new bridge, which Samus built from fallen rocks, held both of them. Just barely.
+KRAID (smug): Grrr.
+CROCOMIRE (shy): Grah.
+
+# ------------------------------------------------------------ MAGMOOR CAVERNS
+MUSIC romantic
+SCENE magmoor_caverns
+CARD The next day...
+PLACE crocomire center left happy
+PLACE samus midright left surprised
+SFX footstep
+NARRATOR: The next day, Samus came back. And she found Crocomire walking across a stone bridge over the lava. With his eyes open.
+SAMUS (surprised): ...All six.
+CROCOMIRE (smug): Grah.
+SAMUS (happy): ...Brave.
+END

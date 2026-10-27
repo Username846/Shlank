@@ -1,0 +1,201 @@
+@title Phantoon's Quiet Night
+@series Metroid
+@season 2
+@icon visor
+@number 2
+@description Phantoon, the ghost of the Wrecked Ship, just wants one quiet night. But the Space Pirates have parked their frigate right next door, and they're having a karaoke party. Phantoon asks Samus to help. Samus is not a noise complaint department.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC spooky
+SCENE wrecked_ship cut
+TITLE
+PLACE phantoon center left happy
+NARRATOR: For a thousand years, the Wrecked Ship had been quiet. Dark. Peaceful. The perfect home for a ghost who liked quiet.
+PHANTOON (happy): Wooooo...
+NARRATOR: Phantoon floated through the empty halls, humming to himself. He had a book. He had a cup of ghost tea. He was ready for a perfect night.
+PHANTOON (smug): Woo.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC action
+SCENE wrecked_ship
+PLACE phantoon center left surprised
+SFX thud
+SHAKE 0.8
+NARRATOR: Then the walls shook. Music came through the hull. Very loud music. With a lot of drums.
+PHANTOON (surprised): Woo?!
+SFX thud
+SHAKE 0.6
+PHANTOON (angry): WOOOOO!
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC happy 2
+SCENE frigate_orpheon
+PLACE space_pirate center left excited
+PLACE ridley midright left excited
+SPACE_PIRATE (excited): Karaoke night on the frigate! Who's first?
+RIDLEY (excited): SCREEEE!
+SPACE_PIRATE (happy): Commander Ridley! Singing "Space Is Big and I Am Bigger"! A classic!
+RIDLEY (happy): SCREE SCREE SCREEEE!
+SPACE_PIRATE (nervous): Sir, maybe a little quieter? We parked right next to the Wrecked Ship.
+RIDLEY (smug): Scree.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC sad
+SCENE wrecked_ship
+PLACE phantoon center left sad
+SFX thud
+SHAKE 0.6
+NARRATOR: Phantoon tried everything. He put a pillow over his head. He hid in the engine room. He floated to the very bottom of the ship. He could still hear the drums.
+PHANTOON (sad): Wooo...
+NARRATOR: His ghost tea was cold. His book had fallen on the floor. His one eye was very, very tired.
+PHANTOON (angry): Woo. WOO.
+NARRATOR: There was only one person on this planet who could help. And she was not going to like it.
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC jazz
+SCENE save_room
+PLACE samus center right neutral
+PLACE phantoon midleft right sad
+SFX door
+NARRATOR: Samus was resting in a save room when a huge purple ghost floated through the wall.
+PHANTOON (sad): Wooo...
+SAMUS (surprised): ...Phantoon?
+PHANTOON (sad): Woo woo. Wooooo.
+SAMUS (neutral): ...They're having a party. Next to your ship. And it's loud.
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC sneaky
+SCENE save_room
+PLACE samus center right smug
+PLACE phantoon midleft right sad
+SAMUS (smug): I'm a bounty hunter. Not a noise complaint department.
+PHANTOON (sad): Wooo...
+SAMUS (neutral): ...
+PHANTOON (sad): Woo. Wooooo.
+SAMUS (sad): ...Fine. One complaint.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC jazz
+SCENE frigate_orpheon
+PLACE space_pirate center left happy
+PLACE ridley midright left excited
+NARRATOR: On the frigate, the party was going strong. There was a disco ball. There was a snack table. Six Space Pirates were doing a dance that involved a lot of claw-snapping.
+SPACE_PIRATE (happy): Commander! This is the best party in four hundred years!
+RIDLEY (excited): SCREE!
+SPACE_PIRATE (excited): Should we do the Pirate Shuffle next?
+RIDLEY (happy): Scree scree scree!
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC jazz 2
+SCENE frigate_orpheon
+PLACE samus center right neutral
+PLACE space_pirate midleft right scared
+SFX door
+SPACE_PIRATE (scared): SAMUS! On the frigate! Everybody hide!
+SAMUS (neutral): Turn down the music.
+SPACE_PIRATE (surprised): ...That's it? You're not here to blow us up?
+SAMUS (smug): Not tonight.
+SPACE_PIRATE (nervous): Okay. Uh. We'll turn it down. A little.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC spooky 2
+SCENE wrecked_ship
+PLACE phantoon center left happy
+NARRATOR: It was quiet. For five minutes. Phantoon opened his book. He took a sip of ghost tea.
+PHANTOON (happy): Woo.
+SFX thud
+SHAKE 0.8
+NARRATOR: Then the music came back. Louder. Much louder. With a new song.
+PHANTOON (angry): WOOOOOO!
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC action
+SCENE frigate_orpheon
+PLACE ridley center left excited
+PLACE space_pirate midright left nervous
+RIDLEY (excited): SCREEE!
+SPACE_PIRATE (nervous): Sir, Samus said to keep it down.
+RIDLEY (smug): Scree scree.
+SPACE_PIRATE (nervous): "Samus isn't the boss of karaoke." Okay. Okay, sir.
+SFX thud
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC sneaky 2
+SCENE save_room
+PLACE samus center right angry
+NARRATOR: Back in the save room, Samus tried to rest. She closed her eyes. She heard the drums. She heard Ridley screeching a high note. She heard six Space Pirates doing the Pirate Shuffle.
+SAMUS (angry): ...
+NARRATOR: She put her helmet back on. She turned off the speakers. She could still hear it.
+SAMUS (angry): ...Okay. Now it's personal.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC tense
+SCENE wrecked_ship
+PLACE phantoon center left angry
+PLACE samus midright left neutral
+PHANTOON (angry): WOOOO!
+SAMUS (neutral): ...I know. I heard.
+PHANTOON (smug): Woo. Woo woo.
+SAMUS (surprised): ...You want to scare them?
+PHANTOON (excited): WOOOO!
+SAMUS (smug): ...I'll help.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC spooky 2
+SCENE frigate_orpheon
+PLACE samus center right smug
+PLACE phantoon midleft right excited
+NARRATOR: Samus and Phantoon floated, and walked, through the frigate's air vents. Samus carried a flashlight. Phantoon carried his own spooky glow.
+SAMUS (smug): ...On three. You do the eye. I do the lights.
+PHANTOON (excited): Woo woo!
+SAMUS (happy): ...One. Two.
+PHANTOON (excited): WOO!
+SAMUS (nervous): ...That was two, not three.
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC spooky
+SCENE frigate_orpheon
+PLACE space_pirate center left scared
+PLACE ridley midright left scared
+PLACE phantoon midleft right neutral
+SFX hiss
+NARRATOR: The lights on the frigate flickered. And went out. The music stopped. Cold air filled the room. And out of the darkness came a huge, glowing eye.
+SPACE_PIRATE (scared): W-what is that?!
+RIDLEY (scared): Scree?!
+PHANTOON (angry): WOOOOOOOOO!
+
+# ------------------------------------------------------------ FRIGATE ORPHEON
+MUSIC action 2
+SCENE frigate_orpheon
+PLACE space_pirate center left scared
+PLACE ridley midright left scared
+SFX blast
+SHAKE 1.0
+NARRATOR: Space Pirates ran in every direction. Ridley hid behind the karaoke machine. Somewhere in the dark, a bounty hunter in orange armor made very spooky noises through her helmet speaker.
+SPACE_PIRATE (scared): The ship is haunted! Start the engines!
+RIDLEY (scared): SCREE! SCREE!
+SFX whoosh
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC romantic
+SCENE wrecked_ship
+CARD Later...
+PLACE phantoon center left happy
+PLACE samus midright left smug
+NARRATOR: The frigate flew away. Far away. To the other side of the planet. And the Wrecked Ship was quiet again.
+PHANTOON (happy): Wooo.
+SAMUS (smug): ...You're welcome.
+PHANTOON (excited): Woo woo!
+SAMUS (surprised): ...Tea? With you?
+SAMUS (happy): ...Okay. One cup.
+
+# ------------------------------------------------------------ WRECKED SHIP
+MUSIC romantic 2
+SCENE wrecked_ship
+PLACE samus center right happy
+PLACE phantoon midleft right happy
+NARRATOR: Samus Aran and Phantoon sat in the quiet hall. They drank ghost tea. They read books. Nobody said anything.
+PHANTOON (happy): Woo.
+SAMUS (happy): ...Yes. It's nice.
+NARRATOR: It was the best night either of them had had in a thousand years.
+END

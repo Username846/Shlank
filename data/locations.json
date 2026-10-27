@@ -1294,6 +1294,56 @@
 		"show": "Metroid",
 		"description": "Downloads the map. Very helpful."
 	},
+	"tallon_overworld": {
+		"name": "Tallon Overworld",
+		"description": "A rainy jungle on Tallon IV, where Samus parks her gunship.",
+		"show": "Metroid"
+	},
+	"phendrana_drifts": {
+		"name": "Phendrana Drifts",
+		"description": "Frozen ruins and blue ice crystals under a constant snowfall.",
+		"show": "Metroid"
+	},
+	"magmoor_caverns": {
+		"name": "Magmoor Caverns",
+		"description": "Stone bridges over rivers of lava. Very hot. Very orange.",
+		"show": "Metroid"
+	},
+	"frigate_orpheon": {
+		"name": "Frigate Orpheon",
+		"description": "A Space Pirate frigate full of warning stripes, pipes and blaring alarms.",
+		"show": "Metroid"
+	},
+	"sr388": {
+		"name": "SR388",
+		"description": "The Metroid home world. Green, gooey caves and old Metroid eggs.",
+		"show": "Metroid"
+	},
+	"bottle_ship": {
+		"name": "Bottle Ship",
+		"description": "A Federation research station full of glass tubes and very strange specimens.",
+		"show": "Metroid"
+	},
+	"gfs_olympus": {
+		"name": "G.F.S. Olympus",
+		"description": "The bridge of the Galactic Federation's flagship, looking out at the stars.",
+		"show": "Metroid"
+	},
+	"skytown": {
+		"name": "SkyTown",
+		"description": "Golden floating buildings above the clouds of planet Elysia.",
+		"show": "Metroid"
+	},
+	"agon_wastes": {
+		"name": "Agon Wastes",
+		"description": "A dry canyon with old Luminoth ruins and dead trees.",
+		"show": "Metroid"
+	},
+	"phazon_mines": {
+		"name": "Phazon Mines",
+		"description": "A deep mine shaft with scaffolding, mine carts and glowing blue Phazon.",
+		"show": "Metroid"
+	},
 	"green_greens": {
 		"name": "Green Greens",
 		"show": "Kirby",

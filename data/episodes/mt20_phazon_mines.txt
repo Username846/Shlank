@@ -1,0 +1,198 @@
+@title Trouble in the Phazon Mines
+@series Metroid
+@season 2
+@icon visor
+@number 10
+@description The Phazon Mines are collapsing, and everybody is trapped inside: Samus, Anthony, the etecoons, Kraid, Ridley, a crew of Space Pirates and a retired Mother Brain who came to sightsee. Heroes and villains will have to work together to get out. Torizo has rules about that.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC tense
+SCENE phazon_mines cut
+TITLE
+PLACE samus center right neutral
+PLACE anthony_higgs midleft right nervous
+ANTHONY_HIGGS (nervous): Princess. Why are we in a Phazon mine?
+SAMUS (neutral): ...The etecoons wandered in. We're getting them out.
+ANTHONY_HIGGS (nervous): And why is the ground shaking?
+SFX thud
+SHAKE 0.8
+SAMUS (nervous): ...That's new.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC action
+SCENE phazon_mines
+PLACE samus center right surprised
+PLACE anthony_higgs midleft right scared
+SFX blast
+SHAKE 1.0
+NARRATOR: The mine shook. Rocks fell. A huge boulder slammed down over the exit tunnel. And then it was very quiet. And very dark.
+ANTHONY_HIGGS (scared): The exit! It's blocked!
+SAMUS (surprised): ...
+ANTHONY_HIGGS (nervous): Princess. Please say something.
+SAMUS (nervous): ...We're trapped.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC sneaky
+SCENE phazon_mines
+PLACE samus center right surprised
+PLACE ridley midleft right surprised
+PLACE mother_brain midright left neutral
+SFX footstep
+NARRATOR: Samus turned on her helmet light. And in the glow, she saw she was not alone.
+RIDLEY (surprised): ...Scree?
+SAMUS (surprised): ...Ridley.
+NARRATOR: Behind Ridley stood Kraid. Behind Kraid stood six Space Pirates. And behind them, in a jar on wheels, sat Mother Brain, holding a little map.
+MOTHER_BRAIN (smug): Oh. Hello. I'm retired. I'm on a tour.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC tense
+SCENE phazon_mines
+PLACE mother_brain center left smug
+PLACE samus midright left neutral
+MOTHER_BRAIN (smug): So. We're all stuck down here together. Heroes. Villains. Retirees.
+SAMUS (neutral): ...Looks like it.
+MOTHER_BRAIN (happy): Then I suggest a truce. Until we get out.
+SAMUS (nervous): ...You want to work together.
+MOTHER_BRAIN (smug): I want to see daylight again, Samus. I'm three hundred years old. I have a book club on Thursdays.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC jazz
+SCENE phazon_mines
+PLACE torizo center left angry
+PLACE samus midright left surprised
+SFX stomp
+TORIZO (angry): Rule one hundred and six. Heroes and villains do not work together.
+SAMUS (surprised): ...Torizo? What are you doing here?
+TORIZO (neutral): Guarding the item room. On the lower level. It is very boring.
+SAMUS (smug): ...Rule four hundred and fourteen. Fewer rules.
+TORIZO (nervous): ...I did say I would consider it.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC sad
+SCENE phazon_mines
+PLACE kraid center left sad
+PLACE ridley midright left nervous
+NARRATOR: Kraid sat in the corner. He was too big for the mine. His head kept bumping the ceiling. Ridley was next to him, wings folded up tight.
+KRAID (sad): Grrr...
+RIDLEY (nervous): Scree.
+NARRATOR: They were both very big, very scary monsters. And they were both, it turned out, a little bit afraid of small spaces.
+KRAID (sad): ...Grrr.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC sneaky 2
+SCENE phazon_mines
+PLACE anthony_higgs center left excited
+PLACE space_pirate midright left nervous
+ANTHONY_HIGGS (excited): Okay, team! We need a plan! What's everybody good at?
+SPACE_PIRATE (nervous): Standing in hallways. Shooting. Missing.
+ANTHONY_HIGGS (happy): Great! Very useful!
+SPACE_PIRATE (surprised): It is?
+ANTHONY_HIGGS (smug): You know every hallway in this mine. Which one goes up?
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC tense
+SCENE phazon_mines
+PLACE space_pirate center left excited
+PLACE samus midright left neutral
+PLACE kraid midleft right neutral
+SPACE_PIRATE (excited): The old elevator shaft! Behind the boulder! It goes all the way to the surface!
+SAMUS (neutral): ...The boulder's too big.
+KRAID (angry): GRRROOOAR!
+SAMUS (surprised): ...Kraid?
+SPACE_PIRATE (excited): Kraid says it's not too big for HIM.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC action
+SCENE phazon_mines
+PLACE kraid center left angry
+SFX stomp
+SHAKE 1.0
+NARRATOR: Kraid put both claws against the boulder. He pushed. The whole mine shook. The boulder moved one inch. Then two. Then it rolled away with a huge crash.
+KRAID (excited): GROOOAR!
+SFX blast
+NARRATOR: Behind it was the old elevator shaft. And it was full of glowing blue Phazon.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC tense
+SCENE phazon_mines
+PLACE mother_brain center left nervous
+PLACE anthony_higgs midright left nervous
+MOTHER_BRAIN (nervous): Oh dear. That shaft is full of Phazon. Very bright. Very hot. Very bad for my complexion.
+ANTHONY_HIGGS (nervous): Is there another way up?
+MOTHER_BRAIN (smug): There was. I closed it. Three hundred years ago. For evil reasons.
+ANTHONY_HIGGS (sad): ...Of course you did.
+MOTHER_BRAIN (happy): I'm retired now. I regret most of my evil reasons.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC tense
+SCENE phazon_mines
+PLACE dark_samus center left neutral
+PLACE samus midright left surprised
+SFX sparkle
+NARRATOR: Out of the Phazon glow stepped Dark Samus. She had sunglasses on. And a towel around her neck.
+DARK_SAMUS (neutral): ...I heard you were trapped.
+SAMUS (surprised): ...You came to help?
+DARK_SAMUS (smug): ...I am made of Phazon. Phazon listens to me.
+SAMUS (happy): ...Then tell it to move.
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC action 2
+SCENE phazon_mines
+PLACE dark_samus center left angry
+PLACE ridley midright left excited
+SFX powerup
+SHAKE 0.8
+NARRATOR: Dark Samus raised her hands. The Phazon in the shaft parted like a curtain. And Ridley, wings spread wide, flew up the shaft with a rope in his claws.
+RIDLEY (excited): SCREEEE!
+DARK_SAMUS (smug): ...Go.
+SFX whoosh
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC happy
+SCENE phazon_mines
+PLACE anthony_higgs center left excited
+PLACE etecoon midright left excited
+PLACE mother_brain midleft right neutral
+SFX whoosh
+NARRATOR: One by one, everybody climbed the rope. The etecoons went first. Then the Space Pirates. Then Anthony, carrying Mother Brain's jar. Then Torizo, very slowly, following every rule.
+ANTHONY_HIGGS (excited): Hold on, Mother Brain! Almost there!
+MOTHER_BRAIN (happy): This is the most exciting tour I've ever been on.
+ETECOON (excited): Eee! Eee!
+
+# ------------------------------------------------------------ PHAZON MINES
+MUSIC action
+SCENE phazon_mines
+PLACE samus center right excited
+PLACE dark_samus midleft right neutral
+NARRATOR: Finally, only two were left at the bottom. Samus Aran and Dark Samus. The Phazon was getting brighter. The mine was shaking again.
+SAMUS (excited): ...You first.
+DARK_SAMUS (smug): ...You first. I'm holding the Phazon back.
+SAMUS (nervous): ...Then we go together.
+SFX whoosh
+NARRATOR: They grabbed the rope at the same time. And they climbed up into the light, side by side.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC romantic
+SCENE tallon_overworld
+CARD The surface...
+PLACE samus center right happy
+PLACE dark_samus midleft right happy
+NARRATOR: At the top, the sun was shining. For once, it wasn't raining on Tallon IV. Heroes and villains stood together in the light.
+SAMUS (happy): ...Thank you.
+DARK_SAMUS (smug): ...Tomorrow, we're enemies again.
+SAMUS (smug): ...Of course.
+DARK_SAMUS (happy): ...But today was a good day.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC jazz 2
+SCENE tallon_overworld
+PLACE anthony_higgs center left excited
+PLACE samus midright left surprised
+PLACE ridley midleft right neutral
+ANTHONY_HIGGS (excited): Everybody! You know what we need after a day like this?
+SAMUS (surprised): ...Sleep?
+ANTHONY_HIGGS (smug): A cookout! I've got the grill! Ridley's got the sauce!
+RIDLEY (excited): SCREE!
+SAMUS (happy): ...Hey there, Anthony.
+ANTHONY_HIGGS (surprised): ...You called me Anthony. Not "hey you." This is the best day of my life.
+END

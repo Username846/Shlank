@@ -110,6 +110,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"coconut_mall": _coconut_mall(b)
 		"toad_town": _toad_town(b)
 		"waluigi_stadium": _waluigi_stadium(b)
+		# Metroid
+		"tallon_overworld": _tallon_overworld(b)
+		"phendrana_drifts": _phendrana_drifts(b)
+		"magmoor_caverns": _magmoor_caverns(b)
+		"frigate_orpheon": _frigate_orpheon(b)
+		"sr388": _sr388(b)
+		"bottle_ship": _bottle_ship(b)
+		"gfs_olympus": _gfs_olympus(b)
+		"skytown": _skytown(b)
+		"agon_wastes": _agon_wastes(b)
+		"phazon_mines": _phazon_mines(b)
 		_: return false
 	return true
 
@@ -246,6 +257,28 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 6:
 				var on := fmod(t * 2.0 + i * 0.5, 2.0) > 1.0
 				Art.dot(ci, Vector2(140 + i * 200, 70), 12, Color("f2c14e") if on else Color("9b5fd0"))
+		"tallon_overworld":
+			for i in 40:
+				var x := fmod(i * 61.0 + t * 30.0, W + 100) - 50
+				var y := fmod(i * 97.0 + t * 400.0, H + 100) - 50
+				Art.stroke(ci, PackedVector2Array([Vector2(x, y), Vector2(x - 4, y + 18)]), 2.0, Color(0.8, 0.9, 1.0, 0.5))
+		"phendrana_drifts":
+			for i in 30:
+				var x := fmod(i * 97.0 + t * 12.0, W + 200) - 100
+				var y := fmod(i * 53.0 + t * 40.0, H + 100) - 50
+				Art.dot(ci, Vector2(x, y), 3, Color(1, 1, 1, 0.8))
+		"magmoor_caverns":
+			for i in 6:
+				var k := fmod(t * 0.4 + i / 6.0, 1.0)
+				Art.dot(ci, Vector2(100 + i * 210, 620 - k * 300), 6 * (1.0 - k) + 2, Color(1.0, 0.6, 0.2, 1.0 - k))
+		"phazon_mines", "sr388":
+			for i in 5:
+				var k := 0.5 + 0.5 * sin(t * 2.0 + i * 1.3)
+				var col := Color(0.3, 0.6, 1.0, 0.25 + 0.4 * k) if id == "phazon_mines" else Color(0.5, 1.0, 0.4, 0.2 + 0.3 * k)
+				Art.dot(ci, Vector2(160 + i * 240, 520 - (i % 2) * 260), 14 + k * 8, col)
+		"gfs_olympus":
+			var px := fmod(t * 30.0, W + 400) - 200
+			Art.shape(ci, PackedVector2Array([Vector2(px, 160), Vector2(px + 60, 150), Vector2(px + 80, 160), Vector2(px + 60, 170)]), Color("c8d0dc"), 2.0)
 		_: pass
 
 
@@ -1632,4 +1665,126 @@ static func _waluigi_stadium(b: Backdrop) -> void:
 	Art.shape(b.ci, PackedVector2Array([Vector2(420, 560), Vector2(560, 470), Vector2(700, 470), Vector2(840, 560)]), Color("8a5a36"), 4.0)
 	Art.shape(b.ci, Art.rrect(Rect2(500, 200, 280, 160), 8), Color("2b2b33"), 5.0)
 	Art.text(b.ci, b.sign_font, Vector2(500, 300), "WAH!", 70, Color("9b5fd0"), 6, HORIZONTAL_ALIGNMENT_CENTER, 280)
+
+
+
+
+# ------------------------------------------------------------- Metroid --
+
+static func _tallon_overworld(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("4a5a6a"), Color("8a9aa0"))
+	SetsExtra._grass(b, 540, Color("4a8a3a"))
+	# A rainy jungle landing site: Samus's gunship, mossy rocks and giant leaves
+	SetsMore._rock(b, 100, 540, 260, 160, Color("6a7a5a"))
+	SetsMore._rock(b, 1100, 540, 300, 200, Color("5a6a4a"))
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(440, 480), Vector2(520, 380), Vector2(640, 350), Vector2(760, 380), Vector2(840, 480),
+		Vector2(640, 500)]), 5), Color("e6702f"), 5.0, 0.15)
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(560, 400), Vector2(640, 370), Vector2(720, 400), Vector2(640, 420)]), 4), Color("6fdc6a"), 3.0)
+	for sx in [-1, 1]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(640 + sx * 120, 480), Vector2(640 + sx * 150, 540)]), 10, Color("8a96a3"))
+	for x in [300, 980]:
+		Art.limb(b.ci, Art.curve(Vector2(x, 560), Vector2(x - 40, 400), Vector2(x + 60, 300), 10), 8, Color("3a6a2a"))
+		Art.blob(b.ci, Vector2(x + 60, 300), 70, 26, Color("4f9a3a"), 3.0)
+
+
+static func _phendrana_drifts(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8ab8e0"), Color("e8f4fa"))
+	SetsExtra._mountains(b, 480, Color("c8e0f0"), 37)
+	SetsExtra._fill_band(b, 520, H + PAD, Color("f4f8fc"))
+	# Icy ruins: frozen pillars and blue crystal shards
+	_columns(b, [180.0, 1100.0], 260, 520, Color("d8ecf8"))
+	for i in 6:
+		var x: float = 340.0 + i * 120.0
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 20, 540), Vector2(x, 440 - (i % 3) * 30), Vector2(x + 20, 540)]), Color("8fd0f0"), 3.0)
+
+
+static func _magmoor_caverns(b: Backdrop) -> void:
+	SetsMore._cave(b, Color("2a0a0a"), Color("6a1a0a"), Color("5a2a1a"), 71, 520)
+	Art.fill(b.ci, SetsExtra._rect(Rect2(-PAD, 600, W + PAD * 2, 200)), Color("f2602a"))
+	Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, 600), Vector2(W + PAD, 600)]), 4.0, Color("f6d06a"))
+	# Stone bridges over the lava and glowing cracks in the walls
+	Art.shape(b.ci, Art.rrect(Rect2(160, 510, 960, 40), 8), Color("4a2a1a"), 4.0)
+	for i in 5:
+		Art.stroke(b.ci, Art.curve(Vector2(100 + i * 260, 120), Vector2(120 + i * 260, 220), Vector2(90 + i * 260, 320), 8), 4.0, Color("f2a02a"))
+
+
+static func _frigate_orpheon(b: Backdrop) -> void:
+	SetsMore._panels(b, Color("4a5a6a"), Color("e6452f"), 545)
+	# A Space Pirate frigate: warning stripes, pipes and a big red alarm light
+	for i in 14:
+		Art.shape(b.ci, PackedVector2Array([Vector2(-PAD + i * 100, 545), Vector2(-PAD + i * 100 + 50, 545), Vector2(-PAD + i * 100 + 30, 580),
+			Vector2(-PAD + i * 100 - 20, 580)]), Color("f2c14e"), 0.0)
+	for y in [100, 160]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(-PAD, y), Vector2(W + PAD, y)]), 14, Color("6a6a7a"))
+	Art.blob(b.ci, Vector2(640, 260), 40, 30, Color("e6452f"), 4.0, 0.15)
+	b._sign(Rect2(460, 320, 360, 50), "ALERT: INTRUDER", Color("2b2b33"), Color("e6452f"), 26)
+
+
+static func _sr388(b: Backdrop) -> void:
+	SetsMore._cave(b, Color("1a2a1a"), Color("3a4a2a"), Color("4a5a3a"), 83)
+	# The Metroid home world: green glow, sticky goo and a hatched egg
+	for i in 6:
+		Art.blob(b.ci, Vector2(100 + i * 220, 560), 60, 20, Color("6fbf4a"), 3.0)
+	Art.blob(b.ci, Vector2(640, 470), 70, 80, Color("c8d890"), 4.0, 0.15)
+	Art.shape(b.ci, PackedVector2Array([Vector2(570, 440), Vector2(600, 420), Vector2(620, 450), Vector2(650, 410), Vector2(680, 450),
+		Vector2(710, 420), Vector2(710, 470), Vector2(570, 470)]), Color("1a2a1a"), 2.0)
+
+
+static func _bottle_ship(b: Backdrop) -> void:
+	SetsMore._panels(b, Color("c8d0dc"), Color("6fb3e8"), 545)
+	# A research station: glass tubes with odd specimens and a big computer screen
+	for i in 3:
+		var x: float = 120.0 + i * 220.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 220, 140, 300), 60), Color(0.7, 0.9, 1.0, 0.5), 4.0)
+		Art.blob(b.ci, Vector2(x + 70, 380), 30, 36, [Color("6fbf4a"), Color("e6409a"), Color("f2c14e")][i], 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(800, 160, 380, 240), 10), Color("2b3a4a"), 5.0)
+	Art.text(b.ci, b.sign_font, Vector2(800, 300), "BOTTLE SHIP", 36, Color("6fdc6a"), 0, HORIZONTAL_ALIGNMENT_CENTER, 380)
+
+
+static func _gfs_olympus(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("0a0a2a"), Color("1a2a4a"))
+	SetsMore._stars(b, 40, 91, Color(1, 1, 1, 0.8), 400)
+	# The Federation flagship's bridge: a big window to space, consoles and the Federation crest
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 380, W + PAD * 2, H)), Color("c8d0dc"), 5.0)
+	for i in 5:
+		Art.shape(b.ci, Art.rrect(Rect2(60 + i * 250, 420, 180, 70), 10), Color("4a5a6a"), 3.5)
+		for k in 3:
+			Art.dot(b.ci, Vector2(100 + i * 250 + k * 40, 450), 7, [Color("6fdc6a"), Color("f2c14e"), Color("e6452f")][k])
+	Art.blob(b.ci, Vector2(640, 300), 60, 60, Color("4a78d0"), 4.0)
+	Art.shape(b.ci, Art.star(Vector2(640, 300), 40), Color("f4f4f2"), 2.5)
+
+
+static func _skytown(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("e8a86a"), Color("f6e0b0"))
+	for i in 5:
+		b._cloud(Vector2(100 + i * 270, 520 + (i % 2) * 40), 2.0, Color(1, 0.95, 0.85, 0.95))
+	# Floating golden buildings connected by cables
+	for c in [Vector2(300, 300), Vector2(980, 260)]:
+		Art.shape(b.ci, Art.smooth(PackedVector2Array([c + Vector2(-120, 40), c + Vector2(-80, -80), c + Vector2(0, -120), c + Vector2(80, -80),
+			c + Vector2(120, 40), c + Vector2(0, 90)]), 5), Color("e8c060"), 5.0, 0.15)
+		Art.shape(b.ci, Art.rrect(Rect2(c + Vector2(-30, -40), Vector2(60, 50)), 20), Color("4a6a8a"), 3.0)
+	Art.stroke(b.ci, Art.curve(Vector2(400, 300), Vector2(640, 380), Vector2(880, 270), 16), 4.0, Color("6a6a7a"))
+
+
+static func _agon_wastes(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("c8905a"), Color("f2d0a0"))
+	SetsMore._desert(b, 460)
+	# Dry canyon with Luminoth ruins and a big dead tree
+	for x in [180.0, 1100.0]:
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 140, 520), Vector2(x - 100, 280), Vector2(x + 100, 280), Vector2(x + 140, 520)]), Color("b8704a"), 4.5, 0.15)
+	_columns(b, [520.0, 760.0], 340, 540, Color("d8c8a0"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, 560), Vector2(640, 380), Vector2(600, 320)]), 14, Color("6a4a3a"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, 420), Vector2(700, 360)]), 10, Color("6a4a3a"))
+
+
+static func _phazon_mines(b: Backdrop) -> void:
+	SetsMore._cave(b, Color("0a1a2a"), Color("1a3a5a"), Color("3a4a5a"), 97)
+	# A mine shaft: scaffolding, a mine cart and glowing blue Phazon veins
+	for x in [200, 1080]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(x - 60, 560), Vector2(x - 60, 200), Vector2(x + 60, 200), Vector2(x + 60, 560)]), 10, Color("8a6a4a"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(520, 470), Vector2(760, 470), Vector2(730, 540), Vector2(550, 540)]), Color("6a6a7a"), 4.0)
+	for x in [570, 710]:
+		Art.blob(b.ci, Vector2(x, 548), 18, 18, Color("2b2b33"), 3.0)
+	for i in 4:
+		Art.stroke(b.ci, Art.curve(Vector2(300 + i * 200, 100), Vector2(330 + i * 200, 250), Vector2(290 + i * 200, 400), 10), 6.0, Color("3fa0f0"))
 

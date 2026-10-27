@@ -1,0 +1,189 @@
+@title Dark Samus Takes a Vacation
+@series Metroid
+@season 2
+@icon visor
+@number 9
+@description Ever since the snow day, Dark Samus has been thinking about having fun. She decides to take a vacation to the Agon Wastes. She has never taken a vacation. She does not know what to pack. She packs Phazon. Samus is sent to keep an eye on her.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC tense
+SCENE ceres_station cut
+TITLE
+PLACE adam center left nervous
+PLACE samus midright left neutral
+ADAM (nervous): Lady. Dark Samus has been spotted. In the Agon Wastes.
+SAMUS (neutral): ...What's she doing?
+ADAM (nervous): That's the strange part. She's... sitting. Under an umbrella. With a cold drink.
+SAMUS (surprised): ...
+ADAM (smug): Go find out. And keep an eye on her.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC jazz
+SCENE agon_wastes
+CARD The Agon Wastes...
+PLACE dark_samus center left happy
+NARRATOR: In the dry canyon of the Agon Wastes, under the only umbrella on the whole planet, sat Dark Samus. She had a towel. She had sunglasses over her visor. She had a drink with a tiny umbrella in it.
+DARK_SAMUS (happy): ...Vacation.
+DARK_SAMUS (nervous): ...Is this how you do it?
+DARK_SAMUS (smug): ...I believe I am doing it correctly.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC sneaky
+SCENE agon_wastes
+PLACE samus center right neutral
+PLACE dark_samus midleft right surprised
+SFX footstep
+DARK_SAMUS (surprised): ...Samus Aran.
+SAMUS (neutral): ...You're on vacation.
+DARK_SAMUS (smug): ...Yes. I learned about fun on the snow day. I would like more fun.
+SAMUS (surprised): ...What did you pack?
+DARK_SAMUS (happy): ...Phazon. And a towel.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC jazz 2
+SCENE agon_wastes
+PLACE dark_samus center left nervous
+PLACE samus midright left smug
+DARK_SAMUS (nervous): ...What do people do on vacation?
+SAMUS (smug): ...Relax. Read. Take pictures. Eat too much.
+DARK_SAMUS (surprised): ...They don't fight?
+SAMUS (happy): ...No fighting.
+DARK_SAMUS (sad): ...Then what do they do with their hands?
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC happy
+SCENE agon_wastes
+PLACE dark_samus center left excited
+PLACE samus midright left nervous
+SFX ding
+NARRATOR: Dark Samus tried taking pictures. She took a picture of a rock. A picture of another rock. A picture of Samus looking annoyed.
+DARK_SAMUS (excited): ...Your face is very good for pictures.
+SAMUS (nervous): ...It's a helmet.
+DARK_SAMUS (happy): ...Your helmet is very good for pictures.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC jazz
+SCENE agon_wastes
+PLACE dark_samus center left happy
+PLACE samus midright left surprised
+NARRATOR: Next, Dark Samus tried reading a book. It was called "Fun: A Beginner's Guide." She read the whole thing in four seconds.
+DARK_SAMUS (happy): ...Chapter three says to build a sandcastle.
+SAMUS (surprised): ...There's no water. It's a desert.
+DARK_SAMUS (smug): ...Then I will build a sand-fortress. Fortresses do not need water.
+NARRATOR: Twenty minutes later, there was a sand-fortress. It had towers, a moat and a working drawbridge.
+SAMUS (surprised): ...That's a very good sand-fortress.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC sneaky 2
+SCENE agon_wastes
+PLACE space_pirate center left excited
+PLACE ridley midright left smug
+SPACE_PIRATE (excited): Commander! Two Samuses! On vacation! Not paying attention!
+RIDLEY (smug): Scree.
+SPACE_PIRATE (excited): We could ambush them! Both of them! At the same time!
+RIDLEY (excited): SCREEE!
+SPACE_PIRATE (nervous): Sir, I'm just saying, it seems like a bad idea to attack two of them.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC action
+SCENE agon_wastes
+PLACE ridley center left angry
+PLACE samus midright left surprised
+PLACE dark_samus midleft right neutral
+SFX blast
+SHAKE 0.8
+RIDLEY (angry): SCREEEE!
+SAMUS (surprised): ...Ridley!
+NARRATOR: Ridley swooped down from the canyon wall. The umbrella went flying. The drink with the tiny umbrella went flying.
+DARK_SAMUS (angry): ...My drink.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC action 2
+SCENE agon_wastes
+PLACE dark_samus center left angry
+PLACE ridley midright left scared
+SFX powerup
+SHAKE 1.0
+DARK_SAMUS (angry): ...You spilled my vacation drink.
+RIDLEY (scared): Scree?
+DARK_SAMUS (angry): ...On my vacation.
+SFX blast
+NARRATOR: Dark Samus glowed brighter than the sun. Ridley tumbled across the canyon like a purple bowling ball.
+RIDLEY (scared): SCREEEE!
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC sad
+SCENE agon_wastes
+PLACE dark_samus center left sad
+NARRATOR: Dark Samus looked at her spilled drink. At her ruined sand-fortress. At her umbrella, stuck upside down in a cactus.
+DARK_SAMUS (sad): ...Vacation is harder than missions.
+NARRATOR: She sat down on a rock. She was very quiet. Even quieter than usual.
+DARK_SAMUS (sad): ...I just wanted one day. One day of not being a villain.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC jazz
+SCENE agon_wastes
+PLACE samus center right surprised
+PLACE dark_samus midleft right nervous
+SAMUS (surprised): ...You said no fighting on vacation.
+DARK_SAMUS (nervous): ...He started it.
+SAMUS (smug): ...That's fair.
+DARK_SAMUS (sad): ...But now my vacation is ruined.
+SAMUS (happy): ...Not yet.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC happy 2
+SCENE agon_wastes
+PLACE space_pirate center left nervous
+PLACE samus midright left smug
+SPACE_PIRATE (nervous): Um. Hello. I'm a Space Pirate. I'm very sorry about the ambush.
+SAMUS (smug): ...Go get her a new drink.
+SPACE_PIRATE (surprised): A drink?
+SAMUS (neutral): ...With a tiny umbrella.
+SPACE_PIRATE (nervous): Yes, ma'am. Right away, ma'am.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC romantic
+SCENE agon_wastes
+CARD Sunset...
+PLACE dark_samus center left happy
+PLACE samus midright left happy
+NARRATOR: The Space Pirate came back with two drinks. Both with tiny umbrellas. Samus and Dark Samus sat under a new umbrella and watched the sun go down over the canyon.
+DARK_SAMUS (happy): ...This is the best vacation I have ever had.
+SAMUS (smug): ...It's the only vacation you've ever had.
+DARK_SAMUS (happy): ...Still the best.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC happy 2
+SCENE agon_wastes
+PLACE dark_samus center left happy
+PLACE samus midright left smug
+DARK_SAMUS (happy): ...Samus Aran. Chapter seven says vacations are better with friends.
+SAMUS (smug): ...We're not friends.
+DARK_SAMUS (smug): ...We are sitting under the same umbrella. Drinking the same drink.
+SAMUS (nervous): ...That's a coincidence.
+DARK_SAMUS (happy): ...Chapter seven says that is how friendship starts.
+
+# ------------------------------------------------------------ AGON WASTES
+MUSIC jazz 2
+SCENE agon_wastes
+PLACE ridley center left sad
+PLACE space_pirate midright left nervous
+RIDLEY (sad): Scree...
+SPACE_PIRATE (nervous): Sir, I got you a drink too. With an umbrella.
+RIDLEY (surprised): Scree?
+SPACE_PIRATE (happy): Everybody deserves a vacation, sir. Even you.
+RIDLEY (shy): ...Scree.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC romantic 2
+SCENE ceres_station
+CARD The next day...
+PLACE adam center left surprised
+PLACE samus midright left neutral
+ADAM (surprised): Lady. Your report says "Dark Samus: on vacation. Ridley: on vacation. Space Pirates: on vacation."
+SAMUS (neutral): ...Yes.
+ADAM (smug): And you?
+SAMUS (happy): ...I took the afternoon off.
+ADAM (happy): ...Good for you, Lady.
+END

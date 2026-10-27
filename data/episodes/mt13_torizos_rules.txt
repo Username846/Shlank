@@ -1,0 +1,199 @@
+@title Torizo's Rules
+@series Metroid
+@season 2
+@icon visor
+@number 3
+@description Samus picks up a power-up from a Chozo statue in the ruins on Tallon IV. The statue wakes up. It's Torizo, an ancient guardian, and it has rules. Very many rules. Rule one: never take the item. The etecoons have already taken it. Twice.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC spooky
+SCENE chozo_ruins cut
+TITLE
+PLACE samus center right neutral
+SFX detector
+NARRATOR: Deep in the Chozo Ruins, Samus found a statue. It was holding a glowing orb. A power-up. The Morph Ball Bombs.
+SAMUS (neutral): ...
+SFX powerup
+NARRATOR: Samus took the orb. The ruins went very, very quiet.
+SAMUS (nervous): ...Uh oh.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC tense
+SCENE chozo_ruins
+PLACE torizo center left angry
+PLACE samus midright left surprised
+SFX stomp
+SHAKE 0.8
+TORIZO (angry): You... took... the item.
+SAMUS (surprised): ...It was on a statue.
+TORIZO (angry): I... am... the statue.
+SAMUS (nervous): ...Oh.
+TORIZO (smug): Rule one. Never take the item. Rule two. If you take the item, you face the trial.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC jazz
+SCENE chozo_ruins
+PLACE torizo center left neutral
+PLACE samus midright left neutral
+TORIZO (neutral): Rule three. The trial is a battle. Rule four. No running in the ruins.
+SAMUS (neutral): ...How many rules are there?
+TORIZO (smug): Four hundred and twelve.
+SAMUS (sad): ...
+TORIZO (neutral): Rule five. No sighing during the rules.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC sneaky
+SCENE tallon_overworld
+PLACE etecoon center left excited
+PLACE dachora midright left happy
+SFX powerup
+ETECOON (excited): Eee! Eee!
+DACHORA (happy): Kweh!
+NARRATOR: Outside the ruins, the etecoons had found something shiny. A glowing orb. Samus had set it down for just a second. Just one second.
+ETECOON (happy): Eee eee!
+DACHORA (excited): Kweh kweh!
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC jazz 2
+SCENE chozo_ruins
+PLACE chozo_elder center left smug
+PLACE samus midright left nervous
+NARRATOR: While Torizo was reading rules eleven through eighty, an old Chozo spirit appeared beside Samus. It was the Chozo Elder. He was trying not to laugh.
+CHOZO_ELDER (smug): I see you have met Torizo.
+SAMUS (nervous): ...He has a lot of rules.
+CHOZO_ELDER (happy): We built him ten thousand years ago. We gave him four rules. He wrote the other four hundred and eight himself.
+SAMUS (surprised): ...Himself?
+CHOZO_ELDER (smug): He gets bored standing there. Writing rules is his hobby.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC action
+SCENE chozo_ruins
+PLACE torizo center left angry
+PLACE samus midright left angry
+SFX stomp
+TORIZO (angry): Rule six. Begin the trial.
+SFX laser
+NARRATOR: Torizo swung. Samus rolled. Torizo threw glowing eggs. Samus jumped. The ruins shook.
+SAMUS (angry): ...Wait.
+TORIZO (surprised): Rule seven. Nobody says "wait" during a trial.
+SAMUS (neutral): ...The item's gone.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC tense
+SCENE chozo_ruins
+PLACE torizo center left surprised
+PLACE samus midright left nervous
+TORIZO (surprised): Gone?
+SAMUS (nervous): ...I put it down. For a second.
+TORIZO (angry): Rule eight. Never put the item down.
+SAMUS (sad): ...You could have said that earlier.
+TORIZO (smug): It was on the list.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC jazz 2
+SCENE tallon_overworld
+PLACE etecoon center left excited
+PLACE torizo midright left angry
+SFX stomp
+TORIZO (angry): Small creatures. You... took... the item.
+ETECOON (scared): Eee!
+TORIZO (angry): Rule nine. Small creatures do not take the item either.
+ETECOON (sad): Eee...
+TORIZO (smug): Rule ten. Give back the item.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC action 2
+SCENE tallon_overworld
+PLACE etecoon center left excited
+PLACE dachora midright left excited
+SFX whoosh
+NARRATOR: The etecoons did not give back the item. They ran. Up the trees. Over the rocks. Through the rain. The dachora carried the orb in its beak and ran faster than anything on Tallon IV.
+DACHORA (excited): KWEH!
+ETECOON (excited): Eee eee eee!
+NARRATOR: Torizo stomped after them. Samus followed Torizo.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC happy 2
+SCENE tallon_overworld
+PLACE etecoon center left excited
+PLACE dachora midright left happy
+NARRATOR: On top of a giant leaf, the etecoons were having the best day of their lives. They tossed the glowing orb back and forth. They bounced it on their heads. They used it as a nightlight.
+ETECOON (excited): Eee! Eee!
+DACHORA (happy): Kweh!
+NARRATOR: Far below, a very old stone statue was climbing a tree. Very, very slowly.
+ETECOON (surprised): Eee?
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC sneaky 2
+SCENE tallon_overworld
+PLACE torizo center left sad
+PLACE samus midright left neutral
+TORIZO (sad): They are... very fast.
+SAMUS (neutral): ...Yes.
+TORIZO (sad): I have stood in the ruins for ten thousand years. I am not built for running.
+SAMUS (smug): Rule four. No running in the ruins.
+TORIZO (surprised): ...We are not in the ruins.
+SAMUS (happy): ...Then run.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC tense
+SCENE tallon_overworld
+PLACE etecoon center left scared
+PLACE dachora midright left scared
+PLACE space_pirate midleft right neutral
+SFX thud
+SHAKE 0.6
+NARRATOR: Then the etecoons ran right into trouble. A pack of space pirates. Hiding in the jungle. And they wanted the shiny orb too.
+ETECOON (scared): EEE!
+DACHORA (scared): Kweh!
+SPACE_PIRATE (excited): A power-up! Grab it!
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC action
+SCENE tallon_overworld
+PLACE torizo center left angry
+PLACE space_pirate midright left scared
+SFX stomp
+SHAKE 1.0
+TORIZO (angry): Rule eleven. NOBODY takes the item. Especially not pirates.
+SPACE_PIRATE (scared): Who are YOU?!
+TORIZO (angry): I am the rules.
+SFX blast
+NARRATOR: Torizo and Samus fought side by side. Pirates flew in every direction. The etecoons cheered from the trees.
+
+# ------------------------------------------------------------ TALLON OVERWORLD
+MUSIC jazz
+SCENE tallon_overworld
+PLACE torizo center left neutral
+PLACE etecoon midright left nervous
+NARRATOR: When the pirates were gone, the smallest etecoon crept down from the tree. It held the glowing orb in both hands. It walked right up to Torizo.
+ETECOON (nervous): Eee...
+TORIZO (surprised): You... are giving back... the item?
+ETECOON (sad): Eee.
+TORIZO (happy): Rule four hundred and eleven. Small creatures who return the item... get a pat on the head.
+NARRATOR: Torizo patted the etecoon. Very gently. With one stone finger.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC happy
+SCENE chozo_ruins
+PLACE torizo center left neutral
+PLACE samus midright left neutral
+SFX powerup
+TORIZO (neutral): The item. Returned. Safe.
+SAMUS (neutral): ...So. The trial.
+TORIZO (smug): You fought beside me. You protected the small creatures. Rule four hundred and twelve: if you do that, you pass.
+SAMUS (surprised): ...That's a rule?
+TORIZO (happy): I just made it.
+
+# ------------------------------------------------------------ CHOZO RUINS
+MUSIC romantic
+SCENE chozo_ruins
+CARD Sunset...
+PLACE torizo center left happy
+PLACE samus midright left happy
+TORIZO (happy): Take the item, Samus Aran. You have earned it.
+SAMUS (happy): ...Thank you.
+TORIZO (smug): Rule four hundred and thirteen. Come visit.
+SAMUS (smug): ...Rule four hundred and fourteen. Fewer rules.
+TORIZO (happy): ...I will consider it.
+END

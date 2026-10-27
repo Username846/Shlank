@@ -1,0 +1,207 @@
+@title Return to SR388
+@series Metroid
+@season 2
+@icon visor
+@number 7
+@description The Baby Metroid has been acting strange. It floats by the window and stares at the stars. Samus realizes it misses home. So she takes it back to SR388, the Metroid home world, for a visit. It's green, gooey and full of surprises.
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC sad
+SCENE save_room cut
+TITLE
+PLACE samus center right nervous
+PLACE baby_metroid midleft right sad
+BABY_METROID (sad): Skree...
+SAMUS (nervous): ...You're not eating.
+BABY_METROID (sad): Skree skree.
+SAMUS (surprised): ...You keep looking at that star. The green one.
+BABY_METROID (sad): Skree.
+SAMUS (sad): ...That's SR388. Your home.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC jazz
+SCENE ceres_station
+PLACE adam center left nervous
+PLACE samus midright left neutral
+ADAM (nervous): Lady. You want to go to SR388? The planet we spent years making sure nobody would ever go to?
+SAMUS (neutral): ...Yes.
+ADAM (nervous): Why?
+SAMUS (sad): ...It's homesick.
+ADAM (surprised): ...The Metroid is homesick.
+ADAM (happy): ...Permission granted. Bring it back.
+
+# ------------------------------------------------------------ SR388
+MUSIC spooky
+SCENE sr388
+CARD SR388...
+PLACE samus center right neutral
+PLACE baby_metroid midleft right excited
+SFX door
+NARRATOR: The caves of SR388 were green and gooey and glowing. The air hummed. The Baby Metroid floated out of the ship and spun in a happy circle.
+BABY_METROID (excited): SKREE! SKREE!
+SAMUS (happy): ...You remember.
+BABY_METROID (happy): Skree skree!
+
+# ------------------------------------------------------------ SR388
+MUSIC jazz
+SCENE sr388
+PLACE samus center right neutral
+PLACE baby_metroid midleft right excited
+NARRATOR: The Baby Metroid showed Samus everything. The goo pools it used to splash in. The tunnel it used to hide in. The rock that looked like a sandwich.
+BABY_METROID (excited): Skree! Skree skree!
+SAMUS (happy): ...That's a very good rock.
+BABY_METROID (happy): Skree!
+NARRATOR: Samus had been to SR388 before. A long time ago. On a very different mission. This time was much nicer.
+
+# ------------------------------------------------------------ SR388
+MUSIC sneaky
+SCENE sr388
+PLACE baby_metroid center left surprised
+PLACE samus midright left surprised
+SFX squeak
+NARRATOR: Deep in the caves, the Baby Metroid found something. A hatched egg. Half buried in the goo. Old and cracked.
+BABY_METROID (surprised): Skree?
+SAMUS (surprised): ...That's yours. That's where you hatched.
+BABY_METROID (sad): Skree...
+SAMUS (happy): ...I found you right here. A long time ago.
+
+# ------------------------------------------------------------ SR388
+MUSIC jazz 2
+SCENE sr388
+PLACE etecoon center left excited
+PLACE samus midright left surprised
+SFX squeak
+ETECOON (excited): Eee! Eee!
+SAMUS (surprised): ...What are you doing here?
+ETECOON (smug): Eee.
+SAMUS (sad): ...You stowed away. In my ship. Again.
+ETECOON (happy): Eee eee!
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC sneaky
+SCENE ceres_station
+PLACE adam center left nervous
+PLACE anthony_higgs midright left excited
+ANTHONY_HIGGS (excited): Commander! I heard Samus took the baby Metroid home! For a visit!
+ADAM (nervous): She did. To SR388. The most dangerous planet in the galaxy.
+ANTHONY_HIGGS (happy): Aw. That's so sweet. Taking your kid to see the grandparents.
+ADAM (surprised): ...I suppose that's one way to look at it.
+ANTHONY_HIGGS (smug): I'm making her a "Welcome Back" cake. With green frosting.
+
+# ------------------------------------------------------------ SR388
+MUSIC tense
+SCENE sr388
+PLACE baby_metroid center left scared
+PLACE samus midright left nervous
+SFX hiss
+SHAKE 0.6
+NARRATOR: Then the caves rumbled. Something big was moving through the tunnels. Something with a hard shell and a lot of legs.
+BABY_METROID (scared): Skree!
+SAMUS (nervous): ...Stay behind me.
+SFX stomp
+SHAKE 0.8
+
+# ------------------------------------------------------------ SR388
+MUSIC action
+SCENE sr388
+PLACE samus center right surprised
+PLACE baby_metroid midleft right excited
+SFX stomp
+NARRATOR: Out of the tunnel came a huge Metroid. Not a baby. A full-grown Metroid, as big as a house, with a shell like armor.
+SAMUS (surprised): ...An Omega Metroid.
+BABY_METROID (excited): SKREE!
+SAMUS (scared): ...Wait!
+NARRATOR: The Baby Metroid floated straight toward the giant Metroid.
+
+# ------------------------------------------------------------ SR388
+MUSIC sad
+SCENE sr388
+PLACE baby_metroid center left happy
+PLACE samus midright left nervous
+SFX sparkle
+NARRATOR: The Omega Metroid stopped. It looked down at the tiny Baby Metroid. It lowered its huge head. And very gently, it touched the baby with one claw.
+BABY_METROID (happy): Skree.
+SAMUS (nervous): ...They know each other.
+NARRATOR: The giant Metroid made a low, soft sound. Like a hum. Like a lullaby.
+SAMUS (sad): ...Family.
+
+# ------------------------------------------------------------ SR388
+MUSIC sad
+SCENE sr388
+PLACE samus center right sad
+NARRATOR: Samus watched the two Metroids from across the cave. The big one and the little one. Humming together.
+SAMUS (sad): ...
+NARRATOR: She thought about the day she found the egg. The day it hatched. The day it decided she was its mother. She had never asked for that. But she had never minded either.
+SAMUS (sad): ...It's okay.
+
+# ------------------------------------------------------------ SR388
+MUSIC tense
+SCENE sr388
+PLACE samus center right sad
+PLACE etecoon midleft right nervous
+ETECOON (nervous): Eee?
+SAMUS (sad): ...It found its family. Maybe it should stay.
+ETECOON (sad): Eee...
+SAMUS (sad): ...It's home. That's what matters.
+ETECOON (nervous): Eee eee.
+SAMUS (shy): ...I'll be fine.
+
+# ------------------------------------------------------------ SR388
+MUSIC romantic
+SCENE sr388
+PLACE baby_metroid center left surprised
+PLACE samus midright left sad
+SAMUS (sad): ...Goodbye.
+BABY_METROID (surprised): Skree?
+NARRATOR: Samus turned around. She walked toward the ship. She didn't look back.
+BABY_METROID (sad): Skree...
+BABY_METROID (excited): SKREEEE!
+SFX whoosh
+
+# ------------------------------------------------------------ SR388
+MUSIC happy
+SCENE sr388
+PLACE samus center right surprised
+PLACE baby_metroid midleft right happy
+NARRATOR: The Baby Metroid zoomed through the cave and landed right on Samus's helmet. It held on tight.
+SAMUS (surprised): ...You're not staying?
+BABY_METROID (happy): Skree skree!
+NARRATOR: Behind them, the Omega Metroid hummed one more time. It sounded happy. It sounded like "go."
+SAMUS (happy): ...Okay.
+
+# ------------------------------------------------------------ CERES STATION
+MUSIC happy
+SCENE ceres_station
+CARD Back at Ceres...
+PLACE anthony_higgs center left excited
+PLACE samus midright left surprised
+PLACE baby_metroid midleft right neutral
+ANTHONY_HIGGS (excited): Welcome back, Princess! I made a cake! With green frosting!
+SAMUS (surprised): ...Why green?
+ANTHONY_HIGGS (smug): For the little guy! Metroid colors!
+BABY_METROID (excited): SKREE!
+ANTHONY_HIGGS (scared): It's eating the whole cake! In one bite! Is that normal?!
+SAMUS (happy): ...Yes.
+
+# ------------------------------------------------------------ SR388
+MUSIC jazz
+SCENE sr388
+PLACE etecoon center left excited
+PLACE baby_metroid midright left happy
+ETECOON (excited): Eee! Eee eee!
+BABY_METROID (happy): Skree!
+NARRATOR: The Baby Metroid had two homes now. One on SR388, with the big Metroids. And one wherever Samus was.
+ETECOON (smug): Eee.
+BABY_METROID (excited): SKREE!
+
+# ------------------------------------------------------------ SAVE ROOM
+MUSIC romantic 2
+SCENE save_room
+CARD That night...
+PLACE samus center right happy
+PLACE baby_metroid midleft right happy
+NARRATOR: That night, the Baby Metroid ate three whole meals. Then it fell asleep on Samus's lap.
+SAMUS (happy): ...We'll visit again. I promise.
+BABY_METROID (happy): Skree...
+SAMUS (shy): ...Goodnight.
+END
