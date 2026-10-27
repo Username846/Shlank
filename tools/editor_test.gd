@@ -9,7 +9,7 @@ func _ready() -> void:
 	await _frames(8)
 	main.show_cast_picker()
 	await _shot("t_cast_picker")
-	main.show_cast("Hillwood", 1)
+	main.show_cast("Hey Arnold!", 1)
 	await _shot("t_cast_hillwood")
 	main.show_location_picker()
 	await _shot("t_loc_picker")
@@ -19,7 +19,7 @@ func _ready() -> void:
 	await _shot("t_library")
 	main._new_episode_dialog(main._screen)
 	await _shot("t_new_dialog")
-	# Open the Hillwood episode in the editor
+	# Open the Hey Arnold! episode in the editor
 	var entry = main._episodes[1]
 	var doc := EpisodeDoc.from_script(entry.script)
 	doc.id = "test_edit_" + str(Time.get_ticks_msec())

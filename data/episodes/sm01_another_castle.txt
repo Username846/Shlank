@@ -23,7 +23,7 @@ RUN luigi offright
 
 # ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC tense
-SCENE peech_castle
+SCENE peach_castle
 PLACE goomba center left angry
 ENTER mario left midleft excited
 GOOMBA (angry): Hey! You can't come in here! Princess's orders! Well, Bowser's orders.
@@ -85,7 +85,7 @@ KOOPA_TROOPA (smug): Don't mention it. Seriously. Don't mention it.
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC tense 2
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser midright left smug
 ENTER mario left left angry
 ENTER luigi left farleft nervous
@@ -137,7 +137,7 @@ DONKEY_KONG (excited): Ooh ooh!
 
 # ------------------------------------------------------------ THRONE ROOM
 MUSIC action
-SCENE peech_throne
+SCENE peach_throne
 CARD Meanwhile...
 PLACE peach center left smug
 PLACE bowser midright left nervous

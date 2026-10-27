@@ -2,306 +2,324 @@
 	"pineapple_house": {
 		"name": "SpongeBob's Pineapple",
 		"description": "A two-story pineapple with a round door and a snail-sized mailbox.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
-	"pat_rock": {
+	"patrick_rock": {
 		"name": "Patrick's Rock",
 		"description": "A rock. Patrick lives under it. There is a weathervane.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants",
+		"aka": [
+			"pat_rock"
+		]
 	},
-	"squidwerd_house": {
+	"squidward_house": {
 		"name": "Squidward's Head House",
 		"description": "A stone head with very judgemental eyebrows.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants",
+		"aka": [
+			"squidwerd_house"
+		]
 	},
-	"krusty_crab": {
+	"krusty_krab": {
 		"name": "The Krusty Krab",
 		"description": "The finest (only) lobster-trap restaurant in town.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants",
+		"aka": [
+			"krusty_crab"
+		]
 	},
 	"krusty_kitchen": {
 		"name": "Krusty Krab Kitchen",
 		"description": "Where the magic (grease) happens.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
 	"treedome": {
 		"name": "Sandy's Treedome",
 		"description": "An air-filled glass dome with an oak tree inside. Bring a water helmet.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
 	"jellyfish_fields": {
 		"name": "Jellyfish Fields",
 		"description": "Rolling green hills full of buzzing pink jellyfish.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
 	"goo_lagoon": {
 		"name": "Goo Lagoon",
 		"description": "Bikini Bottom's favourite beach. Mind the goo.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
 	"chum_bucket": {
 		"name": "The Chum Bucket",
 		"description": "A gloomy metal bucket of a restaurant across the street. Usually empty.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
 	"boating_school": {
 		"name": "Boating School",
 		"description": "Where everyone learns to drive a boat. Some take longer than others.",
-		"show": "Bikini Bottom"
+		"show": "SpongeBob SquarePants"
 	},
 	"sunset_arms": {
 		"name": "Sunset Arms",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Grandpa's old brick boarding house, full of strange tenants and stranger pets."
 	},
-	"arnald_room": {
+	"arnold_room": {
 		"name": "Arnold's Room",
-		"show": "Hillwood",
-		"description": "An attic bedroom with a giant skylight and a couch that folds out of the wall."
+		"show": "Hey Arnold!",
+		"description": "An attic bedroom with a giant skylight and a couch that folds out of the wall.",
+		"aka": [
+			"arnald_room"
+		]
 	},
 	"ps118": {
 		"name": "P.S. 118",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Hillwood's public school. The steps are prime territory for being told to move it."
 	},
 	"classroom": {
 		"name": "Fourth Grade Classroom",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Chalkboard, cubbies, and a clock that never moves fast enough."
 	},
-	"gerold_field": {
+	"gerald_field": {
 		"name": "Gerald Field",
-		"show": "Hillwood",
-		"description": "A vacant lot turned baseball diamond, surrounded by chain-link and brick."
+		"show": "Hey Arnold!",
+		"description": "A vacant lot turned baseball diamond, surrounded by chain-link and brick.",
+		"aka": [
+			"gerold_field"
+		]
 	},
 	"big_bobs": {
 		"name": "Big Bob's Beepers",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Helga's dad's store. Home of the beeper. Beepers are the future."
 	},
 	"slausens": {
 		"name": "Slausen's Ice Cream",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "The neighborhood ice cream parlor. Checkered floor, triple scoops."
 	},
 	"green_meats": {
 		"name": "Green Meats",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Mr. Green's butcher shop. Finest cuts in Hillwood."
 	},
 	"hillwood_pier": {
 		"name": "Hillwood Pier",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Old wooden docks on the river with the whole city skyline across the water."
 	},
 	"rooftop": {
 		"name": "Rooftop at Dusk",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Where everybody in Hillwood goes to think about life."
 	},
 	"bb_downtown": {
 		"name": "Downtown Bikini Bottom",
-		"show": "Bikini Bottom",
+		"show": "SpongeBob SquarePants",
 		"description": "Shops, a bus stop, and buildings shaped like anchors and barrels."
 	},
 	"glove_world": {
 		"name": "Glove World",
-		"show": "Bikini Bottom",
+		"show": "SpongeBob SquarePants",
 		"description": "The greatest amusement park under the sea. Rest in peace, Glove Land."
 	},
 	"kelp_forest": {
 		"name": "Kelp Forest",
-		"show": "Bikini Bottom",
+		"show": "SpongeBob SquarePants",
 		"description": "Tall swaying kelp. Easy to get lost in."
 	},
 	"rock_bottom": {
 		"name": "Rock Bottom",
-		"show": "Bikini Bottom",
+		"show": "SpongeBob SquarePants",
 		"description": "A dark, deep, weird place with one very slow bus."
 	},
 	"krusty_dining": {
 		"name": "Krusty Krab Dining Room",
-		"show": "Bikini Bottom",
+		"show": "SpongeBob SquarePants",
 		"description": "Tables made of barrels and a ship's wheel on the wall."
 	},
 	"sponge_living_room": {
 		"name": "SpongeBob's Living Room",
-		"show": "Bikini Bottom",
+		"show": "SpongeBob SquarePants",
 		"description": "Inside the pineapple: a tiki chair, a porthole TV and Gary's food bowl."
 	},
 	"hillwood_street": {
 		"name": "Hillwood Street",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "A row of brownstones with stoops. Watch out for Stoop Kid."
 	},
 	"hillwood_park": {
 		"name": "Hillwood Park",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Trees, a pond, and a bench perfect for thinking."
 	},
 	"cafeteria": {
 		"name": "School Cafeteria",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Mystery meatloaf served daily."
 	},
 	"boarding_kitchen": {
 		"name": "Boarding House Kitchen",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Grandma's kitchen at Sunset Arms. Something is always cooking."
 	},
 	"alley": {
 		"name": "Hillwood Alley",
-		"show": "Hillwood",
+		"show": "Hey Arnold!",
 		"description": "Fire escapes, a dumpster and a stray cat or two."
 	},
 	"funnie_house": {
 		"name": "The Funnie House",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Doug's family home on a quiet street in Bluffington."
 	},
-	"dug_room": {
+	"doug_room": {
 		"name": "Doug's Room",
-		"show": "Bluffington",
-		"description": "Where Doug writes in his journal and dreams of being Quailman."
+		"show": "Doug",
+		"description": "Where Doug writes in his journal and dreams of being Quailman.",
+		"aka": [
+			"dug_room"
+		]
 	},
 	"bluffington_school": {
 		"name": "Bluffington Elementary",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Home of the Beavers."
 	},
 	"school_hallway": {
 		"name": "School Hallway",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Lockers, posters and a lot of nervous walking."
 	},
 	"honker_burger": {
 		"name": "The Honker Burger",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Everybody's favorite burger joint. Honk if you love burgers."
 	},
 	"lucky_duck_lake": {
 		"name": "Lucky Duck Lake",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "A pretty lake with a dock and a lot of ducks."
 	},
 	"beebe_mansion": {
 		"name": "Beebe's Mansion",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "The fanciest house in Bluffington, with a fountain out front."
 	},
 	"dink_yard": {
 		"name": "Mr. Dink's Yard",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "The neighbor's yard, full of very expensive gadgets."
 	},
 	"bluffington_downtown": {
 		"name": "Downtown Bluffington",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "The main street: the movie theater, the record shop and more."
 	},
 	"bluffington_park": {
 		"name": "Bluffington Park",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "A big green park with a bandstand."
 	},
 	"swirlys": {
 		"name": "Swirly's",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "The ice cream parlor where all of Bluffington hangs out."
 	},
 	"beets_concert": {
 		"name": "The Beets Concert",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "The greatest band in history, live! Bring earplugs."
 	},
 	"bluff_cafeteria": {
 		"name": "Bluffington Cafeteria",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Mystery lunch and the Beavers banner."
 	},
 	"funnie_kitchen": {
 		"name": "Funnie Kitchen",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Breakfast, homework and the fridge gallery."
 	},
 	"quailman_lair": {
 		"name": "Quailman's Secret Lair",
-		"show": "Bluffington",
+		"show": "Doug",
 		"description": "Where Doug's superhero daydreams take him."
 	},
 	"pickles_living_room": {
 		"name": "Pickles Living Room",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "The playpen, the TV and a whole lot of toys."
 	},
 	"pickles_backyard": {
 		"name": "Pickles Backyard",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "A sandbox, a garden full of worms, and a fence to escape under."
 	},
 	"pickles_kitchen": {
 		"name": "Pickles Kitchen",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Where the cookies are kept. Up high. Very high."
 	},
 	"nursery": {
 		"name": "Tommy's Nursery",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Crib, mobile and a toy chest full of adventure."
 	},
 	"stu_basement": {
 		"name": "Stu's Basement",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Grandpa's... no, Stu's workshop full of half-built toys."
 	},
 	"playground": {
 		"name": "The Playground",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Slides, swings and a sandbox the size of a desert."
 	},
 	"reptarland": {
 		"name": "Reptarland",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "The theme park of the giant green dinosaur. Rawr!"
 	},
 	"java_lava": {
 		"name": "Java Lava",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "The coffee shop. Grown-ups only. Supposedly."
 	},
 	"supermarket": {
 		"name": "Supermarket",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Endless aisles. Endless cereal."
 	},
 	"finster_house": {
 		"name": "Finster House",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Chuckie's house. Neat, quiet and a little bit scary."
 	},
 	"pickles_attic": {
 		"name": "Pickles Attic",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Boxes, trunks and dusty treasures. Very spooky."
 	},
 	"carmichael_house": {
 		"name": "Carmichael House",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Susie's house across the street."
 	},
 	"toy_palace": {
 		"name": "Toy Palace",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Aisles and aisles of toys, and a giant dinosaur."
 	},
 	"duck_pond": {
 		"name": "Duck Pond Park",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "A pond, a bench and some very bold ducks."
 	},
 	"pizza_place": {
 		"name": "Pizza Place",
-		"show": "Playpen",
+		"show": "Rugrats",
 		"description": "Checkered floors and a big brick oven."
 	},
 	"forest_path": {
@@ -309,20 +327,29 @@
 		"show": "Pokemon",
 		"description": "A quiet trail. Perfect for a pitfall trap."
 	},
-	"rokket_hq": {
+	"rocket_hq": {
 		"name": "Team Rocket HQ",
 		"show": "Pokemon",
-		"description": "The Boss's office. Do not touch the cat."
+		"description": "The Boss's office. Do not touch the cat.",
+		"aka": [
+			"rokket_hq"
+		]
 	},
-	"monster_clinic": {
-		"name": "Monster Clinic",
+	"pokemon_center": {
+		"name": "Pokemon Center",
 		"show": "Pokemon",
-		"description": "Where every trainer heals their monsters. And where the treasure is."
+		"description": "Where every trainer heals their monsters. And where the treasure is.",
+		"aka": [
+			"monster_clinic"
+		]
 	},
-	"clinic_lobby": {
-		"name": "Clinic Lobby",
+	"center_lobby": {
+		"name": "Pokemon Center Lobby",
 		"show": "Pokemon",
-		"description": "The front desk and the healing machine."
+		"description": "The front desk and the healing machine.",
+		"aka": [
+			"clinic_lobby"
+		]
 	},
 	"town_square": {
 		"name": "Town Square",
@@ -344,60 +371,84 @@
 		"show": "Pokemon",
 		"description": "Where the balloon lands. Usually upside down."
 	},
-	"rokket_camp": {
+	"rocket_camp": {
 		"name": "Rocket Camp",
 		"show": "Pokemon",
-		"description": "A tent, a campfire and dreams of success."
+		"description": "A tent, a campfire and dreams of success.",
+		"aka": [
+			"rokket_camp"
+		]
 	},
 	"mecha_lab": {
 		"name": "Mecha Lab",
 		"show": "Pokemon",
 		"description": "Where the giant robot of the week gets built."
 	},
-	"pallut_town": {
-		"name": "Pallut Town",
+	"pallet_town": {
+		"name": "Pallet Town",
 		"show": "Pokemon",
-		"description": "A quiet little town where every journey begins."
+		"description": "A quiet little town where every journey begins.",
+		"aka": [
+			"pallut_town"
+		]
 	},
-	"prof_lab": {
-		"name": "Professor's Lab",
+	"oak_lab": {
+		"name": "Professor Oak's Lab",
 		"show": "Pokemon",
-		"description": "Machines, books and three monster balls to choose from."
+		"description": "Machines, books and three monster balls to choose from.",
+		"aka": [
+			"prof_lab"
+		]
 	},
-	"ceruleen_gym": {
-		"name": "Ceruleen Gym",
+	"cerulean_gym": {
+		"name": "Cerulean Gym",
 		"show": "Pokemon",
-		"description": "A swimming-pool arena for water battles."
+		"description": "A swimming-pool arena for water battles.",
+		"aka": [
+			"ceruleen_gym"
+		]
 	},
-	"monster_mart": {
-		"name": "Monster Mart",
+	"poke_mart": {
+		"name": "Poke Mart",
 		"show": "Pokemon",
-		"description": "Potions, balls and everything a trainer needs."
+		"description": "Potions, balls and everything a trainer needs.",
+		"aka": [
+			"monster_mart"
+		]
 	},
 	"tall_grass": {
 		"name": "Tall Grass Route",
 		"show": "Pokemon",
 		"description": "Wild monsters could be hiding anywhere in here."
 	},
-	"kamee_house": {
-		"name": "Kamee House",
+	"kame_house": {
+		"name": "Kame House",
 		"show": "Dragonball Z",
-		"description": "Master Roshi's pink house on a tiny island."
+		"description": "Master Roshi's pink house on a tiny island.",
+		"aka": [
+			"kamee_house"
+		]
 	},
-	"capsool_corp": {
-		"name": "Capsool Corp",
+	"capsule_corp": {
+		"name": "Capsule Corp",
 		"show": "Dragonball Z",
-		"description": "Bulma's family company. Big dome, bigger inventions."
+		"description": "Bulma's family company. Big dome, bigger inventions.",
+		"aka": [
+			"capsool_corp"
+		]
 	},
 	"the_lookout": {
 		"name": "The Lookout",
 		"show": "Dragonball Z",
 		"description": "A palace floating high above the clouds."
 	},
-	"planet_nameck": {
+	"planet_namek": {
 		"name": "Planet Namek",
 		"show": "Dragonball Z",
-		"description": "Green skies, blue grass and round little trees."
+		"description": "Green skies, blue grass and round little trees.",
+		"aka": [
+			"planet_nameck"
+		]
 	},
 	"rocky_wasteland": {
 		"name": "Rocky Wasteland",
@@ -414,13 +465,16 @@
 		"show": "Dragonball Z",
 		"description": "Training at a hundred times normal gravity."
 	},
-	"gokku_house": {
+	"goku_house": {
 		"name": "Goku's House",
 		"show": "Dragonball Z",
-		"description": "A little round house in the mountains."
+		"description": "A little round house in the mountains.",
+		"aka": [
+			"gokku_house"
+		]
 	},
 	"time_chamber": {
-		"name": "Time Chamber",
+		"name": "Hyperbolic Time Chamber",
 		"show": "Dragonball Z",
 		"description": "A year inside is only a day outside. Very white."
 	},
@@ -429,20 +483,29 @@
 		"show": "Dragonball Z",
 		"description": "A very, very long road through the clouds of the Other World."
 	},
-	"kie_planet": {
+	"kai_planet": {
 		"name": "King Kai's Planet",
 		"show": "Dragonball Z",
-		"description": "A tiny planet with huge gravity, a car and a monkey."
+		"description": "A tiny planet with huge gravity, a car and a monkey.",
+		"aka": [
+			"kie_planet"
+		]
 	},
-	"cel_ring": {
+	"cell_ring": {
 		"name": "The Cell Games",
 		"show": "Dragonball Z",
-		"description": "Cell's tournament ring in the middle of nowhere."
+		"description": "Cell's tournament ring in the middle of nowhere.",
+		"aka": [
+			"cel_ring"
+		]
 	},
-	"freeza_ship": {
+	"frieza_ship": {
 		"name": "Frieza's Ship",
 		"show": "Dragonball Z",
-		"description": "Round, purple and full of bad intentions."
+		"description": "Round, purple and full of bad intentions.",
+		"aka": [
+			"freeza_ship"
+		]
 	},
 	"west_city": {
 		"name": "West City",
@@ -529,15 +592,21 @@
 		"show": "Attack on Titan",
 		"description": "A busy district with a big gate and bigger trouble."
 	},
-	"whyte_house": {
+	"white_house": {
 		"name": "The White House",
 		"show": "Breaking Bad",
-		"description": "A beige house in Albuquerque. Very normal. Suspiciously normal."
+		"description": "A beige house in Albuquerque. Very normal. Suspiciously normal.",
+		"aka": [
+			"whyte_house"
+		]
 	},
-	"whyte_backyard": {
+	"white_backyard": {
 		"name": "White Backyard",
 		"show": "Breaking Bad",
-		"description": "The pool and the roof. There may be a pizza on the roof."
+		"description": "The pool and the roof. There may be a pizza on the roof.",
+		"aka": [
+			"whyte_backyard"
+		]
 	},
 	"rv_desert": {
 		"name": "The RV",
@@ -545,14 +614,17 @@
 		"description": "An old RV parked in the middle of the desert."
 	},
 	"car_wash": {
-		"name": "A2A Car Wash",
+		"name": "A1A Car Wash",
 		"show": "Breaking Bad",
 		"description": "The cleanest cars in Albuquerque."
 	},
-	"pollitos": {
-		"name": "Los Pollitos Hermanos",
+	"pollos": {
+		"name": "Los Pollos Hermanos",
 		"show": "Breaking Bad",
-		"description": "Fried chicken, served with a very polite smile."
+		"description": "Fried chicken, served with a very polite smile.",
+		"aka": [
+			"pollitos"
+		]
 	},
 	"superlab": {
 		"name": "The Superlab",
@@ -579,10 +651,13 @@
 		"show": "Breaking Bad",
 		"description": "Jesse's house. Loud music, couches, video games."
 	},
-	"schraeder_house": {
+	"schrader_house": {
 		"name": "Schrader House",
 		"show": "Breaking Bad",
-		"description": "Hank and Marie's house. Mostly purple."
+		"description": "Hank and Marie's house. Mostly purple.",
+		"aka": [
+			"schraeder_house"
+		]
 	},
 	"desert_road": {
 		"name": "Desert Road",
@@ -609,15 +684,21 @@
 		"show": "Super Mario Brothers",
 		"description": "Rolling hills, question blocks and green pipes."
 	},
-	"peech_castle": {
+	"peach_castle": {
 		"name": "Princess Peach's Castle",
 		"show": "Super Mario Brothers",
-		"description": "The princess's castle. She's usually home. Usually."
+		"description": "The princess's castle. She's usually home. Usually.",
+		"aka": [
+			"peech_castle"
+		]
 	},
-	"peech_throne": {
+	"peach_throne": {
 		"name": "Throne Room",
 		"show": "Super Mario Brothers",
-		"description": "Inside Peach's castle, with a long red carpet."
+		"description": "Inside Peach's castle, with a long red carpet.",
+		"aka": [
+			"peech_throne"
+		]
 	},
 	"pipe_land": {
 		"name": "Pipe Land",
@@ -629,10 +710,13 @@
 		"show": "Super Mario Brothers",
 		"description": "Blue bricks, dark tunnels and coins in the ceiling."
 	},
-	"bowzer_castle": {
+	"bowser_castle": {
 		"name": "Bowser's Castle",
 		"show": "Super Mario Brothers",
-		"description": "Lava, chains and a very big boss door."
+		"description": "Lava, chains and a very big boss door.",
+		"aka": [
+			"bowzer_castle"
+		]
 	},
 	"sky_land": {
 		"name": "Sky Land",
@@ -734,15 +818,21 @@
 		"show": "Metroid",
 		"description": "A science space station. Something's gone wrong."
 	},
-	"ridlee_lair": {
+	"ridley_lair": {
 		"name": "Ridley's Lair",
 		"show": "Metroid",
-		"description": "A dark lava chamber. Ridley is waiting."
+		"description": "A dark lava chamber. Ridley is waiting.",
+		"aka": [
+			"ridlee_lair"
+		]
 	},
-	"krayd_lair": {
+	"kraid_lair": {
 		"name": "Kraid's Lair",
 		"show": "Metroid",
-		"description": "A huge chamber for a huge monster."
+		"description": "A huge chamber for a huge monster.",
+		"aka": [
+			"krayd_lair"
+		]
 	},
 	"item_room": {
 		"name": "Item Room",
@@ -759,25 +849,37 @@
 		"show": "Kirby",
 		"description": "Grassy hills under a sunny Dream Land sky."
 	},
-	"whispee_forest": {
+	"whispy_forest": {
 		"name": "Whispy's Forest",
 		"show": "Kirby",
-		"description": "A cheerful forest with a grumpy old tree."
+		"description": "A cheerful forest with a grumpy old tree.",
+		"aka": [
+			"whispee_forest"
+		]
 	},
-	"dedeedee_castle": {
+	"dedede_castle": {
 		"name": "Castle Dedede",
 		"show": "Kirby",
-		"description": "The king's castle on the hill."
+		"description": "The king's castle on the hill.",
+		"aka": [
+			"dedeedee_castle"
+		]
 	},
-	"dedeedee_throne": {
+	"dedede_throne": {
 		"name": "Throne Room",
 		"show": "Kirby",
-		"description": "King Dedede's throne, with a buffet nearby."
+		"description": "King Dedede's throne, with a buffet nearby.",
+		"aka": [
+			"dedeedee_throne"
+		]
 	},
-	"kirbie_house": {
+	"kirby_house": {
 		"name": "Kirby's House",
 		"show": "Kirby",
-		"description": "A little dome house with a star on the door."
+		"description": "A little dome house with a star on the door.",
+		"aka": [
+			"kirbie_house"
+		]
 	},
 	"butter_building": {
 		"name": "Butter Building",

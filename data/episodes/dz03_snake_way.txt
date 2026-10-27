@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy
-SCENE gokku_house cut
+SCENE goku_house cut
 TITLE
 PLACE chi_chi center left angry
 PLACE gohan midright left nervous
@@ -18,9 +18,9 @@ CHI_CHI (smug): So you'll take it to him. Bring Krillin. And a very big backpack
 GOHAN (surprised): Mom, King Kai's planet is at the end of Snake Way! It's a million miles long!
 CHI_CHI (happy): Then you'd better leave early!
 
-# ------------------------------------------------------------ KAMEE HOUSE
+# ------------------------------------------------------------ KAME HOUSE
 MUSIC jazz
-SCENE kamee_house
+SCENE kame_house
 PLACE krillin center left happy
 PLACE master_roshi midright left smug
 ENTER gohan left midleft nervous
@@ -54,12 +54,12 @@ KRILLIN (scared): Six months?! I only brought one sandwich!
 GOHAN (smug): We can fly, Krillin. It'll only take a few days.
 KRILLIN (sad): That's still a lot of days for one sandwich.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC sneaky
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE bulma center left excited
 PLACE trunks midright left nervous
-BULMA (excited): A delivery to Snake Way? I've got just the thing! The Capsool Express Drone!
+BULMA (excited): A delivery to Snake Way? I've got just the thing! The Capsule Express Drone!
 TRUNKS (nervous): Mom, the last drone exploded.
 BULMA (smug): That was the old one. This one only explodes sometimes.
 TRUNKS (nervous): Should we send it after them?
@@ -91,7 +91,7 @@ NARRATOR: Piccolo had never cooked anything in his life.
 
 # ------------------------------------------------------------ KING KAI'S PLANET
 MUSIC tense 2
-SCENE kie_planet
+SCENE kai_planet
 PLACE goku center right sad
 GOKU (sad): So... hungry. Can't train. Can't... think.
 GOKU (nervous): King Kai told me a joke to cheer me up. It was about a tree. I didn't get it.
@@ -114,7 +114,7 @@ GOHAN (happy): Thanks, Mister Piccolo!
 
 # ------------------------------------------------------------ KING KAI'S PLANET
 MUSIC happy 3
-SCENE kie_planet
+SCENE kai_planet
 PLACE goku center right sad
 ENTER gohan left midleft excited 500
 ENTER krillin left left excited 500
@@ -129,7 +129,7 @@ PICCOLO (smug): You're welcome.
 
 # ------------------------------------------------------------ KING KAI'S PLANET
 MUSIC romantic
-SCENE kie_planet
+SCENE kai_planet
 PLACE goku center right happy
 PLACE gohan midleft right happy
 GOKU (happy): Thanks for coming all this way, Gohan. Snake Way is really long.

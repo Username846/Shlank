@@ -1,5 +1,5 @@
 @title The Great Cookie Quest
-@series Playpen
+@series Rugrats
 @icon bottle
 @number 1
 @description Angelica's cookies are hidden somewhere high in the kitchen, and she tricks the babies into fetching them. A baby's gotta do what a baby's gotta do.

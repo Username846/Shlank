@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ DEDEDE'S THRONE ROOM
 MUSIC sad
-SCENE dedeedee_throne cut
+SCENE dedede_throne cut
 TITLE
 PLACE dedede center left sad
 PLACE waddle_dee midright left nervous
@@ -43,7 +43,7 @@ BANDANA_DEE (smug): Kirby's feet are round. These are flat. And royal.
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC sneaky
-SCENE dedeedee_castle
+SCENE dedede_castle
 PLACE dedede center left nervous
 ENTER bandana_dee left midleft smug
 ENTER kirby left left smug
@@ -131,7 +131,7 @@ MARX (scared): Maybe we wait until next year.
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC happy 3
-SCENE dedeedee_castle
+SCENE dedede_castle
 CARD One month later...
 PLACE dedede center left happy
 PLACE waddle_dee midright left happy

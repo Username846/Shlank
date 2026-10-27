@@ -30,17 +30,17 @@ static func draw(p: Puppet, style: String) -> bool:
 # ------------------------------------------------------------------ people --
 
 const HUMANS := ["grandma", "harold", "stinky", "sid", "rhonda", "big_bob",
-	"dug", "skeetor", "patty", "rodger",
-	"tommi", "chuckey", "angelika", "phill", "lill",
-	"jessee", "jaymes", "boss",
-	"judie", "beebe", "mr_dink", "connie", "chalky", "mr_bone",
-	"stew", "didee", "grandpa_lew", "suzie", "dill",
-	"ashe", "mistee", "brok", "nurse_joi", "officer_jenni"]
+	"doug", "skeeter", "patti", "roger",
+	"tommy", "chuckie", "angelica", "phil", "lil",
+	"jessie", "james", "giovanni",
+	"judy", "beebe", "mr_dink", "connie", "chalky", "mr_bone",
+	"stu", "didi", "grandpa_lou", "susie", "dil",
+	"ash", "misty", "brock", "nurse_joy", "officer_jenny"]
 
 
 static func _human(style: String) -> Dictionary:
 	match style:
-		# Hillwood
+		# Hey Arnold!
 		"grandma":
 			return {"size": "adult", "top": Color("c9a6e3"), "bottom": "dress", "flare": 20.0, "hair": "bun", "hair_col": Color("dcdcdc"),
 				"glasses": true, "brow_col": Color("bbbbbb"), "skin": Color("f2c9a5"), "shoe": Color("6b4428"), "sleeves": "long",
@@ -62,52 +62,52 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "torso_w": 44.0, "belly": 16.0, "top": Color("4a78d0"), "sleeves": "long", "bottom_col": Color("2e2e38"),
 				"hair": "fringe", "hair_col": Color("2b211c"), "nose": "big", "skin": Color("e9b48a"), "brow_w": 6.0, "head": Vector2(36, 38),
 				"torso_extra": _x_tie}
-		# Bluffington
-		"dug":
+		# Doug
+		"doug":
 			return {"size": "kid", "top": Color.WHITE, "bottom": "shorts", "bottom_col": Color("c8a86a"), "sock": Color.WHITE,
 				"shoe": Color("6b4428"), "hair": "tuft", "tuft_n": 3, "hair_col": Color("3a2416"), "torso_extra": _x_vest}
-		"skeetor":
+		"skeeter":
 			return {"size": "kid", "skin": Color("6fb8e0"), "top": Color("f2a65a"), "sleeves": "long", "bottom_col": Color("4a5a8a"),
 				"hair": "tuft", "tuft_n": 3, "hair_col": Color("a0522d"), "nose": "big", "eye": Vector2(8, 10)}
-		"patty":
+		"patti":
 			return {"size": "kid", "top": Color("5a8fd8"), "bottom": "skirt", "bottom_col": Color("f2c14e"), "hair": "bob",
 				"hair_col": Color("8a4a2a"), "hairline": -0.25, "lashes": 2, "sock": Color.WHITE, "shoe": Color("6b4428"),
 				"extra": _x_headband}
-		"rodger":
+		"roger":
 			return {"size": "kid", "skin": Color("9ccf6a"), "top": Color("2b2b33"), "sleeves": "long", "bottom_col": Color("4a6fa8"),
 				"hair": "slick", "hair_col": Color("1d1d22"), "base_lid": 0.35, "nose": "long", "torso_extra": _x_jacket_zip}
-		# Playpen
-		"tommi":
+		# Rugrats
+		"tommy":
 			return {"size": "baby", "top": Color("7ab8ea"), "bottom": "diaper", "shoe": Puppet.SKIN, "hair": "tuft", "tuft_n": 3,
 				"hair_col": Color("6b4428"), "eye": Vector2(9, 11)}
-		"chuckey":
+		"chuckie":
 			return {"size": "baby", "top": Color("4a78d0"), "bottom": "shorts", "bottom_col": Color("6fbf6a"), "hair": "wild",
 				"hair_col": Color("e5642a"), "glasses": true, "eye": Vector2(8, 10), "shoe": Color("2e2a35"), "torso_extra": _x_planet}
-		"angelika":
+		"angelica":
 			return {"size": "kid", "top": Color("9b5fd0"), "bottom": "dress", "flare": 18.0, "hair": "pigtails",
 				"hair_col": Color("f4d24e"), "lashes": 2, "sock": Color.WHITE, "shoe": Color("7a3fa0"), "eye_iris": Color("3d6fd0"),
 				"extra": _x_purple_bows}
-		"phill", "lill":
-			var c := {"size": "baby", "top": Color("6fbf6a"), "bottom": "shorts" if style == "phill" else "skirt",
-				"bottom_col": Color("4a78d0") if style == "phill" else Color("f28cb8"), "hair": "bob", "hair_col": Color("6b4428"),
+		"phil", "lil":
+			var c := {"size": "baby", "top": Color("6fbf6a"), "bottom": "shorts" if style == "phil" else "skirt",
+				"bottom_col": Color("4a78d0") if style == "phil" else Color("f28cb8"), "hair": "bob", "hair_col": Color("6b4428"),
 				"hairline": -0.15, "shoe": Puppet.SKIN, "eye": Vector2(8, 10), "torso_extra": _x_duck}
-			if style == "lill":
+			if style == "lil":
 				c["extra"] = _x_pink_bow
 				c["lashes"] = 2
 			return c
 		# Pokemon (Team Rocket)
-		"jessee", "jaymes":
-			var jess := style == "jessee"
+		"jessie", "james":
+			var jess := style == "jessie"
 			return {"size": "adult", "top": Color("f4f4f2"), "sleeves": "long", "sleeve": Color("f4f4f2"),
 				"bottom": "skirt" if jess else "pants", "bottom_col": Color("f4f4f2"), "legs": Color("2b2b33") if jess else Color("f4f4f2"),
 				"shoe": Color("2b2b33"), "hair": "big_wave" if jess else "bob", "hair_col": Color("d9407a") if jess else Color("8f8fd8"),
 				"eye_iris": Color("3d6fd0") if jess else Color("3f8f3a"), "lashes": 2 if jess else 0, "torso_w": 28.0 if jess else 31.0,
-				"torso_extra": _x_rokket_r, "extra": _x_earrings if jess else _x_rose}
-		"boss":
+				"torso_extra": _x_rocket_r, "extra": _x_earrings if jess else _x_rose}
+		"giovanni":
 			return {"size": "adult", "top": Color("c8742a"), "sleeves": "long", "bottom_col": Color("a85f20"), "shoe": Color("2b211c"),
 				"hair": "slick", "hair_col": Color("2b211c"), "base_lid": 0.4, "torso_w": 35.0, "torso_extra": _x_suit}
-		# More Bluffington
-		"judie":
+		# More Doug
+		"judy":
 			return {"size": "teen", "top": Color("2b2b33"), "sleeves": "long", "bottom_col": Color("2b2b33"), "hair": "bob",
 				"hair_col": Color("3a2416"), "hairline": -0.2, "lashes": 2, "base_lid": 0.3, "extra": _x_beret}
 		"beebe":
@@ -128,41 +128,41 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "top": Color("6b6f78"), "sleeves": "long", "bottom_col": Color("4a4d55"), "hair": "none",
 				"glasses": true, "nose": "long", "head_shape": "long", "head": Vector2(30, 42), "torso_extra": _x_suit,
 				"extra": _x_moustache}
-		# More Playpen
-		"stew":
+		# More Rugrats
+		"stu":
 			return {"size": "adult", "top": Color("7a5fc0"), "bottom_col": Color("5a7a3a"), "hair": "crew",
 				"hair_col": Color("6b4428"), "nose": "big", "glasses": true}
-		"didee":
+		"didi":
 			return {"size": "adult", "top": Color("e6452f"), "sleeves": "long", "bottom_col": Color("4ab8a8"), "hair": "curly",
 				"hair_col": Color("4a8fe0"), "lashes": 2, "torso_w": 29.0, "extra": _x_earrings}
-		"grandpa_lew":
+		"grandpa_lou":
 			return {"size": "adult", "top": Color("f2efe6"), "bottom_col": Color("8a96a3"), "hair": "fringe",
 				"hair_col": Color("f2f2f2"), "glasses": true, "nose": "big", "skin": Color("f2c9a5"), "brow_col": Color("dddddd"),
 				"torso_w": 27.0, "torso_extra": _x_overall_straps}
-		"suzie":
+		"susie":
 			return {"size": "kid", "skin": Color("8a5a3a"), "top": Color("f2c14e"), "bottom": "skirt", "bottom_col": Color("9b5fd0"),
 				"hair": "pigtails", "hair_col": Color("1d1d22"), "hairline": -0.2, "lashes": 2, "sock": Color.WHITE,
 				"shoe": Color("e6452f"), "extra": _x_hair_ties}
-		"dill":
+		"dil":
 			return {"size": "baby", "top": Color("7ab8ea"), "bottom": "diaper", "shoe": Puppet.SKIN, "hair": "tuft", "tuft_n": 1,
 				"hair_col": Color("8a5a36"), "eye": Vector2(8, 10), "head": Vector2(40, 38), "torso_w": 24.0}
 		# More Pokemon
-		"ashe":
+		"ash":
 			return {"size": "kid", "top": Color("4a78d0"), "sleeves": "long", "bottom_col": Color("3d5aa8"), "hair": "spiky",
 				"hair_col": Color("1d1d22"), "skin": Color("f2c9a5"), "shoe": Color("e6452f"), "torso_extra": _x_open_jacket,
 				"extra": _x_trainer_cap}
-		"mistee":
+		"misty":
 			return {"size": "kid", "top": Color("f2c14e"), "bottom": "shorts", "bottom_col": Color("4a78d0"), "hair": "ponytail",
 				"hair_col": Color("f07a2a"), "lashes": 2, "shoe": Color("e6452f"), "eye_iris": Color("3fae9a"),
 				"torso_extra": _x_suspenders}
-		"brok":
+		"brock":
 			return {"size": "teen", "skin": Color("c98a5a"), "top": Color("e08a3a"), "sleeves": "long", "bottom_col": Color("8a6a4a"),
 				"hair": "spiky", "hair_col": Color("3a2416"), "base_lid": 0.82, "torso_extra": _x_vest_col.bind(Color("5a8a3a"))}
-		"nurse_joi":
+		"nurse_joy":
 			return {"size": "adult", "top": Color("f7c6d6"), "bottom": "dress", "flare": 16.0, "hair": "pigtails",
 				"hair_col": Color("f28cb8"), "lashes": 2, "eye_iris": Color("3d8fe0"), "shoe": Color.WHITE, "torso_w": 28.0,
 				"torso_extra": _x_apron, "extra": _x_nurse_hat}
-		"officer_jenni":
+		"officer_jenny":
 			return {"size": "adult", "top": Color("3d5aa8"), "bottom": "skirt", "bottom_col": Color("2b3a6a"), "hair": "bob",
 				"hair_col": Color("3fae9a"), "lashes": 2, "legs": Puppet.SKIN, "shoe": Color("2b2b33"), "torso_w": 28.0,
 				"torso_extra": _x_badge, "extra": _x_police_cap}
@@ -227,7 +227,7 @@ static func _x_pink_bow(p: Puppet, hc: Vector2) -> void:
 	Art.shape(p.ci, PackedVector2Array([b, b + Vector2(12, -9), b + Vector2(12, 9)]), Color("f28cb8"), 2.5)
 
 
-static func _x_rokket_r(p: Puppet) -> void:
+static func _x_rocket_r(p: Puppet) -> void:
 	Art.shape(p.ci, Art.rrect(Rect2(-29, -196, 58, 26), 6), Color("2b2b33"), 3.0)
 	# Counter-flip so the R never reads backwards
 	p.ci.draw_set_transform(-Puppet.BOUNDS.position * Puppet.BAKE_SCALE, 0.0, Vector2(Puppet.BAKE_SCALE * p.facing, Puppet.BAKE_SCALE))
@@ -251,7 +251,7 @@ static func _x_suit(p: Puppet) -> void:
 		Art.stroke(p.ci, PackedVector2Array([Vector2(sx * 14, -196), Vector2(sx * 6, -150)]), 3.0)
 
 
-# ---------------------------------------------------------- Bikini Bottom --
+# ---------------------------------------------------------- SpongeBob SquarePants --
 
 static func _plankton(p: Puppet) -> void:
 	var ci := p.ci

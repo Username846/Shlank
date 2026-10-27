@@ -1,12 +1,12 @@
 @title Quailman and the Science Fair
-@series Bluffington
+@series Doug
 @icon journal
 @number 2
 @description Doug's volcano is the best project at the science fair, until Roger messes with it. Time for Quailman to save the day, at least in Doug's imagination.
 
 # ------------------------------------------------------------ DOUG'S ROOM
 MUSIC happy
-SCENE dug_room cut
+SCENE doug_room cut
 TITLE
 PLACE doug center right excited
 DOUG (excited): Dear Journal. Tomorrow is the Bluffington Science Fair, and my volcano is ready.
@@ -154,7 +154,7 @@ SKEETER (excited): Honk! Second place, man! Killer!
 
 # ------------------------------------------------------------ DOUG'S ROOM
 MUSIC romantic
-SCENE dug_room
+SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
 DOUG (happy): Dear Journal. Second place. And Patti sat with me at lunch.

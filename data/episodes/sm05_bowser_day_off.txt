@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC tense
-SCENE bowzer_castle cut
+SCENE bowser_castle cut
 TITLE
 PLACE bowser center left sad
 PLACE koopa_troopa midright left nervous
@@ -37,7 +37,7 @@ LUIGI (smug): Those muffins look pretty good, though.
 
 # ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC jazz
-SCENE peech_castle
+SCENE peach_castle
 PLACE peach center left nervous
 PLACE toad midright left scared
 ENTER bowser right right happy
@@ -86,7 +86,7 @@ WARIO (smug): It is if you believe!
 
 # ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC happy 2
-SCENE peech_castle
+SCENE peach_castle
 PLACE bowser center left happy
 PLACE peach midleft right happy
 BOWSER (happy): Weeding is fun! I pulled up all the weeds!
@@ -123,7 +123,7 @@ TOAD (happy): Thank you, Bowser!
 
 # ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC tense
-SCENE peech_throne
+SCENE peach_throne
 PLACE peach center left neutral
 ENTER wario left midleft excited 500
 WARIO (excited): Princess Peach! You're coming with me!
@@ -137,7 +137,7 @@ BOWSER (smug): I'm being nice to HER. Not to you.
 
 # ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC action 2
-SCENE peech_throne
+SCENE peach_throne
 PLACE bowser midright left angry
 PLACE wario midleft right scared
 PLACE peach center left surprised
@@ -168,7 +168,7 @@ LUIGI (smug): With your muffins. They were really good.
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC sneaky 2
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser center left happy
 PLACE koopa_troopa midright left happy
 PLACE goomba right left happy

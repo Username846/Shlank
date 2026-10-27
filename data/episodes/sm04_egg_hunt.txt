@@ -79,7 +79,7 @@ MARIO (nervous): I really should have learned to swim better.
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC sneaky 2
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser center left excited
 PLACE goomba midright left nervous
 BOWSER (excited): Goomba! I found a spotted egg in my bathtub!
@@ -104,7 +104,7 @@ LUIGI (scared): Bowser?!
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC tense
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser center left nervous
 ENTER mario left midleft angry 500
 ENTER yoshi left left angry 500
@@ -118,7 +118,7 @@ BOWSER (shy): Hi, little guy. I'm... your mom?
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC romantic
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser center left shy
 PLACE yoshi midleft right nervous
 PLACE mario left right surprised
@@ -147,7 +147,7 @@ YOSHI (happy): Yoshi yoshi yoshi!
 
 # ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC jazz 2
-SCENE peech_throne
+SCENE peach_throne
 PLACE peach center left happy
 PLACE toad midright left excited
 TOAD (excited): Princess! Seven baby Yoshis are coming to the castle for a welcome party!
@@ -158,7 +158,7 @@ TOAD (scared): I'll call Donkey Kong!
 
 # ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC happy 2
-SCENE peech_castle
+SCENE peach_castle
 PLACE peach center left happy
 PLACE toad midright left happy
 PLACE yoshi midleft right happy

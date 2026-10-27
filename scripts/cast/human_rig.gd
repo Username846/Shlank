@@ -135,7 +135,7 @@ static func _hair_back(p: Puppet, c: Dictionary, hc: Vector2, hr: Vector2) -> vo
 		"long":
 			Art.shape(ci, Art.rrect(Rect2(hc.x - hr.x - 9, hc.y - hr.y - 6, hr.x * 2 + 18, hr.y * 2.6), 22), col, 3.5, 0.1)
 		"big_wave":
-			# A huge swoop of hair curving out behind (Jessee-style)
+			# A huge swoop of hair curving out behind (Jessie-style)
 			var pts := Art.smooth(PackedVector2Array([hc + Vector2(-hr.x * 0.6, -hr.y * 1.1), hc + Vector2(-hr.x * 2.6, -hr.y * 0.6),
 				hc + Vector2(-hr.x * 3.3, hr.y * 1.2), hc + Vector2(-hr.x * 2.6, hr.y * 3.0), hc + Vector2(-hr.x * 1.6, hr.y * 2.2),
 				hc + Vector2(-hr.x * 1.9, hr.y * 0.9), hc + Vector2(-hr.x * 0.9, hr.y * 0.6)]), 6)

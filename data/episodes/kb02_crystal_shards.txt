@@ -21,7 +21,7 @@ KIRBY (nervous): Poyo poyo?
 
 # ------------------------------------------------------------ KIRBY'S HOUSE
 MUSIC romantic
-SCENE kirbie_house
+SCENE kirby_house
 PLACE ribbon midright left sad
 PLACE kirby center right nervous
 RIBBON (sad): My name is Ribbon. I'm from Ripple Star. Our crystal keeps the whole planet safe.
@@ -34,7 +34,7 @@ KIRBY (happy): Poyo poyo!
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC jazz
-SCENE dedeedee_castle
+SCENE dedede_castle
 PLACE dedede center left smug
 PLACE waddle_dee midright left happy
 DEDEDE (smug): Waddle Dee! I found a shiny thing in my garden! Sparkly! Pretty! It's mine!
@@ -48,7 +48,7 @@ KIRBY (angry): Poyo!
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC tense
-SCENE dedeedee_castle
+SCENE dedede_castle
 PLACE dedede center left nervous
 PLACE ribbon midleft right sad
 PLACE kirby left right angry
@@ -62,7 +62,7 @@ NARRATOR: One shard down. Four to go.
 
 # ------------------------------------------------------------ WHISPY'S FOREST
 MUSIC sneaky
-SCENE whispee_forest
+SCENE whispy_forest
 PLACE whispy_woods center left angry
 ENTER kirby left midleft happy
 ENTER ribbon left left nervous

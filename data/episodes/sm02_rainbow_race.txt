@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC happy
-SCENE peech_castle cut
+SCENE peach_castle cut
 TITLE
 PLACE peach center left excited
 PLACE toad midright left happy
@@ -98,7 +98,7 @@ KOOPA_TROOPA (smug): Don't tell Bowser I helped.
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC spooky
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser center left smug
 PLACE goomba midright left nervous
 BOWSER (smug): Goomba. Are my racers in position?
@@ -166,7 +166,7 @@ LUIGI (shy): I couldn't have done it without you, Mario.
 
 # ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC happy 3
-SCENE peech_throne
+SCENE peach_throne
 PLACE peach center left happy
 PLACE luigi midleft right happy
 PLACE wario right left sad

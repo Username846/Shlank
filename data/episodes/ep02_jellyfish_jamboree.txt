@@ -1,5 +1,5 @@
 @title The Jellyfish Jamboree
-@series Bikini Bottom
+@series SpongeBob SquarePants
 @icon bubbles
 @number 2
 @description It's the annual Jellyfishing Jamboree, and SpongeBob and Patrick are determined to win the Golden Net. Squidward is the judge, and he'd rather be anywhere else.
@@ -21,7 +21,7 @@ RUN patrick offright
 
 # ------------------------------------------------------------ SQUIDWARD'S HOUSE
 MUSIC jazz
-SCENE squidwerd_house
+SCENE squidward_house
 PLACE squidward center left angry
 ENTER mr_krabs right midright happy
 MR_KRABS (happy): Squidward, me boy! You've been chosen to judge the Jamboree this year!
@@ -47,7 +47,7 @@ SQUIDWARD (smug): Begin. Or don't. I'm not your mother.
 
 # ------------------------------------------------------------ PATRICK'S ROCK
 MUSIC jazz 3
-SCENE pat_rock
+SCENE patrick_rock
 PLACE patrick center right happy
 ENTER spongebob left midleft nervous
 SPONGEBOB (nervous): Patrick, Larry has a jar the size of a house. We have to think smarter.
@@ -133,7 +133,7 @@ MR_KRABS (excited): At full price! Ar ar ar ar!
 
 # ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC tense
-SCENE krusty_crab
+SCENE krusty_krab
 CARD The awards ceremony...
 PLACE squidward center left neutral
 PLACE mr_krabs midright left happy

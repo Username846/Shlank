@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC happy
-SCENE dedeedee_castle cut
+SCENE dedede_castle cut
 TITLE
 PLACE dedede center left excited
 PLACE waddle_dee midright left happy
@@ -30,7 +30,7 @@ KIRBY (sad): Poyo...
 
 # ------------------------------------------------------------ THRONE ROOM
 MUSIC tense
-SCENE dedeedee_throne
+SCENE dedede_throne
 CARD That afternoon...
 PLACE waddle_dee center left scared
 ENTER dedede right midright happy
@@ -43,7 +43,7 @@ SHAKE 0.8
 
 # ------------------------------------------------------------ KIRBY'S HOUSE
 MUSIC action
-SCENE kirbie_house
+SCENE kirby_house
 PLACE kirby center right happy
 ENTER dedede right midright angry 500
 DEDEDE (angry): Kirby! You ate my cake!
@@ -81,7 +81,7 @@ KIRBY (excited): Poyo poyo!
 
 # ------------------------------------------------------------ WHISPY'S FOREST
 MUSIC sneaky
-SCENE whispee_forest
+SCENE whispy_forest
 PLACE whispy_woods midright left angry
 ENTER kirby left left excited
 ENTER bandana_dee left midleft happy
@@ -137,7 +137,7 @@ NARRATOR: Marx goes flying. The cake goes into Kirby's mouth. For safekeeping.
 
 # ------------------------------------------------------------ BACK AT THE THRONE ROOM
 MUSIC tense
-SCENE dedeedee_throne
+SCENE dedede_throne
 PLACE dedede center left angry
 PLACE waddle_dee midright left nervous
 ENTER kirby left midleft happy

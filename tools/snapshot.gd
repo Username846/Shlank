@@ -48,7 +48,7 @@ func _ready() -> void:
 			main.show_library()
 			await _frames(5)
 			await _shot("library")
-			main.show_library_list("Hillwood")
+			main.show_library_list("Hey Arnold!")
 			await _frames(5)
 			await _shot("library_hillwood")
 			main.show_library_list(main.YOURS)

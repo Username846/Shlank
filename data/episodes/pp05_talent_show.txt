@@ -1,5 +1,5 @@
 @title The Big Talent Show
-@series Playpen
+@series Rugrats
 @icon bottle
 @number 5
 @description The Pizza Place is holding a kids' talent show. Angelica wants to win more than anything. Susie wants to win too. The babies just want to be in the show.

@@ -94,7 +94,7 @@ NARRATOR: Just a loose panel. Samus pats the baby on the head. Her suit is very 
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC action 2
-SCENE krayd_lair
+SCENE kraid_lair
 PLACE kraid midright left angry
 ENTER samus left midleft neutral
 KRAID (angry): GRRROOOAR!
@@ -127,7 +127,7 @@ NARRATOR: Nothing is getting between her and that baby. Not lava, not pirates, a
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC tense 2
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left smug
 PLACE baby_metroid midright left scared
 RIDLEY (excited): SCREEEE!

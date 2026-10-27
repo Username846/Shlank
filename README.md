@@ -17,27 +17,27 @@ scene transition and badge, and five ~5 minute episodes (55 in all). Browse
 them under *Watch Episodes*, *Meet the Cast* and *Locations*, which each start
 with a series picker.
 
-- **Bikini Bottom** (SpongeBob parodies). Episodes: **"The Golden Spatula"**, **"The Jellyfish Jamboree"**, **"Plankton's Perfect Plan"**, **"Test Number Sixty-Seven"**, **"The Last Bus from Glove World"**.
+- **SpongeBob SquarePants**. Episodes: **"The Golden Spatula"**, **"The Jellyfish Jamboree"**, **"Plankton's Perfect Plan"**, **"Test Number Sixty-Seven"**, **"The Last Bus from Glove World"**.
   SpongeBob, Patrick Star, Squidward, Mr. Krabs, Sandy Cheeks, Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
-- **Hillwood** (Hey Arnold! parodies). Episodes: **"The Locket"**, **"The Big Game"**, **"Grandma's Treasure Map"**, **"The Ghost of Hillwood Alley"**, **"The Beeper Blowout"**.
+- **Hey Arnold!**. Episodes: **"The Locket"**, **"The Big Game"**, **"Grandma's Treasure Map"**, **"The Ghost of Hillwood Alley"**, **"The Beeper Blowout"**.
   Arnold, Helga Pataki, Gerald, Grandpa Phil, Phoebe, Grandma Pookie, Harold, Stinky, Sid, Rhonda and Big Bob.
-- **Bluffington** (Doug parodies). Episodes: **"The Beets Tickets"**, **"Quailman and the Science Fair"**, **"The School Play"**, **"Mr. Dink's Robot"**, **"Funnie for President"**.
+- **Doug**. Episodes: **"The Beets Tickets"**, **"Quailman and the Science Fair"**, **"The School Play"**, **"Mr. Dink's Robot"**, **"Funnie for President"**.
   Doug Funnie, Skeeter, Patti Mayonnaise, Roger Klotz, Porkchop, Judy Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky Studebaker and Mr. Bone.
-- **Playpen** (Rugrats parodies). Episodes: **"The Great Cookie Quest"**, **"Lost in Reptarland"**, **"Dil's Big Day"**, **"The Monster in the Attic"**, **"The Big Talent Show"**.
+- **Rugrats**. Episodes: **"The Great Cookie Quest"**, **"Lost in Reptarland"**, **"Dil's Big Day"**, **"The Monster in the Attic"**, **"The Big Talent Show"**.
   Tommy Pickles, Chuckie Finster, Angelica Pickles, Phil DeVille, Lil DeVille, Stu Pickles, Didi Pickles, Grandpa Lou, Spike, Susie Carmichael and Dil Pickles.
-- **Pokemon** (Pokémon parodies). Episodes: **"The Golden Snack Ball"**, **"Pikachu, I Choose You!"**, **"Splash Battle at Ceruleen Gym"**, **"The Great Monster Cook-Off"**, **"The Boss Takes a Vacation"**.
+- **Pokemon**. Episodes: **"The Golden Snack Ball"**, **"Pikachu, I Choose You!"**, **"Splash Battle at Cerulean Gym"**, **"The Great Monster Cook-Off"**, **"The Boss Takes a Vacation"**.
   Jessie, James, Meowth, Wobbuffet, Giovanni, Ash Ketchum, Pikachu, Misty, Brock, Nurse Joy and Officer Jenny.
-- **Dragonball Z** (Dragon Ball Z parodies). Episodes: **"What's Your Power Level?"**, **"Goku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegeta's Surprise Party"**.
+- **Dragonball Z**. Episodes: **"What's Your Power Level?"**, **"Goku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegeta's Surprise Party"**.
   Goku, Vegeta, Gohan, Piccolo, Krillin, Bulma, Master Roshi, Frieza, Cell, Trunks and Chi-Chi.
-- **Attack on Titan** (Attack on Titan parodies). Episodes: **"The Last Potato"**, **"Inspection Day"**, **"The Runaway Horse"**, **"Titan School"**, **"Field Trip to the Ocean"**.
+- **Attack on Titan**. Episodes: **"The Last Potato"**, **"Inspection Day"**, **"The Runaway Horse"**, **"Titan School"**, **"Field Trip to the Ocean"**.
   Eren Jaeger, Mikasa Ackerman, Armin Arlert, Captain Levi, Hange Zoë, Jean Kirstein, Sasha Braus, Connie Springer, Reiner, Commander Erwin and Smiling Titan.
-- **Breaking Bad** (Breaking Bad parodies). Episodes: **"The Blue Candy"**, **"Pizza on the Roof"**, **"The Mineral Show"**, **"Saul Goes Viral"**, **"Father and Son Science Fair"**.
+- **Breaking Bad**. Episodes: **"The Blue Candy"**, **"Pizza on the Roof"**, **"The Mineral Show"**, **"Saul Goes Viral"**, **"Father and Son Science Fair"**.
   Walter White, Jesse Pinkman, Skyler White, Hank Schrader, Marie Schrader, Flynn, Saul Goodman, Gus Fring, Mike Ehrmantraut, Badger and Skinny Pete.
-- **Super Mario Brothers** (the Super Mario games parodies). Episodes: **"In Another Castle"**, **"The Rainbow Road Grand Prix"**, **"Luigi's Spooky Rescue"**, **"Yoshi's Egg Hunt"**, **"Bowser's Day Off"**.
+- **Super Mario Brothers** (the Super Mario games). Episodes: **"In Another Castle"**, **"The Rainbow Road Grand Prix"**, **"Luigi's Spooky Rescue"**, **"Yoshi's Egg Hunt"**, **"Bowser's Day Off"**.
   Mario, Luigi, Princess Peach, Princess Daisy, Wario, Toad, Bowser, Yoshi, Donkey Kong, Goomba and Koopa Troopa.
-- **Metroid** (the Metroid games parodies). Episodes: **"Babysitting"**, **"Who Stole the Gunship?"**, **"Double Trouble"**, **"Kraid's Toothache"**, **"The Chozo Trial"**.
+- **Metroid** (the Metroid games). Episodes: **"Babysitting"**, **"Who Stole the Gunship?"**, **"Double Trouble"**, **"Kraid's Toothache"**, **"The Chozo Trial"**.
   Samus Aran, Dark Samus, Ridley, Kraid, Mother Brain, Baby Metroid, Adam Malkovich, Chozo Elder, Space Pirate, Etecoon and Dachora.
-- **Kirby** (the Kirby games parodies). Episodes: **"The Great Cake Heist"**, **"Ribbon's Crystal"**, **"Meta Knight's Sword School"**, **"The Royal Diet"**, **"The Living Paintings"**.
+- **Kirby** (the Kirby games). Episodes: **"The Great Cake Heist"**, **"Ribbon's Crystal"**, **"Meta Knight's Sword School"**, **"The Royal Diet"**, **"The Living Paintings"**.
   Kirby, King Dedede, Meta Knight, Waddle Dee, Bandana Dee, Waddle Doo, Magolor, Marx, Adeleine, Ribbon and Whispy Woods.
 
 Kirby only ever says "Poyo!" (and variations), and Samus Aran rarely says
@@ -132,7 +132,7 @@ Episodes are plain-text screenplays in `data/episodes/`. Each one is listed in
 
 ```
 @title The Golden Spatula
-@series Bikini Bottom
+@series SpongeBob SquarePants
 @icon bubbles
 @number 1
 @description One-line blurb for the episode list.
@@ -190,15 +190,18 @@ Lines starting with `#` are comments.
   `scripts/puppet.gd`, `scripts/cast/cast_extra.gd` or `scripts/cast/cast_more.gd`. Most of the newer
   people are built from `scripts/cast/human_rig.gd`, a configurable human
   (size, skin, hair, clothes, glasses, extras).
+- When a character, location, show or built-in episode is renamed, its old
+  ids and names go in an `aka` list (in its JSON entry, or its `index.json`
+  entry), so episodes people saved earlier still load.
 - Locations live in `data/locations.json` (with the show they belong to), and
   each is drawn by a function in `scripts/backdrop.gd`,
-  `scripts/sets/sets_extra.gd` or `scripts/sets/sets_more.gd`. Bikini Bottom sets get underwater light rays
+  `scripts/sets/sets_extra.gd` or `scripts/sets/sets_more.gd`. SpongeBob SquarePants sets get underwater light rays
   and bubbles; the others don't.
 - Each show's scene transition lives in `data/shows.json`: any of the
   `SCENE` styles above (`iris` closes on whoever spoke last; shows without an
   entry get `fade`). Each show also sets the sound that plays with its
   transition, plus the badge on its episode cards (`icon`: `bubbles`, `city`,
-  `journal`, `bottle`, `rokket`, `star`, `heart`, `film`, `note`, `moon` or
+  `journal`, `bottle`, `rocket`, `star`, `heart`, `film`, `note`, `moon` or
   `bolt`). A show without an
   icon gets its initials on a badge in its `color`.
 - A new episode goes in `data/episodes/` and gets listed in

@@ -1,5 +1,5 @@
 @title The Last Bus from Glove World
-@series Bikini Bottom
+@series SpongeBob SquarePants
 @icon bubbles
 @number 5
 @description After a perfect day at Glove World, SpongeBob and Patrick take the wrong bus home and end up in the deepest, darkest, weirdest place in the ocean: Rock Bottom.
@@ -33,7 +33,7 @@ SPONGEBOB (nervous): The sign says the next bus comes in... three hours.
 
 # ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC tense
-SCENE krusty_crab
+SCENE krusty_krab
 PLACE mr_krabs center left nervous
 PLACE squidward midright left smug
 MR_KRABS (nervous): Where's Mister SpongeBob? He's never been late a day in his life!
@@ -140,7 +140,7 @@ SPONGEBOB (excited): Sandy! Larry! You came for us!
 
 # ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC happy 2
-SCENE krusty_crab
+SCENE krusty_krab
 PLACE mr_krabs center left happy
 PLACE squidward midright left sad
 ENTER spongebob left midleft excited

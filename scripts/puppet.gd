@@ -266,11 +266,11 @@ func _draw_body() -> void:
 		"squid": _draw_squid()
 		"crab": _draw_crab()
 		"squirrel": _draw_squirrel()
-		"arnald": _draw_arnald()
+		"arnold": _draw_arnold()
 		"helga": _draw_helga()
-		"gerold": _draw_gerold()
+		"gerald": _draw_gerald()
 		"grandpa": _draw_grandpa()
-		"phoebee": _draw_phoebee()
+		"phoebe": _draw_phoebe()
 		_: CastExtra.draw(self, style)
 
 
@@ -858,7 +858,7 @@ func _draw_squirrel() -> void:
 
 
 # ------------------------------------------------------------ human kids --
-# Shared pieces for the Hillwood cast.
+# Shared pieces for the Hey Arnold! cast.
 
 const SKIN := Color("f6d2b0")
 
@@ -884,7 +884,7 @@ func _brows(y: float, x: float, half_w: float, thick: float, color: Color = Art.
 	_brow(Vector2(x, y), half_w, 1, thick, color)
 
 
-func _draw_arnald() -> void:
+func _draw_arnold() -> void:
 	var sweater := Color("72b85a")
 	var raise := _arm_raise()
 	_arm(Vector2(-28, -122), -1, raise.x, 52, 9, sweater, 8, SKIN)
@@ -965,7 +965,7 @@ func _draw_helga() -> void:
 	_arm(Vector2(25, -122), 1, raise.y, 50, 7, SKIN, 7, SKIN, Color.WHITE, 11)
 
 
-func _draw_gerold() -> void:
+func _draw_gerald() -> void:
 	var skin := Color("8d5b3e")
 	var jersey := Color("d9473a")
 	var raise := _arm_raise()
@@ -1022,7 +1022,7 @@ func _draw_grandpa() -> void:
 	_arm(Vector2(30, -196), 1, raise.y, 74, 8, skin, 8, skin)
 
 
-func _draw_phoebee() -> void:
+func _draw_phoebe() -> void:
 	var top := Color("9cc8ee")
 	var hair := Color("1d1d2a")
 	var raise := _arm_raise()

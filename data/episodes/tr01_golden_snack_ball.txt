@@ -1,12 +1,12 @@
 @title The Golden Snack Ball
 @series Pokemon
-@icon rokket
+@icon rocket
 @number 1
-@description The Boss wants results, and Team Rocket has a plan: steal the legendary Golden Snack Ball from the Monster Clinic. What could possibly go wrong? Everything.
+@description The Boss wants results, and Team Rocket has a plan: steal the legendary Golden Snack Ball from the Pokemon Center. What could possibly go wrong? Everything.
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC tense
-SCENE rokket_hq cut
+SCENE rocket_hq cut
 TITLE
 PLACE giovanni midright left angry
 ENTER jessie left midleft nervous
@@ -15,7 +15,7 @@ ENTER meowth left farleft nervous
 GIOVANNI (angry): Team Rocket. You have failed me again.
 JESSIE (nervous): Failed is such a strong word, sir.
 JAMES (nervous): We prefer "temporarily un-succeeded."
-GIOVANNI (angry): Silence! The Golden Snack Ball is at the Monster Clinic. Bring it to me. Or don't come back.
+GIOVANNI (angry): Silence! The Golden Snack Ball is at the Pokemon Center. Bring it to me. Or don't come back.
 MEOWTH (scared): Yes, Boss! Right away, Boss!
 EXIT jessie left &
 EXIT james left &
@@ -48,7 +48,7 @@ MUSIC action
 SCENE mecha_lab
 PLACE meowth center right excited
 PLACE james midleft right happy
-MEOWTH (excited): Forget the hole. Behold! The Meowt-Mech Mark Seven!
+MEOWTH (excited): Forget the hole. Behold! The Meowth-Mech Mark Seven!
 SFX drumroll
 JAMES (surprised): It's a giant cat. Again.
 MEOWTH (angry): It's a giant cat with lasers this time!
@@ -68,13 +68,13 @@ JESSIE (happy): Step one: disguises. We're two friendly nurses. Totally normal.
 JAMES (happy): I've always looked lovely in a hat.
 ENTER meowth right midright smug
 MEOWTH (smug): And I'm a cute, harmless kitty. Purrr.
-JESSIE (smug): To the Monster Clinic!
+JESSIE (smug): To the Pokemon Center!
 JAMES (excited): Make it double!
 JESSIE (angry): We're undercover, James. No motto.
 JAMES (sad): Not even a little motto?
 
-# ------------------------------------------------------------ MONSTER CLINIC
-SCENE monster_clinic
+# ------------------------------------------------------------ POKEMON CENTER
+SCENE pokemon_center
 ENTER jessie left midleft happy
 ENTER james left left happy
 JESSIE (happy): Good morning! We're here from the, uh, Nurse Department.
@@ -86,7 +86,7 @@ EXIT james right
 
 # ------------------------------------------------------------ CLINIC LOBBY
 MUSIC sneaky 2
-SCENE clinic_lobby
+SCENE center_lobby
 ENTER jessie left midleft nervous
 ENTER james left left nervous
 ENTER meowth left farleft nervous
@@ -168,7 +168,7 @@ EXIT wobbuffet right 600
 
 # ------------------------------------------------------------ ROCKET CAMP
 MUSIC sad
-SCENE rokket_camp
+SCENE rocket_camp
 CARD That night...
 PLACE jessie midleft right sad
 PLACE james center left sad
@@ -185,7 +185,7 @@ JAMES (excited): We did it! We finally did it!
 JESSIE (excited): To the Boss!
 
 # ------------------------------------------------------------ ROCKET HQ
-SCENE rokket_hq
+SCENE rocket_hq
 PLACE giovanni midright left neutral
 PLACE jessie midleft right excited
 PLACE james left right excited

@@ -1,5 +1,5 @@
 @title Test Number Sixty-Seven
-@series Bikini Bottom
+@series SpongeBob SquarePants
 @icon bubbles
 @number 4
 @description SpongeBob is about to take his boating test for the sixty-seventh time, and Mrs. Puff has a plan to finally get him to pass.
@@ -33,7 +33,7 @@ SPONGEBOB (happy): You know what, Patrick, that's close enough.
 
 # ------------------------------------------------------------ SQUIDWARD'S HOUSE
 MUSIC sneaky
-SCENE squidwerd_house
+SCENE squidward_house
 PLACE squidward midright left angry
 ENTER mrs_puff left midleft nervous
 MRS_PUFF (nervous): Squidward, I need your help. SpongeBob has to pass this time. My insurance company has stopped answering my calls.
@@ -43,7 +43,7 @@ SQUIDWARD (excited): Where do I sign?
 
 # ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC happy 2
-SCENE krusty_crab
+SCENE krusty_krab
 CARD The morning of the test...
 PLACE mr_krabs center left happy
 ENTER spongebob left midleft nervous
@@ -125,7 +125,7 @@ SQUIDWARD (surprised): It's a miracle.
 
 # ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC happy
-SCENE krusty_crab
+SCENE krusty_krab
 PLACE mr_krabs midright left happy
 PLACE sandy right left happy
 ENTER spongebob left midleft excited
@@ -151,7 +151,7 @@ SPONGEBOB (shy): You're right, Gary. One step at a time.
 
 # ------------------------------------------------------------ SQUIDWARD'S HOUSE
 MUSIC sad
-SCENE squidwerd_house
+SCENE squidward_house
 PLACE squidward center left sad
 ENTER spongebob left midleft happy
 SPONGEBOB (happy): Squidward! Thank you for helping me! I couldn't have parked without you.

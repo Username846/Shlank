@@ -14,33 +14,33 @@ static func draw(p: Puppet, style: String) -> bool:
 		HumanRig.draw(p, h)
 		return true
 	match style:
-		"freeza": _freeza(p)
+		"frieza": _frieza(p)
 		"titan": _titan(p)
-		"toadd": _toad(p)
-		"bowzer": _bowser(p)
-		"yoshee": _yoshi(p)
-		"kongg": _kong(p)
-		"gumba": _goomba(p)
+		"toad": _toad(p)
+		"bowser": _bowser(p)
+		"yoshi": _yoshi(p)
+		"kong": _kong(p)
+		"goomba": _goomba(p)
 		"troopa": _troopa(p)
 		"power_suit": _power_suit(p, Color("e6702f"), Color("f2c14e"), Color("6fdc6a"))
 		"dark_suit": _power_suit(p, Color("2b2f4a"), Color("6fd0ff"), Color("ffe36a"))
-		"ridlee": _ridley(p)
-		"krayd": _kraid(p)
+		"ridley": _ridley(p)
+		"kraid": _kraid(p)
 		"brain": _mother_brain(p)
-		"metroyd": _metroid(p)
-		"choso": _chozo(p)
+		"metroid": _metroid(p)
+		"chozo": _chozo(p)
 		"pirate": _space_pirate(p)
 		"etecoon": _etecoon(p)
-		"dachoora": _dachora(p)
-		"kirbie": _ball(p, Color("f7a6c4"), Color("e6304a"), "kirby")
-		"waddle_dii": _ball(p, Color("f2a65a"), Color("c8642a"), "dee")
-		"bandana_dii": _ball(p, Color("f2a65a"), Color("4a78d0"), "bandana")
+		"dachora": _dachora(p)
+		"kirby": _ball(p, Color("f7a6c4"), Color("e6304a"), "kirby")
+		"waddle_dee": _ball(p, Color("f2a65a"), Color("c8642a"), "dee")
+		"bandana_dee": _ball(p, Color("f2a65a"), Color("4a78d0"), "bandana")
 		"waddle_doo": _ball(p, Color("e6702f"), Color("c8642a"), "doo")
-		"meta_nite": _ball(p, Color("2b2f6a"), Color("7a3fa0"), "meta")
-		"marks": _ball(p, Color("f2a1c8"), Color("e6a02f"), "marx")
-		"magalor": _magolor(p)
-		"dedeedee": _dedede(p)
-		"whispee": _whispy(p)
+		"meta_knight": _ball(p, Color("2b2f6a"), Color("7a3fa0"), "meta")
+		"marx": _ball(p, Color("f2a1c8"), Color("e6a02f"), "marx")
+		"magolor": _magolor(p)
+		"dedede": _dedede(p)
+		"whispy": _whispy(p)
 		_: return false
 	return true
 
@@ -54,44 +54,44 @@ const CLOAK := Color("3f7a3a")
 static func _human(style: String) -> Dictionary:
 	match style:
 		# Dragonball Z
-		"gokku":
+		"goku":
 			return {"size": "adult", "top": Color("f2852a"), "sleeves": "none", "bottom_col": Color("f2852a"), "shoe": Color("2f5fa8"),
 				"hair": "saiyan", "hair_col": Color("1d1d22"), "torso_w": 37.0, "arm_w": 10.0, "torso_extra": _x_gi.bind(Color("2f5fa8")),
 				"eye": Vector2(7, 10)}
-		"vegitta":
+		"vegeta":
 			return {"size": "adult", "top": Color("2f4f9a"), "sleeves": "long", "sleeve": Color("2f4f9a"), "legs": Color("2f4f9a"),
 				"shoe": Color("f4f4f2"), "hair": "flame", "hair_col": Color("1d1d22"), "base_lid": 0.3, "torso_w": 34.0,
 				"torso_extra": _x_saiyan_armor}
-		"gohann":
+		"gohan":
 			return {"size": "teen", "top": Color("5a3fa0"), "sleeves": "none", "bottom_col": Color("5a3fa0"), "shoe": Color("8a5a36"),
 				"hair": "saiyan", "hair_col": Color("1d1d22"), "torso_extra": _x_gi.bind(Color("e6452f"))}
-		"picollo":
+		"piccolo":
 			return {"size": "adult", "skin": Color("6fbf4a"), "top": Color("6a3fa8"), "sleeves": "none", "bottom_col": Color("6a3fa8"),
 				"shoe": Color("8a5a36"), "hair": "none", "ears": false, "torso_w": 36.0, "arm_w": 10.0, "base_lid": 0.25,
 				"torso_extra": _x_gi.bind(Color("4a8fe0")), "extra": _x_turban, "back_extra": _x_cape.bind(Color("f4f4f2"))}
-		"krillen":
+		"krillin":
 			return {"size": "kid", "top": Color("f2852a"), "sleeves": "none", "bottom_col": Color("f2852a"), "shoe": Color("2f5fa8"),
 				"hair": "none", "nose": "none", "torso_extra": _x_gi.bind(Color("2f5fa8")), "extra": _x_forehead_dots}
-		"bulmah":
+		"bulma":
 			return {"size": "adult", "top": Color("f28cb8"), "bottom": "dress", "flare": 14.0, "hair": "bob", "hair_col": Color("3fbcc0"),
 				"lashes": 2, "eye_iris": Color("3d8fe0"), "legs": Puppet.SKIN, "shoe": Color("e6452f"), "torso_w": 28.0}
-		"master_roshee":
+		"master_roshi":
 			return {"size": "adult", "top": Color("f2c14e"), "bottom": "shorts", "bottom_col": Color("c8a86a"), "hair": "none",
 				"skin": Color("f2c9a5"), "shoe": Color("8a5a36"), "nose": "big", "torso_w": 30.0, "head_y": -236.0,
 				"extra": _x_roshi_face, "back_extra": _x_turtle_shell}
-		"sel":
+		"cell":
 			return {"size": "adult", "skin": Color("8fd06a"), "top": Color("8fd06a"), "sleeves": "none", "legs": Color("8fd06a"),
 				"shoe": Color("f4f4f2"), "hair": "none", "ears": false, "eye_iris": Color("9b5fd0"), "base_lid": 0.2, "torso_w": 35.0,
 				"torso_extra": _x_cell_spots, "extra": _x_cell_crest, "back_extra": _x_bug_wings}
-		"trunkz":
+		"trunks":
 			return {"size": "teen", "top": Color("2b3a6a"), "sleeves": "long", "bottom_col": Color("6b6f78"), "shoe": Color("c8a06a"),
 				"hair": "bob", "hair_col": Color("b9a6e0"), "eye_iris": Color("3d8fe0"), "torso_extra": _x_open_coat,
 				"back_extra": _x_sword_hilt}
-		"chee_chee":
+		"chi_chi":
 			return {"size": "adult", "top": Color("7a3fa0"), "bottom": "dress", "flare": 10.0, "hair": "bun", "hair_col": Color("1d1d22"),
 				"lashes": 2, "legs": Color("7a3fa0"), "shoe": Color("2b2b33"), "torso_w": 27.0, "torso_extra": _x_sash.bind(Color("f2c14e"))}
 		# Attack on Titan
-		"erren", "mikasah", "armen", "levee", "hanjee", "jeen", "sascha", "konny", "rayner", "irwin":
+		"eren", "mikasa", "armin", "levi", "hange", "jean", "sasha", "connie_springer", "reiner", "erwin":
 			return _scout(style)
 		# Breaking Bad
 		"walt":
@@ -100,13 +100,13 @@ static func _human(style: String) -> Dictionary:
 		"pinkman":
 			return {"size": "teen", "top": Color("f2c14e"), "sleeves": "long", "bottom_col": Color("3d5aa8"), "hair": "none",
 				"torso_w": 30.0, "leg_w": 16.0, "torso_extra": _x_hoodie_strings, "extra": _x_beanie.bind(Color("3a3d42"))}
-		"skylar":
+		"skyler":
 			return {"size": "adult", "top": Color("4a78d0"), "bottom": "skirt", "bottom_col": Color("2b3a6a"), "hair": "long",
 				"hair_col": Color("e8c860"), "lashes": 2, "legs": Puppet.SKIN, "shoe": Color("2b2b33"), "torso_w": 28.0}
 		"hank":
 			return {"size": "adult", "top": Color("3d4a5a"), "bottom_col": Color("8a7a5a"), "hair": "none", "torso_w": 40.0, "belly": 10.0,
 				"arm_w": 10.0, "brow_w": 5.0, "extra": _x_goatee.bind(Color("6b5a4a"))}
-		"maree":
+		"marie":
 			return {"size": "adult", "top": Color("9b5fd0"), "sleeves": "long", "bottom_col": Color("7a3fa0"), "hair": "bob",
 				"hair_col": Color("e8d08a"), "lashes": 2, "shoe": Color("7a3fa0"), "torso_w": 28.0, "torso_extra": _x_pearls_purple}
 		"flynn":
@@ -122,24 +122,24 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "top": Color("a89a7a"), "sleeves": "long", "bottom_col": Color("5a5a5a"), "hair": "fringe",
 				"hair_col": Color("e2e2e2"), "base_lid": 0.45, "skin": Color("f2c9a5"), "nose": "big", "torso_w": 32.0,
 				"torso_extra": _x_jacket_collar}
-		"badgur":
+		"badger":
 			return {"size": "teen", "top": Color("8a8f98"), "sleeves": "long", "bottom_col": Color("3d5aa8"), "hair": "long",
 				"hair_col": Color("5a3a24"), "head_shape": "long", "head": Vector2(28, 40), "torso_w": 26.0, "extra": _x_goatee.bind(Color("5a3a24"))}
-		"skinnee_pete":
+		"skinny_pete":
 			return {"size": "teen", "top": Color("b3202f"), "sleeves": "long", "bottom_col": Color("2b2b33"), "hair": "none",
 				"torso_w": 23.0, "arm_w": 7.0, "torso_extra": _x_flannel, "extra": _x_beanie.bind(Color("2b2b33"))}
 		# Super Mario Brothers
-		"mareo", "luiggi", "waryo":
-			var col: Color = {"mareo": Color("e6302a"), "luiggi": Color("3fae4a"), "waryo": Color("f2c14e")}[style]
-			var bib: Color = {"mareo": Color("2f5fd8"), "luiggi": Color("2f5fd8"), "waryo": Color("7a3fa0")}[style]
-			var letter: String = {"mareo": "M", "luiggi": "L", "waryo": "W"}[style]
-			return {"size": "teen" if style == "luiggi" else "kid", "top": col, "sleeves": "long", "bottom_col": bib,
+		"mario", "luigi", "wario":
+			var col: Color = {"mario": Color("e6302a"), "luigi": Color("3fae4a"), "wario": Color("f2c14e")}[style]
+			var bib: Color = {"mario": Color("2f5fd8"), "luigi": Color("2f5fd8"), "wario": Color("7a3fa0")}[style]
+			var letter: String = {"mario": "M", "luigi": "L", "wario": "W"}[style]
+			return {"size": "teen" if style == "luigi" else "kid", "top": col, "sleeves": "long", "bottom_col": bib,
 				"shoe": Color("6b4428"), "hair": "crew", "hair_col": Color("5a3a24"), "nose": "big", "ears": true,
-				"torso_w": 34.0 if style != "luiggi" else 28.0, "belly": 12.0 if style == "waryo" else 4.0,
-				"head": Vector2(40, 40) if style != "luiggi" else Vector2(34, 40),
-				"torso_extra": _x_overalls.bind(bib), "extra": _x_plumber.bind(col, letter, style == "waryo")}
-		"peech", "daizy":
-			var peach := style == "peech"
+				"torso_w": 34.0 if style != "luigi" else 28.0, "belly": 12.0 if style == "wario" else 4.0,
+				"head": Vector2(40, 40) if style != "luigi" else Vector2(34, 40),
+				"torso_extra": _x_overalls.bind(bib), "extra": _x_plumber.bind(col, letter, style == "wario")}
+		"peach", "daisy":
+			var peach := style == "peach"
 			return {"size": "adult", "top": Color("f7a6c8") if peach else Color("f2a03a"), "bottom": "dress", "flare": 34.0,
 				"hair": "long", "hair_col": Color("f4d24e") if peach else Color("b8573e"), "lashes": 2,
 				"eye_iris": Color("3d8fe0") if peach else Color("3fae9a"), "legs": Color("f7a6c8") if peach else Color("f2a03a"),
@@ -150,10 +150,10 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "top": Color("6b7a5a"), "sleeves": "long", "bottom_col": Color("4a5a3a"), "hair": "crew",
 				"hair_col": Color("a8a8a8"), "hairline": -0.5, "base_lid": 0.3, "torso_w": 33.0, "torso_extra": _x_medals}
 		# Kirby
-		"adelaine":
+		"adeleine":
 			return {"size": "kid", "top": Color("6fbf6a"), "bottom": "skirt", "bottom_col": Color("4a78d0"), "hair": "long",
 				"hair_col": Color("6b4428"), "lashes": 2, "sock": Color.WHITE, "shoe": Color("8a5a36"), "extra": _x_painter_beret}
-		"ribbonn":
+		"ribbon":
 			return {"size": "baby", "top": Color("f7a6c8"), "bottom": "dress", "flare": 16.0, "hair": "bob", "hair_col": Color("e6409a"),
 				"lashes": 2, "eye": Vector2(8, 10), "legs": Puppet.SKIN, "shoe": Color("e6452f"), "extra": _x_big_bow,
 				"back_extra": _x_fairy_wings}
@@ -165,30 +165,30 @@ static func _scout(style: String) -> Dictionary:
 	var c := {"size": "teen", "top": SURVEY, "sleeves": "long", "bottom_col": Color("efe8d6"), "shoe": Color("5a3a24"),
 		"torso_w": 27.0, "torso_extra": _x_harness, "back_extra": _x_cloak}
 	match style:
-		"erren":
+		"eren":
 			c.merge({"hair": "crew", "hair_col": Color("4a2f1f"), "hairline": -0.15, "eye_iris": Color("3fae7a")})
-		"mikasah":
+		"mikasa":
 			c.merge({"hair": "bob", "hair_col": Color("1d1d22"), "hairline": -0.2, "eye_iris": Color("4a4d55"), "lashes": 1,
 				"extra": _x_scarf})
-		"armen":
+		"armin":
 			c.merge({"size": "kid", "hair": "bob", "hair_col": Color("f4d24e"), "hairline": -0.1, "eye_iris": Color("3d8fe0"),
 				"torso_w": 26.0})
-		"levee":
+		"levi":
 			c.merge({"hair": "bob", "hair_col": Color("1d1d22"), "hairline": -0.15, "base_lid": 0.45, "eye_iris": Color("6b6f78"),
 				"torso_extra": _x_cravat})
-		"hanjee":
+		"hange":
 			c.merge({"size": "adult", "hair": "ponytail", "hair_col": Color("6b4428"), "glasses": true, "eye_iris": Color("8a5a36"),
 				"torso_w": 28.0, "extra": _x_goggles})
-		"jeen":
+		"jean":
 			c.merge({"hair": "crew", "hair_col": Color("a07a4a"), "head_shape": "long", "head": Vector2(30, 40), "base_lid": 0.2})
-		"sascha":
+		"sasha":
 			c.merge({"hair": "ponytail", "hair_col": Color("8a5a36"), "eye_iris": Color("8a5a36"), "lashes": 1})
-		"konny":
+		"connie_springer":
 			c.merge({"size": "kid", "hair": "crew", "hair_col": Color("6b6f78"), "hairline": -0.75, "torso_w": 25.0})
-		"rayner":
+		"reiner":
 			c.merge({"size": "adult", "hair": "crew", "hair_col": Color("e8c860"), "hairline": -0.45, "torso_w": 38.0, "arm_w": 10.0,
 				"eye_iris": Color("c8a06a"), "base_lid": 0.15})
-		"irwin":
+		"erwin":
 			c.merge({"size": "adult", "hair": "slick", "hair_col": Color("f4d24e"), "brow_w": 6.0, "eye_iris": Color("3d8fe0"),
 				"torso_w": 35.0, "torso_extra": _x_bolo})
 	return c
@@ -198,12 +198,12 @@ static func _scout(style: String) -> Dictionary:
 
 static func _x_gi(p: Puppet, under: Color) -> void:
 	# Undershirt showing at the V neck, and a belt
-	var sh := -196.0 if p.style in ["gokku", "picollo"] else (-178.0 if p.style == "gohann" else -126.0)
-	var hip := -104.0 if p.style in ["gokku", "picollo"] else (-92.0 if p.style == "gohann" else -62.0)
+	var sh := -196.0 if p.style in ["goku", "piccolo"] else (-178.0 if p.style == "gohan" else -126.0)
+	var hip := -104.0 if p.style in ["goku", "piccolo"] else (-92.0 if p.style == "gohan" else -62.0)
 	Art.shape(p.ci, PackedVector2Array([Vector2(-14, sh), Vector2(14, sh), Vector2(0, sh + 34)]), under, 2.5)
-	var tw := 34.0 if p.style in ["gokku", "picollo"] else 28.0
-	Art.shape(p.ci, Art.rrect(Rect2(-tw, hip - 14, tw * 2, 14), 4), under if p.style != "gohann" else Color("e6452f"), 3.0)
-	if p.style in ["gokku", "krillen"]:
+	var tw := 34.0 if p.style in ["goku", "piccolo"] else 28.0
+	Art.shape(p.ci, Art.rrect(Rect2(-tw, hip - 14, tw * 2, 14), 4), under if p.style != "gohan" else Color("e6452f"), 3.0)
+	if p.style in ["goku", "krillin"]:
 		# Turtle school badge
 		Art.blob(p.ci, Vector2(-tw * 0.45, sh + 30), 9, 9, Color.WHITE, 2.5)
 
@@ -287,8 +287,8 @@ static func _x_sash(p: Puppet, col: Color) -> void:
 
 
 static func _x_harness(p: Puppet) -> void:
-	var adult := p.style in ["hanjee", "rayner", "irwin"]
-	var kid := p.style in ["armen", "konny"]
+	var adult := p.style in ["hange", "reiner", "erwin"]
+	var kid := p.style in ["armin", "connie_springer"]
 	var sh := -196.0 if adult else (-126.0 if kid else -178.0)
 	var hip := -104.0 if adult else (-62.0 if kid else -92.0)
 	var tw := 26.0 if not adult else 30.0
@@ -391,7 +391,7 @@ static func _x_flannel(p: Puppet) -> void:
 
 
 static func _x_overalls(p: Puppet, col: Color) -> void:
-	var luigi := p.style == "luiggi"
+	var luigi := p.style == "luigi"
 	var sh := -178.0 if luigi else -126.0
 	var hip := -92.0 if luigi else -62.0
 	var tw := 28.0 if luigi else 34.0
@@ -461,25 +461,25 @@ static func _x_fairy_wings(p: Puppet, hc: Vector2) -> void:
 
 # ------------------------------------------------------- Dragonball Z --
 
-static func _freeza(p: Puppet) -> void:
+static func _frieza(p: Puppet) -> void:
 	HumanRig.draw(p, {"size": "kid", "skin": Color("f4f2f6"), "top": Color("f4f2f6"), "sleeves": "none", "legs": Color("f4f2f6"),
 		"shoe": Color("f4f2f6"), "hair": "none", "ears": false, "eye_iris": Color("c1272d"), "base_lid": 0.35, "torso_w": 26.0,
-		"torso_extra": _x_freeza_plates, "extra": _x_freeza_dome, "back_extra": _x_freeza_tail})
+		"torso_extra": _x_frieza_plates, "extra": _x_frieza_dome, "back_extra": _x_frieza_tail})
 
 
-static func _x_freeza_plates(p: Puppet) -> void:
+static func _x_frieza_plates(p: Puppet) -> void:
 	for sx in [-1, 1]:
 		Art.blob(p.ci, Vector2(sx * 22, -116), 14, 10, Color("9b5fd0"), 3.0, 0.1)
 	Art.blob(p.ci, Vector2(0, -96), 12, 10, Color("9b5fd0"), 3.0, 0.1)
 
 
-static func _x_freeza_dome(p: Puppet, hc: Vector2) -> void:
+static func _x_frieza_dome(p: Puppet, hc: Vector2) -> void:
 	Art.shape(p.ci, Art.arc_pts(hc + Vector2(0, -8), 36, 38, PI * 1.08, PI * 1.92, 14) + PackedVector2Array([hc + Vector2(0, -20)]),
 		Color("9b5fd0"), 3.5, 0.15)
 	Art.dot(p.ci, hc + Vector2(-10, -34), 5, Color(1, 1, 1, 0.7))
 
 
-static func _x_freeza_tail(p: Puppet, hc: Vector2) -> void:
+static func _x_frieza_tail(p: Puppet, hc: Vector2) -> void:
 	var tail := PackedVector2Array()
 	for i in 12:
 		var f := i / 11.0

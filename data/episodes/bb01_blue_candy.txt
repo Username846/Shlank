@@ -32,7 +32,7 @@ WALT (smug): Heisenberg. I like it.
 
 # ------------------------------------------------------------ THE WHITE HOUSE
 MUSIC jazz
-SCENE whyte_house
+SCENE white_house
 PLACE skyler midright left angry
 PLACE flynn right left happy
 ENTER walt left midleft nervous
@@ -65,9 +65,9 @@ SAUL (excited): Love it! Heisenberg's Blue. I can get you a billboard, a jingle 
 JESSE (excited): Yo, a giant inflatable? We gotta do that!
 SAUL (smug): Ten percent of everything, plus I get free candy for life.
 
-# ------------------------------------------------------------ LOS POLLITOS HERMANOS
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
 MUSIC sneaky 2
-SCENE pollitos
+SCENE pollos
 PLACE gus center left neutral
 ENTER walt left midleft nervous
 GUS: Mister White. Your blue candy is remarkable. I would like to serve it here. As dessert.
@@ -110,7 +110,7 @@ WALT (sad): Three weeks of work. Gone.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC sad
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt center right sad
 ENTER skyler left midleft neutral
 SKYLER: Walt. I know about the candy. Jesse's friends told everyone.
@@ -121,7 +121,7 @@ SKYLER (smug): Somebody has to keep the books on this candy empire.
 
 # ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC sneaky
-SCENE schraeder_house
+SCENE schrader_house
 PLACE hank midleft right excited
 PLACE marie center left smug
 HANK (excited): Tomorrow I'm going undercover at the Candy Fair. Sunglasses. Fake mustache. The works.
@@ -133,7 +133,7 @@ HANK (nervous): It was the only color in the house, Marie.
 # ------------------------------------------------------------ THE CANDY FAIR
 MUSIC happy 2
 SCENE car_wash
-CARD Saturday. The Candy Fair at the A2A Car Wash.
+CARD Saturday. The Candy Fair at the A1A Car Wash.
 PLACE walt midleft right excited
 PLACE skyler left right happy
 PLACE hank center left surprised

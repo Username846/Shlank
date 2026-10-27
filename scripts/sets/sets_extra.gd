@@ -12,22 +12,22 @@ const INK := Art.INK
 
 static func draw_set(b: Backdrop, id: String) -> bool:
 	match id:
-		# Bikini Bottom
+		# SpongeBob SquarePants
 		"bb_downtown": _bb_downtown(b)
 		"glove_world": _glove_world(b)
 		"kelp_forest": _kelp_forest(b)
 		"rock_bottom": _rock_bottom(b)
 		"krusty_dining": _krusty_dining(b)
 		"sponge_living_room": _sponge_living_room(b)
-		# Hillwood
+		# Hey Arnold!
 		"hillwood_street": _hillwood_street(b)
 		"hillwood_park": _hillwood_park(b)
 		"cafeteria": _cafeteria(b)
 		"boarding_kitchen": _boarding_kitchen(b)
 		"alley": _alley(b)
-		# Bluffington
+		# Doug
 		"funnie_house": _funnie_house(b)
-		"dug_room": _dug_room(b)
+		"doug_room": _doug_room(b)
 		"bluffington_school": _bluffington_school(b)
 		"school_hallway": _school_hallway(b)
 		"honker_burger": _honker_burger(b)
@@ -41,7 +41,7 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"bluff_cafeteria": _bluff_cafeteria(b)
 		"funnie_kitchen": _funnie_kitchen(b)
 		"quailman_lair": _quailman_lair(b)
-		# Playpen
+		# Rugrats
 		"pickles_living_room": _pickles_living_room(b)
 		"pickles_backyard": _pickles_backyard(b)
 		"pickles_kitchen": _pickles_kitchen(b)
@@ -59,19 +59,19 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"pizza_place": _pizza_place(b)
 		# Pokemon (Team Rocket)
 		"forest_path": _forest_path(b)
-		"rokket_hq": _rokket_hq(b)
-		"monster_clinic": _monster_clinic(b)
-		"clinic_lobby": _clinic_lobby(b)
+		"rocket_hq": _rocket_hq(b)
+		"pokemon_center": _pokemon_center(b)
+		"center_lobby": _center_lobby(b)
 		"town_square": _town_square(b)
 		"crystal_cave": _crystal_cave(b)
 		"sunny_beach": _sunny_beach(b)
 		"cliff_top": _cliff_top(b)
-		"rokket_camp": _rokket_camp(b)
+		"rocket_camp": _rocket_camp(b)
 		"mecha_lab": _mecha_lab(b)
-		"pallut_town": _pallut_town(b)
-		"prof_lab": _prof_lab(b)
-		"ceruleen_gym": _ceruleen_gym(b)
-		"monster_mart": _monster_mart(b)
+		"pallet_town": _pallet_town(b)
+		"oak_lab": _oak_lab(b)
+		"cerulean_gym": _cerulean_gym(b)
+		"poke_mart": _poke_mart(b)
 		"tall_grass": _tall_grass(b)
 		_: return SetsMore.draw_set(b, id)
 	return true
@@ -185,7 +185,7 @@ static func _day_sky(b: Backdrop) -> void:
 	b._city_sky(Color("6ab4ec"), Color("d8f0fb"))
 
 
-# --------------------------------------------------------- Bikini Bottom --
+# --------------------------------------------------------- SpongeBob SquarePants --
 
 static func _bb_downtown(b: Backdrop) -> void:
 	b._sea_sky()
@@ -289,7 +289,7 @@ static func _sponge_living_room(b: Backdrop) -> void:
 	Art.text(b.ci, b.sign_font, Vector2(520, 618), "GARY", 16, Color.WHITE, 3, HORIZONTAL_ALIGNMENT_CENTER, 80)
 
 
-# -------------------------------------------------------------- Hillwood --
+# -------------------------------------------------------------- Hey Arnold! --
 
 static func _hillwood_street(b: Backdrop) -> void:
 	b._city_sky()
@@ -360,7 +360,7 @@ static func _alley(b: Backdrop) -> void:
 	Art.shape(b.ci, Art.rrect(Rect2(510, 456, 260, 22), 4), Color("2f5f3a"), 4.0)
 
 
-# ----------------------------------------------------------- Bluffington --
+# ----------------------------------------------------------- Doug --
 
 static func _funnie_house(b: Backdrop) -> void:
 	_day_sky(b)
@@ -372,7 +372,7 @@ static func _funnie_house(b: Backdrop) -> void:
 	Art.limb(b.ci, PackedVector2Array([Vector2(1090, 470), Vector2(1090, 560)]), 6, Color("8a5a36"))
 
 
-static func _dug_room(b: Backdrop) -> void:
+static func _doug_room(b: Backdrop) -> void:
 	_room(b, Color("a9cdf0"), Color("8ab4e0"), 545, Color("c48a4f"))
 	b._window(Rect2(500, 110, 260, 190), Color.WHITE, Color("cbe9fb"))
 	_table(b, 1030, 420, 240, Color("8a5a36"))
@@ -486,7 +486,7 @@ static func _bluffington_park(b: Backdrop) -> void:
 	Art.shape(b.ci, PackedVector2Array([Vector2(390, 310), Vector2(640, 190), Vector2(890, 310)]), Color("e6452f"), 5.0, 0.15)
 
 
-# --------------------------------------------------------------- Playpen --
+# --------------------------------------------------------------- Rugrats --
 
 static func _pickles_living_room(b: Backdrop) -> void:
 	_room(b, Color("f6d9a6"), Color("e8c48a"), 545, Color("9fb87a"), "carpet")
@@ -627,7 +627,7 @@ static func _forest_path(b: Backdrop) -> void:
 		Art.blob(b.ci, Vector2(760 + i * 24, 606), 12, 6, Color("4f9a3a"), 2.0, 0.0, i * 0.5)
 
 
-static func _rokket_hq(b: Backdrop) -> void:
+static func _rocket_hq(b: Backdrop) -> void:
 	_room(b, Color("3a2a3e"), Color("2a1e2c"), 545, Color("5a2a2a"), "carpet")
 	b._window(Rect2(380, 70, 520, 260), Color("6b4428"), Color("e6a46a"), true)
 	Art.shape(b.ci, Art.rrect(Rect2(420, 400, 440, 145), 8), Color("6b4428"), 4.0, 0.15)
@@ -636,19 +636,19 @@ static func _rokket_hq(b: Backdrop) -> void:
 	Art.text(b.ci, b.sign_font, Vector2(80, 268), "R", 110, Color("e6452f"), 8, HORIZONTAL_ALIGNMENT_CENTER, 140)
 
 
-static func _monster_clinic(b: Backdrop) -> void:
+static func _pokemon_center(b: Backdrop) -> void:
 	_day_sky(b)
 	b._sidewalk(585)
 	Art.shape(b.ci, _rect(Rect2(260, 220, 760, 365)), Color("f6eef0"), 5.0, 0.08)
 	Art.shape(b.ci, Art.rrect(Rect2(230, 160, 820, 80), 30), Color("e6452f"), 5.0, 0.12)
-	Art.text(b.ci, b.sign_font, Vector2(230, 216), "MONSTER CLINIC", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 820)
+	Art.text(b.ci, b.sign_font, Vector2(230, 216), "POKEMON CENTER", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 820)
 	b._door(Rect2(560, 400, 160, 185), Color("bfe0f2"), false)
 	Art.stroke(b.ci, PackedVector2Array([Vector2(640, 402), Vector2(640, 584)]), 4.0)
 	for x in [330, 870]:
 		b._window(Rect2(x, 300, 100, 90))
 
 
-static func _clinic_lobby(b: Backdrop) -> void:
+static func _center_lobby(b: Backdrop) -> void:
 	_room(b, Color("fbe6ea"), Color("f2ccd4"), 545, Color("f2f2ee"), "tile")
 	Art.shape(b.ci, Art.rrect(Rect2(380, 360, 520, 185), 30), Color("e6452f"), 4.0, 0.12)
 	Art.shape(b.ci, Art.rrect(Rect2(360, 344, 560, 24), 6), Color("f2f2ee"), 4.0)
@@ -720,7 +720,7 @@ static func _cliff_top(b: Backdrop) -> void:
 	Art.shape(b.ci, Art.rrect(Rect2(bc + Vector2(-40, 230), Vector2(80, 60)), 8), Color("a77a4c"), 4.0)
 
 
-static func _rokket_camp(b: Backdrop) -> void:
+static func _rocket_camp(b: Backdrop) -> void:
 	b._city_sky(Color("2a3a6e"), Color("6a5a8e"), false)
 	_tree(b, 120, 540, 1.0, Color("2f5f30"))
 	_tree(b, 1180, 540, 0.9, Color("2f5f30"))
@@ -823,7 +823,7 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 				for k in 12:
 					w.append(Vector2(-PAD + k * 130.0 + sin(t + i) * 20.0, y + sin(t * 2.0 + k + i) * 3.0))
 				ci.draw_polyline(w, Color(1, 1, 1, 0.4), 2.0)
-		"rokket_camp":
+		"rocket_camp":
 			var c := Vector2(420, 596)
 			for k in 3:
 				var h := 50.0 + sin(t * 9.0 + k) * 10.0 - k * 10.0
@@ -835,12 +835,12 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 				var top := Vector2(260 + k * 380, -PAD)
 				var beam := PackedVector2Array([top, top + Vector2(-90, 640).rotated(a), top + Vector2(90, 640).rotated(a)])
 				ci.draw_colored_polygon(beam, [Color(1, 0.9, 0.4, 0.16), Color(1, 0.5, 0.8, 0.16), Color(0.5, 0.8, 1, 0.16)][k])
-		"quailman_lair", "prof_lab":
+		"quailman_lair", "oak_lab":
 			var lights := [Vector2(170, 250), Vector2(210, 250), Vector2(250, 250), Vector2(170, 290), Vector2(210, 290), Vector2(250, 290)]
 			for i in lights.size():
 				var on := fmod(t * 2.0 + i * 0.37, 1.0) > 0.5
 				Art.dot(ci, lights[i], 8, [Color("e6452f"), Color("6fbf6a"), Color("f2c14e")][i % 3] if on else Color("3a3d42"))
-		"ceruleen_gym":
+		"cerulean_gym":
 			for i in 5:
 				var y := 470.0 + i * 22.0
 				var w := PackedVector2Array()
@@ -858,14 +858,14 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 				ci.draw_colored_polygon(blade, Color("4f9a3a") if i % 2 else Color("5fb04a"))
 				ci.draw_polyline(PackedVector2Array([Vector2(x - 9, H + PAD), Vector2(x + sway, H - h), Vector2(x + 9, H + PAD)]), INK, 2.5)
 		"cliff_top", "forest_path", "funnie_house", "bluffington_park", "pickles_backyard", "playground", "finster_house", "hillwood_park", \
-				"carmichael_house", "pallut_town":
+				"carmichael_house", "pallet_town":
 			for i in 2:
 				b._cloud(Vector2(fmod(t * (8 + i * 4) + i * 600, W + 300) - 150, 70 + i * 50), 0.8)
 		_:
 			SetsMore.draw_fx(b, id)
 
 
-# ---------------------------------------------------- more Bluffington --
+# ---------------------------------------------------- more Doug --
 
 static func _swirlys(b: Backdrop) -> void:
 	_room(b, Color("dff3f2"), Color("bfe6e4"), 545, Color("f2f2ee"), "tile")
@@ -964,7 +964,7 @@ static func _quailman_lair(b: Backdrop) -> void:
 	Art.text(b.ci, b.sign_font, Vector2(700, 484), "QUAILMAN HQ", 36, Color("f2c14e"), 6, HORIZONTAL_ALIGNMENT_CENTER, 400)
 
 
-# -------------------------------------------------------- more Playpen --
+# -------------------------------------------------------- more Rugrats --
 
 static func _pickles_attic(b: Backdrop) -> void:
 	_room(b, Color("c9a06a"), Color("a77a4c"), 545, Color("8a5a36"))
@@ -1060,7 +1060,7 @@ static func _monster_ball(b: Backdrop, c: Vector2, r: float) -> void:
 	Art.blob(b.ci, c, r * 0.28, r * 0.28, Color.WHITE, 3.5)
 
 
-static func _pallut_town(b: Backdrop) -> void:
+static func _pallet_town(b: Backdrop) -> void:
 	_day_sky(b)
 	_mountains(b, 420, Color("9fcf8f"), 21)
 	_grass(b, 545, Color("8cd06a"))
@@ -1070,10 +1070,10 @@ static func _pallut_town(b: Backdrop) -> void:
 	Art.fill(b.ci, PackedVector2Array([Vector2(520, 545), Vector2(760, 545), Vector2(860, H + PAD), Vector2(420, H + PAD)]), Color("e8d39a"))
 	Art.limb(b.ci, PackedVector2Array([Vector2(640, 545), Vector2(640, 470)]), 8, Color("8a5a36"))
 	Art.shape(b.ci, Art.rrect(Rect2(570, 410, 140, 60), 8), Color("c48a4f"), 3.5)
-	Art.text(b.ci, b.sign_font, Vector2(570, 450), "PALLUT", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 140)
+	Art.text(b.ci, b.sign_font, Vector2(570, 450), "PALLET", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 140)
 
 
-static func _prof_lab(b: Backdrop) -> void:
+static func _oak_lab(b: Backdrop) -> void:
 	_room(b, Color("eef4f6"), Color("d6e2e8"), 545, Color("c8d0d6"), "tile")
 	# Machine bank with blinking lights (in draw_fx), bookshelves
 	Art.shape(b.ci, Art.rrect(Rect2(120, 200, 180, 345), 10), Color("aab3bd"), 4.0, 0.15)
@@ -1092,7 +1092,7 @@ static func _prof_lab(b: Backdrop) -> void:
 		_monster_ball(b, Vector2(500 + k * 100, 412), 26)
 
 
-static func _ceruleen_gym(b: Backdrop) -> void:
+static func _cerulean_gym(b: Backdrop) -> void:
 	_room(b, Color("bfe6f6"), Color("8fd0ee"), 545, Color("e9eef4"), "tile")
 	# Arched glass roof, stands, and the pool (ripples in draw_fx)
 	for i in 6:
@@ -1104,13 +1104,13 @@ static func _ceruleen_gym(b: Backdrop) -> void:
 	for x in [300, 980]:
 		Art.shape(b.ci, Art.rrect(Rect2(x - 40, 500, 80, 26), 6), Color("f2c14e"), 3.0)
 	Art.shape(b.ci, Art.rrect(Rect2(420, 120, 440, 90), 20), Color("4a78d0"), 5.0, 0.12)
-	Art.text(b.ci, b.sign_font, Vector2(420, 184), "CERULEEN GYM", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 440)
+	Art.text(b.ci, b.sign_font, Vector2(420, 184), "CERULEAN GYM", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 440)
 
 
-static func _monster_mart(b: Backdrop) -> void:
+static func _poke_mart(b: Backdrop) -> void:
 	_room(b, Color("eaf2fb"), Color("cfe0f2"), 545, Color("f2f2ee"), "tile")
 	Art.shape(b.ci, Art.rrect(Rect2(380, 60, 520, 90), 20), Color("4a78d0"), 5.0, 0.12)
-	Art.text(b.ci, b.sign_font, Vector2(380, 124), "MONSTER MART", 48, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	Art.text(b.ci, b.sign_font, Vector2(380, 124), "POKE MART", 48, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 520)
 	# Shelves of potions and balls
 	for row in 2:
 		var y := 290.0 + row * 120.0

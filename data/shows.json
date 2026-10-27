@@ -1,32 +1,44 @@
 {
-	"Bikini Bottom": {
+	"SpongeBob SquarePants": {
 		"transition": "bubbles",
 		"transition_sfx": "bubbles",
 		"icon": "bubbles",
-		"color": "#3d8fe0"
+		"color": "#3d8fe0",
+		"aka": [
+			"Bikini Bottom"
+		]
 	},
-	"Hillwood": {
+	"Hey Arnold!": {
 		"transition": "iris",
 		"transition_sfx": "slide_whistle",
 		"icon": "city",
-		"color": "#d9473a"
+		"color": "#d9473a",
+		"aka": [
+			"Hillwood"
+		]
 	},
-	"Bluffington": {
+	"Doug": {
 		"transition": "checker",
 		"transition_sfx": "pop",
 		"icon": "journal",
-		"color": "#5aa84a"
+		"color": "#5aa84a",
+		"aka": [
+			"Bluffington"
+		]
 	},
-	"Playpen": {
+	"Rugrats": {
 		"transition": "pinwheel",
 		"transition_sfx": "slide_whistle",
 		"icon": "bottle",
-		"color": "#7ab8ea"
+		"color": "#7ab8ea",
+		"aka": [
+			"Playpen"
+		]
 	},
 	"Pokemon": {
 		"transition": "star",
 		"transition_sfx": "sparkle",
-		"icon": "rokket",
+		"icon": "rocket",
 		"color": "#e6452f"
 	},
 	"Dragonball Z": {

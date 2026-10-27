@@ -1,5 +1,5 @@
 @title The Golden Spatula
-@series Bikini Bottom
+@series SpongeBob SquarePants
 @number 1
 @description SpongeBob's lucky golden spatula goes missing on the morning of the big Patty Cook-Off. Can he find it before noon?
 
@@ -25,7 +25,7 @@ SFX whoosh
 RUN spongebob offright
 
 # ---------------------------------------------------------------- PATRICK'S ROCK
-SCENE pat_rock
+SCENE patrick_rock
 PLACE patrick midright left
 ENTER spongebob left midleft 420
 SPONGEBOB (scared): Patrick! Patrick! It's an emergency!
@@ -41,7 +41,7 @@ EXIT spongebob right &
 EXIT patrick right
 
 # ----------------------------------------------------------- SQUIDWARD'S HOUSE
-SCENE squidwerd_house
+SCENE squidward_house
 PLACE squidward midright left
 HOLD squidward clarinet
 EMOTE squidward smug
@@ -63,7 +63,7 @@ SFX slam
 SHAKE 0.4
 
 # ---------------------------------------------------------- THE KRUSTY KRAB
-SCENE krusty_crab
+SCENE krusty_krab
 PLACE mr_krabs midright left
 EMOTE mr_krabs happy
 MR_KRABS (happy): Ah, cook-off day! Hundreds of hungry customers, every one with a wallet!

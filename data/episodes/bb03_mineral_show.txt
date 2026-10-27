@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC happy
-SCENE schraeder_house cut
+SCENE schrader_house cut
 TITLE
 PLACE hank center left excited
 PLACE marie midright left smug
@@ -19,7 +19,7 @@ MARIE (smug): Exactly.
 
 # ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC tense
-SCENE schraeder_house
+SCENE schrader_house
 CARD The next morning...
 PLACE hank center left scared
 PLACE marie midright left nervous
@@ -32,7 +32,7 @@ HANK (excited): I'm calling Walt. He's a science guy. Science guys understand ro
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC jazz
-SCENE whyte_house
+SCENE white_house
 PLACE walt center right neutral
 PLACE skyler midleft right smug
 SFX beep
@@ -44,7 +44,7 @@ WALT (shy): A little. It's like a mystery novel. With minerals.
 
 # ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC sneaky
-SCENE schraeder_house
+SCENE schrader_house
 PLACE hank center left nervous
 ENTER walt left midleft excited
 ENTER jesse left left happy

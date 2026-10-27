@@ -9,8 +9,8 @@ func _ready() -> void:
 	if args[1] == "styles":
 		# One scene change per transition style.
 		var text := "@title Transitions\nSCENE pineapple_house cut\nPLACE spongebob center\nSPONGEBOB: Hi.\n"
-		var locs := ["sunset_arms", "krusty_crab", "ps118", "treedome", "rooftop", "goo_lagoon", "classroom", "chum_bucket",
-			"kamee_house", "wall_top", "mushroom_kingdom", "save_room"]
+		var locs := ["sunset_arms", "krusty_krab", "ps118", "treedome", "rooftop", "goo_lagoon", "classroom", "chum_bucket",
+			"kame_house", "wall_top", "mushroom_kingdom", "save_room"]
 		for i in EpisodeScript.TRANSITIONS.size():
 			text += "SCENE %s %s\nPLACE pat center\nPAT: %s.\n" % [locs[i], EpisodeScript.TRANSITIONS[i], EpisodeScript.TRANSITIONS[i]]
 		main.play_episode(EpisodeScript.parse(text, Game.characters))

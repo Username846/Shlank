@@ -49,12 +49,12 @@ SAUL (excited): Hank! I need a real lawman for my commercial. A tough guy. A guy
 HANK (angry): The cops would never call Saul.
 SAUL (smug): There's free lunch.
 HANK (surprised): What kind of lunch?
-SAUL (happy): Los Pollitos Hermanos. Unlimited chicken.
+SAUL (happy): Los Pollos Hermanos. Unlimited chicken.
 HANK (smug): ...What time do I show up?
 
-# ------------------------------------------------------------ LOS POLLITOS HERMANOS
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
 MUSIC sneaky
-SCENE pollitos
+SCENE pollos
 PLACE gus center left neutral
 PLACE mike midright left neutral
 MIKE: Saul wants to film his commercial outside our restaurant. And he wants free chicken for everyone.
@@ -124,7 +124,7 @@ SAUL (excited): Walt, you're a genius!
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy 3
-SCENE whyte_house
+SCENE white_house
 CARD One week later...
 PLACE flynn center left excited
 PLACE skyler midright left smug
@@ -137,9 +137,9 @@ WALT (happy): Huh. Science works.
 FLYNN (excited): Can you get me Saul's autograph?
 WALT (sad): Please don't.
 
-# ------------------------------------------------------------ LOS POLLITOS HERMANOS
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
 MUSIC jazz 3
-SCENE pollitos
+SCENE pollos
 PLACE gus center left happy
 PLACE mike midright left neutral
 MIKE: Business is up forty percent since the commercial. Everyone's buying chicken.

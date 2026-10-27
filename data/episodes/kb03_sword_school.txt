@@ -37,7 +37,7 @@ META_KNIGHT (angry): Kirby! Do not inhale the practice sword!
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC sneaky
-SCENE dedeedee_castle
+SCENE dedede_castle
 PLACE dedede center left smug
 PLACE waddle_dee midright left nervous
 DEDEDE (smug): Meta Knight's teaching sword fighting? Ha! I'll show him. I'll open my own school.
@@ -75,7 +75,7 @@ WADDLE_DOO (excited): A light sword! Zap zap!
 
 # ------------------------------------------------------------ KIRBY'S HOUSE
 MUSIC romantic
-SCENE kirbie_house
+SCENE kirby_house
 PLACE kirby center right happy
 PLACE ribbon midleft right happy
 RIBBON (happy): Kirby! I heard you're going to sword school!
@@ -100,7 +100,7 @@ MARX (sad): Fine. Rubber ones.
 
 # ------------------------------------------------------------ DEDEDE'S THRONE ROOM
 MUSIC action
-SCENE dedeedee_throne
+SCENE dedede_throne
 PLACE dedede center left excited
 PLACE waddle_dee midright left scared
 DEDEDE (excited): Lesson one of Hammer School! Swing as hard as you can!
@@ -169,7 +169,7 @@ META_KNIGHT (happy): But it is very effective. You pass.
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC sneaky 2
-SCENE dedeedee_castle
+SCENE dedede_castle
 PLACE dedede center left smug
 ENTER meta_knight right midright neutral
 DEDEDE (smug): So, Meta Knight. How did your little sword school go?

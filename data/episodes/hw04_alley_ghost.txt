@@ -1,12 +1,12 @@
 @title The Ghost of Hillwood Alley
-@series Hillwood
+@series Hey Arnold!
 @icon city
 @number 4
 @description Sid swears there's a ghost in the alley behind Big Bob's Beepers. Gerald tells the scariest version of the legend, and Arnold decides to find out the truth.
 
 # ------------------------------------------------------------ ARNOLD'S ROOM
 MUSIC spooky
-SCENE arnald_room cut
+SCENE arnold_room cut
 TITLE
 PLACE arnold midleft right neutral
 PLACE gerald center left smug

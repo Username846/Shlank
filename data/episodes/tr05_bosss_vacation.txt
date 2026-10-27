@@ -1,12 +1,12 @@
 @title The Boss Takes a Vacation
 @series Pokemon
-@icon rokket
+@icon rocket
 @number 5
 @description The Boss is going on vacation, and he's leaving Team Rocket in charge of headquarters. They immediately lose the keys, the cat and the headquarters.
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC tense
-SCENE rokket_hq cut
+SCENE rocket_hq cut
 TITLE
 PLACE giovanni midright left neutral
 PLACE jessie midleft right nervous
@@ -22,7 +22,7 @@ EXIT giovanni right
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC happy
-SCENE rokket_hq
+SCENE rocket_hq
 PLACE jessie midleft right excited
 PLACE james center left excited
 PLACE meowth midright left smug
@@ -33,15 +33,15 @@ JESSIE (nervous): Wasn't it in that golden box?
 MEOWTH (scared): The golden box is open.
 JAMES (scared): The golden box is empty.
 
-# ------------------------------------------------------------ PALLUT TOWN
+# ------------------------------------------------------------ PALLET TOWN
 MUSIC sneaky
-SCENE pallut_town
+SCENE pallet_town
 PLACE ash center right happy
 PLACE pikachu midleft right happy
 ASH (happy): What a nice day for training, Pikachu.
 PIKACHU (surprised): Pika?
 ASH (surprised): Whoa. A little round monster with a gold coin on its head. Is it lost?
-NARRATOR: It was, in fact, the Boss's prize monster. A tiny, fluffy Meowt-ling with a diamond collar.
+NARRATOR: It was, in fact, the Boss's prize monster. A tiny, fluffy Meowth-ling with a diamond collar.
 ASH (excited): Hey, little guy! Want to come with us?
 PIKACHU (smug): Pika.
 
@@ -59,7 +59,7 @@ JAMES (sad): The twerp is like a magnet for our problems.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC jazz
-SCENE prof_lab
+SCENE oak_lab
 PLACE nurse_joy center left happy
 ENTER ash left midleft excited
 ENTER misty left left smug
@@ -69,9 +69,9 @@ MISTY (smug): Someone very rich. Look, the collar has a big red R on it.
 ASH (surprised): R? Like... Team Rocket?
 NURSE_JOY (nervous): Oh dear.
 
-# ------------------------------------------------------------ MONSTER MART
+# ------------------------------------------------------------ POKE MART
 MUSIC sneaky 2
-SCENE monster_mart
+SCENE poke_mart
 PLACE brock center left happy
 ENTER jessie right midright nervous
 ENTER james right right nervous
@@ -84,7 +84,7 @@ BROCK (smug): You're welcome. I think.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC tense
-SCENE prof_lab
+SCENE oak_lab
 PLACE ash midleft right angry
 PLACE pikachu left right angry
 PLACE misty center left angry
@@ -100,7 +100,7 @@ JAMES (sad): We're very desperate.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC sad
-SCENE prof_lab
+SCENE oak_lab
 PLACE ash midleft right nervous
 PLACE meowth center left sad
 ASH (nervous): How do I know you'll take care of it?
@@ -122,7 +122,7 @@ GIOVANNI (smug): I'm coming home early.
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC tense 2
-SCENE rokket_hq
+SCENE rocket_hq
 PLACE jessie midleft right nervous
 PLACE james left right nervous
 PLACE meowth center left happy
@@ -136,7 +136,7 @@ MEOWTH (shy): The twerp's friend Misty. She said it looked cold.
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC happy 3
-SCENE rokket_hq
+SCENE rocket_hq
 PLACE giovanni midright left happy
 PLACE jessie midleft right surprised
 PLACE meowth center left surprised

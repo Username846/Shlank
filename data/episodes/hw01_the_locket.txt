@@ -1,5 +1,5 @@
 @title The Locket
-@series Hillwood
+@series Hey Arnold!
 @number 1
 @description Helga's secret locket goes missing at school, and Arnold is determined to return it to its owner. Helga is determined that he never, ever finds out who that is.
 
@@ -59,7 +59,7 @@ ARNOLD: Nobody? Okay. I'll keep it safe until I find the owner.
 HELGA (smug): Ha! Who'd want a dumb old locket anyway?
 
 # ------------------------------------------------------------ GERALD FIELD
-SCENE gerold_field
+SCENE gerald_field
 CARD Recess.
 PLACE arnold midleft right
 HOLD arnold locket
@@ -142,7 +142,7 @@ EXIT helga left 500
 ARNOLD: Something tells me she wasn't fishing.
 
 # ------------------------------------------------------------ ARNOLD'S ROOM
-SCENE arnald_room
+SCENE arnold_room
 MUSIC sad
 PLACE arnold center right
 HOLD arnold locket

@@ -525,7 +525,7 @@ func _import_dialog(root: Control) -> void:
 	vb.add_theme_constant_override("separation", 8)
 	vb.add_child(UiKit.label("Paste an episode script below (Ctrl+V / Cmd+V), or use the button to read your clipboard.", 18))
 	var te := TextEdit.new()
-	te.placeholder_text = "@title My Episode\n@series Hillwood\n..."
+	te.placeholder_text = "@title My Episode\n@series Hey Arnold!\n..."
 	te.custom_minimum_size = Vector2(640, 260)
 	vb.add_child(te)
 	var status := UiKit.label("", 16, UiKit.RED)

@@ -175,9 +175,9 @@ func _draw_set() -> void:
 	ci.draw_set_transform(Vector2(PAD, PAD) * k, 0.0, Vector2.ONE * k)
 	match location:
 		"pineapple_house": _pineapple_house()
-		"pat_rock": _pat_rock()
-		"squidwerd_house": _squidwerd_house()
-		"krusty_crab": _krusty_crab()
+		"patrick_rock": _patrick_rock()
+		"squidward_house": _squidward_house()
+		"krusty_krab": _krusty_krab()
 		"krusty_kitchen": _krusty_kitchen()
 		"treedome": _treedome()
 		"jellyfish_fields": _jellyfish_fields()
@@ -185,10 +185,10 @@ func _draw_set() -> void:
 		"chum_bucket": _chum_bucket()
 		"boating_school": _boating_school()
 		"sunset_arms": _sunset_arms()
-		"arnald_room": _arnald_room()
+		"arnold_room": _arnold_room()
 		"ps118": _ps118()
 		"classroom": _classroom()
-		"gerold_field": _gerold_field()
+		"gerald_field": _gerald_field()
 		"big_bobs": _big_bobs()
 		"slausens": _slausens()
 		"green_meats": _green_meats()
@@ -211,12 +211,12 @@ func _draw_fx() -> void:
 		"pineapple_house":
 			_seaweed(120, 600, 120)
 			_seaweed(1180, 610, 150, Color("4cb04f"))
-		"pat_rock":
+		"patrick_rock":
 			_seaweed(1250, 615, 110)
 			_weathervane()
-		"squidwerd_house":
+		"squidward_house":
 			_seaweed(160, 610, 90, Color("3d9a4a"))
-		"krusty_crab":
+		"krusty_krab":
 			_seaweed(80, 620, 130)
 			_seaweed(1230, 620, 100, Color("4cb04f"))
 		"krusty_kitchen":
@@ -304,7 +304,7 @@ func _coral(c: Vector2, s: float, color: Color) -> void:
 
 
 func is_underwater() -> bool:
-	return String(Game.locations.get(location, {}).get("show", "")) == "Bikini Bottom"
+	return String(Game.locations.get(location, {}).get("show", "")) == "SpongeBob SquarePants"
 
 
 func _draw_bubbles() -> void:
@@ -378,7 +378,7 @@ func _pineapple_house() -> void:
 	Art.shape(ci, Art.rrect(Rect2(800, 470, 64, 40), 14), Color("6aa7d8"), 4.0, 0.15)
 
 
-func _pat_rock() -> void:
+func _patrick_rock() -> void:
 	_sea_sky(Color("3a86d3"), Color("9adbf0"))
 	_sand(570)
 	_coral(Vector2(180, 610), 1.0, Color("f27aa0"))
@@ -394,7 +394,7 @@ func _pat_rock() -> void:
 	Art.text(ci, sign_font, Vector2(975, 562), "PATRICK'S ROCK", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 230)
 
 
-func _squidwerd_house() -> void:
+func _squidward_house() -> void:
 	_sea_sky(Color("2e78c8"), Color("88cfe8"))
 	_sand(565, Color("ead593"))
 	var stone := Color("4f6f8f")
@@ -419,7 +419,7 @@ func _squidwerd_house() -> void:
 	Art.text(ci, sign_font, Vector2(900, 470), "ART", 22, Color("ffe08a"), 4, HORIZONTAL_ALIGNMENT_CENTER, 120)
 
 
-func _krusty_crab() -> void:
+func _krusty_krab() -> void:
 	_sea_sky()
 	_sand(575)
 	var wood := Color("b07a45")
@@ -769,7 +769,7 @@ func _wood_floor(top_y: float, color: Color) -> void:
 	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, top_y), Vector2(W + PAD, top_y)]), 4.0)
 
 
-# Hillwood locations ------------------------------------------------------
+# Hey Arnold! locations ------------------------------------------------------
 
 func _sunset_arms() -> void:
 	_city_sky()
@@ -810,7 +810,7 @@ func _sign_plate(r: Rect2, label: String, bg: Color, fg: Color, size: int) -> vo
 	Art.text(ci, sign_font, Vector2(r.position.x, r.get_center().y + size * 0.36), label, size, fg, 6, HORIZONTAL_ALIGNMENT_CENTER, r.size.x)
 
 
-func _arnald_room() -> void:
+func _arnold_room() -> void:
 	# Walls
 	Art.gradient_rect(ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("a5434e"), Color("7e2f3b"))
 	_sky_bottom = Color("7e2f3b")
@@ -909,7 +909,7 @@ func _classroom() -> void:
 	Art.stroke(ci, PackedVector2Array([Vector2(250, 414), Vector2(254, 406)]), 3.0, Color("3f8f3a"))
 
 
-func _gerold_field() -> void:
+func _gerald_field() -> void:
 	_city_sky(Color("6aaee6"), Color("d6eef8"))
 	# Brick buildings around the lot
 	_brick_wall(Rect2(-PAD, 140, 460, 420), Color("a24d38"))
@@ -1084,7 +1084,7 @@ func _rooftop() -> void:
 		Art.dot(ci, Vector2(_rng.randf_range(-PAD, W + PAD), _rng.randf_range(575, H)), 2.0, Color("4a474f"))
 
 
-# Hillwood moving bits -------------------------------------------------------
+# Hey Arnold! moving bits -------------------------------------------------------
 
 func _fx_hillwood() -> void:
 	match location:

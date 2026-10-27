@@ -14,6 +14,7 @@ static func entries() -> Array:
 	for e in Game.episodes:
 		var path := String(e.get("file", ""))
 		var id := path.get_file().get_basename()
+		_migrate(e.get("aka", []), id)
 		var entry := {"id": id, "path": path, "text": Game.load_text(path), "origin": "built-in"}
 		by_id[id] = entry
 		out.append(entry)
@@ -26,6 +27,14 @@ static func entries() -> Array:
 		else:
 			out.append({"id": id, "path": _user_path(id), "text": text, "origin": "mine"})
 	return out
+
+
+## A built-in episode that was renamed lists its old ids under "aka"; an edited copy
+## saved under an old id moves to the new one so it still replaces the original.
+static func _migrate(old_ids: Array, id: String) -> void:
+	for old in old_ids:
+		if FileAccess.file_exists(_user_path(old)) and not FileAccess.file_exists(_user_path(id)):
+			DirAccess.rename_absolute(_user_path(old), _user_path(id))
 
 
 static func user_ids() -> Array:

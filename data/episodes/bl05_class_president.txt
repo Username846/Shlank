@@ -1,5 +1,5 @@
 @title Funnie for President
-@series Bluffington
+@series Doug
 @icon journal
 @number 5
 @description Doug runs for class president against Chalky Studebaker, who is perfect at everything. Skeeter is his campaign manager. Porkchop handles security.
@@ -148,7 +148,7 @@ SFX fanfare
 
 # ------------------------------------------------------------ DOUG'S ROOM
 MUSIC romantic
-SCENE dug_room
+SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
 DOUG (happy): Dear Journal. Today I became Vice President of the fourth grade.

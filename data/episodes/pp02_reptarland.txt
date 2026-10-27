@@ -1,5 +1,5 @@
 @title Lost in Reptarland
-@series Playpen
+@series Rugrats
 @icon bottle
 @number 2
 @description Grandpa Lou takes the babies to Reptarland, then falls asleep on a bench. Tommy leads the gang on a quest to meet the real Reptar.

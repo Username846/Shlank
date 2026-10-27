@@ -1,12 +1,12 @@
 @title The Big Game
-@series Hillwood
+@series Hey Arnold!
 @icon city
 @number 2
 @description The fifth graders want Gerald Field for themselves. There's only one way to settle it: a baseball game, with Helga pitching and Harold in charge of the snacks.
 
 # ------------------------------------------------------------ GERALD FIELD
 MUSIC happy
-SCENE gerold_field cut
+SCENE gerald_field cut
 TITLE
 PLACE arnold midleft right happy
 PLACE gerald center left happy
@@ -75,7 +75,7 @@ GRANDMA (excited): That's what victory looks like when you're hungry! Huzzah!
 
 # ------------------------------------------------------------ GERALD FIELD
 MUSIC tense
-SCENE gerold_field
+SCENE gerald_field
 PLACE helga center right angry
 PLACE arnold midleft right nervous
 PLACE gerald left right excited
@@ -114,7 +114,7 @@ BIG_BOB (happy): No. But the bear loved his beeper.
 
 # ------------------------------------------------------------ GERALD FIELD
 MUSIC action 2
-SCENE gerold_field
+SCENE gerald_field
 PLACE sid center right scared
 PLACE arnold midleft right happy
 PLACE gerald left right nervous

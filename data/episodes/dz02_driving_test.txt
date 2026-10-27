@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy
-SCENE gokku_house cut
+SCENE goku_house cut
 TITLE
 PLACE chi_chi center left angry
 ENTER goku left midleft happy
@@ -30,9 +30,9 @@ GOKU (nervous): Yeah. She had the frying pan.
 PICCOLO (sad): Fine. Where do we sign up?
 GOKU (excited): West City! Let's fly there!
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC happy 2
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE bulma center left smug
 ENTER goku left midleft happy
 ENTER piccolo left left angry
@@ -58,9 +58,9 @@ SHAKE 0.6
 GOKU (happy): Stopped!
 PICCOLO (angry): On top of a mailbox.
 
-# ------------------------------------------------------------ KAMEE HOUSE
+# ------------------------------------------------------------ KAME HOUSE
 MUSIC jazz 2
-SCENE kamee_house
+SCENE kame_house
 PLACE master_roshi midleft right smug
 PLACE krillin midright left happy
 KRILLIN (happy): Goku and Piccolo are taking driving lessons? That's hilarious.
@@ -70,9 +70,9 @@ MASTER_ROSHI (smug): Well, he drove. I napped on top.
 KRILLIN (happy): That's not really driving, Master.
 MASTER_ROSHI (happy): It's the best kind of driving.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC sneaky
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE vegeta center left smug
 PLACE bulma midright left happy
 VEGETA (smug): Kakarot needs a license? Ha! I passed my driving test in five minutes.
@@ -98,7 +98,7 @@ PICCOLO (angry): The mountain was in the way!
 
 # ------------------------------------------------------------ PLANET NAMEK
 MUSIC romantic
-SCENE planet_nameck
+SCENE planet_namek
 PLACE piccolo center right sad
 PICCOLO (sad): Planet Namek. So peaceful. No roads. No cars. No red lights.
 PICCOLO (smug): My people never needed to drive. We simply walked. With dignity.
@@ -161,7 +161,7 @@ BULMA (happy): Probably for the best.
 
 # ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy 3
-SCENE gokku_house
+SCENE goku_house
 PLACE chi_chi center left happy
 PLACE gohan midright left happy
 ENTER goku left midleft excited

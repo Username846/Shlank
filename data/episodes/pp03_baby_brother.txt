@@ -1,5 +1,5 @@
 @title Dil's Big Day
-@series Playpen
+@series Rugrats
 @icon bottle
 @number 3
 @description Tommy's baby brother Dil won't stop crying, and nobody can figure out why. Angelica says babies come with a return slip. The gang sets out to find out what Dil really wants.

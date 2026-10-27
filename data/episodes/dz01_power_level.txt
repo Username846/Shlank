@@ -4,9 +4,9 @@
 @number 1
 @description Bulma invents a machine that measures exactly how strong you are. Goku and Vegeta both need to be number one, and Frieza wants the machine for himself.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC action
-SCENE capsool_corp cut
+SCENE capsule_corp cut
 TITLE
 PLACE bulma center right excited
 BULMA (excited): Behold! The Power-O-Meter! It measures exactly how strong anyone is. To the decimal!
@@ -32,7 +32,7 @@ VEGETA (smug): Let her be mad. Tomorrow, I make history.
 
 # ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy
-SCENE gokku_house
+SCENE goku_house
 PLACE chi_chi midright left angry
 ENTER goku left midleft happy
 CHI_CHI (angry): Goku! Where have you been? And why is there a crater in the garden?
@@ -57,9 +57,9 @@ GOHAN (happy): Then what is it about?
 PICCOLO (shy): Protecting the people you care about. Now go away before somebody sees me being nice.
 GOHAN (happy): Thanks, Mister Piccolo!
 
-# ------------------------------------------------------------ KAMEE HOUSE
+# ------------------------------------------------------------ KAME HOUSE
 MUSIC jazz
-SCENE kamee_house
+SCENE kame_house
 PLACE master_roshi midleft right smug
 PLACE krillin midright left nervous
 KRILLIN (nervous): Master Roshi, everyone's going to the Power-O-Meter test. What if I get the lowest score?
@@ -91,7 +91,7 @@ GOKU (happy): Sorry I'm late! I stopped for lunch. And second lunch.
 
 # ------------------------------------------------------------ FRIEZA'S SHIP
 MUSIC sneaky
-SCENE freeza_ship
+SCENE frieza_ship
 PLACE frieza center left smug
 FRIEZA (smug): A machine that finds the strongest beings in the universe? How very useful.
 FRIEZA (happy): I could find every warrior who might challenge me, and politely remove them.
@@ -144,9 +144,9 @@ PICCOLO (smug): Hmph. I've been telling you all that for years.
 FRIEZA (angry): This machine is clearly broken. I don't want it anymore!
 EXIT frieza right 700
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC happy 2
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE bulma center right happy
 PLACE goku midleft right happy
 PLACE vegeta right left angry

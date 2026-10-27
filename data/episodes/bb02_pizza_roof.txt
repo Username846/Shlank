@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy
-SCENE whyte_house cut
+SCENE white_house cut
 TITLE
 PLACE skyler center left neutral
 PLACE flynn midright left excited
@@ -29,9 +29,9 @@ JESSE (smug): Just don't drop it, yo.
 WALT (smug): Jesse, I'm a chemistry teacher. I handle delicate things every day.
 JESSE (happy): Famous last words.
 
-# ------------------------------------------------------------ LOS POLLITOS HERMANOS
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
 MUSIC sneaky
-SCENE pollitos
+SCENE pollos
 PLACE gus center left neutral
 ENTER walt left midleft nervous
 WALT (nervous): Gus. One extra large pizza, please. Half pepperoni, half mushroom.
@@ -43,7 +43,7 @@ GUS (happy): Then I will make you a chicken pizza. Just this once.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC tense
-SCENE whyte_backyard
+SCENE white_backyard
 ENTER walt left midleft excited
 WALT (excited): Skyler! I'm home! With a chicken pizza! It's very exotic!
 NARRATOR: Walt tripped on a garden hose. The pizza box flew out of his hands, spun through the air, and landed perfectly flat. On the roof.
@@ -54,7 +54,7 @@ WALT (sad): It's on the roof. Of course it's on the roof.
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC sad
-SCENE whyte_house
+SCENE white_house
 PLACE skyler center left angry
 PLACE flynn midright left sad
 ENTER walt left midleft nervous
@@ -81,7 +81,7 @@ JESSE (smug): It's science.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC action
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt center right nervous
 ENTER jesse left midleft excited
 ENTER badger left left happy
@@ -109,7 +109,7 @@ GUS (happy): I want my chicken pizza to be eaten, Michael.
 
 # ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC jazz 3
-SCENE schraeder_house
+SCENE schrader_house
 PLACE hank center left excited
 PLACE marie midright left smug
 SFX beep
@@ -122,7 +122,7 @@ MARIE (smug): Your back says otherwise.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC action 2
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt midleft right scared
 PLACE jesse left right nervous
 PLACE badger center left happy
@@ -138,7 +138,7 @@ JESSE (scared): The tape gave up, yo!
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC tense 2
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt center right excited
 PLACE jesse midleft right nervous
 PLACE skinny_pete left right happy
@@ -153,7 +153,7 @@ JESSE (excited): Got it! Yeah, science!
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy 2
-SCENE whyte_house
+SCENE white_house
 PLACE skyler center left smug
 PLACE flynn midright left excited
 PLACE walt midleft right happy

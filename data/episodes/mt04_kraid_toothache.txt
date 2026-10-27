@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC tense
-SCENE krayd_lair cut
+SCENE kraid_lair cut
 TITLE
 PLACE kraid center left sad
 KRAID (sad): Grrr... ooowww...
@@ -92,7 +92,7 @@ SPACE_PIRATE (excited): Let me get my mask!
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC tense
-SCENE krayd_lair
+SCENE kraid_lair
 PLACE kraid center left angry
 ENTER samus left midleft neutral 200
 ENTER space_pirate left left nervous 200
@@ -106,7 +106,7 @@ SPACE_PIRATE (nervous): He remembers I gave him a lollipop last time. That's pro
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC tense 2
-SCENE krayd_lair
+SCENE kraid_lair
 PLACE kraid center left nervous
 PLACE samus midleft right neutral
 PLACE space_pirate midright left nervous
@@ -119,7 +119,7 @@ SPACE_PIRATE (surprised): I see the problem! There's a giant space-candy stuck b
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC action
-SCENE krayd_lair
+SCENE kraid_lair
 PLACE kraid center left scared
 PLACE samus midleft right neutral
 PLACE space_pirate midright left excited
@@ -133,7 +133,7 @@ NARRATOR: For the first time in days, Kraid smiled. It was terrifying. But happy
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC happy
-SCENE krayd_lair
+SCENE kraid_lair
 PLACE kraid center left happy
 PLACE samus midleft right happy
 PLACE adam left right happy

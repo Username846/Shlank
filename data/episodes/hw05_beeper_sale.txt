@@ -1,5 +1,5 @@
 @title The Beeper Blowout
-@series Hillwood
+@series Hey Arnold!
 @icon city
 @number 5
 @description Big Bob needs to sell a thousand beepers in one weekend, so he hires the whole fourth grade. Helga is horrified. Arnold turns out to be an excellent salesman.
@@ -71,7 +71,7 @@ GRANDPA (happy): You're a natural, Shortman.
 
 # ------------------------------------------------------------ GERALD FIELD
 MUSIC action
-SCENE gerold_field
+SCENE gerald_field
 PLACE gerald center left smug
 PLACE sid midright left nervous
 GERALD (smug): Sid, watch and learn. Beepers are about the legend.

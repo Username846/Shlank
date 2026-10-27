@@ -8,6 +8,10 @@ var locations: Dictionary = {}
 ## Per-show presentation settings (scene transition and its sound).
 var shows: Dictionary = {}
 var episodes: Array = []
+## Old series names and location ids (their "aka" lists) -> current ones, so episodes
+## saved before something was renamed still load.
+var _series_aka: Dictionary = {}
+var _location_aka: Dictionary = {}
 
 # Settings
 var voice_mode := "auto"  # auto | tts | babble | silent
@@ -37,6 +41,12 @@ func _ready() -> void:
 	characters = _load_json("res://data/characters.json")
 	locations = _load_json("res://data/locations.json")
 	shows = _load_json("res://data/shows.json")
+	for s in shows:
+		for old in shows[s].get("aka", []):
+			_series_aka[old] = s
+	for id in locations:
+		for old in locations[id].get("aka", []):
+			_location_aka[old] = id
 	var index = _load_json("res://data/episodes/index.json")
 	episodes = index.get("episodes", []) if index is Dictionary else []
 	_load_settings()
@@ -61,6 +71,14 @@ func _load_json(path: String) -> Variant:
 		push_error("Invalid JSON: %s" % path)
 		return {}
 	return parsed
+
+
+func series_name(series: String) -> String:
+	return _series_aka.get(series, series)
+
+
+func location_id(id: String) -> String:
+	return _location_aka.get(id, id)
 
 
 func load_text(path: String) -> String:

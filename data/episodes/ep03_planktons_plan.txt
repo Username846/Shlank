@@ -1,5 +1,5 @@
 @title Plankton's Perfect Plan
-@series Bikini Bottom
+@series SpongeBob SquarePants
 @icon bubbles
 @number 3
 @description Plankton has a brand-new scheme to steal the secret formula: disguise himself as SpongeBob's pet snail. What could possibly go wrong?
@@ -43,7 +43,7 @@ NARRATOR: Gary is not fooled. Gary is never fooled.
 
 # ------------------------------------------------------------ PATRICK'S ROCK
 MUSIC happy 3
-SCENE pat_rock
+SCENE patrick_rock
 PLACE patrick center left happy
 ENTER gary left midleft nervous
 GARY (nervous): Meow! Meow meow!
@@ -69,7 +69,7 @@ SPONGEBOB (excited): Gary, you're so smart! Let's go to work together!
 
 # ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC tense
-SCENE krusty_crab
+SCENE krusty_krab
 PLACE mr_krabs midright left smug
 PLACE squidward right left neutral
 ENTER spongebob left midleft happy

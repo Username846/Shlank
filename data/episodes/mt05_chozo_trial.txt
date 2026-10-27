@@ -100,7 +100,7 @@ NARRATOR: Mother Brain had never been kind a day in her life. She did not know w
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC tense
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left sad
 PLACE baby_metroid midleft right nervous
 CARD The Trial of Kindness...
@@ -114,7 +114,7 @@ RIDLEY (surprised): ...scree?
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC romantic 2
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left happy
 PLACE baby_metroid midleft right happy
 RIDLEY (happy): Scree scree.

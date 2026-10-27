@@ -33,7 +33,7 @@ TOAD (smug): Take this flashlight. Ghosts hate flashlights.
 
 # ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC tense
-SCENE peech_castle
+SCENE peach_castle
 PLACE peach center left nervous
 PLACE daisy midright left excited
 ENTER luigi left midleft nervous
@@ -74,7 +74,7 @@ GOOMBA (happy): Oh, him? He's upstairs. Losing at board games.
 
 # ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC sneaky
-SCENE bowzer_castle
+SCENE bowser_castle
 PLACE bowser center left excited
 PLACE koopa_troopa midright left nervous
 BOWSER (excited): Koopa! Mario is trapped in the Boo Mansion! This is my chance!

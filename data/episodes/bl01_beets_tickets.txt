@@ -1,12 +1,12 @@
 @title The Beets Tickets
-@series Bluffington
+@series Doug
 @icon journal
 @number 1
 @description Doug wins two tickets to see the Beets and works up the nerve to ask Patti Mayonnaise. Now all he has to do is not lose them before Friday.
 
 # ---------------------------------------------------------------- DOUG'S ROOM
 MUSIC happy
-SCENE dug_room cut
+SCENE doug_room cut
 TITLE
 PLACE doug center right nervous
 DOUG (nervous): Dear Journal. Today is the day. The day I finally ask Patti Mayonnaise to the Beets concert.

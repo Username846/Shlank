@@ -1,12 +1,12 @@
 @title Pikachu, I Choose You!
 @series Pokemon
-@icon rokket
+@icon rocket
 @number 2
 @description Ash Ketchum oversleeps on the most important day of his life and ends up with the grumpiest monster in the lab. Team Rocket thinks it looks very valuable.
 
-# ------------------------------------------------------------ PALLUT TOWN
+# ------------------------------------------------------------ PALLET TOWN
 MUSIC happy
-SCENE pallut_town cut
+SCENE pallet_town cut
 TITLE
 PLACE ash center right scared
 ASH (scared): I overslept! Today's the day I get my first monster, and I overslept!
@@ -16,7 +16,7 @@ NARRATOR: Ash Ketchum, age ten, ran all the way to the lab. In his pajamas.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC tense
-SCENE prof_lab
+SCENE oak_lab
 PLACE nurse_joy midright left happy
 ENTER ash left midleft excited 500
 NURSE_JOY (happy): Good morning, Ash! The professor is out, so I'm filling in today.
@@ -32,12 +32,12 @@ ASH (surprised): Ow! And shocking!
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC sneaky
-SCENE rokket_hq
+SCENE rocket_hq
 PLACE giovanni midright left angry
 PLACE jessie midleft right nervous
 PLACE james left right nervous
 PLACE meowth center left nervous
-GIOVANNI (angry): Team Rocket. I am told a rare electric mouse has appeared in Pallut Town.
+GIOVANNI (angry): Team Rocket. I am told a rare electric mouse has appeared in Pallet Town.
 MEOWTH (excited): An electric mouse? Boss, that's worth a fortune!
 GIOVANNI (smug): Bring it to me. Do not fail me again.
 JESSIE (smug): Fail? Us? Sir, we have never failed.
@@ -134,9 +134,9 @@ JESSIE (scared): Team Rocket's blasting off agaaaaain!
 EXIT jessie right 700 &
 EXIT james right 700
 
-# ------------------------------------------------------------ MONSTER CLINIC
+# ------------------------------------------------------------ POKEMON CENTER
 MUSIC sad
-SCENE monster_clinic
+SCENE pokemon_center
 PLACE nurse_joy center left nervous
 ENTER ash left midleft sad
 ENTER misty left left nervous
@@ -148,7 +148,7 @@ MISTY (smug): He likes you. He's just stubborn. Like someone else I know.
 
 # ------------------------------------------------------------ CLINIC LOBBY
 MUSIC romantic
-SCENE clinic_lobby
+SCENE center_lobby
 PLACE ash midleft right happy
 ENTER pikachu right center happy
 PIKACHU (happy): Pika!

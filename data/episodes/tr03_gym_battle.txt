@@ -1,8 +1,8 @@
-@title Splash Battle at Ceruleen Gym
+@title Splash Battle at Cerulean Gym
 @series Pokemon
-@icon rokket
+@icon rocket
 @number 3
-@description Ash challenges the Ceruleen Gym, only to find out the gym leader is Misty. Meanwhile, Team Rocket has gone undercover as the referees.
+@description Ash challenges the Cerulean Gym, only to find out the gym leader is Misty. Meanwhile, Team Rocket has gone undercover as the referees.
 
 # ------------------------------------------------------------ TOWN SQUARE
 MUSIC happy
@@ -12,8 +12,8 @@ PLACE ash midleft right excited
 PLACE pikachu left right happy
 PLACE brock center left happy
 PLACE misty midright left nervous
-ASH (excited): Ceruleen City! Home of my first gym badge!
-BROCK (happy): The Ceruleen Gym is famous for water monsters. You'll need a strategy.
+ASH (excited): Cerulean City! Home of my first gym badge!
+BROCK (happy): The Cerulean Gym is famous for water monsters. You'll need a strategy.
 ASH (smug): My strategy is to win.
 PIKACHU (smug): Pika.
 MISTY (nervous): Um, Ash. About that gym. There's something I should tell you.
@@ -25,7 +25,7 @@ MUSIC sneaky
 SCENE mecha_lab
 PLACE meowth center left excited
 PLACE james midleft right nervous
-MEOWTH (excited): The Ceruleen Gym is having a big battle today. Every monster in town will be there.
+MEOWTH (excited): The Cerulean Gym is having a big battle today. Every monster in town will be there.
 JAMES (nervous): And we're going to steal them all?
 MEOWTH (smug): No. We're going to be the referees. Then we call it a tie, and take the prize monsters ourselves.
 JAMES (happy): That's actually clever, Meowth.
@@ -44,9 +44,9 @@ WOBBUFFET (nervous): Wobba wobba?
 JESSIE (angry): Yes, girls can have mustaches! It's a disguise!
 WOBBUFFET (happy): Wobbaaa!
 
-# ------------------------------------------------------------ CERULEEN GYM
+# ------------------------------------------------------------ CERULEAN GYM
 MUSIC tense
-SCENE ceruleen_gym
+SCENE cerulean_gym
 ENTER ash left midleft excited
 ENTER pikachu left left happy
 ASH (excited): Hello? I'm here to challenge the gym leader!
@@ -59,10 +59,10 @@ PIKACHU (excited): Pika pika!
 
 # ------------------------------------------------------------ CLINIC LOBBY
 MUSIC jazz
-SCENE clinic_lobby
+SCENE center_lobby
 PLACE nurse_joy center left happy
 PLACE brock midleft right shy
-BROCK (shy): Nurse Joy. I couldn't help but notice. You're the most beautiful nurse in Ceruleen City.
+BROCK (shy): Nurse Joy. I couldn't help but notice. You're the most beautiful nurse in Cerulean City.
 NURSE_JOY (happy): Thank you! You're very sweet.
 BROCK (excited): Would you like to have dinner with me? I'm a great cook!
 NURSE_JOY (smug): I'm on duty all day. Ash's battle starts in ten minutes. Lots of injured monsters coming.
@@ -70,9 +70,9 @@ BROCK (sad): Right. Of course. I'll just... go watch the battle.
 NURSE_JOY (happy): Bring me some of your cooking later!
 BROCK (excited): Really?!
 
-# ------------------------------------------------------------ CERULEEN GYM
+# ------------------------------------------------------------ CERULEAN GYM
 MUSIC action
-SCENE ceruleen_gym
+SCENE cerulean_gym
 PLACE ash midleft right excited
 PLACE misty midright left excited
 ENTER jessie right right smug
@@ -83,9 +83,9 @@ ASH (happy): Great! Let's battle!
 MISTY (nervous): Why do the referees look so familiar?
 ASH (smug): All referees look the same, Misty.
 
-# ------------------------------------------------------------ CERULEEN GYM
+# ------------------------------------------------------------ CERULEAN GYM
 MUSIC action 2
-SCENE ceruleen_gym
+SCENE cerulean_gym
 PLACE ash midleft right excited
 PLACE pikachu center right excited
 PLACE misty midright left excited
@@ -99,9 +99,9 @@ ASH (excited): Electric attack!
 SFX zap
 MISTY (surprised): Water and electricity! I forgot about that part!
 
-# ------------------------------------------------------------ CERULEEN GYM
+# ------------------------------------------------------------ CERULEAN GYM
 MUSIC tense 2
-SCENE ceruleen_gym
+SCENE cerulean_gym
 PLACE jessie midright left smug
 PLACE james right left smug
 PLACE ash midleft right excited
@@ -114,15 +114,15 @@ JESSIE (angry): They are NOT fake! I bought them at a very real mustache store!
 SFX pop
 JAMES (scared): Mine fell off.
 
-# ------------------------------------------------------------ CERULEEN GYM
+# ------------------------------------------------------------ CERULEAN GYM
 MUSIC action 3
-SCENE ceruleen_gym
+SCENE cerulean_gym
 PLACE jessie midright left angry
 PLACE james right left angry
 PLACE meowth farright left excited
 PLACE ash midleft right angry
 PLACE misty center left angry
-MEOWTH (excited): Plan B! The Meowt-Mech! Grab the monsters!
+MEOWTH (excited): Plan B! The Meowth-Mech! Grab the monsters!
 SFX thud
 SHAKE 0.8
 MISTY (angry): Nobody steals monsters in MY gym!
@@ -137,9 +137,9 @@ EXIT jessie right 700 &
 EXIT james right 700 &
 EXIT meowth right 700
 
-# ------------------------------------------------------------ CERULEEN GYM
+# ------------------------------------------------------------ CERULEAN GYM
 MUSIC happy 2
-SCENE ceruleen_gym
+SCENE cerulean_gym
 PLACE ash midleft right happy
 PLACE misty midright left happy
 PLACE pikachu center right happy
@@ -152,9 +152,9 @@ ASH (smug): I don't need you to go easy!
 PIKACHU (nervous): Pika...
 ASH (nervous): Okay, maybe a little easy.
 
-# ------------------------------------------------------------ MONSTER MART
+# ------------------------------------------------------------ POKE MART
 MUSIC jazz 2
-SCENE monster_mart
+SCENE poke_mart
 PLACE brock center left happy
 PLACE officer_jenny midright left smug
 OFFICER_JENNY (smug): Did you see a group of fake referees with a giant robot cat come through here?
@@ -166,7 +166,7 @@ BROCK (sad): Yes, ma'am.
 
 # ------------------------------------------------------------ ROCKET CAMP
 MUSIC sad
-SCENE rokket_camp
+SCENE rocket_camp
 PLACE jessie midleft right sad
 PLACE james center left sad
 PLACE meowth midright left sad

@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy
-SCENE whyte_house cut
+SCENE white_house cut
 TITLE
 PLACE flynn center left nervous
 PLACE walt midleft right excited
@@ -32,7 +32,7 @@ JESSE (happy): I'm always right. Except about grades.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC sneaky
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt center right excited
 PLACE flynn midleft right nervous
 WALT (excited): Okay, Flynn. Step one. We calculate the exact ratio of vinegar to baking soda.
@@ -45,7 +45,7 @@ WALT (happy): I have a pair in your size. I've been waiting years to give them t
 
 # ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC jazz 2
-SCENE schraeder_house
+SCENE schrader_house
 PLACE hank center left excited
 PLACE marie midright left smug
 HANK (excited): Marie, Flynn's science fair is Friday. I'm gonna help him with his project. Minerals!
@@ -58,7 +58,7 @@ HANK (smug): It's not competing, Marie. It's helping. Aggressively.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC action
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt midleft right excited
 PLACE flynn center left nervous
 ENTER hank right midright excited
@@ -71,7 +71,7 @@ HANK (angry): Your calculations will throw off my rocks!
 
 # ------------------------------------------------------------ WHITE HOUSE
 MUSIC sad
-SCENE whyte_house
+SCENE white_house
 PLACE flynn center left sad
 PLACE skyler midright left neutral
 FLYNN (sad): Mom, Dad and Uncle Hank are fighting about my volcano. It's not even my volcano anymore.
@@ -96,7 +96,7 @@ SKINNY_PETE (smug): Word.
 
 # ------------------------------------------------------------ WHITE BACKYARD
 MUSIC romantic
-SCENE whyte_backyard
+SCENE white_backyard
 PLACE walt center right sad
 ENTER flynn left midleft nervous
 FLYNN (nervous): Dad? Can I tell you something?
@@ -127,7 +127,7 @@ CARD The science fair...
 PLACE gus center left neutral
 PLACE flynn midleft right nervous
 PLACE walt left right happy
-GUS: Good afternoon. Los Pollitos Hermanos is proud to sponsor this year's science fair. I will be judging.
+GUS: Good afternoon. Los Pollos Hermanos is proud to sponsor this year's science fair. I will be judging.
 FLYNN (nervous): Mister Fring is the judge?
 WALT (nervous): He's very polite. And very strict.
 GUS (smug): Young man. Your project?

@@ -1,5 +1,5 @@
 @title Grandma's Treasure Map
-@series Hillwood
+@series Hey Arnold!
 @icon city
 @number 3
 @description Grandma Pookie finds an old pirate map that leads somewhere in Hillwood. Arnold, Gerald and half the neighborhood go hunting for the treasure.
@@ -120,7 +120,7 @@ SFX drumroll
 
 # ------------------------------------------------------------ ARNOLD'S ROOM
 MUSIC romantic
-SCENE arnald_room
+SCENE arnold_room
 PLACE arnold center right happy
 PLACE grandma midright left happy
 PLACE grandpa left right happy

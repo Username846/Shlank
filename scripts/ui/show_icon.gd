@@ -2,9 +2,9 @@ class_name ShowIcon
 extends Control
 ## A round badge identifying which show something belongs to.
 ## The design comes from the show's "icon" in data/shows.json:
-##   bubbles - Bikini Bottom style: sea-blue with a sky flower and bubbles
-##   city    - Hillwood style: sunset sky with a brick skyline
-##   journal, bottle, rokket, dragonball, wings, element, mushroom, visor, warpstar - more show badges
+##   bubbles - SpongeBob SquarePants style: sea-blue with a sky flower and bubbles
+##   city    - Hey Arnold! style: sunset sky with a brick skyline
+##   journal, bottle, rocket, dragonball, wings, element, mushroom, visor, warpstar - more show badges
 ##   star, heart, film, note, moon, bolt - generic badges for episodes
 ## Shows without one get their initials on a coloured badge.
 
@@ -101,7 +101,7 @@ func _draw() -> void:
 			Art.shape(self, Art.rrect(Rect2(c + Vector2(-r * 0.28, -r * 0.32), Vector2(r * 0.56, r * 0.14)), 4), Color("f28cb8"), 3.0)
 			Art.shape(self, PackedVector2Array([c + Vector2(-r * 0.12, -r * 0.32), c + Vector2(r * 0.12, -r * 0.32), c + Vector2(r * 0.05, -r * 0.62),
 				c + Vector2(-r * 0.05, -r * 0.62)]), Color("f2c14e"), 3.0)
-		"rokket":
+		"rocket", "rokket":
 			draw_polygon(disc, _vertical_gradient(disc, c, r, Color("ffffff"), Color("d9dde3")))
 			Art.text(self, UiKit.TITLE_FONT, Vector2(0, c.y + r * 0.42), "R", int(r * 1.25), Color("e6452f"), 7, HORIZONTAL_ALIGNMENT_CENTER, size.x)
 		"dragonball":

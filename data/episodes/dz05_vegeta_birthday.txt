@@ -4,9 +4,9 @@
 @number 5
 @description It's Vegeta's birthday, and Bulma is throwing a surprise party. The only problem: Vegeta hates surprises, hates parties and especially hates Goku in a party hat.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC sneaky
-SCENE capsool_corp cut
+SCENE capsule_corp cut
 TITLE
 PLACE bulma center left excited
 PLACE trunks midright left nervous
@@ -29,7 +29,7 @@ VEGETA (angry): No! No cake! Only training!
 
 # ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy
-SCENE gokku_house
+SCENE goku_house
 PLACE goku center right excited
 PLACE chi_chi midleft right smug
 PLACE gohan midright left happy
@@ -40,9 +40,9 @@ GOHAN (happy): Maybe a book? About gardening? He seems stressed.
 GOKU (excited): I'll give him a fight! The best present ever!
 CHI_CHI (angry): No fighting at the party, Goku!
 
-# ------------------------------------------------------------ KAMEE HOUSE
+# ------------------------------------------------------------ KAME HOUSE
 MUSIC jazz
-SCENE kamee_house
+SCENE kame_house
 PLACE krillin midleft right happy
 PLACE master_roshi midright left smug
 KRILLIN (happy): Master Roshi, we're invited to Vegeta's surprise party.
@@ -58,9 +58,9 @@ SCENE the_lookout
 PLACE piccolo center left angry
 ENTER gohan left midleft happy
 GOHAN (happy): Mister Piccolo, will you come to Vegeta's party?
-PICCOLO (angry): I would rather fight a hundred Freezas.
+PICCOLO (angry): I would rather fight a hundred Friezas.
 GOHAN (smug): There'll be music. And games.
-PICCOLO (angry): Two hundred Freezas.
+PICCOLO (angry): Two hundred Friezas.
 GOHAN (sad): I really want you to come.
 PICCOLO (sad): ...Fine. But I'm standing in the corner the whole time.
 
@@ -88,9 +88,9 @@ TRUNKS (scared): Dad will destroy us.
 GOHAN (smug): Okay. Musical chairs?
 TRUNKS (happy): He'd just win by blowing up the other chairs. Perfect.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC tense
-SCENE capsool_corp
+SCENE capsule_corp
 CARD The next day...
 PLACE bulma center left nervous
 PLACE goku midleft right excited
@@ -105,9 +105,9 @@ TRUNKS (scared): Here he comes!
 EXIT goku left 300 &
 EXIT krillin left 300
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC action 2
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE bulma midright left excited
 PLACE trunks right left excited
 ENTER vegeta left center neutral
@@ -123,16 +123,16 @@ VEGETA (excited): ...Okay, that's actually a good present.
 
 # ------------------------------------------------------------ FRIEZA'S SHIP
 MUSIC sneaky 3
-SCENE freeza_ship
+SCENE frieza_ship
 PLACE frieza center left angry
 FRIEZA (angry): A party? On Earth? And I wasn't invited?
 FRIEZA (smug): How very rude. I shall attend anyway. With a gift.
 FRIEZA (happy): A lovely planet-sized explosion. Wrapped in a bow.
 NARRATOR: Frieza did not understand birthdays.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC tense 2
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE vegeta center left happy
 PLACE bulma midright left happy
 PLACE goku midleft right happy
@@ -159,9 +159,9 @@ VEGETA (smug): Best birthday ever.
 FRIEZA (sad): I'm going home. This planet has no manners.
 EXIT frieza right 700
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC happy 2
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE vegeta center left happy
 PLACE bulma midright left happy
 PLACE trunks right left happy
@@ -173,9 +173,9 @@ TRUNKS (nervous): Dad, you're not supposed to say it out loud.
 VEGETA (angry): Then it will come true louder!
 SFX sparkle
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC romantic
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE vegeta center left shy
 PLACE bulma midright left happy
 BULMA (happy): So? Did you have fun?

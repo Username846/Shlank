@@ -1,5 +1,5 @@
 @title The School Play
-@series Bluffington
+@series Doug
 @icon journal
 @number 3
 @description Judy is directing the school play, and Doug lands the lead. The bad news: it's a love story. The worse news: his co-star might be Patti. Or Beebe.
@@ -32,7 +32,7 @@ BEEBE (smug): Fine. May the best Juliet win. That's me.
 
 # ------------------------------------------------------------ DOUG'S ROOM
 MUSIC sad
-SCENE dug_room
+SCENE doug_room
 PLACE doug center right nervous
 PLACE porkchop midleft right happy
 DOUG (nervous): Dear Journal. What if Patti is Juliet? I'll have to say "I love you" in front of the whole school!
@@ -106,7 +106,7 @@ ROGER (excited): Heh heh heh. Easy.
 
 # ------------------------------------------------------------ DOUG'S ROOM
 MUSIC tense 2
-SCENE dug_room
+SCENE doug_room
 PLACE doug center right scared
 ENTER skeeter left midleft scared
 SKEETER (scared): Doug! It's in Spanish now! Roger said!
@@ -148,7 +148,7 @@ DOUG (scared): Can I be the skull?
 
 # ------------------------------------------------------------ DOUG'S ROOM
 MUSIC romantic 2
-SCENE dug_room
+SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
 DOUG (happy): Dear Journal. I said "Juliet is the sun" in front of the whole school, and nobody laughed at me.

@@ -13,19 +13,19 @@ const INK := Art.INK
 static func draw_set(b: Backdrop, id: String) -> bool:
 	match id:
 		# Dragonball Z
-		"kamee_house": _kamee_house(b)
-		"capsool_corp": _capsool_corp(b)
+		"kame_house": _kame_house(b)
+		"capsule_corp": _capsule_corp(b)
 		"the_lookout": _the_lookout(b)
-		"planet_nameck": _planet_nameck(b)
+		"planet_namek": _planet_namek(b)
 		"rocky_wasteland": _rocky_wasteland(b)
 		"world_tournament": _world_tournament(b)
 		"gravity_room": _gravity_room(b)
-		"gokku_house": _gokku_house(b)
+		"goku_house": _goku_house(b)
 		"time_chamber": _time_chamber(b)
 		"snake_way": _snake_way(b)
-		"kie_planet": _kie_planet(b)
-		"cel_ring": _cel_ring(b)
-		"freeza_ship": _freeza_ship(b)
+		"kai_planet": _kai_planet(b)
+		"cell_ring": _cell_ring(b)
+		"frieza_ship": _frieza_ship(b)
 		"west_city": _west_city(b)
 		"korin_tower": _korin_tower(b)
 		# Attack on Titan
@@ -45,28 +45,28 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"jaeger_basement": _jaeger_basement(b)
 		"trost_district": _trost_district(b)
 		# Breaking Bad
-		"whyte_house": _whyte_house(b)
-		"whyte_backyard": _whyte_backyard(b)
+		"white_house": _white_house(b)
+		"white_backyard": _white_backyard(b)
 		"rv_desert": _rv_desert(b)
 		"car_wash": _car_wash(b)
-		"pollitos": _pollitos(b)
+		"pollos": _pollos(b)
 		"superlab": _superlab(b)
 		"chem_class": _chem_class(b)
 		"saul_office": _saul_office(b)
 		"dea_office": _dea_office(b)
 		"pinkman_house": _pinkman_house(b)
-		"schraeder_house": _schraeder_house(b)
+		"schrader_house": _schrader_house(b)
 		"desert_road": _desert_road(b)
 		"crossroads_motel": _crossroads_motel(b)
 		"junkyard": _junkyard(b)
 		"laundry": _laundry(b)
 		# Super Mario Brothers
 		"mushroom_kingdom": _mushroom_kingdom(b)
-		"peech_castle": _peech_castle(b)
-		"peech_throne": _peech_throne(b)
+		"peach_castle": _peach_castle(b)
+		"peach_throne": _peach_throne(b)
 		"pipe_land": _pipe_land(b)
 		"underground_bricks": _underground_bricks(b)
-		"bowzer_castle": _bowzer_castle(b)
+		"bowser_castle": _bowser_castle(b)
 		"sky_land": _sky_land(b)
 		"desert_land": _desert_land(b)
 		"ice_land": _ice_land(b)
@@ -88,16 +88,16 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"save_room": _save_room(b)
 		"elevator_shaft": _elevator_shaft(b)
 		"ceres_station": _ceres_station(b)
-		"ridlee_lair": _ridlee_lair(b)
-		"krayd_lair": _krayd_lair(b)
+		"ridley_lair": _ridley_lair(b)
+		"kraid_lair": _kraid_lair(b)
 		"item_room": _item_room(b)
 		"map_station": _map_station(b)
 		# Kirby
 		"green_greens": _green_greens(b)
-		"whispee_forest": _whispee_forest(b)
-		"dedeedee_castle": _dedeedee_castle(b)
-		"dedeedee_throne": _dedeedee_throne(b)
-		"kirbie_house": _kirbie_house(b)
+		"whispy_forest": _whispy_forest(b)
+		"dedede_castle": _dedede_castle(b)
+		"dedede_throne": _dedede_throne(b)
+		"kirby_house": _kirby_house(b)
 		"butter_building": _butter_building(b)
 		"cloudy_park": _cloudy_park(b)
 		"fountain_of_dreams": _fountain_of_dreams(b)
@@ -302,7 +302,7 @@ static func _stone_floor(b: Backdrop, y: float, col: Color) -> void:
 
 # ----------------------------------------------------- Dragonball Z --
 
-static func _kamee_house(b: Backdrop) -> void:
+static func _kame_house(b: Backdrop) -> void:
 	_sky(b, Color("4aa8f0"), Color("bfe8fb"))
 	SetsExtra._water(b, 380, H + PAD, Color("3a8fd8"))
 	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(160, 600), Vector2(300, 470), Vector2(980, 470), Vector2(1120, 600)]), 4),
@@ -313,10 +313,10 @@ static func _kamee_house(b: Backdrop) -> void:
 	b._door(Rect2(630, 400, 60, 100), Color("8a5a36"), false)
 	b._window(Rect2(530, 340, 70, 60))
 	b._window(Rect2(720, 340, 70, 60))
-	Art.text(b.ci, b.sign_font, Vector2(500, 290), "KAMEE HOUSE", 30, Color.WHITE, 6, HORIZONTAL_ALIGNMENT_CENTER, 320)
+	Art.text(b.ci, b.sign_font, Vector2(500, 290), "KAME HOUSE", 30, Color.WHITE, 6, HORIZONTAL_ALIGNMENT_CENTER, 320)
 
 
-static func _capsool_corp(b: Backdrop) -> void:
+static func _capsule_corp(b: Backdrop) -> void:
 	SetsExtra._day_sky(b)
 	b._sidewalk(570)
 	Art.shape(b.ci, Art.arc_pts(Vector2(640, 570), 420, 380, PI, TAU, 40) + PackedVector2Array([Vector2(1060, 570), Vector2(220, 570)]),
@@ -324,7 +324,7 @@ static func _capsool_corp(b: Backdrop) -> void:
 	for i in 6:
 		b._window(Rect2(330 + i * 110, 380, 70, 60), Color("dfe6ea"), Color("6fb3e8"))
 	Art.shape(b.ci, Art.rrect(Rect2(480, 230, 320, 70), 16), Color("4a78d0"), 4.0)
-	Art.text(b.ci, b.sign_font, Vector2(480, 278), "CAPSOOL CORP", 38, Color.WHITE, 6, HORIZONTAL_ALIGNMENT_CENTER, 320)
+	Art.text(b.ci, b.sign_font, Vector2(480, 278), "CAPSULE CORP", 38, Color.WHITE, 6, HORIZONTAL_ALIGNMENT_CENTER, 320)
 
 
 static func _the_lookout(b: Backdrop) -> void:
@@ -344,7 +344,7 @@ static func _the_lookout(b: Backdrop) -> void:
 		SetsExtra._tree(b, x, 520, 0.6, Color("5aa84a"))
 
 
-static func _planet_nameck(b: Backdrop) -> void:
+static func _planet_namek(b: Backdrop) -> void:
 	_sky(b, Color("4fbf7a"), Color("b8f0c0"))
 	Art.blob(b.ci, Vector2(1000, 120), 50, 50, Color("f4f2ec"), 3.0)
 	Art.blob(b.ci, Vector2(300, 80), 30, 30, Color("e8f6c8"), 3.0)
@@ -401,7 +401,7 @@ static func _gravity_room(b: Backdrop) -> void:
 		b._porthole(Vector2(x, 300), 50)
 
 
-static func _gokku_house(b: Backdrop) -> void:
+static func _goku_house(b: Backdrop) -> void:
 	_sky(b, Color("6ab4ec"), Color("d8f0fb"))
 	SetsExtra._mountains(b, 460, Color("8fbfa0"), 31)
 	SetsExtra._grass(b, 540, Color("7cc95a"))
@@ -446,7 +446,7 @@ static func _snake_way(b: Backdrop) -> void:
 	Art.dot(b.ci, Vector2(90, 460), 8, INK)
 
 
-static func _kie_planet(b: Backdrop) -> void:
+static func _kai_planet(b: Backdrop) -> void:
 	_sky(b, Color("f2c14e"), Color("fbe6a8"))
 	Art.shape(b.ci, Art.arc_pts(Vector2(640, 1300), 1000, 780, PI, TAU, 60), Color("7cc95a"), 5.0, 0.12)
 	SetsExtra._tree(b, 1060, 560, 0.7)
@@ -459,7 +459,7 @@ static func _kie_planet(b: Backdrop) -> void:
 		Art.blob(b.ci, Vector2(x, 534), 18, 18, Color("2b2b33"), 3.0)
 
 
-static func _cel_ring(b: Backdrop) -> void:
+static func _cell_ring(b: Backdrop) -> void:
 	_sky(b, Color("6ab4ec"), Color("e8f0d8"))
 	SetsExtra._mountains(b, 430, Color("9fb0a0"), 41)
 	_band(b, 430, Color("c8b48a"))
@@ -470,7 +470,7 @@ static func _cel_ring(b: Backdrop) -> void:
 		Art.shape(b.ci, Art.rrect(Rect2(x - 20, 380, 40, 100), 4), Color("dcd6c8"), 3.5)
 
 
-static func _freeza_ship(b: Backdrop) -> void:
+static func _frieza_ship(b: Backdrop) -> void:
 	_panels(b, Color("8a7aa8"), Color("f2c14e"))
 	Art.shape(b.ci, Art.rrect(Rect2(440, 160, 400, 200), 100), Color("1d1033"), 4.0)
 	_stars(b, 24, 9, Color(1, 1, 1, 0.8), 0)
@@ -678,7 +678,7 @@ static func _trost_district(b: Backdrop) -> void:
 
 # ----------------------------------------------------------- Breaking Bad --
 
-static func _whyte_house(b: Backdrop) -> void:
+static func _white_house(b: Backdrop) -> void:
 	SetsExtra._room(b, Color("f2e6cc"), Color("e2d2b0"), 545, Color("b8a07a"), "carpet")
 	# Couch, lamp and the family photo
 	Art.shape(b.ci, Art.rrect(Rect2(140, 420, 460, 125), 24), Color("8a7a5a"), 4.0, 0.12)
@@ -690,7 +690,7 @@ static func _whyte_house(b: Backdrop) -> void:
 	Art.shape(b.ci, PackedVector2Array([Vector2(680, 360), Vector2(760, 360), Vector2(740, 300), Vector2(700, 300)]), Color("f2e3b4"), 3.0)
 
 
-static func _whyte_backyard(b: Backdrop) -> void:
+static func _white_backyard(b: Backdrop) -> void:
 	_sky(b, Color("4aa8f0"), Color("f6e6c8"))
 	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 200, 760, 360)), Color("e8d6b0"), 4.5, 0.1)
 	Art.shape(b.ci, PackedVector2Array([Vector2(-PAD - 20, 210), Vector2(300, 120), Vector2(700, 210)]), Color("a89880"), 4.5, 0.15)
@@ -726,15 +726,15 @@ static func _car_wash(b: Backdrop) -> void:
 	for i in 8:
 		Art.limb(b.ci, PackedVector2Array([Vector2(440 + i * 55, 340), Vector2(440 + i * 55, 470)]), 14, [Color("4a78d0"), Color("f2c14e"), Color("e6452f")][i % 3])
 	Art.shape(b.ci, Art.rrect(Rect2(380, 150, 520, 90), 14), Color("3fae9a"), 4.0, 0.12)
-	Art.text(b.ci, b.sign_font, Vector2(380, 214), "A2A CAR WASH", 52, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	Art.text(b.ci, b.sign_font, Vector2(380, 214), "A1A CAR WASH", 52, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 520)
 
 
-static func _pollitos(b: Backdrop) -> void:
+static func _pollos(b: Backdrop) -> void:
 	SetsExtra._room(b, Color("fbe6a8"), Color("f2d080"), 545, Color("e6452f"), "tile")
 	Art.shape(b.ci, Art.rrect(Rect2(200, 380, 880, 165), 6), Color("f2c14e"), 4.0, 0.12)
 	Art.shape(b.ci, Art.rrect(Rect2(180, 364, 920, 22), 4), Color("f4f2ec"), 4.0)
 	Art.shape(b.ci, Art.rrect(Rect2(300, 60, 680, 120), 20), Color("e6452f"), 5.0, 0.12)
-	Art.text(b.ci, b.sign_font, Vector2(300, 118), "LOS POLLITOS", 52, Color("f2c14e"), 8, HORIZONTAL_ALIGNMENT_CENTER, 680)
+	Art.text(b.ci, b.sign_font, Vector2(300, 118), "LOS POLLOS", 52, Color("f2c14e"), 8, HORIZONTAL_ALIGNMENT_CENTER, 680)
 	Art.text(b.ci, b.sign_font, Vector2(300, 162), "HERMANOS", 34, Color.WHITE, 6, HORIZONTAL_ALIGNMENT_CENTER, 680)
 	# The two chickens on the menu board
 	for x in [420, 860]:
@@ -803,7 +803,7 @@ static func _pinkman_house(b: Backdrop) -> void:
 		Art.blob(b.ci, Vector2(x, 480), 18, 18, Color("4a4d55"), 2.5)
 
 
-static func _schraeder_house(b: Backdrop) -> void:
+static func _schrader_house(b: Backdrop) -> void:
 	SetsExtra._room(b, Color("d9c3f0"), Color("c3a6e0"), 545, Color("9b7ac8"), "carpet")
 	Art.shape(b.ci, Art.rrect(Rect2(160, 420, 460, 125), 24), Color("7a3fa0"), 4.0, 0.12)
 	Art.shape(b.ci, Art.rrect(Rect2(140, 380, 500, 60), 24), Color("7a3fa0"), 4.0, 0.12)
@@ -876,7 +876,7 @@ static func _mushroom_kingdom(b: Backdrop) -> void:
 	_mario_ground(b)
 
 
-static func _peech_castle(b: Backdrop) -> void:
+static func _peach_castle(b: Backdrop) -> void:
 	_sky(b, Color("5c94fc"), Color("bfe0fc"))
 	SetsExtra._grass(b, 540, Color("5ac85a"))
 	Art.shape(b.ci, SetsExtra._rect(Rect2(340, 230, 600, 310)), Color("f4ece0"), 5.0, 0.1)
@@ -891,7 +891,7 @@ static func _peech_castle(b: Backdrop) -> void:
 	b._window(Rect2(800, 300, 60, 80), Color("f4ece0"), Color("6fb3e8"))
 
 
-static func _peech_throne(b: Backdrop) -> void:
+static func _peach_throne(b: Backdrop) -> void:
 	SetsExtra._room(b, Color("f7d6e2"), Color("f2b8cc"), 545, Color("e9e2cf"), "tile")
 	for x in [180, 1100]:
 		Art.shape(b.ci, SetsExtra._rect(Rect2(x - 40, 60, 80, 485)), Color("f4ece0"), 4.0, 0.12)
@@ -923,7 +923,7 @@ static func _underground_bricks(b: Backdrop) -> void:
 	_pipe(b, 1100, 380, 120, 560)
 
 
-static func _bowzer_castle(b: Backdrop) -> void:
+static func _bowser_castle(b: Backdrop) -> void:
 	_sky(b, Color("1d0a0a"), Color("4a1a14"))
 	for i in 8:
 		_bricks(b, Rect2(-PAD + i * 200, -PAD, 180, 200 + (i % 2) * 40), Color("6b6f78"))
@@ -1138,14 +1138,14 @@ static func _ceres_station(b: Backdrop) -> void:
 	Art.blob(b.ci, Vector2(780, 300), 46, 46, Color("8a7a5a"), 3.0)
 
 
-static func _ridlee_lair(b: Backdrop) -> void:
+static func _ridley_lair(b: Backdrop) -> void:
 	_cave(b, Color("2a0a1a"), Color("6a1a2a"), Color("4a1a2a"), 13, 560)
 	for x in [200, 1080]:
 		Art.shape(b.ci, Art.rrect(Rect2(x - 60, 400, 120, 160), 12), Color("5a2a3a"), 4.0)
 	Art.fill(b.ci, SetsExtra._rect(Rect2(-PAD, 640, W + PAD * 2, 200)), Color("e6452f"))
 
 
-static func _krayd_lair(b: Backdrop) -> void:
+static func _kraid_lair(b: Backdrop) -> void:
 	_cave(b, Color("1a2a1a"), Color("3a4a2a"), Color("4a5a3a"), 15)
 	for i in 5:
 		Art.shape(b.ci, PackedVector2Array([Vector2(100 + i * 260, 130), Vector2(130 + i * 260, 260), Vector2(160 + i * 260, 130)]), Color("6a7a4a"), 3.5)
@@ -1181,14 +1181,14 @@ static func _green_greens(b: Backdrop) -> void:
 		Art.dot(b.ci, p, 5, Color("f2c14e"))
 
 
-static func _whispee_forest(b: Backdrop) -> void:
+static func _whispy_forest(b: Backdrop) -> void:
 	_kirby_sky(b, Color("8ad8f6"), Color("e8fbe0"))
 	_rolling(b, 540, Color("7cd07a"), 3, 40)
 	for i in 6:
 		_kirby_tree(b, 60 + i * 230, 560 + (i % 2) * 10, 0.9 + (i % 3) * 0.1, [Color("6fcf6a"), Color("5ab85a"), Color("8fe08a")][i % 3])
 
 
-static func _dedeedee_castle(b: Backdrop) -> void:
+static func _dedede_castle(b: Backdrop) -> void:
 	_kirby_sky(b)
 	_rolling(b, 540, Color("8fe08a"), 5, 30)
 	Art.shape(b.ci, SetsExtra._rect(Rect2(320, 220, 640, 320)), Color("f2e3b4"), 5.0, 0.1)
@@ -1200,7 +1200,7 @@ static func _dedeedee_castle(b: Backdrop) -> void:
 	Art.text(b.ci, b.sign_font, Vector2(500, 314), "DEDEDE", 40, Color("f2c14e"), 6, HORIZONTAL_ALIGNMENT_CENTER, 280)
 
 
-static func _dedeedee_throne(b: Backdrop) -> void:
+static func _dedede_throne(b: Backdrop) -> void:
 	SetsExtra._room(b, Color("8a6ad8"), Color("6a4ab8"), 545, Color("f2e3b4"), "tile")
 	Art.fill(b.ci, PackedVector2Array([Vector2(560, 545), Vector2(720, 545), Vector2(800, H + PAD), Vector2(480, H + PAD)]), Color("e6452f"))
 	Art.shape(b.ci, Art.rrect(Rect2(540, 240, 200, 305), 40), Color("f2c14e"), 4.5, 0.12)
@@ -1212,7 +1212,7 @@ static func _dedeedee_throne(b: Backdrop) -> void:
 	Art.shape(b.ci, Art.star(Vector2(640, 180), 40), Color("f2c14e"), 3.5)
 
 
-static func _kirbie_house(b: Backdrop) -> void:
+static func _kirby_house(b: Backdrop) -> void:
 	_kirby_sky(b)
 	_rolling(b, 540, Color("8fe08a"), 7, 30)
 	Art.shape(b.ci, Art.arc_pts(Vector2(640, 560), 220, 220, PI, TAU, 30) + PackedVector2Array([Vector2(860, 560), Vector2(420, 560)]),
@@ -1337,8 +1337,8 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 		"the_lookout", "snake_way", "korin_tower", "sky_land", "cloudy_park", "grape_garden", "halberd_deck":
 			for i in 2:
 				b._cloud(Vector2(fmod(t * (10 + i * 6) + i * 640, W + 400) - 200, 140 + i * 90), 1.2)
-		"kamee_house", "the_ocean", "orange_ocean", "ice_cream_island", "planet_nameck":
-			var top: float = {"kamee_house": 400.0, "the_ocean": 400.0, "orange_ocean": 400.0, "ice_cream_island": 440.0, "planet_nameck": 450.0}[id]
+		"kame_house", "the_ocean", "orange_ocean", "ice_cream_island", "planet_namek":
+			var top: float = {"kame_house": 400.0, "the_ocean": 400.0, "orange_ocean": 400.0, "ice_cream_island": 440.0, "planet_namek": 450.0}[id]
 			for i in 4:
 				var w := PackedVector2Array()
 				for k in 12:
@@ -1391,10 +1391,10 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 8:
 				var p := Vector2(80 + i * 160 + sin(t + i) * 10, 600 - fmod(t * 50.0 + i * 70.0, 560.0))
 				ci.draw_arc(p, 6 + (i % 3) * 3, 0, TAU, 12, Color(1, 1, 1, 0.6), 2.0)
-		"bowzer_castle", "norfair", "ridlee_lair":
-			var y := 600.0 if id == "bowzer_castle" or id == "norfair" else 640.0
+		"bowser_castle", "norfair", "ridley_lair":
+			var y := 600.0 if id == "bowser_castle" or id == "norfair" else 640.0
 			for i in 5:
-				var x := 510.0 + i * 55.0 if id == "bowzer_castle" else 120.0 + i * 250.0
+				var x := 510.0 + i * 55.0 if id == "bowser_castle" else 120.0 + i * 250.0
 				var k := fmod(t * 0.8 + i * 0.37, 1.0)
 				Art.blob(ci, Vector2(x, y - k * 30), 10 * (1.0 - k) + 2, 8 * (1.0 - k) + 2, Color("f2a65a"), 0.0)
 		"crateria":
@@ -1410,7 +1410,7 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 6:
 				var p := Vector2(100 + i * 220 + sin(t * 0.7 + i) * 40, 200 + sin(t + i * 1.3) * 60)
 				ci.draw_circle(p, 3, Color(1, 1, 0.6, 0.5 + 0.5 * sin(t * 3.0 + i)))
-		"green_greens", "whispee_forest", "vegetable_valley", "kirbie_house", "dedeedee_castle", "yogurt_yard":
+		"green_greens", "whispy_forest", "vegetable_valley", "kirby_house", "dedede_castle", "yogurt_yard":
 			for i in 2:
 				b._cloud(Vector2(fmod(t * (8 + i * 5) + i * 600, W + 300) - 150, 70 + i * 60), 0.9)
 

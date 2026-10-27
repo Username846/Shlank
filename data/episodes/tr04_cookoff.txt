@@ -1,6 +1,6 @@
 @title The Great Monster Cook-Off
 @series Pokemon
-@icon rokket
+@icon rocket
 @number 4
 @description Brock enters a cooking contest for monster food, judged by Nurse Joy. His rival is a mysterious chef with whiskers and a Brooklyn accent.
 
@@ -20,7 +20,7 @@ BROCK (excited): I need to make the most beautiful dish she's ever seen!
 
 # ------------------------------------------------------------ ROCKET CAMP
 MUSIC sneaky
-SCENE rokket_camp
+SCENE rocket_camp
 PLACE meowth center left excited
 PLACE jessie midleft right nervous
 PLACE james left right nervous
@@ -31,9 +31,9 @@ MEOWTH (smug): I will enter as Chef Meowtaine. With my cooking, we'll win easy.
 JESSIE (surprised): You can cook?
 MEOWTH (smug): I can open a can. That's basically cooking.
 
-# ------------------------------------------------------------ MONSTER MART
+# ------------------------------------------------------------ POKE MART
 MUSIC jazz
-SCENE monster_mart
+SCENE poke_mart
 PLACE brock center right excited
 PLACE misty midleft right smug
 BROCK (excited): Berries, rice, honey, and a secret spice that monsters love.
@@ -58,7 +58,7 @@ PIKACHU (happy): Pika-chew!
 
 # ------------------------------------------------------------ CLINIC LOBBY
 MUSIC romantic
-SCENE clinic_lobby
+SCENE center_lobby
 PLACE nurse_joy center left happy
 PLACE officer_jenny midright left smug
 NURSE_JOY (happy): I'm so excited to judge the cook-off. I just love monster food.
@@ -157,7 +157,7 @@ EXIT wobbuffet right 700
 
 # ------------------------------------------------------------ CLINIC LOBBY
 MUSIC romantic
-SCENE clinic_lobby
+SCENE center_lobby
 PLACE nurse_joy center left happy
 PLACE brock midleft right shy
 NURSE_JOY (happy): Brock, would you write down that recipe for me? I'd love to make it for the monsters here.
@@ -169,7 +169,7 @@ BROCK (happy): Friends is great! Friends is the best!
 
 # ------------------------------------------------------------ ROCKET CAMP
 MUSIC sad
-SCENE rokket_camp
+SCENE rocket_camp
 PLACE jessie midleft right sad
 PLACE james center left sad
 PLACE meowth midright left sad

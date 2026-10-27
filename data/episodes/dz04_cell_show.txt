@@ -6,7 +6,7 @@
 
 # ------------------------------------------------------------ THE CELL GAMES
 MUSIC tense
-SCENE cel_ring cut
+SCENE cell_ring cut
 TITLE
 PLACE cell center left smug
 CELL (smug): People of Earth. I have conquered martial arts. I have conquered strength.
@@ -17,7 +17,7 @@ CELL (happy): And my first guest is... the great Goku!
 
 # ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy
-SCENE gokku_house
+SCENE goku_house
 PLACE goku center right happy
 PLACE chi_chi midleft right angry
 GOKU (happy): Chi-Chi, I've been invited to be on a talk show!
@@ -27,9 +27,9 @@ CHI_CHI (angry): The giant green bug who tried to destroy the world?
 GOKU (happy): He says there'll be snacks!
 CHI_CHI (smug): Then wear your nice shirt.
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC jazz
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE vegeta center left angry
 PLACE bulma midright left smug
 VEGETA (angry): Cell invited Kakarot to his show? Not me? The prince of all Saiyans?
@@ -40,7 +40,7 @@ VEGETA (angry): Everyone wants to watch me yell!
 
 # ------------------------------------------------------------ THE CELL GAMES
 MUSIC happy 2
-SCENE cel_ring
+SCENE cell_ring
 PLACE cell midright left smug
 ENTER goku left midleft happy
 CELL (smug): Goku! Welcome to the show. Tell the people, what's your secret to being so strong?
@@ -50,9 +50,9 @@ GOKU (excited): Can I have a snack now?
 CELL (angry): After the interview!
 GOKU (sad): Aw.
 
-# ------------------------------------------------------------ KAMEE HOUSE
+# ------------------------------------------------------------ KAME HOUSE
 MUSIC sneaky
-SCENE kamee_house
+SCENE kame_house
 PLACE master_roshi midleft right excited
 PLACE krillin midright left smug
 MASTER_ROSHI (excited): Krillin! Turn on the TV! Goku's on The Cell Show!
@@ -84,7 +84,7 @@ TRUNKS (sad): That last part needs work.
 
 # ------------------------------------------------------------ THE CELL GAMES
 MUSIC tense 2
-SCENE cel_ring
+SCENE cell_ring
 PLACE cell midright left smug
 PLACE goku midleft right happy
 ENTER frieza right right smug
@@ -109,7 +109,7 @@ PICCOLO (excited): Turn it up.
 
 # ------------------------------------------------------------ THE CELL GAMES
 MUSIC action
-SCENE cel_ring
+SCENE cell_ring
 PLACE cell center left excited
 PLACE goku midleft right happy
 PLACE frieza midright left smug
@@ -123,7 +123,7 @@ CELL (smug): It's MY game.
 
 # ------------------------------------------------------------ THE CELL GAMES
 MUSIC tense
-SCENE cel_ring
+SCENE cell_ring
 PLACE cell center left smug
 PLACE goku midleft right happy
 PLACE frieza midright left angry
@@ -151,20 +151,20 @@ GOKU (happy): Everything's part of the show now!
 SFX blast
 SHAKE 0.8
 
-# ------------------------------------------------------------ CAPSOOL CORP
+# ------------------------------------------------------------ CAPSULE CORP
 MUSIC jazz 3
-SCENE capsool_corp
+SCENE capsule_corp
 PLACE bulma center left smug
 PLACE trunks midright left happy
 TRUNKS (happy): Mom, Dad's on TV! He's yelling at Cell and Frieza!
 BULMA (smug): Of course he is.
 TRUNKS (excited): The show has the highest ratings in history!
-BULMA (happy): Then I'll sell the commercial time. Capsool Corp: Because sometimes you need a house in your pocket.
+BULMA (happy): Then I'll sell the commercial time. Capsule Corp: Because sometimes you need a house in your pocket.
 TRUNKS (smug): You're always working, Mom.
 
 # ------------------------------------------------------------ THE CELL GAMES
 MUSIC happy 3
-SCENE cel_ring
+SCENE cell_ring
 PLACE cell center left happy
 PLACE goku midleft right happy
 PLACE vegeta left right smug

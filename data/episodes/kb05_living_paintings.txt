@@ -35,7 +35,7 @@ ADELEINE (nervous): Maybe I should stop now.
 
 # ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC sneaky
-SCENE dedeedee_castle
+SCENE dedede_castle
 PLACE dedede center left excited
 PLACE magolor midright left smug
 MAGOLOR (smug): Your Majesty, I hear Adeleine has a magic brush. It brings paintings to life.
@@ -88,7 +88,7 @@ NARRATOR: Kirby was not scared. Kirby was hungry.
 
 # ------------------------------------------------------------ WHISPY'S FOREST
 MUSIC action 2
-SCENE whispee_forest
+SCENE whispy_forest
 PLACE whispy_woods center left scared
 ENTER kirby left midleft excited 500
 WHISPY_WOODS (scared): Ohhh! A dragon is eating my apples! All of them!
@@ -135,7 +135,7 @@ NARRATOR: Kirby inhaled. And inhaled. And inhaled. He became a very large, very 
 
 # ------------------------------------------------------------ WHISPY'S FOREST
 MUSIC action
-SCENE whispee_forest
+SCENE whispy_forest
 PLACE kirby center right excited
 PLACE whispy_woods midleft right scared
 KIRBY (angry): POYO!

@@ -37,7 +37,7 @@ static func parse(text: String, characters: Dictionary) -> EpisodeScript:
 			var val := line.substr(sp + 1).strip_edges() if sp > 0 else ""
 			match key:
 				"title": ep.title = val
-				"series": ep.series = val
+				"series": ep.series = Game.series_name(val)
 				"icon": ep.icon = val
 				"number": ep.number = int(val)
 				"description": ep.description = val
@@ -108,7 +108,7 @@ static func _parse_command(line: String, aliases: Dictionary, ln: int) -> Dictio
 	match op:
 		"SCENE":
 			var how: String = arg.call(2).to_lower()
-			c.merge({"type": "scene", "location": arg.call(1).to_lower(), "cut": how == "cut",
+			c.merge({"type": "scene", "location": Game.location_id(arg.call(1).to_lower()), "cut": how == "cut",
 				"transition": how if TRANSITIONS.has(how) else ""})
 		"PLACE":
 			# PLACE who pos [left|right] [emotion]

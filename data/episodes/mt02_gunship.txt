@@ -31,7 +31,7 @@ SAMUS: None.
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC sneaky
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left excited
 PLACE space_pirate midright left nervous
 RIDLEY (excited): SCREEE!
@@ -99,7 +99,7 @@ NARRATOR: The dachora's tail feathers were slightly toasted. It did not complain
 
 # ------------------------------------------------------------ KRAID'S LAIR
 MUSIC sneaky 2
-SCENE krayd_lair
+SCENE kraid_lair
 PLACE kraid center left nervous
 ENTER samus left midleft neutral
 KRAID (nervous): Grrr... grr?
@@ -111,7 +111,7 @@ KRAID (happy): Grr.
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC tense
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left nervous
 PLACE space_pirate midright left scared
 ENTER samus left left angry 500
@@ -124,7 +124,7 @@ NARRATOR: Ridley was wearing a name tag that said "NOT Ridley."
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC action 2
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left angry
 PLACE samus midleft right angry
 SFX blast
@@ -138,7 +138,7 @@ NARRATOR: He handed over the keys. He'd been holding them in his mouth.
 
 # ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC sad
-SCENE ridlee_lair
+SCENE ridley_lair
 PLACE ridley center left sad
 PLACE space_pirate midright left nervous
 PLACE samus midleft right neutral

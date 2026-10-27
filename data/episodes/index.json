@@ -85,10 +85,16 @@
 			"file": "res://data/episodes/dz03_snake_way.txt"
 		},
 		{
-			"file": "res://data/episodes/dz04_cel_show.txt"
+			"file": "res://data/episodes/dz04_cell_show.txt",
+			"aka": [
+				"dz04_cel_show"
+			]
 		},
 		{
-			"file": "res://data/episodes/dz05_vegitta_birthday.txt"
+			"file": "res://data/episodes/dz05_vegeta_birthday.txt",
+			"aka": [
+				"dz05_vegitta_birthday"
+			]
 		},
 		{
 			"file": "res://data/episodes/at01_potato.txt"
@@ -133,10 +139,16 @@
 			"file": "res://data/episodes/sm04_egg_hunt.txt"
 		},
 		{
-			"file": "res://data/episodes/sm05_bowzer_day_off.txt"
+			"file": "res://data/episodes/sm05_bowser_day_off.txt",
+			"aka": [
+				"sm05_bowzer_day_off"
+			]
 		},
 		{
-			"file": "res://data/episodes/mt01_baby_metroyd.txt"
+			"file": "res://data/episodes/mt01_baby_metroid.txt",
+			"aka": [
+				"mt01_baby_metroyd"
+			]
 		},
 		{
 			"file": "res://data/episodes/mt02_gunship.txt"
@@ -145,7 +157,10 @@
 			"file": "res://data/episodes/mt03_dark_double.txt"
 		},
 		{
-			"file": "res://data/episodes/mt04_krayd_toothache.txt"
+			"file": "res://data/episodes/mt04_kraid_toothache.txt",
+			"aka": [
+				"mt04_krayd_toothache"
+			]
 		},
 		{
 			"file": "res://data/episodes/mt05_chozo_trial.txt"
