@@ -39,7 +39,7 @@ func _ready() -> void:
 	ed._open_character_picker("helga", true, func(cid: String) -> void: print("PICKED ", cid))
 	await _frames(40)
 	await _shot("t_char_picker")
-	ed._pick_character("phill", func(cid: String) -> void: print("PICKED ", cid))
+	ed._pick_character("phil", func(cid: String) -> void: print("PICKED ", cid))
 	# Entrance with an emotion: select Helga's ENTER (beat 2 of scene 2) and check the ghost
 	var enter_i := -1
 	for i in doc.scenes[1].beats.size():

@@ -2,63 +2,63 @@
 @series Hillwood
 @icon city
 @number 2
-@description The fifth graders want Gerold Field for themselves. There's only one way to settle it: a baseball game, with Helga pitching and Harold in charge of the snacks.
+@description The fifth graders want Gerald Field for themselves. There's only one way to settle it: a baseball game, with Helga pitching and Harold in charge of the snacks.
 
-# ------------------------------------------------------------ GEROLD FIELD
+# ------------------------------------------------------------ GERALD FIELD
 MUSIC happy
 SCENE gerold_field cut
 TITLE
-PLACE arnald midleft right happy
-PLACE gerold center left happy
-ARNALD (happy): Perfect day for baseball, Gerold.
-GEROLD (smug): Every day is a perfect day for baseball, Arnald, my man.
+PLACE arnold midleft right happy
+PLACE gerald center left happy
+ARNOLD (happy): Perfect day for baseball, Gerald.
+GERALD (smug): Every day is a perfect day for baseball, Arnold, my man.
 ENTER harold right right angry
-HAROLD (angry): Guys! Guys! The fifth graders said they're taking over Gerold Field! Forever!
-GEROLD (surprised): Forever? They can't do that!
+HAROLD (angry): Guys! Guys! The fifth graders said they're taking over Gerald Field! Forever!
+GERALD (surprised): Forever? They can't do that!
 HAROLD (sad): They said they're bigger, so they get it. And they ate my sandwich.
-ARNALD (nervous): Then we'll challenge them. One game. Winner gets the field.
-GEROLD (excited): Now you're talking!
+ARNOLD (nervous): Then we'll challenge them. One game. Winner gets the field.
+GERALD (excited): Now you're talking!
 
 # ------------------------------------------------------------ P.S. 118
 MUSIC jazz
 SCENE ps118
 PLACE helga center left angry
-PLACE phoebee midleft right neutral
-ENTER arnald right right happy
-ARNALD (happy): Helga, we need a pitcher for Saturday. You're the best arm in the fourth grade.
+PLACE phoebe midleft right neutral
+ENTER arnold right right happy
+ARNOLD (happy): Helga, we need a pitcher for Saturday. You're the best arm in the fourth grade.
 HELGA (angry): Why should I help you, football head?
-ARNALD (smug): Because the fifth graders are taking our field. Your field too.
+ARNOLD (smug): Because the fifth graders are taking our field. Your field too.
 HELGA (smug): Fine. But I'm doing it for the field. Not for you. Got it?
-ARNALD (happy): Got it. Thanks, Helga.
-EXIT arnald right
-HELGA (excited): Oh, Arnald! He needs me! He needs my arm! My glorious pitching arm!
-PHOEBEE (smug): Helga, you're squeezing my shoulder again.
-HELGA (nervous): Sorry, Phoebee.
+ARNOLD (happy): Got it. Thanks, Helga.
+EXIT arnold right
+HELGA (excited): Oh, Arnold! He needs me! He needs my arm! My glorious pitching arm!
+PHOEBE (smug): Helga, you're squeezing my shoulder again.
+HELGA (nervous): Sorry, Phoebe.
 
 # ------------------------------------------------------------ THE CLASSROOM
 MUSIC sneaky
 SCENE classroom
-PLACE gerold midleft right excited
+PLACE gerald midleft right excited
 PLACE sid center left nervous
 PLACE stinky midright left happy
 PLACE rhonda right left smug
-GEROLD (excited): Okay, team. Sid, you're on first base. Stinky, outfield.
+GERALD (excited): Okay, team. Sid, you're on first base. Stinky, outfield.
 SID (nervous): What if a ball hits me in the face? I read that happens to one out of every three kids.
 STINKY (happy): Well, I reckon that's why you catch it with your hand, Sid.
 RHONDA (smug): And I'll do the uniforms. Nobody is losing in ugly socks.
-GEROLD (smug): Rhonda, we don't have uniforms.
+GERALD (smug): Rhonda, we don't have uniforms.
 RHONDA (excited): We will by Saturday.
 
 # ------------------------------------------------------------ SUNSET ARMS
 MUSIC jazz 2
 SCENE sunset_arms
 PLACE grandpa midleft right happy
-ENTER arnald right midright nervous
-ARNALD (nervous): Grandpa, what if we lose? Then there's nowhere to play.
+ENTER arnold right midright nervous
+ARNOLD (nervous): Grandpa, what if we lose? Then there's nowhere to play.
 GRANDPA (happy): Shortman, I once played a game against the whole navy. With a broom and an orange.
-ARNALD (surprised): Did you win?
+ARNOLD (surprised): Did you win?
 GRANDPA (smug): Nope. Got clobbered. But we had a heck of a time!
-ARNALD (happy): That's not really helping, Grandpa.
+ARNOLD (happy): That's not really helping, Grandpa.
 GRANDPA (happy): Then here's the real tip. Eat a big breakfast. Your Grandma's making pancakes.
 
 # ------------------------------------------------------------ BOARDING HOUSE KITCHEN
@@ -66,27 +66,27 @@ MUSIC action
 SCENE boarding_kitchen
 CARD Saturday morning...
 PLACE grandma center left excited
-ENTER arnald left midleft happy
+ENTER arnold left midleft happy
 GRANDMA (excited): Eleanor! Today you face the enemy fleet! Eat your pancakes, soldier!
-ARNALD (happy): Thanks, Grandma. They're shaped like baseballs.
+ARNOLD (happy): Thanks, Grandma. They're shaped like baseballs.
 GRANDMA (smug): Of course they are. And these are shaped like victory.
-ARNALD (surprised): They look like regular pancakes.
+ARNOLD (surprised): They look like regular pancakes.
 GRANDMA (excited): That's what victory looks like when you're hungry! Huzzah!
 
-# ------------------------------------------------------------ GEROLD FIELD
+# ------------------------------------------------------------ GERALD FIELD
 MUSIC tense
 SCENE gerold_field
 PLACE helga center right angry
-PLACE arnald midleft right nervous
-PLACE gerold left right excited
+PLACE arnold midleft right nervous
+PLACE gerald left right excited
 PLACE harold right left happy
-GEROLD (excited): Bottom of the ninth. They're ahead by one. Two outs.
+GERALD (excited): Bottom of the ninth. They're ahead by one. Two outs.
 HAROLD (happy): I brought snacks for the team! Oh. I ate the snacks.
 HELGA (angry): Focus, Harold! One more strike and we're up to bat.
 SFX whoosh
 HELGA (excited): Strike three! You're outta here, fifth grader!
 SFX ding
-ARNALD (excited): Great pitch, Helga!
+ARNOLD (excited): Great pitch, Helga!
 HELGA (shy): It was nothing. Shut up. Thanks.
 
 # ------------------------------------------------------------ HILLWOOD PARK
@@ -94,11 +94,11 @@ MUSIC sneaky
 SCENE hillwood_park
 CARD The seventh inning stretch...
 PLACE rhonda center left smug
-PLACE phoebee midright left neutral
+PLACE phoebe midright left neutral
 RHONDA (smug): I must say, the uniforms look divine. Purple with gold stripes.
-PHOEBEE: They're very bright. The fifth graders keep squinting.
+PHOEBE: They're very bright. The fifth graders keep squinting.
 RHONDA (excited): Exactly! It's a fashion-based strategy!
-PHOEBEE (happy): According to my calculations, squinting reduces batting accuracy by twelve percent.
+PHOEBE (happy): According to my calculations, squinting reduces batting accuracy by twelve percent.
 RHONDA (smug): And increases our style by one hundred percent.
 
 # ------------------------------------------------------------ SLAUSEN'S
@@ -112,22 +112,22 @@ BIG_BOB (smug): Scared of a ball? Back in my day I sold beepers to a bear.
 STINKY (surprised): Did that help?
 BIG_BOB (happy): No. But the bear loved his beeper.
 
-# ------------------------------------------------------------ GEROLD FIELD
+# ------------------------------------------------------------ GERALD FIELD
 MUSIC action 2
 SCENE gerold_field
 PLACE sid center right scared
-PLACE arnald midleft right happy
-PLACE gerold left right nervous
-SID (scared): I can't do it, Arnald. It's going too fast.
-ARNALD (happy): Sid, you don't have to hit a home run. Just close your eyes and swing.
+PLACE arnold midleft right happy
+PLACE gerald left right nervous
+SID (scared): I can't do it, Arnold. It's going too fast.
+ARNOLD (happy): Sid, you don't have to hit a home run. Just close your eyes and swing.
 SID (nervous): Close my eyes? That's crazy enough to work.
 SFX thud
 SHAKE 0.5
-GEROLD (surprised): He hit it! He actually hit it!
+GERALD (surprised): He hit it! He actually hit it!
 SID (excited): I did?!
-ARNALD (excited): Run, Sid! Run!
+ARNOLD (excited): Run, Sid! Run!
 RUN sid offright
-GEROLD (excited): Home run! We win! Gerold Field is ours!
+GERALD (excited): Home run! We win! Gerald Field is ours!
 SFX fanfare
 
 # ------------------------------------------------------------ GREEN MEATS
@@ -147,13 +147,13 @@ HAROLD (smug): Then I'll eat one for every out too.
 MUSIC romantic
 SCENE hillwood_pier
 PLACE helga midright left shy
-PLACE arnald midleft right happy
-ARNALD (happy): Thanks for pitching today, Helga. We couldn't have won without you.
+PLACE arnold midleft right happy
+ARNOLD (happy): Thanks for pitching today, Helga. We couldn't have won without you.
 HELGA (angry): Yeah, yeah. Don't make it weird, football head.
-ARNALD (smug): I'm not making it weird.
+ARNOLD (smug): I'm not making it weird.
 HELGA (shy): You're making it a little weird.
-ARNALD (happy): See you at practice tomorrow?
+ARNOLD (happy): See you at practice tomorrow?
 HELGA (smug): Maybe. If I'm not busy. Which I'm not. But maybe.
-EXIT arnald left
-HELGA (excited): He wants to see me tomorrow! Oh, Arnald, my baseball-loving angel!
+EXIT arnold left
+HELGA (excited): He wants to see me tomorrow! Oh, Arnold, my baseball-loving angel!
 END

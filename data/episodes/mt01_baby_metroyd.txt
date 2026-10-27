@@ -2,54 +2,54 @@
 @series Metroid
 @icon visor
 @number 1
-@description Bounty hunter Samuss Aran has faced dragons, giant lizards and a brain in a jar. Now she has to babysit a Metroyd that thinks she's its mom.
+@description Bounty hunter Samus Aran has faced dragons, giant lizards and a brain in a jar. Now she has to babysit a Metroid that thinks she's its mom.
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC tense
 SCENE ceres_station cut
 TITLE
 PLACE adam midright left neutral
-ENTER samuss left midleft neutral
-ADAM: Samuss. I need you for a mission. Any objections?
-SAMUSS: ...
+ENTER samus left midleft neutral
+ADAM: Samus. I need you for a mission. Any objections?
+SAMUS: ...
 ADAM (smug): I'll take that as a no. Your target is in the Save Room. It's very dangerous.
 ADAM (nervous): And it needs to be fed every two hours.
-SAMUSS (surprised): ...?
+SAMUS (surprised): ...?
 
 # ------------------------------------------------------------ SAVE ROOM
 MUSIC sneaky
 SCENE save_room
-PLACE baby_metroyd midright left happy
-ENTER samuss left midleft neutral
-BABY_METROYD (excited): Skreee!
+PLACE baby_metroid midright left happy
+ENTER samus left midleft neutral
+BABY_METROID (excited): Skreee!
 SFX squeak
-NARRATOR: The Baby Metroyd has decided Samuss is its mother. Samuss has not agreed to this.
-BABY_METROYD (happy): Skree skree!
-MOVE baby_metroyd center
-SAMUSS (nervous): ...
+NARRATOR: The Baby Metroid has decided Samus is its mother. Samus has not agreed to this.
+BABY_METROID (happy): Skree skree!
+MOVE baby_metroid center
+SAMUS (nervous): ...
 NARRATOR: She tries to leave. It follows. She tries again. It follows again.
 
 # ------------------------------------------------------------ LANDING SITE
 MUSIC action
 SCENE landing_site
-PLACE samuss midleft right neutral
-PLACE baby_metroyd left right happy
-ENTER choso_elder right midright happy
-CHOSO_ELDER (happy): Samuss, child. I see you have made a little friend.
-SAMUSS (angry): ...
-CHOSO_ELDER (smug): Do not give me that look. I raised you, and you were far more trouble.
-CHOSO_ELDER: But beware. Mother Brane wants that creature. With it, she could power her whole fortress.
+PLACE samus midleft right neutral
+PLACE baby_metroid left right happy
+ENTER chozo_elder right midright happy
+CHOZO_ELDER (happy): Samus, child. I see you have made a little friend.
+SAMUS (angry): ...
+CHOZO_ELDER (smug): Do not give me that look. I raised you, and you were far more trouble.
+CHOZO_ELDER: But beware. Mother Brain wants that creature. With it, she could power her whole fortress.
 
 # ------------------------------------------------------------ CRATERIA
 MUSIC spooky
 SCENE crateria
-ENTER samuss left midleft neutral
-ENTER baby_metroyd left left happy
+ENTER samus left midleft neutral
+ENTER baby_metroid left left happy
 ENTER space_pirate right midright angry
-SPACE_PIRATE (angry): Intruder alert! Hand over the Metroyd, bounty hunter!
+SPACE_PIRATE (angry): Intruder alert! Hand over the Metroid, bounty hunter!
 SFX laser
-BABY_METROYD (scared): Skreee!
-SAMUSS (angry): ...
+BABY_METROID (scared): Skreee!
+SAMUS (angry): ...
 SFX blast
 SHAKE 0.6
 SPACE_PIRATE (scared): She didn't even say anything! That's so much scarier!
@@ -59,138 +59,138 @@ EXIT space_pirate right 600
 MUSIC happy
 SCENE brinstar
 PLACE etecoon midright left happy
-PLACE dachoora right left happy
-ENTER samuss left midleft neutral
-ENTER baby_metroyd left left happy
+PLACE dachora right left happy
+ENTER samus left midleft neutral
+ENTER baby_metroid left left happy
 ETECOON (excited): Eee! Eee!
-DACHOORA (happy): Kweh!
+DACHORA (happy): Kweh!
 NARRATOR: The local critters know a shortcut through the walls. They show her the way, jumping and running.
 JUMP etecoon
 SFX jump_8bit
-BABY_METROYD (excited): Skree!
-NARRATOR: The baby wants to play with them. Samuss checks the time. It's feeding time again.
+BABY_METROID (excited): Skree!
+NARRATOR: The baby wants to play with them. Samus checks the time. It's feeding time again.
 
 # ------------------------------------------------------------ MARIDIA
 MUSIC sad
 SCENE maridia
-PLACE samuss midleft right neutral
-PLACE baby_metroyd center left happy
-NARRATOR: Feeding time. Samuss has never fed anything before. She has only ever blown things up.
-BABY_METROYD (excited): Skree skree!
+PLACE samus midleft right neutral
+PLACE baby_metroid center left happy
+NARRATOR: Feeding time. Samus has never fed anything before. She has only ever blown things up.
+BABY_METROID (excited): Skree skree!
 NARRATOR: She offers a ration bar. The baby eats it. Then the wrapper. Then nearly her arm cannon.
-SAMUSS (surprised): ...!
+SAMUS (surprised): ...!
 NARRATOR: It is, she has to admit, a little bit cute.
-BABY_METROYD (happy): Skree!
+BABY_METROID (happy): Skree!
 
 # ------------------------------------------------------------ WRECKED SHIP
 MUSIC spooky
 SCENE wrecked_ship
-ENTER samuss left midleft neutral
-ENTER baby_metroyd left left nervous
+ENTER samus left midleft neutral
+ENTER baby_metroid left left nervous
 NARRATOR: The old wrecked ship is dark and creaky. The baby hides behind her.
 SFX squeak
-BABY_METROYD (scared): Skree!
-NARRATOR: Just a loose panel. Samuss pats the baby on the head. Her suit is very cold, but it seems to help.
+BABY_METROID (scared): Skree!
+NARRATOR: Just a loose panel. Samus pats the baby on the head. Her suit is very cold, but it seems to help.
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC action 2
 SCENE krayd_lair
-PLACE krayd midright left angry
-ENTER samuss left midleft neutral
-KRAYD (angry): GRRROOOAR!
+PLACE kraid midright left angry
+ENTER samus left midleft neutral
+KRAID (angry): GRRROOOAR!
 SFX thud
 SHAKE 0.8
-NARRATOR: Krayd is huge, grumpy and fires the spikes off his own belly. Samuss has done this before.
+NARRATOR: Kraid is huge, grumpy and fires the spikes off his own belly. Samus has done this before.
 SFX blast
 SHAKE 0.6
-KRAYD (sad): Grrr... ow.
-NARRATOR: He goes down. But when Samuss turns around, the baby is gone.
-SAMUSS (scared): ...!
+KRAID (sad): Grrr... ow.
+NARRATOR: He goes down. But when Samus turns around, the baby is gone.
+SAMUS (scared): ...!
 
 # ------------------------------------------------------------ MAP STATION
 MUSIC sneaky 2
 SCENE map_station
-PLACE samuss midleft right neutral
-NARRATOR: Samuss downloads the map. The baby's trail ends in Ridlee's lair, deep below Norfair.
+PLACE samus midleft right neutral
+NARRATOR: Samus downloads the map. The baby's trail ends in Ridley's lair, deep below Norfair.
 SFX beep
 NARRATOR: For the first time in a very long time, the greatest bounty hunter in the galaxy is worried.
-SAMUSS (scared): ...
+SAMUS (scared): ...
 
 # ------------------------------------------------------------ NORFAIR
 MUSIC action 3
 SCENE norfair
-ENTER samuss left center angry 500
-NARRATOR: It is hot. It is very, very hot. Samuss does not slow down.
+ENTER samus left center angry 500
+NARRATOR: It is hot. It is very, very hot. Samus does not slow down.
 SFX blast
 SHAKE 0.6
 NARRATOR: Nothing is getting between her and that baby. Not lava, not pirates, and definitely not an overgrown space chicken.
 
-# ------------------------------------------------------------ RIDLEE'S LAIR
+# ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC tense 2
 SCENE ridlee_lair
-PLACE ridlee center left smug
-PLACE baby_metroyd midright left scared
-RIDLEE (excited): SCREEEE!
-BABY_METROYD (scared): Skree...
-NARRATOR: Ridlee has the baby. He never stays defeated, and he never, ever learns.
-ENTER samuss left left angry 500
-RIDLEE (angry): SCREEE!
+PLACE ridley center left smug
+PLACE baby_metroid midright left scared
+RIDLEY (excited): SCREEEE!
+BABY_METROID (scared): Skree...
+NARRATOR: Ridley has the baby. He never stays defeated, and he never, ever learns.
+ENTER samus left left angry 500
+RIDLEY (angry): SCREEE!
 SFX blast
 SHAKE 1.0
-RIDLEE (scared): Scree?!
-EXIT ridlee right 700
-MOVE baby_metroyd midleft
-BABY_METROYD (happy): Skree!
+RIDLEY (scared): Scree?!
+EXIT ridley right 700
+MOVE baby_metroid midleft
+BABY_METROID (happy): Skree!
 
-# ------------------------------------------------------------ CHOSO RUINS
+# ------------------------------------------------------------ CHOZO RUINS
 MUSIC romantic
 SCENE chozo_ruins
-PLACE choso_elder midright left happy
-ENTER samuss left midleft neutral
-ENTER baby_metroyd left left happy
-CHOSO_ELDER (happy): You found it. Good. A mother never loses her child for long.
-SAMUSS (shy): ...
-CHOSO_ELDER (smug): Yes, I said mother. You are holding it like a mother.
-CHOSO_ELDER: Mother Brane waits in Tourian. Take the elevator down. And Samuss... protect each other.
+PLACE chozo_elder midright left happy
+ENTER samus left midleft neutral
+ENTER baby_metroid left left happy
+CHOZO_ELDER (happy): You found it. Good. A mother never loses her child for long.
+SAMUS (shy): ...
+CHOZO_ELDER (smug): Yes, I said mother. You are holding it like a mother.
+CHOZO_ELDER: Mother Brain waits in Tourian. Take the elevator down. And Samus... protect each other.
 
 # ------------------------------------------------------------ ELEVATOR
 MUSIC tense
 SCENE elevator_shaft
-PLACE samuss center right neutral
-PLACE baby_metroyd midleft right nervous
+PLACE samus center right neutral
+PLACE baby_metroid midleft right nervous
 SFX hiss
 NARRATOR: Down, down, down. The elevator music is terrible. The baby hums along anyway.
-BABY_METROYD (happy): Skree skree skree.
+BABY_METROID (happy): Skree skree skree.
 
 # ------------------------------------------------------------ TOURIAN
 MUSIC spooky 2
 SCENE tourian
-PLACE mother_brane midright left smug
-ENTER samuss left left neutral
-ENTER baby_metroyd left midleft happy
-MOTHER_BRANE (smug): So. The bounty hunter brings me my Metroyd. How thoughtful.
-MOTHER_BRANE (angry): Give it to me, Samuss. You cannot win.
-ENTER dark_samuss right right smug
-NARRATOR: Even Dark Samuss has shown up. It's a very crowded fortress.
-BABY_METROYD (angry): SKREEEEE!
+PLACE mother_brain midright left smug
+ENTER samus left left neutral
+ENTER baby_metroid left midleft happy
+MOTHER_BRAIN (smug): So. The bounty hunter brings me my Metroid. How thoughtful.
+MOTHER_BRAIN (angry): Give it to me, Samus. You cannot win.
+ENTER dark_samus right right smug
+NARRATOR: Even Dark Samus has shown up. It's a very crowded fortress.
+BABY_METROID (angry): SKREEEEE!
 SHAKE 1.2
 SFX blast
-MOTHER_BRANE (scared): No! It's draining my power! Stop it! Stop it, you adorable little monster!
-EXIT dark_samuss right 500
-NARRATOR: The baby protects its mother. Mother Brane is very, very offline.
+MOTHER_BRAIN (scared): No! It's draining my power! Stop it! Stop it, you adorable little monster!
+EXIT dark_samus right 500
+NARRATOR: The baby protects its mother. Mother Brain is very, very offline.
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC romantic
 SCENE ceres_station
 PLACE adam midright left happy
-PLACE samuss midleft right neutral
-PLACE baby_metroyd left right happy
+PLACE samus midleft right neutral
+PLACE baby_metroid left right happy
 ADAM (happy): Mission complete. You can hand the baby over to the scientists now.
-BABY_METROYD (sad): Skree...
-SAMUSS: ...
+BABY_METROID (sad): Skree...
+SAMUS: ...
 ADAM (smug): Any objections?
-SAMUSS (smug): Objection.
+SAMUS (smug): Objection.
 ADAM (surprised): She talks!
 NARRATOR: And so the galaxy's greatest bounty hunter got a new partner. A small, floating, very hungry one.
-BABY_METROYD (excited): Skree!
+BABY_METROID (excited): Skree!
 END

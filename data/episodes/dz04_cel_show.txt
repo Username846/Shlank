@@ -2,176 +2,176 @@
 @series Dragonball Z
 @icon dragonball
 @number 4
-@description Cel has decided that being perfect isn't enough. He wants to be on TV. Welcome to The Cel Show, the only talk show where the host is also the main guest.
+@description Cell has decided that being perfect isn't enough. He wants to be on TV. Welcome to The Cell Show, the only talk show where the host is also the main guest.
 
-# ------------------------------------------------------------ THE CEL GAMES
+# ------------------------------------------------------------ THE CELL GAMES
 MUSIC tense
 SCENE cel_ring cut
 TITLE
-PLACE sel center left smug
-SEL (smug): People of Earth. I have conquered martial arts. I have conquered strength.
-SEL (excited): Now, I will conquer... daytime television!
+PLACE cell center left smug
+CELL (smug): People of Earth. I have conquered martial arts. I have conquered strength.
+CELL (excited): Now, I will conquer... daytime television!
 SFX fanfare
-SEL (smug): Welcome to The Cel Show! Starring me. Hosted by me. Produced by me.
-SEL (happy): And my first guest is... the great Gokku!
+CELL (smug): Welcome to The Cell Show! Starring me. Hosted by me. Produced by me.
+CELL (happy): And my first guest is... the great Goku!
 
-# ------------------------------------------------------------ GOKKU'S HOUSE
+# ------------------------------------------------------------ GOKU'S HOUSE
 MUSIC happy
 SCENE gokku_house
-PLACE gokku center right happy
-PLACE chee_chee midleft right angry
-GOKKU (happy): Chee-Chee, I've been invited to be on a talk show!
-CHEE_CHEE (angry): Which talk show?
-GOKKU (nervous): Um. The Cel Show.
-CHEE_CHEE (angry): The giant green bug who tried to destroy the world?
-GOKKU (happy): He says there'll be snacks!
-CHEE_CHEE (smug): Then wear your nice shirt.
+PLACE goku center right happy
+PLACE chi_chi midleft right angry
+GOKU (happy): Chi-Chi, I've been invited to be on a talk show!
+CHI_CHI (angry): Which talk show?
+GOKU (nervous): Um. The Cell Show.
+CHI_CHI (angry): The giant green bug who tried to destroy the world?
+GOKU (happy): He says there'll be snacks!
+CHI_CHI (smug): Then wear your nice shirt.
 
 # ------------------------------------------------------------ CAPSOOL CORP
 MUSIC jazz
 SCENE capsool_corp
-PLACE vegitta center left angry
-PLACE bulmah midright left smug
-VEGITTA (angry): Cel invited Kakarot to his show? Not me? The prince of all Saiyans?
-BULMAH (smug): Maybe he's saving the best for last.
-VEGITTA (smug): Obviously. I'm the grand finale.
-BULMAH (happy): Or maybe nobody wants to watch you yell for an hour.
-VEGITTA (angry): Everyone wants to watch me yell!
+PLACE vegeta center left angry
+PLACE bulma midright left smug
+VEGETA (angry): Cell invited Kakarot to his show? Not me? The prince of all Saiyans?
+BULMA (smug): Maybe he's saving the best for last.
+VEGETA (smug): Obviously. I'm the grand finale.
+BULMA (happy): Or maybe nobody wants to watch you yell for an hour.
+VEGETA (angry): Everyone wants to watch me yell!
 
-# ------------------------------------------------------------ THE CEL GAMES
+# ------------------------------------------------------------ THE CELL GAMES
 MUSIC happy 2
 SCENE cel_ring
-PLACE sel midright left smug
-ENTER gokku left midleft happy
-SEL (smug): Gokku! Welcome to the show. Tell the people, what's your secret to being so strong?
-GOKKU (happy): Lots of training! And lots of rice!
-SEL (smug): Fascinating. My secret is being perfect.
-GOKKU (excited): Can I have a snack now?
-SEL (angry): After the interview!
-GOKKU (sad): Aw.
+PLACE cell midright left smug
+ENTER goku left midleft happy
+CELL (smug): Goku! Welcome to the show. Tell the people, what's your secret to being so strong?
+GOKU (happy): Lots of training! And lots of rice!
+CELL (smug): Fascinating. My secret is being perfect.
+GOKU (excited): Can I have a snack now?
+CELL (angry): After the interview!
+GOKU (sad): Aw.
 
 # ------------------------------------------------------------ KAMEE HOUSE
 MUSIC sneaky
 SCENE kamee_house
-PLACE master_roshee midleft right excited
-PLACE krillen midright left smug
-MASTER_ROSHEE (excited): Krillen! Turn on the TV! Gokku's on The Cel Show!
-KRILLEN (surprised): Cel has a talk show now?
-MASTER_ROSHEE (smug): Everyone has a talk show now. Except me.
-KRILLEN (happy): Maybe you should start one, Master.
-MASTER_ROSHEE (excited): "Turtle Talk with Master Roshee!" I like it!
-KRILLEN (nervous): I was joking.
+PLACE master_roshi midleft right excited
+PLACE krillin midright left smug
+MASTER_ROSHI (excited): Krillin! Turn on the TV! Goku's on The Cell Show!
+KRILLIN (surprised): Cell has a talk show now?
+MASTER_ROSHI (smug): Everyone has a talk show now. Except me.
+KRILLIN (happy): Maybe you should start one, Master.
+MASTER_ROSHI (excited): "Turtle Talk with Master Roshi!" I like it!
+KRILLIN (nervous): I was joking.
 
 # ------------------------------------------------------------ WEST CITY
 MUSIC happy 3
 SCENE west_city
-PLACE chee_chee center left smug
-PLACE bulmah midright left happy
-CHEE_CHEE (smug): My Gokku is on television. In his nice shirt.
-BULMAH (happy): He looks great, Chee-Chee. Very handsome.
-CHEE_CHEE (angry): He's eating the decorations.
-BULMAH (nervous): Those were plastic fruit.
-CHEE_CHEE (sad): He's still eating them.
+PLACE chi_chi center left smug
+PLACE bulma midright left happy
+CHI_CHI (smug): My Goku is on television. In his nice shirt.
+BULMA (happy): He looks great, Chi-Chi. Very handsome.
+CHI_CHI (angry): He's eating the decorations.
+BULMA (nervous): Those were plastic fruit.
+CHI_CHI (sad): He's still eating them.
 
 # ------------------------------------------------------------ TIME CHAMBER
 MUSIC sneaky 2
 SCENE time_chamber
-PLACE trunkz center right nervous
-TRUNKZ (nervous): Okay. If I train in here for a whole year, I'll be ready for anything.
-TRUNKZ (excited): Even a talk show interview. Smile. Wave. Say something charming.
-TRUNKZ (happy): Hello, Cel. Lovely weather we're having. Please don't destroy the planet.
-TRUNKZ (sad): That last part needs work.
+PLACE trunks center right nervous
+TRUNKS (nervous): Okay. If I train in here for a whole year, I'll be ready for anything.
+TRUNKS (excited): Even a talk show interview. Smile. Wave. Say something charming.
+TRUNKS (happy): Hello, Cell. Lovely weather we're having. Please don't destroy the planet.
+TRUNKS (sad): That last part needs work.
 
-# ------------------------------------------------------------ THE CEL GAMES
+# ------------------------------------------------------------ THE CELL GAMES
 MUSIC tense 2
 SCENE cel_ring
-PLACE sel midright left smug
-PLACE gokku midleft right happy
-ENTER freeza right right smug
-SEL (smug): And now, a surprise guest! It's Freeza!
-FREEZA (smug): Hello, Gokku. How very rude of you to keep defeating me.
-GOKKU (surprised): Freeza? You're on the show too?
-FREEZA (smug): Cel promised me the best seat. And a cushion.
-SEL (happy): Television is all about drama!
-GOKKU (nervous): This is a weird show.
+PLACE cell midright left smug
+PLACE goku midleft right happy
+ENTER frieza right right smug
+CELL (smug): And now, a surprise guest! It's Frieza!
+FRIEZA (smug): Hello, Goku. How very rude of you to keep defeating me.
+GOKU (surprised): Frieza? You're on the show too?
+FRIEZA (smug): Cell promised me the best seat. And a cushion.
+CELL (happy): Television is all about drama!
+GOKU (nervous): This is a weird show.
 
 # ------------------------------------------------------------ THE LOOKOUT
 MUSIC jazz 2
 SCENE the_lookout
-PLACE picollo center left angry
-PLACE gohann midright left happy
-GOHANN (happy): Mister Picollo, are you watching Dad on The Cel Show?
-PICOLLO (angry): I do not watch television.
-GOHANN (smug): Then why is there a TV up here?
-PICOLLO (nervous): Dende likes cooking shows.
-GOHANN (happy): Freeza's on now too!
-PICOLLO (excited): Turn it up.
+PLACE piccolo center left angry
+PLACE gohan midright left happy
+GOHAN (happy): Mister Piccolo, are you watching Dad on The Cell Show?
+PICCOLO (angry): I do not watch television.
+GOHAN (smug): Then why is there a TV up here?
+PICCOLO (nervous): Dende likes cooking shows.
+GOHAN (happy): Frieza's on now too!
+PICCOLO (excited): Turn it up.
 
-# ------------------------------------------------------------ THE CEL GAMES
+# ------------------------------------------------------------ THE CELL GAMES
 MUSIC action
 SCENE cel_ring
-PLACE sel center left excited
-PLACE gokku midleft right happy
-PLACE freeza midright left smug
-SEL (excited): And now for our game segment. Who Wants to Be a Perfect Being!
-SEL (smug): Question one. Who is the most perfect being in the universe?
-FREEZA (smug): Me.
-GOKKU (happy): Uh... Chee-Chee?
-SEL (angry): Wrong! Both wrong! The answer is me!
-FREEZA (angry): This game is rigged.
-SEL (smug): It's MY game.
+PLACE cell center left excited
+PLACE goku midleft right happy
+PLACE frieza midright left smug
+CELL (excited): And now for our game segment. Who Wants to Be a Perfect Being!
+CELL (smug): Question one. Who is the most perfect being in the universe?
+FRIEZA (smug): Me.
+GOKU (happy): Uh... Chi-Chi?
+CELL (angry): Wrong! Both wrong! The answer is me!
+FRIEZA (angry): This game is rigged.
+CELL (smug): It's MY game.
 
-# ------------------------------------------------------------ THE CEL GAMES
+# ------------------------------------------------------------ THE CELL GAMES
 MUSIC tense
 SCENE cel_ring
-PLACE sel center left smug
-PLACE gokku midleft right happy
-PLACE freeza midright left angry
-ENTER vegitta left left angry 500
-VEGITTA (angry): Cel! Why wasn't I invited to this show?
-SEL (smug): Because our audience prefers guests who smile.
-VEGITTA (angry): I smile! Look! I'm smiling!
-GOKKU (nervous): Vegitta, that looks really scary.
-FREEZA (smug): Like a cat with a toothache.
-VEGITTA (angry): That's it! Everyone outside!
+PLACE cell center left smug
+PLACE goku midleft right happy
+PLACE frieza midright left angry
+ENTER vegeta left left angry 500
+VEGETA (angry): Cell! Why wasn't I invited to this show?
+CELL (smug): Because our audience prefers guests who smile.
+VEGETA (angry): I smile! Look! I'm smiling!
+GOKU (nervous): Vegeta, that looks really scary.
+FRIEZA (smug): Like a cat with a toothache.
+VEGETA (angry): That's it! Everyone outside!
 
 # ------------------------------------------------------------ ROCKY WASTELAND
 MUSIC action 2
 SCENE rocky_wasteland
-PLACE vegitta midleft right angry
-PLACE sel midright left smug
-PLACE freeza right left smug
-PLACE gokku left right happy
-VEGITTA (angry): HAAAAH!
+PLACE vegeta midleft right angry
+PLACE cell midright left smug
+PLACE frieza right left smug
+PLACE goku left right happy
+VEGETA (angry): HAAAAH!
 SFX blast
 SHAKE 1.0
-SEL (excited): Excellent! Ratings are going through the roof!
-FREEZA (smug): Is this still part of the show?
-GOKKU (happy): Everything's part of the show now!
+CELL (excited): Excellent! Ratings are going through the roof!
+FRIEZA (smug): Is this still part of the show?
+GOKU (happy): Everything's part of the show now!
 SFX blast
 SHAKE 0.8
 
 # ------------------------------------------------------------ CAPSOOL CORP
 MUSIC jazz 3
 SCENE capsool_corp
-PLACE bulmah center left smug
-PLACE trunkz midright left happy
-TRUNKZ (happy): Mom, Dad's on TV! He's yelling at Cel and Freeza!
-BULMAH (smug): Of course he is.
-TRUNKZ (excited): The show has the highest ratings in history!
-BULMAH (happy): Then I'll sell the commercial time. Capsool Corp: Because sometimes you need a house in your pocket.
-TRUNKZ (smug): You're always working, Mom.
+PLACE bulma center left smug
+PLACE trunks midright left happy
+TRUNKS (happy): Mom, Dad's on TV! He's yelling at Cell and Frieza!
+BULMA (smug): Of course he is.
+TRUNKS (excited): The show has the highest ratings in history!
+BULMA (happy): Then I'll sell the commercial time. Capsool Corp: Because sometimes you need a house in your pocket.
+TRUNKS (smug): You're always working, Mom.
 
-# ------------------------------------------------------------ THE CEL GAMES
+# ------------------------------------------------------------ THE CELL GAMES
 MUSIC happy 3
 SCENE cel_ring
-PLACE sel center left happy
-PLACE gokku midleft right happy
-PLACE vegitta left right smug
-SEL (happy): Thank you all for watching The Cel Show! Highest ratings ever! Because I am perfect!
-VEGITTA (smug): Because I yelled.
-GOKKU (excited): Can I have my snacks now?
-SEL (smug): The snacks are... perfect. And they are mine.
-GOKKU (angry): Hey!
-VEGITTA (smug): Now THAT'S a reason to fight.
+PLACE cell center left happy
+PLACE goku midleft right happy
+PLACE vegeta left right smug
+CELL (happy): Thank you all for watching The Cell Show! Highest ratings ever! Because I am perfect!
+VEGETA (smug): Because I yelled.
+GOKU (excited): Can I have my snacks now?
+CELL (smug): The snacks are... perfect. And they are mine.
+GOKU (angry): Hey!
+VEGETA (smug): Now THAT'S a reason to fight.
 END

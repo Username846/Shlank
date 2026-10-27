@@ -57,7 +57,7 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"toy_palace": _toy_palace(b)
 		"duck_pond": _duck_pond(b)
 		"pizza_place": _pizza_place(b)
-		# Pokemon (Team Rokket)
+		# Pokemon (Team Rocket)
 		"forest_path": _forest_path(b)
 		"rokket_hq": _rokket_hq(b)
 		"monster_clinic": _monster_clinic(b)
@@ -613,7 +613,7 @@ static func _finster_house(b: Backdrop) -> void:
 	_bush(b, Vector2(1020, 540))
 
 
-# --------------------------------------------- Pokemon (Team Rokket) --
+# --------------------------------------------- Pokemon (Team Rocket) --
 
 static func _forest_path(b: Backdrop) -> void:
 	_day_sky(b)
@@ -943,7 +943,7 @@ static func _funnie_kitchen(b: Backdrop) -> void:
 
 
 static func _quailman_lair(b: Backdrop) -> void:
-	# Dug's daydream: a comic-book secret lair
+	# Doug's daydream: a comic-book secret lair
 	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("4a2a7a"), Color("9b5fd0"))
 	b._sky_bottom = Color("9b5fd0")
 	for y in 12:

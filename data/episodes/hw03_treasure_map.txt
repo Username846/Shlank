@@ -2,53 +2,53 @@
 @series Hillwood
 @icon city
 @number 3
-@description Grandma Pookie finds an old pirate map that leads somewhere in Hillwood. Arnald, Gerold and half the neighborhood go hunting for the treasure.
+@description Grandma Pookie finds an old pirate map that leads somewhere in Hillwood. Arnold, Gerald and half the neighborhood go hunting for the treasure.
 
 # ------------------------------------------------------------ BOARDING HOUSE KITCHEN
 MUSIC jazz
 SCENE boarding_kitchen cut
 TITLE
 PLACE grandma center left excited
-ENTER arnald left midleft happy
+ENTER arnold left midleft happy
 GRANDMA (excited): Ahoy, Eleanor! Look what I found in the attic! A real pirate map!
-ARNALD (surprised): Grandma, that's the back of an old pizza menu.
+ARNOLD (surprised): Grandma, that's the back of an old pizza menu.
 GRANDMA (smug): A pirate's pizza menu. Look! An X! And it says "Treasure: Hillwood Pier."
-ARNALD (happy): That is a pretty good X.
+ARNOLD (happy): That is a pretty good X.
 ENTER grandpa right right smug
 GRANDPA (smug): Pookie, you drew that X yourself last Tuesday.
 GRANDMA (angry): Lies! Mutiny! Eleanor, we sail at dawn!
-ARNALD (happy): It's already ten in the morning, Grandma.
+ARNOLD (happy): It's already ten in the morning, Grandma.
 GRANDMA (excited): Then we sail at ten!
 
 # ------------------------------------------------------------ HILLWOOD STREET
 MUSIC happy
 SCENE hillwood_street
-PLACE gerold midright left smug
-ENTER arnald left midleft happy
-GEROLD (smug): A treasure hunt with your grandma? Arnald, my man, you know how this ends.
-ARNALD (happy): With a lot of running, probably.
-GEROLD (smug): And somebody falling in the river.
-ARNALD (nervous): Probably me.
-GEROLD (excited): Count me in. I want to see it.
+PLACE gerald midright left smug
+ENTER arnold left midleft happy
+GERALD (smug): A treasure hunt with your grandma? Arnold, my man, you know how this ends.
+ARNOLD (happy): With a lot of running, probably.
+GERALD (smug): And somebody falling in the river.
+ARNOLD (nervous): Probably me.
+GERALD (excited): Count me in. I want to see it.
 ENTER sid right right excited
 SID (excited): Did someone say treasure? I read that there's a pirate ship buried under Hillwood! It's a fact!
-GEROLD (smug): That's not a fact, Sid.
+GERALD (smug): That's not a fact, Sid.
 SID (nervous): It's a fact that I read it.
 
 # ------------------------------------------------------------ HILLWOOD PIER
 MUSIC sneaky
 SCENE hillwood_pier
 PLACE grandma center left excited
-ENTER arnald left midleft happy
-ENTER gerold left left smug
+ENTER arnold left midleft happy
+ENTER gerald left left smug
 GRANDMA (excited): Here we are! The X marks the spot! Dig, me hearties!
-GEROLD (surprised): Dig? It's a wooden pier.
+GERALD (surprised): Dig? It's a wooden pier.
 GRANDMA (smug): Then the treasure must be under the water. Or the map is upside down!
-ARNALD (nervous): If we turn it over, the X is at... Green Meats.
+ARNOLD (nervous): If we turn it over, the X is at... Green Meats.
 GRANDMA (excited): To the butcher shop! Anchors aweigh!
 RUN grandma offright &
-RUN arnald offright &
-RUN gerold offright
+RUN arnold offright &
+RUN gerald offright
 
 # ------------------------------------------------------------ HILLWOOD STREET
 MUSIC action
@@ -71,9 +71,9 @@ MUSIC jazz 2
 SCENE green_meats
 PLACE harold midright left happy
 ENTER grandma left midleft excited
-ENTER arnald left left happy
-HAROLD (happy): Hey Arnald! I'm working at Mister Green's shop today! Do you want a free meatball?
-ARNALD (happy): Sure, Harold. Have you seen any treasure around here?
+ENTER arnold left left happy
+HAROLD (happy): Hey Arnold! I'm working at Mister Green's shop today! Do you want a free meatball?
+ARNOLD (happy): Sure, Harold. Have you seen any treasure around here?
 HAROLD (smug): The meatballs are kind of a treasure.
 GRANDMA (excited): Wait! A clue! The map says "Look where the sun sets over brick."
 HAROLD (surprised): That's the rooftop! You can see the whole sunset from up there!
@@ -83,11 +83,11 @@ GRANDMA (excited): Eleanor, take this meatball. For the voyage.
 MUSIC sneaky 2
 SCENE ps118
 PLACE helga center left smug
-PLACE phoebee midleft right neutral
+PLACE phoebe midleft right neutral
 HELGA (smug): A treasure hunt? Please. That's for babies.
-PHOEBEE: Arnald is leading it.
-HELGA (excited): Get my shovel, Phoebee! We're going treasure hunting!
-PHOEBEE (smug): You don't own a shovel.
+PHOEBE: Arnold is leading it.
+HELGA (excited): Get my shovel, Phoebe! We're going treasure hunting!
+PHOEBE (smug): You don't own a shovel.
 HELGA (angry): Then get me a spoon! A really big spoon!
 
 # ------------------------------------------------------------ BIG BOB'S BEEPERS
@@ -95,11 +95,11 @@ MUSIC jazz 3
 SCENE big_bobs
 PLACE big_bob center left smug
 ENTER grandma left midleft excited
-ENTER arnald left left nervous
+ENTER arnold left left nervous
 BIG_BOB (smug): A treasure hunt? Through my store? Absolutely not.
 GRANDMA (angry): Stand aside, you landlubber! The map leads through your shop!
 BIG_BOB (surprised): Through my shop? Is there treasure in my shop?
-ARNALD (nervous): We just need to get to the back stairs, Mister Pataki.
+ARNOLD (nervous): We just need to get to the back stairs, Mister Pataki.
 BIG_BOB (excited): If there's treasure, I get ten percent!
 GRANDMA (smug): You get a pirate's thanks. Huzzah!
 
@@ -107,24 +107,24 @@ GRANDMA (smug): You get a pirate's thanks. Huzzah!
 MUSIC tense
 SCENE rooftop
 PLACE grandma center left excited
-PLACE arnald midleft right happy
-PLACE gerold left right smug
+PLACE arnold midleft right happy
+PLACE gerald left right smug
 ENTER helga right right nervous
-ENTER phoebee right farright neutral
+ENTER phoebe right farright neutral
 HELGA (angry): Ahem. Don't mind us. We're just here for the view.
-GEROLD (smug): With a spoon?
+GERALD (smug): With a spoon?
 HELGA (angry): It's a very nice spoon.
 GRANDMA (excited): Ahoy, new crew! Look! A loose brick! The treasure must be behind it!
-ARNALD (surprised): There's something inside! A tin box!
+ARNOLD (surprised): There's something inside! A tin box!
 SFX drumroll
 
-# ------------------------------------------------------------ ARNALD'S ROOM
+# ------------------------------------------------------------ ARNOLD'S ROOM
 MUSIC romantic
 SCENE arnald_room
-PLACE arnald center right happy
+PLACE arnold center right happy
 PLACE grandma midright left happy
 PLACE grandpa left right happy
-ARNALD (happy): It's full of old photos. Of you, Grandma. And Grandpa. On a boat.
+ARNOLD (happy): It's full of old photos. Of you, Grandma. And Grandpa. On a boat.
 GRANDMA (shy): Our first date. Fifty years ago. I hid those up there so I'd always have a treasure to find.
 GRANDPA (happy): Pookie, you old softie.
 GRANDMA (angry): Softie? I'll have you walk the plank!
@@ -135,12 +135,12 @@ GRANDMA (excited): We do now! Eleanor, fetch me a plank!
 MUSIC happy 2
 SCENE hillwood_park
 PLACE helga midleft right sad
-PLACE phoebee center left neutral
+PLACE phoebe center left neutral
 HELGA (sad): No gold. No jewels. Just old photos.
-PHOEBEE (happy): But you spent the whole afternoon with Arnald.
+PHOEBE (happy): But you spent the whole afternoon with Arnold.
 HELGA (excited): I did, didn't I? He even said "nice spoon"!
-PHOEBEE (smug): That was Gerold.
-HELGA (angry): Details, Phoebee!
+PHOEBE (smug): That was Gerald.
+HELGA (angry): Details, Phoebe!
 ENTER sid right right excited
 SID (excited): Guys! I found an actual old coin in the park! It says nineteen ninety-six!
 HELGA (smug): Sid, that's a quarter.

@@ -2,162 +2,162 @@
 @series Metroid
 @icon visor
 @number 2
-@description Samuss comes back from a mission to find her gunship missing. All the clues point to Ridlee. Ridlee, it turns out, has never driven anything before.
+@description Samus comes back from a mission to find her gunship missing. All the clues point to Ridley. Ridley, it turns out, has never driven anything before.
 
 # ------------------------------------------------------------ LANDING SITE
 MUSIC tense
 SCENE landing_site cut
 TITLE
-ENTER samuss left midleft neutral
-ENTER baby_metroyd left left happy
-NARRATOR: Samuss Aran returned from a long day of bounty hunting. She wanted a shower, a snack and a nap.
-SAMUSS (surprised): ...!
+ENTER samus left midleft neutral
+ENTER baby_metroid left left happy
+NARRATOR: Samus Aran returned from a long day of bounty hunting. She wanted a shower, a snack and a nap.
+SAMUS (surprised): ...!
 NARRATOR: Her gunship was gone. In its place were three giant claw marks and a note.
-BABY_METROYD (scared): Skree!
-NARRATOR: The note said, in very bad handwriting: "Borrowed ur ship. Will return. Maybe. Signed, NOT Ridlee."
+BABY_METROID (scared): Skree!
+NARRATOR: The note said, in very bad handwriting: "Borrowed ur ship. Will return. Maybe. Signed, NOT Ridley."
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC jazz
 SCENE ceres_station
 PLACE adam midright left neutral
-ENTER samuss left midleft neutral
-ADAM: Samuss. I heard your ship was stolen. By someone who signed his name "NOT Ridlee."
-SAMUSS (smug): ...
-ADAM (smug): Yes. I also think it was Ridlee.
+ENTER samus left midleft neutral
+ADAM: Samus. I heard your ship was stolen. By someone who signed his name "NOT Ridley."
+SAMUS (smug): ...
+ADAM (smug): Yes. I also think it was Ridley.
 ADAM: Our scanners show your ship flying in circles over Norfair. Very slowly. Backwards.
-SAMUSS (surprised): ...?
+SAMUS (surprised): ...?
 ADAM (happy): I think he doesn't know how to drive. Any objections to going after him?
-SAMUSS: None.
+SAMUS: None.
 
-# ------------------------------------------------------------ RIDLEE'S LAIR
+# ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC sneaky
 SCENE ridlee_lair
-PLACE ridlee center left excited
+PLACE ridley center left excited
 PLACE space_pirate midright left nervous
-RIDLEE (excited): SCREEE!
+RIDLEY (excited): SCREEE!
 SPACE_PIRATE (nervous): Boss, I know you're excited about the new ship. But you parked it on the lava.
-RIDLEE (happy): Scree scree!
+RIDLEY (happy): Scree scree!
 SPACE_PIRATE (scared): It's sinking, boss! And the radio's playing elevator music!
-RIDLEE (angry): SCREEE!
+RIDLEY (angry): SCREEE!
 SPACE_PIRATE (sad): Okay, okay. I'll find the volume button.
 
 # ------------------------------------------------------------ TOURIAN
 MUSIC spooky
 SCENE tourian
-PLACE mother_brane center left angry
-PLACE dark_samuss midright left smug
-MOTHER_BRANE (angry): Ridlee stole the bounty hunter's ship? Without asking me?
-DARK_SAMUSS (smug): ...
-MOTHER_BRANE (smug): Well. At least it's causing her trouble. That's something.
-MOTHER_BRANE (surprised): Wait. He parked it on the lava? That was a very expensive ship. I wanted to steal it myself!
-DARK_SAMUSS (happy): ...
+PLACE mother_brain center left angry
+PLACE dark_samus midright left smug
+MOTHER_BRAIN (angry): Ridley stole the bounty hunter's ship? Without asking me?
+DARK_SAMUS (smug): ...
+MOTHER_BRAIN (smug): Well. At least it's causing her trouble. That's something.
+MOTHER_BRAIN (surprised): Wait. He parked it on the lava? That was a very expensive ship. I wanted to steal it myself!
+DARK_SAMUS (happy): ...
 NARRATOR: Even villains have standards. Mostly about parking.
 
 # ------------------------------------------------------------ SAVE ROOM
 MUSIC romantic
 SCENE save_room
-PLACE samuss center right neutral
-PLACE baby_metroyd midleft right nervous
-NARRATOR: Before going after Ridlee, Samuss saved her progress. You never know what might happen in Norfair.
-BABY_METROYD (nervous): Skree?
-SAMUSS (happy): ...stay here.
-BABY_METROYD (sad): Skree...
+PLACE samus center right neutral
+PLACE baby_metroid midleft right nervous
+NARRATOR: Before going after Ridley, Samus saved her progress. You never know what might happen in Norfair.
+BABY_METROID (nervous): Skree?
+SAMUS (happy): ...stay here.
+BABY_METROID (sad): Skree...
 NARRATOR: The baby stayed. For about four seconds. Then it followed her anyway.
 
 # ------------------------------------------------------------ MAP STATION
 MUSIC tense 2
 SCENE map_station
-PLACE samuss center right neutral
+PLACE samus center right neutral
 SFX beep
-NARRATOR: The map shows the gunship's beacon. Deep in Norfair. Right next to Ridlee's lair.
+NARRATOR: The map shows the gunship's beacon. Deep in Norfair. Right next to Ridley's lair.
 NARRATOR: It also shows the gunship's speed. Zero. And its temperature. Very, very hot.
-SAMUSS (scared): ...
-NARRATOR: Samuss had paid off that ship only last week.
+SAMUS (scared): ...
+NARRATOR: Samus had paid off that ship only last week.
 
 # ------------------------------------------------------------ BRINSTAR
 MUSIC happy
 SCENE brinstar
 PLACE etecoon center left excited
-PLACE dachoora midright left happy
-ENTER samuss left midleft neutral
+PLACE dachora midright left happy
+ENTER samus left midleft neutral
 ETECOON (excited): Eee! Eee eee!
 NARRATOR: The etecoons saw the whole thing. A big purple dragon flew over, clutching the gunship like a giant toy.
-DACHOORA (excited): Kweh!
-NARRATOR: The dachoora offers Samuss a ride. Dachooras are very fast. Faster than gunships, when the gunship is sinking.
-SAMUSS (happy): ...thank you.
+DACHORA (excited): Kweh!
+NARRATOR: The dachora offers Samus a ride. Dachoras are very fast. Faster than gunships, when the gunship is sinking.
+SAMUS (happy): ...thank you.
 
 # ------------------------------------------------------------ NORFAIR
 MUSIC action
 SCENE norfair
-ENTER dachoora left midleft excited 600
-ENTER samuss left left neutral 600
+ENTER dachora left midleft excited 600
+ENTER samus left left neutral 600
 SFX whoosh
 NARRATOR: They ran through Norfair at incredible speed. Past the lava. Over the lava. Briefly, a little bit into the lava.
-DACHOORA (scared): Kweh!
-SAMUSS (nervous): ...
-NARRATOR: The dachoora's tail feathers were slightly toasted. It did not complain. It was a very good bird.
+DACHORA (scared): Kweh!
+SAMUS (nervous): ...
+NARRATOR: The dachora's tail feathers were slightly toasted. It did not complain. It was a very good bird.
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC sneaky 2
 SCENE krayd_lair
-PLACE krayd center left nervous
-ENTER samuss left midleft neutral
-KRAYD (nervous): Grrr... grr?
-NARRATOR: Krayd remembers Samuss. Krayd remembers her very well.
-SAMUSS (smug): ...
-KRAYD (scared): GRRR!
-NARRATOR: Krayd points a giant claw toward Ridlee's lair. Krayd does not want to be involved.
-KRAYD (happy): Grr.
+PLACE kraid center left nervous
+ENTER samus left midleft neutral
+KRAID (nervous): Grrr... grr?
+NARRATOR: Kraid remembers Samus. Kraid remembers her very well.
+SAMUS (smug): ...
+KRAID (scared): GRRR!
+NARRATOR: Kraid points a giant claw toward Ridley's lair. Kraid does not want to be involved.
+KRAID (happy): Grr.
 
-# ------------------------------------------------------------ RIDLEE'S LAIR
+# ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC tense
 SCENE ridlee_lair
-PLACE ridlee center left nervous
+PLACE ridley center left nervous
 PLACE space_pirate midright left scared
-ENTER samuss left left angry 500
+ENTER samus left left angry 500
 SPACE_PIRATE (scared): Boss! It's her! The bounty hunter!
-RIDLEE (nervous): Scree?
-SAMUSS (angry): ...
-RIDLEE (smug): SCREEE!
+RIDLEY (nervous): Scree?
+SAMUS (angry): ...
+RIDLEY (smug): SCREEE!
 SPACE_PIRATE (nervous): He says it wasn't him. He says he's a different purple dragon.
-NARRATOR: Ridlee was wearing a name tag that said "NOT Ridlee."
+NARRATOR: Ridley was wearing a name tag that said "NOT Ridley."
 
-# ------------------------------------------------------------ RIDLEE'S LAIR
+# ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC action 2
 SCENE ridlee_lair
-PLACE ridlee center left angry
-PLACE samuss midleft right angry
+PLACE ridley center left angry
+PLACE samus midleft right angry
 SFX blast
 SHAKE 0.8
-RIDLEE (angry): SCREEE!
+RIDLEY (angry): SCREEE!
 SFX blast
 SHAKE 1.0
-NARRATOR: The battle was short. Ridlee was mostly surprised. He had never seen someone that angry about a car.
-RIDLEE (sad): Scree...
+NARRATOR: The battle was short. Ridley was mostly surprised. He had never seen someone that angry about a car.
+RIDLEY (sad): Scree...
 NARRATOR: He handed over the keys. He'd been holding them in his mouth.
 
-# ------------------------------------------------------------ RIDLEE'S LAIR
+# ------------------------------------------------------------ RIDLEY'S LAIR
 MUSIC sad
 SCENE ridlee_lair
-PLACE ridlee center left sad
+PLACE ridley center left sad
 PLACE space_pirate midright left nervous
-PLACE samuss midleft right neutral
+PLACE samus midleft right neutral
 SPACE_PIRATE (nervous): Ma'am, for the record. He just wanted to go somewhere nice.
-SAMUSS (surprised): ...?
+SAMUS (surprised): ...?
 SPACE_PIRATE (sad): He's never had a vacation. Everybody always just fights him.
-RIDLEE (sad): Scree.
-NARRATOR: Samuss looked at Ridlee for a very long time.
+RIDLEY (sad): Scree.
+NARRATOR: Samus looked at Ridley for a very long time.
 
 # ------------------------------------------------------------ LANDING SITE
 MUSIC romantic
 SCENE landing_site
-PLACE samuss midleft right neutral
-PLACE ridlee midright left happy
-PLACE baby_metroyd left right happy
+PLACE samus midleft right neutral
+PLACE ridley midright left happy
+PLACE baby_metroid left right happy
 NARRATOR: The next morning, the gunship was back. A little scorched. A little smelly. But home.
 NARRATOR: And in the back seat, buckled in very carefully, was a large purple dragon wearing sunglasses.
-RIDLEE (excited): Scree scree!
-SAMUSS (smug): One trip. To the beach planet. Then you're going back.
-BABY_METROYD (excited): Skree!
-NARRATOR: Ridlee had never been happier. Samuss had never been more confused about her life.
+RIDLEY (excited): Scree scree!
+SAMUS (smug): One trip. To the beach planet. Then you're going back.
+BABY_METROID (excited): Skree!
+NARRATOR: Ridley had never been happier. Samus had never been more confused about her life.
 END

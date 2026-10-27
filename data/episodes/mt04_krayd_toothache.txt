@@ -1,169 +1,169 @@
-@title Krayd's Toothache
+@title Kraid's Toothache
 @series Metroid
 @icon visor
 @number 4
 @description The biggest monster on planet Zebes has a toothache, and he's so grumpy that the whole planet is shaking. Somebody has to fix it. Nobody wants to.
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC tense
 SCENE krayd_lair cut
 TITLE
-PLACE krayd center left sad
-KRAYD (sad): Grrr... ooowww...
-NARRATOR: Krayd, the largest monster on planet Zebes, has a toothache. A big one. On his biggest tooth.
-KRAYD (angry): GRRROOOAR!
+PLACE kraid center left sad
+KRAID (sad): Grrr... ooowww...
+NARRATOR: Kraid, the largest monster on planet Zebes, has a toothache. A big one. On his biggest tooth.
+KRAID (angry): GRRROOOAR!
 SHAKE 1.0
 SFX thud
 NARRATOR: Every time it hurts, he roars. Every time he roars, the planet shakes.
-KRAYD (sad): Ow ow ow.
+KRAID (sad): Ow ow ow.
 
 # ------------------------------------------------------------ CRATERIA
 MUSIC sneaky
 SCENE crateria
-ENTER samuss left midleft neutral
+ENTER samus left midleft neutral
 SHAKE 0.6
 SFX thud
-NARRATOR: Samuss was on a peaceful hike when the ground started shaking. Again. And again.
-SAMUSS (smug): ...
-NARRATOR: Samuss does not have an "annoyed" face. But if she did, this would be it.
+NARRATOR: Samus was on a peaceful hike when the ground started shaking. Again. And again.
+SAMUS (smug): ...
+NARRATOR: Samus does not have an "annoyed" face. But if she did, this would be it.
 SHAKE 0.8
-SAMUSS (angry): ...
+SAMUS (angry): ...
 
 # ------------------------------------------------------------ BRINSTAR
 MUSIC tense 2
 SCENE brinstar
 PLACE etecoon center left scared
-PLACE dachoora midright left scared
-ENTER samuss left midleft neutral
+PLACE dachora midright left scared
+ENTER samus left midleft neutral
 ETECOON (scared): Eee! Eee eee!
-DACHOORA (scared): Kweh kweh!
+DACHORA (scared): Kweh kweh!
 NARRATOR: The animals are frightened. The shaking knocked all the fruit off the trees. Their houses are falling over.
 ETECOON (sad): Eee...
-SAMUSS (nervous): ...
-NARRATOR: Samuss knows where the shaking comes from. She knows who she has to visit.
+SAMUS (nervous): ...
+NARRATOR: Samus knows where the shaking comes from. She knows who she has to visit.
 
 # ------------------------------------------------------------ TOURIAN
 MUSIC spooky
 SCENE tourian
-PLACE mother_brane center left angry
+PLACE mother_brain center left angry
 SHAKE 0.6
-MOTHER_BRANE (angry): Krayd! Stop shaking the planet! My jar is sloshing!
+MOTHER_BRAIN (angry): Kraid! Stop shaking the planet! My jar is sloshing!
 SFX thud
 SHAKE 0.8
-MOTHER_BRANE (scared): I'm getting seasick! Brains should not get seasick!
-NARRATOR: Even the most evil brain in the galaxy needed someone to fix Krayd's tooth.
-MOTHER_BRANE (sad): Somebody. Anybody. Please.
+MOTHER_BRAIN (scared): I'm getting seasick! Brains should not get seasick!
+NARRATOR: Even the most evil brain in the galaxy needed someone to fix Kraid's tooth.
+MOTHER_BRAIN (sad): Somebody. Anybody. Please.
 
 # ------------------------------------------------------------ ITEM ROOM
 MUSIC sneaky 2
 SCENE item_room
-ENTER samuss left midleft neutral
-NARRATOR: Samuss looked through her old item collection for anything that could help.
+ENTER samus left midleft neutral
+NARRATOR: Samus looked through her old item collection for anything that could help.
 NARRATOR: A grappling beam. Too pointy. A speed booster. Too fast. An ice beam.
-SAMUSS (excited): ...!
+SAMUS (excited): ...!
 NARRATOR: An ice beam. Cold things make toothaches feel better. Everyone knows that.
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC jazz
 SCENE ceres_station
 PLACE adam center left neutral
-ENTER samuss left midleft neutral
+ENTER samus left midleft neutral
 ADAM: You want to fix a monster's tooth. Not defeat him. Fix him.
-SAMUSS: Yes.
-ADAM (smug): You've changed, Samuss. Ten years ago you'd have just blasted him.
-SAMUSS (smug): ...
+SAMUS: Yes.
+ADAM (smug): You've changed, Samus. Ten years ago you'd have just blasted him.
+SAMUS (smug): ...
 ADAM (happy): I have dental tools in the medical bay. They're very large. For very large patients.
 ADAM: Any objections to me coming along?
-SAMUSS (happy): None.
+SAMUS (happy): None.
 
 # ------------------------------------------------------------ WRECKED SHIP
 MUSIC sneaky 2
 SCENE wrecked_ship
 PLACE space_pirate center left nervous
-ENTER samuss left midleft neutral
+ENTER samus left midleft neutral
 ENTER adam left left neutral
 SPACE_PIRATE (nervous): Bounty hunter! Wait! Don't shoot! I'm on my lunch break!
-ADAM (smug): We're looking for someone who knows Krayd. Someone he trusts.
-SPACE_PIRATE (surprised): Krayd? I used to be his dentist! Before I joined the pirates. The pay was better.
-SAMUSS (surprised): ...!
+ADAM (smug): We're looking for someone who knows Kraid. Someone he trusts.
+SPACE_PIRATE (surprised): Kraid? I used to be his dentist! Before I joined the pirates. The pay was better.
+SAMUS (surprised): ...!
 SPACE_PIRATE (nervous): But I'm not going back in there. Last time he sneezed and I flew into a wall.
 ADAM (happy): We'll pay you double.
 SPACE_PIRATE (excited): Let me get my mask!
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC tense
 SCENE krayd_lair
-PLACE krayd center left angry
-ENTER samuss left midleft neutral 200
+PLACE kraid center left angry
+ENTER samus left midleft neutral 200
 ENTER space_pirate left left nervous 200
 ENTER adam left farleft neutral 200
-KRAYD (angry): GRRROOOAR!
+KRAID (angry): GRRROOOAR!
 SHAKE 1.0
-SPACE_PIRATE (scared): Hi, Krayd! Remember me? Doctor Pirate? I'm here to help!
-KRAYD (sad): Grrr... ow.
+SPACE_PIRATE (scared): Hi, Kraid! Remember me? Doctor Pirate? I'm here to help!
+KRAID (sad): Grrr... ow.
 ADAM: He seems to remember you.
 SPACE_PIRATE (nervous): He remembers I gave him a lollipop last time. That's probably what caused this.
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC tense 2
 SCENE krayd_lair
-PLACE krayd center left nervous
-PLACE samuss midleft right neutral
+PLACE kraid center left nervous
+PLACE samus midleft right neutral
 PLACE space_pirate midright left nervous
 SPACE_PIRATE (nervous): Okay, big guy. Open wide.
-KRAYD (scared): Grrr.
-SPACE_PIRATE (nervous): Samuss, I need you to hold his chin. Very gently. Please don't blast anything.
-SAMUSS: ...
-NARRATOR: Samuss held the chin of the largest monster on Zebes. It was a very strange day.
+KRAID (scared): Grrr.
+SPACE_PIRATE (nervous): Samus, I need you to hold his chin. Very gently. Please don't blast anything.
+SAMUS: ...
+NARRATOR: Samus held the chin of the largest monster on Zebes. It was a very strange day.
 SPACE_PIRATE (surprised): I see the problem! There's a giant space-candy stuck between his teeth!
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC action
 SCENE krayd_lair
-PLACE krayd center left scared
-PLACE samuss midleft right neutral
+PLACE kraid center left scared
+PLACE samus midleft right neutral
 PLACE space_pirate midright left excited
 SPACE_PIRATE (excited): On three! One... two...
 SFX pop
 SHAKE 0.6
-KRAYD (surprised): Grr?
+KRAID (surprised): Grr?
 SPACE_PIRATE (excited): Got it! A whole jawbreaker! The size of my head!
-KRAYD (happy): Grrr! Grrrrr!
-NARRATOR: For the first time in days, Krayd smiled. It was terrifying. But happy.
+KRAID (happy): Grrr! Grrrrr!
+NARRATOR: For the first time in days, Kraid smiled. It was terrifying. But happy.
 
-# ------------------------------------------------------------ KRAYD'S LAIR
+# ------------------------------------------------------------ KRAID'S LAIR
 MUSIC happy
 SCENE krayd_lair
-PLACE krayd center left happy
-PLACE samuss midleft right happy
+PLACE kraid center left happy
+PLACE samus midleft right happy
 PLACE adam left right happy
-KRAYD (happy): Grrr.
+KRAID (happy): Grrr.
 ADAM (surprised): I think he's thanking you.
-SAMUSS (shy): ...
-KRAYD (excited): Grrr grr!
-NARRATOR: Krayd gave Samuss a gift. A single belly spike. Polished. With a little bow. It was the nicest thing anyone on Zebes had ever done for her.
+SAMUS (shy): ...
+KRAID (excited): Grrr grr!
+NARRATOR: Kraid gave Samus a gift. A single belly spike. Polished. With a little bow. It was the nicest thing anyone on Zebes had ever done for her.
 
 # ------------------------------------------------------------ BRINSTAR
 MUSIC happy 2
 SCENE brinstar
 PLACE etecoon center left excited
-PLACE dachoora midright left happy
-ENTER samuss left midleft happy
+PLACE dachora midright left happy
+ENTER samus left midleft happy
 ETECOON (excited): Eee! Eee!
 NARRATOR: The shaking stopped. The fruit grew back. The etecoons rebuilt their houses, even bigger than before.
-DACHOORA (excited): Kweh!
-NARRATOR: The dachoora gave Samuss a ride home. The long way. Just for fun.
-SAMUSS (happy): ...thank you.
+DACHORA (excited): Kweh!
+NARRATOR: The dachora gave Samus a ride home. The long way. Just for fun.
+SAMUS (happy): ...thank you.
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC romantic
 SCENE ceres_station
 PLACE adam center left happy
 PLACE space_pirate midright left excited
-PLACE samuss midleft right neutral
+PLACE samus midleft right neutral
 SPACE_PIRATE (excited): I've decided. I'm quitting the pirates. I'm going back to dentistry.
 ADAM (happy): Good for you.
-SPACE_PIRATE (happy): I'm opening Zebes's first monster dental clinic! Krayd is my first customer!
-SAMUSS (smug): No candy.
+SPACE_PIRATE (happy): I'm opening Zebes's first monster dental clinic! Kraid is my first customer!
+SAMUS (smug): No candy.
 SPACE_PIRATE (nervous): No candy. Definitely no candy.
 END

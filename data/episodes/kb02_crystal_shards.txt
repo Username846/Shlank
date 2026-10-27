@@ -1,169 +1,169 @@
-@title Ribbonn's Crystal
+@title Ribbon's Crystal
 @series Kirby
 @icon warpstar
 @number 2
-@description A tiny fairy named Ribbonn crash-lands in Dream Land. Her magic crystal has shattered into shards, and they're scattered all over the planet. Kirbie decides to help. Poyo.
+@description A tiny fairy named Ribbon crash-lands in Dream Land. Her magic crystal has shattered into shards, and they're scattered all over the planet. Kirby decides to help. Poyo.
 
 # ------------------------------------------------------------ GREEN GREENS
 MUSIC happy
 SCENE green_greens cut
 TITLE
-PLACE kirbie center right happy
-KIRBIE (happy): Poyo!
-NARRATOR: It was a lovely day in Dream Land. Kirbie was lying in the grass, watching the clouds.
+PLACE kirby center right happy
+KIRBY (happy): Poyo!
+NARRATOR: It was a lovely day in Dream Land. Kirby was lying in the grass, watching the clouds.
 SFX whoosh
 SFX thud
 SHAKE 0.6
-KIRBIE (surprised): Poyo?!
-ENTER ribbonn right midright scared
-RIBBONN (scared): Help! Oh, help! I crashed! And my crystal broke!
-KIRBIE (nervous): Poyo poyo?
+KIRBY (surprised): Poyo?!
+ENTER ribbon right midright scared
+RIBBON (scared): Help! Oh, help! I crashed! And my crystal broke!
+KIRBY (nervous): Poyo poyo?
 
-# ------------------------------------------------------------ KIRBIE'S HOUSE
+# ------------------------------------------------------------ KIRBY'S HOUSE
 MUSIC romantic
 SCENE kirbie_house
-PLACE ribbonn midright left sad
-PLACE kirbie center right nervous
-RIBBONN (sad): My name is Ribbonn. I'm from Ripple Star. Our crystal keeps the whole planet safe.
-RIBBONN (sad): But a dark cloud attacked us. I flew away with the crystal, and it shattered when I fell.
-KIRBIE (sad): Poyo...
-RIBBONN (nervous): There are five shards. They could be anywhere in Dream Land.
-KIRBIE (excited): Poyo!
-RIBBONN (surprised): You'll help me? Really?
-KIRBIE (happy): Poyo poyo!
+PLACE ribbon midright left sad
+PLACE kirby center right nervous
+RIBBON (sad): My name is Ribbon. I'm from Ripple Star. Our crystal keeps the whole planet safe.
+RIBBON (sad): But a dark cloud attacked us. I flew away with the crystal, and it shattered when I fell.
+KIRBY (sad): Poyo...
+RIBBON (nervous): There are five shards. They could be anywhere in Dream Land.
+KIRBY (excited): Poyo!
+RIBBON (surprised): You'll help me? Really?
+KIRBY (happy): Poyo poyo!
 
-# ------------------------------------------------------------ CASTLE DEDEEDEE
+# ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC jazz
 SCENE dedeedee_castle
-PLACE dedeedee center left smug
-PLACE waddle_dii midright left happy
-DEDEEDEE (smug): Waddle Dii! I found a shiny thing in my garden! Sparkly! Pretty! It's mine!
-WADDLE_DII (surprised): It's glowing, Your Majesty.
-DEDEEDEE (excited): A glowing royal jewel! I'll put it on my crown!
-ENTER kirbie left left excited
-ENTER ribbonn left midleft nervous
-RIBBONN (excited): That's a piece of my crystal!
-DEDEEDEE (angry): Finders keepers!
-KIRBIE (angry): Poyo!
+PLACE dedede center left smug
+PLACE waddle_dee midright left happy
+DEDEDE (smug): Waddle Dee! I found a shiny thing in my garden! Sparkly! Pretty! It's mine!
+WADDLE_DEE (surprised): It's glowing, Your Majesty.
+DEDEDE (excited): A glowing royal jewel! I'll put it on my crown!
+ENTER kirby left left excited
+ENTER ribbon left midleft nervous
+RIBBON (excited): That's a piece of my crystal!
+DEDEDE (angry): Finders keepers!
+KIRBY (angry): Poyo!
 
-# ------------------------------------------------------------ CASTLE DEDEEDEE
+# ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC tense
 SCENE dedeedee_castle
-PLACE dedeedee center left nervous
-PLACE ribbonn midleft right sad
-PLACE kirbie left right angry
-RIBBONN (sad): Please, King Dedeedee. Without it, my whole planet will be in danger.
-DEDEEDEE (nervous): Your whole planet?
-RIBBONN (sad): Everyone I love lives there.
-DEDEEDEE (shy): Well. When you put it like that. Here. Take it. But I'm keeping the sparkly box it came in.
-RIBBONN (happy): Thank you, King Dedeedee!
-KIRBIE (happy): Poyo!
+PLACE dedede center left nervous
+PLACE ribbon midleft right sad
+PLACE kirby left right angry
+RIBBON (sad): Please, King Dedede. Without it, my whole planet will be in danger.
+DEDEDE (nervous): Your whole planet?
+RIBBON (sad): Everyone I love lives there.
+DEDEDE (shy): Well. When you put it like that. Here. Take it. But I'm keeping the sparkly box it came in.
+RIBBON (happy): Thank you, King Dedede!
+KIRBY (happy): Poyo!
 NARRATOR: One shard down. Four to go.
 
-# ------------------------------------------------------------ WHISPEE'S FOREST
+# ------------------------------------------------------------ WHISPY'S FOREST
 MUSIC sneaky
 SCENE whispee_forest
-PLACE whispee_woods center left angry
-ENTER kirbie left midleft happy
-ENTER ribbonn left left nervous
-WHISPEE_WOODS (angry): Ohhh, a shiny rock landed in my branches. It's tickling me terribly!
-RIBBONN (excited): That's the second shard!
-WHISPEE_WOODS (smug): You may have it. If you can catch it!
+PLACE whispy_woods center left angry
+ENTER kirby left midleft happy
+ENTER ribbon left left nervous
+WHISPY_WOODS (angry): Ohhh, a shiny rock landed in my branches. It's tickling me terribly!
+RIBBON (excited): That's the second shard!
+WHISPY_WOODS (smug): You may have it. If you can catch it!
 SFX boing
-NARRATOR: Whispee shook his branches. Apples fell everywhere. And one glowing shard.
-KIRBIE (excited): Poyo!
-JUMP kirbie
+NARRATOR: Whispy shook his branches. Apples fell everywhere. And one glowing shard.
+KIRBY (excited): Poyo!
+JUMP kirby
 SFX sparkle
-RIBBONN (excited): Kirbie caught it! Two shards!
+RIBBON (excited): Kirby caught it! Two shards!
 
 # ------------------------------------------------------------ ORANGE OCEAN
 MUSIC jazz 2
 SCENE orange_ocean
-ENTER kirbie left midleft happy
-ENTER ribbonn left left happy
-RIBBONN (happy): The third shard is somewhere on this beach. I can feel it.
-KIRBIE (surprised): Poyo?
+ENTER kirby left midleft happy
+ENTER ribbon left left happy
+RIBBON (happy): The third shard is somewhere on this beach. I can feel it.
+KIRBY (surprised): Poyo?
 NARRATOR: There was one problem. The shard was at the bottom of the ocean.
-RIBBONN (nervous): Can you swim, Kirbie?
-KIRBIE (smug): Poyo.
-NARRATOR: Kirbie took a deep breath and puffed up like a balloon. Then he floated. That was not swimming. But it helped.
+RIBBON (nervous): Can you swim, Kirby?
+KIRBY (smug): Poyo.
+NARRATOR: Kirby took a deep breath and puffed up like a balloon. Then he floated. That was not swimming. But it helped.
 
 # ------------------------------------------------------------ ORANGE OCEAN
 MUSIC happy 2
 SCENE orange_ocean
-PLACE kirbie center right excited
-PLACE ribbonn midleft right excited
+PLACE kirby center right excited
+PLACE ribbon midleft right excited
 SFX bubbles
-NARRATOR: Kirbie dove. He came back up. He dove again. He came back up with a fish.
-KIRBIE (happy): Poyo!
-RIBBONN (smug): That's a fish, Kirbie.
+NARRATOR: Kirby dove. He came back up. He dove again. He came back up with a fish.
+KIRBY (happy): Poyo!
+RIBBON (smug): That's a fish, Kirby.
 NARRATOR: He dove a third time. He came back up with the shard. And a second fish, for lunch.
 SFX sparkle
-RIBBONN (excited): Three shards!
+RIBBON (excited): Three shards!
 
 # ------------------------------------------------------------ BUTTER BUILDING
 MUSIC jazz 3
 SCENE butter_building
 PLACE waddle_doo center left happy
-ENTER kirbie left midleft excited
-ENTER ribbonn left left nervous
+ENTER kirby left midleft excited
+ENTER ribbon left left nervous
 WADDLE_DOO (happy): A glowing rock? I saw one fly by the tower an hour ago! Toward Cloudy Park!
-RIBBONN (excited): The fourth shard!
+RIBBON (excited): The fourth shard!
 WADDLE_DOO (excited): I'd go with you, but I'm guarding the tower. Zap zap.
-KIRBIE (happy): Poyo!
+KIRBY (happy): Poyo!
 
 # ------------------------------------------------------------ CLOUDY PARK
 MUSIC tense 2
 SCENE cloudy_park
-PLACE magalor center left smug
-ENTER kirbie left midleft excited
-ENTER ribbonn left left nervous
-MAGALOR (smug): Ah, Kirbie! Looking for this? A lovely glowing shard. I found it on a cloud.
-RIBBONN (excited): Give it back! It's mine!
-MAGALOR (happy): Of course, of course. For a small fee. Perhaps a favor?
-KIRBIE (angry): Poyo.
-MAGALOR (nervous): Or no fee. No fee is also good. Here you go.
-RIBBONN (surprised): That was easy.
-MAGALOR (smug): Kirbie can inhale anything. I've seen it. I'd rather not be inhaled.
+PLACE magolor center left smug
+ENTER kirby left midleft excited
+ENTER ribbon left left nervous
+MAGOLOR (smug): Ah, Kirby! Looking for this? A lovely glowing shard. I found it on a cloud.
+RIBBON (excited): Give it back! It's mine!
+MAGOLOR (happy): Of course, of course. For a small fee. Perhaps a favor?
+KIRBY (angry): Poyo.
+MAGOLOR (nervous): Or no fee. No fee is also good. Here you go.
+RIBBON (surprised): That was easy.
+MAGOLOR (smug): Kirby can inhale anything. I've seen it. I'd rather not be inhaled.
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC action
 SCENE halberd_deck
-PLACE meta_nite center left neutral
-ENTER kirbie left midleft excited
-ENTER ribbonn left left nervous
-META_NITE: Kirbie. I have the final shard. It fell onto my ship.
-RIBBONN (excited): Please, can we have it?
-META_NITE (smug): You may have it. If Kirbie can beat me in a duel.
-KIRBIE (excited): Poyo!
+PLACE meta_knight center left neutral
+ENTER kirby left midleft excited
+ENTER ribbon left left nervous
+META_KNIGHT: Kirby. I have the final shard. It fell onto my ship.
+RIBBON (excited): Please, can we have it?
+META_KNIGHT (smug): You may have it. If Kirby can beat me in a duel.
+KIRBY (excited): Poyo!
 SFX sword
 SHAKE 0.6
-NARRATOR: They fought across the deck. Sword against... Kirbie. It was very fast. And very round.
-META_NITE (happy): Well fought, Kirbie. The shard is yours.
+NARRATOR: They fought across the deck. Sword against... Kirby. It was very fast. And very round.
+META_KNIGHT (happy): Well fought, Kirby. The shard is yours.
 
 # ------------------------------------------------------------ FOUNTAIN OF DREAMS
 MUSIC romantic
 SCENE fountain_of_dreams
-PLACE kirbie center right happy
-PLACE ribbonn midleft right excited
-RIBBONN (excited): All five shards! Kirbie, put them in the fountain!
-KIRBIE (excited): Poyo!
+PLACE kirby center right happy
+PLACE ribbon midleft right excited
+RIBBON (excited): All five shards! Kirby, put them in the fountain!
+KIRBY (excited): Poyo!
 SFX sparkle
 NARRATOR: The shards glowed. They spun together. With a great flash of light, the crystal was whole again.
 SFX powerup
-RIBBONN (happy): It's fixed! Ripple Star will be safe!
-KIRBIE (happy): Poyo poyo!
+RIBBON (happy): It's fixed! Ripple Star will be safe!
+KIRBY (happy): Poyo poyo!
 
 # ------------------------------------------------------------ GREEN GREENS
 MUSIC happy 3
 SCENE green_greens
-PLACE kirbie center right happy
-PLACE ribbonn midleft right shy
-RIBBONN (shy): Kirbie. Thank you. You helped a stranger without even being asked.
-KIRBIE (happy): Poyo.
-RIBBONN (happy): Will you come visit Ripple Star someday?
-KIRBIE (excited): Poyo!
-RIBBONN (shy): And... I'll visit you too. Every summer.
-NARRATOR: She gave Kirbie a tiny kiss on the cheek. Kirbie turned even pinker. Which was very pink.
-KIRBIE (shy): ...poyo.
+PLACE kirby center right happy
+PLACE ribbon midleft right shy
+RIBBON (shy): Kirby. Thank you. You helped a stranger without even being asked.
+KIRBY (happy): Poyo.
+RIBBON (happy): Will you come visit Ripple Star someday?
+KIRBY (excited): Poyo!
+RIBBON (shy): And... I'll visit you too. Every summer.
+NARRATOR: She gave Kirby a tiny kiss on the cheek. Kirby turned even pinker. Which was very pink.
+KIRBY (shy): ...poyo.
 END

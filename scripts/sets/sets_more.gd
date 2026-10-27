@@ -1197,7 +1197,7 @@ static func _dedeedee_castle(b: Backdrop) -> void:
 		Art.shape(b.ci, PackedVector2Array([Vector2(x - 80, 140), Vector2(x, 50), Vector2(x + 80, 140)]), Color("4a78d0"), 4.5, 0.15)
 	b._door(Rect2(580, 400, 120, 140), Color("e6452f"))
 	Art.shape(b.ci, Art.rrect(Rect2(500, 260, 280, 80), 20), Color("4a78d0"), 4.0)
-	Art.text(b.ci, b.sign_font, Vector2(500, 314), "DEDEEDEE", 40, Color("f2c14e"), 6, HORIZONTAL_ALIGNMENT_CENTER, 280)
+	Art.text(b.ci, b.sign_font, Vector2(500, 314), "DEDEDE", 40, Color("f2c14e"), 6, HORIZONTAL_ALIGNMENT_CENTER, 280)
 
 
 static func _dedeedee_throne(b: Backdrop) -> void:

@@ -2,133 +2,133 @@
 @series Metroid
 @icon visor
 @number 3
-@description Dark Samuss has been pretending to be Samuss all over the galaxy. She's stealing upgrades, eating everyone's snacks and leaving bad reviews. Only the etecoons can tell them apart.
+@description Dark Samus has been pretending to be Samus all over the galaxy. She's stealing upgrades, eating everyone's snacks and leaving bad reviews. Only the etecoons can tell them apart.
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC tense
 SCENE ceres_station cut
 TITLE
 PLACE adam center left angry
-ENTER samuss left midleft neutral
-ADAM (angry): Samuss. Why did you eat the entire station's supply of space pudding?
-SAMUSS (surprised): ...?
+ENTER samus left midleft neutral
+ADAM (angry): Samus. Why did you eat the entire station's supply of space pudding?
+SAMUS (surprised): ...?
 ADAM (angry): And why did you write "this station is boring, one star" on the guestbook?
-SAMUSS (nervous): ...
+SAMUS (nervous): ...
 ADAM: Are you telling me that wasn't you?
-SAMUSS (angry): No.
+SAMUS (angry): No.
 ADAM (surprised): Then who was it?
 
 # ------------------------------------------------------------ TOURIAN
 MUSIC spooky
 SCENE tourian
-PLACE dark_samuss center left smug
-PLACE mother_brane midright left happy
-MOTHER_BRANE (happy): Excellent work, Dark Samuss. Everyone in the galaxy now thinks Samuss is a pudding thief.
-DARK_SAMUSS (smug): ...
-MOTHER_BRANE (smug): Next, I want you to steal the ancient upgrade from the Choso Ruins.
-DARK_SAMUSS (excited): ...!
-MOTHER_BRANE (excited): And then leave her a bad review. Two stars. No, one star!
-NARRATOR: Mother Brane loved bad reviews. It was her only hobby besides evil.
+PLACE dark_samus center left smug
+PLACE mother_brain midright left happy
+MOTHER_BRAIN (happy): Excellent work, Dark Samus. Everyone in the galaxy now thinks Samus is a pudding thief.
+DARK_SAMUS (smug): ...
+MOTHER_BRAIN (smug): Next, I want you to steal the ancient upgrade from the Chozo Ruins.
+DARK_SAMUS (excited): ...!
+MOTHER_BRAIN (excited): And then leave her a bad review. Two stars. No, one star!
+NARRATOR: Mother Brain loved bad reviews. It was her only hobby besides evil.
 
-# ------------------------------------------------------------ CHOSO RUINS
+# ------------------------------------------------------------ CHOZO RUINS
 MUSIC sneaky
 SCENE chozo_ruins
-PLACE choso_elder center left surprised
-ENTER dark_samuss right midright smug
-CHOSO_ELDER (surprised): Samuss? You've come for the upgrade already?
-DARK_SAMUSS (smug): ...
-CHOSO_ELDER (nervous): Your armor looks... darker than usual.
-DARK_SAMUSS (happy): ...
-CHOSO_ELDER (smug): Did you get a new paint job?
-NARRATOR: Dark Samuss nodded. She took the upgrade. She did not say thank you.
+PLACE chozo_elder center left surprised
+ENTER dark_samus right midright smug
+CHOZO_ELDER (surprised): Samus? You've come for the upgrade already?
+DARK_SAMUS (smug): ...
+CHOZO_ELDER (nervous): Your armor looks... darker than usual.
+DARK_SAMUS (happy): ...
+CHOZO_ELDER (smug): Did you get a new paint job?
+NARRATOR: Dark Samus nodded. She took the upgrade. She did not say thank you.
 
 # ------------------------------------------------------------ ITEM ROOM
 MUSIC tense 2
 SCENE item_room
-ENTER samuss left midleft neutral
-NARRATOR: When Samuss arrived at the item room, the upgrade was already gone.
-SAMUSS (angry): ...
-NARRATOR: In its place was a note. "Nice try. One star. Love, Samuss." In handwriting that was almost, but not quite, hers.
-NARRATOR: Samuss's handwriting was much neater. She took calligraphy classes.
+ENTER samus left midleft neutral
+NARRATOR: When Samus arrived at the item room, the upgrade was already gone.
+SAMUS (angry): ...
+NARRATOR: In its place was a note. "Nice try. One star. Love, Samus." In handwriting that was almost, but not quite, hers.
+NARRATOR: Samus's handwriting was much neater. She took calligraphy classes.
 
-# ------------------------------------------------------------ CHOSO RUINS
+# ------------------------------------------------------------ CHOZO RUINS
 MUSIC jazz
 SCENE chozo_ruins
-PLACE choso_elder center left nervous
-ENTER samuss left midleft angry
-CHOSO_ELDER (nervous): Samuss? But you were just here. Twenty minutes ago.
-SAMUSS (angry): Not me.
-CHOSO_ELDER (surprised): An impostor! In MY ruins!
-CHOSO_ELDER (smug): Well. I did think it was strange that you didn't hug your old teacher.
-SAMUSS (shy): ...
-NARRATOR: Samuss hugged her old teacher. Carefully. Power suits are very pointy.
+PLACE chozo_elder center left nervous
+ENTER samus left midleft angry
+CHOZO_ELDER (nervous): Samus? But you were just here. Twenty minutes ago.
+SAMUS (angry): Not me.
+CHOZO_ELDER (surprised): An impostor! In MY ruins!
+CHOZO_ELDER (smug): Well. I did think it was strange that you didn't hug your old teacher.
+SAMUS (shy): ...
+NARRATOR: Samus hugged her old teacher. Carefully. Power suits are very pointy.
 
 # ------------------------------------------------------------ BRINSTAR
 MUSIC happy
 SCENE brinstar
 PLACE etecoon center left happy
-ENTER samuss left midleft neutral
+ENTER samus left midleft neutral
 ETECOON (happy): Eee!
-NARRATOR: The etecoons have very good noses. They know Samuss smells like gunship fuel and strawberry shampoo.
+NARRATOR: The etecoons have very good noses. They know Samus smells like gunship fuel and strawberry shampoo.
 ETECOON (excited): Eee eee eee!
 NARRATOR: And they know the other one smells like evil goo and stolen pudding.
-SAMUSS (happy): ...
+SAMUS (happy): ...
 NARRATOR: The etecoons will help find the impostor.
 
 # ------------------------------------------------------------ LANDING SITE
 MUSIC sneaky 2
 SCENE landing_site
-PLACE samuss center right neutral
-PLACE baby_metroyd midleft right happy
-NARRATOR: Samuss had a plan. If Dark Samuss could pretend to be her, she could pretend to be Dark Samuss.
-SAMUSS (smug): ...
+PLACE samus center right neutral
+PLACE baby_metroid midleft right happy
+NARRATOR: Samus had a plan. If Dark Samus could pretend to be her, she could pretend to be Dark Samus.
+SAMUS (smug): ...
 NARRATOR: She painted her armor dark blue. With washable paint. She is not an animal.
-BABY_METROYD (scared): Skree!
+BABY_METROID (scared): Skree!
 NARRATOR: Even the baby was fooled. That was a good sign. Also a bit sad.
-SAMUSS (shy): ...it's me.
-BABY_METROYD (happy): Skree!
+SAMUS (shy): ...it's me.
+BABY_METROID (happy): Skree!
 
 # ------------------------------------------------------------ NORFAIR
 MUSIC action 3
 SCENE norfair
 PLACE space_pirate center left nervous
-ENTER samuss left midleft smug
-SPACE_PIRATE (nervous): Oh, Miss Dark Samuss! You're back early. The others are hiding the pudding at the wrecked ship.
-SAMUSS (smug): ...
+ENTER samus left midleft smug
+SPACE_PIRATE (nervous): Oh, Miss Dark Samus! You're back early. The others are hiding the pudding at the wrecked ship.
+SAMUS (smug): ...
 SPACE_PIRATE (happy): Want me to show you the way?
-SAMUSS: Yes.
+SAMUS: Yes.
 NARRATOR: The disguise worked. The paint was already running in the heat. But it worked.
 
 # ------------------------------------------------------------ WRECKED SHIP
 MUSIC spooky 2
 SCENE wrecked_ship
-PLACE dark_samuss center left smug
+PLACE dark_samus center left smug
 PLACE space_pirate midright left nervous
-SPACE_PIRATE (nervous): Um, Miss Dark Samuss? Can I have some of that pudding?
-DARK_SAMUSS (angry): ...
+SPACE_PIRATE (nervous): Um, Miss Dark Samus? Can I have some of that pudding?
+DARK_SAMUS (angry): ...
 SPACE_PIRATE (sad): Right. Evil. Sharing isn't evil.
 SFX squeak
 SPACE_PIRATE (scared): Did you hear that? Something small. With a tail.
-DARK_SAMUSS (surprised): ...?
+DARK_SAMUS (surprised): ...?
 
 # ------------------------------------------------------------ WRECKED SHIP
 MUSIC action
 SCENE wrecked_ship
-PLACE dark_samuss center left surprised
+PLACE dark_samus center left surprised
 PLACE space_pirate midright left scared
 ENTER etecoon left left excited
-ENTER samuss left midleft angry 500
+ENTER samus left midleft angry 500
 ETECOON (excited): Eee! Eee!
 SPACE_PIRATE (scared): There are two of them now!
-SAMUSS (angry): ...
-DARK_SAMUSS (angry): ...
+SAMUS (angry): ...
+DARK_SAMUS (angry): ...
 NARRATOR: Two bounty hunters faced each other. Same suit. Same visor. Same silent stare. It was the quietest standoff in history.
 
 # ------------------------------------------------------------ WRECKED SHIP
 MUSIC action 2
 SCENE wrecked_ship
-PLACE samuss midleft right angry
-PLACE dark_samuss midright left angry
+PLACE samus midleft right angry
+PLACE dark_samus midright left angry
 SFX blast
 SHAKE 0.8
 SFX laser
@@ -136,33 +136,33 @@ SHAKE 0.6
 NARRATOR: They fought through the whole wrecked ship. Up the stairs. Down the stairs. Through the kitchen. Twice.
 SFX blast
 SHAKE 1.0
-DARK_SAMUSS (scared): ...!
-NARRATOR: Finally, Dark Samuss dropped the stolen upgrade. And the pudding. And fled.
-EXIT dark_samuss right 700
+DARK_SAMUS (scared): ...!
+NARRATOR: Finally, Dark Samus dropped the stolen upgrade. And the pudding. And fled.
+EXIT dark_samus right 700
 
 # ------------------------------------------------------------ CERES STATION
 MUSIC happy 2
 SCENE ceres_station
 PLACE adam center left happy
-ENTER samuss left midleft neutral
+ENTER samus left midleft neutral
 ENTER etecoon left left happy
 ADAM (happy): The upgrade is back. The pudding is back. And the guestbook says "five stars, sorry about earlier."
-SAMUSS (smug): ...
+SAMUS (smug): ...
 ADAM (smug): You wrote that, didn't you?
-SAMUSS (shy): Yes.
+SAMUS (shy): Yes.
 ETECOON (excited): Eee!
 ADAM (happy): And you brought a friend. Any objections to it staying for pudding?
-SAMUSS (happy): None.
+SAMUS (happy): None.
 
 # ------------------------------------------------------------ TOURIAN
 MUSIC sad
 SCENE tourian
-PLACE mother_brane center left angry
-ENTER dark_samuss right midright sad
-MOTHER_BRANE (angry): You failed. Again.
-DARK_SAMUSS (sad): ...
-MOTHER_BRANE (smug): Well. At least tell me you left her a bad review.
-DARK_SAMUSS (shy): ...
-NARRATOR: Dark Samuss had left five stars. The pudding had been very good.
-MOTHER_BRANE (angry): GET OUT OF MY JAR ROOM!
+PLACE mother_brain center left angry
+ENTER dark_samus right midright sad
+MOTHER_BRAIN (angry): You failed. Again.
+DARK_SAMUS (sad): ...
+MOTHER_BRAIN (smug): Well. At least tell me you left her a bad review.
+DARK_SAMUS (shy): ...
+NARRATOR: Dark Samus had left five stars. The pudding had been very good.
+MOTHER_BRAIN (angry): GET OUT OF MY JAR ROOM!
 END

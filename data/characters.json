@@ -1,6 +1,6 @@
 {
-	"spongebert": {
-		"name": "SpongeBert",
+	"spongebob": {
+		"name": "SpongeBob",
 		"style": "sponge",
 		"color": "#f6df4c",
 		"width": 78,
@@ -20,14 +20,18 @@
 			]
 		},
 		"show": "Bikini Bottom",
-		"home": "pineapple_house"
+		"home": "pineapple_house",
+		"aka": [
+			"spongebert",
+			"SpongeBert"
+		]
 	},
-	"pat": {
-		"name": "Pat Starfish",
+	"patrick": {
+		"name": "Patrick Star",
 		"style": "starfish",
 		"color": "#f7a1b4",
 		"width": 80,
-		"bio": "SpongeBert's best friend. Lives under a rock. Thinks very hard about things, occasionally.",
+		"bio": "SpongeBob's best friend. Lives under a rock. Thinks very hard about things, occasionally.",
 		"catchphrase": "Is mayonnaise an instrument?",
 		"voice": {
 			"pitch": 0.75,
@@ -43,10 +47,14 @@
 			]
 		},
 		"show": "Bikini Bottom",
-		"home": "pat_rock"
+		"home": "pat_rock",
+		"aka": [
+			"pat",
+			"Pat Starfish"
+		]
 	},
-	"squidwerd": {
-		"name": "Squidwerd",
+	"squidward": {
+		"name": "Squidward",
 		"style": "squid",
 		"color": "#a4d4c8",
 		"width": 66,
@@ -65,14 +73,18 @@
 			]
 		},
 		"show": "Bikini Bottom",
-		"home": "squidwerd_house"
+		"home": "squidwerd_house",
+		"aka": [
+			"squidwerd",
+			"Squidwerd"
+		]
 	},
-	"mr_crabs": {
-		"name": "Mr. Crabs",
+	"mr_krabs": {
+		"name": "Mr. Krabs",
 		"style": "crab",
 		"color": "#e6452f",
 		"width": 90,
-		"bio": "Owner of the Krusty Crab. A retired sea captain whose one true love is money. Argh!",
+		"bio": "Owner of the Krusty Krab. A retired sea captain whose one true love is money. Argh!",
 		"catchphrase": "Argh! That's me money!",
 		"voice": {
 			"pitch": 0.45,
@@ -87,10 +99,14 @@
 			]
 		},
 		"show": "Bikini Bottom",
-		"home": "krusty_crab"
+		"home": "krusty_crab",
+		"aka": [
+			"mr_crabs",
+			"Mr. Crabs"
+		]
 	},
 	"sandy": {
-		"name": "Sandy Acorn",
+		"name": "Sandy Cheeks",
 		"style": "squirrel",
 		"color": "#b26b3c",
 		"width": 70,
@@ -110,10 +126,13 @@
 			]
 		},
 		"show": "Bikini Bottom",
-		"home": "treedome"
+		"home": "treedome",
+		"aka": [
+			"Sandy Acorn"
+		]
 	},
-	"arnald": {
-		"name": "Arnald",
+	"arnold": {
+		"name": "Arnold",
 		"style": "arnald",
 		"color": "#4a78d0",
 		"width": 60,
@@ -132,16 +151,20 @@
 				"male",
 				"google us english"
 			]
-		}
+		},
+		"aka": [
+			"arnald",
+			"Arnald"
+		]
 	},
 	"helga": {
-		"name": "Helga Potaki",
+		"name": "Helga Pataki",
 		"style": "helga",
 		"color": "#ef5a9a",
 		"width": 58,
 		"show": "Hillwood",
 		"home": "big_bobs",
-		"bio": "The toughest kid in the fourth grade, with one eyebrow and a big pink bow. Secretly writes love poems about Arnald.",
+		"bio": "The toughest kid in the fourth grade, with one eyebrow and a big pink bow. Secretly writes love poems about Arnold.",
 		"catchphrase": "Move it, football head!",
 		"voice": {
 			"pitch": 1.35,
@@ -154,17 +177,20 @@
 				"female",
 				"google us english"
 			]
-		}
+		},
+		"aka": [
+			"Helga Potaki"
+		]
 	},
-	"gerold": {
-		"name": "Gerold",
+	"gerald": {
+		"name": "Gerald",
 		"style": "gerold",
 		"color": "#d9473a",
 		"width": 62,
 		"show": "Hillwood",
 		"home": "gerold_field",
-		"bio": "Arnald's cool, level-headed best friend. Keeper of the neighborhood's urban legends. Tall hair, taller confidence.",
-		"catchphrase": "Arnald, my man!",
+		"bio": "Arnold's cool, level-headed best friend. Keeper of the neighborhood's urban legends. Tall hair, taller confidence.",
+		"catchphrase": "Arnold, my man!",
 		"voice": {
 			"pitch": 1.0,
 			"rate": 1.05,
@@ -176,7 +202,11 @@
 				"male",
 				"google uk english male"
 			]
-		}
+		},
+		"aka": [
+			"gerold",
+			"Gerold"
+		]
 	},
 	"grandpa": {
 		"name": "Grandpa Phil",
@@ -185,7 +215,7 @@
 		"width": 60,
 		"show": "Hillwood",
 		"home": "green_meats",
-		"bio": "Arnald's grandpa. Runs the Sunset Arms boarding house, tells tall tales from the old days, and calls Arnald \"Shortman\".",
+		"bio": "Arnold's grandpa. Runs the Sunset Arms boarding house, tells tall tales from the old days, and calls Arnold \"Shortman\".",
 		"catchphrase": "Shortman! Back in my day...",
 		"voice": {
 			"pitch": 0.7,
@@ -200,8 +230,8 @@
 			]
 		}
 	},
-	"phoebee": {
-		"name": "Phoebee",
+	"phoebe": {
+		"name": "Phoebe",
 		"style": "phoebee",
 		"color": "#3d6fd0",
 		"width": 54,
@@ -220,7 +250,11 @@
 				"female",
 				"google uk english female"
 			]
-		}
+		},
+		"aka": [
+			"phoebee",
+			"Phoebee"
+		]
 	},
 	"plankton": {
 		"name": "Plankton",
@@ -270,7 +304,7 @@
 		"show": "Bikini Bottom",
 		"home": "boating_school",
 		"bio": "The very patient boating teacher. Puffs up when she's frightened, which is often.",
-		"catchphrase": "Oh, SpongeBert... not again.",
+		"catchphrase": "Oh, SpongeBob... not again.",
 		"voice": {
 			"pitch": 1.2,
 			"rate": 1.0,
@@ -289,7 +323,7 @@
 		"width": 110,
 		"show": "Bikini Bottom",
 		"home": "krusty_dining",
-		"bio": "Mr. Crabs' teenage whale daughter. Loves the mall, hates being embarrassed.",
+		"bio": "Mr. Krabs' teenage whale daughter. Loves the mall, hates being embarrassed.",
 		"catchphrase": "Daaad! You're embarrassing me!",
 		"voice": {
 			"pitch": 1.4,
@@ -312,7 +346,7 @@
 		"width": 64,
 		"show": "Bikini Bottom",
 		"home": "sponge_living_room",
-		"bio": "SpongeBert's pet snail. Says only 'meow' but understands everything.",
+		"bio": "SpongeBob's pet snail. Says only 'meow' but understands everything.",
 		"catchphrase": "Meow.",
 		"voice": {
 			"pitch": 1.6,
@@ -353,7 +387,7 @@
 		"width": 60,
 		"show": "Hillwood",
 		"home": "boarding_kitchen",
-		"bio": "Arnald's wildly adventurous grandma. Karate expert, explorer, and occasional pirate.",
+		"bio": "Arnold's wildly adventurous grandma. Karate expert, explorer, and occasional pirate.",
 		"catchphrase": "Eleanor Roosevelt says hello!",
 		"voice": {
 			"pitch": 1.1,
@@ -419,7 +453,7 @@
 		"width": 58,
 		"show": "Hillwood",
 		"home": "hillwood_street",
-		"bio": "Arnald's jumpy friend who believes every scary story he hears.",
+		"bio": "Arnold's jumpy friend who believes every scary story he hears.",
 		"catchphrase": "Oh man, this is bad! This is really bad!",
 		"voice": {
 			"pitch": 1.2,
@@ -478,8 +512,8 @@
 			]
 		}
 	},
-	"dug": {
-		"name": "Dug Funnie",
+	"doug": {
+		"name": "Doug Funnie",
 		"style": "dug",
 		"color": "#5aa84a",
 		"width": 60,
@@ -499,16 +533,20 @@
 				"male",
 				"google us english"
 			]
-		}
+		},
+		"aka": [
+			"dug",
+			"Dug Funnie"
+		]
 	},
-	"skeetor": {
-		"name": "Skeetor",
+	"skeeter": {
+		"name": "Skeeter",
 		"style": "skeetor",
 		"color": "#6fb8e0",
 		"width": 60,
 		"show": "Bluffington",
 		"home": "lucky_duck_lake",
-		"bio": "Dug's best friend. Blue, goofy and the world's best honker.",
+		"bio": "Doug's best friend. Blue, goofy and the world's best honker.",
 		"catchphrase": "Honk! Honk! Ha-honk!",
 		"voice": {
 			"pitch": 1.0,
@@ -519,17 +557,21 @@
 				"christopher",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"skeetor",
+			"Skeetor"
+		]
 	},
-	"patty": {
-		"name": "Patty Mayonaise",
+	"patti": {
+		"name": "Patti Mayonnaise",
 		"style": "patty",
 		"color": "#5a8fd8",
 		"width": 56,
 		"show": "Bluffington",
 		"home": "bluffington_school",
-		"bio": "Sporty, smart and kind. Dug has had a crush on her since forever.",
-		"catchphrase": "Hi, Dug!",
+		"bio": "Sporty, smart and kind. Doug has had a crush on her since forever.",
+		"catchphrase": "Hi, Doug!",
 		"voice": {
 			"pitch": 1.35,
 			"rate": 1.05,
@@ -542,10 +584,14 @@
 				"female",
 				"google us english"
 			]
-		}
+		},
+		"aka": [
+			"patty",
+			"Patty Mayonaise"
+		]
 	},
-	"rodger": {
-		"name": "Rodger Klotz",
+	"roger": {
+		"name": "Roger Klotz",
 		"style": "rodger",
 		"color": "#9ccf6a",
 		"width": 60,
@@ -561,7 +607,11 @@
 				"george",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"rodger",
+			"Rodger Klotz"
+		]
 	},
 	"porkchop": {
 		"name": "Porkchop",
@@ -570,7 +620,7 @@
 		"width": 60,
 		"show": "Bluffington",
 		"home": "funnie_house",
-		"bio": "Dug's very smart dog. Walks on two legs when nobody's looking.",
+		"bio": "Doug's very smart dog. Walks on two legs when nobody's looking.",
 		"catchphrase": "Arf!",
 		"voice": {
 			"pitch": 1.5,
@@ -581,14 +631,14 @@
 			]
 		}
 	},
-	"judie": {
-		"name": "Judie Funnie",
+	"judy": {
+		"name": "Judy Funnie",
 		"style": "judie",
 		"color": "#2b2b33",
 		"width": 58,
 		"show": "Bluffington",
 		"home": "funnie_kitchen",
-		"bio": "Dug's older sister. A dramatic artist who quotes Shakespeare at breakfast.",
+		"bio": "Doug's older sister. A dramatic artist who quotes Shakespeare at breakfast.",
 		"catchphrase": "Doug, you are SUCH a philistine.",
 		"voice": {
 			"pitch": 1.15,
@@ -599,7 +649,11 @@
 				"karen",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"judie",
+			"Judie Funnie"
+		]
 	},
 	"beebe": {
 		"name": "Beebe Bluff",
@@ -608,7 +662,7 @@
 		"width": 58,
 		"show": "Bluffington",
 		"home": "beebe_mansion",
-		"bio": "Patty's best friend. Her family owns most of Bluffington.",
+		"bio": "Patti's best friend. Her family owns most of Bluffington.",
 		"catchphrase": "Daddy will just buy another one.",
 		"voice": {
 			"pitch": 1.3,
@@ -707,8 +761,8 @@
 			]
 		}
 	},
-	"tommi": {
-		"name": "Tommi Pickles",
+	"tommy": {
+		"name": "Tommy Pickles",
 		"style": "tommi",
 		"color": "#7ab8ea",
 		"width": 56,
@@ -728,16 +782,20 @@
 				"female",
 				"google us english"
 			]
-		}
+		},
+		"aka": [
+			"tommi",
+			"Tommi Pickles"
+		]
 	},
-	"chuckey": {
-		"name": "Chuckey Finster",
+	"chuckie": {
+		"name": "Chuckie Finster",
 		"style": "chuckey",
 		"color": "#e5642a",
 		"width": 56,
 		"show": "Playpen",
 		"home": "finster_house",
-		"bio": "Tommi's best friend. Scared of almost everything, brave when it counts.",
+		"bio": "Tommy's best friend. Scared of almost everything, brave when it counts.",
 		"catchphrase": "I don't think this is such a good idea!",
 		"voice": {
 			"pitch": 1.6,
@@ -747,16 +805,20 @@
 				"alex",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"chuckey",
+			"Chuckey Finster"
+		]
 	},
-	"angelika": {
-		"name": "Angelika Pickles",
+	"angelica": {
+		"name": "Angelica Pickles",
 		"style": "angelika",
 		"color": "#9b5fd0",
 		"width": 56,
 		"show": "Playpen",
 		"home": "pickles_living_room",
-		"bio": "Tommi's bossy three-year-old cousin. Rules the playpen with an iron fist.",
+		"bio": "Tommy's bossy three-year-old cousin. Rules the playpen with an iron fist.",
 		"catchphrase": "You dumb babies!",
 		"voice": {
 			"pitch": 1.55,
@@ -770,17 +832,21 @@
 				"female",
 				"google us english"
 			]
-		}
+		},
+		"aka": [
+			"angelika",
+			"Angelika Pickles"
+		]
 	},
-	"phill": {
-		"name": "Phill DeVille",
+	"phil": {
+		"name": "Phil DeVille",
 		"style": "phill",
 		"color": "#6fbf6a",
 		"width": 54,
 		"show": "Playpen",
 		"home": "pickles_backyard",
 		"bio": "One of the twins. Loves worms, mud and arguing with his sister.",
-		"catchphrase": "Did not, Lill!",
+		"catchphrase": "Did not, Lil!",
 		"voice": {
 			"pitch": 1.65,
 			"rate": 1.15,
@@ -788,17 +854,21 @@
 			"prefer": [
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"phill",
+			"Phill DeVille"
+		]
 	},
-	"lill": {
-		"name": "Lill DeVille",
+	"lil": {
+		"name": "Lil DeVille",
 		"style": "lill",
 		"color": "#f28cb8",
 		"width": 54,
 		"show": "Playpen",
 		"home": "playground",
 		"bio": "The other twin. Loves worms just as much, thank you very much.",
-		"catchphrase": "Did too, Phill!",
+		"catchphrase": "Did too, Phil!",
 		"voice": {
 			"pitch": 1.75,
 			"rate": 1.15,
@@ -806,16 +876,20 @@
 			"prefer": [
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"lill",
+			"Lill DeVille"
+		]
 	},
-	"stew": {
-		"name": "Stew Pickles",
+	"stu": {
+		"name": "Stu Pickles",
 		"style": "stew",
 		"color": "#7a5fc0",
 		"width": 64,
 		"show": "Playpen",
 		"home": "stu_basement",
-		"bio": "Tommi's dad. Toy inventor. Most of his toys explode.",
+		"bio": "Tommy's dad. Toy inventor. Most of his toys explode.",
 		"catchphrase": "This one's gonna be a winner!",
 		"voice": {
 			"pitch": 0.95,
@@ -827,16 +901,20 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"stew",
+			"Stew Pickles"
+		]
 	},
-	"didee": {
-		"name": "Didee Pickles",
+	"didi": {
+		"name": "Didi Pickles",
 		"style": "didee",
 		"color": "#4a8fe0",
 		"width": 60,
 		"show": "Playpen",
 		"home": "pickles_kitchen",
-		"bio": "Tommi's mom. Has read every baby book ever written.",
+		"bio": "Tommy's mom. Has read every baby book ever written.",
 		"catchphrase": "Dr. Lipschitz says...",
 		"voice": {
 			"pitch": 1.2,
@@ -849,16 +927,20 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"didee",
+			"Didee Pickles"
+		]
 	},
-	"grandpa_lew": {
-		"name": "Grandpa Lew",
+	"grandpa_lou": {
+		"name": "Grandpa Lou",
 		"style": "grandpa_lew",
 		"color": "#f2efe6",
 		"width": 60,
 		"show": "Playpen",
 		"home": "pickles_living_room",
-		"bio": "Tommi's grandpa. Supposed to be babysitting. Usually napping.",
+		"bio": "Tommy's grandpa. Supposed to be babysitting. Usually napping.",
 		"catchphrase": "Back in my day...",
 		"voice": {
 			"pitch": 0.75,
@@ -870,10 +952,14 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"grandpa_lew",
+			"Grandpa Lew"
+		]
 	},
-	"spyke": {
-		"name": "Spyke",
+	"spike": {
+		"name": "Spike",
 		"style": "mutt",
 		"color": "#b07a48",
 		"width": 60,
@@ -888,17 +974,21 @@
 			"prefer": [
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"spyke",
+			"Spyke"
+		]
 	},
-	"suzie": {
-		"name": "Suzie Carmichael",
+	"susie": {
+		"name": "Susie Carmichael",
 		"style": "suzie",
 		"color": "#f2c14e",
 		"width": 56,
 		"show": "Playpen",
 		"home": "carmichael_house",
-		"bio": "The kid across the street. Smart, brave, and Angelika's rival.",
-		"catchphrase": "Leave the babies alone, Angelika!",
+		"bio": "The kid across the street. Smart, brave, and Angelica's rival.",
+		"catchphrase": "Leave the babies alone, Angelica!",
 		"voice": {
 			"pitch": 1.3,
 			"rate": 1.05,
@@ -910,16 +1000,20 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"suzie",
+			"Suzie Carmichael"
+		]
 	},
-	"dill": {
-		"name": "Dill Pickles",
+	"dil": {
+		"name": "Dil Pickles",
 		"style": "dill",
 		"color": "#7ab8ea",
 		"width": 50,
 		"show": "Playpen",
 		"home": "nursery",
-		"bio": "Tommi's baby brother. Mostly drools.",
+		"bio": "Tommy's baby brother. Mostly drools.",
 		"catchphrase": "Gah!",
 		"voice": {
 			"pitch": 1.7,
@@ -932,16 +1026,20 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"dill",
+			"Dill Pickles"
+		]
 	},
-	"jessee": {
-		"name": "Jessee",
+	"jessie": {
+		"name": "Jessie",
 		"style": "jessee",
 		"color": "#d9407a",
 		"width": 62,
 		"show": "Pokemon",
 		"home": "cliff_top",
-		"bio": "Team Rokket's dramatic, short-tempered leader of schemes.",
+		"bio": "Team Rocket's dramatic, short-tempered leader of schemes.",
 		"catchphrase": "Prepare for trouble!",
 		"voice": {
 			"pitch": 1.25,
@@ -952,16 +1050,20 @@
 				"susan",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"jessee",
+			"Jessee"
+		]
 	},
-	"jaymes": {
-		"name": "Jaymes",
+	"james": {
+		"name": "James",
 		"style": "jaymes",
 		"color": "#8f8fd8",
 		"width": 62,
 		"show": "Pokemon",
 		"home": "rokket_camp",
-		"bio": "Team Rokket's softhearted schemer. Loves bottle caps and dramatic poses.",
+		"bio": "Team Rocket's softhearted schemer. Loves bottle caps and dramatic poses.",
 		"catchphrase": "Make it double!",
 		"voice": {
 			"pitch": 1.0,
@@ -971,10 +1073,14 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"jaymes",
+			"Jaymes"
+		]
 	},
-	"meowt": {
-		"name": "Meowt",
+	"meowth": {
+		"name": "Meowth",
 		"style": "cat",
 		"color": "#f3e3b4",
 		"width": 56,
@@ -990,10 +1096,14 @@
 				"fred",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"meowt",
+			"Meowt"
+		]
 	},
-	"wobbafett": {
-		"name": "Wobbafett",
+	"wobbuffet": {
+		"name": "Wobbuffet",
 		"style": "wobble",
 		"color": "#6fa8e6",
 		"width": 62,
@@ -1008,16 +1118,20 @@
 			"prefer": [
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"wobbafett",
+			"Wobbafett"
+		]
 	},
-	"boss": {
-		"name": "The Boss",
+	"giovanni": {
+		"name": "Giovanni",
 		"style": "boss",
 		"color": "#c8742a",
 		"width": 64,
 		"show": "Pokemon",
 		"home": "rokket_hq",
-		"bio": "Team Rokket's stern boss. Disappointed. Always disappointed.",
+		"bio": "Team Rocket's stern boss. Disappointed. Always disappointed.",
 		"catchphrase": "You have failed me again.",
 		"voice": {
 			"pitch": 0.6,
@@ -1028,10 +1142,14 @@
 				"george",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"boss",
+			"The Boss"
+		]
 	},
-	"ashe": {
-		"name": "Ashe Ketchum",
+	"ash": {
+		"name": "Ash Ketchum",
 		"style": "ashe",
 		"color": "#4a78d0",
 		"width": 58,
@@ -1048,16 +1166,20 @@
 				"alex",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"ashe",
+			"Ashe Ketchum"
+		]
 	},
-	"pikachew": {
-		"name": "Pikachew",
+	"pikachu": {
+		"name": "Pikachu",
 		"style": "mouse",
 		"color": "#f6d63c",
 		"width": 54,
 		"show": "Pokemon",
 		"home": "pallut_town",
-		"bio": "Ashe's electric mouse. Refuses to ride in a ball.",
+		"bio": "Ash's electric mouse. Refuses to ride in a ball.",
 		"catchphrase": "Pika-chew!",
 		"voice": {
 			"pitch": 1.8,
@@ -1070,17 +1192,21 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"pikachew",
+			"Pikachew"
+		]
 	},
-	"mistee": {
-		"name": "Mistee",
+	"misty": {
+		"name": "Misty",
 		"style": "mistee",
 		"color": "#f07a2a",
 		"width": 56,
 		"show": "Pokemon",
 		"home": "ceruleen_gym",
 		"bio": "A water-monster trainer with a short temper and a big mallet.",
-		"catchphrase": "Ashe, you are SO dense!",
+		"catchphrase": "Ash, you are SO dense!",
 		"voice": {
 			"pitch": 1.3,
 			"rate": 1.1,
@@ -1092,17 +1218,21 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"mistee",
+			"Mistee"
+		]
 	},
-	"brok": {
-		"name": "Brok",
+	"brock": {
+		"name": "Brock",
 		"style": "brok",
 		"color": "#e08a3a",
 		"width": 60,
 		"show": "Pokemon",
 		"home": "tall_grass",
 		"bio": "A rock-type trainer and great cook. Falls in love in every town.",
-		"catchphrase": "Leave it to Brok!",
+		"catchphrase": "Leave it to Brock!",
 		"voice": {
 			"pitch": 0.9,
 			"rate": 1.0,
@@ -1113,10 +1243,14 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"brok",
+			"Brok"
+		]
 	},
-	"nurse_joi": {
-		"name": "Nurse Joi",
+	"nurse_joy": {
+		"name": "Nurse Joy",
 		"style": "nurse_joi",
 		"color": "#f28cb8",
 		"width": 58,
@@ -1135,17 +1269,21 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"nurse_joi",
+			"Nurse Joi"
+		]
 	},
-	"officer_jenni": {
-		"name": "Officer Jenni",
+	"officer_jenny": {
+		"name": "Officer Jenny",
 		"style": "officer_jenni",
 		"color": "#3d5aa8",
 		"width": 58,
 		"show": "Pokemon",
 		"home": "town_square",
 		"bio": "Town police. Has a dozen cousins who look exactly like her too.",
-		"catchphrase": "Freeze, Team Rokket!",
+		"catchphrase": "Freeze, Team Rocket!",
 		"voice": {
 			"pitch": 1.1,
 			"rate": 1.05,
@@ -1155,17 +1293,21 @@
 				"karen",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"officer_jenni",
+			"Officer Jenni"
+		]
 	},
-	"gokku": {
-		"name": "Gokku",
+	"goku": {
+		"name": "Goku",
 		"style": "gokku",
 		"color": "#f2852a",
 		"width": 70,
 		"show": "Dragonball Z",
 		"home": "gokku_house",
 		"bio": "A cheerful Saiyan martial artist who's always hungry and always training.",
-		"catchphrase": "Hi, I'm Gokku!",
+		"catchphrase": "Hi, I'm Goku!",
 		"voice": {
 			"pitch": 1.15,
 			"rate": 1.1,
@@ -1175,16 +1317,20 @@
 				"alex",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"gokku",
+			"Gokku"
+		]
 	},
-	"vegitta": {
-		"name": "Vegitta",
+	"vegeta": {
+		"name": "Vegeta",
 		"style": "vegitta",
 		"color": "#2f4f9a",
 		"width": 66,
 		"show": "Dragonball Z",
 		"home": "capsool_corp",
-		"bio": "The proud prince of all Saiyans. Gokku's rival, whether Gokku likes it or not.",
+		"bio": "The proud prince of all Saiyans. Goku's rival, whether Goku likes it or not.",
 		"catchphrase": "I am the prince of all Saiyans!",
 		"voice": {
 			"pitch": 0.95,
@@ -1196,16 +1342,20 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"vegitta",
+			"Vegitta"
+		]
 	},
-	"gohann": {
-		"name": "Gohann",
+	"gohan": {
+		"name": "Gohan",
 		"style": "gohann",
 		"color": "#5a3fa0",
 		"width": 60,
 		"show": "Dragonball Z",
 		"home": "gokku_house",
-		"bio": "Gokku's son. Would rather be studying, but secretly the strongest of them all.",
+		"bio": "Goku's son. Would rather be studying, but secretly the strongest of them all.",
 		"catchphrase": "I'll protect everyone!",
 		"voice": {
 			"pitch": 1.25,
@@ -1215,16 +1365,20 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"gohann",
+			"Gohann"
+		]
 	},
-	"picollo": {
-		"name": "Picollo",
+	"piccolo": {
+		"name": "Piccolo",
 		"style": "picollo",
 		"color": "#6fbf4a",
 		"width": 70,
 		"show": "Dragonball Z",
 		"home": "the_lookout",
-		"bio": "A grumpy green warrior from Planet Nameck. Gohann's mentor and secret softie.",
+		"bio": "A grumpy green warrior from Planet Namek. Gohan's mentor and secret softie.",
 		"catchphrase": "Hmph. Pathetic.",
 		"voice": {
 			"pitch": 0.75,
@@ -1235,16 +1389,20 @@
 				"george",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"picollo",
+			"Picollo"
+		]
 	},
-	"krillen": {
-		"name": "Krillen",
+	"krillin": {
+		"name": "Krillin",
 		"style": "krillen",
 		"color": "#f2852a",
 		"width": 56,
 		"show": "Dragonball Z",
 		"home": "kamee_house",
-		"bio": "Gokku's best friend. Bald, brave and usually the first to get flattened.",
+		"bio": "Goku's best friend. Bald, brave and usually the first to get flattened.",
 		"catchphrase": "Not again!",
 		"voice": {
 			"pitch": 1.3,
@@ -1256,10 +1414,14 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"krillen",
+			"Krillen"
+		]
 	},
-	"bulmah": {
-		"name": "Bulmah",
+	"bulma": {
+		"name": "Bulma",
 		"style": "bulmah",
 		"color": "#3fbcc0",
 		"width": 58,
@@ -1278,16 +1440,20 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"bulmah",
+			"Bulmah"
+		]
 	},
-	"master_roshee": {
-		"name": "Master Roshee",
+	"master_roshi": {
+		"name": "Master Roshi",
 		"style": "master_roshee",
 		"color": "#f2c14e",
 		"width": 62,
 		"show": "Dragonball Z",
 		"home": "kamee_house",
-		"bio": "The old Turtle Hermit who trained Gokku. Mostly naps and reads magazines now.",
+		"bio": "The old Turtle Hermit who trained Goku. Mostly naps and reads magazines now.",
 		"catchphrase": "Ho ho ho!",
 		"voice": {
 			"pitch": 0.8,
@@ -1299,10 +1465,14 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"master_roshee",
+			"Master Roshee"
+		]
 	},
-	"freeza": {
-		"name": "Freeza",
+	"frieza": {
+		"name": "Frieza",
 		"style": "freeza",
 		"color": "#9b5fd0",
 		"width": 56,
@@ -1318,10 +1488,14 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"freeza",
+			"Freeza"
+		]
 	},
-	"sel": {
-		"name": "Cel",
+	"cell": {
+		"name": "Cell",
 		"style": "sel",
 		"color": "#8fd06a",
 		"width": 64,
@@ -1339,16 +1513,20 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"sel",
+			"Cel"
+		]
 	},
-	"trunkz": {
-		"name": "Trunkz",
+	"trunks": {
+		"name": "Trunks",
 		"style": "trunkz",
 		"color": "#b9a6e0",
 		"width": 60,
 		"show": "Dragonball Z",
 		"home": "capsool_corp",
-		"bio": "Vegitta and Bulmah's son from a gloomy future. Carries a very cool sword.",
+		"bio": "Vegeta and Bulma's son from a gloomy future. Carries a very cool sword.",
 		"catchphrase": "I came from the future!",
 		"voice": {
 			"pitch": 1.1,
@@ -1360,17 +1538,21 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"trunkz",
+			"Trunkz"
+		]
 	},
-	"chee_chee": {
-		"name": "Chee-Chee",
+	"chi_chi": {
+		"name": "Chi-Chi",
 		"style": "chee_chee",
 		"color": "#7a3fa0",
 		"width": 58,
 		"show": "Dragonball Z",
 		"home": "gokku_house",
-		"bio": "Gokku's wife. Wants Gohann to study and Gokku to get a job. Has a frying pan.",
-		"catchphrase": "GOKKU!",
+		"bio": "Goku's wife. Wants Gohan to study and Goku to get a job. Has a frying pan.",
+		"catchphrase": "GOKU!",
 		"voice": {
 			"pitch": 1.3,
 			"rate": 1.15,
@@ -1382,10 +1564,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"chee_chee",
+			"Chee-Chee"
+		]
 	},
-	"erren": {
-		"name": "Erren Jaeger",
+	"eren": {
+		"name": "Eren Jaeger",
 		"style": "erren",
 		"color": "#c8a06a",
 		"width": 58,
@@ -1403,17 +1589,21 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"erren",
+			"Erren Jaeger"
+		]
 	},
-	"mikasah": {
-		"name": "Mikasah Ackerman",
+	"mikasa": {
+		"name": "Mikasa Ackerman",
 		"style": "mikasah",
 		"color": "#c1272d",
 		"width": 56,
 		"show": "Attack on Titan",
 		"home": "wall_top",
-		"bio": "Erren's quiet, unstoppable friend. Never takes off her red scarf.",
-		"catchphrase": "Erren. Calm down.",
+		"bio": "Eren's quiet, unstoppable friend. Never takes off her red scarf.",
+		"catchphrase": "Eren. Calm down.",
 		"voice": {
 			"pitch": 1.1,
 			"rate": 0.95,
@@ -1425,10 +1615,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"mikasah",
+			"Mikasah Ackerman"
+		]
 	},
-	"armen": {
-		"name": "Armen Arlert",
+	"armin": {
+		"name": "Armin Arlert",
 		"style": "armen",
 		"color": "#f4d24e",
 		"width": 54,
@@ -1444,10 +1638,14 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"armen",
+			"Armen Arlert"
+		]
 	},
-	"levee": {
-		"name": "Captain Levee",
+	"levi": {
+		"name": "Captain Levi",
 		"style": "levee",
 		"color": "#1d1d22",
 		"width": 54,
@@ -1463,10 +1661,14 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"levee",
+			"Captain Levee"
+		]
 	},
-	"hanjee": {
-		"name": "Hanjee Zoe",
+	"hange": {
+		"name": "Hange Zoë",
 		"style": "hanjee",
 		"color": "#6b4428",
 		"width": 58,
@@ -1485,10 +1687,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"hanjee",
+			"Hanjee Zoe"
+		]
 	},
-	"jeen": {
-		"name": "Jeen Kirstein",
+	"jean": {
+		"name": "Jean Kirstein",
 		"style": "jeen",
 		"color": "#a07a4a",
 		"width": 58,
@@ -1506,10 +1712,14 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"jeen",
+			"Jeen Kirstein"
+		]
 	},
-	"sascha": {
-		"name": "Sascha Braus",
+	"sasha": {
+		"name": "Sasha Braus",
 		"style": "sascha",
 		"color": "#8a5a36",
 		"width": 56,
@@ -1528,10 +1738,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"sascha",
+			"Sascha Braus"
+		]
 	},
-	"konny": {
-		"name": "Konny Springer",
+	"connie_springer": {
+		"name": "Connie Springer",
 		"style": "konny",
 		"color": "#6b6f78",
 		"width": 52,
@@ -1549,10 +1763,14 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"konny",
+			"Konny Springer"
+		]
 	},
-	"rayner": {
-		"name": "Rayner",
+	"reiner": {
+		"name": "Reiner",
 		"style": "rayner",
 		"color": "#e8c860",
 		"width": 66,
@@ -1570,10 +1788,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"rayner",
+			"Rayner"
+		]
 	},
-	"irwin": {
-		"name": "Commander Irwin",
+	"erwin": {
+		"name": "Commander Erwin",
 		"style": "irwin",
 		"color": "#f4d24e",
 		"width": 64,
@@ -1591,10 +1813,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"irwin",
+			"Commander Irwin"
+		]
 	},
-	"grinning_titan": {
-		"name": "Grinning Titan",
+	"smiling_titan": {
+		"name": "Smiling Titan",
 		"style": "titan",
 		"color": "#e8b48a",
 		"width": 96,
@@ -1612,10 +1838,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"grinning_titan",
+			"Grinning Titan"
+		]
 	},
 	"walt": {
-		"name": "Walt Whyte",
+		"name": "Walter White",
 		"style": "walt",
 		"color": "#8fa06a",
 		"width": 62,
@@ -1632,10 +1862,13 @@
 				"george",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"Walt Whyte"
+		]
 	},
-	"pinkman": {
-		"name": "Jessie Pinkmann",
+	"jesse": {
+		"name": "Jesse Pinkman",
 		"style": "pinkman",
 		"color": "#f2c14e",
 		"width": 60,
@@ -1651,10 +1884,14 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"pinkman",
+			"Jessie Pinkmann"
+		]
 	},
-	"skylar": {
-		"name": "Skylar Whyte",
+	"skyler": {
+		"name": "Skyler White",
 		"style": "skylar",
 		"color": "#4a78d0",
 		"width": 58,
@@ -1673,10 +1910,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"skylar",
+			"Skylar Whyte"
+		]
 	},
 	"hank": {
-		"name": "Hank Schraeder",
+		"name": "Hank Schrader",
 		"style": "hank",
 		"color": "#3d4a5a",
 		"width": 70,
@@ -1694,10 +1935,13 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"Hank Schraeder"
+		]
 	},
-	"maree": {
-		"name": "Maree Schraeder",
+	"marie": {
+		"name": "Marie Schrader",
 		"style": "maree",
 		"color": "#9b5fd0",
 		"width": 58,
@@ -1716,7 +1960,11 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"maree",
+			"Maree Schraeder"
+		]
 	},
 	"flynn": {
 		"name": "Flynn",
@@ -1740,7 +1988,7 @@
 		}
 	},
 	"saul": {
-		"name": "Saul Goodmann",
+		"name": "Saul Goodman",
 		"style": "saul",
 		"color": "#d9c27a",
 		"width": 62,
@@ -1758,10 +2006,13 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"Saul Goodmann"
+		]
 	},
 	"gus": {
-		"name": "Gus Frinng",
+		"name": "Gus Fring",
 		"style": "gus",
 		"color": "#f2c14e",
 		"width": 62,
@@ -1779,16 +2030,19 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"Gus Frinng"
+		]
 	},
 	"mike": {
-		"name": "Mike Ermantrout",
+		"name": "Mike Ehrmantraut",
 		"style": "mike",
 		"color": "#a89a7a",
 		"width": 64,
 		"show": "Breaking Bad",
 		"home": "laundry",
-		"bio": "A tired fixer who's seen it all. Fond of half measures. Not fond of Jessie.",
+		"bio": "A tired fixer who's seen it all. Fond of half measures. Not fond of Jesse.",
 		"catchphrase": "No more half measures.",
 		"voice": {
 			"pitch": 0.75,
@@ -1800,16 +2054,19 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"Mike Ermantrout"
+		]
 	},
-	"badgur": {
-		"name": "Badgur",
+	"badger": {
+		"name": "Badger",
 		"style": "badgur",
 		"color": "#8a8f98",
 		"width": 56,
 		"show": "Breaking Bad",
 		"home": "junkyard",
-		"bio": "Jessie's friend. Has big ideas for a space movie.",
+		"bio": "Jesse's friend. Has big ideas for a space movie.",
 		"catchphrase": "Yo, check this out!",
 		"voice": {
 			"pitch": 0.95,
@@ -1821,16 +2078,20 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"badgur",
+			"Badgur"
+		]
 	},
-	"skinnee_pete": {
-		"name": "Skinnee Pete",
+	"skinny_pete": {
+		"name": "Skinny Pete",
 		"style": "skinnee_pete",
 		"color": "#b3202f",
 		"width": 52,
 		"show": "Breaking Bad",
 		"home": "pinkman_house",
-		"bio": "Jessie's other friend. Secretly a great piano player.",
+		"bio": "Jesse's other friend. Secretly a great piano player.",
 		"catchphrase": "Word.",
 		"voice": {
 			"pitch": 1.05,
@@ -1842,17 +2103,21 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"skinnee_pete",
+			"Skinnee Pete"
+		]
 	},
-	"mareo": {
-		"name": "Mareo",
+	"mario": {
+		"name": "Mario",
 		"style": "mareo",
 		"color": "#e6302a",
 		"width": 62,
 		"show": "Super Mario Brothers",
 		"home": "mushroom_kingdom",
 		"bio": "A plumber who jumps on things. Saves the princess most weekends.",
-		"catchphrase": "It's-a me, Mareo!",
+		"catchphrase": "It's-a me, Mario!",
 		"voice": {
 			"pitch": 1.25,
 			"rate": 1.15,
@@ -1861,16 +2126,20 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"mareo",
+			"Mareo"
+		]
 	},
-	"luiggi": {
-		"name": "Luiggi",
+	"luigi": {
+		"name": "Luigi",
 		"style": "luiggi",
 		"color": "#3fae4a",
 		"width": 58,
 		"show": "Super Mario Brothers",
 		"home": "mushroom_kingdom",
-		"bio": "Mareo's taller brother. Brave, mostly. Scared of ghosts, definitely.",
+		"bio": "Mario's taller brother. Brave, mostly. Scared of ghosts, definitely.",
 		"catchphrase": "Mamma mia!",
 		"voice": {
 			"pitch": 1.15,
@@ -1880,17 +2149,21 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"luiggi",
+			"Luiggi"
+		]
 	},
-	"peech": {
-		"name": "Princess Peech",
+	"peach": {
+		"name": "Princess Peach",
 		"style": "peech",
 		"color": "#f7a6c8",
 		"width": 60,
 		"show": "Super Mario Brothers",
 		"home": "peech_castle",
 		"bio": "Ruler of the Mushroom Kingdom. Gets kidnapped a lot. Bakes a great cake.",
-		"catchphrase": "Thank you, Mareo!",
+		"catchphrase": "Thank you, Mario!",
 		"voice": {
 			"pitch": 1.3,
 			"rate": 1.0,
@@ -1902,17 +2175,21 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"peech",
+			"Princess Peech"
+		]
 	},
-	"daizy": {
-		"name": "Princess Daizy",
+	"daisy": {
+		"name": "Princess Daisy",
 		"style": "daizy",
 		"color": "#f2a03a",
 		"width": 60,
 		"show": "Super Mario Brothers",
 		"home": "desert_land",
 		"bio": "A sporty princess from a neighboring kingdom. Very loud. Very fun.",
-		"catchphrase": "Hi, I'm Daizy!",
+		"catchphrase": "Hi, I'm Daisy!",
 		"voice": {
 			"pitch": 1.25,
 			"rate": 1.15,
@@ -1924,16 +2201,20 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"daizy",
+			"Princess Daizy"
+		]
 	},
-	"waryo": {
-		"name": "Waryo",
+	"wario": {
+		"name": "Wario",
 		"style": "waryo",
 		"color": "#f2c14e",
 		"width": 66,
 		"show": "Super Mario Brothers",
 		"home": "pipe_land",
-		"bio": "Mareo's greedy rival. Loves gold and garlic.",
+		"bio": "Mario's greedy rival. Loves gold and garlic.",
 		"catchphrase": "Waaah! I'm-a gonna win!",
 		"voice": {
 			"pitch": 0.85,
@@ -1945,10 +2226,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"waryo",
+			"Waryo"
+		]
 	},
-	"toadd": {
-		"name": "Toadd",
+	"toad": {
+		"name": "Toad",
 		"style": "toadd",
 		"color": "#f4f4f2",
 		"width": 54,
@@ -1967,10 +2252,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"toadd",
+			"Toadd"
+		]
 	},
-	"bowzer": {
-		"name": "Bowzer",
+	"bowser": {
+		"name": "Bowser",
 		"style": "bowzer",
 		"color": "#3f8f3a",
 		"width": 100,
@@ -1988,17 +2277,21 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"bowzer",
+			"Bowzer"
+		]
 	},
-	"yoshee": {
-		"name": "Yoshee",
+	"yoshi": {
+		"name": "Yoshi",
 		"style": "yoshee",
 		"color": "#5ac85a",
 		"width": 70,
 		"show": "Super Mario Brothers",
 		"home": "mushroom_kingdom",
 		"bio": "A friendly green dinosaur who'll eat anything with his long tongue.",
-		"catchphrase": "Yoshee!",
+		"catchphrase": "Yoshi!",
 		"voice": {
 			"pitch": 1.6,
 			"rate": 1.1,
@@ -2010,10 +2303,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"yoshee",
+			"Yoshee"
+		]
 	},
-	"donkee_kongg": {
-		"name": "Donkee Kongg",
+	"donkey_kong": {
+		"name": "Donkey Kong",
 		"style": "kongg",
 		"color": "#8a4a24",
 		"width": 96,
@@ -2031,10 +2328,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"donkee_kongg",
+			"Donkee Kongg"
+		]
 	},
-	"gumba": {
-		"name": "Gumba",
+	"goomba": {
+		"name": "Goomba",
 		"style": "gumba",
 		"color": "#a0602a",
 		"width": 64,
@@ -2052,16 +2353,20 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"gumba",
+			"Gumba"
+		]
 	},
-	"kooper": {
-		"name": "Kooper Troopa",
+	"koopa_troopa": {
+		"name": "Koopa Troopa",
 		"style": "troopa",
 		"color": "#3fae4a",
 		"width": 60,
 		"show": "Super Mario Brothers",
 		"home": "sky_land",
-		"bio": "A turtle soldier in Bowzer's army. Secretly just wants a vacation.",
+		"bio": "A turtle soldier in Bowser's army. Secretly just wants a vacation.",
 		"catchphrase": "Nobody kicks my shell!",
 		"voice": {
 			"pitch": 1.2,
@@ -2073,10 +2378,14 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"kooper",
+			"Kooper Troopa"
+		]
 	},
-	"samuss": {
-		"name": "Samuss Aran",
+	"samus": {
+		"name": "Samus Aran",
 		"style": "power_suit",
 		"color": "#e6702f",
 		"width": 70,
@@ -2093,16 +2402,20 @@
 				"karen",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"samuss",
+			"Samuss Aran"
+		]
 	},
-	"dark_samuss": {
-		"name": "Dark Samuss",
+	"dark_samus": {
+		"name": "Dark Samus",
 		"style": "dark_suit",
 		"color": "#2b2f4a",
 		"width": 70,
 		"show": "Metroid",
 		"home": "tourian",
-		"bio": "A shadowy copy of Samuss made of strange blue energy.",
+		"bio": "A shadowy copy of Samus made of strange blue energy.",
 		"catchphrase": "...",
 		"voice": {
 			"pitch": 0.7,
@@ -2111,10 +2424,14 @@
 			"prefer": [
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"dark_samuss",
+			"Dark Samuss"
+		]
 	},
-	"ridlee": {
-		"name": "Ridlee",
+	"ridley": {
+		"name": "Ridley",
 		"style": "ridlee",
 		"color": "#6a3f9a",
 		"width": 110,
@@ -2132,10 +2449,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"ridlee",
+			"Ridlee"
+		]
 	},
-	"krayd": {
-		"name": "Krayd",
+	"kraid": {
+		"name": "Kraid",
 		"style": "krayd",
 		"color": "#4f9a3a",
 		"width": 110,
@@ -2153,10 +2474,14 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"krayd",
+			"Krayd"
+		]
 	},
-	"mother_brane": {
-		"name": "Mother Brane",
+	"mother_brain": {
+		"name": "Mother Brain",
 		"style": "brain",
 		"color": "#e88aa0",
 		"width": 100,
@@ -2172,16 +2497,20 @@
 				"daniel",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"mother_brane",
+			"Mother Brane"
+		]
 	},
-	"baby_metroyd": {
-		"name": "Baby Metroyd",
+	"baby_metroid": {
+		"name": "Baby Metroid",
 		"style": "metroyd",
 		"color": "#9be27a",
 		"width": 90,
 		"show": "Metroid",
 		"home": "save_room",
-		"bio": "A floating jellyfish creature that thinks Samuss is its mom.",
+		"bio": "A floating jellyfish creature that thinks Samus is its mom.",
 		"catchphrase": "Skreee!",
 		"voice": {
 			"pitch": 1.8,
@@ -2194,16 +2523,20 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"baby_metroyd",
+			"Baby Metroyd"
+		]
 	},
 	"adam": {
-		"name": "Adam Malkovitch",
+		"name": "Adam Malkovich",
 		"style": "adam",
 		"color": "#6b7a5a",
 		"width": 62,
 		"show": "Metroid",
 		"home": "ceres_station",
-		"bio": "Samuss's old commanding officer. Very good at saying 'any objections?'",
+		"bio": "Samus's old commanding officer. Very good at saying 'any objections?'",
 		"catchphrase": "Any objections, lady?",
 		"voice": {
 			"pitch": 0.85,
@@ -2215,16 +2548,19 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"Adam Malkovitch"
+		]
 	},
-	"choso_elder": {
-		"name": "Choso Elder",
+	"chozo_elder": {
+		"name": "Chozo Elder",
 		"style": "choso",
 		"color": "#c8a06a",
 		"width": 64,
 		"show": "Metroid",
 		"home": "chozo_ruins",
-		"bio": "A wise, ancient bird-person who raised Samuss.",
+		"bio": "A wise, ancient bird-person who raised Samus.",
 		"catchphrase": "The galaxy is at peace.",
 		"voice": {
 			"pitch": 0.8,
@@ -2236,7 +2572,11 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"choso_elder",
+			"Choso Elder"
+		]
 	},
 	"space_pirate": {
 		"name": "Space Pirate",
@@ -2281,8 +2621,8 @@
 			]
 		}
 	},
-	"dachoora": {
-		"name": "Dachoora",
+	"dachora": {
+		"name": "Dachora",
 		"style": "dachoora",
 		"color": "#e8d070",
 		"width": 70,
@@ -2301,10 +2641,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"dachoora",
+			"Dachoora"
+		]
 	},
-	"kirbie": {
-		"name": "Kirbie",
+	"kirby": {
+		"name": "Kirby",
 		"style": "kirbie",
 		"color": "#f7a6c4",
 		"width": 62,
@@ -2321,16 +2665,20 @@
 				"aria",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"kirbie",
+			"Kirbie"
+		]
 	},
-	"dedeedee": {
-		"name": "King Dedeedee",
+	"dedede": {
+		"name": "King Dedede",
 		"style": "dedeedee",
 		"color": "#4a7fd8",
 		"width": 90,
 		"show": "Kirby",
 		"home": "dedeedee_castle",
-		"bio": "The greedy, self-proclaimed king of Dream Land. Loves food almost as much as Kirbie does.",
+		"bio": "The greedy, self-proclaimed king of Dream Land. Loves food almost as much as Kirby does.",
 		"catchphrase": "I'm the king around here!",
 		"voice": {
 			"pitch": 0.75,
@@ -2342,17 +2690,21 @@
 				"eric",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"dedeedee",
+			"King Dedeedee"
+		]
 	},
-	"meta_nite": {
-		"name": "Meta Nite",
+	"meta_knight": {
+		"name": "Meta Knight",
 		"style": "meta_nite",
 		"color": "#2b2f6a",
 		"width": 62,
 		"show": "Kirby",
 		"home": "halberd_deck",
 		"bio": "A masked swordsman of honor. Always appears dramatically.",
-		"catchphrase": "Fight me, Kirbie.",
+		"catchphrase": "Fight me, Kirby.",
 		"voice": {
 			"pitch": 0.8,
 			"rate": 0.9,
@@ -2361,10 +2713,14 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"meta_nite",
+			"Meta Nite"
+		]
 	},
-	"waddle_dii": {
-		"name": "Waddle Dii",
+	"waddle_dee": {
+		"name": "Waddle Dee",
 		"style": "waddle_dii",
 		"color": "#f2a65a",
 		"width": 60,
@@ -2383,17 +2739,21 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"waddle_dii",
+			"Waddle Dii"
+		]
 	},
-	"bandana_dii": {
-		"name": "Bandana Dii",
+	"bandana_dee": {
+		"name": "Bandana Dee",
 		"style": "bandana_dii",
 		"color": "#4a78d0",
 		"width": 60,
 		"show": "Kirby",
 		"home": "dedeedee_castle",
-		"bio": "The bravest Waddle Dii, with a blue bandana and a spear.",
-		"catchphrase": "I'll help, Kirbie!",
+		"bio": "The bravest Waddle Dee, with a blue bandana and a spear.",
+		"catchphrase": "I'll help, Kirby!",
 		"voice": {
 			"pitch": 1.5,
 			"rate": 1.1,
@@ -2402,7 +2762,11 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"bandana_dii",
+			"Bandana Dii"
+		]
 	},
 	"waddle_doo": {
 		"name": "Waddle Doo",
@@ -2425,8 +2789,8 @@
 			]
 		}
 	},
-	"magalor": {
-		"name": "Magalor",
+	"magolor": {
+		"name": "Magolor",
 		"style": "magalor",
 		"color": "#3f6fd8",
 		"width": 60,
@@ -2442,10 +2806,14 @@
 				"guy",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"magalor",
+			"Magalor"
+		]
 	},
-	"marks": {
-		"name": "Marks",
+	"marx": {
+		"name": "Marx",
 		"style": "marks",
 		"color": "#f2a1c8",
 		"width": 62,
@@ -2463,10 +2831,14 @@
 				"mark",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"marks",
+			"Marks"
+		]
 	},
-	"adelaine": {
-		"name": "Adelaine",
+	"adeleine": {
+		"name": "Adeleine",
 		"style": "adelaine",
 		"color": "#6fbf6a",
 		"width": 56,
@@ -2485,17 +2857,21 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"adelaine",
+			"Adelaine"
+		]
 	},
-	"ribbonn": {
-		"name": "Ribbonn",
+	"ribbon": {
+		"name": "Ribbon",
 		"style": "ribbonn",
 		"color": "#f7a6c8",
 		"width": 50,
 		"show": "Kirby",
 		"home": "ice_cream_island",
 		"bio": "A tiny fairy from Ripple Star with a big red bow.",
-		"catchphrase": "Kirbie, help!",
+		"catchphrase": "Kirby, help!",
 		"voice": {
 			"pitch": 1.6,
 			"rate": 1.05,
@@ -2507,10 +2883,14 @@
 				"jenny",
 				"female"
 			]
-		}
+		},
+		"aka": [
+			"ribbonn",
+			"Ribbonn"
+		]
 	},
-	"whispee_woods": {
-		"name": "Whispee Woods",
+	"whispy_woods": {
+		"name": "Whispy Woods",
 		"style": "whispee",
 		"color": "#a0703a",
 		"width": 110,
@@ -2528,7 +2908,11 @@
 				"daniel",
 				"male"
 			]
-		}
+		},
+		"aka": [
+			"whispee_woods",
+			"Whispee Woods"
+		]
 	},
 	"narrator": {
 		"name": "Narrator",

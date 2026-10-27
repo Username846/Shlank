@@ -2,171 +2,171 @@
 @series Playpen
 @icon bottle
 @number 1
-@description Angelika's cookies are hidden somewhere high in the kitchen, and she tricks the babies into fetching them. A baby's gotta do what a baby's gotta do.
+@description Angelica's cookies are hidden somewhere high in the kitchen, and she tricks the babies into fetching them. A baby's gotta do what a baby's gotta do.
 
 # ------------------------------------------------------------- THE NURSERY
 MUSIC happy
 SCENE nursery cut
 TITLE
-PLACE tommi midleft right happy
-PLACE chuckey midright left nervous
-TOMMI (happy): Chuckey, wake up! It's a great day for a adventure!
-CHUCKEY (nervous): I don't know, Tommi. Last time we had a adventure I lost a shoe.
-TOMMI (excited): That's what makes it a adventure!
-ENTER angelika right right smug
-ANGELIKA (smug): Hey, babies. Wanna hear a secret?
-CHUCKEY (scared): Not really.
-ANGELIKA (happy): There's a magic cookie jar in the kitchen. Whoever eats a cookie gets to be a grown-up for a whole day!
-TOMMI (surprised): A whole day?
-ANGELIKA (smug): But it's way, way up high. Too high for little babies.
-TOMMI (excited): A baby's gotta do what a baby's gotta do! Come on, Chuckey!
-EXIT tommi right &
-EXIT chuckey right 160
+PLACE tommy midleft right happy
+PLACE chuckie midright left nervous
+TOMMY (happy): Chuckie, wake up! It's a great day for a adventure!
+CHUCKIE (nervous): I don't know, Tommy. Last time we had a adventure I lost a shoe.
+TOMMY (excited): That's what makes it a adventure!
+ENTER angelica right right smug
+ANGELICA (smug): Hey, babies. Wanna hear a secret?
+CHUCKIE (scared): Not really.
+ANGELICA (happy): There's a magic cookie jar in the kitchen. Whoever eats a cookie gets to be a grown-up for a whole day!
+TOMMY (surprised): A whole day?
+ANGELICA (smug): But it's way, way up high. Too high for little babies.
+TOMMY (excited): A baby's gotta do what a baby's gotta do! Come on, Chuckie!
+EXIT tommy right &
+EXIT chuckie right 160
 
 # ------------------------------------------------------- PICKLES LIVING ROOM
 SCENE pickles_living_room
-ENTER phill left midleft happy
-ENTER lill left left happy
-PHILL (happy): Look, Lill! A worm in the carpet!
-LILL (angry): That's not a worm, Phill. It's a piece of spaghetti.
-PHILL (smug): Did not, Lill!
-LILL (angry): Did too, Phill!
-ENTER tommi right midright excited
-ENTER chuckey right right nervous
-TOMMI (excited): Guys! We're going on a quest for the magic cookies!
-PHILL (excited): Cookies!
-LILL (excited): Magic cookies!
-TOMMI (happy): First we need tools. Chuckey, get my screwdriver.
-CHUCKEY (sad): I knew I was gonna lose another shoe.
-PHILL (happy): Do grown-ups get to eat worms whenever they want?
-LILL (smug): Grown-ups get to do anything they want, Phill.
-TOMMI (excited): Then let's go get us some grown-up-ness!
+ENTER phil left midleft happy
+ENTER lil left left happy
+PHIL (happy): Look, Lil! A worm in the carpet!
+LIL (angry): That's not a worm, Phil. It's a piece of spaghetti.
+PHIL (smug): Did not, Lil!
+LIL (angry): Did too, Phil!
+ENTER tommy right midright excited
+ENTER chuckie right right nervous
+TOMMY (excited): Guys! We're going on a quest for the magic cookies!
+PHIL (excited): Cookies!
+LIL (excited): Magic cookies!
+TOMMY (happy): First we need tools. Chuckie, get my screwdriver.
+CHUCKIE (sad): I knew I was gonna lose another shoe.
+PHIL (happy): Do grown-ups get to eat worms whenever they want?
+LIL (smug): Grown-ups get to do anything they want, Phil.
+TOMMY (excited): Then let's go get us some grown-up-ness!
 
 # --------------------------------------------------------- PICKLES KITCHEN
 MUSIC sneaky
 SCENE pickles_kitchen
-ENTER tommi left midleft nervous 160
-ENTER phill left left 160
-ENTER lill left farleft 160
-ENTER chuckey left farleft 120
-TOMMI (nervous): Shhh. There it is. The magic cookie jar. Right on top.
-CHUCKEY (scared): That's higher than the moon, Tommi!
-PHILL (happy): We could stack up like a tower!
-LILL (happy): I'm on top!
-PHILL (angry): No, I'm on top!
+ENTER tommy left midleft nervous 160
+ENTER phil left left 160
+ENTER lil left farleft 160
+ENTER chuckie left farleft 120
+TOMMY (nervous): Shhh. There it is. The magic cookie jar. Right on top.
+CHUCKIE (scared): That's higher than the moon, Tommy!
+PHIL (happy): We could stack up like a tower!
+LIL (happy): I'm on top!
+PHIL (angry): No, I'm on top!
 SFX slam
 SHAKE 0.6
-TOMMI (surprised): Uh oh. Somebody's coming!
-RUN tommi offleft &
-RUN phill offleft &
-RUN lill offleft &
-RUN chuckey offleft
+TOMMY (surprised): Uh oh. Somebody's coming!
+RUN tommy offleft &
+RUN phil offleft &
+RUN lil offleft &
+RUN chuckie offleft
 
 # ----------------------------------------------------------- STU'S BASEMENT
 MUSIC spooky
 SCENE stu_basement
-ENTER tommi right midright nervous
-ENTER chuckey right right scared
-CHUCKEY (scared): It's dark down here, Tommi. Dark is how monsters like it.
-TOMMI (happy): This is my daddy's workshop. He builds toys! Maybe there's a ladder toy.
+ENTER tommy right midright nervous
+ENTER chuckie right right scared
+CHUCKIE (scared): It's dark down here, Tommy. Dark is how monsters like it.
+TOMMY (happy): This is my daddy's workshop. He builds toys! Maybe there's a ladder toy.
 SFX beep
-CHUCKEY (scared): Aaah! That robot just looked at me!
-TOMMI (excited): It's a reacher-grabber! Perfect!
-HOLD tommi net
-CHUCKEY (nervous): I don't think this is such a good idea.
-TOMMI (happy): Chuckey, what do you do when you're scared?
-CHUCKEY (sad): I cry and hide under the couch.
-TOMMI (happy): Besides that.
-CHUCKEY (shy): I hold your hand?
-TOMMI (happy): Then let's go. Together.
+CHUCKIE (scared): Aaah! That robot just looked at me!
+TOMMY (excited): It's a reacher-grabber! Perfect!
+HOLD tommy net
+CHUCKIE (nervous): I don't think this is such a good idea.
+TOMMY (happy): Chuckie, what do you do when you're scared?
+CHUCKIE (sad): I cry and hide under the couch.
+TOMMY (happy): Besides that.
+CHUCKIE (shy): I hold your hand?
+TOMMY (happy): Then let's go. Together.
 
 # ----------------------------------------------------------- THE BACKYARD
 MUSIC action
 SCENE pickles_backyard
-ENTER angelika left center smug
-ANGELIKA (smug): Those dumb babies will get me my cookies, and I won't even get in trouble. I'm a genius.
-ENTER phill right right happy
-ENTER lill right midright happy
-LILL (happy): Angelika! Tommi found a grabber!
-ANGELIKA (excited): Perfect. I mean, oh how nice for you.
-PHILL (smug): Can we have a worm first?
-ANGELIKA (angry): No worms! Cookies! Go!
-RUN phill offright &
-RUN lill offright
+ENTER angelica left center smug
+ANGELICA (smug): Those dumb babies will get me my cookies, and I won't even get in trouble. I'm a genius.
+ENTER phil right right happy
+ENTER lil right midright happy
+LIL (happy): Angelica! Tommy found a grabber!
+ANGELICA (excited): Perfect. I mean, oh how nice for you.
+PHIL (smug): Can we have a worm first?
+ANGELICA (angry): No worms! Cookies! Go!
+RUN phil offright &
+RUN lil offright
 
 # ----------------------------------------------------------- THE PLAYGROUND
 MUSIC happy 2
 SCENE playground
 CARD Meanwhile, the babies practice...
-PLACE tommi center right excited
-PLACE chuckey midleft right nervous
-TOMMI (excited): Okay, Chuckey. I grab the ball, like it's the cookie jar.
-JUMP tommi
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+TOMMY (excited): Okay, Chuckie. I grab the ball, like it's the cookie jar.
+JUMP tommy
 SFX boing
-TOMMI (happy): Got it!
-CHUCKEY (surprised): Hey. That actually worked.
-TOMMI (smug): Of course it did. I'm a professional.
-CHUCKEY (happy): Tommi, can I try?
-TOMMI (happy): Sure, Chuckey!
+TOMMY (happy): Got it!
+CHUCKIE (surprised): Hey. That actually worked.
+TOMMY (smug): Of course it did. I'm a professional.
+CHUCKIE (happy): Tommy, can I try?
+TOMMY (happy): Sure, Chuckie!
 SFX squeak
-CHUCKEY (surprised): I got the sandbox shovel! And a sock! And a worm!
-TOMMI (excited): Phill is gonna be so jealous!
+CHUCKIE (surprised): I got the sandbox shovel! And a sock! And a worm!
+TOMMY (excited): Phil is gonna be so jealous!
 
 # ------------------------------------------------------------- JAVA LAVA
 SCENE java_lava
-PLACE angelika midright left nervous
-ANGELIKA (nervous): Mom said no cookies before dinner. But Mom isn't here. Hee hee.
-ANGELIKA (smug): And when the babies get caught, I'll say I tried to stop them.
+PLACE angelica midright left nervous
+ANGELICA (nervous): Mom said no cookies before dinner. But Mom isn't here. Hee hee.
+ANGELICA (smug): And when the babies get caught, I'll say I tried to stop them.
 
 # ------------------------------------------------------------ BACK IN THE KITCHEN
 MUSIC tense
 SCENE pickles_kitchen
-PLACE tommi midleft right excited
-PLACE chuckey left right nervous
-PLACE phill farleft right happy
-PLACE lill center left happy
-TOMMI (excited): Okay, everybody. Hold the chair. Here I go.
-JUMP tommi
+PLACE tommy midleft right excited
+PLACE chuckie left right nervous
+PLACE phil farleft right happy
+PLACE lil center left happy
+TOMMY (excited): Okay, everybody. Hold the chair. Here I go.
+JUMP tommy
 SFX squeak
-TOMMI (excited): Almost... almost...
+TOMMY (excited): Almost... almost...
 SFX pop
-TOMMI (happy): Got it! The magic cookies!
-ENTER angelika right right excited
-ANGELIKA (excited): Give me those cookies, you dumb babies!
-CHUCKEY (angry): Hey! That's not nice!
+TOMMY (happy): Got it! The magic cookies!
+ENTER angelica right right excited
+ANGELICA (excited): Give me those cookies, you dumb babies!
+CHUCKIE (angry): Hey! That's not nice!
 SFX slam
 SHAKE 0.6
-ANGELIKA (scared): Oh no. It's Mom.
-EMOTE angelika sad
-ANGELIKA (sad): No cookies for me. And no TV for a week.
-TOMMI (happy): Don't worry, Angelika. We saved you one.
-ANGELIKA (surprised): You did? Even after I tricked you?
-CHUCKEY (shy): That's what friends do. Even bossy ones.
-ANGELIKA (shy): Thanks, babies. But don't tell anybody I said that.
+ANGELICA (scared): Oh no. It's Mom.
+EMOTE angelica sad
+ANGELICA (sad): No cookies for me. And no TV for a week.
+TOMMY (happy): Don't worry, Angelica. We saved you one.
+ANGELICA (surprised): You did? Even after I tricked you?
+CHUCKIE (shy): That's what friends do. Even bossy ones.
+ANGELICA (shy): Thanks, babies. But don't tell anybody I said that.
 
 # ------------------------------------------------------------ THE SUPERMARKET
 MUSIC happy 3
 SCENE supermarket
 CARD The next day...
-PLACE tommi midleft right happy
-PLACE chuckey left right happy
-TOMMI (happy): Chuckey, did the magic cookie make you a grown-up?
-CHUCKEY (sad): No. I still can't reach the cereal.
-TOMMI (happy): Me neither. But it was a good adventure.
+PLACE tommy midleft right happy
+PLACE chuckie left right happy
+TOMMY (happy): Chuckie, did the magic cookie make you a grown-up?
+CHUCKIE (sad): No. I still can't reach the cereal.
+TOMMY (happy): Me neither. But it was a good adventure.
 
 # ------------------------------------------------------------ REPTARLAND
 SCENE reptarland
-PLACE phill midleft right happy
-PLACE lill midright left happy
-PHILL (happy): I think the magic was in the worms.
-LILL (smug): That's the first smart thing you ever said, Phill.
+PLACE phil midleft right happy
+PLACE lil midright left happy
+PHIL (happy): I think the magic was in the worms.
+LIL (smug): That's the first smart thing you ever said, Phil.
 
 # ------------------------------------------------------------ FINSTER HOUSE
 MUSIC romantic
 SCENE finster_house
-ENTER chuckey left center happy
-ENTER tommi left midleft happy
-CHUCKEY (happy): Tommi. Thanks for being my best friend. Even when you're scary.
-TOMMI (happy): Anytime, Chuckey. Same time tomorrow?
-CHUCKEY (nervous): Only if there's no basements.
+ENTER chuckie left center happy
+ENTER tommy left midleft happy
+CHUCKIE (happy): Tommy. Thanks for being my best friend. Even when you're scary.
+TOMMY (happy): Anytime, Chuckie. Same time tomorrow?
+CHUCKIE (nervous): Only if there's no basements.
 END

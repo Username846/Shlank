@@ -70,6 +70,13 @@ static func _aliases(characters: Dictionary) -> Dictionary:
 				a[parts[0]] = id
 			if not a.has(parts[parts.size() - 1]):
 				a[parts[parts.size() - 1]] = id
+	# Older names, so episodes saved before a character was renamed still load.
+	for id in characters:
+		for old in characters[id].get("aka", []):
+			var u := String(old).to_upper()
+			for k in [u, u.replace(" ", "_"), u.replace(".", "")]:
+				if not a.has(k):
+					a[k] = id
 	return a
 
 

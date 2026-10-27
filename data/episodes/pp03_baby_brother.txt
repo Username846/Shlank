@@ -1,157 +1,157 @@
-@title Dill's Big Day
+@title Dil's Big Day
 @series Playpen
 @icon bottle
 @number 3
-@description Tommi's baby brother Dill won't stop crying, and nobody can figure out why. Angelika says babies come with a return slip. The gang sets out to find out what Dill really wants.
+@description Tommy's baby brother Dil won't stop crying, and nobody can figure out why. Angelica says babies come with a return slip. The gang sets out to find out what Dil really wants.
 
 # ------------------------------------------------------------ NURSERY
 MUSIC sad
 SCENE nursery cut
 TITLE
-PLACE dill center right sad
-PLACE tommi midleft right nervous
-DILL (sad): Waaah! Waaaaah!
-TOMMI (nervous): It's okay, Dill. I'm your big brother. I'll make you feel better.
-DILL (angry): Waaaaaah!
-TOMMI (sad): That didn't work.
-ENTER chuckey left left nervous
-CHUCKEY (nervous): Tommi, he's been crying since breakfast. How does a little baby have so much crying in him?
-TOMMI (smug): He's got a lot of feelings, Chuckey.
+PLACE dil center right sad
+PLACE tommy midleft right nervous
+DIL (sad): Waaah! Waaaaah!
+TOMMY (nervous): It's okay, Dil. I'm your big brother. I'll make you feel better.
+DIL (angry): Waaaaaah!
+TOMMY (sad): That didn't work.
+ENTER chuckie left left nervous
+CHUCKIE (nervous): Tommy, he's been crying since breakfast. How does a little baby have so much crying in him?
+TOMMY (smug): He's got a lot of feelings, Chuckie.
 
 # ------------------------------------------------------------ PICKLES KITCHEN
 MUSIC jazz
 SCENE pickles_kitchen
-PLACE didee center left nervous
-PLACE stew midright left nervous
-DIDEE (nervous): Stew, Dill has been crying for three hours. Doctor Lipschitz says to stay calm and check the four Fs.
-STEW (surprised): The four Fs?
-DIDEE (nervous): Food, fresh diaper, fun and... and I forgot the fourth one!
-STEW (smug): Don't worry, honey. I'll build him a toy. My new invention: the Cry-Me-Not Three Thousand!
-DIDEE (scared): Is it going to explode?
-STEW (nervous): Only a little.
+PLACE didi center left nervous
+PLACE stu midright left nervous
+DIDI (nervous): Stu, Dil has been crying for three hours. Doctor Lipschitz says to stay calm and check the four Fs.
+STU (surprised): The four Fs?
+DIDI (nervous): Food, fresh diaper, fun and... and I forgot the fourth one!
+STU (smug): Don't worry, honey. I'll build him a toy. My new invention: the Cry-Me-Not Three Thousand!
+DIDI (scared): Is it going to explode?
+STU (nervous): Only a little.
 
 # ------------------------------------------------------------ PICKLES LIVING ROOM
 MUSIC sneaky
 SCENE pickles_living_room
-PLACE angelika center left smug
-PLACE tommi midleft right sad
-PLACE chuckey left right nervous
-ANGELIKA (smug): You know what happens to babies who cry too much? They go back to the hospital. They come with a return slip.
-TOMMI (scared): A return slip?
-ANGELIKA (smug): Uh huh. Like a broken toy. Then the hospital gives you a quieter baby.
-CHUCKEY (scared): Tommi, that's terrible!
-TOMMI (angry): Nobody's returning my brother! We'll find out what's wrong with him ourselves!
-ANGELIKA (smug): Good luck, dumb babies.
+PLACE angelica center left smug
+PLACE tommy midleft right sad
+PLACE chuckie left right nervous
+ANGELICA (smug): You know what happens to babies who cry too much? They go back to the hospital. They come with a return slip.
+TOMMY (scared): A return slip?
+ANGELICA (smug): Uh huh. Like a broken toy. Then the hospital gives you a quieter baby.
+CHUCKIE (scared): Tommy, that's terrible!
+TOMMY (angry): Nobody's returning my brother! We'll find out what's wrong with him ourselves!
+ANGELICA (smug): Good luck, dumb babies.
 
 # ------------------------------------------------------------ PICKLES BACKYARD
 MUSIC happy
 SCENE pickles_backyard
-PLACE phill midleft right happy
-PLACE lill center left happy
-ENTER tommi left left excited
-PHILL (happy): Maybe Dill is hungry for worms.
-LILL (smug): Everyone is always hungry for worms, Phill.
-TOMMI (nervous): I don't think Dill eats worms yet.
-PHILL (excited): We can teach him!
-LILL (happy): We'll be his worm teachers!
-TOMMI (smug): Let's try a different idea first.
+PLACE phil midleft right happy
+PLACE lil center left happy
+ENTER tommy left left excited
+PHIL (happy): Maybe Dil is hungry for worms.
+LIL (smug): Everyone is always hungry for worms, Phil.
+TOMMY (nervous): I don't think Dil eats worms yet.
+PHIL (excited): We can teach him!
+LIL (happy): We'll be his worm teachers!
+TOMMY (smug): Let's try a different idea first.
 
 # ------------------------------------------------------------ NURSERY
 MUSIC happy 2
 SCENE nursery
-PLACE dill center right sad
-ENTER tommi left midleft excited
-ENTER chuckey left left nervous
-ENTER phill left farleft happy
-TOMMI (excited): Okay, Dill. Plan one. A funny face!
+PLACE dil center right sad
+ENTER tommy left midleft excited
+ENTER chuckie left left nervous
+ENTER phil left farleft happy
+TOMMY (excited): Okay, Dil. Plan one. A funny face!
 SFX boing
-DILL (sad): Waaah!
-PHILL (excited): Plan two. A worm! For eating!
-DILL (angry): Waaaaah!
-CHUCKEY (nervous): Plan three. I'll sing him a song. Twinkle twinkle little star...
-DILL (sad): Waaaah...
-CHUCKEY (sad): Even my singing makes him sad.
+DIL (sad): Waaah!
+PHIL (excited): Plan two. A worm! For eating!
+DIL (angry): Waaaaah!
+CHUCKIE (nervous): Plan three. I'll sing him a song. Twinkle twinkle little star...
+DIL (sad): Waaaah...
+CHUCKIE (sad): Even my singing makes him sad.
 
 # ------------------------------------------------------------ FINSTER HOUSE
 MUSIC sneaky 3
 SCENE finster_house
-PLACE chuckey center right nervous
-PLACE tommi midleft right sad
-TOMMI (sad): Chuckey, what if Angelika's right? What if they take Dill back?
-CHUCKEY (nervous): They can't do that, Tommi. Can they?
-TOMMI (sad): I don't know. Grown-ups do a lot of weird stuff.
-CHUCKEY (happy): Well, when I'm sad, my dad gives me my favorite blanket. It makes me feel safe.
-TOMMI (surprised): A blanket! Something soft and safe!
-CHUCKEY (smug): I'm full of good ideas today, Tommi.
+PLACE chuckie center right nervous
+PLACE tommy midleft right sad
+TOMMY (sad): Chuckie, what if Angelica's right? What if they take Dil back?
+CHUCKIE (nervous): They can't do that, Tommy. Can they?
+TOMMY (sad): I don't know. Grown-ups do a lot of weird stuff.
+CHUCKIE (happy): Well, when I'm sad, my dad gives me my favorite blanket. It makes me feel safe.
+TOMMY (surprised): A blanket! Something soft and safe!
+CHUCKIE (smug): I'm full of good ideas today, Tommy.
 
-# ------------------------------------------------------------ STEW'S BASEMENT
+# ------------------------------------------------------------ STU'S BASEMENT
 MUSIC tense
 SCENE stu_basement
-PLACE stew center left excited
-STEW (excited): The Cry-Me-Not Three Thousand! It rocks, it hums, and it plays the Reptar song!
+PLACE stu center left excited
+STU (excited): The Cry-Me-Not Three Thousand! It rocks, it hums, and it plays the Reptar song!
 SFX beep
-STEW (nervous): Why is it smoking?
+STU (nervous): Why is it smoking?
 SFX blast
 SHAKE 0.6
-STEW (sad): Back to the drawing board.
+STU (sad): Back to the drawing board.
 
 # ------------------------------------------------------------ CARMICHAEL HOUSE
 MUSIC jazz 2
 SCENE carmichael_house
-PLACE suzie center left happy
-ENTER tommi left midleft nervous
-ENTER spyke left left happy
-TOMMI (nervous): Suzie, you're big and smart. Why does a baby cry all the time?
-SUZIE (happy): Sometimes babies cry because they miss someone. Or they're scared of something new.
-TOMMI (surprised): Something new?
-SUZIE (happy): When my baby brother was born, he cried whenever the room got too quiet. He was scared of being alone.
-TOMMI (excited): Dill sleeps all alone in his crib!
-SPYKE (happy): Woof!
+PLACE susie center left happy
+ENTER tommy left midleft nervous
+ENTER spike left left happy
+TOMMY (nervous): Susie, you're big and smart. Why does a baby cry all the time?
+SUSIE (happy): Sometimes babies cry because they miss someone. Or they're scared of something new.
+TOMMY (surprised): Something new?
+SUSIE (happy): When my baby brother was born, he cried whenever the room got too quiet. He was scared of being alone.
+TOMMY (excited): Dil sleeps all alone in his crib!
+SPIKE (happy): Woof!
 
 # ------------------------------------------------------------ PICKLES ATTIC
 MUSIC sneaky 2
 SCENE pickles_attic
-ENTER tommi left midleft excited
-ENTER chuckey left left nervous
-TOMMI (excited): Chuckey, help me find my old bear. The one I used to sleep with. Mister Friend.
-CHUCKEY (scared): In the attic? Tommi, attics are where the boogeymen live.
-TOMMI (happy): Then we'll say hi to them. Here! Mister Friend!
-CHUCKEY (surprised): He's missing an ear.
-TOMMI (smug): He's been well loved, Chuckey.
+ENTER tommy left midleft excited
+ENTER chuckie left left nervous
+TOMMY (excited): Chuckie, help me find my old bear. The one I used to sleep with. Mister Friend.
+CHUCKIE (scared): In the attic? Tommy, attics are where the boogeymen live.
+TOMMY (happy): Then we'll say hi to them. Here! Mister Friend!
+CHUCKIE (surprised): He's missing an ear.
+TOMMY (smug): He's been well loved, Chuckie.
 
 # ------------------------------------------------------------ PICKLES LIVING ROOM
 MUSIC tense 2
 SCENE pickles_living_room
-PLACE angelika center left smug
-PLACE didee midright left nervous
-ANGELIKA (smug): Aunt Didee, if Dill keeps crying, are you gonna take him back to the hospital?
-DIDEE (surprised): Angelika! Of course not! You don't return babies.
-ANGELIKA (nervous): Oh. Even really loud ones?
-DIDEE (happy): Especially the loud ones. They need the most hugs.
-ANGELIKA (shy): Huh.
+PLACE angelica center left smug
+PLACE didi midright left nervous
+ANGELICA (smug): Aunt Didi, if Dil keeps crying, are you gonna take him back to the hospital?
+DIDI (surprised): Angelica! Of course not! You don't return babies.
+ANGELICA (nervous): Oh. Even really loud ones?
+DIDI (happy): Especially the loud ones. They need the most hugs.
+ANGELICA (shy): Huh.
 
 # ------------------------------------------------------------ NURSERY
 MUSIC romantic
 SCENE nursery
-PLACE dill center right sad
-ENTER tommi left midleft happy
-ENTER chuckey left left happy
-TOMMI (happy): Dill, this is Mister Friend. He kept me company when I was little like you.
-DILL (surprised): Ba?
-TOMMI (happy): And I'll sleep right next to your crib. So you're never alone.
-DILL (happy): Ba ba!
-CHUCKEY (surprised): He stopped crying! Tommi, he stopped crying!
-TOMMI (smug): He just needed his big brother.
+PLACE dil center right sad
+ENTER tommy left midleft happy
+ENTER chuckie left left happy
+TOMMY (happy): Dil, this is Mister Friend. He kept me company when I was little like you.
+DIL (surprised): Ba?
+TOMMY (happy): And I'll sleep right next to your crib. So you're never alone.
+DIL (happy): Ba ba!
+CHUCKIE (surprised): He stopped crying! Tommy, he stopped crying!
+TOMMY (smug): He just needed his big brother.
 
 # ------------------------------------------------------------ PICKLES KITCHEN
 MUSIC happy 3
 SCENE pickles_kitchen
-PLACE didee center left happy
-PLACE stew midright left happy
-PLACE grandpa_lew right left happy
-DIDEE (happy): Listen, Stew. It's quiet. Dill stopped crying.
-STEW (excited): My invention must have worked!
-GRANDPA_LEW (smug): Your invention is on fire in the basement, Stew.
-STEW (sad): Oh.
-DIDEE (happy): I think the fourth F was "family."
+PLACE didi center left happy
+PLACE stu midright left happy
+PLACE grandpa_lou right left happy
+DIDI (happy): Listen, Stu. It's quiet. Dil stopped crying.
+STU (excited): My invention must have worked!
+GRANDPA_LOU (smug): Your invention is on fire in the basement, Stu.
+STU (sad): Oh.
+DIDI (happy): I think the fourth F was "family."
 END

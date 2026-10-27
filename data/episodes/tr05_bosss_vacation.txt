@@ -2,164 +2,164 @@
 @series Pokemon
 @icon rokket
 @number 5
-@description The Boss is going on vacation, and he's leaving Team Rokket in charge of headquarters. They immediately lose the keys, the cat and the headquarters.
+@description The Boss is going on vacation, and he's leaving Team Rocket in charge of headquarters. They immediately lose the keys, the cat and the headquarters.
 
-# ------------------------------------------------------------ ROKKET HQ
+# ------------------------------------------------------------ ROCKET HQ
 MUSIC tense
 SCENE rokket_hq cut
 TITLE
-PLACE boss midright left neutral
-PLACE jessee midleft right nervous
-PLACE jaymes left right nervous
-PLACE meowt center left nervous
-BOSS: Team Rokket. I am going on vacation. For one week.
-JESSEE (surprised): A vacation? You?
-BOSS (smug): Even villains need sunscreen. While I am gone, you are in charge of headquarters.
-JAYMES (excited): Us? In charge?
-BOSS (angry): Do not touch anything. Do not lose anything. And do not let anything happen to my prize monster.
-MEOWT (nervous): We'll guard it with our lives, Boss!
-EXIT boss right
+PLACE giovanni midright left neutral
+PLACE jessie midleft right nervous
+PLACE james left right nervous
+PLACE meowth center left nervous
+GIOVANNI: Team Rocket. I am going on vacation. For one week.
+JESSIE (surprised): A vacation? You?
+GIOVANNI (smug): Even villains need sunscreen. While I am gone, you are in charge of headquarters.
+JAMES (excited): Us? In charge?
+GIOVANNI (angry): Do not touch anything. Do not lose anything. And do not let anything happen to my prize monster.
+MEOWTH (nervous): We'll guard it with our lives, Boss!
+EXIT giovanni right
 
-# ------------------------------------------------------------ ROKKET HQ
+# ------------------------------------------------------------ ROCKET HQ
 MUSIC happy
 SCENE rokket_hq
-PLACE jessee midleft right excited
-PLACE jaymes center left excited
-PLACE meowt midright left smug
-JESSEE (excited): We're in charge! I'm sitting in the big chair!
-JAYMES (excited): I'm ordering pizza on the Boss's phone!
-MEOWT (smug): And I'm going to feed the prize monster. Where is it, anyway?
-JESSEE (nervous): Wasn't it in that golden box?
-MEOWT (scared): The golden box is open.
-JAYMES (scared): The golden box is empty.
+PLACE jessie midleft right excited
+PLACE james center left excited
+PLACE meowth midright left smug
+JESSIE (excited): We're in charge! I'm sitting in the big chair!
+JAMES (excited): I'm ordering pizza on the Boss's phone!
+MEOWTH (smug): And I'm going to feed the prize monster. Where is it, anyway?
+JESSIE (nervous): Wasn't it in that golden box?
+MEOWTH (scared): The golden box is open.
+JAMES (scared): The golden box is empty.
 
 # ------------------------------------------------------------ PALLUT TOWN
 MUSIC sneaky
 SCENE pallut_town
-PLACE ashe center right happy
-PLACE pikachew midleft right happy
-ASHE (happy): What a nice day for training, Pikachew.
-PIKACHEW (surprised): Pika?
-ASHE (surprised): Whoa. A little round monster with a gold coin on its head. Is it lost?
+PLACE ash center right happy
+PLACE pikachu midleft right happy
+ASH (happy): What a nice day for training, Pikachu.
+PIKACHU (surprised): Pika?
+ASH (surprised): Whoa. A little round monster with a gold coin on its head. Is it lost?
 NARRATOR: It was, in fact, the Boss's prize monster. A tiny, fluffy Meowt-ling with a diamond collar.
-ASHE (excited): Hey, little guy! Want to come with us?
-PIKACHEW (smug): Pika.
+ASH (excited): Hey, little guy! Want to come with us?
+PIKACHU (smug): Pika.
 
 # ------------------------------------------------------------ FOREST PATH
 MUSIC action
 SCENE forest_path
-ENTER jessee left midleft scared 500
-ENTER jaymes left left scared 500
-ENTER meowt left center scared 500
-JESSEE (scared): If the Boss finds out, he'll fire us!
-JAYMES (scared): Out of a cannon!
-MEOWT (excited): I can smell it! It went this way! Toward the twerp's town!
-JESSEE (angry): Of course it did. Everything goes toward the twerp.
-JAYMES (sad): The twerp is like a magnet for our problems.
+ENTER jessie left midleft scared 500
+ENTER james left left scared 500
+ENTER meowth left center scared 500
+JESSIE (scared): If the Boss finds out, he'll fire us!
+JAMES (scared): Out of a cannon!
+MEOWTH (excited): I can smell it! It went this way! Toward the twerp's town!
+JESSIE (angry): Of course it did. Everything goes toward the twerp.
+JAMES (sad): The twerp is like a magnet for our problems.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC jazz
 SCENE prof_lab
-PLACE nurse_joi center left happy
-ENTER ashe left midleft excited
-ENTER mistee left left smug
-ASHE (excited): Nurse Joi! I found a lost monster! It has a diamond collar!
-NURSE_JOI (surprised): A diamond collar? This must be someone's very special pet.
-MISTEE (smug): Someone very rich. Look, the collar has a big red R on it.
-ASHE (surprised): R? Like... Team Rokket?
-NURSE_JOI (nervous): Oh dear.
+PLACE nurse_joy center left happy
+ENTER ash left midleft excited
+ENTER misty left left smug
+ASH (excited): Nurse Joy! I found a lost monster! It has a diamond collar!
+NURSE_JOY (surprised): A diamond collar? This must be someone's very special pet.
+MISTY (smug): Someone very rich. Look, the collar has a big red R on it.
+ASH (surprised): R? Like... Team Rocket?
+NURSE_JOY (nervous): Oh dear.
 
 # ------------------------------------------------------------ MONSTER MART
 MUSIC sneaky 2
 SCENE monster_mart
-PLACE brok center left happy
-ENTER jessee right midright nervous
-ENTER jaymes right right nervous
-JESSEE (nervous): Excuse me. Have you seen a small, fluffy, very expensive monster?
-BROK (surprised): Wait. Aren't you Team Rokket?
-JAYMES (sad): Yes. But today we're Team Lost Pet.
-BROK (happy): Then you're in luck. Ashe found one an hour ago. It's at the lab.
-JESSEE (excited): Thank you! Thank you, squinty boy!
-BROK (smug): You're welcome. I think.
+PLACE brock center left happy
+ENTER jessie right midright nervous
+ENTER james right right nervous
+JESSIE (nervous): Excuse me. Have you seen a small, fluffy, very expensive monster?
+BROCK (surprised): Wait. Aren't you Team Rocket?
+JAMES (sad): Yes. But today we're Team Lost Pet.
+BROCK (happy): Then you're in luck. Ash found one an hour ago. It's at the lab.
+JESSIE (excited): Thank you! Thank you, squinty boy!
+BROCK (smug): You're welcome. I think.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC tense
 SCENE prof_lab
-PLACE ashe midleft right angry
-PLACE pikachew left right angry
-PLACE mistee center left angry
-ENTER jessee right midright nervous
-ENTER jaymes right right nervous
-ENTER meowt right farright nervous
-ASHE (angry): Team Rokket! What are you doing here?
-JESSEE (nervous): We're not here to steal anything. We're here to get our Boss's pet back.
-MISTEE (smug): You lost your boss's pet?
-MEOWT (sad): Yes. Please. If we don't get it back, we'll be fired. From a cannon.
-ASHE (surprised): You're asking nicely?
-JAYMES (sad): We're very desperate.
+PLACE ash midleft right angry
+PLACE pikachu left right angry
+PLACE misty center left angry
+ENTER jessie right midright nervous
+ENTER james right right nervous
+ENTER meowth right farright nervous
+ASH (angry): Team Rocket! What are you doing here?
+JESSIE (nervous): We're not here to steal anything. We're here to get our Boss's pet back.
+MISTY (smug): You lost your boss's pet?
+MEOWTH (sad): Yes. Please. If we don't get it back, we'll be fired. From a cannon.
+ASH (surprised): You're asking nicely?
+JAMES (sad): We're very desperate.
 
 # ------------------------------------------------------------ PROFESSOR'S LAB
 MUSIC sad
 SCENE prof_lab
-PLACE ashe midleft right nervous
-PLACE meowt center left sad
-ASHE (nervous): How do I know you'll take care of it?
-MEOWT (sad): Because I was just like this little guy once. A lonely street kitten. Nobody wanted me.
-MEOWT (shy): So I taught myself to talk. And walk. And I thought someone would like me then.
-ASHE (sad): Meowt. That's really sad.
-MEOWT (smug): Also I want the reward money.
-ASHE (smug): There it is.
+PLACE ash midleft right nervous
+PLACE meowth center left sad
+ASH (nervous): How do I know you'll take care of it?
+MEOWTH (sad): Because I was just like this little guy once. A lonely street kitten. Nobody wanted me.
+MEOWTH (shy): So I taught myself to talk. And walk. And I thought someone would like me then.
+ASH (sad): Meowth. That's really sad.
+MEOWTH (smug): Also I want the reward money.
+ASH (smug): There it is.
 
 # ------------------------------------------------------------ SUNNY BEACH
 MUSIC happy 2
 SCENE sunny_beach
-PLACE boss center left happy
-BOSS (happy): Ah. Sun. Sand. No Team Rokket. This is paradise.
+PLACE giovanni center left happy
+GIOVANNI (happy): Ah. Sun. Sand. No Team Rocket. This is paradise.
 SFX beep
-BOSS (surprised): A message from headquarters? "Everything is fine. Nothing is lost. Do not come home early."
-BOSS (angry): Something is lost.
-BOSS (smug): I'm coming home early.
+GIOVANNI (surprised): A message from headquarters? "Everything is fine. Nothing is lost. Do not come home early."
+GIOVANNI (angry): Something is lost.
+GIOVANNI (smug): I'm coming home early.
 
-# ------------------------------------------------------------ ROKKET HQ
+# ------------------------------------------------------------ ROCKET HQ
 MUSIC tense 2
 SCENE rokket_hq
-PLACE jessee midleft right nervous
-PLACE jaymes left right nervous
-PLACE meowt center left happy
-ENTER boss right midright angry
-BOSS (angry): Team Rokket. Where is my prize monster?
-MEOWT (happy): Right here, Boss! Safe and sound! We never lost it for a second!
-JAYMES (nervous): We lost it for about six hours.
-JESSEE (angry): Jaymes!
-BOSS (surprised): It's wearing a little sweater. Who knitted this?
-MEOWT (shy): The twerp's friend Mistee. She said it looked cold.
+PLACE jessie midleft right nervous
+PLACE james left right nervous
+PLACE meowth center left happy
+ENTER giovanni right midright angry
+GIOVANNI (angry): Team Rocket. Where is my prize monster?
+MEOWTH (happy): Right here, Boss! Safe and sound! We never lost it for a second!
+JAMES (nervous): We lost it for about six hours.
+JESSIE (angry): James!
+GIOVANNI (surprised): It's wearing a little sweater. Who knitted this?
+MEOWTH (shy): The twerp's friend Misty. She said it looked cold.
 
-# ------------------------------------------------------------ ROKKET HQ
+# ------------------------------------------------------------ ROCKET HQ
 MUSIC happy 3
 SCENE rokket_hq
-PLACE boss midright left happy
-PLACE jessee midleft right surprised
-PLACE meowt center left surprised
-BOSS (happy): The sweater is adorable. Team Rokket, you have... not failed me.
-JESSEE (surprised): We haven't?
-BOSS (smug): Don't get used to it. Now, go back to work. And bring me that electric mouse.
-MEOWT (excited): Yes, Boss!
-EXIT boss right
-MEOWT (excited): Did you hear that? We didn't fail!
-JESSEE (excited): Prepare for celebration!
+PLACE giovanni midright left happy
+PLACE jessie midleft right surprised
+PLACE meowth center left surprised
+GIOVANNI (happy): The sweater is adorable. Team Rocket, you have... not failed me.
+JESSIE (surprised): We haven't?
+GIOVANNI (smug): Don't get used to it. Now, go back to work. And bring me that electric mouse.
+MEOWTH (excited): Yes, Boss!
+EXIT giovanni right
+MEOWTH (excited): Did you hear that? We didn't fail!
+JESSIE (excited): Prepare for celebration!
 
 # ------------------------------------------------------------ CLIFF TOP
 MUSIC romantic
 SCENE cliff_top
-PLACE jessee midleft right happy
-PLACE jaymes center left happy
-PLACE meowt midright left happy
-JESSEE (happy): A week of being in charge. And we didn't lose the headquarters.
-JAYMES (nervous): We lost the keys.
-MEOWT (smug): And the Boss's car.
-JESSEE (happy): But not the headquarters.
-JAYMES (happy): Team Rokket's not blasting off this time!
+PLACE jessie midleft right happy
+PLACE james center left happy
+PLACE meowth midright left happy
+JESSIE (happy): A week of being in charge. And we didn't lose the headquarters.
+JAMES (nervous): We lost the keys.
+MEOWTH (smug): And the Boss's car.
+JESSIE (happy): But not the headquarters.
+JAMES (happy): Team Rocket's not blasting off this time!
 SFX blast
 SHAKE 0.8
-MEOWT (sad): Spoke too soon.
+MEOWTH (sad): Spoke too soon.
 END

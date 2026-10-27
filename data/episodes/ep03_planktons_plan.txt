@@ -2,7 +2,7 @@
 @series Bikini Bottom
 @icon bubbles
 @number 3
-@description Plankton has a brand-new scheme to steal the secret formula: disguise himself as SpongeBert's pet snail. What could possibly go wrong?
+@description Plankton has a brand-new scheme to steal the secret formula: disguise himself as SpongeBob's pet snail. What could possibly go wrong?
 
 # ------------------------------------------------------------ CHUM BUCKET
 MUSIC sneaky
@@ -14,19 +14,19 @@ PLANKTON (angry): Karen! Failure number three thousand and six! I need a new pla
 KAREN (smug): Have you tried making food people actually like?
 PLANKTON (angry): Never! I'll steal the formula or nothing!
 KAREN (neutral): Statistically, nothing.
-PLANKTON (excited): Wait. Who does SpongeBert trust more than anyone? His snail! I'll become the snail!
+PLANKTON (excited): Wait. Who does SpongeBob trust more than anyone? His snail! I'll become the snail!
 KAREN (smug): You are going to wear a shell.
 PLANKTON (excited): I am going to BE the shell!
 
-# ------------------------------------------------------------ SPONGEBERT'S LIVING ROOM
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
 MUSIC happy
 SCENE sponge_living_room
-PLACE spongebert center right happy
+PLACE spongebob center right happy
 PLACE gary midleft right happy
-SPONGEBERT (happy): Good morning, Gary! Ready for snail walk day?
+SPONGEBOB (happy): Good morning, Gary! Ready for snail walk day?
 GARY (happy): Meow.
-SPONGEBERT (excited): Then let's go! To Jellyfish Fields!
-EXIT spongebert left &
+SPONGEBOB (excited): Then let's go! To Jellyfish Fields!
+EXIT spongebob left &
 EXIT gary left
 
 # ------------------------------------------------------------ BIKINI BOTTOM DOWNTOWN
@@ -41,44 +41,44 @@ PLANKTON (scared): Ahh! The real one! Hide, hide!
 GARY (smug): Meow.
 NARRATOR: Gary is not fooled. Gary is never fooled.
 
-# ------------------------------------------------------------ PAT'S ROCK
+# ------------------------------------------------------------ PATRICK'S ROCK
 MUSIC happy 3
 SCENE pat_rock
-PLACE pat center left happy
+PLACE patrick center left happy
 ENTER gary left midleft nervous
 GARY (nervous): Meow! Meow meow!
-PAT (happy): Hi, Gary! Want to play?
+PATRICK (happy): Hi, Gary! Want to play?
 GARY (angry): Meow meow meow meow!
-PAT (surprised): Plankton is wearing a snail costume and fooling SpongeBert? And he's going to steal the formula?
+PATRICK (surprised): Plankton is wearing a snail costume and fooling SpongeBob? And he's going to steal the formula?
 GARY (excited): Meow!
-PAT (excited): I understood every word! Let's go, little buddy!
-PAT (nervous): Which way is the Krusty Crab again?
+PATRICK (excited): I understood every word! Let's go, little buddy!
+PATRICK (nervous): Which way is the Krusty Krab again?
 GARY (smug): Meow.
 
 # ------------------------------------------------------------ JELLYFISH FIELDS
 MUSIC jazz
 SCENE jellyfish_fields
-PLACE spongebert midleft right happy
+PLACE spongebob midleft right happy
 ENTER plankton right midright nervous
 PLANKTON (nervous): Meow. Meow meow.
-SPONGEBERT (happy): Gary! There you are! You look smaller today.
+SPONGEBOB (happy): Gary! There you are! You look smaller today.
 PLANKTON (nervous): Meow. Diet. Meow.
-SPONGEBERT (surprised): Gary, did you just talk?
+SPONGEBOB (surprised): Gary, did you just talk?
 PLANKTON (scared): Meeeow?
-SPONGEBERT (excited): Gary, you're so smart! Let's go to work together!
+SPONGEBOB (excited): Gary, you're so smart! Let's go to work together!
 
-# ------------------------------------------------------------ THE KRUSTY CRAB
+# ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC tense
 SCENE krusty_crab
-PLACE mr_crabs midright left smug
-PLACE squidwerd right left neutral
-ENTER spongebert left midleft happy
+PLACE mr_krabs midright left smug
+PLACE squidward right left neutral
+ENTER spongebob left midleft happy
 ENTER plankton left left nervous
-MR_CRABS (surprised): Mister SpongeBert! What's your snail doing in me restaurant?
-SPONGEBERT (happy): He followed me to work! Isn't he clever?
-SQUIDWERD (smug): That's the cleverest snail I've ever seen. It's wearing a tiny mustache.
+MR_KRABS (surprised): Mister SpongeBob! What's your snail doing in me restaurant?
+SPONGEBOB (happy): He followed me to work! Isn't he clever?
+SQUIDWARD (smug): That's the cleverest snail I've ever seen. It's wearing a tiny mustache.
 PLANKTON (nervous): Meow?
-MR_CRABS (smug): Well, as long as he doesn't go near the kitchen.
+MR_KRABS (smug): Well, as long as he doesn't go near the kitchen.
 PLANKTON (smug): Meow.
 EXIT plankton right 160
 
@@ -86,17 +86,17 @@ EXIT plankton right 160
 MUSIC tense 2
 SCENE boating_school
 PLACE mrs_puff center left surprised
-ENTER pat left left excited 400
+ENTER patrick left left excited 400
 ENTER gary left midleft excited 400
-PAT (excited): Mrs. Puff! We need a boat! It's an emergency!
+PATRICK (excited): Mrs. Puff! We need a boat! It's an emergency!
 MRS_PUFF (nervous): Patrick, you don't have a license.
-PAT (smug): I have a snail. Gary, show her.
+PATRICK (smug): I have a snail. Gary, show her.
 GARY (angry): MEOW.
 MRS_PUFF (scared): Fine! Fine! Take the slow one!
 SFX slam
 NARRATOR: The slow one is not slow.
 
-# ------------------------------------------------------------ KRUSTY CRAB KITCHEN
+# ------------------------------------------------------------ KRUSTY KRAB KITCHEN
 MUSIC sneaky 3
 SCENE krusty_kitchen
 ENTER plankton left center excited 160
@@ -110,19 +110,19 @@ SFX slam
 SHAKE 0.6
 NARRATOR: Gary sits on Plankton. Gary is surprisingly heavy.
 
-# ------------------------------------------------------------ KRUSTY CRAB DINING ROOM
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
 MUSIC action
 SCENE krusty_dining
-PLACE mr_crabs center left angry
-PLACE spongebert midleft right surprised
+PLACE mr_krabs center left angry
+PLACE spongebob midleft right surprised
 PLACE gary midright left smug
 PLACE plankton right left sad
-MR_CRABS (angry): PLANKTON! In a snail costume!
-SPONGEBERT (surprised): Wait. If that's Plankton, then this is the real Gary?
+MR_KRABS (angry): PLANKTON! In a snail costume!
+SPONGEBOB (surprised): Wait. If that's Plankton, then this is the real Gary?
 GARY (happy): Meow.
-SPONGEBERT (sad): Gary, I'm so sorry. I walked the wrong snail all morning.
+SPONGEBOB (sad): Gary, I'm so sorry. I walked the wrong snail all morning.
 PLANKTON (angry): I would have gotten away with it if it weren't for that meddling mollusk!
-MR_CRABS (smug): Out ye go!
+MR_KRABS (smug): Out ye go!
 SFX boing
 EXIT plankton right 600
 
@@ -130,12 +130,12 @@ EXIT plankton right 600
 MUSIC jazz 2
 SCENE treedome
 PLACE sandy center left happy
-ENTER spongebert left midleft sad
-SPONGEBERT (sad): Sandy, how could I mix up Gary with Plankton? I'm a terrible snail dad.
-SANDY (happy): Aw, shucks, SpongeBert. Plankton was wearin' a whole costume. Anybody could've been fooled.
-SPONGEBERT (sad): Gary wasn't fooled.
+ENTER spongebob left midleft sad
+SPONGEBOB (sad): Sandy, how could I mix up Gary with Plankton? I'm a terrible snail dad.
+SANDY (happy): Aw, shucks, SpongeBob. Plankton was wearin' a whole costume. Anybody could've been fooled.
+SPONGEBOB (sad): Gary wasn't fooled.
 SANDY (smug): Well, Gary's a genius. Everybody knows that.
-SPONGEBERT (happy): You're right! I'll bake him a cake shaped like a shell!
+SPONGEBOB (happy): You're right! I'll bake him a cake shaped like a shell!
 SANDY (nervous): Maybe just a regular snack, sugar.
 
 # ------------------------------------------------------------ CHUM BUCKET
@@ -148,13 +148,13 @@ PLANKTON (sad): A snail beat me, Karen. A snail.
 KAREN (happy): I'll add it to the list. Right after the time a pineapple beat you.
 PLANKTON (angry): Tomorrow, I'll disguise myself as a pineapple!
 
-# ------------------------------------------------------------ SPONGEBERT'S LIVING ROOM
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
 MUSIC happy 2
 SCENE sponge_living_room
-PLACE spongebert center right happy
+PLACE spongebob center right happy
 PLACE gary midleft right happy
-SPONGEBERT (happy): Gary, you saved the secret formula. You're a hero.
+SPONGEBOB (happy): Gary, you saved the secret formula. You're a hero.
 GARY (smug): Meow.
-SPONGEBERT (excited): A double helping of snail food? Coming right up!
+SPONGEBOB (excited): A double helping of snail food? Coming right up!
 GARY (happy): Meow meow.
 END

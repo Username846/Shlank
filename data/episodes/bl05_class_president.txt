@@ -2,120 +2,120 @@
 @series Bluffington
 @icon journal
 @number 5
-@description Dug runs for class president against Chalky Studebaker, who is perfect at everything. Skeetor is his campaign manager. Porkchop handles security.
+@description Doug runs for class president against Chalky Studebaker, who is perfect at everything. Skeeter is his campaign manager. Porkchop handles security.
 
 # ------------------------------------------------------------ SCHOOL HALLWAY
 MUSIC happy
 SCENE school_hallway cut
 TITLE
 PLACE mr_bone center left neutral
-PLACE dug midleft right happy
+PLACE doug midleft right happy
 PLACE chalky midright left happy
 MR_BONE (neutral): Class elections are next Friday. Sign-up sheet is on the wall. Do not draw on it, Mister Funnie.
-DUG (nervous): I wasn't going to draw on it.
+DOUG (nervous): I wasn't going to draw on it.
 MR_BONE (smug): You were holding a marker.
 CHALKY (happy): I'm running for president! I want to bring a recycling program to Bluffington Elementary!
-DUG (surprised): That's a really good idea, Chalky.
-CHALKY (excited): Thanks, Dug! Are you running too?
-DUG (shy): Me? No. I mean, maybe. I don't know.
+DOUG (surprised): That's a really good idea, Chalky.
+CHALKY (excited): Thanks, Doug! Are you running too?
+DOUG (shy): Me? No. I mean, maybe. I don't know.
 
 # ------------------------------------------------------------ HONKER BURGER
 MUSIC jazz
 SCENE honker_burger
-PLACE dug midleft right nervous
-PLACE skeetor center left excited
-PLACE patty midright left happy
-SKEETOR (excited): Dude, you should totally run! You'd be a killer president!
-DUG (nervous): Chalky is perfect at everything. Grades, sports, manners. He even has nice handwriting.
-PATTY (happy): But you're nice to everybody, Dug. That counts for a lot.
-DUG (surprised): You think so?
-PATTY (smug): I'd vote for you.
-DUG (excited): Then I'm running! Funnie for President!
-SKEETOR (excited): Honk! I'll be your campaign manager!
+PLACE doug midleft right nervous
+PLACE skeeter center left excited
+PLACE patti midright left happy
+SKEETER (excited): Dude, you should totally run! You'd be a killer president!
+DOUG (nervous): Chalky is perfect at everything. Grades, sports, manners. He even has nice handwriting.
+PATTI (happy): But you're nice to everybody, Doug. That counts for a lot.
+DOUG (surprised): You think so?
+PATTI (smug): I'd vote for you.
+DOUG (excited): Then I'm running! Funnie for President!
+SKEETER (excited): Honk! I'll be your campaign manager!
 
 # ------------------------------------------------------------ FUNNIE KITCHEN
 MUSIC jazz 2
 SCENE funnie_kitchen
-PLACE judie center left smug
-ENTER dug left midleft excited
-DUG (excited): Judie, I'm running for class president! Can you make me some posters?
-JUDIE (smug): Posters? Doug, I'm an artist. I'll make you a campaign.
-DUG (happy): Wow, thanks!
-JUDIE (excited): A twelve-foot mural. You, as a heroic statue, gazing into the future.
-DUG (nervous): Maybe something smaller. Like a sign?
-JUDIE (smug): Fine. A small heroic statue.
+PLACE judy center left smug
+ENTER doug left midleft excited
+DOUG (excited): Judy, I'm running for class president! Can you make me some posters?
+JUDY (smug): Posters? Doug, I'm an artist. I'll make you a campaign.
+DOUG (happy): Wow, thanks!
+JUDY (excited): A twelve-foot mural. You, as a heroic statue, gazing into the future.
+DOUG (nervous): Maybe something smaller. Like a sign?
+JUDY (smug): Fine. A small heroic statue.
 
 # ------------------------------------------------------------ BEEBE'S MANSION
 MUSIC sneaky
 SCENE beebe_mansion
 PLACE beebe center left smug
-PLACE rodger midright left smug
+PLACE roger midright left smug
 BEEBE (smug): I'm supporting Chalky. Daddy says winners support winners.
-RODGER (smug): I'm supporting whoever gives me free stuff.
+ROGER (smug): I'm supporting whoever gives me free stuff.
 BEEBE (smug): Chalky is giving out pencils.
-RODGER (sad): Pencils? Lame.
+ROGER (sad): Pencils? Lame.
 BEEBE (excited): Pencils with his face on them.
-RODGER (smug): Still lame. But I'll take ten.
+ROGER (smug): Still lame. But I'll take ten.
 
 # ------------------------------------------------------------ MR. DINK'S YARD
 MUSIC happy 3
 SCENE dink_yard
 PLACE mr_dink center left excited
-ENTER dug left midleft happy
+ENTER doug left midleft happy
 MR_DINK (excited): Doug! I hear you're running for office. I have just the thing. A campaign blimp!
-DUG (surprised): A blimp?
+DOUG (surprised): A blimp?
 MR_DINK (smug): With your face on it. It was very expensive.
-DUG (nervous): Maybe just some buttons, Mister Dink.
+DOUG (nervous): Maybe just some buttons, Mister Dink.
 
 # ------------------------------------------------------------ BLUFFINGTON CAFETERIA
 MUSIC tense
 SCENE bluff_cafeteria
-PLACE dug center right nervous
-PLACE skeetor midleft right excited
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
 PLACE connie midright left shy
-SKEETOR (excited): Okay, campaign speech practice. Hit it, Dug!
-DUG (nervous): Hi. I'm Dug Funnie. If I'm president, I'll... um... make sure lunch has more tater tots.
+SKEETER (excited): Okay, campaign speech practice. Hit it, Doug!
+DOUG (nervous): Hi. I'm Doug Funnie. If I'm president, I'll... um... make sure lunch has more tater tots.
 CONNIE (excited): I love tater tots!
-DUG (surprised): Really?
+DOUG (surprised): Really?
 CONNIE (shy): And you always say hi to me in the hallway. Nobody else does.
-DUG (happy): That's because you're nice, Connie.
-SKEETOR (excited): Honk! That's it! That's the campaign! Saying hi!
+DOUG (happy): That's because you're nice, Connie.
+SKEETER (excited): Honk! That's it! That's the campaign! Saying hi!
 
 # ------------------------------------------------------------ DOWNTOWN BLUFFINGTON
 MUSIC happy 2
 SCENE bluffington_downtown
-PLACE dug midleft right happy
+PLACE doug midleft right happy
 PLACE porkchop left right happy
-PLACE skeetor center left excited
-SKEETOR (excited): Vote Funnie! He says hi to people!
-DUG (happy): Hi! Hi! Hello! Vote for me!
+PLACE skeeter center left excited
+SKEETER (excited): Vote Funnie! He says hi to people!
+DOUG (happy): Hi! Hi! Hello! Vote for me!
 PORKCHOP (excited): Arf! Arf arf!
-SKEETOR (happy): Porkchop got the dog vote. All of it.
-DUG (smug): Dogs can't vote, Skeetor.
-SKEETOR (excited): Not yet, man. Not yet.
+SKEETER (happy): Porkchop got the dog vote. All of it.
+DOUG (smug): Dogs can't vote, Skeeter.
+SKEETER (excited): Not yet, man. Not yet.
 
 # ------------------------------------------------------------ LUCKY DUCK LAKE
 MUSIC sad
 SCENE lucky_duck_lake
-PLACE dug center right sad
+PLACE doug center right sad
 ENTER chalky left midleft nervous
-CHALKY (nervous): Dug? Can I tell you something?
-DUG (sad): Sure, Chalky.
+CHALKY (nervous): Doug? Can I tell you something?
+DOUG (sad): Sure, Chalky.
 CHALKY (nervous): I'm really scared about the speech tomorrow. Everyone thinks I'm perfect. What if I mess up?
-DUG (surprised): You get scared too?
+DOUG (surprised): You get scared too?
 CHALKY (sad): All the time. I just smile through it.
-DUG (happy): Hey. If you mess up, I'll mess up too. Then we're even.
-CHALKY (happy): Thanks, Dug. You're a good guy.
+DOUG (happy): Hey. If you mess up, I'll mess up too. Then we're even.
+CHALKY (happy): Thanks, Doug. You're a good guy.
 
 # ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
 MUSIC action
 SCENE quailman_lair
-PLACE dug center right excited
-DUG (excited): President Quailman! The first superhero to run a school!
-DUG (smug): Free tater tots for all! Recess every hour! Homework is now optional!
+PLACE doug center right excited
+DOUG (excited): President Quailman! The first superhero to run a school!
+DOUG (smug): Free tater tots for all! Recess every hour! Homework is now optional!
 SFX fanfare
-DUG (nervous): But who would do the boring parts? The meetings. The budgets.
-DUG (surprised): Huh. Chalky would be great at the boring parts.
+DOUG (nervous): But who would do the boring parts? The meetings. The budgets.
+DOUG (surprised): Huh. Chalky would be great at the boring parts.
 
 # ------------------------------------------------------------ BLUFFINGTON SCHOOL
 MUSIC tense 2
@@ -123,37 +123,37 @@ SCENE bluffington_school
 CARD Election day...
 PLACE mr_bone center left neutral
 PLACE chalky midright left nervous
-PLACE dug midleft right nervous
-PLACE patty right left happy
+PLACE doug midleft right nervous
+PLACE patti right left happy
 MR_BONE (neutral): Candidates, your speeches. Mister Studebaker first.
 CHALKY (nervous): Um. I want to start a recycling program. And, um. And I'm scared right now. A lot.
-DUG (excited): Me too! Hi, I'm Dug, and I'm also really scared!
-PATTY (happy): They're both being honest. That's kind of great.
+DOUG (excited): Me too! Hi, I'm Doug, and I'm also really scared!
+PATTI (happy): They're both being honest. That's kind of great.
 MR_BONE (surprised): Mister Funnie, that's not your turn.
-DUG (happy): I know. I just wanted Chalky to know he's not alone.
+DOUG (happy): I know. I just wanted Chalky to know he's not alone.
 
 # ------------------------------------------------------------ BLUFFINGTON SCHOOL
 MUSIC happy
 SCENE bluffington_school
 PLACE mr_bone center left neutral
 PLACE chalky midright left happy
-PLACE dug midleft right happy
+PLACE doug midleft right happy
 MR_BONE (neutral): The results are in. Class President is Chalky Studebaker.
 CHALKY (excited): I won!
-MR_BONE (smug): And vice president, by write-in vote, Dug Funnie.
-DUG (surprised): Vice president? I didn't even run for that!
+MR_BONE (smug): And vice president, by write-in vote, Doug Funnie.
+DOUG (surprised): Vice president? I didn't even run for that!
 CHALKY (happy): Then you get to do all the fun parts. Like saying hi.
-DUG (excited): Deal!
+DOUG (excited): Deal!
 SFX fanfare
 
-# ------------------------------------------------------------ DUG'S ROOM
+# ------------------------------------------------------------ DOUG'S ROOM
 MUSIC romantic
 SCENE dug_room
-PLACE dug center right happy
+PLACE doug center right happy
 PLACE porkchop midleft right happy
-DUG (happy): Dear Journal. Today I became Vice President of the fourth grade.
-DUG (smug): My first official act: more tater tots at lunch.
+DOUG (happy): Dear Journal. Today I became Vice President of the fourth grade.
+DOUG (smug): My first official act: more tater tots at lunch.
 PORKCHOP (excited): Arf!
-DUG (happy): And my second official act: Porkchop is now Head of Security.
+DOUG (happy): And my second official act: Porkchop is now Head of Security.
 PORKCHOP (smug): Arf arf.
 END

@@ -95,7 +95,7 @@ static func _human(style: String) -> Dictionary:
 				c["extra"] = _x_pink_bow
 				c["lashes"] = 2
 			return c
-		# Pokemon (Team Rokket)
+		# Pokemon (Team Rocket)
 		"jessee", "jaymes":
 			var jess := style == "jessee"
 			return {"size": "adult", "top": Color("f4f4f2"), "sleeves": "long", "sleeve": Color("f4f4f2"),

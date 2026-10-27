@@ -388,10 +388,10 @@ func _pat_rock() -> void:
 	Art.shape(ci, rock, Color("8d6b4f"), 5.0, 0.18, Vector2(-30, -26))
 	for s in [Vector2(560, 470), Vector2(720, 450), Vector2(800, 540), Vector2(500, 550)]:
 		Art.stroke(ci, Art.curve(s, s + Vector2(20, -10), s + Vector2(40, 4), 6), 3.0, Color("5c4330"))
-	Art.text(ci, sign_font, Vector2(980, 560), "PAT LIVES HERE (PROBABLY)", 16, Color.WHITE, 4, HORIZONTAL_ALIGNMENT_CENTER, 220)
+	Art.text(ci, sign_font, Vector2(980, 560), "PATRICK LIVES HERE (PROBABLY)", 16, Color.WHITE, 4, HORIZONTAL_ALIGNMENT_CENTER, 220)
 	Art.limb(ci, PackedVector2Array([Vector2(1090, 640), Vector2(1090, 575)]), 6, Color("7a5230"))
 	Art.shape(ci, Art.rrect(Rect2(975, 530, 230, 44), 6), Color("c79a5b"), 3.5)
-	Art.text(ci, sign_font, Vector2(975, 562), "PAT'S ROCK", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 230)
+	Art.text(ci, sign_font, Vector2(975, 562), "PATRICK'S ROCK", 26, Color.WHITE, 5, HORIZONTAL_ALIGNMENT_CENTER, 230)
 
 
 func _squidwerd_house() -> void:
@@ -448,7 +448,7 @@ func _krusty_crab() -> void:
 	# Sign
 	Art.limb(ci, PackedVector2Array([Vector2(1090, 620), Vector2(1090, 300)]), 14, Color("8a5a2b"))
 	_sign(Rect2(970, 210, 240, 110), "KRUSTY\nCRAB", Color("e6452f"), Color("ffe08a"), 30)
-	Art.text(ci, sign_font, Vector2(330, 290), "THE KRUSTY CRAB", 34, Color("ffe08a"), 8, HORIZONTAL_ALIGNMENT_CENTER, 620)
+	Art.text(ci, sign_font, Vector2(330, 290), "THE KRUSTY KRAB", 34, Color("ffe08a"), 8, HORIZONTAL_ALIGNMENT_CENTER, 620)
 
 
 func _krusty_kitchen() -> void:
@@ -917,7 +917,7 @@ func _gerold_field() -> void:
 	_brick_wall(Rect2(900, 110, 460, 450), Color("8e5a4a"))
 	for x in [30, 150, 260, 960, 1080, 1200]:
 		_window(Rect2(x, 200, 56, 70), Color("e9e2cf"), Color("9ccbe8"))
-	Art.text(ci, sign_font, Vector2(380, 330), "GEROLD FIELD", 58, Color("f2d34b"), 9, HORIZONTAL_ALIGNMENT_CENTER, 520)
+	Art.text(ci, sign_font, Vector2(380, 330), "GERALD FIELD", 58, Color("f2d34b"), 9, HORIZONTAL_ALIGNMENT_CENTER, 520)
 	# Dirt lot
 	Art.fill(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]), Color("c9a06a"))
 	Art.stroke(ci, PackedVector2Array([Vector2(-PAD, 540), Vector2(W + PAD, 540)]), 4.0)

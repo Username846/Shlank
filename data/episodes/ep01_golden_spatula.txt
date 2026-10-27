@@ -1,228 +1,228 @@
 @title The Golden Spatula
 @series Bikini Bottom
 @number 1
-@description SpongeBert's lucky golden spatula goes missing on the morning of the big Patty Cook-Off. Can he find it before noon?
+@description SpongeBob's lucky golden spatula goes missing on the morning of the big Patty Cook-Off. Can he find it before noon?
 
 # ---------------------------------------------------------------- COLD OPEN
 MUSIC happy
 SCENE pineapple_house cut
 TITLE
 NARRATOR: Ah, Bikini Bottom. And one little sponge is ready for the biggest day of his life.
-ENTER spongebert left center
-EMOTE spongebert excited
-SPONGEBERT (excited): Today's the Krusty Crab Patty Cook-Off!
-SPONGEBERT (happy): And I'll cook with my lucky golden spatula. It's right here on my belt...
+ENTER spongebob left center
+EMOTE spongebob excited
+SPONGEBOB (excited): Today's the Krabby Patty Cook-Off!
+SPONGEBOB (happy): And I'll cook with my lucky golden spatula. It's right here on my belt...
 WAIT 0.8
 SFX gasp
-EMOTE spongebert surprised
-CLOSE spongebert
-SPONGEBERT (scared): It's gone! My golden spatula is gone!
+EMOTE spongebob surprised
+CLOSE spongebob
+SPONGEBOB (scared): It's gone! My golden spatula is gone!
 SHAKE 0.6
 WIDE
-SPONGEBERT (sad): The cook-off is at noon. Without it, I'm just a sponge with a fork.
-SPONGEBERT (angry): No! I'll search every corner of Bikini Bottom!
+SPONGEBOB (sad): The cook-off is at noon. Without it, I'm just a sponge with a fork.
+SPONGEBOB (angry): No! I'll search every corner of Bikini Bottom!
 SFX whoosh
-RUN spongebert offright
+RUN spongebob offright
 
-# ---------------------------------------------------------------- PAT'S ROCK
+# ---------------------------------------------------------------- PATRICK'S ROCK
 SCENE pat_rock
-PLACE pat midright left
-ENTER spongebert left midleft 420
-SPONGEBERT (scared): Pat! Pat! It's an emergency!
-PAT (happy): Hi SpongeBert! Did you bring the emergency?
-SPONGEBERT: My golden spatula is missing! Have you seen it?
-PAT: Hmm. What does a spatula look like?
-SPONGEBERT: It's flat and shiny and golden, with a handle.
-PAT (surprised): Like a pancake on a stick?
-PAT (sad): Then I've never seen one. I only notice food. And my new back scratcher.
-PAT (excited): But I'll help you look! I look at stuff all day.
-SPONGEBERT (happy): Let's ask Squidwerd. He notices everything. Mostly things that annoy him.
-EXIT spongebert right &
-EXIT pat right
+PLACE patrick midright left
+ENTER spongebob left midleft 420
+SPONGEBOB (scared): Patrick! Patrick! It's an emergency!
+PATRICK (happy): Hi SpongeBob! Did you bring the emergency?
+SPONGEBOB: My golden spatula is missing! Have you seen it?
+PATRICK: Hmm. What does a spatula look like?
+SPONGEBOB: It's flat and shiny and golden, with a handle.
+PATRICK (surprised): Like a pancake on a stick?
+PATRICK (sad): Then I've never seen one. I only notice food. And my new back scratcher.
+PATRICK (excited): But I'll help you look! I look at stuff all day.
+SPONGEBOB (happy): Let's ask Squidward. He notices everything. Mostly things that annoy him.
+EXIT spongebob right &
+EXIT patrick right
 
-# ----------------------------------------------------------- SQUIDWERD'S HOUSE
+# ----------------------------------------------------------- SQUIDWARD'S HOUSE
 SCENE squidwerd_house
-PLACE squidwerd midright left
-HOLD squidwerd clarinet
-EMOTE squidwerd smug
+PLACE squidward midright left
+HOLD squidward clarinet
+EMOTE squidward smug
 SFX clarinet
 WAIT 2.2
-SQUIDWERD (happy): Ah, perfection. Even the clams are weeping.
-ENTER spongebert left midleft &
-ENTER pat left left
-EMOTE squidwerd angry
-SQUIDWERD (angry): It was a good morning. What do you want?
-SPONGEBERT: Have you seen my golden spatula?
-SQUIDWERD (smug): Yes. I melted it into a tiny trophy. For putting up with you.
+SQUIDWARD (happy): Ah, perfection. Even the clams are weeping.
+ENTER spongebob left midleft &
+ENTER patrick left left
+EMOTE squidward angry
+SQUIDWARD (angry): It was a good morning. What do you want?
+SPONGEBOB: Have you seen my golden spatula?
+SQUIDWARD (smug): Yes. I melted it into a tiny trophy. For putting up with you.
 SFX gasp
-EMOTE spongebert scared
-PAT (happy): Can you play Twinkle Twinkle Little Star? It's about me.
-SQUIDWERD (angry): Goodbye!
-EXIT squidwerd right 500
+EMOTE spongebob scared
+PATRICK (happy): Can you play Twinkle Twinkle Little Star? It's about me.
+SQUIDWARD (angry): Goodbye!
+EXIT squidward right 500
 SFX slam
 SHAKE 0.4
 
-# ---------------------------------------------------------- THE KRUSTY CRAB
+# ---------------------------------------------------------- THE KRUSTY KRAB
 SCENE krusty_crab
-PLACE mr_crabs midright left
-EMOTE mr_crabs happy
-MR_CRABS (happy): Ah, cook-off day! Hundreds of hungry customers, every one with a wallet!
+PLACE mr_krabs midright left
+EMOTE mr_krabs happy
+MR_KRABS (happy): Ah, cook-off day! Hundreds of hungry customers, every one with a wallet!
 SFX cash
-ENTER spongebert left midleft &
-ENTER pat left left
-SPONGEBERT (sad): Mr. Crabs, sir? I have some bad news.
-MR_CRABS (surprised): Bad news? Is it about money?
-SPONGEBERT (sad): It's about my golden spatula. It's missing.
-CLOSE mr_crabs
-MR_CRABS (scared): Missing? That spatula makes the perfect patty! The judges arrive at noon!
-MR_CRABS (angry): No spatula means no prize. And no prize means no money!
+ENTER spongebob left midleft &
+ENTER patrick left left
+SPONGEBOB (sad): Mr. Krabs, sir? I have some bad news.
+MR_KRABS (surprised): Bad news? Is it about money?
+SPONGEBOB (sad): It's about my golden spatula. It's missing.
+CLOSE mr_krabs
+MR_KRABS (scared): Missing? That spatula makes the perfect patty! The judges arrive at noon!
+MR_KRABS (angry): No spatula means no prize. And no prize means no money!
 SFX wahwah
 WIDE
-PAT: And you have my word as a... what am I again?
-MR_CRABS (angry): Go! And take the pink one with ya!
+PATRICK: And you have my word as a... what am I again?
+MR_KRABS (angry): Go! And take the pink one with ya!
 
 # ------------------------------------------------------------- THE KITCHEN
 SCENE krusty_kitchen
 CARD Meanwhile, in the kitchen...
-PLACE spongebert center right
-SPONGEBERT: Maybe I can practice with a fork.
+PLACE spongebob center right
+SPONGEBOB: Maybe I can practice with a fork.
 SFX sizzle
 WAIT 0.6
-SPONGEBERT (sad): It fell through the holes. Okay. A spoon!
+SPONGEBOB (sad): It fell through the holes. Okay. A spoon!
 SFX splat
-ENTER squidwerd right right
-SQUIDWERD (smug): Having trouble? Try cooking with your face. It's flat enough.
-SQUIDWERD (happy): No spatula? I get the afternoon off? Keep looking. Very, very slowly.
-EXIT squidwerd right
-SPONGEBERT (excited): Sandy can help! She's a scientist!
-RUN spongebert offleft
+ENTER squidward right right
+SQUIDWARD (smug): Having trouble? Try cooking with your face. It's flat enough.
+SQUIDWARD (happy): No spatula? I get the afternoon off? Keep looking. Very, very slowly.
+EXIT squidward right
+SPONGEBOB (excited): Sandy can help! She's a scientist!
+RUN spongebob offleft
 
 # --------------------------------------------------------------- TREEDOME
 SCENE treedome
 PLACE sandy midright left
-ENTER spongebert left midleft &
-ENTER pat left left
-SANDY (happy): Howdy, SpongeBert! What brings y'all to the treedome?
-SPONGEBERT (sad): Sandy, my golden spatula is missing!
+ENTER spongebob left midleft &
+ENTER patrick left left
+SANDY (happy): Howdy, SpongeBob! What brings y'all to the treedome?
+SPONGEBOB (sad): Sandy, my golden spatula is missing!
 HOLD sandy detector
 SFX detector
 SANDY (smug): Behold! The Spatula Detector Three Thousand. It finds anything flat and shiny.
-PAT (surprised): Does it find sandwiches?
+PATRICK (surprised): Does it find sandwiches?
 SFX detector
 SANDY (surprised): Whoa, Nelly! A signal! It's coming from Jellyfish Fields! Yee-haw!
-EXIT spongebert right &
-EXIT pat right &
+EXIT spongebob right &
+EXIT patrick right &
 EXIT sandy right
 
 # ------------------------------------------------------- JELLYFISH FIELDS
 SCENE jellyfish_fields
 CARD Ten minutes later...
 ENTER sandy left midright &
-ENTER spongebert left center &
-ENTER pat left left
+ENTER spongebob left center &
+ENTER patrick left left
 HOLD sandy detector
 SFX detector
-SPONGEBERT (happy): Ooh, look at all the jellyfish! Hello, little friends!
+SPONGEBOB (happy): Ooh, look at all the jellyfish! Hello, little friends!
 SFX sting
 SHAKE 0.5
-EMOTE pat scared
-PAT (scared): Ow! The little friends are not friends!
+EMOTE patrick scared
+PATRICK (scared): Ow! The little friends are not friends!
 SFX detector_crazy
 SANDY (surprised): The signal's moving! Now it points to Goo Lagoon!
-PAT (excited): Last one to the beach is a rotten clam!
-RUN pat offright
+PATRICK (excited): Last one to the beach is a rotten clam!
+RUN patrick offright
 
 # -------------------------------------------------------------- GOO LAGOON
 SCENE goo_lagoon
-PLACE pat midright left
-ENTER spongebert left center &
+PLACE patrick midright left
+ENTER spongebob left center &
 ENTER sandy left midleft
 HOLD sandy detector
-SPONGEBERT (sad): Aw, I'm the rotten clam.
+SPONGEBOB (sad): Aw, I'm the rotten clam.
 SFX detector_crazy
-SANDY (angry): Dagnabbit! Every time Pat walks by, it beeps like a banjo on fire!
-PAT (smug): Maybe I'm just very shiny.
+SANDY (angry): Dagnabbit! Every time Patrick walks by, it beeps like a banjo on fire!
+PATRICK (smug): Maybe I'm just very shiny.
 SANDY: Now it points across town, to the Chum Bucket!
 MUSIC sneaky
-SPONGEBERT (scared): The Chum Bucket? Somebody stole it!
+SPONGEBOB (scared): The Chum Bucket? Somebody stole it!
 
 # ------------------------------------------------------------ CHUM BUCKET
 SCENE chum_bucket
-ENTER spongebert left midleft 120 &
-ENTER pat left left 120 &
+ENTER spongebob left midleft 120 &
+ENTER patrick left left 120 &
 ENTER sandy left center 120
-SPONGEBERT (scared): Shh. Be very, very quiet.
-PAT (excited): OKAY!
+SPONGEBOB (scared): Shh. Be very, very quiet.
+PATRICK (excited): OKAY!
 SHAKE 0.5
 SANDY: Wait a minute. The sign says closed. Nobody's here.
 MUSIC sad
-ENTER mr_crabs right midright 420
-MR_CRABS (scared): SpongeBert! The judges are arriving! Did ya find it?
+ENTER mr_krabs right midright 420
+MR_KRABS (scared): SpongeBob! The judges are arriving! Did ya find it?
 SFX wahwah
-SANDY: Let's think like scientists. SpongeBert, where were you last night?
-SPONGEBERT: Last night? I was at Boating School, for my driving test. Again.
+SANDY: Let's think like scientists. SpongeBob, where were you last night?
+SPONGEBOB: Last night? I was at Boating School, for my driving test. Again.
 SFX whoosh
-RUN mr_crabs offright
+RUN mr_krabs offright
 
 # --------------------------------------------------------- BOATING SCHOOL
 SCENE boating_school
 MUSIC tense
-ENTER spongebert left center &
-ENTER pat left midleft &
+ENTER spongebob left center &
+ENTER patrick left midleft &
 ENTER sandy left left
 HOLD sandy detector
-SPONGEBERT (sad): This is where I crashed into the cones. I still had it then.
-PAT (happy): I was here too! Cheering you on.
+SPONGEBOB (sad): This is where I crashed into the cones. I still had it then.
+PATRICK (happy): I was here too! Cheering you on.
 SFX detector_crazy
-SANDY (surprised): Pat, hold still. What are you scratching your back with?
-FACE pat right
-PAT (happy): Oh, this? It's my new back scratcher! It fell off a sponge last night.
-HOLD pat golden_spatula
+SANDY (surprised): Patrick, hold still. What are you scratching your back with?
+FACE patrick right
+PATRICK (happy): Oh, this? It's my new back scratcher! It fell off a sponge last night.
+HOLD patrick golden_spatula
 SFX sparkle
-CLOSE pat
+CLOSE patrick
 WAIT 1.2
 WIDE
-SPONGEBERT (surprised): My golden spatula!
-SANDY (angry): Pat! The detector was pointing at you the whole time!
-PAT (smug): See? I told you I was shiny.
-SPONGEBERT (excited): To the Krusty Crab!
+SPONGEBOB (surprised): My golden spatula!
+SANDY (angry): Patrick! The detector was pointing at you the whole time!
+PATRICK (smug): See? I told you I was shiny.
+SPONGEBOB (excited): To the Krusty Krab!
 MUSIC happy
-HOLD pat none
-HOLD spongebert golden_spatula
-RUN spongebert offright &
+HOLD patrick none
+HOLD spongebob golden_spatula
+RUN spongebob offright &
 RUN sandy offright &
-RUN pat offright
+RUN patrick offright
 
 # ----------------------------------------------------------- THE COOK-OFF
 SCENE krusty_kitchen
 CARD Twelve o'clock. The Cook-Off.
-PLACE spongebert center right
-HOLD spongebert golden_spatula
-PLACE mr_crabs farleft right
-PLACE squidwerd right left
+PLACE spongebob center right
+HOLD spongebob golden_spatula
+PLACE mr_krabs farleft right
+PLACE squidward right left
 SFX drumroll
 WAIT 1.4
-SPONGEBERT (excited): One perfect patty, coming right up!
+SPONGEBOB (excited): One perfect patty, coming right up!
 SFX sizzle
-JUMP spongebert
+JUMP spongebob
 WAIT 0.8
 SFX ding
-HOLD spongebert patty
-MR_CRABS: Squidwerd, you're our last judge. Take a bite.
-SQUIDWERD (angry): Fine. But I'm not going to like it.
+HOLD spongebob patty
+MR_KRABS: Squidward, you're our last judge. Take a bite.
+SQUIDWARD (angry): Fine. But I'm not going to like it.
 SFX chomp
 WAIT 1.0
-EMOTE squidwerd surprised
-SQUIDWERD (surprised): Oh. Oh no. It's... it's...
-SQUIDWERD (happy): It's delicious! I hate how delicious it is!
+EMOTE squidward surprised
+SQUIDWARD (surprised): Oh. Oh no. It's... it's...
+SQUIDWARD (happy): It's delicious! I hate how delicious it is!
 SFX fanfare
-EMOTE mr_crabs excited
-MR_CRABS (excited): We win! Come to papa!
-HOLD mr_crabs money
+EMOTE mr_krabs excited
+MR_KRABS (excited): We win! Come to papa!
+HOLD mr_krabs money
 SFX cash
-ENTER pat left left &
+ENTER patrick left left &
 ENTER sandy left midleft
-PAT (sad): Um, SpongeBert? Can I have my back scratcher back? I'm itchy.
-SPONGEBERT (happy): Sure, Pat. Right after the lunch rush.
-NARRATOR: And so the spatula was found, the patty was perfect, and Pat stayed itchy for a very long time.
+PATRICK (sad): Um, SpongeBob? Can I have my back scratcher back? I'm itchy.
+SPONGEBOB (happy): Sure, Patrick. Right after the lunch rush.
+NARRATOR: And so the spatula was found, the patty was perfect, and Patrick stayed itchy for a very long time.
 END The End

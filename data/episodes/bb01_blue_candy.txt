@@ -2,7 +2,7 @@
 @series Breaking Bad
 @icon element
 @number 1
-@description Mild-mannered chemistry teacher Walt Whyte enters the Albuquerque Candy Fair with the purest blue rock candy anyone has ever seen. Everyone wants the recipe.
+@description Mild-mannered chemistry teacher Walter White enters the Albuquerque Candy Fair with the purest blue rock candy anyone has ever seen. Everyone wants the recipe.
 
 # ------------------------------------------------------------ CHEMISTRY CLASS
 MUSIC sneaky
@@ -11,32 +11,32 @@ TITLE
 PLACE walt center left neutral
 WALT: Chemistry is the study of change. Sugar, water and heat become something beautiful.
 WALT (smug): Today we're making rock candy. Perfect crystals. Ninety-nine point one percent pure.
-ENTER pinkman right right happy
-PINKMAN (excited): Yo, Mister Whyte! That candy is so blue! That's art, yo!
-WALT (happy): Jessie. You failed my class.
-PINKMAN (smug): Yeah, but I'm here for the candy, not the grades.
+ENTER jesse right right happy
+JESSE (excited): Yo, Mister White! That candy is so blue! That's art, yo!
+WALT (happy): Jesse. You failed my class.
+JESSE (smug): Yeah, but I'm here for the candy, not the grades.
 WALT (excited): Then help me. The Albuquerque Candy Fair is on Saturday. We're going to win it.
 
 # ------------------------------------------------------------ THE RV
 MUSIC tense
 SCENE rv_desert
 PLACE walt midleft right excited
-PLACE pinkman midright left nervous
-PINKMAN (nervous): Why are we making candy in an RV in the middle of the desert?
-WALT (smug): Because my kitchen is too small, and Skylar banned me from using the stove.
+PLACE jesse midright left nervous
+JESSE (nervous): Why are we making candy in an RV in the middle of the desert?
+WALT (smug): Because my kitchen is too small, and Skyler banned me from using the stove.
 SFX sizzle
 WALT (excited): Look at that. Blue crystals. Flawless.
-PINKMAN (excited): Yeah, science!
-PINKMAN (happy): We gotta give it a cool name. Like... Heisenberg's Blue!
+JESSE (excited): Yeah, science!
+JESSE (happy): We gotta give it a cool name. Like... Heisenberg's Blue!
 WALT (smug): Heisenberg. I like it.
 
-# ------------------------------------------------------------ THE WHYTE HOUSE
+# ------------------------------------------------------------ THE WHITE HOUSE
 MUSIC jazz
 SCENE whyte_house
-PLACE skylar midright left angry
+PLACE skyler midright left angry
 PLACE flynn right left happy
 ENTER walt left midleft nervous
-SKYLAR (angry): Walt. Where were you all day? And why do you smell like burnt sugar?
+SKYLER (angry): Walt. Where were you all day? And why do you smell like burnt sugar?
 WALT (nervous): Chess club. Very intense chess club.
 FLYNN (happy): Dad, can you make breakfast? Like, a really big breakfast?
 WALT (happy): It's seven at night, son.
@@ -46,11 +46,11 @@ FLYNN (excited): Breakfast for dinner is the best kind of breakfast.
 MUSIC tense 2
 SCENE dea_office
 PLACE hank center left excited
-ENTER maree right right neutral
-HANK (excited): Maree, look at this. Somebody's selling blue candy at the farmer's market. Calls it "Heisenberg's."
-MAREE: It's very... blue.
+ENTER marie right right neutral
+HANK (excited): Marie, look at this. Somebody's selling blue candy at the farmer's market. Calls it "Heisenberg's."
+MARIE: It's very... blue.
 HANK (smug): It's beating my favorite candy store! I'm gonna find this Heisenberg. Nobody beats Gummy Gus's Gummies on my watch.
-MAREE (smug): Hank, that's not really a DEA job.
+MARIE (smug): Hank, that's not really a DEA job.
 HANK (excited): Everything's a DEA job if you believe in yourself.
 
 # ------------------------------------------------------------ SAUL'S OFFICE
@@ -58,11 +58,11 @@ MUSIC happy
 SCENE saul_office
 PLACE saul center left excited
 ENTER walt left midleft neutral
-ENTER pinkman left left happy
+ENTER jesse left left happy
 SAUL (excited): Better call Saul! What can I do for you, gentlemen? Lawsuit? Divorce? Candy trademark?
 WALT: Candy trademark.
 SAUL (excited): Love it! Heisenberg's Blue. I can get you a billboard, a jingle and a giant inflatable rock candy.
-PINKMAN (excited): Yo, a giant inflatable? We gotta do that!
+JESSE (excited): Yo, a giant inflatable? We gotta do that!
 SAUL (smug): Ten percent of everything, plus I get free candy for life.
 
 # ------------------------------------------------------------ LOS POLLITOS HERMANOS
@@ -70,7 +70,7 @@ MUSIC sneaky 2
 SCENE pollitos
 PLACE gus center left neutral
 ENTER walt left midleft nervous
-GUS: Mister Whyte. Your blue candy is remarkable. I would like to serve it here. As dessert.
+GUS: Mister White. Your blue candy is remarkable. I would like to serve it here. As dessert.
 WALT (surprised): At a chicken restaurant?
 GUS (smug): Chicken, then candy. It is the perfect meal.
 WALT (smug): I'll think about it. But first, I'm winning that fair.
@@ -79,71 +79,71 @@ ENTER mike right right neutral
 MIKE: You want me to keep an eye on him?
 GUS: Just a half measure, Michael.
 
-# ------------------------------------------------------------ PINKMANN HOUSE
+# ------------------------------------------------------------ PINKMAN HOUSE
 MUSIC jazz 2
 SCENE pinkman_house
-PLACE pinkman midleft right happy
-PLACE badgur center left happy
-PLACE skinnee_pete midright left happy
-BADGUR (happy): Yo, so I've got this idea for a space movie. There's a guy, and he's made of candy.
-SKINNEE_PETE (smug): Candy guy in space. Classic.
-PINKMAN (excited): Yo, focus! Tomorrow's the fair. Me and Mister Whyte need everything perfect.
-BADGUR (nervous): We can help!
-PINKMAN (nervous): That's what I'm afraid of.
+PLACE jesse midleft right happy
+PLACE badger center left happy
+PLACE skinny_pete midright left happy
+BADGER (happy): Yo, so I've got this idea for a space movie. There's a guy, and he's made of candy.
+SKINNY_PETE (smug): Candy guy in space. Classic.
+JESSE (excited): Yo, focus! Tomorrow's the fair. Me and Mister White need everything perfect.
+BADGER (nervous): We can help!
+JESSE (nervous): That's what I'm afraid of.
 
 # ------------------------------------------------------------ THE SUPERLAB
 MUSIC action
 SCENE superlab
 CARD The night before the fair...
 PLACE walt center right excited
-PLACE pinkman midright left nervous
-ENTER badgur left left happy
-ENTER skinnee_pete left farleft happy
-BADGUR (happy): Yo, Jessie, we brought you guys snacks!
-SKINNEE_PETE (happy): Word.
-PINKMAN (angry): Dudes! Don't touch anything! This is a professional candy laboratory!
+PLACE jesse midright left nervous
+ENTER badger left left happy
+ENTER skinny_pete left farleft happy
+BADGER (happy): Yo, Jesse, we brought you guys snacks!
+SKINNY_PETE (happy): Word.
+JESSE (angry): Dudes! Don't touch anything! This is a professional candy laboratory!
 SFX slam
 SHAKE 0.6
 WALT (scared): The tank! Who leaned on the tank?!
-BADGUR (nervous): Was that the candy? It's all over the floor now.
+BADGER (nervous): Was that the candy? It's all over the floor now.
 WALT (sad): Three weeks of work. Gone.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC sad
 SCENE whyte_backyard
 PLACE walt center right sad
-ENTER skylar left midleft neutral
-SKYLAR: Walt. I know about the candy. Jessie's friends told everyone.
-WALT (sad): I'm sorry, Skylar. I just wanted to make something I was proud of.
-SKYLAR (happy): Then make it again. In our kitchen. I'll help.
+ENTER skyler left midleft neutral
+SKYLER: Walt. I know about the candy. Jesse's friends told everyone.
+WALT (sad): I'm sorry, Skyler. I just wanted to make something I was proud of.
+SKYLER (happy): Then make it again. In our kitchen. I'll help.
 WALT (surprised): You will?
-SKYLAR (smug): Somebody has to keep the books on this candy empire.
+SKYLER (smug): Somebody has to keep the books on this candy empire.
 
-# ------------------------------------------------------------ SCHRAEDER HOUSE
+# ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC sneaky
 SCENE schraeder_house
 PLACE hank midleft right excited
-PLACE maree center left smug
+PLACE marie center left smug
 HANK (excited): Tomorrow I'm going undercover at the Candy Fair. Sunglasses. Fake mustache. The works.
-MAREE (smug): Hank, everyone in Albuquerque knows who you are.
+MARIE (smug): Hank, everyone in Albuquerque knows who you are.
 HANK (smug): Not with the mustache, they won't.
-MAREE (happy): You're wearing a purple mustache?
-HANK (nervous): It was the only color in the house, Maree.
+MARIE (happy): You're wearing a purple mustache?
+HANK (nervous): It was the only color in the house, Marie.
 
 # ------------------------------------------------------------ THE CANDY FAIR
 MUSIC happy 2
 SCENE car_wash
 CARD Saturday. The Candy Fair at the A2A Car Wash.
 PLACE walt midleft right excited
-PLACE skylar left right happy
+PLACE skyler left right happy
 PLACE hank center left surprised
 PLACE flynn farleft right happy
 HANK (surprised): Walt? YOU'RE Heisenberg?
 WALT (smug): Say my name, Hank.
 HANK (excited): Heisenberg! This candy is incredible! It's like little blue minerals!
-ENTER pinkman right midright excited
-PINKMAN (excited): We won, yo! First prize! Blue ribbon for the blue candy!
+ENTER jesse right midright excited
+JESSE (excited): We won, yo! First prize! Blue ribbon for the blue candy!
 SFX fanfare
 FLYNN (excited): Does this mean we can have candy for breakfast?
-SKYLAR (smug): Absolutely not.
+SKYLER (smug): Absolutely not.
 END

@@ -4,30 +4,30 @@
 @number 2
 @description Walt promised to bring home pizza for family night. Things go wrong at the door, and now there's a whole pizza on the roof. Getting it down becomes the hardest chemistry problem of his life.
 
-# ------------------------------------------------------------ WHYTE HOUSE
+# ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy
 SCENE whyte_house cut
 TITLE
-PLACE skylar center left neutral
+PLACE skyler center left neutral
 PLACE flynn midright left excited
 FLYNN (excited): Mom, is Dad bringing the pizza? It's family night. Family night means pizza.
-SKYLAR (smug): He promised. Extra large. Half pepperoni, half mushroom.
+SKYLER (smug): He promised. Extra large. Half pepperoni, half mushroom.
 FLYNN (happy): And breakfast tomorrow?
-SKYLAR (smug): Flynn, it's six p.m.
+SKYLER (smug): Flynn, it's six p.m.
 FLYNN (excited): It's never too early to plan breakfast.
-SKYLAR (neutral): Your father's late again.
+SKYLER (neutral): Your father's late again.
 
 # ------------------------------------------------------------ CHEMISTRY CLASS
 MUSIC jazz
 SCENE chem_class
 PLACE walt center left neutral
-PLACE pinkman midright left happy
-WALT: Jessie, I have to go. Family night. I'm picking up a pizza.
-PINKMAN (happy): Yo, family night! That's sweet, Mister Whyte.
-WALT (nervous): Skylar's upset that I've been staying late at school. This pizza has to be perfect.
-PINKMAN (smug): Just don't drop it, yo.
-WALT (smug): Jessie, I'm a chemistry teacher. I handle delicate things every day.
-PINKMAN (happy): Famous last words.
+PLACE jesse midright left happy
+WALT: Jesse, I have to go. Family night. I'm picking up a pizza.
+JESSE (happy): Yo, family night! That's sweet, Mister White.
+WALT (nervous): Skyler's upset that I've been staying late at school. This pizza has to be perfect.
+JESSE (smug): Just don't drop it, yo.
+WALT (smug): Jesse, I'm a chemistry teacher. I handle delicate things every day.
+JESSE (happy): Famous last words.
 
 # ------------------------------------------------------------ LOS POLLITOS HERMANOS
 MUSIC sneaky
@@ -35,62 +35,62 @@ SCENE pollitos
 PLACE gus center left neutral
 ENTER walt left midleft nervous
 WALT (nervous): Gus. One extra large pizza, please. Half pepperoni, half mushroom.
-GUS (smug): Mister Whyte. This is a chicken restaurant.
+GUS (smug): Mister White. This is a chicken restaurant.
 WALT (surprised): You don't sell pizza?
 GUS: We sell chicken. With a polite smile.
 WALT (sad): The pizza place was closed. I'm desperate.
 GUS (happy): Then I will make you a chicken pizza. Just this once.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC tense
 SCENE whyte_backyard
 ENTER walt left midleft excited
-WALT (excited): Skylar! I'm home! With a chicken pizza! It's very exotic!
+WALT (excited): Skyler! I'm home! With a chicken pizza! It's very exotic!
 NARRATOR: Walt tripped on a garden hose. The pizza box flew out of his hands, spun through the air, and landed perfectly flat. On the roof.
 SFX whoosh
 SFX thud
 WALT (surprised): No. No no no.
 WALT (sad): It's on the roof. Of course it's on the roof.
 
-# ------------------------------------------------------------ WHYTE HOUSE
+# ------------------------------------------------------------ WHITE HOUSE
 MUSIC sad
 SCENE whyte_house
-PLACE skylar center left angry
+PLACE skyler center left angry
 PLACE flynn midright left sad
 ENTER walt left midleft nervous
-SKYLAR (angry): Walt. Where's the pizza?
+SKYLER (angry): Walt. Where's the pizza?
 WALT (nervous): It's... nearby.
 FLYNN (sad): Dad, I can see it through the skylight. It's on the roof.
-SKYLAR (angry): You threw the pizza on the roof?
+SKYLER (angry): You threw the pizza on the roof?
 WALT (nervous): I didn't throw it. It achieved flight. Through a series of unfortunate forces.
-SKYLAR (smug): Then go get it, Mister Chemistry.
+SKYLER (smug): Then go get it, Mister Chemistry.
 
-# ------------------------------------------------------------ PINKMANN HOUSE
+# ------------------------------------------------------------ PINKMAN HOUSE
 MUSIC jazz 2
 SCENE pinkman_house
-PLACE pinkman center left happy
-PLACE badgur midright left happy
-PLACE skinnee_pete right left happy
+PLACE jesse center left happy
+PLACE badger midright left happy
+PLACE skinny_pete right left happy
 SFX beep
-PINKMAN (surprised): Yo, it's Mister Whyte. He says, "Need ladder. Pizza on roof. Do not ask."
-BADGUR (excited): Pizza on a roof? That's my favorite kind of mission!
-SKINNEE_PETE (smug): Word.
-PINKMAN (happy): Let's roll. I got a ladder. Kind of. It's two shorter ladders taped together.
-BADGUR (nervous): Is that safe?
-PINKMAN (smug): It's science.
+JESSE (surprised): Yo, it's Mister White. He says, "Need ladder. Pizza on roof. Do not ask."
+BADGER (excited): Pizza on a roof? That's my favorite kind of mission!
+SKINNY_PETE (smug): Word.
+JESSE (happy): Let's roll. I got a ladder. Kind of. It's two shorter ladders taped together.
+BADGER (nervous): Is that safe?
+JESSE (smug): It's science.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC action
 SCENE whyte_backyard
 PLACE walt center right nervous
-ENTER pinkman left midleft excited
-ENTER badgur left left happy
-ENTER skinnee_pete left farleft happy
-PINKMAN (excited): We brought the ladder, yo!
+ENTER jesse left midleft excited
+ENTER badger left left happy
+ENTER skinny_pete left farleft happy
+JESSE (excited): We brought the ladder, yo!
 WALT (nervous): That's two ladders and an entire roll of tape.
-BADGUR (happy): Fifty percent stronger than one ladder.
+BADGER (happy): Fifty percent stronger than one ladder.
 WALT (smug): That's not how strength works.
-SKINNEE_PETE (smug): Trust the tape, Mister W.
+SKINNY_PETE (smug): Trust the tape, Mister W.
 SFX squeak
 WALT (scared): It's wobbling. Why is it wobbling?
 
@@ -100,70 +100,70 @@ SCENE laundry
 PLACE mike center left neutral
 PLACE gus midright left smug
 SFX beep
-MIKE: Mister Whyte's pizza is on his roof. Our chicken pizza. The first one we ever made.
+MIKE: Mister White's pizza is on his roof. Our chicken pizza. The first one we ever made.
 GUS (smug): A tragedy for the brand.
 MIKE (smug): Want me to go get it?
 GUS: No. A half measure would be watching from across the street. A full measure would be helping.
 MIKE (surprised): You want me to help him get a pizza off a roof?
 GUS (happy): I want my chicken pizza to be eaten, Michael.
 
-# ------------------------------------------------------------ SCHRAEDER HOUSE
+# ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC jazz 3
 SCENE schraeder_house
 PLACE hank center left excited
-PLACE maree midright left smug
+PLACE marie midright left smug
 SFX beep
-HANK (excited): Maree! Skylar says Walt's on the roof with three guys and a taped-up ladder!
-MAREE (smug): Is it a family emergency?
+HANK (excited): Marie! Skyler says Walt's on the roof with three guys and a taped-up ladder!
+MARIE (smug): Is it a family emergency?
 HANK (happy): It's a pizza emergency! I'm going!
-MAREE (nervous): Hank, don't climb anything.
-HANK (smug): I'm an agent of the law, Maree. I climb what I want.
-MAREE (smug): Your back says otherwise.
+MARIE (nervous): Hank, don't climb anything.
+HANK (smug): I'm an agent of the law, Marie. I climb what I want.
+MARIE (smug): Your back says otherwise.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC action 2
 SCENE whyte_backyard
 PLACE walt midleft right scared
-PLACE pinkman left right nervous
-PLACE badgur center left happy
+PLACE jesse left right nervous
+PLACE badger center left happy
 ENTER hank right midright excited 500
-HANK (excited): Step aside, amateurs! Hank Schraeder is here!
+HANK (excited): Step aside, amateurs! Hank Schrader is here!
 WALT (nervous): Hank, the ladder's not stable.
 HANK (smug): Walt, I've climbed buildings, fences and once, a very angry horse.
 SFX squeak
 SFX thud
 SHAKE 0.8
 HANK (sad): Ow. Okay. The ladder wins.
-PINKMAN (scared): The tape gave up, yo!
+JESSE (scared): The tape gave up, yo!
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC tense 2
 SCENE whyte_backyard
 PLACE walt center right excited
-PLACE pinkman midleft right nervous
-PLACE skinnee_pete left right happy
+PLACE jesse midleft right nervous
+PLACE skinny_pete left right happy
 WALT (excited): Wait. We're thinking about this wrong. We don't need to climb to the pizza. We need the pizza to come to us.
-PINKMAN (surprised): How?
+JESSE (surprised): How?
 WALT (smug): Physics. The garden hose. A little water pressure. Just enough to slide the box toward the gutter.
-SKINNEE_PETE (excited): Science, yo!
+SKINNY_PETE (excited): Science, yo!
 SFX splash
 WALT (excited): It's moving! It's sliding! Catch it!
 SFX pop
-PINKMAN (excited): Got it! Yeah, science!
+JESSE (excited): Got it! Yeah, science!
 
-# ------------------------------------------------------------ WHYTE HOUSE
+# ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy 2
 SCENE whyte_house
-PLACE skylar center left smug
+PLACE skyler center left smug
 PLACE flynn midright left excited
 PLACE walt midleft right happy
 PLACE hank left right sad
 WALT (happy): Dinner is served. One slightly damp chicken pizza.
 FLYNN (excited): It's still warm! That's amazing!
-SKYLAR (smug): It's soggy, Walt.
+SKYLER (smug): It's soggy, Walt.
 WALT (smug): It's hydrated.
 HANK (sad): Can I have a slice? For my back?
-SKYLAR (happy): Fine. Everybody sit. Family night.
+SKYLER (happy): Fine. Everybody sit. Family night.
 FLYNN (happy): Best family night ever. Is there breakfast pizza tomorrow?
 WALT (happy): Don't push it, son.
 END

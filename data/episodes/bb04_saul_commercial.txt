@@ -2,7 +2,7 @@
 @series Breaking Bad
 @icon element
 @number 4
-@description Saul Goodmann wants a brand-new TV commercial, and he wants everyone in it. Walt is the scientist. Jessie is the stunt guy. Hank is extremely confused about why he's there.
+@description Saul Goodman wants a brand-new TV commercial, and he wants everyone in it. Walt is the scientist. Jesse is the stunt guy. Hank is extremely confused about why he's there.
 
 # ------------------------------------------------------------ SAUL'S OFFICE
 MUSIC happy
@@ -27,24 +27,24 @@ SAUL (happy): Just stand there and say "Science says: Call Saul."
 WALT (nervous): That's not what science says.
 SAUL (smug): It's what it says on TV.
 
-# ------------------------------------------------------------ PINKMANN HOUSE
+# ------------------------------------------------------------ PINKMAN HOUSE
 MUSIC happy 2
 SCENE pinkman_house
-PLACE pinkman center left excited
-PLACE badgur midright left happy
-PINKMAN (excited): Yo! Saul wants me to be the stunt guy in his commercial!
-BADGUR (excited): Stunts? Like jumping over cars?
-PINKMAN (smug): Like jumping through a giant paper sign that says "Saul."
-BADGUR (happy): Dude, I've always wanted to jump through a sign.
-PINKMAN (nervous): He said it's only two feet off the ground.
-BADGUR (smug): Still counts.
+PLACE jesse center left excited
+PLACE badger midright left happy
+JESSE (excited): Yo! Saul wants me to be the stunt guy in his commercial!
+BADGER (excited): Stunts? Like jumping over cars?
+JESSE (smug): Like jumping through a giant paper sign that says "Saul."
+BADGER (happy): Dude, I've always wanted to jump through a sign.
+JESSE (nervous): He said it's only two feet off the ground.
+BADGER (smug): Still counts.
 
 # ------------------------------------------------------------ DEA OFFICE
 MUSIC tense
 SCENE dea_office
 PLACE hank center left angry
 ENTER saul right midright excited
-HANK (angry): Goodmann. Why are you in my office?
+HANK (angry): Goodman. Why are you in my office?
 SAUL (excited): Hank! I need a real lawman for my commercial. A tough guy. A guy who says, "Even the cops call Saul."
 HANK (angry): The cops would never call Saul.
 SAUL (smug): There's free lunch.
@@ -70,9 +70,9 @@ SCENE car_wash
 CARD Filming day...
 PLACE saul center left excited
 PLACE walt midleft right nervous
-PLACE pinkman left right excited
+PLACE jesse left right excited
 PLACE hank midright left smug
-SAUL (excited): Okay, places, people! Walt, you're the scientist. Jessie, you're the stunt man. Hank, you're the tough cop.
+SAUL (excited): Okay, places, people! Walt, you're the scientist. Jesse, you're the stunt man. Hank, you're the tough cop.
 HANK (smug): I've been practicing my tough face.
 WALT (nervous): Saul, why are we at a car wash?
 SAUL (happy): Because I got the location for free! And it's very shiny! Action!
@@ -83,17 +83,17 @@ WALT (angry): SCIENCE SAYS CALL SAUL!
 # ------------------------------------------------------------ CAR WASH
 MUSIC action 2
 SCENE car_wash
-PLACE pinkman center right excited
+PLACE jesse center right excited
 PLACE saul midright left excited
-PLACE skinnee_pete left right happy
-SAUL (excited): Jessie! Stunt time! Run and jump through the sign!
-PINKMAN (excited): Yo, I got this!
+PLACE skinny_pete left right happy
+SAUL (excited): Jesse! Stunt time! Run and jump through the sign!
+JESSE (excited): Yo, I got this!
 SFX whoosh
 SFX splat
 SHAKE 0.6
-SKINNEE_PETE (surprised): He jumped through the sign. And into the car wash.
+SKINNY_PETE (surprised): He jumped through the sign. And into the car wash.
 SFX bubbles
-PINKMAN (nervous): Yo! I'm getting scrubbed! Somebody turn it off!
+JESSE (nervous): Yo! I'm getting scrubbed! Somebody turn it off!
 SAUL (excited): Keep rolling! This is gold!
 
 # ------------------------------------------------------------ CAR WASH
@@ -101,13 +101,13 @@ MUSIC tense 2
 SCENE car_wash
 PLACE hank center left smug
 PLACE saul midright left excited
-PLACE skylar left right smug
+PLACE skyler left right smug
 HANK (smug): And now for my line. Ahem. "When criminals are in trouble, they call Saul. And that's why I arrest them."
 SAUL (nervous): Hank, that's not the line.
 HANK (smug): It's my line now.
-SKYLAR (smug): Saul, I'm the business manager of this car wash. Who's paying for the broken sign and the very clean Jessie?
+SKYLER (smug): Saul, I'm the business manager of this car wash. Who's paying for the broken sign and the very clean Jesse?
 SAUL (nervous): Can I pay you in advertising?
-SKYLAR (smug): No.
+SKYLER (smug): No.
 
 # ------------------------------------------------------------ SAUL'S OFFICE
 MUSIC sneaky 2
@@ -122,17 +122,17 @@ SAUL (surprised): A blooper commercial?
 WALT (smug): Chemistry is the study of change. Change your plan.
 SAUL (excited): Walt, you're a genius!
 
-# ------------------------------------------------------------ WHYTE HOUSE
+# ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy 3
 SCENE whyte_house
 CARD One week later...
 PLACE flynn center left excited
-PLACE skylar midright left smug
+PLACE skyler midright left smug
 PLACE walt midleft right nervous
 FLYNN (excited): Dad! You're on TV! The car wash commercial! Everyone at school saw it!
 WALT (nervous): Is that good?
 FLYNN (happy): It's the most popular video in Albuquerque! Ten million views!
-SKYLAR (smug): And the car wash is packed. Everyone wants to see where the stunt guy got scrubbed.
+SKYLER (smug): And the car wash is packed. Everyone wants to see where the stunt guy got scrubbed.
 WALT (happy): Huh. Science works.
 FLYNN (excited): Can you get me Saul's autograph?
 WALT (sad): Please don't.

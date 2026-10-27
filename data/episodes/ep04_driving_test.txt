@@ -2,87 +2,87 @@
 @series Bikini Bottom
 @icon bubbles
 @number 4
-@description SpongeBert is about to take his boating test for the sixty-seventh time, and Mrs. Puff has a plan to finally get him to pass.
+@description SpongeBob is about to take his boating test for the sixty-seventh time, and Mrs. Puff has a plan to finally get him to pass.
 
 # ------------------------------------------------------------ BOATING SCHOOL
 MUSIC tense
 SCENE boating_school cut
 TITLE
 PLACE mrs_puff center left nervous
-ENTER spongebert left midleft excited
-SPONGEBERT (excited): Good morning, Mrs. Puff! Today's the day! Test number sixty-seven!
-MRS_PUFF (nervous): Yes, SpongeBert. Sixty-seven. What a lovely number.
-SPONGEBERT (happy): I studied all night! I know every rule by heart!
+ENTER spongebob left midleft excited
+SPONGEBOB (excited): Good morning, Mrs. Puff! Today's the day! Test number sixty-seven!
+MRS_PUFF (nervous): Yes, SpongeBob. Sixty-seven. What a lovely number.
+SPONGEBOB (happy): I studied all night! I know every rule by heart!
 MRS_PUFF (smug): Then what's rule number one?
-SPONGEBERT (excited): Never, ever panic!
+SPONGEBOB (excited): Never, ever panic!
 MRS_PUFF (happy): Very good!
-SPONGEBERT (scared): I'M PANICKING ALREADY!
+SPONGEBOB (scared): I'M PANICKING ALREADY!
 
 # ------------------------------------------------------------ PINEAPPLE
 MUSIC jazz
 SCENE pineapple_house
 CARD The night before...
-PLACE spongebert center right nervous
-ENTER pat left midleft happy
-PAT (happy): SpongeBert! I came to help you study!
-SPONGEBERT (nervous): Thanks, Pat. Quiz me. What's the speed limit in a school zone?
-PAT (smug): Is it... pizza?
-SPONGEBERT (sad): No, Pat.
-PAT (excited): Is it... two pizzas?
-SPONGEBERT (happy): You know what, Pat, that's close enough.
+PLACE spongebob center right nervous
+ENTER patrick left midleft happy
+PATRICK (happy): SpongeBob! I came to help you study!
+SPONGEBOB (nervous): Thanks, Patrick. Quiz me. What's the speed limit in a school zone?
+PATRICK (smug): Is it... pizza?
+SPONGEBOB (sad): No, Patrick.
+PATRICK (excited): Is it... two pizzas?
+SPONGEBOB (happy): You know what, Patrick, that's close enough.
 
-# ------------------------------------------------------------ SQUIDWERD'S HOUSE
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
 MUSIC sneaky
 SCENE squidwerd_house
-PLACE squidwerd midright left angry
+PLACE squidward midright left angry
 ENTER mrs_puff left midleft nervous
-MRS_PUFF (nervous): Squidwerd, I need your help. SpongeBert has to pass this time. My insurance company has stopped answering my calls.
-SQUIDWERD (smug): And why should I help?
+MRS_PUFF (nervous): Squidward, I need your help. SpongeBob has to pass this time. My insurance company has stopped answering my calls.
+SQUIDWARD (smug): And why should I help?
 MRS_PUFF (smug): If he passes, he drives his own boat. He'll never need a ride from you again.
-SQUIDWERD (excited): Where do I sign?
+SQUIDWARD (excited): Where do I sign?
 
-# ------------------------------------------------------------ THE KRUSTY CRAB
+# ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC happy 2
 SCENE krusty_crab
 CARD The morning of the test...
-PLACE mr_crabs center left happy
-ENTER spongebert left midleft nervous
-SPONGEBERT (nervous): Mister Crabs, can I ask for some advice?
-MR_CRABS (happy): Of course, lad. What's eatin' ye?
-SPONGEBERT (nervous): How did you learn to drive a boat?
-MR_CRABS (smug): In the navy! Ninety-two years of steering through storms, pirates and whales!
-SPONGEBERT (surprised): And how did you pass the test?
-MR_CRABS (nervous): Well. Truthfully, I never took one. I just bought the boat.
-SPONGEBERT (sad): That doesn't help me at all.
-MR_CRABS (happy): Aye, but it helped me!
+PLACE mr_krabs center left happy
+ENTER spongebob left midleft nervous
+SPONGEBOB (nervous): Mister Krabs, can I ask for some advice?
+MR_KRABS (happy): Of course, lad. What's eatin' ye?
+SPONGEBOB (nervous): How did you learn to drive a boat?
+MR_KRABS (smug): In the navy! Ninety-two years of steering through storms, pirates and whales!
+SPONGEBOB (surprised): And how did you pass the test?
+MR_KRABS (nervous): Well. Truthfully, I never took one. I just bought the boat.
+SPONGEBOB (sad): That doesn't help me at all.
+MR_KRABS (happy): Aye, but it helped me!
 
 # ------------------------------------------------------------ BOATING SCHOOL
 MUSIC tense 2
 SCENE boating_school
 PLACE mrs_puff midright left nervous
-PLACE spongebert center right excited
-ENTER squidwerd left left smug
-SQUIDWERD (smug): Here's the plan. I'll hide in the back seat and whisper instructions.
-SPONGEBERT (happy): Squidwerd! You came to cheer me on!
-SQUIDWERD (nervous): Something like that.
-MRS_PUFF (nervous): All right, SpongeBert. Start the boat. Slowly.
+PLACE spongebob center right excited
+ENTER squidward left left smug
+SQUIDWARD (smug): Here's the plan. I'll hide in the back seat and whisper instructions.
+SPONGEBOB (happy): Squidward! You came to cheer me on!
+SQUIDWARD (nervous): Something like that.
+MRS_PUFF (nervous): All right, SpongeBob. Start the boat. Slowly.
 SFX slam
 SHAKE 0.8
-SPONGEBERT (scared): Which one is the brake?!
-SQUIDWERD (angry): The one that isn't the horn!
+SPONGEBOB (scared): Which one is the brake?!
+SQUIDWARD (angry): The one that isn't the horn!
 SFX squeak
 
 # ------------------------------------------------------------ SANDY'S TREEDOME
 MUSIC jazz 2
 SCENE treedome
 PLACE sandy center left happy
-PLACE pat midright left happy
-SANDY (happy): Pat, did you see SpongeBert's test start? How's he doin'?
-PAT (happy): Great! The boat went through three fences and a bush!
+PLACE patrick midright left happy
+SANDY (happy): Patrick, did you see SpongeBob's test start? How's he doin'?
+PATRICK (happy): Great! The boat went through three fences and a bush!
 SANDY (nervous): That doesn't sound so great.
-PAT (smug): The bush was very surprised.
-SANDY (excited): I'd better go check on 'em. Hold my helmet, Pat.
-PAT (excited): I'll wear it! For safety!
+PATRICK (smug): The bush was very surprised.
+SANDY (excited): I'd better go check on 'em. Hold my helmet, Patrick.
+PATRICK (excited): I'll wear it! For safety!
 
 # ------------------------------------------------------------ BIKINI BOTTOM DOWNTOWN
 MUSIC action
@@ -98,65 +98,65 @@ LARRY (smug): Good call, kid. Walking's better cardio anyway.
 # ------------------------------------------------------------ JELLYFISH FIELDS
 MUSIC action 3
 SCENE jellyfish_fields
-PLACE pat center left happy
+PLACE patrick center left happy
 SFX whoosh
-PAT (excited): Ooh, a boat! Hi, SpongeBert! Hi, Squidwerd! Hi, Mrs. Puff!
-NARRATOR: The boat zooms past Pat. Then backwards past Pat. Then sideways past Pat.
-PAT (happy): They look like they're having fun!
+PATRICK (excited): Ooh, a boat! Hi, SpongeBob! Hi, Squidward! Hi, Mrs. Puff!
+NARRATOR: The boat zooms past Patrick. Then backwards past Patrick. Then sideways past Patrick.
+PATRICK (happy): They look like they're having fun!
 NARRATOR: They are not having fun.
 SFX sting
-PAT (surprised): Ow! A jellyfish!
-PAT (happy): Hi, jellyfish!
+PATRICK (surprised): Ow! A jellyfish!
+PATRICK (happy): Hi, jellyfish!
 
 # ------------------------------------------------------------ GLOVE WORLD
 MUSIC action 2
 SCENE glove_world
 PLACE mrs_puff midright left scared
-PLACE spongebert center right scared
-PLACE squidwerd left right scared
-MRS_PUFF (scared): SpongeBert! We're in Glove World! You drove through the gate!
-SPONGEBERT (nervous): Rule number one, rule number one. Never panic.
-SQUIDWERD (angry): Then STOP PANICKING!
-SPONGEBERT (surprised): Squidwerd, you're right. Deep breath.
-SPONGEBERT (happy): Turn left. Brake. Park.
+PLACE spongebob center right scared
+PLACE squidward left right scared
+MRS_PUFF (scared): SpongeBob! We're in Glove World! You drove through the gate!
+SPONGEBOB (nervous): Rule number one, rule number one. Never panic.
+SQUIDWARD (angry): Then STOP PANICKING!
+SPONGEBOB (surprised): Squidward, you're right. Deep breath.
+SPONGEBOB (happy): Turn left. Brake. Park.
 SFX ding
 MRS_PUFF (surprised): He... parked. Perfectly. Between two lines.
-SQUIDWERD (surprised): It's a miracle.
+SQUIDWARD (surprised): It's a miracle.
 
-# ------------------------------------------------------------ THE KRUSTY CRAB
+# ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC happy
 SCENE krusty_crab
-PLACE mr_crabs midright left happy
+PLACE mr_krabs midright left happy
 PLACE sandy right left happy
-ENTER spongebert left midleft excited
+ENTER spongebob left midleft excited
 ENTER mrs_puff left left neutral
 SANDY (excited): Well? Did you pass?
 MRS_PUFF (neutral): Technically, he drove through a theme park, a mall and a parade.
-SPONGEBERT (nervous): And?
+SPONGEBOB (nervous): And?
 MRS_PUFF (happy): But the parking was flawless. You passed the parking part.
-SPONGEBERT (excited): I passed! I passed one part!
-MR_CRABS (happy): That's me employee!
+SPONGEBOB (excited): I passed! I passed one part!
+MR_KRABS (happy): That's me employee!
 SANDY (happy): Only sixty-six more parts to go!
 
-# ------------------------------------------------------------ SPONGEBERT'S LIVING ROOM
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
 MUSIC romantic
 SCENE sponge_living_room
-PLACE spongebert center right happy
+PLACE spongebob center right happy
 PLACE gary midleft right happy
-SPONGEBERT (happy): Gary, look! A certificate! "Excellence in Parking."
+SPONGEBOB (happy): Gary, look! A certificate! "Excellence in Parking."
 GARY (happy): Meow.
-SPONGEBERT (excited): I'm going to frame it and put it right next to my sixty-six "Thanks for Trying" ribbons.
+SPONGEBOB (excited): I'm going to frame it and put it right next to my sixty-six "Thanks for Trying" ribbons.
 GARY (smug): Meow meow.
-SPONGEBERT (shy): You're right, Gary. One step at a time.
+SPONGEBOB (shy): You're right, Gary. One step at a time.
 
-# ------------------------------------------------------------ SQUIDWERD'S HOUSE
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
 MUSIC sad
 SCENE squidwerd_house
-PLACE squidwerd center left sad
-ENTER spongebert left midleft happy
-SPONGEBERT (happy): Squidwerd! Thank you for helping me! I couldn't have parked without you.
-SQUIDWERD (sad): You're welcome. Now please go away.
-SPONGEBERT (excited): Same time next week for test sixty-eight?
-SQUIDWERD (scared): No!
+PLACE squidward center left sad
+ENTER spongebob left midleft happy
+SPONGEBOB (happy): Squidward! Thank you for helping me! I couldn't have parked without you.
+SQUIDWARD (sad): You're welcome. Now please go away.
+SPONGEBOB (excited): Same time next week for test sixty-eight?
+SQUIDWARD (scared): No!
 SFX wahwah
 END

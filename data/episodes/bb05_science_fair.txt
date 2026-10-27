@@ -4,7 +4,7 @@
 @number 5
 @description Flynn needs a science fair project, and Walt is determined to help. A little too determined. The volcano is about to get extremely precise.
 
-# ------------------------------------------------------------ WHYTE HOUSE
+# ------------------------------------------------------------ WHITE HOUSE
 MUSIC happy
 SCENE whyte_house cut
 TITLE
@@ -22,15 +22,15 @@ FLYNN (happy): With baking soda. And red food coloring.
 MUSIC jazz
 SCENE chem_class
 PLACE walt center left nervous
-PLACE pinkman midright left happy
-WALT (nervous): Jessie, my son wants to make a baking soda volcano.
-PINKMAN (excited): Yo, volcanoes are awesome!
+PLACE jesse midright left happy
+WALT (nervous): Jesse, my son wants to make a baking soda volcano.
+JESSE (excited): Yo, volcanoes are awesome!
 WALT (sad): It's the most basic experiment in science.
-PINKMAN (smug): So make it the best basic experiment, yo. Like, the best volcano ever.
-WALT (excited): The best volcano ever. Jessie, you're right.
-PINKMAN (happy): I'm always right. Except about grades.
+JESSE (smug): So make it the best basic experiment, yo. Like, the best volcano ever.
+WALT (excited): The best volcano ever. Jesse, you're right.
+JESSE (happy): I'm always right. Except about grades.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC sneaky
 SCENE whyte_backyard
 PLACE walt center right excited
@@ -43,20 +43,20 @@ WALT (smug): Safety is the first rule of chemistry.
 FLYNN (happy): Can I wear goggles too?
 WALT (happy): I have a pair in your size. I've been waiting years to give them to you.
 
-# ------------------------------------------------------------ SCHRAEDER HOUSE
+# ------------------------------------------------------------ SCHRADER HOUSE
 MUSIC jazz 2
 SCENE schraeder_house
 PLACE hank center left excited
-PLACE maree midright left smug
-HANK (excited): Maree, Flynn's science fair is Friday. I'm gonna help him with his project. Minerals!
-MAREE (smug): Walt is already helping him.
+PLACE marie midright left smug
+HANK (excited): Marie, Flynn's science fair is Friday. I'm gonna help him with his project. Minerals!
+MARIE (smug): Walt is already helping him.
 HANK (surprised): With what?
-MAREE (smug): A volcano.
+MARIE (smug): A volcano.
 HANK (excited): A volcano is basically a mineral factory! I'm bringing lava rocks!
-MAREE (nervous): Hank, don't compete with Walt.
-HANK (smug): It's not competing, Maree. It's helping. Aggressively.
+MARIE (nervous): Hank, don't compete with Walt.
+HANK (smug): It's not competing, Marie. It's helping. Aggressively.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC action
 SCENE whyte_backyard
 PLACE walt midleft right excited
@@ -69,32 +69,32 @@ FLYNN (nervous): Guys, it's my project.
 WALT (smug): The ratio is perfect. The rocks will throw off my calculations.
 HANK (angry): Your calculations will throw off my rocks!
 
-# ------------------------------------------------------------ WHYTE HOUSE
+# ------------------------------------------------------------ WHITE HOUSE
 MUSIC sad
 SCENE whyte_house
 PLACE flynn center left sad
-PLACE skylar midright left neutral
+PLACE skyler midright left neutral
 FLYNN (sad): Mom, Dad and Uncle Hank are fighting about my volcano. It's not even my volcano anymore.
-SKYLAR (smug): That's what happens when grown-ups get excited.
+SKYLER (smug): That's what happens when grown-ups get excited.
 FLYNN (sad): I just wanted to make something cool. With Dad.
-SKYLAR (happy): Then tell him that. Just like that.
+SKYLER (happy): Then tell him that. Just like that.
 FLYNN (nervous): What if he gets sad?
-SKYLAR (smug): He's your dad. He'll be fine. Eventually.
+SKYLER (smug): He's your dad. He'll be fine. Eventually.
 
-# ------------------------------------------------------------ PINKMANN HOUSE
+# ------------------------------------------------------------ PINKMAN HOUSE
 MUSIC jazz 3
 SCENE pinkman_house
-PLACE pinkman center left happy
-PLACE badgur midright left excited
-PLACE skinnee_pete right left happy
-BADGUR (excited): Yo, a science fair? Back in school, I made a volcano too.
-PINKMAN (surprised): You did?
-BADGUR (smug): It didn't erupt. It just kind of sighed.
-SKINNEE_PETE (smug): Mine was a potato battery. It powered nothing.
-PINKMAN (happy): Mister Whyte's gonna make Flynn's volcano legendary.
-SKINNEE_PETE (smug): Word.
+PLACE jesse center left happy
+PLACE badger midright left excited
+PLACE skinny_pete right left happy
+BADGER (excited): Yo, a science fair? Back in school, I made a volcano too.
+JESSE (surprised): You did?
+BADGER (smug): It didn't erupt. It just kind of sighed.
+SKINNY_PETE (smug): Mine was a potato battery. It powered nothing.
+JESSE (happy): Mister White's gonna make Flynn's volcano legendary.
+SKINNY_PETE (smug): Word.
 
-# ------------------------------------------------------------ WHYTE BACKYARD
+# ------------------------------------------------------------ WHITE BACKYARD
 MUSIC romantic
 SCENE whyte_backyard
 PLACE walt center right sad
@@ -128,7 +128,7 @@ PLACE gus center left neutral
 PLACE flynn midleft right nervous
 PLACE walt left right happy
 GUS: Good afternoon. Los Pollitos Hermanos is proud to sponsor this year's science fair. I will be judging.
-FLYNN (nervous): Mister Frinng is the judge?
+FLYNN (nervous): Mister Fring is the judge?
 WALT (nervous): He's very polite. And very strict.
 GUS (smug): Young man. Your project?
 FLYNN (excited): A volcano! With a twist!
@@ -153,12 +153,12 @@ SCENE chem_class
 PLACE gus center left happy
 PLACE flynn midleft right excited
 PLACE walt left right happy
-PLACE skylar midright left happy
-GUS (happy): First prize goes to Flynn Whyte, for the Chicken Volcano.
+PLACE skyler midright left happy
+GUS (happy): First prize goes to Flynn White, for the Chicken Volcano.
 SFX fanfare
 FLYNN (excited): I won! Dad, we won!
 WALT (happy): You won, son. I just wore the goggles.
-SKYLAR (happy): I'm proud of you both.
+SKYLER (happy): I'm proud of you both.
 FLYNN (excited): Can we celebrate with breakfast?
 WALT (happy): It's four in the afternoon.
 FLYNN (excited): Breakfast for dinner!

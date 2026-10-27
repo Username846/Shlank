@@ -1,194 +1,194 @@
-@title Meta Nite's Sword School
+@title Meta Knight's Sword School
 @series Kirby
 @icon warpstar
 @number 3
-@description Meta Nite opens a sword school on the Halberd. His first students are Bandana Dii, Waddle Doo and Kirbie, who keeps trying to inhale the practice swords.
+@description Meta Knight opens a sword school on the Halberd. His first students are Bandana Dee, Waddle Doo and Kirby, who keeps trying to inhale the practice swords.
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC tense
 SCENE halberd_deck cut
 TITLE
-PLACE meta_nite center left neutral
-META_NITE: The way of the sword is the way of honor. Discipline. Patience. Focus.
-META_NITE (smug): Today, I accept students. Only the worthy may learn.
-ENTER bandana_dii left midleft excited
+PLACE meta_knight center left neutral
+META_KNIGHT: The way of the sword is the way of honor. Discipline. Patience. Focus.
+META_KNIGHT (smug): Today, I accept students. Only the worthy may learn.
+ENTER bandana_dee left midleft excited
 ENTER waddle_doo left left nervous
-ENTER kirbie left farleft happy
-BANDANA_DII (excited): We're here! Can we learn sword fighting?
+ENTER kirby left farleft happy
+BANDANA_DEE (excited): We're here! Can we learn sword fighting?
 WADDLE_DOO (nervous): I'm mostly here because the king said I had to.
-KIRBIE (happy): Poyo!
-META_NITE (sad): These are my students.
+KIRBY (happy): Poyo!
+META_KNIGHT (sad): These are my students.
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC jazz
 SCENE halberd_deck
-PLACE meta_nite center left neutral
-PLACE bandana_dii midleft right excited
+PLACE meta_knight center left neutral
+PLACE bandana_dee midleft right excited
 PLACE waddle_doo left right nervous
-PLACE kirbie midright left happy
-META_NITE: Lesson one. Hold the sword correctly. Firm grip. Point forward.
-BANDANA_DII (excited): Like this?
-META_NITE (smug): Good, Bandana Dii. Very good.
+PLACE kirby midright left happy
+META_KNIGHT: Lesson one. Hold the sword correctly. Firm grip. Point forward.
+BANDANA_DEE (excited): Like this?
+META_KNIGHT (smug): Good, Bandana Dee. Very good.
 WADDLE_DOO (nervous): My sword keeps zapping things. With my eye.
-META_NITE (nervous): Please stop zapping the mast, Waddle Doo.
+META_KNIGHT (nervous): Please stop zapping the mast, Waddle Doo.
 SFX chomp
-KIRBIE (happy): Poyo!
-META_NITE (angry): Kirbie! Do not inhale the practice sword!
+KIRBY (happy): Poyo!
+META_KNIGHT (angry): Kirby! Do not inhale the practice sword!
 
-# ------------------------------------------------------------ CASTLE DEDEEDEE
+# ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC sneaky
 SCENE dedeedee_castle
-PLACE dedeedee center left smug
-PLACE waddle_dii midright left nervous
-DEDEEDEE (smug): Meta Nite's teaching sword fighting? Ha! I'll show him. I'll open my own school.
-WADDLE_DII (nervous): A sword school, Your Majesty?
-DEDEEDEE (excited): A HAMMER school! Hammers are better than swords. They're bigger. And louder.
-WADDLE_DII (smug): Who will be your students?
-DEDEEDEE (smug): You. All of you. Every Waddle Dii in the castle.
-WADDLE_DII (sad): Of course.
+PLACE dedede center left smug
+PLACE waddle_dee midright left nervous
+DEDEDE (smug): Meta Knight's teaching sword fighting? Ha! I'll show him. I'll open my own school.
+WADDLE_DEE (nervous): A sword school, Your Majesty?
+DEDEDE (excited): A HAMMER school! Hammers are better than swords. They're bigger. And louder.
+WADDLE_DEE (smug): Who will be your students?
+DEDEDE (smug): You. All of you. Every Waddle Dee in the castle.
+WADDLE_DEE (sad): Of course.
 
 # ------------------------------------------------------------ GREEN GREENS
 MUSIC happy
 SCENE green_greens
-PLACE bandana_dii center right excited
-PLACE kirbie midleft right happy
-BANDANA_DII (excited): Kirbie, let's practice! Lunge! Parry! Spin!
-KIRBIE (excited): Poyo!
+PLACE bandana_dee center right excited
+PLACE kirby midleft right happy
+BANDANA_DEE (excited): Kirby, let's practice! Lunge! Parry! Spin!
+KIRBY (excited): Poyo!
 SFX whoosh
-BANDANA_DII (surprised): Whoa! Kirbie, you just spun so fast you lifted off the ground!
-KIRBIE (happy): Poyo poyo!
-BANDANA_DII (excited): Meta Nite is going to love this!
-KIRBIE (smug): Poyo.
+BANDANA_DEE (surprised): Whoa! Kirby, you just spun so fast you lifted off the ground!
+KIRBY (happy): Poyo poyo!
+BANDANA_DEE (excited): Meta Knight is going to love this!
+KIRBY (smug): Poyo.
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC tense 2
 SCENE halberd_deck
-PLACE meta_nite center left neutral
+PLACE meta_knight center left neutral
 PLACE waddle_doo midleft right sad
 WADDLE_DOO (sad): Teacher, I'm not good at this. Everyone else is better. I just zap things.
-META_NITE: Waddle Doo. Every warrior has a strength. Yours is your eye beam.
+META_KNIGHT: Waddle Doo. Every warrior has a strength. Yours is your eye beam.
 WADDLE_DOO (surprised): You think that's a strength?
-META_NITE (smug): It's very useful for lighting candles. And for fighting.
+META_KNIGHT (smug): It's very useful for lighting candles. And for fighting.
 WADDLE_DOO (happy): I never thought of it that way!
-META_NITE (happy): Combine the beam with the blade. A sword of light.
+META_KNIGHT (happy): Combine the beam with the blade. A sword of light.
 WADDLE_DOO (excited): A light sword! Zap zap!
 
-# ------------------------------------------------------------ KIRBIE'S HOUSE
+# ------------------------------------------------------------ KIRBY'S HOUSE
 MUSIC romantic
 SCENE kirbie_house
-PLACE kirbie center right happy
-PLACE ribbonn midleft right happy
-RIBBONN (happy): Kirbie! I heard you're going to sword school!
-KIRBIE (excited): Poyo!
-RIBBONN (smug): Show me a move.
-KIRBIE (excited): Poyo!
+PLACE kirby center right happy
+PLACE ribbon midleft right happy
+RIBBON (happy): Kirby! I heard you're going to sword school!
+KIRBY (excited): Poyo!
+RIBBON (smug): Show me a move.
+KIRBY (excited): Poyo!
 SFX whoosh
-NARRATOR: Kirbie spun around once and fell over. Then he spun around twice and fell over twice.
-RIBBONN (happy): Very... energetic.
-KIRBIE (smug): Poyo.
+NARRATOR: Kirby spun around once and fell over. Then he spun around twice and fell over twice.
+RIBBON (happy): Very... energetic.
+KIRBY (smug): Poyo.
 
 # ------------------------------------------------------------ RAINBOW RESORT
 MUSIC sneaky 3
 SCENE rainbow_resort
-PLACE marks center left smug
-PLACE magalor midright left nervous
-MARKS (smug): Hee hee! Kirbie's learning swords? Then I'll learn something scarier. Juggling knives!
-MAGALOR (nervous): Marks, you can't juggle.
-MARKS (excited): Not yet! But I have a lot of free time. And a lot of knives.
-MAGALOR (scared): Please use rubber ones.
-MARKS (sad): Fine. Rubber ones.
+PLACE marx center left smug
+PLACE magolor midright left nervous
+MARX (smug): Hee hee! Kirby's learning swords? Then I'll learn something scarier. Juggling knives!
+MAGOLOR (nervous): Marx, you can't juggle.
+MARX (excited): Not yet! But I have a lot of free time. And a lot of knives.
+MAGOLOR (scared): Please use rubber ones.
+MARX (sad): Fine. Rubber ones.
 
-# ------------------------------------------------------------ DEDEEDEE'S THRONE ROOM
+# ------------------------------------------------------------ DEDEDE'S THRONE ROOM
 MUSIC action
 SCENE dedeedee_throne
-PLACE dedeedee center left excited
-PLACE waddle_dii midright left scared
-DEDEEDEE (excited): Lesson one of Hammer School! Swing as hard as you can!
+PLACE dedede center left excited
+PLACE waddle_dee midright left scared
+DEDEDE (excited): Lesson one of Hammer School! Swing as hard as you can!
 SFX thud
 SHAKE 0.8
-WADDLE_DII (scared): Your Majesty, you just smashed the throne.
-DEDEEDEE (smug): Lesson two. Get a new throne.
-WADDLE_DII (sad): Hammer School is very expensive.
+WADDLE_DEE (scared): Your Majesty, you just smashed the throne.
+DEDEDE (smug): Lesson two. Get a new throne.
+WADDLE_DEE (sad): Hammer School is very expensive.
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC tense
 SCENE halberd_deck
 CARD Graduation day...
-PLACE meta_nite center left neutral
-PLACE bandana_dii midleft right nervous
+PLACE meta_knight center left neutral
+PLACE bandana_dee midleft right nervous
 PLACE waddle_doo left right nervous
-PLACE kirbie midright left excited
-META_NITE: Today, the final test. You will each spar with me.
-BANDANA_DII (nervous): With you? The greatest swordsman in Dream Land?
-META_NITE (smug): I will go easy. A little.
+PLACE kirby midright left excited
+META_KNIGHT: Today, the final test. You will each spar with me.
+BANDANA_DEE (nervous): With you? The greatest swordsman in Dream Land?
+META_KNIGHT (smug): I will go easy. A little.
 WADDLE_DOO (scared): How little?
-META_NITE (happy): Very little.
-KIRBIE (excited): Poyo!
+META_KNIGHT (happy): Very little.
+KIRBY (excited): Poyo!
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC action 2
 SCENE halberd_deck
-PLACE meta_nite center left neutral
-PLACE bandana_dii midleft right excited
+PLACE meta_knight center left neutral
+PLACE bandana_dee midleft right excited
 SFX sword
-BANDANA_DII (excited): Lunge! Parry! Spin!
+BANDANA_DEE (excited): Lunge! Parry! Spin!
 SFX sword
 SHAKE 0.4
-META_NITE (surprised): Good! Your form is excellent!
-BANDANA_DII (happy): I've been practicing every night. With a broom.
-META_NITE (happy): You pass, Bandana Dii.
-BANDANA_DII (excited): I passed!
+META_KNIGHT (surprised): Good! Your form is excellent!
+BANDANA_DEE (happy): I've been practicing every night. With a broom.
+META_KNIGHT (happy): You pass, Bandana Dee.
+BANDANA_DEE (excited): I passed!
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC action 3
 SCENE halberd_deck
-PLACE meta_nite center left neutral
+PLACE meta_knight center left neutral
 PLACE waddle_doo midleft right excited
 WADDLE_DOO (excited): Sword of light! Zap zap!
 SFX laser
 SHAKE 0.4
-META_NITE (surprised): A blade made of beam. Remarkable.
+META_KNIGHT (surprised): A blade made of beam. Remarkable.
 WADDLE_DOO (nervous): Did I... set your cape on fire?
-META_NITE (smug): A little. It's fine. You pass, Waddle Doo.
+META_KNIGHT (smug): A little. It's fine. You pass, Waddle Doo.
 WADDLE_DOO (excited): Zap zap!
 
 # ------------------------------------------------------------ HALBERD DECK
 MUSIC action
 SCENE halberd_deck
-PLACE meta_nite center left neutral
-PLACE kirbie midleft right excited
-META_NITE: Kirbie. Your turn. Show me what you've learned.
-KIRBIE (excited): Poyo!
+PLACE meta_knight center left neutral
+PLACE kirby midleft right excited
+META_KNIGHT: Kirby. Your turn. Show me what you've learned.
+KIRBY (excited): Poyo!
 SFX whoosh
-NARRATOR: Kirbie spun. Faster and faster. A tiny pink tornado with a practice sword.
+NARRATOR: Kirby spun. Faster and faster. A tiny pink tornado with a practice sword.
 SFX sword
 SHAKE 0.8
-META_NITE (surprised): That's... not anything I taught you.
-KIRBIE (smug): Poyo.
-META_NITE (happy): But it is very effective. You pass.
+META_KNIGHT (surprised): That's... not anything I taught you.
+KIRBY (smug): Poyo.
+META_KNIGHT (happy): But it is very effective. You pass.
 
-# ------------------------------------------------------------ CASTLE DEDEEDEE
+# ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC sneaky 2
 SCENE dedeedee_castle
-PLACE dedeedee center left smug
-ENTER meta_nite right midright neutral
-DEDEEDEE (smug): So, Meta Nite. How did your little sword school go?
-META_NITE (smug): Three graduates. All excellent.
-DEDEEDEE (angry): Well, my Hammer School has a hundred students!
-META_NITE: And how many thrones are left?
-DEDEEDEE (sad): Zero.
-META_NITE (smug): I'll send you a chair.
+PLACE dedede center left smug
+ENTER meta_knight right midright neutral
+DEDEDE (smug): So, Meta Knight. How did your little sword school go?
+META_KNIGHT (smug): Three graduates. All excellent.
+DEDEDE (angry): Well, my Hammer School has a hundred students!
+META_KNIGHT: And how many thrones are left?
+DEDEDE (sad): Zero.
+META_KNIGHT (smug): I'll send you a chair.
 
 # ------------------------------------------------------------ GREEN GREENS
 MUSIC happy 2
 SCENE green_greens
-PLACE kirbie center right happy
-PLACE bandana_dii midleft right happy
+PLACE kirby center right happy
+PLACE bandana_dee midleft right happy
 PLACE waddle_doo left right happy
-BANDANA_DII (happy): We all graduated! We're real swordfighters now!
+BANDANA_DEE (happy): We all graduated! We're real swordfighters now!
 WADDLE_DOO (excited): With a light sword! Zap zap!
-KIRBIE (excited): Poyo!
-BANDANA_DII (smug): Kirbie, did you inhale your diploma?
-KIRBIE (shy): ...poyo.
-WADDLE_DOO (happy): It's okay. Meta Nite will print you another one.
+KIRBY (excited): Poyo!
+BANDANA_DEE (smug): Kirby, did you inhale your diploma?
+KIRBY (shy): ...poyo.
+WADDLE_DOO (happy): It's okay. Meta Knight will print you another one.
 END

@@ -1,26 +1,26 @@
 {
 	"pineapple_house": {
-		"name": "SpongeBert's Pineapple",
+		"name": "SpongeBob's Pineapple",
 		"description": "A two-story pineapple with a round door and a snail-sized mailbox.",
 		"show": "Bikini Bottom"
 	},
 	"pat_rock": {
-		"name": "Pat's Rock",
-		"description": "A rock. Pat lives under it. There is a weathervane.",
+		"name": "Patrick's Rock",
+		"description": "A rock. Patrick lives under it. There is a weathervane.",
 		"show": "Bikini Bottom"
 	},
 	"squidwerd_house": {
-		"name": "Squidwerd's Head House",
+		"name": "Squidward's Head House",
 		"description": "A stone head with very judgemental eyebrows.",
 		"show": "Bikini Bottom"
 	},
 	"krusty_crab": {
-		"name": "The Krusty Crab",
+		"name": "The Krusty Krab",
 		"description": "The finest (only) lobster-trap restaurant in town.",
 		"show": "Bikini Bottom"
 	},
 	"krusty_kitchen": {
-		"name": "Krusty Crab Kitchen",
+		"name": "Krusty Krab Kitchen",
 		"description": "Where the magic (grease) happens.",
 		"show": "Bikini Bottom"
 	},
@@ -55,7 +55,7 @@
 		"description": "Grandpa's old brick boarding house, full of strange tenants and stranger pets."
 	},
 	"arnald_room": {
-		"name": "Arnald's Room",
+		"name": "Arnold's Room",
 		"show": "Hillwood",
 		"description": "An attic bedroom with a giant skylight and a couch that folds out of the wall."
 	},
@@ -70,7 +70,7 @@
 		"description": "Chalkboard, cubbies, and a clock that never moves fast enough."
 	},
 	"gerold_field": {
-		"name": "Gerold Field",
+		"name": "Gerald Field",
 		"show": "Hillwood",
 		"description": "A vacant lot turned baseball diamond, surrounded by chain-link and brick."
 	},
@@ -120,12 +120,12 @@
 		"description": "A dark, deep, weird place with one very slow bus."
 	},
 	"krusty_dining": {
-		"name": "Krusty Crab Dining Room",
+		"name": "Krusty Krab Dining Room",
 		"show": "Bikini Bottom",
 		"description": "Tables made of barrels and a ship's wheel on the wall."
 	},
 	"sponge_living_room": {
-		"name": "SpongeBert's Living Room",
+		"name": "SpongeBob's Living Room",
 		"show": "Bikini Bottom",
 		"description": "Inside the pineapple: a tiki chair, a porthole TV and Gary's food bowl."
 	},
@@ -157,12 +157,12 @@
 	"funnie_house": {
 		"name": "The Funnie House",
 		"show": "Bluffington",
-		"description": "Dug's family home on a quiet street in Bluffington."
+		"description": "Doug's family home on a quiet street in Bluffington."
 	},
 	"dug_room": {
-		"name": "Dug's Room",
+		"name": "Doug's Room",
 		"show": "Bluffington",
-		"description": "Where Dug writes in his journal and dreams of being Quailman."
+		"description": "Where Doug writes in his journal and dreams of being Quailman."
 	},
 	"bluffington_school": {
 		"name": "Bluffington Elementary",
@@ -227,7 +227,7 @@
 	"quailman_lair": {
 		"name": "Quailman's Secret Lair",
 		"show": "Bluffington",
-		"description": "Where Dug's superhero daydreams take him."
+		"description": "Where Doug's superhero daydreams take him."
 	},
 	"pickles_living_room": {
 		"name": "Pickles Living Room",
@@ -245,7 +245,7 @@
 		"description": "Where the cookies are kept. Up high. Very high."
 	},
 	"nursery": {
-		"name": "Tommi's Nursery",
+		"name": "Tommy's Nursery",
 		"show": "Playpen",
 		"description": "Crib, mobile and a toy chest full of adventure."
 	},
@@ -277,7 +277,7 @@
 	"finster_house": {
 		"name": "Finster House",
 		"show": "Playpen",
-		"description": "Chuckey's house. Neat, quiet and a little bit scary."
+		"description": "Chuckie's house. Neat, quiet and a little bit scary."
 	},
 	"pickles_attic": {
 		"name": "Pickles Attic",
@@ -287,7 +287,7 @@
 	"carmichael_house": {
 		"name": "Carmichael House",
 		"show": "Playpen",
-		"description": "Suzie's house across the street."
+		"description": "Susie's house across the street."
 	},
 	"toy_palace": {
 		"name": "Toy Palace",
@@ -310,7 +310,7 @@
 		"description": "A quiet trail. Perfect for a pitfall trap."
 	},
 	"rokket_hq": {
-		"name": "Team Rokket HQ",
+		"name": "Team Rocket HQ",
 		"show": "Pokemon",
 		"description": "The Boss's office. Do not touch the cat."
 	},
@@ -345,7 +345,7 @@
 		"description": "Where the balloon lands. Usually upside down."
 	},
 	"rokket_camp": {
-		"name": "Rokket Camp",
+		"name": "Rocket Camp",
 		"show": "Pokemon",
 		"description": "A tent, a campfire and dreams of success."
 	},
@@ -382,12 +382,12 @@
 	"kamee_house": {
 		"name": "Kamee House",
 		"show": "Dragonball Z",
-		"description": "Master Roshee's pink house on a tiny island."
+		"description": "Master Roshi's pink house on a tiny island."
 	},
 	"capsool_corp": {
 		"name": "Capsool Corp",
 		"show": "Dragonball Z",
-		"description": "Bulmah's family company. Big dome, bigger inventions."
+		"description": "Bulma's family company. Big dome, bigger inventions."
 	},
 	"the_lookout": {
 		"name": "The Lookout",
@@ -395,7 +395,7 @@
 		"description": "A palace floating high above the clouds."
 	},
 	"planet_nameck": {
-		"name": "Planet Nameck",
+		"name": "Planet Namek",
 		"show": "Dragonball Z",
 		"description": "Green skies, blue grass and round little trees."
 	},
@@ -415,7 +415,7 @@
 		"description": "Training at a hundred times normal gravity."
 	},
 	"gokku_house": {
-		"name": "Gokku's House",
+		"name": "Goku's House",
 		"show": "Dragonball Z",
 		"description": "A little round house in the mountains."
 	},
@@ -430,17 +430,17 @@
 		"description": "A very, very long road through the clouds of the Other World."
 	},
 	"kie_planet": {
-		"name": "King Kie's Planet",
+		"name": "King Kai's Planet",
 		"show": "Dragonball Z",
 		"description": "A tiny planet with huge gravity, a car and a monkey."
 	},
 	"cel_ring": {
-		"name": "The Cel Games",
+		"name": "The Cell Games",
 		"show": "Dragonball Z",
-		"description": "Cel's tournament ring in the middle of nowhere."
+		"description": "Cell's tournament ring in the middle of nowhere."
 	},
 	"freeza_ship": {
-		"name": "Freeza's Ship",
+		"name": "Frieza's Ship",
 		"show": "Dragonball Z",
 		"description": "Round, purple and full of bad intentions."
 	},
@@ -517,7 +517,7 @@
 	"the_ocean": {
 		"name": "The Ocean",
 		"show": "Attack on Titan",
-		"description": "Armen's dream. It's real, and it's salty."
+		"description": "Armin's dream. It's real, and it's salty."
 	},
 	"jaeger_basement": {
 		"name": "The Basement",
@@ -530,12 +530,12 @@
 		"description": "A busy district with a big gate and bigger trouble."
 	},
 	"whyte_house": {
-		"name": "The Whyte House",
+		"name": "The White House",
 		"show": "Breaking Bad",
 		"description": "A beige house in Albuquerque. Very normal. Suspiciously normal."
 	},
 	"whyte_backyard": {
-		"name": "Whyte Backyard",
+		"name": "White Backyard",
 		"show": "Breaking Bad",
 		"description": "The pool and the roof. There may be a pizza on the roof."
 	},
@@ -562,7 +562,7 @@
 	"chem_class": {
 		"name": "Chemistry Class",
 		"show": "Breaking Bad",
-		"description": "Mr. Whyte's high school classroom. Chemistry is the study of change."
+		"description": "Mr. White's high school classroom. Chemistry is the study of change."
 	},
 	"saul_office": {
 		"name": "Saul's Office",
@@ -575,14 +575,14 @@
 		"description": "Hank's desk, his rock collection and too much paperwork."
 	},
 	"pinkman_house": {
-		"name": "Pinkmann House",
+		"name": "Pinkman House",
 		"show": "Breaking Bad",
-		"description": "Jessie's house. Loud music, couches, video games."
+		"description": "Jesse's house. Loud music, couches, video games."
 	},
 	"schraeder_house": {
-		"name": "Schraeder House",
+		"name": "Schrader House",
 		"show": "Breaking Bad",
-		"description": "Hank and Maree's house. Mostly purple."
+		"description": "Hank and Marie's house. Mostly purple."
 	},
 	"desert_road": {
 		"name": "Desert Road",
@@ -610,14 +610,14 @@
 		"description": "Rolling hills, question blocks and green pipes."
 	},
 	"peech_castle": {
-		"name": "Princess Peech's Castle",
+		"name": "Princess Peach's Castle",
 		"show": "Super Mario Brothers",
 		"description": "The princess's castle. She's usually home. Usually."
 	},
 	"peech_throne": {
 		"name": "Throne Room",
 		"show": "Super Mario Brothers",
-		"description": "Inside Peech's castle, with a long red carpet."
+		"description": "Inside Peach's castle, with a long red carpet."
 	},
 	"pipe_land": {
 		"name": "Pipe Land",
@@ -630,7 +630,7 @@
 		"description": "Blue bricks, dark tunnels and coins in the ceiling."
 	},
 	"bowzer_castle": {
-		"name": "Bowzer's Castle",
+		"name": "Bowser's Castle",
 		"show": "Super Mario Brothers",
 		"description": "Lava, chains and a very big boss door."
 	},
@@ -655,17 +655,17 @@
 		"description": "Under the sea with coral and coins."
 	},
 	"toad_house": {
-		"name": "Toadd House",
+		"name": "Toad House",
 		"show": "Super Mario Brothers",
 		"description": "A mushroom house with a treasure chest inside."
 	},
 	"boo_mansion": {
 		"name": "Boo Mansion",
 		"show": "Super Mario Brothers",
-		"description": "A haunted house. Luiggi does not want to go in."
+		"description": "A haunted house. Luigi does not want to go in."
 	},
 	"kong_jungle": {
-		"name": "Kongg Jungle",
+		"name": "Kong Jungle",
 		"show": "Super Mario Brothers",
 		"description": "Vines, bananas and barrels."
 	},
@@ -682,7 +682,7 @@
 	"landing_site": {
 		"name": "Landing Site",
 		"show": "Metroid",
-		"description": "Samuss's gunship parked on a stormy planet."
+		"description": "Samus's gunship parked on a stormy planet."
 	},
 	"crateria": {
 		"name": "Crateria",
@@ -707,7 +707,7 @@
 	"tourian": {
 		"name": "Tourian",
 		"show": "Metroid",
-		"description": "The pirates' base. Mother Brane lives here."
+		"description": "The pirates' base. Mother Brain lives here."
 	},
 	"wrecked_ship": {
 		"name": "Wrecked Ship",
@@ -715,7 +715,7 @@
 		"description": "A haunted old starship. The lights don't work."
 	},
 	"chozo_ruins": {
-		"name": "Choso Ruins",
+		"name": "Chozo Ruins",
 		"show": "Metroid",
 		"description": "Ancient bird-people statues hold upgrades in their hands."
 	},
@@ -735,12 +735,12 @@
 		"description": "A science space station. Something's gone wrong."
 	},
 	"ridlee_lair": {
-		"name": "Ridlee's Lair",
+		"name": "Ridley's Lair",
 		"show": "Metroid",
-		"description": "A dark lava chamber. Ridlee is waiting."
+		"description": "A dark lava chamber. Ridley is waiting."
 	},
 	"krayd_lair": {
-		"name": "Krayd's Lair",
+		"name": "Kraid's Lair",
 		"show": "Metroid",
 		"description": "A huge chamber for a huge monster."
 	},
@@ -760,22 +760,22 @@
 		"description": "Grassy hills under a sunny Dream Land sky."
 	},
 	"whispee_forest": {
-		"name": "Whispee's Forest",
+		"name": "Whispy's Forest",
 		"show": "Kirby",
 		"description": "A cheerful forest with a grumpy old tree."
 	},
 	"dedeedee_castle": {
-		"name": "Castle Dedeedee",
+		"name": "Castle Dedede",
 		"show": "Kirby",
 		"description": "The king's castle on the hill."
 	},
 	"dedeedee_throne": {
 		"name": "Throne Room",
 		"show": "Kirby",
-		"description": "King Dedeedee's throne, with a buffet nearby."
+		"description": "King Dedede's throne, with a buffet nearby."
 	},
 	"kirbie_house": {
-		"name": "Kirbie's House",
+		"name": "Kirby's House",
 		"show": "Kirby",
 		"description": "A little dome house with a star on the door."
 	},
@@ -807,7 +807,7 @@
 	"halberd_deck": {
 		"name": "The Halberd",
 		"show": "Kirby",
-		"description": "The deck of Meta Nite's battleship."
+		"description": "The deck of Meta Knight's battleship."
 	},
 	"rainbow_resort": {
 		"name": "Rainbow Resort",

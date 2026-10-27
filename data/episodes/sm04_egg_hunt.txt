@@ -1,171 +1,171 @@
-@title Yoshee's Egg Hunt
+@title Yoshi's Egg Hunt
 @series Super Mario Brothers
 @icon mushroom
 @number 4
-@description A storm has scattered Yoshee's spotted eggs all over the Mushroom Kingdom. Mareo, Luiggi and a very confused Donkee Kongg help find them before they hatch.
+@description A storm has scattered Yoshi's spotted eggs all over the Mushroom Kingdom. Mario, Luigi and a very confused Donkey Kong help find them before they hatch.
 
 # ------------------------------------------------------------ MUSHROOM KINGDOM
 MUSIC sad
 SCENE mushroom_kingdom cut
 TITLE
-PLACE yoshee center left sad
-ENTER mareo left midleft happy
-YOSHEE (sad): Yoshee... yoshee...
-MAREO (surprised): Yoshee! What's wrong, buddy?
-YOSHEE (sad): Yoshee yoshee yoshee!
-MAREO (surprised): A storm blew away all your eggs? Last night?
-YOSHEE (nervous): Yoshee!
-MAREO (excited): Don't worry! We'll find every single one!
-YOSHEE (happy): Yoshee!
+PLACE yoshi center left sad
+ENTER mario left midleft happy
+YOSHI (sad): Yoshi... yoshi...
+MARIO (surprised): Yoshi! What's wrong, buddy?
+YOSHI (sad): Yoshi yoshi yoshi!
+MARIO (surprised): A storm blew away all your eggs? Last night?
+YOSHI (nervous): Yoshi!
+MARIO (excited): Don't worry! We'll find every single one!
+YOSHI (happy): Yoshi!
 
-# ------------------------------------------------------------ TOADD HOUSE
+# ------------------------------------------------------------ TOAD HOUSE
 MUSIC jazz
 SCENE toad_house
-PLACE toadd center left excited
-ENTER luiggi left midleft happy
-ENTER mareo left left happy
-TOADD (excited): Eggs! I found one in my treasure chest! Green spots!
-LUIGGI (happy): That's one!
-MAREO (excited): How many does Yoshee have?
-TOADD (nervous): Yoshee says seven.
-LUIGGI (surprised): Six more eggs in the whole kingdom?
-MAREO (smug): Let's-a split up!
+PLACE toad center left excited
+ENTER luigi left midleft happy
+ENTER mario left left happy
+TOAD (excited): Eggs! I found one in my treasure chest! Green spots!
+LUIGI (happy): That's one!
+MARIO (excited): How many does Yoshi have?
+TOAD (nervous): Yoshi says seven.
+LUIGI (surprised): Six more eggs in the whole kingdom?
+MARIO (smug): Let's-a split up!
 
-# ------------------------------------------------------------ KONGG JUNGLE
+# ------------------------------------------------------------ KONG JUNGLE
 MUSIC happy
 SCENE kong_jungle
-PLACE donkee_kongg center left happy
-ENTER luiggi left midleft nervous
-DONKEE_KONGG (happy): Ooh ooh! Look! Spotted coconuts! Found three!
-LUIGGI (nervous): Donkee Kongg, those aren't coconuts. Those are Yoshee's eggs.
-DONKEE_KONGG (surprised): Eggs?
-LUIGGI (happy): Little baby Yoshees are inside.
-DONKEE_KONGG (shy): Oh. Was going to crack them for coconut milk.
-LUIGGI (scared): Please don't!
-DONKEE_KONGG (happy): Ooh ooh. Will help find more.
+PLACE donkey_kong center left happy
+ENTER luigi left midleft nervous
+DONKEY_KONG (happy): Ooh ooh! Look! Spotted coconuts! Found three!
+LUIGI (nervous): Donkey Kong, those aren't coconuts. Those are Yoshi's eggs.
+DONKEY_KONG (surprised): Eggs?
+LUIGI (happy): Little baby Yoshis are inside.
+DONKEY_KONG (shy): Oh. Was going to crack them for coconut milk.
+LUIGI (scared): Please don't!
+DONKEY_KONG (happy): Ooh ooh. Will help find more.
 
 # ------------------------------------------------------------ DESERT LAND
 MUSIC action
 SCENE desert_land
-PLACE daizy center left excited
-ENTER luiggi left midleft nervous
-DAIZY (excited): Luiggi! I found an egg in the sand! It's warm!
-LUIGGI (happy): The desert must be keeping it cozy! That's five!
-DAIZY (smug): I also found a cactus, a lost sunglasses and a sleeping snake.
-LUIGGI (scared): A snake?
-DAIZY (happy): It's fine. I left it a blanket.
-LUIGGI (nervous): You gave a snake a blanket?
-DAIZY (excited): Everybody deserves a blanket!
+PLACE daisy center left excited
+ENTER luigi left midleft nervous
+DAISY (excited): Luigi! I found an egg in the sand! It's warm!
+LUIGI (happy): The desert must be keeping it cozy! That's five!
+DAISY (smug): I also found a cactus, a lost sunglasses and a sleeping snake.
+LUIGI (scared): A snake?
+DAISY (happy): It's fine. I left it a blanket.
+LUIGI (nervous): You gave a snake a blanket?
+DAISY (excited): Everybody deserves a blanket!
 
 # ------------------------------------------------------------ ICE LAND
 MUSIC tense
 SCENE ice_land
-PLACE mareo center right nervous
-MAREO (nervous): An egg in the snow? That's bad. Eggs need to stay warm.
-MAREO (excited): I'll wrap it in my hat! A nice warm plumber hat!
-MAREO (surprised): Wait. It's cold. And it's melting.
-MAREO (sad): It's a snowball with a green leaf stuck on it. Mamma mia.
+PLACE mario center right nervous
+MARIO (nervous): An egg in the snow? That's bad. Eggs need to stay warm.
+MARIO (excited): I'll wrap it in my hat! A nice warm plumber hat!
+MARIO (surprised): Wait. It's cold. And it's melting.
+MARIO (sad): It's a snowball with a green leaf stuck on it. Mamma mia.
 
 # ------------------------------------------------------------ WATER LAND
 MUSIC sneaky
 SCENE water_land
-PLACE mareo center right excited
-MAREO (excited): An egg! Floating by the coral! Wahoo!
+PLACE mario center right excited
+MARIO (excited): An egg! Floating by the coral! Wahoo!
 SFX bubbles
-MAREO (nervous): It's floating away. Faster than I can swim.
+MARIO (nervous): It's floating away. Faster than I can swim.
 SFX bubbles
-MAREO (happy): Got it! That's six!
-MAREO (nervous): I really should have learned to swim better.
+MARIO (happy): Got it! That's six!
+MARIO (nervous): I really should have learned to swim better.
 
-# ------------------------------------------------------------ BOWZER'S CASTLE
+# ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC sneaky 2
 SCENE bowzer_castle
-PLACE bowzer center left excited
-PLACE gumba midright left nervous
-BOWZER (excited): Gumba! I found a spotted egg in my bathtub!
-GUMBA (nervous): That's one of Yoshee's eggs, boss.
-BOWZER (smug): Then I'll keep it! And hatch my own Yoshee! An evil Yoshee!
-GUMBA (surprised): Boss, a baby thinks the first thing it sees is its mom.
-BOWZER (surprised): So it'll think I'm its mom?
-GUMBA (smug): You'd have to feed it. And change it. And sing to it.
-BOWZER (scared): I can't sing!
+PLACE bowser center left excited
+PLACE goomba midright left nervous
+BOWSER (excited): Goomba! I found a spotted egg in my bathtub!
+GOOMBA (nervous): That's one of Yoshi's eggs, boss.
+BOWSER (smug): Then I'll keep it! And hatch my own Yoshi! An evil Yoshi!
+GOOMBA (surprised): Boss, a baby thinks the first thing it sees is its mom.
+BOWSER (surprised): So it'll think I'm its mom?
+GOOMBA (smug): You'd have to feed it. And change it. And sing to it.
+BOWSER (scared): I can't sing!
 
 # ------------------------------------------------------------ SKY LAND
 MUSIC happy 2
 SCENE sky_land
-PLACE kooper midright left nervous
-ENTER luiggi left midleft happy
-KOOPER (nervous): Psst. Green guy. You looking for a spotted egg?
-LUIGGI (excited): Kooper! Yes! We've found six. There's one left!
-KOOPER (smug): Don't tell Bowzer I told you. He hates it when I'm helpful.
-LUIGGI (happy): I promise.
-KOOPER (nervous): Bowzer has it. He found it in his bathtub.
-LUIGGI (scared): Bowzer?!
+PLACE koopa_troopa midright left nervous
+ENTER luigi left midleft happy
+KOOPA_TROOPA (nervous): Psst. Green guy. You looking for a spotted egg?
+LUIGI (excited): Koopa! Yes! We've found six. There's one left!
+KOOPA_TROOPA (smug): Don't tell Bowser I told you. He hates it when I'm helpful.
+LUIGI (happy): I promise.
+KOOPA_TROOPA (nervous): Bowser has it. He found it in his bathtub.
+LUIGI (scared): Bowser?!
 
-# ------------------------------------------------------------ BOWZER'S CASTLE
+# ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC tense
 SCENE bowzer_castle
-PLACE bowzer center left nervous
-ENTER mareo left midleft angry 500
-ENTER yoshee left left angry 500
-MAREO (angry): Bowzer! Give back Yoshee's egg!
-BOWZER (nervous): Shh! It's hatching! You'll scare it!
-YOSHEE (surprised): Yoshee?
+PLACE bowser center left nervous
+ENTER mario left midleft angry 500
+ENTER yoshi left left angry 500
+MARIO (angry): Bowser! Give back Yoshi's egg!
+BOWSER (nervous): Shh! It's hatching! You'll scare it!
+YOSHI (surprised): Yoshi?
 SFX pop
-BOWZER (surprised): It's a baby! A tiny green baby!
-NARRATOR: The baby Yoshee looked up. And the first thing it saw was a very big, very spiky turtle.
-BOWZER (shy): Hi, little guy. I'm... your mom?
+BOWSER (surprised): It's a baby! A tiny green baby!
+NARRATOR: The baby Yoshi looked up. And the first thing it saw was a very big, very spiky turtle.
+BOWSER (shy): Hi, little guy. I'm... your mom?
 
-# ------------------------------------------------------------ BOWZER'S CASTLE
+# ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC romantic
 SCENE bowzer_castle
-PLACE bowzer center left shy
-PLACE yoshee midleft right nervous
-PLACE mareo left right surprised
-MAREO (surprised): Bowzer. Are you crying?
-BOWZER (angry): No! It's the lava! It makes my eyes water!
-YOSHEE (happy): Yoshee yoshee.
-BOWZER (sad): The baby needs its real mom. Here. Take it.
-YOSHEE (happy): Yoshee!
-MAREO (happy): That was nice of you, Bowzer.
-BOWZER (angry): Tell anyone and I'll kidnap you!
+PLACE bowser center left shy
+PLACE yoshi midleft right nervous
+PLACE mario left right surprised
+MARIO (surprised): Bowser. Are you crying?
+BOWSER (angry): No! It's the lava! It makes my eyes water!
+YOSHI (happy): Yoshi yoshi.
+BOWSER (sad): The baby needs its real mom. Here. Take it.
+YOSHI (happy): Yoshi!
+MARIO (happy): That was nice of you, Bowser.
+BOWSER (angry): Tell anyone and I'll kidnap you!
 
 # ------------------------------------------------------------ MUSHROOM KINGDOM
 MUSIC happy 3
 SCENE mushroom_kingdom
-PLACE yoshee center left excited
-PLACE mareo midleft right happy
-PLACE luiggi left right happy
-PLACE donkee_kongg midright left happy
-YOSHEE (excited): Yoshee! Yoshee!
-LUIGGI (excited): All seven eggs! And one baby already hatched!
-DONKEE_KONGG (happy): Ooh ooh! Babies!
+PLACE yoshi center left excited
+PLACE mario midleft right happy
+PLACE luigi left right happy
+PLACE donkey_kong midright left happy
+YOSHI (excited): Yoshi! Yoshi!
+LUIGI (excited): All seven eggs! And one baby already hatched!
+DONKEY_KONG (happy): Ooh ooh! Babies!
 SFX pop
 SFX pop
-MAREO (excited): They're all hatching! Wahoo!
-YOSHEE (happy): Yoshee yoshee yoshee!
+MARIO (excited): They're all hatching! Wahoo!
+YOSHI (happy): Yoshi yoshi yoshi!
 
-# ------------------------------------------------------------ PEECH'S THRONE ROOM
+# ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC jazz 2
 SCENE peech_throne
-PLACE peech center left happy
-PLACE toadd midright left excited
-TOADD (excited): Princess! Seven baby Yoshees are coming to the castle for a welcome party!
-PEECH (happy): Then we'll need seven tiny cakes. And a lot of fruit. Yoshees eat a lot of fruit.
-TOADD (nervous): How much fruit?
-PEECH (smug): All of it, Toadd. All the fruit in the kingdom.
-TOADD (scared): I'll call Donkee Kongg!
+PLACE peach center left happy
+PLACE toad midright left excited
+TOAD (excited): Princess! Seven baby Yoshis are coming to the castle for a welcome party!
+PEACH (happy): Then we'll need seven tiny cakes. And a lot of fruit. Yoshis eat a lot of fruit.
+TOAD (nervous): How much fruit?
+PEACH (smug): All of it, Toad. All the fruit in the kingdom.
+TOAD (scared): I'll call Donkey Kong!
 
-# ------------------------------------------------------------ PEECH'S CASTLE
+# ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC happy 2
 SCENE peech_castle
-PLACE peech center left happy
-PLACE toadd midright left happy
-PLACE yoshee midleft right happy
-PEECH (happy): Seven new baby Yoshees in the Mushroom Kingdom. How wonderful!
-TOADD (excited): I'll knit them all little saddles!
-YOSHEE (happy): Yoshee!
-PEECH (smug): And I'm told Bowzer sent a gift. A tiny blanket with spikes on it.
-TOADD (surprised): That's... kind of sweet?
-PEECH (happy): Don't tell him we said so.
+PLACE peach center left happy
+PLACE toad midright left happy
+PLACE yoshi midleft right happy
+PEACH (happy): Seven new baby Yoshis in the Mushroom Kingdom. How wonderful!
+TOAD (excited): I'll knit them all little saddles!
+YOSHI (happy): Yoshi!
+PEACH (smug): And I'm told Bowser sent a gift. A tiny blanket with spikes on it.
+TOAD (surprised): That's... kind of sweet?
+PEACH (happy): Don't tell him we said so.
 END

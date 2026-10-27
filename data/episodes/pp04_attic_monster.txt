@@ -2,173 +2,173 @@
 @series Playpen
 @icon bottle
 @number 4
-@description There's a thumping noise coming from the attic every night. Chuckey is sure it's a monster. Tommi is sure it's an adventure.
+@description There's a thumping noise coming from the attic every night. Chuckie is sure it's a monster. Tommy is sure it's an adventure.
 
 # ------------------------------------------------------------ NURSERY
 MUSIC spooky
 SCENE nursery cut
 TITLE
-PLACE tommi midleft right nervous
-PLACE chuckey center left scared
+PLACE tommy midleft right nervous
+PLACE chuckie center left scared
 SFX thud
-CHUCKEY (scared): Tommi! There it is again! The thumping!
+CHUCKIE (scared): Tommy! There it is again! The thumping!
 SFX thud
-TOMMI (nervous): It's coming from up there. From the attic.
-CHUCKEY (scared): Everybody knows what lives in attics. Monsters!
-TOMMI (excited): Then tomorrow, we're gonna go see it!
-CHUCKEY (scared): Tomorrow? Why would we go SEE it?
-TOMMI (happy): Because maybe the monster is lonely, Chuckey.
+TOMMY (nervous): It's coming from up there. From the attic.
+CHUCKIE (scared): Everybody knows what lives in attics. Monsters!
+TOMMY (excited): Then tomorrow, we're gonna go see it!
+CHUCKIE (scared): Tomorrow? Why would we go SEE it?
+TOMMY (happy): Because maybe the monster is lonely, Chuckie.
 
 # ------------------------------------------------------------ PICKLES KITCHEN
 MUSIC jazz
 SCENE pickles_kitchen
 CARD The next morning...
-PLACE didee center left nervous
-PLACE grandpa_lew midright left happy
-DIDEE (nervous): Pop, have you heard a strange thumping at night?
-GRANDPA_LEW (happy): Thumping? Nope. I sleep like a log.
-DIDEE (smug): A log that snores.
-GRANDPA_LEW (smug): A log that's earned its rest, young lady.
-DIDEE (nervous): Stew says it's the pipes. But pipes don't thump in rhythm.
+PLACE didi center left nervous
+PLACE grandpa_lou midright left happy
+DIDI (nervous): Pop, have you heard a strange thumping at night?
+GRANDPA_LOU (happy): Thumping? Nope. I sleep like a log.
+DIDI (smug): A log that snores.
+GRANDPA_LOU (smug): A log that's earned its rest, young lady.
+DIDI (nervous): Stu says it's the pipes. But pipes don't thump in rhythm.
 
 # ------------------------------------------------------------ PICKLES BACKYARD
 MUSIC sneaky
 SCENE pickles_backyard
-PLACE phill midleft right excited
-PLACE lill center left excited
-PLACE angelika midright left smug
-ANGELIKA (smug): Oh, I know all about the attic monster.
-PHILL (surprised): You do?
-ANGELIKA (smug): It's big and hairy, with nine eyes. And it eats babies who don't share their cookies.
-LILL (scared): We share our cookies!
-ANGELIKA (smug): Then give me yours, to be safe.
-PHILL (sad): Okay.
-ANGELIKA (happy): Thank you!
+PLACE phil midleft right excited
+PLACE lil center left excited
+PLACE angelica midright left smug
+ANGELICA (smug): Oh, I know all about the attic monster.
+PHIL (surprised): You do?
+ANGELICA (smug): It's big and hairy, with nine eyes. And it eats babies who don't share their cookies.
+LIL (scared): We share our cookies!
+ANGELICA (smug): Then give me yours, to be safe.
+PHIL (sad): Okay.
+ANGELICA (happy): Thank you!
 
 # ------------------------------------------------------------ PICKLES LIVING ROOM
 MUSIC tense
 SCENE pickles_living_room
-PLACE tommi center right excited
-PLACE chuckey midleft right nervous
-PLACE phill left right nervous
-PLACE lill farleft right nervous
-TOMMI (excited): Here's the plan. We climb the stairs, open the attic door, and say hi to the monster.
-CHUCKEY (nervous): And if it says hi back?
-TOMMI (happy): Then we've made a new friend!
-LILL (scared): Angelika says it has nine eyes.
-PHILL (nervous): And eats cookies. And maybe babies.
-TOMMI (smug): Angelika says a lot of things.
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil left right nervous
+PLACE lil farleft right nervous
+TOMMY (excited): Here's the plan. We climb the stairs, open the attic door, and say hi to the monster.
+CHUCKIE (nervous): And if it says hi back?
+TOMMY (happy): Then we've made a new friend!
+LIL (scared): Angelica says it has nine eyes.
+PHIL (nervous): And eats cookies. And maybe babies.
+TOMMY (smug): Angelica says a lot of things.
 
 # ------------------------------------------------------------ PICKLES ATTIC
 MUSIC spooky 2
 SCENE pickles_attic
-ENTER tommi left midleft excited 160
-ENTER chuckey left left scared 160
-ENTER phill left farleft nervous 160
-ENTER lill left offleft nervous 160
-MOVE lill farleft
-TOMMI (excited): We made it! The attic!
-CHUCKEY (scared): It's so dark. And dusty. And full of shapes.
+ENTER tommy left midleft excited 160
+ENTER chuckie left left scared 160
+ENTER phil left farleft nervous 160
+ENTER lil left offleft nervous 160
+MOVE lil farleft
+TOMMY (excited): We made it! The attic!
+CHUCKIE (scared): It's so dark. And dusty. And full of shapes.
 SFX thud
-LILL (scared): The thumping! Right behind that big box!
-PHILL (scared): Lill, hold my hand.
-LILL (nervous): You hold MY hand, Phill.
+LIL (scared): The thumping! Right behind that big box!
+PHIL (scared): Lil, hold my hand.
+LIL (nervous): You hold MY hand, Phil.
 
 # ------------------------------------------------------------ PICKLES KITCHEN
 MUSIC tense
 SCENE pickles_kitchen
-PLACE grandpa_lew center left smug
-PLACE didee midright left nervous
-GRANDPA_LEW (smug): You know, Didee, my slippers keep disappearing. Every night, one more pair.
-DIDEE (nervous): Pop, you think the attic monster is stealing your slippers?
-GRANDPA_LEW (happy): I think something with good taste is stealing my slippers.
-DIDEE (smug): Your slippers smell like old cheese.
-GRANDPA_LEW (smug): Like I said. Good taste.
+PLACE grandpa_lou center left smug
+PLACE didi midright left nervous
+GRANDPA_LOU (smug): You know, Didi, my slippers keep disappearing. Every night, one more pair.
+DIDI (nervous): Pop, you think the attic monster is stealing your slippers?
+GRANDPA_LOU (happy): I think something with good taste is stealing my slippers.
+DIDI (smug): Your slippers smell like old cheese.
+GRANDPA_LOU (smug): Like I said. Good taste.
 
 # ------------------------------------------------------------ SUPERMARKET
 MUSIC jazz 3
 SCENE supermarket
-PLACE angelika center left smug
-PLACE suzie midright left happy
-ANGELIKA (smug): And then I told them it has nine eyes. They totally believed me.
-SUZIE (happy): You shouldn't scare the babies, Angelika.
-ANGELIKA (smug): Why not? It's my favorite hobby.
-SUZIE (smug): What if there really is a monster?
-ANGELIKA (scared): There isn't. Right? Suzie? Right?
+PLACE angelica center left smug
+PLACE susie midright left happy
+ANGELICA (smug): And then I told them it has nine eyes. They totally believed me.
+SUSIE (happy): You shouldn't scare the babies, Angelica.
+ANGELICA (smug): Why not? It's my favorite hobby.
+SUSIE (smug): What if there really is a monster?
+ANGELICA (scared): There isn't. Right? Susie? Right?
 
-# ------------------------------------------------------------ STEW'S BASEMENT
+# ------------------------------------------------------------ STU'S BASEMENT
 MUSIC jazz 2
 SCENE stu_basement
-PLACE stew center left happy
-STEW (happy): Okay, honey, I checked the pipes. Nothing wrong down here.
-STEW (smug): Must be squirrels. Or the house settling. Houses do that.
+PLACE stu center left happy
+STU (happy): Okay, honey, I checked the pipes. Nothing wrong down here.
+STU (smug): Must be squirrels. Or the house settling. Houses do that.
 SFX thud
-STEW (nervous): That was a big settle.
+STU (nervous): That was a big settle.
 
 # ------------------------------------------------------------ PICKLES ATTIC
 MUSIC tense 2
 SCENE pickles_attic
-PLACE tommi center right excited
-PLACE chuckey midleft right scared
-PLACE phill left right nervous
-PLACE lill farleft right nervous
-TOMMI (excited): Okay, monster! We're friendly! We come in peace!
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+PLACE phil left right nervous
+PLACE lil farleft right nervous
+TOMMY (excited): Okay, monster! We're friendly! We come in peace!
 SFX thud
 SFX squeak
-CHUCKEY (scared): It's moving! It's coming out!
-ENTER spyke right midright happy
-SPYKE (happy): Woof!
-TOMMI (surprised): Spyke? You're the monster?
-SPYKE (excited): Woof woof!
+CHUCKIE (scared): It's moving! It's coming out!
+ENTER spike right midright happy
+SPIKE (happy): Woof!
+TOMMY (surprised): Spike? You're the monster?
+SPIKE (excited): Woof woof!
 
 # ------------------------------------------------------------ PICKLES ATTIC
 MUSIC happy
 SCENE pickles_attic
-PLACE tommi center right happy
-PLACE spyke midright left happy
-PLACE chuckey midleft right surprised
-CHUCKEY (surprised): He's got a bed up here! And a bone! And a whole pile of Grandpa's slippers!
-TOMMI (happy): Spyke built himself a secret clubhouse!
+PLACE tommy center right happy
+PLACE spike midright left happy
+PLACE chuckie midleft right surprised
+CHUCKIE (surprised): He's got a bed up here! And a bone! And a whole pile of Grandpa's slippers!
+TOMMY (happy): Spike built himself a secret clubhouse!
 SFX thud
-TOMMI (excited): And the thumping is his tail! Hitting the floor when he's happy!
-SPYKE (happy): Woof!
-CHUCKEY (happy): So the monster was just a very happy dog.
+TOMMY (excited): And the thumping is his tail! Hitting the floor when he's happy!
+SPIKE (happy): Woof!
+CHUCKIE (happy): So the monster was just a very happy dog.
 
 # ------------------------------------------------------------ PICKLES LIVING ROOM
 MUSIC sneaky 2
 SCENE pickles_living_room
-PLACE angelika center left nervous
-ENTER tommi left midleft smug
-ENTER chuckey left left happy
-ANGELIKA (nervous): Did the monster eat you?
-TOMMI (smug): We made friends with it.
-ANGELIKA (surprised): With the nine-eyed, cookie-eating monster?
-CHUCKEY (smug): Yup. It's actually very fluffy.
-ANGELIKA (scared): I'm never going up there again!
-TOMMI (happy): Okay, Angelika. More attic for us!
+PLACE angelica center left nervous
+ENTER tommy left midleft smug
+ENTER chuckie left left happy
+ANGELICA (nervous): Did the monster eat you?
+TOMMY (smug): We made friends with it.
+ANGELICA (surprised): With the nine-eyed, cookie-eating monster?
+CHUCKIE (smug): Yup. It's actually very fluffy.
+ANGELICA (scared): I'm never going up there again!
+TOMMY (happy): Okay, Angelica. More attic for us!
 
 # ------------------------------------------------------------ CARMICHAEL HOUSE
 MUSIC jazz 3
 SCENE carmichael_house
-PLACE suzie center left happy
-PLACE angelika midright left angry
-SUZIE (happy): Angelika, I heard the babies found the attic monster.
-ANGELIKA (angry): And I heard it was Spyke. Stupid dog. Made me look silly.
-SUZIE (smug): You made up a monster with nine eyes, Angelika.
-ANGELIKA (smug): I'm very creative.
-SUZIE (happy): You should write books. Scary ones.
-ANGELIKA (excited): And get paid for it? Suzie, that's genius!
+PLACE susie center left happy
+PLACE angelica midright left angry
+SUSIE (happy): Angelica, I heard the babies found the attic monster.
+ANGELICA (angry): And I heard it was Spike. Stupid dog. Made me look silly.
+SUSIE (smug): You made up a monster with nine eyes, Angelica.
+ANGELICA (smug): I'm very creative.
+SUSIE (happy): You should write books. Scary ones.
+ANGELICA (excited): And get paid for it? Susie, that's genius!
 
 # ------------------------------------------------------------ PICKLES ATTIC
 MUSIC romantic
 SCENE pickles_attic
-PLACE tommi center right happy
-PLACE chuckey midleft right happy
-PLACE spyke midright left happy
-TOMMI (happy): Spyke said we can come to his clubhouse whenever we want.
-CHUCKEY (happy): I'm not scared of the attic anymore.
+PLACE tommy center right happy
+PLACE chuckie midleft right happy
+PLACE spike midright left happy
+TOMMY (happy): Spike said we can come to his clubhouse whenever we want.
+CHUCKIE (happy): I'm not scared of the attic anymore.
 SFX thud
-CHUCKEY (scared): AAAAH!
-SPYKE (happy): Woof!
-CHUCKEY (happy): Oh. Right. Happy tail.
+CHUCKIE (scared): AAAAH!
+SPIKE (happy): Woof!
+CHUCKIE (happy): Oh. Right. Happy tail.
 END

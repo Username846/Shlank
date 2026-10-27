@@ -2,34 +2,34 @@
 @series Hillwood
 @icon city
 @number 4
-@description Sid swears there's a ghost in the alley behind Big Bob's Beepers. Gerold tells the scariest version of the legend, and Arnald decides to find out the truth.
+@description Sid swears there's a ghost in the alley behind Big Bob's Beepers. Gerald tells the scariest version of the legend, and Arnold decides to find out the truth.
 
-# ------------------------------------------------------------ ARNALD'S ROOM
+# ------------------------------------------------------------ ARNOLD'S ROOM
 MUSIC spooky
 SCENE arnald_room cut
 TITLE
-PLACE arnald midleft right neutral
-PLACE gerold center left smug
+PLACE arnold midleft right neutral
+PLACE gerald center left smug
 PLACE sid midright left scared
 PLACE stinky right left nervous
-GEROLD (smug): Gather round. Let me tell you about the Ghost of Hillwood Alley.
+GERALD (smug): Gather round. Let me tell you about the Ghost of Hillwood Alley.
 SID (scared): I already know about it. That's why I'm shaking.
-GEROLD (smug): Fifty years ago, a delivery man got lost in that alley. He's still looking for his last package.
+GERALD (smug): Fifty years ago, a delivery man got lost in that alley. He's still looking for his last package.
 STINKY (nervous): That's mighty sad. And mighty creepy.
-GEROLD (excited): And every night at midnight, you can hear him knocking. Knock. Knock. Knock.
+GERALD (excited): And every night at midnight, you can hear him knocking. Knock. Knock. Knock.
 SFX slam
 SID (scared): AAAAAH!
-ARNALD (smug): That was Grandpa's door, Sid.
+ARNOLD (smug): That was Grandpa's door, Sid.
 
 # ------------------------------------------------------------ CAFETERIA
 MUSIC jazz
 SCENE cafeteria
 PLACE helga midleft right smug
-PLACE phoebee center left neutral
+PLACE phoebe center left neutral
 PLACE rhonda midright left nervous
 RHONDA (nervous): Did you hear? Sid saw the ghost last night. It had glowing eyes.
 HELGA (smug): Ghosts aren't real, Princess. Sid also saw a lizard wearing a hat.
-PHOEBEE: There are many possible explanations. Reflections. Cats. Raccoons.
+PHOEBE: There are many possible explanations. Reflections. Cats. Raccoons.
 RHONDA (smug): Raccoons don't wear capes.
 HELGA (surprised): It wore a cape?
 RHONDA (excited): A fabulous cape. Very last season, though.
@@ -39,10 +39,10 @@ MUSIC jazz 2
 SCENE boarding_kitchen
 PLACE grandpa center left smug
 PLACE grandma midright left excited
-ENTER arnald left midleft neutral
-ARNALD (neutral): Grandpa, have you ever heard of the Ghost of Hillwood Alley?
+ENTER arnold left midleft neutral
+ARNOLD (neutral): Grandpa, have you ever heard of the Ghost of Hillwood Alley?
 GRANDPA (smug): Heard of it? Shortman, I invented it. In nineteen fifty-two. To scare your Uncle Morty.
-ARNALD (surprised): Really?
+ARNOLD (surprised): Really?
 GRANDMA (excited): And then he got so scared of his own story, he slept with the lights on for a month!
 GRANDPA (nervous): That's not how I remember it, Pookie.
 GRANDMA (smug): That's how everyone remembers it!
@@ -51,55 +51,55 @@ GRANDMA (smug): That's how everyone remembers it!
 MUSIC tense
 SCENE big_bobs
 PLACE big_bob center left angry
-ENTER arnald left midleft neutral
+ENTER arnold left midleft neutral
 BIG_BOB (angry): A ghost? In MY alley? Kid, that's ridiculous.
-ARNALD (neutral): Have you heard anything strange at night, Mister Pataki?
+ARNOLD (neutral): Have you heard anything strange at night, Mister Pataki?
 BIG_BOB (nervous): Well. Sometimes. A beeping. But this is a beeper store! Everything beeps!
-ARNALD (smug): At midnight?
+ARNOLD (smug): At midnight?
 BIG_BOB (scared): Look, just go figure it out, will ya? It's bad for business.
 
 # ------------------------------------------------------------ SUNSET ARMS
 MUSIC sneaky
 SCENE sunset_arms
 CARD That night...
-PLACE arnald midleft right nervous
-PLACE gerold center left nervous
+PLACE arnold midleft right nervous
+PLACE gerald center left nervous
 ENTER sid right right scared
 ENTER stinky right farright nervous
 SID (scared): I brought garlic, a flashlight and my cousin's camera.
 STINKY (nervous): I brought a lemon puddin'. In case we get hungry. Or in case ghosts like puddin'.
-GEROLD (nervous): Okay. Remember. If anyone screams, everybody runs.
-ARNALD (happy): Nobody's going to scream. Let's go.
+GERALD (nervous): Okay. Remember. If anyone screams, everybody runs.
+ARNOLD (happy): Nobody's going to scream. Let's go.
 SFX squeak
 SID (scared): AAAAAAH!
-ARNALD (smug): That was my shoe, Sid.
+ARNOLD (smug): That was my shoe, Sid.
 
 # ------------------------------------------------------------ THE ALLEY
 MUSIC spooky 2
 SCENE alley
-ENTER arnald left midleft nervous 160
-ENTER gerold left left nervous 160
+ENTER arnold left midleft nervous 160
+ENTER gerald left left nervous 160
 ENTER sid left farleft scared 160
-ARNALD (nervous): It's really dark back here.
+ARNOLD (nervous): It's really dark back here.
 SFX beep
-GEROLD (scared): Did you hear that?
+GERALD (scared): Did you hear that?
 SFX beep
 SID (scared): It's the ghost! It's beeping at us! It wants its package!
-ARNALD (surprised): Wait. Look. Behind the dumpster. Two glowing eyes.
+ARNOLD (surprised): Wait. Look. Behind the dumpster. Two glowing eyes.
 SID (scared): We're doomed!
 
 # ------------------------------------------------------------ THE ALLEY
 MUSIC tense 2
 SCENE alley
-PLACE arnald center right surprised
-PLACE gerold midleft right scared
-ARNALD (surprised): It's a cat! A cat wearing an old blanket like a cape!
-GEROLD (surprised): And it's sitting on a beeper. Every time it moves, the beeper goes off.
+PLACE arnold center right surprised
+PLACE gerald midleft right scared
+ARNOLD (surprised): It's a cat! A cat wearing an old blanket like a cape!
+GERALD (surprised): And it's sitting on a beeper. Every time it moves, the beeper goes off.
 SFX beep
-ARNALD (happy): That's our ghost. A cat in a blanket, sitting on one of Big Bob's lost beepers.
-GEROLD (smug): Well, that's a lot less scary.
-ARNALD (smug): Where's Sid?
-GEROLD (happy): He ran home ten seconds ago. Stinky carried the pudding.
+ARNOLD (happy): That's our ghost. A cat in a blanket, sitting on one of Big Bob's lost beepers.
+GERALD (smug): Well, that's a lot less scary.
+ARNOLD (smug): Where's Sid?
+GERALD (happy): He ran home ten seconds ago. Stinky carried the pudding.
 
 # ------------------------------------------------------------ SUNSET ARMS
 MUSIC happy
@@ -130,21 +130,21 @@ HELGA (smug): You're welcome.
 MUSIC jazz 2
 SCENE big_bobs
 PLACE big_bob center left happy
-ENTER arnald left midleft happy
-ENTER gerold left left happy
+ENTER arnold left midleft happy
+ENTER gerald left left happy
 BIG_BOB (happy): A cat! A cat was stealing my beepers! I'm gonna put it in a commercial!
-ARNALD (happy): So no more ghost?
+ARNOLD (happy): So no more ghost?
 BIG_BOB (excited): No more ghost! "Big Bob's Beepers: So good, even cats want one!"
-GEROLD (smug): That's actually not a bad slogan.
+GERALD (smug): That's actually not a bad slogan.
 BIG_BOB (smug): Of course it's not. I'm the beeper king!
 
 # ------------------------------------------------------------ ROOFTOP
 MUSIC romantic
 SCENE rooftop
-PLACE arnald midleft right happy
-PLACE gerold center left smug
-GEROLD (smug): You know, Arnald, that legend's still gonna get told. Just with a cat now.
-ARNALD (happy): The Ghost Cat of Hillwood Alley. I kind of like it.
-GEROLD (excited): Knock. Knock. Meow.
-ARNALD (happy): See you tomorrow, Gerold.
+PLACE arnold midleft right happy
+PLACE gerald center left smug
+GERALD (smug): You know, Arnold, that legend's still gonna get told. Just with a cat now.
+ARNOLD (happy): The Ghost Cat of Hillwood Alley. I kind of like it.
+GERALD (excited): Knock. Knock. Meow.
+ARNOLD (happy): See you tomorrow, Gerald.
 END

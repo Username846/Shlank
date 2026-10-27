@@ -1,180 +1,180 @@
-@title Bowzer's Day Off
+@title Bowser's Day Off
 @series Super Mario Brothers
 @icon mushroom
 @number 5
-@description Bowzer is tired of kidnapping. For one day, he's going to be nice. Nobody believes him, especially not Mareo, who keeps jumping on his head out of habit.
+@description Bowser is tired of kidnapping. For one day, he's going to be nice. Nobody believes him, especially not Mario, who keeps jumping on his head out of habit.
 
-# ------------------------------------------------------------ BOWZER'S CASTLE
+# ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC tense
 SCENE bowzer_castle cut
 TITLE
-PLACE bowzer center left sad
-PLACE kooper midright left nervous
-PLACE gumba right left nervous
-BOWZER (sad): Kooper. Gumba. I've decided something.
-KOOPER (nervous): Uh oh.
-BOWZER (sad): I'm tired of kidnapping. Every week, same thing. Kidnap the princess. Get jumped on. Fall in lava.
-GUMBA (surprised): So what are you gonna do?
-BOWZER (excited): Today, I'm taking a day off! I'm going to be NICE!
-KOOPER (scared): Boss, are you feeling okay?
-BOWZER (happy): Never better. Gwahahaha! Nicely!
+PLACE bowser center left sad
+PLACE koopa_troopa midright left nervous
+PLACE goomba right left nervous
+BOWSER (sad): Koopa. Goomba. I've decided something.
+KOOPA_TROOPA (nervous): Uh oh.
+BOWSER (sad): I'm tired of kidnapping. Every week, same thing. Kidnap the princess. Get jumped on. Fall in lava.
+GOOMBA (surprised): So what are you gonna do?
+BOWSER (excited): Today, I'm taking a day off! I'm going to be NICE!
+KOOPA_TROOPA (scared): Boss, are you feeling okay?
+BOWSER (happy): Never better. Gwahahaha! Nicely!
 
 # ------------------------------------------------------------ MUSHROOM KINGDOM
 MUSIC happy
 SCENE mushroom_kingdom
-PLACE mareo midleft right happy
-PLACE luiggi left right happy
-ENTER bowzer right midright happy
-BOWZER (happy): Good morning, Mareo! Lovely day, isn't it?
-MAREO (angry): Bowzer! What are you up to?
-BOWZER (happy): Nothing! I brought you muffins!
+PLACE mario midleft right happy
+PLACE luigi left right happy
+ENTER bowser right midright happy
+BOWSER (happy): Good morning, Mario! Lovely day, isn't it?
+MARIO (angry): Bowser! What are you up to?
+BOWSER (happy): Nothing! I brought you muffins!
 SFX jump_8bit
-JUMP mareo
+JUMP mario
 SFX boing
-BOWZER (angry): Ow! You jumped on my head!
-MAREO (nervous): Sorry! Habit!
-LUIGGI (smug): Those muffins look pretty good, though.
+BOWSER (angry): Ow! You jumped on my head!
+MARIO (nervous): Sorry! Habit!
+LUIGI (smug): Those muffins look pretty good, though.
 
-# ------------------------------------------------------------ PEECH'S CASTLE
+# ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC jazz
 SCENE peech_castle
-PLACE peech center left nervous
-PLACE toadd midright left scared
-ENTER bowzer right right happy
-TOADD (scared): Princess! It's Bowzer! Hide!
-BOWZER (happy): Good morning, Princess! I'm not here to kidnap you!
-PEECH (surprised): You're not?
-BOWZER (shy): I came to ask if you need help with anything. Gardening. Dishes.
-PEECH (smug): Bowzer, is this a trick?
-BOWZER (sad): No. I just want to be nice. For one day.
-PEECH (happy): Well. The garden does need weeding.
+PLACE peach center left nervous
+PLACE toad midright left scared
+ENTER bowser right right happy
+TOAD (scared): Princess! It's Bowser! Hide!
+BOWSER (happy): Good morning, Princess! I'm not here to kidnap you!
+PEACH (surprised): You're not?
+BOWSER (shy): I came to ask if you need help with anything. Gardening. Dishes.
+PEACH (smug): Bowser, is this a trick?
+BOWSER (sad): No. I just want to be nice. For one day.
+PEACH (happy): Well. The garden does need weeding.
 
-# ------------------------------------------------------------ KONGG JUNGLE
+# ------------------------------------------------------------ KONG JUNGLE
 MUSIC happy 2
 SCENE kong_jungle
-PLACE donkee_kongg center left nervous
-ENTER bowzer right midright happy
-BOWZER (happy): Donkee Kongg! I'm being nice today. Would you like a banana?
-DONKEE_KONGG (surprised): Bowzer giving bananas?
-BOWZER (smug): I bought them at the store. With my own coins.
-DONKEE_KONGG (nervous): Is trap?
-BOWZER (sad): Why does everyone think it's a trap?
-DONKEE_KONGG (happy): Ooh ooh! Okay! Thank you, Bowzer!
+PLACE donkey_kong center left nervous
+ENTER bowser right midright happy
+BOWSER (happy): Donkey Kong! I'm being nice today. Would you like a banana?
+DONKEY_KONG (surprised): Bowser giving bananas?
+BOWSER (smug): I bought them at the store. With my own coins.
+DONKEY_KONG (nervous): Is trap?
+BOWSER (sad): Why does everyone think it's a trap?
+DONKEY_KONG (happy): Ooh ooh! Okay! Thank you, Bowser!
 SFX chomp
 
 # ------------------------------------------------------------ SKY LAND
 MUSIC sneaky 3
 SCENE sky_land
-PLACE kooper center left nervous
-PLACE gumba midright left nervous
-KOOPER (nervous): Gumba, what do minions do when the boss is being nice?
-GUMBA (smug): Take a vacation?
-KOOPER (excited): A day off! Our first ever!
-GUMBA (happy): I'm going to lie on a cloud and do nothing.
-KOOPER (happy): Me too. Wake me up when he's evil again.
+PLACE koopa_troopa center left nervous
+PLACE goomba midright left nervous
+KOOPA_TROOPA (nervous): Goomba, what do minions do when the boss is being nice?
+GOOMBA (smug): Take a vacation?
+KOOPA_TROOPA (excited): A day off! Our first ever!
+GOOMBA (happy): I'm going to lie on a cloud and do nothing.
+KOOPA_TROOPA (happy): Me too. Wake me up when he's evil again.
 
 # ------------------------------------------------------------ PIPE LAND
 MUSIC sneaky
 SCENE pipe_land
-PLACE waryo center left smug
-ENTER gumba right midright nervous
-WARYO (smug): Bowzer's being nice? Wah ha ha! This is my chance!
-GUMBA (nervous): Your chance for what?
-WARYO (excited): If Bowzer's not kidnapping the princess today, then I'LL kidnap her! And I'll get the reward when I return her!
-GUMBA (smug): That's not how rewards work.
-WARYO (smug): It is if you believe!
+PLACE wario center left smug
+ENTER goomba right midright nervous
+WARIO (smug): Bowser's being nice? Wah ha ha! This is my chance!
+GOOMBA (nervous): Your chance for what?
+WARIO (excited): If Bowser's not kidnapping the princess today, then I'LL kidnap her! And I'll get the reward when I return her!
+GOOMBA (smug): That's not how rewards work.
+WARIO (smug): It is if you believe!
 
-# ------------------------------------------------------------ PEECH'S CASTLE
+# ------------------------------------------------------------ PEACH'S CASTLE
 MUSIC happy 2
 SCENE peech_castle
-PLACE bowzer center left happy
-PLACE peech midleft right happy
-BOWZER (happy): Weeding is fun! I pulled up all the weeds!
-PEECH (surprised): And all the flowers.
-BOWZER (nervous): Those were flowers?
-PEECH (smug): And the hedge. And a small tree.
-BOWZER (sad): Being nice is hard.
-PEECH (happy): You're doing your best. That's what matters.
+PLACE bowser center left happy
+PLACE peach midleft right happy
+BOWSER (happy): Weeding is fun! I pulled up all the weeds!
+PEACH (surprised): And all the flowers.
+BOWSER (nervous): Those were flowers?
+PEACH (smug): And the hedge. And a small tree.
+BOWSER (sad): Being nice is hard.
+PEACH (happy): You're doing your best. That's what matters.
 
 # ------------------------------------------------------------ DESERT LAND
 MUSIC action
 SCENE desert_land
-PLACE waryo center left excited
-PLACE daizy midright left angry
-WARYO (excited): Princess! You're coming with me!
-DAIZY (angry): I'm Princess Daizy, not Princess Peech.
-WARYO (surprised): Oh. Well. Any princess is fine!
-DAIZY (smug): Bad idea, Waryo.
+PLACE wario center left excited
+PLACE daisy midright left angry
+WARIO (excited): Princess! You're coming with me!
+DAISY (angry): I'm Princess Daisy, not Princess Peach.
+WARIO (surprised): Oh. Well. Any princess is fine!
+DAISY (smug): Bad idea, Wario.
 SFX blast
 SHAKE 0.6
-WARYO (scared): WAAAAH! She kicked me into the pyramid!
+WARIO (scared): WAAAAH! She kicked me into the pyramid!
 
-# ------------------------------------------------------------ TOADD HOUSE
+# ------------------------------------------------------------ TOAD HOUSE
 MUSIC jazz 2
 SCENE toad_house
-PLACE toadd center left nervous
-PLACE bowzer midright left happy
-BOWZER (happy): Toadd! I'm here to help you organize your treasure!
-TOADD (nervous): Okay. But please don't take any of it.
-BOWZER (smug): I wouldn't dream of it. Look. Neat little piles.
-TOADD (surprised): Wow. That's actually really organized.
-BOWZER (excited): I alphabetized your mushrooms!
-TOADD (happy): Thank you, Bowzer!
+PLACE toad center left nervous
+PLACE bowser midright left happy
+BOWSER (happy): Toad! I'm here to help you organize your treasure!
+TOAD (nervous): Okay. But please don't take any of it.
+BOWSER (smug): I wouldn't dream of it. Look. Neat little piles.
+TOAD (surprised): Wow. That's actually really organized.
+BOWSER (excited): I alphabetized your mushrooms!
+TOAD (happy): Thank you, Bowser!
 
-# ------------------------------------------------------------ PEECH'S THRONE ROOM
+# ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC tense
 SCENE peech_throne
-PLACE peech center left neutral
-ENTER waryo left midleft excited 500
-WARYO (excited): Princess Peech! You're coming with me!
-PEECH (smug): Waryo. Really?
-WARYO (smug): Bowzer's not kidnapping today, so it's my turn!
-PEECH (scared): Help!
-ENTER bowzer right right angry 500
-BOWZER (angry): Hey! Nobody kidnaps the princess but me!
-WARYO (scared): Waaah! But you're being nice today!
-BOWZER (smug): I'm being nice to HER. Not to you.
+PLACE peach center left neutral
+ENTER wario left midleft excited 500
+WARIO (excited): Princess Peach! You're coming with me!
+PEACH (smug): Wario. Really?
+WARIO (smug): Bowser's not kidnapping today, so it's my turn!
+PEACH (scared): Help!
+ENTER bowser right right angry 500
+BOWSER (angry): Hey! Nobody kidnaps the princess but me!
+WARIO (scared): Waaah! But you're being nice today!
+BOWSER (smug): I'm being nice to HER. Not to you.
 
-# ------------------------------------------------------------ PEECH'S THRONE ROOM
+# ------------------------------------------------------------ PEACH'S THRONE ROOM
 MUSIC action 2
 SCENE peech_throne
-PLACE bowzer midright left angry
-PLACE waryo midleft right scared
-PLACE peech center left surprised
-ENTER mareo left left excited 500
-MAREO (excited): Princess! I'm here!
-BOWZER (angry): Mareo! Help me get this guy out of here!
-MAREO (surprised): Help YOU?
-BOWZER (smug): Just this once!
+PLACE bowser midright left angry
+PLACE wario midleft right scared
+PLACE peach center left surprised
+ENTER mario left left excited 500
+MARIO (excited): Princess! I'm here!
+BOWSER (angry): Mario! Help me get this guy out of here!
+MARIO (surprised): Help YOU?
+BOWSER (smug): Just this once!
 SFX jump_8bit
-JUMP mareo
+JUMP mario
 SFX boing
-WARYO (scared): WAAAAAH!
-EXIT waryo left 700
+WARIO (scared): WAAAAAH!
+EXIT wario left 700
 
 # ------------------------------------------------------------ GOAL FLAGPOLE
 MUSIC happy 3
 SCENE goal_flagpole
-PLACE bowzer center left happy
-PLACE peech midleft right happy
-PLACE mareo left right happy
-PLACE luiggi midright left happy
-PEECH (happy): Bowzer, thank you. You saved me today.
-BOWZER (shy): It was nothing. Just being nice.
-MAREO (happy): You're not so bad, Bowzer.
-LUIGGI (happy): Want to come to the picnic?
-BOWZER (excited): A picnic? With muffins?
-LUIGGI (smug): With your muffins. They were really good.
+PLACE bowser center left happy
+PLACE peach midleft right happy
+PLACE mario left right happy
+PLACE luigi midright left happy
+PEACH (happy): Bowser, thank you. You saved me today.
+BOWSER (shy): It was nothing. Just being nice.
+MARIO (happy): You're not so bad, Bowser.
+LUIGI (happy): Want to come to the picnic?
+BOWSER (excited): A picnic? With muffins?
+LUIGI (smug): With your muffins. They were really good.
 
-# ------------------------------------------------------------ BOWZER'S CASTLE
+# ------------------------------------------------------------ BOWSER'S CASTLE
 MUSIC sneaky 2
 SCENE bowzer_castle
-PLACE bowzer center left happy
-PLACE kooper midright left happy
-PLACE gumba right left happy
-KOOPER (happy): So, boss. How was being nice?
-BOWZER (happy): Exhausting. But they gave me cake.
-GUMBA (smug): So you'll keep being nice?
-BOWZER (smug): Tomorrow? Tomorrow I'm kidnapping the princess. Gwahahaha!
-KOOPER (sad): Some things never change.
+PLACE bowser center left happy
+PLACE koopa_troopa midright left happy
+PLACE goomba right left happy
+KOOPA_TROOPA (happy): So, boss. How was being nice?
+BOWSER (happy): Exhausting. But they gave me cake.
+GOOMBA (smug): So you'll keep being nice?
+BOWSER (smug): Tomorrow? Tomorrow I'm kidnapping the princess. Gwahahaha!
+KOOPA_TROOPA (sad): Some things never change.
 END

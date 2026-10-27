@@ -8,7 +8,7 @@ func _ready() -> void:
 	Game.voice_mode = "silent"
 	if args[1] == "styles":
 		# One scene change per transition style.
-		var text := "@title Transitions\nSCENE pineapple_house cut\nPLACE spongebert center\nSPONGEBERT: Hi.\n"
+		var text := "@title Transitions\nSCENE pineapple_house cut\nPLACE spongebob center\nSPONGEBOB: Hi.\n"
 		var locs := ["sunset_arms", "krusty_crab", "ps118", "treedome", "rooftop", "goo_lagoon", "classroom", "chum_bucket",
 			"kamee_house", "wall_top", "mushroom_kingdom", "save_room"]
 		for i in EpisodeScript.TRANSITIONS.size():

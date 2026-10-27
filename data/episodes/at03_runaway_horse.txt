@@ -2,157 +2,157 @@
 @series Attack on Titan
 @icon wings
 @number 3
-@description Jeen's horse, Buttercup, has run away the day before a big expedition. Jeen says he doesn't care. Jeen cares a lot.
+@description Jean's horse, Buttercup, has run away the day before a big expedition. Jean says he doesn't care. Jean cares a lot.
 
 # ------------------------------------------------------------ STABLES
 MUSIC sad
 SCENE stables cut
 TITLE
-PLACE jeen center right surprised
-JEEN (surprised): Buttercup? Buttercup!
-JEEN (nervous): Where's my horse? The stall's empty!
-ENTER konny left midleft happy
-KONNY (happy): Morning, Jeen! What's wrong?
-JEEN (angry): Buttercup's gone. Somebody left the gate open.
-KONNY (nervous): Um. Was it the gate with the broken latch?
-JEEN (angry): Konny!
-KONNY (sad): I was trying to give her an apple!
+PLACE jean center right surprised
+JEAN (surprised): Buttercup? Buttercup!
+JEAN (nervous): Where's my horse? The stall's empty!
+ENTER connie_springer left midleft happy
+CONNIE_SPRINGER (happy): Morning, Jean! What's wrong?
+JEAN (angry): Buttercup's gone. Somebody left the gate open.
+CONNIE_SPRINGER (nervous): Um. Was it the gate with the broken latch?
+JEAN (angry): Connie!
+CONNIE_SPRINGER (sad): I was trying to give her an apple!
 
 # ------------------------------------------------------------ SCOUT HQ
 MUSIC tense
 SCENE scout_hq
-PLACE irwin center left neutral
-ENTER jeen left midleft nervous
-IRWIN: Kirstein. The expedition leaves tomorrow at dawn. You'll need your horse.
-JEEN (nervous): Yes, Commander. About that, sir. My horse is... temporarily missing.
-IRWIN (surprised): Missing.
-JEEN (nervous): She'll be back. Probably. She's very smart.
-IRWIN (smug): Find her by dawn, Kirstein.
-JEEN (sad): Yes, sir.
+PLACE erwin center left neutral
+ENTER jean left midleft nervous
+ERWIN: Kirstein. The expedition leaves tomorrow at dawn. You'll need your horse.
+JEAN (nervous): Yes, Commander. About that, sir. My horse is... temporarily missing.
+ERWIN (surprised): Missing.
+JEAN (nervous): She'll be back. Probably. She's very smart.
+ERWIN (smug): Find her by dawn, Kirstein.
+JEAN (sad): Yes, sir.
 
 # ------------------------------------------------------------ MESS HALL
 MUSIC jazz
 SCENE mess_hall
-PLACE sascha center left happy
-PLACE mikasah midright left neutral
-ENTER jeen left midleft sad
-JEEN (sad): I need help finding Buttercup. And I'm not crying. It's dusty in here.
-SASCHA (happy): I'll help! Horses love bread. I'll bring bread.
-MIKASAH: I'll help. Horses can't run forever.
-JEEN (surprised): You'd do that for me?
-MIKASAH (neutral): Erren's coming too. He doesn't know yet.
-SASCHA (excited): Search party!
+PLACE sasha center left happy
+PLACE mikasa midright left neutral
+ENTER jean left midleft sad
+JEAN (sad): I need help finding Buttercup. And I'm not crying. It's dusty in here.
+SASHA (happy): I'll help! Horses love bread. I'll bring bread.
+MIKASA: I'll help. Horses can't run forever.
+JEAN (surprised): You'd do that for me?
+MIKASA (neutral): Eren's coming too. He doesn't know yet.
+SASHA (excited): Search party!
 
 # ------------------------------------------------------------ TROST DISTRICT
 MUSIC sneaky
 SCENE trost_district
-ENTER erren left midleft angry
-ENTER mikasah left left neutral
-ERREN (angry): Why am I looking for Jeen's horse?
-MIKASAH: Because he's our friend.
-ERREN (angry): He's not my friend. He called me a suicidal maniac last week.
-MIKASAH (smug): And you called him horse face.
-ERREN (happy): Yeah, that was a good one.
-MIKASAH: So now find his horse.
+ENTER eren left midleft angry
+ENTER mikasa left left neutral
+EREN (angry): Why am I looking for Jean's horse?
+MIKASA: Because he's our friend.
+EREN (angry): He's not my friend. He called me a suicidal maniac last week.
+MIKASA (smug): And you called him horse face.
+EREN (happy): Yeah, that was a good one.
+MIKASA: So now find his horse.
 
 # ------------------------------------------------------------ ROOFTOPS
 MUSIC action
 SCENE rooftops
-ENTER jeen left midleft excited 600
-ENTER konny left left nervous 600
+ENTER jean left midleft excited 600
+ENTER connie_springer left left nervous 600
 SFX sword
-JEEN (excited): From up here, we can see the whole district!
-KONNY (nervous): I see a lot of houses. And a cat. And a guy eating lunch.
-JEEN (sad): No horse.
-KONNY (excited): Wait! Brown horse with a white patch! By the gate!
-JEEN (surprised): That's her! Buttercup!
-KONNY (nervous): She's going outside the wall!
+JEAN (excited): From up here, we can see the whole district!
+CONNIE_SPRINGER (nervous): I see a lot of houses. And a cat. And a guy eating lunch.
+JEAN (sad): No horse.
+CONNIE_SPRINGER (excited): Wait! Brown horse with a white patch! By the gate!
+JEAN (surprised): That's her! Buttercup!
+CONNIE_SPRINGER (nervous): She's going outside the wall!
 
 # ------------------------------------------------------------ WALL GATE
 MUSIC tense 2
 SCENE wall_gate
-PLACE rayner center left nervous
-ENTER jeen left midleft scared 500
-ENTER konny left left scared 500
-RAYNER (nervous): Jeen! Your horse just ran out the gate! I tried to stop her!
-JEEN (scared): Outside the wall? There are Titans out there!
-RAYNER (nervous): She looked like she knew where she was going.
-JEEN (angry): Of course she did. She's smarter than all of us.
-KONNY (excited): Let's go after her!
-RAYNER (smug): I'm coming too. Someone has to keep you two alive.
+PLACE reiner center left nervous
+ENTER jean left midleft scared 500
+ENTER connie_springer left left scared 500
+REINER (nervous): Jean! Your horse just ran out the gate! I tried to stop her!
+JEAN (scared): Outside the wall? There are Titans out there!
+REINER (nervous): She looked like she knew where she was going.
+JEAN (angry): Of course she did. She's smarter than all of us.
+CONNIE_SPRINGER (excited): Let's go after her!
+REINER (smug): I'm coming too. Someone has to keep you two alive.
 
 # ------------------------------------------------------------ JAEGER BASEMENT
 MUSIC sneaky 2
 SCENE jaeger_basement
-PLACE armen center left excited
-PLACE hanjee midright left happy
-ARMEN (excited): Hanjee, horses have a homing instinct. If Buttercup ran away, she might be going home.
-HANJEE (happy): Home? Where was she born?
-ARMEN (excited): The records say a farm near the giant forest!
-HANJEE (excited): Then let's go! I'll bring my notebook. And snacks for any Titans we meet.
-ARMEN (nervous): Titans don't eat snacks.
-HANJEE (smug): Potato Pete does.
+PLACE armin center left excited
+PLACE hange midright left happy
+ARMIN (excited): Hange, horses have a homing instinct. If Buttercup ran away, she might be going home.
+HANGE (happy): Home? Where was she born?
+ARMIN (excited): The records say a farm near the giant forest!
+HANGE (excited): Then let's go! I'll bring my notebook. And snacks for any Titans we meet.
+ARMIN (nervous): Titans don't eat snacks.
+HANGE (smug): Potato Pete does.
 
 # ------------------------------------------------------------ SHIGANSHINA
 MUSIC sad
 SCENE shiganshina
-PLACE sascha center left nervous
-PLACE mikasah midright left neutral
-SASCHA (nervous): Mikasah, Buttercup's hoofprints go right through Shiganshina. She stopped at the bakery!
-MIKASAH (smug): Smart horse.
-SASCHA (excited): I'm checking for crumbs. For clues. Definitely for clues.
+PLACE sasha center left nervous
+PLACE mikasa midright left neutral
+SASHA (nervous): Mikasa, Buttercup's hoofprints go right through Shiganshina. She stopped at the bakery!
+MIKASA (smug): Smart horse.
+SASHA (excited): I'm checking for crumbs. For clues. Definitely for clues.
 SFX chomp
-MIKASAH: Sascha.
-SASCHA (shy): The clues were delicious.
+MIKASA: Sasha.
+SASHA (shy): The clues were delicious.
 
 # ------------------------------------------------------------ TITAN PLAINS
 MUSIC action 2
 SCENE titan_plains
-PLACE grinning_titan midright left happy
-ENTER jeen left midleft scared
-ENTER konny left left scared
-ENTER rayner left farleft nervous
-JEEN (scared): A Titan! Between us and the forest!
-RAYNER (nervous): Wait. That's Potato Pete. He's harmless.
-GRINNING_TITAN (happy): Hehehe!
-KONNY (surprised): He's pointing at something.
-JEEN (excited): He's pointing at the forest! He saw Buttercup!
-GRINNING_TITAN (smug): Hehe.
-JEEN (happy): Thanks, big guy!
+PLACE smiling_titan midright left happy
+ENTER jean left midleft scared
+ENTER connie_springer left left scared
+ENTER reiner left farleft nervous
+JEAN (scared): A Titan! Between us and the forest!
+REINER (nervous): Wait. That's Potato Pete. He's harmless.
+SMILING_TITAN (happy): Hehehe!
+CONNIE_SPRINGER (surprised): He's pointing at something.
+JEAN (excited): He's pointing at the forest! He saw Buttercup!
+SMILING_TITAN (smug): Hehe.
+JEAN (happy): Thanks, big guy!
 
 # ------------------------------------------------------------ FOREST OF GIANT TREES
 MUSIC romantic
 SCENE giant_forest
-PLACE jeen center right nervous
-JEEN (nervous): Buttercup? Are you here? It's me. Jeen.
+PLACE jean center right nervous
+JEAN (nervous): Buttercup? Are you here? It's me. Jean.
 NARRATOR: Under the biggest tree in the forest, a brown horse with a white patch stood quietly next to a smaller horse.
-JEEN (surprised): Buttercup? Is that... a baby horse?
-JEEN (happy): You ran away to have a foal! You didn't leave me. You were just busy!
-JEEN (shy): She's beautiful, Buttercup. Just like her mom.
+JEAN (surprised): Buttercup? Is that... a baby horse?
+JEAN (happy): You ran away to have a foal! You didn't leave me. You were just busy!
+JEAN (shy): She's beautiful, Buttercup. Just like her mom.
 
 # ------------------------------------------------------------ FOREST OF GIANT TREES
 MUSIC happy
 SCENE giant_forest
-PLACE jeen center right happy
-ENTER mikasah left midleft neutral
-ENTER erren left left smug
-ENTER sascha left farleft excited
-ERREN (smug): Jeen, are you crying?
-JEEN (angry): It's pollen! The forest is full of pollen!
-SASCHA (excited): A baby horse! Can I give her bread?
-MIKASAH (smug): Not yet, Sascha. She's one hour old.
-ERREN (happy): Congratulations, horse face. You're a grandpa.
-JEEN (smug): Thanks, suicidal maniac.
+PLACE jean center right happy
+ENTER mikasa left midleft neutral
+ENTER eren left left smug
+ENTER sasha left farleft excited
+EREN (smug): Jean, are you crying?
+JEAN (angry): It's pollen! The forest is full of pollen!
+SASHA (excited): A baby horse! Can I give her bread?
+MIKASA (smug): Not yet, Sasha. She's one hour old.
+EREN (happy): Congratulations, horse face. You're a grandpa.
+JEAN (smug): Thanks, suicidal maniac.
 
 # ------------------------------------------------------------ SCOUT HQ
 MUSIC happy 2
 SCENE scout_hq
-PLACE irwin center left neutral
-PLACE jeen midleft right happy
-IRWIN: You found your horse, Kirstein.
-JEEN (happy): And her foal, sir. Buttercup was just making sure her baby was born somewhere safe.
-IRWIN (smug): Then Buttercup stays home tomorrow. You'll ride a different horse.
-JEEN (nervous): Which one?
-IRWIN (happy): The only one left. Captain Levee's old horse, Mister Sparkles.
-JEEN (scared): Mister Sparkles bites!
+PLACE erwin center left neutral
+PLACE jean midleft right happy
+ERWIN: You found your horse, Kirstein.
+JEAN (happy): And her foal, sir. Buttercup was just making sure her baby was born somewhere safe.
+ERWIN (smug): Then Buttercup stays home tomorrow. You'll ride a different horse.
+JEAN (nervous): Which one?
+ERWIN (happy): The only one left. Captain Levi's old horse, Mister Sparkles.
+JEAN (scared): Mister Sparkles bites!
 END

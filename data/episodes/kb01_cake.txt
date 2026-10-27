@@ -2,180 +2,180 @@
 @series Kirby
 @icon warpstar
 @number 1
-@description King Dedeedee has baked the biggest cake in Dream Land, and it's gone missing. Everyone blames Kirbie. Kirbie only says "Poyo."
+@description King Dedede has baked the biggest cake in Dream Land, and it's gone missing. Everyone blames Kirby. Kirby only says "Poyo."
 
-# ------------------------------------------------------------ CASTLE DEDEEDEE
+# ------------------------------------------------------------ CASTLE DEDEDE
 MUSIC happy
 SCENE dedeedee_castle cut
 TITLE
-PLACE dedeedee center left excited
-PLACE waddle_dii midright left happy
-DEDEEDEE (excited): Behold, Waddle Dii! The biggest, fluffiest strawberry cake Dream Land has ever seen!
-WADDLE_DII (happy): Wah! It's taller than me!
-DEDEEDEE (smug): Everything is taller than you. Now guard it. Nobody touches my cake until the royal party!
-WADDLE_DII (excited): Yes, Your Majesty!
+PLACE dedede center left excited
+PLACE waddle_dee midright left happy
+DEDEDE (excited): Behold, Waddle Dee! The biggest, fluffiest strawberry cake Dream Land has ever seen!
+WADDLE_DEE (happy): Wah! It's taller than me!
+DEDEDE (smug): Everything is taller than you. Now guard it. Nobody touches my cake until the royal party!
+WADDLE_DEE (excited): Yes, Your Majesty!
 
 # ------------------------------------------------------------ GREEN GREENS
 MUSIC happy 2
 SCENE green_greens
-PLACE kirbie center right happy
-KIRBIE (happy): Poyo!
-ENTER bandana_dii left left happy
-BANDANA_DII (happy): Morning, Kirbie! Did you hear? The king baked a giant cake for his party!
-KIRBIE (excited): Poyo?!
-JUMP kirbie
+PLACE kirby center right happy
+KIRBY (happy): Poyo!
+ENTER bandana_dee left left happy
+BANDANA_DEE (happy): Morning, Kirby! Did you hear? The king baked a giant cake for his party!
+KIRBY (excited): Poyo?!
+JUMP kirby
 SFX boing
-BANDANA_DII (nervous): No, Kirbie. We are not invited. And we are definitely not eating it.
-KIRBIE (sad): Poyo...
+BANDANA_DEE (nervous): No, Kirby. We are not invited. And we are definitely not eating it.
+KIRBY (sad): Poyo...
 
 # ------------------------------------------------------------ THRONE ROOM
 MUSIC tense
 SCENE dedeedee_throne
 CARD That afternoon...
-PLACE waddle_dii center left scared
-ENTER dedeedee right midright happy
-DEDEEDEE (happy): Party time! Bring out the cake!
-WADDLE_DII (scared): Um. About the cake, Your Majesty.
-DEDEEDEE (surprised): Where is it?
-WADDLE_DII (scared): I turned around for one second and it was gone! There's only crumbs!
-DEDEEDEE (angry): CRUMBS?! Only one creature in Dream Land eats that much! KIRBIE!
+PLACE waddle_dee center left scared
+ENTER dedede right midright happy
+DEDEDE (happy): Party time! Bring out the cake!
+WADDLE_DEE (scared): Um. About the cake, Your Majesty.
+DEDEDE (surprised): Where is it?
+WADDLE_DEE (scared): I turned around for one second and it was gone! There's only crumbs!
+DEDEDE (angry): CRUMBS?! Only one creature in Dream Land eats that much! KIRBY!
 SHAKE 0.8
 
-# ------------------------------------------------------------ KIRBIE'S HOUSE
+# ------------------------------------------------------------ KIRBY'S HOUSE
 MUSIC action
 SCENE kirbie_house
-PLACE kirbie center right happy
-ENTER dedeedee right midright angry 500
-DEDEEDEE (angry): Kirbie! You ate my cake!
-KIRBIE (surprised): Poyo?
-DEDEEDEE (angry): Don't you "poyo" me! Where is it?
-KIRBIE (sad): Poyo poyo.
-ENTER meta_nite left left smug
-META_NITE (smug): He is telling the truth, King. Kirbie has been asleep all afternoon. I was watching.
-DEDEEDEE (surprised): You were watching him sleep?
-META_NITE (nervous): For training purposes.
+PLACE kirby center right happy
+ENTER dedede right midright angry 500
+DEDEDE (angry): Kirby! You ate my cake!
+KIRBY (surprised): Poyo?
+DEDEDE (angry): Don't you "poyo" me! Where is it?
+KIRBY (sad): Poyo poyo.
+ENTER meta_knight left left smug
+META_KNIGHT (smug): He is telling the truth, King. Kirby has been asleep all afternoon. I was watching.
+DEDEDE (surprised): You were watching him sleep?
+META_KNIGHT (nervous): For training purposes.
 
 # ------------------------------------------------------------ THE HALBERD
 MUSIC tense 2
 SCENE halberd_deck
-PLACE meta_nite midright left smug
-ENTER kirbie left midleft nervous
-ENTER bandana_dii left left nervous
-META_NITE (smug): So. The king blames you, Kirbie. And you wish to clear your name.
-KIRBIE (sad): Poyo...
-META_NITE (happy): Then you will need a clue. The thief left a trail of frosting toward the forest.
-BANDANA_DII (excited): Frosting! Kirbie, can you follow it?
-KIRBIE (excited): Poyo!
-META_NITE: A word of warning. Do not eat the evidence.
-KIRBIE (shy): ...poyo.
-META_NITE (smug): I saw that.
+PLACE meta_knight midright left smug
+ENTER kirby left midleft nervous
+ENTER bandana_dee left left nervous
+META_KNIGHT (smug): So. The king blames you, Kirby. And you wish to clear your name.
+KIRBY (sad): Poyo...
+META_KNIGHT (happy): Then you will need a clue. The thief left a trail of frosting toward the forest.
+BANDANA_DEE (excited): Frosting! Kirby, can you follow it?
+KIRBY (excited): Poyo!
+META_KNIGHT: A word of warning. Do not eat the evidence.
+KIRBY (shy): ...poyo.
+META_KNIGHT (smug): I saw that.
 
 # ------------------------------------------------------------ ORANGE OCEAN
 MUSIC sneaky
 SCENE orange_ocean
-ENTER kirbie left center happy 220
+ENTER kirby left center happy 220
 NARRATOR: The frosting trail winds along the beach. One blob. Two blobs. A very suspicious footprint shaped like a big pointy ear.
-KIRBIE (surprised): Poyo?
-NARRATOR: Kirbie sniffs. Strawberry. Definitely the king's cake. He resists the urge to lick the sand.
-KIRBIE (excited): Poyo poyo!
+KIRBY (surprised): Poyo?
+NARRATOR: Kirby sniffs. Strawberry. Definitely the king's cake. He resists the urge to lick the sand.
+KIRBY (excited): Poyo poyo!
 
-# ------------------------------------------------------------ WHISPEE'S FOREST
+# ------------------------------------------------------------ WHISPY'S FOREST
 MUSIC sneaky
 SCENE whispee_forest
-PLACE whispee_woods midright left angry
-ENTER kirbie left left excited
-ENTER bandana_dii left midleft happy
-BANDANA_DII (happy): Whispee Woods! Did you see anyone carrying a giant cake?
-WHISPEE_WOODS (angry): Ohhh, did I! Someone dragged it right over my roots! Very rude!
-KIRBIE (excited): Poyo!
-WHISPEE_WOODS (smug): They went toward Cloudy Park. A hooded fellow. Big ears. Big smile.
-BANDANA_DII (surprised): Magalor!
-KIRBIE (angry): Poyo!
+PLACE whispy_woods midright left angry
+ENTER kirby left left excited
+ENTER bandana_dee left midleft happy
+BANDANA_DEE (happy): Whispy Woods! Did you see anyone carrying a giant cake?
+WHISPY_WOODS (angry): Ohhh, did I! Someone dragged it right over my roots! Very rude!
+KIRBY (excited): Poyo!
+WHISPY_WOODS (smug): They went toward Cloudy Park. A hooded fellow. Big ears. Big smile.
+BANDANA_DEE (surprised): Magolor!
+KIRBY (angry): Poyo!
 
 # ------------------------------------------------------------ BUTTER BUILDING
 MUSIC action
 SCENE butter_building
 ENTER waddle_doo right midright angry
-ENTER kirbie left left happy
+ENTER kirby left left happy
 WADDLE_DOO (angry): Halt! The king says nobody climbs the Butter Building today!
-KIRBIE (happy): Poyo!
+KIRBY (happy): Poyo!
 WADDLE_DOO (nervous): Did you just... wave at me?
-KIRBIE (excited): Poyo poyo!
+KIRBY (excited): Poyo poyo!
 WADDLE_DOO (shy): Well. I guess one little climb wouldn't hurt. Zap zap.
 SFX sparkle
-JUMP kirbie
+JUMP kirby
 
 # ------------------------------------------------------------ CLOUDY PARK
 MUSIC tense 2
 SCENE cloudy_park
-PLACE magalor center left happy
-ENTER kirbie left left angry
-ENTER bandana_dii left midleft nervous
-MAGALOR (happy): Ah, Kirbie, my dear friend! What brings you to Cloudy Park?
-KIRBIE (angry): Poyo!
-MAGALOR (nervous): A cake? What cake? I know nothing about any cake.
-BANDANA_DII (smug): You have frosting on your hood.
-MAGALOR (scared): Ah. Well. You see. I only borrowed it! For a friend!
-ENTER marks right right smug
-MARKS (smug): Hee hee hee! For me, of course! I'm going to eat the whole thing and become the king of Dream Land!
-KIRBIE (surprised): Poyo?!
+PLACE magolor center left happy
+ENTER kirby left left angry
+ENTER bandana_dee left midleft nervous
+MAGOLOR (happy): Ah, Kirby, my dear friend! What brings you to Cloudy Park?
+KIRBY (angry): Poyo!
+MAGOLOR (nervous): A cake? What cake? I know nothing about any cake.
+BANDANA_DEE (smug): You have frosting on your hood.
+MAGOLOR (scared): Ah. Well. You see. I only borrowed it! For a friend!
+ENTER marx right right smug
+MARX (smug): Hee hee hee! For me, of course! I'm going to eat the whole thing and become the king of Dream Land!
+KIRBY (surprised): Poyo?!
 
 # ------------------------------------------------------------ FOUNTAIN OF DREAMS
 MUSIC action 2
 SCENE fountain_of_dreams
-PLACE marks midright left excited
-ENTER kirbie left midleft angry 500
-MARKS (excited): Hee hee! The cake is mine! Once I eat it, I'll be the biggest, roundest, most important thing on the planet!
-KIRBIE (angry): POYO!
+PLACE marx midright left excited
+ENTER kirby left midleft angry 500
+MARX (excited): Hee hee! The cake is mine! Once I eat it, I'll be the biggest, roundest, most important thing on the planet!
+KIRBY (angry): POYO!
 SFX whoosh
-NARRATOR: Kirbie takes a deep breath. A very, very deep breath.
+NARRATOR: Kirby takes a deep breath. A very, very deep breath.
 SHAKE 1.0
-MARKS (scared): Hee? Hee! Wait! Stop inhaling! The cake! My cake!
+MARX (scared): Hee? Hee! Wait! Stop inhaling! The cake! My cake!
 SFX chomp
-EXIT marks right 600
-NARRATOR: Marks goes flying. The cake goes into Kirbie's mouth. For safekeeping.
+EXIT marx right 600
+NARRATOR: Marx goes flying. The cake goes into Kirby's mouth. For safekeeping.
 
 # ------------------------------------------------------------ BACK AT THE THRONE ROOM
 MUSIC tense
 SCENE dedeedee_throne
-PLACE dedeedee center left angry
-PLACE waddle_dii midright left nervous
-ENTER kirbie left midleft happy
-DEDEEDEE (angry): Kirbie! Did you find my cake?
-KIRBIE (happy): Poyo!
-DEDEEDEE (excited): Where is it?
-KIRBIE (shy): Poyo...
-WADDLE_DII (scared): Your Majesty, I think he's still holding it. In his mouth.
-DEDEEDEE (angry): Spit it out!
+PLACE dedede center left angry
+PLACE waddle_dee midright left nervous
+ENTER kirby left midleft happy
+DEDEDE (angry): Kirby! Did you find my cake?
+KIRBY (happy): Poyo!
+DEDEDE (excited): Where is it?
+KIRBY (shy): Poyo...
+WADDLE_DEE (scared): Your Majesty, I think he's still holding it. In his mouth.
+DEDEDE (angry): Spit it out!
 SFX pop
-JUMP kirbie
-NARRATOR: Out comes the cake. Not a single crumb missing. Kirbie, it turns out, has excellent self-control.
+JUMP kirby
+NARRATOR: Out comes the cake. Not a single crumb missing. Kirby, it turns out, has excellent self-control.
 
 # ------------------------------------------------------------ VEGETABLE VALLEY
 MUSIC happy 2
 SCENE vegetable_valley
-PLACE adelaine midleft right happy
-ENTER ribbonn right midright excited
-RIBBONN (excited): Adelaine! Kirbie saved the cake! There's going to be a party after all!
-ADELAINE (excited): Then I'll paint it! A great big picture of everybody!
-RIBBONN (happy): Make sure Kirbie is in the middle. He's the hero.
-ADELAINE (smug): And the roundest. He's very easy to paint.
-ENTER kirbie left left happy
-KIRBIE (happy): Poyo!
+PLACE adeleine midleft right happy
+ENTER ribbon right midright excited
+RIBBON (excited): Adeleine! Kirby saved the cake! There's going to be a party after all!
+ADELEINE (excited): Then I'll paint it! A great big picture of everybody!
+RIBBON (happy): Make sure Kirby is in the middle. He's the hero.
+ADELEINE (smug): And the roundest. He's very easy to paint.
+ENTER kirby left left happy
+KIRBY (happy): Poyo!
 
 # ------------------------------------------------------------ ICE CREAM ISLAND
 MUSIC happy 3
 SCENE ice_cream_island
-PLACE dedeedee midright left happy
-PLACE kirbie center right happy
-PLACE waddle_dii right left happy
-PLACE adelaine left right happy
-PLACE ribbonn farleft right happy
-ADELAINE (happy): I painted a picture of the party! Everybody's in it!
-RIBBONN (excited): Even the cake!
-DEDEEDEE (happy): Fine, fine. Kirbie, you get the first slice. As a royal thank you.
-KIRBIE (excited): POYO!
+PLACE dedede midright left happy
+PLACE kirby center right happy
+PLACE waddle_dee right left happy
+PLACE adeleine left right happy
+PLACE ribbon farleft right happy
+ADELEINE (happy): I painted a picture of the party! Everybody's in it!
+RIBBON (excited): Even the cake!
+DEDEDE (happy): Fine, fine. Kirby, you get the first slice. As a royal thank you.
+KIRBY (excited): POYO!
 SFX chomp
-DEDEEDEE (scared): Not the whole thing!
-KIRBIE (happy): Poyo!
+DEDEDE (scared): Not the whole thing!
+KIRBY (happy): Poyo!
 END

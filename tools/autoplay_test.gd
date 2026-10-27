@@ -7,7 +7,7 @@ var out := "."
 func _ready() -> void:
 	out = OS.get_cmdline_user_args()[0]
 	for i in 2:
-		Library.save("zz_autoplay_test_%d" % i, "@title Autoplay Test %d\n@number %d\n\nSCENE green_greens cut\nPLACE kirbie center\nKIRBIE: Poyo!\nEND\n" % [i + 1, i + 1])
+		Library.save("zz_autoplay_test_%d" % i, "@title Autoplay Test %d\n@number %d\n\nSCENE green_greens cut\nPLACE kirby center\nKIRBY: Poyo!\nEND\n" % [i + 1, i + 1])
 	var main = load("res://scripts/main.gd").new()
 	add_child(main)
 	await _frames(8)

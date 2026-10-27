@@ -2,89 +2,89 @@
 @series Bikini Bottom
 @icon bubbles
 @number 5
-@description After a perfect day at Glove World, SpongeBert and Pat take the wrong bus home and end up in the deepest, darkest, weirdest place in the ocean: Rock Bottom.
+@description After a perfect day at Glove World, SpongeBob and Patrick take the wrong bus home and end up in the deepest, darkest, weirdest place in the ocean: Rock Bottom.
 
 # ------------------------------------------------------------ GLOVE WORLD
 MUSIC happy
 SCENE glove_world cut
 TITLE
-PLACE spongebert midleft right excited
-PLACE pat center left excited
-SPONGEBERT (excited): Best! Day! Ever! We rode the Glove-a-Coaster eleven times!
-PAT (happy): And I only threw up nine times!
-SPONGEBERT (happy): Come on, Pat, the last bus home leaves in one minute.
-PAT (smug): Which bus is ours?
-SPONGEBERT (nervous): The one that says Bikini Bottom! Or... was it the other one?
-RUN spongebert offright &
-RUN pat offright
+PLACE spongebob midleft right excited
+PLACE patrick center left excited
+SPONGEBOB (excited): Best! Day! Ever! We rode the Glove-a-Coaster eleven times!
+PATRICK (happy): And I only threw up nine times!
+SPONGEBOB (happy): Come on, Patrick, the last bus home leaves in one minute.
+PATRICK (smug): Which bus is ours?
+SPONGEBOB (nervous): The one that says Bikini Bottom! Or... was it the other one?
+RUN spongebob offright &
+RUN patrick offright
 
 # ------------------------------------------------------------ ROCK BOTTOM
 MUSIC spooky
 SCENE rock_bottom
-ENTER spongebert left midleft scared 200
-ENTER pat left left happy 200
-SPONGEBERT (scared): Pat, this isn't Bikini Bottom. This is Rock Bottom.
-PAT (happy): Ooh, it's dark! Like the inside of my rock!
-SPONGEBERT (nervous): Okay. Don't panic. We'll just catch the bus going back.
+ENTER spongebob left midleft scared 200
+ENTER patrick left left happy 200
+SPONGEBOB (scared): Patrick, this isn't Bikini Bottom. This is Rock Bottom.
+PATRICK (happy): Ooh, it's dark! Like the inside of my rock!
+SPONGEBOB (nervous): Okay. Don't panic. We'll just catch the bus going back.
 SFX whoosh
-SPONGEBERT (sad): And there it goes.
-PAT (excited): Let's catch the next one!
-SPONGEBERT (nervous): The sign says the next bus comes in... three hours.
+SPONGEBOB (sad): And there it goes.
+PATRICK (excited): Let's catch the next one!
+SPONGEBOB (nervous): The sign says the next bus comes in... three hours.
 
-# ------------------------------------------------------------ THE KRUSTY CRAB
+# ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC tense
 SCENE krusty_crab
-PLACE mr_crabs center left nervous
-PLACE squidwerd midright left smug
-MR_CRABS (nervous): Where's Mister SpongeBert? He's never been late a day in his life!
-SQUIDWERD (smug): Maybe he finally took a vacation. From me.
-MR_CRABS (scared): Who's going to make the Krabby Patties?
-SQUIDWERD (scared): Don't look at me.
-MR_CRABS (smug): I'm looking at you, Squidwerd.
-SQUIDWERD (sad): Of course you are.
+PLACE mr_krabs center left nervous
+PLACE squidward midright left smug
+MR_KRABS (nervous): Where's Mister SpongeBob? He's never been late a day in his life!
+SQUIDWARD (smug): Maybe he finally took a vacation. From me.
+MR_KRABS (scared): Who's going to make the Krabby Patties?
+SQUIDWARD (scared): Don't look at me.
+MR_KRABS (smug): I'm looking at you, Squidward.
+SQUIDWARD (sad): Of course you are.
 
 # ------------------------------------------------------------ ROCK BOTTOM
 MUSIC spooky 2
 SCENE rock_bottom
-PLACE spongebert midleft right nervous
-PLACE pat left right happy
-SPONGEBERT (nervous): Excuse me, sir? Do you know which bus goes to Bikini Bottom?
+PLACE spongebob midleft right nervous
+PLACE patrick left right happy
+SPONGEBOB (nervous): Excuse me, sir? Do you know which bus goes to Bikini Bottom?
 NARRATOR: A strange deep-sea fish answers. His words are only blowing raspberries.
-SPONGEBERT (surprised): I'm sorry, I didn't catch that.
-PAT (smug): He says take the number twelve. Then turn left at the glowing thing.
-SPONGEBERT (surprised): Pat, you understand him?
-PAT (happy): Nope. But I'm very confident.
+SPONGEBOB (surprised): I'm sorry, I didn't catch that.
+PATRICK (smug): He says take the number twelve. Then turn left at the glowing thing.
+SPONGEBOB (surprised): Patrick, you understand him?
+PATRICK (happy): Nope. But I'm very confident.
 
-# ------------------------------------------------------------ SPONGEBERT'S LIVING ROOM
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
 MUSIC sad 2
 SCENE sponge_living_room
 PLACE gary center left sad
 GARY (sad): Meow.
-NARRATOR: Gary waits by the door. Dinner time came and went. SpongeBert always feeds him at six.
+NARRATOR: Gary waits by the door. Dinner time came and went. SpongeBob always feeds him at six.
 GARY (sad): Meow meow.
 NARRATOR: It is now nine. Gary is very worried. And very hungry. Mostly worried.
 
 # ------------------------------------------------------------ ROCK BOTTOM
 MUSIC spooky 3
 SCENE rock_bottom
-PLACE spongebert center right nervous
-PLACE pat midleft right happy
-SPONGEBERT (nervous): Pat, the bus stop is on top of that cliff. We have to climb.
-PAT (happy): I'm a great climber!
-SPONGEBERT (surprised): Since when?
-PAT (smug): Since never. But I believe in myself.
+PLACE spongebob center right nervous
+PLACE patrick midleft right happy
+SPONGEBOB (nervous): Patrick, the bus stop is on top of that cliff. We have to climb.
+PATRICK (happy): I'm a great climber!
+SPONGEBOB (surprised): Since when?
+PATRICK (smug): Since never. But I believe in myself.
 SFX boing
-JUMP pat
-PAT (happy): I made it! One whole inch!
-SPONGEBERT (happy): Only a hundred feet to go.
+JUMP patrick
+PATRICK (happy): I made it! One whole inch!
+SPONGEBOB (happy): Only a hundred feet to go.
 
 # ------------------------------------------------------------ TREEDOME
 MUSIC jazz
 SCENE treedome
 PLACE sandy center left nervous
 ENTER mrs_puff right midright nervous
-MRS_PUFF (nervous): Sandy, have you seen SpongeBert? He wasn't at boating school.
-SANDY (nervous): Nope. And Pat's rock is empty too.
+MRS_PUFF (nervous): Sandy, have you seen SpongeBob? He wasn't at boating school.
+SANDY (nervous): Nope. And Patrick's rock is empty too.
 SANDY (excited): Wait a minute. They went to Glove World today! What if they took the wrong bus?
 MRS_PUFF (scared): The only other bus from Glove World goes to Rock Bottom!
 SANDY (excited): Then let's go get 'em! I'll drive my rocket!
@@ -96,7 +96,7 @@ SCENE boating_school
 PLACE mrs_puff midleft right nervous
 PLACE sandy center left excited
 SANDY (excited): Come on, Mrs. Puff! Fastest boat you got!
-MRS_PUFF (nervous): The fastest one is the one SpongeBert crashed. Twice.
+MRS_PUFF (nervous): The fastest one is the one SpongeBob crashed. Twice.
 SANDY (smug): Then the second fastest!
 MRS_PUFF (scared): That's the one he crashed three times!
 SANDY (excited): Perfect. It's had practice!
@@ -108,7 +108,7 @@ ENTER sandy left midleft excited 500
 ENTER mrs_puff left left nervous 500
 ENTER larry right midright happy
 LARRY (happy): Yo! Where's everyone running?
-SANDY (excited): Rock Bottom! SpongeBert and Pat are stuck!
+SANDY (excited): Rock Bottom! SpongeBob and Patrick are stuck!
 LARRY (excited): Rock Bottom? I lift there sometimes. The gravity's extra heavy. Follow me!
 
 # ------------------------------------------------------------ CHUM BUCKET
@@ -116,39 +116,39 @@ MUSIC sneaky
 SCENE chum_bucket
 PLACE plankton center left excited
 PLACE karen midright left neutral
-PLANKTON (excited): Karen! SpongeBert is lost in Rock Bottom! The Krusty Crab has no fry cook!
+PLANKTON (excited): Karen! SpongeBob is lost in Rock Bottom! The Krusty Krab has no fry cook!
 KAREN (smug): So?
 PLANKTON (excited): So Krabs is distracted! Tonight, the formula is mine!
-KAREN (neutral): Squidwerd is cooking. Nobody is buying anything. There's nothing to distract.
+KAREN (neutral): Squidward is cooking. Nobody is buying anything. There's nothing to distract.
 PLANKTON (sad): Oh. Then never mind.
 
 # ------------------------------------------------------------ ROCK BOTTOM
 MUSIC sad
 SCENE rock_bottom
-PLACE spongebert center right sad
-PLACE pat midleft right happy
-SPONGEBERT (sad): Pat, I don't think we'll ever get home. We'll live here forever. Eating rock soup.
-PAT (excited): I love rock soup!
-SPONGEBERT (sad): I'll miss Gary. And the Krusty Crab. And even Squidwerd.
-PAT (happy): Don't worry, SpongeBert. As long as we're together, it's not so bad.
-SPONGEBERT (happy): You're right, Pat. As long as we're together.
+PLACE spongebob center right sad
+PLACE patrick midleft right happy
+SPONGEBOB (sad): Patrick, I don't think we'll ever get home. We'll live here forever. Eating rock soup.
+PATRICK (excited): I love rock soup!
+SPONGEBOB (sad): I'll miss Gary. And the Krusty Krab. And even Squidward.
+PATRICK (happy): Don't worry, SpongeBob. As long as we're together, it's not so bad.
+SPONGEBOB (happy): You're right, Patrick. As long as we're together.
 SFX boing
 ENTER sandy left left excited 500
 ENTER larry left farleft happy 500
 SANDY (excited): Howdy, boys! Need a ride?
-SPONGEBERT (excited): Sandy! Larry! You came for us!
+SPONGEBOB (excited): Sandy! Larry! You came for us!
 
-# ------------------------------------------------------------ THE KRUSTY CRAB
+# ------------------------------------------------------------ THE KRUSTY KRAB
 MUSIC happy 2
 SCENE krusty_crab
-PLACE mr_crabs center left happy
-PLACE squidwerd midright left sad
-ENTER spongebert left midleft excited
-ENTER pat left left happy
-SPONGEBERT (excited): Mister Crabs! I'm back! Sorry I'm late!
-MR_CRABS (happy): Me boy! Where were ye?
-SPONGEBERT (happy): Rock Bottom! I learned a very important lesson. Always check the bus.
-SQUIDWERD (sad): I made forty Krabby Patties today. I'm going to lie down forever.
-PAT (excited): Can I have one?
-SQUIDWERD (angry): NO!
+PLACE mr_krabs center left happy
+PLACE squidward midright left sad
+ENTER spongebob left midleft excited
+ENTER patrick left left happy
+SPONGEBOB (excited): Mister Krabs! I'm back! Sorry I'm late!
+MR_KRABS (happy): Me boy! Where were ye?
+SPONGEBOB (happy): Rock Bottom! I learned a very important lesson. Always check the bus.
+SQUIDWARD (sad): I made forty Krabby Patties today. I'm going to lie down forever.
+PATRICK (excited): Can I have one?
+SQUIDWARD (angry): NO!
 END

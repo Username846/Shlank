@@ -2,173 +2,173 @@
 @series Attack on Titan
 @icon wings
 @number 5
-@description Commander Irwin finally approves an expedition to the ocean. Armen has waited his whole life for this. Everyone else just wants to know if there will be snacks.
+@description Commander Erwin finally approves an expedition to the ocean. Armin has waited his whole life for this. Everyone else just wants to know if there will be snacks.
 
 # ------------------------------------------------------------ SCOUT HQ
 MUSIC tense
 SCENE scout_hq cut
 TITLE
-PLACE irwin center left neutral
-PLACE armen midleft right nervous
-PLACE erren left right excited
-PLACE mikasah midright left neutral
-IRWIN: Scouts. Our next expedition will travel farther than any before.
-ERREN (excited): To fight Titans?
-IRWIN (smug): To the ocean.
-ARMEN (surprised): The ocean? Really?
-IRWIN (happy): Armen's maps showed the way. We leave tomorrow.
-ARMEN (excited): Erren! Mikasah! We're going to the ocean!
-MIKASAH (happy): We know, Armen. We're standing right here.
+PLACE erwin center left neutral
+PLACE armin midleft right nervous
+PLACE eren left right excited
+PLACE mikasa midright left neutral
+ERWIN: Scouts. Our next expedition will travel farther than any before.
+EREN (excited): To fight Titans?
+ERWIN (smug): To the ocean.
+ARMIN (surprised): The ocean? Really?
+ERWIN (happy): Armin's maps showed the way. We leave tomorrow.
+ARMIN (excited): Eren! Mikasa! We're going to the ocean!
+MIKASA (happy): We know, Armin. We're standing right here.
 
 # ------------------------------------------------------------ MESS HALL
 MUSIC happy
 SCENE mess_hall
-PLACE sascha center left excited
-PLACE konny midright left nervous
-SASCHA (excited): The ocean! I heard it's full of fish! Fish are basically sea potatoes!
-KONNY (nervous): Is the ocean scary? Is it deep?
-SASCHA (smug): It's very deep. Like a bathtub that never ends.
-KONNY (scared): I don't like baths.
-SASCHA (happy): Then don't go in. Just look at it. And eat the sea potatoes.
+PLACE sasha center left excited
+PLACE connie_springer midright left nervous
+SASHA (excited): The ocean! I heard it's full of fish! Fish are basically sea potatoes!
+CONNIE_SPRINGER (nervous): Is the ocean scary? Is it deep?
+SASHA (smug): It's very deep. Like a bathtub that never ends.
+CONNIE_SPRINGER (scared): I don't like baths.
+SASHA (happy): Then don't go in. Just look at it. And eat the sea potatoes.
 
 # ------------------------------------------------------------ STABLES
 MUSIC jazz
 SCENE stables
-PLACE jeen center left smug
-PLACE rayner midright left happy
-JEEN (smug): The ocean. Big deal. It's just water. A lot of water.
-RAYNER (happy): Jeen, you packed three swimsuits.
-JEEN (nervous): In case two get wet.
-RAYNER (smug): You're excited.
-JEEN (shy): ...A little.
+PLACE jean center left smug
+PLACE reiner midright left happy
+JEAN (smug): The ocean. Big deal. It's just water. A lot of water.
+REINER (happy): Jean, you packed three swimsuits.
+JEAN (nervous): In case two get wet.
+REINER (smug): You're excited.
+JEAN (shy): ...A little.
 
 # ------------------------------------------------------------ WALL GATE
 MUSIC action
 SCENE wall_gate
 CARD Dawn...
-PLACE irwin center left neutral
-PLACE levee midright left smug
-PLACE hanjee right left excited
-IRWIN: Is everyone ready?
-LEVEE (smug): Ready. I packed a broom. The beach will be sandy.
-HANJEE (excited): I packed jars! For collecting sea creatures! And one big jar for Pete!
-IRWIN (surprised): Pete is coming?
-HANJEE (happy): He's never seen the ocean either!
-LEVEE (sad): Of course he is.
+PLACE erwin center left neutral
+PLACE levi midright left smug
+PLACE hange right left excited
+ERWIN: Is everyone ready?
+LEVI (smug): Ready. I packed a broom. The beach will be sandy.
+HANGE (excited): I packed jars! For collecting sea creatures! And one big jar for Pete!
+ERWIN (surprised): Pete is coming?
+HANGE (happy): He's never seen the ocean either!
+LEVI (sad): Of course he is.
 
 # ------------------------------------------------------------ TITAN PLAINS
 MUSIC happy 2
 SCENE titan_plains
-PLACE grinning_titan center left happy
-ENTER armen left midleft excited 400
-ENTER erren left left excited 400
-ENTER hanjee left farleft happy 400
-GRINNING_TITAN (excited): Po-ta-to!
-ARMEN (happy): Good morning, Pete! Want to see the ocean with us?
-GRINNING_TITAN (happy): Hehehe!
-ERREN (smug): I can't believe we're going on vacation with a Titan.
-HANJEE (excited): It's not a vacation! It's science!
-ERREN (happy): Science with a beach.
+PLACE smiling_titan center left happy
+ENTER armin left midleft excited 400
+ENTER eren left left excited 400
+ENTER hange left farleft happy 400
+SMILING_TITAN (excited): Po-ta-to!
+ARMIN (happy): Good morning, Pete! Want to see the ocean with us?
+SMILING_TITAN (happy): Hehehe!
+EREN (smug): I can't believe we're going on vacation with a Titan.
+HANGE (excited): It's not a vacation! It's science!
+EREN (happy): Science with a beach.
 
 # ------------------------------------------------------------ FOREST OF GIANT TREES
 MUSIC sneaky
 SCENE giant_forest
-ENTER armen left midleft nervous 300
-ENTER mikasah left left neutral 300
-ARMEN (nervous): Mikasah, what if the ocean isn't like the books? What if it's just a big puddle?
-MIKASAH: Then it's a big puddle. And we'll see it together.
-ARMEN (happy): You always know what to say.
-MIKASAH (shy): I just say what's true.
-ARMEN (excited): Then tell me it's going to be amazing.
-MIKASAH (happy): It's going to be amazing.
+ENTER armin left midleft nervous 300
+ENTER mikasa left left neutral 300
+ARMIN (nervous): Mikasa, what if the ocean isn't like the books? What if it's just a big puddle?
+MIKASA: Then it's a big puddle. And we'll see it together.
+ARMIN (happy): You always know what to say.
+MIKASA (shy): I just say what's true.
+ARMIN (excited): Then tell me it's going to be amazing.
+MIKASA (happy): It's going to be amazing.
 
 # ------------------------------------------------------------ TROST DISTRICT
 MUSIC happy 2
 SCENE trost_district
-PLACE jeen center left nervous
-PLACE konny midright left excited
-KONNY (excited): Jeen! Jeen! I learned to swim! Well, I read about swimming.
-JEEN (nervous): Reading isn't swimming, Konny.
-KONNY (smug): It's the first step. Step two is "get wet."
-JEEN (smug): And step three?
-KONNY (nervous): The book didn't have a step three.
+PLACE jean center left nervous
+PLACE connie_springer midright left excited
+CONNIE_SPRINGER (excited): Jean! Jean! I learned to swim! Well, I read about swimming.
+JEAN (nervous): Reading isn't swimming, Connie.
+CONNIE_SPRINGER (smug): It's the first step. Step two is "get wet."
+JEAN (smug): And step three?
+CONNIE_SPRINGER (nervous): The book didn't have a step three.
 
 # ------------------------------------------------------------ OLD CASTLE
 MUSIC spooky
 SCENE old_castle
 CARD That night...
-PLACE erren midleft right nervous
-PLACE konny center left scared
-PLACE sascha midright left happy
-KONNY (scared): This castle is creepy. What if there are ghosts?
-ERREN (smug): Ghosts aren't real, Konny.
-KONNY (scared): Titans are real! Why not ghosts?
+PLACE eren midleft right nervous
+PLACE connie_springer center left scared
+PLACE sasha midright left happy
+CONNIE_SPRINGER (scared): This castle is creepy. What if there are ghosts?
+EREN (smug): Ghosts aren't real, Connie.
+CONNIE_SPRINGER (scared): Titans are real! Why not ghosts?
 SFX squeak
-SASCHA (happy): Sorry! That was me. I found the castle's old pantry!
-ERREN (surprised): Sascha, it's been abandoned for a hundred years.
-SASCHA (excited): Hundred-year-old crackers!
+SASHA (happy): Sorry! That was me. I found the castle's old pantry!
+EREN (surprised): Sasha, it's been abandoned for a hundred years.
+SASHA (excited): Hundred-year-old crackers!
 
 # ------------------------------------------------------------ UNDERGROUND CITY
 MUSIC sneaky 2
 SCENE underground_city
-PLACE levee center left neutral
-PLACE irwin midright left neutral
-IRWIN: You grew up down here, didn't you, Levee?
-LEVEE (neutral): A long time ago.
-IRWIN (smug): And now you're going to see the ocean.
-LEVEE (shy): Don't tell the others. But I've wanted to see it since I was a kid.
-IRWIN (happy): Your secret is safe with me.
-LEVEE (angry): It better be.
+PLACE levi center left neutral
+PLACE erwin midright left neutral
+ERWIN: You grew up down here, didn't you, Levi?
+LEVI (neutral): A long time ago.
+ERWIN (smug): And now you're going to see the ocean.
+LEVI (shy): Don't tell the others. But I've wanted to see it since I was a kid.
+ERWIN (happy): Your secret is safe with me.
+LEVI (angry): It better be.
 
 # ------------------------------------------------------------ THE OCEAN
 MUSIC romantic
 SCENE the_ocean
-ENTER armen left midleft surprised 200
-ENTER erren left left surprised 200
-ENTER mikasah left farleft surprised 200
-ARMEN (surprised): It's... it's real.
-ERREN (surprised): It goes on forever.
-MIKASAH (happy): It's beautiful.
-ARMEN (excited): It's even bigger than in the books! And it's moving! And it's blue!
-ERREN (happy): You were right, Armen. All those years. You were right.
-ARMEN (shy): We made it, Erren. We actually made it.
+ENTER armin left midleft surprised 200
+ENTER eren left left surprised 200
+ENTER mikasa left farleft surprised 200
+ARMIN (surprised): It's... it's real.
+EREN (surprised): It goes on forever.
+MIKASA (happy): It's beautiful.
+ARMIN (excited): It's even bigger than in the books! And it's moving! And it's blue!
+EREN (happy): You were right, Armin. All those years. You were right.
+ARMIN (shy): We made it, Eren. We actually made it.
 
 # ------------------------------------------------------------ THE OCEAN
 MUSIC happy 3
 SCENE the_ocean
-PLACE sascha midleft right excited
-PLACE konny center left nervous
-PLACE jeen left right excited
-PLACE rayner midright left happy
-SASCHA (excited): The water is salty! Like soup!
-KONNY (nervous): It touched my feet! It's cold! It's alive!
-JEEN (excited): Last one in is a Titan!
+PLACE sasha midleft right excited
+PLACE connie_springer center left nervous
+PLACE jean left right excited
+PLACE reiner midright left happy
+SASHA (excited): The water is salty! Like soup!
+CONNIE_SPRINGER (nervous): It touched my feet! It's cold! It's alive!
+JEAN (excited): Last one in is a Titan!
 SFX splat
-RAYNER (happy): Jeen! Your three swimsuits are still in the bag!
-JEEN (nervous): I'm in my uniform! Everything's wet!
+REINER (happy): Jean! Your three swimsuits are still in the bag!
+JEAN (nervous): I'm in my uniform! Everything's wet!
 
 # ------------------------------------------------------------ THE OCEAN
 MUSIC happy
 SCENE the_ocean
-PLACE grinning_titan center left happy
-PLACE hanjee midleft right excited
-PLACE levee midright left happy
-HANJEE (excited): Pete is in the water! He's floating! Titans can float!
-GRINNING_TITAN (excited): Hehehe! Po-ta-to!
-LEVEE (happy): Look at him. He looks clean for once.
-HANJEE (smug): Levee, are you smiling?
-LEVEE (shy): It's the sun. It's in my eyes.
-HANJEE (happy): Sure it is.
+PLACE smiling_titan center left happy
+PLACE hange midleft right excited
+PLACE levi midright left happy
+HANGE (excited): Pete is in the water! He's floating! Titans can float!
+SMILING_TITAN (excited): Hehehe! Po-ta-to!
+LEVI (happy): Look at him. He looks clean for once.
+HANGE (smug): Levi, are you smiling?
+LEVI (shy): It's the sun. It's in my eyes.
+HANGE (happy): Sure it is.
 
 # ------------------------------------------------------------ THE OCEAN
 MUSIC romantic 2
 SCENE the_ocean
-PLACE armen center left happy
-PLACE erren midleft right happy
-PLACE mikasah left right happy
-PLACE irwin midright left happy
-IRWIN (happy): Scouts. Today, we didn't fight. We just saw something beautiful.
-ARMEN (happy): I think that's what we were fighting for all along.
-ERREN (happy): Same time next year?
-MIKASAH (smug): Every year.
+PLACE armin center left happy
+PLACE eren midleft right happy
+PLACE mikasa left right happy
+PLACE erwin midright left happy
+ERWIN (happy): Scouts. Today, we didn't fight. We just saw something beautiful.
+ARMIN (happy): I think that's what we were fighting for all along.
+EREN (happy): Same time next year?
+MIKASA (smug): Every year.
 END
