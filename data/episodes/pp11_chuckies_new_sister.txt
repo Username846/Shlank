@@ -1,0 +1,169 @@
+@title Chuckie's New Sister
+@series Rugrats
+@season 2
+@icon bottle
+@number 1
+@description Chuckie's dad has married Kira, and now Chuckie has a brand new sister named Kimi. She's brave, she's bouncy and she wants to do everything Chuckie is scared of. Angelica says new sisters always take your toys.
+
+# ------------------------------------------------------------ FINSTER HOUSE
+MUSIC happy
+SCENE finster_house cut
+TITLE
+PLACE chas center left excited
+PLACE kira midright left happy
+PLACE chuckie midleft right nervous
+CHAS (excited): Chuckie, son, today's the day! Kira and Kimi are moving in for good!
+KIRA (happy): Kimi can't wait to play with her big brother.
+CHUCKIE (nervous): A sister. A real live sister. In my house.
+CHAS (happy): Isn't it wonderful? We're a family now. A big, happy family.
+CHUCKIE (scared): What if she doesn't like me?
+KIRA (happy): It's okay, Chuckie. She already does.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC jazz
+SCENE the_playpen
+PLACE tommy center right happy
+PLACE phil midleft right excited
+PLACE lil right left excited
+PLACE chuckie midright left nervous
+TOMMY (happy): Chuckie! I heard you got a new sister! That's great!
+CHUCKIE (nervous): Is it great, Tommy? I never had a sister before.
+PHIL (excited): Sisters are okay. I got one. She eats worms with me.
+LIL (smug): I eat MORE worms than you, Phillip.
+PHIL (angry): Do not!
+LIL (angry): Do too!
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC sneaky
+SCENE the_playpen
+PLACE angelica center left smug
+PLACE chuckie midright left scared
+ANGELICA (smug): A new sister, huh, Finster? You know what new sisters do, don't you?
+CHUCKIE (scared): W-what do they do, Angelica?
+ANGELICA (smug): First they take your toys. Then they take your bed. Then they take your daddy.
+CHUCKIE (scared): My daddy?!
+ANGELICA (happy): And then you have to go live in the garbage can. With the raccoons.
+CHUCKIE (scared): I don't wanna live with the raccoons!
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC jazz 2
+SCENE pickles_kitchen
+PLACE didi center left happy
+PLACE kira midright left nervous
+DIDI (happy): Kira, welcome to the neighborhood. How are the kids getting along?
+KIRA (nervous): Kimi is so excited. But I think Chuckie is a little scared.
+DIDI (smug): According to Dr. Lipschitz, new siblings need time to adjust.
+KIRA (happy): Chas read me that same chapter. Three times. Last night.
+DIDI (happy): That sounds like Chas.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC happy
+SCENE the_playpen
+ENTER kimi right midright excited
+PLACE chuckie center right nervous
+PLACE tommy midleft right happy
+KIMI (excited): Hi! I'm Kimi! Are you my brother? You have funny hair! Cool!
+CHUCKIE (nervous): H-hi, Kimi. I'm Chuckie. Please don't take my daddy.
+KIMI (surprised): Why would I take your daddy? I got my own mommy! Now we can share!
+TOMMY (happy): See, Chuckie? She's nice.
+KIMI (excited): Wanna climb out of the playpen? Wanna climb the bookshelf? Wanna climb the curtains?
+CHUCKIE (scared): I don't wanna climb anything ever!
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC action
+SCENE sandbox
+PLACE kimi center left excited
+PLACE chuckie midright left scared
+PLACE spike right left happy
+KIMI (excited): Look, Chuckie! A big doggy! Let's ride him!
+CHUCKIE (scared): Ride Spike? He's a dog, not a horsey!
+SFX boing
+KIMI (excited): Giddy-up, doggy! Cool!
+SPIKE (happy): Woof!
+CHUCKIE (nervous): Kimi, be careful! You could fall in the sandbox and get sand in your diaper!
+KIMI (happy): I already got sand in my diaper! It's itchy! Cool!
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC jazz
+SCENE stu_basement
+PLACE stu center left excited
+PLACE chas midright left nervous
+STU (excited): Chas, buddy! I made a welcome present for Kimi! The Reptar Bounce-O-Matic 3000!
+CHAS (nervous): Stu, is it... safe?
+STU (smug): It's only exploded twice. And both times, it was mostly a small explosion.
+CHAS (scared): Mostly?
+STU (happy): Relax, Chas! What could go wrong?
+SFX blast
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC sad
+SCENE the_playpen
+PLACE chuckie center right sad
+PLACE tommy midleft right nervous
+CHUCKIE (sad): Tommy, Kimi isn't scared of anything. Not dogs, not sand, not curtains.
+TOMMY (nervous): That's okay, Chuckie. You're not scared of... um...
+CHUCKIE (sad): See? You can't even think of something.
+TOMMY (happy): You're not scared of being her friend. That's the biggest thing.
+CHUCKIE (shy): I guess that's kind of brave.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC sneaky 2
+SCENE pickles_living_room
+PLACE angelica center left smug
+PLACE kimi midright left excited
+ANGELICA (smug): Hey, new baby. Want a cookie? It's in the scary dark closet.
+KIMI (excited): A dark closet? Cool!
+ANGELICA (surprised): Wait. You're not scared?
+KIMI (excited): Nope! I'm gonna go get the cookie!
+ANGELICA (nervous): But... there's a monster in there! With big teeth!
+KIMI (excited): A monster with a cookie? That's the best kind!
+
+# ------------------------------------------------------------ PICKLES ATTIC
+MUSIC spooky
+SCENE pickles_attic
+PLACE kimi center right nervous
+NARRATOR: The closet wasn't a closet. It was the stairs to the attic. And the door closed behind Kimi with a click.
+SFX door
+KIMI (nervous): Um. It's really dark up here.
+KIMI (scared): Chuckie? Tommy? Anybody?
+KIMI (sad): Maybe I'm a little scared of the dark.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC tense
+SCENE pickles_living_room
+PLACE chuckie center right nervous
+PLACE tommy midleft right nervous
+PLACE angelica midright left nervous
+TOMMY (nervous): Where's Kimi? She was just here.
+ANGELICA (nervous): I didn't do anything! She went in the attic all by herself! For a cookie!
+CHUCKIE (scared): The attic? The attic is the scariest place in the whole house!
+TOMMY (happy): Then we gotta go get her, Chuckie.
+CHUCKIE (nervous): ...She's my sister. I'm going first.
+
+# ------------------------------------------------------------ PICKLES ATTIC
+MUSIC romantic
+SCENE pickles_attic
+PLACE chuckie center right nervous
+PLACE kimi midright left sad
+PLACE tommy midleft right happy
+CHUCKIE (nervous): Kimi? It's me. Your brother. I'm here. I'm only a little scared.
+KIMI (sad): Chuckie! You came!
+CHUCKIE (happy): Here. Hold my hand. I know the way out. I've been scared up here lots of times.
+KIMI (happy): You're really brave, Chuckie.
+CHUCKIE (shy): I am?
+TOMMY (smug): The bravest.
+
+# ------------------------------------------------------------ FINSTER HOUSE
+MUSIC romantic 2
+SCENE finster_house
+CARD That night...
+PLACE chuckie center right happy
+PLACE kimi midleft right happy
+PLACE chas midright left happy
+PLACE kira right left happy
+CHAS (happy): Look at them, Kira. Holding hands.
+KIRA (happy): I think they'll be just fine.
+KIMI (happy): Chuckie, can we climb the curtains tomorrow?
+CHUCKIE (nervous): ...Maybe just the short curtains.
+KIMI (excited): Cool!
+END

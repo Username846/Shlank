@@ -1,0 +1,173 @@
+@title Under the Big Top
+@series Rugrats
+@season 2
+@icon bottle
+@number 8
+@description The circus is in town! Kimi wants to be a trapeze artist. Chuckie is terrified of clowns. Angelica tells everyone that clowns steal babies' noses. Chas just wants everybody to wear a helmet.
+
+# ------------------------------------------------------------ FINSTER HOUSE
+MUSIC happy
+SCENE finster_house cut
+TITLE
+PLACE chas center left nervous
+PLACE kira midright left happy
+CHAS (nervous): The circus, Kira? With lions? And tightropes? And cannons?
+KIRA (happy): The kids will love it, Chas. Kimi has been talking about it all week.
+CHAS (nervous): I'm bringing helmets. And knee pads. And a first aid kit.
+KIRA (smug): For the circus? We're watching, not performing.
+CHAS (nervous): You never know, Kira. You never know.
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC jazz
+SCENE the_circus
+PLACE kimi center left excited
+PLACE chuckie midright left nervous
+PLACE tommy midleft right excited
+KIMI (excited): Chuckie! Look! People flying on swings! Up by the ceiling!
+CHUCKIE (nervous): Why would anybody wanna fly on a swing? Swings are supposed to stay near the ground.
+TOMMY (excited): And look! An elephant! He's as big as a house!
+KIMI (excited): I wanna ride the elephant! Cool!
+CHUCKIE (scared): Kimi, you're gonna give me the hiccups.
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC sneaky
+SCENE the_circus
+PLACE angelica center left smug
+PLACE chuckie midright left nervous
+ANGELICA (smug): You know what clowns do, Finster?
+CHUCKIE (nervous): Make people laugh?
+ANGELICA (smug): Nope. They steal babies' noses. That's why they have those big red ones. They're made of baby noses.
+CHUCKIE (scared): AAAH!
+ANGELICA (happy): Heh heh heh. Hold on to your nose, Finster.
+CHUCKIE (scared): I'm holding it! I'm holding it with both hands!
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC jazz 2
+SCENE the_circus
+PLACE stu center left excited
+PLACE chas midright left nervous
+STU (excited): Chas! Cotton candy! It's like eating a pink cloud!
+CHAS (nervous): Stu, do you know how much sugar is in that?
+STU (smug): Enough to fly on the trapeze myself!
+CHAS (scared): Please don't, Stu.
+STU (happy): Relax. I'm just gonna eat it. Probably.
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC action
+SCENE the_circus
+CARD The show begins...
+PLACE kimi center left excited
+PLACE tommy midright left excited
+SFX drumroll
+NARRATOR: Ladies and gentlemen! Boys and girls! On the high trapeze, the Flying Fantastico Family!
+KIMI (excited): Look, Tommy! They're flipping! In the air!
+TOMMY (excited): And catching each other! Wow!
+SFX whoosh
+KIMI (excited): When I grow up, I'm gonna fly on the trapeze! Every day!
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC spooky
+SCENE the_circus
+PLACE chuckie center right scared
+PLACE phil midleft right nervous
+PLACE lil midright left nervous
+SFX squeak
+CHUCKIE (scared): Here come the clowns! Everybody hold your noses!
+PHIL (nervous): Lillian, hold my nose. I'll hold yours.
+LIL (nervous): That way they can't steal 'em.
+CHUCKIE (scared): They're coming this way! They're getting out of a tiny car! Twenty of them!
+PHIL (surprised): How did they all fit in there?
+LIL (scared): They're magic noseless clowns!
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC jazz
+SCENE the_circus
+PLACE betty center left excited
+PLACE howard midright left nervous
+BETTY (excited): Look at those clowns go! Twenty of 'em out of one tiny car! Howie, we should get a car like that!
+HOWARD (nervous): Betty, we have two children. Not twenty.
+BETTY (smug): Room to grow, Howie!
+HOWARD (scared): Please don't say that.
+SFX squeak
+BETTY (happy): Ha! One of them just honked at me! I'm honking back!
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC sneaky 2
+SCENE the_circus
+PLACE kimi center left excited
+PLACE tommy midright left nervous
+KIMI (excited): Tommy, I'm gonna climb up to the trapeze. Right now.
+TOMMY (nervous): Kimi, the ladder is really, really tall.
+KIMI (smug): I climbed the curtains at home. This is just a big curtain.
+TOMMY (nervous): That's not how curtains work, Kimi.
+KIMI (excited): Cool! Here I go!
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC tense
+SCENE the_circus
+PLACE chuckie center right scared
+PLACE tommy midleft right scared
+TOMMY (scared): Chuckie! Kimi's climbing the trapeze ladder!
+CHUCKIE (scared): She's what?!
+TOMMY (scared): She's already halfway up! We gotta get her down!
+CHUCKIE (scared): But to get to the ladder, I gotta go past the clowns!
+TOMMY (nervous): ...I know, Chuckie.
+CHUCKIE (nervous): ...Okay. For Kimi.
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC action 2
+SCENE the_circus
+PLACE chuckie center right scared
+SFX boing
+NARRATOR: Chuckie ran. He ran past the elephant. He ran past the lion. He ran right through the line of clowns, holding his nose the whole time.
+CHUCKIE (scared): Please don't take my nose! Please don't take my nose!
+NARRATOR: One clown honked his horn. Another one gave Chuckie a balloon. Nobody took his nose.
+CHUCKIE (surprised): ...They gave me a balloon.
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC tense
+SCENE the_circus
+PLACE kimi center left scared
+PLACE chuckie midright left nervous
+KIMI (scared): Chuckie! I'm stuck! I climbed up, but I can't climb down!
+CHUCKIE (nervous): Kimi, it's okay! Just come down one step at a time! Like on the stairs at home!
+KIMI (scared): I'm scared, Chuckie!
+CHUCKIE (happy): Me too! But you can be scared and still do it! I just ran past twenty clowns!
+KIMI (nervous): ...One step at a time?
+CHUCKIE (smug): One step at a time.
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC happy
+SCENE the_circus
+PLACE kimi center left happy
+PLACE chuckie midright left happy
+PLACE chas right left scared
+SFX ding
+KIMI (happy): I did it! I'm down! Chuckie, you helped me!
+CHAS (scared): Kimi! Chuckie! You were on the ladder?! Where are your helmets?!
+CHUCKIE (smug): I think we're okay, Dad.
+CHAS (nervous): Okay is not enough, Chuckie! Helmets! Both of you! Right now!
+KIMI (happy): Cool! Helmets!
+
+# ------------------------------------------------------------ THE CIRCUS
+MUSIC jazz
+SCENE the_circus
+PLACE angelica center left surprised
+PLACE chuckie midleft right smug
+ANGELICA (surprised): Finster! You walked through the clowns? And you still have your nose?
+CHUCKIE (smug): They didn't want my nose, Angelica. They gave me a balloon.
+ANGELICA (angry): A balloon?! I want a balloon!
+CHUCKIE (smug): Then you have to walk past the clowns.
+ANGELICA (nervous): ...Never mind.
+
+# ------------------------------------------------------------ FINSTER HOUSE
+MUSIC romantic
+SCENE finster_house
+CARD That night...
+PLACE kimi center left happy
+PLACE chuckie midright left happy
+KIMI (happy): Chuckie. You're the bravest brother ever.
+CHUCKIE (shy): I'm just a regular brother, Kimi.
+KIMI (smug): A regular brother who ran through twenty clowns.
+CHUCKIE (happy): ...Twenty-one. One was hiding behind the elephant.
+END

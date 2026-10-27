@@ -78,10 +78,51 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "teen", "skin": Color("e8c8a0"), "top": Color("8a6a4a"), "sleeves": "long", "bottom_col": Color("3d4a5a"),
 				"shoe": Color("2b2b33"), "hair": "fringe", "hair_col": Color("3a2416"), "head_shape": "long", "head": Vector2(28, 38),
 				"base_lid": 0.4}
+		# Rugrats
+		"betty":
+			return {"size": "adult", "top": Color("9b5fd0"), "sleeves": "short", "bottom": "shorts", "bottom_col": Color("4a78d0"),
+				"legs": Puppet.SKIN, "sock": Color.WHITE, "shoe": Color.WHITE, "hair": "ponytail", "hair_col": Color("8a4a2a"),
+				"torso_w": 38.0, "belly": 6.0, "brow_w": 6.0, "extra": _x_whistle}
+		"howard":
+			return {"size": "adult", "top": Color("e8a0c8"), "sleeves": "short", "bottom_col": Color("c8a86a"), "shoe": Color("6b4428"),
+				"hair": "fringe", "hair_col": Color("8a5a36"), "hairline": 0.3, "glasses": true, "torso_w": 28.0, "belly": 10.0,
+				"head": Vector2(34, 34), "head_shape": "wide"}
+		"chas":
+			return {"size": "adult", "top": Color("f4f4f2"), "sleeves": "long", "bottom_col": Color("6a7a5a"), "shoe": Color("6b4428"),
+				"hair": "fringe", "hair_col": Color("e5642a"), "glasses": true, "eye": Vector2(9, 11), "torso_w": 23.0, "arm_w": 7.0,
+				"head_shape": "long", "head": Vector2(28, 40), "torso_extra": _x_sweater_vest.bind(Color("5aa84a"))}
+		"drew":
+			return {"size": "adult", "top": Color("4a5a8a"), "sleeves": "long", "bottom_col": Color("4a5a8a"), "shoe": Color("2b2b33"),
+				"hair": "slick", "hair_col": Color("6b4428"), "nose": "big", "torso_w": 31.0, "torso_extra": CastExtra._x_suit}
+		"charlotte":
+			return {"size": "adult", "top": Color("7a3fa0"), "sleeves": "long", "bottom": "skirt", "bottom_col": Color("7a3fa0"),
+				"legs": Puppet.SKIN, "shoe": Color("2b2b33"), "hair": "bob", "hair_col": Color("f4d24e"), "lashes": 2, "torso_w": 27.0,
+				"base_lid": 0.2, "extra": _x_phone}
+		"kira":
+			return {"size": "adult", "skin": Color("f2d2b0"), "top": Color("e6452f"), "sleeves": "long", "bottom_col": Color("2b2b33"),
+				"shoe": Color("2b2b33"), "hair": "long", "hair_col": Color("1d1d22"), "lashes": 2, "torso_w": 27.0,
+				"extra": CastExtra._x_earrings}
+		"kimi":
+			return {"size": "baby", "skin": Color("f2d2b0"), "top": Color("9b5fd0"), "bottom": "shorts", "bottom_col": Color("6fbf6a"),
+				"shoe": Color("f28cb8"), "hair": "pigtails", "hair_col": Color("8a2a3a"), "lashes": 2, "eye": Vector2(8, 10)}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_whistle(p: Puppet, hc: Vector2) -> void:
+	Art.stroke(p.ci, Art.curve(hc + Vector2(-16, 34), hc + Vector2(0, 66), hc + Vector2(16, 34), 8), 2.5, Color("f4f4f2"))
+	Art.shape(p.ci, Art.rrect(Rect2(hc + Vector2(-6, 62), Vector2(14, 10)), 3), Color("c0c4cc"), 2.0)
+
+
+static func _x_phone(p: Puppet, hc: Vector2) -> void:
+	Art.shape(p.ci, Art.rrect(Rect2(hc + Vector2(30, -6), Vector2(12, 34)), 3), Color("2b2b33"), 2.0)
+	Art.stroke(p.ci, PackedVector2Array([hc + Vector2(36, -6), hc + Vector2(36, -22)]), 2.5)
+
+
+static func _x_sweater_vest(p: Puppet, col: Color) -> void:
+	Art.shape(p.ci, PackedVector2Array([Vector2(-23, -190), Vector2(-6, -190), Vector2(0, -160), Vector2(6, -190),
+		Vector2(23, -190), Vector2(23, -112), Vector2(-23, -112)]), col, 3.0, 0.1)
 
 static func _x_hero_belt(p: Puppet, belt: Color, buckle: Color) -> void:
 	Art.shape(p.ci, Art.rrect(Rect2(-32, -118, 64, 14), 4), belt, 3.0)

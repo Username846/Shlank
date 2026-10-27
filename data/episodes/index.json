@@ -211,6 +211,36 @@
 			"file": "res://data/episodes/pp10_duck_pond_voyage.txt"
 		},
 		{
+			"file": "res://data/episodes/pp11_chuckies_new_sister.txt"
+		},
+		{
+			"file": "res://data/episodes/pp12_the_sandbox.txt"
+		},
+		{
+			"file": "res://data/episodes/pp13_angelicas_house.txt"
+		},
+		{
+			"file": "res://data/episodes/pp14_worm_day.txt"
+		},
+		{
+			"file": "res://data/episodes/pp15_zoo_day.txt"
+		},
+		{
+			"file": "res://data/episodes/pp16_beach_day.txt"
+		},
+		{
+			"file": "res://data/episodes/pp17_the_airport.txt"
+		},
+		{
+			"file": "res://data/episodes/pp18_the_circus.txt"
+		},
+		{
+			"file": "res://data/episodes/pp19_the_dentist.txt"
+		},
+		{
+			"file": "res://data/episodes/pp20_reptar_on_ice.txt"
+		},
+		{
 			"file": "res://data/episodes/tr01_golden_poke_ball.txt",
 			"aka": [
 				"tr01_golden_snack_ball"

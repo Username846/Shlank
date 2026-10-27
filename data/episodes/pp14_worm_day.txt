@@ -1,0 +1,177 @@
+@title Worm Day
+@series Rugrats
+@season 2
+@icon bottle
+@number 4
+@description The babies spend the day at the DeVille house, where Betty is training for a marathon and Howard is making a very careful soufflé. Phil and Lil want to find the biggest worm in the world. The backyard is very, very muddy.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC happy
+SCENE deville_house cut
+TITLE
+PLACE betty center left excited
+PLACE didi midright left happy
+BETTY (excited): Hiya, Deed! Thanks for dropping off the pups! I'm training for the big marathon!
+DIDI (happy): Betty, that's wonderful. How far is it?
+BETTY (smug): Twenty-six miles. I'm gonna run it in a record time. Or at least without throwing up.
+DIDI (nervous): Good luck with that second one.
+BETTY (excited): The pups can play out back. And Howard's borrowing your kitchen next door. He's making a soufflé!
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC jazz
+SCENE deville_house
+PLACE phil center right excited
+PLACE lil midleft right excited
+PLACE tommy midright left happy
+PLACE chuckie right left nervous
+PHIL (excited): Welcome to our backyard! It's the muddiest backyard in the whole world!
+LIL (excited): And it's got the best worms! Fat ones! Long ones! Wiggly ones!
+TOMMY (happy): Wow! It's like a worm playground!
+CHUCKIE (nervous): Do the worms know we're coming?
+PHIL (smug): Worms know everything, Chuckie.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC sneaky
+SCENE pickles_kitchen
+PLACE howard center left nervous
+PLACE stu midright left smug
+HOWARD (nervous): Stu, I'm making a soufflé. It's very delicate. One loud noise and it falls flat.
+STU (smug): Howard, you're cooking in my kitchen. Why?
+HOWARD (nervous): Betty's oven is full of running shoes. She dries them in there.
+STU (surprised): She dries her shoes in the oven?
+HOWARD (sad): The soufflés taste a little like feet. So I came here.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC action
+SCENE deville_house
+PLACE phil center right excited
+PLACE lil midleft right excited
+PLACE tommy midright left nervous
+SFX splat
+PHIL (excited): I found one! It's long! It's as long as my arm!
+LIL (angry): That's not long! Mine's longer! It's as long as my leg!
+PHIL (angry): Is not!
+LIL (angry): Is too!
+TOMMY (nervous): Guys! Why don't we find the biggest worm in the WHOLE world? Together!
+PHIL (excited): The biggest worm in the whole world!
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC sneaky 2
+SCENE deville_house
+ENTER angelica left farleft smug
+PLACE tommy center right surprised
+ANGELICA (smug): You babies looking for the biggest worm? I know where it is.
+TOMMY (surprised): You do?
+ANGELICA (smug): It lives under the house. It's as big as a school bus. And it's grumpy.
+TOMMY (excited): Wow! Let's go find it!
+ANGELICA (nervous): Wait, you're supposed to be scared!
+TOMMY (happy): We're babies, Angelica. We're scared of baths. Not worms.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC sneaky
+SCENE deville_house
+PLACE chuckie center right nervous
+PLACE phil midleft right smug
+CHUCKIE (nervous): Phil, have you ever eaten a worm? A real one?
+PHIL (smug): Lots of times, Chuckie.
+CHUCKIE (scared): What does it taste like?
+PHIL (happy): Kind of like dirt. But wigglier.
+CHUCKIE (nervous): I think I'll stick to animal crackers.
+PHIL (smug): You don't know what you're missing.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC jazz 2
+SCENE deville_house
+PLACE betty center left excited
+PLACE spike midright left happy
+SFX footstep
+BETTY (excited): Mile three! Feeling great! Come on, Spike! Run with me!
+SPIKE (happy): Woof!
+BETTY (smug): Look at that dog go! You're a natural, pal!
+SFX splash
+BETTY (surprised): ...and he's in the mud. And now I'm in the mud.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC tense
+SCENE deville_house
+PLACE chuckie center right scared
+PLACE tommy midleft right nervous
+CHUCKIE (scared): Tommy, the hole under the house is so dark. What if the big worm doesn't like visitors?
+TOMMY (nervous): Then we'll say sorry and go home.
+CHUCKIE (scared): What if worms don't understand sorry?
+TOMMY (happy): Everybody understands sorry, Chuckie.
+CHUCKIE (nervous): Even Angelica?
+TOMMY (nervous): ...Almost everybody.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC jazz
+SCENE pickles_kitchen
+PLACE howard center left nervous
+PLACE didi midright left happy
+HOWARD (nervous): Didi, the soufflé is rising. Twelve more minutes. Please, nobody slam a door.
+DIDI (happy): We'll be quiet as mice, Howard.
+HOWARD (happy): Thank you. It's the first soufflé I've made that doesn't taste like feet.
+DIDI (nervous): That's... a strange goal.
+HOWARD (smug): It's my only goal.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC spooky
+SCENE deville_house
+PLACE phil center right nervous
+PLACE lil midleft right nervous
+PLACE tommy midright left nervous
+NARRATOR: Under the porch, it was dark and muddy and smelled like old shoes. Something long and pink was wiggling in the mud.
+PHIL (nervous): There it is. The biggest worm in the whole world.
+LIL (nervous): It's not as big as a school bus.
+TOMMY (surprised): It's not even as big as a sausage.
+PHIL (sad): Angelica lied to us.
+LIL (smug): Angelica always lies to us, Phillip.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC action 2
+SCENE deville_house
+PLACE angelica center left scared
+PLACE tommy midright left surprised
+SFX splat
+ANGELICA (scared): Help! Help! I followed you under the porch to scare you and I fell in the mud!
+TOMMY (surprised): Angelica? You're all muddy!
+ANGELICA (angry): My dress! My shoes! My HAIR!
+TOMMY (happy): Here, Angelica. Hold my hand. We'll pull you out.
+ANGELICA (sad): ...Fine. But don't tell anybody.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC jazz
+SCENE deville_house
+PLACE betty center left surprised
+PLACE angelica midright left sad
+BETTY (surprised): Whoa! Angelica? Is that you under all that mud?
+ANGELICA (sad): Yes. It's me.
+BETTY (happy): Ha! You look like a little swamp monster! Atta girl!
+ANGELICA (angry): I'm not a swamp monster! I'm a princess!
+BETTY (smug): A muddy princess. Those are the best kind.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC tense
+SCENE pickles_kitchen
+PLACE howard center left nervous
+PLACE stu midright left excited
+HOWARD (nervous): Two minutes left. The soufflé is perfect. Please, everyone, stay calm.
+STU (excited): Howard! Betty's back! And she brought all the muddy kids!
+SFX slam
+HOWARD (scared): The door! Somebody slammed the door!
+SFX sad_trombone
+HOWARD (sad): ...It fell. My soufflé fell.
+
+# ------------------------------------------------------------ THE DEVILLE HOUSE
+MUSIC romantic
+SCENE deville_house
+CARD That evening...
+PLACE betty center left happy
+PLACE howard midright left happy
+PLACE phil midleft right happy
+PLACE lil right left happy
+BETTY (happy): Howie, this flat soufflé is delicious. Best pancake I ever had.
+HOWARD (happy): You think so?
+PHIL (happy): Lillian. I let the little worm go home.
+LIL (happy): Me too, Phillip. It was the best worm day ever.
+END

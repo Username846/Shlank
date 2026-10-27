@@ -1,0 +1,176 @@
+@title Up, Up and Away
+@series Rugrats
+@season 2
+@icon bottle
+@number 7
+@description Drew and Charlotte are flying to a big business meeting, and everybody goes to the airport to say goodbye. Angelica doesn't want her parents to leave. Tommy thinks the airplanes are giant metal birds, and Chuckie is sure they lay giant metal eggs.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC happy
+SCENE the_airport cut
+TITLE
+PLACE drew center left nervous
+PLACE charlotte midright left excited
+PLACE didi right left happy
+DREW (nervous): Thanks for watching Angelica this week, Didi. She's... a lot.
+DIDI (happy): We'll be fine, Drew. She's family.
+CHARLOTTE (excited): Jonathan! We land at nine! Have the car ready! And the coffee! And the other coffee!
+DREW (sad): She's going to be on the phone the whole flight.
+DIDI (smug): Can you even use phones on planes?
+DREW (sad): She'll find a way.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC jazz
+SCENE the_airport
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): Look out the window, guys! Giant birds! Giant metal birds!
+PHIL (excited): They don't flap their wings! How do they fly?
+LIL (smug): They just think really hard about flying, Phillip.
+CHUCKIE (nervous): Tommy, if those are birds, where do they lay their eggs?
+TOMMY (surprised): I don't know, Chuckie. Somewhere big.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC sad
+SCENE the_airport
+PLACE angelica center left sad
+PLACE drew midright left nervous
+ANGELICA (sad): Daddy, why do you and Mommy have to go away?
+DREW (nervous): It's just for a week, Pumpkin. For a very important meeting.
+ANGELICA (sad): More important than me?
+DREW (sad): Nothing's more important than you, Princess. But this is how Daddy buys your toys.
+ANGELICA (angry): I don't want toys! I want you to stay!
+DREW (surprised): ...You don't want toys?
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC sneaky
+SCENE the_airport
+PLACE chuckie center right scared
+PLACE tommy midleft right nervous
+CHUCKIE (scared): Tommy! Look! That moving floor is eating the suitcases!
+TOMMY (surprised): It's not eating them. It's giving them a ride.
+CHUCKIE (scared): Where to?
+TOMMY (smug): Into the bird's tummy. That's how they go places.
+CHUCKIE (scared): Suitcases go in the bird's TUMMY?!
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC jazz 2
+SCENE the_airport
+PLACE stu center left excited
+PLACE grandpa_lou midright left smug
+STU (excited): Pop, look at that jet engine! I could build a toy just like it! The Reptar Jet-Pack 2000!
+GRANDPA_LOU (smug): In my day, we flew in biplanes. With no roof. And the pilot was a goat.
+STU (surprised): A goat?
+GRANDPA_LOU (nervous): Well, he looked like a goat. He had a beard. And he ate the map.
+STU (happy): You've told me this one before, Pop.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC sneaky 2
+SCENE the_airport
+CARD Angelica's plan...
+PLACE angelica center left smug
+PLACE tommy midright left surprised
+ANGELICA (smug): Listen, babies. If my mommy and daddy can't find their suitcases, they can't go on the trip.
+TOMMY (surprised): You want us to hide their suitcases?
+ANGELICA (smug): Their suitcases are the purple ones with the gold handles. Go get 'em off the eating floor.
+TOMMY (nervous): Angelica, that's not nice.
+ANGELICA (sad): ...Please, Tommy? I don't want them to go.
+TOMMY (sad): ...Okay. Just this once.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC action
+SCENE the_airport
+PLACE phil center right excited
+PLACE lil midleft right excited
+PLACE tommy midright left nervous
+SFX slide_whistle
+PHIL (excited): I'm riding the eating floor! Whee!
+LIL (excited): There's a purple one! With gold handles!
+TOMMY (nervous): Grab it! Grab it!
+SFX thud
+PHIL (surprised): It's too heavy! What's in it? Rocks?
+LIL (smug): Phones, Phillip. Lots and lots of phones.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC sneaky
+SCENE the_airport
+PLACE chuckie center right nervous
+PLACE angelica midleft right smug
+CHUCKIE (nervous): Angelica, we got the purple suitcase. Now what do we do with it?
+ANGELICA (smug): Hide it behind that big plant. Nobody ever looks behind plants.
+CHUCKIE (nervous): What if the plant tells?
+ANGELICA (angry): Plants can't talk, Finster!
+CHUCKIE (scared): You don't know that! You don't know what plants know!
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC tense
+SCENE the_airport
+PLACE charlotte center left scared
+PLACE drew midright left nervous
+CHARLOTTE (scared): Drew! Our bags! They've disappeared from the carousel!
+DREW (nervous): They were right there a minute ago.
+CHARLOTTE (angry): Jonathan! Our bags are gone! Find them! I don't care how! Call the President!
+DREW (sad): Charlotte, Jonathan is in Cleveland.
+CHARLOTTE (angry): Then call the President of Cleveland!
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC sad
+SCENE the_airport
+PLACE tommy center right sad
+PLACE angelica midleft right sad
+TOMMY (sad): Angelica, your mommy is really upset. She's yelling at a phone.
+ANGELICA (sad): She always yells at a phone.
+TOMMY (nervous): But this time, it's a sad yell.
+ANGELICA (sad): ...I just wanted them to stay home with me.
+TOMMY (happy): Maybe you should just tell them.
+ANGELICA (shy): ...Maybe.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC romantic
+SCENE the_airport
+PLACE angelica center left sad
+PLACE drew midright left surprised
+PLACE charlotte right left surprised
+ANGELICA (sad): Mommy. Daddy. The babies hid your suitcases. Because I told them to. Because I'll miss you.
+DREW (surprised): Pumpkin. You'll miss us?
+CHARLOTTE (surprised): You hid our bags so we'd stay?
+ANGELICA (sad): I'm sorry.
+CHARLOTTE (happy): Jonathan. I'll call you back. I'm with my daughter.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC happy
+SCENE the_airport
+PLACE charlotte center left happy
+PLACE angelica midright left happy
+PLACE drew right left happy
+CHARLOTTE (happy): Angelica. It's only one week. And I promise, I'll call you every night. On the phone. To you.
+ANGELICA (excited): Every night?
+DREW (happy): And when we come back, we'll go to the beach. Just the three of us. No phones.
+CHARLOTTE (nervous): ...No phones?
+DREW (smug): No phones, honey.
+
+# ------------------------------------------------------------ THE AIRPORT
+MUSIC jazz
+SCENE the_airport
+PLACE tommy center right excited
+PLACE chuckie midleft right surprised
+SFX whoosh
+NARRATOR: The giant metal bird took off with Drew and Charlotte inside. It flew up, up and away into the clouds.
+TOMMY (excited): Look, Chuckie! The bird is flying! And it didn't lay a single egg!
+CHUCKIE (surprised): Maybe it's a boy bird.
+TOMMY (happy): Good thinking, Chuckie.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC romantic 2
+SCENE pickles_living_room
+CARD That night...
+PLACE angelica center left happy
+PLACE didi midright left happy
+SFX beep
+DIDI (happy): Angelica, sweetie. There's a phone call for you. It's your mommy.
+ANGELICA (excited): Mommy! Hi, Mommy! I miss you!
+ANGELICA (happy): Yes, I'm being good. Mostly. Yes. I love you too.
+DIDI (happy): See, Angelica? They didn't forget you.
+END

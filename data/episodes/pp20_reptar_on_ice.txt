@@ -1,0 +1,180 @@
+@title Reptar on Ice
+@series Rugrats
+@season 2
+@icon bottle
+@number 10
+@description Everyone goes to see Reptar on Ice, the biggest show of the year. Angelica wants to meet the real Reptar. Tommy wants to skate. Chuckie wants to stay in his seat. When the giant Reptar gets stuck, it's up to the babies to save the show.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC happy
+SCENE pickles_living_room cut
+TITLE
+PLACE stu center left excited
+PLACE didi midright left happy
+STU (excited): Deed! I got tickets! Front row! Reptar on Ice!
+DIDI (happy): Stu, that's wonderful! The kids will love it.
+STU (smug): I got tickets for everybody. The DeVilles. The Finsters. Drew and Charlotte. Even Pop.
+DIDI (surprised): Everybody? How much did that cost?
+STU (nervous): ...Let's not talk about that, Deed.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC jazz
+SCENE the_playpen
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+PLACE kimi farleft right excited
+TOMMY (excited): Guys! We're going to see Reptar! On ice!
+PHIL (excited): What's ice?
+LIL (smug): It's water that's really, really cold, Phillip.
+KIMI (excited): Reptar's gonna skate! Cool!
+CHUCKIE (nervous): Is the ice slippery? I don't like slippery.
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC happy 2
+SCENE reptar_arena
+CARD The arena...
+PLACE betty center left excited
+PLACE howard midright left nervous
+PLACE grandpa_lou right left happy
+BETTY (excited): Front row! Woo! I can see the ice spray from here!
+HOWARD (nervous): Betty, the ice spray is cold. And wet. And right on my sweater.
+GRANDPA_LOU (happy): In my day, we didn't have ice shows. We had ice. On the pond. And we liked it.
+BETTY (smug): Lou, did you skate?
+GRANDPA_LOU (excited): Did I skate? I was the fastest skater in the county! Until I hit the fence.
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC sneaky
+SCENE reptar_arena
+PLACE angelica center left smug
+PLACE drew midright left nervous
+PLACE charlotte right left happy
+ANGELICA (smug): Daddy, after the show, I wanna meet Reptar. The real one.
+DREW (nervous): Pumpkin, Reptar isn't real. It's a man in a costume.
+ANGELICA (angry): Don't say that, Daddy! Reptar's real! He's real!
+DREW (nervous): Of course he is, honey. Very real. The realest.
+CHARLOTTE (happy): Jonathan says Reptar's company is making record profits this year.
+DREW (sad): Not helping, Charlotte.
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC action
+SCENE reptar_arena
+CARD The show begins...
+PLACE tommy center right excited
+PLACE kimi midleft right excited
+SFX fanfare
+NARRATOR: The lights went down. The music went up. And out onto the ice skated the biggest, greenest dinosaur any baby had ever seen.
+TOMMY (excited): REPTAR!
+KIMI (excited): He's skating! He's spinning! Cool!
+SFX shing
+TOMMY (excited): He's doing a jump! A Reptar jump!
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC jazz
+SCENE reptar_arena
+PLACE chas center left nervous
+PLACE kira midright left happy
+CHAS (nervous): Kira, should a dinosaur that big be jumping? On ice? Is that safe?
+KIRA (happy): Chas, relax. It's a professional show.
+CHAS (nervous): I'm just saying, I'd feel better if Reptar had a helmet.
+KIRA (smug): You'd feel better if everyone had a helmet.
+CHAS (happy): ...That's true.
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC tense
+SCENE reptar_arena
+PLACE tommy center right surprised
+PLACE chuckie midleft right scared
+SFX thud
+SHAKE 0.8
+NARRATOR: Reptar landed his big jump. Then his tail got caught in the ice. He tugged. He pulled. He was stuck.
+TOMMY (surprised): Chuckie! Reptar's stuck!
+CHUCKIE (scared): He's stuck in the ice! Like a popsicle!
+TOMMY (nervous): Somebody's gotta help him!
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC sad
+SCENE reptar_arena
+PLACE angelica center left sad
+PLACE susie midright left nervous
+ANGELICA (sad): Susie, Reptar's crying. Look. He's waving his arms.
+SUSIE (nervous): He's not crying, Angelica. He's trying to get his tail out.
+ANGELICA (scared): What if he's stuck forever? What if the show is over?
+SUSIE (happy): The grown-ups will fix it.
+ANGELICA (sad): The grown-ups are just sitting there. Eating popcorn.
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC sneaky 2
+SCENE reptar_arena
+PLACE tommy center right smug
+PLACE phil midleft right excited
+PLACE lil midright left excited
+PLACE kimi right left excited
+TOMMY (smug): Okay, everybody. A baby's gotta do what a baby's gotta do. We're gonna save Reptar.
+PHIL (excited): How?
+TOMMY (smug): Reptar needs something warm to melt the ice. What's warm?
+LIL (excited): Our bottles! Mommy warms up our milk!
+KIMI (excited): And Stu's hot cocoa! Cool! I mean, warm!
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC action
+SCENE reptar_arena
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+SFX slide_whistle
+NARRATOR: The babies climbed over the little wall. They slid across the ice on their diapers. Tommy carried his bottle. Kimi carried a cup of hot cocoa.
+CHUCKIE (scared): Wait for me, Tommy! I'm sliding! I'm sliding the wrong way!
+TOMMY (excited): Hold on, Reptar! We're coming!
+SFX splash
+NARRATOR: Splash went the warm milk. Splash went the hot cocoa. The ice around Reptar's tail began to melt.
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC tense
+SCENE reptar_arena
+PLACE didi center left scared
+PLACE stu midright left scared
+PLACE charlotte right left surprised
+DIDI (scared): Stu! The babies! They're on the ice!
+STU (scared): How did they get down there?!
+CHARLOTTE (surprised): They're pouring something on the dinosaur.
+STU (surprised): Is that... my hot cocoa?
+DIDI (nervous): Stu! Go get them!
+STU (nervous): Deed! I can't skate!
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC happy
+SCENE reptar_arena
+PLACE tommy center right excited
+PLACE angelica midleft right surprised
+SFX powerup
+NARRATOR: With one big tug, Reptar pulled his tail free. He spun around. He picked up Tommy and Kimi and Chuckie and Phil and Lil. And he skated one big, happy circle around the rink.
+TOMMY (excited): We saved Reptar!
+ANGELICA (surprised): The babies are riding Reptar! Without me!
+ANGELICA (excited): Reptar! Wait! Me too! Me too!
+
+# ------------------------------------------------------------ REPTAR ON ICE
+MUSIC romantic
+SCENE reptar_arena
+PLACE angelica center left happy
+PLACE tommy midright left happy
+PLACE chuckie midleft right happy
+NARRATOR: Reptar skated over to the wall and lifted Angelica up, too. The whole arena cheered. It was the best Reptar on Ice show in history.
+ANGELICA (happy): Reptar's real, Tommy. I knew it. He hugged me.
+TOMMY (happy): He's real to us, Angelica.
+CHUCKIE (smug): And he's warm now. Thanks to the cocoa.
+SFX fanfare
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC romantic 2
+SCENE pickles_living_room
+CARD That night...
+PLACE stu center left happy
+PLACE didi midright left happy
+PLACE tommy midleft right happy
+STU (happy): The manager said it was the best show they ever had. He gave us free tickets for next year.
+DIDI (smug): And a bill for the hot cocoa they had to clean off the ice.
+TOMMY (happy): Chuckie, I think this was the best season ever.
+STU (nervous): Deed, did Tommy just say "season"?
+DIDI (happy): He must mean the ice-skating season, Stu.
+END

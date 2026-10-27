@@ -1347,6 +1347,155 @@
 			"Dill Pickles"
 		]
 	},
+	"betty": {
+		"name": "Betty DeVille",
+		"style": "betty",
+		"color": "#9b5fd0",
+		"width": 64,
+		"bio": "Phil and Lil's mom. Loud, sporty and never without a whistle.",
+		"catchphrase": "Hiya, pups!",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.05,
+			"babble": 310,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		},
+		"show": "Rugrats",
+		"home": "deville_house"
+	},
+	"howard": {
+		"name": "Howard DeVille",
+		"style": "howard",
+		"color": "#c8a86a",
+		"width": 56,
+		"bio": "Phil and Lil's dad. Gentle, nervous and a very careful cook.",
+		"catchphrase": "Oh, my.",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 0.95,
+			"babble": 360,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Rugrats",
+		"home": "deville_house"
+	},
+	"chas": {
+		"name": "Chas Finster",
+		"style": "chas",
+		"color": "#5aa84a",
+		"width": 58,
+		"bio": "Chuckie's dad. Tall, thin and worried about everything, just like his son.",
+		"catchphrase": "Careful, Chuckie!",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.0,
+			"babble": 340,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Rugrats",
+		"home": "finster_house"
+	},
+	"drew": {
+		"name": "Drew Pickles",
+		"style": "drew",
+		"color": "#4a5a8a",
+		"width": 62,
+		"bio": "Angelica's dad and Stu's big brother. A busy businessman who can't say no to his princess.",
+		"catchphrase": "Whatever you want, Pumpkin.",
+		"voice": {
+			"pitch": 0.9,
+			"rate": 1.0,
+			"babble": 300,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Rugrats",
+		"home": "drew_house"
+	},
+	"charlotte": {
+		"name": "Charlotte Pickles",
+		"style": "charlotte",
+		"color": "#7a3fa0",
+		"width": 60,
+		"bio": "Angelica's mom. Runs a big company from her cell phone.",
+		"catchphrase": "Jonathan!",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 1.2,
+			"babble": 350,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Rugrats",
+		"home": "drew_house"
+	},
+	"kira": {
+		"name": "Kira Finster",
+		"style": "kira",
+		"color": "#e6452f",
+		"width": 58,
+		"bio": "Chuckie's new stepmom. Kind, calm and great at calming down Chuckie.",
+		"catchphrase": "It's okay, Chuckie.",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.0,
+			"babble": 360,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Rugrats",
+		"home": "finster_house"
+	},
+	"kimi": {
+		"name": "Kimi Finster",
+		"style": "kimi",
+		"color": "#9b5fd0",
+		"width": 54,
+		"bio": "Chuckie's new little sister. Brave, bouncy and ready for any adventure.",
+		"catchphrase": "Cool!",
+		"voice": {
+			"pitch": 1.8,
+			"rate": 1.15,
+			"babble": 480,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Rugrats",
+		"home": "finster_house"
+	},
 	"jessie": {
 		"name": "Jessie",
 		"style": "jessie",

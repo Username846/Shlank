@@ -1,0 +1,185 @@
+@title Beach Day
+@series Rugrats
+@season 2
+@icon bottle
+@number 6
+@description The whole gang goes to the beach. Chuckie thinks the ocean is the world's biggest bathtub, and he hates baths. Phil and Lil want to catch a crab. Angelica builds a sand castle and declares herself queen of the beach.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC happy
+SCENE beach_day cut
+TITLE
+PLACE stu center left excited
+PLACE betty midright left excited
+PLACE didi right left happy
+STU (excited): The beach! Sun, sand and surf!
+BETTY (excited): I'm gonna swim out to that buoy and back! Twice!
+DIDI (happy): And I brought sunscreen. Lots of sunscreen. Everybody gets sunscreen.
+STU (nervous): Deed, I already have three layers on.
+DIDI (smug): Then you'll get a fourth.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC jazz
+SCENE beach_day
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): Wow! Look at all that water!
+CHUCKIE (scared): Tommy. That's the biggest bathtub I've ever seen.
+PHIL (excited): Who's the bathtub for? A giant?
+LIL (smug): It's for the whole world, Phillip. Everybody takes a bath here.
+CHUCKIE (scared): I'm not taking a bath! Not in a bathtub THAT big!
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC sneaky
+SCENE beach_day
+PLACE angelica center left smug
+PLACE susie midright left happy
+ANGELICA (smug): I'm gonna build the biggest sand castle on the whole beach. And then I'll be queen.
+SUSIE (happy): Can I help, Angelica?
+ANGELICA (smug): You can be my servant, Susie. You carry the water.
+SUSIE (angry): I'm not your servant! I'll build my own castle.
+ANGELICA (angry): Fine! Mine will be bigger!
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC jazz 2
+SCENE beach_day
+PLACE grandpa_lou center left happy
+PLACE chas midright left nervous
+GRANDPA_LOU (happy): Ahh. Nothing like a nap under a beach umbrella.
+CHAS (nervous): Lou, did you know you can get a sunburn even under an umbrella? The sand reflects the sun.
+GRANDPA_LOU (smug): Chas, I've been napping under umbrellas for seventy years.
+CHAS (nervous): Is that why your nose is so red?
+GRANDPA_LOU (surprised): ...Hand me that sunscreen.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC action
+SCENE beach_day
+PLACE phil center right excited
+PLACE lil midleft right excited
+SFX squeak
+PHIL (excited): Lillian! A crab! It walks sideways!
+LIL (excited): Let's catch it! I want to see it walk forwards!
+PHIL (surprised): Maybe it doesn't know how.
+LIL (smug): Then we'll teach it.
+SFX chomp
+PHIL (scared): OW! It pinched me! It pinched my finger!
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC sneaky
+SCENE beach_day
+PLACE kimi center left excited
+PLACE chuckie midright left nervous
+KIMI (excited): Chuckie! Let's jump in the big bathtub! Splash!
+CHUCKIE (nervous): Kimi, you just got here and you already wanna jump in?
+KIMI (happy): The waves look like they're waving at us! Hi, waves!
+CHUCKIE (scared): Waves don't wave, Kimi. They grab.
+KIMI (smug): Then I'll grab them back! Cool!
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC sad
+SCENE beach_day
+PLACE chuckie center right sad
+PLACE tommy midleft right happy
+CHUCKIE (sad): Tommy, I just don't like baths. The water gets in my eyes. And the soap gets in my ears.
+TOMMY (happy): Chuckie, there's no soap in the ocean.
+CHUCKIE (surprised): There's not?
+TOMMY (smug): Nope. Just water. And fish. And crabs that pinch Phil.
+CHUCKIE (nervous): ...Maybe I'll just touch it with one toe.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC happy 2
+SCENE beach_day
+PLACE howard center left nervous
+PLACE kira midright left happy
+HOWARD (nervous): Kira, would you like a sandwich? I made cucumber. Or cucumber with the crusts cut off.
+KIRA (happy): Thank you, Howard. With the crusts, please.
+HOWARD (surprised): Really? Nobody ever picks the crusts.
+KIRA (smug): The crusts are the best part.
+HOWARD (happy): I've waited my whole life to hear someone say that.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC jazz
+SCENE beach_day
+PLACE betty center left excited
+PLACE stu midright left nervous
+SFX splash
+BETTY (excited): Whoo! That water's cold! Come on in, Stu!
+STU (nervous): I'm good, Betty. I'm guarding the cooler.
+BETTY (smug): You're afraid of the water, aren't you?
+STU (nervous): I'm not afraid. I'm... cautious. There could be jellyfish. Or sharks. Or seaweed.
+BETTY (happy): Seaweed? You're scared of seaweed? Ha!
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC sneaky 2
+SCENE beach_day
+PLACE angelica center left excited
+PLACE susie midright left smug
+ANGELICA (excited): Ha! Look at my castle, Susie! It's got towers! And a moat! And a flag!
+SUSIE (smug): Mine's got a door, Angelica. And windows. And a garden.
+ANGELICA (angry): A garden?! You can't have a garden on a sand castle!
+SUSIE (happy): It's seaweed. It's a seaweed garden.
+ANGELICA (angry): Ugh!
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC tense
+SCENE beach_day
+PLACE tommy center right nervous
+PLACE chuckie midleft right scared
+SFX splash
+NARRATOR: The tide was coming in. Slowly, wave by wave, the water crept up the beach. Closer to the babies. Closer to the castles.
+CHUCKIE (scared): Tommy! The bathtub is getting bigger! It's coming to get us!
+TOMMY (nervous): It's coming for the castles!
+CHUCKIE (scared): We gotta warn Angelica! Even though she's mean!
+TOMMY (happy): That's brave, Chuckie.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC action 2
+SCENE beach_day
+PLACE angelica center left scared
+PLACE chuckie midright left nervous
+CHUCKIE (nervous): Angelica! The bathtub is filling up! Your castle's gonna get wet!
+ANGELICA (scared): What?! No! Not my castle!
+SFX splash
+SHAKE 0.4
+NARRATOR: A big wave washed over Angelica's castle. The towers melted. The flag floated away.
+ANGELICA (sad): My castle. My queen castle. It's gone.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC romantic
+SCENE beach_day
+PLACE susie center left happy
+PLACE angelica midright left sad
+SUSIE (happy): Angelica. My castle got washed away too. Wanna build a new one together? Farther up the beach?
+ANGELICA (sad): ...Together?
+SUSIE (smug): We can both be queen.
+ANGELICA (shy): ...Okay. But I get the bigger tower.
+SUSIE (happy): Deal.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC happy
+SCENE beach_day
+PLACE chuckie center right nervous
+PLACE tommy midleft right happy
+PLACE phil midright left happy
+PLACE lil right left happy
+SFX splash
+CHUCKIE (surprised): Tommy! I touched the ocean! With my whole foot!
+TOMMY (excited): How was it?
+CHUCKIE (happy): It was cold. And tickly. And there was no soap!
+PHIL (happy): And the crab said sorry for pinching me.
+LIL (smug): Crabs can't talk, Phillip.
+PHIL (smug): He said it with his eyes.
+
+# ------------------------------------------------------------ THE BEACH
+MUSIC romantic 2
+SCENE beach_day
+CARD Sunset...
+PLACE didi center left happy
+PLACE stu midright left happy
+DIDI (happy): What a wonderful day, Stu.
+STU (happy): Yeah. And look. I went in the water. Up to my ankles.
+DIDI (smug): Very brave, honey.
+STU (nervous): There was seaweed, Deed. It touched me.
+END

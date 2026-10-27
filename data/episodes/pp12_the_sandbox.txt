@@ -1,0 +1,175 @@
+@title Dig to China
+@series Rugrats
+@season 2
+@icon bottle
+@number 2
+@description Angelica tells the babies that if they dig deep enough in the sandbox, they'll come out in China, where every day is a cookie day. Tommy grabs his shovel. Grandpa Lou has a story about digging, too.
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC happy
+SCENE sandbox cut
+TITLE
+PLACE tommy center right happy
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (happy): Look, guys! A brand new sandbox! Daddy built it!
+PHIL (excited): Sand! Lots and lots of sand!
+LIL (excited): Let's make a castle! A big one!
+CHUCKIE (nervous): I'm just gonna sit here. Sand gets everywhere, Tommy. Everywhere.
+TOMMY (smug): That's the best part, Chuckie.
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC sneaky
+SCENE sandbox
+ENTER angelica left midleft smug
+PLACE tommy center right surprised
+ANGELICA (smug): You dumb babies don't even know what sandboxes are for.
+TOMMY (surprised): They're not for castles?
+ANGELICA (smug): Nope. They're for digging to China.
+TOMMY (surprised): What's China?
+ANGELICA (excited): It's on the other side of the world. And every day is cookie day. And the cookies are as big as your head.
+TOMMY (excited): Cookies as big as our heads?!
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC jazz
+SCENE pickles_kitchen
+PLACE stu center left smug
+PLACE didi midright left happy
+STU (smug): Deed, that sandbox is my finest work. Twelve bags of sand. Reinforced corners. Waterproof.
+DIDI (happy): It looks lovely, Stu. Very sturdy.
+STU (excited): And I added a little surprise. A secret trap door at the bottom. For storing toys.
+DIDI (nervous): A trap door? In a sandbox? Stu, the babies could fall in.
+STU (smug): Nah. It's a foot deep. And it's locked. Mostly.
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC action
+SCENE sandbox
+PLACE tommy center right excited
+PLACE phil midleft right excited
+PLACE lil midright left excited
+TOMMY (excited): Okay, everybody! Dig! Dig to China!
+SFX splat
+PHIL (excited): I'm digging! I found a rock!
+LIL (excited): I found a worm! Is it from China?
+PHIL (surprised): It doesn't look like it's from China.
+LIL (smug): It's a world traveler, Phillip. It's very tired.
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC happy 2
+SCENE sandbox
+PLACE spike center left happy
+PLACE phil midright left excited
+PLACE lil right left excited
+SFX splat
+PHIL (excited): Look! Spike's helping! He digs super fast!
+LIL (excited): He's got four shovels! On his feet!
+SPIKE (happy): Woof! Woof!
+PHIL (surprised): He found a bone! Is it a China bone?
+LIL (smug): It's his bone, Phillip. He buried it last week.
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC sneaky 2
+SCENE sandbox
+PLACE chuckie center left nervous
+PLACE tommy midright left excited
+CHUCKIE (nervous): Tommy, what if we dig all the way to China and we can't dig back?
+TOMMY (excited): Then we'll live in China. With the cookies!
+CHUCKIE (scared): But I don't know anybody in China! And I don't speak China!
+TOMMY (happy): I bet they speak cookie, Chuckie. Everybody speaks cookie.
+CHUCKIE (nervous): ...I do speak cookie.
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC jazz 2
+SCENE pickles_backyard
+PLACE grandpa_lou center left happy
+PLACE didi midright left smug
+GRANDPA_LOU (happy): When I was a boy, we didn't have sandboxes. We had the whole Dust Bowl! Miles and miles of dirt!
+DIDI (smug): Pop, that's not quite the same thing.
+GRANDPA_LOU (excited): We dug so deep once, we hit a pocket of oil! Or maybe it was gravy. Hard to tell. It was a long time ago.
+DIDI (nervous): Please don't tell the babies that story.
+GRANDPA_LOU (smug): Too late! I told 'em yesterday!
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC tense
+SCENE sandbox
+PLACE tommy center right surprised
+PLACE phil midleft right surprised
+PLACE lil midright left surprised
+PLACE chuckie right left nervous
+SFX thud
+TOMMY (surprised): Hey! I hit something hard! And it's got a handle!
+PHIL (surprised): It's a door! In the ground!
+LIL (excited): It's the door to China!
+TOMMY (excited): We did it! We dug to China!
+CHUCKIE (scared): Oh no. Oh no, oh no, oh no.
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC spooky
+SCENE stu_basement
+PLACE tommy center right nervous
+PLACE chuckie midleft right scared
+NARRATOR: Under the trap door was a tunnel. And at the end of the tunnel was a dark room full of strange things.
+TOMMY (nervous): This must be China. It's darker than I thought.
+CHUCKIE (scared): It smells like Tommy's daddy's basement.
+TOMMY (surprised): Lots of places smell like that, Chuckie.
+CHUCKIE (scared): And that robot looks like Tommy's daddy's robot!
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC jazz
+SCENE stu_basement
+PLACE stu center left surprised
+PLACE tommy midright left happy
+PLACE chuckie midleft right nervous
+STU (surprised): Tommy? Chuckie? How'd you get down here?
+NARRATOR: Stu had built the sandbox right on top of the old basement window well. The trap door went straight into his workshop.
+TOMMY (happy): Hi, China man!
+STU (smug): Ha! Did you dig all the way to the basement? Smart kids. Takes after their old man.
+CHUCKIE (sad): This isn't China, Tommy. There's no cookies.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC happy
+SCENE pickles_kitchen
+PLACE didi center left smug
+PLACE stu midright left nervous
+DIDI (smug): A trap door. In a sandbox. That goes into the basement.
+STU (nervous): It was supposed to be for storing toys, Deed!
+DIDI (smug): Lock it, Stu. Lock it for real.
+STU (sad): Okay. But they did tunnel through twelve bags of sand. That's impressive.
+DIDI (happy): ...It is a little impressive.
+
+# ------------------------------------------------------------ THE SANDBOX
+MUSIC sneaky
+SCENE sandbox
+PLACE angelica center left smug
+PLACE tommy midright left smug
+ANGELICA (smug): So, did you dumb babies get to China?
+TOMMY (smug): Yep. It's dark. And there's a robot. And no cookies.
+ANGELICA (surprised): Wait, really?
+TOMMY (smug): You should go. It's right down there.
+ANGELICA (excited): Maybe I'll find the cookies you missed!
+SFX slide_whistle
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC action
+SCENE stu_basement
+PLACE angelica center right scared
+SFX blast
+SHAKE 0.6
+ANGELICA (scared): AAAH! The robot is moving! It's coming for me!
+ANGELICA (angry): Uncle Stu! Your stupid robot is chasing me!
+NARRATOR: Angelica did not find any cookies in China. She found a robot dog that only wanted a hug.
+ANGELICA (sad): Fine. Fine! You can have ONE hug.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC romantic
+SCENE pickles_kitchen
+CARD Later...
+PLACE didi center left happy
+PLACE tommy midright left happy
+PLACE chuckie midleft right happy
+DIDI (happy): Who wants a cookie? I made them extra big today.
+TOMMY (excited): Chuckie! Look! Cookies as big as our heads!
+CHUCKIE (excited): We didn't need to dig to China after all, Tommy!
+TOMMY (smug): China came to us.
+END

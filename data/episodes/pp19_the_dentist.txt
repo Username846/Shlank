@@ -1,0 +1,159 @@
+@title The Tooth Fairy
+@series Rugrats
+@season 2
+@icon bottle
+@number 9
+@description Tommy has his first trip to the dentist. Angelica says dentists take your teeth and keep them in a jar. Phil wonders if the Tooth Fairy is a real fairy. Stu wonders if a dentist could fix his Reptar toy's teeth.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC happy
+SCENE pickles_kitchen cut
+TITLE
+PLACE didi center left excited
+PLACE stu midright left happy
+DIDI (excited): Stu! Tommy's first dentist appointment is today! Dr. Lipschitz says early visits build healthy habits!
+STU (happy): Great, Deed! Our little guy's growing up.
+DIDI (nervous): I just hope he isn't scared. Some babies are scared of the big chair.
+STU (smug): Tommy? Scared? Nah. He's fearless. Like his old man.
+DIDI (smug): Stu, you cried at your last cleaning.
+STU (nervous): That was allergies.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC jazz
+SCENE the_playpen
+PLACE tommy center right happy
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (happy): Guys, I'm going to the dentist today!
+CHUCKIE (nervous): What's a dentist, Tommy?
+TOMMY (surprised): I don't know. Mommy says he counts your teeth.
+PHIL (excited): I can count teeth! One, two... how many do you have, Tommy?
+TOMMY (smug): Four. Two on top. Two on the bottom.
+LIL (smug): I have five. I'm winning.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC sneaky
+SCENE the_playpen
+PLACE angelica center left smug
+PLACE tommy midright left surprised
+ANGELICA (smug): You're going to the dentist, Pickles? Ooh. Bad news.
+TOMMY (surprised): Why is it bad news?
+ANGELICA (smug): The dentist takes your teeth. All of them. And keeps them in a big jar on his desk.
+TOMMY (scared): All my teeth?!
+ANGELICA (happy): Then you have to eat mashed peas forever. With no teeth.
+TOMMY (scared): I already eat mashed peas! I don't wanna eat them forever!
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC jazz 2
+SCENE the_playpen
+PLACE phil center right surprised
+PLACE lil midleft right smug
+PHIL (surprised): Lillian. Why would the dentist want all our teeth?
+LIL (smug): Maybe he gives them to the Tooth Fairy.
+PHIL (surprised): The Tooth Fairy? Is she a real fairy? With wings?
+LIL (smug): She flies around at night collecting teeth. And she leaves money.
+PHIL (excited): Money?! For teeth?! I'm gonna be rich!
+LIL (nervous): Phillip, we need our teeth to eat worms.
+
+# ------------------------------------------------------------ THE DENTIST'S OFFICE
+MUSIC tense
+SCENE dentist_office
+CARD The dentist's office...
+PLACE didi center left happy
+PLACE tommy midright left nervous
+DIDI (happy): Look, Tommy. A fish tank. With little orange fish.
+TOMMY (nervous): Uh oh. Mommy brought me to the place where they take your teeth.
+SFX bubbles
+DIDI (happy): The dentist will see you in a minute, sweetie.
+TOMMY (scared): Only one minute? That's too soon!
+
+# ------------------------------------------------------------ THE DENTIST'S OFFICE
+MUSIC sneaky 2
+SCENE dentist_office
+PLACE stu center left excited
+PLACE didi midright left nervous
+STU (excited): Deed, look at this chair! It goes up! It goes down! It tilts back!
+DIDI (nervous): Stu, that's for the patient.
+STU (smug): I'm testing it for Tommy. For safety.
+SFX squeak
+STU (scared): Deed, it's stuck! It won't come back up!
+DIDI (smug): ...For safety.
+
+# ------------------------------------------------------------ THE DENTIST'S OFFICE
+MUSIC spooky
+SCENE dentist_office
+PLACE tommy center right scared
+NARRATOR: Tommy looked around the room. There was a bright light. There was a tray of shiny tools. And there, on a shelf, was a big jar.
+TOMMY (scared): The jar. Angelica was right. It's the jar where they keep the teeth.
+TOMMY (nervous): A baby's gotta do what a baby's gotta do.
+TOMMY (smug): I'm gonna find out what's really in that jar.
+
+# ------------------------------------------------------------ THE DENTIST'S OFFICE
+MUSIC action
+SCENE dentist_office
+PLACE tommy center right nervous
+SFX squeak
+NARRATOR: Tommy climbed out of his stroller. He climbed onto a chair. He climbed onto a counter. He reached for the jar.
+SFX thud
+TOMMY (surprised): It's... lollipops.
+TOMMY (excited): The jar is full of lollipops!
+NARRATOR: Red ones. Green ones. Purple ones. Not a single tooth.
+
+# ------------------------------------------------------------ THE DENTIST'S OFFICE
+MUSIC jazz
+SCENE dentist_office
+PLACE didi center left surprised
+PLACE tommy midright left happy
+DIDI (surprised): Tommy! How did you get up there?
+TOMMY (happy): Mommy, the jar is full of candy! The dentist doesn't take teeth! He gives lollipops!
+DIDI (nervous): Well, the lollipops are sugar-free. For after the checkup.
+TOMMY (excited): Okay! I'm ready for the big chair now!
+DIDI (happy): Look at that, Stu. He's not even scared.
+
+# ------------------------------------------------------------ THE DENTIST'S OFFICE
+MUSIC happy
+SCENE dentist_office
+PLACE stu center left nervous
+PLACE tommy midright left excited
+NARRATOR: The dentist counted Tommy's teeth. One, two, three, four. All perfect. Then he gave Tommy a sticker and a new toothbrush with Reptar on it.
+STU (nervous): Hey, Doc, could you look at my teeth too? While I'm stuck in this chair?
+TOMMY (excited): Reptar toothbrush! The best day ever!
+STU (sad): I didn't get a sticker.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC jazz 2
+SCENE the_playpen
+CARD Back home...
+PLACE tommy center right smug
+PLACE angelica midleft right surprised
+TOMMY (smug): Angelica, the dentist didn't take my teeth. He counted them. And I got a lollipop.
+ANGELICA (surprised): A lollipop?! I never get a lollipop!
+TOMMY (smug): That's 'cause you're scared to go.
+ANGELICA (angry): I am NOT scared!
+TOMMY (happy): Then you should go. They have a big jar.
+ANGELICA (nervous): ...Maybe next year.
+
+# ------------------------------------------------------------ THE PLAYPEN
+MUSIC happy 2
+SCENE the_playpen
+PLACE chuckie center right happy
+PLACE phil midleft right excited
+PLACE lil midright left excited
+CHUCKIE (happy): I'm glad you still got all your teeth, Tommy.
+PHIL (excited): I'm gonna save all my teeth for the Tooth Fairy! Then I'll buy a million worms!
+LIL (smug): Worms are free, Phillip. You just dig.
+PHIL (surprised): ...Then I'll buy a shovel.
+LIL (happy): Good thinking.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC romantic
+SCENE nursery
+CARD That night...
+PLACE tommy center right happy
+PLACE didi midleft right happy
+DIDI (happy): Time to brush your teeth, Tommy. With your new Reptar toothbrush.
+TOMMY (happy): Brush, brush, brush.
+DIDI (happy): Good boy. Now, sleep tight. And remember, the dentist is your friend.
+TOMMY (smug): A friend with a jar of lollipops.
+END

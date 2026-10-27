@@ -472,6 +472,56 @@
 		"show": "Rugrats",
 		"description": "Checkered floors and a big brick oven."
 	},
+	"the_playpen": {
+		"name": "The Playpen",
+		"description": "The babies' playpen in the Pickles living room. Tommy can open it with his screwdriver.",
+		"show": "Rugrats"
+	},
+	"sandbox": {
+		"name": "The Sandbox",
+		"description": "A big sandbox in the backyard, with buckets, shovels and maybe buried treasure.",
+		"show": "Rugrats"
+	},
+	"drew_house": {
+		"name": "Drew's House",
+		"description": "Angelica's house. Fancy, shiny and full of things you're not supposed to touch.",
+		"show": "Rugrats"
+	},
+	"deville_house": {
+		"name": "The DeVille House",
+		"description": "Phil and Lil's house, with a muddy backyard full of worms.",
+		"show": "Rugrats"
+	},
+	"the_zoo": {
+		"name": "The Zoo",
+		"description": "Lions, monkeys, a giraffe and a gift shop with Reptar plush toys.",
+		"show": "Rugrats"
+	},
+	"beach_day": {
+		"name": "The Beach",
+		"description": "Sand, waves, seagulls and the biggest bathtub in the world.",
+		"show": "Rugrats"
+	},
+	"the_airport": {
+		"name": "The Airport",
+		"description": "Big windows, rolling suitcases and giant metal birds.",
+		"show": "Rugrats"
+	},
+	"the_circus": {
+		"name": "The Circus",
+		"description": "A big striped tent with clowns, a trapeze and a cotton candy stand.",
+		"show": "Rugrats"
+	},
+	"dentist_office": {
+		"name": "The Dentist's Office",
+		"description": "A big chair, a bright light and a fish tank in the waiting room.",
+		"show": "Rugrats"
+	},
+	"reptar_arena": {
+		"name": "Reptar on Ice",
+		"description": "The arena for the Reptar on Ice show, with a frozen rink and a giant Reptar.",
+		"show": "Rugrats"
+	},
 	"forest_path": {
 		"name": "Forest Path",
 		"show": "Pokémon",

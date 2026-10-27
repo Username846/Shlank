@@ -1,0 +1,177 @@
+@title Angelica's Big House
+@series Rugrats
+@season 2
+@icon bottle
+@number 3
+@description The babies spend the day at Drew and Charlotte's fancy house, where everything is white and nothing can be touched. Angelica's Cynthia doll goes missing, and Angelica says one of the babies did it.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC happy
+SCENE drew_house cut
+TITLE
+PLACE drew center left nervous
+PLACE didi midright left happy
+DREW (nervous): Thanks for coming, Didi. Charlotte's got a big meeting and I've got a big meeting and the nanny has the flu.
+DIDI (happy): No problem, Drew. Stu and I can watch Angelica and the babies here.
+DREW (nervous): Just... please don't let them touch the white couch. It's imported.
+DIDI (smug): From where?
+DREW (nervous): A very expensive place. I don't remember. Charlotte picked it.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC jazz
+SCENE drew_house
+PLACE charlotte center left excited
+PLACE drew midright left nervous
+CHARLOTTE (excited): Jonathan! Move the meeting to three! No, two! No, three-fifteen! Then call me back!
+DREW (nervous): Honey, the babies are here.
+CHARLOTTE (happy): Wonderful. Hello, babies. Don't touch anything.
+CHARLOTTE (excited): Jonathan! I'm still here! Don't hang up!
+DREW (sad): She's on the phone a lot.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC sneaky
+SCENE drew_house
+PLACE angelica center left smug
+PLACE tommy midright left surprised
+PLACE chuckie right left nervous
+ANGELICA (smug): Welcome to my palace, babies. Everything in here is mine. Don't touch any of it.
+TOMMY (surprised): Wow, Angelica. Your house is so... white.
+CHUCKIE (nervous): It's like being inside a marshmallow.
+ANGELICA (smug): That's 'cause I'm a princess. And princesses live in castles.
+CHUCKIE (nervous): Can we sit down?
+ANGELICA (angry): NO!
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC jazz 2
+SCENE drew_house
+PLACE phil center right excited
+PLACE lil midleft right excited
+PLACE tommy midright left happy
+PHIL (excited): Lillian, look! A glass table! I can see through it!
+LIL (excited): I can see my feet! Under the table! Through the table!
+TOMMY (happy): This house is kind of fun. If you don't touch anything.
+PHIL (smug): I'm not touching anything. I'm just looking very close.
+LIL (smug): With your nose, Phillip.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC tense
+SCENE drew_house
+PLACE angelica center left scared
+PLACE tommy midright left surprised
+ANGELICA (scared): Cynthia! Where's Cynthia?! She was right here on the couch!
+TOMMY (surprised): Your doll is missing?
+ANGELICA (angry): One of you babies took her! I know it!
+TOMMY (nervous): We didn't take her, Angelica. Honest.
+ANGELICA (angry): If you don't find her by snack time, I'm telling my daddy you broke the couch!
+TOMMY (scared): But we didn't break the couch!
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC sneaky 2
+SCENE drew_house
+CARD The search begins...
+PLACE tommy center right smug
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (smug): Okay, guys. A baby's gotta do what a baby's gotta do. We gotta find Cynthia.
+PHIL (excited): I'll check under the couch!
+LIL (excited): I'll check behind the couch!
+CHUCKIE (nervous): I'll check... far away from the couch.
+TOMMY (happy): Good thinking, Chuckie.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC jazz
+SCENE pickles_kitchen
+CARD Meanwhile, at home...
+PLACE stu center left excited
+PLACE spike midright left happy
+STU (excited): Spike! Look what I found in the car! Angelica's doll! She must've dropped it this morning.
+SPIKE (happy): Woof!
+STU (smug): I'll bring it over later. After I finish my sandwich. And my nap.
+SPIKE (sad): Woof.
+STU (nervous): ...Okay. Maybe before the nap.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC action
+SCENE drew_house
+PLACE phil center right surprised
+PLACE lil midleft right surprised
+SFX squeak
+PHIL (surprised): I found something under the couch! It's a cracker!
+LIL (surprised): And a sock! And a little phone!
+PHIL (excited): A little phone! Maybe Cynthia called!
+LIL (smug): Cynthia can't talk, Phillip. She's plastic.
+PHIL (sad): Oh, yeah.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC sneaky
+SCENE drew_house
+PLACE chuckie center right nervous
+PLACE tommy midleft right smug
+CHUCKIE (nervous): Tommy, I checked far away from the couch. There's just a big white rug. And a big white lamp.
+TOMMY (smug): Did you check inside the big white lamp?
+CHUCKIE (scared): I'm not going inside a lamp, Tommy!
+TOMMY (happy): Okay, okay. What about the kitchen?
+CHUCKIE (nervous): The kitchen is white too. Everything's white. I'm getting snow-blind.
+TOMMY (surprised): What's snow-blind?
+CHUCKIE (sad): I don't know. But I think I have it.
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC jazz 2
+SCENE drew_house
+PLACE charlotte center left scared
+PLACE drew midright left nervous
+CHARLOTTE (scared): Drew! I can't find my spare phone! Jonathan was going to call me on it!
+DREW (nervous): Did you check your purse? Your other purse? Your third purse?
+CHARLOTTE (angry): Of course I did!
+DREW (nervous): Maybe... under the couch?
+CHARLOTTE (surprised): Why would my phone be under the couch?
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC happy
+SCENE drew_house
+PLACE lil center right happy
+PLACE charlotte midleft right surprised
+PLACE drew midright left happy
+SFX ding
+LIL (happy): Here, lady. Your little phone. It was under the couch with a cracker.
+CHARLOTTE (surprised): My phone! The baby found my phone! Drew! The baby found it!
+DREW (happy): Good girl, Lil!
+CHARLOTTE (excited): Jonathan! I'm back! Don't ask!
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC tense
+SCENE drew_house
+PLACE angelica center left angry
+PLACE tommy midright left sad
+ANGELICA (angry): It's snack time. And where's Cynthia?
+TOMMY (sad): We looked everywhere, Angelica. Under the couch. Behind the couch. Far away from the couch.
+ANGELICA (sad): ...She's my best friend. Besides me.
+TOMMY (nervous): We'll keep looking. Promise.
+SFX door
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC happy 2
+SCENE drew_house
+ENTER stu left farleft happy
+PLACE angelica center left sad
+PLACE didi midright left surprised
+STU (happy): Hey, Angelica! You left your doll in my car this morning!
+ANGELICA (excited): CYNTHIA!
+DIDI (surprised): She was in the car the whole time?
+STU (smug): Yep. Spike made me bring her over. Before my nap, even.
+ANGELICA (happy): Cynthia! I missed you so much!
+
+# ------------------------------------------------------------ DREW'S HOUSE
+MUSIC romantic
+SCENE drew_house
+CARD Later...
+PLACE angelica center left shy
+PLACE tommy midright left happy
+PLACE chuckie right left happy
+ANGELICA (shy): Okay, babies. You didn't take Cynthia. I guess I was... a teeny bit wrong.
+TOMMY (surprised): Did you just say sorry, Angelica?
+ANGELICA (angry): I said I was a teeny bit wrong! That's different!
+CHUCKIE (happy): Can we sit on the couch now?
+ANGELICA (smug): ...You can sit on the very edge. For one minute.
+END

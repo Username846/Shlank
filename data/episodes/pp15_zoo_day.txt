@@ -1,0 +1,167 @@
+@title A Day at the Zoo
+@series Rugrats
+@season 2
+@icon bottle
+@number 5
+@description The Pickles take the babies to the zoo. Tommy decides the animals look sad in their cages and plans a jailbreak. Angelica wants a giant Reptar from the gift shop. Grandpa Lou wants a nap on a bench.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC happy
+SCENE the_zoo cut
+TITLE
+PLACE didi center left excited
+PLACE stu midright left happy
+PLACE grandpa_lou right left nervous
+DIDI (excited): The zoo! According to Dr. Lipschitz, seeing animals helps babies learn new words!
+STU (happy): Like "lion." And "monkey." And "please don't put your hand in there."
+GRANDPA_LOU (nervous): In my day, we didn't need a zoo. We had a farm. With a goat that ate my homework.
+DIDI (happy): That's lovely, Pop.
+GRANDPA_LOU (smug): It was not lovely. It was a mean goat.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC jazz
+SCENE the_zoo
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): Look, guys! A giraffe! It's got the longest neck in the world!
+PHIL (excited): How does it eat its food? It's so far down!
+LIL (smug): It doesn't eat food, Phillip. It eats trees.
+CHUCKIE (nervous): Is it gonna eat us? We're kinda like trees. We have arms.
+TOMMY (happy): You don't look like a tree, Chuckie. Maybe a bush.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC sad
+SCENE the_zoo
+PLACE tommy center right sad
+PLACE chuckie midleft right nervous
+TOMMY (sad): Chuckie, look at that monkey. He's in a cage. Just like we're in a playpen.
+CHUCKIE (nervous): Maybe he likes it in there.
+TOMMY (sad): Nobody likes being in a playpen, Chuckie. He wants to swing in the trees. Just like we want to swing on the swing.
+CHUCKIE (scared): Tommy. I know that look. That's your "let's do something dangerous" look.
+TOMMY (smug): A baby's gotta do what a baby's gotta do.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC sneaky
+SCENE the_zoo
+PLACE angelica center left excited
+PLACE stu midright left nervous
+ANGELICA (excited): Uncle Stu! The gift shop has a giant Reptar! As big as me! I want it!
+STU (nervous): It's forty dollars, Angelica.
+ANGELICA (sad): But Uncle Stu... I'll be good. Forever. Starting now.
+STU (smug): Ha! I've heard that one before.
+ANGELICA (angry): Then I'll be good starting tomorrow!
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC sneaky 2
+SCENE the_zoo
+CARD The plan...
+PLACE tommy center right smug
+PLACE phil midleft right excited
+PLACE lil midright left excited
+TOMMY (smug): Okay, guys. When the grown-ups aren't looking, we free the monkey.
+PHIL (excited): How do we open the cage?
+TOMMY (smug): The same way I open the playpen. With my screwdriver.
+LIL (surprised): You brought your screwdriver to the zoo?
+TOMMY (happy): I bring it everywhere. In my diaper.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC jazz 2
+SCENE the_zoo
+PLACE grandpa_lou center left happy
+PLACE didi midright left nervous
+GRANDPA_LOU (happy): I'm gonna rest my eyes on this bench for a minute, Didi.
+DIDI (nervous): Pop, you're supposed to be watching the babies while I get the snacks.
+GRANDPA_LOU (smug): I can watch 'em with my eyes closed. I raised Stu and Drew, didn't I?
+DIDI (nervous): That's what worries me.
+SFX whoosh
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC tense
+SCENE the_zoo
+PLACE tommy center right nervous
+PLACE chuckie midleft right scared
+SFX squeak
+TOMMY (nervous): Almost got it. One more turn.
+CHUCKIE (scared): Tommy, what if the monkey is mad at us? What if he throws bananas?
+SFX door
+TOMMY (excited): It's open! Come on out, Mister Monkey! You're free!
+NARRATOR: The monkey looked at Tommy. Then he looked at the open door. Then he looked at the snack cart.
+CHUCKIE (surprised): He's going to the snack cart.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC action
+SCENE the_zoo
+PLACE didi center left scared
+PLACE stu midright left scared
+SFX gasp
+DIDI (scared): Stu! There's a monkey! He's eating our snacks!
+STU (scared): He's got the animal crackers, Deed! The good ones!
+NARRATOR: The monkey grabbed a banana, a juice box, and a bag of animal crackers. Then he climbed up the lamp post.
+STU (angry): Hey! Those are monkey-shaped crackers! That's just rude!
+DIDI (nervous): Stu, where are the babies?
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC jazz
+SCENE the_zoo
+PLACE angelica center left surprised
+PLACE tommy midright left nervous
+ANGELICA (surprised): You dumb babies let a monkey out?!
+TOMMY (nervous): He looked sad, Angelica. We wanted him to be free.
+ANGELICA (smug): You know what happens to babies who let monkeys out? They have to live in the cage!
+TOMMY (scared): Really?
+ANGELICA (excited): Unless... you help me get the giant Reptar.
+TOMMY (smug): No deal, Angelica.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC action 2
+SCENE the_zoo
+PLACE tommy center right excited
+PLACE phil midleft right excited
+PLACE lil midright left excited
+PLACE chuckie right left nervous
+TOMMY (excited): The monkey's on the lamp post! He's gonna get in trouble! We gotta help him!
+PHIL (excited): What do monkeys like?
+LIL (excited): Bananas!
+TOMMY (happy): Chuckie! You still got that banana in your pocket?
+CHUCKIE (nervous): I was saving it for later, Tommy.
+TOMMY (smug): It IS later, Chuckie.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC happy
+SCENE the_zoo
+PLACE chuckie center right nervous
+PLACE grandpa_lou midleft right surprised
+PLACE tommy midright left happy
+NARRATOR: Chuckie held up his banana. The monkey slid down the lamp post. He took the banana, patted Chuckie on the head, and walked right back into his cage.
+SFX door
+CHUCKIE (surprised): He went home, Tommy!
+GRANDPA_LOU (surprised): Well, I'll be. That monkey just let himself back in. And the little redhead fed him.
+TOMMY (happy): Maybe he liked his cage after all. He just wanted a snack.
+CHUCKIE (smug): Everybody gets grumpy without a snack.
+
+# ------------------------------------------------------------ THE ZOO
+MUSIC jazz 2
+SCENE the_zoo
+CARD The gift shop...
+PLACE angelica center left sad
+PLACE stu midright left smug
+ANGELICA (sad): Uncle Stu, I didn't get the giant Reptar.
+STU (smug): Nope. But I got you something else. A little Reptar keychain.
+ANGELICA (surprised): It's... it's tiny.
+STU (happy): Small Reptar, big heart.
+ANGELICA (shy): ...Thanks, Uncle Stu. I'll call him Mini.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC romantic
+SCENE pickles_living_room
+CARD Back home...
+PLACE tommy center right happy
+PLACE chuckie midleft right happy
+PLACE didi midright left happy
+DIDI (happy): Did you have fun at the zoo, Tommy? Can you say "monkey"?
+TOMMY (happy): Chuckie, I learned something today. Sometimes a cage isn't so bad. If somebody brings you snacks.
+CHUCKIE (smug): That's why I like the playpen.
+DIDI (excited): Stu! He said "Ma-ky"! He's a genius!
+END

@@ -44,6 +44,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"funnie_garage": _funnie_garage(b)
 		"bluffington_fair": _bluffington_fair(b)
 		"bluffington_cinema": _bluffington_cinema(b)
+		# Rugrats
+		"the_playpen": _the_playpen(b)
+		"sandbox": _sandbox(b)
+		"drew_house": _drew_house(b)
+		"deville_house": _deville_house(b)
+		"the_zoo": _the_zoo(b)
+		"beach_day": _beach_day(b)
+		"the_airport": _the_airport(b)
+		"the_circus": _the_circus(b)
+		"dentist_office": _dentist_office(b)
+		"reptar_arena": _reptar_arena(b)
 		_: return false
 	return true
 
@@ -83,6 +94,25 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 8:
 				var c := Vector2(1040, 250) + Vector2(cos(a + i * TAU / 8.0), sin(a + i * TAU / 8.0)) * 150
 				Art.shape(ci, Art.rrect(Rect2(c - Vector2(16, 12), Vector2(32, 24)), 6), [Color("e6452f"), Color("5aa84a"), Color("f2c14e")][i % 3], 2.5)
+		"beach_day":
+			for i in 3:
+				var y := 470.0 + i * 26.0 + sin(t * 1.6 + i) * 6.0
+				Art.stroke(ci, Art.curve(Vector2(-PAD, y), Vector2(640, y - 10), Vector2(W + PAD, y), 16), 3.0, Color(1, 1, 1, 0.7))
+			var gx := fmod(t * 60.0, W + 300) - 150
+			Art.stroke(ci, PackedVector2Array([Vector2(gx - 22, 120), Vector2(gx, 132), Vector2(gx + 22, 120)]), 4.0)
+		"the_airport":
+			var px := fmod(t * 90.0, W + 600) - 300
+			Art.shape(ci, Art.rrect(Rect2(px - 120, 180, 240, 34), 17), Color("f4f4f2"), 3.0)
+			Art.shape(ci, PackedVector2Array([Vector2(px - 20, 196), Vector2(px + 30, 196), Vector2(px - 40, 250)]), Color("d0d4dc"), 3.0)
+			Art.shape(ci, PackedVector2Array([Vector2(px - 120, 196), Vector2(px - 90, 196), Vector2(px - 130, 150)]), Color("e6452f"), 3.0)
+		"the_circus":
+			var sx := 640.0 + sin(t * 1.4) * 160.0
+			Art.stroke(ci, PackedVector2Array([Vector2(640, 60), Vector2(sx, 230)]), 2.0)
+			Art.shape(ci, Art.rrect(Rect2(sx - 40, 228, 80, 10), 3), Color("f2c14e"), 2.5)
+		"reptar_arena":
+			for i in 24:
+				var k := fmod(i * 0.37 + t * 0.2, 1.0)
+				Art.dot(ci, Vector2(fmod(i * 131.0, W), 40 + k * 500), 3, Color(0.8, 0.95, 1.0, 0.7 * (1.0 - k)))
 		_: pass
 
 
@@ -570,3 +600,185 @@ static func _bluffington_cinema(b: Backdrop) -> void:
 			var x := 60.0 + i * 150.0 + j * 70
 			Art.shape(b.ci, Art.rrect(Rect2(x, 440 + j * 70, 110, 70), 16), Color("b3202f"), 3.5, 0.12)
 	b._sign(Rect2(440, 200, 400, 60), "NOW SHOWING", Color("2b2b33"), Color("f2c14e"), 34)
+
+
+# ------------------------------------------------------------- Rugrats --
+
+static func _the_playpen(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f6d9a6"), Color("e8c48a"), 520, Color("9fb87a"), "carpet")
+	b._window(Rect2(900, 110, 220, 170), Color.WHITE, Color("bfe0f2"))
+	# The playpen fills the room: netting behind, blocks and a ball inside
+	b.ci.draw_rect(Rect2(40, 220, 1200, 300), Color(1, 1, 1, 0.25))
+	for i in 41:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(40 + i * 30, 220), Vector2(40 + i * 30, 520)]), 1.5, Color("8a96a3"))
+	Art.shape(b.ci, Art.rrect(Rect2(30, 206, 1220, 20), 8), Color("4a78d0"), 3.5)
+	var cols := [Color("e6452f"), Color("f2c14e"), Color("4a78d0"), Color("5aa84a")]
+	for i in 4:
+		var x: float = 150.0 + i * 64.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 470 - (i % 2) * 50, 56, 50), 6), cols[i], 3.0, 0.1)
+		Art.text(b.ci, b.sign_font, Vector2(x, 508 - (i % 2) * 50), ["A", "B", "C", "D"][i], 28, Color.WHITE, 4, HORIZONTAL_ALIGNMENT_CENTER, 56)
+	Art.blob(b.ci, Vector2(1060, 480), 40, 40, Color("e6452f"), 4.0, 0.12)
+	Art.stroke(b.ci, Art.arc_pts(Vector2(1060, 480), 40, 12, 0, PI, 10), 4.0, Color.WHITE)
+
+
+static func _sandbox(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 470)
+	SetsExtra._fence(b, 360, 480, Color("e9e2cf"))
+	# A big sandbox right up front, with a bucket, a shovel and a sand castle
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 500, W + PAD * 2, H)), Color("c48a4f"), 5.0)
+	b._sand(530, Color("f1dc9b"), 10.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(170, 560), Vector2(250, 560), Vector2(240, 490), Vector2(180, 490)]), Color("e6452f"), 3.5, 0.12)
+	Art.stroke(b.ci, Art.curve(Vector2(180, 490), Vector2(210, 450), Vector2(240, 490), 8), 3.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1080, 560), Vector2(1140, 440)]), 8, Color("4a78d0"))
+	Art.shape(b.ci, Art.rrect(Rect2(1046, 540, 60, 40), 12), Color("4a78d0"), 3.0)
+	for i in 3:
+		var x: float = 860.0 + i * 50.0
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x, 480 - (i % 2) * 30, 44, 70 + (i % 2) * 30)), Color("e8cf8a"), 3.0)
+	SetsExtra._tree(b, 560, 470, 0.9)
+
+
+static func _drew_house(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f4ecf6"), Color("e2d4ea"), 545, Color("c8b0d8"), "carpet")
+	# A fancy living room: white couch, a glass table, a chandelier and a portrait of Angelica
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, -PAD), Vector2(640, 80)]), 3.0)
+	for i in 5:
+		var x: float = 560.0 + i * 40.0
+		Art.blob(b.ci, Vector2(x, 100 - absf(i - 2) * 8), 10, 16, Color("f2e6a0"), 2.5)
+	Art.shape(b.ci, Art.rrect(Rect2(540, 80, 200, 16), 6), Color("f2c14e"), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(140, 160, 240, 200), 6), Color("f2c14e"), 5.0)
+	Art.shape(b.ci, Art.rrect(Rect2(160, 180, 200, 160), 4), Color("c8b0e6"), 2.5)
+	Art.blob(b.ci, Vector2(260, 250), 44, 50, Puppet.SKIN, 3.0)
+	for sx in [-1, 1]:
+		Art.blob(b.ci, Vector2(260 + sx * 56, 230), 16, 24, Color("f4d24e"), 3.0)
+		Art.dot(b.ci, Vector2(260 + sx * 14, 246), 4, INK)
+	Art.shape(b.ci, Art.rrect(Rect2(780, 380, 400, 165), 30), Color("f8f6f2"), 4.0, 0.1)
+	Art.shape(b.ci, Art.rrect(Rect2(480, 470, 200, 14), 4), Color(0.7, 0.85, 0.95, 0.7), 3.0)
+	b._sign(Rect2(470, 180, 340, 50), "PRINCESS ONLY", Color("f28cb8"), Color.WHITE, 26)
+
+
+static func _deville_house(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 520, Color("8fbf5a"))
+	SetsExtra._house(b, Rect2(720, 200, 520, 320), Color("c8e0b0"), Color("9b5fd0"))
+	SetsExtra._fence(b, 400, 520, Color("f2f2ee"))
+	# A big muddy puddle full of worms
+	Art.blob(b.ci, Vector2(340, 600), 260, 50, Color("8a5a36"), 4.0, 0.15)
+	for i in 5:
+		var x: float = 180.0 + i * 70.0
+		Art.stroke(b.ci, Art.curve(Vector2(x, 600), Vector2(x + 14, 584 + (i % 2) * 6), Vector2(x + 28, 600), 8), 5.0, Color("f28cb8"))
+	b._sign(Rect2(60, 380, 260, 50), "WORM CROSSING", Color("f2c14e"), INK, 24)
+
+
+static func _the_zoo(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 520, Color("a8c86a"))
+	# A giraffe behind a fence, a monkey cage and the zoo gate
+	var g := Color("f2c14e")
+	Art.limb(b.ci, PackedVector2Array([Vector2(300, 420), Vector2(330, 200)]), 30, g)
+	Art.blob(b.ci, Vector2(340, 190), 36, 22, g, 4.0)
+	Art.blob(b.ci, Vector2(290, 440), 80, 50, g, 4.0, 0.12)
+	for d in [Vector2(270, 430), Vector2(320, 450), Vector2(312, 300), Vector2(326, 240)]:
+		Art.dot(b.ci, d, 9, Color("c8742a"))
+	Art.dot(b.ci, Vector2(352, 184), 5, INK)
+	for x in [240, 330]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 470), Vector2(x, 520)]), 12, g)
+	SetsExtra._fence(b, 440, 530, Color("c48a4f"))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(780, 240, 380, 280)), Color("8a96a3").lightened(0.5), 4.0)
+	for i in 13:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(790 + i * 30, 240), Vector2(790 + i * 30, 520)]), 4.0, Color("6a6a7a"))
+	Art.blob(b.ci, Vector2(960, 420), 34, 30, Color("8a5a36"), 3.5)
+	Art.blob(b.ci, Vector2(960, 380), 24, 22, Color("8a5a36"), 3.5)
+	Art.blob(b.ci, Vector2(960, 386), 14, 12, Color("e8c8a0"), 2.5)
+	b._sign(Rect2(470, 80, 340, 60), "THE ZOO", Color("5aa84a"), Color.WHITE, 38)
+
+
+static func _beach_day(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("5fb8f0"), Color("cdeefa"))
+	Art.dot(b.ci, Vector2(1120, 110), 60, Color("f7e27a"))
+	SetsExtra._water(b, 380, 520, Color("3fa0d8"))
+	b._sand(520, Color("f4e2a6"), 12.0)
+	# Beach umbrella, towel and a lifeguard chair
+	Art.limb(b.ci, PackedVector2Array([Vector2(300, 600), Vector2(330, 380)]), 7, Color("f4f4f2"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(330, 390), 160, 70, PI, TAU, 18), Color("e6452f"), 4.0)
+	for i in 3:
+		var a: float = PI + (i + 1) * PI / 4.0
+		Art.stroke(b.ci, PackedVector2Array([Vector2(330, 390), Vector2(330 + cos(a) * 160, 390 + sin(a) * 70)]), 3.0, Color.WHITE)
+	Art.shape(b.ci, Art.rrect(Rect2(420, 600, 200, 50), 6), Color("f2c14e"), 3.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(980, 610), Vector2(1020, 420)]), 8, Color.WHITE)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1120, 610), Vector2(1080, 420)]), 8, Color.WHITE)
+	Art.shape(b.ci, Art.rrect(Rect2(1000, 400, 100, 26), 4), Color("e6452f"), 3.0)
+
+
+static func _the_airport(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("dfe6ee"), Color("c8d2de"), 560, Color("b8c0c8"), "tile")
+	# Giant windows onto the runway (planes fly past in the moving layer)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 60, W + PAD * 2, 330)), Color("9fd0f2"), 4.0)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 330, W + PAD * 2, 60)), Color("8a8a8a"), 0.0)
+	for i in 8:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD + i * 200, 60), Vector2(-PAD + i * 200, 390)]), 6.0, Color("6a6a7a"))
+	b._sign(Rect2(80, 410, 280, 50), "GATE 9", Color("2b3a6a"), Color("f2c14e"), 30)
+	# Luggage carousel and a pile of suitcases
+	Art.shape(b.ci, Art.rrect(Rect2(700, 470, 480, 70), 30), Color("4a4d55"), 4.0)
+	var cols := [Color("e6452f"), Color("4a78d0"), Color("f2c14e"), Color("5aa84a")]
+	for i in 4:
+		var x: float = 740.0 + i * 110.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 420 + (i % 2) * 10, 90, 60), 8), cols[i], 3.0, 0.1)
+		Art.stroke(b.ci, Art.arc_pts(Vector2(x + 45, 420 + (i % 2) * 10), 16, 12, PI, TAU, 8), 3.0)
+
+
+static func _the_circus(b: Backdrop) -> void:
+	# Inside the big top: red and white stripes, a ring and the trapeze
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("4a1a2a"), Color("8a2a3a"))
+	b._sky_bottom = Color("8a2a3a")
+	for i in 12:
+		var x0: float = -PAD + i * 130.0
+		Art.shape(b.ci, PackedVector2Array([Vector2(640, -PAD), Vector2(x0, 520), Vector2(x0 + 65, 520)]),
+			Color("e6452f") if i % 2 == 0 else Color("f4f2ec"), 0.0)
+	SetsExtra._fill_band(b, 520, H + PAD, Color("d8b07a"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 600), 520, 70, 0, TAU, 40), Color("e8c890"), 6.0)
+	Art.stroke(b.ci, Art.arc_pts(Vector2(640, 600), 520, 70, 0, TAU, 40), 10.0, Color("e6452f"))
+	Art.shape(b.ci, Art.rrect(Rect2(60, 340, 140, 180), 10), Color("f28cb8"), 4.0)
+	Art.blob(b.ci, Vector2(130, 320), 50, 40, Color("f7c6d6"), 3.5)
+	b._sign(Rect2(50, 470, 160, 40), "COTTON CANDY", Color("f4f4f2"), Color("e6452f"), 18)
+	for sx in [-1, 1]:
+		Art.dot(b.ci, Vector2(640 + sx * 300, 120), 30, Color(1, 1, 0.8, 0.5))
+
+
+static func _dentist_office(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("dff2f0"), Color("c4e4e0"), 550, Color("e8e8e0"), "tile")
+	# The big chair, the bright light and a fish tank
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(700, 520), Vector2(700, 440), Vector2(820, 430), Vector2(900, 300),
+		Vector2(950, 310), Vector2(900, 470), Vector2(940, 520)]), 4), Color("4ab8a8"), 4.5, 0.12)
+	Art.limb(b.ci, PackedVector2Array([Vector2(820, 520), Vector2(820, 560)]), 18, Color("8a96a3"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(1100, -PAD), Vector2(1100, 160), Vector2(960, 200)]), 8, Color("8a96a3"))
+	Art.blob(b.ci, Vector2(950, 210), 40, 26, Color("f4f4f2"), 3.5)
+	Art.dot(b.ci, Vector2(950, 214), 16, Color("fff4a0"))
+	Art.shape(b.ci, Art.rrect(Rect2(110, 300, 320, 200), 8), Color("5ab0e0"), 5.0, 0.1)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(116, 306, 308, 30)), Color("bfe6f6"), 0.0)
+	Art.shape(b.ci, Art.rrect(Rect2(100, 500, 340, 50), 4), Color("8a5a36"), 4.0)
+	for d in [Vector2(200, 400), Vector2(320, 440)]:
+		Art.blob(b.ci, d, 22, 14, Color("f2852a"), 3.0)
+		Art.shape(b.ci, PackedVector2Array([d + Vector2(18, 0), d + Vector2(36, -12), d + Vector2(36, 12)]), Color("f2852a"), 2.5)
+	b._sign(Rect2(480, 90, 320, 56), "SMILE!", Color.WHITE, Color("4ab8a8"), 36)
+
+
+static func _reptar_arena(b: Backdrop) -> void:
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("1a2a4a"), Color("3a5a8a"))
+	b._sky_bottom = Color("3a5a8a")
+	# Seats full of fans, a frozen rink and a giant ice Reptar
+	for j in 4:
+		for i in 26:
+			Art.dot(b.ci, Vector2(-20 + i * 52 + (j % 2) * 26, 80 + j * 50), 14, Color.from_hsv(fmod(i * 0.13 + j * 0.3, 1.0), 0.5, 0.9))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 300, W + PAD * 2, 30)), Color("e6452f"), 4.0)
+	SetsExtra._fill_band(b, 500, H + PAD, Color("e4f4fc"))
+	Art.stroke(b.ci, Art.arc_pts(Vector2(640, 600), 220, 50, 0, TAU, 30), 4.0, Color("6fb3e8"))
+	var g := Color("6fbf6a")
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(560, 500), Vector2(550, 380), Vector2(590, 300), Vector2(690, 280),
+		Vector2(740, 320), Vector2(720, 400), Vector2(730, 500)]), 5), g, 5.0, 0.15)
+	for i in 4:
+		Art.shape(b.ci, PackedVector2Array([Vector2(570 + i * 6, 330 + i * 40), Vector2(536 + i * 4, 346 + i * 40), Vector2(566 + i * 6, 364 + i * 40)]), Color("9b5fd0"), 3.0)
+	Art.blob(b.ci, Vector2(690, 310), 10, 10, Color.WHITE, 3.0)
+	Art.dot(b.ci, Vector2(693, 310), 4, INK)
+	b._sign(Rect2(420, 340, 440, 56), "REPTAR ON ICE!", Color("2b3a6a"), Color("6dff8a"), 34)
+
