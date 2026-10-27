@@ -1,0 +1,151 @@
+@title Magolor's Starship
+@series Kirby
+@season 1
+@icon warpstar
+@number 7
+@description Magolor's starship, the Lor Starcutter, crashes in Dream Land and breaks into five pieces. Kirby and Bandana Dee help him find the parts. Magolor says thank you a lot. Magolor also seems to be hiding something.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC tense
+SCENE green_greens cut
+TITLE
+PLACE kirby center right happy
+SFX whoosh
+SFX blast
+SHAKE 1.0
+KIRBY (surprised): Poyo?!
+NARRATOR: A giant flying ship crashed in the middle of Green Greens. It was shaped like a sailboat. It was smoking. Out stumbled a small, hooded creature with big ears.
+ENTER magolor left midleft nervous
+MAGOLOR (nervous): Oh dear. Oh dear, oh dear. My beautiful ship. My Lor Starcutter.
+KIRBY (nervous): Poyo poyo?
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC sad
+SCENE green_greens
+PLACE magolor center left sad
+PLACE kirby midright left nervous
+MAGOLOR (sad): Hello, little pink friend. I'm Magolor. My ship broke into pieces when it crashed. Five pieces. Scattered all over Dream Land.
+KIRBY (sad): Poyo...
+MAGOLOR (sad): Without them, I can never fly home.
+KIRBY (excited): Poyo!
+MAGOLOR (surprised): You'll help me? Really? You don't even know me.
+KIRBY (happy): Poyo poyo!
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC jazz
+SCENE dedede_castle
+PLACE bandana_dee center left excited
+ENTER kirby right midright excited
+ENTER magolor right right happy
+BANDANA_DEE (excited): A starship? That fell from the sky? Kirby, that's amazing! I'll help too!
+MAGOLOR (happy): How kind! Dream Land is full of such kind people.
+BANDANA_DEE (happy): What do the pieces look like?
+MAGOLOR (smug): The oars. The mast. The sail. The wings. And the most important piece. The Master Crown.
+BANDANA_DEE (surprised): A crown? On a ship?
+MAGOLOR (nervous): It's... the steering wheel. Very important steering wheel. Shaped like a crown. For no reason.
+
+# ------------------------------------------------------------ ORANGE OCEAN
+MUSIC happy
+SCENE orange_ocean
+PLACE kirby center right excited
+PLACE bandana_dee midleft right excited
+BANDANA_DEE (excited): Look! The oars! Floating in the ocean!
+KIRBY (excited): Poyo!
+SFX whoosh
+NARRATOR: Kirby inhaled. The oars flew out of the water and into his mouth. Then he spat them out, because oars don't taste good.
+BANDANA_DEE (happy): One piece down!
+KIRBY (happy): Poyo!
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC jazz 2
+SCENE whispy_forest
+PLACE whispy_woods center left angry
+ENTER kirby right midright excited
+ENTER bandana_dee right right excited
+WHISPY_WOODS (angry): Ohhh! A big pole fell out of the sky and landed in my branches!
+BANDANA_DEE (excited): That's the mast!
+WHISPY_WOODS (smug): You may have it. If you can get it out. It's very stuck.
+KIRBY (excited): Poyo!
+SFX boing
+NARRATOR: Kirby climbed. Kirby pulled. Kirby tickled Whispy with a feather until he laughed so hard the mast fell out.
+WHISPY_WOODS (happy): Hohoho! Stop! Stop! Here, take it!
+
+# ------------------------------------------------------------ CLOUDY PARK
+MUSIC happy 2
+SCENE cloudy_park
+PLACE kirby center right happy
+PLACE bandana_dee midleft right happy
+NARRATOR: The sail was caught on a cloud. The wings were stuck in Ice Cream Island. By the end of the day, they had found four pieces. All except the crown.
+BANDANA_DEE (nervous): Where could the Master Crown be?
+KIRBY (nervous): Poyo...
+BANDANA_DEE (surprised): Wait. Magolor never helps look. Have you noticed? He always stays at the ship.
+
+# ------------------------------------------------------------ HALBERD DECK
+MUSIC tense
+SCENE halberd_deck
+PLACE meta_knight center left neutral
+PLACE bandana_dee midright left nervous
+META_KNIGHT (neutral): The Master Crown. I've heard of it. It's not a steering wheel.
+BANDANA_DEE (surprised): It's not?
+META_KNIGHT (neutral): It's an ancient crown of terrible power. Whoever wears it can rule the universe.
+BANDANA_DEE (scared): And Magolor wants it?
+META_KNIGHT (smug): I suspect Magolor already knows exactly where it is.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC sneaky
+SCENE green_greens
+PLACE magolor center left smug
+MAGOLOR (smug): Four pieces found. The ship is almost ready. And those sweet little fools still think the crown is a steering wheel.
+MAGOLOR (excited): The crown was never lost. I hid it in my hood. All along!
+MAGOLOR (smug): Once the ship is fixed, I'll fly to Halcandra and put it on. And then... the universe!
+MAGOLOR (nervous): ...It sounded better in my head.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC tense 2
+SCENE green_greens
+PLACE magolor center left nervous
+PLACE kirby midright left sad
+PLACE bandana_dee right left angry
+BANDANA_DEE (angry): Magolor! We heard you! The crown was in your hood the whole time!
+MAGOLOR (scared): Ah. Hello. How long have you been standing there?
+KIRBY (sad): Poyo...
+MAGOLOR (nervous): I can explain! Ruling the universe is a very... reasonable goal. For a wizard.
+BANDANA_DEE (angry): We spent all day helping you!
+KIRBY (sad): Poyo poyo.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC sad
+SCENE green_greens
+PLACE magolor center left sad
+PLACE kirby midright left sad
+MAGOLOR (sad): Kirby. Why do you look so sad? I'm the villain. You should be angry.
+KIRBY (sad): Poyo.
+MAGOLOR (surprised): You're sad because... you thought we were friends?
+KIRBY (sad): Poyo poyo.
+MAGOLOR (shy): Nobody has ever helped me before. Not without wanting something.
+MAGOLOR (sad): I don't think I've ever had a friend.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC romantic
+SCENE green_greens
+PLACE magolor center left shy
+PLACE kirby midright left happy
+PLACE bandana_dee right left surprised
+NARRATOR: Magolor took the Master Crown out of his hood. He looked at it for a long time. Then he gave it to Kirby.
+MAGOLOR (shy): Keep it safe. Somewhere I can't find it. I don't trust myself with it.
+KIRBY (happy): Poyo!
+NARRATOR: Kirby swallowed it. That was safe. Nobody would ever look there.
+BANDANA_DEE (surprised): Kirby! You can't just... okay, actually, that works.
+
+# ------------------------------------------------------------ RAINBOW RESORT
+MUSIC happy 3
+SCENE rainbow_resort
+CARD One week later...
+PLACE magolor center left happy
+PLACE kirby midright left happy
+MAGOLOR (happy): The Lor Starcutter is fixed. I could fly home now.
+KIRBY (sad): Poyo?
+MAGOLOR (smug): But I think I'll stay. I've opened a little shop here at Rainbow Resort. Souvenirs. Snacks. No universe-ruling items. I promise.
+KIRBY (excited): Poyo poyo!
+MAGOLOR (shy): And Kirby gets everything for free. Friends' discount.
+END

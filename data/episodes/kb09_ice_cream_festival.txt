@@ -1,0 +1,154 @@
+@title The Ice Cream Festival
+@series Kirby
+@season 1
+@icon warpstar
+@number 9
+@description It's the hottest day of the year, and Ice Cream Island is having its yearly festival. The giant ice cream sculpture of King Dedede is starting to melt. Kirby has to save it without eating it. This is very hard for Kirby.
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC happy
+SCENE ice_cream_island cut
+TITLE
+PLACE ribbon center left excited
+PLACE kirby midright left excited
+RIBBON (excited): Kirby! The Ice Cream Festival is today! There's ice cream boats, ice cream slides and a giant ice cream statue!
+KIRBY (excited): Poyo!
+RIBBON (smug): But you can't eat the statue, Kirby. It's art.
+KIRBY (surprised): Poyo?
+RIBBON (happy): It's a statue of King Dedede. Made of strawberry ice cream. It took a week to make.
+KIRBY (nervous): ...Poyo.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC jazz
+SCENE dedede_castle
+PLACE dedede center left excited
+PLACE waddle_dee midright left nervous
+DEDEDE (excited): A statue of me! Made of ice cream! Finally, the people of Dream Land understand true beauty!
+WADDLE_DEE (nervous): Your Majesty, it's very hot today. The hottest day of the year.
+DEDEDE (smug): So?
+WADDLE_DEE (nervous): Ice cream. And heat. Those aren't friends, sir.
+DEDEDE (angry): Nonsense! A statue of the king would never dare to melt!
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC happy 2
+SCENE ice_cream_island
+PLACE adeleine center left excited
+PLACE kirby midright left happy
+ADELEINE (excited): I'm painting the festival! Look, Kirby. The ice cream boats. The sprinkle rain. The big statue.
+KIRBY (happy): Poyo!
+ADELEINE (nervous): Wait. Is the statue's nose... drooping?
+KIRBY (surprised): Poyo?
+NARRATOR: The ice cream king's nose had started to droop. Just a little. Then a little more. A pink drip ran down his chin.
+ADELEINE (scared): It's melting!
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC tense
+SCENE ice_cream_island
+PLACE ribbon center left scared
+PLACE kirby midright left nervous
+PLACE bandana_dee left right nervous
+RIBBON (scared): The statue's melting! The festival starts in one hour!
+BANDANA_DEE (nervous): The king is coming to see it! If it's a puddle when he gets here, he'll be so upset!
+KIRBY (nervous): Poyo!
+RIBBON (nervous): We need shade. Or cold. Or a miracle.
+BANDANA_DEE (excited): Whispy Woods! He's the biggest tree in Dream Land! He makes the best shade!
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC jazz 2
+SCENE whispy_forest
+PLACE whispy_woods center left neutral
+ENTER kirby right midright excited
+ENTER bandana_dee right right nervous
+BANDANA_DEE (nervous): Whispy! We need your shade! On Ice Cream Island!
+WHISPY_WOODS (surprised): My shade? I'm a tree. I don't walk.
+KIRBY (sad): Poyo...
+WHISPY_WOODS (smug): But I do have a lot of very large leaves. And I'm about to shed them anyway. Autumn is coming.
+BANDANA_DEE (excited): Leaves! Giant umbrella leaves!
+WHISPY_WOODS (happy): Take as many as you can carry. Hohoho.
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC action
+SCENE ice_cream_island
+PLACE kirby center right excited
+PLACE ribbon midleft right excited
+NARRATOR: Kirby carried a hundred giant leaves to Ice Cream Island. In his mouth. He did not eat a single one. Leaves are not snacks. Mostly.
+RIBBON (excited): Stack them over the statue! Like a big green umbrella!
+KIRBY (excited): Poyo!
+SFX whoosh
+NARRATOR: The leaf umbrella cast a cool, dark shadow. The drip stopped. The ice cream king's nose stood up straight again.
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC tense 2
+SCENE ice_cream_island
+PLACE ribbon center left nervous
+PLACE kirby midright left nervous
+NARRATOR: Then the wind picked up. A hot wind. Straight from the Orange Ocean.
+SFX whoosh
+RIBBON (scared): The leaves! They're blowing away!
+SFX whoosh
+NARRATOR: One by one, the leaves flew off into the sky. The statue started dripping again. Faster now. His crown was sliding sideways.
+KIRBY (scared): Poyo!
+
+# ------------------------------------------------------------ HALBERD DECK
+MUSIC jazz
+SCENE halberd_deck
+PLACE meta_knight center left neutral
+ENTER bandana_dee right midright scared
+BANDANA_DEE (scared): Meta Knight! The ice cream statue is melting! The wind blew away the leaves!
+META_KNIGHT (neutral): Then you need wind going the other direction. Cold wind.
+BANDANA_DEE (surprised): Where do we get cold wind?
+META_KNIGHT (smug): Kirby can inhale. And Kirby can exhale. He just needs something cold to breathe in first.
+BANDANA_DEE (excited): The ice cream boats! They're full of cold air!
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC action 2
+SCENE ice_cream_island
+PLACE kirby center right excited
+PLACE bandana_dee midleft right excited
+BANDANA_DEE (excited): Kirby! Inhale the cold air from the freezer boats! Then blow it on the statue!
+KIRBY (excited): Poyo!
+SFX whoosh
+NARRATOR: Kirby inhaled the cold air from the ice cream boats. He puffed up like a big pink balloon. A very cold balloon. With frost on his cheeks.
+SFX whoosh
+SHAKE 0.6
+NARRATOR: Then he blew. A huge, freezing gust. The statue froze solid. Every drip turned to an icicle.
+KIRBY (happy): Poyo!
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC happy
+SCENE ice_cream_island
+CARD The festival...
+PLACE dedede center left excited
+PLACE kirby midright left happy
+PLACE ribbon midleft right happy
+DEDEDE (excited): Look at it! Look at me! Magnificent! And... sparkly?
+RIBBON (happy): Those are icicles, Your Majesty. Kirby froze it to keep it from melting.
+DEDEDE (surprised): Kirby saved my statue?
+KIRBY (smug): Poyo.
+DEDEDE (shy): Well. That was very... unexpectedly decent of you, Kirby.
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC happy 3
+SCENE ice_cream_island
+PLACE dedede center left happy
+PLACE kirby midright left excited
+PLACE waddle_dee midleft right happy
+DEDEDE (happy): As a reward, Kirby, you may have one scoop. Of the statue. Any part you like.
+KIRBY (excited): Poyo!
+WADDLE_DEE (nervous): Sir, he's going to choose the biggest part.
+DEDEDE (smug): Nonsense. He'll take a little scoop. A polite scoop.
+SFX chomp
+NARRATOR: Kirby chose the crown. And the head. And part of the belly. It was one scoop. It was a very big scoop.
+
+# ------------------------------------------------------------ ICE CREAM ISLAND
+MUSIC romantic
+SCENE ice_cream_island
+CARD Sunset...
+PLACE adeleine center left happy
+PLACE kirby midright left happy
+ADELEINE (happy): I painted the whole festival, Kirby. The boats. The leaves. And you, blowing the cold wind.
+KIRBY (happy): Poyo!
+ADELEINE (smug): I painted the statue too. Before you ate its head.
+KIRBY (shy): ...Poyo.
+NARRATOR: King Dedede hung the painting in his throne room. He said it was the best portrait of himself ever made. He did not notice the head was missing.
+END

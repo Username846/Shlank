@@ -1,0 +1,146 @@
+@title Whispy Can't Sleep
+@series Kirby
+@season 1
+@icon warpstar
+@number 10
+@description Whispy Woods hasn't slept in a week, and when a giant tree can't sleep, nobody in the forest can. Everyone tries to help. Dedede tries a lullaby. Meta Knight tries a bedtime story. Kirby tries a nap. A really big nap.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC sad
+SCENE whispy_forest cut
+TITLE
+PLACE whispy_woods center left sad
+ENTER kirby right midright happy
+KIRBY (happy): Poyo!
+WHISPY_WOODS (sad): Ohhh. Good morning, Kirby. Or good night. I don't know anymore.
+KIRBY (surprised): Poyo?
+WHISPY_WOODS (sad): I haven't slept in seven days. Every time I close my eyes, my leaves rustle. And then I'm awake again.
+KIRBY (sad): Poyo...
+NARRATOR: When Whispy couldn't sleep, he sighed. When he sighed, the whole forest shook. And then nobody else could sleep either.
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC jazz
+SCENE kirby_house
+PLACE kirby center right nervous
+PLACE bandana_dee midleft right sad
+PLACE waddle_doo left right sad
+BANDANA_DEE (sad): Kirby, nobody in Dream Land is sleeping. Whispy keeps sighing all night.
+WADDLE_DOO (sad): I fell asleep standing up this morning. In the middle of a sentence. Zap... zzz.
+BANDANA_DEE (nervous): We have to help him sleep. For everyone's sake.
+KIRBY (excited): Poyo!
+NARRATOR: Kirby knew everything about sleeping. Sleeping was his second favorite thing. After eating. And before more eating.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC happy
+SCENE dedede_castle
+PLACE dedede center left smug
+ENTER kirby right midright nervous
+DEDEDE (smug): A tree that can't sleep? Leave it to the king. I have the most beautiful singing voice in Dream Land.
+KIRBY (nervous): Poyo?
+DEDEDE (excited): I'll sing him a royal lullaby! He'll be asleep in seconds!
+NARRATOR: Nobody had ever heard King Dedede sing. There was a reason for that.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC tense
+SCENE whispy_forest
+PLACE whispy_woods center left sad
+PLACE dedede midright left excited
+DEDEDE (excited): Ahem. Lulla-byyyy! And good niiiight! Go to sleeeep, you big ugly treeeee!
+WHISPY_WOODS (surprised): Ugly?!
+DEDEDE (excited): Sleep tiiight! Or I'll smash you with my hammeeeer!
+WHISPY_WOODS (scared): That is not a lullaby! That's a threat!
+NARRATOR: Whispy did not sleep. In fact, he was more awake than ever. So were all the birds within six miles.
+
+# ------------------------------------------------------------ HALBERD DECK
+MUSIC jazz 2
+SCENE halberd_deck
+PLACE meta_knight center left neutral
+PLACE kirby midright left nervous
+META_KNIGHT (neutral): The king's song failed? Unsurprising.
+KIRBY (sad): Poyo.
+META_KNIGHT (smug): A tree needs a story. A long, slow, very calm story. I have just the one. "The History of Sword Polishing, Volume One."
+KIRBY (surprised): Poyo?
+META_KNIGHT (smug): It's four hundred pages long. Nobody has ever reached page ten awake.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC romantic
+SCENE whispy_forest
+PLACE whispy_woods center left sad
+PLACE meta_knight midright left neutral
+META_KNIGHT (neutral): Chapter one. The cloth. Choosing the right cloth for your blade is a matter of great importance.
+WHISPY_WOODS (sad): Mmm.
+META_KNIGHT (neutral): Chapter two. More about the cloth.
+WHISPY_WOODS (sad): Mmmm...
+NARRATOR: By chapter three, Kirby was asleep. By chapter four, Bandana Dee was asleep. By chapter five, Meta Knight had fallen asleep reading his own book.
+WHISPY_WOODS (sad): ...Still awake.
+
+# ------------------------------------------------------------ YOGURT YARD
+MUSIC sneaky
+SCENE yogurt_yard
+PLACE ribbon center left nervous
+PLACE adeleine midright left nervous
+RIBBON (nervous): Nothing's working. The song. The story. Even warm milk. Waddle Dee poured a whole bucket on his roots.
+ADELEINE (nervous): Maybe the problem isn't how to help him sleep. Maybe it's why he can't.
+RIBBON (surprised): What do you mean?
+ADELEINE (smug): When I can't sleep, it's usually because something's bothering me. Has anyone asked him?
+RIBBON (happy): Adeleine, that's very wise.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC sad
+SCENE whispy_forest
+CARD That night...
+PLACE whispy_woods center left sad
+PLACE kirby midright left neutral
+KIRBY (neutral): Poyo?
+WHISPY_WOODS (sad): What's bothering me? Well. It's silly.
+WHISPY_WOODS (sad): Every autumn, my leaves fall. All of them. And every autumn, I'm scared they won't grow back.
+KIRBY (sad): Poyo...
+WHISPY_WOODS (sad): They always do. But what if this year they don't? What if I'm just... bare branches? Forever?
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC romantic 2
+SCENE whispy_forest
+PLACE whispy_woods center left sad
+PLACE kirby midright left happy
+KIRBY (happy): Poyo poyo!
+NARRATOR: Kirby went to the base of Whispy's trunk. He dug a small hole. He put something in it. Then he covered it up and patted the dirt.
+WHISPY_WOODS (surprised): What did you plant, Kirby?
+KIRBY (happy): Poyo.
+NARRATOR: It was a seed. One of Whispy's own apple seeds. From an apple Kirby had eaten that morning.
+WHISPY_WOODS (surprised): A little tree. My little tree. Growing right next to me.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC romantic
+SCENE whispy_forest
+PLACE whispy_woods center left happy
+PLACE kirby midright left happy
+WHISPY_WOODS (happy): So even if my leaves fall... there will always be something growing.
+KIRBY (happy): Poyo.
+WHISPY_WOODS (shy): Thank you, Kirby. I think... I think I can sleep now.
+KIRBY (smug): Poyo poyo.
+WHISPY_WOODS (happy): Will you stay? Just until I fall asleep?
+KIRBY (happy): Poyo.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC sad
+SCENE whispy_forest
+PLACE kirby center right happy
+NARRATOR: Whispy Woods fell asleep in eleven seconds. He snored so loudly that the apples shook. But nobody minded. It was a happy snore.
+KIRBY (happy): Poyo.
+NARRATOR: Kirby curled up between Whispy's roots, right next to the new little seed. He fell asleep in five seconds. That's a Dream Land record.
+NARRATOR: All over Dream Land, for the first time in a week, everyone slept.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy 2
+SCENE green_greens
+CARD The next morning...
+PLACE dedede center left happy
+PLACE meta_knight midright left neutral
+PLACE kirby midleft right excited
+DEDEDE (happy): I slept twelve hours! I feel like a new king! Clearly my lullaby worked.
+META_KNIGHT (smug): Clearly my book worked.
+KIRBY (smug): Poyo.
+DEDEDE (surprised): What did Kirby do?
+META_KNIGHT (neutral): He listened.
+NARRATOR: Next to Whispy Woods, a tiny green sprout was poking out of the ground. It was very small. It was very happy. And it was, already, very sleepy.
+END

@@ -13,31 +13,31 @@ dialogue is voiced with a speech synthesizer.
 ## What's in it
 
 Eleven shows, each with 11 characters, at least 15 locations (166 in all), its own
-scene transition and badge, and five ~5 minute episodes (55 in all). Browse
-them under *Watch Episodes*, *Meet the Cast* and *Locations*, which each start
-with a series picker.
+scene transition and badge, and a first season of ten ~5 minute episodes (110 in
+all). Browse them under *Watch Episodes*, *Meet the Cast* and *Locations*, which
+each start with a series picker; *Watch Episodes* then asks for a season.
 
-- **SpongeBob SquarePants**. Episodes: **"The Golden Spatula"**, **"The Jellyfish Jamboree"**, **"Plankton's Perfect Plan"**, **"Test Number Sixty-Seven"**, **"The Last Bus from Glove World"**.
+- **SpongeBob SquarePants**. Season 1: **"The Golden Spatula"**, **"The Jellyfish Jamboree"**, **"Plankton's Perfect Plan"**, **"Test Number Sixty-Seven"**, **"The Last Bus from Glove World"**, **"Squidward's Day Off"**, **"Sandy's Rocket"**, **"Gary, Come Home"**, **"Pearl's Sweet Sixteen"**, **"The Fancy Chum Bucket"**.
   SpongeBob, Patrick Star, Squidward, Mr. Krabs, Sandy Cheeks, Plankton, Karen, Mrs. Puff, Pearl, Gary and Larry the Lobster.
-- **Hey Arnold!**. Episodes: **"The Locket"**, **"The Big Game"**, **"Grandma's Treasure Map"**, **"The Ghost of Hillwood Alley"**, **"The Beeper Blowout"**.
+- **Hey Arnold!**. Season 1: **"The Locket"**, **"The Big Game"**, **"Grandma's Treasure Map"**, **"The Ghost of Hillwood Alley"**, **"The Beeper Blowout"**, **"Science Partners"**, **"Grandpa's Big Fish"**, **"Rhonda's Fashion Show"**, **"The Neighborhood Garden"**, **"The Secret Poet"**.
   Arnold, Helga Pataki, Gerald, Grandpa Phil, Phoebe, Grandma Pookie, Harold, Stinky, Sid, Rhonda and Big Bob.
-- **Doug**. Episodes: **"The Beets Tickets"**, **"Quailman and the Science Fair"**, **"The School Play"**, **"Mr. Dink's Robot"**, **"Funnie for President"**.
+- **Doug**. Season 1: **"The Beets Tickets"**, **"Quailman and the Science Fair"**, **"The School Play"**, **"Mr. Dink's Robot"**, **"Funnie for President"**, **"Best in Show"**, **"The Quailman Comic"**, **"Save the Honker Burger"**, **"Judy's Art Show"**, **"Picture Day"**.
   Doug Funnie, Skeeter, Patti Mayonnaise, Roger Klotz, Porkchop, Judy Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky Studebaker and Mr. Bone.
-- **Rugrats**. Episodes: **"The Great Cookie Quest"**, **"Lost in Reptarland"**, **"Dil's Big Day"**, **"The Monster in the Attic"**, **"The Big Talent Show"**.
+- **Rugrats**. Season 1: **"The Great Cookie Quest"**, **"Lost in Reptarland"**, **"Dil's Big Day"**, **"The Monster in the Attic"**, **"The Big Talent Show"**, **"The Supermarket Sweep"**, **"Grandpa's Teeth"**, **"Angelica's Sleepover"**, **"Stu's Big Invention"**, **"The Great Duck Pond Voyage"**.
   Tommy Pickles, Chuckie Finster, Angelica Pickles, Phil DeVille, Lil DeVille, Stu Pickles, Didi Pickles, Grandpa Lou, Spike, Susie Carmichael and Dil Pickles.
-- **Pokémon**. Episodes: **"The Golden Poké Ball"**, **"Pikachu, I Choose You!"**, **"Splash Battle at Cerulean Gym"**, **"The Great Pokémon Cook-Off"**, **"The Boss Takes a Vacation"**.
+- **Pokémon**. Season 1: **"The Golden Poké Ball"**, **"Pikachu, I Choose You!"**, **"Splash Battle at Cerulean Gym"**, **"The Great Pokémon Cook-Off"**, **"The Boss Takes a Vacation"**, **"Officer Jenny's Day Off"**, **"Brock's Big Date"**, **"Wobbuffet, Champion"**, **"The Crystal Cave"**, **"The Last Blast Off"**.
   Jessie, James, Meowth, Wobbuffet, Giovanni, Ash Ketchum, Pikachu, Misty, Brock, Nurse Joy and Officer Jenny.
-- **Dragon Ball Z**. Episodes: **"What's Your Power Level?"**, **"Goku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegeta's Surprise Party"**.
+- **Dragon Ball Z**. Season 1: **"What's Your Power Level?"**, **"Goku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegeta's Surprise Party"**, **"Gohan's Homework"**, **"The Dragon Ball Hunt"**, **"Krillin's Big Date"**, **"A Warning from the Future"**, **"The World Martial Arts Tournament"**.
   Goku, Vegeta, Gohan, Piccolo, Krillin, Bulma, Master Roshi, Frieza, Cell, Trunks and Chi-Chi.
-- **Attack on Titan**. Episodes: **"The Last Potato"**, **"Inspection Day"**, **"The Runaway Horse"**, **"Titan School"**, **"Field Trip to the Ocean"**.
+- **Attack on Titan**. Season 1: **"The Last Potato"**, **"Inspection Day"**, **"The Runaway Horse"**, **"Titan School"**, **"Field Trip to the Ocean"**, **"Captain Levi's Tea Party"**, **"Sasha's Hunting Lesson"**, **"Painting the Wall"**, **"Reiner's Secret"**, **"The Scout Games"**.
   Eren Jaeger, Mikasa Ackerman, Armin Arlert, Captain Levi, Hange Zoë, Jean Kirstein, Sasha Braus, Connie Springer, Reiner, Commander Erwin and Smiling Titan.
-- **Breaking Bad**. Episodes: **"The Blue Candy"**, **"Pizza on the Roof"**, **"The Mineral Show"**, **"Saul Goes Viral"**, **"Father and Son Science Fair"**.
+- **Breaking Bad**. Season 1: **"The Blue Candy"**, **"Pizza on the Roof"**, **"The Mineral Show"**, **"Saul Goes Viral"**, **"Father and Son Science Fair"**, **"Jesse's Band"**, **"Schraderbräu"**, **"Mike Goes Fishing"**, **"Saul's Grand Opening"**, **"The Health Inspector"**.
   Walter White, Jesse Pinkman, Skyler White, Hank Schrader, Marie Schrader, Flynn, Saul Goodman, Gus Fring, Mike Ehrmantraut, Badger and Skinny Pete.
-- **Super Mario Brothers** (the Super Mario games). Episodes: **"In Another Castle"**, **"The Rainbow Road Grand Prix"**, **"Luigi's Spooky Rescue"**, **"Yoshi's Egg Hunt"**, **"Bowser's Day Off"**.
+- **Super Mario Brothers** (the Super Mario games). Season 1: **"In Another Castle"**, **"The Rainbow Road Grand Prix"**, **"Luigi's Spooky Rescue"**, **"Yoshi's Egg Hunt"**, **"Bowser's Day Off"**, **"Toad's Big Delivery"**, **"Daisy's Tennis Cup"**, **"Wario's Gold Rush"**, **"The Banana Mystery"**, **"Peach to the Rescue"**.
   Mario, Luigi, Princess Peach, Princess Daisy, Wario, Toad, Bowser, Yoshi, Donkey Kong, Goomba and Koopa Troopa.
-- **Metroid** (the Metroid games). Episodes: **"Babysitting"**, **"Who Stole the Gunship?"**, **"Double Trouble"**, **"Kraid's Toothache"**, **"The Chozo Trial"**.
+- **Metroid** (the Metroid games). Season 1: **"Babysitting"**, **"Who Stole the Gunship?"**, **"Double Trouble"**, **"Kraid's Toothache"**, **"The Chozo Trial"**, **"The Space Pirate Quits"**, **"The Lost Etecoons"**, **"Ridley's Birthday"**, **"Emergency Drill"**, **"Mother Brain Retires"**.
   Samus Aran, Dark Samus, Ridley, Kraid, Mother Brain, Baby Metroid, Adam Malkovich, Chozo Elder, Space Pirate, Etecoon and Dachora.
-- **Kirby** (the Kirby games). Episodes: **"The Great Cake Heist"**, **"Ribbon's Crystal"**, **"Meta Knight's Sword School"**, **"The Royal Diet"**, **"The Living Paintings"**.
+- **Kirby** (the Kirby games). Season 1: **"The Great Cake Heist"**, **"Ribbon's Crystal"**, **"Meta Knight's Sword School"**, **"The Royal Diet"**, **"The Living Paintings"**, **"Waddle Dee's Day Off"**, **"Magolor's Starship"**, **"Marx's Big Wish"**, **"The Ice Cream Festival"**, **"Whispy Can't Sleep"**.
   Kirby, King Dedede, Meta Knight, Waddle Dee, Bandana Dee, Waddle Doo, Magolor, Marx, Adeleine, Ribbon and Whispy Woods.
 
 Kirby only ever says "Poyo!" (and variations), and Samus Aran rarely says
@@ -57,8 +57,8 @@ nervous, shy).
 The **autoplay**, **volume** and **fullscreen** buttons stay in the top-right
 corner on every screen. The volume slider controls music, sound effects and
 voices together. With autoplay on (the button turns yellow), the next episode in
-the series starts five seconds after one ends; the end screen also has a **Next
-Episode** button either way.
+the series starts five seconds after one ends (after a season's last episode, the
+next season's first); the end screen also has a **Next Episode** button either way.
 
 Controls while watching: **Space** pauses, **→ / Enter / click** skips the
 current line, and **Esc** opens the pause menu. **F3** (or adding `?debug` to
@@ -81,9 +81,9 @@ buffer upload, so the drawing is cached aggressively:
 ## Making episodes in the app (Edit / Create)
 
 **EDIT / CREATE** on the title screen opens your episode library. Like
-*Watch Episodes*, it starts with a series picker; your own episodes (new and
-imported ones) are under **Yours**, and leaving the editor brings you back to the
-list you came from:
+*Watch Episodes*, it starts with a series picker and then a season picker; your own
+episodes (new and imported ones) are under **Yours**, and leaving the editor brings
+you back to the list you came from:
 
 - **+ New Episode**: pick an icon for it (a show badge, or a star, heart,
   film, music note, moon or lightning bolt) and start with a blank first
@@ -100,7 +100,7 @@ copy of a built-in episode stays with its series).
 
 In the editor:
 
-- **Top bar:** the episode name, **Info** (series, icon, episode number,
+- **Top bar:** the episode name, **Info** (series, season, episode number, icon,
   description), **Save**, **Test Scene** (plays just the current scene),
   **Test Episode** (plays the whole episode; both bring you back) and
   **Export** (copies the script to the clipboard and shows it).
@@ -133,6 +133,7 @@ Episodes are plain-text screenplays in `data/episodes/`. Each one is listed in
 ```
 @title The Golden Spatula
 @series SpongeBob SquarePants
+@season 1
 @icon bubbles
 @number 1
 @description One-line blurb for the episode list.
@@ -206,7 +207,8 @@ Lines starting with `#` are comments.
   icon gets its initials on a badge in its `color`.
 - A new episode goes in `data/episodes/` and gets listed in
   `data/episodes/index.json`. Use `@series` to show the series name on the
-  episode card and title card.
+  episode card and title card, and `@season` (default 1) to put it in a season;
+  the pickers show ten episodes per season.
 
 ## Project layout
 

@@ -332,6 +332,21 @@
 		},
 		{
 			"file": "res://data/episodes/kb05_living_paintings.txt"
+		},
+		{
+			"file": "res://data/episodes/kb06_waddle_dees_day_off.txt"
+		},
+		{
+			"file": "res://data/episodes/kb07_magolors_ship.txt"
+		},
+		{
+			"file": "res://data/episodes/kb08_marxs_wish.txt"
+		},
+		{
+			"file": "res://data/episodes/kb09_ice_cream_festival.txt"
+		},
+		{
+			"file": "res://data/episodes/kb10_whispy_cant_sleep.txt"
 		}
 	]
 }

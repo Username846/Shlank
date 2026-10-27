@@ -2,8 +2,9 @@
 
 - Work directly on `main` (no branches). Godot 4.7.2, GL Compatibility, single-threaded web export.
 - **Adding a show:** give it the same amount as the existing shows: 11 characters, 15 locations,
-  its own scene transition, transition sound and badge icon (`data/shows.json`), and five ~5 minute
-  episodes (about 75 lines and 12-14 scenes each; check runtimes with
+  its own scene transition, transition sound and badge icon (`data/shows.json`), and a first season of
+  ten ~5 minute episodes (`@season 1`, `@number` 1-10; seasons hold ten episodes each; about 70 lines
+  and 12-14 scenes each; check runtimes with
   `tools/snapshot.tscn -- /tmp estimate_files data/episodes/<file>.txt ...`).
   Use the show's real name as the series name and the characters' real names (no soundalikes). Renamed
   characters keep their old ids/names in `aka` so saved episodes still load.

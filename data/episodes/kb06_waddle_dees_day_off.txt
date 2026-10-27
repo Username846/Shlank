@@ -1,0 +1,143 @@
+@title Waddle Dee's Day Off
+@series Kirby
+@season 1
+@icon warpstar
+@number 6
+@description Waddle Dee has worked for King Dedede every single day for twenty years. Today, he takes a day off. The king has to do everything himself. He doesn't know how to do anything himself.
+
+# ------------------------------------------------------------ DEDEDE'S THRONE ROOM
+MUSIC jazz
+SCENE dedede_throne cut
+TITLE
+PLACE dedede center left smug
+PLACE waddle_dee midright left nervous
+DEDEDE (smug): Waddle Dee! Breakfast! Then polish my hammer! Then fan me! Then make lunch!
+WADDLE_DEE (nervous): Your Majesty. I have a request. I'd like... a day off.
+DEDEDE (surprised): A what?
+WADDLE_DEE (nervous): A day off. I haven't had one in twenty years.
+DEDEDE (angry): Twenty years? That's nothing! I've been king for twenty-one!
+WADDLE_DEE (sad): ...Just one day, sir.
+DEDEDE (smug): Fine! Take your day off! I don't need you! I can do everything myself!
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy
+SCENE green_greens
+PLACE waddle_dee center left nervous
+ENTER kirby right midright happy
+KIRBY (happy): Poyo!
+WADDLE_DEE (nervous): Hi, Kirby. I have a day off. But I don't know what to do with it.
+KIRBY (surprised): Poyo?
+WADDLE_DEE (sad): I've never had free time. What do people do?
+KIRBY (excited): Poyo poyo!
+NARRATOR: Kirby knew exactly what people do with free time. They nap. They eat. They nap again.
+
+# ------------------------------------------------------------ DEDEDE'S THRONE ROOM
+MUSIC sneaky
+SCENE dedede_throne
+PLACE dedede center left nervous
+DEDEDE (nervous): Breakfast. How hard can breakfast be? You put food on a plate. You eat it.
+SFX thud
+NARRATOR: The king opened the kitchen cabinet. Everything fell out. Pots. Pans. Forty-seven jars of jam.
+DEDEDE (angry): Who put all this stuff in here?!
+DEDEDE (sad): ...Oh. Waddle Dee. He always knows where everything goes.
+
+# ------------------------------------------------------------ GRAPE GARDEN
+MUSIC romantic
+SCENE grape_garden
+PLACE waddle_dee center left happy
+PLACE kirby midright left happy
+NARRATOR: Kirby took Waddle Dee to Grape Garden. They lay in the clouds. They ate grapes. They watched the sky.
+WADDLE_DEE (happy): Kirby, this is nice. Really nice.
+KIRBY (happy): Poyo.
+WADDLE_DEE (nervous): Do you think the king is okay without me?
+KIRBY (smug): Poyo poyo.
+WADDLE_DEE (happy): You're right. He's a grown penguin. He'll be fine.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC tense
+SCENE dedede_castle
+PLACE dedede center left angry
+PLACE bandana_dee midright left nervous
+DEDEDE (angry): Bandana Dee! Where are my socks? My royal socks!
+BANDANA_DEE (nervous): Waddle Dee keeps them in the third drawer, Your Majesty.
+DEDEDE (angry): I checked the third drawer! There's just a little note!
+BANDANA_DEE (happy): What does it say?
+DEDEDE (surprised): "Have a nice day, sir. Your socks are in the fourth drawer. They're warm because I ironed them."
+DEDEDE (shy): ...He irons my socks?
+
+# ------------------------------------------------------------ BUTTER BUILDING
+MUSIC happy 2
+SCENE butter_building
+PLACE waddle_dee center left excited
+PLACE kirby midright left excited
+PLACE waddle_doo left right happy
+WADDLE_DOO (happy): Waddle Dee! You're not working? Today? On a Tuesday?
+WADDLE_DEE (excited): I have a day off! Kirby and I climbed the Butter Building!
+WADDLE_DOO (excited): I'll show you the view from the top! Zap zap!
+KIRBY (excited): Poyo!
+NARRATOR: From the top of the Butter Building, you could see all of Dream Land. Waddle Dee had lived there his whole life. He had never seen it from up high.
+WADDLE_DEE (surprised): It's so beautiful.
+
+# ------------------------------------------------------------ DEDEDE'S THRONE ROOM
+MUSIC tense 2
+SCENE dedede_throne
+CARD Lunchtime...
+PLACE dedede center left scared
+SFX sizzle
+DEDEDE (scared): The soup is on fire! How is soup on fire?! Soup is wet!
+SFX blast
+SHAKE 0.6
+DEDEDE (sad): And I sat on my hammer. And I forgot to feed the royal fish.
+NARRATOR: The royal fish was fine. It ate a cracker that fell in the tank. It was having the best day of its life.
+DEDEDE (sad): I miss Waddle Dee.
+
+# ------------------------------------------------------------ CLOUDY PARK
+MUSIC jazz 2
+SCENE cloudy_park
+PLACE meta_knight center left neutral
+ENTER dedede right midright sad
+META_KNIGHT (neutral): Your Majesty. You look... burnt.
+DEDEDE (sad): The soup attacked me. And I can't find anything. And my socks are warm but I don't deserve them.
+META_KNIGHT (smug): Perhaps you've learned something today.
+DEDEDE (sad): That I can't do anything by myself?
+META_KNIGHT (smug): That someone has been doing everything for you. Quietly. For twenty years. Without a thank you.
+DEDEDE (surprised): ...I've never said thank you?
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy
+SCENE green_greens
+CARD Sunset...
+PLACE waddle_dee center left happy
+PLACE kirby midright left happy
+WADDLE_DEE (happy): Kirby, this was the best day of my life.
+KIRBY (happy): Poyo!
+WADDLE_DEE (shy): Thank you for showing me what to do with free time.
+KIRBY (smug): Poyo poyo.
+WADDLE_DEE (happy): Nap, eat, nap again. I'll remember that.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC romantic
+SCENE dedede_castle
+PLACE dedede center left nervous
+ENTER waddle_dee right midright happy
+DEDEDE (nervous): Waddle Dee. You're back.
+WADDLE_DEE (happy): Yes, Your Majesty. Sorry about the mess. I'll clean it up.
+DEDEDE (shy): No. No, you won't. I made the mess. I'll clean it.
+WADDLE_DEE (surprised): You will?
+DEDEDE (shy): And... thank you. For the socks. And the soup. And twenty years.
+WADDLE_DEE (shy): ...You're welcome, sir.
+
+# ------------------------------------------------------------ DEDEDE'S THRONE ROOM
+MUSIC happy 3
+SCENE dedede_throne
+CARD The next morning...
+PLACE dedede center left smug
+PLACE waddle_dee midright left happy
+PLACE kirby left right excited
+DEDEDE (smug): Hear ye, hear ye! From now on, every Waddle Dee in the castle gets one day off a week!
+WADDLE_DEE (excited): Every week?!
+DEDEDE (nervous): And on those days, I will make my own breakfast. With supervision.
+KIRBY (excited): Poyo!
+DEDEDE (smug): Kirby is the supervisor. Mainly because he'll eat anything I burn.
+KIRBY (happy): Poyo poyo!
+END

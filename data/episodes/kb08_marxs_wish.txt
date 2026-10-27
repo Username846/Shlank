@@ -1,0 +1,150 @@
+@title Marx's Big Wish
+@series Kirby
+@season 1
+@icon warpstar
+@number 8
+@description Every hundred years, the Fountain of Dreams grants one wish. Marx wants it more than anything. He tricks King Dedede, Meta Knight and Kirby into helping him. Then he finally gets to the fountain, and realizes he doesn't know what to wish for.
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC romantic
+SCENE fountain_of_dreams cut
+TITLE
+PLACE marx center left excited
+MARX (excited): Hee hee! The Fountain of Dreams! In three days, the stars line up. And whoever stands here gets one wish!
+NARRATOR: The fountain was guarded by a big stone gate. The gate only opened with three keys. One belonged to the king. One belonged to a knight. One belonged to a hero.
+MARX (smug): The king. The knight. The hero. Easy peasy. I'll just get them to help me.
+MARX (excited): And then the wish is mine! Hee hee hee!
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC sneaky
+SCENE dedede_castle
+PLACE dedede center left smug
+ENTER marx right midright happy
+MARX (happy): Your Majesty! What a magnificent crown. What a magnificent castle. What a magnificent... belly.
+DEDEDE (smug): Why, thank you. Who are you?
+MARX (smug): Just a humble jester. I heard you have a fancy key. To the Fountain of Dreams.
+DEDEDE (nervous): Maybe. Why?
+MARX (excited): Because the fountain is giving away free cake! For kings only! You just have to bring your key!
+DEDEDE (excited): FREE CAKE?! Waddle Dee! Get my key!
+
+# ------------------------------------------------------------ HALBERD DECK
+MUSIC jazz
+SCENE halberd_deck
+PLACE meta_knight center left neutral
+ENTER marx right midright happy
+MARX (happy): Meta Knight! A challenge for you! At the Fountain of Dreams! The greatest swordsman in the universe will be there!
+META_KNIGHT (neutral): The greatest swordsman in the universe is standing in front of you.
+MARX (smug): Exactly! So you'll want to prove it. Bring your key. Three days from now.
+META_KNIGHT (smug): Your lie is very poor, jester.
+MARX (nervous): ...Will you come anyway?
+META_KNIGHT (neutral): Yes. I'm curious what you're planning.
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC happy
+SCENE kirby_house
+PLACE kirby center right happy
+ENTER marx left midleft happy
+MARX (happy): Kirby! Old pal! Best buddy! Do you want to see the most beautiful fountain in Dream Land?
+KIRBY (excited): Poyo!
+MARX (smug): There's ice cream! And stars! And you just have to bring your little key!
+KIRBY (surprised): Poyo?
+NARRATOR: Kirby did not have a key. Kirby had never had a key. But when he looked in his mouth, there was a key. He had swallowed it years ago.
+KIRBY (happy): Poyo!
+
+# ------------------------------------------------------------ YOGURT YARD
+MUSIC jazz 2
+SCENE yogurt_yard
+PLACE adeleine center left neutral
+PLACE ribbon midright left nervous
+RIBBON (nervous): Adeleine, have you seen Marx? He's been running all over Dream Land. Collecting keys.
+ADELEINE (surprised): Keys to what?
+RIBBON (nervous): The Fountain of Dreams. The wish is in three days. Whoever gets the wish could do anything.
+ADELEINE (scared): Anything? Even something bad?
+RIBBON (sad): Especially something bad. If they wanted.
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC tense
+SCENE fountain_of_dreams
+CARD Three days later...
+PLACE marx center left excited
+PLACE dedede midleft right excited
+PLACE meta_knight midright left neutral
+PLACE kirby right left happy
+DEDEDE (excited): Where's the free cake?
+MARX (smug): Right after we open the gate! Everyone, put in your keys!
+NARRATOR: The king put in his key. The knight put in his key. Kirby coughed up his key. It was a little sticky.
+SFX door
+SFX sparkle
+MARX (excited): It's open! Hee hee hee! The wish is mine!
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC spooky
+SCENE fountain_of_dreams
+PLACE marx center left excited
+SFX sparkle
+SFX powerup
+NARRATOR: The fountain glowed. The stars lined up overhead. A soft voice spoke from the water. "Make your wish."
+MARX (excited): I wish... I wish...
+MARX (nervous): Hm.
+NARRATOR: Marx had planned this for a hundred years. He had planned the keys. He had planned the lies. He had never once planned what to wish for.
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC tense 2
+SCENE fountain_of_dreams
+PLACE marx center left nervous
+PLACE dedede midright left angry
+DEDEDE (angry): Hey! There's no free cake!
+MARX (nervous): Shh! I'm wishing! I'm thinking!
+DEDEDE (angry): You tricked me! You tricked the king!
+MARX (sad): I trick everyone. That's what I do. That's all I've ever done.
+DEDEDE (surprised): ...That sounds lonely, jester.
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC sad
+SCENE fountain_of_dreams
+PLACE marx center left sad
+PLACE meta_knight midright left neutral
+PLACE kirby midleft right sad
+META_KNIGHT (neutral): You could wish to rule Dream Land. The whole planet. Anything you want.
+MARX (sad): If I ruled Dream Land, nobody would play with me. They'd just be scared.
+KIRBY (sad): Poyo...
+MARX (sad): Everybody already thinks I'm a trickster. Nobody wants a trickster for a friend.
+META_KNIGHT (smug): Then perhaps you've found your wish.
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC romantic 2
+SCENE fountain_of_dreams
+PLACE marx center left shy
+PLACE kirby midright left happy
+MARX (shy): I wish... I wish I had one real friend. Someone who likes me even when I'm silly.
+SFX sparkle
+NARRATOR: The fountain glowed. Then it went quiet. Nothing happened. No flash of light. No magic.
+MARX (sad): ...It didn't work.
+KIRBY (happy): Poyo!
+NARRATOR: Kirby hugged him. Marx had never been hugged before. He didn't know where to put his arms.
+MARX (surprised): ...Oh. Oh, it did work.
+
+# ------------------------------------------------------------ FOUNTAIN OF DREAMS
+MUSIC happy
+SCENE fountain_of_dreams
+PLACE marx center left happy
+PLACE dedede midright left smug
+PLACE kirby midleft right happy
+DEDEDE (smug): Well. Since the wish is used up anyway. Can somebody at least get me some cake?
+MARX (excited): I'll bake one! A real one! No tricks!
+KIRBY (excited): Poyo poyo!
+MARX (nervous): Okay, one small trick. It'll have a whoopee cushion in it.
+DEDEDE (angry): JESTER!
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy 2
+SCENE green_greens
+CARD The next day...
+PLACE marx center left happy
+PLACE kirby midright left happy
+NARRATOR: Marx and Kirby spent the next day playing on the hills of Green Greens. Marx did a magic trick. Kirby ate the rabbit.
+MARX (surprised): Don't worry. That rabbit was made of cake.
+KIRBY (happy): Poyo!
+MARX (shy): Same time tomorrow, best friend?
+KIRBY (excited): Poyo!
+END
