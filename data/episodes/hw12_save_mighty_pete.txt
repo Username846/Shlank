@@ -1,0 +1,155 @@
+@title Saving Mighty Pete
+@series Hey Arnold!
+@season 2
+@icon city
+@number 2
+@description The city plans to cut down Mighty Pete, the oldest tree in the park, to build a parking lot. Arnold and Gerald climb up into the treehouse and refuse to come down. The whole neighborhood ends up joining them.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC happy
+SCENE mighty_pete cut
+TITLE
+PLACE arnold center right happy
+PLACE gerald midleft right happy
+ARNOLD (happy): Mighty Pete. Grandpa built this treehouse when he was our age. Can you believe it?
+GERALD (happy): Best clubhouse in Hillwood, Arnold. Nobody can bother us up there.
+ARNOLD (surprised): Gerald, look. There's a sign on the trunk.
+GERALD (nervous): "Notice. This tree will be removed on Saturday. Coming soon: Big Bob's Beeper Parking."
+ARNOLD (sad): They're cutting down Mighty Pete?
+GERALD (angry): For a parking lot? Again?
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC jazz
+SCENE big_bobs
+PLACE big_bob center left smug
+ENTER arnold right midright neutral
+ARNOLD (neutral): Mr. Pataki, please don't cut down Mighty Pete. It's the oldest tree in the park.
+BIG_BOB (smug): Kid, it's a tree. There's millions of 'em. But there's only one Big Bob's Beeper Parking.
+ARNOLD (sad): My grandpa built a treehouse in it when he was a kid.
+BIG_BOB (smug): Then your grandpa should've built a parking lot. Then he'd be rich, like me.
+ARNOLD (angry): Some things are more important than money.
+BIG_BOB (surprised): Name one!
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC romantic
+SCENE boarding_kitchen
+PLACE grandpa center left sad
+PLACE arnold midright left sad
+GRANDPA (sad): Mighty Pete? They're cutting it down? Shortman, I spent the whole summer of 1932 building that treehouse.
+ARNOLD (sad): Is there anything we can do?
+GRANDPA (smug): Well. Back in my day, when they wanted to knock something down, we'd climb up there and refuse to leave.
+ARNOLD (surprised): Did it work?
+GRANDPA (happy): Sometimes. And sometimes it just got really cold. But it was worth trying.
+ARNOLD (excited): Then that's what we'll do.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC tense
+SCENE mighty_pete
+CARD Friday night...
+PLACE arnold center right excited
+PLACE gerald midleft right nervous
+GERALD (nervous): Arnold, we're really doing this? Sleeping in a tree?
+ARNOLD (excited): We're not coming down until they promise to save Mighty Pete.
+GERALD (nervous): What about food?
+ARNOLD (smug): Grandpa packed sandwiches. And a thermos of cocoa. And a harmonica.
+GERALD (surprised): Why a harmonica?
+ARNOLD (happy): For morale.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC jazz 2
+SCENE mighty_pete
+PLACE helga center right angry
+PLACE phoebe midleft right nervous
+HELGA (angry): Arnoldo is sitting in a tree to save it from MY dad? Ugh. Typical football head.
+PHOEBE (nervous): You could join him, Helga. It's a very noble cause.
+HELGA (angry): Me? Sit in a tree next to him? All night? Under the stars? Breathing the same air?
+HELGA (shy): ...That's the most romantic thing I've ever heard.
+HELGA (angry): I mean. Absolutely not. Pass me that rope, Phoebe.
+PHOEBE (smug): Here you go, Helga.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC happy 2
+SCENE mighty_pete
+CARD Saturday morning...
+PLACE arnold center right surprised
+PLACE gerald midleft right surprised
+PLACE helga right left neutral
+GERALD (surprised): Arnold. Wake up. Look down.
+ARNOLD (surprised): Whoa.
+NARRATOR: There were people everywhere. Harold, Stinky, Sid. Phoebe and Rhonda. Kids in every branch. Grown-ups holding signs.
+HELGA (smug): Don't let it go to your head, football head. We just like the tree.
+ARNOLD (happy): Thanks, Helga.
+HELGA (shy): ...Whatever.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC jazz
+SCENE mighty_pete
+PLACE harold center left excited
+PLACE stinky midright left happy
+PLACE sid midleft right nervous
+HAROLD (excited): I'm not coming down! Not unless somebody brings pudding!
+STINKY (happy): Gee, I reckon this here's the best tree I ever sat in.
+SID (nervous): Guys, what if a bird lands on me? What if it's a crazy bird?
+HAROLD (smug): Then you pound it, Sid.
+SID (scared): I'm not pounding a bird!
+STINKY (smug): Just ask it nicely to move, Sid.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC tense 2
+SCENE mighty_pete
+PLACE big_bob center left angry
+PLACE arnold midright left neutral
+PLACE helga farright left smug
+BIG_BOB (angry): Alright, kid! The truck's here! Time to come down!
+ARNOLD (neutral): We're not coming down, Mr. Pataki. Not until you promise to save the tree.
+BIG_BOB (angry): You can't stay up there forever!
+HELGA (angry): Watch us, Bob!
+BIG_BOB (surprised): Helga?! What are you doing up there?
+HELGA (smug): Hanging out. It's a free tree.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC sneaky
+SCENE hillwood_museum
+PLACE phoebe center left excited
+PLACE rhonda midright left nervous
+PHOEBE (excited): Rhonda! I found something in the city records! Mighty Pete is mentioned in a letter from 1860!
+RHONDA (nervous): Is that... good? Is that fashionable?
+PHOEBE (excited): It's a historic tree! It was planted by the founder of Hillwood! The city can't cut down a historic tree!
+RHONDA (excited): Then we must tell everyone! Immediately! With a press release!
+PHOEBE (happy): I'll make copies.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC action
+SCENE mighty_pete
+PLACE big_bob center left surprised
+PLACE phoebe midright left excited
+PHOEBE (excited): Mr. Pataki! This is an official historic document! Mighty Pete is the oldest tree in Hillwood!
+BIG_BOB (surprised): Historic? Like, a landmark?
+PHOEBE (smug): Like a protected landmark. You'd need permission from the mayor. And the governor. And the Hillwood Historical Society.
+BIG_BOB (nervous): Who runs the Historical Society?
+PHOEBE (smug): My grandmother.
+BIG_BOB (sad): ...I'm never gonna win this.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC happy
+SCENE mighty_pete
+PLACE arnold center right happy
+PLACE grandpa midleft right happy
+PLACE gerald right left excited
+GERALD (excited): Arnold! They're taking down the sign! Mighty Pete is saved!
+GRANDPA (happy): Heh heh heh. Just like 1932, Shortman. You never give up.
+ARNOLD (happy): We had a lot of help, Grandpa.
+GRANDPA (smug): That's the secret. Nobody saves a tree alone.
+GERALD (smug): Can we come down now? I haven't felt my legs since last night.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC romantic
+SCENE mighty_pete
+CARD That evening...
+PLACE helga center right shy
+HOLD helga locket
+HELGA (shy): Oh, Arnold. A whole night in a tree. Together. Practically holding hands. Well, holding the same branch.
+HELGA (excited): He said thanks! Twice!
+HELGA (shy): I'll carve our initials into the trunk. Very small. Where nobody will ever find them.
+NARRATOR: She carved them very small. Grandpa found them the next day. He did not tell anyone. He just smiled.
+END

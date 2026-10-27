@@ -616,6 +616,113 @@
 			]
 		}
 	},
+	"eugene": {
+		"name": "Eugene Horowitz",
+		"style": "eugene",
+		"color": "#e6702f",
+		"width": 52,
+		"bio": "The unluckiest kid in Hillwood. Trips, falls and gets stuck in things daily, and stays cheerful anyway.",
+		"catchphrase": "I'm okay!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.15,
+			"babble": 440,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Hey Arnold!",
+		"home": "hillwood_rink"
+	},
+	"lila": {
+		"name": "Lila Sawyer",
+		"style": "lila",
+		"color": "#6fbf6a",
+		"width": 52,
+		"bio": "The sweetest, politest girl in the fourth grade. Everything is ever so nice to her.",
+		"catchphrase": "Ever so much!",
+		"voice": {
+			"pitch": 1.45,
+			"rate": 1.0,
+			"babble": 410,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Hey Arnold!",
+		"home": "ps118_gym"
+	},
+	"olga": {
+		"name": "Olga Pataki",
+		"style": "olga",
+		"color": "#f28cb8",
+		"width": 56,
+		"bio": "Helga's perfect older sister. Straight A's, piano prodigy, and very, very dramatic.",
+		"catchphrase": "Oh, baby sister!",
+		"voice": {
+			"pitch": 1.25,
+			"rate": 1.1,
+			"babble": 370,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Hey Arnold!",
+		"home": "pataki_kitchen"
+	},
+	"mr_simmons": {
+		"name": "Mr. Simmons",
+		"style": "mr_simmons",
+		"color": "#8fbfe6",
+		"width": 60,
+		"bio": "The fourth grade teacher. Believes every student is special, and says so often.",
+		"catchphrase": "That's very special!",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 1.0,
+			"babble": 320,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Hey Arnold!",
+		"home": "classroom"
+	},
+	"curly": {
+		"name": "Curly",
+		"style": "curly",
+		"color": "#c8642a",
+		"width": 52,
+		"bio": "Thaddeus Gammelthorpe, known as Curly. Wild, unpredictable and secretly in love with Rhonda.",
+		"catchphrase": "Rhonda!",
+		"voice": {
+			"pitch": 1.5,
+			"rate": 1.3,
+			"babble": 420,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Hey Arnold!",
+		"home": "school_bus"
+	},
 	"doug": {
 		"name": "Doug Funnie",
 		"style": "doug",

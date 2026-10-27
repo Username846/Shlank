@@ -1,0 +1,157 @@
+@title The Long Bus Ride
+@series Hey Arnold!
+@season 2
+@icon city
+@number 8
+@description On the way home from a field trip, the school bus breaks down in the middle of nowhere. Mr. Simmons says help is coming. Help is not coming quickly. The fourth grade has to keep itself from going crazy.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC happy
+SCENE school_bus cut
+TITLE
+PLACE mr_simmons center left happy
+PLACE arnold midright left happy
+PLACE gerald right left happy
+MR_SIMMONS (happy): Wasn't the apple orchard a very special trip, everyone? Four hundred apples!
+GERALD (happy): Harold ate a hundred of them.
+ARNOLD (smug): He's been very quiet ever since.
+MR_SIMMONS (excited): Only two more hours until we're home! Let's sing a song!
+SFX thud
+SHAKE 0.8
+NARRATOR: The bus made a terrible noise. Then a worse noise. Then it stopped.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC tense
+SCENE school_bus
+PLACE mr_simmons center left nervous
+PLACE helga midright left angry
+PLACE harold midleft right sad
+MR_SIMMONS (nervous): Okay! The bus is having a very special rest. The driver says help is coming.
+HELGA (angry): When?
+MR_SIMMONS (nervous): Soon! Or later! Somewhere between soon and later!
+HAROLD (sad): Mr. Simmons, I don't feel good. A hundred apples was too many apples.
+MR_SIMMONS (nervous): Breathe, Harold. Breathe and don't think about apples.
+HAROLD (sad): Now I'm thinking about apples.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC jazz
+SCENE school_bus
+CARD One hour later...
+PLACE curly center left excited
+PLACE rhonda midright left angry
+CURLY (excited): We're stranded! Like pirates! On a yellow island! I call captain!
+RHONDA (angry): Curly, please sit down. You're stepping on my coat. It's imported.
+CURLY (excited): Captain's orders! Rhonda, you're my first mate!
+RHONDA (angry): I am NOT your first mate!
+CURLY (smug): Second mate, then. Final offer.
+RHONDA (sad): This is the longest day of my life.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC sneaky
+SCENE boarding_kitchen
+PLACE grandpa center left nervous
+PLACE grandma midright left excited
+GRANDPA (nervous): Pookie, the school called. The bus broke down on Route Nine. Shortman's gonna be late.
+GRANDMA (excited): Stranded! Like the Lost Battalion! We must send supplies!
+GRANDPA (smug): They have a bus driver, Pookie. And a teacher.
+GRANDMA (excited): And no pancakes! Load the jeep, Phil!
+GRANDPA (surprised): We don't have a jeep.
+GRANDMA (smug): We have a station wagon. Close enough!
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC sad
+SCENE school_bus
+PLACE eugene center left nervous
+PLACE arnold midright left neutral
+EUGENE (nervous): Arnold, I'm worried. What if we're here all night? What if bears come?
+ARNOLD (neutral): There aren't any bears near Hillwood, Eugene.
+EUGENE (nervous): What about raccoons? Very big raccoons?
+ARNOLD (smug): Then we'll share our apples.
+EUGENE (happy): I like that plan.
+ARNOLD (happy): Everybody's scared, Eugene. We just need something to do.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC happy 2
+SCENE school_bus
+PLACE arnold center right excited
+PLACE mr_simmons midleft right surprised
+ARNOLD (excited): Mr. Simmons, can we have a talent show? Right here? On the bus?
+MR_SIMMONS (surprised): A bus talent show?
+ARNOLD (happy): Everybody does one thing. It'll pass the time.
+MR_SIMMONS (excited): Arnold, that's a very special idea! Who wants to go first?
+NARRATOR: Nobody raised their hand. Then Stinky raised his.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC jazz 2
+SCENE school_bus
+PLACE stinky center left happy
+PLACE sid midright left surprised
+STINKY (happy): Gee, I reckon I can yodel. My grandpappy taught me. Yodel-ay-hee-hoo!
+SID (surprised): That's... actually really good, Stinky!
+STINKY (smug): I can also whistle with my nose. But folks don't always enjoy that one.
+SID (excited): Do it! Do it!
+SFX ding
+NARRATOR: Stinky whistled with his nose. Folks did not enjoy that one. But they laughed so hard they forgot to be scared.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC romantic
+SCENE school_bus
+PLACE phoebe center left happy
+PLACE gerald midright left smug
+PHOEBE (happy): For my talent, I'll recite the first hundred digits of pi.
+GERALD (smug): Go on, Phoebe. Show 'em.
+PHOEBE (smug): Three point one four one five nine two six five three five eight nine seven nine...
+NARRATOR: Phoebe got to digit ninety-seven before Harold fell asleep. It was the most relaxing thing anyone had ever heard.
+GERALD (happy): That's my girl. I mean, my friend. My... that's Phoebe.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC sneaky 2
+SCENE school_bus
+PLACE helga center right nervous
+PLACE phoebe midleft right smug
+PHOEBE (smug): Helga, it's your turn.
+HELGA (nervous): I don't have a talent, Phoebe.
+PHOEBE (smug): You write poetry. Beautiful poetry.
+HELGA (scared): Not out loud! Not in front of him!
+PHOEBE (happy): Then write a funny one. About the bus.
+HELGA (smug): ...A funny one. I can do a funny one.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC happy
+SCENE school_bus
+PLACE helga center right smug
+PLACE arnold midleft right happy
+PLACE harold right left happy
+HELGA (smug): "Ode to a Broken Bus." Oh, yellow beast with wheels of shame. You broke down in the rain. Now Harold smells like apples, and we'll never get home again.
+HAROLD (happy): Hey! I do smell like apples!
+ARNOLD (excited): That was really good, Helga!
+HELGA (shy): Well. It was nothing. I just made it up.
+ARNOLD (happy): You should write more.
+HELGA (surprised): ...You think so?
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC action
+SCENE school_bus
+PLACE mr_simmons center left excited
+PLACE arnold midright left surprised
+SFX ding
+SFX ding
+MR_SIMMONS (excited): Look! Headlights! Help has arrived!
+ARNOLD (surprised): That's not a tow truck.
+NARRATOR: It was a station wagon. Driven by Grandma, in a captain's hat, with Grandpa holding forty pancakes.
+ARNOLD (happy): Grandma! Grandpa!
+MR_SIMMONS (surprised): Is that... pancakes?
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC happy 2
+SCENE school_bus
+CARD Midnight...
+PLACE grandpa center left happy
+PLACE grandma midright left excited
+PLACE arnold midleft right happy
+GRANDMA (excited): Supplies for the troops! Forty pancakes and a thermos of syrup!
+GRANDPA (smug): We figured you kids might be hungry. And the tow truck's still an hour away.
+ARNOLD (happy): Thanks, Grandpa. This was the best field trip ever.
+GRANDPA (surprised): The apple orchard?
+ARNOLD (smug): No. The bus.
+END

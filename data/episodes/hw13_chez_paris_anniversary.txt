@@ -1,0 +1,147 @@
+@title Dinner at Chez Paris
+@series Hey Arnold!
+@season 2
+@icon city
+@number 3
+@description It's Grandpa and Grandma's fiftieth anniversary, and Arnold books them a table at Chez Paris, the fanciest restaurant in Hillwood. Then he finds out how much it costs. Arnold and Gerald get jobs as busboys to help pay.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC happy
+SCENE boarding_kitchen cut
+TITLE
+PLACE arnold center right excited
+PLACE grandma midleft right excited
+GRANDMA (excited): Eleanor! Do you know what day it is on Saturday?
+ARNOLD (happy): Your fiftieth anniversary! You and Grandpa!
+GRANDMA (excited): Fifty years! Half a century! I married that old fool in a submarine, you know!
+ARNOLD (surprised): A submarine?
+GRANDMA (smug): Long story, Eleanor. Very wet.
+ARNOLD (excited): I want to do something special for you. Something fancy.
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC jazz
+SCENE chez_paris
+PLACE arnold center right nervous
+NARRATOR: Arnold walked into Chez Paris. Chandeliers. White tablecloths. Waiters in tuxedos who looked down their noses at him.
+ARNOLD (nervous): Excuse me. I'd like to make a reservation. For my grandparents. Their fiftieth anniversary.
+NARRATOR: The maître d' looked at Arnold. Then at his tiny blue hat. Then at the menu prices.
+ARNOLD (surprised): Forty dollars? For soup?
+ARNOLD (nervous): I'll... take the reservation. I'll figure it out.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC sneaky
+SCENE sunset_arms
+PLACE arnold center right nervous
+PLACE gerald midleft right surprised
+GERALD (surprised): Forty dollars for soup? Arnold, my man, that's crazy.
+ARNOLD (nervous): And I promised Grandma something special. I have eleven dollars.
+GERALD (smug): That's two-thirds of a breadstick.
+ARNOLD (sad): Maybe I could get a job.
+GERALD (excited): The guy at Chez Paris said they need busboys this weekend. Pays twenty bucks a night. Plus dinner.
+ARNOLD (excited): Gerald, you're a genius!
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC jazz 2
+SCENE chez_paris
+CARD Friday night...
+PLACE arnold center right nervous
+PLACE gerald midleft right nervous
+NARRATOR: Arnold and Gerald became busboys. They wore tiny bow ties. They carried big trays.
+GERALD (nervous): Arnold, I just got told off for holding a spoon wrong. There's a wrong way to hold a spoon?
+ARNOLD (nervous): There are four spoons at every table. I don't know what three of them are for.
+GERALD (smug): One's for soup. One's for dessert. And two are for showing off.
+ARNOLD (happy): We can do this, Gerald.
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC sneaky 2
+SCENE chez_paris
+PLACE rhonda center left smug
+PLACE arnold midright left surprised
+RHONDA (smug): Arnold? Is that you? Working at Chez Paris?
+ARNOLD (surprised): Rhonda! Uh. Hi. Can I take your plate?
+RHONDA (smug): My family eats here every Friday. The escargot is divine.
+ARNOLD (nervous): Please don't tell anyone at school.
+RHONDA (smug): Oh, Arnold. Darling. I'm going to tell absolutely everyone.
+RHONDA (happy): I'll tell them you look very dashing in a bow tie.
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC tense
+SCENE chez_paris
+PLACE gerald center left scared
+PLACE arnold midright left scared
+SFX slam
+SHAKE 0.6
+GERALD (scared): Arnold! I dropped a tray! A whole tray! Of soup!
+ARNOLD (scared): Whose soup?
+GERALD (nervous): A guy with a mustache. He's very angry. He's speaking French at me.
+ARNOLD (nervous): Okay. Okay. Smile. Say sorry. Bring him new soup.
+GERALD (sad): That's forty dollars of soup on the floor, man.
+ARNOLD (smug): Then we'd better clean it up fast.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC jazz
+SCENE mighty_pete
+PLACE helga center right surprised
+PLACE phoebe midleft right smug
+PHOEBE (smug): Rhonda says Arnold is working at Chez Paris as a busboy. To pay for his grandparents' anniversary dinner.
+HELGA (surprised): He's working? For his grandparents? With his own two football-head hands?
+HELGA (shy): Oh, Arnold. Is there no end to your goodness?
+PHOEBE (smug): You could help. You do have the money from your birthday.
+HELGA (angry): I'm saving that, Phoebe! For a... very important thing!
+HELGA (sad): ...How much is soup?
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC romantic
+SCENE chez_paris
+CARD Saturday night...
+PLACE grandpa center left happy
+PLACE grandma midright left happy
+GRANDPA (happy): Chez Paris! Pookie, can you believe it? Our little Shortman did all this!
+GRANDMA (happy): Fifty years, you old goat. And still the most handsome sailor I ever met.
+GRANDPA (shy): Aw, cut it out, Pookie.
+NARRATOR: The chandeliers sparkled. The candles flickered. A violinist played their song. It was the only song he knew, but it happened to be theirs.
+GRANDMA (excited): They're playing our song!
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC tense 2
+SCENE chez_paris
+PLACE arnold center right nervous
+PLACE gerald midleft right nervous
+ARNOLD (nervous): Gerald. The bill. I just saw it. One hundred and sixty dollars.
+GERALD (nervous): We made forty bucks this weekend. Plus your eleven.
+ARNOLD (sad): Fifty-one dollars. We're short. By a lot.
+GERALD (sad): Maybe they take beepers? Big Bob's got a lot of beepers.
+NARRATOR: Just then, a waiter came over. He said the bill was already paid. By an anonymous girl in a pink bow.
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC happy
+SCENE chez_paris
+PLACE arnold center right surprised
+PLACE gerald midleft right surprised
+ARNOLD (surprised): Already paid? By who?
+GERALD (smug): A girl in a pink bow. Can't imagine who that could be.
+ARNOLD (surprised): Rhonda wears pink sometimes.
+GERALD (smug): Arnold. Come on.
+ARNOLD (nervous): ...Lila?
+GERALD (sad): You are the smartest dumb guy I know, Arnold.
+
+# ------------------------------------------------------------ CHEZ PARIS
+MUSIC romantic 2
+SCENE chez_paris
+PLACE grandpa center left happy
+PLACE grandma midright left happy
+PLACE arnold midleft right happy
+GRANDPA (happy): Shortman. This was the best night in fifty years. Well, second best. The submarine was pretty good too.
+ARNOLD (happy): Happy anniversary, Grandpa. Happy anniversary, Grandma.
+GRANDMA (excited): Eleanor! You're a good egg! A good, good egg!
+GRANDPA (smug): And we're taking the leftover breadsticks. For fifty years of breakfasts.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic
+SCENE helga_room
+PLACE helga center right shy
+HELGA (shy): A hundred and nine dollars. My entire birthday fund. Gone. On breadsticks for old people.
+HELGA (happy): And I'd do it again. For him. For his gentle grandpa and his loony grandma.
+HELGA (angry): But if anybody finds out, I'll deny everything!
+HELGA (shy): ...Happy anniversary, Arnold's grandparents.
+END

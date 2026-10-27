@@ -1,0 +1,153 @@
+@title Eugene on Ice
+@series Hey Arnold!
+@season 2
+@icon city
+@number 9
+@description Eugene signs up for the Hillwood Ice Skating Show. Everyone expects him to fall. Eugene expects him to fall too. But Rhonda, of all people, decides to coach him.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC happy
+SCENE hillwood_rink cut
+TITLE
+PLACE eugene center left excited
+PLACE arnold midright left happy
+EUGENE (excited): Arnold! I signed up for the Winter Skating Show! I'm going to do a solo!
+ARNOLD (surprised): A solo? Can you skate, Eugene?
+EUGENE (happy): Not yet! But the show's in two weeks! That's plenty of time!
+ARNOLD (nervous): Have you ever been on ice before?
+EUGENE (smug): Once. For four seconds. Then I was on the ground for twenty minutes.
+ARNOLD (happy): Well. Four seconds is a start.
+
+# ------------------------------------------------------------ SCHOOL CAFETERIA
+MUSIC jazz
+SCENE cafeteria
+PLACE harold center left smug
+PLACE sid midright left excited
+PLACE rhonda midleft right neutral
+HAROLD (smug): Eugene in a skating show? He's gonna fall so much. I'm bringing popcorn.
+SID (excited): I'm bringing a camera! It'll be the funniest thing ever!
+RHONDA (neutral): That's rather mean, you two.
+HAROLD (surprised): You think it's mean? You laugh at everybody, Rhonda.
+RHONDA (smug): I laugh at their outfits. Not at their dreams. There's a difference, darling.
+SID (nervous): ...Is there?
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC sad
+SCENE hillwood_rink
+PLACE eugene center left sad
+SFX thud
+NARRATOR: Eugene practiced every day. He fell every day. He fell forward. He fell backward. He fell sideways, which is very hard to do on purpose.
+EUGENE (sad): I'm okay.
+SFX thud
+EUGENE (sad): I'm... mostly okay.
+NARRATOR: Eugene had a bandage on each knee. And each elbow. And one on his nose. Nobody knew how that happened.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC jazz 2
+SCENE hillwood_rink
+PLACE eugene center left sad
+ENTER rhonda right midright smug
+RHONDA (smug): Eugene. Your posture is atrocious. Your arms are flapping like a pigeon.
+EUGENE (sad): I know, Rhonda. I'm the worst skater in Hillwood.
+RHONDA (smug): Nonsense. You're just untrained. I've been skating since I was three. Ballet on ice. Very elegant.
+EUGENE (surprised): You skate?
+RHONDA (happy): I was the Snowflake Princess four years running. Now. Stand up. Shoulders back. We have work to do.
+EUGENE (excited): You'll teach me?
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC sneaky
+SCENE ps118
+PLACE helga center right surprised
+PLACE phoebe midleft right happy
+HELGA (surprised): Rhonda Lloyd is coaching Eugene Horowitz? On ice skates?
+PHOEBE (happy): Every day after school. She says he has "potential."
+HELGA (smug): Potential for what? Breaking the rink?
+PHOEBE (smug): Potential for grace, Helga. She showed me her notes. They're very detailed.
+HELGA (surprised): Huh. Rhonda Lloyd, being nice. What's next? Harold on a diet?
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC happy 2
+SCENE hillwood_rink
+CARD Week one...
+PLACE rhonda center left neutral
+PLACE eugene midright left nervous
+RHONDA (neutral): Glide, Eugene. Don't walk. Glide. Like you're a swan.
+EUGENE (nervous): A swan. A swan. I'm a swan.
+SFX slide_whistle
+RHONDA (surprised): Eugene! You glided! For a whole ten feet!
+EUGENE (excited): Ten feet! That's a new record! My old record was zero feet!
+RHONDA (happy): Again. And this time, smile. Swans are happy birds.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC jazz
+SCENE sunset_arms
+PLACE arnold center right happy
+PLACE gerald midleft right surprised
+GERALD (surprised): Rhonda? Helping Eugene? Arnold, my man, has the world gone crazy?
+ARNOLD (happy): I think Rhonda's nicer than people know, Gerald.
+GERALD (smug): You think everybody's nicer than people know.
+ARNOLD (smug): And I'm usually right.
+GERALD (happy): ...Yeah. You usually are.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC tense
+SCENE hillwood_rink
+CARD Week two...
+PLACE rhonda center left nervous
+PLACE eugene midright left sad
+EUGENE (sad): Rhonda, I can't do the spin. I've tried a hundred times. I always fall.
+RHONDA (nervous): Then don't do the spin.
+EUGENE (surprised): But every solo has a spin!
+RHONDA (smug): Eugene, darling. You fall better than anyone I've ever seen. So make the falls part of the show.
+EUGENE (surprised): Fall on purpose?
+RHONDA (excited): Fall beautifully. Fall like a star. Then get up. The getting up is the best part.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC action
+SCENE hillwood_rink
+CARD The Winter Skating Show...
+PLACE harold center left smug
+PLACE sid midright left excited
+PLACE helga midleft right neutral
+HAROLD (smug): Here comes Eugene. Get ready to laugh.
+SID (excited): Camera's rolling!
+NARRATOR: Eugene skated out. He glided. He waved. He fell. And then he got up, bowed, and fell again, in a perfect spiral.
+SFX slide_whistle
+HELGA (surprised): Did he just... fall in a circle? On purpose?
+HAROLD (surprised): That's... kinda amazing.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC romantic
+SCENE hillwood_rink
+PLACE eugene center left happy
+PLACE rhonda midright left excited
+NARRATOR: Eugene's final move: he slipped, slid across the whole rink on his back, and stopped exactly at Rhonda's feet. Then he stood up and held his arms out like a swan.
+RHONDA (excited): Bravo! Bravo, Eugene!
+EUGENE (excited): I'm okay! I'm more than okay!
+NARRATOR: The crowd stood up. Harold dropped his popcorn. Sid forgot to film the end because he was clapping too hard.
+RHONDA (shy): Darling, that was the most fabulous fall in the history of figure skating.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC happy
+SCENE hillwood_rink
+PLACE eugene center left happy
+PLACE rhonda midright left smug
+PLACE arnold midleft right happy
+ARNOLD (happy): Eugene! You got a standing ovation!
+EUGENE (shy): Rhonda taught me everything. Well, she taught me to fall with style.
+RHONDA (smug): The judges gave him a special prize. "Most Courageous Performance."
+ARNOLD (smug): And you, Rhonda? Did you get a prize?
+RHONDA (shy): I don't need a prize, Arnold. I got to watch my student shine.
+RHONDA (smug): ...But I did get a very nice scarf for coaching. Imported.
+
+# ------------------------------------------------------------ HILLWOOD ICE RINK
+MUSIC romantic 2
+SCENE hillwood_rink
+CARD Later...
+PLACE eugene center left happy
+NARRATOR: The rink emptied. The lights dimmed. Eugene stayed on the ice by himself, gliding in slow circles.
+EUGENE (happy): A swan. I'm a swan.
+SFX slide_whistle
+NARRATOR: He fell one last time. He lay on the cold ice and looked up at the stars.
+EUGENE (happy): I'm okay.
+END

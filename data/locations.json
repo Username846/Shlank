@@ -219,6 +219,56 @@
 		"show": "Hey Arnold!",
 		"description": "Fire escapes, a dumpster and a stray cat or two."
 	},
+	"helga_room": {
+		"name": "Helga's Room",
+		"description": "Pink walls, a lot of locked drawers and one very secret closet.",
+		"show": "Hey Arnold!"
+	},
+	"pataki_kitchen": {
+		"name": "Pataki Kitchen",
+		"description": "Big Bob's kitchen: a beeper calendar, a lot of trophies and Olga's piano just through the door.",
+		"show": "Hey Arnold!"
+	},
+	"mighty_pete": {
+		"name": "Mighty Pete",
+		"description": "The biggest, oldest tree in the park, with a treehouse Arnold's grandpa built.",
+		"show": "Hey Arnold!"
+	},
+	"chez_paris": {
+		"name": "Chez Paris",
+		"description": "The fanciest restaurant in Hillwood. The menu is in French. Nobody can read it.",
+		"show": "Hey Arnold!"
+	},
+	"dinoland": {
+		"name": "Dinoland",
+		"description": "An amusement park full of dinosaur rides, and one very tall roller coaster.",
+		"show": "Hey Arnold!"
+	},
+	"hillwood_museum": {
+		"name": "Hillwood Museum",
+		"description": "Marble halls, old paintings and a giant dinosaur skeleton in the lobby.",
+		"show": "Hey Arnold!"
+	},
+	"hillwood_subway": {
+		"name": "Hillwood Subway",
+		"description": "Underground trains, tiled walls and a map nobody understands.",
+		"show": "Hey Arnold!"
+	},
+	"ps118_gym": {
+		"name": "P.S. 118 Gym",
+		"description": "Basketball hoops, folding bleachers and, tonight, a disco ball.",
+		"show": "Hey Arnold!"
+	},
+	"school_bus": {
+		"name": "The School Bus",
+		"description": "Rows of green seats and a bus driver who has heard every song.",
+		"show": "Hey Arnold!"
+	},
+	"hillwood_rink": {
+		"name": "Hillwood Ice Rink",
+		"description": "An outdoor skating rink with a hot cocoa stand.",
+		"show": "Hey Arnold!"
+	},
 	"funnie_house": {
 		"name": "The Funnie House",
 		"show": "Doug",

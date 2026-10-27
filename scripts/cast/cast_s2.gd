@@ -41,6 +41,25 @@ static func _human(style: String) -> Dictionary:
 				"bottom_col": Color("f2c14e"), "shoe": Color("8fd0b8"), "hair": "long", "hair_col": Color("f4f4f2"), "torso_w": 38.0,
 				"brow_col": Color("f4f4f2"), "brow_w": 8.0, "base_lid": 0.25,
 				"extra": _x_neptune_head, "back_extra": _x_trident}
+		# Hey Arnold!
+		"eugene":
+			return {"size": "kid", "top": Color("f4f4f2"), "sleeves": "short", "bottom": "shorts", "bottom_col": Color("6fbf6a"),
+				"sock": Color.WHITE, "shoe": Color("2b2b33"), "hair": "curly", "hair_col": Color("e6702f"), "head": Vector2(34, 40),
+				"head_shape": "long", "torso_w": 24.0, "torso_extra": _x_bandage.bind("kid")}
+		"lila":
+			return {"size": "kid", "top": Color("6fbf6a"), "bottom": "dress", "flare": 16.0, "hair": "pigtails", "hair_col": Color("e6702f"),
+				"lashes": 2, "sock": Color.WHITE, "shoe": Color("8a5a36"), "eye_iris": Color("3f8f3a"), "torso_w": 26.0,
+				"extra": _x_hair_bow.bind(Color("6fbf6a"))}
+		"olga":
+			return {"size": "teen", "top": Color("f28cb8"), "sleeves": "long", "bottom": "skirt", "bottom_col": Color("f4f4f2"),
+				"hair": "long", "hair_col": Color("f4d24e"), "lashes": 3, "eye_iris": Color("3d8fe0"), "legs": Puppet.SKIN,
+				"shoe": Color("f28cb8"), "extra": _x_hair_bow.bind(Color("f28cb8"))}
+		"mr_simmons":
+			return {"size": "adult", "top": Color("8fbfe6"), "sleeves": "long", "bottom_col": Color("c8a86a"), "shoe": Color("6b4428"),
+				"hair": "slick", "hair_col": Color("6b4428"), "torso_w": 30.0, "torso_extra": CastMore._x_tie.bind(Color("e6702f"))}
+		"curly":
+			return {"size": "kid", "top": Color("c8642a"), "sleeves": "long", "bottom_col": Color("3d5aa8"), "shoe": Color("2b2b33"),
+				"hair": "wild", "hair_col": Color("1d1d22"), "glasses": true, "eye": Vector2(9, 11), "torso_extra": _x_plaid.bind("kid", Color("5a1a1a"))}
 		_: return {}
 
 
@@ -90,6 +109,29 @@ static func _x_trident(p: Puppet, hc: Vector2) -> void:
 	for dx in [-16, 0, 16]:
 		Art.limb(p.ci, PackedVector2Array([Vector2(x + dx, hc.y - 70), Vector2(x + dx, hc.y - 110)]), 6, Color("f2c14e"))
 	Art.limb(p.ci, PackedVector2Array([Vector2(x - 16, hc.y - 70), Vector2(x + 16, hc.y - 70)]), 6, Color("f2c14e"))
+
+
+static func _x_bandage(p: Puppet, size: String) -> void:
+	# A sticking plaster on the arm: Eugene always has at least one
+	var sh: float = SHOULDER[size]
+	Art.shape(p.ci, Art.rrect(Rect2(-30, sh + 20, 16, 9), 3), Color("f2c9a5"), 2.0)
+
+
+static func _x_plaid(p: Puppet, size: String, col: Color) -> void:
+	var sh: float = SHOULDER[size]
+	var hip: float = HumanRig.SIZES[size].hip
+	for i in 3:
+		var y := sh + 14 + (hip - sh - 20) * (i + 0.5) / 3.0
+		Art.stroke(p.ci, PackedVector2Array([Vector2(-20, y), Vector2(20, y)]), 2.0, col)
+	for i in 3:
+		Art.stroke(p.ci, PackedVector2Array([Vector2(-12 + i * 12, sh + 8), Vector2(-12 + i * 12, hip - 4)]), 2.0, col)
+
+
+static func _x_hair_bow(p: Puppet, hc: Vector2, col: Color) -> void:
+	var b := hc + Vector2(0, -42)
+	Art.shape(p.ci, PackedVector2Array([b, b + Vector2(-16, -10), b + Vector2(-16, 10)]), col, 2.5)
+	Art.shape(p.ci, PackedVector2Array([b, b + Vector2(16, -10), b + Vector2(16, 10)]), col, 2.5)
+	Art.blob(p.ci, b, 5, 5, col, 2.0)
 
 
 # --------------------------------------------------------- creatures --

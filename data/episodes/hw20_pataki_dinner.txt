@@ -1,0 +1,153 @@
+@title Dinner at the Patakis'
+@series Hey Arnold!
+@season 2
+@icon city
+@number 10
+@description Olga calls from college and insists that Helga invite "that sweet boy Arnold" over for family dinner. Helga would rather move to the moon. Arnold comes anyway. Big Bob has questions. Miriam has a casserole. Helga has a plan.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC jazz
+SCENE pataki_kitchen cut
+TITLE
+PLACE big_bob center left neutral
+PLACE helga midright left nervous
+BIG_BOB (neutral): Helga. Your sister called. She says you have to invite some kid named Arnold over for dinner. Saturday.
+HELGA (scared): WHAT?! Why would Olga say that?!
+BIG_BOB (smug): She says he helped her once. At the museum or something. She wants to thank him.
+HELGA (nervous): She can send him a card!
+BIG_BOB (angry): She's paying for the steaks, Olga. I mean Helga. He's coming.
+HELGA (sad): Criminy.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC tense
+SCENE helga_room
+PLACE helga center right scared
+PLACE phoebe midleft right nervous
+HELGA (scared): Phoebe, this is a disaster! Arnold! In my house! Seeing my family! Seeing my ROOM!
+PHOEBE (nervous): Your room is very... private, Helga.
+HELGA (scared): There's a shrine to him in my closet! Made of his chewing gum!
+PHOEBE (nervous): Then keep the closet locked.
+HELGA (smug): Triple locked. And I'll keep him in the kitchen. And I'll be mean to him the whole time. So nobody suspects anything.
+PHOEBE (sad): That sounds like a very long dinner.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC happy
+SCENE sunset_arms
+PLACE arnold center right surprised
+PLACE gerald midleft right smug
+GERALD (smug): You're having dinner at Helga's house? With Big Bob? Arnold, my man, are you crazy?
+ARNOLD (surprised): Olga invited me. I couldn't say no.
+GERALD (smug): Big Bob is going to ask you about beepers for two hours.
+ARNOLD (nervous): I don't know anything about beepers.
+GERALD (smug): Then nod a lot. And say "Wow, Mr. Pataki."
+ARNOLD (happy): Wow, Mr. Pataki.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC sneaky
+SCENE pataki_kitchen
+CARD Saturday...
+PLACE big_bob center left smug
+PLACE arnold midright left nervous
+PLACE helga midleft right angry
+BIG_BOB (smug): So. You're the football head.
+ARNOLD (nervous): I'm Arnold, Mr. Pataki.
+BIG_BOB (smug): Football head, Arnold, whatever. You like beepers?
+ARNOLD (nervous): Wow, Mr. Pataki.
+BIG_BOB (excited): Finally! A kid with taste! Let me show you the new model!
+HELGA (angry): Bob! He doesn't want to see the new model!
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC jazz 2
+SCENE pataki_kitchen
+PLACE big_bob center left excited
+PLACE arnold midright left happy
+BIG_BOB (excited): Two hundred hours of battery! Vibrates in seven patterns! Plays a little song!
+ARNOLD (happy): That's actually pretty cool, Mr. Pataki.
+BIG_BOB (surprised): You think so?
+ARNOLD (smug): Sure. I bet it took a lot of work to build a business like yours.
+BIG_BOB (shy): ...Nobody ever asks me about that. Thirty years. Started with one beeper on a crate.
+ARNOLD (happy): I'd like to hear about it.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC sneaky 2
+SCENE helga_room
+PLACE helga center right nervous
+HELGA (nervous): Okay. Stay calm. He's downstairs with Bob. Talking about beepers. Fine. Good. Normal.
+HELGA (scared): Wait. Is he coming upstairs? Why are there footsteps on the stairs?!
+HELGA (angry): Phoebe said triple lock the closet. I only double locked it!
+SFX door
+HELGA (scared): Lock three! Lock three!
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC tense 2
+SCENE helga_room
+PLACE helga center right scared
+ENTER arnold left midleft neutral
+ARNOLD (neutral): Hey, Helga. Your dad sent me to get you. Dinner's ready.
+HELGA (scared): Don't come in! I mean. Uh. Get out of my room, football head!
+ARNOLD (surprised): Okay. Sorry. It's a nice room, though.
+HELGA (nervous): It's a pink room. It's just a pink room. With nothing in the closet.
+ARNOLD (smug): I didn't ask about the closet.
+HELGA (scared): GOOD! Don't!
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC romantic
+SCENE pataki_kitchen
+PLACE arnold center right happy
+PLACE big_bob midleft right happy
+PLACE helga midright left nervous
+NARRATOR: Dinner was steak. And mashed potatoes. And a very mysterious casserole that Helga's mom made. Nobody knew what was in it. Nobody asked.
+BIG_BOB (happy): So then I said, "Bob, you're gonna be the Beeper King of Hillwood." And here I am!
+ARNOLD (happy): That's a great story, Mr. Pataki.
+HELGA (surprised): You've heard that story four hundred times, Bob. And it's still... actually kind of good.
+BIG_BOB (shy): Huh. Thanks, Helga.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC jazz
+SCENE pataki_kitchen
+PLACE helga midright left surprised
+PLACE arnold farright left surprised
+ENTER olga left center excited
+OLGA (excited): Surprise! I took the train home early! I couldn't miss the big dinner!
+HELGA (surprised): Olga?!
+OLGA (happy): Arnold! Thank you so much for helping my baby sister. She told me about the bus poem. And the museum. And the tree.
+ARNOLD (surprised): Helga told you about all that?
+OLGA (smug): She talks about you all the time, Arnold. Every single phone call.
+HELGA (scared): OLGA!
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC tense
+SCENE pataki_kitchen
+PLACE helga center right scared
+PLACE arnold midleft right surprised
+HELGA (scared): She's exaggerating! She exaggerates everything! She thinks a B-plus is a tragedy!
+ARNOLD (smug): Helga, it's okay.
+HELGA (angry): I only mention you because you're so annoying! You're the most annoying person I know! I complain about you! That's all!
+ARNOLD (happy): Okay, Helga. Thanks for having me over. I had a really nice time.
+HELGA (surprised): ...You did?
+ARNOLD (happy): Your family's nice. Your dad's funny. And you wrote a really good poem.
+
+# ------------------------------------------------------------ HILLWOOD STREET
+MUSIC romantic 2
+SCENE hillwood_street
+CARD That night...
+PLACE arnold center right happy
+PLACE gerald midleft right surprised
+GERALD (surprised): So? Did you survive?
+ARNOLD (happy): It was great, Gerald. Big Bob gave me a beeper. A free one.
+GERALD (surprised): Big Bob gave something away for free? Now I've heard everything.
+ARNOLD (smug): And Olga said Helga talks about me all the time.
+GERALD (smug): And what do you think about that?
+ARNOLD (shy): ...I think Helga's more complicated than people know.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic
+SCENE helga_room
+PLACE helga center right shy
+HOLD helga locket
+HELGA (shy): He sat at our table. He ate the mystery casserole. He laughed at Bob's jokes.
+HELGA (excited): And he said I wrote a really good poem!
+HELGA (angry): And Olga nearly ruined everything! Every phone call! She told him every phone call!
+HELGA (shy): ...Well. Maybe it's okay if he knows a little. Just a little.
+HELGA (smug): The closet stays locked, though.
+END

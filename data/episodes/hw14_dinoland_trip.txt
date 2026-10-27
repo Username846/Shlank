@@ -1,0 +1,162 @@
+@title The Dinoland Field Trip
+@series Hey Arnold!
+@season 2
+@icon city
+@number 4
+@description Mr. Simmons takes the fourth grade to Dinoland. Eugene has been banned from every ride for his own safety. Arnold decides that this time, Eugene is going on the Tyrannosaurus Wrecks, no matter what.
+
+# ------------------------------------------------------------ FOURTH GRADE CLASSROOM
+MUSIC happy
+SCENE classroom cut
+TITLE
+PLACE mr_simmons center left excited
+PLACE arnold midright left happy
+PLACE eugene right left excited
+MR_SIMMONS (excited): Class! Tomorrow we're taking a very special field trip! To Dinoland!
+EUGENE (excited): Dinoland! I've always wanted to go to Dinoland!
+MR_SIMMONS (nervous): Eugene. About that. The park sent us a letter.
+EUGENE (surprised): A letter? About me?
+MR_SIMMONS (sad): You're not allowed on any of the rides. For safety reasons. Your safety. And the rides' safety.
+EUGENE (sad): ...I'm okay!
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC jazz
+SCENE school_bus
+PLACE arnold center right neutral
+PLACE eugene midleft right sad
+PLACE curly midright left excited
+CURLY (excited): Dinoland! The Tyrannosaurus Wrecks! A hundred feet tall! Three loops! I'm going on it ten times!
+EUGENE (sad): I'm going to sit on a bench. That's what the letter said. The bench is very safe.
+ARNOLD (neutral): Eugene, what happened last time you went to an amusement park?
+EUGENE (nervous): I got stuck on the Ferris wheel. Then the carousel. Then I fell into the duck pond. Then a duck sat on me.
+ARNOLD (smug): Well, that was a long time ago.
+EUGENE (sad): It was last month.
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC happy 2
+SCENE dinoland
+PLACE mr_simmons center left excited
+PLACE arnold midright left happy
+PLACE gerald right left excited
+PLACE eugene midleft right sad
+MR_SIMMONS (excited): Here we are! Dinoland! Stay with your buddy, be back by four, and have a very special time!
+GERALD (excited): Arnold, the Tyrannosaurus Wrecks! The line's only an hour!
+ARNOLD (neutral): Go ahead, Gerald. I'm going to stay with Eugene.
+EUGENE (surprised): You don't have to, Arnold.
+ARNOLD (happy): I want to.
+GERALD (smug): You're too nice, Arnold. I'll save you a seat.
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC sad
+SCENE dinoland
+PLACE eugene center left sad
+PLACE arnold midright left neutral
+EUGENE (sad): Everybody else is having fun. And I'm on a bench. Again.
+ARNOLD (neutral): Eugene, you know that letter? I think it's not fair. You can't just keep someone off every ride forever.
+EUGENE (sad): But I always break things.
+ARNOLD (smug): Rides are built to be safe. Even for you. Especially for you. Let's try one.
+EUGENE (nervous): The teacups? Those only spin a little.
+ARNOLD (happy): The teacups it is.
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC action
+SCENE dinoland
+PLACE eugene center left scared
+PLACE arnold midright left happy
+SFX whoosh
+NARRATOR: The teacups started spinning. Slowly. Then a little faster. Eugene's teacup came loose from the floor and rolled into the cotton candy stand.
+SFX thud
+SHAKE 0.6
+EUGENE (scared): I'm okay!
+ARNOLD (surprised): Are you?
+EUGENE (sad): I'm covered in cotton candy. But I'm okay.
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC happy
+SCENE dinoland
+PLACE rhonda center left smug
+PLACE lila midright left happy
+PLACE curly midleft right excited
+RHONDA (smug): Dinoland is so last year. But the souvenir shop has the most adorable dinosaur purses.
+LILA (happy): I think it's ever so fun, Rhonda. I rode the little brontosaurus train three times.
+CURLY (excited): Rhonda! Ride the Tyrannosaurus Wrecks with me! I saved you a seat!
+RHONDA (nervous): Curly, I'd rather eat a dinosaur egg.
+CURLY (excited): They sell those at the snack bar! I'll get you one!
+LILA (smug): He's ever so determined, isn't he?
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC jazz 2
+SCENE dinoland
+PLACE helga center right smug
+PLACE phoebe midleft right happy
+HELGA (smug): Look at football head. Babysitting Eugene instead of riding anything. Typical.
+PHOEBE (happy): I think it's very kind, Helga.
+HELGA (shy): It is kind. It's the kindest thing I've ever... ugh! Stop making me say nice things, Phoebe!
+PHOEBE (smug): I didn't say anything.
+HELGA (angry): You said it with your glasses!
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC sneaky
+SCENE dinoland
+PLACE mr_simmons center left nervous
+PLACE arnold midright left neutral
+MR_SIMMONS (nervous): Arnold, the park manager says Eugene destroyed a cotton candy stand.
+ARNOLD (neutral): It was the teacup's fault, Mr. Simmons. The bolts were loose.
+MR_SIMMONS (surprised): Loose? On a children's ride?
+ARNOLD (smug): Eugene didn't break the ride. He found out it was broken. He might have saved somebody.
+MR_SIMMONS (happy): Well. That's a very special way of looking at it.
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC tense
+SCENE dinoland
+CARD Three-thirty...
+PLACE eugene center left nervous
+PLACE arnold midright left excited
+PLACE curly midleft right excited
+CURLY (excited): The Tyrannosaurus Wrecks! Last ride of the day! You coming, Eugene?
+EUGENE (nervous): The letter said no rides.
+ARNOLD (excited): The manager said yes. If you're with a buddy. And wear two seatbelts.
+EUGENE (surprised): Two seatbelts? For me?
+ARNOLD (happy): Custom made. They had them in the back. Labeled "Eugene."
+EUGENE (excited): They made me my own seatbelt!
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC action 2
+SCENE dinoland
+PLACE eugene center left scared
+PLACE arnold midright left excited
+PLACE curly right left excited
+SFX whoosh
+NARRATOR: The Tyrannosaurus Wrecks climbed. Up. Up. A hundred feet up. Eugene could see all of Hillwood.
+EUGENE (scared): Arnold! It's so high!
+ARNOLD (excited): Hold on! Here comes the drop!
+SFX whoosh
+SHAKE 1.0
+CURLY (excited): WHEEEEE!
+EUGENE (excited): WHEEEEE!
+
+# ------------------------------------------------------------ DINOLAND
+MUSIC happy
+SCENE dinoland
+PLACE eugene center left excited
+PLACE arnold midright left happy
+PLACE gerald right left surprised
+EUGENE (excited): I did it! I rode the Tyrannosaurus Wrecks! And nothing broke!
+GERALD (surprised): Nothing? Not even a little?
+EUGENE (happy): Well. My glasses flew off. But a bird caught them. And dropped them on my head.
+ARNOLD (happy): Then it was a perfect ride.
+EUGENE (shy): Thanks, Arnold. For not giving up on me.
+
+# ------------------------------------------------------------ THE SCHOOL BUS
+MUSIC romantic
+SCENE school_bus
+CARD The ride home...
+PLACE eugene center left happy
+PLACE mr_simmons midright left happy
+MR_SIMMONS (happy): Eugene, the park sent a new letter. You're allowed on any ride now. With two seatbelts.
+EUGENE (excited): Really? Any ride?
+MR_SIMMONS (smug): They also named the cotton candy stand after you. "Eugene's Corner." They say it's their luckiest spot.
+EUGENE (happy): Lucky? Me?
+MR_SIMMONS (happy): Very special, Eugene. Very special.
+EUGENE (excited): I'm okay! I'm better than okay!
+END

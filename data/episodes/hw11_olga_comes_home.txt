@@ -1,0 +1,154 @@
+@title Olga Comes Home
+@series Hey Arnold!
+@season 2
+@icon city
+@number 1
+@description Helga's perfect older sister Olga is home from college for a whole week. Big Bob throws her a party. Helga is invisible. Then Olga asks Helga for help with the one thing she has never been good at.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC happy
+SCENE pataki_kitchen cut
+TITLE
+PLACE big_bob center left excited
+PLACE helga midright left sad
+BIG_BOB (excited): Olga's coming home! For a whole week! I've got balloons, I've got streamers, I've got a cake shaped like a diploma!
+HELGA (sad): Great. Wonderful. Can somebody pass the cereal?
+BIG_BOB (excited): Not now, Olga's coming! Helga, get the door!
+HELGA (angry): Bob, I'm eating!
+BIG_BOB (smug): Eat faster.
+HELGA (sad): Criminy.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC romantic
+SCENE pataki_kitchen
+PLACE olga center left excited
+PLACE big_bob midleft right excited
+PLACE helga midright left neutral
+OLGA (excited): Daddy! Baby sister! I'm home!
+BIG_BOB (excited): There she is! My pride and joy! Straight A's again?
+OLGA (happy): All A-pluses, Daddy. And I won the piano competition. And the poetry prize.
+BIG_BOB (excited): That's my girl!
+OLGA (excited): And how is my darling baby sister? Oh, I missed you so much!
+HELGA (smug): Hi, Olga. I got a B in spelling.
+BIG_BOB (neutral): That's nice, Helga. Olga, want some cake?
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC sad
+SCENE helga_room
+PLACE helga center right sad
+HELGA (sad): A whole week. Seven days of "Olga this" and "Olga that."
+HELGA (angry): Nobody even asked what I've been up to. I've been up to plenty!
+HELGA (shy): I wrote forty-two poems this month. About a certain football-headed someone.
+HELGA (sad): Not that anyone would care. They'd just say "That's nice, Helga. Olga, want some cake?"
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC jazz
+SCENE sunset_arms
+PLACE arnold center right neutral
+PLACE gerald midleft right smug
+GERALD (smug): Olga Pataki's back in town. I saw Big Bob put up a billboard. With her face on it.
+ARNOLD (surprised): A billboard?
+GERALD (smug): "Welcome Home Olga. Also Beepers For Sale."
+ARNOLD (sad): I bet Helga's having a hard week.
+GERALD (surprised): You worry about Helga? She calls you football head every day.
+ARNOLD (neutral): Everybody has a reason for being the way they are, Gerald.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC sneaky
+SCENE pataki_kitchen
+PLACE olga center left nervous
+PLACE helga midright left surprised
+OLGA (nervous): Helga? Can I tell you a secret? You can't tell Daddy.
+HELGA (surprised): You have a secret? Miss Perfect?
+OLGA (sad): I have to give a speech. At the college. In front of three hundred people. And I'm so scared I can't sleep.
+HELGA (surprised): You? Scared? You played piano for the governor!
+OLGA (sad): Piano is easy. Talking is hard. What if I say something wrong? What if they laugh?
+HELGA (nervous): ...Huh.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC jazz 2
+SCENE mighty_pete
+PLACE helga center right neutral
+PLACE phoebe midleft right happy
+PHOEBE (happy): Olga is afraid of public speaking? That's actually extremely common, Helga. Statistically, more people fear speeches than spiders.
+HELGA (smug): Well, I'm not afraid of either. I yell at people all day.
+PHOEBE (smug): Then maybe you could teach her.
+HELGA (surprised): Me? Teach Olga something?
+PHOEBE (happy): You're the best yeller in Hillwood, Helga. That's a skill.
+HELGA (smug): ...It is a skill, isn't it.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC happy
+SCENE helga_room
+PLACE helga center right smug
+PLACE olga midleft right nervous
+HELGA (smug): Okay, Olga. Lesson one. Stand up straight. Chin up. Look 'em in the eye.
+OLGA (nervous): Like this?
+HELGA (angry): No! You look like a scared bunny! Look like you're about to pound somebody!
+OLGA (surprised): Pound them?
+HELGA (smug): Not really pound. Just look like you could. Then they listen.
+OLGA (excited): Oh! Like this! Grrr!
+HELGA (happy): ...Not bad, actually.
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC jazz
+SCENE ps118
+PLACE arnold center right happy
+PLACE helga midleft right neutral
+ARNOLD (happy): Hey, Helga. How's your sister's visit going?
+HELGA (smug): What's it to you, football head?
+ARNOLD (neutral): I just thought it might be hard. Everyone always paying attention to her.
+HELGA (surprised): ...How did you know that?
+ARNOLD (smug): Lucky guess.
+HELGA (shy): It's... actually going okay. She needs my help with something.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic 2
+SCENE helga_room
+CARD Day five...
+PLACE olga center left excited
+PLACE helga midright left happy
+OLGA (excited): "Good evening, everyone. Tonight I'd like to talk about courage." Was that good?
+HELGA (smug): Better. Now say it like you mean it. Like the audience owes you money.
+OLGA (smug): GOOD EVENING, EVERYONE.
+HELGA (excited): Yes! That's it!
+OLGA (shy): Baby sister. How did you get so brave?
+HELGA (shy): ...I guess when nobody's watching you, you learn to be loud.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC tense
+SCENE pataki_kitchen
+PLACE big_bob center left surprised
+PLACE olga midright left neutral
+OLGA (neutral): Daddy, I have to tell you something. My speech went perfectly. At the college. On the video call.
+BIG_BOB (excited): Of course it did! You're perfect!
+OLGA (smug): No, Daddy. I was terrible at speeches. Helga taught me how.
+BIG_BOB (surprised): Helga?
+OLGA (happy): She's the bravest person I know.
+BIG_BOB (surprised): ...Huh. Helga.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic
+SCENE helga_room
+PLACE helga center right shy
+ENTER big_bob left midleft nervous
+BIG_BOB (nervous): Helga. Uh. Your sister says you helped her. With the speech thing.
+HELGA (shy): Yeah, Bob. So?
+BIG_BOB (nervous): So, uh. Good job. That's a... that's a good job, Helga.
+HELGA (surprised): You said my name right. The first time.
+BIG_BOB (smug): Don't get used to it.
+HELGA (happy): ...Okay, Bob.
+
+# ------------------------------------------------------------ PATAKI KITCHEN
+MUSIC happy 2
+SCENE pataki_kitchen
+CARD The last morning...
+PLACE olga center left happy
+PLACE helga midright left neutral
+PLACE big_bob midleft right happy
+OLGA (happy): Goodbye, Daddy. Goodbye, baby sister. I'll call every week.
+BIG_BOB (happy): Bye, Olga. Hey, Helga, want some cake? There's leftovers.
+HELGA (surprised): You're asking me?
+BIG_BOB (smug): It's shaped like a diploma. You'll get one someday.
+HELGA (happy): ...Pass the cake, Bob.
+END

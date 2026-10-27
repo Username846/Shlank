@@ -1,0 +1,143 @@
+@title Lost on the Subway
+@series Hey Arnold!
+@season 2
+@icon city
+@number 6
+@description Arnold and Eugene take the subway across town to pick up Grandpa's new glasses. They get on the wrong train. Then another wrong train. Soon they're at the end of the line in a part of the city neither of them has ever seen.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC happy
+SCENE boarding_kitchen cut
+TITLE
+PLACE grandpa center left nervous
+PLACE arnold midright left happy
+GRANDPA (nervous): Shortman, I need a favor. My new glasses are ready at the eye doctor. Clear across town.
+ARNOLD (happy): I'll get them, Grandpa. I'll take the subway.
+GRANDPA (smug): The green line. Five stops. Get off at Vine Street. Easy as pie.
+ARNOLD (happy): Green line. Five stops. Vine Street. Got it.
+GRANDPA (nervous): And whatever you do, don't get on the orange line. Nobody knows where the orange line goes.
+ARNOLD (surprised): Nobody?
+
+# ------------------------------------------------------------ HILLWOOD STREET
+MUSIC jazz
+SCENE hillwood_street
+PLACE arnold center right happy
+ENTER eugene left midleft excited
+EUGENE (excited): Arnold! Where are you going?
+ARNOLD (happy): To get my grandpa's glasses. On the subway.
+EUGENE (excited): Can I come? I've never been on the subway! My mom says I'm not allowed because of what happened with the escalator.
+ARNOLD (surprised): What happened with the escalator?
+EUGENE (nervous): It went up. I went down. Then it went down. I went up. It was very confusing for everybody.
+ARNOLD (smug): Okay, Eugene. Stick close to me.
+
+# ------------------------------------------------------------ HILLWOOD SUBWAY
+MUSIC tense
+SCENE hillwood_subway
+PLACE arnold center right neutral
+PLACE eugene midleft right excited
+EUGENE (excited): Wow! It's so big! And so loud! And so smelly!
+ARNOLD (neutral): Okay. Green line. Five stops. That one's green, right?
+EUGENE (happy): It looks green to me!
+SFX whoosh
+NARRATOR: It was not green. It was a very dirty orange. It just looked green under the old station lights.
+ARNOLD (happy): All aboard.
+
+# ------------------------------------------------------------ HILLWOOD SUBWAY
+MUSIC jazz 2
+SCENE hillwood_subway
+PLACE arnold center right nervous
+PLACE eugene midleft right happy
+NARRATOR: One stop. Two stops. Three stops. Four stops. Five stops. Six stops. Seven stops.
+ARNOLD (nervous): Eugene. Didn't Grandpa say five?
+EUGENE (happy): Maybe the stops are shorter on this line.
+ARNOLD (nervous): The sign says "Next stop: End of the Line."
+EUGENE (surprised): That sounds very final.
+ARNOLD (scared): We're on the orange line.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC sneaky
+SCENE boarding_kitchen
+PLACE grandpa center left nervous
+PLACE grandma midright left excited
+GRANDPA (nervous): Pookie, Shortman's been gone three hours. The eye doctor's only forty minutes away.
+GRANDMA (excited): A sailor never worries! The sea always brings him home!
+GRANDPA (sad): He's not at sea, Pookie. He's on the subway.
+GRANDMA (smug): The subway is just a sea underground. With more pigeons.
+GRANDPA (nervous): ...I'm calling Gerald.
+
+# ------------------------------------------------------------ HILLWOOD SUBWAY
+MUSIC spooky
+SCENE hillwood_subway
+CARD The end of the line...
+PLACE arnold center right nervous
+PLACE eugene midleft right nervous
+NARRATOR: The end of the line was quiet. Old tiles. Flickering lights. A station nobody had used in years.
+EUGENE (nervous): Arnold, where are we?
+ARNOLD (nervous): I don't know, Eugene. The map doesn't even show this station.
+EUGENE (scared): Are we lost forever? Will we have to live here? I don't have my pajamas!
+ARNOLD (neutral): Hey. We're not lost forever. We just have to find the way back. One stop at a time.
+EUGENE (happy): One stop at a time. I can do that.
+
+# ------------------------------------------------------------ HILLWOOD SUBWAY
+MUSIC romantic
+SCENE hillwood_subway
+PLACE arnold center right surprised
+PLACE eugene midleft right surprised
+NARRATOR: On the wall of the old station was a painting. A huge mural of Hillwood, a hundred years ago. Horses on the streets. The old pier. A tree in the park that looked a lot like Mighty Pete.
+ARNOLD (surprised): Eugene. Look at this. Nobody's seen this in years.
+EUGENE (excited): It's beautiful! It's like a secret!
+ARNOLD (happy): Maybe getting lost isn't always bad.
+EUGENE (happy): That's what I always say! Usually right after I fall in something.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC jazz
+SCENE sunset_arms
+PLACE gerald center left nervous
+PLACE grandpa midright left nervous
+GERALD (nervous): Arnold took Eugene? On the subway? Alone?
+GRANDPA (nervous): Is that bad?
+GERALD (smug): Eugene once got lost in a phone booth, Mr. Shortman.
+GRANDPA (scared): How do you get lost in a phone booth?
+GERALD (smug): He found a way. Don't worry. I know someone who knows the subway better than anybody.
+
+# ------------------------------------------------------------ HILLWOOD SUBWAY
+MUSIC sneaky 2
+SCENE hillwood_subway
+PLACE arnold center right neutral
+PLACE eugene midleft right happy
+ENTER curly left farleft excited
+CURLY (excited): Arnold! Eugene! I knew you'd end up here!
+ARNOLD (surprised): Curly? How did you find us?
+CURLY (smug): I ride the subway every weekend. Every line. Every station. Even the secret ones.
+EUGENE (surprised): Why?
+CURLY (excited): Because nobody else does! Follow me! I know a shortcut!
+ARNOLD (nervous): Is it a safe shortcut?
+CURLY (smug): Define safe.
+
+# ------------------------------------------------------------ HILLWOOD SUBWAY
+MUSIC action
+SCENE hillwood_subway
+PLACE curly center left excited
+PLACE arnold midright left nervous
+PLACE eugene right left scared
+SFX whoosh
+NARRATOR: Curly led them through three trains, two staircases and one door marked "Staff Only."
+CURLY (excited): Green line! Vine Street! Next train in two minutes!
+EUGENE (scared): I tripped on the stairs!
+ARNOLD (surprised): Are you okay?
+EUGENE (happy): I'm okay! I landed on a pigeon! The pigeon is also okay!
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC happy
+SCENE boarding_kitchen
+CARD That evening...
+PLACE grandpa center left happy
+PLACE arnold midright left happy
+PLACE eugene right left happy
+ARNOLD (happy): Here are your glasses, Grandpa.
+GRANDPA (happy): Five hours, Shortman! For a forty-minute trip!
+ARNOLD (smug): We took the scenic route. We found a secret station. And a mural nobody's seen in fifty years.
+GRANDPA (surprised): The old Hillwood mural? Under Elm Street? I thought they bricked it up!
+EUGENE (excited): Nope! It's still there! And so is a very nice pigeon!
+GRANDPA (smug): Heh heh. Maybe I'll take the orange line tomorrow.
+END

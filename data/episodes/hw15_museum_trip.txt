@@ -1,0 +1,167 @@
+@title A Night at the Hillwood Museum
+@series Hey Arnold!
+@season 2
+@icon city
+@number 5
+@description The fourth grade gets to sleep over at the Hillwood Museum, under the giant dinosaur skeleton. Curly is convinced the dinosaur comes to life at midnight. Then, at midnight, something in the museum starts to move.
+
+# ------------------------------------------------------------ FOURTH GRADE CLASSROOM
+MUSIC happy
+SCENE classroom cut
+TITLE
+PLACE mr_simmons center left excited
+PLACE arnold midright left happy
+PLACE curly right left excited
+MR_SIMMONS (excited): Class! This Friday we're having a very special sleepover. At the Hillwood Museum!
+CURLY (excited): Under the dinosaur? The big one? The T-rex?
+MR_SIMMONS (happy): That's right, Curly. Sleeping bags under the bones.
+CURLY (excited): Everybody knows it comes alive at midnight! Everybody!
+ARNOLD (smug): Curly, it's just a skeleton.
+CURLY (smug): That's what it WANTS you to think.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC jazz
+SCENE sunset_arms
+PLACE arnold center right neutral
+PLACE gerald midleft right smug
+GERALD (smug): Arnold, have you heard the legend of the Midnight Bones?
+ARNOLD (surprised): Gerald, you're making that up.
+GERALD (smug): Every hundred years, at the stroke of midnight, the dinosaur skeleton walks the halls of the museum. Looking for its missing bone.
+ARNOLD (neutral): What missing bone?
+GERALD (excited): Nobody knows! That's the scary part!
+ARNOLD (smug): ...That's a pretty good story.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC jazz 2
+SCENE hillwood_museum
+CARD Friday night...
+PLACE mr_simmons center left happy
+PLACE arnold midright left happy
+PLACE lila midleft right excited
+MR_SIMMONS (happy): Welcome, class! Find a spot for your sleeping bag. And remember, don't touch the exhibits!
+LILA (excited): Oh, Arnold, isn't it ever so wonderful? A whole museum, all to ourselves!
+ARNOLD (happy): It's pretty great, Lila.
+LILA (happy): I've brought my flashlight, my pillow and a book about dinosaurs. I'm ever so prepared.
+MR_SIMMONS (smug): Lights out at ten. Very special dreams, everyone.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC romantic
+SCENE hillwood_museum
+PLACE lila center left happy
+PLACE arnold midright left happy
+LILA (happy): Arnold, look. You can see the stars through the glass roof. Aren't they ever so pretty?
+ARNOLD (happy): They are, Lila.
+LILA (smug): Did you know the light from those stars is older than the dinosaur? Ever so much older.
+ARNOLD (surprised): Older than the bones?
+LILA (happy): Millions of years. We're looking at the past. Right now.
+ARNOLD (smug): Don't tell Curly. He'll think the stars are coming alive too.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC sneaky
+SCENE hillwood_museum
+PLACE curly center left excited
+PLACE sid midright left scared
+PLACE harold midleft right nervous
+CURLY (excited): It's eleven fifty-five. Five minutes until the bones wake up.
+SID (scared): Curly, stop it! I can't sleep!
+HAROLD (nervous): I'm not scared. I'm just keeping my eyes open. For safety.
+CURLY (smug): When it wakes up, it'll look for its missing bone. And if it can't find it...
+SID (scared): What?!
+CURLY (excited): It takes YOURS!
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC spooky
+SCENE hillwood_museum
+CARD Midnight...
+PLACE arnold center right neutral
+PLACE gerald midleft right scared
+SFX thud
+SHAKE 0.4
+GERALD (scared): Arnold. Did you hear that?
+ARNOLD (nervous): It was probably just the building settling.
+SFX thud
+SFX thud
+GERALD (scared): The building is settling in footsteps, man!
+NARRATOR: Something was moving in the dark. Something big. Clink. Clank. Clink.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC spooky 2
+SCENE hillwood_museum
+PLACE sid center left scared
+PLACE harold midright left scared
+PLACE curly midleft right excited
+SID (scared): It's the bones! The bones are walking!
+HAROLD (scared): I want my mom! And a sandwich!
+CURLY (excited): I told you! I TOLD YOU! Nobody listens to Curly!
+NARRATOR: Everyone dove into their sleeping bags. Everyone except Arnold. Arnold grabbed a flashlight.
+SFX thud
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC tense
+SCENE hillwood_museum
+PLACE arnold center right nervous
+PLACE helga midleft right nervous
+HELGA (nervous): Football head! Where do you think you're going?
+ARNOLD (nervous): To find out what's making that noise.
+HELGA (angry): You can't go alone! What if it's a dinosaur? What if it eats you?
+ARNOLD (smug): Then you can come with me.
+HELGA (surprised): ...Fine! But only to make sure you don't do anything stupid.
+HELGA (shy): Hold the flashlight steady, Arnoldo.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC sneaky 2
+SCENE hillwood_museum
+PLACE arnold center right surprised
+PLACE helga midleft right surprised
+SFX thud
+NARRATOR: Arnold and Helga followed the sound. Down the hall. Past the paintings. Past the mummies. Into the basement.
+ARNOLD (surprised): Look. Footprints. Small ones.
+HELGA (surprised): Those aren't dinosaur feet. Those are... sneakers.
+ARNOLD (smug): Somebody's playing a trick.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC action
+SCENE hillwood_museum
+PLACE arnold center right smug
+PLACE eugene midleft right scared
+PLACE helga farright left smug
+ARNOLD (smug): Eugene?
+EUGENE (scared): Arnold! Thank goodness! I got up to use the bathroom and I got lost! And I tripped over a museum cart!
+NARRATOR: Eugene had been wandering the halls for an hour. With a cart full of dinosaur bones rolling behind him. Clink. Clank.
+EUGENE (nervous): I keep trying to push it back. But it follows me.
+HELGA (smug): The legend of the Midnight Bones, folks. Solved.
+EUGENE (happy): I'm okay!
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC jazz
+SCENE hillwood_museum
+PLACE mr_simmons center left surprised
+PLACE eugene midright left nervous
+MR_SIMMONS (surprised): Eugene! Is that the dinosaur's missing bone? From the cart?
+EUGENE (nervous): I don't know. It was just in there. Labeled "Lost Bone, 1890."
+MR_SIMMONS (excited): Eugene! The museum has been looking for that bone for a hundred years!
+EUGENE (surprised): I found the missing bone? By getting lost?
+MR_SIMMONS (happy): That's very special, Eugene. Very, very special.
+
+# ------------------------------------------------------------ HILLWOOD MUSEUM
+MUSIC happy
+SCENE hillwood_museum
+CARD The next morning...
+PLACE curly center left sad
+PLACE arnold midright left happy
+CURLY (sad): So the dinosaur never walked?
+ARNOLD (happy): No, Curly. It was Eugene and a cart.
+CURLY (smug): That's what the dinosaur WANTS you to think.
+ARNOLD (smug): Curly.
+CURLY (excited): Next time I'm bringing a camera!
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic
+SCENE helga_room
+PLACE helga center right shy
+HOLD helga locket
+HELGA (shy): Oh, Arnold. Walking through a dark museum. Together. Just you and me and a flashlight.
+HELGA (excited): And he said "you can come with me." He wanted me there! In the dark! With the mummies!
+HELGA (smug): Eugene ruined it, of course. Eugene ruins everything.
+HELGA (shy): ...But he did find the bone. Fine. Good job, Eugene.
+END

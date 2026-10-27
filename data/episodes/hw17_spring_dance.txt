@@ -1,0 +1,152 @@
+@title The Spring Dance
+@series Hey Arnold!
+@season 2
+@icon city
+@number 7
+@description The P.S. 118 spring dance is on Friday. Arnold wants to ask Lila. Gerald wants to ask Phoebe. Helga wants Arnold to ask her, without anyone finding out she wants Arnold to ask her.
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC happy
+SCENE ps118 cut
+TITLE
+PLACE arnold center right nervous
+PLACE gerald midleft right smug
+GERALD (smug): The spring dance, Arnold. Friday night. In the gym. With a disco ball.
+ARNOLD (nervous): I know, Gerald. I want to ask Lila.
+GERALD (smug): Lila? Mrs. "Ever So" herself?
+ARNOLD (shy): She's really nice, Gerald.
+GERALD (smug): She likes you "like a friend," Arnold. She's told you that four times.
+ARNOLD (sad): ...Maybe the fifth time is different.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic
+SCENE helga_room
+PLACE helga center right shy
+HOLD helga locket
+HELGA (shy): The spring dance. Arnold, in a tie. Arnold, under the disco ball. Arnold, asking me to dance.
+HELGA (excited): "Helga, will you dance with me?" "Why, Arnold, I thought you'd never ask!"
+HELGA (angry): But he won't ask. He'll ask Lila. Miss Perfectly Pleasant. Miss Ever So Darn Sweet.
+HELGA (smug): Unless... I make sure Lila is busy that night.
+HELGA (nervous): No. No scheming. Just this once. I'll be honest.
+HELGA (shy): ...Honest-ish.
+
+# ------------------------------------------------------------ SCHOOL CAFETERIA
+MUSIC jazz
+SCENE cafeteria
+PLACE gerald center left nervous
+PLACE phoebe midright left happy
+GERALD (nervous): Phoebe. Hey. So. There's a dance. On Friday. You probably heard about it.
+PHOEBE (happy): I did hear about it, Gerald.
+GERALD (nervous): And I was thinking, if you weren't already going with somebody, maybe you'd want to go with... a person. Like me.
+PHOEBE (shy): Gerald, are you asking me to the dance?
+GERALD (smug): I'm asking you to the dance.
+PHOEBE (excited): I'd love to! Statistically, this is the best day of my week!
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC sneaky
+SCENE ps118
+PLACE arnold center right nervous
+PLACE lila midleft right happy
+ARNOLD (nervous): Lila. Would you like to go to the spring dance with me?
+LILA (happy): Oh, Arnold, that's ever so sweet of you.
+ARNOLD (happy): So, yes?
+LILA (nervous): Well, I'm ever so sorry, but I already promised to help Mr. Simmons with the decorations. All night.
+ARNOLD (sad): Oh.
+LILA (happy): But you'll save me one dance? As a friend?
+ARNOLD (sad): ...As a friend.
+
+# ------------------------------------------------------------ MIGHTY PETE
+MUSIC sad
+SCENE mighty_pete
+PLACE arnold center right sad
+PLACE grandpa midleft right happy
+GRANDPA (happy): Shortman, you look like a dog that lost its bone.
+ARNOLD (sad): Lila can't go to the dance with me, Grandpa. She's doing decorations.
+GRANDPA (smug): Ya know, when I was your age, I asked Pookie to the dance. She said no. Three times.
+ARNOLD (surprised): What happened?
+GRANDPA (happy): I went anyway. Danced with everybody. Had a great time. Then she asked ME for the last dance.
+ARNOLD (happy): ...Huh.
+
+# ------------------------------------------------------------ P.S. 118 GYM
+MUSIC jazz 2
+SCENE ps118_gym
+CARD Friday night...
+PLACE mr_simmons center left excited
+PLACE lila midright left happy
+MR_SIMMONS (excited): Lila, the decorations look very special! The streamers! The balloons! The disco ball!
+LILA (happy): Thank you ever so much, Mr. Simmons. I've been here since three o'clock.
+MR_SIMMONS (happy): Now go dance, Lila! Have fun! That's an order! A very special order!
+LILA (surprised): Really? I'm allowed?
+MR_SIMMONS (smug): The decorations aren't going anywhere.
+
+# ------------------------------------------------------------ P.S. 118 GYM
+MUSIC action
+SCENE ps118_gym
+PLACE arnold center right happy
+PLACE harold midleft right excited
+PLACE stinky midright left happy
+PLACE sid right left nervous
+HAROLD (excited): I'm doing the robot! Look at me! Beep boop!
+STINKY (happy): Gee, I reckon I'm doin' the chicken dance. Or maybe the chicken is doin' me.
+SID (nervous): I can't dance. I'll just stand by the punch bowl. Looking cool.
+ARNOLD (happy): Come on, Sid! Nobody's watching! Just move!
+SID (excited): Okay! Like this?
+ARNOLD (happy): Exactly like that!
+
+# ------------------------------------------------------------ P.S. 118 GYM
+MUSIC romantic
+SCENE ps118_gym
+PLACE gerald center left happy
+PLACE phoebe midright left happy
+NARRATOR: Gerald and Phoebe danced. Gerald had practiced in his mirror for three days. Phoebe had practiced with a book called "Dancing: A Scientific Approach."
+PHOEBE (happy): Gerald, you're a very good dancer.
+GERALD (smug): You too, Phoebe. You're very... precise.
+PHOEBE (shy): I counted every step.
+GERALD (happy): I could tell. I liked it.
+
+# ------------------------------------------------------------ P.S. 118 GYM
+MUSIC sneaky 2
+SCENE ps118_gym
+PLACE helga center right nervous
+PLACE phoebe midleft right smug
+HELGA (nervous): Phoebe. He's dancing with everybody. Harold. Sid. Rhonda. Even Curly.
+PHOEBE (smug): Then he'll dance with you too, Helga. Just ask him.
+HELGA (scared): Ask him? Me? Ask Arnold? To dance?
+PHOEBE (happy): You told me you'd be honest this time.
+HELGA (sad): Honest-ish, Phoebe. Honest-ISH.
+PHOEBE (smug): The last song is starting.
+
+# ------------------------------------------------------------ P.S. 118 GYM
+MUSIC romantic 2
+SCENE ps118_gym
+CARD The last song...
+PLACE arnold center right happy
+PLACE lila midleft right happy
+LILA (happy): Arnold, I'm free now! Mr. Simmons let me go. Would you like that dance? As a friend?
+ARNOLD (happy): Sure, Lila. But first, there's someone else I want to ask.
+LILA (surprised): Who?
+ARNOLD (smug): Somebody who's been standing by the wall all night, pretending she doesn't want to dance.
+LILA (happy): Oh! That's ever so thoughtful, Arnold.
+
+# ------------------------------------------------------------ P.S. 118 GYM
+MUSIC romantic
+SCENE ps118_gym
+PLACE arnold center right happy
+PLACE helga midleft right surprised
+ARNOLD (happy): Helga? Want to dance?
+HELGA (surprised): Me? Dance? With you? Why?
+ARNOLD (smug): Because you're the only one I haven't danced with yet.
+HELGA (angry): Oh. So I'm last. Typical. Fine! One dance! But don't step on my feet, football head!
+NARRATOR: They danced. Helga did not step on his feet. Arnold did not step on hers. The disco ball turned. And for three whole minutes, Helga forgot to be angry.
+HELGA (shy): ...This is okay, I guess.
+
+# ------------------------------------------------------------ HELGA'S ROOM
+MUSIC romantic 2
+SCENE helga_room
+CARD That night...
+PLACE helga center right shy
+HELGA (shy): The last dance. He gave me the last dance. Under the disco ball.
+HELGA (excited): Sure, I was the last one. But the last dance is the one everybody remembers!
+HELGA (smug): Take that, Lila. Ever so much.
+HELGA (shy): ...Goodnight, Arnold.
+END

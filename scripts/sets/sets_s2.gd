@@ -22,6 +22,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"poseidome": _poseidome(b)
 		"bb_library": _bb_library(b)
 		"bb_hospital": _bb_hospital(b)
+		# Hey Arnold!
+		"helga_room": _helga_room(b)
+		"pataki_kitchen": _pataki_kitchen(b)
+		"mighty_pete": _mighty_pete(b)
+		"chez_paris": _chez_paris(b)
+		"dinoland": _dinoland(b)
+		"hillwood_museum": _hillwood_museum(b)
+		"hillwood_subway": _hillwood_subway(b)
+		"ps118_gym": _ps118_gym(b)
+		"school_bus": _school_bus(b)
+		"hillwood_rink": _hillwood_rink(b)
 		_: return false
 	return true
 
@@ -38,6 +49,20 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 		"mussel_beach", "shady_shoals", "salty_spitoon", "weenie_hut", "shell_city", "poseidome":
 			b._seaweed(70, 620, 110)
 			b._seaweed(1220, 625, 130, Color("4cb04f"))
+		"ps118_gym":
+			for i in 10:
+				var a := t * 1.5 + i * TAU / 10.0
+				Art.dot(ci, Vector2(640 + cos(a) * 420, 380 + sin(a) * 120), 6, Color(1, 1, 1, 0.5))
+		"hillwood_rink":
+			for i in 30:
+				var x := fmod(i * 97.0 + t * 15.0, W + 200) - 100
+				var y := fmod(i * 53.0 + t * 60.0, H + 100) - 50
+				Art.dot(ci, Vector2(x, y), 3, Color(1, 1, 1, 0.8))
+		"dinoland":
+			var a := t * 0.5
+			for i in 6:
+				var c := Vector2(1080, 260) + Vector2(cos(a + i * TAU / 6.0), sin(a + i * TAU / 6.0)) * 130
+				Art.shape(ci, Art.rrect(Rect2(c - Vector2(18, 12), Vector2(36, 26)), 6), [Color("e6452f"), Color("f2c14e"), Color("4a78d0")][i % 3], 2.5)
 		_: pass
 
 
@@ -213,3 +238,173 @@ static func _bb_hospital(b: Backdrop) -> void:
 	for i in 5:
 		Art.stroke(b.ci, PackedVector2Array([Vector2(1120 + i * 28, 130), Vector2(1120 + i * 28, 550)]), 2.0, Color("6ab0a8"))
 	b._sign(Rect2(470, 300, 340, 56), "HOSPITAL", Color("e6452f"), Color.WHITE, 34)
+
+
+# ------------------------------------------------------------ Hey Arnold! --
+
+static func _helga_room(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f7c6d6"), Color("f2a6c0"), 560, Color("c48a4f"))
+	b._window(Rect2(500, 120, 200, 170), Color.WHITE, Color("9ccbe8"))
+	# Bed with a pink cover, and a closet door with a big padlock
+	Art.shape(b.ci, Art.rrect(Rect2(90, 430, 330, 110), 12), Color("f28cb8"), 4.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(90, 400, 90, 50), 12), Color.WHITE, 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(900, 160, 230, 400), 8), Color("c48a4f"), 4.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(990, 330, 50, 44), 8), Color("f2c14e"), 3.0)
+	Art.stroke(b.ci, Art.arc_pts(Vector2(1015, 332), 16, 18, PI, TAU, 10), 5.0, Color("8a96a3"))
+	b._sign(Rect2(860, 100, 300, 44), "KEEP OUT! THIS MEANS YOU!", Color.WHITE, Color("e6452f"), 18)
+	# Desk with a stack of pink notebooks
+	SetsExtra._table(b, 620, 440, 220, Color("c48a4f"))
+	for k in 4:
+		Art.shape(b.ci, Art.rrect(Rect2(570, 410 - k * 12, 90, 12), 3), Color("f28cb8").darkened(k * 0.06), 2.0)
+
+
+static func _pataki_kitchen(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f2e6c8"), Color("e8d6a8"), 550, Color("9a8070"), "tile")
+	b._window(Rect2(540, 120, 200, 140), Color.WHITE, Color("9ccbe8"))
+	Art.shape(b.ci, Art.rrect(Rect2(980, 190, 170, 360), 16), Color("f4f2ec"), 4.0, 0.12)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(1000, 320), Vector2(1130, 320)]), 3.0)
+	# Table with a beeper-shaped napkin holder, and a wall of Olga's trophies
+	SetsExtra._table(b, 640, 430, 360, Color("c48a4f"))
+	Art.shape(b.ci, Art.rrect(Rect2(610, 396, 60, 34), 6), Color("2b2b33"), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(120, 120, 300, 30), 4), Color("8a5a36"), 3.0)
+	for k in 5:
+		var x := 150 + k * 56
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 14, 120), Vector2(x - 18, 80), Vector2(x + 18, 80), Vector2(x + 14, 120)]),
+			Color("f2c14e"), 2.5)
+	b._sign(Rect2(120, 170, 300, 40), "OLGA'S AWARDS", Color("f28cb8"), Color.WHITE, 22)
+
+
+static func _mighty_pete(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	b._skyline(470, Color("a7bfd3"), 41)
+	SetsExtra._grass(b, 540)
+	# The giant tree with its treehouse
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, 600), Vector2(630, 300)]), 120, Color("8a5a2b"))
+	for p in [Vector2(640, 150), Vector2(500, 210), Vector2(780, 210), Vector2(560, 110), Vector2(730, 110), Vector2(420, 280), Vector2(860, 280)]:
+		Art.blob(b.ci, p, 120, 80, Color("4f9a3a"), 4.0, 0.12)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(540, 270, 200, 110)), Color("c48a4f"), 4.0, 0.15)
+	Art.shape(b.ci, PackedVector2Array([Vector2(520, 274), Vector2(640, 210), Vector2(760, 274)]), Color("a24d38"), 4.0)
+	b._window(Rect2(600, 300, 70, 50), Color("8a5a36"), Color("2b3a4a"))
+	# Rope ladder
+	for side in [-1, 1]:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(700 + side * 16, 380), Vector2(700 + side * 16, 580)]), 3.0, Color("c8a86a"))
+	for k in 8:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(684, 400 + k * 24), Vector2(716, 400 + k * 24)]), 3.0, Color("c8a86a"))
+
+
+static func _chez_paris(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("6a1f2f"), Color("8a2f3f"), 560, Color("2b1a1a"), "carpet")
+	b._sign(Rect2(470, 50, 340, 70), "CHEZ PARIS", Color("2b1a1a"), Color("f2c14e"), 44)
+	# Chandelier and two candlelit tables
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, -PAD), Vector2(640, 150)]), 3.0, Color("f2c14e"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 150), 90, 40, 0, PI, 14), Color("f2c14e"), 3.5)
+	for k in 5:
+		Art.dot(b.ci, Vector2(560 + k * 40, 186), 6, Color("fff1b8"))
+	for x in [300, 980]:
+		Art.shape(b.ci, Art.rrect(Rect2(x - 140, 430, 280, 30), 6), Color.WHITE, 4.0)
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 130, 460), Vector2(x + 130, 460), Vector2(x + 110, 560), Vector2(x - 110, 560)]),
+			Color.WHITE, 4.0)
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 430), Vector2(x, 380)]), 8, Color("f4f2ec"))
+		Art.dot(b.ci, Vector2(x, 372), 7, Color("f2a65a"))
+	for x in [140, 1140]:
+		b._window(Rect2(x - 60, 160, 120, 200), Color("f2c14e"), Color("2b3a4a"))
+
+
+static func _dinoland(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsExtra._grass(b, 560, Color("8fd06a"))
+	# Big wheel frame (the cars turn in the moving layer)
+	b.ci.draw_arc(Vector2(1080, 260), 130, 0, TAU, 40, INK, 9.0)
+	b.ci.draw_arc(Vector2(1080, 260), 130, 0, TAU, 40, Color("e6452f"), 5.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1000, 580), Vector2(1080, 260), Vector2(1160, 580)]), 12, Color("8a96a3"))
+	# Roller coaster hill
+	Art.stroke(b.ci, Art.curve(Vector2(-PAD, 460), Vector2(250, -60), Vector2(560, 470), 24), 10.0, Color("4a78d0"))
+	for i in 9:
+		var x := 40.0 + i * 55.0
+		Art.stroke(b.ci, PackedVector2Array([Vector2(x, 560), Vector2(x, 200 + absf(x - 250) * 0.9)]), 3.0, Color("8a96a3"))
+	# Entrance arch with a dinosaur head
+	Art.shape(b.ci, Art.rrect(Rect2(500, 330, 340, 70), 16), Color("6fbf6a"), 4.0, 0.12)
+	Art.text(b.ci, b.sign_font, Vector2(500, 380), "DINOLAND", 40, Color.WHITE, 7, HORIZONTAL_ALIGNMENT_CENTER, 340)
+	Art.blob(b.ci, Vector2(670, 280), 70, 46, Color("6fbf6a"), 4.0, 0.12)
+	Art.dot(b.ci, Vector2(700, 268), 8, INK)
+	for x in [530, 810]:
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x - 15, 400, 30, 170)), Color("6fbf6a"), 4.0)
+
+
+static func _hillwood_museum(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("e8e2d4"), Color("d4ccb8"), 560, Color("b8ab90"), "tile")
+	_columns(b, [120, 1160], 130, 560, Color("f4f2ec"))
+	b._sign(Rect2(420, 40, 440, 60), "HILLWOOD MUSEUM", Color("8a5a36"), Color.WHITE, 32)
+	# A big dinosaur skeleton
+	var bone := Color("f4f0e0")
+	Art.limb(b.ci, Art.curve(Vector2(300, 330), Vector2(640, 250), Vector2(980, 360), 20), 14, bone)
+	for i in 10:
+		var x := 360.0 + i * 60.0
+		Art.stroke(b.ci, Art.curve(Vector2(x, 300 - sin(i * 0.3) * 30), Vector2(x + 14, 360), Vector2(x, 400), 8), 5.0, bone)
+	Art.blob(b.ci, Vector2(260, 320), 60, 34, bone, 3.5)
+	Art.dot(b.ci, Vector2(240, 310), 7, INK)
+	for x in [480, 800]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 380), Vector2(x - 10, 540)]), 14, bone)
+	Art.shape(b.ci, Art.rrect(Rect2(380, 540, 520, 22), 4), Color("8a5a36"), 3.0)
+
+
+static func _hillwood_subway(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("e8e2c8"), Color("cfc8a8"), 560, Color("7a7a80"), "tile")
+	for j in 9:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, 40 + j * 56), Vector2(W + PAD, 40 + j * 56)]), 1.5, Color("b8b090"))
+	# A train with its doors open
+	Art.shape(b.ci, Art.rrect(Rect2(-60, 220, 1400, 300), 20), Color("b8c0c8"), 5.0, 0.12)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(-60, 290), Vector2(1340, 290)]), 8.0, Color("e6452f"))
+	for i in 5:
+		b._window(Rect2(40 + i * 270, 310, 130, 90), Color("8a96a3"), Color("2b3a4a"), false)
+	b._sign(Rect2(470, 120, 340, 56), "HILLWOOD LINE", Color("2f4f9a"), Color.WHITE, 30)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, 548), Vector2(W + PAD, 548)]), 6.0, Color("f2c14e"))
+
+
+static func _ps118_gym(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("3a3f6a"), Color("5a5f8a"), 520, Color("d8a868"))
+	for i in 8:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD + i * 200, 520), Vector2(-PAD + i * 200 - 60, H + PAD)]), 2.0, Color("b8884a"))
+	# Bleachers, hoops and a disco ball
+	for k in 3:
+		Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 380 + k * 46, 380 - k * 40, 46)), Color("8a96a3"), 3.0)
+		Art.shape(b.ci, SetsExtra._rect(Rect2(980 + k * 40, 380 + k * 46, 400, 46)), Color("8a96a3"), 3.0)
+	for x in [220, 1060]:
+		Art.shape(b.ci, Art.rrect(Rect2(x - 60, 160, 120, 80), 4), Color.WHITE, 3.5)
+		b.ci.draw_arc(Vector2(x, 260), 26, 0, PI, 10, Color("e6702f"), 5.0)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, -PAD), Vector2(640, 110)]), 3.0)
+	Art.blob(b.ci, Vector2(640, 150), 40, 40, Color("c8d0d8"), 3.5)
+	for k in 6:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(604 + k * 14, 116), Vector2(604 + k * 14, 186)]), 1.5, Color("8a96a3"))
+	b._sign(Rect2(440, 230, 400, 60), "SPRING DANCE", Color("f28cb8"), Color.WHITE, 34)
+
+
+static func _school_bus(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f2c14e"), Color("e6a830"), 560, Color("5a5f68"))
+	# Windows along the top with the city going by
+	for i in 5:
+		b._window(Rect2(30 + i * 260, 100, 190, 140), Color("e6a830"), Color("9ccbe8"), false)
+		Art.shape(b.ci, SetsExtra._rect(Rect2(60 + i * 260, 180, 40, 60)), Color("a7bfd3"), 2.0)
+	# Rows of green seats
+	for i in 5:
+		var x := 40.0 + i * 260.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 330, 200, 150), 18), Color("3f8f4a"), 4.0, 0.15)
+		Art.shape(b.ci, Art.rrect(Rect2(x - 10, 470, 220, 40), 10), Color("2f6f3a"), 3.5)
+	b._sign(Rect2(500, 260, 280, 46), "NO STANDING", Color("e6452f"), Color.WHITE, 26)
+
+
+static func _hillwood_rink(b: Backdrop) -> void:
+	b._city_sky(Color("8aa8d0"), Color("e8f0f8"))
+	b._skyline(450, Color("a7bfd3"), 77, Color(1, 1, 1, 0.4))
+	# Ice with skate scratches, and boards around the rink
+	Art.shape(b.ci, PackedVector2Array([Vector2(-PAD, 520), Vector2(W + PAD, 520), Vector2(W + PAD, H + PAD), Vector2(-PAD, H + PAD)]),
+		Color("dff2fb"), 4.0)
+	for i in 8:
+		Art.stroke(b.ci, Art.curve(Vector2(100 + i * 150, 600), Vector2(160 + i * 150, 560), Vector2(240 + i * 150, 620), 8), 2.0,
+			Color("b8d8e8"))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 470, W + PAD * 2, 50)), Color("f4f4f2"), 4.0)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, 500), Vector2(W + PAD, 500)]), 6.0, Color("e6452f"))
+	# Cocoa stand
+	Art.shape(b.ci, Art.rrect(Rect2(960, 320, 220, 150), 8), Color("a24d38"), 4.0, 0.12)
+	b._sign(Rect2(950, 280, 240, 46), "HOT COCOA", Color("6b4428"), Color.WHITE, 26)
+	SetsExtra._tree(b, 120, 470, 0.7, Color("e8f4f8"))
