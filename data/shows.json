@@ -35,17 +35,23 @@
 			"Playpen"
 		]
 	},
-	"Pokemon": {
+	"Pokémon": {
 		"transition": "star",
 		"transition_sfx": "sparkle",
 		"icon": "rocket",
-		"color": "#e6452f"
+		"color": "#e6452f",
+		"aka": [
+			"Pokemon"
+		]
 	},
-	"Dragonball Z": {
+	"Dragon Ball Z": {
 		"transition": "flash",
 		"transition_sfx": "blast",
 		"icon": "dragonball",
-		"color": "#f2852a"
+		"color": "#f2852a",
+		"aka": [
+			"Dragonball Z"
+		]
 	},
 	"Attack on Titan": {
 		"transition": "slash",

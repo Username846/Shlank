@@ -324,28 +324,28 @@
 	},
 	"forest_path": {
 		"name": "Forest Path",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "A quiet trail. Perfect for a pitfall trap."
 	},
 	"rocket_hq": {
 		"name": "Team Rocket HQ",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "The Boss's office. Do not touch the cat.",
 		"aka": [
 			"rokket_hq"
 		]
 	},
 	"pokemon_center": {
-		"name": "Pokemon Center",
-		"show": "Pokemon",
-		"description": "Where every trainer heals their monsters. And where the treasure is.",
+		"name": "Pokémon Center",
+		"show": "Pokémon",
+		"description": "Where every trainer heals their Pokémon. And where the treasure is.",
 		"aka": [
 			"monster_clinic"
 		]
 	},
 	"center_lobby": {
-		"name": "Pokemon Center Lobby",
-		"show": "Pokemon",
+		"name": "Pokémon Center Lobby",
+		"show": "Pokémon",
 		"description": "The front desk and the healing machine.",
 		"aka": [
 			"clinic_lobby"
@@ -353,27 +353,27 @@
 	},
 	"town_square": {
 		"name": "Town Square",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "A cheerful town with a fountain."
 	},
 	"crystal_cave": {
 		"name": "Crystal Cave",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "Glowing crystals in the dark."
 	},
 	"sunny_beach": {
 		"name": "Sunny Beach",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "Sand, sea and a suspicious submarine."
 	},
 	"cliff_top": {
 		"name": "Cliff Top",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "Where the balloon lands. Usually upside down."
 	},
 	"rocket_camp": {
 		"name": "Rocket Camp",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "A tent, a campfire and dreams of success.",
 		"aka": [
 			"rokket_camp"
@@ -381,12 +381,12 @@
 	},
 	"mecha_lab": {
 		"name": "Mecha Lab",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "Where the giant robot of the week gets built."
 	},
 	"pallet_town": {
 		"name": "Pallet Town",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "A quiet little town where every journey begins.",
 		"aka": [
 			"pallut_town"
@@ -394,23 +394,23 @@
 	},
 	"oak_lab": {
 		"name": "Professor Oak's Lab",
-		"show": "Pokemon",
-		"description": "Machines, books and three monster balls to choose from.",
+		"show": "Pokémon",
+		"description": "Machines, books and three Poké Balls to choose from.",
 		"aka": [
 			"prof_lab"
 		]
 	},
 	"cerulean_gym": {
 		"name": "Cerulean Gym",
-		"show": "Pokemon",
+		"show": "Pokémon",
 		"description": "A swimming-pool arena for water battles.",
 		"aka": [
 			"ceruleen_gym"
 		]
 	},
 	"poke_mart": {
-		"name": "Poke Mart",
-		"show": "Pokemon",
+		"name": "Poké Mart",
+		"show": "Pokémon",
 		"description": "Potions, balls and everything a trainer needs.",
 		"aka": [
 			"monster_mart"
@@ -418,12 +418,12 @@
 	},
 	"tall_grass": {
 		"name": "Tall Grass Route",
-		"show": "Pokemon",
-		"description": "Wild monsters could be hiding anywhere in here."
+		"show": "Pokémon",
+		"description": "Wild Pokémon could be hiding anywhere in here."
 	},
 	"kame_house": {
 		"name": "Kame House",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Master Roshi's pink house on a tiny island.",
 		"aka": [
 			"kamee_house"
@@ -431,7 +431,7 @@
 	},
 	"capsule_corp": {
 		"name": "Capsule Corp",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Bulma's family company. Big dome, bigger inventions.",
 		"aka": [
 			"capsool_corp"
@@ -439,12 +439,12 @@
 	},
 	"the_lookout": {
 		"name": "The Lookout",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A palace floating high above the clouds."
 	},
 	"planet_namek": {
 		"name": "Planet Namek",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Green skies, blue grass and round little trees.",
 		"aka": [
 			"planet_nameck"
@@ -452,22 +452,22 @@
 	},
 	"rocky_wasteland": {
 		"name": "Rocky Wasteland",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Where every big fight seems to happen. Lots of rocks to blow up."
 	},
 	"world_tournament": {
 		"name": "World Tournament",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "The famous fighting ring. Don't fall off the edge."
 	},
 	"gravity_room": {
 		"name": "Gravity Room",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Training at a hundred times normal gravity."
 	},
 	"goku_house": {
 		"name": "Goku's House",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A little round house in the mountains.",
 		"aka": [
 			"gokku_house"
@@ -475,17 +475,17 @@
 	},
 	"time_chamber": {
 		"name": "Hyperbolic Time Chamber",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A year inside is only a day outside. Very white."
 	},
 	"snake_way": {
 		"name": "Snake Way",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A very, very long road through the clouds of the Other World."
 	},
 	"kai_planet": {
 		"name": "King Kai's Planet",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A tiny planet with huge gravity, a car and a monkey.",
 		"aka": [
 			"kie_planet"
@@ -493,7 +493,7 @@
 	},
 	"cell_ring": {
 		"name": "The Cell Games",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Cell's tournament ring in the middle of nowhere.",
 		"aka": [
 			"cel_ring"
@@ -501,7 +501,7 @@
 	},
 	"frieza_ship": {
 		"name": "Frieza's Ship",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "Round, purple and full of bad intentions.",
 		"aka": [
 			"freeza_ship"
@@ -509,12 +509,12 @@
 	},
 	"west_city": {
 		"name": "West City",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A busy future city full of capsule cars."
 	},
 	"korin_tower": {
 		"name": "Korin Tower",
-		"show": "Dragonball Z",
+		"show": "Dragon Ball Z",
 		"description": "A tower so tall it pokes through the clouds."
 	},
 	"wall_top": {

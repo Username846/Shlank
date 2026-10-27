@@ -1,15 +1,15 @@
 @title Pikachu, I Choose You!
-@series Pokemon
+@series Pokémon
 @icon rocket
 @number 2
-@description Ash Ketchum oversleeps on the most important day of his life and ends up with the grumpiest monster in the lab. Team Rocket thinks it looks very valuable.
+@description Ash Ketchum oversleeps on the most important day of his life and ends up with the grumpiest Pokémon in the lab. Team Rocket thinks it looks very valuable.
 
 # ------------------------------------------------------------ PALLET TOWN
 MUSIC happy
 SCENE pallet_town cut
 TITLE
 PLACE ash center right scared
-ASH (scared): I overslept! Today's the day I get my first monster, and I overslept!
+ASH (scared): I overslept! Today's the day I get my first Pokémon, and I overslept!
 ASH (excited): Hold on, Professor! I'm coming! I'm going to be the very best!
 RUN ash offright
 NARRATOR: Ash Ketchum, age ten, ran all the way to the lab. In his pajamas.
@@ -134,7 +134,7 @@ JESSIE (scared): Team Rocket's blasting off agaaaaain!
 EXIT jessie right 700 &
 EXIT james right 700
 
-# ------------------------------------------------------------ POKEMON CENTER
+# ------------------------------------------------------------ POKÉMON CENTER
 MUSIC sad
 SCENE pokemon_center
 PLACE nurse_joy center left nervous

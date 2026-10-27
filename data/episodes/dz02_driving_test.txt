@@ -1,5 +1,5 @@
 @title Goku Gets a License
-@series Dragonball Z
+@series Dragon Ball Z
 @icon dragonball
 @number 2
 @description Chi-Chi says that every grown-up needs a driver's license. Goku can fly, teleport and blow up mountains, but parallel parking might be his greatest challenge yet.

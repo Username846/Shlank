@@ -57,7 +57,7 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"toy_palace": _toy_palace(b)
 		"duck_pond": _duck_pond(b)
 		"pizza_place": _pizza_place(b)
-		# Pokemon (Team Rocket)
+		# Pokémon (Team Rocket)
 		"forest_path": _forest_path(b)
 		"rocket_hq": _rocket_hq(b)
 		"pokemon_center": _pokemon_center(b)
@@ -613,7 +613,7 @@ static func _finster_house(b: Backdrop) -> void:
 	_bush(b, Vector2(1020, 540))
 
 
-# --------------------------------------------- Pokemon (Team Rocket) --
+# --------------------------------------------- Pokémon (Team Rocket) --
 
 static func _forest_path(b: Backdrop) -> void:
 	_day_sky(b)
@@ -641,7 +641,7 @@ static func _pokemon_center(b: Backdrop) -> void:
 	b._sidewalk(585)
 	Art.shape(b.ci, _rect(Rect2(260, 220, 760, 365)), Color("f6eef0"), 5.0, 0.08)
 	Art.shape(b.ci, Art.rrect(Rect2(230, 160, 820, 80), 30), Color("e6452f"), 5.0, 0.12)
-	Art.text(b.ci, b.sign_font, Vector2(230, 216), "POKEMON CENTER", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 820)
+	Art.text(b.ci, b.sign_font, Vector2(230, 216), "POKÉMON CENTER", 46, Color.WHITE, 8, HORIZONTAL_ALIGNMENT_CENTER, 820)
 	b._door(Rect2(560, 400, 160, 185), Color("bfe0f2"), false)
 	Art.stroke(b.ci, PackedVector2Array([Vector2(640, 402), Vector2(640, 584)]), 4.0)
 	for x in [330, 870]:
@@ -1050,9 +1050,9 @@ static func _pizza_place(b: Backdrop) -> void:
 	Art.text(b.ci, b.sign_font, Vector2(520, 200), "PIZZA!", 56, Color("e6452f"), 8, HORIZONTAL_ALIGNMENT_LEFT, 280)
 
 
-# -------------------------------------------------------- more Pokemon --
+# -------------------------------------------------------- more Pokémon --
 
-static func _monster_ball(b: Backdrop, c: Vector2, r: float) -> void:
+static func _poke_ball(b: Backdrop, c: Vector2, r: float) -> void:
 	Art.blob(b.ci, c, r, r, Color("f4f4f2"), 3.5)
 	var top := Art.arc_pts(c, r, r, PI, TAU, 16)
 	Art.shape(b.ci, top, Color("e6452f"), 3.5)
@@ -1089,7 +1089,7 @@ static func _oak_lab(b: Backdrop) -> void:
 	# Table with three monster balls to choose from
 	_table(b, 600, 440, 380)
 	for k in 3:
-		_monster_ball(b, Vector2(500 + k * 100, 412), 26)
+		_poke_ball(b, Vector2(500 + k * 100, 412), 26)
 
 
 static func _cerulean_gym(b: Backdrop) -> void:
@@ -1118,7 +1118,7 @@ static func _poke_mart(b: Backdrop) -> void:
 		for i in 9:
 			var x := 650.0 + i * 64.0
 			if (i + row) % 2 == 0:
-				_monster_ball(b, Vector2(x + 18, y - 22), 20)
+				_poke_ball(b, Vector2(x + 18, y - 22), 20)
 			else:
 				Art.shape(b.ci, Art.rrect(Rect2(x, y - 56, 36, 56), 8), Color("9b5fd0"), 3.0)
 				Art.shape(b.ci, _rect(Rect2(x + 10, y - 66, 16, 12)), Color("aab3bd"), 2.5)

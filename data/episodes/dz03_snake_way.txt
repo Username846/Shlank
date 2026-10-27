@@ -1,5 +1,5 @@
 @title Lunch on Snake Way
-@series Dragonball Z
+@series Dragon Ball Z
 @icon dragonball
 @number 3
 @description Goku is training on King Kai's planet at the end of Snake Way, and he forgot his lunch. Gohan and Krillin have to deliver it, along a road that's a million miles long.

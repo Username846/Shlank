@@ -1,5 +1,5 @@
 @title What's Your Power Level?
-@series Dragonball Z
+@series Dragon Ball Z
 @icon dragonball
 @number 1
 @description Bulma invents a machine that measures exactly how strong you are. Goku and Vegeta both need to be number one, and Frieza wants the machine for himself.

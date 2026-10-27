@@ -1,6 +1,6 @@
 class_name CastMore
 extends RefCounted
-## The third wave of characters: Dragonball Z, Attack on Titan, Breaking Bad,
+## The third wave of characters: Dragon Ball Z, Attack on Titan, Breaking Bad,
 ## Super Mario Brothers, Metroid and Kirby. People are HumanRig settings;
 ## everyone else has a small drawing function. CastExtra.draw() falls
 ## through to draw() for any style it doesn't know.
@@ -53,7 +53,7 @@ const CLOAK := Color("3f7a3a")
 
 static func _human(style: String) -> Dictionary:
 	match style:
-		# Dragonball Z
+		# Dragon Ball Z
 		"goku":
 			return {"size": "adult", "top": Color("f2852a"), "sleeves": "none", "bottom_col": Color("f2852a"), "shoe": Color("2f5fa8"),
 				"hair": "saiyan", "hair_col": Color("1d1d22"), "torso_w": 37.0, "arm_w": 10.0, "torso_extra": _x_gi.bind(Color("2f5fa8")),
@@ -459,7 +459,7 @@ static func _x_fairy_wings(p: Puppet, hc: Vector2) -> void:
 		Art.shape(p.ci, wing, Color(0.75, 0.9, 1.0, 0.85), 3.0)
 
 
-# ------------------------------------------------------- Dragonball Z --
+# ------------------------------------------------------- Dragon Ball Z --
 
 static func _frieza(p: Puppet) -> void:
 	HumanRig.draw(p, {"size": "kid", "skin": Color("f4f2f6"), "top": Color("f4f2f6"), "sleeves": "none", "legs": Color("f4f2f6"),

@@ -1,8 +1,8 @@
-@title The Great Monster Cook-Off
-@series Pokemon
+@title The Great Pokémon Cook-Off
+@series Pokémon
 @icon rocket
 @number 4
-@description Brock enters a cooking contest for monster food, judged by Nurse Joy. His rival is a mysterious chef with whiskers and a Brooklyn accent.
+@description Brock enters a cooking contest for Pokémon food, judged by Nurse Joy. His rival is a mysterious chef with whiskers and a Brooklyn accent.
 
 # ------------------------------------------------------------ TOWN SQUARE
 MUSIC happy
@@ -11,7 +11,7 @@ TITLE
 PLACE brock center right excited
 PLACE ash midleft right happy
 PLACE pikachu left right happy
-BROCK (excited): Ash, look! A monster food cook-off! The prize is a lifetime supply of ingredients!
+BROCK (excited): Ash, look! A Pokémon food cook-off! The prize is a lifetime supply of ingredients!
 ASH (happy): You're the best cook I know, Brock. You'll win easy.
 BROCK (shy): And guess who's judging? Nurse Joy.
 ASH (smug): Oh boy.
@@ -27,16 +27,16 @@ PLACE james left right nervous
 MEOWTH (excited): A cooking contest! The winner gets a lifetime supply of food!
 JESSIE (excited): Food! We haven't eaten anything but berries for a week!
 JAMES (sad): And one very old sandwich.
-MEOWTH (smug): I will enter as Chef Meowtaine. With my cooking, we'll win easy.
+MEOWTH (smug): I will enter as Chef Meowth. With my cooking, we'll win easy.
 JESSIE (surprised): You can cook?
 MEOWTH (smug): I can open a can. That's basically cooking.
 
-# ------------------------------------------------------------ POKE MART
+# ------------------------------------------------------------ POKÉ MART
 MUSIC jazz
 SCENE poke_mart
 PLACE brock center right excited
 PLACE misty midleft right smug
-BROCK (excited): Berries, rice, honey, and a secret spice that monsters love.
+BROCK (excited): Berries, rice, honey, and a secret spice that Pokémon love.
 MISTY (smug): Brock, you're buying enough for an army.
 BROCK (happy): It's for love, Misty. Love needs a lot of ingredients.
 MISTY (smug): Love also needs Nurse Joy to notice you. She thinks you're a nice cook.
@@ -48,7 +48,7 @@ MUSIC happy 2
 SCENE sunny_beach
 PLACE brock center right excited
 PLACE pikachu midleft right happy
-BROCK (excited): The secret to great monster food is fresh ingredients. Like these sea berries.
+BROCK (excited): The secret to great Pokémon food is fresh ingredients. Like these sea berries.
 PIKACHU (excited): Pika!
 BROCK (smug): No eating them yet, Pikachu. They're for the contest.
 PIKACHU (sad): Pika...
@@ -61,7 +61,7 @@ MUSIC romantic
 SCENE center_lobby
 PLACE nurse_joy center left happy
 PLACE officer_jenny midright left smug
-NURSE_JOY (happy): I'm so excited to judge the cook-off. I just love monster food.
+NURSE_JOY (happy): I'm so excited to judge the cook-off. I just love Pokémon food.
 OFFICER_JENNY (smug): I'll be there too. On security duty. There's been a lot of crime involving giant robot cats lately.
 NURSE_JOY (surprised): That's oddly specific.
 OFFICER_JENNY (smug): It's an oddly specific town.
@@ -73,10 +73,10 @@ CARD The cook-off...
 PLACE nurse_joy center left happy
 PLACE brock midleft right nervous
 PLACE meowth midright left smug
-NURSE_JOY (happy): Welcome, chefs! You have one hour to cook the best monster food in town. Begin!
+NURSE_JOY (happy): Welcome, chefs! You have one hour to cook the best Pokémon food in town. Begin!
 SFX ding
 BROCK (nervous): Okay. Breathe, Brock. Chop the berries. Stir the rice.
-MEOWTH (smug): Bonjour. I am Chef Meowtaine. My dish is a secret family recipe.
+MEOWTH (smug): Bonjour. I am Chef Meowth. My dish is a secret family recipe.
 BROCK (surprised): Wait. A talking cat? With a fake mustache?
 MEOWTH (nervous): It is a very French mustache.
 
@@ -101,7 +101,7 @@ PLACE ash midleft right excited
 PLACE pikachu left right excited
 SFX sizzle
 ASH (excited): Brock, that smells amazing! What is it?
-BROCK (excited): Honey-glazed berry rice balls with a hint of cinnamon! Every monster's favorite!
+BROCK (excited): Honey-glazed berry rice balls with a hint of cinnamon! Every Pokémon's favorite!
 PIKACHU (excited): Pika!
 ASH (surprised): Pikachu wants to taste it!
 BROCK (smug): Sorry, buddy. This one's for the judge.
@@ -113,7 +113,7 @@ SCENE town_square
 PLACE nurse_joy center left happy
 PLACE meowth midright left nervous
 PLACE brock midleft right nervous
-NURSE_JOY (happy): Chef Meowtaine, what have you made?
+NURSE_JOY (happy): Chef Meowth, what have you made?
 MEOWTH (nervous): Haute cuisine! Cold beans with a glowing mushroom!
 NURSE_JOY (surprised): The mushroom is... humming.
 SFX beep
@@ -127,7 +127,7 @@ PLACE nurse_joy center left surprised
 PLACE brock midleft right shy
 NURSE_JOY (surprised): Brock. This is incredible. The sweetness, the texture, the little cinnamon heart on top.
 BROCK (shy): I made the heart for you. I mean. For the judge. Who is you.
-NURSE_JOY (happy): It's the best monster food I've ever tasted. And I've tasted a lot of monster food.
+NURSE_JOY (happy): It's the best Pokémon food I've ever tasted. And I've tasted a lot of Pokémon food.
 BROCK (excited): Really?
 NURSE_JOY (happy): The winner is Brock!
 SFX fanfare
@@ -160,7 +160,7 @@ MUSIC romantic
 SCENE center_lobby
 PLACE nurse_joy center left happy
 PLACE brock midleft right shy
-NURSE_JOY (happy): Brock, would you write down that recipe for me? I'd love to make it for the monsters here.
+NURSE_JOY (happy): Brock, would you write down that recipe for me? I'd love to make it for the Pokémon here.
 BROCK (excited): Of course! I'll write it in my best handwriting!
 NURSE_JOY (smug): And maybe cook it with me sometime?
 BROCK (surprised): Cook... with you?

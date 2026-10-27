@@ -1,8 +1,8 @@
-@title The Golden Snack Ball
-@series Pokemon
+@title The Golden Poké Ball
+@series Pokémon
 @icon rocket
 @number 1
-@description The Boss wants results, and Team Rocket has a plan: steal the legendary Golden Snack Ball from the Pokemon Center. What could possibly go wrong? Everything.
+@description The Boss wants results, and Team Rocket has a plan: steal the legendary Golden Poké Ball from the Pokémon Center. What could possibly go wrong? Everything.
 
 # ------------------------------------------------------------ ROCKET HQ
 MUSIC tense
@@ -15,7 +15,7 @@ ENTER meowth left farleft nervous
 GIOVANNI (angry): Team Rocket. You have failed me again.
 JESSIE (nervous): Failed is such a strong word, sir.
 JAMES (nervous): We prefer "temporarily un-succeeded."
-GIOVANNI (angry): Silence! The Golden Snack Ball is at the Pokemon Center. Bring it to me. Or don't come back.
+GIOVANNI (angry): Silence! The Golden Poké Ball is at the Pokémon Center. Bring it to me. Or don't come back.
 MEOWTH (scared): Yes, Boss! Right away, Boss!
 EXIT jessie left &
 EXIT james left &
@@ -68,12 +68,12 @@ JESSIE (happy): Step one: disguises. We're two friendly nurses. Totally normal.
 JAMES (happy): I've always looked lovely in a hat.
 ENTER meowth right midright smug
 MEOWTH (smug): And I'm a cute, harmless kitty. Purrr.
-JESSIE (smug): To the Pokemon Center!
+JESSIE (smug): To the Pokémon Center!
 JAMES (excited): Make it double!
 JESSIE (angry): We're undercover, James. No motto.
 JAMES (sad): Not even a little motto?
 
-# ------------------------------------------------------------ POKEMON CENTER
+# ------------------------------------------------------------ POKÉMON CENTER
 SCENE pokemon_center
 ENTER jessie left midleft happy
 ENTER james left left happy
@@ -90,7 +90,7 @@ SCENE center_lobby
 ENTER jessie left midleft nervous
 ENTER james left left nervous
 ENTER meowth left farleft nervous
-MEOWTH (nervous): There it is. In the healing machine. The Golden Snack Ball.
+MEOWTH (nervous): There it is. In the healing machine. The Golden Poké Ball.
 JAMES (excited): It's so shiny!
 JESSIE (excited): Grab it!
 MOVE james midright
@@ -149,7 +149,7 @@ WOBBUFFET (happy): Wobba?
 MEOWTH (excited): Wait. Wobbuffet, you're holding something.
 HOLD wobbuffet money
 WOBBUFFET (excited): Wobbaaa-fett!
-JAMES (excited): The Golden Snack Ball! You saved it!
+JAMES (excited): The Golden Poké Ball! You saved it!
 JESSIE (happy): Wobbuffet, you beautiful blue disaster!
 SFX gasp
 MEOWTH (scared): Uh oh. The mech. I left it on autopilot.
@@ -190,7 +190,7 @@ PLACE giovanni midright left neutral
 PLACE jessie midleft right excited
 PLACE james left right excited
 PLACE meowth farleft right excited
-JESSIE (excited): Boss! The Golden Snack Ball, as promised!
+JESSIE (excited): Boss! The Golden Poké Ball, as promised!
 GIOVANNI (surprised): Hmm. It's... a tennis ball painted gold.
 JAMES (scared): It's what?
 GIOVANNI (angry): You have failed me again.

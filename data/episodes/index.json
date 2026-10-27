@@ -61,7 +61,10 @@
 			"file": "res://data/episodes/pp05_talent_show.txt"
 		},
 		{
-			"file": "res://data/episodes/tr01_golden_snack_ball.txt"
+			"file": "res://data/episodes/tr01_golden_poke_ball.txt",
+			"aka": [
+				"tr01_golden_snack_ball"
+			]
 		},
 		{
 			"file": "res://data/episodes/tr02_i_choose_you.txt"

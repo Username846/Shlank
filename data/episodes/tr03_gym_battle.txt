@@ -1,5 +1,5 @@
 @title Splash Battle at Cerulean Gym
-@series Pokemon
+@series Pokémon
 @icon rocket
 @number 3
 @description Ash challenges the Cerulean Gym, only to find out the gym leader is Misty. Meanwhile, Team Rocket has gone undercover as the referees.
@@ -13,7 +13,7 @@ PLACE pikachu left right happy
 PLACE brock center left happy
 PLACE misty midright left nervous
 ASH (excited): Cerulean City! Home of my first gym badge!
-BROCK (happy): The Cerulean Gym is famous for water monsters. You'll need a strategy.
+BROCK (happy): The Cerulean Gym is famous for Water-type Pokémon. You'll need a strategy.
 ASH (smug): My strategy is to win.
 PIKACHU (smug): Pika.
 MISTY (nervous): Um, Ash. About that gym. There's something I should tell you.
@@ -25,9 +25,9 @@ MUSIC sneaky
 SCENE mecha_lab
 PLACE meowth center left excited
 PLACE james midleft right nervous
-MEOWTH (excited): The Cerulean Gym is having a big battle today. Every monster in town will be there.
+MEOWTH (excited): The Cerulean Gym is having a big battle today. Every Pokémon in town will be there.
 JAMES (nervous): And we're going to steal them all?
-MEOWTH (smug): No. We're going to be the referees. Then we call it a tie, and take the prize monsters ourselves.
+MEOWTH (smug): No. We're going to be the referees. Then we call it a tie, and take the prize Pokémon ourselves.
 JAMES (happy): That's actually clever, Meowth.
 MEOWTH (smug): I know. I'm the brains of this operation.
 JAMES (smug): You're also the only one who can talk to the mecha.
@@ -65,7 +65,7 @@ PLACE brock midleft right shy
 BROCK (shy): Nurse Joy. I couldn't help but notice. You're the most beautiful nurse in Cerulean City.
 NURSE_JOY (happy): Thank you! You're very sweet.
 BROCK (excited): Would you like to have dinner with me? I'm a great cook!
-NURSE_JOY (smug): I'm on duty all day. Ash's battle starts in ten minutes. Lots of injured monsters coming.
+NURSE_JOY (smug): I'm on duty all day. Ash's battle starts in ten minutes. Lots of injured Pokémon coming.
 BROCK (sad): Right. Of course. I'll just... go watch the battle.
 NURSE_JOY (happy): Bring me some of your cooking later!
 BROCK (excited): Really?!
@@ -89,7 +89,7 @@ SCENE cerulean_gym
 PLACE ash midleft right excited
 PLACE pikachu center right excited
 PLACE misty midright left excited
-MISTY (excited): My water monsters can't be beaten! Splash attack!
+MISTY (excited): My Water-type Pokémon can't be beaten! Splash attack!
 SFX splat
 SHAKE 0.5
 ASH (excited): Pikachu, dodge!
@@ -108,7 +108,7 @@ PLACE ash midleft right excited
 PLACE misty center left nervous
 JESSIE (smug): Stop the battle! The referees declare a tie!
 ASH (angry): A tie? I was about to win!
-JAMES (smug): And as the official prize, the referees will now take all your monsters!
+JAMES (smug): And as the official prize, the referees will now take all your Pokémon!
 MISTY (angry): Wait a minute! Those are fake mustaches!
 JESSIE (angry): They are NOT fake! I bought them at a very real mustache store!
 SFX pop
@@ -122,10 +122,10 @@ PLACE james right left angry
 PLACE meowth farright left excited
 PLACE ash midleft right angry
 PLACE misty center left angry
-MEOWTH (excited): Plan B! The Meowth-Mech! Grab the monsters!
+MEOWTH (excited): Plan B! The Meowth-Mech! Grab the Pokémon!
 SFX thud
 SHAKE 0.8
-MISTY (angry): Nobody steals monsters in MY gym!
+MISTY (angry): Nobody steals Pokémon in MY gym!
 ASH (excited): Misty, let's team up!
 MISTY (smug): Fine. Just this once.
 SFX splat
@@ -152,7 +152,7 @@ ASH (smug): I don't need you to go easy!
 PIKACHU (nervous): Pika...
 ASH (nervous): Okay, maybe a little easy.
 
-# ------------------------------------------------------------ POKE MART
+# ------------------------------------------------------------ POKÉ MART
 MUSIC jazz 2
 SCENE poke_mart
 PLACE brock center left happy

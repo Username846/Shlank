@@ -1,6 +1,6 @@
 class_name SetsMore
 extends RefCounted
-## Locations for Dragonball Z, Attack on Titan, Breaking Bad, Super Mario
+## Locations for Dragon Ball Z, Attack on Titan, Breaking Bad, Super Mario
 ## Brothers, Metroid and Kirby. SetsExtra falls through to these for ids it
 ## doesn't draw. `b` is the Backdrop (its helpers draw into b.ci).
 
@@ -12,7 +12,7 @@ const INK := Art.INK
 
 static func draw_set(b: Backdrop, id: String) -> bool:
 	match id:
-		# Dragonball Z
+		# Dragon Ball Z
 		"kame_house": _kame_house(b)
 		"capsule_corp": _capsule_corp(b)
 		"the_lookout": _the_lookout(b)
@@ -300,7 +300,7 @@ static func _stone_floor(b: Backdrop, y: float, col: Color) -> void:
 	Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, y + 60), Vector2(W + PAD, y + 60)]), 2.5, col.darkened(0.2))
 
 
-# ----------------------------------------------------- Dragonball Z --
+# ----------------------------------------------------- Dragon Ball Z --
 
 static func _kame_house(b: Backdrop) -> void:
 	_sky(b, Color("4aa8f0"), Color("bfe8fb"))

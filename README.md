@@ -25,9 +25,9 @@ with a series picker.
   Doug Funnie, Skeeter, Patti Mayonnaise, Roger Klotz, Porkchop, Judy Funnie, Beebe Bluff, Mr. Dink, Connie Benge, Chalky Studebaker and Mr. Bone.
 - **Rugrats**. Episodes: **"The Great Cookie Quest"**, **"Lost in Reptarland"**, **"Dil's Big Day"**, **"The Monster in the Attic"**, **"The Big Talent Show"**.
   Tommy Pickles, Chuckie Finster, Angelica Pickles, Phil DeVille, Lil DeVille, Stu Pickles, Didi Pickles, Grandpa Lou, Spike, Susie Carmichael and Dil Pickles.
-- **Pokemon**. Episodes: **"The Golden Snack Ball"**, **"Pikachu, I Choose You!"**, **"Splash Battle at Cerulean Gym"**, **"The Great Monster Cook-Off"**, **"The Boss Takes a Vacation"**.
+- **Pokémon**. Episodes: **"The Golden Poké Ball"**, **"Pikachu, I Choose You!"**, **"Splash Battle at Cerulean Gym"**, **"The Great Pokémon Cook-Off"**, **"The Boss Takes a Vacation"**.
   Jessie, James, Meowth, Wobbuffet, Giovanni, Ash Ketchum, Pikachu, Misty, Brock, Nurse Joy and Officer Jenny.
-- **Dragonball Z**. Episodes: **"What's Your Power Level?"**, **"Goku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegeta's Surprise Party"**.
+- **Dragon Ball Z**. Episodes: **"What's Your Power Level?"**, **"Goku Gets a License"**, **"Lunch on Snake Way"**, **"The Perfect Talk Show"**, **"Vegeta's Surprise Party"**.
   Goku, Vegeta, Gohan, Piccolo, Krillin, Bulma, Master Roshi, Frieza, Cell, Trunks and Chi-Chi.
 - **Attack on Titan**. Episodes: **"The Last Potato"**, **"Inspection Day"**, **"The Runaway Horse"**, **"Titan School"**, **"Field Trip to the Ocean"**.
   Eren Jaeger, Mikasa Ackerman, Armin Arlert, Captain Levi, Hange Zoë, Jean Kirstein, Sasha Braus, Connie Springer, Reiner, Commander Erwin and Smiling Titan.

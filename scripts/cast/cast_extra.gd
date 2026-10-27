@@ -95,7 +95,7 @@ static func _human(style: String) -> Dictionary:
 				c["extra"] = _x_pink_bow
 				c["lashes"] = 2
 			return c
-		# Pokemon (Team Rocket)
+		# Pokémon (Team Rocket)
 		"jessie", "james":
 			var jess := style == "jessie"
 			return {"size": "adult", "top": Color("f4f4f2"), "sleeves": "long", "sleeve": Color("f4f4f2"),
@@ -146,7 +146,7 @@ static func _human(style: String) -> Dictionary:
 		"dil":
 			return {"size": "baby", "top": Color("7ab8ea"), "bottom": "diaper", "shoe": Puppet.SKIN, "hair": "tuft", "tuft_n": 1,
 				"hair_col": Color("8a5a36"), "eye": Vector2(8, 10), "head": Vector2(40, 38), "torso_w": 24.0}
-		# More Pokemon
+		# More Pokémon
 		"ash":
 			return {"size": "kid", "top": Color("4a78d0"), "sleeves": "long", "bottom_col": Color("3d5aa8"), "hair": "spiky",
 				"hair_col": Color("1d1d22"), "skin": Color("f2c9a5"), "shoe": Color("e6452f"), "torso_extra": _x_open_jacket,

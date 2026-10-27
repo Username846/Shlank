@@ -1,5 +1,5 @@
 @title The Boss Takes a Vacation
-@series Pokemon
+@series Pokémon
 @icon rocket
 @number 5
 @description The Boss is going on vacation, and he's leaving Team Rocket in charge of headquarters. They immediately lose the keys, the cat and the headquarters.
@@ -16,7 +16,7 @@ GIOVANNI: Team Rocket. I am going on vacation. For one week.
 JESSIE (surprised): A vacation? You?
 GIOVANNI (smug): Even villains need sunscreen. While I am gone, you are in charge of headquarters.
 JAMES (excited): Us? In charge?
-GIOVANNI (angry): Do not touch anything. Do not lose anything. And do not let anything happen to my prize monster.
+GIOVANNI (angry): Do not touch anything. Do not lose anything. And do not let anything happen to my prize Pokémon.
 MEOWTH (nervous): We'll guard it with our lives, Boss!
 EXIT giovanni right
 
@@ -28,7 +28,7 @@ PLACE james center left excited
 PLACE meowth midright left smug
 JESSIE (excited): We're in charge! I'm sitting in the big chair!
 JAMES (excited): I'm ordering pizza on the Boss's phone!
-MEOWTH (smug): And I'm going to feed the prize monster. Where is it, anyway?
+MEOWTH (smug): And I'm going to feed the prize Pokémon. Where is it, anyway?
 JESSIE (nervous): Wasn't it in that golden box?
 MEOWTH (scared): The golden box is open.
 JAMES (scared): The golden box is empty.
@@ -40,8 +40,8 @@ PLACE ash center right happy
 PLACE pikachu midleft right happy
 ASH (happy): What a nice day for training, Pikachu.
 PIKACHU (surprised): Pika?
-ASH (surprised): Whoa. A little round monster with a gold coin on its head. Is it lost?
-NARRATOR: It was, in fact, the Boss's prize monster. A tiny, fluffy Meowth-ling with a diamond collar.
+ASH (surprised): Whoa. A little round Pokémon with a gold coin on its head. Is it lost?
+NARRATOR: It was, in fact, the Boss's prize Pokémon. A tiny, fluffy baby Meowth with a diamond collar.
 ASH (excited): Hey, little guy! Want to come with us?
 PIKACHU (smug): Pika.
 
@@ -63,19 +63,19 @@ SCENE oak_lab
 PLACE nurse_joy center left happy
 ENTER ash left midleft excited
 ENTER misty left left smug
-ASH (excited): Nurse Joy! I found a lost monster! It has a diamond collar!
+ASH (excited): Nurse Joy! I found a lost Pokémon! It has a diamond collar!
 NURSE_JOY (surprised): A diamond collar? This must be someone's very special pet.
 MISTY (smug): Someone very rich. Look, the collar has a big red R on it.
 ASH (surprised): R? Like... Team Rocket?
 NURSE_JOY (nervous): Oh dear.
 
-# ------------------------------------------------------------ POKE MART
+# ------------------------------------------------------------ POKÉ MART
 MUSIC sneaky 2
 SCENE poke_mart
 PLACE brock center left happy
 ENTER jessie right midright nervous
 ENTER james right right nervous
-JESSIE (nervous): Excuse me. Have you seen a small, fluffy, very expensive monster?
+JESSIE (nervous): Excuse me. Have you seen a small, fluffy, very expensive Pokémon?
 BROCK (surprised): Wait. Aren't you Team Rocket?
 JAMES (sad): Yes. But today we're Team Lost Pet.
 BROCK (happy): Then you're in luck. Ash found one an hour ago. It's at the lab.
@@ -127,7 +127,7 @@ PLACE jessie midleft right nervous
 PLACE james left right nervous
 PLACE meowth center left happy
 ENTER giovanni right midright angry
-GIOVANNI (angry): Team Rocket. Where is my prize monster?
+GIOVANNI (angry): Team Rocket. Where is my prize Pokémon?
 MEOWTH (happy): Right here, Boss! Safe and sound! We never lost it for a second!
 JAMES (nervous): We lost it for about six hours.
 JESSIE (angry): James!

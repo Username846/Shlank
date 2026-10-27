@@ -1,5 +1,5 @@
 @title The Perfect Talk Show
-@series Dragonball Z
+@series Dragon Ball Z
 @icon dragonball
 @number 4
 @description Cell has decided that being perfect isn't enough. He wants to be on TV. Welcome to The Cell Show, the only talk show where the host is also the main guest.
