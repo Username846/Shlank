@@ -1,0 +1,191 @@
+@title Wobbuffet, Champion
+@series Pokémon
+@season 1
+@icon rocket
+@number 8
+@description Wobbuffet wanders into the Cerulean Gym tournament by mistake and keeps winning. Every battle. Every round. Jessie is thrilled. Then she's jealous. Then she's very, very jealous.
+
+# ------------------------------------------------------------ TEAM ROCKET HQ
+MUSIC tense
+SCENE rocket_hq cut
+TITLE
+PLACE giovanni center left angry
+PLACE jessie midright left nervous
+PLACE james right left nervous
+GIOVANNI (angry): Team Rocket. Do you know how many battles you have won this year?
+JESSIE (nervous): Is it... a lot?
+GIOVANNI (angry): It is zero.
+JAMES (nervous): Zero is a very round number, sir.
+GIOVANNI (angry): Win something. Anything. Or don't bother coming back.
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC jazz
+SCENE cerulean_gym
+PLACE misty center left excited
+PLACE ash midright left excited
+PLACE pikachu right left excited
+MISTY (excited): Welcome to the Cerulean Gym Open! Any trainer can enter! The winner gets the Golden Splash Trophy!
+ASH (excited): I'm in! Me and Pikachu are gonna win this!
+PIKACHU (excited): Pika pika!
+MISTY (smug): Don't get too excited, Ash. There's a lot of tough trainers here today.
+ASH (happy): Bring 'em on!
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC sneaky
+SCENE town_square
+PLACE jessie center left excited
+PLACE james midright left nervous
+PLACE meowth midleft right smug
+PLACE wobbuffet left right happy
+JESSIE (excited): A tournament! If we win that trophy, the Boss will finally respect us!
+JAMES (nervous): But Jessie, our Pokémon never win.
+MEOWTH (smug): Leave it to Meowth. I'll sign us up.
+WOBBUFFET (happy): Wobba.
+NARRATOR: Meowth meant to sign up Jessie's Arbok. But he was writing very fast, and he wrote "Wobbuffet."
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC action
+SCENE cerulean_gym
+CARD Round one...
+PLACE wobbuffet center left neutral
+PLACE misty midright left surprised
+MISTY (surprised): Round one! Wobbuffet versus a very angry Machop!
+NARRATOR: The Machop punched. Wobbuffet did nothing. The punch bounced right back. The Machop fell over.
+WOBBUFFET (happy): Wobbuffet!
+MISTY (surprised): Uh. Wobbuffet wins?
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC jazz 2
+SCENE cerulean_gym
+PLACE jessie center left excited
+PLACE james midright left surprised
+PLACE meowth midleft right surprised
+JESSIE (excited): We won! We actually won a battle!
+JAMES (surprised): Wobbuffet won a battle! On purpose!
+MEOWTH (nervous): I don't think it was on purpose.
+JESSIE (smug): Details. Wobbuffet is a champion. My champion. Because I'm a brilliant trainer.
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC action 2
+SCENE cerulean_gym
+CARD Rounds two, three and four...
+PLACE wobbuffet center left happy
+PLACE misty midright left surprised
+NARRATOR: Wobbuffet won round two. Then round three. Then round four. He never attacked once. Every attack just bounced off him.
+MISTY (surprised): Wobbuffet wins again! He's going to the finals!
+WOBBUFFET (excited): Wobbaaa!
+NARRATOR: The crowd went wild. They started chanting his name. Wob-buf-fet! Wob-buf-fet!
+
+# ------------------------------------------------------------ POKÉMON CENTER
+MUSIC jazz
+SCENE pokemon_center
+PLACE nurse_joy center left nervous
+PLACE brock midright left surprised
+NURSE_JOY (nervous): Brock, I've had nine Pokémon come in today, all knocked out by their own attacks.
+BROCK (surprised): Their own attacks?
+NURSE_JOY (nervous): They all fought the same Pokémon. A blue one. Who never moves.
+BROCK (smug): Wobbuffet. Its Counter sends every attack straight back.
+NURSE_JOY (happy): Well, it's the strangest tournament I've ever seen. Nobody's even been scratched by it directly.
+BROCK (shy): You're very smart, Nurse Joy.
+NURSE_JOY (smug): Brock, please hand me the bandages.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC sad
+SCENE town_square
+PLACE jessie center left sad
+PLACE james midright left neutral
+JESSIE (sad): James. Everyone's chanting Wobbuffet's name.
+JAMES (happy): Isn't it wonderful?
+JESSIE (angry): Nobody's chanting MY name! I'm the trainer! I'm the star!
+JAMES (nervous): You're jealous of Wobbuffet?
+JESSIE (sad): ...Maybe a little. A lot. Don't tell him.
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sad 2
+SCENE rocket_camp
+CARD The night before the finals...
+PLACE jessie center left sad
+PLACE wobbuffet midright left happy
+PLACE meowth midleft right nervous
+JESSIE (sad): Look at him, Meowth. Signing autographs. He can't even hold a pen.
+MEOWTH (nervous): He's just pressing his tail in the ink, Jessie.
+WOBBUFFET (happy): Wobba!
+JESSIE (angry): Everyone wants Wobbuffet's tail print. Nobody wants mine!
+MEOWTH (smug): You got a tail print?
+JESSIE (sad): ...No. That's the problem.
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC tense
+SCENE cerulean_gym
+CARD The finals...
+PLACE ash center right excited
+PLACE pikachu midright left excited
+PLACE wobbuffet midleft right neutral
+ASH (excited): The final round! Pikachu versus Wobbuffet!
+PIKACHU (excited): Pika!
+ASH (nervous): Okay, Pikachu. Remember, every attack bounces back. So... don't attack.
+PIKACHU (surprised): Pika?
+ASH (nervous): I don't actually know how to win this.
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC action
+SCENE cerulean_gym
+PLACE pikachu center right neutral
+PLACE wobbuffet midleft right neutral
+NARRATOR: Pikachu didn't attack. Wobbuffet didn't attack. They just stood there. For one minute. Two minutes. Ten minutes.
+PIKACHU (smug): Pika.
+WOBBUFFET (smug): Wobba.
+NARRATOR: The crowd got bored. Then the crowd got hungry. Then the crowd went to get snacks.
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC sad
+SCENE cerulean_gym
+PLACE jessie center left nervous
+PLACE wobbuffet midright left sad
+JESSIE (nervous): Wobbuffet! Why aren't you doing anything?
+WOBBUFFET (sad): Wobba...
+JESSIE (surprised): You're... waiting for me? You want me to tell you what to do?
+WOBBUFFET (happy): Wobbuffet!
+JESSIE (shy): You never wanted to be the star. You wanted to win for me.
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC action 2
+SCENE cerulean_gym
+PLACE jessie center left excited
+PLACE wobbuffet midright left excited
+PLACE pikachu right left excited
+JESSIE (excited): Wobbuffet! Use... Counter!
+NARRATOR: Wobbuffet used Counter. Pikachu wasn't attacking. So Wobbuffet countered nothing. Very, very hard.
+SFX boing
+PIKACHU (surprised): Pika?
+NARRATOR: Then, out of habit, Pikachu used Thunderbolt.
+PIKACHU (angry): Pika... CHUUU!
+SFX zap
+SHAKE 1.0
+WOBBUFFET (excited): WOBBUFFET!
+
+# ------------------------------------------------------------ CERULEAN GYM
+MUSIC happy
+SCENE cerulean_gym
+PLACE misty center left surprised
+PLACE ash midright left surprised
+NARRATOR: The Thunderbolt bounced back. Twice as strong. It hit Pikachu. It hit Wobbuffet. It hit the scoreboard, and the scoreboard exploded into confetti.
+SFX blast
+SHAKE 1.0
+MISTY (surprised): It's... a tie?
+ASH (happy): Both of them are knocked out! It's a tie!
+MISTY (smug): Then they both win half the trophy.
+
+# ------------------------------------------------------------ TEAM ROCKET HQ
+MUSIC jazz
+SCENE rocket_hq
+CARD That evening...
+PLACE giovanni center left neutral
+PLACE jessie midright left excited
+PLACE wobbuffet right left happy
+JESSIE (excited): Boss! We won! Well, half won! Here's half a trophy!
+GIOVANNI (neutral): Half a trophy.
+JESSIE (happy): Wobbuffet did it. My Wobbuffet. With my help.
+GIOVANNI (smug): Hm. It's more than you've ever won before. Keep the Wobbuffet.
+WOBBUFFET (excited): Wobbuffet!
+END

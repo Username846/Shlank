@@ -1,0 +1,170 @@
+@title Officer Jenny's Day Off
+@series Pokémon
+@season 1
+@icon rocket
+@number 6
+@description Officer Jenny finally takes a vacation, and Team Rocket takes her place. Their plan: a fake Pokémon registration booth that "registers" everyone's Pokémon straight into a sack.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC happy
+SCENE town_square cut
+TITLE
+PLACE officer_jenny center left happy
+PLACE nurse_joy midright left happy
+OFFICER_JENNY (happy): Joy, I'm finally doing it. My first vacation in six years. A whole week at Sunny Beach.
+NURSE_JOY (happy): You deserve it, Jenny. Who's watching the town?
+OFFICER_JENNY (smug): My cousin Jenny from the next town. Or maybe the other cousin Jenny. One of the Jennys.
+NURSE_JOY (nervous): How will anyone tell the difference?
+OFFICER_JENNY (happy): That's the beauty of it. Nobody ever can.
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sneaky
+SCENE rocket_camp
+PLACE jessie center left excited
+PLACE james midright left nervous
+PLACE meowth midleft right smug
+MEOWTH (smug): Officer Jenny's gone. And the whole town thinks some cousin is coming to replace her.
+JESSIE (excited): So we'll be the cousin! I'll be Officer Jessie! I mean Jenny!
+JAMES (nervous): Jessie, your hair is the wrong color.
+JESSIE (angry): Then I'll wear a hat, James!
+MEOWTH (excited): And we'll open an official Pokémon registration booth. Every trainer has to register. And by register, I mean hand over.
+JAMES (happy): It's diabolical! And it involves paperwork! I love paperwork!
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC jazz
+SCENE town_square
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE wobbuffet left right happy
+JESSIE (smug): Attention, citizens! By order of the police, all Pokémon must be registered today!
+JAMES (smug): Simply bring your Pokémon to the booth. And leave them in this totally normal, totally official sack.
+WOBBUFFET (excited): Wobbuffet!
+JESSIE (angry): Not now, Wobbuffet! You're supposed to be a police dog!
+WOBBUFFET (sad): Wobba.
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC happy 2
+SCENE pallet_town
+PLACE ash center right excited
+PLACE pikachu midleft right happy
+PLACE misty midright left neutral
+PLACE brock right left neutral
+ASH (excited): A Pokémon registration day? Cool! Maybe I get a badge!
+MISTY (nervous): I've never heard of a registration day.
+BROCK (happy): Officer Jenny's cousin is running it. And all the Jennys are very responsible.
+PIKACHU (nervous): Pika?
+ASH (happy): Come on, Pikachu. Let's go get registered!
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC sneaky 2
+SCENE town_square
+PLACE jessie center left smug
+PLACE james midright left smug
+ENTER ash right farright excited
+ENTER pikachu right right happy
+ASH (excited): Hi, Officer! I'm here to register Pikachu!
+JESSIE (smug): Ah, wonderful. Just put him in the official sack.
+ASH (surprised): In a sack?
+JAMES (nervous): It's... a very comfortable sack. With a little pillow.
+PIKACHU (angry): Pika. Pika pika.
+JESSIE (nervous): He seems to have strong feelings about the sack.
+
+# ------------------------------------------------------------ POKÉ MART
+MUSIC jazz 2
+SCENE poke_mart
+PLACE misty center left nervous
+ENTER james right midright nervous
+JAMES (nervous): Excuse me, shopkeeper. I'll need fifty of your largest sacks. For, um, police business.
+MISTY (surprised): Fifty sacks? What are the police doing with fifty sacks?
+JAMES (nervous): Registering. Very large amounts of registering.
+MISTY (smug): Officer, why is there a rose in your police pocket?
+JAMES (scared): Police roses! All the officers have them! It's for... smelling crime!
+EXIT james right 600
+MISTY (angry): Something is very fishy about this registration day.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC romantic
+SCENE sunny_beach
+PLACE officer_jenny center left happy
+OFFICER_JENNY (happy): Ahh. Sun. Sand. No crime. Just me and a good book.
+NARRATOR: Officer Jenny read four pages. Then she started wondering what was happening in town.
+OFFICER_JENNY (nervous): I'm sure everything is fine. My cousin is very responsible.
+OFFICER_JENNY (nervous): Maybe I'll just call. Just once. Just to check.
+
+# ------------------------------------------------------------ POKÉMON CENTER
+MUSIC tense
+SCENE pokemon_center
+PLACE nurse_joy center left nervous
+PLACE brock midright left nervous
+NURSE_JOY (nervous): Brock, something's wrong. Jenny's cousin just called. She's stuck in traffic. She hasn't even arrived yet.
+BROCK (surprised): Then who's running the registration booth?
+NURSE_JOY (scared): I have no idea.
+BROCK (angry): Ash is over there right now! With Pikachu!
+NURSE_JOY (excited): I'll call Jenny! You go!
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC action
+SCENE town_square
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE meowth midleft right excited
+PLACE ash farright left surprised
+ENTER brock right right angry
+BROCK (angry): Ash! That's not Officer Jenny! The real cousin isn't even here yet!
+ASH (surprised): Then who are you?
+JESSIE (excited): Prepare for trouble!
+JAMES (excited): And make it double!
+MEOWTH (smug): Meowth! That's right! And we got a whole sack full of Pokémon!
+ASH (angry): Give them back!
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC action 2
+SCENE town_square
+PLACE meowth center left excited
+PLACE pikachu midright left angry
+MEOWTH (excited): Ha! You'll never catch us! We got a getaway balloon parked right behind the fountain!
+PIKACHU (angry): Pika...
+NARRATOR: There was just one problem. The getaway balloon had a parking ticket. And a boot on the basket.
+MEOWTH (surprised): Who put a boot on our balloon?!
+ENTER officer_jenny right farright angry 500
+OFFICER_JENNY (angry): I did. You're parked in a no-balloon zone.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC tense 2
+SCENE town_square
+PLACE officer_jenny center right angry
+PLACE jessie midleft right scared
+PLACE james left right scared
+OFFICER_JENNY (angry): I leave for one afternoon. One!
+JESSIE (nervous): You must be Officer Jenny's cousin!
+OFFICER_JENNY (smug): I'm the real Officer Jenny. I came back because I had a bad feeling.
+JAMES (sad): We were so close. I had a clipboard and everything.
+OFFICER_JENNY (angry): Open the sack. Now.
+
+# ------------------------------------------------------------ TOWN SQUARE
+MUSIC happy
+SCENE town_square
+PLACE ash center right happy
+PLACE pikachu midleft right excited
+PLACE officer_jenny midright left happy
+PLACE jessie farleft right scared
+PLACE james left right scared
+NARRATOR: Out of the sack came every Pokémon in town. Pidgeys, Rattatas, a very confused Psyduck and one extremely angry Pikachu.
+PIKACHU (angry): Pika... CHUUU!
+SFX zap
+SHAKE 1.0
+JESSIE (scared): Team Rocket's blasting off agaaaain!
+ASH (happy): Thanks, Officer Jenny!
+OFFICER_JENNY (happy): Thank you, Ash. You can all go home now.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC romantic 2
+SCENE sunny_beach
+CARD The next day...
+PLACE officer_jenny center left happy
+PLACE nurse_joy midright left happy
+NURSE_JOY (happy): Back on vacation, Jenny?
+OFFICER_JENNY (smug): Back on vacation. And this time, I hired three cousins to watch the town.
+NURSE_JOY (happy): Three Jennys?
+OFFICER_JENNY (happy): Nobody's getting past three Jennys.
+END

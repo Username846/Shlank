@@ -1,0 +1,186 @@
+@title The Crystal Cave
+@series Pokémon
+@season 1
+@icon rocket
+@number 9
+@description A cave full of glowing crystals is discovered outside town. Team Rocket wants to dig them all up. Then the tunnel caves in, and Ash's gang and Team Rocket are trapped together in the dark.
+
+# ------------------------------------------------------------ PROFESSOR OAK'S LAB
+MUSIC jazz
+SCENE oak_lab cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right neutral
+PLACE brock midright left neutral
+ASH (excited): A crystal cave? Right outside town?
+BROCK (happy): Professor Oak says the crystals glow in the dark. Nobody knows why.
+MISTY (excited): They say rare Pokémon live inside. Ones that eat the crystals.
+ASH (excited): Then we gotta go see it! Right, Pikachu?
+NARRATOR: Pikachu was asleep in the corner. He made a small noise that might have meant yes.
+
+# ------------------------------------------------------------ TEAM ROCKET HQ
+MUSIC tense
+SCENE rocket_hq
+PLACE giovanni center left smug
+PLACE jessie midright left excited
+PLACE meowth right left excited
+GIOVANNI (smug): A cave full of glowing crystals. Do you know what that's worth?
+JESSIE (excited): A lot, sir?
+GIOVANNI (smug): Everything. Bring me every crystal in that cave.
+MEOWTH (excited): You got it, Boss! We'll dig up the whole place!
+GIOVANNI (angry): And do not get blasted into the sky this time.
+MEOWTH (nervous): ...We'll try, Boss.
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC happy
+SCENE forest_path
+PLACE ash center right excited
+PLACE pikachu midleft right happy
+PLACE misty left right happy
+PLACE brock midright left nervous
+ASH (excited): The cave should be just past these trees!
+BROCK (nervous): Remember, Ash, caves can be dangerous. We stick together. No wandering off.
+ASH (happy): Got it, Brock.
+PIKACHU (excited): Pika!
+NARRATOR: Ash wandered off almost immediately.
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC romantic
+SCENE crystal_cave
+PLACE ash center right surprised
+PLACE pikachu midleft right surprised
+SFX sparkle
+ASH (surprised): Whoa. It's beautiful.
+NARRATOR: The walls were covered in crystals. Blue, pink and gold. They glowed softly, like a sky full of stars underground.
+PIKACHU (surprised): Pika...
+ASH (happy): I bet no one's ever seen this before. We're the first.
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC sneaky
+SCENE crystal_cave
+PLACE jessie center left excited
+PLACE james midright left excited
+PLACE meowth midleft right smug
+JESSIE (excited): Look at all these crystals! We'll be rich!
+JAMES (excited): And the Boss will finally love us!
+MEOWTH (smug): Stand back. Meowth's mega drill will have this whole wall down in two minutes.
+JAMES (nervous): Is it safe to drill a wall in a cave?
+MEOWTH (smug): What's the worst that could happen?
+SFX blast
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC action
+SCENE crystal_cave
+PLACE ash center right scared
+PLACE jessie midleft right scared
+SFX thud
+SHAKE 1.0
+SFX thud
+SHAKE 1.0
+NARRATOR: The drill hit the wrong wall. The ceiling rumbled. Rocks fell. And the entrance to the cave was sealed shut.
+ASH (scared): Team Rocket?!
+JESSIE (scared): The twerp?!
+NARRATOR: They were trapped. Together. In the dark.
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC tense
+SCENE forest_path
+PLACE misty center left scared
+PLACE brock midright left scared
+MISTY (scared): Brock! The cave entrance just collapsed!
+BROCK (scared): And Ash wandered off! He's inside! I know he is!
+MISTY (angry): We have to get help. Officer Jenny. Nurse Joy. Anybody!
+BROCK (nervous): You go. I'll start moving rocks.
+MISTY (nervous): Brock, there's hundreds of rocks.
+BROCK (angry): Then I'd better start now.
+
+# ------------------------------------------------------------ POKÉMON CENTER
+MUSIC tense
+SCENE pokemon_center
+PLACE nurse_joy center left nervous
+PLACE officer_jenny midright left angry
+ENTER misty right right scared 600
+MISTY (scared): Nurse Joy! Officer Jenny! The crystal cave collapsed! Ash is trapped inside!
+OFFICER_JENNY (angry): I'll get the rescue team and the digging machines!
+NURSE_JOY (nervous): I'll bring medicine and blankets. Is anyone hurt?
+MISTY (nervous): We don't know. Brock's moving rocks by himself.
+OFFICER_JENNY (smug): Then let's give him some help. Let's go!
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC sad
+SCENE crystal_cave
+PLACE ash center right sad
+PLACE pikachu midleft right sad
+PLACE jessie midright left sad
+PLACE james right left nervous
+JESSIE (sad): Well. This is a fine mess.
+ASH (angry): You caused this! With your drill!
+JAMES (sad): He's not wrong, Jessie.
+JESSIE (sad): I know he's not wrong, James. That's what makes it so annoying.
+NARRATOR: The crystals were starting to dim. Without the sunlight from the entrance, they were going dark.
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC romantic 2
+SCENE crystal_cave
+PLACE meowth center left sad
+PLACE ash midright left neutral
+MEOWTH (sad): Ya know, twerp. When I was a little Meowth, I was stuck in a dark alley once. All night.
+ASH (surprised): Really?
+MEOWTH (sad): Nobody came. I hate the dark.
+ASH (neutral): Somebody's coming this time. Brock and Misty won't give up.
+MEOWTH (shy): ...You really think so?
+ASH (happy): I know so.
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC tense 2
+SCENE crystal_cave
+PLACE pikachu center right excited
+PLACE ash midleft right excited
+PIKACHU (excited): Pika! Pika pika!
+ASH (surprised): What is it, Pikachu?
+NARRATOR: Pikachu touched a crystal and gave it a tiny spark. The crystal lit up. Brighter than before. Then the next one lit up. And the next.
+ASH (excited): The crystals glow with electricity! Pikachu, light them all up!
+PIKACHU (angry): Pika... CHUUU!
+SFX zap
+SHAKE 0.6
+
+# ------------------------------------------------------------ CRYSTAL CAVE
+MUSIC action 2
+SCENE crystal_cave
+PLACE ash center right excited
+PLACE jessie midleft right surprised
+PLACE james midright left surprised
+SFX sparkle
+NARRATOR: The whole cave lit up like daytime. And there, on the far wall, was a crack. A crack with daylight coming through.
+JAMES (surprised): Another way out!
+JESSIE (excited): Everybody push!
+ASH (excited): All together! One, two, three!
+SFX thud
+SHAKE 1.0
+
+# ------------------------------------------------------------ FOREST PATH
+MUSIC happy
+SCENE forest_path
+PLACE brock center left surprised
+PLACE misty midright left surprised
+ENTER ash right farright excited
+ENTER pikachu right right happy
+BROCK (surprised): Ash! You're out!
+MISTY (happy): How did you get out?
+ASH (happy): Pikachu found the way. And... Team Rocket helped push.
+MISTY (surprised): Team Rocket helped?
+ASH (smug): Don't tell anybody. They'd be so embarrassed.
+
+# ------------------------------------------------------------ TEAM ROCKET HQ
+MUSIC sad
+SCENE rocket_hq
+CARD That evening...
+PLACE giovanni center left angry
+PLACE jessie midright left nervous
+PLACE meowth right left nervous
+GIOVANNI (angry): Where are the crystals?
+JESSIE (nervous): We, um, left them, sir. They belong in the cave.
+GIOVANNI (angry): Why?
+MEOWTH (shy): They're nicer in the dark, Boss. Trust me.
+NARRATOR: Team Rocket did not get blasted into the sky that day. Giovanni simply sent them to bed without dinner.
+END

@@ -1,0 +1,182 @@
+@title The Last Blast Off
+@series Pokémon
+@season 1
+@icon rocket
+@number 10
+@description Team Rocket has blasted off one hundred times. Meowth decides that's enough, and builds the Blast-Off Catcher 5000, a giant net to land in. The only problem: they actually have to win this time to test it.
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sad
+SCENE rocket_camp cut
+TITLE
+PLACE jessie center left sad
+PLACE james midright left sad
+PLACE meowth midleft right sad
+JESSIE (sad): James. Do you know how many times we've blasted off?
+JAMES (sad): I've been keeping count in my diary. Yesterday was number one hundred.
+MEOWTH (sad): One hundred times. My back hurts. My tail hurts. Even my whiskers hurt.
+JESSIE (angry): Something has to change!
+MEOWTH (excited): And Meowth has a plan. A big one.
+
+# ------------------------------------------------------------ MECHA LAB
+MUSIC jazz
+SCENE mecha_lab
+PLACE meowth center left excited
+PLACE jessie midright left surprised
+PLACE james right left surprised
+MEOWTH (excited): Behold! The Blast-Off Catcher 5000!
+JAMES (surprised): It's... a very big net.
+MEOWTH (smug): A very big, very bouncy net. On top of Cliff Top. Wherever we blast off to, we land in this. Soft as a pillow.
+JESSIE (excited): Meowth, you genius! We'll never hurt our backs again!
+JAMES (nervous): But how does it know where we'll land?
+MEOWTH (smug): We always land in the same spot. A hundred times. I did the math.
+
+# ------------------------------------------------------------ CLIFF TOP
+MUSIC happy
+SCENE cliff_top
+PLACE meowth center left excited
+PLACE wobbuffet midright left happy
+NARRATOR: They spent all night setting up the net on Cliff Top. It was enormous. It was bouncy. It was, frankly, a very good net.
+MEOWTH (excited): Wobbuffet! Test it!
+WOBBUFFET (excited): Wobbuffet!
+SFX boing
+NARRATOR: Wobbuffet bounced. He bounced so high he got a little bit scared. Then he bounced again, because he liked it.
+WOBBUFFET (happy): Wobbaaaaa!
+
+# ------------------------------------------------------------ TEAM ROCKET HQ
+MUSIC tense 2
+SCENE rocket_hq
+PLACE giovanni center left neutral
+GIOVANNI (neutral): One hundred times. Team Rocket has been blasted into the sky one hundred times.
+GIOVANNI (angry): Do you know how much I spend on their bandages?
+GIOVANNI (smug): Then again, they always come back. Every single time. You have to admire that.
+GIOVANNI (neutral): Not much. But a little.
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC happy 2
+SCENE pallet_town
+PLACE ash center right happy
+PLACE pikachu midleft right happy
+PLACE misty midright left neutral
+PLACE brock right left neutral
+ASH (happy): Have you guys noticed? Team Rocket hasn't bothered us in two whole days.
+MISTY (nervous): That's what worries me.
+BROCK (smug): Maybe they finally gave up.
+PIKACHU (smug): Pika pika.
+ASH (happy): Pikachu doesn't think so either.
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sneaky
+SCENE rocket_camp
+PLACE jessie center left smug
+PLACE james midright left excited
+PLACE meowth midleft right excited
+JESSIE (smug): Now we just need to blast off one more time. To test the net.
+JAMES (surprised): So we want to lose?
+MEOWTH (excited): We want to try to win, but if we lose, we land safely! It's a win-win! Or a lose-win!
+JESSIE (smug): And if we actually win, we get Pikachu. It's perfect.
+JAMES (nervous): I'm confused, but I'm excited.
+
+# ------------------------------------------------------------ TALL GRASS ROUTE
+MUSIC tense
+SCENE tall_grass
+PLACE ash center right surprised
+PLACE pikachu midleft right angry
+ENTER jessie left farleft smug
+ENTER james left left smug
+ENTER meowth left midleft smug
+JESSIE (excited): Prepare for trouble!
+JAMES (excited): And make it double!
+MEOWTH (smug): Meowth! That's right! Give us the Pikachu, twerp!
+ASH (angry): No way! Pikachu, Thunderbolt!
+JESSIE (happy): Yes! Do it! Please!
+ASH (surprised): ...Wait, what?
+
+# ------------------------------------------------------------ TALL GRASS ROUTE
+MUSIC tense 2
+SCENE tall_grass
+PLACE ash center right nervous
+PLACE pikachu midleft right nervous
+PLACE misty midright left nervous
+MISTY (nervous): Ash, why do they want to be blasted off?
+ASH (nervous): I don't know. That's really weird.
+PIKACHU (nervous): Pika pika...
+MISTY (smug): Then don't do it. If they want it, it's a trap.
+ASH (smug): Pikachu, don't use Thunderbolt!
+PIKACHU (smug): Pika.
+
+# ------------------------------------------------------------ TALL GRASS ROUTE
+MUSIC jazz 2
+SCENE tall_grass
+PLACE jessie center left angry
+PLACE james midright left nervous
+PLACE meowth midleft right nervous
+JESSIE (angry): Why isn't he attacking?! Attack us, you little yellow rat!
+JAMES (nervous): They've figured it out, Jessie.
+MEOWTH (sad): They won't blast us off. I built the world's best net, and nobody will blast us into it.
+JESSIE (angry): Then we'll blast ourselves off!
+JAMES (scared): How?!
+JESSIE (smug): Meowth, how much dynamite do we have?
+
+# ------------------------------------------------------------ CLIFF TOP
+MUSIC tense
+SCENE cliff_top
+PLACE brock center right surprised
+PLACE misty midleft right surprised
+BROCK (surprised): Misty, what is that giant net doing on Cliff Top?
+MISTY (surprised): It's... the size of a stadium.
+BROCK (nervous): It has a Team Rocket logo on it.
+MISTY (smug): So that's their plan. A safety net.
+BROCK (happy): Honestly? Good for them. Blasting off a hundred times can't be good for your back.
+
+# ------------------------------------------------------------ TALL GRASS ROUTE
+MUSIC action
+SCENE tall_grass
+PLACE jessie center left excited
+PLACE james midright left scared
+PLACE meowth midleft right scared
+PLACE wobbuffet left right excited
+JESSIE (excited): Three! Two! One!
+SFX blast
+SHAKE 1.0
+JAMES (scared): We're blasting off agaaaain!
+MEOWTH (excited): On purpose this time!
+WOBBUFFET (excited): Wobbuffet!
+
+# ------------------------------------------------------------ CLIFF TOP
+MUSIC action 2
+SCENE cliff_top
+PLACE brock center right surprised
+PLACE misty midleft right surprised
+SFX whoosh
+NARRATOR: Team Rocket flew across the sky in a perfect arc. Exactly where Meowth said they would. Right toward the net.
+MISTY (surprised): They're going to make it!
+SFX boing
+NARRATOR: They landed in the net. It was soft. It was bouncy. It was a perfect landing.
+SFX boing
+BROCK (nervous): They're... still bouncing.
+
+# ------------------------------------------------------------ CLIFF TOP
+MUSIC happy
+SCENE cliff_top
+SFX boing
+NARRATOR: They bounced up. And down. And up. Higher each time. Meowth had made the net a little too bouncy.
+SFX boing
+NARRATOR: On the fifth bounce, they went so high they disappeared over the mountains.
+SFX whoosh
+NARRATOR: Somewhere far away, very faintly, three voices could be heard.
+SFX sparkle
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sad
+SCENE rocket_camp
+CARD Three days later...
+PLACE jessie center left sad
+PLACE james midright left sad
+PLACE meowth midleft right sad
+JAMES (sad): Number one hundred and one.
+JESSIE (sad): And one hundred and two. And one hundred and three. That net bounced us for three days.
+MEOWTH (nervous): Okay. Maybe a little less bounce next time.
+JESSIE (angry): Next time?!
+MEOWTH (smug): The Blast-Off Catcher 6000. It's got a pillow.
+END

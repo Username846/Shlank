@@ -1,0 +1,172 @@
+@title Brock's Big Date
+@series Pokémon
+@season 1
+@icon rocket
+@number 7
+@description Brock finally works up the courage to ask Nurse Joy to dinner, and she says yes. Ash and Misty want to help. So does a very suspicious waiter with a Brooklyn accent and whiskers.
+
+# ------------------------------------------------------------ POKÉMON CENTER LOBBY
+MUSIC romantic
+SCENE center_lobby cut
+TITLE
+PLACE brock center right nervous
+PLACE nurse_joy midleft right happy
+BROCK (nervous): Nurse Joy! I was wondering if... maybe... you'd like to have dinner with me? On Saturday? At the beach?
+NURSE_JOY (happy): Why, Brock. I'd love to.
+BROCK (surprised): You would?
+NURSE_JOY (happy): Of course. Seven o'clock?
+BROCK (excited): Seven o'clock! Absolutely! I'll be there at six! Five! Four!
+NURSE_JOY (smug): Seven is fine, Brock.
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC happy
+SCENE pallet_town
+PLACE ash center right surprised
+PLACE misty midleft right surprised
+PLACE brock midright left excited
+PLACE pikachu right left happy
+BROCK (excited): She said yes! Nurse Joy said yes!
+ASH (surprised): For real? After all those times?
+MISTY (smug): Brock, you've asked out every Nurse Joy in every town. This is the first one that said yes.
+BROCK (happy): Because she's the one, Misty. I can feel it.
+PIKACHU (happy): Pika pika!
+ASH (excited): We'll help! We'll make it the best date ever!
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sneaky
+SCENE rocket_camp
+PLACE jessie center left smug
+PLACE james midright left excited
+PLACE meowth midleft right smug
+MEOWTH (smug): The twerps are planning a fancy dinner on the beach. Which means they'll be busy.
+JESSIE (smug): And busy twerps make careless twerps.
+JAMES (excited): We'll be the waiters! I've always wanted to carry a tray with one hand!
+MEOWTH (excited): And while they're eatin' dessert, we grab Pikachu!
+JESSIE (happy): A romantic evening for them. A Pikachu for us. Everyone wins.
+
+# ------------------------------------------------------------ MECHA LAB
+MUSIC sneaky 2
+SCENE mecha_lab
+PLACE meowth center left excited
+PLACE jessie midright left smug
+MEOWTH (excited): Bonjour! I'm the chef! Tonight's special is a soup, and a side of Pikachu!
+JESSIE (smug): Meowth, you can't say "side of Pikachu" out loud. They'll know.
+MEOWTH (nervous): Right. Tonight's special is a soup. And a side of... yellow mouse-flavored surprise.
+JESSIE (angry): That's worse!
+MEOWTH (smug): Fine. Just soup. But I'm keepin' the chef hat. It makes me look distinguished.
+
+# ------------------------------------------------------------ POKÉ MART
+MUSIC jazz
+SCENE poke_mart
+PLACE brock center right nervous
+PLACE misty midleft right smug
+BROCK (nervous): Misty, what should I wear? A tie? A bow tie? A cape?
+MISTY (smug): Definitely not a cape.
+BROCK (nervous): And what do I talk about? Pokémon? Weather? My nine brothers and sisters?
+MISTY (happy): Just be yourself, Brock. Joy said yes to you, not to some fancy guy.
+BROCK (shy): Thanks, Misty. You're a good friend.
+MISTY (smug): And no cape.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC happy 2
+SCENE sunny_beach
+PLACE ash center right excited
+PLACE pikachu midleft right excited
+ASH (excited): Okay, Pikachu! Table, check! Candles, check! Flowers, check!
+PIKACHU (excited): Pika!
+ASH (nervous): Hmm. It needs something else. Something special.
+PIKACHU (smug): Pika pika.
+ASH (surprised): Lights? Like little sparkly lights? Pikachu, you're a genius!
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC romantic 2
+SCENE sunny_beach
+CARD Saturday night...
+PLACE brock center right nervous
+PLACE nurse_joy midright left happy
+SFX sparkle
+NARRATOR: Pikachu lit up the whole beach with tiny sparks, like a field of fireflies. The table had candles. The sea was calm.
+NURSE_JOY (happy): Oh, Brock. It's beautiful.
+BROCK (shy): I had help. Ash, Misty and Pikachu did the lights.
+NURSE_JOY (happy): And you did the asking. That was the hardest part.
+BROCK (shy): ...It really was.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC sneaky 2
+SCENE sunny_beach
+PLACE brock center right happy
+PLACE nurse_joy midright left happy
+ENTER james left left smug
+JAMES (smug): Good evening. I am your waiter. Jamesy. Would you like to hear tonight's specials?
+BROCK (surprised): We... have a waiter?
+JAMES (smug): Tonight we have a lovely soup. And for dessert, the chef's surprise. It's a net.
+NURSE_JOY (surprised): A net?
+JAMES (nervous): I mean... a nut. A nut cake. A lovely nut cake.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC jazz 2
+SCENE sunny_beach
+PLACE ash center right nervous
+PLACE misty midleft right nervous
+PLACE pikachu right left nervous
+MISTY (nervous): Ash, look at that waiter. Purple hair. A rose in his pocket.
+ASH (surprised): And the chef has whiskers!
+MISTY (angry): It's Team Rocket! Again!
+PIKACHU (angry): Pika!
+ASH (nervous): We can't ruin Brock's date. We gotta stop them quietly.
+MISTY (smug): Leave that to me.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC sneaky
+SCENE sunny_beach
+PLACE jessie center left smug
+PLACE meowth midleft right excited
+ENTER misty right midright smug
+MEOWTH (excited): The twerp's Pikachu is right there. Totally distracted by all the lights.
+JESSIE (smug): On my signal, we throw the net.
+MISTY (smug): Hi. I'm the dishwasher. Can I help?
+JESSIE (surprised): Of course! Wash these. Quietly.
+NARRATOR: Misty "washed" the net. With a whole bucket of water. Then she tied it in knots. Lots of knots.
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC action
+SCENE sunny_beach
+PLACE jessie center left excited
+PLACE james midright left excited
+PLACE meowth midleft right excited
+PLACE wobbuffet left right excited
+JESSIE (excited): Now! Throw the net!
+JAMES (surprised): It's... all tied up! In knots!
+MEOWTH (scared): And it's soaking wet!
+WOBBUFFET (excited): Wobbuffet!
+ENTER pikachu right farright angry
+PIKACHU (angry): Pika... CHUUU!
+SFX zap
+SHAKE 1.0
+JESSIE (scared): Team Rocket's blasting off agaaaain!
+
+# ------------------------------------------------------------ SUNNY BEACH
+MUSIC romantic
+SCENE sunny_beach
+PLACE brock center right happy
+PLACE nurse_joy midright left surprised
+SFX sparkle
+NURSE_JOY (surprised): Did you see that? Something just flew over the ocean.
+BROCK (happy): Probably a shooting star. You should make a wish.
+NURSE_JOY (shy): I already got my wish. A nice dinner with someone kind.
+BROCK (shy): Joy...
+NARRATOR: Brock was so happy, he forgot to eat his soup. Then he forgot to eat his nut cake. Then he forgot his own name, briefly.
+
+# ------------------------------------------------------------ POKÉMON CENTER LOBBY
+MUSIC happy 3
+SCENE center_lobby
+CARD The next morning...
+PLACE brock center right happy
+PLACE ash midleft right excited
+PLACE misty midright left smug
+ASH (excited): So? How did it go?
+BROCK (happy): It was the best night of my life. She wants to have dinner again next week.
+MISTY (smug): Did you notice anything weird? Like, a weird waiter?
+BROCK (surprised): Was there a waiter?
+ASH (happy): Nope. Nothing weird at all.
+END
