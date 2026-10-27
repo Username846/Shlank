@@ -1,0 +1,168 @@
+@title The Royal Tea Party
+@series Attack on Titan
+@season 2
+@icon wings
+@number 8
+@description The royal family invites the Scouts to a tea party at the palace in Mitras. Erwin wants the Scouts to make a good impression so the King will give them more money. Levi teaches everyone royal manners. Sasha is a problem. So is the tiny cake tray.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC happy
+SCENE scout_hq cut
+TITLE
+PLACE erwin center left neutral
+PLACE levi midright left neutral
+ERWIN (neutral): A royal tea party. At the palace in Mitras. If we impress the nobles, they'll fund three more expeditions.
+LEVI (neutral): And if we don't?
+ERWIN (smug): We'll be fighting Titans with sticks.
+LEVI (smug): So it's an important tea party.
+ERWIN (happy): The most important tea party in history. And you're in charge of manners.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC jazz
+SCENE mess_hall
+CARD Manners class...
+PLACE levi center left neutral
+PLACE eren midright left nervous
+PLACE sasha right left excited
+LEVI (neutral): Rule one. Hold the teacup by the handle. Little finger out.
+EREN (nervous): Why the little finger?
+LEVI (smug): Because rich people are weird. Rule two. Small bites. Very small.
+SASHA (excited): How small?
+LEVI (angry): Smaller than that, Braus. I can see what you're thinking.
+
+# ------------------------------------------------------------ MESS HALL
+MUSIC jazz 2
+SCENE mess_hall
+PLACE jean center left smug
+PLACE connie_springer midright left nervous
+JEAN (smug): Watch this. Little finger out. Sip. Very elegant.
+CONNIE_SPRINGER (nervous): How do you know how to do that?
+JEAN (smug): My mom made me practice. Every Sunday. For years.
+CONNIE_SPRINGER (excited): Jean's a fancy boy!
+JEAN (angry): I am NOT a fancy boy!
+CONNIE_SPRINGER (smug): Your little finger is still out.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC happy 2
+SCENE mitras
+CARD The palace in Mitras...
+PLACE historia center left nervous
+PLACE ymir midright left smug
+HISTORIA (nervous): Ymir. This is where my father's family lived. Before they sent me away.
+YMIR (smug): Big house. Too many columns. Bad taste.
+HISTORIA (smug): You always know what to say.
+YMIR (happy): If anybody's rude to you in there, I'll bite them.
+HISTORIA (nervous): Please don't bite the nobles.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC tense
+SCENE mitras
+PLACE erwin center left neutral
+PLACE levi midright left neutral
+PLACE armin right left nervous
+NARRATOR: Inside the palace, a long table was set with silver teapots, china cups and a tray of tiny, beautiful cakes. The nobles sat stiffly, watching every move.
+ERWIN (neutral): Remember. Small bites. Little fingers out. Be charming.
+ARMIN (nervous): What if they ask us a question?
+LEVI (smug): Answer it. Then stop talking.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC sneaky 2
+SCENE mitras
+PLACE connie_springer center left nervous
+PLACE jean midright left smug
+CONNIE_SPRINGER (nervous): Jean. There are four forks. Which one do I use?
+JEAN (smug): Start from the outside and work in.
+CONNIE_SPRINGER (surprised): Outside of what? The table? The palace?
+JEAN (angry): The plate, Connie!
+CONNIE_SPRINGER (smug): ...I'm just going to use my hands.
+JEAN (scared): Please don't use your hands!
+
+# ------------------------------------------------------------ MITRAS
+MUSIC sneaky
+SCENE mitras
+PLACE sasha center left nervous
+PLACE eren midright left nervous
+SASHA (nervous): Eren. The cakes. The little cakes. They're looking at me.
+EREN (nervous): Don't look back, Sasha.
+SASHA (scared): I can't help it! That one has a strawberry on it! A WHOLE strawberry!
+EREN (angry): Small bites! Remember Captain Levi!
+SASHA (sad): ...Small bites. Small bites. Small bites.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC jazz 2
+SCENE mitras
+PLACE levi center left neutral
+PLACE erwin midright left happy
+NARRATOR: A noble lady asked Levi how he liked his tea. Levi took a long sip. Little finger out. He looked her in the eye.
+LEVI (neutral): It's acceptable.
+NARRATOR: The noble lady gasped. Then she smiled. Nobody had ever been so honest with her about tea before.
+ERWIN (happy): Levi. She likes you.
+LEVI (smug): Everyone likes honesty. They just don't know it.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC tense
+SCENE mitras
+PLACE sasha center left nervous
+SFX thud
+NARRATOR: Then it happened. Sasha leaned over to reach the sugar. Her elbow bumped the cake tray. The cake tray tipped. And every tiny, beautiful cake slid toward the edge of the table.
+SASHA (scared): THE CAKES!
+SFX whoosh
+NARRATOR: Sasha dove. She caught the tray with one hand. She caught three falling cakes with the other. And she caught the last one in her mouth.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC sad
+SCENE mitras
+PLACE sasha center left nervous
+PLACE erwin midright left nervous
+SASHA (nervous): Mmmf.
+ERWIN (nervous): Cadet Braus. Is there a cake in your mouth?
+SASHA (nervous): Mmmf mmf.
+ERWIN (sad): That's three expeditions gone.
+SASHA (sad): ...Mmmf.
+
+# ------------------------------------------------------------ MITRAS
+MUSIC happy
+SCENE mitras
+PLACE historia center left surprised
+PLACE erwin midright left surprised
+NARRATOR: And then, at the head of the table, the oldest noble of all began to laugh. Then the noble lady laughed. Then the whole table laughed.
+HISTORIA (surprised): They're... laughing.
+ERWIN (surprised): They're not angry?
+NARRATOR: "In sixty years of tea parties, nobody has ever saved the cakes before! What reflexes! What dedication!"
+HISTORIA (happy): Sasha, they love you!
+
+# ------------------------------------------------------------ MITRAS
+MUSIC jazz
+SCENE mitras
+PLACE sasha center left happy
+PLACE levi midright left neutral
+SASHA (happy): Captain! They want me to show them how I caught the cakes! Again!
+LEVI (neutral): Fine. One demonstration.
+SASHA (excited): With real cakes?
+LEVI (smug): With real cakes. But the ones you catch with your mouth count as yours.
+SASHA (excited): That's the best rule I've ever heard!
+
+# ------------------------------------------------------------ MITRAS
+MUSIC happy 2
+SCENE mitras
+PLACE erwin center left happy
+PLACE levi midright left neutral
+PLACE armin right left excited
+ERWIN (happy): They're funding four expeditions. Not three. Four.
+ARMIN (excited): Because Sasha saved the cakes?
+ERWIN (smug): Because Sasha saved the cakes. And because Levi told the truth about the tea.
+LEVI (smug): The tea was very acceptable.
+ARMIN (happy): That's the nicest thing you've ever said about tea, sir.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC romantic
+SCENE scout_hq
+CARD That night...
+PLACE sasha center left happy
+PLACE historia midright left happy
+SASHA (happy): Historia. That was the best day. I ate eleven tiny cakes. All for the Scouts.
+HISTORIA (happy): You were amazing, Sasha.
+SASHA (smug): And you walked into your family's palace with your head up.
+HISTORIA (shy): ...I did, didn't I?
+SASHA (excited): And next time, we'll bring a bigger tray!
+END

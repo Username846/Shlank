@@ -1,0 +1,161 @@
+@title Market Day in Karanes
+@series Attack on Titan
+@season 2
+@icon wings
+@number 7
+@description Captain Levi sends Sasha, Jean and Armin to the Karanes District market to buy supplies. The list says: soap, rope and tea. Sasha adds "everything else." Jean has a budget. A pickpocket has other plans.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC happy
+SCENE scout_hq cut
+TITLE
+PLACE levi center left neutral
+PLACE sasha midright left excited
+PLACE jean right left nervous
+LEVI (neutral): You three. Go to the Karanes market. Buy soap, rope and tea. That's all.
+SASHA (excited): The market! There's a meat pie stand there! And a cheese man! And a bread lady!
+LEVI (angry): Soap. Rope. Tea.
+JEAN (nervous): Yes, sir. I'll hold the money, sir.
+LEVI (smug): Good. Don't let Sasha touch it.
+SASHA (sad): ...Not even a little?
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC jazz
+SCENE karanes
+CARD Karanes District...
+PLACE sasha center left excited
+PLACE armin midright left happy
+PLACE jean right left nervous
+SASHA (excited): Look at it all! Apples! Sausages! Honey cakes!
+ARMIN (happy): It's so busy. I've never seen so many people in one place.
+JEAN (nervous): Stay together, guys. Markets are full of pickpockets.
+SASHA (smug): Nobody's going to pick MY pocket. My pocket only has crumbs.
+ARMIN (smug): Then the pickpocket would be very disappointed.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC sneaky
+SCENE karanes
+PLACE jean center left nervous
+PLACE armin midright left smug
+JEAN (nervous): Soap. Where do they sell soap?
+ARMIN (smug): Jean, the soap stand is right there. It has a big sign. "SOAP."
+JEAN (angry): I knew that! I was testing you.
+ARMIN (happy): Captain Levi wants the lavender one. He's very specific.
+JEAN (surprised): How do you know that?
+ARMIN (smug): He smells like lavender. Every single day.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC jazz 2
+SCENE karanes
+PLACE sasha center left excited
+PLACE jean midright left angry
+SASHA (excited): Jean! A meat pie! Just one! It's only two coins!
+JEAN (angry): No! We have exactly enough money for soap, rope and tea!
+SASHA (sad): What if I starve? Right here in the market? In front of the meat pie?
+JEAN (smug): You ate breakfast an hour ago.
+SASHA (sad): That was a whole hour, Jean.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC tense
+SCENE karanes
+PLACE jean center left surprised
+PLACE armin midright left nervous
+SFX whoosh
+JEAN (surprised): The money pouch! It's gone!
+ARMIN (nervous): A boy in a gray cap just ran past you. He's heading toward the gate!
+JEAN (angry): A pickpocket! I told you guys! I TOLD you!
+ARMIN (smug): You told us. Then it happened to you.
+JEAN (angry): Not helping, Armin!
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC action
+SCENE karanes
+PLACE sasha center left angry
+SFX footstep
+NARRATOR: Sasha didn't wait. She dropped the apple she was holding. She ran. She jumped over a cheese cart, slid under a horse and hopped across three barrels.
+SASHA (angry): Nobody steals our soap money! Especially not when there are meat pies nearby!
+SFX whoosh
+NARRATOR: She was faster than anyone had ever seen her run. Faster than when she stole the potato. Faster than when the bell rang for dinner.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC action 2
+SCENE karanes
+PLACE sasha center left smug
+SFX thud
+NARRATOR: Sasha caught the pickpocket by the back of his coat, right at the gate. He was small. Very small. And very skinny.
+SASHA (smug): Gotcha!
+SASHA (surprised): ...Wait. You're just a little kid.
+NARRATOR: The boy looked up at her. His stomach growled, very loudly.
+SASHA (sad): Oh. You're hungry. Really hungry.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC sad
+SCENE karanes
+PLACE sasha center left sad
+PLACE jean midright left angry
+PLACE armin right left nervous
+JEAN (angry): Sasha! You caught him! Give back the money, kid!
+SASHA (sad): Jean. He took it because he's hungry. His family doesn't have any food.
+JEAN (nervous): ...Oh.
+ARMIN (sad): Since the Titans took Wall Maria, lots of families in Karanes don't have enough.
+SASHA (sad): I know what that's like. When I was little, we didn't have enough either.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC romantic
+SCENE karanes
+PLACE jean center left nervous
+PLACE sasha midright left happy
+JEAN (nervous): Okay. Here's what we'll do. We buy the soap. We buy the rope. We skip the tea.
+SASHA (surprised): Skip the tea? Captain Levi will be so mad!
+JEAN (smug): And with the tea money, we buy this kid and his family a meat pie. A big one.
+SASHA (excited): Jean! That's the best idea you've ever had!
+JEAN (shy): ...Don't tell anybody I'm nice.
+
+# ------------------------------------------------------------ KARANES DISTRICT
+MUSIC happy
+SCENE karanes
+PLACE armin center left happy
+PLACE sasha midright left happy
+NARRATOR: They bought the biggest meat pie at the market. The boy took it home to his mother and two little sisters. They all waved from the window.
+ARMIN (happy): Look at them. They're so happy.
+SASHA (happy): I didn't even eat any of it. Not one bite.
+ARMIN (surprised): Sasha. I'm really proud of you.
+SASHA (shy): ...I licked the plate a little.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq
+CARD Back at headquarters...
+PLACE levi center left neutral
+PLACE jean midright left nervous
+LEVI (neutral): Soap.
+JEAN (nervous): Here, sir. Lavender.
+LEVI (neutral): Rope.
+JEAN (nervous): Here, sir.
+LEVI (neutral): Tea.
+JEAN (scared): ...About the tea, sir.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC sneaky
+SCENE scout_hq
+PLACE levi center left angry
+PLACE sasha midright left nervous
+PLACE armin right left nervous
+LEVI (angry): You forgot my tea?
+SASHA (nervous): We didn't forget, sir! We used the money to feed a hungry family!
+LEVI (surprised): ...A hungry family?
+ARMIN (nervous): A little boy. And his mom. And two sisters. They were very grateful, sir.
+LEVI (neutral): Hm.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC romantic 2
+SCENE scout_hq
+CARD That evening...
+PLACE levi center left neutral
+PLACE sasha midright left surprised
+LEVI (neutral): Braus. Here.
+SASHA (surprised): A cup of tea? For me? I thought you didn't have any tea, sir.
+LEVI (smug): I always keep an extra box. For emergencies.
+SASHA (happy): Is this an emergency?
+LEVI (neutral): Good work today. That's the emergency. Drink it before it gets cold.
+END

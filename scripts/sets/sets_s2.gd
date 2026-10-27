@@ -77,6 +77,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"papaya_island": _papaya_island(b)
 		"mount_paozu": _mount_paozu(b)
 		"other_world": _other_world(b)
+		# Attack on Titan
+		"stohess": _stohess(b)
+		"mitras": _mitras(b)
+		"utgard_castle": _utgard_castle(b)
+		"ragako": _ragako(b)
+		"karanes": _karanes(b)
+		"historia_farm": _historia_farm(b)
+		"cadet_barracks": _cadet_barracks(b)
+		"reiss_chapel": _reiss_chapel(b)
+		"garrison_post": _garrison_post(b)
+		"liberio": _liberio(b)
 		_: return false
 	return true
 
@@ -174,6 +185,17 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 3:
 				var y := 500.0 + i * 24.0 + sin(t * 1.5 + i) * 5.0
 				Art.stroke(ci, Art.curve(Vector2(-PAD, y), Vector2(640, y - 8), Vector2(W + PAD, y), 16), 3.0, Color(1, 1, 1, 0.6))
+		"utgard_castle":
+			for i in 20:
+				Art.dot(ci, Vector2(fmod(i * 157.0, W), fmod(i * 83.0, 300.0) + 20), 2.5, Color(1, 1, 1, 0.4 + 0.4 * sin(t * 2.0 + i)))
+		"reiss_chapel":
+			for i in 8:
+				var k := 0.5 + 0.5 * sin(t * 1.5 + i)
+				Art.dot(ci, Vector2(120 + i * 150, 200 + (i % 2) * 60), 8 + k * 6, Color(1.0, 0.85, 0.4, 0.25 + 0.3 * k))
+		"liberio":
+			for i in 3:
+				var k := fmod(t * 0.2 + i / 3.0, 1.0)
+				Art.dot(ci, Vector2(1060 + k * 60, 120 - k * 100), 16 + k * 30, Color(0.7, 0.7, 0.7, 0.4 * (1.0 - k)))
 		_: pass
 
 
@@ -1116,4 +1138,140 @@ static func _other_world(b: Backdrop) -> void:
 	for i in 5:
 		Art.blob(b.ci, Vector2(100 + i * 90, 470), 30, 26, Color(1, 1, 1, 0.75), 3.0)
 		Art.stroke(b.ci, Art.curve(Vector2(80 + i * 90, 490), Vector2(100 + i * 90, 520), Vector2(70 + i * 90, 540), 6), 3.0, Color(1, 1, 1, 0.7))
+
+
+
+
+# ---------------------------------------------------- Attack on Titan --
+
+static func _stohess(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8ab8e0"), Color("e8f0f4"))
+	SetsMore._the_wall(b, 120, 300)
+	# A grand interior-district street: tall stone houses and a fountain
+	for i in 4:
+		SetsMore._euro_house(b, Rect2(-20 + i * 340, 300, 260, 250), Color("e8dcc8"), Color("4a6a8a"))
+	SetsMore._cobbles(b, 550, Color("c8bca8"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 600), 120, 30, 0, TAU, 20), Color("9ccbe8"), 4.0)
+	b._sign(Rect2(500, 250, 280, 44), "STOHESS DISTRICT", Color("2b3a4a"), Color("f2c14e"), 22)
+
+
+static func _mitras(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("6aa0e0"), Color("f4e6d0"))
+	# The royal capital: a palace with white columns and a long red carpet
+	Art.shape(b.ci, SetsExtra._rect(Rect2(200, 180, 880, 380)), Color("f4efe4"), 5.0, 0.1)
+	Art.shape(b.ci, PackedVector2Array([Vector2(180, 190), Vector2(640, 60), Vector2(1100, 190)]), Color("c8b48a"), 5.0, 0.12)
+	_columns(b, [260.0, 400.0, 540.0, 740.0, 880.0, 1020.0], 220, 540, Color("faf6ee"))
+	SetsMore._stone_floor(b, 560, Color("d8d0c0"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(590, 560), Vector2(690, 560), Vector2(760, H + PAD), Vector2(520, H + PAD)]), Color("b8202f"), 3.0)
+	Art.blob(b.ci, Vector2(640, 130), 26, 26, Color("f2c14e"), 3.0)
+
+
+static func _utgard_castle(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("1a2440"), Color("4a5a80"))
+	Art.dot(b.ci, Vector2(1080, 110), 50, Color("f4f0d0"))
+	SetsExtra._grass(b, 560, Color("3a5a3a"))
+	# A ruined tower, half its top crumbled away
+	Art.shape(b.ci, PackedVector2Array([Vector2(420, 560), Vector2(420, 160), Vector2(500, 120), Vector2(560, 170), Vector2(640, 110),
+		Vector2(700, 150), Vector2(760, 130), Vector2(860, 180), Vector2(860, 560)]), Color("8a8478"), 5.0, 0.15)
+	for j in 4:
+		for i in 3:
+			b.ci.draw_rect(Rect2(470 + i * 120, 220 + j * 80, 30, 46), Color("2a2a3a"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 560), 60, 90, PI, TAU, 14), Color("3a2a1a"), 4.0)
+	for x in [120, 1180]:
+		SetsExtra._tree(b, x, 560, 1.2, Color("2f4a2f"))
+
+
+static func _ragako(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("c8c0b0"), Color("e8e0d0"))
+	SetsExtra._grass(b, 540, Color("a8b07a"))
+	# Connie's quiet home village: small cottages and a broken fence
+	for i in 3:
+		SetsMore._euro_house(b, Rect2(80 + i * 420, 330, 240, 210), Color("d8c8a8"), Color("6a4a3a"))
+	SetsExtra._fence(b, 480, 560, Color("a8946a"))
+	b._sign(Rect2(500, 230, 280, 44), "RAGAKO VILLAGE", Color("6b4428"), Color("f4ecd8"), 24)
+
+
+static func _karanes(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8ac0e8"), Color("f0ecd8"))
+	SetsMore._the_wall(b, 100, 320)
+	# The district gate, with banners and a busy market street
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 320), 120, 160, PI, TAU, 16), Color("4a3a2a"), 5.0)
+	for x in [360, 920]:
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 30, 120), Vector2(x + 30, 120), Vector2(x + 30, 260), Vector2(x, 240),
+			Vector2(x - 30, 260)]), Color("4a6fa8"), 3.0)
+	SetsMore._cobbles(b, 520, Color("c0b090"))
+	for i in 3:
+		var x: float = 120.0 + i * 420.0
+		Art.shape(b.ci, PackedVector2Array([Vector2(x, 440), Vector2(x + 200, 440), Vector2(x + 220, 480), Vector2(x - 20, 480)]),
+			[Color("e6452f"), Color("f2c14e"), Color("5aa84a")][i], 3.0)
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x, 480, 200, 50)), Color("c48a4f"), 3.0)
+
+
+static func _historia_farm(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsMore._rolling(b, 440, Color("9fc86a"), 19, 40.0)
+	SetsExtra._grass(b, 540, Color("8fc860"))
+	# Historia's orphanage farm: a barn, a well and a field of crops
+	SetsExtra._house(b, Rect2(760, 280, 400, 260), Color("c8503a"), Color("6a2a1a"), Color("f4ecd8"))
+	Art.shape(b.ci, Art.rrect(Rect2(260, 460, 120, 80), 8), Color("9a9a8a"), 4.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(260, 460), Vector2(260, 380), Vector2(380, 380), Vector2(380, 460)]), 8, Color("6b4428"))
+	for i in 10:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(20 + i * 50, 640), Vector2(30 + i * 50, 580)]), 4.0, Color("5a8a3a"))
+
+
+static func _cadet_barracks(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("c8b090"), Color("a89070"), 545, Color("8a6a4a"))
+	# Bunk beds, a lantern and boots lined up by the door
+	for x in [80, 900]:
+		for k in 2:
+			Art.shape(b.ci, Art.rrect(Rect2(x, 260 + k * 150, 300, 40), 6), Color("efe8d6"), 3.5)
+			Art.shape(b.ci, Art.rrect(Rect2(x, 296 + k * 150, 300, 16), 4), Color("6b4428"), 3.0)
+		for dx in [0, 290]:
+			Art.limb(b.ci, PackedVector2Array([Vector2(x + dx + 5, 240), Vector2(x + dx + 5, 545)]), 8, Color("6b4428"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, -PAD), Vector2(640, 140)]), 3, INK)
+	Art.blob(b.ci, Vector2(640, 160), 20, 24, Color("f2c14e"), 3.0)
+	for i in 5:
+		Art.shape(b.ci, Art.rrect(Rect2(500 + i * 56, 510, 36, 36), 6), Color("5a3a24"), 2.5)
+
+
+static func _reiss_chapel(b: Backdrop) -> void:
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("2a2a3a"), Color("4a3a3a"))
+	b._sky_bottom = Color("4a3a3a")
+	SetsMore._stone_floor(b, 540, Color("6a5a50"))
+	# Wooden pews, an altar and a glowing crystal cave behind
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 540), 320, 400, PI, TAU, 30), Color("4a6a8a"), 5.0)
+	for i in 7:
+		Art.shape(b.ci, PackedVector2Array([Vector2(420 + i * 70, 540), Vector2(450 + i * 70, 220 + (i % 3) * 40), Vector2(480 + i * 70, 540)]),
+			Color("9fd0f0"), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(540, 440, 200, 100), 6), Color("8a7a6a"), 4.0)
+	for x in [80, 1000]:
+		for k in 3:
+			Art.shape(b.ci, Art.rrect(Rect2(x, 470 + k * 30, 200, 20), 4), Color("6b4428"), 3.0)
+
+
+static func _garrison_post(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("7ab0e0"), Color("e8ecf0"))
+	SetsMore._the_wall(b, 0, 560)
+	# The top of the wall, with a cannon and a small guard hut
+	SetsMore._stone_floor(b, 560, Color("b8ac94"))
+	Art.shape(b.ci, Art.rrect(Rect2(140, 420, 200, 140), 6), Color("8a6a4a"), 4.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(120, 430), Vector2(240, 360), Vector2(360, 430)]), Color("6a4a3a"), 4.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(860, 500), Vector2(1080, 450)]), 40, Color("4a4d55"))
+	for x in [880, 1000]:
+		b.ci.draw_arc(Vector2(x, 530), 30, 0, TAU, 20, INK, 14.0)
+		b.ci.draw_arc(Vector2(x, 530), 30, 0, TAU, 20, Color("8a5a36"), 8.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(560, 120), Vector2(620, 132), Vector2(560, 146)]), Color("e6452f"), 2.5)
+	Art.limb(b.ci, PackedVector2Array([Vector2(560, 120), Vector2(560, 200)]), 3, INK)
+
+
+static func _liberio(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8a9ab0"), Color("d8d0c0"))
+	b._skyline(400, Color("a89880"), 77, Color(1, 1, 1, 0.2))
+	# The internment zone in Marley: brick buildings, a chimney and a tall fence
+	b._brick_wall(Rect2(-PAD, 300, W + PAD * 2, 260), Color("b0705a"))
+	for i in 5:
+		b._window(Rect2(60 + i * 250, 360, 110, 90), Color("e9e2cf"), Color("4a5a6a"))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(1040, 120, 60, 180)), Color("8a5a4a"), 4.0)
+	SetsMore._cobbles(b, 560, Color("a8a090"))
+	b._sign(Rect2(480, 250, 320, 44), "LIBERIO", Color("2b2b33"), Color("f4ecd8"), 28)
 

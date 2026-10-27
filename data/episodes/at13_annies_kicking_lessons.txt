@@ -1,0 +1,191 @@
+@title Annie's Kicking Lessons
+@series Attack on Titan
+@season 2
+@icon wings
+@number 3
+@description Eren wants to learn Annie's famous kick. Annie doesn't want to teach him. Then the Scouts are sent to Stohess District for a parade, Annie is on guard duty with the Military Police, and someone steals the parade's ceremonial sword.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC happy
+SCENE training_grounds cut
+TITLE
+PLACE eren center right excited
+PLACE annie midleft right neutral
+EREN (excited): Annie! Teach me your kick! The one where Reiner flipped over!
+ANNIE (neutral): No.
+EREN (angry): Why not?
+ANNIE (smug): Because you'll get hurt. And then you'll whine.
+EREN (angry): I won't whine!
+ANNIE (smug): You're whining right now.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC jazz
+SCENE training_grounds
+PLACE reiner center left nervous
+PLACE eren midright left excited
+REINER (nervous): Eren. Take it from me. Don't ask Annie for lessons.
+EREN (excited): Why not? Her kick is amazing!
+REINER (sad): I asked her once. I couldn't sit down for a week.
+EREN (smug): That's because you're slow, Reiner.
+REINER (smug): Everyone's slow compared to Annie.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC sneaky
+SCENE training_grounds
+PLACE annie center left neutral
+PLACE eren midright left nervous
+EREN (nervous): Annie. Please. One lesson. I'll do anything.
+ANNIE (neutral): Anything?
+EREN (nervous): ...Anything reasonable.
+ANNIE (smug): Clean my boots for a month.
+EREN (angry): A MONTH?!
+ANNIE (smug): Lesson's free if you say no.
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC action
+SCENE training_grounds
+CARD Lesson one...
+PLACE annie center left neutral
+PLACE eren midright left excited
+ANNIE (neutral): It's not about strength. It's about balance. Watch my feet.
+SFX whoosh
+EREN (excited): Okay! Watch the feet! Got it!
+SFX thud
+ANNIE (smug): You were watching my face.
+EREN (sad): ...I'm on the ground, aren't I?
+
+# ------------------------------------------------------------ TRAINING GROUNDS
+MUSIC jazz 2
+SCENE training_grounds
+PLACE mikasa center left neutral
+PLACE armin midright left nervous
+ARMIN (nervous): Mikasa. Eren's been knocked down eleven times.
+MIKASA (neutral): Twelve.
+SFX thud
+ARMIN (nervous): Thirteen. Should we stop it?
+MIKASA (smug): No. He's learning.
+ARMIN (surprised): He's learning?
+MIKASA (smug): He's learning how to fall.
+
+# ------------------------------------------------------------ CADET BARRACKS
+MUSIC sad
+SCENE cadet_barracks
+CARD That night...
+PLACE eren center right sad
+PLACE armin midleft right nervous
+EREN (sad): Armin. I've been knocked down thirty times today.
+ARMIN (nervous): Thirty-one. You fell off your bunk just now.
+EREN (angry): That doesn't count!
+ARMIN (happy): Eren, you got up every single time. That counts more than the kick.
+EREN (shy): ...You think so?
+ARMIN (smug): I know so. Now please stop kicking in your sleep.
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC happy 2
+SCENE stohess
+CARD Stohess District...
+PLACE erwin center left neutral
+PLACE levi midright left neutral
+ERWIN (neutral): The King is holding a parade in Stohess. The Scouts march at the front.
+LEVI (smug): Marching. In clean uniforms. In front of rich people.
+ERWIN (happy): You'll carry the ceremonial sword, Levi. It's a great honor.
+LEVI (neutral): ...Is the sword clean?
+ERWIN (smug): It's been polished every day for a hundred years.
+LEVI (happy): Then I'll carry it.
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC sneaky
+SCENE stohess
+PLACE annie center left neutral
+PLACE eren midright left surprised
+EREN (surprised): Annie? What are you doing in Stohess?
+ANNIE (neutral): I'm in the Military Police now. I guard the rich people.
+EREN (smug): You? Guarding? You'd kick them all.
+ANNIE (smug): Only the rude ones.
+EREN (happy): Hey. I've been practicing the kick. Three hundred times a day.
+ANNIE (surprised): ...Really?
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC tense
+SCENE stohess
+PLACE levi center left angry
+PLACE erwin midright left surprised
+SFX gasp
+LEVI (angry): The sword. It's gone.
+ERWIN (surprised): Gone? It was right here on the cushion!
+LEVI (angry): Someone took it while I was looking at that dusty windowsill.
+ERWIN (nervous): The parade starts in ten minutes, Levi.
+LEVI (angry): Then I have ten minutes to find a thief and kick them very hard.
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC action
+SCENE stohess
+PLACE annie center left surprised
+PLACE eren midright left angry
+SFX footstep
+ANNIE (surprised): There. A man in a gray coat. Running toward the fountain. With something long under his arm.
+EREN (angry): That's the sword! After him!
+ANNIE (smug): He's fast.
+EREN (excited): So are you!
+SFX whoosh
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC action 2
+SCENE stohess
+PLACE eren center right angry
+SFX footstep
+NARRATOR: The thief ran through the market. Over a cart of cabbages. Under a laundry line. Eren was right behind him.
+EREN (angry): Stop! Give back the sword!
+SFX thud
+NARRATOR: The thief stopped by the fountain and turned around. He was big. Much bigger than Eren. And he held the sword like he knew how to use it.
+EREN (nervous): Oh. You're really big.
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC tense
+SCENE stohess
+PLACE eren center right nervous
+PLACE annie midleft right neutral
+ANNIE (neutral): Eren. Balance. Watch his feet.
+EREN (nervous): His feet?
+ANNIE (smug): He's leaning on his left. Kick the right.
+EREN (angry): Watch the feet. Kick the right. Got it!
+SFX whoosh
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC action
+SCENE stohess
+PLACE eren center right surprised
+PLACE annie midleft right smug
+SFX thud
+SHAKE 0.6
+NARRATOR: Eren kicked. The thief flipped right over and landed in the fountain. The sword flew into the air and Annie caught it with one hand.
+EREN (surprised): I did it! I did the kick!
+ANNIE (smug): Sloppy. But it worked.
+EREN (excited): Did you see him flip? He flipped like Reiner!
+ANNIE (happy): ...I saw.
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC happy
+SCENE stohess
+PLACE levi center left neutral
+PLACE annie midright left neutral
+PLACE eren right left excited
+LEVI (neutral): The sword. Thank you, cadets.
+ANNIE (neutral): He did the kick, sir. I just caught it.
+LEVI (smug): The thief is in the fountain. The fountain is dirty now.
+EREN (nervous): Sorry, sir.
+LEVI (happy): Don't be. He deserved a bath.
+SFX fanfare
+
+# ------------------------------------------------------------ STOHESS DISTRICT
+MUSIC romantic
+SCENE stohess
+CARD After the parade...
+PLACE annie center left neutral
+PLACE eren midright left happy
+EREN (happy): Thanks, Annie. For the lesson.
+ANNIE (neutral): You still owe me a month of boot cleaning.
+EREN (surprised): What? I thought the lesson was free!
+ANNIE (smug): The first one was. That was the second one.
+EREN (sad): ...Fine.
+END

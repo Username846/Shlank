@@ -1,0 +1,182 @@
+@title A Night at Utgard Castle
+@series Attack on Titan
+@season 2
+@icon wings
+@number 5
+@description A group of Scouts gets caught out past dark and takes shelter in the ruins of Utgard Castle. Titans wander around outside. Reiner finds a crate of old food. Ymir finds a secret. Nobody gets any sleep.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC tense
+SCENE titan_plains cut
+TITLE
+PLACE reiner center left nervous
+PLACE ymir midright left smug
+PLACE historia right left nervous
+REINER (nervous): The sun's going down. We'll never make it back to the wall before dark.
+YMIR (smug): Great planning, Reiner.
+HISTORIA (nervous): There's an old castle in the woods. Utgard Castle. We could hide there for the night.
+REINER (happy): Good thinking, Historia.
+YMIR (smug): Of course it was good thinking. It was her idea.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC spooky
+SCENE utgard_castle
+PLACE connie_springer center left scared
+PLACE bertolt midright left nervous
+SFX door
+CONNIE_SPRINGER (scared): This place is creepy. It's all broken. And there's a skull on the door.
+BERTOLT (nervous): That's a decoration, Connie.
+CONNIE_SPRINGER (scared): Who decorates with SKULLS?
+BERTOLT (nervous): ...People who live in creepy castles.
+CONNIE_SPRINGER (scared): Not helping, Bertolt!
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC sneaky
+SCENE utgard_castle
+CARD The top of the tower...
+PLACE reiner center left excited
+PLACE ymir midright left smug
+REINER (excited): Look! A crate! From the old days! Maybe there's food!
+YMIR (smug): Probably a hundred years old.
+SFX squeak
+REINER (happy): Canned herring! And crackers! And... a jar of something.
+YMIR (surprised): Is that pickled eggs?
+REINER (nervous): I think it used to be pickled eggs.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC jazz
+SCENE utgard_castle
+PLACE ymir center left smug
+PLACE historia midright left nervous
+YMIR (smug): Historia. Look at this can. It's written in a language nobody uses anymore.
+HISTORIA (surprised): You can read it?
+YMIR (nervous): ...No. Of course not. Nobody can.
+HISTORIA (smug): You just read it, didn't you?
+YMIR (angry): I said nobody can! Stop asking!
+HISTORIA (smug): ...Okay. For now.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC tense
+SCENE utgard_castle
+PLACE bertolt center left scared
+PLACE reiner midright left nervous
+SFX stomp
+SHAKE 0.6
+BERTOLT (scared): Reiner. Titans. Down there. Three of them. Walking around the castle.
+REINER (nervous): At night? Titans don't move at night.
+BERTOLT (scared): These ones didn't get the message.
+SFX stomp
+REINER (angry): Everybody upstairs! Block the stairs!
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC action
+SCENE utgard_castle
+PLACE connie_springer center left scared
+PLACE reiner midright left angry
+SFX thud
+SHAKE 0.8
+CONNIE_SPRINGER (scared): They're knocking on the wall! Like it's a door!
+REINER (angry): Grab anything heavy! Throw it down the stairs!
+CONNIE_SPRINGER (excited): This barrel?
+REINER (angry): Yes!
+CONNIE_SPRINGER (nervous): It's full of pickled eggs.
+REINER (excited): Even better! Throw it!
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC action 2
+SCENE utgard_castle
+PLACE connie_springer center left excited
+SFX splat
+NARRATOR: The barrel rolled down the stairs and smashed against the Titan below. One-hundred-year-old pickled eggs went everywhere.
+CONNIE_SPRINGER (excited): Did it work?
+NARRATOR: The Titan sniffed the air. Its face scrunched up. And it backed away from the castle, very slowly.
+CONNIE_SPRINGER (surprised): The smell scared it off! The eggs are a weapon!
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC sad
+SCENE utgard_castle
+CARD Midnight...
+PLACE historia center left sad
+PLACE ymir midright left neutral
+HISTORIA (sad): Ymir. Are we going to make it out of here?
+YMIR (neutral): Probably. Titans get bored.
+HISTORIA (sad): If we don't make it... I'm glad I told everyone my real name.
+YMIR (smug): Don't be dramatic. We're making it out.
+HISTORIA (shy): How do you know?
+YMIR (smug): Because I said so. And I'm always right.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC jazz
+SCENE utgard_castle
+PLACE connie_springer center left nervous
+PLACE historia midright left happy
+CONNIE_SPRINGER (nervous): Historia. Can I tell you something? I'm scared. Really scared.
+HISTORIA (happy): Me too, Connie.
+CONNIE_SPRINGER (surprised): You are? You look so calm.
+HISTORIA (smug): I used to pretend all the time. I'm very good at looking calm.
+CONNIE_SPRINGER (happy): ...Can you teach me?
+HISTORIA (happy): Breathe in. Breathe out. Think about your mom's stew.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC sneaky 2
+SCENE utgard_castle
+PLACE bertolt center left nervous
+PLACE reiner midright left nervous
+BERTOLT (nervous): Reiner. You should sleep. You've been awake for twenty hours.
+REINER (nervous): I can't. I'm the leader. Leaders don't sleep.
+BERTOLT (smug): You fell asleep standing up ten minutes ago.
+REINER (surprised): I did not.
+BERTOLT (smug): You snored. Connie threw a cracker at you.
+REINER (sad): ...That explains the crumbs.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC tense
+SCENE utgard_castle
+CARD Before dawn...
+PLACE reiner center left scared
+PLACE ymir midright left angry
+PLACE historia midleft right neutral
+SFX blast
+SHAKE 1.0
+NARRATOR: The Titans came back. More of them. And this time, they didn't knock. They started pulling the tower apart, stone by stone.
+REINER (scared): The wall's coming down! We're out of eggs!
+YMIR (angry): Historia. Stay behind me. Whatever happens, don't look.
+HISTORIA (scared): Ymir? What are you going to do?
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC action
+SCENE utgard_castle
+PLACE historia center left surprised
+PLACE connie_springer midright left surprised
+SFX powerup
+SHAKE 1.0
+NARRATOR: Ymir jumped off the tower. There was a flash of light. And where Ymir had been, there was now a small, fast Titan with long hair and sharp teeth. It was fighting the other Titans.
+HISTORIA (surprised): Ymir?!
+CONNIE_SPRINGER (surprised): Ymir's a TITAN?! Since WHEN?!
+HISTORIA (scared): Ymir! Be careful!
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC action 2
+SCENE utgard_castle
+PLACE reiner center left surprised
+PLACE bertolt midright left surprised
+SFX thud
+SHAKE 0.8
+NARRATOR: Ymir fought. She bit. She scratched. She pulled one Titan off the tower and threw it into the trees. And then, as the sun came up, the horns of the Scouts sounded through the woods. Help was coming.
+REINER (surprised): Bertolt. Ymir's a Titan shifter.
+BERTOLT (nervous): ...So it seems.
+REINER (nervous): We should talk about that. Later. Privately.
+
+# ------------------------------------------------------------ UTGARD CASTLE
+MUSIC romantic
+SCENE utgard_castle
+CARD Morning...
+PLACE historia center left sad
+PLACE ymir midright left nervous
+HISTORIA (sad): You hid this from me. Since the very start.
+YMIR (nervous): I didn't want you to be scared of me.
+HISTORIA (smug): I'm not scared of you, Ymir. I'm mad at you. For almost dying.
+YMIR (surprised): ...That's it? That's all?
+HISTORIA (happy): Thank you. For saving everyone. Even Reiner.
+YMIR (smug): Especially Reiner. He owes me crackers now.
+END

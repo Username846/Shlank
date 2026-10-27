@@ -1,0 +1,159 @@
+@title Connie's Hometown
+@series Attack on Titan
+@season 2
+@icon wings
+@number 2
+@description Connie gets a week off to visit his family in Ragako Village. Bertolt and Sasha come along. Connie has told everyone at home that he's a genius. His mom is very excited to meet the genius. Bertolt sleeps in a very strange position.
+
+# ------------------------------------------------------------ CADET BARRACKS
+MUSIC happy
+SCENE cadet_barracks cut
+TITLE
+PLACE connie_springer center left excited
+PLACE sasha midright left excited
+PLACE bertolt right left nervous
+CONNIE_SPRINGER (excited): A whole week off! I get to go home to Ragako! To see my mom!
+SASHA (excited): Does your mom cook? Is it good? Can I come?
+CONNIE_SPRINGER (happy): Sure! You too, Bertolt! You never go anywhere.
+BERTOLT (nervous): Um. Okay. If it's not too much trouble.
+CONNIE_SPRINGER (smug): One thing, guys. Back home, everybody thinks I'm a genius.
+SASHA (surprised): Why?
+CONNIE_SPRINGER (nervous): ...Because I told them I was.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC jazz
+SCENE titan_plains
+PLACE connie_springer center left smug
+PLACE bertolt midright left nervous
+CONNIE_SPRINGER (smug): So if anybody asks, I'm the top of the class. In everything.
+BERTOLT (nervous): Connie, you were eighth.
+CONNIE_SPRINGER (excited): Eighth out of a hundred! That's practically first!
+BERTOLT (nervous): And you didn't know what a "left" was until the second week.
+CONNIE_SPRINGER (angry): I knew! I just forgot sometimes!
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC happy 2
+SCENE ragako
+CARD Ragako Village...
+PLACE connie_springer center left excited
+PLACE sasha midright left happy
+SFX door
+CONNIE_SPRINGER (excited): We're here! This is my village! That's my house! And that's the field where I fell in a well!
+SASHA (happy): It's so quiet. And green. Do you have pigs?
+CONNIE_SPRINGER (smug): We have the best pigs in Wall Rose.
+SASHA (excited): Can I meet them?
+CONNIE_SPRINGER (nervous): Meet them. Not eat them.
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC romantic
+SCENE ragako
+PLACE connie_springer center left happy
+NARRATOR: Connie's mom ran out of the house and hugged him so hard he lifted off the ground. Then his little brother and sister hugged him too. Then the dog.
+CONNIE_SPRINGER (happy): Mom! I missed you! I'm a genius now!
+NARRATOR: "My genius boy! The whole village has been waiting to hear about your genius!"
+CONNIE_SPRINGER (nervous): ...The whole village?
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC sneaky
+SCENE ragako
+PLACE bertolt center right nervous
+PLACE sasha midleft right smug
+BERTOLT (nervous): Sasha. Half the village is gathering in the square. They want Connie to give a speech.
+SASHA (smug): About being a genius?
+BERTOLT (nervous): About being a genius.
+SASHA (happy): This is going to be wonderful.
+BERTOLT (nervous): For who?
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC tense
+SCENE ragako
+PLACE connie_springer center left nervous
+SFX drumroll
+CONNIE_SPRINGER (nervous): Um. Hello, Ragako. As a genius, I'd like to say... um...
+CONNIE_SPRINGER (excited): Two plus two is four!
+NARRATOR: The village cheered. Everyone thought this was very impressive.
+CONNIE_SPRINGER (smug): And a horse has four legs! And the sky is up!
+NARRATOR: The village cheered even louder.
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC jazz 2
+SCENE ragako
+PLACE sasha center left surprised
+PLACE bertolt midright left surprised
+SASHA (surprised): Bertolt. They think he's actually a genius.
+BERTOLT (surprised): He just said the sky is up. And they clapped.
+SASHA (smug): Connie's the smartest person in his village.
+BERTOLT (happy): ...You know what? Good for him.
+SASHA (happy): I'm going to find those pigs now.
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC jazz
+SCENE ragako
+CARD Dinner...
+PLACE sasha center left excited
+PLACE connie_springer midright left happy
+SASHA (excited): Connie! Your mom's stew is the best thing I've ever eaten!
+CONNIE_SPRINGER (happy): She makes it every time I come home.
+SASHA (excited): Can I live here? I'll work on the farm! I'll feed the pigs! I'll sleep in the barn!
+CONNIE_SPRINGER (smug): You'd eat the pigs, Sasha.
+SASHA (shy): ...Only one. Maybe two.
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC sneaky 2
+SCENE ragako
+CARD The next morning...
+PLACE connie_springer center left surprised
+PLACE sasha midright left surprised
+NARRATOR: In the morning, they found Bertolt asleep in the guest room. Upside down. With his legs on the wall and his head under the bed.
+CONNIE_SPRINGER (surprised): How does he even do that?
+SASHA (surprised): Reiner says he can tell the weather from Bertolt's sleeping position.
+CONNIE_SPRINGER (excited): What does upside down mean?
+SASHA (nervous): ...I think it means rain.
+SFX splash
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC tense
+SCENE ragako
+PLACE bertolt center right nervous
+PLACE connie_springer midleft right scared
+SFX splash
+NARRATOR: It rained. A lot. The river by the village rose higher and higher, and the old bridge started to creak.
+CONNIE_SPRINGER (scared): The bridge! My little brother is on the other side! With the cows!
+BERTOLT (nervous): We have to get them across before the bridge breaks.
+CONNIE_SPRINGER (nervous): But I'm not a genius! I just said the sky was up!
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC action
+SCENE ragako
+PLACE connie_springer center left excited
+PLACE bertolt midright left nervous
+PLACE sasha right left excited
+CONNIE_SPRINGER (excited): Wait! Our gear! We can use our gear! Hook onto the trees on both sides and make a rope line!
+SASHA (excited): Connie, that's actually smart!
+BERTOLT (happy): I'm tall. I'll carry your brother. Sasha, you get the cows.
+SASHA (excited): I'll get the cows! I love cows!
+SFX whoosh
+
+# ------------------------------------------------------------ RAGAKO VILLAGE
+MUSIC action 2
+SCENE ragako
+PLACE connie_springer center left happy
+SFX thud
+NARRATOR: Bertolt carried Connie's little brother across on the rope line. Sasha walked every cow across, one by one, talking to each one. And just as the last cow reached safety, the bridge fell into the river.
+CONNIE_SPRINGER (happy): Everybody's safe! Even the cows!
+NARRATOR: "My son is a genius! A real genius!"
+CONNIE_SPRINGER (shy): ...Yeah, Mom. Maybe a little bit.
+
+# ------------------------------------------------------------ TITAN PLAINS
+MUSIC romantic
+SCENE titan_plains
+CARD Heading back...
+PLACE connie_springer center left happy
+PLACE bertolt midright left happy
+PLACE sasha right left happy
+CONNIE_SPRINGER (happy): Thanks for coming, guys. And for not telling my mom I was eighth.
+BERTOLT (happy): You were smart today, Connie. Really smart.
+SASHA (smug): And your mom gave us a whole pot of stew for the road.
+CONNIE_SPRINGER (surprised): Sasha. The pot is empty.
+SASHA (shy): ...It was a long road.
+END

@@ -1,0 +1,175 @@
+@title The Crystal Cave
+@series Attack on Titan
+@season 2
+@icon wings
+@number 6
+@description Hange hears about a cave of glowing crystals under an old chapel owned by the Reiss family. Hange wants to study every single crystal. Levi wants to know who's going to clean all that crystal dust. Historia knows something about the chapel that nobody else does.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC happy
+SCENE scout_hq cut
+TITLE
+PLACE hange center left excited
+PLACE levi midright left neutral
+HANGE (excited): Levi! A cave! Full of glowing crystals! Under an old chapel! Isn't that the most exciting thing you've ever heard?!
+LEVI (neutral): No.
+HANGE (excited): The crystals might be made by Titans! Hardened Titan skin! I need to study them!
+LEVI (smug): Crystals make dust. Dust gets everywhere.
+HANGE (happy): I'll bring a broom.
+LEVI (smug): You'll bring three brooms.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz
+SCENE scout_hq
+PLACE historia center left nervous
+PLACE hange midright left excited
+HANGE (excited): Historia! The chapel belongs to the Reiss family. Your family!
+HISTORIA (nervous): I've never been there. My father didn't want me around.
+HANGE (happy): Would you like to come? It might help us understand. And you could see where your family came from.
+HISTORIA (sad): ...I'm not sure I want to know.
+HANGE (smug): That's okay. Not knowing is the most exciting part of science.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC spooky
+SCENE reiss_chapel
+CARD The Reiss Chapel...
+PLACE levi center left neutral
+PLACE hange midright left excited
+PLACE historia right left nervous
+LEVI (neutral): Dusty. Very dusty. I hate it already.
+HANGE (excited): The floor! Look at the floor! There's a door under the altar!
+HISTORIA (nervous): A secret door?
+SFX door
+HANGE (excited): A secret staircase! Going down! Into the dark! This is the best day of my life!
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC spooky 2
+SCENE reiss_chapel
+PLACE hange center left surprised
+PLACE historia midright left surprised
+SFX sparkle
+NARRATOR: At the bottom of the stairs was a huge cave. The walls glowed blue. Giant crystals grew out of the floor like trees, and the light from them made everything look like it was underwater.
+HANGE (surprised): It's... beautiful.
+HISTORIA (surprised): I didn't know my family had anything beautiful.
+HANGE (happy): Science, Historia. Science is always beautiful.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC jazz 2
+SCENE reiss_chapel
+PLACE hange center left excited
+PLACE levi midright left neutral
+HANGE (excited): Levi! This crystal is warm! Feel it!
+LEVI (neutral): I'm not touching anything in this cave.
+HANGE (excited): And it hums! It's humming! Can you hear it?
+LEVI (smug): That's you, Hange. You're humming.
+HANGE (surprised): ...Oh. I am. I hum when I'm excited.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC sneaky
+SCENE reiss_chapel
+PLACE historia center left surprised
+SFX sparkle
+NARRATOR: Historia wandered away from the others. On the far wall, she found something carved into the crystal. A picture of a family tree. And at the very bottom, a tiny name.
+HISTORIA (surprised): "Historia." That's me. My name is here.
+HISTORIA (sad): Someone in my family put my name on the wall. Someone remembered me.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC jazz
+SCENE reiss_chapel
+PLACE levi center left neutral
+PLACE historia midright left surprised
+LEVI (neutral): Cadet. You found something.
+HISTORIA (surprised): My name, sir. Carved in the crystal. At the bottom of a family tree.
+LEVI (neutral): So your family remembered you.
+HISTORIA (sad): Then why did they send me away?
+LEVI (smug): Families are complicated. Mine grew up underground.
+HISTORIA (nervous): ...I'm sorry, sir.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC tense
+SCENE reiss_chapel
+PLACE levi center left angry
+PLACE hange midright left nervous
+SFX thud
+SHAKE 0.6
+LEVI (angry): Hange. The ceiling is cracking.
+HANGE (nervous): The crystals are holding up the roof. I may have chipped one. A little.
+LEVI (angry): A little?
+HANGE (nervous): I took a sample. A big sample. Most of the crystal.
+SFX thud
+SHAKE 0.8
+LEVI (angry): Everybody out! NOW!
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC action
+SCENE reiss_chapel
+PLACE historia center left scared
+PLACE levi midright left angry
+SFX blast
+SHAKE 1.0
+HISTORIA (scared): Captain! The wall with my name! I want to save it!
+LEVI (angry): It's a wall, cadet! It's too big!
+HISTORIA (angry): Then I'll take a piece! Just the piece with my name!
+SFX sword
+NARRATOR: Levi drew his blade, cut one clean slice of glowing crystal from the wall, and threw it to Historia. Then he grabbed her by the collar and ran.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC action 2
+SCENE reiss_chapel
+PLACE hange center left scared
+PLACE levi midright left angry
+SFX thud
+SHAKE 1.0
+NARRATOR: They ran up the stairs. Behind them, the cave collapsed with a great crash. Blue dust shot up through the chapel floor and covered everything.
+HANGE (scared): We made it! Everyone's out!
+LEVI (angry): Hange.
+HANGE (nervous): Yes, Levi?
+LEVI (angry): Look. At. The. Dust.
+
+# ------------------------------------------------------------ REISS CHAPEL
+MUSIC sad
+SCENE reiss_chapel
+PLACE historia center left sad
+PLACE levi midright left neutral
+HISTORIA (sad): The cave is gone. All those crystals. And I only saved this little piece.
+LEVI (neutral): It's the piece that matters, isn't it?
+HISTORIA (shy): ...It has my name on it.
+LEVI (smug): Then keep it somewhere clean.
+HISTORIA (happy): Thank you, Captain.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC jazz
+SCENE scout_hq
+CARD Back at headquarters...
+PLACE hange center left excited
+PLACE erwin midright left neutral
+HANGE (excited): Commander! I saved a crystal sample! It's warm and it hums and it might be made of Titan!
+ERWIN (neutral): And the cave?
+HANGE (nervous): ...Fell down. A little.
+ERWIN (smug): How little?
+HANGE (nervous): All the way little.
+ERWIN (sad): ...Write me a report. A long one.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC sneaky 2
+SCENE scout_hq
+PLACE levi center left neutral
+PLACE hange midright left nervous
+LEVI (neutral): You owe me three brooms, Hange.
+HANGE (nervous): I brought three brooms!
+LEVI (smug): And you owe me three more. And a bucket. And a new jacket.
+HANGE (sad): A new jacket?
+LEVI (angry): It's blue now, Hange. My jacket is BLUE.
+
+# ------------------------------------------------------------ CADET BARRACKS
+MUSIC romantic
+SCENE cadet_barracks
+CARD That night...
+PLACE historia center left happy
+PLACE ymir midright left smug
+YMIR (smug): What's that glowing thing on your shelf?
+HISTORIA (happy): A piece of my family. The only nice piece.
+YMIR (surprised): It's got your name on it.
+HISTORIA (smug): Someone remembered me, Ymir. Even before you did.
+YMIR (smug): ...I'll remember you better.
+END

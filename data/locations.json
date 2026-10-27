@@ -892,6 +892,56 @@
 		"show": "Attack on Titan",
 		"description": "A busy district with a big gate and bigger trouble."
 	},
+	"stohess": {
+		"name": "Stohess District",
+		"description": "A rich district inside Wall Sina, with stone houses and a big fountain.",
+		"show": "Attack on Titan"
+	},
+	"mitras": {
+		"name": "Mitras",
+		"description": "The royal capital, where the King lives in a palace with white columns.",
+		"show": "Attack on Titan"
+	},
+	"utgard_castle": {
+		"name": "Utgard Castle",
+		"description": "A ruined castle tower in the woods. A good place to hide. A bad place to be surrounded.",
+		"show": "Attack on Titan"
+	},
+	"ragako": {
+		"name": "Ragako Village",
+		"description": "Connie's quiet home village in the countryside.",
+		"show": "Attack on Titan"
+	},
+	"karanes": {
+		"name": "Karanes District",
+		"description": "A busy district on Wall Rose, with a big gate and a market street.",
+		"show": "Attack on Titan"
+	},
+	"historia_farm": {
+		"name": "Historia's Farm",
+		"description": "A farm and orphanage in the countryside, where Historia takes care of kids and cows.",
+		"show": "Attack on Titan"
+	},
+	"cadet_barracks": {
+		"name": "Cadet Barracks",
+		"description": "Bunk beds, a lantern and fifteen pairs of muddy boots.",
+		"show": "Attack on Titan"
+	},
+	"reiss_chapel": {
+		"name": "Reiss Chapel",
+		"description": "An old chapel with a secret glowing crystal cave underneath.",
+		"show": "Attack on Titan"
+	},
+	"garrison_post": {
+		"name": "Garrison Post",
+		"description": "A guard post on top of Wall Rose, with a cannon and a small hut.",
+		"show": "Attack on Titan"
+	},
+	"liberio": {
+		"name": "Liberio",
+		"description": "A crowded brick neighborhood in Marley, far across the sea.",
+		"show": "Attack on Titan"
+	},
 	"white_house": {
 		"name": "The White House",
 		"show": "Breaking Bad",

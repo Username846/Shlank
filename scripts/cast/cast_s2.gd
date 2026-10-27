@@ -145,10 +145,44 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "top": Color("f2852a"), "sleeves": "none", "bottom_col": Color("f2852a"), "shoe": Color("2f5fa8"),
 				"hair": "spiky", "hair_col": Color("1d1d22"), "torso_w": 34.0, "arm_w": 9.0,
 				"torso_extra": _x_kid_gi.bind("adult", Color("2f5fa8")), "extra": _x_scar}
+		# Attack on Titan
+		"historia":
+			var c := CastMore._scout(style)
+			c.merge({"hair": "long", "hair_col": Color("f4d24e"), "eye_iris": Color("3d8fe0"), "lashes": 2, "torso_w": 24.0}, true)
+			return c
+		"ymir":
+			var c := CastMore._scout(style)
+			c.merge({"hair": "ponytail", "hair_col": Color("6b4428"), "skin": Color("e9b48a"), "eye_iris": Color("8a5a36"),
+				"base_lid": 0.25, "extra": _x_freckles}, true)
+			return c
+		"bertolt":
+			var c := CastMore._scout(style)
+			c.merge({"hair": "crew", "hair_col": Color("1d1d22"), "skin": Color("e9b48a"), "head_shape": "long", "head": Vector2(30, 42),
+				"torso_w": 26.0, "leg_w": 14.0}, true)
+			return c
+		"annie":
+			return {"size": "teen", "top": Color("e8e8ea"), "sleeves": "long", "bottom_col": Color("2b2b33"), "shoe": Color("5a3a24"),
+				"hair": "bun", "hair_col": Color("f4d24e"), "eye_iris": Color("3d8fe0"), "base_lid": 0.35, "nose": "long",
+				"torso_w": 25.0, "torso_extra": CastMore._x_hoodie_strings}
+		"hannes":
+			return {"size": "adult", "top": Color("b88a5a"), "sleeves": "long", "bottom_col": Color("efe8d6"), "shoe": Color("5a3a24"),
+				"hair": "crew", "hair_col": Color("e8c860"), "skin": Color("f2c0a0"), "nose": "big", "torso_w": 32.0,
+				"torso_extra": _x_garrison_rose, "extra": CastMore._x_goatee.bind(Color("c8a050"))}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_freckles(p: Puppet, hc: Vector2) -> void:
+	for sx in [-1, 1]:
+		for k in 3:
+			Art.dot(p.ci, hc + Vector2(sx * (16 + k * 5), 10 + (k % 2) * 4), 1.8, Color("8a5a36"))
+
+
+static func _x_garrison_rose(p: Puppet) -> void:
+	var bc := Vector2(-16, -172)
+	Art.blob(p.ci, bc, 10, 11, Color("e6452f"), 2.0)
+	Art.dot(p.ci, bc, 4, Color("8a1a1a"))
 
 static func _x_kid_gi(p: Puppet, size: String, under: Color) -> void:
 	var sh: float = SHOULDER[size]

@@ -2562,6 +2562,112 @@
 			"Grinning Titan"
 		]
 	},
+	"historia": {
+		"name": "Historia Reiss",
+		"style": "historia",
+		"color": "#f4d24e",
+		"width": 52,
+		"bio": "A kind, small scout who used to go by Krista. Secretly the true heir to the throne.",
+		"catchphrase": "I'll live for myself now.",
+		"voice": {
+			"pitch": 1.35,
+			"rate": 1.0,
+			"babble": 390,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Attack on Titan",
+		"home": "historia_farm"
+	},
+	"ymir": {
+		"name": "Ymir",
+		"style": "ymir",
+		"color": "#6b4428",
+		"width": 58,
+		"bio": "A tall, sarcastic scout with freckles. Protects Historia no matter what.",
+		"catchphrase": "Don't get the wrong idea.",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.05,
+			"babble": 310,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		},
+		"show": "Attack on Titan",
+		"home": "cadet_barracks"
+	},
+	"annie": {
+		"name": "Annie Leonhart",
+		"style": "annie",
+		"color": "#e8e8ea",
+		"width": 54,
+		"bio": "A quiet, very strong fighter who joined the Military Police. Doesn't talk much. Kicks a lot.",
+		"catchphrase": "...Whatever.",
+		"voice": {
+			"pitch": 1.05,
+			"rate": 0.95,
+			"babble": 330,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Attack on Titan",
+		"home": "stohess"
+	},
+	"bertolt": {
+		"name": "Bertolt Hoover",
+		"style": "bertolt",
+		"color": "#1d1d22",
+		"width": 60,
+		"bio": "Reiner's tall, nervous best friend. Sweats a lot. Sleeps in very strange positions.",
+		"catchphrase": "Um... sorry.",
+		"voice": {
+			"pitch": 1.0,
+			"rate": 0.95,
+			"babble": 320,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Attack on Titan",
+		"home": "cadet_barracks"
+	},
+	"hannes": {
+		"name": "Hannes",
+		"style": "hannes",
+		"color": "#b88a5a",
+		"width": 64,
+		"bio": "A Garrison soldier who has known Eren and Mikasa since they were little. Fond of a drink and a long nap on duty.",
+		"catchphrase": "Relax, kids. The wall's held for a hundred years.",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 1.0,
+			"babble": 290,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Attack on Titan",
+		"home": "garrison_post"
+	},
 	"walt": {
 		"name": "Walter White",
 		"style": "walt",

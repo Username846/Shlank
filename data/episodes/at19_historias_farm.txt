@@ -1,0 +1,178 @@
+@title Historia's Farm
+@series Attack on Titan
+@season 2
+@icon wings
+@number 9
+@description Historia has started a farm in the countryside to take care of orphaned kids. She asks the Scouts to help for a weekend. Eren has never milked a cow. Levi has never seen a pig this dirty. And the barn needs a new roof before the storm.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC happy
+SCENE historia_farm cut
+TITLE
+PLACE historia center left excited
+PLACE eren midright left surprised
+PLACE mikasa right left neutral
+HISTORIA (excited): Welcome to the farm! Twelve kids, eight cows, five pigs and one very grumpy goat!
+EREN (surprised): You run all of this? By yourself?
+HISTORIA (smug): With help. Lots of help. That's why I invited you.
+MIKASA (neutral): What do you need us to do?
+HISTORIA (happy): Everything!
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC jazz
+SCENE historia_farm
+CARD The cows...
+PLACE eren center right nervous
+PLACE historia midleft right smug
+EREN (nervous): How do you milk a cow?
+HISTORIA (smug): Gently. Calmly. And don't stand behind her.
+EREN (nervous): Why not behind her?
+SFX thud
+EREN (scared): OW! That's why!
+HISTORIA (happy): She likes you. That was a friendly kick.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC sneaky
+SCENE historia_farm
+CARD The pigs...
+PLACE levi center left angry
+PLACE ymir midright left smug
+LEVI (angry): These pigs are filthy.
+YMIR (smug): They're pigs, Captain. They're supposed to be filthy.
+LEVI (angry): Nothing is supposed to be filthy.
+SFX splash
+YMIR (smug): Too late. You stepped in the mud.
+LEVI (angry): ...I'm going to wash every single one of these pigs.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC jazz 2
+SCENE historia_farm
+CARD The kids...
+PLACE armin center left nervous
+PLACE sasha midright left excited
+ARMIN (nervous): Sasha. The kids want a story. Twelve of them. All at once.
+SASHA (excited): I know a great story! About a potato!
+ARMIN (smug): Is it the story about when you stole a potato from the instructor?
+SASHA (happy): It's the only story I know!
+ARMIN (happy): ...It is a good story.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC happy 2
+SCENE historia_farm
+PLACE levi center left neutral
+PLACE historia midright left surprised
+SFX splash
+NARRATOR: One hour later, all five pigs were pink and shiny. They had been scrubbed, rinsed and dried with a towel. One of them had a little bow.
+HISTORIA (surprised): Captain Levi. The pigs. They're... clean.
+LEVI (neutral): They were dirty.
+HISTORIA (happy): They've never been this clean in their whole lives!
+LEVI (smug): They're welcome.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC jazz
+SCENE historia_farm
+PLACE eren center right smug
+PLACE mikasa midleft right neutral
+EREN (smug): Mikasa! I milked a cow! A whole bucket!
+MIKASA (neutral): That's a bucket of water, Eren.
+EREN (surprised): What? No it's not.
+MIKASA (smug): The cow kicked over the milk. Then it rained into the bucket.
+EREN (sad): ...So I milked the sky.
+MIKASA (happy): Good job, Eren.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC happy 2
+SCENE historia_farm
+PLACE jean center left nervous
+PLACE connie_springer midright left excited
+JEAN (nervous): Connie. The goat is staring at me.
+CONNIE_SPRINGER (excited): That means he likes you! Back home, goats only stare at people they like.
+JEAN (nervous): He's eating my sleeve.
+CONNIE_SPRINGER (smug): He REALLY likes you.
+JEAN (angry): Get him off! Get him off my jacket!
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC tense
+SCENE historia_farm
+PLACE historia center left nervous
+PLACE ymir midright left nervous
+SFX thud
+SHAKE 0.4
+HISTORIA (nervous): Ymir. Look at the sky. That's a big storm coming.
+YMIR (nervous): And the barn roof has a hole in it. Right over the hay.
+HISTORIA (scared): If the hay gets wet, the cows won't have food all winter!
+YMIR (angry): Then we fix the roof. Now.
+HISTORIA (nervous): We don't have time to get wood from town!
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC action
+SCENE historia_farm
+PLACE eren center right excited
+PLACE armin midleft right excited
+EREN (excited): We don't need to go to town! We've got gear! We can get wood from the forest! Fast!
+ARMIN (excited): I'll measure the hole. Eren, Mikasa, cut the boards. Jean, Connie, carry them up.
+EREN (happy): Armin, you sound like Commander Erwin.
+ARMIN (shy): ...Don't tell him I said "carry them up" like that.
+SFX whoosh
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC action 2
+SCENE historia_farm
+PLACE mikasa center left angry
+PLACE jean midright left nervous
+SFX sword
+NARRATOR: Mikasa cut boards out of fallen trees with her blades. Fast. Perfectly straight. Jean and Connie flew them up to the roof with their gear. Levi hammered.
+JEAN (nervous): Mikasa, you're cutting faster than I can carry!
+MIKASA (smug): Then carry faster.
+SFX thud
+JEAN (sad): ...Yes, ma'am.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC tense
+SCENE historia_farm
+PLACE levi center left angry
+PLACE eren midright left nervous
+SFX splash
+SHAKE 0.6
+NARRATOR: The rain started. Big, heavy drops. Levi was on the roof, nailing the last board, and the wind was trying to blow him off.
+EREN (nervous): Captain! Come down! It's too windy!
+LEVI (angry): Not until it's done properly. One more nail.
+SFX thud
+LEVI (smug): Done. Watertight.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC happy
+SCENE historia_farm
+CARD Inside the barn...
+PLACE historia center left happy
+PLACE sasha midright left happy
+PLACE eren right left happy
+NARRATOR: Everyone squeezed into the barn while the storm roared outside. The cows were dry. The hay was dry. The roof didn't leak a single drop.
+HISTORIA (happy): You did it. All of you. The hay is safe.
+SASHA (happy): And the kids are asleep in the hay. All twelve of them.
+EREN (smug): The cow's asleep too. She's smiling.
+HISTORIA (shy): ...Thank you, everyone. Really.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC romantic
+SCENE historia_farm
+PLACE historia center left happy
+PLACE ymir midright left smug
+HISTORIA (happy): Ymir. When I was little, I always wanted a family. A big, noisy family.
+YMIR (smug): Well, now you've got twelve kids, eight cows and a whole squad of soldiers.
+HISTORIA (smug): And one very grumpy goat.
+YMIR (angry): Are you calling me a goat?
+HISTORIA (happy): I'm calling you family.
+
+# ------------------------------------------------------------ HISTORIA'S FARM
+MUSIC romantic 2
+SCENE historia_farm
+CARD The next morning...
+PLACE levi center left neutral
+PLACE historia midright left happy
+LEVI (neutral): Reiss. The pigs are dirty again.
+HISTORIA (happy): They rolled in the mud after the storm, Captain.
+LEVI (smug): Tell them I'll be back next weekend.
+HISTORIA (surprised): You'll come back?
+LEVI (neutral): Someone has to wash them.
+END

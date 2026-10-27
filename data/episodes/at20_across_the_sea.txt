@@ -1,0 +1,181 @@
+@title Across the Sea
+@series Attack on Titan
+@season 2
+@icon wings
+@number 10
+@description The Scouts finally cross the ocean to Marley. In disguise, they sneak into the town of Liberio during a festival. They've never seen cars, ice cream or a city this big. Reiner and Bertolt know their way around a little too well.
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC romantic
+SCENE the_ocean cut
+TITLE
+PLACE eren center right surprised
+PLACE armin midleft right excited
+PLACE mikasa midright left neutral
+EREN (surprised): There's land. On the other side of the ocean. Real land.
+ARMIN (excited): It's Marley! The books were right! There's a whole world out here!
+MIKASA (neutral): Eren. Are you okay?
+EREN (nervous): I don't know. It's so big. Everything we knew was inside the walls.
+ARMIN (happy): Not anymore.
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC jazz
+SCENE the_ocean
+PLACE hange center left excited
+PLACE levi midright left neutral
+HANGE (excited): Disguises, everyone! Marley clothes! Hats! Fake glasses!
+LEVI (neutral): Why do I have a mustache?
+HANGE (smug): Because you look very suspicious without one.
+LEVI (angry): I look suspicious WITH one.
+HANGE (happy): It's a very dignified mustache, Levi.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC happy
+SCENE liberio
+CARD Liberio...
+PLACE sasha center left surprised
+PLACE connie_springer midright left surprised
+SFX beep
+SASHA (surprised): Connie! That cart is moving! There's no horse!
+CONNIE_SPRINGER (scared): It's a magic cart! It's chasing us!
+SFX beep
+SASHA (scared): It's beeping at us! Why is it beeping?!
+CONNIE_SPRINGER (scared): It's angry! Run!
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC sneaky
+SCENE liberio
+PLACE reiner center left nervous
+PLACE bertolt midright left nervous
+REINER (nervous): Bertolt. That's a car. They're called cars.
+BERTOLT (nervous): I know, Reiner.
+REINER (nervous): We should probably tell them.
+BERTOLT (nervous): And when they ask how we know about cars?
+REINER (sad): ...We'll tell them later. After the festival.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC happy 2
+SCENE liberio
+PLACE sasha center left excited
+PLACE jean midright left surprised
+SASHA (excited): Jean! A man is selling cold sweet snow in a little cone!
+JEAN (surprised): Cold sweet snow? That's not real.
+SASHA (excited): It's called "ice cream"! I'm buying ten!
+JEAN (nervous): Sasha, we have a budget.
+SASHA (smug): Jean. It's cold. And sweet. And SNOW. I'm buying ten.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC jazz
+SCENE liberio
+PLACE mikasa center left neutral
+PLACE historia midright left excited
+HISTORIA (excited): Mikasa! A shop that only sells hats! Hundreds of hats!
+MIKASA (neutral): Why would anyone need hundreds of hats?
+HISTORIA (smug): One for every day. And three for Sundays.
+MIKASA (smug): I only need my scarf.
+HISTORIA (happy): We could get you a hat that matches your scarf!
+MIKASA (shy): ...A red one?
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC jazz 2
+SCENE liberio
+PLACE armin center left excited
+PLACE eren midright left nervous
+ARMIN (excited): Eren! Look! There are machines that fly! Big metal birds! In the sky!
+EREN (nervous): They have flying machines. And cars. And ice cream.
+ARMIN (happy): They're so far ahead of us.
+EREN (sad): And they think we're monsters. Everyone on the island.
+ARMIN (nervous): ...Maybe they just don't know us yet.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC sad
+SCENE liberio
+PLACE mikasa center left neutral
+PLACE eren midright left sad
+NARRATOR: In a little park, a group of kids were playing. They wore armbands. One little girl dropped her ball, and it rolled to Eren's feet.
+EREN (sad): Here. Your ball.
+NARRATOR: The girl smiled and said "thank you." Then she ran back to her friends.
+MIKASA (neutral): She was just a kid. Like we were.
+EREN (sad): ...Yeah. Just a kid.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC tense
+SCENE liberio
+PLACE levi center left neutral
+PLACE hange midright left nervous
+SFX footstep
+LEVI (neutral): Hange. Two Marley soldiers. Looking at us.
+HANGE (nervous): It's the mustache. I knew it was too much.
+LEVI (angry): You said it was dignified.
+HANGE (nervous): I lied! Act natural!
+LEVI (neutral): I'm always natural. You're the one humming.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC sneaky 2
+SCENE liberio
+PLACE reiner center left nervous
+PLACE connie_springer midright left surprised
+REINER (nervous): Connie. Follow me. I know a back street. The soldiers won't find us there.
+CONNIE_SPRINGER (surprised): How do you know a back street in a city you've never been to?
+REINER (nervous): ...Lucky guess.
+CONNIE_SPRINGER (smug): Reiner. You're a very lucky guesser.
+REINER (sad): You have no idea.
+
+# ------------------------------------------------------------ LIBERIO
+MUSIC action
+SCENE liberio
+PLACE sasha center left scared
+PLACE jean midright left scared
+SFX whoosh
+NARRATOR: The Scouts ran through the back streets. Past the bakery. Past the laundry. Through the middle of the festival parade. Sasha didn't drop a single ice cream.
+SASHA (scared): I'm running AND eating!
+JEAN (scared): How do you still have six of them?!
+SASHA (smug): Priorities, Jean!
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC action 2
+SCENE the_ocean
+PLACE hange center left excited
+PLACE levi midright left neutral
+SFX splash
+NARRATOR: They made it to the docks and jumped onto the boat. The Marley soldiers ran to the edge of the pier, but the boat was already pulling away into the night.
+HANGE (excited): We made it! Everyone's here! Nobody got caught!
+LEVI (neutral): I lost the mustache.
+HANGE (sad): ...It was a good mustache.
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC happy
+SCENE the_ocean
+PLACE sasha center left happy
+PLACE connie_springer midright left happy
+SASHA (happy): Connie. I still have four ice creams. They're melting.
+CONNIE_SPRINGER (excited): Then we have to eat them fast!
+SASHA (smug): One for me. One for you. One for me. One for... me.
+CONNIE_SPRINGER (surprised): That's three for you!
+SASHA (happy): I carried them the whole way, Connie.
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC sad
+SCENE the_ocean
+PLACE reiner center left sad
+PLACE bertolt midright left nervous
+REINER (sad): Bertolt. I think it's time. We have to tell them.
+BERTOLT (nervous): Tell them everything?
+REINER (nervous): Where we're from. Who we really are.
+BERTOLT (sad): They might hate us.
+REINER (smug): Then they'll hate us honestly. That's better than being liked for a lie.
+
+# ------------------------------------------------------------ THE OCEAN
+MUSIC romantic
+SCENE the_ocean
+CARD Under the stars...
+PLACE eren center right happy
+PLACE armin midleft right happy
+PLACE mikasa midright left happy
+PLACE sasha right left neutral
+EREN (happy): Armin. You were right. There's a whole world out there.
+ARMIN (happy): And we saw it. Together. Like we promised when we were kids.
+MIKASA (happy): And now we know. The people over there are just people.
+EREN (smug): People with ice cream.
+SASHA (excited): I SAVED YOU ONE!
+END

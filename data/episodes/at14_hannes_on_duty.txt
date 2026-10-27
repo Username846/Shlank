@@ -1,0 +1,165 @@
+@title Hannes on Duty
+@series Attack on Titan
+@season 2
+@icon wings
+@number 4
+@description Hannes, the Garrison soldier who's known Eren and Mikasa since they were small, is supposed to be guarding the top of Wall Rose. He's mostly napping. When Commander Erwin announces a surprise inspection, Eren, Mikasa and Armin have one morning to make Hannes look like a model soldier.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC happy
+SCENE garrison_post cut
+TITLE
+PLACE hannes center left happy
+PLACE eren midright left smug
+HANNES (happy): Eren! Mikasa! Look at you two, all grown up in your Scout uniforms!
+EREN (smug): Hannes. Are you sleeping on duty again?
+HANNES (nervous): Sleeping? No! I was... resting my eyes. Very alertly.
+EREN (smug): You have a pillow.
+HANNES (smug): It's a tactical pillow.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC jazz
+SCENE garrison_post
+PLACE mikasa center left neutral
+PLACE hannes midright left happy
+MIKASA (neutral): Hannes. You haven't changed at all.
+HANNES (happy): Remember when you two were little? Eren used to say he'd join the Scouts and fight every Titan in the world.
+MIKASA (smug): He still says that.
+HANNES (smug): And you used to follow him everywhere.
+MIKASA (shy): ...I still do that.
+HANNES (happy): Ha! Some things never change.
+
+# ------------------------------------------------------------ SCOUT HQ
+MUSIC tense
+SCENE scout_hq
+PLACE erwin center left neutral
+PLACE armin midright left nervous
+ERWIN (neutral): Tomorrow morning, I'm inspecting the Garrison posts on Wall Rose. Every one of them.
+ARMIN (nervous): Every one, sir? Including the post by Shiganshina Road?
+ERWIN (smug): Especially that one. I hear the soldier there sleeps more than he guards.
+ARMIN (nervous): ...That's Hannes.
+ERWIN (neutral): Then Hannes had better be awake.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC sneaky
+SCENE garrison_post
+PLACE armin center left nervous
+PLACE eren midright left surprised
+PLACE mikasa right left neutral
+ARMIN (nervous): Guys. Commander Erwin is inspecting Hannes's post tomorrow. If he finds him asleep, Hannes will be in big trouble.
+EREN (surprised): How big?
+ARMIN (nervous): Cleaning-the-whole-wall big. With a toothbrush.
+MIKASA (neutral): Then we help him. Tonight.
+EREN (excited): Operation Wake Up Hannes!
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC jazz 2
+SCENE garrison_post
+CARD Step one: the uniform...
+PLACE hannes center left nervous
+PLACE mikasa midright left neutral
+MIKASA (neutral): Your jacket is stained.
+HANNES (nervous): That's from lunch. And breakfast. And maybe last Tuesday.
+MIKASA (smug): Take it off. I'll wash it.
+HANNES (surprised): You'll wash my jacket?
+MIKASA (neutral): Captain Levi taught me. I can get any stain out of anything.
+HANNES (happy): ...You've become a scary young woman, Mikasa.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC jazz
+SCENE garrison_post
+CARD Step two: the cannon...
+PLACE eren center right angry
+PLACE armin midleft right nervous
+SFX thud
+EREN (angry): This cannon hasn't been cleaned in ten years! There's a bird's nest in it!
+ARMIN (nervous): There are birds in the bird's nest.
+EREN (nervous): ...Are we supposed to move the birds?
+ARMIN (smug): I'll make them a new nest. On the hut. They'll like it better.
+EREN (happy): Armin, you think of everything.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC sneaky 2
+SCENE garrison_post
+CARD Step three: staying awake...
+PLACE hannes center left nervous
+PLACE eren midright left smug
+EREN (smug): Hannes. The most important part. When Erwin comes, you have to be awake. Standing up. Eyes open.
+HANNES (nervous): What time is he coming?
+EREN (smug): Six in the morning.
+HANNES (scared): Six?! In the MORNING?! That's practically night!
+EREN (angry): Hannes!
+HANNES (sad): ...Fine. Six. I'll set three alarms.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC sad
+SCENE garrison_post
+CARD Midnight...
+PLACE hannes center left sad
+PLACE eren midright left neutral
+HANNES (sad): Eren. Can I tell you something? I'm not a very good soldier.
+EREN (surprised): What? Sure you are.
+HANNES (sad): The day the Titans came to Shiganshina, I was scared. I ran. I couldn't save your mom.
+EREN (sad): ...I know, Hannes.
+HANNES (sad): Ever since, I just... sleep. It's easier than remembering.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC romantic
+SCENE garrison_post
+PLACE eren center right happy
+PLACE hannes midleft right sad
+EREN (happy): Hannes. You carried me and Mikasa out of the town that day. On your back. Both of us.
+HANNES (surprised): ...I did, didn't I?
+EREN (smug): You were scared, and you saved us anyway. That's what a good soldier is.
+HANNES (shy): When did you get so smart, kid?
+EREN (smug): Armin's been rubbing off on me.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC tense
+SCENE garrison_post
+CARD Six in the morning...
+PLACE erwin center left neutral
+PLACE hannes midright left neutral
+SFX footstep
+NARRATOR: Commander Erwin climbed the stairs to the post. The cannon gleamed. The hut was swept. A new bird's nest sat neatly on the roof. And there stood Hannes, in a spotless jacket, eyes wide open.
+ERWIN (surprised): Soldier. This is the cleanest post on the whole wall.
+HANNES (neutral): Thank you, sir.
+ERWIN (smug): I was told you sleep on duty.
+HANNES (smug): Not anymore, sir.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC sneaky
+SCENE garrison_post
+PLACE armin center left nervous
+PLACE mikasa midright left neutral
+PLACE eren right left nervous
+ARMIN (nervous): Is he awake? Can you see?
+MIKASA (neutral): His eyes are open.
+EREN (nervous): That doesn't mean he's awake. He can sleep with his eyes open.
+ARMIN (surprised): He can do THAT?
+EREN (smug): Learned it in the Garrison. Very useful skill.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC happy
+SCENE garrison_post
+PLACE erwin center left happy
+PLACE hannes midright left happy
+ERWIN (happy): Excellent work, Hannes. I'll be recommending you for a promotion.
+HANNES (surprised): A promotion? For me?
+ERWIN (smug): Keep the post like this, and you'll have your own squad by spring.
+HANNES (happy): Thank you, sir! I won't let you down!
+ERWIN (neutral): And Hannes. Tell the three cadets hiding behind the cannon that their boots are showing.
+
+# ------------------------------------------------------------ GARRISON POST
+MUSIC romantic 2
+SCENE garrison_post
+CARD That evening...
+PLACE hannes center left happy
+PLACE eren midright left happy
+PLACE mikasa right left happy
+HANNES (happy): A promotion. Me. Can you believe it?
+EREN (happy): You earned it, Hannes.
+MIKASA (smug): Now stay awake.
+HANNES (smug): I'll stay awake. Starting tomorrow. Tonight, I'm celebrating with a nap.
+EREN (angry): HANNES!
+END
