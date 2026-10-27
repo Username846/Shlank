@@ -1,0 +1,171 @@
+@title Mike Goes Fishing
+@series Breaking Bad
+@season 1
+@icon element
+@number 8
+@description Mike Ehrmantraut takes his first day off in ten years to go fishing. Jesse invites himself along. Mike would rather fish alone. Mike would rather do almost anything alone.
+
+# ------------------------------------------------------------ INDUSTRIAL LAUNDRY
+MUSIC jazz
+SCENE laundry cut
+TITLE
+PLACE gus center left neutral
+PLACE mike midright left neutral
+GUS (neutral): Michael. You have not taken a single day off in ten years.
+MIKE (neutral): I don't need days off.
+GUS (smug): Nevertheless. Tomorrow, you will rest. That is not a request.
+MIKE (sad): What am I supposed to do with a whole day?
+GUS (happy): I'm told fishing is very relaxing.
+MIKE (neutral): Fine. Fishing. Alone.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC sneaky
+SCENE superlab
+PLACE jesse center right excited
+PLACE walt midleft right neutral
+JESSE (excited): Yo, Mr. White, did you hear? Mike's going fishing tomorrow!
+WALT (neutral): Good for Mike.
+JESSE (excited): I'm gonna go with him! I've never been fishing!
+WALT (nervous): Did he invite you?
+JESSE (smug): Not technically. But he didn't say no.
+WALT (smug): Because you haven't asked.
+JESSE (happy): Exactly!
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC tense
+SCENE desert_road
+CARD Five in the morning...
+PLACE mike center left neutral
+HOLD mike fishing_rod
+ENTER jesse right midright excited
+JESSE (excited): Morning, Mike! I brought snacks! And a fishing rod I bought at the gas station!
+MIKE (neutral): No.
+JESSE (sad): Come on, man. I've never been fishing. Ever.
+MIKE (neutral): Kid. I've had a very long ten years.
+JESSE (sad): Please?
+MIKE (sad): ...Get in the car. Don't touch the radio.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC jazz 2
+SCENE desert_road
+PLACE mike center left neutral
+PLACE jesse midright left excited
+JESSE (excited): So where are we going? A lake? A river? The ocean?
+MIKE (neutral): A pond. Two hours north.
+JESSE (excited): Two hours! Road trip! Can we play I Spy?
+MIKE (neutral): No.
+JESSE (happy): I spy something... beige.
+MIKE (sad): Everything out here is beige, kid.
+
+# ------------------------------------------------------------ THE RV
+MUSIC happy
+SCENE rv_desert
+CARD The pond...
+PLACE mike center left neutral
+HOLD mike fishing_rod
+PLACE jesse midright left nervous
+HOLD jesse fishing_rod
+MIKE (neutral): Bait the hook. Cast it out. Wait.
+JESSE (nervous): How long do we wait?
+MIKE (smug): As long as it takes.
+JESSE (nervous): But like, how long is that usually?
+MIKE (neutral): Some days, an hour. Some days, all day. Some days, never.
+JESSE (scared): Never?!
+MIKE (smug): That's fishing.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC jazz
+SCENE white_house
+PLACE skyler center left smug
+PLACE walt midright left nervous
+SKYLER (smug): You're worried about him.
+WALT (nervous): Jesse? No. I'm worried about Mike. Spending eight hours with Jesse is a lot for anyone.
+SKYLER (happy): Walt, you spend eight hours with Jesse every day.
+WALT (sad): Exactly. I know what Mike is going through.
+
+# ------------------------------------------------------------ THE RV
+MUSIC sad
+SCENE rv_desert
+CARD Three hours later...
+PLACE jesse center right sad
+PLACE mike midleft right neutral
+JESSE (sad): We haven't caught anything, Mike.
+MIKE (neutral): Nope.
+JESSE (sad): This is the most boring thing I've ever done.
+MIKE (smug): Good. Boring is the point. No one's yelling. Nothing's on fire. Nobody needs anything from you.
+JESSE (surprised): ...Huh. I never thought about it like that.
+MIKE (neutral): Now be quiet. You're scaring the fish.
+
+# ------------------------------------------------------------ JUNKYARD
+MUSIC jazz 2
+SCENE junkyard
+PLACE badger center right nervous
+PLACE skinny_pete midleft right nervous
+BADGER (nervous): Where's Jesse? He's not answering his phone. It's been like six hours.
+SKINNY_PETE (nervous): He said he was going fishing. With Mike.
+BADGER (surprised): Mike? Scary Mike? Old-guy Mike?
+SKINNY_PETE (smug): Yeah. Maybe they're bonding. Like, spiritually.
+BADGER (scared): Or maybe Mike left him at the pond.
+SKINNY_PETE (happy): Nah. Mike's a softie. Deep down. Like, way, way, way deep down.
+
+# ------------------------------------------------------------ THE RV
+MUSIC romantic
+SCENE rv_desert
+PLACE mike center left neutral
+PLACE jesse midright left neutral
+JESSE (neutral): Mike. Did you used to go fishing with your son?
+MIKE (sad): ...Every Sunday. When he was little. Same pond.
+JESSE (sad): I didn't know that.
+MIKE (neutral): He used to talk the whole time too. Scared every fish in the state.
+JESSE (shy): Sorry I'm talking so much.
+MIKE (happy): It's alright, kid. It's... alright.
+
+# ------------------------------------------------------------ THE RV
+MUSIC action
+SCENE rv_desert
+PLACE jesse center right excited
+PLACE mike midleft right surprised
+SFX splash
+JESSE (excited): Mike! Mike! Something's pulling! Something's pulling hard!
+MIKE (surprised): Keep the line tight! Reel slow!
+JESSE (scared): It's huge! It's like a shark!
+MIKE (excited): There are no sharks in a pond, kid! Reel!
+SFX splash
+SHAKE 0.6
+NARRATOR: Jesse reeled. He pulled. He fell backward into the mud. And on the end of his line was a catfish. A big one.
+
+# ------------------------------------------------------------ THE RV
+MUSIC happy 2
+SCENE rv_desert
+PLACE jesse center right excited
+PLACE mike midleft right happy
+JESSE (excited): I caught a fish! I caught a real fish! Yeah, nature!
+MIKE (happy): That's a nice catfish. Eight pounds. Maybe nine.
+JESSE (excited): Can we keep it? Can we name it?
+MIKE (smug): Most people eat them.
+JESSE (sad): I can't eat him, Mike. Look at his little whiskers.
+MIKE (neutral): ...Fine. Let him go.
+
+# ------------------------------------------------------------ INDUSTRIAL LAUNDRY
+MUSIC jazz 2
+SCENE laundry
+CARD The next day...
+PLACE gus center left neutral
+PLACE mike midright left neutral
+GUS (neutral): Michael. How was your day of rest?
+MIKE (neutral): Pinkman came.
+GUS (surprised): Ah. My condolences.
+MIKE (shy): It was... fine. He caught a fish. Let it go. Named it Jeffrey.
+GUS (smug): You seem relaxed, Michael.
+MIKE (neutral): I'm going again next Sunday. He's coming.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC happy
+SCENE superlab
+PLACE jesse center right excited
+PLACE walt midleft right surprised
+JESSE (excited): Mr. White! Mike says I can come fishing every Sunday!
+WALT (surprised): Mike invited you? Voluntarily?
+JESSE (smug): He said, "Don't be late, kid." That's basically "I love you" in Mike.
+WALT (happy): ...I suppose it is.
+END

@@ -1,0 +1,158 @@
+@title Saul's Grand Opening
+@series Breaking Bad
+@season 1
+@icon element
+@number 9
+@description Saul Goodman is opening a brand-new office, and he wants a grand opening with a giant inflatable Statue of Liberty. It's the biggest inflatable in Albuquerque. It's also very, very windy.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC jazz
+SCENE saul_office cut
+TITLE
+PLACE saul center left excited
+ENTER walt right midright neutral
+ENTER jesse right right neutral
+SAUL (excited): Gentlemen! Big news! I'm opening a second office! Out on the highway!
+WALT (neutral): Congratulations, Saul. Why are we here?
+SAUL (smug): Because the grand opening needs volunteers. And you two owe me.
+JESSE (surprised): For what?
+SAUL (smug): The T-shirts. For your band. Forty dollars a shirt.
+JESSE (angry): You said they were free!
+SAUL (happy): I said they were free-ish.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky
+SCENE saul_office
+PLACE saul center left excited
+PLACE walt midright left nervous
+SAUL (excited): Picture it. A giant inflatable Statue of Liberty. Forty feet tall. Holding a sign. "Better Call Saul!"
+WALT (nervous): Forty feet?
+SAUL (smug): Nothing says "justice" like a forty-foot balloon lady.
+WALT (nervous): Saul, have you checked the weather?
+SAUL (happy): Sunny! Always sunny in Albuquerque!
+WALT (smug): And windy. Fifty miles an hour on Saturday.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC happy
+SCENE white_house
+PLACE skyler center left smug
+PLACE walt midright left neutral
+PLACE flynn midleft right excited
+FLYNN (excited): A giant balloon Statue of Liberty? That's awesome! Can I come?
+SKYLER (smug): Walt, you're volunteering for Saul Goodman? Voluntarily?
+WALT (sad): I'm told I owe him forty dollars for a T-shirt I never ordered.
+SKYLER (happy): That's the most Saul thing I've ever heard.
+FLYNN (excited): Is there gonna be free food?
+WALT (smug): Knowing Saul, there will be food. It will not be free.
+
+# ------------------------------------------------------------ DEA OFFICE
+MUSIC jazz 2
+SCENE dea_office
+PLACE hank center left smug
+PLACE marie midright left excited
+HANK (smug): Saul Goodman's opening a second office? Albuquerque can barely handle one.
+MARIE (excited): I want to go! I heard there's going to be a forty-foot inflatable!
+HANK (nervous): Marie, I arrested three of his clients last month.
+MARIE (smug): Then you'll know everybody there.
+HANK (sad): ...Fine. But I'm not shaking his hand.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC tense
+SCENE desert_road
+CARD Saturday...
+PLACE saul center left excited
+PLACE jesse midright left nervous
+PLACE badger right left excited
+SAUL (excited): Inflate her, boys! Let Lady Liberty rise!
+SFX hiss
+NARRATOR: The Statue of Liberty slowly filled with air. Ten feet. Twenty feet. Forty feet. She was magnificent. She was holding a sign that said "Better Call Saul!"
+BADGER (excited): She's so beautiful, man.
+JESSE (nervous): Is she supposed to be leaning like that?
+SFX whoosh
+SAUL (nervous): She's... waving. She's waving at the crowd. That's normal.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC action
+SCENE desert_road
+PLACE saul center left scared
+PLACE walt midright left neutral
+SFX whoosh
+SHAKE 0.6
+SAUL (scared): Hold her down! Hold her down!
+WALT (neutral): Saul, she's attached to a single rope. And the wind is fifty miles an hour.
+SFX whoosh
+SHAKE 1.0
+NARRATOR: The rope snapped. Lady Liberty took off. Forty feet of balloon flew over the parking lot, over the highway and straight into town.
+SAUL (scared): She's getting away! Somebody stop her!
+
+# ------------------------------------------------------------ CAR WASH
+MUSIC action 2
+SCENE car_wash
+PLACE skyler center left surprised
+PLACE flynn midright left excited
+FLYNN (excited): Mom! Look! The Statue of Liberty is flying over the car wash!
+SKYLER (surprised): Is that... Saul's balloon?
+NARRATOR: The balloon bounced off the car wash roof. It left a giant soapy smudge on her face.
+FLYNN (excited): She got a car wash!
+SKYLER (smug): That's the cleanest anything Saul's ever been involved with.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC tense
+SCENE pollos
+PLACE gus center left neutral
+SFX thud
+SHAKE 0.6
+GUS (neutral): ...
+NARRATOR: The Statue of Liberty landed on the roof of Los Pollos Hermanos. Her sign was facing the drive-through. "Better Call Saul!"
+GUS (smug): Interesting. I didn't realize Mr. Goodman was advertising with us.
+GUS (neutral): I'll be sending him an invoice.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC jazz
+SCENE pollos
+PLACE gus center left neutral
+ENTER saul right midright scared 500
+ENTER walt right right neutral
+SAUL (scared): Mr. Fring! I'm so sorry! It was the wind! The wind!
+GUS (neutral): Mr. Goodman. Your balloon has increased my drive-through traffic by forty percent.
+SAUL (surprised): It has?
+GUS (smug): People want to see the giant lady on the chicken restaurant. And while they look, they order chicken.
+WALT (surprised): So it's... good?
+GUS (happy): It is very good.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC sneaky 2
+SCENE pollos
+PLACE saul center left smug
+PLACE gus midright left smug
+SAUL (smug): So. Hypothetically. If she stayed on your roof. For a month. What would that be worth to you?
+GUS (smug): Hypothetically. Free chicken. For a month.
+SAUL (excited): And I keep my sign?
+GUS (neutral): You keep your sign. I keep the forty percent.
+SAUL (happy): Mr. Fring, you've got yourself a deal. Better call Saul!
+GUS (smug): I believe I just did.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC happy 2
+SCENE saul_office
+CARD One week later...
+PLACE saul center left excited
+PLACE jesse midright left happy
+PLACE walt right left neutral
+SAUL (excited): Best grand opening ever! Two hundred new clients! Half of them came for the chicken!
+JESSE (happy): So do I still owe you forty bucks for the T-shirt?
+SAUL (smug): Kid, you helped launch the most successful balloon in Albuquerque history. We're even.
+WALT (smug): And me?
+SAUL (happy): You get a free consultation. For anything. Lawsuits, divorces, candy trademarks.
+WALT (neutral): I'll pass.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC romantic
+SCENE schrader_house
+PLACE hank center left smug
+PLACE marie midright left happy
+MARIE (happy): Hank, did you see? Saul's statue is still on the chicken place. People are taking pictures with it.
+HANK (smug): Yeah. Somebody drew a mustache on her.
+MARIE (surprised): Who?
+HANK (shy): ...Nobody you know.
+END

@@ -1,0 +1,174 @@
+@title Schraderbräu
+@series Breaking Bad
+@season 1
+@icon element
+@number 7
+@description Hank starts brewing his own root beer in the garage and names it Schraderbräu. It's for the big family barbecue. The bottles start exploding. Walt calculates that there are about forty more to go.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC happy
+SCENE schrader_house cut
+TITLE
+PLACE hank center left excited
+PLACE marie midright left nervous
+HANK (excited): Marie! Come look! My first batch! Schraderbräu! Homemade root beer!
+MARIE (nervous): Hank, you've filled the whole garage with bottles.
+HANK (smug): Sixty bottles. For the family barbecue on Sunday. Everybody's gonna love it.
+MARIE (nervous): Did you follow a recipe?
+HANK (happy): Sort of. I added extra sugar. More sugar, more fizz. That's science, right?
+MARIE (nervous): I don't think that's science.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC jazz
+SCENE white_house
+PLACE walt center left neutral
+PLACE skyler midright left smug
+PLACE flynn midleft right excited
+FLYNN (excited): Uncle Hank made his own root beer! He says it's called Schraderbräu!
+SKYLER (smug): With the little dots over the "a." Very fancy.
+WALT (nervous): How much sugar did he use?
+FLYNN (happy): He said "extra." Like, a lot extra.
+WALT (scared): In sealed glass bottles?
+SKYLER (surprised): Walt, why do you look like that?
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC tense
+SCENE chem_class
+PLACE walt center left nervous
+PLACE jesse midright left nervous
+WALT (nervous): Jesse. Yeast eats sugar and makes gas. Carbon dioxide. In a sealed bottle, the gas has nowhere to go.
+JESSE (surprised): So the bottle gets, like, really fizzy?
+WALT (nervous): The bottle gets really fizzy. And then the bottle gets really... not a bottle anymore.
+JESSE (excited): Yo, it explodes?
+WALT (scared): Sixty bottles. In a garage. Next to Hank's mineral collection.
+JESSE (scared): Not the minerals!
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC sneaky
+SCENE schrader_house
+CARD That night...
+PLACE hank center left happy
+HANK (happy): Goodnight, little Schraderbräus. Get nice and fizzy for Sunday.
+SFX pop
+HANK (surprised): What was that?
+SFX pop
+SFX pop
+HANK (scared): Marie! The root beer is attacking!
+SFX blast
+SHAKE 0.6
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC tense 2
+SCENE white_house
+PLACE walt center left neutral
+PLACE skyler midright left nervous
+SFX door
+SKYLER (nervous): Walt, it's Hank on the phone. He says his garage sounds like the Fourth of July.
+WALT (neutral): I was afraid of this. How many have burst?
+SKYLER (nervous): Twenty.
+WALT (smug): Forty left. The pressure will keep building. We need to get there before dawn.
+SKYLER (surprised): We?
+WALT (smug): I'll need an assistant. Get Jesse.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC action
+SCENE schrader_house
+PLACE walt center left smug
+PLACE jesse midright left nervous
+PLACE hank right left scared
+SFX pop
+HANK (scared): Walt! Thank God! The garage is a war zone!
+WALT (smug): Hank. Step back. This requires a chemist.
+JESSE (nervous): And safety goggles. Lots of safety goggles.
+WALT (smug): We'll open them one at a time. Slowly. Release the pressure gently.
+SFX pop
+JESSE (scared): Gently! He said gently!
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC tense
+SCENE schrader_house
+PLACE walt center left neutral
+PLACE jesse midright left nervous
+NARRATOR: Walt opened the first bottle. Very slowly. It hissed like an angry snake. Then a fountain of root beer hit the ceiling.
+SFX hiss
+JESSE (surprised): Yo, it's raining root beer!
+WALT (neutral): Thirty-nine to go.
+JESSE (sad): I'm so sticky, Mr. White.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC jazz 2
+SCENE white_house
+PLACE skyler center left smug
+PLACE marie midright left sad
+MARIE (sad): Last year it was home-made jerky. The year before that, a smoker. Now it's root beer.
+SKYLER (smug): At least Walt's hobbies are quiet. He does crosswords. And chemistry.
+MARIE (surprised): Isn't chemistry how all of this started?
+SKYLER (nervous): ...Walt is out there right now, isn't he.
+MARIE (happy): In safety goggles. With Jesse. At three in the morning.
+SKYLER (sad): I'm going back to bed.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC sneaky 2
+SCENE schrader_house
+PLACE marie center left angry
+PLACE hank midright left sad
+MARIE (angry): Hank. There is root beer on my purple curtains.
+HANK (sad): I know, honey.
+MARIE (angry): And on my purple couch. And my purple lamp.
+HANK (sad): It's actually kind of a nice color combination. Purple and brown.
+MARIE (angry): HANK.
+HANK (nervous): I'll buy new ones. All of them. In purple.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC action 2
+SCENE schrader_house
+CARD Four in the morning...
+PLACE walt center left smug
+PLACE jesse midright left happy
+WALT (smug): And... the last one.
+SFX hiss
+JESSE (happy): We did it! Forty bottles. Zero explosions. Well, zero more explosions.
+WALT (happy): Controlled release. Applied pressure dynamics. Textbook chemistry.
+JESSE (smug): Yeah, science! Sticky science!
+NARRATOR: The garage was saved. Hank's minerals were saved. Walt and Jesse were covered from head to toe in root beer.
+
+# ------------------------------------------------------------ THE WHITE BACKYARD
+MUSIC happy
+SCENE white_backyard
+CARD Sunday. The barbecue...
+PLACE hank center left sad
+PLACE walt midright left neutral
+PLACE flynn midleft right sad
+FLYNN (sad): So there's no root beer?
+HANK (sad): Not a single bottle, kid. We had to open them all.
+WALT (smug): Actually. I saved one.
+HANK (surprised): You did?
+WALT (smug): Opened at precisely the right moment. Then sealed again at the ideal pressure. It's... quite good.
+
+# ------------------------------------------------------------ THE WHITE BACKYARD
+MUSIC happy 2
+SCENE white_backyard
+PLACE hank center left excited
+PLACE marie midright left smug
+PLACE skyler midleft right happy
+PLACE flynn right left excited
+PLACE walt farleft right happy
+NARRATOR: Hank poured the last bottle of Schraderbräu into six tiny cups. Everyone took a sip.
+FLYNN (excited): This is the best root beer ever!
+SKYLER (surprised): Hank, this is actually delicious.
+MARIE (smug): It cost us one garage door and four curtains, but yes. It's delicious.
+HANK (excited): Schraderbräu, baby! Next batch is gonna be twice as big!
+WALT (scared): Hank. No.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC romantic
+SCENE schrader_house
+CARD One week later...
+PLACE hank center left happy
+PLACE walt midright left nervous
+HANK (happy): Walt, I listened to you. This time I used half the sugar. And plastic bottles.
+WALT (happy): Good, Hank. Very good.
+HANK (smug): And I put 'em in Marie's car. Where it's nice and warm.
+WALT (scared): ...Hank.
+SFX pop
+END

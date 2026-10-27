@@ -1,0 +1,180 @@
+@title Jesse's Band
+@series Breaking Bad
+@season 1
+@icon element
+@number 6
+@description Jesse's band, TwaüghtHammër, gets a gig at the high school talent night. Walt is horrified. Then he hears them play, and he's even more horrified. So he decides to teach them the science of sound.
+
+# ------------------------------------------------------------ PINKMAN HOUSE
+MUSIC action
+SCENE pinkman_house cut
+TITLE
+PLACE jesse center right excited
+PLACE badger midleft right excited
+PLACE skinny_pete midright left excited
+JESSE (excited): Yo! We got a gig! An actual gig! The high school talent night!
+BADGER (excited): TwaüghtHammër is going public, baby!
+SKINNY_PETE (excited): Our first real show. With a stage. And lights. And people who aren't us.
+JESSE (smug): This is gonna be legendary.
+SFX thud
+SHAKE 0.6
+NARRATOR: They played one song. It was extremely loud. Three car alarms went off. A neighbor's dog left town.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC jazz
+SCENE chem_class
+PLACE walt center left neutral
+ENTER jesse right midright excited
+JESSE (excited): Mr. White! Guess who's playing at your school's talent night? Us! TwaüghtHammër!
+WALT (surprised): Twaught... what?
+JESSE (smug): TwaüghtHammër. With two dots over the "u". It's metal.
+WALT (nervous): Jesse, the talent night is for students. And their parents. And the principal.
+JESSE (excited): Exactly! A huge crowd!
+WALT (sad): Oh, dear.
+
+# ------------------------------------------------------------ PINKMAN HOUSE
+MUSIC tense
+SCENE pinkman_house
+PLACE jesse center right excited
+PLACE badger midleft right excited
+ENTER walt left farleft nervous
+WALT (nervous): Jesse. May I hear the band? Just once. As a... concerned educator.
+JESSE (excited): Hit it, Badger!
+SFX thud
+SHAKE 1.0
+SFX thud
+SHAKE 1.0
+WALT (scared): Stop! Stop! Please!
+BADGER (happy): Pretty sick, right?
+WALT (angry): That is not music. That is a seismic event.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC romantic
+SCENE white_house
+PLACE skyler center left smug
+PLACE walt midright left nervous
+PLACE flynn midleft right excited
+FLYNN (excited): Jesse's band is playing at talent night? That's so cool!
+SKYLER (smug): Walt, it's a talent show. They're supposed to be bad. That's what makes it charming.
+WALT (nervous): Skyler, they broke a car alarm. From inside the house.
+SKYLER (happy): Then help them.
+WALT (surprised): Help them?
+SKYLER (smug): You're a teacher, aren't you? Teach.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC jazz 2
+SCENE chem_class
+PLACE walt center left smug
+PLACE jesse midright left nervous
+PLACE skinny_pete right left nervous
+PLACE badger midleft right nervous
+WALT (smug): Gentlemen. Sound is a wave. Vibrations moving through the air. And you, currently, are making all of the vibrations at once.
+SKINNY_PETE (nervous): Is that bad?
+WALT (smug): It's like mixing every chemical in the lab together. You don't get a reaction. You get an explosion.
+JESSE (surprised): So we gotta, like, separate the chemicals?
+WALT (happy): Exactly. Each instrument has its own frequency. Its own space. Like elements in the periodic table.
+BADGER (surprised): Whoa. Music is science?
+WALT (smug): Everything is science, Badger.
+
+# ------------------------------------------------------------ PINKMAN HOUSE
+MUSIC happy
+SCENE pinkman_house
+PLACE badger center right excited
+PLACE skinny_pete midleft right happy
+BADGER (excited): Okay! I'm the low frequency now. Like, the bass is my element.
+SKINNY_PETE (happy): I'm the high frequency. I play the triangle now.
+BADGER (surprised): Since when do we have a triangle?
+SKINNY_PETE (smug): Since Mr. White said every band needs a noble gas.
+SFX ding
+SKINNY_PETE (happy): That's argon, baby.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky
+SCENE saul_office
+PLACE saul center left excited
+ENTER jesse right midright excited
+SAUL (excited): A band? Kid, you need a manager. And I need ten percent.
+JESSE (surprised): Of what? We're playing for free.
+SAUL (smug): Ten percent of free is still something. It's called exposure.
+JESSE (nervous): That's not how math works, man.
+SAUL (excited): T-shirts! I can get you T-shirts! With the two dots! Better call Saul!
+
+# ------------------------------------------------------------ THE WHITE BACKYARD
+MUSIC jazz
+SCENE white_backyard
+CARD Practice...
+PLACE walt center left neutral
+PLACE jesse midright left excited
+JESSE (excited): Okay, Mr. White. New song. We separated our frequencies. Ready?
+WALT (nervous): Ready.
+SFX ding
+SFX thud
+NARRATOR: It was still loud. But now it was loud in the right places. The drums went boom. The bass went bum. The triangle went ding.
+WALT (surprised): That's... actually tolerable.
+JESSE (excited): Yeah, science!
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC sneaky 2
+SCENE schrader_house
+PLACE hank center left smug
+PLACE marie midright left excited
+HANK (smug): Walt's helping Pinkman's band? The guy who once told me jazz was "statistically unnecessary"?
+MARIE (excited): We're going, Hank. I bought matching purple earplugs.
+HANK (nervous): You think we'll need earplugs?
+MARIE (smug): Hank, it's called TwaüghtHammër.
+HANK (sad): ...Get me two pairs.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC tense
+SCENE chem_class
+CARD Talent night...
+PLACE jesse center right nervous
+PLACE badger midleft right nervous
+PLACE skinny_pete midright left nervous
+JESSE (nervous): Yo, there's like two hundred people out there.
+BADGER (scared): The principal's in the front row. With his mom.
+SKINNY_PETE (nervous): I can't feel my triangle hand.
+ENTER walt left farleft neutral
+WALT (neutral): Gentlemen. Remember. Separate frequencies. Controlled reaction.
+JESSE (smug): Controlled reaction. Got it, Mr. White.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC action
+SCENE chem_class
+PLACE jesse center right excited
+PLACE badger midleft right excited
+PLACE skinny_pete midright left excited
+JESSE (excited): We are TwaüghtHammër!
+SFX thud
+SHAKE 0.6
+SFX ding
+NARRATOR: They played. It was loud. It was weird. Skinny Pete did a triangle solo that lasted ninety seconds. And somehow, it worked.
+BADGER (excited): They're cheering! They're actually cheering!
+SKINNY_PETE (excited): Even the principal's mom is headbanging!
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC happy 2
+SCENE chem_class
+PLACE walt center left surprised
+PLACE skyler midright left happy
+PLACE hank midleft right surprised
+HANK (surprised): Huh. That was... not terrible.
+SKYLER (happy): Walt, you're smiling.
+WALT (shy): I am not.
+SKYLER (smug): You're tapping your foot.
+WALT (nervous): That's a muscle spasm. Entirely involuntary.
+HANK (excited): Two more! Two more!
+
+# ------------------------------------------------------------ PINKMAN HOUSE
+MUSIC romantic 2
+SCENE pinkman_house
+CARD The next day...
+PLACE jesse center right happy
+PLACE walt midleft right neutral
+JESSE (happy): Second place, Mr. White. We lost to a girl who juggled kittens. Stuffed kittens.
+WALT (neutral): Second place is a very respectable result, Jesse.
+JESSE (shy): Thanks. For the science stuff. You didn't have to help.
+WALT (smug): I did. The noise was affecting my sleep. From four miles away.
+JESSE (excited): Yo, next we're doing a song about the periodic table!
+WALT (happy): ...I'll write the lyrics.
+END

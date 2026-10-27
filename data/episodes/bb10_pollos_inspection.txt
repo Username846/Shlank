@@ -1,0 +1,157 @@
+@title The Health Inspector
+@series Breaking Bad
+@season 1
+@icon element
+@number 10
+@description The health inspector is coming to Los Pollos Hermanos, and half the kitchen staff has the flu. Gus asks Walt and Jesse to fill in. Walt treats frying chicken like a chemistry experiment. Jesse just wants to wear the hat.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC tense
+SCENE pollos cut
+TITLE
+PLACE gus center left neutral
+PLACE mike midright left neutral
+GUS (neutral): Michael. The health inspector arrives tomorrow at noon. And six of my cooks have the flu.
+MIKE (neutral): That's bad timing.
+GUS (smug): It is. I need two people who are careful. Precise. Who follow procedure exactly.
+MIKE (neutral): You're thinking of White.
+GUS (smug): And his partner.
+MIKE (sad): ...You're thinking of Pinkman too. God help us.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC jazz
+SCENE chem_class
+PLACE walt center left surprised
+PLACE jesse midright left excited
+WALT (surprised): Gus wants us to cook? Chicken?
+JESSE (excited): Yo, we get to wear the Pollos hats! The little yellow ones!
+WALT (nervous): Jesse, I have never fried a chicken in my life.
+JESSE (smug): You've never fried anything. You boil stuff. You told me frying is "chemically chaotic."
+WALT (smug): It is. Which is why it needs a chemist.
+JESSE (happy): Chicken science!
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC jazz 2
+SCENE pollos
+CARD The next morning...
+PLACE gus center left neutral
+PLACE walt midright left neutral
+PLACE jesse right left excited
+GUS (neutral): Gentlemen. The recipe. Eleven spices. Three minutes in the fryer at three hundred fifty degrees.
+WALT (smug): Three hundred fifty degrees Fahrenheit. Exactly?
+GUS (neutral): Exactly.
+WALT (smug): Excellent. I brought a calibrated thermometer.
+JESSE (excited): And I brought my own hat. It's got my name on it.
+GUS (smug): ...Of course you did.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC happy
+SCENE pollos
+PLACE walt center left smug
+PLACE jesse midright left nervous
+SFX sizzle
+WALT (smug): Observe, Jesse. The Maillard reaction. Proteins and sugars, browning at high temperature.
+JESSE (nervous): It looks like regular chicken, Mr. White.
+WALT (smug): It IS regular chicken. Made perfectly. Ninety-nine point one percent perfect.
+JESSE (surprised): What's the other point nine percent?
+WALT (angry): The breading is uneven. Unacceptable. Start again.
+JESSE (sad): We've made forty chickens, man!
+
+# ------------------------------------------------------------ CAR WASH
+MUSIC sneaky
+SCENE car_wash
+PLACE skyler center left smug
+PLACE saul midright left excited
+SAUL (excited): Walter White is frying chicken at Los Pollos? This I gotta see.
+SKYLER (smug): He called me at six this morning to ask about breading consistency.
+SAUL (surprised): What did you tell him?
+SKYLER (happy): I told him it's chicken, Walt. People will eat it.
+SAUL (smug): And?
+SKYLER (sad): He hung up on me.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC tense
+SCENE pollos
+PLACE jesse center right nervous
+PLACE mike midleft right neutral
+JESSE (nervous): Mike, the inspector comes in an hour. And Mr. White has thrown away eighty chickens.
+MIKE (neutral): Eighty?
+JESSE (scared): He says none of them are "chemically pure." Bro, it's chicken.
+MIKE (smug): Leave it to me.
+JESSE (surprised): What are you gonna do?
+MIKE (neutral): I'm going to tell him the inspector is a chemistry professor.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC jazz
+SCENE pollos
+PLACE mike center left neutral
+PLACE walt midright left nervous
+MIKE (neutral): White. The inspector today. Former chemistry professor. Very particular.
+WALT (surprised): A chemist? Inspecting the kitchen?
+MIKE (smug): She's going to want to see a professional at work. Someone confident. Someone fast.
+WALT (smug): Then she'll see a professional.
+NARRATOR: Walt stopped throwing away chickens. He started frying them very confidently. And very fast.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC tense 2
+SCENE pollos
+CARD Noon...
+PLACE gus center left nervous
+PLACE walt midright left smug
+PLACE jesse right left nervous
+NARRATOR: The inspector arrived. She had a clipboard. She had a hairnet. She had a very serious face.
+GUS (nervous): Welcome. Please, inspect anything you like.
+NARRATOR: She checked the fridge. She checked the floor. She checked the fryer temperature. Exactly three hundred fifty degrees.
+JESSE (nervous): She's looking at Mr. White's thermometer.
+WALT (smug): Calibrated this morning. To the hundredth of a degree.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC happy
+SCENE pollos
+PLACE gus center left surprised
+PLACE walt midright left surprised
+NARRATOR: The inspector took one bite of chicken. She stopped. She took another bite.
+GUS (surprised): She's... smiling.
+NARRATOR: She wrote on her clipboard. One hundred out of one hundred. The first perfect score in the history of Albuquerque.
+WALT (surprised): A perfect score?
+GUS (happy): Mr. White. That has never happened. Not once.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC jazz 2
+SCENE pollos
+PLACE jesse center right excited
+PLACE mike midleft right smug
+JESSE (excited): Mike! We got a perfect score! A hundred!
+MIKE (smug): Congratulations, kid.
+JESSE (surprised): Wait. Was she really a chemistry professor?
+MIKE (neutral): No idea. Never met her.
+JESSE (surprised): You made that up?
+MIKE (smug): Sometimes a man just needs a reason to stop throwing chickens in the trash.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC romantic
+SCENE pollos
+PLACE gus center left happy
+PLACE walt midright left shy
+PLACE jesse right left excited
+GUS (happy): Gentlemen. You may keep the hats. And you are welcome in my kitchen any time.
+WALT (shy): Thank you, Gus. It was... an interesting experiment.
+JESSE (excited): Can we put a picture of us on the wall? Employees of the Month?
+GUS (smug): You worked one day, Jesse.
+JESSE (smug): One perfect day.
+GUS (happy): ...I'll get the camera.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC happy 2
+SCENE white_house
+CARD That evening...
+PLACE walt center left smug
+PLACE skyler midright left surprised
+PLACE flynn midleft right excited
+FLYNN (excited): Dad! You're on the wall at Los Pollos! In a little hat!
+SKYLER (surprised): A perfect health score, Walt? Really?
+WALT (smug): Applied chemistry, Skyler.
+FLYNN (happy): Can you make fried chicken for dinner?
+WALT (nervous): ...How about breakfast for dinner?
+FLYNN (excited): Breakfast for dinner!
+END
