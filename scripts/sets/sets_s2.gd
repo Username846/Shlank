@@ -55,6 +55,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"the_circus": _the_circus(b)
 		"dentist_office": _dentist_office(b)
 		"reptar_arena": _reptar_arena(b)
+		# Pokémon
+		"ash_house": _ash_house(b)
+		"viridian_forest": _viridian_forest(b)
+		"pewter_gym": _pewter_gym(b)
+		"mt_moon": _mt_moon(b)
+		"ss_anne": _ss_anne(b)
+		"pokemon_tower": _pokemon_tower(b)
+		"celadon_store": _celadon_store(b)
+		"safari_zone": _safari_zone(b)
+		"cinnabar_island": _cinnabar_island(b)
+		"indigo_plateau": _indigo_plateau(b)
 		_: return false
 	return true
 
@@ -113,6 +124,29 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 24:
 				var k := fmod(i * 0.37 + t * 0.2, 1.0)
 				Art.dot(ci, Vector2(fmod(i * 131.0, W), 40 + k * 500), 3, Color(0.8, 0.95, 1.0, 0.7 * (1.0 - k)))
+		"viridian_forest":
+			for i in 5:
+				var a := t * 1.3 + i * 1.7
+				var c := Vector2(fmod(i * 260.0 + t * 30.0, W), 300 + sin(a) * 60)
+				Art.dot(ci, c, 5, Color(1, 1, 0.5, 0.5 + 0.5 * sin(a * 2.0)))
+		"mt_moon":
+			for i in 3:
+				var k := 0.5 + 0.5 * sin(t * 2.0 + i)
+				Art.dot(ci, Vector2(640, 300), 40 + i * 30 * k, Color(0.8, 0.85, 1.0, 0.12))
+		"pokemon_tower":
+			var gx := 900.0 + sin(t * 0.8) * 120.0
+			var gy := 200.0 + sin(t * 1.6) * 20.0
+			Art.blob(ci, Vector2(gx, gy), 44, 40, Color(0.45, 0.3, 0.6, 0.55), 3.0)
+			for sx in [-1, 1]:
+				Art.dot(ci, Vector2(gx + sx * 14, gy - 6), 6, Color(1, 1, 1, 0.8))
+		"ss_anne":
+			for i in 3:
+				var y := 520.0 + i * 30.0 + sin(t * 1.4 + i) * 5.0
+				Art.stroke(ci, Art.curve(Vector2(-PAD, y), Vector2(640, y - 8), Vector2(W + PAD, y), 16), 3.0, Color(1, 1, 1, 0.6))
+		"cinnabar_island":
+			for i in 6:
+				var k := fmod(t * 0.3 + i / 6.0, 1.0)
+				Art.dot(ci, Vector2(1000 + sin(i * 2.0) * 20 + k * 40, 150 - k * 140), 14 + k * 24, Color(0.6, 0.6, 0.6, 0.5 * (1.0 - k)))
 		_: pass
 
 
@@ -781,4 +815,139 @@ static func _reptar_arena(b: Backdrop) -> void:
 	Art.blob(b.ci, Vector2(690, 310), 10, 10, Color.WHITE, 3.0)
 	Art.dot(b.ci, Vector2(693, 310), 4, INK)
 	b._sign(Rect2(420, 340, 440, 56), "REPTAR ON ICE!", Color("2b3a6a"), Color("6dff8a"), 34)
+
+
+# ------------------------------------------------------------- Pokémon --
+
+static func _ash_house(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f6e6c8"), Color("ecd4a8"), 545, Color("c48a4f"))
+	b._window(Rect2(160, 110, 220, 170), Color.WHITE, Color("bfe0f2"))
+	# Kitchen table, a shelf of Ash's trophies and a framed picture of Pikachu
+	SetsExtra._table(b, 640, 430, 340, Color("c48a4f"))
+	Art.shape(b.ci, Art.rrect(Rect2(850, 140, 300, 24), 4), Color("8a5a36"), 3.5)
+	for i in 4:
+		var x: float = 880.0 + i * 70.0
+		Art.shape(b.ci, PackedVector2Array([Vector2(x, 140), Vector2(x + 30, 140), Vector2(x + 24, 100), Vector2(x + 6, 100)]), Color("f2c14e"), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(560, 120, 160, 130), 6), Color("8a5a36"), 4.0)
+	Art.shape(b.ci, Art.rrect(Rect2(574, 134, 132, 102), 4), Color("f6d63c"), 2.0)
+	for sx in [-1, 1]:
+		Art.dot(b.ci, Vector2(640 + sx * 20, 180), 6, INK)
+		Art.dot(b.ci, Vector2(640 + sx * 36, 200), 8, Color("e6452f"))
+	SetsExtra._poke_ball(b, Vector2(640, 410), 18)
+
+
+static func _viridian_forest(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("2f5a3a"), Color("6a9a5a"))
+	SetsExtra._grass(b, 540, Color("4f8a3a"))
+	# Dense trees on every side, a narrow dirt path and a wooden sign
+	for i in 8:
+		SetsExtra._tree(b, -40 + i * 190, 560 - (i % 2) * 30, 1.2 + (i % 3) * 0.15, Color("2f7a3a"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(560, 540), Vector2(720, 540), Vector2(900, H + PAD), Vector2(380, H + PAD)]), Color("b8945a"), 0.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1080, 620), Vector2(1080, 520)]), 10, Color("8a5a36"))
+	b._sign(Rect2(980, 470, 200, 50), "VIRIDIAN FOREST", Color("c48a4f"), INK, 20)
+
+
+static func _pewter_gym(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("8a8070"), Color("6a6050"), 520, Color("a89a80"), "tile")
+	# A rocky arena with boulders and the Boulder Badge on the wall
+	for i in 5:
+		SetsMore._rock(b, 80.0 + i * 280.0, 540, 140 + (i % 2) * 60, 90 + (i % 3) * 40, Color("9a8a70"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(640, 90), Vector2(700, 150), Vector2(640, 210), Vector2(580, 150)]), Color("9a9aa8"), 4.0, 0.15)
+	b._sign(Rect2(470, 230, 340, 50), "PEWTER GYM", Color("4a4030"), Color("f2c14e"), 30)
+
+
+static func _mt_moon(b: Backdrop) -> void:
+	SetsMore._cave(b, Color("1a1a2e"), Color("3a3a5a"), Color("5a5a7a"), 41)
+	# The Moon Stone glowing in the middle of the cavern
+	Art.shape(b.ci, PackedVector2Array([Vector2(600, 400), Vector2(620, 240), Vector2(660, 220), Vector2(690, 260), Vector2(690, 400)]),
+		Color("c8c8e8"), 4.0, 0.15)
+	Art.dot(b.ci, Vector2(650, 300), 18, Color(1, 1, 1, 0.6))
+	SetsMore._stars(b, 20, 7, Color(0.8, 0.85, 1.0, 0.6), 250)
+
+
+static func _ss_anne(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("5fb8f0"), Color("cdeefa"))
+	SetsExtra._water(b, 420, H + PAD, Color("2f7fc0"))
+	# The ship's deck with a rail, life rings and a big smokestack
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 470, W + PAD * 2, H)), Color("e8dcc0"), 5.0)
+	for i in 20:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-40 + i * 70, 470), Vector2(-40 + i * 70, 400)]), 4.0, Color.WHITE)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD, 400), Vector2(W + PAD, 400)]), 8.0, Color.WHITE)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(880, 80, 140, 320)), Color("e6452f"), 5.0)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(880, 80, 140, 50)), Color("2b2b33"), 3.0)
+	for x in [200, 520]:
+		b.ci.draw_arc(Vector2(x, 430), 26, 0, TAU, 20, INK, 16.0)
+		b.ci.draw_arc(Vector2(x, 430), 26, 0, TAU, 20, Color("e6452f"), 10.0)
+	b._sign(Rect2(80, 120, 300, 56), "S.S. ANNE", Color("2b3a6a"), Color.WHITE, 36)
+
+
+static func _pokemon_tower(b: Backdrop) -> void:
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("2a1a3a"), Color("4a3a5a"))
+	b._sky_bottom = Color("4a3a5a")
+	SetsMore._stone_floor(b, 540, Color("5a5060"))
+	# Rows of gravestones, candles and a staircase going up into the dark
+	for i in 6:
+		var x: float = 80.0 + i * 140.0
+		Art.shape(b.ci, Art.arc_pts(Vector2(x + 40, 490), 40, 50, PI, TAU, 12) + PackedVector2Array([Vector2(x + 80, 560), Vector2(x, 560)]),
+			Color("8a8898"), 3.5, 0.12)
+	for x in [160, 720]:
+		Art.shape(b.ci, Art.rrect(Rect2(x, 380, 14, 40), 3), Color("f4f2ec"), 2.0)
+		Art.blob(b.ci, Vector2(x + 7, 370), 6, 10, Color("8fe0f0"), 0.0)
+	for i in 6:
+		Art.shape(b.ci, SetsExtra._rect(Rect2(960 + i * 50, 540 - (i + 1) * 60, 400, 60)), Color("4a4050"), 3.0)
+
+
+static func _celadon_store(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f4f0e6"), Color("e4dccc"), 560, Color("c8c0b0"), "tile")
+	# Shelves of potions and Poké Balls, a counter and the floor directory
+	_shelves(b, Rect2(60, 160, 420, 360), Color("c48a4f"), [Color("9b5fd0"), Color("e6452f"), Color("4a78d0")], 77)
+	Art.shape(b.ci, Art.rrect(Rect2(620, 400, 400, 160), 8), Color("4a78d0"), 4.0, 0.1)
+	for i in 3:
+		SetsExtra._poke_ball(b, Vector2(680 + i * 70, 380), 22)
+	b._sign(Rect2(1060, 140, 180, 300), "", Color("2b3a6a"), Color.WHITE, 20)
+	for i in 5:
+		Art.text(b.ci, b.sign_font, Vector2(1070, 190 + i * 54), "%dF" % (5 - i), 28, Color("f2c14e"), 3, HORIZONTAL_ALIGNMENT_CENTER, 160)
+	b._sign(Rect2(560, 70, 520, 60), "CELADON DEPT. STORE", Color("5aa84a"), Color.WHITE, 30)
+
+
+static func _safari_zone(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("7ac0f0"), Color("f2e6c0"))
+	SetsMore._rolling(b, 420, Color("b8c86a"), 13, 40.0)
+	SetsExtra._grass(b, 520, Color("c8b860"))
+	# Tall savanna grass, a lone tree and the Safari Zone gate
+	for i in 30:
+		var x: float = -20.0 + i * 46.0
+		Art.stroke(b.ci, PackedVector2Array([Vector2(x, 600), Vector2(x + 8, 540 - (i % 3) * 12)]), 3.0, Color("8a8a3a"))
+	SetsExtra._tree(b, 1000, 520, 1.3, Color("6a9a3a"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(140, 600), Vector2(140, 340), Vector2(460, 340), Vector2(460, 600)]), 18, Color("8a5a36"))
+	b._sign(Rect2(170, 350, 260, 50), "SAFARI ZONE", Color("f2c14e"), INK, 30)
+
+
+static func _cinnabar_island(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("f0a06a"), Color("fbe0b0"))
+	SetsExtra._water(b, 440, H + PAD, Color("3fa0d8"))
+	# The volcano (smoke puffs in the moving layer) and the Gym
+	Art.shape(b.ci, PackedVector2Array([Vector2(700, 460), Vector2(960, 160), Vector2(1060, 160), Vector2(1320, 460)]), Color("8a5a46"), 5.0, 0.15)
+	Art.shape(b.ci, PackedVector2Array([Vector2(960, 160), Vector2(1060, 160), Vector2(1030, 200), Vector2(990, 200)]), Color("f2602a"), 3.0)
+	b._sand(500, Color("e8d4a0"), 8.0)
+	SetsExtra._house(b, Rect2(100, 260, 420, 260), Color("e6452f"), Color("8a2a2a"))
+	b._sign(Rect2(170, 210, 280, 50), "CINNABAR GYM", Color("2b2b33"), Color("f2602a"), 26)
+
+
+static func _indigo_plateau(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("3a6ac0"), Color("bcd8f0"))
+	# The stadium: tiers of seats, flags and the battlefield
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 140, W + PAD * 2, 300)), Color("8a96a3"), 4.0)
+	for j in 4:
+		for i in 26:
+			Art.dot(b.ci, Vector2(-20 + i * 52 + (j % 2) * 26, 180 + j * 60), 14, Color.from_hsv(fmod(i * 0.17 + j * 0.31, 1.0), 0.5, 0.95))
+	for i in 7:
+		var x: float = 40.0 + i * 200.0
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 140), Vector2(x, 60)]), 4, Color("6a6a7a"))
+		Art.shape(b.ci, PackedVector2Array([Vector2(x, 60), Vector2(x + 50, 74), Vector2(x, 88)]), [Color("e6452f"), Color("4a78d0"), Color("f2c14e")][i % 3], 2.5)
+	SetsExtra._fill_band(b, 440, H + PAD, Color("8fc86a"))
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, 440), Vector2(640, H + PAD)]), 5.0, Color.WHITE)
+	Art.stroke(b.ci, Art.arc_pts(Vector2(640, 560), 90, 40, 0, TAU, 24), 5.0, Color.WHITE)
+	SetsExtra._poke_ball(b, Vector2(640, 560), 24)
+	b._sign(Rect2(440, 20, 400, 50), "POKéMON LEAGUE", Color("e6452f"), Color.WHITE, 30)
 

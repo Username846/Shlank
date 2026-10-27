@@ -1,0 +1,190 @@
+@title Safari Zone Showdown
+@series Pokémon
+@season 2
+@icon rocket
+@number 8
+@description In the Safari Zone, trainers don't battle. They throw bait, rocks and Safari Balls. Ash wants to catch a Tauros. Gary wants to catch more than Ash. Team Rocket wants to catch everything, with a giant net.
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC happy
+SCENE safari_zone cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right happy
+PLACE brock midright left happy
+ASH (excited): The Safari Zone! I get thirty Safari Balls, and I can catch whatever I want!
+MISTY (happy): No battling allowed, Ash. Just bait and rocks.
+BROCK (smug): And a lot of patience. Which you don't have.
+ASH (smug): I'm the most patient trainer in Kanto!
+MISTY (smug): You ate your lunch on the bus at nine in the morning.
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC jazz
+SCENE safari_zone
+PLACE gary_oak center left smug
+PLACE ash midright left angry
+GARY_OAK (smug): Well, well. Ashy-boy's here for the safari.
+ASH (angry): Gary! What are you doing here?
+GARY_OAK (smug): Catching Pokémon. Lots of Pokémon. More than you, for sure.
+ASH (angry): Oh yeah? Let's see who catches more. By sunset!
+GARY_OAK (smug): You're on. Smell ya later.
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC sneaky
+SCENE safari_zone
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE meowth midleft right excited
+JESSIE (smug): Why throw one Safari Ball at a time when you can use a giant net?
+JAMES (smug): A net the size of a football field! Every Pokémon in the zone, in one go!
+MEOWTH (excited): The Boss'll give us a raise! Maybe two raises!
+JAMES (nervous): Where do we get a net the size of a football field?
+JESSIE (happy): We borrowed it from a football field.
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC jazz 2
+SCENE safari_zone
+PLACE ash center right excited
+PLACE pikachu midleft right happy
+ASH (excited): Look, Pikachu! A Rhyhorn! Here goes! Safari Ball, go!
+SFX whoosh
+SFX boing
+ASH (sad): It bounced off. And the Rhyhorn's looking at me.
+PIKACHU (nervous): Pika...
+ASH (scared): And now it's running at me! Run, Pikachu!
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC action
+SCENE safari_zone
+PLACE gary_oak center left smug
+PLACE ash midright left angry
+SFX ding
+GARY_OAK (smug): Ten! I just caught my tenth Pokémon!
+ASH (angry): Ten?! I've caught zero!
+GARY_OAK (smug): A Kangaskhan, a Scyther, a Nidoran, two Exeggcute...
+ASH (angry): Okay, okay! I get it!
+GARY_OAK (happy): Want some tips, Ashy-boy?
+ASH (angry): NO!
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC sad
+SCENE safari_zone
+PLACE ash center right sad
+PLACE brock midleft right smug
+ASH (sad): Brock, I've used twenty Safari Balls. And I haven't caught anything.
+BROCK (smug): Ash, you've been chasing Pokémon. In the Safari Zone, you let them come to you.
+ASH (surprised): Come to me?
+BROCK (happy): Sit still. Throw some bait. Be calm. Pokémon can tell when you're in a hurry.
+ASH (nervous): ...I'm always in a hurry.
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC jazz
+SCENE safari_zone
+PLACE misty center left happy
+PLACE psyduck midright left nervous
+SFX pop
+MISTY (happy): Look, Psyduck! A Slowpoke. In the pond. It's even slower than you!
+PSYDUCK (nervous): Psy?
+MISTY (smug): I'm trying to catch it. Stay very still. Don't make a sound.
+SFX splash
+MISTY (angry): Psyduck! You fell in the pond!
+PSYDUCK (sad): Psy-yi-yi...
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC tense
+SCENE safari_zone
+PLACE misty center left scared
+PLACE brock midright left nervous
+SFX stomp
+SHAKE 0.7
+MISTY (scared): Brock! What's that rumbling?
+BROCK (nervous): Something big is running this way. A whole herd.
+SFX stomp
+SHAKE 0.9
+NARRATOR: Over the hill came a herd of Tauros. Dozens of them. And right behind them, a giant net on a giant balloon.
+MISTY (scared): Team Rocket's chasing them into a trap!
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC action 2
+SCENE safari_zone
+PLACE jessie center left excited
+PLACE james midright left excited
+PLACE meowth midleft right excited
+JESSIE (excited): Prepare for trouble, we're netting the zone!
+JAMES (excited): And make it double, they'll all be our own!
+MEOWTH (excited): Drop the net! Drop it now!
+SFX whoosh
+JAMES (nervous): Jessie. I think the net is bigger than the balloon.
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC action
+SCENE safari_zone
+PLACE ash center right surprised
+PLACE gary_oak midleft right surprised
+SFX thud
+SHAKE 0.6
+NARRATOR: The net fell. It caught three Tauros, a Rhyhorn, two Exeggcute, and Gary Oak.
+GARY_OAK (angry): Hey! Get me out of here!
+ASH (surprised): Gary? You got caught in the net?
+GARY_OAK (angry): Don't just stand there, Ash! Help!
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC tense
+SCENE safari_zone
+PLACE ash center right excited
+PLACE pikachu midleft right angry
+ASH (excited): Pikachu! We can't zap the net, or we'll hurt everyone inside. We have to cut it!
+PIKACHU (excited): Pika!
+SFX sword
+NARRATOR: Pikachu used Iron Tail. Snip. Snip. Snip. The net split wide open. The Tauros ran out. The Rhyhorn ran out. Gary crawled out.
+ASH (excited): Now, Pikachu! Thunderbolt the balloon!
+SFX zap
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC action 2
+SCENE safari_zone
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX blast
+SHAKE 0.8
+JESSIE (scared): The balloon's popping!
+JAMES (sad): And we have to return the net to the football field!
+MEOWTH (scared): Team Rocket's blasting off agaaaaain!
+SFX pop
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC happy
+SCENE safari_zone
+PLACE ash center right surprised
+NARRATOR: Ash sat down in the tall grass, tired. He threw out some bait. He didn't chase anything. He just sat. And one by one, the Tauros came over to eat.
+ASH (surprised): They're coming to me. They're actually coming to me.
+SFX ding
+NARRATOR: Ash threw one Safari Ball. Then another. Then another. Then all the rest.
+ASH (excited): I caught a Tauros! And another one! And another one!
+
+# ------------------------------------------------------------ SAFARI ZONE
+MUSIC jazz
+SCENE safari_zone
+CARD Sunset...
+PLACE gary_oak center left surprised
+PLACE ash midright left smug
+GARY_OAK (surprised): Thirty?! You caught thirty Tauros?!
+ASH (smug): Thirty Tauros. And you caught ten.
+GARY_OAK (angry): That's not fair! They were all the same Pokémon!
+ASH (smug): Still thirty, Gary.
+GARY_OAK (shy): ...And thanks for getting me out of that net.
+ASH (happy): Smell ya later, Gary.
+
+# ------------------------------------------------------------ OAK'S LAB
+MUSIC romantic
+SCENE oak_lab
+CARD Professor Oak's Lab, Pallet Town...
+PLACE professor_oak center left surprised
+SFX ding
+PROFESSOR_OAK (surprised): Thirty Tauros just arrived. All from Ash.
+PROFESSOR_OAK (nervous): Where am I going to put thirty Tauros?
+SFX stomp
+SHAKE 0.6
+PROFESSOR_OAK (scared): Not on my flower bed! Not on my flower bed!
+END

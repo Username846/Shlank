@@ -1,0 +1,197 @@
+@title The Ghost of Pokémon Tower
+@series Pokémon
+@season 2
+@icon rocket
+@number 6
+@description Lavender Town's Pokémon Tower is haunted, and nobody dares go up the stairs. Ash wants to catch a Ghost-type. Team Rocket wants to scare the town away and sell the tower. The ghosts have their own plans.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC spooky
+SCENE pokemon_tower cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right scared
+PLACE brock midright left nervous
+ASH (excited): Pokémon Tower! The scariest place in Lavender Town!
+MISTY (scared): Ash, why are you excited about that?
+ASH (smug): Because there are Ghost-type Pokémon here. And I want one!
+BROCK (nervous): The people in town say nobody who goes up those stairs comes back the same.
+ASH (excited): Then I'll come back different! With a ghost!
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC sneaky
+SCENE pokemon_tower
+PLACE jessie center left smug
+PLACE james midright left scared
+PLACE meowth midleft right smug
+JESSIE (smug): The plan is simple. We scare everyone out of town. Then we buy the tower for one Poké Dollar.
+JAMES (scared): Jessie, the tower is actually haunted. We don't need to scare anyone. It's doing that by itself.
+MEOWTH (smug): That's why we put on these ghost costumes. Extra haunting.
+JAMES (scared): What if the real ghosts think we're making fun of them?
+JESSIE (angry): There's no such thing as ghosts, James!
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC spooky 2
+SCENE pokemon_tower
+PLACE ash center right nervous
+PLACE pikachu midleft right scared
+SFX hiss
+NARRATOR: The candles flickered. A cold wind blew down the stairs. And somewhere above them, someone giggled.
+ASH (nervous): Did you hear that, Pikachu?
+PIKACHU (scared): Pika...
+ASH (nervous): It's okay. Ghosts are just Pokémon. Pokémon are our friends.
+SFX gasp
+
+# ------------------------------------------------------------ LAVENDER TOWN
+MUSIC sad
+SCENE town_square
+CARD Earlier, in Lavender Town...
+PLACE nurse_joy center left nervous
+PLACE ash midright left surprised
+NURSE_JOY (nervous): Please be careful in the tower, Ash. Every night, people hear laughing. And things go missing.
+ASH (surprised): What kind of things?
+NURSE_JOY (nervous): Hats. Shoes. The mayor's toupee.
+ASH (nervous): The mayor's what?
+NURSE_JOY (smug): He's been wearing a tea cozy for a week.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC jazz
+SCENE pokemon_tower
+PLACE misty center left scared
+PLACE brock midright left scared
+MISTY (scared): Brock. Something just touched my shoulder. Something cold.
+BROCK (scared): That was my hand, Misty. I'm cold because I'm scared.
+MISTY (angry): Don't touch my shoulder when we're in a haunted tower!
+BROCK (nervous): Sorry! I just wanted to hold someone's hand!
+MISTY (nervous): ...Okay. You can hold my hand. But only because I'm also scared.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC sneaky 2
+SCENE pokemon_tower
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE ash farright left surprised
+SFX whoosh
+JESSIE (smug): Ooooooh! We are the ghosts of Pokémon Tower!
+JAMES (smug): Ooooooh! Leave this town forever! And sell us your tower!
+ASH (surprised): Ghosts that want to buy a tower?
+JESSIE (nervous): Ghosts have real estate needs too!
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC spooky
+SCENE pokemon_tower
+PLACE meowth center left scared
+SFX gasp
+NARRATOR: Behind Meowth, a real ghost appeared. Big. Purple. With a huge, toothy grin. It was a Gengar. And it tapped Meowth on the shoulder.
+MEOWTH (scared): James? Is that you behind me?
+MEOWTH (scared): James is over there. So who is... behind... me?
+MEOWTH (scared): GHOST! REAL GHOST!
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC action
+SCENE pokemon_tower
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX whoosh
+JESSIE (scared): It's a real ghost! A real one!
+JAMES (scared): I told you, Jessie! I TOLD you!
+MEOWTH (scared): It's makin' faces at us! Scary faces!
+JESSIE (scared): Run! Run for your lives!
+SFX footstep
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC jazz 2
+SCENE pokemon_tower
+PLACE ash center right surprised
+PLACE misty midleft right surprised
+PLACE brock midright left surprised
+ASH (surprised): Team Rocket just ran away. From a Gengar.
+MISTY (surprised): And it's... laughing. It thinks it's funny.
+BROCK (happy): Ghost-types love playing pranks. That's what all the giggling was.
+ASH (excited): A prankster! I like it already!
+SFX pop
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC sneaky
+SCENE pokemon_tower
+PLACE ash center right nervous
+PLACE pikachu midleft right nervous
+SFX whoosh
+NARRATOR: The Gengar floated up to Ash. It stuck out its long tongue. It made a funny face. Then it pulled Ash's cap down over his eyes.
+ASH (surprised): Hey! I can't see!
+PIKACHU (happy): Pika pika pika!
+ASH (smug): Okay, okay. That was a good one.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC happy
+SCENE pokemon_tower
+PLACE misty center left surprised
+PLACE brock midright left happy
+SFX pop
+MISTY (surprised): Look! A pile of hats! And shoes! And... a toupee!
+BROCK (happy): Gengar's been collecting things from all over town.
+MISTY (smug): So the haunted tower is really just a very messy closet.
+BROCK (excited): We can bring them all back! The mayor will be so happy!
+MISTY (happy): And he can stop wearing that tea cozy.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC tense
+SCENE pokemon_tower
+PLACE ash center right excited
+PLACE misty midleft right nervous
+ASH (excited): Gengar! I'm gonna catch you! Go, Poké Ball!
+SFX whoosh
+NARRATOR: The Poké Ball flew right through Gengar and bounced off the wall. Gengar laughed so hard it rolled on the floor.
+MISTY (smug): You can't catch a ghost by throwing things through it, Ash.
+ASH (sad): ...I should have read the manual.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC jazz 2
+SCENE pokemon_tower
+PLACE ash center right happy
+PLACE pikachu midleft right happy
+SFX gasp
+ASH (happy): Hey, Gengar. Watch this. Pikachu, make a funny face!
+PIKACHU (happy): Pika-pika-pikaaa!
+NARRATOR: Pikachu puffed its cheeks and crossed its eyes. Gengar laughed so hard it turned see-through.
+ASH (excited): It likes us! Gengar likes us!
+PIKACHU (smug): Pika.
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC jazz
+SCENE pokemon_tower
+PLACE brock center left smug
+PLACE ash midright left nervous
+PLACE misty midleft right neutral
+BROCK (smug): Ash. Maybe Gengar doesn't want to be caught. Maybe it just wants a friend who'll laugh at its jokes.
+ASH (nervous): But I really wanted a Ghost-type.
+BROCK (happy): Sometimes the best Pokémon friends are the ones that stay where they're happy.
+ASH (sad): ...You're right, Brock. This tower is its home.
+MISTY (happy): And it can keep scaring Team Rocket. Forever.
+
+# ------------------------------------------------------------ LAVENDER TOWN
+MUSIC action
+SCENE town_square
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+JESSIE (scared): We're never going back into that tower. Never!
+JAMES (scared): I think I left my courage on the third floor.
+SFX gasp
+MEOWTH (scared): Uh... guys? It followed us.
+SFX blast
+JESSIE (scared): Team Rocket's running away agaaaaain!
+
+# ------------------------------------------------------------ POKÉMON TOWER
+MUSIC romantic
+SCENE pokemon_tower
+CARD Sunset...
+PLACE ash center right happy
+PLACE pikachu midleft right happy
+PLACE misty midright left happy
+ASH (happy): Bye, Gengar! Thanks for the pranks!
+PIKACHU (happy): Pika pi!
+MISTY (smug): It waved. And then it pulled your cap over your eyes again.
+ASH (smug): ...I'm gonna miss that guy.
+END

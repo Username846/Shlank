@@ -1,0 +1,197 @@
+@title Lost in Viridian Forest
+@series Pokémon
+@season 2
+@icon rocket
+@number 2
+@description Ash takes a shortcut through Viridian Forest, and everyone gets lost. So does Team Rocket. Togepi wanders off after a Butterfree, and Ash and Team Rocket have to work together to find their way out.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC happy
+SCENE viridian_forest cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right nervous
+PLACE brock midright left nervous
+PLACE pikachu farleft right happy
+ASH (excited): This shortcut will save us a whole day! Trust me!
+MISTY (nervous): Ash, you said that about the last three shortcuts.
+BROCK (nervous): And we ended up in a swamp. Twice.
+ASH (smug): This time, I've got a map!
+MISTY (angry): Ash. That map is upside down.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC sneaky
+SCENE viridian_forest
+PLACE jessie center left angry
+PLACE james midright left nervous
+PLACE meowth midleft right nervous
+JESSIE (angry): James! You said you knew the way!
+JAMES (nervous): I did know the way! Then the way changed!
+MEOWTH (nervous): Every tree in here looks the same. That one's got a face.
+JESSIE (scared): Trees don't have faces, Meowth!
+MEOWTH (scared): Then why is it lookin' at me?
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC jazz
+SCENE viridian_forest
+PLACE misty center left happy
+PLACE togepi midright left excited
+MISTY (happy): Togepi, stay close to Mommy, okay? This forest is big.
+TOGEPI (excited): Toge-priii!
+SFX sparkle
+NARRATOR: A beautiful Butterfree floated by. Togepi clapped its tiny hands and toddled right after it.
+MISTY (surprised): Togepi? Togepi, where are you going?
+MISTY (scared): TOGEPI!
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC tense
+SCENE viridian_forest
+PLACE misty center left scared
+PLACE ash midright left nervous
+PLACE brock right left nervous
+PLACE pikachu midleft right neutral
+MISTY (scared): Ash! Brock! Togepi wandered off! I can't find it anywhere!
+ASH (nervous): Don't worry, Misty. We'll find it. Pikachu, can you sniff it out?
+PIKACHU (nervous): Pika...
+BROCK (nervous): The forest is getting dark. We have to hurry.
+MISTY (sad): It's just a baby. It doesn't know how to find its way back.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC sneaky
+SCENE viridian_forest
+PLACE ash center right nervous
+PLACE brock midleft right smug
+PLACE pikachu midright left nervous
+ASH (nervous): Togepi! Togepi! Where are you?
+BROCK (smug): Look. Tiny footprints. And they go that way.
+ASH (excited): Brock, you can track footprints?
+BROCK (happy): When you have ten little brothers and sisters, you learn to track everybody.
+PIKACHU (excited): Pika pika!
+ASH (excited): Pikachu found more! Let's go!
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC sneaky 2
+SCENE viridian_forest
+PLACE meowth center left surprised
+PLACE togepi midright left happy
+MEOWTH (surprised): Hey. What's a little egg doin' out here all by itself?
+TOGEPI (happy): Toge-priii!
+MEOWTH (nervous): Don't look at me like that. I'm a bad guy. I'm very bad.
+TOGEPI (excited): Toge! Toge!
+MEOWTH (shy): ...Okay, okay. You can sit on my head. Just for a minute.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC jazz 2
+SCENE viridian_forest
+PLACE jessie center left surprised
+PLACE james midright left excited
+PLACE meowth midleft right smug
+PLACE togepi right left neutral
+JESSIE (surprised): Meowth. Why is there an egg on your head?
+MEOWTH (smug): It's the twerpette's Togepi. It's lost.
+JAMES (excited): We can hold it for ransom! The twerps will hand over Pikachu in exchange!
+TOGEPI (happy): Toge-priii!
+JAMES (shy): ...Actually, it's very cute. Can I hold it first?
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC action
+SCENE viridian_forest
+PLACE ash center right angry
+PLACE jessie midleft right smug
+PLACE james left right smug
+PLACE meowth farleft right smug
+PLACE togepi midright left happy
+ASH (angry): Team Rocket! Give back Togepi!
+JESSIE (smug): Prepare for trouble, we've found your egg!
+JAMES (smug): And make it double, now don't make us beg!
+MEOWTH (smug): Give us Pikachu and you get the egg back. Fair trade!
+ASH (angry): No way!
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC tense
+SCENE viridian_forest
+PLACE brock center left nervous
+PLACE ash midright left nervous
+SFX hiss
+NARRATOR: Then, from every tree in the forest, came a buzzing sound. A big, angry, buzzing sound.
+BROCK (scared): Beedrill. A whole swarm of Beedrill. We're in their nest!
+ASH (scared): Everybody run!
+SFX whoosh
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC action 2
+SCENE viridian_forest
+PLACE meowth center left scared
+PLACE ash midright left scared
+PLACE togepi midleft right scared
+SFX hiss
+MEOWTH (scared): Twerp! Your egg! I can't run fast with an egg!
+ASH (scared): Give it here! I'll carry it!
+MEOWTH (nervous): ...Here. Take good care of it.
+ASH (surprised): Meowth?
+MEOWTH (angry): Don't make it weird! Just RUN!
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC tense
+SCENE viridian_forest
+CARD Hiding in a hollow log...
+PLACE jessie center left nervous
+PLACE ash midright left nervous
+PLACE james midleft right nervous
+PLACE misty right left nervous
+JESSIE (nervous): Why are we hiding in a log with the twerps?
+ASH (nervous): Because the Beedrill are out there.
+JAMES (nervous): This is the most awkward log I've ever been in.
+MISTY (happy): Togepi! You're safe! Thank you, Ash!
+ASH (smug): Actually, you should thank Meowth.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC jazz 2
+SCENE viridian_forest
+CARD Still in the log...
+PLACE james center left nervous
+PLACE misty midright left smug
+JAMES (nervous): So, twerpette. How do you keep Togepi so happy all the time?
+MISTY (smug): You hold it. You talk to it. You sing to it when it's scared.
+JAMES (happy): I used to sing to my Growlie. When I was a little boy.
+MISTY (surprised): You had a Growlithe?
+JAMES (sad): He was my only friend. Before Team Rocket.
+MISTY (shy): ...That's actually kind of sweet, James.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC sneaky
+SCENE viridian_forest
+PLACE brock center left smug
+PLACE ash midright left excited
+PLACE pikachu midleft right neutral
+BROCK (smug): I've got an idea. Beedrill don't like smoke. If we light a little fire, they'll fly away.
+ASH (excited): Great idea, Brock! Pikachu, a tiny spark!
+PIKACHU (happy): Pika!
+SFX sizzle
+NARRATOR: A thin trail of smoke drifted out of the log. One by one, the Beedrill buzzed off.
+BROCK (happy): See? Old Pewter City trick.
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC happy
+SCENE viridian_forest
+PLACE ash center right happy
+PLACE meowth midleft right shy
+ASH (happy): Meowth. Thanks for keeping Togepi safe.
+MEOWTH (shy): Don't mention it. Seriously. Don't mention it to anybody.
+ASH (smug): And since we're even... you guys know the way out of here?
+MEOWTH (sad): Nope. We've been lost for three days.
+ASH (surprised): Three days?!
+
+# ------------------------------------------------------------ VIRIDIAN FOREST
+MUSIC romantic
+SCENE viridian_forest
+CARD The next morning...
+PLACE misty center left happy
+PLACE togepi midright left happy
+PLACE ash midleft right happy
+MISTY (happy): Look, everyone! Sunlight! We're at the edge of the forest!
+ASH (excited): And there's Pewter City! We made it!
+TOGEPI (excited): Toge-priii!
+MISTY (smug): And Ash, next time, we take the long way.
+ASH (sad): ...Fine.
+END

@@ -1,0 +1,192 @@
+@title Welcome Home, Ash
+@series Pokémon
+@season 2
+@icon rocket
+@number 1
+@description Ash comes home to Pallet Town for a surprise party. His mom has invited everyone, including Professor Oak and Gary. Team Rocket has invited themselves, disguised as the caterers.
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC happy
+SCENE ash_house cut
+TITLE
+PLACE delia_ketchum center left excited
+PLACE professor_oak midright left happy
+DELIA_KETCHUM (excited): Professor! Ash is coming home tonight! I'm throwing him a surprise party!
+PROFESSOR_OAK (happy): Wonderful, Delia! I'll bring a poem. I've been working on it for weeks.
+DELIA_KETCHUM (nervous): Is it a... long poem?
+PROFESSOR_OAK (smug): Only fourteen verses. About Pidgey.
+DELIA_KETCHUM (happy): Well. Everybody loves Pidgey.
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC jazz
+SCENE pallet_town
+PLACE ash center right excited
+PLACE pikachu midleft right happy
+PLACE misty midright left happy
+PLACE brock right left happy
+ASH (excited): Pallet Town! It's been so long! I bet Mom's making her famous croquettes!
+PIKACHU (excited): Pika pika!
+MISTY (smug): Ash, you talk about those croquettes every single day.
+BROCK (happy): I've been dreaming about meeting your mom's cooking, Ash. As a fellow chef.
+ASH (happy): You're gonna love her, Brock.
+
+# ------------------------------------------------------------ TEAM ROCKET CAMP
+MUSIC sneaky
+SCENE rocket_camp
+PLACE jessie center left smug
+PLACE james midright left excited
+PLACE meowth midleft right smug
+JESSIE (smug): The twerp's mother is throwing a party. And every party needs food.
+JAMES (excited): So we'll be the caterers! I've always wanted to wear a little white hat!
+MEOWTH (smug): While everyone's eating, we grab Pikachu. Right out from under the snack table.
+JESSIE (happy): And maybe a few croquettes for the road.
+MEOWTH (excited): Now you're thinking, Jessie!
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC happy 2
+SCENE ash_house
+PLACE delia_ketchum center left excited
+ENTER ash right midright surprised
+PLACE pikachu farright left surprised
+SFX fanfare
+DELIA_KETCHUM (excited): Surprise! Welcome home, Ash!
+ASH (surprised): Mom! A party? For me?
+DELIA_KETCHUM (happy): Of course, sweetie. Now. Did you remember to change your underwear every day?
+ASH (nervous): MOM! Not in front of everybody!
+PIKACHU (happy): Pika-pi!
+
+# ------------------------------------------------------------ OAK'S LAB
+MUSIC jazz
+SCENE oak_lab
+PLACE professor_oak center left happy
+PLACE ash midright left excited
+PLACE pikachu farright left happy
+PROFESSOR_OAK (happy): Ash! Sneak over to the lab with me for a minute. Your Pokémon are all here, happy and healthy.
+ASH (excited): Hi, everybody! I missed you!
+PROFESSOR_OAK (smug): Your Muk gave me a hug this morning. I may never smell the same again.
+ASH (nervous): Sorry, Professor.
+PROFESSOR_OAK (happy): Nonsense. A hug is a hug, Ash. Even a sticky one.
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC jazz 2
+SCENE ash_house
+PLACE gary_oak center left smug
+PLACE ash midright left angry
+GARY_OAK (smug): Well, well. Look who finally made it home. Ashy-boy.
+ASH (angry): Gary! What are you doing at my party?
+GARY_OAK (smug): Your mom invited me. She's very polite. Unlike you.
+ASH (angry): How many badges do you have, Gary?
+GARY_OAK (smug): Enough to know I have more than you. Smell ya later.
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC sneaky 2
+SCENE ash_house
+PLACE jessie center left happy
+PLACE james midright left happy
+PLACE delia_ketchum right left surprised
+JESSIE (happy): Good evening, madam! We're the caterers! From the... Catering Company!
+DELIA_KETCHUM (surprised): Oh! I didn't order caterers.
+JAMES (happy): It's a free service! For the mothers of famous trainers!
+DELIA_KETCHUM (excited): How thoughtful! Come in, come in!
+JESSIE (smug): Heh heh. Too easy.
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC jazz
+SCENE ash_house
+PLACE brock center right excited
+PLACE delia_ketchum midleft right happy
+BROCK (excited): Mrs. Ketchum! These croquettes are incredible! What's your secret?
+DELIA_KETCHUM (happy): A little love and a lot of butter, Brock.
+BROCK (excited): Can I have the recipe? I'll cook it for Ash on the road!
+DELIA_KETCHUM (smug): Only if you promise he eats his vegetables, too.
+BROCK (happy): I promise! Mostly!
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC sad
+SCENE ash_house
+PLACE professor_oak center left excited
+PLACE ash midright left nervous
+PLACE misty right left nervous
+PROFESSOR_OAK (excited): And now, my poem. "Ode to Pidgey." Verse one. Oh, Pidgey, oh, Pidgey, you flap and you flap...
+ASH (nervous): How many verses did he say?
+MISTY (nervous): Fourteen.
+PROFESSOR_OAK (happy): Verse two! Oh, Pidgey, oh, Pidgey, you nap and you nap...
+NARRATOR: Meanwhile, under the snack table, a small cat in a chef's hat was making his move.
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC tense
+SCENE ash_house
+PLACE meowth center left smug
+PLACE pikachu midright left surprised
+MEOWTH (smug): Psst. Pikachu. Want a croquette? A nice, warm, delicious croquette?
+PIKACHU (happy): Pika!
+MEOWTH (excited): Just step into this nice, warm, delicious sack.
+PIKACHU (surprised): Pika?
+SFX whoosh
+MEOWTH (excited): Got him! Jessie! James! We're outta here!
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC action
+SCENE ash_house
+PLACE ash center right angry
+PLACE jessie midleft right smug
+PLACE james midright left smug
+ASH (angry): Hey! Where's Pikachu?!
+JESSIE (smug): Prepare for trouble, at your party!
+JAMES (smug): And make it double, we brought the hearty!
+ASH (angry): That doesn't even rhyme right! Give back Pikachu!
+JESSIE (angry): We're improvising! It's hard to rhyme with "party"!
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC action 2
+SCENE pallet_town
+PLACE gary_oak center left smug
+PLACE ash midright left angry
+PLACE meowth right left scared
+GARY_OAK (smug): Need a hand, Ashy-boy? Go, Blastoise!
+ASH (surprised): Gary?
+SFX splash
+SHAKE 0.5
+NARRATOR: A huge blast of water knocked the sack right out of Meowth's paws. Pikachu tumbled out, and he was angry.
+MEOWTH (scared): Uh oh. That's an angry Pikachu.
+ASH (excited): Pikachu! Thunderbolt!
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC action
+SCENE pallet_town
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX zap
+SHAKE 0.8
+JESSIE (scared): We never even got to try the croquettes!
+JAMES (sad): I did. They were delicious.
+MEOWTH (scared): Team Rocket's blasting off agaaaaain!
+SFX blast
+
+# ------------------------------------------------------------ PALLET TOWN
+MUSIC romantic
+SCENE pallet_town
+PLACE ash center right happy
+PLACE gary_oak midleft right smug
+ASH (happy): Gary. Thanks. You helped me get Pikachu back.
+GARY_OAK (smug): Don't get used to it. I just didn't want the party to end before the croquettes.
+ASH (smug): You like my mom's croquettes, huh?
+GARY_OAK (shy): ...They're the best in Pallet Town. Don't tell anybody I said that.
+ASH (happy): Smell ya later, Gary.
+GARY_OAK (surprised): Hey! That's my line!
+
+# ------------------------------------------------------------ ASH'S HOUSE
+MUSIC romantic 2
+SCENE ash_house
+CARD Later that night...
+PLACE delia_ketchum center left happy
+PLACE ash midright left happy
+PLACE pikachu farright left happy
+PLACE professor_oak midleft right happy
+DELIA_KETCHUM (happy): Welcome home, Ash. I'm so proud of you.
+ASH (happy): Thanks, Mom. It's good to be home.
+PROFESSOR_OAK (excited): And now, verse fourteen of my poem!
+ASH (nervous): Oh no, he's still going?
+PIKACHU (happy): Pika pika!
+END

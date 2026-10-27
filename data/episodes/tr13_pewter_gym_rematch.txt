@@ -1,0 +1,177 @@
+@title The Pewter Gym Rematch
+@series Pokémon
+@season 2
+@icon rocket
+@number 3
+@description Brock comes home to Pewter City to check on his Gym. A mysterious new challenger with a very large Rock-type Pokémon is beating everybody. The challenger has a suspicious voice and a suspicious cat.
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC happy
+SCENE pewter_gym cut
+TITLE
+PLACE brock center left excited
+PLACE ash midright left happy
+PLACE misty right left happy
+BROCK (excited): Pewter Gym! Home sweet home! I can't wait to see how my brothers and sisters are running it!
+ASH (happy): It looks great, Brock. Very... rocky.
+MISTY (smug): It's a Rock-type Gym, Ash. What did you expect, flowers?
+BROCK (nervous): Wait. Why is the door broken? And why is there a giant hole in the wall?
+ASH (surprised): Maybe it's a new window?
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC sad
+SCENE pewter_gym
+PLACE brock center left surprised
+PLACE nurse_joy midright left sad
+NURSE_JOY (sad): Brock! Thank goodness you're here. A new challenger came to the Gym. Every day this week.
+BROCK (surprised): A challenger? Did they win?
+NURSE_JOY (sad): Every battle. With a huge Rock-type Pokémon. They're calling themselves the Rock Queen.
+BROCK (excited): Nurse Joy, you came all the way here to tell me?
+NURSE_JOY (smug): I came to get my bandages back. Your brothers borrowed all of them.
+BROCK (sad): ...Oh.
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC sneaky
+SCENE pewter_gym
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE meowth midleft right smug
+JESSIE (smug): I am the Rock Queen! Undefeated! Unstoppable! Unbelievably beautiful!
+JAMES (smug): And I'm the Rock Queen's assistant. The Pebble Prince.
+MEOWTH (smug): And our "Rock-type Pokémon" is a giant robot covered in rocks. Nobody's noticed yet.
+JESSIE (happy): Once the twerp comes to battle, we'll grab Pikachu with the robot's rocky arm.
+JAMES (excited): And a Pewter Gym badge! I've always wanted a badge!
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC jazz 2
+SCENE pewter_gym
+PLACE brock center left happy
+PLACE misty midright left happy
+BROCK (happy): My brothers and sisters! I missed you all! Did you eat your vegetables? Did you brush your teeth?
+MISTY (happy): Brock, how many brothers and sisters do you have?
+BROCK (smug): Nine. Ten if you count Onix.
+MISTY (surprised): Who takes care of them when you're traveling?
+BROCK (nervous): ...My dad. Mostly. With a lot of sticky notes.
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC jazz
+SCENE pewter_gym
+PLACE brock center left nervous
+PLACE ash midright left excited
+BROCK (nervous): Ash. The Gym is my family's. If the Rock Queen keeps winning, they'll lose their reputation.
+ASH (excited): Then you have to battle her, Brock! You're the real Gym Leader!
+BROCK (sad): I haven't battled here in a long time. What if I've lost my touch?
+ASH (smug): Brock. You're as hard as a rock. That's your whole thing.
+BROCK (happy): ...That's true. I am pretty hard.
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC tense
+SCENE pewter_gym
+CARD The challenge...
+PLACE brock center left smug
+PLACE jessie midright left smug
+BROCK (smug): Rock Queen! I'm Brock, the real Pewter Gym Leader. I challenge you!
+JESSIE (smug): Ha! You'll lose, like all the others!
+BROCK (surprised): Wait. Your voice sounds familiar.
+JESSIE (nervous): No it doesn't! I have a very common voice!
+BROCK (smug): Go, Onix!
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC action
+SCENE pewter_gym
+PLACE brock center left excited
+PLACE james midright left nervous
+SFX stomp
+SHAKE 0.8
+NARRATOR: Onix roared out of its Poké Ball, a giant snake made of boulders. On the other side, the Rock Queen's Pokémon clanked forward. It was big. It was gray. It smelled faintly of motor oil.
+BROCK (excited): Onix! Tackle!
+SFX thud
+JAMES (nervous): Our Pokémon is... wobbling. Is it supposed to wobble?
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC sneaky 2
+SCENE pewter_gym
+PLACE misty center left nervous
+PLACE ash midright left surprised
+PLACE pikachu midleft right neutral
+MISTY (nervous): Ash. That Pokémon has bolts. Pokémon don't have bolts.
+ASH (surprised): And there's a cat inside it! Pulling levers!
+MISTY (smug): Team Rocket. Of course it's Team Rocket.
+ASH (angry): Pikachu, get ready!
+PIKACHU (angry): Pika!
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC action 2
+SCENE pewter_gym
+PLACE meowth center left excited
+PLACE pikachu midright left surprised
+SFX zap
+MEOWTH (excited): Now! Extend the rocky arm! Grab the Pikachu!
+SFX whoosh
+PIKACHU (scared): Pika?!
+NARRATOR: A huge rocky claw shot out of the robot and snatched Pikachu out of the air.
+MEOWTH (smug): Rubber-lined! No zapping allowed!
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC tense
+SCENE pewter_gym
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE ash midleft right angry
+JESSIE (smug): Prepare for trouble, we rock this town!
+JAMES (smug): And make it double, we're wearing the crown!
+ASH (angry): Give back Pikachu!
+JESSIE (happy): We'll take the badge, too. Thank you very much.
+ASH (angry): You didn't even win!
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC action
+SCENE pewter_gym
+PLACE brock center left angry
+PLACE ash midright left nervous
+BROCK (angry): Nobody steals a Pokémon in my Gym. Onix! Wrap around that robot! Squeeze!
+SFX thud
+SHAKE 0.6
+NARRATOR: Onix wrapped its long rocky body around the robot. The robot creaked. It groaned. The rocks glued to its outside began to fall off.
+ASH (excited): Go, Onix!
+BROCK (smug): A Rock-type knows a fake rock when it sees one.
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC action 2
+SCENE pewter_gym
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX blast
+SHAKE 0.9
+JESSIE (scared): The robot's falling apart!
+JAMES (sad): And it was such a lovely shade of gray.
+MEOWTH (scared): The claw's opening! The Pikachu's loose!
+SFX zap
+JESSIE (scared): Team Rocket's blasting off agaaaain!
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC happy
+SCENE pewter_gym
+PLACE ash center right happy
+PLACE pikachu midleft right happy
+PLACE brock midright left smug
+ASH (happy): Pikachu! You're okay!
+PIKACHU (happy): Pika pika!
+BROCK (smug): The real Pewter Gym Leader wins. The Gym's reputation is safe.
+ASH (excited): Brock, that was the best battle I've ever seen you do!
+BROCK (shy): Thanks, Ash. It felt good to be home.
+
+# ------------------------------------------------------------ PEWTER GYM
+MUSIC romantic
+SCENE pewter_gym
+CARD That evening...
+PLACE brock center left happy
+PLACE nurse_joy midright left happy
+BROCK (excited): Nurse Joy! Now that the Gym is safe, would you like to go to dinner? I'll cook!
+NURSE_JOY (happy): That's sweet, Brock. But I really just need my bandages.
+BROCK (sad): ...They're in the closet.
+NURSE_JOY (smug): Thank you, Brock.
+PLACE misty farleft right smug
+MISTY (smug): Smooth, Brock. Real smooth.
+END

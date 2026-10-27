@@ -1,0 +1,208 @@
+@title Volcano Trouble on Cinnabar Island
+@series Pokémon
+@season 2
+@icon rocket
+@number 9
+@description Ash goes to Cinnabar Island for his Volcano Badge. The Gym Leader asks riddles before every battle. Team Rocket plans to steal Fire-type Pokémon from the old island laboratory. The volcano is starting to rumble.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC happy
+SCENE cinnabar_island cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right nervous
+PLACE brock midright left smug
+ASH (excited): Cinnabar Island! Home of the Volcano Badge!
+MISTY (nervous): Ash, there's smoke coming out of that volcano.
+BROCK (smug): It's a sleeping volcano. It just snores a little.
+SFX thud
+SHAKE 0.3
+MISTY (scared): That was a very loud snore, Brock!
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC jazz
+SCENE cinnabar_island
+PLACE ash center right excited
+PLACE pikachu midleft right happy
+NARRATOR: The Cinnabar Gym had a sign on its door. "Only those who answer my riddle may enter. What has a mouth but never eats?"
+ASH (excited): Easy! Snorlax!
+SFX wahwah
+ASH (surprised): Snorlax isn't right? Snorlax eats all the time!
+PIKACHU (smug): Pika.
+ASH (nervous): Oh. That's the point.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC sneaky
+SCENE cinnabar_island
+PLACE jessie center left smug
+PLACE james midright left excited
+PLACE meowth midleft right smug
+JESSIE (smug): Cinnabar Island has an old abandoned laboratory. Full of rare Fire-type Pokémon.
+JAMES (excited): Magmar! Ponyta! Vulpix! Rapidash!
+MEOWTH (smug): We'll sneak in and grab 'em all. The Boss loves Fire-types.
+JAMES (nervous): Doesn't the Boss love everything?
+JESSIE (smug): He loves things that make him look cool. And fire looks VERY cool.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC sad
+SCENE cinnabar_island
+PLACE ash center right sad
+PLACE brock midleft right smug
+ASH (sad): What has a mouth but never eats? I've been thinking for an hour.
+BROCK (smug): A Pokémon that's on a diet?
+ASH (excited): That's it! A Snorlax on a diet!
+BROCK (nervous): Ash, I was joking.
+ASH (sad): ...So was I. Mostly.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC jazz 2
+SCENE cinnabar_island
+PLACE misty center left smug
+PLACE ash midright left nervous
+MISTY (smug): Ash. A river has a mouth. And it never eats.
+ASH (surprised): A river?
+MISTY (happy): The answer is a river.
+ASH (excited): A river! Misty, you're a genius!
+MISTY (smug): I'm a Water-type trainer. Rivers are kind of my thing.
+SFX door
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC jazz 2
+SCENE cinnabar_island
+CARD Inside the Gym...
+PLACE ash center right excited
+PLACE misty midleft right nervous
+SFX sizzle
+ASH (excited): Whoa. The floor is so hot! It's like walking on a frying pan!
+MISTY (nervous): I'd rather be in a pool. Any pool. A puddle, even.
+NARRATOR: A voice boomed from the darkness. "Welcome, challenger! Answer another riddle, or turn back now!"
+ASH (smug): Bring it on!
+MISTY (nervous): Ash, please let me answer this one.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC tense
+SCENE cinnabar_island
+PLACE brock center left nervous
+PLACE ash midright left nervous
+SFX thud
+SHAKE 0.7
+BROCK (nervous): Ash, the ground is shaking more. And the smoke is getting darker.
+ASH (nervous): Is the volcano waking up?
+BROCK (scared): I think somebody woke it up. Look at that cave by the lab.
+NARRATOR: Down by the old laboratory, someone was drilling. Loudly. Right into the side of the volcano.
+ASH (angry): Team Rocket!
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC action
+SCENE cinnabar_island
+PLACE jessie center left excited
+PLACE james midright left nervous
+PLACE meowth midleft right excited
+SFX blast
+SHAKE 0.6
+JESSIE (excited): The lab door is stuck! Drill harder, Meowth!
+MEOWTH (excited): I'm drillin' as hard as I can!
+JAMES (nervous): Jessie, I think we drilled into the wrong wall. That one's smoking.
+JESSIE (nervous): Smoking? Walls don't smoke.
+JAMES (scared): Volcano walls do!
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC action 2
+SCENE cinnabar_island
+PLACE ash center right angry
+PLACE jessie midleft right scared
+PLACE james midright left neutral
+PLACE meowth right left neutral
+SFX thud
+SHAKE 1.0
+ASH (angry): Team Rocket! What did you do?!
+JESSIE (scared): Prepare for trouble... and maybe... lava?
+JAMES (scared): And make it double... it's getting hot!
+MEOWTH (scared): Forget the motto! The volcano's erupting!
+SFX blast
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC tense
+SCENE cinnabar_island
+PLACE officer_jenny center left nervous
+PLACE ash midright left scared
+SFX beep
+OFFICER_JENNY (nervous): Everyone, evacuate! Get to the boats!
+ASH (scared): But the Pokémon in the old lab! They're trapped!
+OFFICER_JENNY (scared): The lava is flowing straight toward the lab!
+ASH (angry): Then we have to stop it!
+OFFICER_JENNY (surprised): Stop lava? How?
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC action
+SCENE cinnabar_island
+PLACE misty center left excited
+PLACE brock midright left excited
+PLACE ash midleft right excited
+MISTY (excited): Water! Lava cools down when it hits water! Starmie, Water Gun!
+BROCK (excited): Onix! Dig a trench! Send the lava toward the sea!
+ASH (excited): Squirtle! Water Gun, too!
+SFX splash
+NARRATOR: Water hit lava. Steam filled the air. Onix dug a long ditch, and the lava turned away from the lab and slid into the sea.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC action 2
+SCENE cinnabar_island
+PLACE psyduck center left nervous
+PLACE misty midright left surprised
+SFX pop
+PSYDUCK (nervous): Psy-yi-yi?
+MISTY (surprised): Psyduck! I didn't call you! Get back in your ball before you get hurt!
+SFX thud
+NARRATOR: A falling rock bonked Psyduck on the head. Its eyes began to glow.
+MISTY (excited): Wait! A headache! Go, Psyduck!
+SFX powerup
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC action
+SCENE cinnabar_island
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX blast
+NARRATOR: Psyduck's psychic wave lifted a whole wall of cooled lava rock and plugged the hole Team Rocket had drilled. And then, with a little extra push, it plugged Team Rocket into the sky.
+JESSIE (scared): The duck again?!
+JAMES (scared): We need to stop underestimating that duck!
+MEOWTH (scared): Team Rocket's blasting off agaaaain!
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC sad
+SCENE cinnabar_island
+PLACE ash center right sad
+PLACE pikachu midleft right sad
+ASH (sad): Pikachu, I almost forgot. The Fire-types in the old lab. Are they okay?
+PIKACHU (nervous): Pika...
+NARRATOR: Ash pushed the heavy lab door open. Inside, a Ponyta and a little Vulpix were huddled together. Scared, but safe.
+ASH (happy): Hey. It's okay. The volcano's asleep again.
+PIKACHU (happy): Pika pika!
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC happy
+SCENE cinnabar_island
+PLACE officer_jenny center left happy
+PLACE ash midright left happy
+PLACE misty right left happy
+OFFICER_JENNY (happy): The volcano's quiet. The lab is safe. And all the Fire-type Pokémon are okay.
+ASH (excited): We did it!
+MISTY (smug): Water-types to the rescue.
+OFFICER_JENNY (happy): The Gym Leader wants to see you, Ash. He says you've answered the biggest riddle of all.
+ASH (surprised): Which riddle?
+OFFICER_JENNY (smug): "What is braver than fire?" A trainer who helps.
+
+# ------------------------------------------------------------ CINNABAR ISLAND
+MUSIC romantic
+SCENE cinnabar_island
+CARD The next day...
+PLACE ash center right excited
+PLACE pikachu midleft right happy
+PLACE brock midright left happy
+ASH (excited): I won! The Volcano Badge! Seven badges!
+PIKACHU (happy): Pika pika!
+BROCK (smug): Just one more, Ash. Then the Pokémon League.
+ASH (excited): The Indigo Plateau, here I come!
+END

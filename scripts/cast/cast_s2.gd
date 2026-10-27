@@ -16,6 +16,10 @@ static func draw(p: Puppet, style: String) -> bool:
 	match style:
 		# SpongeBob SquarePants
 		"squilliam": _squid(p, Color("c8b8f0"), Color("2b2f4a"), true)
+		# Pokémon
+		"psyduck": _psyduck(p)
+		"togepi": _togepi(p)
+		"jigglypuff": _jigglypuff(p)
 		_: return false
 	return true
 
@@ -105,10 +109,25 @@ static func _human(style: String) -> Dictionary:
 		"kimi":
 			return {"size": "baby", "skin": Color("f2d2b0"), "top": Color("9b5fd0"), "bottom": "shorts", "bottom_col": Color("6fbf6a"),
 				"shoe": Color("f28cb8"), "hair": "pigtails", "hair_col": Color("8a2a3a"), "lashes": 2, "eye": Vector2(8, 10)}
+		# Pokémon
+		"professor_oak":
+			return {"size": "adult", "top": Color("c8503a"), "sleeves": "long", "sleeve": Color("f4f4f2"), "bottom_col": Color("8a6a4a"),
+				"shoe": Color("6b4428"), "hair": "spiky", "hair_col": Color("b8b8c0"), "brow_col": Color("b8b8c0"), "brow_w": 7.0,
+				"torso_w": 31.0, "torso_extra": _x_lab_coat.bind("adult")}
+		"gary_oak":
+			return {"size": "kid", "top": Color("7a3fa0"), "sleeves": "long", "bottom_col": Color("2b2b33"), "shoe": Color("2b2b33"),
+				"hair": "spiky", "hair_col": Color("8a5a36"), "base_lid": 0.3, "torso_extra": _x_pendant}
+		"delia_ketchum":
+			return {"size": "adult", "top": Color("f28cb8"), "sleeves": "short", "bottom": "skirt", "bottom_col": Color("7a3fa0"),
+				"legs": Puppet.SKIN, "shoe": Color("8a5a36"), "hair": "ponytail", "hair_col": Color("8a4a2a"), "lashes": 2, "torso_w": 28.0}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_pendant(p: Puppet) -> void:
+	Art.stroke(p.ci, Art.curve(Vector2(-12, -126), Vector2(0, -100), Vector2(12, -126), 8), 2.0)
+	Art.blob(p.ci, Vector2(0, -98), 5, 6, Color("f4f4f2"), 2.0)
 
 static func _x_whistle(p: Puppet, hc: Vector2) -> void:
 	Art.stroke(p.ci, Art.curve(hc + Vector2(-16, 34), hc + Vector2(0, 66), hc + Vector2(16, 34), 8), 2.5, Color("f4f4f2"))
@@ -239,3 +258,72 @@ static func _squid(p: Puppet, skin: Color, shirt: Color, unibrow: bool) -> void:
 		Vector2(0, -154), Vector2(-4, -180)]), 5)
 	Art.shape(ci, nose, skin, 4.0, 0.15)
 	p._arm(Vector2(33, -118), 1, raise.y, 64, 7, skin, 7, skin)
+
+
+
+# ------------------------------------------------------------- Pokémon --
+
+static func _psyduck(p: Puppet) -> void:
+	var ci := p.ci
+	var yel := Color("f6d65a")
+	var raise := p._arm_raise()
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.5
+		Art.blob(ci, Vector2(sx * 18 + sw, -8), 18, 8, Color("f2e8c8"), 3.0)
+	Art.blob(ci, Vector2(0, -56), 36, 44, yel, 4.0, 0.12)
+	var hc := Vector2(0, -132)
+	Art.blob(ci, hc, 44, 40, yel, 4.0, 0.1)
+	for dx in [-8, 0, 8]:
+		Art.stroke(ci, PackedVector2Array([hc + Vector2(dx, -38), hc + Vector2(dx * 1.4, -60)]), 3.0)
+	for sx in [-1, 1]:
+		p._eye(hc + Vector2(sx * 16, -10), 9, 9, 0, Color(0, 0, 0, 0), sx, 0.0, yel)
+	Art.shape(ci, Art.ellipse(hc + Vector2(0, 16), 24, 12, 20), Color("f2e8c8"), 3.5)
+	if p._talk_open > 0.1:
+		Art.blob(ci, hc + Vector2(0, 18), 10, 5 * p._talk_open + 1, Color(0.36, 0.04, 0.1), 2.0)
+	# Both hands on its aching head
+	p._arm(Vector2(-30, -80), -1, maxf(raise.x, 2.6), 40, 9, yel, 8, yel)
+	p._arm(Vector2(30, -80), 1, maxf(raise.y, 2.6), 40, 9, yel, 8, yel)
+
+
+static func _togepi(p: Puppet) -> void:
+	var ci := p.ci
+	var cream := Color("f6ecc8")
+	var raise := p._arm_raise()
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.4
+		Art.blob(ci, Vector2(sx * 14 + sw, -8), 12, 8, cream, 3.0)
+	p._arm(Vector2(-26, -58), -1, raise.x, 14, 8, cream, 7, cream)
+	Art.blob(ci, Vector2(0, -60), 34, 44, cream, 4.0, 0.1)
+	for dx in [-16, 0, 16]:
+		Art.shape(ci, PackedVector2Array([Vector2(dx - 8, -100), Vector2(dx, -116), Vector2(dx + 8, -100)]), cream, 3.0)
+	# Eggshell with red and blue triangles
+	var shell := PackedVector2Array([Vector2(-36, -64), Vector2(-24, -76), Vector2(-12, -62), Vector2(0, -76), Vector2(12, -62),
+		Vector2(24, -76), Vector2(36, -64), Vector2(34, -36), Vector2(20, -18), Vector2(-20, -18), Vector2(-34, -36)])
+	Art.shape(ci, shell, Color.WHITE, 3.5, 0.08)
+	Art.shape(ci, PackedVector2Array([Vector2(-22, -54), Vector2(-8, -54), Vector2(-15, -36)]), Color("e6452f"), 2.0)
+	Art.shape(ci, PackedVector2Array([Vector2(8, -50), Vector2(22, -50), Vector2(15, -32)]), Color("4a78d0"), 2.0)
+	for sx in [-1, 1]:
+		p._eye(Vector2(sx * 12, -86), 5, 7, 0, Color(0, 0, 0, 0), sx, 0.0, cream)
+	p._mouth(Vector2(0, -76), 14, 0)
+	p._arm(Vector2(26, -58), 1, raise.y, 14, 8, cream, 7, cream)
+
+
+static func _jigglypuff(p: Puppet) -> void:
+	var ci := p.ci
+	var pink := Color("f7b8d2")
+	var raise := p._arm_raise()
+	var c := Vector2(0, -62)
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.5
+		Art.blob(ci, Vector2(sx * 18 + sw, -8), 14, 8, pink, 3.0)
+	Art.blob(ci, c + Vector2(-48, 4 - raise.x * 16), 12, 10, pink, 3.0)
+	for sx in [-1, 1]:
+		Art.shape(ci, PackedVector2Array([c + Vector2(sx * 18, -44), c + Vector2(sx * 40, -70), c + Vector2(sx * 42, -30)]), pink, 3.0)
+		Art.fill(ci, PackedVector2Array([c + Vector2(sx * 26, -44), c + Vector2(sx * 38, -60), c + Vector2(sx * 38, -36)]), Color("2b2b33"))
+	Art.shape(ci, Art.ellipse(c, 52, 52, 40), pink, 4.0, 0.1)
+	Art.stroke(ci, Art.curve(c + Vector2(-8, -50), c + Vector2(-2, -30), c + Vector2(10, -40), 10), 4.0)
+	for sx in [-1, 1]:
+		p._eye(c + Vector2(sx * 20, -4), 13, 14, 8.0, Color("3fa0d8"), sx, 0.0, pink)
+	p._mouth(c + Vector2(0, 26), 16, 0)
+	Art.blob(ci, c + Vector2(48, 4 - raise.y * 16), 12, 10, pink, 3.0)
+

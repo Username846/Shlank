@@ -1763,6 +1763,133 @@
 			"Officer Jenni"
 		]
 	},
+	"professor_oak": {
+		"name": "Professor Oak",
+		"style": "professor_oak",
+		"color": "#c8503a",
+		"width": 62,
+		"bio": "The world's leading Pokémon researcher. Writes poems in his spare time. Bad ones.",
+		"catchphrase": "Ah, the wonderful world of Pokémon!",
+		"voice": {
+			"pitch": 0.85,
+			"rate": 0.95,
+			"babble": 290,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Pokémon",
+		"home": "oak_lab"
+	},
+	"gary_oak": {
+		"name": "Gary Oak",
+		"style": "gary_oak",
+		"color": "#7a3fa0",
+		"width": 58,
+		"bio": "Professor Oak's grandson and Ash's rival. Always one step ahead, and he knows it.",
+		"catchphrase": "Smell ya later, Ashy-boy!",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 1.1,
+			"babble": 350,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Pokémon",
+		"home": "pallet_town"
+	},
+	"delia_ketchum": {
+		"name": "Delia Ketchum",
+		"style": "delia_ketchum",
+		"color": "#f28cb8",
+		"width": 58,
+		"bio": "Ash's mom. Kind, cheerful and always reminding Ash to change his underwear.",
+		"catchphrase": "Ash, did you remember your clean underwear?",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.0,
+			"babble": 360,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		},
+		"show": "Pokémon",
+		"home": "ash_house"
+	},
+	"psyduck": {
+		"name": "Psyduck",
+		"style": "psyduck",
+		"color": "#f6d65a",
+		"width": 58,
+		"bio": "Misty's Psyduck. Always has a headache. When it gets bad enough, it unleashes amazing psychic powers.",
+		"catchphrase": "Psy-yi-yi?",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 0.85,
+			"babble": 360,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Pokémon",
+		"home": "cerulean_gym"
+	},
+	"togepi": {
+		"name": "Togepi",
+		"style": "togepi",
+		"color": "#f6ecc8",
+		"width": 46,
+		"bio": "A baby Pokémon still half in its eggshell. Misty is its mom, as far as Togepi is concerned.",
+		"catchphrase": "Toge-priii!",
+		"voice": {
+			"pitch": 1.9,
+			"rate": 1.2,
+			"babble": 500,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Pokémon",
+		"home": "cerulean_gym"
+	},
+	"jigglypuff": {
+		"name": "Jigglypuff",
+		"style": "jigglypuff",
+		"color": "#f7b8d2",
+		"width": 54,
+		"bio": "A singing Pokémon whose lullaby puts everyone to sleep. Gets very angry when nobody stays awake for the end.",
+		"catchphrase": "Jiggly-puuuff!",
+		"voice": {
+			"pitch": 1.7,
+			"rate": 1.0,
+			"babble": 460,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Pokémon",
+		"home": "tall_grass"
+	},
 	"goku": {
 		"name": "Goku",
 		"style": "goku",

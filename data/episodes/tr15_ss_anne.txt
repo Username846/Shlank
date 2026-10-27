@@ -1,0 +1,185 @@
+@title All Aboard the S.S. Anne
+@series Pokémon
+@season 2
+@icon rocket
+@number 5
+@description Ash wins free tickets for a cruise on the S.S. Anne, a luxury ship full of rich trainers. James buys a "rare golden Magikarp" from a salesman. Team Rocket is working as the ship's waiters. The ship is about to hit a storm.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC happy
+SCENE ss_anne cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right excited
+PLACE brock midright left excited
+PLACE pikachu farleft right happy
+ASH (excited): Free tickets on the S.S. Anne! A whole cruise! With a buffet!
+MISTY (excited): And a swimming pool! And the ocean! It's a Water-type paradise!
+BROCK (excited): And so many beautiful passengers. Hello, ladies.
+PIKACHU (happy): Pika!
+MISTY (smug): Brock. They're all over eighty.
+BROCK (happy): Beauty has no age, Misty.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC sneaky
+SCENE ss_anne
+PLACE jessie center left smug
+PLACE james midright left nervous
+PLACE meowth midleft right smug
+JESSIE (smug): Ha! The rich trainers on this ship have the rarest Pokémon in the world. And we'll be serving them dinner.
+JAMES (nervous): Jessie, I've never been a waiter. What if I drop the soup?
+MEOWTH (smug): Then you drop it in a sack. With their Pokémon.
+JESSIE (happy): And look at these little bow ties!
+JAMES (happy): ...I do love a little bow tie.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC jazz
+SCENE ss_anne
+PLACE james center left excited
+PLACE meowth midright left surprised
+JAMES (excited): Meowth! Look what I bought! A rare golden Magikarp! The salesman said it lays golden eggs!
+MEOWTH (surprised): Magikarp don't lay eggs, James. They're fish.
+JAMES (smug): This one is special. He said so. It only cost all our money.
+MEOWTH (angry): ALL our money?!
+JAMES (nervous): ...And my favorite bottle cap.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC jazz 2
+SCENE ss_anne
+PLACE brock center left excited
+PLACE ash midright left excited
+PLACE pikachu midleft right neutral
+BROCK (excited): Ash! The buffet! Look at it! Twelve kinds of cake!
+ASH (excited): And sandwiches! And noodles! And fifteen different kinds of soup!
+BROCK (smug): As a chef, I need to taste all of them. For research.
+ASH (excited): Me too! For... also research!
+PIKACHU (excited): Pika pika!
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC sneaky 2
+SCENE ss_anne
+PLACE jessie center left smug
+PLACE ash midright left surprised
+JESSIE (smug): Good evening, young sir. Would you like our special Pikachu soup?
+ASH (surprised): Pikachu soup?!
+JESSIE (nervous): I mean... soup FOR Pikachu. Very nutritious. Just let me take your Pikachu to the kitchen.
+ASH (nervous): Why do you sound so familiar?
+JESSIE (angry): I have a very common voice!
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC tense
+SCENE ss_anne
+PLACE misty center left nervous
+PLACE brock midright left nervous
+SFX thud
+SHAKE 0.5
+MISTY (nervous): Brock. The ship is rocking. A lot.
+BROCK (nervous): Look at the sky. Those clouds are really dark.
+SFX splash
+SHAKE 0.7
+NARRATOR: The S.S. Anne sailed straight into a huge storm. The waves got bigger. The ship tipped left. Then right. Then very, very far left.
+MISTY (scared): Everybody hold on to something!
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC action
+SCENE ss_anne
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX splash
+SHAKE 0.9
+JESSIE (scared): James! The ship is tipping over!
+JAMES (scared): Save the Magikarp! It's very valuable!
+MEOWTH (angry): Forget the Magikarp! Save yourself!
+JAMES (sad): I won't leave him, Meowth! He's my golden friend!
+SFX thud
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC sad
+SCENE ss_anne
+CARD After the storm...
+PLACE ash center right nervous
+PLACE misty midleft right nervous
+PLACE brock midright left nervous
+NARRATOR: When the storm was over, the S.S. Anne was upside down. Everybody else had gotten into lifeboats. Except for Ash and his friends. And Team Rocket.
+ASH (nervous): We're stuck. Upside down. Inside a ship.
+MISTY (scared): And it's slowly filling up with water.
+BROCK (nervous): We need to get to the bottom. I mean, the top. I mean, the bottom that used to be the top.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC tense
+SCENE ss_anne
+PLACE jessie center left nervous
+PLACE ash midright left angry
+PLACE james midleft right nervous
+JESSIE (nervous): Twerps?! You're stuck down here too?
+ASH (angry): Team Rocket! I knew it was you!
+JAMES (nervous): Can we please argue later? When we're not sinking?
+ASH (nervous): ...Fine. Truce. Until we get out.
+JESSIE (smug): Truce.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC sneaky
+SCENE ss_anne
+PLACE misty center left smug
+PLACE brock midright left nervous
+PLACE ash midleft right neutral
+MISTY (smug): The engine room is at the very top now. The hull is thin there. If we can break through it, we can climb out.
+BROCK (nervous): How do we break through a metal ship?
+MISTY (happy): We need something strong. Very strong. And Water-type, because we're about to be underwater.
+ASH (surprised): Who has a strong Water-type Pokémon?
+MISTY (sad): ...Not Psyduck. Definitely not Psyduck.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC action 2
+SCENE ss_anne
+PLACE james center left nervous
+PLACE meowth midright left surprised
+SFX splash
+JAMES (nervous): Magikarp! You can do it! Use your secret golden power!
+SFX boing
+MEOWTH (surprised): It's... splashing. That's all it does.
+JAMES (sad): Oh, Magikarp. You're not golden at all, are you? You're just painted.
+SFX sparkle
+NARRATOR: The water washed off Magikarp's gold paint. Underneath, it was just a regular orange Magikarp. And it was very, very angry.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC action
+SCENE ss_anne
+PLACE ash center right excited
+PLACE misty midleft right surprised
+SFX powerup
+SHAKE 1.0
+NARRATOR: Magikarp glowed. It grew. It grew and grew until it was a giant blue sea serpent. Gyarados!
+MISTY (surprised): Magikarp evolved! Into Gyarados!
+ASH (excited): Gyarados! Break through the wall!
+SFX blast
+SHAKE 0.9
+NARRATOR: With one huge Hyper Beam, Gyarados blasted a hole in the hull. Sunlight came pouring in. And so did Team Rocket's flying lesson.
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC action 2
+SCENE ss_anne
+PLACE jessie center left scared
+PLACE james midright left excited
+PLACE meowth midleft right scared
+SFX blast
+JAMES (excited): My Magikarp! He's a Gyarados! He's beautiful!
+JESSIE (scared): James! He's using Hyper Beam on US!
+MEOWTH (scared): I guess he didn't like the gold paint!
+JESSIE (scared): Team Rocket's blasting off agaaaain!
+
+# ------------------------------------------------------------ S.S. ANNE
+MUSIC romantic
+SCENE ss_anne
+CARD On a lifeboat...
+PLACE ash center right happy
+PLACE misty midleft right happy
+PLACE brock midright left happy
+PLACE pikachu farleft right happy
+ASH (happy): We made it! We're out!
+MISTY (happy): And the Gyarados swam away into the ocean. Free.
+BROCK (sad): I never got to try the cake.
+ASH (smug): Brock, there's always another buffet.
+PIKACHU (happy): Pika pi!
+END

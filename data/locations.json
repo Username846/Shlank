@@ -621,6 +621,56 @@
 		"show": "Pokémon",
 		"description": "Wild Pokémon could be hiding anywhere in here."
 	},
+	"ash_house": {
+		"name": "Ash's House",
+		"description": "The Ketchum house in Pallet Town. Mr. Mime does the dusting.",
+		"show": "Pokémon"
+	},
+	"viridian_forest": {
+		"name": "Viridian Forest",
+		"description": "A thick, dark forest full of Bug-type Pokémon. Easy to get lost in.",
+		"show": "Pokémon"
+	},
+	"pewter_gym": {
+		"name": "Pewter Gym",
+		"description": "Brock's old Gym. Rocks, boulders and one Onix-sized arena.",
+		"show": "Pokémon"
+	},
+	"mt_moon": {
+		"name": "Mt. Moon",
+		"description": "A deep cave where the Clefairy dance around the Moon Stone.",
+		"show": "Pokémon"
+	},
+	"ss_anne": {
+		"name": "S.S. Anne",
+		"description": "A fancy cruise ship full of rich trainers and long buffets.",
+		"show": "Pokémon"
+	},
+	"pokemon_tower": {
+		"name": "Pokémon Tower",
+		"description": "A spooky tower in Lavender Town, home to Ghost-type Pokémon.",
+		"show": "Pokémon"
+	},
+	"celadon_store": {
+		"name": "Celadon Department Store",
+		"description": "The biggest store in Kanto. Five floors of potions, Poké Balls and perfume.",
+		"show": "Pokémon"
+	},
+	"safari_zone": {
+		"name": "Safari Zone",
+		"description": "A wide nature park where trainers catch Pokémon with bait and rocks.",
+		"show": "Pokémon"
+	},
+	"cinnabar_island": {
+		"name": "Cinnabar Island",
+		"description": "A volcanic island with a hot Gym and an old laboratory.",
+		"show": "Pokémon"
+	},
+	"indigo_plateau": {
+		"name": "Indigo Plateau",
+		"description": "Home of the Pokémon League. The biggest stadium in Kanto.",
+		"show": "Pokémon"
+	},
 	"kame_house": {
 		"name": "Kame House",
 		"show": "Dragon Ball Z",

@@ -1,0 +1,197 @@
+@title The Moon Stone
+@series Pokémon
+@season 2
+@icon rocket
+@number 4
+@description Deep inside Mt. Moon, the Clefairy dance around a giant Moon Stone once a year. Team Rocket wants to steal it and sell it. Psyduck has a headache, and that turns out to be very important.
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC spooky
+SCENE mt_moon cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right nervous
+PLACE brock midright left smug
+ASH (excited): Mt. Moon! I heard there are Clefairy in here!
+MISTY (nervous): It's so dark. And drippy. And echoey.
+BROCK (smug): Tonight's the night of the full moon. The Clefairy come out to dance around the Moon Stone.
+ASH (excited): A dancing Pokémon party! Let's go!
+MISTY (nervous): Ash, wait! There could be Zubat!
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC jazz
+SCENE mt_moon
+PLACE misty center left nervous
+PLACE psyduck midright left nervous
+SFX pop
+MISTY (nervous): Ugh. Psyduck popped out of its Poké Ball again. I didn't even call it.
+PSYDUCK (nervous): Psy-yi-yi?
+MISTY (angry): Psyduck, go back in your ball! It's too dark in here for you!
+PSYDUCK (sad): Psy...
+MISTY (sad): ...Fine. Hold my hand. And don't walk into any walls.
+SFX thud
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC sneaky
+SCENE mt_moon
+PLACE jessie center left smug
+PLACE james midright left excited
+PLACE meowth midleft right smug
+JESSIE (smug): The Moon Stone. The biggest, shiniest, most valuable rock in Kanto.
+JAMES (excited): We'll sell it to a museum! Or a very rich person with a very big shelf!
+MEOWTH (smug): And the Boss'll finally give us a raise.
+JAMES (nervous): What about the Clefairy?
+JESSIE (smug): They can dance around a different rock.
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC sneaky 2
+SCENE mt_moon
+PLACE ash center right nervous
+PLACE brock midleft right nervous
+PLACE pikachu midright left scared
+SFX whoosh
+ASH (nervous): Brock, what's that flapping noise?
+BROCK (nervous): Zubat. Lots of Zubat. Don't make any sudden...
+PIKACHU (scared): Pika!
+SFX whoosh
+ASH (scared): They're flying right at us!
+BROCK (happy): Duck, Ash! They just want to get to the cave entrance. They'll fly past.
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC romantic
+SCENE mt_moon
+CARD Midnight...
+PLACE ash center right surprised
+PLACE brock midleft right happy
+SFX sparkle
+NARRATOR: As the full moon rose over the mountain, a beam of moonlight shone down through a crack in the cave ceiling. And the Clefairy came out to dance.
+ASH (surprised): Look at them. They're spinning in a circle.
+BROCK (happy): They do it once a year. Only on this night.
+ASH (happy): It's the most beautiful thing I've ever seen.
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC tense
+SCENE mt_moon
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE ash midleft right angry
+SFX blast
+JESSIE (smug): Prepare for trouble, we've come for that stone!
+JAMES (smug): And make it double, you'll leave it alone!
+ASH (angry): Team Rocket! You can't take the Moon Stone! The Clefairy need it!
+JESSIE (happy): We'll send them a postcard.
+SFX whoosh
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC action
+SCENE mt_moon
+PLACE meowth center left excited
+PLACE pikachu midright left angry
+MEOWTH (excited): The vacuum's on! Suck up that Moon Stone!
+SFX whoosh
+SHAKE 0.6
+PIKACHU (angry): Pika... CHUUU!
+SFX zap
+MEOWTH (smug): Ha! Rubber vacuum! Your zaps can't touch it!
+PIKACHU (sad): Pika...
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC sad
+SCENE mt_moon
+PLACE ash center right sad
+PLACE misty midleft right sad
+PLACE psyduck midright left neutral
+ASH (sad): They got it. The Moon Stone is in their vacuum.
+MISTY (sad): The Clefairy stopped dancing. They're crying.
+ASH (angry): We need something stronger than electricity.
+MISTY (nervous): Brock's Onix is too big for the cave. Starmie is too tired. What else do we have?
+PSYDUCK (nervous): Psy-yi?
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC sneaky
+SCENE mt_moon
+PLACE jessie center left smug
+PLACE james midright left nervous
+JESSIE (smug): We did it! The Moon Stone is ours!
+JAMES (nervous): Jessie. The Clefairy are crying. Really crying. With little tears.
+JESSIE (nervous): ...Don't look at them, James.
+JAMES (sad): I already looked. Now I'm crying too.
+JESSIE (angry): Pull yourself together! We're villains!
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC jazz 2
+SCENE mt_moon
+PLACE psyduck center left nervous
+PLACE meowth midright left smug
+PLACE misty midleft right neutral
+SFX thud
+NARRATOR: Psyduck wandered right into the vacuum hose. Bonk. Then it walked into a rock. Bonk. Then James stepped on its foot. Bonk.
+PSYDUCK (nervous): Psy... yi... yi...
+MEOWTH (smug): What's that duck doin'? Holdin' its head like it's got the worst headache ever?
+MISTY (excited): Wait. Its headache! When Psyduck's headache gets really bad...
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC action 2
+SCENE mt_moon
+PLACE psyduck center left angry
+PLACE jessie midright left scared
+PLACE james midleft right neutral
+PLACE meowth right left neutral
+SFX powerup
+SHAKE 0.9
+NARRATOR: Psyduck's eyes began to glow. Every rock in the cave began to float. The vacuum floated. Team Rocket floated.
+PSYDUCK (angry): PSY... DUCK!
+JESSIE (scared): Why am I floating?! I don't float!
+JAMES (scared): Is this the Moon's power?!
+MEOWTH (scared): No! It's the duck's power!
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC action
+SCENE mt_moon
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX blast
+NARRATOR: With one huge psychic push, Psyduck flung Team Rocket right up through the crack in the ceiling. Right toward the moon.
+JESSIE (scared): We're blasting off to the moon!
+JAMES (scared): At least the view is nice!
+MEOWTH (scared): Team Rocket's blasting off agaaaaain!
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC happy
+SCENE mt_moon
+PLACE ash center right excited
+PLACE misty midleft right excited
+PLACE psyduck midright left nervous
+SFX sparkle
+NARRATOR: The Moon Stone floated gently back down, right into the middle of the circle. The Clefairy cheered.
+ASH (excited): Psyduck, you did it! You saved the Moon Stone!
+MISTY (excited): Psyduck, I'm so proud of you!
+PSYDUCK (surprised): Psy?
+MISTY (smug): ...It doesn't remember any of it, does it?
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC romantic
+SCENE mt_moon
+PLACE brock center left happy
+PLACE ash midright left happy
+PLACE pikachu farright left happy
+BROCK (happy): Look. The Clefairy are dancing again.
+ASH (happy): And they want us to dance, too.
+PIKACHU (excited): Pika pika!
+BROCK (excited): I've been practicing my moves!
+ASH (nervous): Brock, that's not dancing. That's falling down slowly.
+
+# ------------------------------------------------------------ MT. MOON
+MUSIC romantic 2
+SCENE mt_moon
+CARD The next morning...
+PLACE misty center left happy
+PLACE psyduck midright left nervous
+MISTY (happy): Psyduck. You were a hero last night.
+PSYDUCK (nervous): Psy-yi-yi?
+MISTY (smug): I'm going to tell you that story every night. Until you remember it.
+PSYDUCK (sad): Psy...
+SFX thud
+MISTY (sad): ...And watch out for that wall.
+END

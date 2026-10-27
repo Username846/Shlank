@@ -1,0 +1,194 @@
+@title The Indigo League
+@series Pokémon
+@season 2
+@icon rocket
+@number 10
+@description The Pokémon League at the Indigo Plateau! Ash and Gary finally face each other in the big stadium. Everybody from Pallet Town is watching. Team Rocket has one last plan. And a Jigglypuff has a song to sing.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC happy
+SCENE indigo_plateau cut
+TITLE
+PLACE ash center right excited
+PLACE misty midleft right excited
+PLACE brock midright left excited
+PLACE pikachu farleft right excited
+ASH (excited): The Indigo Plateau! The Pokémon League! I can't believe I'm finally here!
+MISTY (excited): Look at all these people! The whole stadium is full!
+BROCK (excited): And there's a food court! With forty restaurants!
+PIKACHU (excited): Pika pika!
+ASH (happy): This is it, Pikachu. This is what we've been training for.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC jazz
+SCENE indigo_plateau
+PLACE delia_ketchum center left excited
+PLACE professor_oak midright left happy
+DELIA_KETCHUM (excited): Professor! Look! There's Ash! He's on the big screen!
+PROFESSOR_OAK (happy): He's come so far, Delia. All the way from Pallet Town.
+DELIA_KETCHUM (nervous): I hope he packed enough clean underwear.
+PROFESSOR_OAK (smug): I wrote a poem for the final. "Ode to the League." Twenty verses.
+DELIA_KETCHUM (happy): ...Maybe save it for after.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC sneaky
+SCENE indigo_plateau
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE meowth midleft right smug
+JESSIE (smug): The Pokémon League. Every great trainer, in one place. With every great Pokémon.
+JAMES (smug): And we're the hot dog vendors. Nobody ever suspects the hot dog vendors.
+MEOWTH (excited): When the big final starts, we flip the switch. Our hot dog cart turns into a giant Pokémon vacuum!
+JAMES (happy): And we get to keep the hot dogs!
+JESSIE (smug): Team Rocket's biggest heist ever.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC jazz 2
+SCENE indigo_plateau
+PLACE misty center left nervous
+PLACE brock midright left happy
+PLACE togepi farright left happy
+MISTY (nervous): I'm so nervous, I can't even watch.
+BROCK (happy): Ash has been training for this his whole life, Misty. He'll be fine.
+MISTY (smug): You said that before the Pewter Gym, and before Cerulean, and before Vermilion.
+BROCK (smug): And he won all of those. Eventually.
+TOGEPI (excited): Toge-priii!
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC tense
+SCENE indigo_plateau
+CARD The final...
+PLACE ash center right angry
+PLACE gary_oak midleft right smug
+GARY_OAK (smug): So. It's finally you and me, Ashy-boy. In front of everybody.
+ASH (angry): I've been waiting for this since the day we left Pallet Town, Gary.
+GARY_OAK (smug): Three Pokémon each. Winner takes the trophy.
+ASH (excited): And bragging rights. Forever.
+GARY_OAK (happy): You're on. No smelling ya later this time.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC action
+SCENE indigo_plateau
+PLACE ash center right excited
+PLACE gary_oak midleft right excited
+SFX drumroll
+ASH (excited): Go, Bulbasaur!
+GARY_OAK (excited): Go, Nidoking!
+SFX blast
+SHAKE 0.6
+NARRATOR: Bulbasaur and Nidoking battled across the field. Vines whipped. Horns charged. Then, with one big Solar Beam, Bulbasaur won the first round.
+ASH (excited): Yes! One to nothing!
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC action 2
+SCENE indigo_plateau
+PLACE gary_oak center left angry
+PLACE ash midright left nervous
+GARY_OAK (angry): Not bad, Ash. Go, Arcanine!
+SFX sizzle
+SHAKE 0.6
+NARRATOR: Arcanine was fast. Too fast. One Flamethrower, and Bulbasaur was out. Then Ash's Charizard came out and... decided to take a nap.
+ASH (angry): Charizard! Not now!
+GARY_OAK (smug): One to one, Ash.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC sneaky 2
+SCENE indigo_plateau
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE meowth midleft right excited
+JESSIE (smug): It's the final round. Everyone's watching the field. Now, Meowth!
+MEOWTH (excited): Hot dog cart, transform!
+SFX powerup
+JAMES (excited): It's turning into a giant vacuum! With a little mustard on top!
+SFX whoosh
+SHAKE 0.8
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC tense
+SCENE indigo_plateau
+PLACE ash center right surprised
+PLACE pikachu midleft right scared
+PLACE gary_oak right left surprised
+SFX whoosh
+SHAKE 0.9
+ASH (surprised): What's happening?! The wind is pulling everything toward that hot dog cart!
+PIKACHU (scared): Pika!
+GARY_OAK (angry): Team Rocket! They're trying to steal every Pokémon in the stadium!
+ASH (angry): Gary! We have to stop them! Together!
+GARY_OAK (smug): For once, Ashy-boy, I agree with you.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC action
+SCENE indigo_plateau
+PLACE jessie center left smug
+PLACE ash midright left angry
+PLACE james midleft right neutral
+PLACE gary_oak right left neutral
+JESSIE (smug): Prepare for trouble, the League is our prize!
+JAMES (smug): And make it double, with mustard and fries!
+ASH (angry): Pikachu! Thunderbolt!
+GARY_OAK (angry): Arcanine! Flamethrower!
+SFX zap
+NARRATOR: Electricity and fire hit the vacuum at the same time. It sparked. It smoked. It started to spin.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC spooky
+SCENE indigo_plateau
+PLACE jigglypuff center left smug
+SFX sparkle
+NARRATOR: Then, out of the smoke, a small pink Pokémon floated up to the giant stadium microphone.
+JIGGLYPUFF (happy): Jiggly... puff...
+JIGGLYPUFF (smug): Jiggly-puuuuff... jiggly-puuuuff...
+NARRATOR: Jigglypuff sang its song. Its song went out over every speaker in the stadium. And every single person fell asleep.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC sad
+SCENE indigo_plateau
+PLACE jessie center left nervous
+PLACE james midright left nervous
+PLACE meowth midleft right nervous
+JESSIE (nervous): So... sleepy... must... finish... heist...
+JAMES (nervous): The vacuum... is so... cozy...
+MEOWTH (nervous): Five more minutes, Mom...
+SFX thud
+NARRATOR: Team Rocket fell asleep inside their own vacuum. Then the vacuum, with nobody steering it, rolled off the edge of the stadium.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC action 2
+SCENE indigo_plateau
+PLACE jigglypuff center left angry
+PLACE meowth midleft right neutral
+SFX blast
+NARRATOR: When Jigglypuff saw that everyone had fallen asleep during its song, it got very angry. It pulled out its marker. And it drew on every sleeping face in the stadium.
+JIGGLYPUFF (angry): Jiggly! Jiggly!
+JIGGLYPUFF (smug): Puff.
+MEOWTH (scared): Team Rocket's rolling off agaaaain...
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC happy
+SCENE indigo_plateau
+CARD One hour later...
+PLACE ash center right surprised
+PLACE gary_oak midleft right surprised
+ASH (surprised): Gary. You have a moustache drawn on your face.
+GARY_OAK (angry): So do you, Ash. And a monocle.
+ASH (happy): Hey, Gary. Wanna finish our battle? Final round?
+GARY_OAK (smug): Bring it on. Pikachu versus Blastoise.
+SFX zap
+NARRATOR: It was the best battle the Indigo Plateau had ever seen. And when it was over, both trainers were still smiling. Even with markers on their faces.
+
+# ------------------------------------------------------------ INDIGO PLATEAU
+MUSIC romantic
+SCENE indigo_plateau
+CARD Sunset...
+PLACE ash center right happy
+PLACE delia_ketchum midleft right excited
+PLACE professor_oak midright left happy
+PLACE pikachu farleft right happy
+DELIA_KETCHUM (excited): Ash! Win or lose, I'm so proud of you!
+ASH (happy): Thanks, Mom. Gary won the trophy. But I'm gonna win next year.
+PROFESSOR_OAK (happy): That's the spirit, Ash. And now, my poem. "Ode to the League." Verse one.
+ASH (nervous): Pikachu, run!
+PIKACHU (happy): Pika pika!
+END

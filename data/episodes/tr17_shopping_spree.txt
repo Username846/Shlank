@@ -1,0 +1,189 @@
+@title Shopping Spree
+@series Pokémon
+@season 2
+@icon rocket
+@number 7
+@description The Celadon Department Store is having its biggest sale of the year. Misty wants a new swimsuit. Brock wants a new frying pan. Jessie wants the world's most expensive perfume. Team Rocket has a plan to "buy" every Pokémon in the store's Poké Ball section.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC happy
+SCENE celadon_store cut
+TITLE
+PLACE misty center left excited
+PLACE brock midright left excited
+PLACE ash midleft right nervous
+MISTY (excited): The Celadon Department Store! Five whole floors! And everything's on sale!
+BROCK (excited): Floor three has cooking supplies. I need a new frying pan. Mine has a dent shaped like Onix.
+ASH (nervous): I just need some Potions. Can we be quick?
+MISTY (smug): Ash. Nobody is ever quick at a sale.
+ASH (sad): ...I was afraid of that.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC sneaky
+SCENE celadon_store
+PLACE jessie center left excited
+PLACE james midright left nervous
+PLACE meowth midleft right smug
+JESSIE (excited): Look! "Eau de Ekans." The world's most expensive perfume! Ten thousand Poké Dollars!
+JAMES (nervous): Jessie, we have twelve Poké Dollars. And a button.
+MEOWTH (smug): Forget perfume. The store sells Pokémon on floor five. In Poké Balls. Hundreds of 'em.
+JESSIE (smug): We'll pay with a "special" credit card. A card that says "Team Rocket" on it.
+JAMES (excited): And then we'll run away very fast!
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC jazz
+SCENE celadon_store
+PLACE misty center left happy
+PLACE togepi midright left excited
+MISTY (happy): Togepi, look at this swimsuit. It's blue. With little Staryu on it.
+TOGEPI (excited): Toge-priii!
+MISTY (excited): You like it? I'll try it on!
+TOGEPI (happy): Toge! Toge!
+MISTY (smug): Togepi has great taste. Unlike some people. Ash.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC jazz 2
+SCENE celadon_store
+PLACE brock center left excited
+PLACE nurse_joy midright left happy
+BROCK (excited): Nurse Joy! What are you doing in the frying pan aisle? Is it fate?
+NURSE_JOY (happy): I'm buying bandages, Brock. The bandage aisle is right next to the frying pans.
+BROCK (excited): Then I'll buy bandages too! Hundreds of them! For you!
+NURSE_JOY (nervous): That's... a lot of bandages.
+BROCK (happy): For love, Nurse Joy. For love.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC sneaky 2
+SCENE celadon_store
+CARD Floor five...
+PLACE jessie center left smug
+PLACE james midright left smug
+PLACE meowth midleft right excited
+JESSIE (smug): One of everything, please. Wrap them up.
+JAMES (smug): We'll pay with this perfectly normal credit card.
+MEOWTH (excited): While the clerk is busy, I'll fill the sack!
+SFX coin
+NARRATOR: The clerk looked at the card. It said "TEAM ROCKET" in big red letters. It had a picture of Meowth on it. And it was made of cardboard.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC happy 2
+SCENE celadon_store
+PLACE ash center right nervous
+PLACE pikachu midleft right happy
+ASH (nervous): Okay. Potions. Floor two. Where's floor two?
+PIKACHU (happy): Pika!
+ASH (surprised): That says floor four. Pikachu, this place is a maze.
+SFX ding
+NARRATOR: Ash got in the elevator. It went up. It went down. It went up again. It stopped on every floor except floor two.
+ASH (sad): I've seen the perfume department four times now, Pikachu.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC tense
+SCENE celadon_store
+PLACE officer_jenny center left angry
+PLACE jessie midright left nervous
+PLACE james midleft right neutral
+SFX beep
+OFFICER_JENNY (angry): Freeze! Cardboard credit card fraud!
+JESSIE (nervous): It's... a very thin metal card.
+OFFICER_JENNY (smug): It's got a cereal box logo on the back.
+JESSIE (angry): James! You said you'd use the plain side!
+JAMES (sad): I liked the cereal side!
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC action
+SCENE celadon_store
+PLACE meowth center left excited
+PLACE ash midright left angry
+PLACE pikachu farright left angry
+SFX whoosh
+MEOWTH (excited): Grab the sack and run! Down the escalator!
+ASH (angry): Team Rocket! Stop!
+PIKACHU (angry): Pika!
+NARRATOR: Team Rocket ran down the escalator. But the escalator was going up. They ran and ran and didn't get anywhere.
+MEOWTH (angry): Why is this escalator against us?!
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC action 2
+SCENE celadon_store
+PLACE jessie center left scared
+PLACE james midright left scared
+SFX slide_whistle
+JESSIE (scared): James! The stairs! Take the stairs!
+JAMES (scared): Which way is the stairs?!
+JESSIE (angry): Follow the sign that says "stairs"!
+JAMES (scared): All the signs say "SALE"!
+SFX thud
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC sneaky
+SCENE celadon_store
+PLACE misty center left angry
+PLACE meowth midright left scared
+PLACE togepi midleft right neutral
+MISTY (angry): Hey! You ran into my dressing room!
+MEOWTH (scared): Sorry! Sorry! Just passin' through!
+MISTY (angry): Togepi! Get him!
+TOGEPI (excited): Toge-priii!
+SFX sparkle
+NARRATOR: Togepi waved its little arms. Metronome! Nobody ever knows what Metronome will do. This time, it made a giant bubble.
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC action
+SCENE celadon_store
+PLACE jessie center left scared
+PLACE james midright left scared
+PLACE meowth midleft right scared
+SFX bubble
+JESSIE (scared): We're trapped in a bubble!
+JAMES (scared): It's floating! We're floating toward the window!
+MEOWTH (scared): And the sack's still down there!
+SFX pop
+JESSIE (scared): Team Rocket's floating off agaaaain!
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC romantic
+SCENE celadon_store
+PLACE misty center left happy
+PLACE togepi midright left happy
+MISTY (happy): Togepi. You were so brave. A whole bubble!
+TOGEPI (excited): Toge-priii!
+MISTY (smug): I think you deserve a present. How about this little hat?
+TOGEPI (happy): Toge! Toge!
+MISTY (excited): It fits! You look adorable!
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC happy
+SCENE celadon_store
+PLACE officer_jenny center left happy
+PLACE ash midright left happy
+OFFICER_JENNY (happy): Every Poké Ball is safe. The store says thank you.
+ASH (excited): So, do we get a reward?
+OFFICER_JENNY (smug): The store manager says you get ten percent off your next purchase.
+ASH (sad): ...I only wanted Potions.
+OFFICER_JENNY (happy): Then you'll save forty Poké Dollars!
+
+# ------------------------------------------------------------ CELADON DEPARTMENT STORE
+MUSIC jazz
+SCENE celadon_store
+PLACE brock center left excited
+PLACE misty midright left happy
+PLACE ash midleft right sad
+BROCK (excited): I got my frying pan! And two hundred bandages!
+MISTY (happy): And I got my swimsuit! With the Staryu on it!
+ASH (sad): I got my Potions. But I'm too tired to carry them.
+BROCK (smug): Ash, sales are a marathon, not a sprint.
+ASH (sad): Then why do my feet hurt like I sprinted?
+
+# ------------------------------------------------------------ CELADON CITY
+MUSIC romantic
+SCENE town_square
+CARD Outside...
+PLACE jessie center left sad
+PLACE james midright left sad
+PLACE meowth midleft right sad
+JESSIE (sad): No Pokémon. No perfume. No dignity.
+JAMES (happy): But I did find a free sample of perfume in my pocket! Eau de Ekans!
+JESSIE (excited): James! You're the best partner ever!
+MEOWTH (nervous): Uh, Jessie? That's not perfume. That's a sample of a sandwich.
+END
