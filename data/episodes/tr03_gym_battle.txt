@@ -1,5 +1,6 @@
 @title Splash Battle at Cerulean Gym
 @series Pokémon
+@season 1
 @icon rocket
 @number 3
 @description Ash challenges the Cerulean Gym, only to find out the gym leader is Misty. Meanwhile, Team Rocket has gone undercover as the referees.

@@ -1,5 +1,6 @@
 @title The Runaway Horse
 @series Attack on Titan
+@season 1
 @icon wings
 @number 3
 @description Jean's horse, Buttercup, has run away the day before a big expedition. Jean says he doesn't care. Jean cares a lot.

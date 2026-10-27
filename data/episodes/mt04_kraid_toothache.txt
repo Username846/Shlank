@@ -1,5 +1,6 @@
 @title Kraid's Toothache
 @series Metroid
+@season 1
 @icon visor
 @number 4
 @description The biggest monster on planet Zebes has a toothache, and he's so grumpy that the whole planet is shaking. Somebody has to fix it. Nobody wants to.

@@ -1,5 +1,6 @@
 @title Double Trouble
 @series Metroid
+@season 1
 @icon visor
 @number 3
 @description Dark Samus has been pretending to be Samus all over the galaxy. She's stealing upgrades, eating everyone's snacks and leaving bad reviews. Only the etecoons can tell them apart.

@@ -1,5 +1,6 @@
 @title The Royal Diet
 @series Kirby
+@season 1
 @icon warpstar
 @number 4
 @description The royal doctor has put King Dedede on a diet. No cake, no pie, no snacks. Then snacks start disappearing all over Dream Land, and the king insists it's definitely, absolutely not him.

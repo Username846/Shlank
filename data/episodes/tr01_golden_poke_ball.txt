@@ -1,5 +1,6 @@
 @title The Golden Poké Ball
 @series Pokémon
+@season 1
 @icon rocket
 @number 1
 @description The Boss wants results, and Team Rocket has a plan: steal the legendary Golden Poké Ball from the Pokémon Center. What could possibly go wrong? Everything.

@@ -1,5 +1,6 @@
 @title Field Trip to the Ocean
 @series Attack on Titan
+@season 1
 @icon wings
 @number 5
 @description Commander Erwin finally approves an expedition to the ocean. Armin has waited his whole life for this. Everyone else just wants to know if there will be snacks.

@@ -1,5 +1,6 @@
 @title Ribbon's Crystal
 @series Kirby
+@season 1
 @icon warpstar
 @number 2
 @description A tiny fairy named Ribbon crash-lands in Dream Land. Her magic crystal has shattered into shards, and they're scattered all over the planet. Kirby decides to help. Poyo.

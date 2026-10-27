@@ -815,7 +815,7 @@ func _build_inspector() -> void:
 				_refresh(false))
 			_inspector.add_child(le)
 		"title":
-			_inspector.add_child(UiKit.label("Shows the episode's name, series and number.", 15))
+			_inspector.add_child(UiKit.label("Shows the episode's name, series, season and number.", 15))
 	var row := HBoxContainer.new()
 	row.add_theme_constant_override("separation", 4)
 	row.add_child(_small_button("EARLIER", Color.WHITE, func() -> void: _shift_beat(-1), 13))
@@ -1175,12 +1175,21 @@ func _open_info() -> void:
 		icons.add_child(btn)
 		icon_btns.append([btn, kind])
 	highlight.call()
-	vb.add_child(UiKit.label("Episode number", 16, Color(0.35, 0.35, 0.4)))
-	var num := SpinBox.new()
-	num.min_value = 1
-	num.max_value = 999
-	num.value = doc.number
-	vb.add_child(num)
+	var nums := HBoxContainer.new()
+	nums.add_theme_constant_override("separation", 20)
+	vb.add_child(nums)
+	var spin := func(label: String, value: int) -> SpinBox:
+		var col := VBoxContainer.new()
+		col.add_child(UiKit.label(label, 16, Color(0.35, 0.35, 0.4)))
+		var s := SpinBox.new()
+		s.min_value = 1
+		s.max_value = 999
+		s.value = value
+		col.add_child(s)
+		nums.add_child(col)
+		return s
+	var season: SpinBox = spin.call("Season", doc.season)
+	var num: SpinBox = spin.call("Episode number", doc.number)
 	vb.add_child(UiKit.label("Description", 16, Color(0.35, 0.35, 0.4)))
 	var desc := TextEdit.new()
 	desc.text = doc.description
@@ -1190,6 +1199,7 @@ func _open_info() -> void:
 	UiKit.modal(self, "EPISODE INFO", vb, [["OK", UiKit.YELLOW, func() -> void:
 		doc.series = shows[series.selected] if series.selected < shows.size() else ""
 		doc.icon = chosen[0]
+		doc.season = int(season.value)
 		doc.number = int(num.value)
 		doc.description = desc.text.replace("\n", " ")
 		_mark_dirty()

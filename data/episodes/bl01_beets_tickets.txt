@@ -1,5 +1,6 @@
 @title The Beets Tickets
 @series Doug
+@season 1
 @icon journal
 @number 1
 @description Doug wins two tickets to see the Beets and works up the nerve to ask Patti Mayonnaise. Now all he has to do is not lose them before Friday.

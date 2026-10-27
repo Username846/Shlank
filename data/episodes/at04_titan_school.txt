@@ -1,5 +1,6 @@
 @title Titan School
 @series Attack on Titan
+@season 1
 @icon wings
 @number 4
 @description Hange is convinced that Potato Pete, the Smiling Titan, can learn to talk. She recruits Armin as a teaching assistant. Captain Levi has many objections.

@@ -1,5 +1,6 @@
 @title The Rainbow Road Grand Prix
 @series Super Mario Brothers
+@season 1
 @icon mushroom
 @number 2
 @description It's the Mushroom Kingdom Grand Prix, and the final lap is on Rainbow Road. Wario has a plan to win. Wario always has a plan, and it always involves cheating.

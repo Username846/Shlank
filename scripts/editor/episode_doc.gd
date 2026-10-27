@@ -10,6 +10,7 @@ var series := ""
 ## Badge shown on the episode's cards (see ShowIcon). Empty = use the series' badge.
 var icon := ""
 var number := 1
+var season := 1
 var description := ""
 ## [{location: String, cut: bool, beats: Array[Dictionary]}]
 var scenes: Array = []
@@ -28,6 +29,7 @@ static func from_script(sc: EpisodeScript) -> EpisodeDoc:
 	doc.series = sc.series
 	doc.icon = sc.icon
 	doc.number = maxi(sc.number, 1)
+	doc.season = maxi(sc.season, 1)
 	doc.description = sc.description
 	var pending: Array = []  # commands before the first SCENE
 	for c in sc.commands:
@@ -228,6 +230,7 @@ func to_text() -> String:
 	out.append("@title %s" % _one_line(title))
 	if series != "":
 		out.append("@series %s" % series)
+		out.append("@season %d" % season)
 	if icon != "":
 		out.append("@icon %s" % icon)
 	out.append("@number %d" % number)

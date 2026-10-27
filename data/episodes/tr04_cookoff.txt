@@ -1,5 +1,6 @@
 @title The Great Pokémon Cook-Off
 @series Pokémon
+@season 1
 @icon rocket
 @number 4
 @description Brock enters a cooking contest for Pokémon food, judged by Nurse Joy. His rival is a mysterious chef with whiskers and a Brooklyn accent.

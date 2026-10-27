@@ -263,6 +263,42 @@ func _count_label(n: int) -> String:
 	return "%d episode%s" % [n, "" if n == 1 else "s"]
 
 
+func _season_name(season: int) -> String:
+	return "Season %d" % season
+
+
+## A series' episodes in play order: by season, then as listed. "Yours" has no seasons.
+func _series_episodes(series: String) -> Array:
+	var keyed := []  # [season, position, entry], so the sort keeps the listed order within a season
+	for e in _episodes:
+		if _episode_group(e) == series:
+			keyed.append([0 if series == YOURS else e.script.season, keyed.size(), e])
+	keyed.sort_custom(func(a, b): return a[0] < b[0] or (a[0] == b[0] and a[1] < b[1]))
+	return keyed.map(func(k): return k[2])
+
+
+## The episodes of one season (or all of "Yours", which has no seasons).
+func _season_episodes(series: String, season: int) -> Array:
+	return _series_episodes(series).filter(func(e): return series == YOURS or e.script.season == season)
+
+
+## Season cards for a series: {"Season 1": "10 episodes", ...}.
+func _season_items(series: String) -> Dictionary:
+	var counts := {}
+	for e in _series_episodes(series):
+		counts[e.script.season] = counts.get(e.script.season, 0) + 1
+	var seasons := counts.keys()
+	seasons.sort()
+	var items := {}
+	for s in seasons:
+		items[_season_name(s)] = _count_label(counts[s])
+	return items
+
+
+func _season_from_name(name: String) -> int:
+	return int(name.get_slice(" ", 1))
+
+
 ## Series cards for the episode pickers: every show with episodes, then "Yours".
 func _episode_series_items() -> Dictionary:
 	var counts := {}
@@ -284,15 +320,27 @@ func _episode_series_items() -> Dictionary:
 ## Watch Episodes: pick a series first (plus "Yours" for the player's own episodes).
 func show_episodes() -> void:
 	_reload_episodes()
-	_series_picker("WATCH EPISODES", _episode_series_items(), show_episode_list, {YOURS: "film"})
+	_series_picker("WATCH EPISODES", _episode_series_items(), show_seasons, {YOURS: "film"})
 
 
-func show_episode_list(series: String) -> void:
+## Watch Episodes, second step: pick a season of the series ("Yours" goes straight to its list).
+func show_seasons(series: String) -> void:
+	if series == YOURS:
+		show_episode_list(series)
+		return
+	_reload_episodes()
+	_series_picker(series.to_upper(), _season_items(series),
+		func(name: String) -> void: show_episode_list(series, _season_from_name(name)),
+		{}, "PICK A SEASON", show_episodes, series)
+
+
+func show_episode_list(series: String, season := 1) -> void:
 	_reload_episodes()
 	var root := _screen_root("theater")
 	_set_screen(root)
-	_back_button(root, show_episodes)
-	var title := UiKit.title_label("YOUR EPISODES" if series == YOURS else series.to_upper(), 64)
+	_back_button(root, show_episodes if series == YOURS else show_seasons.bind(series))
+	var heading := "YOUR EPISODES" if series == YOURS else "%s  -  %s" % [series.to_upper(), _season_name(season).to_upper()]
+	var title := UiKit.title_label(heading, 64 if heading.length() <= 26 else 48)
 	title.position = Vector2(0, 30)
 	title.size = Vector2(1280, 90)
 	root.add_child(title)
@@ -305,7 +353,7 @@ func show_episode_list(series: String) -> void:
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 16)
 	scroll.add_child(list)
-	var shown := _episodes.filter(func(e): return _episode_group(e) == series)
+	var shown := _season_episodes(series, season)
 	if shown.is_empty():
 		var empty := VBoxContainer.new()
 		empty.alignment = BoxContainer.ALIGNMENT_CENTER
@@ -342,7 +390,7 @@ func show_episode_list(series: String) -> void:
 		var play := UiKit.button("PLAY", UiKit.YELLOW, 34)
 		play.custom_minimum_size = Vector2(150, 80)
 		play.size_flags_vertical = Control.SIZE_SHRINK_CENTER
-		play.pressed.connect(_play_in_series.bind(series, shown.find(e)))
+		play.pressed.connect(_play_in_series.bind(series, _series_episodes(series).find(e)))
 		hb.add_child(play)
 	var more := UiKit.label("Make your own episodes with EDIT / CREATE on the title screen!", 18, Color.WHITE)
 	more.add_theme_constant_override("outline_size", 5)
@@ -354,26 +402,29 @@ func show_episode_list(series: String) -> void:
 
 
 func _series_line(sc: EpisodeScript, origin: String) -> String:
-	var s := ("%s  •  EPISODE %d" % [sc.series.to_upper(), sc.number]) if sc.series != "" else "EPISODE %d" % sc.number
+	var s := ("%s  •  SEASON %d, EPISODE %d" % [sc.series.to_upper(), sc.season, sc.number]) if sc.series != "" \
+		else "EPISODE %d" % sc.number
 	match origin:
 		"mine": s += "  •  MY EPISODE"
 		"edited": s += "  •  EDITED"
 	return s
 
 
-## Plays episode `index` of a series' list. The player is told what comes next, so it can
-## offer (or, with autoplay on, start) the following episode when this one ends.
+## Plays episode `index` of a series (in season order). The player is told what comes
+## next, so it can offer (or, with autoplay on, start) the following episode when this one
+## ends; after a season's last episode that is the next season's first.
 func _play_in_series(series: String, index: int) -> void:
-	var shown := _episodes.filter(func(e): return _episode_group(e) == series)
+	var shown := _series_episodes(series)
 	if index < 0 or index >= shown.size():
-		show_episode_list(series)
+		show_seasons(series)
 		return
 	var next := Callable()
 	var next_title := ""
 	if index + 1 < shown.size():
 		next = _play_in_series.bind(series, index + 1)
 		next_title = shown[index + 1].script.title
-	play_episode(shown[index].script, show_episode_list.bind(series), next, next_title)
+	var sc: EpisodeScript = shown[index].script
+	play_episode(sc, show_episode_list.bind(series, sc.season), next, next_title)
 
 
 func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes, next: Callable = Callable(), next_title: String = "") -> void:
@@ -391,6 +442,7 @@ func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes, next: Ca
 ## The series list Edit / Create last showed ("" = the series picker), so leaving the
 ## editor goes back to the same place.
 var _library_series := ""
+var _library_season := 1
 
 
 ## Edit / Create: pick a series first (plus "Yours"), like Watch Episodes.
@@ -398,16 +450,28 @@ func show_library() -> void:
 	_reload_episodes()
 	Synth.set_mood("happy")
 	_library_series = ""
-	_series_picker("EDIT / CREATE", _episode_series_items(), show_library_list, {YOURS: "film"})
+	_series_picker("EDIT / CREATE", _episode_series_items(), show_library_seasons, {YOURS: "film"})
 	var root: Control = _screen
 	var actions := _library_actions(root)
 	actions.position = Vector2(200, 628)
 	root.add_child(actions)
 
 
+## Edit / Create, second step: pick a season ("Yours" goes straight to its list).
+func show_library_seasons(series: String) -> void:
+	if series == YOURS:
+		show_library_list(series)
+		return
+	_reload_episodes()
+	_library_series = ""
+	_series_picker(series.to_upper(), _season_items(series),
+		func(name: String) -> void: show_library_list(series, _season_from_name(name)),
+		{}, "PICK A SEASON", show_library, series)
+
+
 func _return_to_library() -> void:
 	if _library_series != "":
-		show_library_list(_library_series)
+		show_library_list(_library_series, _library_season)
 	else:
 		show_library()
 
@@ -427,13 +491,15 @@ func _library_actions(root: Control) -> HBoxContainer:
 	return actions
 
 
-func show_library_list(series: String) -> void:
+func show_library_list(series: String, season := 1) -> void:
 	_reload_episodes()
 	_library_series = series
+	_library_season = season
 	var root := _screen_root("theater")
 	_set_screen(root)
-	_back_button(root, show_library)
-	var title := UiKit.title_label("YOUR EPISODES" if series == YOURS else series.to_upper(), 60)
+	_back_button(root, show_library if series == YOURS else show_library_seasons.bind(series))
+	var heading := "YOUR EPISODES" if series == YOURS else "%s  -  %s" % [series.to_upper(), _season_name(season).to_upper()]
+	var title := UiKit.title_label(heading, 60 if heading.length() <= 26 else 46)
 	title.position = Vector2(0, 30)
 	title.size = Vector2(1280, 80)
 	root.add_child(title)
@@ -449,7 +515,7 @@ func show_library_list(series: String) -> void:
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 10)
 	scroll.add_child(list)
-	var shown := _episodes.filter(func(e): return _episode_group(e) == series)
+	var shown := _season_episodes(series, season)
 	if shown.is_empty():
 		var msg := UiKit.title_label("NO EPISODES OF YOUR OWN YET.\nPRESS + NEW EPISODE TO MAKE ONE!", 30, Color.WHITE)
 		msg.custom_minimum_size = Vector2(860, 300)
@@ -494,7 +560,7 @@ func show_library_list(series: String) -> void:
 				UiKit.modal(root, "ARE YOU SURE?", UiKit.label(msg, 20), [
 					["YES", UiKit.RED, func() -> void:
 						Library.delete(e.id)
-						show_library_list(series)],
+						show_library_list(series, season)],
 					["CANCEL", Color.WHITE, Callable()]]))
 			hb.add_child(del)
 
@@ -573,15 +639,18 @@ func open_editor(doc: EpisodeDoc, scene_i: int = 0, dirty: bool = false) -> void
 
 ## First step of "Meet the Cast" / "Locations": pick a series.
 ## `kinds` gives a badge to a card that isn't a show in data/shows.json (like "Yours").
-func _series_picker(heading: String, items: Dictionary, open: Callable, kinds: Dictionary = {}) -> void:
+## `icon_show` gives every card that show's badge (the season picker); otherwise each card
+## shows its own series' badge, or the badge kind in `kinds`.
+func _series_picker(heading: String, items: Dictionary, open: Callable, kinds: Dictionary = {},
+		subtitle := "PICK A SERIES", back: Callable = show_menu, icon_show := "") -> void:
 	var root := _screen_root("theater")
 	_set_screen(root)
-	_back_button(root)
+	_back_button(root, back)
 	var title := UiKit.title_label(heading, 64)
 	title.position = Vector2(0, 30)
 	title.size = Vector2(1280, 80)
 	root.add_child(title)
-	var sub := UiKit.title_label("PICK A SERIES", 28, Color.WHITE)
+	var sub := UiKit.title_label(subtitle, 28, Color.WHITE)
 	sub.position = Vector2(0, 108)
 	sub.size = Vector2(1280, 40)
 	root.add_child(sub)
@@ -613,7 +682,11 @@ func _series_picker(heading: String, items: Dictionary, open: Callable, kinds: D
 		vb.offset_right = -6
 		vb.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		card.add_child(vb)
-		var icon := ShowIcon.make_kind(kinds[show], 96.0) if kinds.has(show) else ShowIcon.make(show, 96.0)
+		var icon: Control
+		if kinds.has(show):
+			icon = ShowIcon.make_kind(kinds[show], 96.0)
+		else:
+			icon = ShowIcon.make(icon_show if icon_show != "" else show, 96.0)
 		icon.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		vb.add_child(icon)

@@ -1,5 +1,6 @@
 @title The Locket
 @series Hey Arnold!
+@season 1
 @number 1
 @description Helga's secret locket goes missing at school, and Arnold is determined to return it to its owner. Helga is determined that he never, ever finds out who that is.
 

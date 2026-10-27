@@ -1,5 +1,6 @@
 @title Quailman and the Science Fair
 @series Doug
+@season 1
 @icon journal
 @number 2
 @description Doug's volcano is the best project at the science fair, until Roger messes with it. Time for Quailman to save the day, at least in Doug's imagination.

@@ -1,5 +1,6 @@
 @title The Mineral Show
 @series Breaking Bad
+@season 1
 @icon element
 @number 3
 @description Hank's prize geode is stolen the night before the Albuquerque Mineral Show. Walt and Jesse use science to find it, and Hank has to admit that chemistry teachers are useful after all.

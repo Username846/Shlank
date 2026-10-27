@@ -1,5 +1,6 @@
 @title Saul Goes Viral
 @series Breaking Bad
+@season 1
 @icon element
 @number 4
 @description Saul Goodman wants a brand-new TV commercial, and he wants everyone in it. Walt is the scientist. Jesse is the stunt guy. Hank is extremely confused about why he's there.

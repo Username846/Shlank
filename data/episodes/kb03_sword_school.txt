@@ -1,5 +1,6 @@
 @title Meta Knight's Sword School
 @series Kirby
+@season 1
 @icon warpstar
 @number 3
 @description Meta Knight opens a sword school on the Halberd. His first students are Bandana Dee, Waddle Doo and Kirby, who keeps trying to inhale the practice swords.

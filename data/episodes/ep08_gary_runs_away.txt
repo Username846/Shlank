@@ -1,0 +1,151 @@
+@title Gary, Come Home
+@series SpongeBob SquarePants
+@season 1
+@icon bubbles
+@number 8
+@description SpongeBob is so busy practicing for Employee of the Month that he forgets to feed Gary. When he gets home, Gary is gone. The search takes him all the way to Rock Bottom.
+
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
+MUSIC happy
+SCENE sponge_living_room cut
+TITLE
+PLACE spongebob center right excited
+PLACE gary midleft right sad
+SPONGEBOB (excited): Gary! This is it! Employee of the Month voting is on Friday! I have to practice!
+GARY (sad): Meow.
+SPONGEBOB (excited): Flip! Flip! Flip! I've got to flip faster than ever before!
+GARY (sad): Meow meow.
+SPONGEBOB (happy): I'll feed you later, Gary. Right after this. And this. And maybe this.
+NARRATOR: SpongeBob practiced until midnight. And then, he practiced until morning.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz
+SCENE krusty_krab
+PLACE spongebob center right excited
+PLACE squidward midleft right neutral
+SPONGEBOB (excited): Squidward! I flipped four hundred patties last night!
+SQUIDWARD (smug): Fascinating. Did you also feed your snail?
+SPONGEBOB (happy): Of course I fed... my...
+SPONGEBOB (scared): Oh no. Oh no no no no.
+SQUIDWARD (smug): You forgot.
+SPONGEBOB (scared): For two whole days!
+EXIT spongebob left 600
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC tense
+SCENE pineapple_house
+ENTER spongebob right center scared 500
+SPONGEBOB (scared): Gary! Gary, I'm home! I brought snail food! Three cans!
+NARRATOR: There was no answer. The bowl was empty. And the front door was open. Just a crack. Just enough for a snail.
+SPONGEBOB (sad): Gary? Where are you?
+SPONGEBOB (sad): He left. My best snail left me.
+
+# ------------------------------------------------------------ PATRICK'S ROCK
+MUSIC sad
+SCENE patrick_rock
+PLACE patrick center left neutral
+ENTER spongebob right midright sad
+SPONGEBOB (sad): Patrick, Gary ran away. And it's all my fault.
+PATRICK (surprised): Gary can run?
+SPONGEBOB (sad): Well, slowly. Very, very slowly. That means he can't have gotten far!
+PATRICK (excited): Then let's go find him! I'm great at finding things!
+SPONGEBOB (happy): You are?
+PATRICK (smug): I once found my own feet. They were at the bottom of my legs.
+
+# ------------------------------------------------------------ JELLYFISH FIELDS
+MUSIC sneaky
+SCENE jellyfish_fields
+PLACE spongebob center right nervous
+PLACE patrick midleft right nervous
+SPONGEBOB (nervous): Look, Patrick! A slime trail!
+PATRICK (excited): I'll follow it! With my nose!
+NARRATOR: Patrick followed the slime trail with his nose for forty minutes. It belonged to a different snail.
+PATRICK (sad): That snail was named Doug. He was very nice.
+SPONGEBOB (sad): Where could Gary have gone?
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC jazz 2
+SCENE treedome
+PLACE sandy center left nervous
+ENTER spongebob right midright sad
+SANDY (nervous): A missing snail? Well, slap my knee, that's serious.
+SPONGEBOB (sad): I just want him back, Sandy. I'll never forget his dinner again.
+SANDY (smug): Let me check my snail tracker. I put one on Gary last spring, just in case.
+SFX beep
+SANDY (surprised): Holy guacamole. He's way down south. Way, way down.
+SPONGEBOB (scared): Not... Rock Bottom?
+SANDY (nervous): Rock Bottom.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC tense 2
+SCENE krusty_krab
+PLACE mr_krabs center left angry
+ENTER spongebob right midright nervous
+MR_KRABS (angry): SpongeBob! Where've ya been? Employee of the Month voting starts in one hour!
+SPONGEBOB (sad): I'm sorry, Mr. Krabs. My snail is in Rock Bottom. I have to go get him.
+MR_KRABS (surprised): You'd miss the vote? For a snail?
+SPONGEBOB (happy): He's not just a snail. He's family.
+MR_KRABS (shy): Aye. Well. I'd do the same for me money. Go on, lad.
+
+# ------------------------------------------------------------ ROCK BOTTOM
+MUSIC spooky
+SCENE rock_bottom
+ENTER spongebob left center scared
+ENTER patrick left midleft scared
+PATRICK (scared): It's so dark down here.
+SPONGEBOB (scared): And so quiet. Gary? Gary!
+NARRATOR: Rock Bottom was the deepest, darkest place in the ocean. And everyone there spoke very, very strangely.
+SPONGEBOB (nervous): Excuse me, sir. Have you seen a snail?
+PATRICK (scared): He's just blowing bubbles at us!
+SPONGEBOB (nervous): I think that means "no."
+
+# ------------------------------------------------------------ ROCK BOTTOM
+MUSIC spooky 2
+SCENE rock_bottom
+PLACE spongebob center right nervous
+PLACE patrick midleft right nervous
+ENTER gary right farright happy 120
+GARY (happy): Meow!
+SPONGEBOB (excited): Gary!
+NARRATOR: Gary was not alone. He was surrounded by a hundred glowing Rock Bottom snails. They were having a party. A snail party.
+SPONGEBOB (surprised): You... found friends?
+GARY (smug): Meow meow.
+PATRICK (excited): Snail party! Snail party!
+
+# ------------------------------------------------------------ ROCK BOTTOM
+MUSIC sad
+SCENE rock_bottom
+PLACE spongebob center right sad
+PLACE gary midright left neutral
+SPONGEBOB (sad): Gary, I'm sorry I forgot your dinner. I was so busy trying to be the best employee, I forgot to be the best owner.
+GARY (sad): Meow.
+SPONGEBOB (sad): If you want to stay here with your new friends, I understand.
+GARY (happy): Meow meow meow.
+SPONGEBOB (surprised): You'll come home? But only if your friends can visit on weekends?
+GARY (smug): Meow.
+SPONGEBOB (excited): Deal!
+
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
+MUSIC romantic
+SCENE sponge_living_room
+CARD That night...
+PLACE spongebob center right happy
+PLACE gary midleft right happy
+SPONGEBOB (happy): Dinner is served, Gary! Five cans! With extra sprinkles!
+GARY (excited): Meow!
+SPONGEBOB (shy): I missed the vote today. But I don't mind. I've got you.
+SFX door
+NARRATOR: There was a knock at the door.
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC happy 2
+SCENE pineapple_house
+PLACE spongebob center right surprised
+PLACE mr_krabs midleft right smug
+PLACE squidward left right neutral
+MR_KRABS (smug): Mr. SquarePants. You missed the vote. So we counted it without ya.
+SQUIDWARD (smug): You won. Unanimously. Even I voted for you. Don't tell anyone.
+SPONGEBOB (surprised): Employee of the Month? Me?
+MR_KRABS (happy): Any lad who'd go all the way to Rock Bottom for his snail is a lad I want flippin' me patties.
+SPONGEBOB (excited): Did you hear that, Gary? We won!
+END

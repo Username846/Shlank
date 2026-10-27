@@ -1,0 +1,171 @@
+@title Squidward's Day Off
+@series SpongeBob SquarePants
+@season 1
+@icon bubbles
+@number 6
+@description Mr. Krabs gives Squidward his first day off in eleven years. SpongeBob is determined to make it the most relaxing day of Squidward's life, whether Squidward likes it or not.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz
+SCENE krusty_krab cut
+TITLE
+PLACE mr_krabs center left smug
+PLACE squidward midright left sad
+MR_KRABS (smug): Mr. Squidward, I've been doing some thinking. You've worked here eleven years without a single day off.
+SQUIDWARD (sad): Eleven years, four months and nine days. Not that I've been counting.
+MR_KRABS (happy): So tomorrow, you get a whole day off! Paid! Well. Half paid.
+SQUIDWARD (surprised): A day off? A real one? No spatulas? No customers? No SpongeBob?
+MR_KRABS (nervous): Well, two out of three.
+ENTER spongebob left left excited 500
+SPONGEBOB (excited): Squidward has a day off?! This is the best news since the invention of the bubble!
+SQUIDWARD (scared): Oh no.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC romantic
+SCENE squidward_house
+PLACE squidward center right happy
+HOLD squidward clarinet
+NARRATOR: The next morning, Squidward woke up at a beautiful, peaceful, sensible hour.
+SQUIDWARD (happy): Ahh. Silence. Today I will paint a self-portrait. Then a bubble bath. Then three hours of clarinet.
+SFX clarinet
+SQUIDWARD (smug): Perfect. Not a single sponge in sight.
+SFX door
+ENTER spongebob left left excited
+SPONGEBOB (excited): Good morning, Squidward! I'm here to help you relax!
+SQUIDWARD (angry): The best way to help me relax is to go home.
+SPONGEBOB (happy): Ha! You're so funny when you're relaxed!
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC happy
+SCENE pineapple_house
+PLACE spongebob center right excited
+PLACE patrick midright left happy
+PLACE gary farleft right neutral
+SPONGEBOB (excited): Patrick, we need a plan. Squidward has one day off, and it has to be perfect.
+PATRICK (happy): What does Squidward like?
+SPONGEBOB (nervous): Hmm. Art. Music. Peace and quiet. And not me.
+PATRICK (smug): Then we give him all of those! Except the last one. That one's too hard.
+SPONGEBOB (excited): Patrick, you're a genius! Operation Relaxation is a go!
+GARY (nervous): Meow.
+SPONGEBOB (happy): Don't worry, Gary. What could possibly go wrong?
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC sneaky
+SCENE squidward_house
+PLACE squidward center right neutral
+ENTER spongebob left midleft excited
+ENTER patrick left left happy
+SPONGEBOB (excited): Step one! A soothing massage!
+PATRICK (excited): I've been practicing on a rock!
+SFX thud
+SQUIDWARD (angry): Ow! Patrick, that's my head!
+PATRICK (surprised): It's much softer than the rock.
+SPONGEBOB (nervous): Okay! Step two! Soothing music!
+SFX squeak
+SQUIDWARD (angry): Is that a rubber duck?
+SPONGEBOB (happy): Thirty rubber ducks! It's a choir!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz 2
+SCENE krusty_krab
+PLACE mr_krabs center left nervous
+ENTER plankton right midright smug
+PLANKTON (smug): Well, well, well. Squidward's gone. SpongeBob's gone. Who's running the register, Krabs?
+MR_KRABS (nervous): Uh. Me. I'm running it. Very well. Very carefully.
+PLANKTON (excited): And who's guarding the secret formula?
+MR_KRABS (angry): Also me! Now get out before I step on ya!
+EXIT plankton right
+MR_KRABS (scared): Oh, I miss me employees.
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC happy 2
+SCENE goo_lagoon
+PLACE squidward center right sad
+ENTER spongebob left midleft excited
+ENTER patrick left left excited
+SPONGEBOB (excited): Step three! A relaxing day at the beach!
+SQUIDWARD (sad): I didn't agree to steps one or two.
+PATRICK (happy): I buried you in sand so you can't get away. I mean, so you can relax.
+SQUIDWARD (angry): I can't feel my legs. All six of them.
+ENTER larry right midright smug
+LARRY (smug): Hey, Squidward! Want to lift some weights? It's very relaxing.
+SQUIDWARD (scared): Please. Somebody. Dig me out.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC jazz
+SCENE treedome
+PLACE sandy center left happy
+ENTER spongebob right midright nervous
+SANDY (happy): Howdy, SpongeBob! Why the long face?
+SPONGEBOB (sad): I'm trying to give Squidward a perfect day off, and everything keeps going wrong.
+SANDY (smug): SpongeBob, have you tried asking Squidward what he wants?
+SPONGEBOB (surprised): Asking? That's crazy talk, Sandy.
+SANDY (happy): Crazy enough to work. Go on, now.
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC sad
+SCENE goo_lagoon
+PLACE squidward center right sad
+ENTER spongebob left midleft nervous
+SPONGEBOB (nervous): Squidward? What do you actually want to do today?
+SQUIDWARD (surprised): You're asking me?
+SPONGEBOB (shy): Yes. It's your day.
+SQUIDWARD (sad): I want to play my clarinet. In front of an audience. Just once. An audience that doesn't throw tomatoes.
+SPONGEBOB (excited): I can do that! I mean, I can find that!
+
+# ------------------------------------------------------------ DOWNTOWN BIKINI BOTTOM
+MUSIC action
+SCENE bb_downtown
+PLACE spongebob center right excited
+PLACE patrick midleft right excited
+SPONGEBOB (excited): Patrick, we need an audience. A big one. One that loves music.
+PATRICK (happy): I love music!
+SPONGEBOB (excited): That's one! We need about fifty more!
+NARRATOR: They knocked on every door in Bikini Bottom. They promised free Krabby Patties to anyone who came.
+PATRICK (nervous): Does Mr. Krabs know about the free part?
+SPONGEBOB (nervous): He will. Eventually.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC tense
+SCENE krusty_krab
+PLACE mr_krabs center left scared
+ENTER spongebob right midright excited
+SPONGEBOB (excited): Mr. Krabs! Can we borrow the Krusty Krab tonight? For a concert?
+MR_KRABS (angry): A concert? In me restaurant? Who's paying for this?
+SPONGEBOB (nervous): Well, everyone who comes gets a free Krabby Patty...
+MR_KRABS (angry): FREE?!
+SPONGEBOB (excited): And then they'll stay for dinner! And dessert! And drinks!
+MR_KRABS (smug): Hmm. Free patties for a full restaurant. I like the way you think, boy.
+
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
+MUSIC romantic 2
+SCENE krusty_dining
+CARD That evening...
+PLACE squidward center right nervous
+HOLD squidward clarinet
+PLACE spongebob midleft right happy
+PLACE patrick left right happy
+PLACE sandy midright left happy
+PLACE mrs_puff farright left happy
+SPONGEBOB (excited): Ladies and gentlefish! Bikini Bottom's greatest musician! Squidward Tentacles!
+SQUIDWARD (nervous): Is this... a real audience?
+SANDY (excited): Play somethin', Squidward!
+SFX clarinet
+NARRATOR: Squidward played. It was not good. It was, in fact, quite bad. But nobody threw a single tomato.
+MRS_PUFF (happy): Bravo! Encore!
+
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
+MUSIC happy 3
+SCENE krusty_dining
+PLACE squidward center right happy
+PLACE spongebob midleft right excited
+PLACE mr_krabs midright left smug
+SFX cash
+MR_KRABS (smug): Best night in the history of the Krusty Krab! Everybody ordered seconds!
+SQUIDWARD (shy): They... clapped. For me.
+SPONGEBOB (happy): Was it a perfect day off, Squidward?
+SQUIDWARD (smug): It was terrible. The worst day of my life.
+SQUIDWARD (shy): ...Until about an hour ago. Thank you, SpongeBob.
+SPONGEBOB (excited): Same time next year?
+SQUIDWARD (angry): Don't push it.
+END

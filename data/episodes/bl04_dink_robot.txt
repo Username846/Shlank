@@ -1,5 +1,6 @@
 @title Mr. Dink's Robot
 @series Doug
+@season 1
 @icon journal
 @number 4
 @description Mr. Dink buys a very expensive robot lawn mower. It works perfectly, until it mows its way across the whole of Bluffington.

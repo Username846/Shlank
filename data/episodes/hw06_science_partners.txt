@@ -1,0 +1,150 @@
+@title Science Partners
+@series Hey Arnold!
+@season 1
+@icon city
+@number 6
+@description The fourth grade science project is worth half the grade, and Arnold gets paired with Helga. Helga has to work with the love of her life for two weeks without anybody finding out. Especially him.
+
+# ------------------------------------------------------------ FOURTH GRADE CLASSROOM
+MUSIC jazz
+SCENE classroom cut
+TITLE
+PLACE arnold midleft right neutral
+PLACE helga center left smug
+PLACE gerald left right neutral
+PLACE phoebe midright left happy
+NARRATOR: Mr. Simmons had big news. The science project. Half the grade. Partners picked out of a hat.
+GERALD (nervous): Please let me get Phoebe. Please let me get Phoebe.
+PHOEBE (happy): Gerald and I are partners! How statistically fortunate.
+NARRATOR: And then, the last two names came out of the hat. Arnold. And Helga.
+HELGA (angry): WHAT?! Me and football head?!
+ARNOLD (nervous): Hey, Helga. I guess we're partners.
+HELGA (smug): Don't get any ideas, Arnoldo. I'm doing all the thinking.
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC sneaky
+SCENE ps118
+PLACE helga center right shy
+HOLD helga locket
+HELGA (shy): Oh, Arnold. Two whole weeks. Side by side. Our hands nearly touching over a beaker of bubbling chemicals.
+HELGA (excited): Like two scientists in love. Like Marie and Pierre Curie. But with more yelling.
+HELGA (scared): But if he finds out, my life is over! Over, I tell you!
+HELGA (smug): Fine. I'll be the meanest science partner in the history of science. He'll never suspect a thing.
+
+# ------------------------------------------------------------ ARNOLD'S ROOM
+MUSIC happy
+SCENE arnold_room
+PLACE arnold center right happy
+ENTER helga left midleft smug
+ARNOLD (happy): So what should our project be? I was thinking about plants. We could grow beans on the roof.
+HELGA (smug): Beans? Boring. Snooze-ville. Population: you.
+ARNOLD (neutral): Okay. What's your idea?
+HELGA (nervous): My idea is... uh... a very scientific study of... love. I mean, of gloves. Rubber gloves.
+ARNOLD (surprised): Gloves?
+HELGA (angry): Beans! Fine! Beans! Your idea's great! Stop staring at me!
+
+# ------------------------------------------------------------ ROOFTOP AT DUSK
+MUSIC romantic
+SCENE rooftop
+PLACE arnold center right happy
+PLACE helga midleft right shy
+NARRATOR: They planted the beans in a row of paper cups. Arnold watered them. Helga pretended not to watch Arnold water them.
+ARNOLD (happy): You know, Helga, you're actually a pretty good partner.
+HELGA (shy): I... am?
+HELGA (angry): I mean. Of course I am! Now get your elbow off my cup, bucko!
+ARNOLD (smug): Okay, Helga.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC jazz 2
+SCENE boarding_kitchen
+PLACE grandpa center left happy
+PLACE grandma midright left excited
+ENTER arnold right right neutral
+GRANDPA (happy): How's the science project going, Shortman?
+ARNOLD (neutral): Good, I think. Helga's being nice. Sort of. Then she yells at me. Then she's nice again.
+GRANDPA (smug): Heh heh heh. Sounds like a girl who likes ya.
+ARNOLD (surprised): Helga? No way, Grandpa. She can't stand me.
+GRANDMA (excited): Eleanor! A good scientist always tests his hypothesis!
+ARNOLD (nervous): I'll... keep that in mind, Grandma.
+
+# ------------------------------------------------------------ GERALD FIELD
+MUSIC sneaky 2
+SCENE gerald_field
+PLACE harold center left smug
+PLACE sid midleft right excited
+PLACE stinky left right neutral
+HAROLD (smug): Our science project is the best. We're seeing what happens when you eat a whole pie in one bite.
+SID (excited): And what happens?
+HAROLD (sad): Bad stuff. Very bad stuff.
+STINKY (neutral): Gee, me and Sid are measurin' how far a frog can jump. Answer's real far. Ain't seen him since Tuesday.
+SID (nervous): Arnold and Helga are growing beans on the roof. I bet Helga's gonna sabotage 'em. She hates Arnold.
+
+# ------------------------------------------------------------ ROOFTOP AT DUSK
+MUSIC tense
+SCENE rooftop
+CARD The night before the science fair...
+PLACE helga center right scared
+HELGA (scared): Oh no. Oh no, no, no. The beans!
+NARRATOR: A storm had come through Hillwood. Every cup was knocked over. Every bean was gone.
+HELGA (sad): Arnold's going to be so disappointed. Our perfect science project, ruined.
+HELGA (angry): Not on my watch! Helga G. Pataki doesn't give up!
+EXIT helga left
+
+# ------------------------------------------------------------ GREEN MEATS
+MUSIC action
+SCENE green_meats
+PLACE helga center right nervous
+HELGA (nervous): Mr. Green! I need beans! Bean sprouts! Bean plants! Any kind of beans that are already growing!
+NARRATOR: Helga ran to every shop in Hillwood. The butcher. The grocer. The flower shop. The flower shop had one bean plant. It was very expensive.
+HELGA (sad): That's my whole allowance. For three months.
+HELGA (smug): Fine. Worth it. Don't tell anyone, Mr. Green.
+
+# ------------------------------------------------------------ ROOFTOP AT DUSK
+MUSIC sneaky
+SCENE rooftop
+CARD Six in the morning...
+PLACE helga center right nervous
+ENTER arnold left left surprised
+ARNOLD (surprised): Helga? What are you doing on my roof at six in the morning?
+HELGA (scared): Me? Nothing! Sleepwalking! I sleepwalk! On roofs! Of football heads!
+ARNOLD (surprised): Is that a new bean plant? Where are the other cups?
+HELGA (sad): The storm got them. All of them. I... bought a new one. So we'd have something to show.
+ARNOLD (surprised): You spent your own money? On our project?
+HELGA (angry): Don't make a big thing out of it!
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC jazz
+SCENE ps118
+PLACE gerald center left neutral
+PLACE phoebe midleft right happy
+GERALD (neutral): So our project was a study of which pigeon in the park is the boss pigeon.
+PHOEBE (happy): It's the one with one foot. His name is Nigel. He's extremely respected.
+GERALD (smug): We got an A, Phoebe.
+PHOEBE (shy): An A-plus, Gerald. But who's counting?
+
+# ------------------------------------------------------------ FOURTH GRADE CLASSROOM
+MUSIC tense 2
+SCENE classroom
+PLACE arnold center right nervous
+PLACE helga midright left nervous
+HOLD arnold none
+ARNOLD (nervous): So, Mr. Simmons, our project was going to be about how beans grow on a roof.
+ARNOLD (happy): But it turned into something better. What happens when a storm wrecks everything.
+HELGA (surprised): It did?
+ARNOLD (happy): The answer is, you find out who your real partner is. Helga saved the whole project. With her own allowance.
+HELGA (shy): Arnold...
+HELGA (angry): I mean. Whatever, football head.
+
+# ------------------------------------------------------------ HILLWOOD STREET
+MUSIC romantic
+SCENE hillwood_street
+PLACE helga center right shy
+PLACE arnold midleft right happy
+ARNOLD (happy): We got a B-plus, Helga. Thanks for not giving up.
+HELGA (smug): Don't mention it. Ever. To anyone.
+ARNOLD (smug): Grandpa says you might like me.
+HELGA (scared): Your grandpa's crazy! Crazy, I tell you! Ha ha! Ha!
+EXIT arnold right
+HELGA (shy): Oh, Arnold. My bean-growing, storm-surviving, B-plus-earning angel.
+HELGA (sad): And I have no allowance until spring.
+END

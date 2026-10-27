@@ -1,5 +1,6 @@
 @title Pizza on the Roof
 @series Breaking Bad
+@season 1
 @icon element
 @number 2
 @description Walt promised to bring home pizza for family night. Things go wrong at the door, and now there's a whole pizza on the roof. Getting it down becomes the hardest chemistry problem of his life.

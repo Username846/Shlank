@@ -16,6 +16,21 @@
 			"file": "res://data/episodes/ep05_rock_bottom.txt"
 		},
 		{
+			"file": "res://data/episodes/ep06_squidwards_day_off.txt"
+		},
+		{
+			"file": "res://data/episodes/ep07_sandys_rocket.txt"
+		},
+		{
+			"file": "res://data/episodes/ep08_gary_runs_away.txt"
+		},
+		{
+			"file": "res://data/episodes/ep09_pearls_party.txt"
+		},
+		{
+			"file": "res://data/episodes/ep10_chum_bucket_reopening.txt"
+		},
+		{
 			"file": "res://data/episodes/hw01_the_locket.txt"
 		},
 		{
@@ -29,6 +44,21 @@
 		},
 		{
 			"file": "res://data/episodes/hw05_beeper_sale.txt"
+		},
+		{
+			"file": "res://data/episodes/hw06_science_partners.txt"
+		},
+		{
+			"file": "res://data/episodes/hw07_grandpas_birthday.txt"
+		},
+		{
+			"file": "res://data/episodes/hw08_rhondas_fashion_show.txt"
+		},
+		{
+			"file": "res://data/episodes/hw09_rooftop_garden.txt"
+		},
+		{
+			"file": "res://data/episodes/hw10_helgas_poem.txt"
 		},
 		{
 			"file": "res://data/episodes/bl01_beets_tickets.txt"

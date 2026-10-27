@@ -1,5 +1,6 @@
 @title Inspection Day
 @series Attack on Titan
+@season 1
 @icon wings
 @number 2
 @description Captain Levi announces a surprise inspection of Scout HQ. Everything must be spotless by sundown. Unfortunately, a very muddy Titan has other plans.

@@ -1,5 +1,6 @@
 @title Plankton's Perfect Plan
 @series SpongeBob SquarePants
+@season 1
 @icon bubbles
 @number 3
 @description Plankton has a brand-new scheme to steal the secret formula: disguise himself as SpongeBob's pet snail. What could possibly go wrong?

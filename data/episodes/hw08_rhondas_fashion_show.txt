@@ -1,0 +1,153 @@
+@title Rhonda's Fashion Show
+@series Hey Arnold!
+@season 1
+@icon city
+@number 8
+@description Rhonda is holding a fashion show in the park, and everyone in the fourth grade has to be a model. Harold refuses to wear a tie, Stinky refuses to wear shoes, and Helga refuses everything.
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC jazz
+SCENE ps118 cut
+TITLE
+PLACE rhonda center left excited
+PLACE phoebe midright left happy
+PLACE gerald right left neutral
+RHONDA (excited): Attention, everyone! I am hosting the most fabulous event of the year! The Hillwood Junior Fashion Show!
+GERALD (smug): Here we go.
+RHONDA (smug): All of you will be my models. I've already designed the outfits. It's called... Urban Elegance.
+PHOEBE (happy): How exciting! I've always wanted to wear a hat with a feather.
+RHONDA (smug): Phoebe, darling, the feather wears you.
+
+# ------------------------------------------------------------ SCHOOL CAFETERIA
+MUSIC sneaky
+SCENE cafeteria
+PLACE harold center left angry
+PLACE stinky midright left nervous
+PLACE sid left right excited
+HAROLD (angry): I'm not wearing a tie! Ties are for grown-ups! And for choking!
+STINKY (nervous): Gee, Rhonda says I gotta wear shoes. Fancy shoes. With laces.
+SID (excited): I get to wear sunglasses! Inside! It's the coolest thing that's ever happened to me!
+HAROLD (sad): Can I at least eat during the fashion show?
+SID (nervous): I don't think models eat, Harold.
+HAROLD (scared): Then I quit!
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC happy
+SCENE sunset_arms
+PLACE arnold center right neutral
+ENTER helga left midleft angry
+HELGA (angry): Arnoldo! Did princess Rhonda rope you into this ridiculous fashion show?
+ARNOLD (neutral): Yeah. I'm wearing a sweater vest. She says it's "classic."
+HELGA (angry): Well, I'm not doing it. No way. Not even if she begs.
+ARNOLD (smug): She put you on the poster, Helga. You're the grand finale.
+HELGA (surprised): The grand what?
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC jazz 2
+SCENE hillwood_park
+CARD The first rehearsal...
+PLACE rhonda center left excited
+PLACE harold midright left angry
+PLACE stinky right left nervous
+RHONDA (excited): Walk, Harold! Walk like you own the runway!
+HAROLD (angry): I'm walking! This is how I walk!
+RHONDA (angry): You're stomping! Fashion doesn't stomp! Fashion glides!
+STINKY (nervous): Gee, Rhonda, my shoes are pinchin' something terrible.
+RHONDA (smug): Beauty is pain, Stinky.
+STINKY (sad): Then I reckon I'm the most beautiful boy in Hillwood.
+
+# ------------------------------------------------------------ SLAUSEN'S ICE CREAM
+MUSIC romantic
+SCENE slausens
+PLACE helga center right sad
+PLACE phoebe midleft right nervous
+HOLD helga ice_cream
+HELGA (sad): Phoebe, I can't walk down a runway in a dress. In front of everybody. In front of Arnold.
+PHOEBE (nervous): You could think of it as a performance, Helga. Like a play.
+HELGA (shy): What if I trip? What if he laughs?
+PHOEBE (happy): Arnold never laughs at anyone. Statistically, he's the least laughing boy in the fourth grade.
+HELGA (smug): You're right. And if anybody else laughs, I'll pound 'em.
+PHOEBE (happy): That's the spirit.
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC tense
+SCENE hillwood_park
+PLACE rhonda center left scared
+PLACE gerald midright left neutral
+RHONDA (scared): Disaster! Catastrophe! The outfits have been delivered to the wrong address!
+GERALD (surprised): Where'd they go?
+RHONDA (sad): Big Bob's Beepers. And the show starts in two hours.
+GERALD (smug): Well, look at the bright side. Harold doesn't have to wear a tie.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC sneaky 2
+SCENE big_bobs
+PLACE big_bob center left smug
+ENTER rhonda right midright nervous
+ENTER arnold right right neutral
+BIG_BOB (smug): Fancy clothes? Yeah, a big box came in. I already put it on sale. Forty percent off.
+RHONDA (scared): You can't sell my collection!
+BIG_BOB (smug): I can sell anything, kid. I'm Big Bob.
+ARNOLD (happy): Mr. Pataki, Helga's in the show too. The grand finale.
+BIG_BOB (surprised): Olga? I mean, Helga? My Helga? In a fashion show?
+BIG_BOB (excited): Well, why didn't ya say so! Take the box! Free! And I'll put up some posters!
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC action
+SCENE hillwood_park
+CARD Showtime...
+PLACE rhonda center left excited
+PLACE sid midright left excited
+PLACE stinky right left nervous
+RHONDA (excited): Ladies and gentlemen! The Hillwood Junior Fashion Show!
+SID (excited): Look at me! Sunglasses! Inside! Well, outside! But still!
+STINKY (nervous): Here goes nothin'.
+SFX slide_whistle
+NARRATOR: Stinky tripped on his laces. Then he kicked off the fancy shoes and walked the runway barefoot. The crowd went wild.
+RHONDA (surprised): They... love it?
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC jazz
+SCENE hillwood_park
+PLACE harold center left nervous
+PLACE rhonda midright left nervous
+HAROLD (nervous): I'm not wearing the tie, Rhonda. I'm wearing it as a headband.
+RHONDA (surprised): A tie as a headband?
+NARRATOR: Harold stomped down the runway with a tie on his head. It was not fashion. Or maybe it was.
+RHONDA (excited): It's bold! It's avant-garde! It's the future!
+HAROLD (smug): I'm a fashion guy now.
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC romantic 2
+SCENE hillwood_park
+PLACE helga center right nervous
+PLACE arnold midleft right surprised
+PLACE rhonda farright left excited
+RHONDA (excited): And now, our grand finale! Helga Pataki!
+NARRATOR: Helga walked down the runway. She did not trip. She did not stomp. She did not pound anybody. She even almost smiled.
+ARNOLD (surprised): Wow. Helga looks... really nice.
+HELGA (shy): He said nice. He said NICE.
+HELGA (angry): What are you looking at, football head?!
+ARNOLD (smug): Nothing, Helga.
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC happy 2
+SCENE hillwood_park
+PLACE rhonda center left excited
+PLACE phoebe midright left happy
+PLACE gerald right left smug
+RHONDA (excited): A triumph! A sensation! The shoeless look, the tie headband, the angry finale!
+PHOEBE (happy): Everyone wants to know where to buy the outfits.
+GERALD (smug): Forty percent off at Big Bob's Beepers.
+RHONDA (scared): Wait. He's still selling them?!
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC jazz 2
+SCENE big_bobs
+PLACE big_bob center left excited
+PLACE helga midright left smug
+BIG_BOB (excited): Sold out! Every shirt, every hat, every shoe! You're a star, Olga!
+HELGA (angry): It's Helga, Bob!
+BIG_BOB (happy): Right, right. Helga. Same time next year?
+HELGA (smug): Only if I get twenty percent.
+END

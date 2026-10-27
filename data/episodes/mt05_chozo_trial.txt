@@ -1,5 +1,6 @@
 @title The Chozo Trial
 @series Metroid
+@season 1
 @icon visor
 @number 5
 @description The Chozo Elder says Baby Metroid must pass an ancient trial to prove it belongs on the team. The trial is very old, very strange and mostly involves puzzles.

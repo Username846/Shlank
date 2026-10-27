@@ -1,5 +1,6 @@
 @title Yoshi's Egg Hunt
 @series Super Mario Brothers
+@season 1
 @icon mushroom
 @number 4
 @description A storm has scattered Yoshi's spotted eggs all over the Mushroom Kingdom. Mario, Luigi and a very confused Donkey Kong help find them before they hatch.

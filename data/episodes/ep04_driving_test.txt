@@ -1,5 +1,6 @@
 @title Test Number Sixty-Seven
 @series SpongeBob SquarePants
+@season 1
 @icon bubbles
 @number 4
 @description SpongeBob is about to take his boating test for the sixty-seventh time, and Mrs. Puff has a plan to finally get him to pass.

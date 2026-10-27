@@ -1,5 +1,6 @@
 @title The Boss Takes a Vacation
 @series Pokémon
+@season 1
 @icon rocket
 @number 5
 @description The Boss is going on vacation, and he's leaving Team Rocket in charge of headquarters. They immediately lose the keys, the cat and the headquarters.

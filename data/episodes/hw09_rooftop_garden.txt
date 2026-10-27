@@ -1,0 +1,160 @@
+@title The Neighborhood Garden
+@series Hey Arnold!
+@season 1
+@icon city
+@number 9
+@description An empty lot in the neighborhood is about to become a parking garage. Arnold gets everyone to turn it into a garden first. Big Bob owns the parking garage company.
+
+# ------------------------------------------------------------ HILLWOOD STREET
+MUSIC sad
+SCENE hillwood_street cut
+TITLE
+PLACE arnold center right neutral
+PLACE gerald midleft right neutral
+ARNOLD (neutral): Gerald, look. The empty lot on Vine Street. There's a sign.
+GERALD (surprised): "Coming Soon. Big Bob's Beeper Parking." A parking garage?
+ARNOLD (sad): That's where Mr. Hyunh's old garden used to be. Before the fence went up.
+GERALD (smug): It's just a lot full of weeds and a shopping cart, Arnold.
+ARNOLD (happy): It could be more than that. It could be a garden again.
+GERALD (nervous): I know that look. Here we go.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC jazz
+SCENE boarding_kitchen
+PLACE grandpa center left smug
+PLACE grandma midright left excited
+PLACE arnold midleft right happy
+ARNOLD (happy): Grandpa, the city says if a lot is a community garden, they can't build on it.
+GRANDPA (smug): That's true, Shortman. But you'd have to grow it first. And fast.
+GRANDMA (excited): Victory garden! Like in the war! Tomatoes for the troops!
+ARNOLD (excited): We have one week. Before the bulldozers come.
+GRANDPA (happy): I've got seeds in the basement from 1962. They might still work.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC sneaky
+SCENE big_bobs
+PLACE big_bob center left excited
+PLACE helga midright left neutral
+BIG_BOB (excited): Parking, Olga! Parking is the future! Everybody's got a car, nobody's got a place to put it!
+HELGA (neutral): It's Helga. And I heard football head's turning your lot into a garden.
+BIG_BOB (angry): A garden?! What's a garden gonna do? Grow money?
+HELGA (smug): Probably zucchini.
+BIG_BOB (angry): Not on my lot! Not on Big Bob's lot!
+
+# ------------------------------------------------------------ HILLWOOD ALLEY
+MUSIC happy
+SCENE alley
+PLACE arnold center right excited
+PLACE sid midleft right nervous
+PLACE stinky left right happy
+PLACE harold midright left neutral
+ARNOLD (excited): Okay, everyone. We need to dig, plant and water. Every day for a week.
+SID (nervous): What if there's worms? Or germs? Or worm germs?
+STINKY (happy): Gee, I grew a pumpkin once. Biggest one in Hillwood. Named him Ralph.
+HAROLD (excited): Can we grow pie?
+ARNOLD (happy): We can grow the stuff that goes in pie, Harold.
+HAROLD (excited): Good enough!
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC jazz 2
+SCENE hillwood_park
+PLACE rhonda center left smug
+PLACE phoebe midright left happy
+RHONDA (smug): A garden? With dirt? Absolutely not. My nails are worth more than that lot.
+PHOEBE (happy): Studies show that gardening improves the complexion, Rhonda.
+RHONDA (surprised): It does?
+PHOEBE (smug): And fresh flowers are very fashionable this season.
+RHONDA (excited): Then I'll be in charge of flowers! Only the most elegant ones! Hand me a shovel! A pink one!
+
+# ------------------------------------------------------------ HILLWOOD ALLEY
+MUSIC happy 2
+SCENE alley
+CARD Day three...
+PLACE arnold center right happy
+PLACE stinky midleft right excited
+PLACE gerald left right neutral
+NARRATOR: They dug up the weeds. They moved the shopping cart. Grandpa's seeds from 1962 actually sprouted.
+STINKY (excited): Gee whillikers, look at them sprouts!
+GERALD (surprised): Okay, Arnold. I'll admit it. This is kind of cool.
+ARNOLD (happy): Told you.
+ENTER helga right farright smug
+HELGA (smug): Nice weeds, football head.
+ARNOLD (happy): Those are tomatoes, Helga. Want to plant something?
+
+# ------------------------------------------------------------ HILLWOOD ALLEY
+MUSIC romantic
+SCENE alley
+PLACE helga center right shy
+PLACE arnold midleft right happy
+HELGA (shy): I suppose I could plant one thing. One. Just to make it look less pathetic.
+ARNOLD (happy): What do you want to plant?
+HELGA (shy): A rose bush. Pink. Like... a bow.
+HELGA (angry): Not like MY bow! Like any bow! Bows in general!
+ARNOLD (smug): Okay, Helga.
+NARRATOR: Helga planted a rose bush. She watered it every single day, when nobody was watching.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC tense
+SCENE big_bobs
+PLACE big_bob center left angry
+ENTER helga right midright neutral
+BIG_BOB (angry): The bulldozers come on Friday, Olga! Garden or no garden!
+HELGA (nervous): But Bob, the city said a community garden can't be built on.
+BIG_BOB (smug): Only if it's a real garden with real stuff growing. And by Friday, it won't be.
+HELGA (surprised): What's that supposed to mean?
+BIG_BOB (smug): Means I bought fifty pounds of weed killer. Big Bob always wins.
+HELGA (scared): My rose bush.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC sneaky 2
+SCENE sunset_arms
+CARD That night...
+PLACE arnold center right surprised
+ENTER helga left midleft nervous
+ARNOLD (surprised): Helga? It's eleven o'clock at night.
+HELGA (nervous): Shut up and listen. Somebody's gonna spray weed killer on the garden tomorrow morning. Early.
+ARNOLD (surprised): Who?
+HELGA (angry): Doesn't matter who! A big guy! With a beeper! You just get everybody there by six!
+ARNOLD (happy): Thanks, Helga.
+HELGA (angry): I didn't tell you anything! This conversation never happened!
+EXIT helga left
+
+# ------------------------------------------------------------ HILLWOOD ALLEY
+MUSIC tense 2
+SCENE alley
+CARD Six in the morning...
+PLACE arnold center right neutral
+PLACE gerald midleft right neutral
+PLACE grandpa midright left smug
+PLACE stinky left right neutral
+ENTER big_bob right farright surprised
+BIG_BOB (surprised): What the? What are all you people doing here?
+GRANDPA (smug): Gardening, Bob. We do it at dawn. Old family tradition.
+STINKY (smug): Gee, Mr. Pataki, that's an awful big bottle of weed killer you got there.
+BIG_BOB (nervous): This? It's... uh... lemonade. For the plants.
+GERALD (smug): Plants don't drink lemonade, Mr. Pataki.
+
+# ------------------------------------------------------------ HILLWOOD ALLEY
+MUSIC sad
+SCENE alley
+PLACE big_bob center left sad
+PLACE arnold midright left neutral
+ARNOLD (neutral): Mr. Pataki, why do you want a parking garage here?
+BIG_BOB (sad): Because... this used to be my lot. When I was a kid. I sold my first beeper right here, on a crate. Well, a pager. Same thing.
+ARNOLD (happy): Then you know what it means to start something here.
+BIG_BOB (sad): Yeah. I guess I do.
+ARNOLD (happy): There's room for a crate. Right next to the tomatoes.
+
+# ------------------------------------------------------------ HILLWOOD ALLEY
+MUSIC happy 3
+SCENE alley
+CARD One month later...
+PLACE big_bob center left happy
+PLACE helga midright left shy
+PLACE arnold midleft right happy
+NARRATOR: The city named it the Vine Street Community Garden. There were tomatoes, pumpkins, roses and one small beeper stand on a wooden crate.
+BIG_BOB (happy): Tomatoes, three for a dollar! Beepers, two for a hundred!
+ARNOLD (happy): Your roses are beautiful, Helga.
+HELGA (shy): They're not mine. They're anybody's. Roses in general.
+HELGA (sad): ...Thanks, Arnold.
+END

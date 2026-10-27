@@ -1,0 +1,163 @@
+@title Sandy's Rocket
+@series SpongeBob SquarePants
+@season 1
+@icon bubbles
+@number 7
+@description Sandy has built a rocket to the moon. SpongeBob and Patrick sneak aboard to help, push every button at once, and land somewhere they're sure is the moon. It is not the moon.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC happy
+SCENE treedome cut
+TITLE
+PLACE sandy center left excited
+ENTER spongebob right midright excited
+SANDY (excited): SpongeBob! Come look! I finished her last night!
+SPONGEBOB (surprised): Whoa! What is that giant shiny thing?
+SANDY (smug): That, my friend, is the Texas Twister. A rocket ship. I'm takin' her to the moon tomorrow.
+SPONGEBOB (excited): The moon?! Can I come? Please? I'll be the best copilot!
+SANDY (nervous): Sorry, SpongeBob. It's a one-squirrel ship. Too dangerous for sea critters.
+SPONGEBOB (sad): Oh. Okay. I understand. Completely. Totally.
+
+# ------------------------------------------------------------ PATRICK'S ROCK
+MUSIC sneaky
+SCENE patrick_rock
+PLACE patrick center left happy
+ENTER spongebob right midright sad
+SPONGEBOB (sad): Patrick, Sandy's going to the moon, and she won't take us.
+PATRICK (surprised): The moon? The big cheese in the sky?
+SPONGEBOB (nervous): I don't think it's cheese, Patrick.
+PATRICK (smug): Then why is it round? Checkmate.
+SPONGEBOB (excited): Patrick, I have an idea. What if we hide in the rocket? Just to help.
+PATRICK (excited): Like secret helpers! Secret moon helpers!
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC sneaky 2
+SCENE treedome
+CARD That night...
+ENTER spongebob left midleft nervous 200
+ENTER patrick left left nervous 200
+SPONGEBOB (nervous): Shh. Quietly. Sandy's asleep in her tree.
+PATRICK (nervous): Why are we whispering?
+SPONGEBOB (nervous): Because we're sneaking!
+PATRICK (excited): I LOVE SNEAKING!
+SPONGEBOB (scared): Patrick!
+NARRATOR: They climbed inside the rocket. It was full of buttons. Hundreds of buttons. Patrick loves buttons.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC tense
+SCENE treedome
+PLACE spongebob center right nervous
+PLACE patrick midleft right excited
+PATRICK (excited): What does this button do?
+SPONGEBOB (scared): Don't touch anything!
+PATRICK (happy): What about this one? It's red. Red means fun.
+SFX beep
+SFX beep
+SPONGEBOB (scared): Patrick, it's counting! Ten! Nine!
+PATRICK (excited): Eight! Seven! I know this game!
+SFX blast
+SHAKE 1.0
+NARRATOR: The Texas Twister blasted off, right through the roof of the treedome.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC tense 2
+SCENE treedome
+PLACE sandy center left surprised
+SANDY (surprised): What in tarnation?! My rocket! And my roof!
+SANDY (angry): Somebody's flyin' my ship!
+SANDY (nervous): And I've got a sneakin' suspicion I know exactly which two somebodies.
+NARRATOR: Sandy grabbed her backup jetpack. Of course she had a backup jetpack. She's Sandy.
+
+# ------------------------------------------------------------ KELP FOREST
+MUSIC action
+SCENE kelp_forest
+SFX whoosh
+SFX thud
+SHAKE 0.8
+ENTER spongebob left center surprised 300
+ENTER patrick left midleft surprised 300
+SPONGEBOB (surprised): We landed! We're on the moon, Patrick!
+PATRICK (happy): It looks a lot like home.
+SPONGEBOB (excited): The moon has kelp! Nobody knew! We're scientists now!
+PATRICK (excited): I'm going to plant a flag! I'm going to use my underwear!
+SPONGEBOB (nervous): Let's maybe not.
+
+# ------------------------------------------------------------ JELLYFISH FIELDS
+MUSIC happy 2
+SCENE jellyfish_fields
+PLACE spongebob center right excited
+PLACE patrick midleft right excited
+SPONGEBOB (excited): Look! Moon jellyfish! They look just like ours!
+PATRICK (happy): Moon jellyfish probably sting in moon language.
+SFX zap
+SPONGEBOB (scared): Ow! It stings in our language too!
+NARRATOR: SpongeBob and Patrick explored the moon all morning. It had a lot of things that looked like Bikini Bottom.
+
+# ------------------------------------------------------------ DOWNTOWN BIKINI BOTTOM
+MUSIC jazz
+SCENE bb_downtown
+PLACE spongebob center right excited
+PLACE patrick midleft right excited
+ENTER mrs_puff right farright surprised
+SPONGEBOB (excited): Greetings, moon creature! We come in peace!
+MRS_PUFF (surprised): SpongeBob? Why are you talking like that?
+PATRICK (scared): It knows your name! The moon people know everything!
+SPONGEBOB (nervous): The moon people have a moon boating school, and a moon Mrs. Puff.
+MRS_PUFF (angry): Oh, for heaven's sake. I'm going home.
+EXIT mrs_puff right
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz 2
+SCENE krusty_krab
+PLACE mr_krabs center left neutral
+PLACE squidward midleft right neutral
+ENTER spongebob right midright excited
+ENTER patrick right right excited
+SPONGEBOB (excited): Moon Mr. Krabs! Moon Squidward! It's an honor!
+SQUIDWARD (smug): What are you talking about?
+PATRICK (happy): We flew here in a rocket. From Bikini Bottom.
+MR_KRABS (nervous): Boy, this is Bikini Bottom.
+SPONGEBOB (surprised): ...Then where is the moon?
+SQUIDWARD (smug): Up. It's always been up.
+
+# ------------------------------------------------------------ JELLYFISH FIELDS
+MUSIC tense
+SCENE jellyfish_fields
+PLACE spongebob center right nervous
+PLACE patrick midleft right nervous
+ENTER sandy right farright angry 400
+SANDY (angry): SpongeBob SquarePants! Patrick Star!
+SPONGEBOB (scared): Sandy! We can explain! We were secret helpers!
+SANDY (angry): You took my rocket for a joyride and crashed it in a field of jellyfish!
+PATRICK (sad): We thought it was the moon.
+SANDY (surprised): You... thought this was the moon?
+PATRICK (smug): It's round. Checkmate.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC sad
+SCENE treedome
+PLACE sandy center left sad
+PLACE spongebob midright left sad
+PLACE patrick right left sad
+SPONGEBOB (sad): We're sorry, Sandy. We just wanted to go to the moon with you.
+SANDY (sad): And I wanted to take you. Truth be told, it's lonely being the only scientist down here.
+PATRICK (sad): You could take us next time. We'll keep our hands in our pockets.
+SANDY (smug): Patrick, you don't have pockets.
+PATRICK (surprised): ...Oh no.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC romantic
+SCENE treedome
+CARD One week later...
+PLACE sandy center left happy
+PLACE spongebob midright left excited
+PLACE patrick right left excited
+SANDY (happy): Well, boys. She's fixed. And this time, she's got three seats.
+SPONGEBOB (excited): Three seats?! For us?!
+SANDY (smug): One condition. Nobody touches a single button.
+PATRICK (happy): Not even the red one?
+SANDY (angry): ESPECIALLY the red one.
+SFX blast
+SHAKE 1.0
+NARRATOR: And so they went to the moon. The real one. Patrick was very disappointed. It was not cheese.
+END

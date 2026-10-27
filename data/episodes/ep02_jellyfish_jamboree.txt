@@ -1,5 +1,6 @@
 @title The Jellyfish Jamboree
 @series SpongeBob SquarePants
+@season 1
 @icon bubbles
 @number 2
 @description It's the annual Jellyfishing Jamboree, and SpongeBob and Patrick are determined to win the Golden Net. Squidward is the judge, and he'd rather be anywhere else.

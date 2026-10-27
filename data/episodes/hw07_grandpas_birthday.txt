@@ -1,0 +1,161 @@
+@title Grandpa's Big Fish
+@series Hey Arnold!
+@season 1
+@icon city
+@number 7
+@description It's Grandpa's birthday, and all he wants is to go fishing at the pier, like he did when he was a boy. Arnold wants to help him catch the legendary fish he's been bragging about for sixty years.
+
+# ------------------------------------------------------------ BOARDING HOUSE KITCHEN
+MUSIC happy
+SCENE boarding_kitchen cut
+TITLE
+PLACE grandpa center left happy
+PLACE arnold midright left happy
+PLACE grandma midleft right excited
+ARNOLD (happy): Happy birthday, Grandpa! What do you want to do today?
+GRANDPA (happy): Shortman, there's only one thing I want. To go fishing on the Hillwood Pier.
+GRANDMA (excited): Fishing! Ahoy! I shall pack the hardtack!
+GRANDPA (smug): When I was a boy, I hooked the biggest fish in the whole harbor. Old Whiskers. A catfish as big as a canoe.
+ARNOLD (surprised): Did you catch him?
+GRANDPA (sad): He got away. Snapped my line. Been thinkin' about him for sixty years.
+
+# ------------------------------------------------------------ SUNSET ARMS
+MUSIC jazz
+SCENE sunset_arms
+PLACE arnold center right excited
+ENTER gerald left midleft neutral
+ARNOLD (excited): Gerald, today we're helping Grandpa catch a giant catfish.
+GERALD (smug): Arnold, my man. There is no giant catfish. That's an old man's fish story.
+ARNOLD (happy): Maybe. But it's his birthday. And he believes it.
+GERALD (smug): You're too nice, Arnold. You know that?
+GERALD (happy): Fine. I'm coming. But only for the hot dogs.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC happy 2
+SCENE hillwood_pier
+PLACE grandpa center left happy
+HOLD grandpa fishing_rod
+PLACE arnold midright left happy
+PLACE gerald right left neutral
+GRANDPA (happy): Ahh. Smell that harbor air. Diesel, seaweed and old sandwiches. Just like I remember.
+GERALD (nervous): Mr. Shortman, sir, how big did you say this fish was?
+GRANDPA (excited): Big as a canoe! With whiskers like a walrus!
+GERALD (smug): Uh huh. And what did you use for bait?
+GRANDPA (smug): Liverwurst. Old Whiskers can't resist a liverwurst.
+NARRATOR: They fished all morning. They caught one boot, two cans and a very surprised crab.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC jazz 2
+SCENE hillwood_pier
+PLACE grandpa center left sad
+HOLD grandpa fishing_rod
+PLACE arnold midright left neutral
+ENTER helga right farright smug
+HELGA (smug): Well, well. Football head and the fishing club. Catch anything? Besides a cold?
+ARNOLD (neutral): It's Grandpa's birthday, Helga. We're looking for Old Whiskers.
+HELGA (surprised): Old Whiskers? The giant catfish? My dad says that's a myth.
+GRANDPA (angry): Myth my foot! I saw him with my own eyes!
+HELGA (nervous): Okay, okay! Jeez, gramps.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC sneaky
+SCENE big_bobs
+PLACE big_bob center left excited
+PLACE helga midright left neutral
+BIG_BOB (excited): A giant catfish? Ha! If anybody catches Old Whiskers, I'll give 'em a thousand bucks! And a free beeper!
+HELGA (surprised): Seriously, Bob?
+BIG_BOB (smug): Seriously, Olga. I mean, Helga. Because nobody's ever gonna catch it. It doesn't exist.
+HELGA (smug): A thousand bucks, huh?
+EXIT helga right
+
+# ------------------------------------------------------------ GREEN MEATS
+MUSIC jazz
+SCENE green_meats
+PLACE arnold center right excited
+PLACE harold midleft right nervous
+ARNOLD (excited): Harold, we need more liverwurst. A lot more. Like, all of it.
+HAROLD (nervous): What for? Are you gonna eat it?
+ARNOLD (happy): It's catfish bait.
+HAROLD (sad): Aw man. I wanted to eat it.
+HAROLD (excited): Can I come? If you catch a giant fish, I wanna see it! And maybe eat it!
+ARNOLD (nervous): We're not eating Old Whiskers, Harold.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC sneaky 2
+SCENE hillwood_pier
+CARD That afternoon...
+PLACE grandpa center left neutral
+HOLD grandpa fishing_rod
+PLACE arnold midright left happy
+PLACE gerald right left neutral
+PLACE harold farright left excited
+ENTER sid left farleft excited
+ENTER stinky left left excited
+SID (excited): Is it true? Is the giant catfish real?
+STINKY (excited): Gee, I heard it ate a whole rowboat!
+GERALD (smug): The whole neighborhood's here now, Arnold.
+GRANDPA (happy): Heh heh. Just like the old days.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC tense
+SCENE hillwood_pier
+PLACE grandpa center left surprised
+HOLD grandpa fishing_rod
+PLACE arnold midright left surprised
+SFX splash
+SHAKE 0.6
+GRANDPA (surprised): Whoa! Something big just hit the line!
+ARNOLD (excited): Hold on, Grandpa!
+SHAKE 0.8
+GRANDPA (excited): It's him! It's Old Whiskers! I can feel it in my bones! And my bones are very old!
+NARRATOR: Grandpa pulled. Arnold pulled. The whole neighborhood grabbed on and pulled.
+SFX splash
+SHAKE 1.0
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC action
+SCENE hillwood_pier
+PLACE grandpa center left excited
+PLACE arnold midright left excited
+PLACE harold right left scared
+NARRATOR: Out of the water came a catfish. A huge, ancient, whiskery catfish. As big as a canoe. Maybe bigger.
+HAROLD (scared): It's real! It's REAL!
+GRANDPA (excited): Sixty years, you old rascal! Sixty years!
+ARNOLD (happy): You were right, Grandpa! He was real all along!
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC tense 2
+SCENE hillwood_pier
+PLACE grandpa center left neutral
+PLACE arnold midright left neutral
+ENTER big_bob right farright scared
+BIG_BOB (scared): That's... that's... a thousand bucks?!
+ENTER helga right right smug
+HELGA (smug): Pay up, Bob. I told the whole town you promised.
+GRANDPA (sad): Look at him, Shortman. He's old. Like me. All he ever did was swim around and eat liverwurst.
+ARNOLD (neutral): What do you want to do, Grandpa?
+GRANDPA (happy): I've caught him. That's all I ever wanted. Let him go.
+
+# ------------------------------------------------------------ HILLWOOD PIER
+MUSIC romantic
+SCENE hillwood_pier
+PLACE grandpa center left happy
+PLACE arnold midright left happy
+SFX splash
+NARRATOR: Old Whiskers slid back into the harbor. He flicked his tail once. Almost like he was waving.
+GRANDPA (happy): Best birthday I ever had, Shortman.
+ARNOLD (happy): Happy birthday, Grandpa.
+GRANDPA (smug): And next year, we're going after the giant lobster.
+ARNOLD (surprised): There's a giant lobster?
+GRANDPA (smug): Heh heh heh. Wouldn't you like to know.
+
+# ------------------------------------------------------------ BIG BOB'S BEEPERS
+MUSIC jazz 2
+SCENE big_bobs
+PLACE big_bob center left smug
+PLACE helga midright left angry
+BIG_BOB (smug): No fish, no money, little lady. Rules are rules.
+HELGA (angry): The whole neighborhood saw it!
+BIG_BOB (smug): Then the whole neighborhood can have a free beeper.
+HELGA (sad): Criminy.
+END

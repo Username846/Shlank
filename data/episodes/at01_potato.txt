@@ -1,5 +1,6 @@
 @title The Last Potato
 @series Attack on Titan
+@season 1
 @icon wings
 @number 1
 @description The Scouts' supply of potatoes has gone missing, Sasha swears she didn't eat them, and a giant grinning Titan seems to know something.

@@ -1,5 +1,6 @@
 @title Funnie for President
 @series Doug
+@season 1
 @icon journal
 @number 5
 @description Doug runs for class president against Chalky Studebaker, who is perfect at everything. Skeeter is his campaign manager. Porkchop handles security.

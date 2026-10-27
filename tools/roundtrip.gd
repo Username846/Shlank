@@ -12,7 +12,7 @@ func _go() -> void:
 		var b := EpisodeScript.parse(doc.to_text(), Game.characters)
 		var ca := _norm(a.commands)
 		var cb := _norm(b.commands)
-		var same := ca == cb and a.title == b.title and a.series == b.series and a.description == b.description and b.errors.is_empty()
+		var same := ca == cb and a.title == b.title and a.series == b.series and a.season == b.season and a.description == b.description and b.errors.is_empty()
 		print("%s: %d cmds -> %d cmds, errors %s, %s" % [e.file.get_file(), ca.size(), cb.size(), b.errors, "OK" if same else "MISMATCH"])
 		if not same:
 			ok = false

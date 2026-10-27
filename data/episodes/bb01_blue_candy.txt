@@ -1,5 +1,6 @@
 @title The Blue Candy
 @series Breaking Bad
+@season 1
 @icon element
 @number 1
 @description Mild-mannered chemistry teacher Walter White enters the Albuquerque Candy Fair with the purest blue rock candy anyone has ever seen. Everyone wants the recipe.

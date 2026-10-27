@@ -1,0 +1,136 @@
+@title The Secret Poet
+@series Hey Arnold!
+@season 1
+@icon city
+@number 10
+@description A love poem about a boy with a football-shaped head is printed in the school newspaper by mistake. Arnold wants to find the mystery poet. Helga has to stop him, no matter what it takes.
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC jazz
+SCENE ps118 cut
+TITLE
+PLACE helga center right scared
+PLACE phoebe midleft right nervous
+HELGA (scared): Phoebe! The school paper! Page four! Read it!
+PHOEBE (nervous): "Ode to a Boy with a Head Like a Football. Oh, golden-haired angel, oh, kind-hearted lad..."
+HELGA (scared): That's MY poem! From my secret pink book! How did it get in the newspaper?!
+PHOEBE (nervous): I believe you dropped a page in the library. Someone must have put it in the submissions box.
+HELGA (angry): Nobody can find out who wrote this! Nobody! Especially not... him.
+PHOEBE (nervous): It isn't signed, Helga. Statistically, nobody will know.
+
+# ------------------------------------------------------------ FOURTH GRADE CLASSROOM
+MUSIC sneaky
+SCENE classroom
+PLACE arnold center right surprised
+PLACE gerald midleft right smug
+PLACE rhonda midright left excited
+RHONDA (excited): Have you read page four? Someone in this school is in love! Desperately! Poetically!
+GERALD (smug): "A boy with a head like a football." Arnold, my man. I wonder who that could be about.
+ARNOLD (surprised): Me? No way. Lots of people have heads shaped like that.
+GERALD (smug): Name one.
+ARNOLD (nervous): ...I'm sure there's somebody.
+RHONDA (smug): I'm going to find out who wrote it. It's the scandal of the century.
+
+# ------------------------------------------------------------ ARNOLD'S ROOM
+MUSIC romantic
+SCENE arnold_room
+PLACE arnold center right neutral
+HOLD arnold none
+ARNOLD (neutral): "Your kindness is sunshine, your smile is a song. With you by my side, nothing could go wrong."
+ARNOLD (happy): It's actually really good. Whoever wrote it really means it.
+NARRATOR: Arnold read the poem eleven times. He decided he had to find the poet. Just to say thank you.
+ARNOLD (excited): Tomorrow I'll start investigating.
+
+# ------------------------------------------------------------ SCHOOL CAFETERIA
+MUSIC sneaky 2
+SCENE cafeteria
+PLACE arnold center right excited
+PLACE gerald midleft right neutral
+PLACE harold midright left neutral
+ARNOLD (excited): Okay. The poet uses a lot of big words. And the handwriting has little hearts over the "i"s.
+GERALD (smug): Hearts over the "i"s? That's a girl.
+HAROLD (smug): Or a really fancy guy.
+ARNOLD (happy): And it smells a little like strawberries. The paper, I mean.
+GERALD (surprised): You smelled the paper?
+ARNOLD (shy): ...It's a clue, Gerald.
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC tense
+SCENE ps118
+PLACE helga center right scared
+PLACE phoebe midleft right nervous
+HELGA (scared): He's investigating! He smelled the paper, Phoebe! He SMELLED it!
+PHOEBE (nervous): Perhaps you could throw him off the trail. Give him a false suspect.
+HELGA (smug): Phoebe, you devious genius. If he needs a poet, I'll give him a poet.
+HELGA (excited): Rhonda uses strawberry lotion! And she writes hearts over her "i"s!
+PHOEBE (nervous): That's a little mean, Helga.
+HELGA (smug): Love is war, Phoebe.
+
+# ------------------------------------------------------------ HILLWOOD PARK
+MUSIC jazz 2
+SCENE hillwood_park
+PLACE rhonda center left smug
+ENTER arnold right midright nervous
+ARNOLD (nervous): Rhonda, can I ask you something? Did you write the poem in the newspaper?
+RHONDA (surprised): Me? Write a love poem about YOU? Arnold, darling, please. I date in the sixth grade.
+ARNOLD (neutral): But you use strawberry lotion. And you draw hearts on your "i"s.
+RHONDA (smug): Half the girls in this school do. It's called being fashionable.
+ARNOLD (sad): Oh. Okay. Sorry, Rhonda.
+
+# ------------------------------------------------------------ SLAUSEN'S ICE CREAM
+MUSIC sad
+SCENE slausens
+PLACE arnold center right sad
+PLACE grandpa midleft right happy
+HOLD arnold ice_cream
+ARNOLD (sad): Grandpa, how do you find somebody who doesn't want to be found?
+GRANDPA (happy): Heh heh. Sometimes you don't, Shortman. Sometimes they find you. When they're ready.
+ARNOLD (neutral): But I just want to say thank you. It's the nicest thing anyone's ever written about me.
+GRANDPA (smug): Then write 'em back. Put it in the same newspaper. If they wrote to you once, they'll read it.
+ARNOLD (surprised): Grandpa, that's a great idea!
+
+# ------------------------------------------------------------ ARNOLD'S ROOM
+MUSIC romantic 2
+SCENE arnold_room
+CARD That night...
+PLACE arnold center right shy
+NARRATOR: Arnold sat down to write a reply. It took him four hours and fourteen crumpled pages.
+ARNOLD (shy): "To the secret poet. I don't know who you are. But thank you. You made a boy with a football head feel like the most important person in Hillwood."
+ARNOLD (happy): "Whoever you are, I hope you're happy too. Signed, Arnold."
+
+# ------------------------------------------------------------ P.S. 118
+MUSIC tense 2
+SCENE ps118
+CARD The next week...
+PLACE helga center right surprised
+PLACE phoebe midleft right happy
+HELGA (surprised): Phoebe. Page four. He wrote back. To me. Well, to the poet. Which is me.
+PHOEBE (happy): Read it, Helga.
+HELGA (shy): "You made a boy with a football head feel like the most important person in Hillwood."
+HELGA (excited): He liked it! He liked my poem! Oh, joy! Oh, rapture!
+PHOEBE (smug): Will you tell him it was you?
+HELGA (scared): Are you crazy?! Of course not!
+
+# ------------------------------------------------------------ FOURTH GRADE CLASSROOM
+MUSIC jazz
+SCENE classroom
+PLACE arnold center right happy
+PLACE gerald midleft right smug
+PLACE helga midright left neutral
+GERALD (smug): So you never found out who wrote it?
+ARNOLD (happy): No. And that's okay. They read my letter. That's what matters.
+HELGA (smug): Ugh. All this mushy newspaper stuff is making me sick. Whoever wrote that poem must be a total sap.
+ARNOLD (happy): I don't know, Helga. I think they're kind of amazing.
+HELGA (shy): You... do?
+HELGA (angry): I mean. Whatever, football head! Get your elbow off my desk!
+
+# ------------------------------------------------------------ ROOFTOP AT DUSK
+MUSIC romantic
+SCENE rooftop
+PLACE helga center right shy
+HOLD helga locket
+HELGA (shy): Oh, Arnold. You wrote to me. In print. For the whole world to see.
+HELGA (excited): I'll cut it out. I'll frame it. I'll put it next to the locket and the shrine and the gum you chewed in the second grade.
+HELGA (smug): Someday, Arnold. Someday I'll tell you. But not today.
+HELGA (sad): Probably not tomorrow either.
+END

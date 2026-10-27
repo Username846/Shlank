@@ -1,5 +1,6 @@
 @title The School Play
 @series Doug
+@season 1
 @icon journal
 @number 3
 @description Judy is directing the school play, and Doug lands the lead. The bad news: it's a love story. The worse news: his co-star might be Patti. Or Beebe.

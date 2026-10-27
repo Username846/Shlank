@@ -430,7 +430,7 @@ func _exec(c: Dictionary) -> void:
 			Synth.sfx("fanfare")
 			await _do_card([
 				{"text": "SHLANK PRESENTS", "size": 34, "color": Color.WHITE},
-				{"text": ("%s  -  EPISODE %d" % [ep.series.to_upper(), ep.number]) if ep.series != "" else "EPISODE %d" % ep.number, "size": 40, "color": UiKit.PINK},
+				{"text": ("%s  -  SEASON %d, EPISODE %d" % [ep.series.to_upper(), ep.season, ep.number]) if ep.series != "" else "EPISODE %d" % ep.number, "size": 40, "color": UiKit.PINK},
 				{"text": ep.title.to_upper(), "size": 92, "color": UiKit.YELLOW}], "", 4.5, Color("3d8fe0"))
 		"end":
 			Synth.sfx("fanfare")

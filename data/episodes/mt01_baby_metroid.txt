@@ -1,5 +1,6 @@
 @title Babysitting
 @series Metroid
+@season 1
 @icon visor
 @number 1
 @description Bounty hunter Samus Aran has faced dragons, giant lizards and a brain in a jar. Now she has to babysit a Metroid that thinks she's its mom.

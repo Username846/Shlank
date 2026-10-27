@@ -1,5 +1,6 @@
 @title The Great Cake Heist
 @series Kirby
+@season 1
 @icon warpstar
 @number 1
 @description King Dedede has baked the biggest cake in Dream Land, and it's gone missing. Everyone blames Kirby. Kirby only says "Poyo."

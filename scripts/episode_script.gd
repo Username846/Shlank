@@ -16,6 +16,8 @@ var title := "Untitled"
 var series := ""
 var icon := ""
 var number := 0
+## Which season of its series the episode is in (episode pickers group by it).
+var season := 1
 var description := ""
 var commands: Array[Dictionary] = []
 var errors: PackedStringArray = []
@@ -40,6 +42,7 @@ static func parse(text: String, characters: Dictionary) -> EpisodeScript:
 				"series": ep.series = Game.series_name(val)
 				"icon": ep.icon = val
 				"number": ep.number = int(val)
+				"season": ep.season = maxi(int(val), 1)
 				"description": ep.description = val
 			continue
 		var m := dialogue_re.search(line)

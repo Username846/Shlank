@@ -1,5 +1,6 @@
 @title The Big Game
 @series Hey Arnold!
+@season 1
 @icon city
 @number 2
 @description The fifth graders want Gerald Field for themselves. There's only one way to settle it: a baseball game, with Helga pitching and Harold in charge of the snacks.

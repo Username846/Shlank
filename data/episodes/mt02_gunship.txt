@@ -1,5 +1,6 @@
 @title Who Stole the Gunship?
 @series Metroid
+@season 1
 @icon visor
 @number 2
 @description Samus comes back from a mission to find her gunship missing. All the clues point to Ridley. Ridley, it turns out, has never driven anything before.

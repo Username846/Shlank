@@ -1,5 +1,6 @@
 @title Pikachu, I Choose You!
 @series Pokémon
+@season 1
 @icon rocket
 @number 2
 @description Ash Ketchum oversleeps on the most important day of his life and ends up with the grumpiest Pokémon in the lab. Team Rocket thinks it looks very valuable.

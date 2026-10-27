@@ -1,5 +1,6 @@
 @title Bowser's Day Off
 @series Super Mario Brothers
+@season 1
 @icon mushroom
 @number 5
 @description Bowser is tired of kidnapping. For one day, he's going to be nice. Nobody believes him, especially not Mario, who keeps jumping on his head out of habit.

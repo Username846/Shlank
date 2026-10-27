@@ -1,0 +1,180 @@
+@title The Fancy Chum Bucket
+@series SpongeBob SquarePants
+@season 1
+@icon bubbles
+@number 10
+@description Plankton turns the Chum Bucket into the fanciest restaurant in Bikini Bottom, and suddenly everyone wants to eat there. Even Squidward. Even Mr. Krabs, in a fake mustache. SpongeBob is the only one who suspects a trap.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sneaky
+SCENE chum_bucket cut
+TITLE
+PLACE plankton center left excited
+PLACE karen midright left neutral
+PLANKTON (excited): Karen! Behold my greatest plan yet! A fancy restaurant!
+KAREN (neutral): You've had a restaurant for years. Nobody comes.
+PLANKTON (smug): Because I serve chum, Karen. This time I'll serve elegance! Candles! Violins! Tiny portions on giant plates!
+KAREN (smug): And when everyone leaves the Krusty Krab?
+PLANKTON (excited): Krabs will be so desperate, he'll sell me the formula! Ha ha ha!
+KAREN (neutral): Statistically, that won't happen.
+PLANKTON (angry): Statistically, be quiet!
+
+# ------------------------------------------------------------ DOWNTOWN BIKINI BOTTOM
+MUSIC jazz
+SCENE bb_downtown
+PLACE squidward center right excited
+ENTER spongebob left midleft happy
+SQUIDWARD (excited): SpongeBob, have you seen it? Le Bucket de Chum! A French restaurant! Finally, some culture in this town!
+SPONGEBOB (nervous): Isn't that Plankton's restaurant?
+SQUIDWARD (smug): It has a dress code, SpongeBob. A dress code. I've been waiting my whole life for a dress code.
+SPONGEBOB (nervous): It sounds like a trap.
+SQUIDWARD (smug): Everything sounds like a trap to you.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC sad
+SCENE krusty_krab
+PLACE mr_krabs center left sad
+PLACE spongebob midright left nervous
+MR_KRABS (sad): Empty. Not a single customer. Not one.
+SPONGEBOB (nervous): Where did everyone go, Mr. Krabs?
+MR_KRABS (angry): To Plankton's fancy bucket! Even Mrs. Puff! Even me own daughter!
+SPONGEBOB (sad): Even Patrick?
+MR_KRABS (sad): Patrick went twice. He thought the candles were snacks.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC jazz
+SCENE chum_bucket
+PLACE pearl center left excited
+PLACE mrs_puff midright left happy
+ENTER larry right right smug
+PEARL (excited): This place is so fancy! Everyone from school is here! I'm posting a picture of my plate!
+MRS_PUFF (happy): The napkins are folded like little swans. I haven't seen a napkin swan since my wedding.
+LARRY (smug): The portions are tiny, though. I've eaten four plates and I'm still hungry.
+PEARL (happy): That's how you know it's fancy, Larry. Fancy food doesn't fill you up.
+MRS_PUFF (nervous): Does anyone else think the soup tastes a little like chum?
+PEARL (smug): That's just the French, Mrs. Puff.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC sneaky 2
+SCENE krusty_krab
+PLACE mr_krabs center left smug
+PLACE spongebob midright left surprised
+MR_KRABS (smug): There's only one thing to do, lad. We go undercover. We find out his secret.
+SPONGEBOB (excited): Undercover! Like spies!
+MR_KRABS (smug): I'll wear me fake mustache. You wear this fake beard.
+SPONGEBOB (nervous): Mr. Krabs, it's just a piece of seaweed.
+MR_KRABS (happy): And it suits ya beautifully.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC jazz 2
+SCENE chum_bucket
+PLACE plankton center left smug
+PLACE squidward midleft right happy
+PLACE patrick left right happy
+ENTER mr_krabs right midright smug
+ENTER spongebob right right nervous
+PLANKTON (smug): Bonsoir, monsieurs. Welcome to Le Bucket de Chum. Table for two?
+MR_KRABS (smug): Aye. I mean. Oui.
+SPONGEBOB (nervous): Bonjour. I'm a regular French guy. With a beard.
+PLANKTON (smug): Of course you are. Right this way.
+PATRICK (happy): Hi, SpongeBob! Nice beard!
+SPONGEBOB (scared): Shh!
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sneaky
+SCENE chum_bucket
+PLACE mr_krabs center right nervous
+PLACE spongebob midright left nervous
+PLACE squidward left right happy
+NARRATOR: The food arrived. Tiny portions. Giant plates. Fancy names.
+SQUIDWARD (happy): Mm. Le Chum Supreme. Exquisite.
+SPONGEBOB (nervous): Mr. Krabs, this is just regular chum. With a little parsley on top.
+MR_KRABS (surprised): He's tricking 'em with parsley! That sneaky little garnish!
+SQUIDWARD (smug): I can taste the parsley. It's very French.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC sneaky
+SCENE treedome
+PLACE sandy center left nervous
+ENTER spongebob right midright nervous
+SPONGEBOB (nervous): Sandy, I need your help. I took a sample of Le Chum Supreme. For science.
+SANDY (smug): Well, let's have a look under the microscope.
+SFX beep
+SANDY (surprised): Hoo-wee! That's ninety-nine percent chum and one percent parsley!
+SPONGEBOB (scared): I knew it! The whole town is eating chum and they don't even know it!
+SANDY (angry): Then you'd better get back in there and tell 'em, SpongeBob!
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC tense
+SCENE chum_bucket
+PLACE plankton center left excited
+PLACE karen midright left neutral
+PLANKTON (excited): Karen! The Krusty Krab is empty! Krabs is ruined! Any minute now, he'll come crawling to sell me the formula!
+KAREN (neutral): He's sitting at table four. In a mustache.
+PLANKTON (surprised): What?!
+KAREN (smug): He ordered the soup.
+PLANKTON (angry): Then it's time for phase two! The trap!
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC action
+SCENE chum_bucket
+PLACE mr_krabs center right nervous
+PLACE spongebob midright left nervous
+PLACE squidward farright left happy
+ENTER plankton left midleft smug
+PLANKTON (smug): Mr. Krabs. Nice mustache.
+MR_KRABS (scared): How did ya know?
+PLANKTON (excited): You're the only French guy who says "Arr." Now, nobody leaves until you hand over the formula!
+SFX slam
+SHAKE 0.6
+SPONGEBOB (scared): He locked the doors!
+PLANKTON (excited): And the windows! And the bathroom! Nobody goes anywhere!
+SQUIDWARD (angry): I knew this dress code was too good to be true.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC tense 2
+SCENE chum_bucket
+PLACE spongebob center right excited
+PLACE patrick midleft right happy
+PLACE squidward left right angry
+SPONGEBOB (excited): Patrick! You're hungry, right?
+PATRICK (happy): I'm always hungry.
+SPONGEBOB (excited): Then eat the parsley! All of it! Without parsley, it's just chum!
+PATRICK (excited): For freedom!
+SFX chomp
+SFX chomp
+NARRATOR: Patrick ate every leaf of parsley in the building. In seventeen seconds. A new record.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC action 2
+SCENE chum_bucket
+PLACE squidward center right angry
+PLACE plankton midleft right scared
+SQUIDWARD (angry): Wait. Without the parsley... this is just chum.
+SQUIDWARD (angry): I paid forty dollars for a bucket of chum?!
+PLANKTON (scared): It's French chum!
+SQUIDWARD (angry): Everyone! It's a scam!
+SFX slam
+SHAKE 0.8
+NARRATOR: The angry customers broke down the doors. Plankton was trampled, gently, by a very well-dressed crowd.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab
+PLACE mr_krabs center left excited
+PLACE spongebob midright left excited
+SFX cash
+SFX cash
+MR_KRABS (excited): They're back! All of 'em! And hungry!
+SPONGEBOB (excited): One Krabby Patty, coming right up! With extra parsley!
+MR_KRABS (smug): Lad. No parsley. Never again. Not in this restaurant.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sad
+SCENE chum_bucket
+PLACE plankton center left sad
+PLACE karen midright left smug
+PLANKTON (sad): Karen. Where did I go wrong?
+KAREN (smug): The parsley.
+PLANKTON (sad): It's always the parsley.
+END

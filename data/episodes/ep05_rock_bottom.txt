@@ -1,5 +1,6 @@
 @title The Last Bus from Glove World
 @series SpongeBob SquarePants
+@season 1
 @icon bubbles
 @number 5
 @description After a perfect day at Glove World, SpongeBob and Patrick take the wrong bus home and end up in the deepest, darkest, weirdest place in the ocean: Rock Bottom.

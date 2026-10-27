@@ -1,5 +1,6 @@
 @title The Living Paintings
 @series Kirby
+@season 1
 @icon warpstar
 @number 5
 @description Adeleine's magic paintbrush makes everything she paints come to life. That's great for flowers and butterflies. It's less great when she paints a dragon.

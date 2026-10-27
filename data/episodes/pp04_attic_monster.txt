@@ -1,5 +1,6 @@
 @title The Monster in the Attic
 @series Rugrats
+@season 1
 @icon bottle
 @number 4
 @description There's a thumping noise coming from the attic every night. Chuckie is sure it's a monster. Tommy is sure it's an adventure.

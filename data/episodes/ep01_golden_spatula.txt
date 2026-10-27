@@ -1,5 +1,6 @@
 @title The Golden Spatula
 @series SpongeBob SquarePants
+@season 1
 @number 1
 @description SpongeBob's lucky golden spatula goes missing on the morning of the big Patty Cook-Off. Can he find it before noon?
 

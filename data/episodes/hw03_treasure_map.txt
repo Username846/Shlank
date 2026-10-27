@@ -1,5 +1,6 @@
 @title Grandma's Treasure Map
 @series Hey Arnold!
+@season 1
 @icon city
 @number 3
 @description Grandma Pookie finds an old pirate map that leads somewhere in Hillwood. Arnold, Gerald and half the neighborhood go hunting for the treasure.

@@ -1,5 +1,6 @@
 @title Father and Son Science Fair
 @series Breaking Bad
+@season 1
 @icon element
 @number 5
 @description Flynn needs a science fair project, and Walt is determined to help. A little too determined. The volcano is about to get extremely precise.

@@ -1,5 +1,6 @@
 @title Luigi's Spooky Rescue
 @series Super Mario Brothers
+@season 1
 @icon mushroom
 @number 3
 @description Mario went into Boo Mansion to look for a lost coin and never came out. Now it's up to Luigi, who is scared of ghosts, the dark and also slightly scared of his own shadow.

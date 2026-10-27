@@ -1,5 +1,6 @@
 @title The Beeper Blowout
 @series Hey Arnold!
+@season 1
 @icon city
 @number 5
 @description Big Bob needs to sell a thousand beepers in one weekend, so he hires the whole fourth grade. Helga is horrified. Arnold turns out to be an excellent salesman.

@@ -1,5 +1,6 @@
 @title Vegeta's Surprise Party
 @series Dragon Ball Z
+@season 1
 @icon dragonball
 @number 5
 @description It's Vegeta's birthday, and Bulma is throwing a surprise party. The only problem: Vegeta hates surprises, hates parties and especially hates Goku in a party hat.

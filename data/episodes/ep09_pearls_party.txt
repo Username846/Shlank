@@ -1,0 +1,157 @@
+@title Pearl's Sweet Sixteen
+@series SpongeBob SquarePants
+@season 1
+@icon bubbles
+@number 9
+@description Pearl's sixteenth birthday is coming up, and she wants the biggest party in Bikini Bottom. Mr. Krabs wants the cheapest party in Bikini Bottom. SpongeBob is put in charge of making both happen.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab cut
+TITLE
+PLACE mr_krabs center left nervous
+PLACE pearl midright left excited
+PEARL (excited): Daddy! My sweet sixteen is on Saturday! I want a band! And a light show! And a cake as big as a whale!
+MR_KRABS (nervous): A whale-sized cake? Do ya know how much flour that is?
+PEARL (sad): But Daddy, everyone at school had a huge party. Everyone!
+MR_KRABS (nervous): Of course, me little pearl. Anything for you. Within reason. Very small reason.
+EXIT pearl right
+MR_KRABS (scared): Oh, me wallet. Me poor, poor wallet.
+
+# ------------------------------------------------------------ KRUSTY KRAB KITCHEN
+MUSIC jazz
+SCENE krusty_kitchen
+PLACE spongebob center right happy
+HOLD spongebob spatula
+ENTER mr_krabs left midleft smug
+MR_KRABS (smug): SpongeBob, me boy. How would you like to be in charge of the most important party in history?
+SPONGEBOB (excited): A party?! I love parties! I'm a party sponge!
+MR_KRABS (smug): It's Pearl's sweet sixteen. She wants it big. And I want it to cost... let's say... eleven dollars.
+SPONGEBOB (nervous): Eleven dollars?
+MR_KRABS (happy): Twelve if ya really need it. But ya won't.
+SPONGEBOB (excited): Challenge accepted!
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC sneaky
+SCENE pineapple_house
+PLACE spongebob center right excited
+PLACE patrick midleft right happy
+PLACE gary left right neutral
+SPONGEBOB (excited): Patrick, we need a band, a light show and a cake as big as a whale. For eleven dollars.
+PATRICK (happy): I can be the band. I play the drums.
+SPONGEBOB (surprised): Since when?
+PATRICK (smug): Since now. I'll use my head.
+GARY (nervous): Meow.
+SPONGEBOB (happy): Gary's right! We need help. A lot of help.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC jazz 2
+SCENE squidward_house
+PLACE squidward center right angry
+ENTER spongebob left midleft excited
+SPONGEBOB (excited): Squidward! Pearl's party needs a real musician! A professional!
+SQUIDWARD (smug): A professional, you say?
+SPONGEBOB (excited): The most talented clarinet player in Bikini Bottom!
+SQUIDWARD (smug): Well. I suppose I could grace the young people with my art.
+SPONGEBOB (happy): Great! We can pay you in exposure!
+SQUIDWARD (angry): SpongeBob!
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC happy 2
+SCENE treedome
+PLACE sandy center left happy
+ENTER spongebob right midright excited
+SPONGEBOB (excited): Sandy, can you build a light show? Out of anything?
+SANDY (smug): SpongeBob, I could build a light show out of a jar of fireflies and a toaster.
+SPONGEBOB (excited): How much does that cost?
+SANDY (happy): One jar of fireflies. And a toaster.
+SPONGEBOB (excited): We're still under budget!
+
+# ------------------------------------------------------------ KELP FOREST
+MUSIC sneaky 2
+SCENE kelp_forest
+PLACE spongebob center right nervous
+PLACE patrick midleft right nervous
+SPONGEBOB (nervous): Now the hard part. A cake as big as a whale. With only eleven dollars.
+PATRICK (excited): What if we use a lot of tiny cakes and stack them up?
+SPONGEBOB (surprised): Patrick, that's brilliant!
+PATRICK (happy): Thank you. I also had a second idea, but I ate it.
+NARRATOR: They gathered kelp. They gathered sea sugar. They baked four hundred and twelve tiny cakes in SpongeBob's oven.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sneaky
+SCENE chum_bucket
+PLACE plankton center left smug
+PLACE karen midright left neutral
+PLANKTON (smug): Karen, Krabs is throwing a party for his daughter. Every fish in town will be there.
+KAREN (neutral): Including you?
+PLANKTON (excited): Including me! In disguise! As a party guest! And while they're cutting the cake, I'll cut into the safe!
+KAREN (smug): You weren't invited.
+PLANKTON (angry): Details!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC tense
+SCENE krusty_krab
+CARD Saturday...
+PLACE pearl center left nervous
+PLACE mr_krabs midleft right nervous
+PEARL (nervous): Daddy, is everything ready? My friends are coming in ten minutes!
+MR_KRABS (nervous): Aye, aye. SpongeBob's taken care of everything. For eleven dollars.
+PEARL (scared): Eleven dollars?!
+MR_KRABS (smug): And forty cents. He went over budget a little. I'll be taking it out of his pay.
+
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
+MUSIC action
+SCENE krusty_dining
+PLACE spongebob center right excited
+PLACE squidward midright left neutral
+HOLD squidward clarinet
+PLACE patrick left right excited
+PLACE sandy farright left happy
+SPONGEBOB (excited): Lights, Sandy!
+SFX sparkle
+SANDY (excited): Fireflies, go!
+SPONGEBOB (excited): Music, Squidward!
+SFX clarinet
+PATRICK (excited): Drums!
+SFX thud
+SHAKE 0.4
+NARRATOR: It was loud. It was bright. It was, against all odds, a really good party.
+
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
+MUSIC tense 2
+SCENE krusty_dining
+PLACE pearl center left happy
+PLACE spongebob midright left excited
+ENTER plankton right right smug 100
+PLANKTON (smug): Hello, fellow teenager. I am also sixteen. Happy birthday. Where is the safe? Ha ha. Just a teenage joke.
+PEARL (surprised): Um. Who invited the tiny guy with one eye?
+SPONGEBOB (nervous): Plankton?
+PLANKTON (angry): Curses! My disguise is perfect!
+PEARL (angry): You're wearing a paper party hat with "NOT PLANKTON" written on it.
+PLANKTON (sad): ...In hindsight, that was a mistake.
+
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
+MUSIC happy 3
+SCENE krusty_dining
+PLACE pearl center left excited
+PLACE spongebob midright left happy
+PLACE mr_krabs midleft right happy
+SPONGEBOB (excited): And now! The cake! As big as a whale!
+NARRATOR: Four hundred and twelve tiny cakes, stacked into the shape of a whale. It was enormous. It was wobbly. It was beautiful.
+PEARL (excited): Daddy! It's perfect! It's the best party ever!
+MR_KRABS (happy): Happy birthday, Pearl.
+MR_KRABS (smug): And it only cost eleven dollars and forty cents.
+PEARL (happy): Thank you, SpongeBob.
+SPONGEBOB (shy): Aw. It was nothing. Mostly Patrick's head.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC romantic
+SCENE krusty_krab
+CARD After the party...
+PLACE mr_krabs center left happy
+PLACE spongebob midright left happy
+MR_KRABS (happy): Lad, that was the finest party I ever saw. Me little girl was so happy.
+SPONGEBOB (excited): So does that mean I don't owe you forty cents?
+MR_KRABS (smug): Don't push your luck, boy.
+END

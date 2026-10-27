@@ -1,5 +1,6 @@
 @title In Another Castle
 @series Super Mario Brothers
+@season 1
 @icon mushroom
 @number 1
 @description Princess Peach has been kidnapped again. Mario and Luigi race through pipes, clouds and a very haunted house, only to keep hearing the same five words.
