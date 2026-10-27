@@ -76,6 +76,21 @@
 			"file": "res://data/episodes/bl05_class_president.txt"
 		},
 		{
+			"file": "res://data/episodes/bl06_dog_show.txt"
+		},
+		{
+			"file": "res://data/episodes/bl07_comic_book.txt"
+		},
+		{
+			"file": "res://data/episodes/bl08_save_the_honker.txt"
+		},
+		{
+			"file": "res://data/episodes/bl09_judys_art_show.txt"
+		},
+		{
+			"file": "res://data/episodes/bl10_picture_day.txt"
+		},
+		{
 			"file": "res://data/episodes/pp01_great_cookie_quest.txt"
 		},
 		{
@@ -89,6 +104,21 @@
 		},
 		{
 			"file": "res://data/episodes/pp05_talent_show.txt"
+		},
+		{
+			"file": "res://data/episodes/pp06_supermarket.txt"
+		},
+		{
+			"file": "res://data/episodes/pp07_grandpas_teeth.txt"
+		},
+		{
+			"file": "res://data/episodes/pp08_sleepover.txt"
+		},
+		{
+			"file": "res://data/episodes/pp09_reptar_robot.txt"
+		},
+		{
+			"file": "res://data/episodes/pp10_duck_pond_voyage.txt"
 		},
 		{
 			"file": "res://data/episodes/tr01_golden_poke_ball.txt",

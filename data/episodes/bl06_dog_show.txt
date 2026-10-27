@@ -1,0 +1,155 @@
+@title Best in Show
+@series Doug
+@season 1
+@icon journal
+@number 6
+@description The Bluffington Dog Show is this weekend, and the prize is a lifetime supply of dog biscuits. Doug enters Porkchop. Beebe enters her poodle. Roger enters a dog he borrowed from a guy he met at the bus stop.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC happy
+SCENE doug_room cut
+TITLE
+PLACE doug center right excited
+PLACE porkchop midleft right happy
+DOUG (excited): Dear Journal. The Bluffington Dog Show is on Saturday. And this year, Porkchop is going to win.
+PORKCHOP (excited): Arf! Arf arf!
+DOUG (happy): First prize is a lifetime supply of dog biscuits. And a trophy shaped like a fire hydrant.
+PORKCHOP (smug): Arf.
+DOUG (nervous): The only problem is, Porkchop doesn't really do dog stuff. He does Porkchop stuff.
+NARRATOR: Porkchop was, at that moment, reading the newspaper. Upside down.
+
+# ------------------------------------------------------------ THE FUNNIE HOUSE
+MUSIC jazz
+SCENE funnie_house
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+ENTER skeeter left left excited
+SKEETER (excited): Honk! Doug! I heard you're entering the dog show!
+DOUG (happy): Yep. Porkchop's going to be a star.
+SKEETER (nervous): Uh, dude. Can he sit? Roll over? Fetch?
+DOUG (nervous): He can play chess. And he makes a really good grilled cheese.
+SKEETER (smug): Honk. Those aren't on the list, man.
+PORKCHOP (sad): Arf.
+
+# ------------------------------------------------------------ BEEBE'S MANSION
+MUSIC sneaky
+SCENE beebe_mansion
+PLACE beebe center left smug
+PLACE roger midright left neutral
+BEEBE (smug): My poodle, Princess Fluffington the Third, has won fourteen ribbons. Fourteen.
+ROGER (smug): Big deal. I'm entering a dog too. A real champion.
+BEEBE (surprised): You don't have a dog, Roger.
+ROGER (smug): I borrowed one. From a guy at the bus stop. His name's Killer.
+BEEBE (scared): The guy or the dog?
+ROGER (smug): Both.
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC happy 2
+SCENE bluffington_park
+PLACE doug center right excited
+PLACE porkchop midleft right neutral
+DOUG (excited): Okay, Porkchop. Practice time. Sit!
+NARRATOR: Porkchop sat. On a lawn chair. With sunglasses. And a lemonade.
+DOUG (nervous): Okay, that's... technically sitting. Now fetch!
+NARRATOR: Porkchop fetched. He fetched the newspaper, a sandwich and Mr. Dink's car keys.
+DOUG (scared): Porkchop, we have to give those back.
+PORKCHOP (smug): Arf.
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC jazz 2
+SCENE dink_yard
+PLACE mr_dink center left excited
+ENTER doug right midright nervous
+ENTER porkchop right right happy
+MR_DINK (excited): Doug! Have you seen my car keys? They're platinum! Very expensive!
+DOUG (nervous): Here, Mr. Dink. Porkchop was... practicing.
+MR_DINK (happy): Practicing for the dog show? Well, I'm one of the judges this year!
+DOUG (surprised): You are?
+MR_DINK (smug): I bought a very expensive judging hat. It has a feather.
+PORKCHOP (excited): Arf!
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC romantic
+SCENE honker_burger
+PLACE doug center right sad
+PLACE patti midleft right happy
+PATTI (happy): Hi, Doug! I heard Porkchop is in the dog show!
+DOUG (shy): Hi, Patti. Yeah. But he can't do any of the normal tricks. He just does... Porkchop things.
+PATTI (happy): Doug, the best dogs aren't the ones who do tricks. They're the ones who are good friends.
+DOUG (surprised): You think so?
+PATTI (smug): I know so. I'll be there cheering.
+DOUG (shy): Dear Journal. Patti Mayonnaise is going to be at the dog show. No pressure.
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC action
+SCENE bluffington_park
+CARD Saturday...
+PLACE mr_dink center left smug
+PLACE mr_bone midright left nervous
+MR_BONE (nervous): Welcome to the Bluffington Dog Show! I am your announcer, and I am allergic to dogs.
+MR_DINK (smug): And I am your judge! In my very expensive hat!
+MR_BONE (nervous): First contestant! Princess Fluffington the Third!
+NARRATOR: The poodle walked. The poodle sat. The poodle rolled over. The crowd politely clapped.
+MR_BONE (scared): Achoo!
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC tense
+SCENE bluffington_park
+PLACE roger center left smug
+PLACE mr_bone midright left scared
+ROGER (smug): Next up, my dog. Killer. Sit, Killer!
+NARRATOR: Killer did not sit. Killer ran straight through the judges' table, ate the trophy ribbon and chased a squirrel up a tree.
+SFX slam
+SHAKE 0.6
+MR_BONE (scared): Klotz! Control your animal!
+ROGER (nervous): He's... not technically mine.
+MR_BONE (angry): Disqualified!
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC tense 2
+SCENE bluffington_park
+PLACE doug center right nervous
+PLACE porkchop midleft right nervous
+PLACE skeeter left right excited
+SKEETER (excited): Doug! Killer's still loose! He's heading for the kids' area!
+DOUG (scared): And Judy's in there! With her mime class!
+PORKCHOP (angry): Grrrr. Arf!
+NARRATOR: Porkchop put down his lemonade. He took off his sunglasses. Porkchop was ready.
+RUN porkchop offleft
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC action 2
+SCENE bluffington_park
+PLACE judy center left scared
+ENTER porkchop right midright angry 600
+JUDY (scared): A beast! A wild beast! It's interrupting my silent interpretation of a leaf!
+PORKCHOP (angry): Arf! Arf arf!
+SFX boing
+NARRATOR: Porkchop distracted Killer with a perfect grilled cheese sandwich. Killer sat. Killer stayed. Killer was, it turns out, very hungry.
+JUDY (surprised): The dog... saved the mimes.
+PORKCHOP (smug): Arf.
+
+# ------------------------------------------------------------ BLUFFINGTON PARK
+MUSIC happy 3
+SCENE bluffington_park
+PLACE mr_dink center left excited
+PLACE doug midright left surprised
+PLACE porkchop right left happy
+PLACE patti farright left excited
+MR_DINK (excited): In all my years of judging, which is one, I have never seen such bravery! Such quick thinking! Such delicious cheese!
+MR_DINK (happy): First prize goes to Porkchop!
+DOUG (excited): Porkchop! You won!
+PATTI (excited): I told you, Doug! The best dogs are good friends!
+PORKCHOP (excited): Arf! Arf arf arf!
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic
+SCENE doug_room
+CARD That night...
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. Porkchop won Best in Show. And a lifetime supply of dog biscuits.
+DOUG (shy): And Patti hugged him. And then she almost hugged me. It was a near hug. That counts.
+NARRATOR: Porkchop shared his dog biscuits with Killer. They're pen pals now.
+PORKCHOP (smug): Arf.
+END

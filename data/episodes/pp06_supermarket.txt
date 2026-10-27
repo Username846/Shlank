@@ -1,0 +1,159 @@
+@title The Supermarket Sweep
+@series Rugrats
+@season 1
+@icon bottle
+@number 6
+@description Stu takes the babies grocery shopping, and Angelica tells them the supermarket is a giant treasure land where you can take anything you want. Tommy leads an expedition to the cookie aisle.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC happy
+SCENE pickles_kitchen cut
+TITLE
+PLACE didi center left neutral
+PLACE stu midright left nervous
+DIDI (neutral): Stu, honey, I need you to do the grocery shopping today. Here's the list.
+STU (nervous): Sure, Deed. How hard can it be?
+DIDI (smug): And you're taking the babies. All of them. Betty's at her pottery class.
+STU (scared): All of them? At the same time?
+DIDI (happy): Dr. Lipschitz says supermarkets are very stimulating for young minds.
+STU (nervous): That's what I'm afraid of.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC sneaky
+SCENE pickles_living_room
+PLACE tommy center right happy
+PLACE chuckie midleft right nervous
+PLACE angelica midright left smug
+ANGELICA (smug): You dumb babies don't know what a supermarket is, do you?
+TOMMY (happy): Is it a market that's super?
+ANGELICA (smug): It's a giant treasure land. Full of cookies and toys and candy. And you can take anything you want. For free.
+CHUCKIE (nervous): Anything? That sounds like stealing, Tommy.
+ANGELICA (smug): It's not stealing if you're a baby, Finster. Babies are allowed. It's the law.
+TOMMY (excited): Then we gotta go find the treasure!
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC jazz
+SCENE supermarket
+PLACE stu center left nervous
+PLACE tommy midright left excited
+PLACE chuckie right left nervous
+PLACE phil midleft right excited
+PLACE lil left right excited
+STU (nervous): Okay, kids. Stay in the cart. Daddy just needs to find... uh... what's a rutabaga?
+PHIL (excited): Lillian, look! It's so big! It goes on forever!
+LIL (excited): Phillip, I can smell the cookies from here!
+TOMMY (excited): A baby's gotta do what a baby's gotta do. Let's go!
+CHUCKIE (scared): I don't think this is a good idea, Tommy!
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC sneaky 2
+SCENE supermarket
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+PLACE phil left right happy
+PLACE lil farleft right happy
+NARRATOR: The babies climbed out of the cart while Stu was reading the back of a soup can. They crawled into aisle seven.
+TOMMY (excited): Okay, everybody. Cookies are in aisle three. That's where the treasure is.
+PHIL (happy): How do you know, Tommy?
+TOMMY (smug): 'Cause my nose knows.
+LIL (excited): Phillip! A frozen pea! It's like a little green marble!
+PHIL (happy): Can I eat it, Lillian?
+LIL (smug): Only if you share.
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC tense
+SCENE supermarket
+PLACE stu center left scared
+STU (scared): Tommy? Chuckie? Phil? Lil? Kids?!
+STU (scared): Deed is gonna kill me. No, worse. Deed is gonna be disappointed in me.
+NARRATOR: Stu ran up and down every aisle. He found a lot of rutabagas. He found zero babies.
+STU (nervous): Okay. Think, Pickles. If I was a baby, where would I go?
+STU (excited): The cookie aisle!
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC action
+SCENE supermarket
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): There it is! The cookie mountain!
+CHUCKIE (scared): It's so tall, Tommy! What if it falls on us?
+PHIL (excited): Then we'll be under cookies! That's the best place to be!
+NARRATOR: The cookie mountain was a display. A very tall, very carefully stacked display.
+TOMMY (excited): We just gotta take one from the bottom.
+CHUCKIE (scared): Tommy, I really don't think you should take one from the bottom!
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC action 2
+SCENE supermarket
+PLACE tommy center right surprised
+PLACE chuckie midleft right scared
+SFX thud
+SHAKE 1.0
+NARRATOR: The cookie mountain fell. Boxes rolled down aisle three like an avalanche.
+CHUCKIE (scared): AAAAH!
+TOMMY (excited): Wow! It's raining cookies!
+SFX thud
+SHAKE 0.6
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC sneaky
+SCENE supermarket
+PLACE angelica center left smug
+ANGELICA (smug): Heh heh heh. Those dumb babies are causing a big mess. Everyone's looking at aisle three.
+ANGELICA (excited): Which means nobody's looking at the candy aisle!
+NARRATOR: Angelica filled her pockets with chocolate bars. Then her socks. Then her hair bows.
+ANGELICA (smug): I am a genius. A beautiful, chocolate-covered genius.
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC tense 2
+SCENE supermarket
+PLACE stu center left scared
+PLACE tommy midright left happy
+PLACE chuckie right left happy
+ENTER angelica left midleft smug
+STU (scared): There you are! Oh, thank goodness! What happened here?
+TOMMY (happy): We found the treasure, Daddy!
+STU (nervous): That's... about two hundred boxes of cookies.
+ANGELICA (smug): Uncle Stu, I was a very good girl. I didn't take anything.
+NARRATOR: As she said it, a chocolate bar fell out of her left sock. Then another one fell out of her bow.
+STU (surprised): Angelica?
+ANGELICA (nervous): Those are... decorations. Very sweet decorations.
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC sad
+SCENE supermarket
+PLACE stu center left sad
+PLACE angelica midright left sad
+STU (sad): Angelica, honey. You can't just take things from the store. You have to pay for them.
+ANGELICA (sad): But the babies said... I mean, I heard babies are allowed. It's the law.
+STU (smug): There's no baby law, Angelica. Not even for big girls.
+ANGELICA (sad): ...Can I at least keep one?
+STU (happy): You can keep one. And we'll pay for it.
+
+# ------------------------------------------------------------ SUPERMARKET
+MUSIC happy 2
+SCENE supermarket
+PLACE stu center left happy
+PLACE tommy midright left happy
+PLACE chuckie right left happy
+PLACE phil midleft right happy
+PLACE lil left right happy
+NARRATOR: Stu helped stack every box back up. It took two hours. The store manager gave the babies one cookie each, for being so cute.
+TOMMY (happy): See, Chuckie? We got the treasure after all.
+CHUCKIE (happy): Just one cookie, Tommy. But it's a good one.
+PHIL (excited): Lillian, I saved you the frozen pea.
+LIL (happy): Phillip, you're the best brother ever.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC romantic
+SCENE pickles_kitchen
+PLACE didi center left smug
+PLACE stu midright left nervous
+DIDI (smug): So, Stu. How was the shopping?
+STU (nervous): Great, Deed! Easy. Very easy. No problems at all.
+DIDI (surprised): You didn't get anything on the list.
+STU (sad): ...I got two hundred boxes of cookies. Well, we stacked them. Then we left. With one rutabaga.
+DIDI (happy): Oh, Stu.
+END

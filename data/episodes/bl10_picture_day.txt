@@ -1,0 +1,162 @@
+@title Picture Day
+@series Doug
+@season 1
+@icon journal
+@number 10
+@description Picture day is tomorrow, and Doug wants to look perfect. Skeeter gives him a haircut. It goes very badly. Doug has eighteen hours to fix the worst hair in the history of Bluffington.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC happy
+SCENE doug_room cut
+TITLE
+PLACE doug center right excited
+PLACE porkchop midleft right happy
+DOUG (excited): Dear Journal. Tomorrow is picture day. And this year, I'm going to look perfect.
+DOUG (shy): Because this year, Patti is standing next to me in the class photo. Alphabetical order. Funnie, then Mayonnaise. Well, almost.
+PORKCHOP (smug): Arf.
+DOUG (nervous): I just need a little trim. Just a tiny bit off the top.
+NARRATOR: This was a mistake.
+
+# ------------------------------------------------------------ THE FUNNIE HOUSE
+MUSIC jazz
+SCENE funnie_house
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
+SKEETER (excited): Honk! I cut my own hair all the time, man! I'm basically a professional!
+DOUG (nervous): You cut your own hair?
+SKEETER (smug): Every Sunday. With my mom's kitchen scissors. Sit down.
+DOUG (nervous): Just a tiny bit off the top, Skeeter. Tiny.
+SKEETER (happy): Tiny. Got it. Honk.
+SFX shing
+SFX shing
+SFX shing
+NARRATOR: Snip. Snip. Snip snip snip snip snip.
+
+# ------------------------------------------------------------ THE FUNNIE HOUSE
+MUSIC tense
+SCENE funnie_house
+PLACE doug center right scared
+PLACE skeeter midleft right nervous
+SKEETER (nervous): So. Uh. How tiny is tiny, exactly?
+DOUG (scared): Skeeter. Why do I have a bald spot shaped like Ohio?
+SKEETER (nervous): It's more like Idaho, man.
+DOUG (scared): Picture day is TOMORROW!
+SKEETER (scared): Honk?!
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC sneaky
+SCENE funnie_kitchen
+PLACE judy center left surprised
+ENTER doug right midright sad
+JUDY (surprised): Douglas. What happened to your head?
+DOUG (sad): Skeeter.
+JUDY (smug): Interesting. Very bold. Very avant-garde. You look like a modern sculpture.
+DOUG (sad): I don't want to look like a sculpture! I want to look like a regular guy standing next to Patti!
+JUDY (happy): Then wear a hat. Artists wear hats.
+
+# ------------------------------------------------------------ DOWNTOWN BLUFFINGTON
+MUSIC jazz 2
+SCENE bluffington_downtown
+PLACE doug center right nervous
+PLACE porkchop midleft right neutral
+DOUG (nervous): Dear Journal. Hat store. I just need a hat that's cool, normal and covers Idaho.
+NARRATOR: The only hats left were a cowboy hat, a sailor hat and a hat shaped like a giant duck.
+DOUG (sad): I'll take the cowboy hat.
+PORKCHOP (smug): Arf.
+DOUG (nervous): You think the duck one is better?
+PORKCHOP (excited): Arf arf!
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC happy
+SCENE dink_yard
+PLACE mr_dink center left excited
+ENTER doug right midright nervous
+MR_DINK (excited): Doug! Nice cowboy hat! What's underneath?
+DOUG (sad): A haircut disaster, Mr. Dink.
+MR_DINK (smug): Doug, I have just the thing. A hair-growing machine! It's very expensive!
+DOUG (surprised): Does it work?
+MR_DINK (happy): No idea! I've never been brave enough to try it! Hold still!
+SFX zap
+SHAKE 0.4
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC tense 2
+SCENE dink_yard
+PLACE mr_dink center left surprised
+PLACE doug midright left scared
+MR_DINK (surprised): Well. It worked. Sort of.
+DOUG (scared): Why is my hair standing straight up?!
+MR_DINK (nervous): The machine grows hair. It doesn't tell it which direction to go.
+NARRATOR: Doug's hair now pointed straight up. Two feet up. With a bald spot shaped like Idaho in the middle.
+DOUG (sad): Dear Journal. It's worse. It's so much worse.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC jazz
+SCENE honker_burger
+PLACE chalky center left neutral
+PLACE connie midright left surprised
+ENTER doug right right nervous
+CONNIE (surprised): Doug? Is that... a cowboy hat? With hair coming out of the top?
+DOUG (sad): It's a long story, Connie.
+CHALKY (neutral): Doug, I always use a little bit of hair gel on picture day. Want some?
+DOUG (excited): Would that work?
+CHALKY (smug): It works on everything. I once gelled a cat.
+NARRATOR: Doug used the whole tube. His hair did not lie down. It just got shinier.
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE doug center right angry
+NARRATOR: That night, Doug dreamed of Quailman, battling the evil Doctor Bad Hair Day.
+DOUG (angry): Back, foul villain! Quailman's hair will not be defeated!
+DOUG (sad): Unless you have a comb. Do you have a comb?
+DOUG (smug): Quailman doesn't need a perfect haircut! Quailman wears his underwear on his head! Nobody can see his hair!
+DOUG (surprised): Hmm.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC tense
+SCENE bluffington_school
+CARD Picture day...
+PLACE doug center right nervous
+PLACE skeeter midleft right nervous
+PLACE roger midright left smug
+ROGER (smug): Hey Funnie! Nice hair! Did you stick your finger in a light socket?
+SKEETER (nervous): Sorry, Doug. This is all my fault. Honk.
+DOUG (nervous): It's okay, Skeeter. I've decided something. I'm just going to be me. Hair and all.
+ROGER (smug): It's your funeral, Funnie.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC romantic
+SCENE bluffington_school
+PLACE doug center right nervous
+PLACE patti midleft right surprised
+PATTI (surprised): Doug? Your hair!
+DOUG (shy): I know. It's a long story. It involves Skeeter, a machine and Idaho.
+PATTI (happy): I think it's kind of great. It's... brave.
+DOUG (surprised): Brave?
+PATTI (smug): Anybody can look normal. It takes guts to look like that.
+DOUG (shy): Dear Journal. Patti Mayonnaise called me brave.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC happy 2
+SCENE bluffington_school
+PLACE mr_bone center left nervous
+PLACE doug midright left happy
+PLACE patti right left happy
+MR_BONE (nervous): Everyone in position for the class photo! Mr. Funnie, your hair is blocking three students.
+DOUG (happy): Sorry, Mr. Bone.
+MR_BONE (angry): Duck down! No, the other way! Oh, for heaven's sake. Just smile!
+SFX pop
+NARRATOR: Click. The photo was taken. Doug was smiling. Patti was smiling. Doug's hair was in the shape of a question mark.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+CARD Two weeks later...
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. The pictures came back. My hair is in the shape of a question mark, and everybody loves it.
+DOUG (shy): And Patti asked for an extra copy.
+PORKCHOP (smug): Arf.
+DOUG (excited): Next year, I'm letting Skeeter cut it again. Well. Maybe.
+END

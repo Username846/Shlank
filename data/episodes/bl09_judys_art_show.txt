@@ -1,0 +1,144 @@
+@title Judy's Art Show
+@series Doug
+@season 1
+@icon journal
+@number 9
+@description Judy is having her very first art show at Swirly's, and nobody understands her art. Not even Doug. Especially not Doug. He's in charge of making sure the show is a success anyway.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC jazz
+SCENE funnie_kitchen cut
+TITLE
+PLACE judy center left excited
+PLACE doug midright left nervous
+JUDY (excited): Douglas! Swirly's has agreed to host my first art show! Fourteen pieces! Each one a cry from the soul!
+DOUG (nervous): That's great, Judy. What are they of?
+JUDY (smug): Piece number one is a blank canvas. It's called "Bluffington on a Tuesday."
+DOUG (nervous): It's... white.
+JUDY (smug): So is Tuesday, Douglas.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC sneaky
+SCENE doug_room
+PLACE doug center right nervous
+PLACE porkchop midleft right neutral
+DOUG (nervous): Dear Journal. Mom says I have to help Judy with her art show. Hang the art. Hand out flyers. Make sure people come.
+DOUG (sad): The problem is, I don't understand any of it. One of them is just a sock. On a stick.
+PORKCHOP (smug): Arf.
+DOUG (surprised): You like the sock?
+PORKCHOP (happy): Arf arf.
+DOUG (sad): Great. Even the dog understands art better than me.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC jazz 2
+SCENE swirlys
+PLACE judy center left excited
+PLACE doug midright left nervous
+JUDY (excited): No, no, no! The sock goes higher! It must look down on the people! Judging them!
+DOUG (nervous): Like this?
+JUDY (angry): Higher! Feel the sock, Douglas!
+DOUG (nervous): I'm feeling it. I think. It feels like a sock.
+JUDY (sad): You don't understand. Nobody understands.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC happy
+SCENE bluffington_school
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
+PLACE patti midright left happy
+DOUG (nervous): Hey guys. Want to come to my sister's art show on Saturday? There's free punch.
+SKEETER (excited): Honk! Free punch!
+PATTI (happy): An art show? I'd love to, Doug! What kind of art?
+DOUG (nervous): Uh. Modern. Very modern. There's a sock.
+PATTI (surprised): A sock?
+DOUG (shy): On a stick. You have to feel it.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC sneaky 2
+SCENE honker_burger
+PLACE roger center left smug
+PLACE beebe midright left smug
+ROGER (smug): Judy Funnie's art show? I'm going. Front row. To laugh.
+BEEBE (smug): I'm going too. My family collects art. Real art. Expensive art.
+ROGER (excited): Bet you a dollar the whole thing's a disaster.
+BEEBE (smug): I don't bet with dollars, Roger. Only with ponies.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC tense
+SCENE swirlys
+CARD The night before the show...
+PLACE judy center left sad
+PLACE doug midright left neutral
+JUDY (sad): Douglas, what if nobody likes it? What if they all laugh? What if I'm not an artist at all?
+DOUG (surprised): Judy? You're nervous?
+JUDY (sad): Every artist is nervous. Van Gogh was nervous. That's why he did the ear thing.
+DOUG (nervous): Please don't do the ear thing.
+JUDY (sad): I'll try not to.
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE doug center right excited
+NARRATOR: That night, Doug had a dream. Quailman stood in an art museum, facing the terrible villain, the Art Critic.
+DOUG (angry): You there, critic! Stop frowning at that sock!
+DOUG (smug): Every piece of art means something to someone. Even socks!
+DOUG (excited): Especially socks!
+DOUG (surprised): Wait. That's it. That's what Judy's been trying to say.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC jazz
+SCENE funnie_kitchen
+CARD Saturday morning...
+PLACE doug center right excited
+PLACE judy midleft right nervous
+DOUG (excited): Judy, I have an idea. What if each piece had a little card next to it? Saying what it means to you?
+JUDY (surprised): Explain my art? To the masses?
+DOUG (happy): Not explain it. Share it. So people can feel what you feel.
+JUDY (nervous): The sock is about Dad. He always lost one sock in the dryer. And he'd hang the other one up, hoping it would come back.
+DOUG (shy): ...Wow. That's actually really sweet, Judy.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC romantic
+SCENE swirlys
+CARD The art show...
+PLACE patti center left surprised
+PLACE skeeter midleft right surprised
+PLACE judy midright left nervous
+PATTI (surprised): "The Lonely Sock. Waiting for its partner to come home." Oh, Judy. That's beautiful.
+SKEETER (surprised): Whoa. I'll never look at socks the same way. Honk.
+JUDY (shy): You... like it?
+PATTI (happy): I love it!
+SKEETER (excited): Can I buy the sock?
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC happy 2
+SCENE swirlys
+PLACE roger center left surprised
+PLACE beebe midright left excited
+ROGER (surprised): People are... buying this stuff?
+BEEBE (excited): I bought "Bluffington on a Tuesday." The white one. It's going in our east wing.
+ROGER (nervous): You bought a blank canvas?
+BEEBE (smug): It's not blank, Roger. It's Tuesday. Pay up. One pony.
+
+# ------------------------------------------------------------ SWIRLY'S
+MUSIC happy 3
+SCENE swirlys
+PLACE judy center left excited
+PLACE doug midright left happy
+PLACE mr_dink midleft right excited
+MR_DINK (excited): Miss Funnie! I'd like to buy the sock for my collection! Name your price!
+JUDY (smug): The sock is not for sale. It belongs to the people. And to Dad.
+MR_DINK (happy): Then I'll buy the stick it's on! Very expensive stick!
+JUDY (happy): Douglas. Thank you. You made people understand.
+DOUG (shy): You did that, Judy. I just made little cards.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic 2
+SCENE doug_room
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. Judy sold eleven pieces. Even the blank one. She's a real artist now.
+DOUG (shy): And she called me her favorite brother. I'm her only brother. But still.
+PORKCHOP (smug): Arf.
+NARRATOR: And the next morning, Dad found his missing sock. It was in the dryer. It had been there for six years.
+END

@@ -1,0 +1,163 @@
+@title The Great Duck Pond Voyage
+@series Rugrats
+@season 1
+@icon bottle
+@number 10
+@description On a trip to the park, the babies climb into Grandpa Lou's toy sailboat and set off across the duck pond to find the land of free ice cream. Angelica swims after them. Angelica can't swim.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC happy
+SCENE pickles_living_room cut
+TITLE
+PLACE grandpa_lou center left excited
+PLACE tommy midright left happy
+PLACE chuckie right left neutral
+GRANDPA_LOU (excited): Look what I found in the attic! My old model sailboat! The S.S. Lou!
+TOMMY (excited): A boat!
+GRANDPA_LOU (smug): Back in my day, I sailed her on the duck pond every Sunday. Today, we're taking her out again.
+CHUCKIE (nervous): On the water? The deep water?
+GRANDPA_LOU (happy): It's a pond, kiddo. It's about this deep.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC sneaky
+SCENE nursery
+PLACE angelica center left smug
+PLACE tommy midright left excited
+PLACE phil midleft right excited
+PLACE lil left right excited
+ANGELICA (smug): You babies know what's on the other side of the duck pond? The land of free ice cream.
+PHIL (excited): Free ice cream?!
+ANGELICA (smug): Mountains of it. Rivers of chocolate. But only grown-ups know how to get there. With a boat.
+LIL (excited): Tommy! Grandpa has a boat!
+TOMMY (excited): Then we gotta be sailors!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC jazz
+SCENE duck_pond
+PLACE grandpa_lou center left happy
+PLACE didi midright left happy
+GRANDPA_LOU (happy): Ahh. The duck pond. The finest sailing in the city.
+DIDI (happy): Pop, I'm going to get some lemonade. Watch the babies, okay?
+GRANDPA_LOU (smug): Deed, I commanded a ship in the navy. I can watch four babies.
+DIDI (nervous): You commanded a ship?
+GRANDPA_LOU (nervous): Well. A rowboat. With two other fellas. But I was the oldest.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC jazz 2
+SCENE duck_pond
+PLACE susie center left neutral
+PLACE angelica midright left smug
+SUSIE (neutral): Angelica, why are the babies all staring at your grandpa's boat?
+ANGELICA (smug): I told 'em about the land of free ice cream. On the other side of the pond.
+SUSIE (angry): There's no land of free ice cream! There's just an ice cream man! And he charges a dollar!
+ANGELICA (smug): The babies don't know that.
+SUSIE (nervous): Angelica, what if they try to sail there for real?
+ANGELICA (smug): Babies can't sail, Susie. Don't be silly.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC sneaky 2
+SCENE duck_pond
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+PLACE phil midright left excited
+PLACE lil right left excited
+NARRATOR: Grandpa Lou fell asleep on the bench. The model boat was sitting at the edge of the pond. It was just big enough for four babies.
+TOMMY (excited): All aboard the S.S. Lou! Next stop, the land of free ice cream!
+CHUCKIE (scared): Tommy, I don't think babies are allowed to drive boats!
+PHIL (excited): We're not driving it, Chuckie. We're sailing it.
+LIL (smug): That's a totally different thing.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC action
+SCENE duck_pond
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+SFX splash
+NARRATOR: The boat drifted away from the shore. The wind caught the little sail. They were off.
+TOMMY (excited): We're sailing! We're real sailors!
+CHUCKIE (scared): We're floating! On water! With nothing under us but more water!
+TOMMY (happy): And boat, Chuckie. There's boat under us too.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC happy 2
+SCENE duck_pond
+PLACE phil center right excited
+PLACE lil midleft right excited
+PHIL (excited): Lillian! Ducks! They're following us!
+LIL (happy): They want to come to the land of free ice cream too!
+PHIL (excited): I'm gonna call that one Captain Quackers!
+LIL (smug): That one's Admiral Feathers.
+NARRATOR: The ducks did not want ice cream. The ducks wanted the bag of crackers in Phil's pocket.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC tense
+SCENE duck_pond
+PLACE angelica center left surprised
+ANGELICA (surprised): Those dumb babies actually did it! They're sailing to the middle of the pond!
+ANGELICA (nervous): If they get hurt, I'm gonna get in so much trouble.
+ANGELICA (angry): I'll just swim out there and get 'em myself!
+SFX splash
+NARRATOR: Angelica jumped in. Angelica could not swim.
+ANGELICA (scared): Help! Help! I'm drowning! This water is up to my knees!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC tense 2
+SCENE duck_pond
+PLACE susie center left nervous
+PLACE angelica farleft right scared
+ENTER spike right midright excited
+SUSIE (nervous): Angelica! You can stand up! It's only a little bit deep!
+ANGELICA (scared): That's easy for you to say! You're on land!
+SPIKE (excited): Woof! Woof woof!
+NARRATOR: Spike jumped into the pond. He swam out to the boat, grabbed the rope in his teeth, and started pulling.
+SUSIE (excited): Go, Spike!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC action 2
+SCENE duck_pond
+PLACE tommy center right excited
+PLACE chuckie midleft right excited
+PLACE spike midright left happy
+TOMMY (excited): Spike's pulling us! He's like a motor!
+CHUCKIE (excited): A furry motor!
+SFX splash
+NARRATOR: Spike towed the S.S. Lou all the way across the pond. To the other side. Where there was an ice cream cart.
+TOMMY (surprised): Look! The land of free ice cream! It's real!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC happy
+SCENE duck_pond
+PLACE grandpa_lou center left surprised
+PLACE didi midright left scared
+DIDI (scared): Pop! Where are the babies?!
+GRANDPA_LOU (surprised): Huh? What? They were right here! Under my supervision!
+DIDI (scared): And where's your boat?
+GRANDPA_LOU (nervous): Under my... also supervision?
+NARRATOR: Across the pond, an ice cream man was waving. He was holding four babies, a wet dog and a very soggy model boat.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC happy 3
+SCENE duck_pond
+PLACE tommy center right happy
+PLACE chuckie midleft right happy
+PLACE phil midright left happy
+PLACE lil right left happy
+HOLD tommy ice_cream
+NARRATOR: The ice cream wasn't free. But Grandpa Lou paid for it, because he felt very, very guilty.
+TOMMY (happy): We did it. We sailed to the land of ice cream.
+CHUCKIE (happy): Tommy, I think I like sailing. As long as there's ice cream at the end.
+PHIL (happy): And ducks.
+LIL (happy): And Spike.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC romantic
+SCENE pickles_living_room
+CARD That evening...
+PLACE angelica center left sad
+PLACE didi midright left smug
+ANGELICA (sad): Aunt Didi, the babies got ice cream. And I got wet.
+DIDI (smug): Maybe next time, you'll ask a grown-up for help, sweetie.
+ANGELICA (sad): ...Can I at least have the leftover ice cream?
+DIDI (happy): Spike ate it.
+ANGELICA (angry): That dumb dog!
+END

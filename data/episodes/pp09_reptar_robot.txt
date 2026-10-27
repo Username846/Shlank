@@ -1,0 +1,175 @@
+@title Stu's Big Invention
+@series Rugrats
+@season 1
+@icon bottle
+@number 9
+@description Stu has built a life-size walking Reptar for the toy fair. The babies think the real Reptar has come to visit. Then the remote control falls into Dil's playpen.
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC happy
+SCENE stu_basement cut
+TITLE
+PLACE stu center left excited
+PLACE didi midright left nervous
+STU (excited): Deed! It's finished! My masterpiece! The Mega Walking Reptar 3000!
+DIDI (nervous): Stu, it's as tall as the ceiling.
+STU (smug): That's the point! It walks! It roars! It breathes real fake fire! The toy fair's gonna go nuts!
+DIDI (nervous): Does it have an off switch?
+STU (nervous): Uh. It has a remote. The remote has an off switch. Mostly.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC sneaky
+SCENE nursery
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): Guys! I heard my daddy talking. Reptar is in the basement!
+CHUCKIE (scared): The real Reptar? In your basement?
+PHIL (excited): Let's go say hi!
+LIL (excited): Maybe he'll let us ride on his back!
+CHUCKIE (nervous): Maybe he'll eat us like a bowl of cereal!
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC sneaky 2
+SCENE stu_basement
+CARD Naptime...
+PLACE tommy center right surprised
+PLACE chuckie midleft right scared
+TOMMY (surprised): Wow. He's so big. And so green.
+CHUCKIE (scared): Tommy, he's not moving. Maybe he's sleeping. Let's not wake him up.
+TOMMY (excited): Look! A little box with buttons! Maybe it's his remote control!
+CHUCKIE (scared): Tommy, don't push the buttons!
+TOMMY (excited): I'll just push the big one.
+SFX beep
+SFX stomp
+SHAKE 0.8
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC action
+SCENE stu_basement
+PLACE tommy center right excited
+PLACE chuckie midleft right scared
+NARRATOR: The Mega Walking Reptar 3000 opened its eyes. It roared. It took one giant step. Then another.
+SFX stomp
+SHAKE 1.0
+TOMMY (excited): He's awake! Reptar's awake!
+CHUCKIE (scared): And he's walking up the stairs!
+TOMMY (excited): Come on! We gotta follow him!
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC action 2
+SCENE pickles_living_room
+PLACE angelica center left scared
+SFX stomp
+SHAKE 1.0
+ANGELICA (scared): AAAAH! A giant Reptar! In the living room!
+NARRATOR: Reptar walked right through the living room. He knocked over a lamp. He stepped on a cushion. He roared at the TV.
+ANGELICA (scared): Uncle Stu! Your stupid toy is loose!
+ENTER tommy left midleft excited
+TOMMY (excited): He's not a toy, Angelica! He's the real Reptar! He came to visit!
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC tense
+SCENE stu_basement
+PLACE stu center left surprised
+STU (surprised): Where'd it go? Where's my Reptar?
+SFX stomp
+SHAKE 0.6
+STU (scared): Oh no. It's upstairs. And where's the remote?
+STU (scared): Deed is gonna kill me. And then the toy fair people are gonna kill me. Then Deed's gonna kill me again!
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC jazz
+SCENE pickles_kitchen
+PLACE didi center left surprised
+PLACE grandpa_lou midright left nervous
+SFX stomp
+SHAKE 0.6
+DIDI (surprised): Pop, did you feel that? The whole house is shaking!
+GRANDPA_LOU (nervous): Earthquake! Back in my day, we had a big one. Knocked my hat clean off.
+DIDI (nervous): I don't think it's an earthquake. I think it's Stu.
+GRANDPA_LOU (smug): Well, that's worse.
+SFX stomp
+SHAKE 0.8
+DIDI (scared): STU!
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC action
+SCENE pickles_backyard
+PLACE tommy center right excited
+PLACE phil midleft right excited
+PLACE lil left right excited
+PLACE spike midright left scared
+SFX stomp
+SHAKE 1.0
+PHIL (excited): Reptar's in the backyard! He stepped on the sandbox!
+LIL (excited): And the birdbath! And Spike's doghouse!
+SPIKE (scared): Woof?! Woof woof!
+TOMMY (nervous): Hmm. Reptar's not being very nice today.
+NARRATOR: Reptar was heading straight for the fence. And beyond the fence was the whole neighborhood.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC tense 2
+SCENE nursery
+PLACE dil center right happy
+PLACE chuckie midleft right nervous
+NARRATOR: In all the excitement, Tommy had dropped the remote control. It landed in Dil's playpen.
+DIL (happy): Ba ba!
+CHUCKIE (nervous): Dil, give me the remote. Please. It's very important.
+DIL (smug): Ga ga.
+SFX beep
+SFX beep
+CHUCKIE (scared): Dil, stop pushing buttons!
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC action 2
+SCENE pickles_backyard
+PLACE tommy center right surprised
+PLACE stu midleft right scared
+SFX beep
+NARRATOR: Every time Dil pushed a button, Reptar did something new. He danced. He spun around. He did a little hop.
+STU (scared): Is it... doing the cha-cha?
+TOMMY (excited): Reptar can dance!
+SFX stomp
+SHAKE 0.6
+STU (nervous): The remote must be somewhere close! It's getting the signal!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC tense
+SCENE nursery
+PLACE chuckie center right nervous
+PLACE dil midleft right happy
+CHUCKIE (nervous): Dil. I'll trade you. My favorite blanket for the remote control.
+DIL (sad): Waaah.
+CHUCKIE (nervous): Okay. My blanket and my juice.
+DIL (happy): Ba!
+NARRATOR: Chuckie had never traded his juice before. It was the bravest thing he'd ever done.
+CHUCKIE (excited): Now which button is off? The red one? It's always the red one!
+SFX beep
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC happy
+SCENE pickles_backyard
+PLACE stu center left happy
+PLACE tommy midright left happy
+NARRATOR: Reptar stopped. One foot in the air. Right above the fence. Then he slowly sat down, like a very tired dinosaur.
+STU (happy): It stopped! Somebody hit the off switch!
+ENTER chuckie right right excited
+CHUCKIE (excited): I did it, Tommy! I turned off Reptar!
+TOMMY (happy): Chuckie, you're a hero!
+CHUCKIE (shy): I traded my juice for it.
+TOMMY (happy): That's the most bravest thing ever.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC romantic
+SCENE pickles_kitchen
+CARD That evening...
+PLACE stu center left sad
+PLACE didi midright left smug
+STU (sad): The toy fair people saw the news. A giant Reptar loose in the suburbs. They said it's too dangerous.
+DIDI (smug): You don't say.
+STU (happy): But they want to buy the dance moves! For a new toy! Dancing Reptar!
+DIDI (happy): Oh, Stu. You did it.
+STU (excited): Now I just need to figure out how I made it dance.
+END

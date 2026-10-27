@@ -1,0 +1,145 @@
+@title The Quailman Comic
+@series Doug
+@season 1
+@icon journal
+@number 7
+@description The school newspaper needs a comic strip, and Doug draws Quailman. Everyone loves it. Then Roger turns in a comic called Klotzman that looks exactly the same, only meaner.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC happy
+SCENE doug_room cut
+TITLE
+PLACE doug center right excited
+PLACE porkchop midleft right happy
+DOUG (excited): Dear Journal. The Bluffington Bugle is looking for a comic strip. A real comic strip. In print.
+DOUG (happy): And I know exactly what to draw. The adventures of Quailman!
+PORKCHOP (excited): Arf!
+DOUG (excited): Defender of truth, justice and stuff that's really neat!
+NARRATOR: Doug drew all night. Quailman, in his belt and his underwear-on-the-head mask. Quailman, saving a cat from a tree. Quailman, defeating the evil Doctor Klotz.
+
+# ------------------------------------------------------------ SCHOOL HALLWAY
+MUSIC jazz
+SCENE school_hallway
+PLACE doug center right nervous
+PLACE judy midleft right smug
+JUDY (smug): Douglas, I'm the editor of the Bugle's arts section. I've seen your comic.
+DOUG (nervous): And?
+JUDY (smug): It's crude. It's childish. It has no understanding of modern art.
+DOUG (sad): Oh.
+JUDY (happy): The fourth graders will adore it. It runs on Monday.
+DOUG (excited): Really?!
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action
+SCENE quailman_lair
+PLACE doug center right excited
+DOUG (excited): Quailman's comic debut! The whole city will read of his adventures!
+NARRATOR: In Doug's imagination, the comic strip came to life. Quailman flew over Bluffington, waving at his adoring fans.
+DOUG (smug): Fear not, citizens! Quailman is in print!
+DOUG (excited): Also available in color for an extra five cents!
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC happy 2
+SCENE bluffington_school
+CARD Monday...
+PLACE doug center right happy
+PLACE skeeter midleft right excited
+PLACE patti midright left happy
+SKEETER (excited): Honk honk! Doug, everybody's reading it! Quailman's a hit!
+PATTI (happy): I loved the part where he rescues the cat with a slingshot and a pie.
+DOUG (shy): Thanks, Patti. The pie part was hard to draw.
+SKEETER (excited): You're famous, man! Like a real cartoonist!
+DOUG (happy): Dear Journal. I'm a real cartoonist.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC sneaky
+SCENE honker_burger
+PLACE roger center left smug
+PLACE connie midright left nervous
+ROGER (smug): A comic about a guy in his underwear? I could do better than that in my sleep.
+CONNIE (nervous): Then why don't you?
+ROGER (excited): Maybe I will. And mine'll be about a real hero. A cool hero. Named Klotzman.
+CONNIE (nervous): That sounds a lot like Quailman, Roger.
+ROGER (smug): Nobody owns the idea of a guy with a cape, Connie.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC tense
+SCENE bluffington_school
+CARD The next Monday...
+PLACE doug center right surprised
+PLACE skeeter midleft right angry
+SKEETER (angry): Doug! Look at page six! There's a new comic! Klotzman!
+DOUG (surprised): Klotzman? But that's... my comic. With a leather jacket and green skin.
+SKEETER (angry): He even used the pie! Not cool, man. Honk.
+DOUG (sad): And everyone's reading it. Everyone's laughing.
+SKEETER (sad): Klotzman steals Quailman's lunch money in the last panel, Doug.
+
+# ------------------------------------------------------------ SCHOOL HALLWAY
+MUSIC tense 2
+SCENE school_hallway
+PLACE doug center right angry
+ENTER roger left midleft smug
+DOUG (angry): Roger! You copied my comic!
+ROGER (smug): Copied? Please, Funnie. Klotzman is completely original. He's cooler, he's stronger, he's got a motorcycle.
+DOUG (angry): He has my pie!
+ROGER (smug): Lots of heroes have pies.
+ROGER (excited): And next week, Klotzman defeats Quailman forever. Prepare for a very sad ending, Funnie.
+EXIT roger right
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC sad
+SCENE doug_room
+PLACE doug center right sad
+PLACE porkchop midleft right sad
+DOUG (sad): Dear Journal. Roger's going to end Quailman. In print. In front of everybody.
+PORKCHOP (sad): Arf.
+DOUG (sad): Maybe I should just stop drawing. Let Klotzman win.
+PORKCHOP (angry): Arf! Arf arf!
+DOUG (surprised): You're right, Porkchop. Quailman never gives up. Not even against a guy with a motorcycle.
+
+# ------------------------------------------------------------ THE FUNNIE KITCHEN
+MUSIC jazz 2
+SCENE funnie_kitchen
+PLACE doug center right excited
+PLACE judy midleft right neutral
+DOUG (excited): Judy, I need your help. You know about art. How do you beat a copycat?
+JUDY (smug): Simple, Douglas. A copycat can only copy what you've already done.
+DOUG (surprised): So?
+JUDY (smug): So do something they'd never think of. Surprise them. True art is surprise.
+DOUG (excited): Judy, you're a genius!
+JUDY (happy): I know.
+
+# ------------------------------------------------------------ QUAILMAN'S SECRET LAIR
+MUSIC action 2
+SCENE quailman_lair
+PLACE doug center right excited
+NARRATOR: Doug drew the new strip. Klotzman tries to defeat Quailman. But Quailman doesn't fight back.
+DOUG (excited): Instead, Quailman offers Klotzman a slice of pie. And asks if he wants to be partners.
+DOUG (smug): Because the best heroes don't defeat their enemies. They turn them into friends.
+DOUG (happy): Plus, the pie is really good.
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC happy 3
+SCENE bluffington_school
+CARD The next Monday...
+PLACE doug center right nervous
+PLACE roger midleft right surprised
+PLACE patti midright left excited
+PATTI (excited): Doug! Everyone loves the new strip! Quailman and Klotzman, partners!
+ROGER (surprised): You made Klotzman a good guy?
+DOUG (nervous): Kind of. He's still got the motorcycle.
+ROGER (shy): Huh. Klotzman's kind of a hero now.
+ROGER (smug): Fine. Truce, Funnie. But I get to draw the motorcycle.
+DOUG (happy): Deal.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic
+SCENE doug_room
+PLACE doug center right happy
+PLACE porkchop midleft right happy
+DOUG (happy): Dear Journal. The Bugle says "Quailman and Klotzman" is the most popular comic in Bluffington history.
+DOUG (shy): And Roger drew the motorcycle. It's actually pretty good.
+PORKCHOP (smug): Arf.
+DOUG (excited): Next week: Quailman and Klotzman meet the Dog Wonder!
+PORKCHOP (excited): Arf! Arf arf!
+END

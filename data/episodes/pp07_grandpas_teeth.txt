@@ -1,0 +1,156 @@
+@title Grandpa's Teeth
+@series Rugrats
+@season 1
+@icon bottle
+@number 7
+@description Grandpa Lou's false teeth have gone missing, and he can't eat his famous corn on the cob at the family picnic. Angelica says the Tooth Fairy took them. The babies set out to find the Tooth Fairy and ask for them back.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC happy
+SCENE pickles_kitchen cut
+TITLE
+PLACE grandpa_lou center left sad
+PLACE didi midright left nervous
+GRANDPA_LOU (sad): Deed, have you seen my choppers? They were in a glass by the sink last night.
+DIDI (nervous): Your teeth, Pop? No. Did you check the bathroom?
+GRANDPA_LOU (sad): Checked everywhere. And the family picnic is today. How's a fella gonna eat corn on the cob with no teeth?
+DIDI (happy): We'll find them, Pop. They can't have gone far.
+GRANDPA_LOU (smug): Back in my day, we only had one set of teeth. And we kept 'em in our mouths!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC sneaky
+SCENE nursery
+PLACE tommy center right neutral
+PLACE chuckie midleft right nervous
+PLACE angelica midright left smug
+ANGELICA (smug): You babies know what happened to Grandpa's teeth? The Tooth Fairy took 'em.
+TOMMY (surprised): The Tooth Fairy?
+ANGELICA (smug): She comes at night and takes your teeth. That's her job. She has a big castle made out of teeth.
+CHUCKIE (scared): A castle made of teeth?! That's the scariest thing I ever heard!
+ANGELICA (smug): And she's never giving them back. So Grandpa's gonna eat mush forever.
+TOMMY (angry): Not if we find her first!
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC happy 2
+SCENE pickles_backyard
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): Okay, everybody. We gotta find the Tooth Fairy and ask for Grandpa's teeth back.
+PHIL (excited): Where does a tooth fairy live, Tommy?
+LIL (smug): In the sky, Phillip. Everybody knows that.
+PHIL (angry): Does not, Lillian! In a hole! Fairies live in holes!
+LIL (angry): Do not!
+PHIL (angry): Do too!
+CHUCKIE (nervous): Can we please just look somewhere that's not a hole?
+
+# ------------------------------------------------------------ PICKLES BACKYARD
+MUSIC sneaky 2
+SCENE pickles_backyard
+PLACE tommy center right neutral
+PLACE spike midleft right happy
+PLACE chuckie left right nervous
+SPIKE (happy): Woof!
+TOMMY (excited): Spike! You gotta help us! You're a good smeller!
+SPIKE (excited): Woof woof!
+NARRATOR: Spike sniffed the grass. Spike sniffed a shoe. Spike sniffed Chuckie, who did not enjoy it.
+CHUCKIE (nervous): Tommy, he's sniffing me! Do I smell like teeth?
+TOMMY (happy): You smell like apple juice, Chuckie.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC jazz
+SCENE duck_pond
+CARD At the picnic...
+PLACE stu center left happy
+PLACE didi midright left happy
+PLACE grandpa_lou midleft right sad
+STU (happy): Great day for a picnic! Burgers! Hot dogs! Corn on the cob!
+GRANDPA_LOU (sad): Corn on the cob. My favorite. And I can't eat a single kernel.
+DIDI (nervous): I brought applesauce, Pop.
+GRANDPA_LOU (angry): Applesauce! I'm not a baby, Deed!
+STU (nervous): Uh, maybe let's not mention the teeth again, honey.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC sneaky
+SCENE duck_pond
+PLACE tommy center right excited
+PLACE phil midleft right excited
+PLACE lil left right excited
+TOMMY (excited): Look! A duck! Maybe the duck knows where the Tooth Fairy lives!
+PHIL (surprised): Ducks don't have teeth, Tommy.
+LIL (smug): That's 'cause the Tooth Fairy took 'em all.
+TOMMY (surprised): Lil, that makes sense!
+NARRATOR: The duck did not know where the Tooth Fairy lived. The duck only wanted bread.
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC tense
+SCENE duck_pond
+PLACE angelica center left smug
+PLACE susie midright left neutral
+SUSIE (neutral): Angelica, why did you tell the babies the Tooth Fairy took Grandpa's teeth?
+ANGELICA (smug): Because it's funny. Watching them look everywhere.
+SUSIE (angry): That's mean. The Tooth Fairy doesn't take grown-up teeth. Only baby teeth.
+ANGELICA (nervous): How would you know?
+SUSIE (smug): 'Cause I lost two teeth this year. And I got a dollar for each one.
+ANGELICA (surprised): A dollar?! For a tooth?!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC sneaky 2
+SCENE duck_pond
+PLACE tommy center right nervous
+PLACE spike midleft right excited
+PLACE chuckie left right nervous
+SPIKE (excited): Woof! Woof woof!
+TOMMY (excited): Spike smells something! In the picnic basket!
+CHUCKIE (nervous): Tommy, what if it's the Tooth Fairy? What if she bites?
+TOMMY (smug): Fairies are little, Chuckie. Little things only bite a little.
+CHUCKIE (scared): That's still biting!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC action
+SCENE duck_pond
+PLACE tommy center right surprised
+PLACE spike midleft right happy
+NARRATOR: Inside the picnic basket, wrapped in a napkin, under the corn on the cob, was a glass of water. With teeth in it.
+TOMMY (surprised): Grandpa's teeth!
+NARRATOR: Grandpa Lou had packed them himself. At four in the morning. And forgotten.
+SPIKE (excited): Woof!
+TOMMY (excited): Good boy, Spike!
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC happy
+SCENE duck_pond
+PLACE grandpa_lou center left surprised
+PLACE tommy midright left happy
+PLACE didi midleft right surprised
+GRANDPA_LOU (surprised): My choppers! Tommy found my choppers!
+DIDI (surprised): In the picnic basket? Pop, did you pack them?
+GRANDPA_LOU (nervous): Well. I may have. So I wouldn't forget 'em.
+DIDI (smug): And then you forgot them.
+GRANDPA_LOU (happy): Never mind that! Pass the corn!
+SFX chomp
+
+# ------------------------------------------------------------ DUCK POND PARK
+MUSIC jazz 2
+SCENE duck_pond
+PLACE angelica center left excited
+PLACE susie midright left smug
+ANGELICA (excited): Susie! I'm gonna lose all my teeth! Then I'll be rich! A dollar each!
+SUSIE (smug): You have to wait till they fall out on their own, Angelica.
+ANGELICA (sad): How long does that take?
+SUSIE (happy): Years.
+ANGELICA (angry): YEARS?!
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC romantic
+SCENE pickles_living_room
+CARD That night...
+PLACE tommy center right happy
+PLACE chuckie midleft right happy
+CHUCKIE (happy): We never found the Tooth Fairy, Tommy.
+TOMMY (happy): That's okay, Chuckie. Grandpa got his teeth back. That's what matters.
+CHUCKIE (nervous): Do you think she's mad we took them back?
+TOMMY (smug): Nah. I think she's busy with Angelica.
+NARRATOR: Angelica was asleep with a pillow full of pebbles. Just in case the Tooth Fairy couldn't tell the difference.
+END

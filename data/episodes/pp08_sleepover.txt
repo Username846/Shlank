@@ -1,0 +1,174 @@
+@title Angelica's Sleepover
+@series Rugrats
+@season 1
+@icon bottle
+@number 8
+@description Angelica is spending the night at Tommy's house, and she wants a big-girl sleepover with Susie. Instead, she gets the babies. And a thunderstorm. And Chuckie's flashlight.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC happy
+SCENE pickles_living_room cut
+TITLE
+PLACE angelica center left excited
+PLACE didi midright left happy
+ANGELICA (excited): Aunt Didi, can Susie sleep over too? We're gonna do big-girl stuff. Like nail polish and gossiping.
+DIDI (happy): Of course, sweetie. And Chuckie and the twins are sleeping over too!
+ANGELICA (scared): The babies?! At MY big-girl sleepover?!
+DIDI (happy): It'll be one big happy slumber party!
+ANGELICA (angry): This is the worst day of my whole life!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC sneaky
+SCENE nursery
+PLACE tommy center right excited
+PLACE chuckie midleft right nervous
+PLACE phil midright left excited
+PLACE lil right left excited
+TOMMY (excited): A sleepover! We get to stay up all night!
+PHIL (excited): Do we get to sleep, or just over?
+LIL (smug): Over, Phillip. That's the important part.
+CHUCKIE (nervous): I brought my flashlight. In case it gets dark.
+TOMMY (happy): It always gets dark at night, Chuckie.
+CHUCKIE (scared): That's why I brought it!
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC jazz
+SCENE pickles_living_room
+PLACE angelica center left smug
+PLACE susie midright left happy
+ANGELICA (smug): Okay, Susie. First, we paint our nails. Then we stay up past midnight. Then we tell the scariest story ever.
+SUSIE (happy): Can the babies hear the story too?
+ANGELICA (smug): Oh, they can hear it. Heh heh heh.
+SUSIE (nervous): Angelica, don't scare them too much.
+ANGELICA (smug): Me? Scare them? Never.
+
+# ------------------------------------------------------------ PICKLES KITCHEN
+MUSIC happy 2
+SCENE pickles_kitchen
+PLACE stu center left excited
+PLACE didi midright left neutral
+STU (excited): Deed, I've got popcorn, I've got juice, and I've got the classic horror movie, "The Cookie That Ate Cleveland!"
+DIDI (smug): Stu, they're babies. They're watching "Goo Goo Ga Ga Land."
+STU (sad): Aw. That one doesn't even have a cookie in it.
+SFX thud
+SHAKE 0.4
+DIDI (nervous): Was that thunder?
+STU (nervous): Uh oh. Sounds like a big storm coming.
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC jazz 2
+SCENE pickles_living_room
+PLACE grandpa_lou center left happy
+PLACE tommy midright left happy
+PLACE chuckie right left nervous
+GRANDPA_LOU (happy): Storm's coming, sprouts. Back in my day, a storm meant one thing. Grandpa tells a story.
+CHUCKIE (nervous): Is it a scary story?
+GRANDPA_LOU (smug): It's about the time I ate eleven pancakes during a thunderstorm. Scary for the pancakes.
+TOMMY (happy): That's not scary at all, Grandpa.
+GRANDPA_LOU (happy): That's the best kind of storm story, Tommy.
+NARRATOR: Grandpa Lou fell asleep halfway through the fourth pancake. He snored louder than the thunder.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC spooky
+SCENE nursery
+CARD Midnight...
+PLACE angelica center left smug
+PLACE tommy midright left nervous
+PLACE chuckie right left scared
+PLACE susie midleft right nervous
+ANGELICA (smug): Once upon a time, there was a monster called the Diaper Snatcher. He comes at midnight, during a storm.
+CHUCKIE (scared): Is it midnight now?
+ANGELICA (smug): Yes. And it's storming. And he steals the diapers off any baby who's awake.
+SFX thud
+SHAKE 0.6
+CHUCKIE (scared): AAAAH!
+SUSIE (angry): Angelica! That's too scary!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC spooky 2
+SCENE nursery
+PLACE tommy center right nervous
+PLACE chuckie midleft right scared
+PLACE phil midright left nervous
+PLACE lil right left nervous
+SFX thud
+SHAKE 0.8
+NARRATOR: The lights went out. The whole house went dark.
+CHUCKIE (scared): The Diaper Snatcher turned off the lights!
+PHIL (scared): Lillian, hold on to your diaper!
+LIL (scared): I'm holding, Phillip! I'm holding!
+TOMMY (nervous): Chuckie! Your flashlight!
+CHUCKIE (surprised): My flashlight! I brought my flashlight!
+
+# ------------------------------------------------------------ PICKLES LIVING ROOM
+MUSIC tense
+SCENE pickles_living_room
+PLACE stu center left nervous
+PLACE didi midright left nervous
+STU (nervous): Power's out, Deed. The whole block.
+DIDI (nervous): Stu, where are the candles?
+STU (nervous): In the basement. Next to my inventions. Behind the other inventions.
+DIDI (smug): Of course they are.
+STU (scared): I'll be right back. Probably.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC tense 2
+SCENE nursery
+PLACE chuckie center right excited
+PLACE angelica midleft right scared
+PLACE tommy midright left surprised
+NARRATOR: Chuckie switched on his flashlight. It made a little circle of light on the wall. And in the light, the babies saw Angelica. Hiding under a blanket. Shaking.
+TOMMY (surprised): Angelica? Are you scared?
+ANGELICA (scared): No! I'm... I'm cold! It's very cold under here!
+SFX thud
+SHAKE 0.6
+ANGELICA (scared): AAAH! Don't let the Diaper Snatcher get me!
+CHUCKIE (surprised): But Angelica, you don't wear diapers.
+ANGELICA (sad): He might make an exception!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC romantic
+SCENE nursery
+PLACE chuckie center right happy
+PLACE angelica midleft right sad
+PLACE susie midright left happy
+CHUCKIE (happy): It's okay, Angelica. When I'm scared, I hold my flashlight. Want to hold it?
+ANGELICA (surprised): You'd let me?
+CHUCKIE (shy): Sure. Being scared is less scary when you've got a light.
+SUSIE (happy): That's really nice, Chuckie.
+ANGELICA (shy): ...Thanks, Finster.
+ANGELICA (angry): But if you tell anybody I was scared, I'll tell 'em you were scared first!
+
+# ------------------------------------------------------------ NURSERY
+MUSIC happy
+SCENE nursery
+PLACE tommy center right happy
+PLACE phil midleft right happy
+PLACE lil midright left happy
+PLACE chuckie right left happy
+TOMMY (happy): Let's make a fort! A big blanket fort! Nothing can get you in a fort!
+PHIL (excited): Not even the Diaper Snatcher?
+LIL (smug): Especially not the Diaper Snatcher. He's allergic to forts.
+NARRATOR: The babies built a fort out of every blanket in the house. Then they all climbed in. Angelica too. She held the flashlight.
+
+# ------------------------------------------------------------ STU'S BASEMENT
+MUSIC sneaky 2
+SCENE stu_basement
+PLACE stu center left nervous
+STU (nervous): Candles, candles. Where did I put those candles?
+NARRATOR: Stu found a robot arm, a self-buttering toaster and a giant Reptar head. He did not find any candles.
+STU (excited): Wait! The Reptar head has lights in the eyes! Battery powered!
+STU (smug): Stu Pickles, you're a genius.
+
+# ------------------------------------------------------------ NURSERY
+MUSIC romantic 2
+SCENE nursery
+PLACE stu center left happy
+PLACE didi midright left happy
+NARRATOR: When Stu came upstairs with a glowing Reptar head, he found a giant blanket fort. And inside it, six sleeping kids and one flashlight.
+DIDI (happy): Look at them, Stu. All together.
+STU (happy): Angelica's holding Chuckie's flashlight.
+DIDI (shy): That's the sweetest thing I've ever seen.
+STU (smug): Want to see my glowing Reptar head again?
+DIDI (smug): Goodnight, Stu.
+END

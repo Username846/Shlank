@@ -1,0 +1,155 @@
+@title Save the Honker Burger
+@series Doug
+@season 1
+@icon journal
+@number 8
+@description The Honker Burger is closing, and a fancy salad bar called Leaf It Be is taking its place. Doug and Skeeter have one week to save the best burger joint in Bluffington.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC jazz
+SCENE honker_burger cut
+TITLE
+PLACE doug center right happy
+PLACE skeeter midleft right excited
+SKEETER (excited): Honk! Two Honker Burgers, extra honk!
+DOUG (happy): Dear Journal. There's no better place in the world than the Honker Burger on a Friday afternoon.
+NARRATOR: And then Doug saw the sign. "Closing Next Week. Coming Soon: Leaf It Be. A Salad Experience."
+DOUG (scared): A salad experience?!
+SKEETER (scared): Honk?! They can't close the Honker! Where will we honk?!
+
+# ------------------------------------------------------------ BLUFFINGTON ELEMENTARY
+MUSIC sad
+SCENE bluffington_school
+PLACE doug center right sad
+PLACE patti midleft right sad
+PLACE connie midright left nervous
+PATTI (sad): The Honker Burger's closing? That's where I had my first milkshake.
+CONNIE (nervous): That's where I first saw a boy smile at me. He was smiling at the burger. But still.
+DOUG (sad): The owner says nobody comes anymore. Everybody goes to the mall.
+PATTI (angry): Then we have to make them come back!
+DOUG (surprised): How?
+PATTI (smug): You're the idea guy, Doug.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC sneaky
+SCENE doug_room
+PLACE doug center right nervous
+PLACE porkchop midleft right neutral
+DOUG (nervous): Dear Journal. Patti thinks I'm the idea guy. I have no ideas. Not one.
+PORKCHOP (smug): Arf.
+DOUG (surprised): A party? At the Honker Burger? With music?
+PORKCHOP (excited): Arf arf!
+DOUG (excited): Porkchop, that's it! A Save the Honker festival! The biggest party Bluffington has ever seen!
+
+# ------------------------------------------------------------ THE FUNNIE HOUSE
+MUSIC happy
+SCENE funnie_house
+PLACE doug center right excited
+PLACE skeeter midleft right excited
+SKEETER (excited): A festival? Killer! I'll make posters! Honk!
+DOUG (excited): We need a band. And games. And maybe a burger-eating contest.
+SKEETER (nervous): Who's gonna play in the band?
+DOUG (smug): Well, I know a guy who knows a guy who might know the Beets.
+SKEETER (surprised): You know the Beets?!
+DOUG (nervous): No. But I know Judy. And Judy knows everybody.
+
+# ------------------------------------------------------------ BEEBE'S MANSION
+MUSIC jazz 2
+SCENE beebe_mansion
+PLACE beebe center left smug
+ENTER doug right midright nervous
+BEEBE (smug): Save the Honker Burger? Doug, darling, my father is the one opening Leaf It Be.
+DOUG (surprised): Your dad? Mr. Bluff?
+BEEBE (smug): Salad is the future. Burgers are so... yesterday.
+DOUG (sad): But Beebe, the Honker is where you threw your first birthday party. With the giant burger cake.
+BEEBE (shy): ...It was a very good cake.
+
+# ------------------------------------------------------------ MR. DINK'S YARD
+MUSIC happy 2
+SCENE dink_yard
+PLACE mr_dink center left excited
+ENTER doug right midright excited
+MR_DINK (excited): A festival? I love festivals! I just bought a very expensive popcorn machine!
+DOUG (excited): Could you bring it to the Honker Burger on Saturday?
+MR_DINK (happy): Doug, I'll bring it, I'll run it, and I'll wear a very expensive popcorn hat!
+DOUG (happy): Thanks, Mr. Dink!
+MR_DINK (excited): It's made of real popcorn! It cost four hundred dollars!
+
+# ------------------------------------------------------------ LUCKY DUCK LAKE
+MUSIC happy
+SCENE lucky_duck_lake
+PLACE skeeter center right excited
+PLACE connie midleft right happy
+SKEETER (excited): Honk! Last poster! "Save the Honker! Saturday! Free Popcorn! Maybe the Beets!"
+CONNIE (nervous): Skeeter, we don't actually have the Beets.
+SKEETER (smug): That's why it says "maybe." Honk.
+NARRATOR: Skeeter stuck the poster on a tree by the lake. A duck ate it. Then a second duck ate the tape.
+CONNIE (happy): At least the ducks know about the festival.
+SKEETER (excited): Ducks love burgers, man! Honk honk!
+
+# ------------------------------------------------------------ SCHOOL HALLWAY
+MUSIC sneaky 2
+SCENE school_hallway
+PLACE roger center left smug
+PLACE chalky midright left happy
+ROGER (smug): A festival for a burger joint? Lame. Nobody's gonna show up.
+CHALKY (happy): I signed up for the burger-eating contest. I've been training all week.
+ROGER (surprised): You? Mister perfect?
+CHALKY (smug): I'm also perfect at eating, Roger.
+ROGER (nervous): ...Okay, maybe I'll go. Just to watch Chalky lose.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC action
+SCENE honker_burger
+CARD Saturday...
+PLACE doug center right nervous
+PLACE skeeter midleft right excited
+PLACE patti midright left excited
+SKEETER (excited): Honk! Doug, look! The line goes around the block!
+PATTI (excited): Everybody came! The whole school! The whole town!
+DOUG (surprised): Dear Journal. It's working. It's actually working.
+SFX fanfare
+NARRATOR: There was popcorn. There was music. There were seventeen people in the burger-eating contest. Chalky came in second.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC jazz
+SCENE honker_burger
+PLACE chalky center left sad
+PLACE roger midright left excited
+CHALKY (sad): Second place. I've never been second in anything.
+ROGER (excited): Who won? Who beat Chalky Studebaker?
+NARRATOR: The winner was Porkchop. He ate eleven burgers. Then he asked for a milkshake.
+CHALKY (smug): Well. I can live with losing to a dog that good.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC tense
+SCENE honker_burger
+PLACE doug center right nervous
+PLACE beebe midleft right nervous
+BEEBE (nervous): Doug. My father is here. He wants to see the festival.
+DOUG (scared): Is he going to shut us down?
+BEEBE (shy): He ate a Honker Burger. Then another one. Then he cried a little.
+DOUG (surprised): He cried?
+BEEBE (happy): He said it tasted like when he was eleven. He's putting the salad bar somewhere else.
+
+# ------------------------------------------------------------ THE HONKER BURGER
+MUSIC happy 3
+SCENE honker_burger
+PLACE doug center right excited
+PLACE skeeter midleft right excited
+PLACE patti midright left happy
+SKEETER (excited): The Honker is saved! Honk! Honk honk!
+PATTI (happy): You did it, Doug. You really are the idea guy.
+DOUG (shy): Well, technically, it was Porkchop's idea.
+PATTI (happy): Then you're the idea guy's best friend. That's just as good.
+
+# ---------------------------------------------------------------- DOUG'S ROOM
+MUSIC romantic
+SCENE doug_room
+PLACE doug center right happy
+PLACE porkchop midleft right smug
+DOUG (happy): Dear Journal. The Honker Burger is staying open. They're naming a burger after us. The Funnie Burger.
+DOUG (shy): It's got extra pickles. Patti's favorite.
+PORKCHOP (smug): Arf.
+DOUG (happy): And Porkchop gets free milkshakes for life.
+END
