@@ -380,6 +380,110 @@
 			]
 		}
 	},
+	"mermaid_man": {
+		"name": "Mermaid Man",
+		"style": "mermaid_man",
+		"color": "#f2852a",
+		"width": 62,
+		"bio": "A retired superhero who still answers the call of duty, as long as it's before his nap.",
+		"catchphrase": "EVIL!",
+		"voice": {
+			"pitch": 0.8,
+			"rate": 0.95,
+			"babble": 280,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "SpongeBob SquarePants",
+		"home": "mermalair"
+	},
+	"barnacle_boy": {
+		"name": "Barnacle Boy",
+		"style": "barnacle_boy",
+		"color": "#f4f4f2",
+		"width": 58,
+		"bio": "Mermaid Man's sidekick for sixty years. Still called a boy. Still not happy about it.",
+		"catchphrase": "I'm not a boy! I'm a man!",
+		"voice": {
+			"pitch": 1.05,
+			"rate": 1.0,
+			"babble": 330,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "SpongeBob SquarePants",
+		"home": "mermalair"
+	},
+	"squilliam": {
+		"name": "Squilliam Fancyson",
+		"style": "squilliam",
+		"color": "#c8b8f0",
+		"width": 66,
+		"bio": "Squidward's rich, smug rival from band camp. Has a yacht, a mansion and a unibrow.",
+		"catchphrase": "Well, well, well. If it isn't Squidward.",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.95,
+			"babble": 270,
+			"prefer": [
+				"daniel",
+				"george",
+				"male"
+			]
+		},
+		"show": "SpongeBob SquarePants",
+		"home": "barg_n_mart"
+	},
+	"bubble_bass": {
+		"name": "Bubble Bass",
+		"style": "bubble_bass",
+		"color": "#6fbf6a",
+		"width": 86,
+		"bio": "The pickiest customer in Bikini Bottom. Has opinions about every pickle.",
+		"catchphrase": "You forgot the pickles!",
+		"voice": {
+			"pitch": 0.6,
+			"rate": 0.9,
+			"babble": 240,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "SpongeBob SquarePants",
+		"home": "krusty_dining"
+	},
+	"king_neptune": {
+		"name": "King Neptune",
+		"style": "king_neptune",
+		"color": "#f2c14e",
+		"width": 80,
+		"bio": "Ruler of the seven seas. Very proud of his crown, his trident and his hair.",
+		"catchphrase": "Kneel before your king!",
+		"voice": {
+			"pitch": 0.45,
+			"rate": 0.85,
+			"babble": 210,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "SpongeBob SquarePants",
+		"home": "poseidome"
+	},
 	"grandma": {
 		"name": "Grandma Pookie",
 		"style": "grandma",

@@ -1,0 +1,153 @@
+@title Shady Shoals Talent Night
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 2
+@description The residents of Shady Shoals are bored, so SpongeBob organizes a talent night. Mermaid Man wants to show his superpowers. Barnacle Boy wants to go to bed. Patrick wants to be the opening act.
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC sad
+SCENE shady_shoals cut
+TITLE
+PLACE mermaid_man center left sad
+PLACE barnacle_boy midleft right sad
+ENTER spongebob right midright happy
+SPONGEBOB (happy): Good morning, Mermaid Man! Good morning, Barnacle Boy! Why the long faces?
+BARNACLE_BOY (sad): It's Tuesday. Nothing happens on Tuesday. Or Wednesday. Or any day.
+MERMAID_MAN (sad): We used to fight evil every night. Now we just fight over the remote.
+SPONGEBOB (excited): Then let's do something fun! A talent night! Right here at Shady Shoals!
+MERMAID_MAN (excited): A talent night? I have many talents! I can talk to fish!
+BARNACLE_BOY (smug): Everyone here is a fish.
+
+# ------------------------------------------------------------ PATRICK'S ROCK
+MUSIC happy
+SCENE patrick_rock
+PLACE patrick center left excited
+ENTER spongebob right midright excited
+SPONGEBOB (excited): Patrick! I'm putting on a talent show for Mermaid Man and Barnacle Boy! Do you have a talent?
+PATRICK (excited): Yes! I can be the opening act!
+SPONGEBOB (happy): Great! What do you do?
+PATRICK (smug): I do nothing. Very well. For a long time.
+SPONGEBOB (nervous): That's not really a talent, Patrick.
+PATRICK (angry): Have you ever tried it? It's very hard!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz
+SCENE krusty_krab
+PLACE squidward center left smug
+PLACE mr_krabs midright left neutral
+ENTER spongebob right right excited
+SPONGEBOB (excited): Squidward! Will you play your clarinet at the Shady Shoals talent night?
+SQUIDWARD (smug): For a bunch of old fish who can't hear? Absolutely not.
+SPONGEBOB (happy): They love music. And they're too polite to boo.
+SQUIDWARD (surprised): ...They won't boo?
+SPONGEBOB (excited): They clap at everything! They clapped at a weather report yesterday!
+SQUIDWARD (smug): Well. Finally, an audience worthy of me.
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC sneaky
+SCENE shady_shoals
+CARD That afternoon...
+PLACE mermaid_man center left excited
+PLACE barnacle_boy midleft right nervous
+MERMAID_MAN (excited): For my talent, I'll summon the sea creatures! Watch, Barnacle Boy! Sea creatures, attack!
+BARNACLE_BOY (nervous): Nothing's happening.
+MERMAID_MAN (excited): Sea creatures, ARISE!
+NARRATOR: A single small snail crawled out from under the porch. It looked confused.
+MERMAID_MAN (happy): It worked!
+BARNACLE_BOY (sad): That's Mrs. Gertrude's pet. It lives under there.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC jazz 2
+SCENE treedome
+PLACE sandy center left excited
+ENTER spongebob right midright excited
+SANDY (excited): A talent show? Count me in! I'll do my lasso tricks!
+SPONGEBOB (excited): Sandy, you're the best!
+SANDY (smug): And I'll build the stage lights. They'll be powered by a hamster wheel.
+SPONGEBOB (surprised): Who's going to run in the hamster wheel?
+SANDY (happy): Larry. He says it's good cardio.
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC tense
+SCENE shady_shoals
+CARD Talent night...
+PLACE spongebob center right nervous
+PLACE barnacle_boy midleft right sad
+SPONGEBOB (nervous): Barnacle Boy, aren't you going to do a talent?
+BARNACLE_BOY (sad): Nah. Everybody always wants Mermaid Man. Nobody remembers the sidekick.
+SPONGEBOB (sad): That's not true! I have a Barnacle Boy poster on my wall!
+BARNACLE_BOY (surprised): You do?
+SPONGEBOB (shy): It's next to the Mermaid Man poster. It's the same size. I measured.
+BARNACLE_BOY (shy): ...Huh.
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC happy 2
+SCENE shady_shoals
+PLACE patrick center left neutral
+PLACE spongebob midright left nervous
+SPONGEBOB (excited): Ladies and gentlefish! Our first act! Patrick Star!
+NARRATOR: Patrick stood on the stage. He did nothing. For three whole minutes. He did not move. He did not blink.
+PATRICK (neutral): ...
+NARRATOR: The audience thought it was modern art. They gave him a standing ovation. Slowly. Because of their backs.
+PATRICK (excited): I told you it was a talent!
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC romantic
+SCENE shady_shoals
+PLACE squidward center left happy
+HOLD squidward clarinet
+PLACE sandy midright left excited
+SFX clarinet
+NARRATOR: Squidward played his clarinet. It was terrible. The residents turned up their hearing aids and clapped anyway.
+SQUIDWARD (shy): They're... clapping. For me. Again.
+SANDY (excited): Yee-haw! Now watch this lasso!
+SFX whoosh
+NARRATOR: Sandy lassoed the moon. Well, a lamp shaped like the moon. The crowd went wild.
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC action
+SCENE shady_shoals
+PLACE mermaid_man center left excited
+PLACE spongebob midright left excited
+MERMAID_MAN (excited): And now! My greatest power! I shall summon... the ocean!
+SFX splash
+NARRATOR: Mermaid Man waved his arms. Sandy's water sprinklers went off at exactly the same moment. Everyone got soaked.
+SPONGEBOB (excited): He did it! He summoned the ocean!
+MERMAID_MAN (surprised): ...I did?
+SPONGEBOB (smug): Don't question it. Bow!
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC tense 2
+SCENE shady_shoals
+PLACE barnacle_boy center left nervous
+PLACE spongebob midright left happy
+SPONGEBOB (happy): And our last act! The one, the only! Barnacle Boy!
+BARNACLE_BOY (nervous): I... I don't have a talent.
+SPONGEBOB (happy): You have one. I've seen it. On the old show. Episode forty-two.
+BARNACLE_BOY (surprised): The knot? You remember the knot?
+SPONGEBOB (excited): The Barnacle Boy Triple Sailor's Knot! Nobody else can tie it!
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC happy
+SCENE shady_shoals
+PLACE barnacle_boy center left happy
+PLACE mermaid_man midleft right surprised
+PLACE spongebob midright left excited
+NARRATOR: Barnacle Boy tied the Triple Sailor's Knot. With one hand. Blindfolded. In eleven seconds.
+MERMAID_MAN (surprised): Barnacle Boy! I'd forgotten you could do that!
+BARNACLE_BOY (happy): I didn't forget. Nobody ever asked.
+SPONGEBOB (excited): The winner of Shady Shoals Talent Night! Barnacle Boy!
+BARNACLE_BOY (shy): ...I'm a man. But thanks.
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC romantic 2
+SCENE pineapple_house
+CARD The next day...
+PLACE spongebob center right happy
+PLACE patrick midright left happy
+PATRICK (happy): SpongeBob, they want to do it every week now. Talent Tuesday.
+SPONGEBOB (excited): Every week! I'll need new acts! New lights! New tickets!
+PATRICK (smug): I'm going to do nothing again. But this time, longer.
+SPONGEBOB (happy): You're an artist, Patrick.
+END

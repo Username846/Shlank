@@ -3,7 +3,7 @@ extends RefCounted
 ## The third wave of characters: Dragon Ball Z, Attack on Titan, Breaking Bad,
 ## Super Mario Brothers, Metroid and Kirby. People are HumanRig settings;
 ## everyone else has a small drawing function. CastExtra.draw() falls
-## through to draw() for any style it doesn't know.
+## through to draw() for any style it doesn't know, and draw() falls through to CastS2.
 
 const INK := Art.INK
 
@@ -41,7 +41,7 @@ static func draw(p: Puppet, style: String) -> bool:
 		"magolor": _magolor(p)
 		"dedede": _dedede(p)
 		"whispy": _whispy(p)
-		_: return false
+		_: return CastS2.draw(p, style)
 	return true
 
 

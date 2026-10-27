@@ -1,7 +1,7 @@
 extends Node
 ## Dev tool: renders screens to PNGs. Usage:
 ##   godot --path . res://tools/snapshot.tscn -- <out_dir> <mode> [arg]
-## modes: menu | cast | locations | episode <time_scale> | estimate <index> | estimate_files <paths...>
+## modes: menu | cast | cast_ids <ids> | locations | loc_ids <ids> | episode <time_scale> | estimate <index> | estimate_files <paths...>
 
 var out := "."
 var main: Node
@@ -82,6 +82,18 @@ func _ready() -> void:
 				p.talking = e == "neutral"
 				await _frames(30)
 				await _shot("emo_%s_%s" % [p.id, e])
+		"cast_ids":
+			# Only the named characters: -- <out> cast_ids id1 id2 ...
+			for id in args.slice(2):
+				main.show_cast("", main._cast_order.find(id))
+				await _frames(5)
+				await _shot("cast_%s" % id)
+		"loc_ids":
+			# Only the named locations: -- <out> loc_ids id1 id2 ...
+			for id in args.slice(2):
+				main.show_locations("", main._location_order.find(id))
+				await _frames(5)
+				await _shot("loc_%s" % id)
 		"locations":
 			for i in main._location_order.size():
 				main.show_locations("", i)

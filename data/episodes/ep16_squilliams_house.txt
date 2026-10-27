@@ -1,0 +1,161 @@
+@title The Best House on the Block
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 6
+@description Squilliam Fancyson is judging Bikini Bottom's Best House contest, and Squidward is determined to win. He has one day and a coupon for Barg'N-Mart. SpongeBob and Patrick offer to help decorate.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC jazz
+SCENE squidward_house cut
+TITLE
+PLACE squidward center right excited
+ENTER squilliam left midleft smug
+SQUILLIAM (smug): Well, well, well. If it isn't Squidward. Living in a giant head. How quaint.
+SQUIDWARD (angry): Squilliam. What are you doing here?
+SQUILLIAM (smug): I'm the judge of this year's Best House contest. Every house on the block. Tomorrow at noon.
+SQUIDWARD (smug): Then I'll win. My house is a work of art.
+SQUILLIAM (smug): Your house is a statue of your own face, Squidward.
+SQUIDWARD (angry): EXACTLY. ART.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC sneaky
+SCENE squidward_house
+PLACE squidward center right nervous
+ENTER spongebob left midleft excited
+ENTER patrick left left excited
+SPONGEBOB (excited): Squidward! We heard about the contest! We want to help you decorate!
+SQUIDWARD (angry): No. Absolutely not. Go away.
+PATRICK (happy): We'll make it look just like our houses!
+SQUIDWARD (scared): That's what I'm afraid of.
+SPONGEBOB (nervous): Your pineapple won last year. And mine came second.
+SQUIDWARD (sad): ...And mine came last. Fine. Help me. But follow my instructions exactly.
+
+# ------------------------------------------------------------ BARG'N-MART
+MUSIC happy
+SCENE barg_n_mart
+PLACE squidward center right excited
+PLACE spongebob midleft right excited
+PLACE patrick left right happy
+SQUIDWARD (excited): I have a forty percent off coupon. We need elegant things. Classy things. Sophisticated things.
+SPONGEBOB (excited): Like a giant rubber duck?
+SQUIDWARD (angry): No.
+PATRICK (excited): Like a lawn flamingo? A pink one?
+SQUIDWARD (angry): NO. Elegant. Think marble. Think fountains. Think... me.
+SPONGEBOB (happy): Got it! Think Squidward!
+
+# ------------------------------------------------------------ BARG'N-MART
+MUSIC jazz 2
+SCENE barg_n_mart
+PLACE squidward center right surprised
+PLACE squilliam midleft right smug
+SQUILLIAM (smug): Squidward. Shopping at Barg'N-Mart. With a coupon. How charming.
+SQUIDWARD (angry): What are YOU doing here?
+SQUILLIAM (smug): Buying a gift for my butler. He likes cheap things. They remind him of you.
+SQUIDWARD (angry): Hmph! Wait until you see my house tomorrow. You'll faint.
+SQUILLIAM (smug): I'll bring smelling salts.
+
+# ------------------------------------------------------------ BARG'N-MART
+MUSIC sneaky 2
+SCENE barg_n_mart
+PLACE spongebob center right excited
+PLACE patrick midleft right excited
+NARRATOR: SpongeBob and Patrick had a different idea. They wanted to make Squidward's house look like Squidward. The real Squidward.
+SPONGEBOB (excited): He loves art! And music! And being grumpy!
+PATRICK (excited): So we need paint, a clarinet and a lot of frowns!
+SPONGEBOB (happy): Perfect! One cart of art supplies, please!
+NARRATOR: They bought two hundred cans of paint. Mostly teal.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz
+SCENE krusty_krab
+PLACE squidward center left nervous
+PLACE mr_krabs midright left smug
+MR_KRABS (smug): Mr. Squidward, you look like you've been carrying fountains all day.
+SQUIDWARD (nervous): I have. Squilliam is judging the Best House contest. I have to win.
+MR_KRABS (happy): Ya know what makes a house the best, lad? Low property taxes.
+SQUIDWARD (angry): That's not a decoration, Mr. Krabs.
+MR_KRABS (smug): It's the most beautiful decoration there is.
+SQUIDWARD (sad): I'm surrounded by idiots.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC tense
+SCENE squidward_house
+CARD That night...
+PLACE squidward center right sad
+SQUIDWARD (sad): The marble fountain broke. The fancy lamps don't turn on. And the classy curtains are see-through.
+SQUIDWARD (sad): It's hopeless. I'm going to lose to Squilliam again. In front of everybody.
+SQUIDWARD (nervous): I'm going to bed. Maybe I'll dream I'm rich.
+EXIT squidward right
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC sneaky
+SCENE squidward_house
+PLACE spongebob center right excited
+PLACE patrick midleft right excited
+SPONGEBOB (excited): He's asleep! Operation Squidward Is Art begins!
+PATRICK (excited): Paintbrushes, ready!
+SFX splat
+SFX splat
+NARRATOR: All night long, SpongeBob and Patrick painted. They painted Squidward's house. Every wall. Every window. Even the nose.
+PATRICK (happy): It's beautiful, SpongeBob.
+SPONGEBOB (shy): It's the most beautiful thing I've ever painted.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC tense 2
+SCENE squidward_house
+CARD The next morning...
+PLACE squidward center right scared
+SQUIDWARD (scared): What... what is this?!
+NARRATOR: Squidward's house was covered in paintings. Paintings of Squidward. Squidward playing the clarinet. Squidward reading a book. Squidward frowning at SpongeBob.
+SQUIDWARD (angry): SPONGEBOB! You covered my house in... me!
+ENTER spongebob left midleft excited
+SPONGEBOB (excited): It's a Squidward museum! Because you're art, Squidward!
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC tense
+SCENE squidward_house
+PLACE squidward center right nervous
+PLACE squilliam midleft right surprised
+CARD Noon...
+SQUILLIAM (surprised): Squidward. What... is this?
+SQUIDWARD (nervous): It's... I can explain. It was SpongeBob, he...
+SQUILLIAM (surprised): It's magnificent.
+SQUIDWARD (surprised): It is?
+SQUILLIAM (shy): It's the first house I've ever seen that has a personality. Mine just has a lot of money.
+
+# ------------------------------------------------------------ PATRICK'S ROCK
+MUSIC jazz
+SCENE patrick_rock
+PLACE patrick center left happy
+PLACE gary midright left neutral
+PATRICK (happy): Gary, did you know your house is a shell? And my house is a rock? And Squidward's house is a museum now?
+GARY (smug): Meow.
+PATRICK (excited): You're right. We should paint my rock too.
+GARY (scared): Meow meow!
+PATRICK (sad): Fine. Just a little stripe.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC happy
+SCENE squidward_house
+PLACE squilliam center left smug
+PLACE squidward midright left excited
+PLACE spongebob right left excited
+SQUILLIAM (smug): The winner of the Best House contest is... Squidward Tentacles.
+SQUIDWARD (excited): I WON?! I beat you, Squilliam? At something?
+SQUILLIAM (nervous): Don't get used to it.
+SPONGEBOB (excited): Squidward, we did it!
+SQUIDWARD (smug): I did it. You... assisted.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC romantic
+SCENE squidward_house
+CARD That evening...
+PLACE squidward center right shy
+PLACE spongebob midleft right happy
+SQUIDWARD (shy): SpongeBob. The paintings. Why did you paint me so... happy? In some of them?
+SPONGEBOB (happy): Because that's how you look when you play the clarinet. When you think nobody's watching.
+SQUIDWARD (shy): ...Hm.
+SQUIDWARD (smug): You can keep painting. But only the left side. The right side is for my self-portraits.
+SPONGEBOB (excited): Deal!
+END

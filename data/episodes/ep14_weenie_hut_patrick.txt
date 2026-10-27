@@ -1,0 +1,159 @@
+@title Employee of the Hut
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 4
+@description Patrick gets his very first job, at Weenie Hut Jr's. He loves it. He's great at it. Then Plankton tries to buy Weenie Hut Jr's and turn it into a second Chum Bucket.
+
+# ------------------------------------------------------------ PATRICK'S ROCK
+MUSIC happy
+SCENE patrick_rock cut
+TITLE
+PLACE patrick center left excited
+ENTER spongebob right midright surprised
+PATRICK (excited): SpongeBob! Guess what! I got a job!
+SPONGEBOB (surprised): A job? You?
+PATRICK (smug): At Weenie Hut Jr's. I'm the umbrella guy. I put the little umbrellas in the milkshakes.
+SPONGEBOB (excited): Patrick, that's wonderful! You'll be a great umbrella guy!
+PATRICK (nervous): The interview was very hard. They asked me my name.
+SPONGEBOB (happy): And you knew it!
+PATRICK (smug): On the second try.
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC jazz
+SCENE weenie_hut
+PLACE patrick center left excited
+NARRATOR: Patrick's first day. He arrived three hours early. He had brought his own umbrella. For himself.
+PATRICK (excited): Milkshake, umbrella. Milkshake, umbrella. Milkshake, umbrella.
+NARRATOR: He put umbrellas in milkshakes. He put umbrellas in sandwiches. He put an umbrella in the manager's hat.
+PATRICK (happy): Everything is better with a little umbrella.
+NARRATOR: The customers loved it. Business went up forty percent.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sneaky
+SCENE chum_bucket
+PLACE plankton center left angry
+PLACE karen midright left neutral
+PLANKTON (angry): Weenie Hut Jr's is busier than the Chum Bucket?! A place with little umbrellas?!
+KAREN (neutral): Their sales went up forty percent this week. Because of the umbrella guy.
+PLANKTON (smug): Then I'll buy it! I'll buy Weenie Hut Jr's and turn it into Chum Hut Jr's!
+KAREN (smug): With what money?
+PLANKTON (nervous): ...With the money I'll make from Chum Hut Jr's. It's a perfect plan.
+
+# ------------------------------------------------------------ SALTY SPITOON
+MUSIC sneaky 2
+SCENE salty_spitoon
+PLACE larry center left surprised
+PLACE mr_krabs midright left nervous
+LARRY (surprised): Mr. Krabs, half the guys from the Salty Spitoon went next door to Weenie Hut Jr's today.
+MR_KRABS (nervous): The tough guys? To the weenie place?
+LARRY (smug): They say the umbrella guy makes them feel fancy.
+MR_KRABS (scared): If he can steal tough guys, he can steal Krusty Krab customers!
+LARRY (happy): Relax. He's Patrick. He'll forget he works there by Friday.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz 2
+SCENE krusty_krab
+PLACE spongebob center right happy
+PLACE squidward midleft right smug
+SPONGEBOB (happy): Squidward, isn't it great? Patrick has a job!
+SQUIDWARD (smug): Patrick. Holding a job. Next you'll tell me fish can fly.
+SPONGEBOB (excited): He's the umbrella guy! Everybody loves him!
+SQUIDWARD (nervous): ...Do they pay him more than me?
+SPONGEBOB (happy): Two dollars more an hour.
+SQUIDWARD (angry): I hate this town.
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC jazz 2
+SCENE weenie_hut
+PLACE patrick center left happy
+ENTER bubble_bass right midright angry
+BUBBLE_BASS (angry): Excuse me. Umbrella guy. There is an umbrella in my milkshake.
+PATRICK (happy): You're welcome!
+BUBBLE_BASS (angry): I didn't ask for an umbrella. I asked for a milkshake with extra pickles.
+PATRICK (surprised): Pickles? In a milkshake?
+BUBBLE_BASS (smug): I'm a man of refined taste.
+PATRICK (excited): One pickle milkshake! With an umbrella! Made of pickle!
+BUBBLE_BASS (surprised): ...That's actually brilliant.
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC tense
+SCENE weenie_hut
+PLACE patrick center left happy
+ENTER plankton right midright smug 120
+PLANKTON (smug): Good afternoon, umbrella boy. I'd like to speak to the owner. I'm buying this restaurant.
+PATRICK (happy): Welcome to Weenie Hut Jr's! Would you like an umbrella?
+PLANKTON (angry): I don't want an umbrella! I want the deed!
+PATRICK (surprised): A deed? Is that a kind of milkshake?
+PLANKTON (angry): It's the paper that says who owns the building!
+PATRICK (excited): Oh! One paper milkshake, coming up!
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC sneaky 2
+SCENE weenie_hut
+PLACE plankton center left angry
+PLACE patrick midright left happy
+NARRATOR: Patrick made a milkshake out of paper. With an umbrella. Plankton did not drink it.
+PLANKTON (angry): Fine! Where is your manager?!
+PATRICK (smug): She went home. She left me in charge. I'm the boss now. Of the umbrellas.
+PLANKTON (excited): The boss? You can sign papers? Here, sign this! Right here! It's a, uh, umbrella order form!
+PATRICK (excited): I love umbrella order forms!
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC tense 2
+SCENE pineapple_house
+PLACE spongebob center right surprised
+PLACE gary midleft right nervous
+GARY (nervous): Meow. Meow meow.
+SPONGEBOB (surprised): Plankton is at Weenie Hut Jr's? With a pen? And a very long paper?
+GARY (scared): Meow!
+SPONGEBOB (scared): Patrick! He'll sign anything with the word umbrella on it!
+EXIT spongebob left 600
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC action
+SCENE weenie_hut
+PLACE patrick center left nervous
+PLACE plankton midright left excited
+ENTER spongebob right right scared 600
+SPONGEBOB (scared): Patrick! Don't sign it!
+PATRICK (surprised): But it's an umbrella order form.
+SPONGEBOB (angry): Look at the small print! "I give Weenie Hut Jr's to Plankton forever."
+PATRICK (surprised): Where does it say umbrella?
+SPONGEBOB (smug): Nowhere.
+PATRICK (angry): You tricked me! Nobody tricks the umbrella guy!
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC action 2
+SCENE weenie_hut
+PLACE patrick center left angry
+PLACE plankton midright left scared
+PATRICK (angry): Plankton! For lying about umbrellas, you get... THE UMBRELLA TREATMENT!
+PLANKTON (scared): The what?
+SFX pop
+SFX pop
+SFX pop
+NARRATOR: Patrick opened every little umbrella in the restaurant. Four thousand of them. All pointing at Plankton. Plankton was gently pushed out the door by a wall of tiny umbrellas.
+PLANKTON (scared): This is the most colorful defeat of my life!
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sad
+SCENE chum_bucket
+PLACE plankton center left sad
+PLACE karen midright left smug
+PLANKTON (sad): Karen. I was defeated by umbrellas.
+KAREN (smug): Little ones?
+PLANKTON (sad): Four thousand little ones.
+KAREN (neutral): Statistically, that's a lot of umbrellas.
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC happy
+SCENE weenie_hut
+CARD One week later...
+PLACE patrick center left happy
+PLACE spongebob midright left excited
+SPONGEBOB (excited): Patrick! You're Employee of the Month!
+PATRICK (happy): They gave me a plaque. And a hat. With an umbrella on it.
+SPONGEBOB (happy): I'm so proud of you, buddy.
+PATRICK (smug): I'm going to work here forever. Or until Thursday. I have a nap planned on Thursday.
+END

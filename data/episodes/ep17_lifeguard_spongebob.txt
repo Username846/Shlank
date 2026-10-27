@@ -1,0 +1,164 @@
+@title Lifeguard on Duty
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 7
+@description Larry the Lobster finally takes a vacation, and SpongeBob fills in as the lifeguard at Mussel Beach. He takes the job very seriously. Too seriously. Nobody is allowed to have any fun.
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC happy
+SCENE mussel_beach cut
+TITLE
+PLACE larry center left happy
+PLACE spongebob midright left excited
+LARRY (happy): SpongeBob, I'm going on vacation. My first one in nine years. I need someone to watch Mussel Beach.
+SPONGEBOB (excited): Me? A lifeguard? A real lifeguard?
+LARRY (smug): You've got the whistle. You've got the hat. You've got the heart.
+SPONGEBOB (excited): I won't let you down, Larry! Nobody will get hurt on my watch! Nobody!
+LARRY (nervous): Great. Just remember to let people have fun too, okay?
+SPONGEBOB (happy): Fun! Of course! Safely!
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC jazz
+SCENE mussel_beach
+CARD Monday...
+PLACE spongebob center right excited
+PLACE patrick midleft right happy
+SFX ding
+SPONGEBOB (excited): Patrick! Stop right there!
+PATRICK (surprised): I was just walking.
+SPONGEBOB (excited): You're walking too fast! Walking is how accidents start! Walk slower!
+PATRICK (nervous): Like this?
+SPONGEBOB (happy): Slower.
+NARRATOR: It took Patrick twenty minutes to walk to his towel.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz 2
+SCENE krusty_krab
+PLACE mr_krabs center left nervous
+PLACE squidward midright left smug
+MR_KRABS (nervous): Mr. Squidward, where's SpongeBob? The grill is cold!
+SQUIDWARD (smug): He's covering for Larry at Mussel Beach this week. He's a lifeguard.
+MR_KRABS (scared): A week without me fry cook? Who's making the patties?
+SQUIDWARD (smug): You are, Mr. Krabs.
+MR_KRABS (sad): I haven't flipped a patty since nineteen seventy-four.
+SQUIDWARD (happy): Then this will be a very special week.
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC happy 2
+SCENE goo_lagoon
+PLACE sandy center left excited
+PLACE spongebob midright left nervous
+SANDY (excited): Hi-yah! Time for some surfing, SpongeBob!
+SPONGEBOB (nervous): Sandy, surfing is very dangerous. There are waves. And water. And surfboards.
+SANDY (smug): That's kinda the whole point of surfing.
+SPONGEBOB (excited): How about surfing on the sand instead? Much safer!
+SANDY (sad): That's just standing on a board, SpongeBob.
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC sneaky
+SCENE mussel_beach
+PLACE squidward center left happy
+PLACE spongebob midright left excited
+SQUIDWARD (happy): Ahh. Sun. Sand. A beach chair. And a book.
+SPONGEBOB (excited): Squidward! Is that book safe?
+SQUIDWARD (angry): It's a book about clarinets!
+SPONGEBOB (nervous): What if you get a paper cut? Here. I'll read it to you. From a safe distance.
+SQUIDWARD (angry): SpongeBob, this is the worst beach day of my life.
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC sad
+SCENE mussel_beach
+CARD Wednesday...
+PLACE spongebob center right sad
+NARRATOR: By Wednesday, Mussel Beach was empty. Nobody wanted to come. No running. No surfing. No sandcastles taller than six inches.
+SPONGEBOB (sad): Nobody got hurt. Not one fish. So why is everybody gone?
+SPONGEBOB (sad): Maybe they're all at home. Being safe.
+NARRATOR: They were not at home. They were all at Goo Lagoon, where there was no lifeguard at all.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC sneaky
+SCENE treedome
+PLACE sandy center left nervous
+PLACE patrick midright left sad
+PATRICK (sad): SpongeBob blew his whistle at me nineteen times today. Once for breathing too loud.
+SANDY (nervous): He confiscated my surfboard. He says it's a "pointy hazard."
+PATRICK (excited): Let's go to Goo Lagoon instead! There's no lifeguard there!
+SANDY (smug): Now hold your horses, Patrick. No lifeguard means nobody to help if things go wrong.
+PATRICK (happy): Nothing ever goes wrong at Goo Lagoon.
+SANDY (smug): Famous last words. But fine. Let's go.
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC action
+SCENE goo_lagoon
+PLACE sandy center left excited
+PLACE patrick midleft right excited
+PLACE mrs_puff midright left happy
+PATRICK (excited): Cannonball!
+SFX splash
+SANDY (excited): Look at those waves! Biggest ones all year!
+MRS_PUFF (happy): This is so much more fun than Mussel Beach this week.
+PATRICK (nervous): Is anybody watching us, though? In case something goes wrong?
+SANDY (smug): Nah. We're fine. What could go wrong?
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC sad
+SCENE mussel_beach
+PLACE spongebob center right sad
+ENTER larry left midleft surprised
+LARRY (surprised): SpongeBob? I came back early. My cousin's house had too many crabs. Where is everybody?
+SPONGEBOB (sad): I made the beach too safe, Larry. Now nobody wants to come.
+LARRY (smug): Little buddy. A lifeguard isn't there to stop fun. A lifeguard is there so people can have fun. Without worrying.
+SPONGEBOB (surprised): Without worrying?
+LARRY (happy): You watch. They play. If something goes wrong, you jump in.
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC tense
+SCENE goo_lagoon
+PLACE patrick center left scared
+PLACE sandy midright left scared
+PLACE mrs_puff farright left scared
+SFX splash
+SHAKE 0.6
+PATRICK (scared): Help! My inner tube floated away! And I'm still in it! And it's going out to sea!
+SANDY (scared): Patrick! Hold on!
+NARRATOR: The biggest wave of the year had pulled Patrick's inner tube far out into the lagoon. Sandy couldn't reach him. Nobody could.
+MRS_PUFF (scared): Somebody get a lifeguard!
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC action 2
+SCENE goo_lagoon
+PLACE spongebob center right excited
+PLACE larry midleft right excited
+SFX ding
+SPONGEBOB (excited): Lifeguard on duty!
+LARRY (excited): Go get him, SpongeBob!
+SFX splash
+NARRATOR: SpongeBob dove into the goo. He swam faster than he had ever swum. He was a sponge, so he soaked up half the lagoon on the way. That helped.
+SFX splash
+
+# ------------------------------------------------------------ GOO LAGOON
+MUSIC happy
+SCENE goo_lagoon
+PLACE spongebob center right happy
+PLACE patrick midleft right happy
+PLACE sandy midright left excited
+SANDY (excited): He got him! SpongeBob got Patrick!
+PATRICK (happy): SpongeBob! You saved me! You're my hero!
+SPONGEBOB (happy): That's what lifeguards do, buddy. We watch. You play.
+PATRICK (excited): Can I play some more?
+SPONGEBOB (smug): Only if I'm watching.
+PATRICK (excited): Deal!
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC happy 2
+SCENE mussel_beach
+CARD Saturday...
+PLACE spongebob center right happy
+PLACE larry midleft right happy
+NARRATOR: On Saturday, Mussel Beach was packed. People surfed. People built sandcastles as tall as they wanted. Squidward read his clarinet book in peace.
+LARRY (happy): You're a natural, SpongeBob.
+SPONGEBOB (happy): I learned from the best, Larry.
+LARRY (smug): Want to be my backup lifeguard? Saturdays only?
+SPONGEBOB (excited): I'm ready! I'm ready! I'm ready!
+END

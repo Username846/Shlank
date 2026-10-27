@@ -1,0 +1,143 @@
+@title Tough Enough
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 3
+@description SpongeBob wants to get into the Salty Spitoon, the toughest place in Bikini Bottom. The bouncer says he's not tough enough. Larry and Sandy put him through the toughest training of his life on Mussel Beach.
+
+# ------------------------------------------------------------ THE SALTY SPITOON
+MUSIC jazz
+SCENE salty_spitoon cut
+TITLE
+PLACE spongebob center right excited
+PLACE larry midleft right smug
+LARRY (smug): Hey, SpongeBob. Here to see how the tough guys live?
+SPONGEBOB (excited): I'm going inside, Larry! I'm tough! I'm extremely tough!
+LARRY (smug): The bouncer asks you one question. If you're tough enough, you get in.
+SPONGEBOB (nervous): What's the question?
+LARRY (smug): "How tough are ya?"
+SPONGEBOB (excited): I once ate a whole Krabby Patty without ketchup!
+NARRATOR: The bouncer pointed to the little shop next door. Weenie Hut Jr's.
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC sad
+SCENE weenie_hut
+PLACE spongebob center right sad
+PLACE patrick midleft right happy
+PATRICK (happy): Hi, SpongeBob! Want a milkshake? They come with a little umbrella.
+SPONGEBOB (sad): Patrick, I'm not a weenie. I'm a tough guy. On the inside.
+PATRICK (smug): Your inside is very far inside.
+SPONGEBOB (angry): I'm going to train! And come back! And get into the Salty Spitoon!
+PATRICK (excited): Can I hold your milkshake while you train?
+SPONGEBOB (sad): ...Yes.
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC happy
+SCENE mussel_beach
+PLACE larry center left excited
+ENTER spongebob right midright excited
+LARRY (excited): Welcome to Mussel Beach, little buddy! The toughest beach in Bikini Bottom!
+SPONGEBOB (excited): Make me tough, Larry! I'm ready! I'm ready! I'm ready!
+LARRY (smug): First exercise. Lift this barbell.
+SFX thud
+NARRATOR: SpongeBob lifted the barbell. Well, he lifted one end. Then the other end. Then he sat down.
+SPONGEBOB (sad): Is it supposed to be this heavy?
+LARRY (smug): That's the bar. We haven't put the weights on yet.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC jazz 2
+SCENE treedome
+PLACE sandy center left smug
+ENTER spongebob right midright sad
+SANDY (smug): Muscles aren't everything, SpongeBob. Being tough is up here. In your noggin.
+SPONGEBOB (surprised): My noggin?
+SANDY (happy): Tough means you don't give up. Even when it's hard. Especially when it's hard.
+SPONGEBOB (excited): So I need karate!
+SANDY (smug): Well, karate helps too. Hi-yah!
+SFX whoosh
+
+# ------------------------------------------------------------ MUSSEL BEACH
+MUSIC action
+SCENE mussel_beach
+CARD Training montage...
+PLACE spongebob center right excited
+PLACE sandy midleft right excited
+PLACE larry farleft right happy
+SPONGEBOB (excited): One push-up! Two push-ups!
+SANDY (excited): Faster, SpongeBob!
+SFX boing
+NARRATOR: SpongeBob did push-ups. He ran laps in the sand. He carried a coconut up the lifeguard tower. Forty times.
+LARRY (surprised): Whoa. The little guy doesn't quit.
+SPONGEBOB (excited): Forty-one!
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC jazz
+SCENE weenie_hut
+PLACE patrick center left happy
+PLACE squidward midright left smug
+SQUIDWARD (smug): SpongeBob is training to get into the Salty Spitoon? Ha. He'll be in here forever.
+PATRICK (happy): I like it here. They give you a sticker for finishing your sandwich.
+SQUIDWARD (smug): And what are you doing here, Patrick?
+PATRICK (smug): Same as you. Getting a milkshake with an umbrella.
+SQUIDWARD (nervous): I'm... just here for the free wifi.
+
+# ------------------------------------------------------------ THE SALTY SPITOON
+MUSIC tense
+SCENE salty_spitoon
+CARD One week later...
+PLACE spongebob center right smug
+ENTER larry left midleft excited
+SPONGEBOB (smug): I'm back. And I'm tough now.
+NARRATOR: The bouncer looked at him. "How tough are ya?"
+SPONGEBOB (excited): I did forty-one coconut climbs! I lifted the bar with weights on it! A little weight! I learned karate! I didn't give up!
+NARRATOR: The bouncer thought about it. Then he pointed to Weenie Hut Jr's again.
+SPONGEBOB (sad): ...Oh.
+LARRY (angry): Hey! He earned it! I watched him!
+
+# ------------------------------------------------------------ THE SALTY SPITOON
+MUSIC tense 2
+SCENE salty_spitoon
+PLACE spongebob center right sad
+PLACE larry midleft right nervous
+SPONGEBOB (sad): It's okay, Larry. Maybe I'm just not a tough guy.
+LARRY (nervous): Hold on. Listen. Can you hear that?
+SFX splash
+NARRATOR: From inside the Salty Spitoon came a terrible sound. Someone was crying. A big, tough sailor. He had a splinter in his finger.
+LARRY (surprised): The toughest guys in town, and nobody knows how to get out a splinter.
+SPONGEBOB (excited): I do! I'm a fry cook! I deal with splinters every day!
+
+# ------------------------------------------------------------ THE SALTY SPITOON
+MUSIC action 2
+SCENE salty_spitoon
+PLACE spongebob center right excited
+PLACE larry midleft right surprised
+NARRATOR: SpongeBob marched past the bouncer. Nobody stopped him. He found the crying sailor and pulled out the splinter in one quick move.
+SFX pop
+SPONGEBOB (happy): There you go! Just put a little ice on it. And don't pick at it.
+NARRATOR: The whole Salty Spitoon went silent. Then they cheered. The bouncer opened the door wide.
+LARRY (excited): You're in, little buddy!
+SPONGEBOB (excited): I'm in! I'm in the Salty Spitoon!
+
+# ------------------------------------------------------------ THE SALTY SPITOON
+MUSIC jazz 2
+SCENE salty_spitoon
+PLACE spongebob center right nervous
+PLACE larry midleft right happy
+SPONGEBOB (nervous): So. What do tough guys do in here?
+LARRY (happy): Mostly arm wrestling. And telling stories about the sea. And knitting.
+SPONGEBOB (surprised): Knitting?
+LARRY (smug): You think a sweater makes itself? Tough guys get cold too.
+SPONGEBOB (excited): I love knitting!
+
+# ------------------------------------------------------------ WEENIE HUT JR'S
+MUSIC romantic
+SCENE weenie_hut
+CARD The next day...
+PLACE spongebob center right happy
+PLACE patrick midleft right happy
+PATRICK (happy): You came back to Weenie Hut Jr's? But you're a tough guy now.
+SPONGEBOB (happy): I am. But the milkshakes here have little umbrellas, Patrick.
+PATRICK (smug): Tough guys like umbrellas too.
+SPONGEBOB (excited): And I knitted you a sweater!
+PATRICK (excited): It has five arms!
+END

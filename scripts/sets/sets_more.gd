@@ -108,7 +108,7 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"vegetable_valley": _vegetable_valley(b)
 		"grape_garden": _grape_garden(b)
 		"yogurt_yard": _yogurt_yard(b)
-		_: return false
+		_: return SetsS2.draw_set(b, id)
 	return true
 
 
@@ -1413,6 +1413,8 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 		"green_greens", "whispy_forest", "vegetable_valley", "kirby_house", "dedede_castle", "yogurt_yard":
 			for i in 2:
 				b._cloud(Vector2(fmod(t * (8 + i * 5) + i * 600, W + 300) - 150, 70 + i * 60), 0.9)
+		_:
+			SetsS2.draw_fx(b, id)
 
 
 const CLOAK_GREEN := Color("3f7a3a")

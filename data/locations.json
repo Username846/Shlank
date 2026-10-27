@@ -144,6 +144,56 @@
 		"show": "SpongeBob SquarePants",
 		"description": "Inside the pineapple: a tiki chair, a porthole TV and Gary's food bowl."
 	},
+	"mermalair": {
+		"name": "The Mermalair",
+		"description": "Mermaid Man and Barnacle Boy's secret hideout. Big computer, bigger buttons.",
+		"show": "SpongeBob SquarePants"
+	},
+	"shady_shoals": {
+		"name": "Shady Shoals Rest Home",
+		"description": "Where retired heroes play shuffleboard and complain about the pudding.",
+		"show": "SpongeBob SquarePants"
+	},
+	"salty_spitoon": {
+		"name": "The Salty Spitoon",
+		"description": "The toughest place in Bikini Bottom. You have to be tough to get in.",
+		"show": "SpongeBob SquarePants"
+	},
+	"weenie_hut": {
+		"name": "Weenie Hut Jr's",
+		"description": "A cozy little snack shop for fish who are not quite tough enough for the Salty Spitoon.",
+		"show": "SpongeBob SquarePants"
+	},
+	"shell_city": {
+		"name": "Shell City",
+		"description": "A whole city of giant shells, where lost things get sold to the highest bidder.",
+		"show": "SpongeBob SquarePants"
+	},
+	"barg_n_mart": {
+		"name": "Barg'N-Mart",
+		"description": "Aisles and aisles of bargains, from shoe polish to bubble soap.",
+		"show": "SpongeBob SquarePants"
+	},
+	"mussel_beach": {
+		"name": "Mussel Beach",
+		"description": "A sandy beach with a lifeguard tower, a weight bench and a lot of flexing.",
+		"show": "SpongeBob SquarePants"
+	},
+	"poseidome": {
+		"name": "The Poseidome",
+		"description": "King Neptune's grand stadium, with marble columns and a royal box.",
+		"show": "SpongeBob SquarePants"
+	},
+	"bb_library": {
+		"name": "Bikini Bottom Library",
+		"description": "Quiet shelves full of books. Squidward's favorite place in town.",
+		"show": "SpongeBob SquarePants"
+	},
+	"bb_hospital": {
+		"name": "Bikini Bottom Hospital",
+		"description": "Clean beds, a lot of bandages and a nurse who has seen everything.",
+		"show": "SpongeBob SquarePants"
+	},
 	"hillwood_street": {
 		"name": "Hillwood Street",
 		"show": "Hey Arnold!",

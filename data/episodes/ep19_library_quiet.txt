@@ -1,0 +1,158 @@
+@title Quiet in the Library
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 9
+@description Squidward spends his day off at the Bikini Bottom Library, the quietest place in town. Then SpongeBob starts a book club there. Then Patrick joins. Then the library gets very, very loud.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC romantic
+SCENE squidward_house cut
+TITLE
+PLACE squidward center right happy
+SQUIDWARD (happy): My day off. And I know exactly where I'm going. The Bikini Bottom Library.
+SQUIDWARD (smug): No customers. No spatulas. And absolutely, positively, no SpongeBob. He's never read a book in his life.
+NARRATOR: SpongeBob had, in fact, read four hundred books. Mostly about jellyfish.
+SQUIDWARD (happy): Silence. Beautiful, golden silence.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC jazz
+SCENE bb_library
+PLACE squidward center right happy
+NARRATOR: The library was perfect. Soft lights. Soft chairs. A sign that said "Quiet Please." Squidward found the most comfortable chair and opened a book about modern art.
+SQUIDWARD (shy): Ahh. Page one.
+SFX door
+SQUIDWARD (nervous): ...What was that?
+ENTER spongebob left midleft excited
+SPONGEBOB (excited): Hi, Squidward!
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC sneaky
+SCENE bb_library
+PLACE squidward center right angry
+PLACE spongebob midleft right excited
+SQUIDWARD (angry): SpongeBob. This is a library. Whisper.
+SPONGEBOB (nervous): Sorry! I mean. Sorry. I'm starting a book club! Right here! Today!
+SQUIDWARD (scared): Here? Today?
+SPONGEBOB (happy): The book is "Jellyfishing: A History." It's eight hundred pages. With pictures.
+SQUIDWARD (angry): Do your book club somewhere else!
+SPONGEBOB (sad): But the sign says the library is for everyone.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab
+PLACE spongebob center right excited
+PLACE mr_krabs midleft right nervous
+SPONGEBOB (excited): Mr. Krabs! Want to join my book club? We meet at the library!
+MR_KRABS (nervous): A library? Where they lend books for free?
+SPONGEBOB (happy): Every book! Completely free!
+MR_KRABS (scared): Free! Giving things away! What a terrible way to run a business!
+SPONGEBOB (nervous): So... is that a no?
+MR_KRABS (smug): It's a no. Unless they sell snacks.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC jazz 2
+SCENE bb_library
+PLACE spongebob center right happy
+PLACE patrick midleft right excited
+PLACE squidward right left angry
+PATRICK (excited): I'm here for the book club! I brought my favorite book!
+SPONGEBOB (happy): What is it, Patrick?
+PATRICK (smug): It's called "The Box." It's a box. It has no words. Just box.
+SQUIDWARD (angry): That's a box of crackers, Patrick!
+PATRICK (excited): And it's delicious!
+SFX chomp
+
+# ------------------------------------------------------------ PATRICK'S ROCK
+MUSIC jazz
+SCENE patrick_rock
+PLACE patrick center left nervous
+PLACE gary midright left neutral
+PATRICK (nervous): Gary, I'm supposed to bring a book to book club. I don't have any books.
+GARY (smug): Meow.
+PATRICK (surprised): A box is like a book? It has a cover. And an inside.
+GARY (happy): Meow meow.
+PATRICK (excited): Gary, you're a genius! I'll bring my favorite box!
+NARRATOR: Gary had said nothing of the sort. Gary had asked for dinner.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC sneaky 2
+SCENE bb_library
+PLACE bubble_bass center left smug
+PLACE spongebob midright left nervous
+BUBBLE_BASS (smug): Excuse me. I'm returning a book. It's forty years overdue.
+SPONGEBOB (surprised): Forty years?
+BUBBLE_BASS (smug): I didn't like the ending. I was waiting for them to fix it.
+SPONGEBOB (nervous): Did they fix it?
+BUBBLE_BASS (angry): No. And I have notes.
+NARRATOR: Bubble Bass joined the book club. He had notes about everything.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC tense
+SCENE bb_library
+PLACE squidward center right angry
+PLACE spongebob midleft right excited
+PLACE patrick left right excited
+PLACE bubble_bass midright left angry
+SPONGEBOB (excited): Chapter one! The first jellyfish net was invented in eighteen-
+BUBBLE_BASS (angry): Eighteen-oh-four! Not eighteen-oh-five! The book is wrong!
+PATRICK (excited): I'm on page one of my box!
+SQUIDWARD (angry): SHHHH!
+NARRATOR: The librarian looked up. She frowned. She had worked at the library for thirty years. She had never heard a "shh" that loud.
+
+# ------------------------------------------------------------ SQUIDWARD'S HOUSE
+MUSIC sad
+SCENE squidward_house
+PLACE squidward center right sad
+SQUIDWARD (sad): Kicked out of the library. Me. The quietest fish in Bikini Bottom.
+SQUIDWARD (angry): The librarian said I was the loudest one there. Because of my "shh."
+SQUIDWARD (sad): And SpongeBob's book club is still there. Having fun. Quietly.
+SQUIDWARD (nervous): ...Do they have cookies?
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC romantic
+SCENE bb_library
+PLACE spongebob center right happy
+PLACE patrick midleft right happy
+PLACE bubble_bass midright left smug
+NARRATOR: Without Squidward, the book club was very quiet. SpongeBob read in a whisper. Bubble Bass wrote his notes in a whisper. Patrick ate crackers in a whisper.
+SPONGEBOB (shy): Chapter four. The great jellyfish migration.
+PATRICK (shy): Ooh.
+BUBBLE_BASS (smug): Good chapter. Wrong date.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC sneaky
+SCENE bb_library
+CARD The next day...
+PLACE squidward center right nervous
+ENTER spongebob left midleft happy
+SPONGEBOB (happy): Squidward! You came back!
+SQUIDWARD (nervous): Shh. I'm only here for the quiet. Not for your book club.
+SPONGEBOB (happy): We're reading chapter five today. The one about jellyfish and music.
+SQUIDWARD (surprised): Music?
+SPONGEBOB (smug): Jellyfish hum. Did you know that? They hum in harmony. Like a choir. Like a clarinet section.
+SQUIDWARD (shy): ...Maybe I'll sit nearby. For the quiet.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC romantic 2
+SCENE bb_library
+PLACE squidward center right shy
+PLACE spongebob midleft right happy
+PLACE patrick left right happy
+NARRATOR: Squidward sat nearby. Then a little closer. By chapter six, he was in the circle. By chapter seven, he was correcting the musical notes in the book.
+SQUIDWARD (smug): Jellyfish don't hum in C major. Everybody knows that. It's B flat.
+SPONGEBOB (excited): Squidward, you're a natural!
+SQUIDWARD (shy): Shh. Library.
+
+# ------------------------------------------------------------ BIKINI BOTTOM LIBRARY
+MUSIC happy
+SCENE bb_library
+CARD One month later...
+PLACE squidward center right smug
+PLACE spongebob midleft right excited
+NARRATOR: The book club met every Saturday. They read jellyfish books, music books and one very long book about pickles, picked by Bubble Bass.
+SPONGEBOB (excited): Squidward, it's your turn to pick next month's book!
+SQUIDWARD (smug): "The Clarinet: A Love Story." Four volumes.
+SPONGEBOB (excited): I'm ready! I'm ready! I'm... whispering!
+SQUIDWARD (happy): Good. Keep it that way.
+END

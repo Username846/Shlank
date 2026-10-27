@@ -1,0 +1,155 @@
+@title Mr. Krabs' First Dollar
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 5
+@description Mr. Krabs' very first dollar, framed on the wall for forty years, accidentally ends up in a box of things for Shell City. SpongeBob and Mr. Krabs race to get it back before the big auction. Squilliam Fancyson wants it too.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab cut
+TITLE
+PLACE mr_krabs center left happy
+PLACE spongebob midright left happy
+MR_KRABS (happy): Ahh. Me first dollar. Earned the day I opened the Krusty Krab. Forty years ago.
+SPONGEBOB (happy): It's beautiful, Mr. Krabs.
+MR_KRABS (smug): I say good morning to it every day. And good night. And sometimes I sing to it.
+SPONGEBOB (excited): What do you sing?
+MR_KRABS (shy): ...That's between me and the dollar, lad.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz
+SCENE krusty_krab
+PLACE squidward center left neutral
+NARRATOR: That afternoon, Squidward was cleaning out the storage room. He filled a big box with old junk for the Shell City collection truck.
+SQUIDWARD (neutral): Broken spatula. Dusty picture frame. Old menu. Out, out, out.
+NARRATOR: The dusty picture frame was not junk. It had fallen off the wall. It had a dollar in it.
+SQUIDWARD (happy): Finally, some peace and quiet. And a clean storage room.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC tense
+SCENE krusty_krab
+PLACE mr_krabs center left scared
+PLACE spongebob midright left nervous
+PLACE squidward right left nervous
+MR_KRABS (scared): ME DOLLAR! Where's me dollar?!
+SPONGEBOB (nervous): It was right there on the wall this morning!
+SQUIDWARD (nervous): Was it... in a dusty frame?
+MR_KRABS (angry): SQUIDWARD!
+SQUIDWARD (scared): It went to Shell City! With the junk truck! An hour ago!
+MR_KRABS (scared): Shell City sells everything to the highest bidder! Me dollar is going to be auctioned!
+
+# ------------------------------------------------------------ DOWNTOWN BIKINI BOTTOM
+MUSIC action
+SCENE bb_downtown
+PLACE mr_krabs center left angry
+PLACE spongebob midright left excited
+MR_KRABS (angry): To the bus, boy! Shell City is three hours away!
+SPONGEBOB (excited): We'll make it, Mr. Krabs! For the dollar!
+SFX whoosh
+NARRATOR: They took the bus. Then a second bus. Then a third bus, which was actually a very large fish who agreed to carry them for a quarter.
+MR_KRABS (sad): A whole quarter. This trip is costing me a fortune.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC sad
+SCENE krusty_krab
+PLACE squidward center left sad
+PLACE patrick midright left neutral
+PATRICK (neutral): Squidward, why are you staring at the empty wall?
+SQUIDWARD (sad): I threw away Mr. Krabs' first dollar, Patrick. By accident.
+PATRICK (surprised): Did you say sorry?
+SQUIDWARD (sad): He wasn't here. He ran off to Shell City with SpongeBob.
+PATRICK (smug): Then say sorry to the wall. The wall will tell him.
+SQUIDWARD (sad): ...Sorry, wall.
+
+# ------------------------------------------------------------ SHELL CITY
+MUSIC jazz 2
+SCENE shell_city
+PLACE squilliam center left smug
+SQUILLIAM (smug): Shell City. Where the rich come to buy the unusual.
+NARRATOR: Squilliam Fancyson was in town for the big auction. He collected rare things. Rare shells. Rare paintings. Rare money.
+SQUILLIAM (excited): And today, they're selling a dollar. Framed. Forty years old. Very rare.
+SQUILLIAM (smug): I shall buy it. And hang it in my third bathroom.
+
+# ------------------------------------------------------------ SHELL CITY
+MUSIC jazz
+SCENE shell_city
+PLACE mr_krabs center left nervous
+PLACE spongebob midright left excited
+SPONGEBOB (excited): Mr. Krabs, look! A whole city made of shells! It's beautiful!
+MR_KRABS (nervous): Look at the prices, boy. A used spatula, ten dollars. A single sock, five dollars.
+SPONGEBOB (surprised): Somebody's buying a single sock?
+MR_KRABS (smug): That's Shell City for ya. One fish's junk is another fish's treasure.
+MR_KRABS (scared): And me treasure is somebody else's junk!
+
+# ------------------------------------------------------------ SHELL CITY
+MUSIC tense 2
+SCENE shell_city
+CARD The auction...
+PLACE mr_krabs center left nervous
+PLACE spongebob midleft right nervous
+PLACE squilliam right left smug
+SPONGEBOB (nervous): There it is! Lot number forty-two! Your dollar!
+MR_KRABS (nervous): The bidding starts at one dollar. I'll bid one dollar for me dollar!
+SQUILLIAM (smug): Two dollars.
+MR_KRABS (angry): Three!
+SQUILLIAM (smug): Ten.
+MR_KRABS (scared): TEN?! For one dollar?! That's... ten times as much!
+
+# ------------------------------------------------------------ SHELL CITY
+MUSIC action 2
+SCENE shell_city
+PLACE mr_krabs center left angry
+PLACE squilliam midright left smug
+MR_KRABS (angry): Fifteen!
+SQUILLIAM (smug): Fifty.
+MR_KRABS (scared): Fifty... dollars...
+NARRATOR: Mr. Krabs had never spent fifty dollars on anything in his life. Not even on himself. Especially not on himself.
+SQUILLIAM (smug): Going once. Going twice.
+MR_KRABS (sad): I can't, lad. I just can't spend fifty dollars to get one dollar back.
+
+# ------------------------------------------------------------ SHELL CITY
+MUSIC sad
+SCENE shell_city
+PLACE spongebob center right nervous
+PLACE squilliam midleft right smug
+SPONGEBOB (nervous): Mr. Fancyson? Can I ask you something? Why do you want the dollar?
+SQUILLIAM (smug): Because it's rare. And because I can.
+SPONGEBOB (sad): For Mr. Krabs, it's not just a dollar. It's the first day of the Krusty Krab. It's his whole life.
+SQUILLIAM (surprised): ...The Krusty Krab? Where Squidward works?
+SPONGEBOB (smug): Squidward threw it away by accident. He feels terrible. He's been crying all day.
+SQUILLIAM (excited): Squidward is crying? Oh, I love that.
+
+# ------------------------------------------------------------ SHELL CITY
+MUSIC sneaky
+SCENE shell_city
+PLACE squilliam center left smug
+PLACE mr_krabs midright left surprised
+SQUILLIAM (smug): Mr. Krabs. I'll make you a deal. I'll give you the dollar for free.
+MR_KRABS (surprised): FREE?!
+SQUILLIAM (smug): On one condition. You hang a sign under it. "Squidward Tentacles threw this away."
+MR_KRABS (excited): Deal! Done! Shake on it!
+SQUILLIAM (happy): Squidward will have to read it every single day. It's priceless.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab
+CARD That evening...
+PLACE mr_krabs center left happy
+PLACE spongebob midright left happy
+PLACE squidward right left sad
+MR_KRABS (happy): Me dollar! Back where it belongs! Hello, old friend!
+SPONGEBOB (happy): And it only cost a quarter. For the fish bus.
+SQUIDWARD (sad): Mr. Krabs, what does the little sign under it say?
+MR_KRABS (smug): Read it yourself, Mr. Squidward.
+SQUIDWARD (angry): "Squidward Tentacles threw this away." SQUILLIAM!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC romantic
+SCENE krusty_krab
+PLACE mr_krabs center left shy
+NARRATOR: That night, after everyone went home, Mr. Krabs sang to his dollar. Very quietly.
+MR_KRABS (shy): Oh, little dollar. So green and so fine. Forty years later, you're still all mine.
+NARRATOR: SpongeBob was hiding behind the register. He did not tell anyone. He was a good employee.
+MR_KRABS (smug): Goodnight, me dollar.
+END

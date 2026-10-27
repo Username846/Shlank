@@ -1,0 +1,164 @@
+@title Krabs in the Hospital
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 10
+@description Mr. Krabs slips on a pickle and ends up in Bikini Bottom Hospital with a sprained claw. SpongeBob has to run the Krusty Krab alone. Plankton sees his chance and puts on a nurse's hat.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab cut
+TITLE
+PLACE mr_krabs center left happy
+PLACE spongebob midright left happy
+MR_KRABS (happy): Another beautiful morning, lad! Another beautiful day of making money!
+SPONGEBOB (happy): Good morning, Mr. Krabs! Watch out for the-
+SFX squeak
+SFX thud
+SHAKE 0.8
+MR_KRABS (scared): AAARGH! A pickle! Who left a pickle on the floor?!
+SPONGEBOB (nervous): I think Bubble Bass did. He returned it. He said it was too round.
+
+# ------------------------------------------------------------ BIKINI BOTTOM HOSPITAL
+MUSIC jazz
+SCENE bb_hospital
+PLACE mermaid_man center left happy
+PLACE barnacle_boy midleft right sad
+MERMAID_MAN (happy): Hello, neighbor! Welcome to the bed next to mine! I'm here for my knee!
+BARNACLE_BOY (sad): He's here because he tried to fly. Again.
+MERMAID_MAN (excited): I nearly made it! Two whole inches off the ground!
+BARNACLE_BOY (smug): And then four whole feet down the stairs.
+MERMAID_MAN (happy): Don't worry, crab. We'll keep evil away while you rest!
+BARNACLE_BOY (sad): We'll keep the TV remote away, anyway.
+
+# ------------------------------------------------------------ BIKINI BOTTOM HOSPITAL
+MUSIC tense
+SCENE bb_hospital
+PLACE mr_krabs center left sad
+PLACE spongebob midright left nervous
+NARRATOR: Mr. Krabs had sprained his claw. The doctor said three days in bed. No work. No money. No counting money.
+MR_KRABS (sad): Three days! Without counting me money! I'll go crazy, boy!
+SPONGEBOB (nervous): I'll run the Krusty Krab for you, Mr. Krabs. I'll take care of everything.
+MR_KRABS (nervous): Everything? The register? The patties? The secret formula?
+SPONGEBOB (smug): I've been ready for this moment my whole life.
+MR_KRABS (scared): That's what worries me.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sneaky
+SCENE chum_bucket
+PLACE plankton center left excited
+PLACE karen midright left neutral
+PLANKTON (excited): Krabs is in the hospital! Lying in a bed! Helpless! Without his claws!
+KAREN (smug): He sprained one claw. He has another one.
+PLANKTON (smug): Details! I'll disguise myself as a nurse. He'll tell me where the formula is. In his sleep. People say all kinds of things in their sleep.
+KAREN (neutral): Where will you get a nurse's hat?
+PLANKTON (excited): I'll fold one! Out of a napkin!
+
+# ------------------------------------------------------------ SPONGEBOB'S LIVING ROOM
+MUSIC sad
+SCENE sponge_living_room
+CARD That night...
+PLACE spongebob center right nervous
+PLACE gary midleft right neutral
+SPONGEBOB (nervous): Gary, what if I can't do it? Running the whole Krusty Krab by myself?
+GARY (smug): Meow.
+SPONGEBOB (surprised): You think I can?
+GARY (happy): Meow meow.
+SPONGEBOB (excited): You're right! I've watched Mr. Krabs every day for years! I know how he does it!
+GARY (nervous): Meow?
+SPONGEBOB (smug): He yells about money. I can yell about money!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC action
+SCENE krusty_krab
+PLACE spongebob center right excited
+PLACE squidward midleft right smug
+SPONGEBOB (excited): Squidward! I'm the manager today! Assistant manager! Acting manager! Manager-in-training!
+SQUIDWARD (smug): So I can go home?
+SPONGEBOB (excited): No! We have work to do! Twenty patties! Thirty patties! A hundred patties!
+SQUIDWARD (sad): Nobody's even here yet, SpongeBob.
+SPONGEBOB (happy): Then we'll be ready when they come!
+
+# ------------------------------------------------------------ BIKINI BOTTOM HOSPITAL
+MUSIC sneaky 2
+SCENE bb_hospital
+PLACE mr_krabs center left sad
+NARRATOR: In the hospital, Mr. Krabs was miserable. The food was bland. The bed was squeaky. And he had nothing to count.
+MR_KRABS (sad): One ceiling tile. Two ceiling tiles. Three ceiling tiles.
+MR_KRABS (angry): Ceiling tiles aren't worth anything!
+ENTER plankton right midright smug 100
+PLANKTON (smug): Hello, Mr. Krabs. I'm your nurse. Nurse... Plankford.
+
+# ------------------------------------------------------------ BIKINI BOTTOM HOSPITAL
+MUSIC tense
+SCENE bb_hospital
+PLACE mr_krabs center left surprised
+PLACE plankton midright left smug
+MR_KRABS (surprised): Nurse Plankford? You're very small for a nurse.
+PLANKTON (nervous): I'm a... tiny nurse. For tiny problems. Now. Close your eyes. Rest. And tell me about any secret recipes on your mind.
+MR_KRABS (smug): Plankton. Your hat says "Napkin" on it.
+PLANKTON (scared): Curses! I folded it the wrong way!
+MR_KRABS (angry): Get out of me hospital room!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC tense 2
+SCENE krusty_krab
+PLACE spongebob center right nervous
+PLACE squidward midleft right nervous
+SFX cash
+SFX cash
+SFX cash
+NARRATOR: The lunch rush came. All at once. Two hundred hungry customers.
+SQUIDWARD (nervous): SpongeBob! We need more patties! And more buns! And more of me!
+SPONGEBOB (excited): Flip! Flip! Flip! Flip!
+SQUIDWARD (surprised): You're flipping with both hands! And your feet!
+
+# ------------------------------------------------------------ BIKINI BOTTOM HOSPITAL
+MUSIC action
+SCENE bb_hospital
+PLACE mr_krabs center left angry
+PLACE plankton midright left angry
+NARRATOR: Plankton did not give up. He came back as a doctor. Then as a janitor. Then as a get-well balloon.
+PLANKTON (angry): Tell me the formula, Krabs!
+MR_KRABS (smug): Plankton, I've had enough of this. Nurse! Security!
+SFX door
+NARRATOR: The real nurse came in. She had seen everything. She picked up Plankton with two fingers and dropped him in the trash.
+PLANKTON (sad): I'm going home.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab
+CARD Day three...
+PLACE spongebob center right happy
+PLACE squidward midleft right happy
+SQUIDWARD (happy): SpongeBob. Do you realize what we did?
+SPONGEBOB (excited): We served nine hundred customers! In three days!
+SQUIDWARD (surprised): We made more money than Mr. Krabs has ever made in a week.
+SPONGEBOB (happy): And nobody slipped on a pickle!
+SQUIDWARD (smug): Because I swept. Forty times. You're welcome.
+
+# ------------------------------------------------------------ BIKINI BOTTOM HOSPITAL
+MUSIC romantic
+SCENE bb_hospital
+PLACE mr_krabs center left sad
+ENTER spongebob right midright excited
+SPONGEBOB (excited): Mr. Krabs! I brought you something! A get-well present!
+MR_KRABS (surprised): Is it a balloon? Because I've had enough of those.
+SPONGEBOB (happy): It's the money box. From the last three days. So you can count it.
+MR_KRABS (excited): Me money! Oh, lad! This is the best medicine in the whole world!
+SFX cash
+MR_KRABS (happy): One dollar. Two dollars. Three dollars...
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy 2
+SCENE krusty_krab
+CARD The next day...
+PLACE mr_krabs center left happy
+PLACE spongebob midright left happy
+PLACE squidward right left smug
+MR_KRABS (happy): I'm back, me hearties! And thanks to you two, this was the best week in Krusty Krab history!
+SPONGEBOB (excited): Does that mean we get a bonus?
+MR_KRABS (smug): It means you get my deepest gratitude.
+SQUIDWARD (angry): That's not money.
+MR_KRABS (happy): And a pickle. Each. Freshly swept off the floor.
+END

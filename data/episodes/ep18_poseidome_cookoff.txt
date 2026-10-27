@@ -1,0 +1,177 @@
+@title The Royal Cook-Off
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 8
+@description King Neptune is holding a royal cooking contest at the Poseidome. The prize is a golden spatula and the title of Royal Chef. SpongeBob enters. So does Bubble Bass, who has never cooked anything but has very strong opinions.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy
+SCENE krusty_krab cut
+TITLE
+PLACE mr_krabs center left excited
+PLACE spongebob midright left excited
+MR_KRABS (excited): Lad! King Neptune is holding a cooking contest at the Poseidome! The winner becomes Royal Chef!
+SPONGEBOB (excited): Royal Chef? Like, chef of the king?
+MR_KRABS (smug): And the Krusty Krab gets a royal sign. "By Appointment of His Majesty." Imagine the customers!
+SPONGEBOB (excited): I'll make the best Krabby Patty in history!
+MR_KRABS (happy): That's me boy.
+
+# ------------------------------------------------------------ KRUSTY KRAB DINING ROOM
+MUSIC jazz
+SCENE krusty_dining
+PLACE bubble_bass center left smug
+PLACE squidward midright left angry
+BUBBLE_BASS (smug): A cooking contest? I'm entering. I know more about food than anyone in this town.
+SQUIDWARD (angry): You've sent back every meal you've ever ordered here.
+BUBBLE_BASS (smug): Because they were wrong. The pickles were too pickly. The bun was too bunny.
+SQUIDWARD (smug): Have you ever cooked anything?
+BUBBLE_BASS (nervous): ...I've watched a lot of cooking shows.
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC tense
+SCENE poseidome
+PLACE king_neptune center left smug
+KING_NEPTUNE (smug): Hear me, citizens of Bikini Bottom! I am King Neptune! And I am hungry!
+KING_NEPTUNE (excited): Whoever cooks me the finest dish in all the seas shall become my Royal Chef!
+KING_NEPTUNE (angry): And whoever cooks me something bad shall be banished! To the Chum Bucket!
+NARRATOR: Somewhere far away, Plankton sneezed.
+
+# ------------------------------------------------------------ THE CHUM BUCKET
+MUSIC sneaky 2
+SCENE chum_bucket
+PLACE plankton center left excited
+PLACE karen midright left neutral
+PLANKTON (excited): A royal cooking contest! If I win, I become Royal Chef! And the king will order chum every day!
+KAREN (smug): The prize for the worst dish is banishment to the Chum Bucket.
+PLANKTON (angry): I LIVE in the Chum Bucket!
+KAREN (neutral): So you can't lose.
+PLANKTON (surprised): ...That's the nicest thing you've ever said to me.
+KAREN (smug): It wasn't meant nicely.
+
+# ------------------------------------------------------------ KRUSTY KRAB KITCHEN
+MUSIC sneaky
+SCENE krusty_kitchen
+PLACE spongebob center right nervous
+HOLD spongebob spatula
+PLACE patrick midleft right happy
+SPONGEBOB (nervous): Patrick, what if a Krabby Patty isn't fancy enough for a king?
+PATRICK (happy): Make it fancier.
+SPONGEBOB (excited): A Krabby Patty with gold sauce? Pearl sprinkles? A tiny crown made of cheese?
+PATRICK (excited): And an umbrella!
+SPONGEBOB (nervous): Maybe not the umbrella.
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC action
+SCENE poseidome
+CARD The Royal Cook-Off...
+PLACE king_neptune center left neutral
+PLACE spongebob midright left nervous
+HOLD spongebob spatula
+PLACE bubble_bass right left smug
+KING_NEPTUNE (neutral): Chefs! You have one hour. Begin!
+SFX ding
+SPONGEBOB (excited): Flip! Flip! Flip!
+BUBBLE_BASS (smug): I'm making a sandwich. With one pickle. Placed exactly in the center.
+NARRATOR: The other chefs made soups. Cakes. A forty-layer seaweed lasagna. Bubble Bass made a sandwich and spent fifty minutes adjusting the pickle.
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC tense 2
+SCENE poseidome
+PLACE king_neptune center left neutral
+PLACE spongebob midright left nervous
+HOLD spongebob patty
+KING_NEPTUNE (neutral): The Golden Krabby Patty. With gold sauce and pearl sprinkles and a cheese crown.
+SFX chomp
+KING_NEPTUNE (surprised): ...
+SPONGEBOB (nervous): Your Majesty?
+KING_NEPTUNE (angry): Too fancy! I can't taste the patty under all this gold!
+SPONGEBOB (sad): Oh no.
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC sneaky 2
+SCENE poseidome
+PLACE king_neptune center left neutral
+PLACE bubble_bass midright left smug
+BUBBLE_BASS (smug): Your Majesty. A sandwich. One bun. One slice of bread. One pickle. Perfectly centered.
+SFX chomp
+KING_NEPTUNE (surprised): The pickle is... precisely in the middle.
+BUBBLE_BASS (excited): I measured it with a ruler!
+KING_NEPTUNE (neutral): It is a very plain sandwich.
+BUBBLE_BASS (smug): Plain is elegant.
+
+# ------------------------------------------------------------ TREEDOME
+MUSIC romantic
+SCENE treedome
+PLACE sandy center left happy
+PLACE spongebob midright left sad
+SANDY (happy): SpongeBob! I watched you on TV! Your golden patty looked mighty fancy!
+SPONGEBOB (sad): The king didn't like it, Sandy. He couldn't taste the patty.
+SANDY (smug): Back in Texas, my granny made the best biscuits in the state. Know her secret?
+SPONGEBOB (surprised): Gold sauce?
+SANDY (happy): Butter, flour and a whole lotta love. Nothin' else.
+SPONGEBOB (shy): ...Nothing else.
+
+# ------------------------------------------------------------ KRUSTY KRAB KITCHEN
+MUSIC sad
+SCENE krusty_kitchen
+PLACE spongebob center right sad
+PLACE mr_krabs midleft right nervous
+SPONGEBOB (sad): Mr. Krabs, the king said my patty was too fancy. I tried too hard.
+MR_KRABS (nervous): There's still the second round, lad. Each chef cooks one more dish.
+SPONGEBOB (sad): But what do I make?
+MR_KRABS (smug): Make what ya make every day. A regular Krabby Patty. The one with love in it.
+SPONGEBOB (surprised): Just... a normal one?
+MR_KRABS (happy): The best food isn't fancy, boy. It's the food somebody made just for you.
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC tense
+SCENE poseidome
+CARD Round two...
+PLACE bubble_bass center left nervous
+PLACE squidward midright left smug
+BUBBLE_BASS (nervous): Round two? Nobody said there was a round two! I only know one sandwich!
+SQUIDWARD (smug): So make it again.
+BUBBLE_BASS (scared): I can't! I used the only pickle I trust!
+SQUIDWARD (smug): You trust pickles?
+BUBBLE_BASS (sad): Only one. His name was Gerald.
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC romantic
+SCENE poseidome
+PLACE king_neptune center left neutral
+PLACE spongebob midright left happy
+HOLD spongebob patty
+SPONGEBOB (happy): Your Majesty. One Krabby Patty. Nothing fancy. Just the way I make it every day.
+SFX chomp
+KING_NEPTUNE (surprised): ...
+KING_NEPTUNE (happy): It's... wonderful. It tastes like the first warm day of summer.
+SPONGEBOB (shy): That's the love, sir. Mr. Krabs says it's in there.
+KING_NEPTUNE (excited): SpongeBob SquarePants! You are my Royal Chef!
+
+# ------------------------------------------------------------ THE POSEIDOME
+MUSIC happy
+SCENE poseidome
+PLACE king_neptune center left happy
+PLACE spongebob midright left excited
+PLACE bubble_bass right left sad
+BUBBLE_BASS (sad): Second place. Again.
+KING_NEPTUNE (smug): You, pickle man. You are hereby appointed Royal Taster. You will tell my chef when things are wrong.
+BUBBLE_BASS (excited): Royal Taster? I get paid to complain?
+KING_NEPTUNE (happy): Every day.
+BUBBLE_BASS (excited): This is the greatest day of my life!
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC happy 2
+SCENE krusty_krab
+CARD The next day...
+PLACE mr_krabs center left excited
+PLACE spongebob midright left happy
+SFX cash
+SFX cash
+MR_KRABS (excited): "By Appointment of His Majesty!" Look at the line, boy! It goes around the block twice!
+SPONGEBOB (happy): And the king gets his patty delivered every Friday.
+MR_KRABS (smug): At royal prices.
+SPONGEBOB (nervous): How much are royal prices?
+MR_KRABS (smug): Double. He's a king. He can afford it.
+END

@@ -1,0 +1,174 @@
+@title The Invisible Boatmobile
+@series SpongeBob SquarePants
+@season 2
+@icon bubbles
+@number 1
+@description SpongeBob and Patrick visit the Mermalair and accidentally borrow Mermaid Man's Invisible Boatmobile. Driving it is easy. Finding it again is not.
+
+# ------------------------------------------------------------ SPONGEBOB'S PINEAPPLE
+MUSIC happy
+SCENE pineapple_house cut
+TITLE
+PLACE spongebob center right excited
+PLACE patrick midright left excited
+SPONGEBOB (excited): Patrick! Today's the day! Mermaid Man and Barnacle Boy invited us to the Mermalair!
+PATRICK (excited): The secret hideout? The one nobody knows about?
+SPONGEBOB (smug): The very same. It's under the Shady Shoals parking lot.
+PATRICK (surprised): Everybody knows about the parking lot.
+SPONGEBOB (happy): But nobody knows what's under it!
+PATRICK (excited): I know! It's the Mermalair!
+SPONGEBOB (nervous): ...Right. Let's go.
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC jazz
+SCENE shady_shoals
+PLACE mermaid_man center left happy
+PLACE barnacle_boy midleft right sad
+ENTER spongebob right midright excited
+ENTER patrick right right excited
+MERMAID_MAN (happy): Ah! Our young friends! Welcome, welcome!
+BARNACLE_BOY (sad): Don't touch anything. Last time you came, you broke the shuffleboard.
+SPONGEBOB (excited): We'll be very careful, Barnacle Boy! We promise!
+MERMAID_MAN (excited): To the Mermalair! Through the secret door! Which is behind the vending machine!
+BARNACLE_BOY (smug): And the password is "pudding."
+PATRICK (happy): I love pudding!
+
+# ------------------------------------------------------------ THE MERMALAIR
+MUSIC tense
+SCENE mermalair
+PLACE mermaid_man center left excited
+PLACE barnacle_boy farleft right neutral
+PLACE spongebob midright left excited
+PLACE patrick right left excited
+SPONGEBOB (excited): The Mermalair! The real Mermalair! I'm not dreaming, am I?
+MERMAID_MAN (smug): Behold the Mermalair computer! Seven buttons! Each one more dangerous than the last!
+PATRICK (excited): What does the shiny red one do?
+BARNACLE_BOY (angry): Don't push the shiny red one!
+SFX beep
+SFX whoosh
+NARRATOR: Patrick pushed the shiny red one.
+
+# ------------------------------------------------------------ THE MERMALAIR
+MUSIC action
+SCENE mermalair
+PLACE spongebob center right surprised
+PLACE patrick midright left nervous
+PLACE barnacle_boy midleft right angry
+SPONGEBOB (surprised): Where did everyone go?
+BARNACLE_BOY (angry): The red button opens the garage! And now the Invisible Boatmobile is gone!
+PATRICK (nervous): Maybe it's just invisible.
+BARNACLE_BOY (angry): It is invisible! That's the whole point!
+SPONGEBOB (scared): And we're... sitting in it?
+NARRATOR: SpongeBob and Patrick were indeed sitting in the Invisible Boatmobile. It was driving itself out of the garage.
+
+# ------------------------------------------------------------ DOWNTOWN BIKINI BOTTOM
+MUSIC action 2
+SCENE bb_downtown
+PLACE spongebob center right scared
+PLACE patrick midleft right excited
+SFX whoosh
+SPONGEBOB (scared): Patrick! Where's the steering wheel?!
+PATRICK (excited): I can't see it! It's invisible!
+SPONGEBOB (scared): I'm feeling around! I found something round!
+PATRICK (nervous): That's my head, SpongeBob.
+SFX boing
+NARRATOR: The Invisible Boatmobile zoomed through downtown. To everyone else, it looked like two very fast fish sitting on nothing.
+
+# ------------------------------------------------------------ THE KRUSTY KRAB
+MUSIC jazz
+SCENE krusty_krab
+PLACE squidward center left neutral
+PLACE mr_krabs midright left neutral
+SFX whoosh
+SQUIDWARD (surprised): Did SpongeBob and Patrick just fly past the window? Sitting down?
+MR_KRABS (smug): Probably a new kind of bus.
+SQUIDWARD (nervous): They were screaming.
+MR_KRABS (happy): All buses make ya scream, Mr. Squidward. Especially the prices.
+
+# ------------------------------------------------------------ BOATING SCHOOL
+MUSIC tense
+SCENE boating_school
+PLACE mrs_puff center left neutral
+SFX whoosh
+SFX thud
+SHAKE 0.6
+ENTER spongebob right midright scared 500
+ENTER patrick right right scared 500
+MRS_PUFF (surprised): SpongeBob? Did you just... park? Next to my school?
+SPONGEBOB (scared): I think so, Mrs. Puff! I don't know where the brakes are!
+MRS_PUFF (scared): Where's your boat?
+PATRICK (smug): It's right here. You just can't see it.
+MRS_PUFF (angry): SpongeBob, you know you're not allowed to drive!
+
+# ------------------------------------------------------------ BOATING SCHOOL
+MUSIC sneaky
+SCENE boating_school
+PLACE mrs_puff center left nervous
+PLACE spongebob midright left nervous
+MRS_PUFF (nervous): Well. Since you're here. And since there's a boat. Somewhere.
+MRS_PUFF (smug): This counts as your driving test, SpongeBob. Number sixty-eight. Drive us to Shady Shoals.
+SPONGEBOB (scared): In an invisible boat?!
+MRS_PUFF (happy): If you can drive something you can't see, you can drive anything.
+SPONGEBOB (nervous): That's... actually very wise, Mrs. Puff.
+
+# ------------------------------------------------------------ THE MERMALAIR
+MUSIC jazz 2
+SCENE mermalair
+PLACE barnacle_boy center left angry
+PLACE mermaid_man midright left happy
+BARNACLE_BOY (angry): This is why I said we should put a bell on it. Or a flag. Or anything.
+MERMAID_MAN (happy): Nonsense! An invisible boat with a flag is just a flag!
+BARNACLE_BOY (sad): Remember 1962? We lost it for eleven years.
+MERMAID_MAN (surprised): Where did we find it?
+BARNACLE_BOY (smug): In the garage. Exactly where we parked it.
+MERMAID_MAN (excited): Then let us check the garage! Again! For justice!
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC tense 2
+SCENE shady_shoals
+PLACE mermaid_man center left nervous
+PLACE barnacle_boy midleft right angry
+MERMAID_MAN (nervous): Barnacle Boy, have you seen my Invisible Boatmobile?
+BARNACLE_BOY (angry): Those kids took it! An hour ago!
+MERMAID_MAN (surprised): Took what?
+BARNACLE_BOY (angry): The Boatmobile!
+MERMAID_MAN (excited): The Boatmobile! Of course! Evil has struck again!
+BARNACLE_BOY (sad): Evil's name is Patrick.
+
+# ------------------------------------------------------------ DOWNTOWN BIKINI BOTTOM
+MUSIC action
+SCENE bb_downtown
+PLACE spongebob center right nervous
+PLACE mrs_puff midleft right nervous
+SPONGEBOB (nervous): Okay. Hands at ten and two. Wherever ten and two are.
+MRS_PUFF (nervous): Signal left, SpongeBob.
+SPONGEBOB (excited): Signaling!
+NARRATOR: SpongeBob did not crash. He did not hit a single mailbox. For the first time in his life, he drove perfectly. Because he couldn't see anything to be scared of.
+MRS_PUFF (surprised): SpongeBob! You're doing it!
+
+# ------------------------------------------------------------ SHADY SHOALS REST HOME
+MUSIC happy
+SCENE shady_shoals
+PLACE mermaid_man center left excited
+PLACE barnacle_boy midleft right surprised
+PLACE spongebob midright left excited
+PLACE mrs_puff right left happy
+PLACE patrick farright left happy
+SPONGEBOB (excited): Mermaid Man! We brought back the Boatmobile! It's parked right... somewhere around here!
+BARNACLE_BOY (surprised): You drove it back? Without crashing?
+MRS_PUFF (happy): He passed! For the first time ever! Well, it was an unusual test.
+MERMAID_MAN (happy): Splendid driving, young man! You may borrow the Boatmobile any time!
+BARNACLE_BOY (angry): No, he may not!
+
+# ------------------------------------------------------------ BOATING SCHOOL
+MUSIC happy 2
+SCENE boating_school
+CARD The next day...
+PLACE mrs_puff center left nervous
+PLACE spongebob midright left excited
+SPONGEBOB (excited): Mrs. Puff! Can I get my license now?
+MRS_PUFF (nervous): SpongeBob, the license is for driving visible boats.
+SPONGEBOB (sad): Oh.
+MRS_PUFF (smug): Test number sixty-nine is tomorrow. In a boat you can see.
+SPONGEBOB (scared): ...Can we turn it invisible?
+END
