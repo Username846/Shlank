@@ -1,0 +1,160 @@
+@title The Dragon Ball Hunt
+@series Dragon Ball Z
+@season 1
+@icon dragonball
+@number 7
+@description Bulma's Dragon Radar picks up all seven Dragon Balls at once, and everyone wants the wish. Goku wants food. Master Roshi wants a new TV. Frieza wants to rule the universe. The race is on.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz
+SCENE capsule_corp cut
+TITLE
+PLACE bulma center left excited
+PLACE goku midright left happy
+BULMA (excited): Goku, look! The Dragon Radar! All seven Dragon Balls are active again!
+GOKU (excited): All seven? So we can summon Shenron?
+BULMA (smug): And make a wish. Anything we want.
+GOKU (happy): I know what I'd wish for! A never-ending lunch!
+BULMA (nervous): Goku, you can wish for anything in the whole world.
+GOKU (excited): A never-ending lunch AND dinner!
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC happy
+SCENE kame_house
+PLACE master_roshi center left excited
+PLACE krillin midright left nervous
+MASTER_ROSHI (excited): The Dragon Balls are back? Oh ho ho! I know just what to wish for!
+KRILLIN (nervous): Please let it be something normal, Master Roshi.
+MASTER_ROSHI (smug): A brand-new TV. The biggest one in the world. As big as the house!
+KRILLIN (surprised): That's... actually pretty normal.
+MASTER_ROSHI (happy): With every channel! Even the ones from space!
+KRILLIN (smug): Okay, that's less normal.
+
+# ------------------------------------------------------------ FRIEZA'S SHIP
+MUSIC spooky
+SCENE frieza_ship
+PLACE frieza center left smug
+FRIEZA (smug): The Dragon Balls have awakened. Seven little orbs, scattered across the Earth.
+FRIEZA (excited): And with one wish, I will become immortal! Ruler of the universe! Forever!
+FRIEZA (smug): Those monkeys won't even see me coming.
+FRIEZA (nervous): Assuming I can find them. Does anyone on this ship know how to use a radar?
+
+# ------------------------------------------------------------ KORIN TOWER
+MUSIC action
+SCENE korin_tower
+PLACE goku center right excited
+PLACE bulma midleft right nervous
+GOKU (excited): The radar says the first ball is at the top of Korin Tower!
+BULMA (nervous): Goku, that tower goes above the clouds.
+GOKU (happy): I'll fly up! Be right back!
+SFX whoosh
+NARRATOR: Goku flew up. Then he flew back down. With the four-star Dragon Ball. And a bag of senzu beans. And a sandwich.
+BULMA (smug): Where did you get the sandwich?
+GOKU (happy): Korin made it!
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC sneaky
+SCENE gravity_room
+PLACE vegeta center left smug
+PLACE trunks midright left nervous
+VEGETA (smug): The Dragon Balls. I've already found two of them. In my sock drawer.
+TRUNKS (surprised): Dad, why were Dragon Balls in your sock drawer?
+VEGETA (nervous): I was... keeping them safe. For years. Just in case.
+TRUNKS (smug): What are you going to wish for?
+VEGETA (smug): To be stronger than Kakarot, of course.
+TRUNKS (nervous): You could just train more.
+VEGETA (angry): Don't be ridiculous.
+
+# ------------------------------------------------------------ PLANET NAMEK
+MUSIC tense
+SCENE planet_namek
+PLACE piccolo center left neutral
+PLACE gohan midright left excited
+GOHAN (excited): Mr. Piccolo! Two of the Dragon Balls landed here on Namek!
+PICCOLO (neutral): Earth's Dragon Balls? On Namek?
+GOHAN (nervous): Bulma's radar says so. They must have fallen through a portal or something.
+PICCOLO (smug): Fine. We'll take them back. But I'm not making any wishes.
+GOHAN (surprised): Why not?
+PICCOLO (smug): Because I already have everything I need. Water. And quiet.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC action 2
+SCENE west_city
+PLACE frieza center left excited
+PLACE krillin midright left scared
+FRIEZA (excited): Ah ha! The last Dragon Ball! In the middle of West City!
+KRILLIN (scared): Frieza?! What are you doing on Earth?
+FRIEZA (smug): Collecting, little bald man. And you're holding something of mine.
+KRILLIN (nervous): This? It's just... an orange bowling ball.
+FRIEZA (angry): Hand it over!
+KRILLIN (scared): GOKU!
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC action
+SCENE west_city
+PLACE frieza center left angry
+PLACE krillin midright left scared
+ENTER goku right right angry 600
+GOKU (angry): Leave Krillin alone, Frieza!
+SFX blast
+SHAKE 1.0
+FRIEZA (surprised): Ugh! You again!
+GOKU (smug): You want a wish? You'll have to get through me first.
+FRIEZA (angry): I'll be back, monkey! With a better radar!
+SFX whoosh
+KRILLIN (happy): Thanks, Goku! That was close.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC tense 2
+SCENE the_lookout
+CARD That evening...
+PLACE goku center right excited
+PLACE vegeta midleft right smug
+PLACE bulma midright left nervous
+PLACE master_roshi left right excited
+BULMA (nervous): Okay. All seven Dragon Balls. But who gets the wish?
+VEGETA (smug): Me. I found two. In my socks.
+MASTER_ROSHI (excited): I'm the oldest! Respect your elders! Big TV!
+GOKU (happy): Never-ending lunch!
+BULMA (angry): This is going to take all night, isn't it?
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC spooky 2
+SCENE the_lookout
+PLACE goku center right surprised
+PLACE bulma midright left surprised
+SFX blast
+SHAKE 1.0
+NARRATOR: The sky went dark. Lightning flashed. The great dragon Shenron rose from the Dragon Balls, so big he blocked out the moon.
+BULMA (surprised): Uh, guys. We said "who gets the wish" too loud. He thinks that was the summoning.
+NARRATOR: Shenron spoke in a voice like thunder. "State your wish. I am in a bit of a hurry."
+GOKU (nervous): Uh oh. We still haven't decided!
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC tense
+SCENE the_lookout
+PLACE goku center right nervous
+PLACE vegeta midleft right angry
+PLACE master_roshi left right nervous
+VEGETA (angry): My wish! Make me stronger than Kakarot!
+MASTER_ROSHI (excited): No! A big TV!
+GOKU (excited): Lunch!
+NARRATOR: Everyone yelled at once. The dragon listened very carefully. Then he made his decision.
+GOKU (surprised): What did he grant?
+NARRATOR: Shenron granted all three. Sort of.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC happy 2
+SCENE kame_house
+CARD The next day...
+PLACE goku center right happy
+PLACE vegeta midleft right angry
+PLACE master_roshi midright left happy
+PLACE krillin left right happy
+NARRATOR: There was now a giant TV on the beach. It only played one show: a cooking show. And it never ended. And whatever they cooked appeared on the table.
+GOKU (excited): Never-ending lunch! On TV!
+MASTER_ROSHI (happy): Big TV!
+VEGETA (angry): And what about MY wish?!
+KRILLIN (smug): You're stronger than Goku now, Vegeta. At eating. He's had six plates. You've had seven.
+VEGETA (surprised): ...I'll take it.
+END

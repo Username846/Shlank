@@ -1,0 +1,152 @@
+@title A Warning from the Future
+@series Dragon Ball Z
+@season 1
+@icon dragonball
+@number 9
+@description Trunks arrives from the future with a terrible warning: in three days, something will happen that ruins everything. Everyone prepares for a monster. It turns out to be much, much worse. It's Bulma's birthday, and Vegeta forgot.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC tense
+SCENE west_city cut
+TITLE
+SFX blast
+SHAKE 1.0
+ENTER trunks left center nervous 500
+TRUNKS (nervous): Did it work? Is this the right year?
+NARRATOR: A time machine had just landed in the middle of West City. Out stepped a young man with purple hair and a very serious sword.
+TRUNKS (scared): I have to warn them. Before it's too late.
+TRUNKS (nervous): In three days, everything changes. And not in a good way.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC jazz
+SCENE kame_house
+PLACE goku center right happy
+PLACE krillin midleft right happy
+PLACE piccolo midright left neutral
+ENTER trunks left left nervous
+TRUNKS (nervous): Goku! Everyone! I've come from the future with a warning!
+GOKU (excited): Trunks! Cool! Is it a new monster? Is he strong?
+TRUNKS (nervous): It's not a monster. It's... worse.
+PICCOLO (surprised): Worse than a monster?
+TRUNKS (scared): In three days, my father forgets my mother's birthday.
+KRILLIN (scared): Oh no.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC tense 2
+SCENE kame_house
+PLACE trunks center left sad
+PLACE goku midright left nervous
+TRUNKS (sad): She waits all day for him to say something. He never does. He's training in the gravity room.
+TRUNKS (sad): Then she gets angry. So angry that she builds a robot army. In my time, it's called the Great Birthday War.
+GOKU (scared): A robot army?
+TRUNKS (nervous): It lasts six years. I barely survived.
+GOKU (angry): Then we gotta stop it! Nobody forgets Bulma's birthday on my watch!
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC sneaky
+SCENE gravity_room
+PLACE vegeta center left angry
+ENTER goku right midright nervous
+ENTER trunks right right nervous
+VEGETA (angry): Kakarot. Why are you in my gravity room? With my son? From the future?
+GOKU (nervous): Uh, Vegeta. Do you know what day it is on Saturday?
+VEGETA (smug): Saturday. The day I train for twelve hours instead of eleven.
+TRUNKS (nervous): Dad. Saturday is Mom's birthday.
+VEGETA (surprised): ...
+VEGETA (scared): ...Of course I know that. I always knew that. Leave.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz 2
+SCENE capsule_corp
+PLACE bulma center left happy
+PLACE chi_chi midright left smug
+BULMA (happy): Chi-Chi, I'm not expecting much this year. Vegeta never remembers my birthday.
+CHI_CHI (smug): Goku never remembers mine either. He thinks it's in July.
+BULMA (surprised): When is it?
+CHI_CHI (angry): March!
+BULMA (happy): Well, maybe this year will be different. A girl can dream.
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC tense
+SCENE gravity_room
+PLACE vegeta center left nervous
+PLACE trunks midright left nervous
+VEGETA (nervous): What does your mother like? Hypothetically.
+TRUNKS (happy): She likes inventions. And flowers. And when you tell her she's smart.
+VEGETA (scared): Telling her she's smart? Out loud? With my mouth?
+TRUNKS (nervous): Dad, the robot army.
+VEGETA (angry): Fine! Flowers! Where does one acquire flowers?
+TRUNKS (smug): At a flower shop, Dad.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC happy
+SCENE west_city
+PLACE vegeta center right angry
+PLACE goku midleft right excited
+GOKU (excited): This is a flower shop, Vegeta! Pick any flowers you want!
+VEGETA (angry): They all look the same. Small. Colorful. Weak.
+GOKU (happy): Chi-Chi likes the yellow ones.
+VEGETA (smug): Then I will get the opposite. Purple. The color of royalty.
+NARRATOR: Vegeta bought every purple flower in the shop. All four hundred of them. He paid in gold coins from Planet Vegeta.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC jazz
+SCENE the_lookout
+PLACE piccolo center left neutral
+PLACE gohan midright left excited
+PLACE trunks right left nervous
+GOHAN (excited): We're throwing Bulma a surprise party! On the Lookout! Everyone's invited!
+PICCOLO (neutral): I don't do parties.
+GOHAN (happy): You can stand in the corner and look scary. That's your job.
+PICCOLO (smug): ...I can do that.
+TRUNKS (nervous): I hope this works. The future depends on it.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC sad
+SCENE capsule_corp
+CARD Saturday...
+PLACE bulma center left sad
+BULMA (sad): Nine in the morning. No Vegeta. Noon. No Vegeta. Three o'clock. Still no Vegeta.
+BULMA (angry): Of course he forgot. Again. The prince of all Saiyans can remember every fight he's ever had, but not my birthday.
+BULMA (angry): Maybe I'll build something. Something big. Something with lasers.
+NARRATOR: Somewhere in the future, Trunks shivered.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC tense 2
+SCENE capsule_corp
+PLACE bulma center left angry
+ENTER vegeta right midright nervous
+VEGETA (nervous): Woman. I mean. Bulma.
+BULMA (angry): Oh, NOW you show up.
+VEGETA (nervous): These are for you. Four hundred purple flowers. The color of royalty.
+BULMA (surprised): Vegeta?
+VEGETA (shy): And you are... the smartest person on this planet. Including me. Happy birthday.
+BULMA (surprised): You... remembered?
+VEGETA (nervous): ...I had some help.
+
+# ------------------------------------------------------------ THE LOOKOUT
+MUSIC happy 2
+SCENE the_lookout
+PLACE bulma center left excited
+PLACE vegeta midleft right shy
+PLACE goku midright left excited
+PLACE trunks right left happy
+GOKU (excited): SURPRISE!
+BULMA (excited): A party? For me? All of you?
+GOKU (happy): And Vegeta planned the whole thing! Well, kind of. He bought the flowers.
+VEGETA (angry): Kakarot, be quiet.
+BULMA (happy): Vegeta, this is the best birthday ever.
+TRUNKS (happy): It worked. The future is saved.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC romantic
+SCENE west_city
+CARD The next morning...
+PLACE trunks center right happy
+TRUNKS (happy): Time to go home. In my timeline, there will be no Great Birthday War.
+NARRATOR: Trunks climbed into his time machine. He looked back at his family one more time.
+TRUNKS (nervous): Wait. Mom's birthday is fixed. But I never asked about their anniversary.
+TRUNKS (scared): ...I'll be back next month.
+SFX blast
+SHAKE 0.6
+END

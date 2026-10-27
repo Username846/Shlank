@@ -1,0 +1,169 @@
+@title The World Martial Arts Tournament
+@series Dragon Ball Z
+@season 1
+@icon dragonball
+@number 10
+@description It's the World Martial Arts Tournament, and everybody has entered. Goku, Vegeta, Gohan, Piccolo, Krillin and one very suspicious masked fighter named "Not Frieza." The prize is ten million zeni. Chi-Chi has already spent it.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC happy
+SCENE goku_house cut
+TITLE
+PLACE chi_chi center left excited
+PLACE goku midright left happy
+PLACE gohan right left nervous
+CHI_CHI (excited): Goku! The World Tournament is this weekend! First prize is ten million zeni!
+GOKU (excited): Ooh! That's a lot of food!
+CHI_CHI (smug): It's a new kitchen, a new roof and a college fund for Gohan. I already picked out the curtains.
+GOHAN (nervous): Mom, what if Dad doesn't win?
+CHI_CHI (smug): Then you'll win, sweetie.
+GOHAN (scared): Me?!
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC tense
+SCENE capsule_corp
+PLACE vegeta center left smug
+PLACE bulma midright left nervous
+VEGETA (smug): This time, I will defeat Kakarot. In front of the whole world.
+BULMA (nervous): You've said that every year, Vegeta.
+VEGETA (angry): And every year, something gets in the way! Monsters! Androids! A bathroom break!
+BULMA (smug): That bathroom break was very unlucky.
+VEGETA (angry): Not this year. This year, nothing will stop me.
+
+# ------------------------------------------------------------ FRIEZA'S SHIP
+MUSIC spooky
+SCENE frieza_ship
+PLACE frieza center left smug
+FRIEZA (smug): A tournament. Where all the Saiyans gather in one place. How convenient.
+FRIEZA (excited): I'll enter in disguise. Defeat them all. And humiliate them in front of every human on Earth!
+FRIEZA (smug): My disguise is flawless. A paper bag. With a mustache drawn on it.
+FRIEZA (smug): I shall call myself... Not Frieza.
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC jazz
+SCENE world_tournament
+CARD The tournament...
+PLACE master_roshi center left excited
+PLACE krillin midright left nervous
+MASTER_ROSHI (excited): Welcome, everyone! I'm your announcer for this year's World Tournament!
+KRILLIN (surprised): Master Roshi, since when are you the announcer?
+MASTER_ROSHI (smug): Since I bribed the real announcer with a sandwich.
+MASTER_ROSHI (excited): First match! Krillin versus... a fighter called "Not Frieza"!
+KRILLIN (nervous): Why does he have a tail?
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC action
+SCENE world_tournament
+PLACE krillin center right nervous
+PLACE frieza midleft right smug
+FRIEZA (smug): Little bald man. Prepare to be humiliated.
+KRILLIN (surprised): Frieza? Is that you?
+FRIEZA (angry): No! I'm Not Frieza! It says so on my bag!
+KRILLIN (smug): Your bag is falling off.
+FRIEZA (scared): What? No!
+SFX blast
+SHAKE 0.8
+NARRATOR: While Frieza fixed his bag, Krillin knocked him out of the ring. It was the easiest win of Krillin's life.
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC jazz 2
+SCENE world_tournament
+PLACE master_roshi center left excited
+PLACE frieza midright left angry
+MASTER_ROSHI (excited): Ring out! Krillin wins!
+FRIEZA (angry): This is an outrage! I demand a rematch!
+MASTER_ROSHI (smug): Sorry, Not Frieza. Rules are rules.
+FRIEZA (sad): I spent four hours on this mustache.
+EXIT frieza right
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC happy 2
+SCENE world_tournament
+PLACE krillin center right excited
+PLACE trunks midleft right happy
+TRUNKS (happy): Nice match, Krillin. You beat Frieza.
+KRILLIN (excited): I beat Frieza! Me! Krillin! Do you know how long I've waited to say that?
+TRUNKS (smug): Technically, you beat Not Frieza.
+KRILLIN (happy): I'm counting it. I'm telling everyone. I'm getting it printed on a shirt.
+TRUNKS (nervous): Who are you fighting next?
+KRILLIN (scared): ...Vegeta. I'm going to forfeit. With dignity. Right now.
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC action 2
+SCENE world_tournament
+CARD The semi-finals...
+PLACE gohan center right nervous
+PLACE piccolo midleft right smug
+PICCOLO (smug): Gohan. Don't hold back. I won't.
+GOHAN (nervous): Mr. Piccolo, I don't want to hurt you.
+PICCOLO (smug): Use the math, Gohan.
+GOHAN (excited): Forty-five degrees, every three seconds!
+SFX blast
+SHAKE 1.0
+NARRATOR: Gohan dodged every attack. Then he hit Piccolo with a single punch. At precisely the right angle.
+PICCOLO (surprised): ...Well calculated.
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC tense
+SCENE world_tournament
+PLACE chi_chi center left excited
+PLACE bulma midright left excited
+CHI_CHI (excited): Gohan won! My baby's in the finals!
+BULMA (nervous): And so are Goku and Vegeta. It's a three-way final.
+CHI_CHI (smug): It doesn't matter who wins, as long as it's a Son.
+BULMA (angry): Excuse me, Vegeta's going to win.
+CHI_CHI (angry): Over my dead curtains!
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC action
+SCENE world_tournament
+CARD The finals...
+PLACE goku center right excited
+PLACE vegeta midleft right angry
+PLACE gohan right left nervous
+VEGETA (angry): Finally, Kakarot. No monsters. No androids. No bathroom breaks.
+GOKU (excited): This is gonna be so fun!
+GOHAN (nervous): Um. Should I just... stand here?
+SFX blast
+SHAKE 1.0
+NARRATOR: Goku and Vegeta clashed in the middle of the ring. The ground shook. The crowd screamed. The sky turned gold.
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC action 2
+SCENE world_tournament
+PLACE goku center right excited
+PLACE vegeta midleft right angry
+PLACE gohan farright left nervous
+SFX blast
+SHAKE 1.0
+VEGETA (angry): I will not lose to you again!
+GOKU (excited): Then you better hit harder, Vegeta!
+SFX blast
+SHAKE 1.0
+NARRATOR: They fought for an hour. They punched so hard they flew straight up. Up out of the arena. Up past the clouds.
+GOHAN (surprised): ...Dad? Vegeta?
+
+# ------------------------------------------------------------ WORLD TOURNAMENT
+MUSIC happy
+SCENE world_tournament
+PLACE master_roshi center left surprised
+PLACE gohan midright left surprised
+MASTER_ROSHI (surprised): Uh. Both fighters have left the ring. By flying out of it. That's... a ring out!
+GOHAN (surprised): Both of them?
+MASTER_ROSHI (excited): Which means the last fighter standing is Gohan! Gohan wins the tournament!
+GOHAN (surprised): I won? By standing here?
+MASTER_ROSHI (happy): Sometimes that's all it takes, kid.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC romantic
+SCENE goku_house
+CARD That evening...
+PLACE chi_chi center left excited
+PLACE gohan midright left happy
+PLACE goku right left happy
+CHI_CHI (excited): Ten million zeni! My smart, brave, wonderful boy!
+GOHAN (happy): I didn't really do anything, Mom.
+GOKU (happy): You stayed in the ring, Gohan. That's the most important rule. Me and Vegeta forgot it.
+CHI_CHI (smug): And now we have new curtains.
+NARRATOR: Somewhere far above the clouds, Vegeta was still waiting for Goku to come back and finish the fight. He didn't come down until Tuesday.
+END

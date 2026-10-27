@@ -1,0 +1,160 @@
+@title Krillin's Big Date
+@series Dragon Ball Z
+@season 1
+@icon dragonball
+@number 8
+@description Krillin has a first date with a girl he met at the West City library, and he's terrified. Everyone gives him advice. Goku says eat a lot. Vegeta says show no mercy. Master Roshi says nothing useful.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC happy
+SCENE kame_house cut
+TITLE
+PLACE krillin center left nervous
+PLACE master_roshi midright left smug
+KRILLIN (nervous): Master Roshi, I have a date. A real date. Tomorrow night. With a girl from the library.
+MASTER_ROSHI (surprised): A date? You? Krillin? Our Krillin?
+KRILLIN (sad): Why does everyone say it like that?
+MASTER_ROSHI (smug): Well, my boy, you've come to the right place. I'm an expert in romance.
+KRILLIN (nervous): Since when?
+MASTER_ROSHI (happy): Since 1952. She was a turtle. It didn't work out.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC jazz
+SCENE goku_house
+PLACE goku center right happy
+PLACE chi_chi midleft right smug
+ENTER krillin right farright nervous
+KRILLIN (nervous): Goku, you're married. How do you get a girl to like you?
+GOKU (happy): Easy! Eat a lot! Chi-Chi fell in love with me 'cause I ate eleven bowls of rice.
+CHI_CHI (angry): That is NOT why I fell in love with you!
+GOKU (surprised): It's not?
+CHI_CHI (smug): Krillin, sweetie. Just be polite. Listen to her. And bring flowers.
+KRILLIN (excited): Flowers! Thanks, Chi-Chi!
+
+# ------------------------------------------------------------ GRAVITY ROOM
+MUSIC tense
+SCENE gravity_room
+PLACE vegeta center left angry
+ENTER krillin right midright nervous
+VEGETA (angry): Why are you in my gravity room, bald one?
+KRILLIN (nervous): Bulma said you'd have advice. About dates.
+VEGETA (smug): Hmph. Advice. Fine. Show no weakness. No mercy. Never let her see you sweat.
+KRILLIN (nervous): That sounds like fighting advice.
+VEGETA (smug): Love is a battlefield, Krillin. And I always win.
+KRILLIN (surprised): Bulma married you, so I guess that's true.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz 2
+SCENE capsule_corp
+PLACE bulma center left happy
+PLACE krillin midright left nervous
+BULMA (happy): Okay, Krillin. Here's a capsule with a nice suit in it. And a capsule with a nice car.
+KRILLIN (surprised): A car?
+BULMA (smug): Nobody wants to be flown to dinner by their date. It messes up your hair.
+KRILLIN (nervous): I don't have any hair.
+BULMA (happy): Her hair, Krillin.
+KRILLIN (excited): Right! Right. Thanks, Bulma.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC jazz 2
+SCENE kame_house
+PLACE krillin center left nervous
+PLACE master_roshi midright left smug
+KRILLIN (nervous): Okay, Master Roshi. Pretend you're her. I'll practice. "Hi. You look nice tonight."
+MASTER_ROSHI (smug): Oh, Krillin. You're so handsome. And so bald. I love that.
+KRILLIN (angry): She wouldn't say that!
+MASTER_ROSHI (happy): She might! Bald is very in this year.
+KRILLIN (nervous): "So. Do you like books? I like books. I read one once."
+MASTER_ROSHI (smug): Better. A little desperate. But better.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC romantic
+SCENE west_city
+CARD The next night...
+PLACE krillin center right nervous
+NARRATOR: Krillin was ready. He had a suit. He had a car. He had flowers. He had sweat on every part of his body.
+KRILLIN (nervous): Okay. Be cool. Be polite. Listen. Don't eat eleven bowls of rice.
+KRILLIN (nervous): Show no mercy? No. That was bad advice.
+KRILLIN (scared): Why did I ask Vegeta?!
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC sneaky
+SCENE west_city
+PLACE goku center left excited
+PLACE master_roshi midleft right excited
+PLACE vegeta left right angry
+GOKU (excited): Shh! There he is! Across the street!
+MASTER_ROSHI (excited): We're just here to support him. From a distance. With binoculars.
+VEGETA (angry): Why am I here?
+GOKU (happy): 'Cause you're his friend!
+VEGETA (angry): I am NOT his friend!
+VEGETA (nervous): ...Is he going to be okay?
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC tense
+SCENE west_city
+PLACE krillin center right nervous
+NARRATOR: The date started well. She loved the flowers. She loved the car. Then the waiter came.
+KRILLIN (nervous): Um. I'll have the salad. A small salad. Very polite.
+NARRATOR: Then, across the street, Goku's stomach growled so loudly that the windows shook.
+SFX thud
+SHAKE 0.6
+KRILLIN (scared): Oh no.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC action
+SCENE west_city
+PLACE goku center left nervous
+PLACE vegeta midleft right angry
+PLACE master_roshi left right nervous
+VEGETA (angry): Kakarot! You fool! Your stomach gave away our position!
+GOKU (nervous): Sorry! I didn't eat dinner! I was too busy spying!
+MASTER_ROSHI (scared): He's looking this way! Everybody hide!
+NARRATOR: The three most powerful fighters on Earth hid behind a very small mailbox. It did not work.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC sad
+SCENE west_city
+PLACE krillin center right sad
+ENTER goku left midleft sad
+ENTER vegeta left left angry
+KRILLIN (sad): Guys. What are you doing here?
+GOKU (sad): We just wanted to make sure you were okay, buddy.
+KRILLIN (sad): She went to the bathroom. I think she saw you. Three guys hiding behind a mailbox.
+VEGETA (angry): I was not hiding! I was strategically positioned!
+KRILLIN (sad): She's probably never coming back.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC romantic 2
+SCENE west_city
+PLACE krillin center right surprised
+NARRATOR: But she did come back. And she was laughing.
+NARRATOR: She said she'd never seen anybody with friends who cared so much they'd hide behind a mailbox for him.
+KRILLIN (surprised): You're... not mad?
+KRILLIN (happy): You think it's sweet?
+KRILLIN (shy): Oh. Well. Yeah. They're pretty great. Even the angry one.
+
+# ------------------------------------------------------------ WEST CITY
+MUSIC happy
+SCENE west_city
+PLACE krillin center right happy
+PLACE goku midleft right excited
+PLACE vegeta left right nervous
+PLACE master_roshi midright left happy
+NARRATOR: She invited them all to join. For dessert. Goku ate eleven slices of cake.
+GOKU (excited): This is the best date ever!
+KRILLIN (smug): It's MY date, Goku.
+VEGETA (shy): ...The cake is acceptable.
+MASTER_ROSHI (happy): Ah, young love. Just like me and the turtle.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC romantic
+SCENE kame_house
+CARD The next morning...
+PLACE krillin center left happy
+PLACE master_roshi midright left smug
+KRILLIN (happy): Master Roshi, she wants to go out again. Next Saturday.
+MASTER_ROSHI (smug): Wonderful! We'll bring better binoculars.
+KRILLIN (angry): NO!
+MASTER_ROSHI (happy): And a bigger mailbox.
+END

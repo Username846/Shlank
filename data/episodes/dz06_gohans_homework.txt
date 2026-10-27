@@ -1,0 +1,164 @@
+@title Gohan's Homework
+@series Dragon Ball Z
+@season 1
+@icon dragonball
+@number 6
+@description Chi-Chi says Gohan can't train until he finishes his math homework. Goku can't help, because Goku doesn't know math. Piccolo volunteers. Piccolo also doesn't know math, but he's too proud to say so.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC happy
+SCENE goku_house cut
+TITLE
+PLACE chi_chi center left angry
+PLACE gohan midright left nervous
+PLACE goku right left happy
+CHI_CHI (angry): Gohan! No training until you finish all forty math problems!
+GOHAN (nervous): All forty, Mom? But Piccolo's waiting for me in the wasteland!
+CHI_CHI (angry): Piccolo can wait! A scholar doesn't skip his fractions!
+GOKU (happy): Aw, come on, Chi-Chi. Math can't be that hard. Let me help!
+CHI_CHI (smug): Goku. What's seven times eight?
+GOKU (nervous): Uh. A lot?
+CHI_CHI (angry): OUT!
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC jazz
+SCENE rocky_wasteland
+PLACE piccolo center left neutral
+ENTER goku right midright nervous
+PICCOLO (neutral): Goku. Where's Gohan? Training started an hour ago.
+GOKU (nervous): Chi-Chi says he can't come until he finishes his math. Forty problems.
+PICCOLO (angry): Ridiculous. A warrior doesn't need math.
+GOKU (happy): That's what I said! Then she asked me what seven times eight was.
+PICCOLO (smug): Fifty-six.
+GOKU (surprised): Whoa! Piccolo, you know math?
+PICCOLO (nervous): ...Some.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC sneaky
+SCENE goku_house
+PLACE gohan center right sad
+PLACE chi_chi midleft right smug
+ENTER piccolo right farright neutral
+PICCOLO (neutral): Woman. I will tutor the boy. He'll finish faster with me.
+CHI_CHI (surprised): You? Tutor? Do you even own a pencil?
+PICCOLO (smug): I can make one. With my mind.
+CHI_CHI (nervous): Fine. But if he gets a single problem wrong, you're both doing dishes for a month.
+GOHAN (happy): Thanks, Mr. Piccolo!
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC jazz 2
+SCENE goku_house
+PLACE gohan center right nervous
+PLACE piccolo midleft right neutral
+GOHAN (nervous): Problem one. "If a train leaves the station going sixty miles an hour..."
+PICCOLO (smug): Simple. You fly faster than the train.
+GOHAN (nervous): Mr. Piccolo, I don't think that's the answer.
+PICCOLO (angry): It's always the answer.
+GOHAN (nervous): "...how long will it take to travel one hundred and twenty miles?"
+PICCOLO (nervous): ...Two hours. Obviously.
+GOHAN (happy): That's right!
+PICCOLO (smug): Of course it's right.
+
+# ------------------------------------------------------------ KAME HOUSE
+MUSIC happy 2
+SCENE kame_house
+PLACE krillin center left happy
+PLACE master_roshi midright left smug
+ENTER goku right right sad
+GOKU (sad): Krillin, Gohan can't train today. Homework.
+KRILLIN (happy): Ha! I remember homework. Master Roshi used to make me do a hundred push-ups for every wrong answer.
+MASTER_ROSHI (smug): And you got stronger AND smarter. Two birds with one stone.
+GOKU (surprised): You did math too, Master Roshi?
+MASTER_ROSHI (happy): I invented some of it. Long, long ago.
+KRILLIN (nervous): He didn't invent math, Goku.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC tense
+SCENE goku_house
+PLACE gohan center right nervous
+PLACE piccolo midleft right nervous
+GOHAN (nervous): Problem thirty-two. "What is three-eighths plus two-fifths?"
+PICCOLO (nervous): Fractions.
+GOHAN (nervous): Mr. Piccolo? You're sweating.
+PICCOLO (angry): Namekians don't sweat! It's... humidity!
+GOHAN (surprised): You don't know fractions, do you?
+PICCOLO (sad): Nobody on Namek ever needed to split a pie, Gohan.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC jazz
+SCENE capsule_corp
+PLACE bulma center left smug
+ENTER gohan right midright nervous
+ENTER piccolo right right nervous
+BULMA (smug): Let me get this straight. The great Piccolo came to Capsule Corp for help with fourth grade math?
+PICCOLO (angry): Tell anyone and I'll destroy this building.
+BULMA (happy): Relax, big guy. Fractions are easy. Think of it like a pizza.
+GOHAN (excited): A pizza?
+BULMA (smug): Three-eighths of a pizza plus two-fifths of a pizza. How much pizza do you have?
+PICCOLO (nervous): I... don't eat pizza. I only drink water.
+
+# ------------------------------------------------------------ CAPSULE CORP
+MUSIC happy
+SCENE capsule_corp
+PLACE bulma center left happy
+PLACE gohan midright left excited
+PLACE vegeta right left angry
+VEGETA (angry): Why is there a Namekian doing homework in my kitchen?
+BULMA (happy): He's learning fractions, Vegeta. Want to help?
+VEGETA (smug): The prince of all Saiyans does not do fractions.
+GOHAN (excited): The answer's thirty-one fortieths!
+VEGETA (surprised): ...That's correct. I mean. Obviously. I knew that.
+BULMA (smug): Sure you did, honey.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC tense 2
+SCENE goku_house
+CARD Four hours later...
+PLACE chi_chi center left neutral
+PLACE gohan midright left nervous
+PLACE piccolo right left nervous
+CHI_CHI (neutral): Forty problems. Let me check them. One at a time.
+NARRATOR: Chi-Chi checked them. One at a time. It was the tensest ten minutes of Piccolo's life. And he had fought Frieza.
+CHI_CHI (surprised): Forty out of forty. Every single one is right.
+GOHAN (excited): We did it, Mr. Piccolo!
+PICCOLO (shy): You did it. I just... watched.
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC action
+SCENE rocky_wasteland
+PLACE gohan center right excited
+PLACE piccolo midleft right smug
+PICCOLO (smug): Now. Training. Dodge my attacks.
+GOHAN (excited): Ready!
+SFX blast
+SHAKE 0.6
+GOHAN (smug): Your blasts are coming in at a forty-five degree angle every three seconds. I can predict them!
+PICCOLO (surprised): You're using math? In a fight?
+GOHAN (happy): It's just like the train problem!
+SFX blast
+SHAKE 0.8
+
+# ------------------------------------------------------------ ROCKY WASTELAND
+MUSIC action 2
+SCENE rocky_wasteland
+PLACE gohan center right happy
+PLACE piccolo midleft right surprised
+PLACE goku right left excited
+GOKU (excited): Whoa! Gohan dodged every single blast!
+PICCOLO (surprised): He calculated the angles. In his head.
+GOKU (happy): Huh. Maybe I should learn some math too.
+PICCOLO (smug): Goku. What's seven times eight?
+GOKU (excited): A lot!
+PICCOLO (sad): We'll start small.
+
+# ------------------------------------------------------------ GOKU'S HOUSE
+MUSIC romantic
+SCENE goku_house
+CARD That night...
+PLACE chi_chi center left happy
+PLACE gohan midright left happy
+CHI_CHI (happy): Gohan, I'm so proud of you. Forty out of forty. And Piccolo says you're getting stronger too.
+GOHAN (happy): He says math made me a better fighter, Mom.
+CHI_CHI (smug): See? I told you. Brains and brawn.
+GOHAN (smug): And Mr. Piccolo wants to come back tomorrow. He says he has more questions about pizza.
+END
