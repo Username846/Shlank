@@ -93,6 +93,7 @@ PLACE kirby midright left happy
 PLACE gooey midleft right neutral
 WADDLE_DOO (surprised): You caught all forty-two sheep! And you didn't eat a single one!
 KIRBY (happy): Poyo!
+HOLD waddle_doo cookie
 WADDLE_DOO (happy): Okay, I forgive you for the fence. Here. Have a cookie. A really big one.
 GOOEY (excited): A BIG cookie? How big?
 WADDLE_DOO (smug): Biggest cookie in Dream Land. On top of the tallest hill.
@@ -136,6 +137,7 @@ SCENE cookie_country
 PLACE waddle_dee center left excited
 PLACE bandana_dee midright left excited
 PLACE kirby midleft right neutral
+HOLD bandana_dee spear
 WADDLE_DEE (excited): Kirby! Gooey! Are you going to finish the cookie?
 KIRBY (happy): Poyo!
 BANDANA_DEE (excited): Kirby says we can have the rest! For everybody!

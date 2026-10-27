@@ -48,6 +48,7 @@ MUSIC romantic
 SCENE rooftop
 PLACE arnold center right happy
 PLACE helga midleft right shy
+HOLD arnold watering_can
 NARRATOR: They planted the beans in a row of paper cups. Arnold watered them. Helga pretended not to watch Arnold water them.
 ARNOLD (happy): You know, Helga, you're actually a pretty good partner.
 HELGA (shy): I... am?
@@ -106,6 +107,7 @@ CARD Six in the morning...
 PLACE helga center right nervous
 ENTER arnold left left surprised
 ARNOLD (surprised): Helga? What are you doing on my roof at six in the morning?
+HOLD helga potted_plant
 HELGA (scared): Me? Nothing! Sleepwalking! I sleepwalk! On roofs! Of football heads!
 ARNOLD (surprised): Is that a new bean plant? Where are the other cups?
 HELGA (sad): The storm got them. All of them. I... bought a new one. So we'd have something to show.

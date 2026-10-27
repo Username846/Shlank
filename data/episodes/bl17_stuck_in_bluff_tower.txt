@@ -81,6 +81,7 @@ SFX beep
 MR_DINK (happy): The Pocket Weather Machine says... it's sunny outside!
 ROGER (smug): Great. We're stuck in the sunshine.
 SFX zap
+HOLD mr_dink laser_pointer
 MR_DINK (excited): The Laser Pointer Deluxe! It points at things! Very far away!
 ROGER (angry): We're in a metal box, Mr. Dink!
 
@@ -141,6 +142,7 @@ MR_DINK (surprised): Point it at the street? Why?
 DOUG (smug): Patti and Skeeter are probably waiting down there. If they see the light, they'll know which floor we're on.
 BEEBE (excited): Doug, that's brilliant!
 SFX zap
+HOLD mr_dink laser_pointer
 MR_DINK (happy): The Laser Pointer Deluxe! Finally useful! Worth every penny!
 
 # ------------------------------------------------------------ BLUFFINGTON DOWNTOWN
@@ -174,6 +176,7 @@ MUSIC romantic 2
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right smug
+HOLD doug journal
 DOUG (happy): Dear Journal. I was stuck in an elevator for two hours. And it was kind of okay.
 DOUG (shy): Beebe was nice. Roger was scared. Mr. Dink was Mr. Dink.
 PORKCHOP (smug): Arf.

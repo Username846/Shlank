@@ -25,6 +25,7 @@ ENTER donkey_kong right farright sad 400
 DONKEY_KONG (sad): Mario! Bananas! Stolen! Help!
 MARIO (surprised): Your banana hoard? All of it?
 DONKEY_KONG (sad): All. Ten thousand. Need detective.
+HOLD luigi magnifying_glass
 LUIGI (excited): Mario! We could be detectives! I've always wanted a magnifying glass!
 MARIO (smug): The Mario Brothers, banana detectives. Let's-a go!
 
@@ -109,6 +110,7 @@ MUSIC happy
 SCENE kong_jungle
 PLACE donkey_kong center left surprised
 ENTER wario right midright sad
+HOLD wario banana
 WARIO (sad): Donkey Kong. Here. Your bananas. All ten thousand. In my wagon. Well, nine thousand, nine hundred and ninety-nine.
 DONKEY_KONG (surprised): Ooh ooh?
 WARIO (sad): I ate one. It was mushy. I'm sorry.
@@ -134,6 +136,7 @@ CARD The Banana Festival...
 PLACE donkey_kong center left excited
 PLACE wario midright left happy
 PLACE toad midleft right excited
+HOLD donkey_kong banana
 DONKEY_KONG (excited): Bananas! Free bananas! For everybody!
 TOAD (excited): Thank you, Donkey Kong! Thank you, Wario!
 WARIO (surprised): They're... thanking me?
@@ -146,6 +149,7 @@ SCENE bowser_castle
 PLACE bowser center left angry
 PLACE goomba midright left happy
 BOWSER (angry): Everybody blamed me. For bananas. I don't even LIKE bananas.
+HOLD goomba basket
 GOOMBA (happy): Donkey Kong sent you a gift basket, boss. To say sorry.
 BOWSER (surprised): A gift basket? For me?
 GOOMBA (smug): It's full of bananas.

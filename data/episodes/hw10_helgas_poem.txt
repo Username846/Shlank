@@ -12,6 +12,7 @@ TITLE
 PLACE helga center right scared
 PLACE phoebe midleft right nervous
 HELGA (scared): Phoebe! The school paper! Page four! Read it!
+HOLD phoebe newspaper
 PHOEBE (nervous): "Ode to a Boy with a Head Like a Football. Oh, golden-haired angel, oh, kind-hearted lad..."
 HELGA (scared): That's MY poem! From my secret pink book! How did it get in the newspaper?!
 PHOEBE (nervous): I believe you dropped a page in the library. Someone must have put it in the submissions box.
@@ -38,6 +39,7 @@ PLACE arnold center right neutral
 HOLD arnold none
 ARNOLD (neutral): "Your kindness is sunshine, your smile is a song. With you by my side, nothing could go wrong."
 ARNOLD (happy): It's actually really good. Whoever wrote it really means it.
+HOLD arnold newspaper
 NARRATOR: Arnold read the poem eleven times. He decided he had to find the poet. Just to say thank you.
 ARNOLD (excited): Tomorrow I'll start investigating.
 
@@ -50,6 +52,7 @@ PLACE harold midright left neutral
 ARNOLD (excited): Okay. The poet uses a lot of big words. And the handwriting has little hearts over the "i"s.
 GERALD (smug): Hearts over the "i"s? That's a girl.
 HAROLD (smug): Or a really fancy guy.
+HOLD arnold newspaper
 ARNOLD (happy): And it smells a little like strawberries. The paper, I mean.
 GERALD (surprised): You smelled the paper?
 ARNOLD (shy): ...It's a clue, Gerald.
@@ -71,6 +74,7 @@ MUSIC jazz 2
 SCENE hillwood_park
 PLACE rhonda center left smug
 ENTER arnold right midright nervous
+HOLD arnold newspaper
 ARNOLD (nervous): Rhonda, can I ask you something? Did you write the poem in the newspaper?
 RHONDA (surprised): Me? Write a love poem about YOU? Arnold, darling, please. I date in the sixth grade.
 ARNOLD (neutral): But you use strawberry lotion. And you draw hearts on your "i"s.
@@ -95,6 +99,7 @@ SCENE arnold_room
 CARD That night...
 PLACE arnold center right shy
 NARRATOR: Arnold sat down to write a reply. It took him four hours and fourteen crumpled pages.
+HOLD arnold letter
 ARNOLD (shy): "To the secret poet. I don't know who you are. But thank you. You made a boy with a football head feel like the most important person in Hillwood."
 ARNOLD (happy): "Whoever you are, I hope you're happy too. Signed, Arnold."
 
@@ -106,6 +111,7 @@ PLACE helga center right surprised
 PLACE phoebe midleft right happy
 HELGA (surprised): Phoebe. Page four. He wrote back. To me. Well, to the poet. Which is me.
 PHOEBE (happy): Read it, Helga.
+HOLD helga newspaper
 HELGA (shy): "You made a boy with a football head feel like the most important person in Hillwood."
 HELGA (excited): He liked it! He liked my poem! Oh, joy! Oh, rapture!
 PHOEBE (smug): Will you tell him it was you?

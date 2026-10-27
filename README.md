@@ -168,7 +168,7 @@ emotion is optional and stays until it's changed.
 | `MOVE <who> <pos> [speed]` / `RUN <who> <pos>` | Walks or runs to a position |
 | `FACE <who> <left\|right\|other-character>` | Turns around |
 | `EMOTE <who> <emotion>` | Changes expression |
-| `HOLD <who> <prop\|none>` | Props: `golden_spatula`, `spatula`, `patty`, `net`, `clarinet`, `detector`, `money`, `locket`, `ice_cream`, `fishing_rod`, `beeper` |
+| `HOLD <who> <prop\|none>` | Any of the 200+ props in `scripts/props.gd` (e.g. `golden_spatula`, `book`, `cake`, `sword`, `phone`). The editor and cast viewer group them into 12 categories: Food, Drinks, Kitchen, Tools, Music, Gadgets, Paper & Books, Treasure, Sports & Toys, Adventure, Everyday and Nature |
 | `JUMP <who>` | Hop with a boing |
 | `CLOSE <who>` / `MEDIUM <who>` / `WIDE` | Camera shots |
 | `SHAKE [secs]` | Camera shake |

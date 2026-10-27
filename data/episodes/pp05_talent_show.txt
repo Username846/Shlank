@@ -160,6 +160,7 @@ ANGELICA (surprised): Everyone? Even me? I dropped everything!
 SUSIE (happy): You kept going. That's a talent too.
 ANGELICA (shy): Thanks, Susie. Your singing was really good.
 SUSIE (smug): I know.
+HOLD angelica trophy
 ANGELICA (happy): Free pizza for everyone!
 
 # ------------------------------------------------------------ NURSERY

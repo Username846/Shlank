@@ -24,6 +24,7 @@ SCENE cerulean_gym
 PLACE misty center left excited
 PLACE ash midright left excited
 PLACE pikachu right left excited
+HOLD misty trophy
 MISTY (excited): Welcome to the Cerulean Gym Open! Any trainer can enter! The winner gets the Golden Splash Trophy!
 ASH (excited): I'm in! Me and Pikachu are gonna win this!
 PIKACHU (excited): Pika pika!
@@ -107,6 +108,7 @@ CARD The night before the finals...
 PLACE jessie center left sad
 PLACE wobbuffet midright left happy
 PLACE meowth midleft right nervous
+HOLD wobbuffet pen
 JESSIE (sad): Look at him, Meowth. Signing autographs. He can't even hold a pen.
 MEOWTH (nervous): He's just pressing his tail in the ink, Jessie.
 WOBBUFFET (happy): Wobba!
@@ -183,6 +185,7 @@ CARD That evening...
 PLACE giovanni center left neutral
 PLACE jessie midright left excited
 PLACE wobbuffet right left happy
+HOLD jessie trophy
 JESSIE (excited): Boss! We won! Well, half won! Here's half a trophy!
 GIOVANNI (neutral): Half a trophy.
 JESSIE (happy): Wobbuffet did it. My Wobbuffet. With my help.

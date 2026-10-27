@@ -11,6 +11,7 @@ SCENE big_bobs cut
 TITLE
 PLACE big_bob center left nervous
 PLACE helga midleft right smug
+HOLD big_bob beeper
 BIG_BOB (nervous): Olga! I mean, Helga! We've got a problem. I ordered a thousand beepers by mistake.
 HELGA (smug): How do you order a thousand beepers by mistake?
 BIG_BOB (angry): The guy said "a few hundred" and I said "make it a thousand"! It was a power move!
@@ -40,6 +41,7 @@ SCENE hillwood_street
 CARD Saturday...
 PLACE harold center left happy
 PLACE stinky midright left nervous
+HOLD harold beeper
 HAROLD (happy): Beepers! Get your beepers! They beep! That's all they do!
 STINKY (nervous): Harold, I don't think that's how sellin' works.
 HAROLD (angry): Then how do YOU do it?
@@ -52,6 +54,7 @@ MUSIC jazz 2
 SCENE slausens
 PLACE rhonda center left smug
 PLACE phoebe midright left neutral
+HOLD rhonda beeper
 RHONDA (smug): The trick is presentation. Beepers in pastel cases. With bows.
 PHOEBE: I calculated that people buy forty percent more when the product matches their shoes.
 RHONDA (excited): Phoebe, you're a genius! Pink beepers for pink shoes!
@@ -63,6 +66,7 @@ MUSIC happy 2
 SCENE hillwood_park
 PLACE arnold midleft right happy
 PLACE grandpa center left happy
+HOLD arnold beeper
 ARNOLD (happy): Grandpa, would you like a beeper?
 GRANDPA (smug): What would I do with a beeper, Shortman?
 ARNOLD (happy): Grandma could beep you when dinner's ready. Or when she's planning a sneak attack.
@@ -75,6 +79,7 @@ MUSIC action
 SCENE gerald_field
 PLACE gerald center left smug
 PLACE sid midright left nervous
+HOLD gerald beeper
 GERALD (smug): Sid, watch and learn. Beepers are about the legend.
 SID (nervous): The legend?
 GERALD (excited): Legend has it, the first beeper ever made can beep from the moon. And this could be it.
@@ -100,6 +105,7 @@ MUSIC jazz 3
 SCENE boarding_kitchen
 PLACE grandma center left excited
 PLACE grandpa midright left smug
+HOLD grandma beeper
 GRANDMA (excited): Eleanor sold me a beeper! Now I can call in air support!
 GRANDPA (scared): Pookie, who exactly are you beeping?
 GRANDMA (smug): The other beeper. Which is yours.
@@ -125,6 +131,7 @@ MUSIC sneaky
 SCENE cafeteria
 PLACE harold center left sad
 PLACE phoebe midright left neutral
+HOLD harold beeper
 HAROLD (sad): I sold zero beepers. Zero. I'm the worst salesman in Hillwood.
 PHOEBE (happy): You did eat forty-two free samples of Mister Green's sausages at the stand next door.
 HAROLD (smug): That's a different kind of talent.
@@ -139,6 +146,7 @@ PLACE helga center left excited
 PLACE arnold midleft right happy
 PLACE gerald left right smug
 PLACE sid midright left nervous
+HOLD helga beeper
 HELGA (excited): Okay, people! Two hundred beepers! One hour! Let's go!
 SID (nervous): What if nobody wants them? What if beepers are cursed?
 GERALD (smug): Sid, the fishermen want them. They can beep each other when the fish are biting.

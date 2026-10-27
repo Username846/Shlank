@@ -61,6 +61,7 @@ SCENE crystal_cave
 PLACE jessie center left excited
 PLACE james midright left excited
 PLACE meowth midleft right smug
+HOLD jessie crystal
 JESSIE (excited): Look at all these crystals! We'll be rich!
 JAMES (excited): And the Boss will finally love us!
 MEOWTH (smug): Stand back. Meowth's mega drill will have this whole wall down in two minutes.

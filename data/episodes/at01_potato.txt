@@ -15,6 +15,7 @@ JEAN (angry): Empty. The whole potato barrel is empty. Again.
 CONNIE_SPRINGER (nervous): Maybe the potatoes ran away? Can potatoes run?
 ENTER sasha right right nervous
 SASHA (nervous): Morning, everyone! Lovely day! Nobody's mad at me, right?
+HOLD sasha potato
 JEAN (angry): Sasha. Where are the potatoes?
 SASHA (scared): It wasn't me this time! I swear on my stomach!
 ENTER eren left left angry
@@ -89,7 +90,7 @@ MUSIC action 2
 SCENE wall_gate
 ENTER smiling_titan right midright happy
 SMILING_TITAN (happy): Hehehe...
-HOLD smiling_titan money
+HOLD smiling_titan sack
 ENTER eren left midleft angry 500
 EREN (angry): Hey! Drop that sack!
 SMILING_TITAN (scared): Hehe?
@@ -132,6 +133,7 @@ PLACE armin midright left happy
 ERWIN: So. The Titan isn't a thief. It's lonely.
 ARMIN (happy): It only took potatoes because it saw us eating them. It wanted to join in.
 LEVI (smug): We are not adopting a Titan.
+HOLD erwin potato
 ERWIN (happy): No. But we can share one potato. As a gesture.
 
 # ------------------------------------------------------------ UNDERGROUND CITY

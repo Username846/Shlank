@@ -50,6 +50,7 @@ MUSIC action
 SCENE desert_land
 PLACE daisy center left excited
 ENTER luigi left midleft nervous
+HOLD daisy egg
 DAISY (excited): Luigi! I found an egg in the sand! It's warm!
 LUIGI (happy): The desert must be keeping it cozy! That's five!
 DAISY (smug): I also found a cactus, a lost sunglasses and a sleeping snake.
@@ -71,6 +72,7 @@ MARIO (sad): It's a snowball with a green leaf stuck on it. Mamma mia.
 MUSIC sneaky
 SCENE water_land
 PLACE mario center right excited
+HOLD mario egg
 MARIO (excited): An egg! Floating by the coral! Wahoo!
 SFX bubbles
 MARIO (nervous): It's floating away. Faster than I can swim.
@@ -83,6 +85,7 @@ MUSIC sneaky 2
 SCENE bowser_castle
 PLACE bowser center left excited
 PLACE goomba midright left nervous
+HOLD bowser egg
 BOWSER (excited): Goomba! I found a spotted egg in my bathtub!
 GOOMBA (nervous): That's one of Yoshi's eggs, boss.
 BOWSER (smug): Then I'll keep it! And hatch my own Yoshi! An evil Yoshi!

@@ -46,6 +46,7 @@ GUS (happy): Then I will make you a chicken pizza. Just this once.
 MUSIC tense
 SCENE white_backyard
 ENTER walt left midleft excited
+HOLD walt pizza
 WALT (excited): Skyler! I'm home! With a chicken pizza! It's very exotic!
 NARRATOR: Walt tripped on a garden hose. The pizza box flew out of his hands, spun through the air, and landed perfectly flat. On the roof.
 SFX whoosh
@@ -91,6 +92,7 @@ JESSE (excited): We brought the ladder, yo!
 WALT (nervous): That's two ladders and an entire roll of tape.
 BADGER (happy): Fifty percent stronger than one ladder.
 WALT (smug): That's not how strength works.
+HOLD skinny_pete tape
 SKINNY_PETE (smug): Trust the tape, Mister W.
 SFX squeak
 WALT (scared): It's wobbling. Why is it wobbling?
@@ -159,6 +161,7 @@ PLACE skyler center left smug
 PLACE flynn midright left excited
 PLACE walt midleft right happy
 PLACE hank left right sad
+HOLD walt pizza
 WALT (happy): Dinner is served. One slightly damp chicken pizza.
 FLYNN (excited): It's still warm! That's amazing!
 SKYLER (smug): It's soggy, Walt.

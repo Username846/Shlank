@@ -37,6 +37,7 @@ PLACE jessie center left smug
 PLACE james midright left smug
 PLACE wobbuffet left right happy
 JESSIE (smug): Attention, citizens! By order of the police, all Pokémon must be registered today!
+HOLD james sack
 JAMES (smug): Simply bring your Pokémon to the booth. And leave them in this totally normal, totally official sack.
 WOBBUFFET (excited): Wobbuffet!
 JESSIE (angry): Not now, Wobbuffet! You're supposed to be a police dog!
@@ -63,6 +64,7 @@ PLACE james midright left smug
 ENTER ash right farright excited
 ENTER pikachu right right happy
 ASH (excited): Hi, Officer! I'm here to register Pikachu!
+HOLD james sack
 JESSIE (smug): Ah, wonderful. Just put him in the official sack.
 ASH (surprised): In a sack?
 JAMES (nervous): It's... a very comfortable sack. With a little pillow.
@@ -77,6 +79,7 @@ ENTER james right midright nervous
 JAMES (nervous): Excuse me, shopkeeper. I'll need fifty of your largest sacks. For, um, police business.
 MISTY (surprised): Fifty sacks? What are the police doing with fifty sacks?
 JAMES (nervous): Registering. Very large amounts of registering.
+HOLD james rose
 MISTY (smug): Officer, why is there a rose in your police pocket?
 JAMES (scared): Police roses! All the officers have them! It's for... smelling crime!
 EXIT james right 600
@@ -86,6 +89,7 @@ MISTY (angry): Something is very fishy about this registration day.
 MUSIC romantic
 SCENE sunny_beach
 PLACE officer_jenny center left happy
+HOLD officer_jenny book
 OFFICER_JENNY (happy): Ahh. Sun. Sand. No crime. Just me and a good book.
 NARRATOR: Officer Jenny read four pages. Then she started wondering what was happening in town.
 OFFICER_JENNY (nervous): I'm sure everything is fine. My cousin is very responsible.
@@ -114,6 +118,7 @@ BROCK (angry): Ash! That's not Officer Jenny! The real cousin isn't even here ye
 ASH (surprised): Then who are you?
 JESSIE (excited): Prepare for trouble!
 JAMES (excited): And make it double!
+HOLD meowth sack
 MEOWTH (smug): Meowth! That's right! And we got a whole sack full of Pokémon!
 ASH (angry): Give them back!
 
@@ -138,6 +143,7 @@ PLACE james left right scared
 OFFICER_JENNY (angry): I leave for one afternoon. One!
 JESSIE (nervous): You must be Officer Jenny's cousin!
 OFFICER_JENNY (smug): I'm the real Officer Jenny. I came back because I had a bad feeling.
+HOLD james clipboard
 JAMES (sad): We were so close. I had a clipboard and everything.
 OFFICER_JENNY (angry): Open the sack. Now.
 

@@ -34,6 +34,7 @@ SCENE sacred_world
 PLACE gohan center right excited
 SFX shing
 SHAKE 0.8
+HOLD gohan sword
 NARRATOR: With a huge crack, the sword came out of the stone. The whole planet shook. Gohan held the Z Sword over his head.
 GOHAN (excited): I did it! I pulled out the Z Sword!
 GOHAN (nervous): It's... really heavy. Like, really, really heavy.
@@ -58,6 +59,7 @@ SCENE sacred_world
 CARD Training with the sword...
 PLACE gohan center right angry
 SFX sword
+HOLD gohan sword
 NARRATOR: For days, Gohan swung the Z Sword. At first, it was too heavy. Then it was just heavy. Then it felt like part of his arm.
 SFX sword
 GOHAN (excited): I think I've got it! It's like the sword knows what I'm thinking!
@@ -71,8 +73,10 @@ PLACE gohan center right surprised
 SFX sword
 SFX shing
 SHAKE 0.8
+HOLD gohan sword
 NARRATOR: Gohan swung the sword at the metal block. There was a loud clang. And then a loud snap.
 GOHAN (surprised): Uh oh.
+HOLD gohan none
 GOHAN (scared): The sword broke! The legendary Z Sword! I broke it!
 GOHAN (sad): Mom is going to be so mad. And I don't even know how much a legendary sword costs.
 

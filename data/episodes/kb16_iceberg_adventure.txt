@@ -11,6 +11,7 @@ SCENE iceberg cut
 TITLE
 PLACE bandana_dee center left excited
 PLACE kirby midright left happy
+HOLD bandana_dee spear
 NARRATOR: On the coldest day of the year, Kirby and Bandana Dee went ice skating on the giant iceberg near the shore. It was smooth, shiny and perfect for spinning.
 BANDANA_DEE (excited): Kirby! Watch this! A triple spin!
 SFX whoosh
@@ -23,6 +24,7 @@ MUSIC jazz
 SCENE iceberg
 PLACE kirby center right happy
 PLACE bandana_dee midleft right happy
+HOLD bandana_dee spear
 NARRATOR: They skated for hours. They made snow angels. They built a little ice fort next to the igloo. They had so much fun that they didn't notice a loud crack. Or a long, slow creak. Or the shore getting smaller.
 BANDANA_DEE (happy): Kirby, this is the best day! Let's stay here forever!
 KIRBY (happy): Poyo!
@@ -34,6 +36,7 @@ SCENE iceberg
 PLACE bandana_dee center left surprised
 PLACE kirby midright left surprised
 SFX splash
+HOLD bandana_dee spear
 BANDANA_DEE (surprised): Kirby... where's the shore?
 KIRBY (surprised): Poyo?
 NARRATOR: The shore was very, very far away. Just a thin green line. The iceberg had broken off and was floating out to sea.
@@ -46,6 +49,7 @@ SCENE dedede_castle
 PLACE dedede center left smug
 PLACE waddle_dee midright left nervous
 WADDLE_DEE (nervous): Your Majesty! Kirby and Bandana Dee are floating out to sea! On the iceberg!
+HOLD dedede cake
 DEDEDE (smug): Ha! Good riddance! Now nobody will steal my cake!
 WADDLE_DEE (sad): Sir... Bandana Dee is one of us. He's a Waddle Dee.
 DEDEDE (surprised): ...My Bandana Dee? My best spear-holder?
@@ -58,6 +62,7 @@ SCENE iceberg
 CARD Hours later...
 PLACE bandana_dee center left sad
 PLACE kirby midright left nervous
+HOLD bandana_dee spear
 NARRATOR: The sun was going down. The iceberg was getting smaller. A little bit melted every hour. Bandana Dee sat in the igloo, holding his spear.
 BANDANA_DEE (sad): Kirby. What if nobody comes? What if the iceberg melts all the way?
 KIRBY (nervous): Poyo...
@@ -71,6 +76,7 @@ SCENE iceberg
 PLACE kirby center right excited
 PLACE bandana_dee midleft right surprised
 SFX sparkle
+HOLD bandana_dee spear
 NARRATOR: Then Kirby had an idea. He took a deep breath. He inhaled a big chunk of ice from the iceberg. And when he puffed back out, he had a frosty blue hat.
 KIRBY (excited): Poyo!
 BANDANA_DEE (surprised): The Ice ability! What are you going to do?
@@ -83,6 +89,7 @@ MUSIC action
 SCENE iceberg
 PLACE bandana_dee center left excited
 PLACE kirby midright left happy
+HOLD bandana_dee spear
 NARRATOR: All night, Kirby blew ice. He froze the cracks. He froze the edges. He made the iceberg bigger and bigger. Bandana Dee kept watch with his spear.
 BANDANA_DEE (excited): Kirby! A shape! On the water! Something's coming!
 KIRBY (surprised): Poyo?
@@ -95,6 +102,7 @@ SCENE iceberg
 PLACE kine center left excited
 PLACE bandana_dee midright left happy
 PLACE kirby midleft right neutral
+HOLD bandana_dee spear
 KINE (excited): Little dudes! I heard you were lost at sea! I swam all night!
 BANDANA_DEE (happy): Kine! You came back from your vacation?
 KINE (smug): Dude, my best buds were floating away on an ice cube. I can relax later.
@@ -107,6 +115,7 @@ SCENE iceberg
 PLACE kine center left nervous
 PLACE bandana_dee midright left nervous
 PLACE kirby midleft right neutral
+HOLD bandana_dee spear
 NARRATOR: But there was a problem. Kine could carry one passenger at a time. And the shore was very, very far away.
 KINE (nervous): Okay. I can take one of you. Then come back for the other. That's a whole day of swimming, dudes.
 BANDANA_DEE (nervous): Take Kirby first. I'll wait. I'm a Waddle Dee. We're good at waiting.
@@ -130,6 +139,7 @@ SCENE iceberg
 PLACE dedede center left happy
 PLACE bandana_dee midright left surprised
 PLACE kine midleft right neutral
+HOLD bandana_dee spear
 BANDANA_DEE (surprised): Your Majesty! You came for me?
 DEDEDE (nervous): Well, I, uh... I needed my best spear-holder back. That's all. Very practical.
 BANDANA_DEE (happy): You were worried!
@@ -143,6 +153,7 @@ CARD That night...
 PLACE dedede center left happy
 PLACE bandana_dee midright left happy
 PLACE kirby midleft right neutral
+HOLD bandana_dee spear
 NARRATOR: That night, back at the castle, there was hot cocoa for everyone. Bandana Dee wrapped himself in three blankets. Kirby wrapped himself in five.
 BANDANA_DEE (happy): Thank you for coming to get me, Your Majesty.
 DEDEDE (shy): ...Don't tell the other Waddle Dees I was worried.

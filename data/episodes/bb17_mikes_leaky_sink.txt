@@ -36,6 +36,7 @@ CARD Saturday...
 PLACE mike center left neutral
 PLACE jesse midright left excited
 SFX door
+HOLD jesse plunger
 JESSE (excited): I brought tools! A wrench. Duct tape. And a plunger.
 MIKE (neutral): A plunger? For a sink?
 JESSE (smug): You never know, man.
@@ -88,6 +89,7 @@ PLACE jesse center right scared
 PLACE walt midleft right excited
 SFX splash
 JESSE (scared): I'm plugging it with my thumb! It's not working!
+HOLD jesse plunger
 WALT (excited): Use the plunger!
 JESSE (surprised): The plunger?!
 WALT (excited): Suction! Pressure differential! Put it over the pipe!
@@ -99,6 +101,7 @@ MUSIC jazz
 SCENE mike_house
 PLACE mike center left neutral
 PLACE jesse midright left smug
+HOLD jesse plunger
 JESSE (smug): See? You always need a plunger.
 MIKE (neutral): Kid. Hold that plunger. Don't move. Don't sneeze. Don't think.
 JESSE (nervous): How long?
@@ -113,6 +116,7 @@ CARD Twenty minutes later...
 PLACE walt center right sad
 PLACE jesse midleft right sad
 WALT (sad): Jesse. Your arms are shaking.
+HOLD jesse plunger
 JESSE (sad): I've been holding a plunger for twenty minutes, Mr. White.
 WALT (nervous): Want me to take a turn?
 JESSE (surprised): You'd do that?
@@ -148,6 +152,8 @@ SCENE mike_house
 PLACE mike center left neutral
 PLACE walt midright left sad
 PLACE jesse right left sad
+HOLD jesse plunger
+HOLD mike wrench
 NARRATOR: The kitchen was soaked. The ceiling dripped. The floor squished. Three grown men stood in a puddle, holding a plunger, a wrench and a roll of duct tape.
 MIKE (neutral): So. Before you two came over, I had one drip.
 WALT (sad): And now?
@@ -176,5 +182,6 @@ WALT (smug): You see, Mike? No half measures. A full measure. Three men. One sin
 MIKE (happy): Walter. You flooded my house.
 WALT (nervous): Temporarily.
 MIKE (smug): Next time, I'm calling a plumber.
+HOLD mike plunger
 NARRATOR: That night, for the first time in three weeks, Mike Ehrmantraut slept like a baby. In his armchair. With the plunger next to him. Just in case.
 END

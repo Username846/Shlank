@@ -19,6 +19,7 @@ SQUIDWARD (happy): Silence. Beautiful, golden silence.
 MUSIC jazz
 SCENE bb_library
 PLACE squidward center right happy
+HOLD squidward book
 NARRATOR: The library was perfect. Soft lights. Soft chairs. A sign that said "Quiet Please." Squidward found the most comfortable chair and opened a book about modern art.
 SQUIDWARD (shy): Ahh. Page one.
 SFX door
@@ -32,6 +33,7 @@ SCENE bb_library
 PLACE squidward center right angry
 PLACE spongebob midleft right excited
 SQUIDWARD (angry): SpongeBob. This is a library. Whisper.
+HOLD spongebob book
 SPONGEBOB (nervous): Sorry! I mean. Sorry. I'm starting a book club! Right here! Today!
 SQUIDWARD (scared): Here? Today?
 SPONGEBOB (happy): The book is "Jellyfishing: A History." It's eight hundred pages. With pictures.
@@ -56,6 +58,7 @@ SCENE bb_library
 PLACE spongebob center right happy
 PLACE patrick midleft right excited
 PLACE squidward right left angry
+HOLD patrick box
 PATRICK (excited): I'm here for the book club! I brought my favorite book!
 SPONGEBOB (happy): What is it, Patrick?
 PATRICK (smug): It's called "The Box." It's a box. It has no words. Just box.
@@ -80,6 +83,7 @@ MUSIC sneaky 2
 SCENE bb_library
 PLACE bubble_bass center left smug
 PLACE spongebob midright left nervous
+HOLD bubble_bass book
 BUBBLE_BASS (smug): Excuse me. I'm returning a book. It's forty years overdue.
 SPONGEBOB (surprised): Forty years?
 BUBBLE_BASS (smug): I didn't like the ending. I was waiting for them to fix it.
@@ -94,6 +98,7 @@ PLACE squidward center right angry
 PLACE spongebob midleft right excited
 PLACE patrick left right excited
 PLACE bubble_bass midright left angry
+HOLD spongebob book
 SPONGEBOB (excited): Chapter one! The first jellyfish net was invented in eighteen-
 BUBBLE_BASS (angry): Eighteen-oh-four! Not eighteen-oh-five! The book is wrong!
 PATRICK (excited): I'm on page one of my box!
@@ -115,6 +120,7 @@ SCENE bb_library
 PLACE spongebob center right happy
 PLACE patrick midleft right happy
 PLACE bubble_bass midright left smug
+HOLD spongebob book
 NARRATOR: Without Squidward, the book club was very quiet. SpongeBob read in a whisper. Bubble Bass wrote his notes in a whisper. Patrick ate crackers in a whisper.
 SPONGEBOB (shy): Chapter four. The great jellyfish migration.
 PATRICK (shy): Ooh.
@@ -139,6 +145,7 @@ SCENE bb_library
 PLACE squidward center right shy
 PLACE spongebob midleft right happy
 PLACE patrick left right happy
+HOLD spongebob book
 NARRATOR: Squidward sat nearby. Then a little closer. By chapter six, he was in the circle. By chapter seven, he was correcting the musical notes in the book.
 SQUIDWARD (smug): Jellyfish don't hum in C major. Everybody knows that. It's B flat.
 SPONGEBOB (excited): Squidward, you're a natural!
@@ -150,6 +157,7 @@ SCENE bb_library
 CARD One month later...
 PLACE squidward center right smug
 PLACE spongebob midleft right excited
+HOLD spongebob book
 NARRATOR: The book club met every Saturday. They read jellyfish books, music books and one very long book about pickles, picked by Bubble Bass.
 SPONGEBOB (excited): Squidward, it's your turn to pick next month's book!
 SQUIDWARD (smug): "The Clarinet: A Love Story." Four volumes.

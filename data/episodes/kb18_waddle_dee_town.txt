@@ -11,6 +11,7 @@ SCENE waddle_dee_town cut
 TITLE
 PLACE waddle_dee center left excited
 PLACE bandana_dee midright left happy
+HOLD bandana_dee spear
 NARRATOR: For one whole year, on their days off, the Waddle Dees had been building something. Brick by brick. Board by board. And today, it was finished. A whole town. Just for Waddle Dees.
 WADDLE_DEE (excited): We did it! Waddle Dee Town! Our very own houses! Our very own bakery!
 BANDANA_DEE (happy): And a town square! With a fountain shaped like a Waddle Dee!
@@ -45,6 +46,7 @@ MUSIC jazz 2
 SCENE waddle_dee_town
 PLACE waddle_dee center left excited
 PLACE bandana_dee midright left surprised
+HOLD bandana_dee spear
 WADDLE_DEE (excited): Bandana Dee! We want YOU to run for mayor!
 BANDANA_DEE (surprised): Me? Mayor?
 WADDLE_DEE (happy): You're the bravest Waddle Dee! You have a spear! And a bandana! You're basically famous!
@@ -69,6 +71,7 @@ MUSIC sad
 SCENE waddle_dee_town
 PLACE bandana_dee center left sad
 PLACE kirby midright left happy
+HOLD bandana_dee spear
 BANDANA_DEE (sad): Kirby. The King has a banner and a band and a giant hat. I just have a spear.
 KIRBY (happy): Poyo.
 BANDANA_DEE (sad): What do I even say in a speech? I've never given a speech.
@@ -82,6 +85,7 @@ SCENE waddle_dee_town
 CARD The speeches...
 PLACE dedede center left smug
 SFX drumroll
+HOLD dedede hammer
 DEDEDE (smug): Citizens! I am the King! I have been King for twenty-one years! I have a castle! I have a hammer! I have the best hat!
 NARRATOR: The Waddle Dees clapped politely. Very politely. The kind of clapping that means "please stop talking."
 DEDEDE (excited): And if I'm mayor, Waddle Dee Town will be renamed... DEDEDE TOWN!
@@ -92,6 +96,7 @@ MUSIC romantic
 SCENE waddle_dee_town
 PLACE bandana_dee center left nervous
 SFX footstep
+HOLD bandana_dee spear
 NARRATOR: Then it was Bandana Dee's turn. He climbed onto the fountain. He held his spear very tight. Every Waddle Dee in town was looking at him.
 BANDANA_DEE (nervous): Um. Hi. I'm Bandana Dee. I don't have a banner. Or a band. Or a hat.
 BANDANA_DEE (shy): But I helped build the third bakery. I carried forty bricks for the fountain. I know every one of your names.
@@ -124,9 +129,12 @@ MUSIC happy 2
 SCENE waddle_dee_town
 PLACE bandana_dee center left surprised
 PLACE dedede midright left nervous
+HOLD bandana_dee spear
 DEDEDE (nervous): Mayor Bandana Dee. Congratulations. Ahem. You did very well.
 BANDANA_DEE (surprised): Thank you, Your Majesty. Will you still need me to hold your spear?
 DEDEDE (smug): Mayors are very busy. I'll hold my own spear.
+HOLD dedede spear
+HOLD bandana_dee none
 BANDANA_DEE (happy): Really?
 DEDEDE (nervous): ...On weekends. You still hold it on weekdays.
 
@@ -136,6 +144,7 @@ SCENE waddle_dee_town
 CARD That evening...
 PLACE bandana_dee center left happy
 PLACE kirby midright left happy
+HOLD bandana_dee spear
 NARRATOR: That evening, Mayor Bandana Dee made his very first official decision. Every Friday in Waddle Dee Town would be Free Cake Day. For everybody. Even kings.
 BANDANA_DEE (happy): Kirby. Thank you for helping me find my speech.
 KIRBY (happy): Poyo!

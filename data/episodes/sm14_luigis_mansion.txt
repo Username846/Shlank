@@ -11,6 +11,7 @@ SCENE mushroom_kingdom cut
 TITLE
 PLACE luigi center right excited
 PLACE mario midleft right surprised
+HOLD luigi letter
 LUIGI (excited): Mario! Mario! I won a mansion! A real mansion! Look at this letter!
 MARIO (surprised): A mansion? What contest did you enter?
 LUIGI (nervous): That's the thing. I didn't enter any contest.
@@ -67,6 +68,7 @@ MUSIC jazz
 SCENE toad_house
 PLACE toad center left excited
 PLACE luigi midright left nervous
+HOLD toad vacuum
 TOAD (excited): Luigi! You need ghost-catching gear? I've got just the thing! A flashlight and a vacuum!
 LUIGI (nervous): A vacuum? For ghosts?
 TOAD (smug): It's a very special vacuum. The Poltergust 3000. Sucks up ghosts. And dust. And socks.
@@ -78,7 +80,9 @@ MUSIC action
 SCENE luigis_mansion
 PLACE luigi center right nervous
 SFX whoosh
+HOLD luigi flashlight
 NARRATOR: The first ghost came out of the closet. Luigi screamed. Then he turned on the flashlight. The ghost froze.
+HOLD luigi vacuum
 LUIGI (scared): It worked! The light freezes them! Now the vacuum!
 SFX whoosh
 NARRATOR: Whoooosh. The ghost went into the vacuum, along with two cobwebs and a lampshade.
@@ -101,6 +105,7 @@ SCENE luigis_mansion
 CARD The library...
 PLACE luigi center right nervous
 SFX gasp
+HOLD luigi vacuum
 NARRATOR: In the library, the books started flying off the shelves. All by themselves. Round and round Luigi's head.
 LUIGI (scared): Flying books! Flying books!
 SFX whoosh
@@ -124,6 +129,7 @@ SCENE luigis_mansion
 PLACE king_boo center left smug
 PLACE luigi midright left angry
 SFX whoosh
+HOLD luigi vacuum
 NARRATOR: King Boo flew around the room. Luigi chased him with the vacuum. King Boo flew up the stairs. Luigi chased him up the stairs. King Boo flew through a wall. Luigi ran into the wall.
 SFX thud
 LUIGI (sad): Ow.
@@ -146,8 +152,10 @@ PLACE luigi midright left nervous
 SFX whoosh
 NARRATOR: Luigi turned his back. King Boo crept closer. And closer. And closer.
 KING_BOO (excited): BOO!
+HOLD luigi flashlight
 LUIGI (angry): FLASHLIGHT!
 SFX zap
+HOLD luigi vacuum
 NARRATOR: The flashlight hit King Boo right in the face. He froze. And Luigi turned on the vacuum.
 SFX whoosh
 
@@ -160,6 +168,7 @@ SFX sparkle
 NARRATOR: With King Boo inside the vacuum, every painting in the mansion came to life. And out of one of them stepped a very confused plumber in red.
 MARIO (surprised): Luigi? You saved me?
 LUIGI (happy): I saved you, Mario!
+HOLD luigi vacuum
 MARIO (excited): From King Boo? With a vacuum?
 LUIGI (smug): It's a very special vacuum.
 

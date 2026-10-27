@@ -24,6 +24,7 @@ MUSIC sad
 SCENE weenie_hut
 PLACE spongebob center right sad
 PLACE patrick midleft right happy
+HOLD patrick milkshake
 PATRICK (happy): Hi, SpongeBob! Want a milkshake? They come with a little umbrella.
 SPONGEBOB (sad): Patrick, I'm not a weenie. I'm a tough guy. On the inside.
 PATRICK (smug): Your inside is very far inside.
@@ -78,6 +79,7 @@ PLACE squidward midright left smug
 SQUIDWARD (smug): SpongeBob is training to get into the Salty Spitoon? Ha. He'll be in here forever.
 PATRICK (happy): I like it here. They give you a sticker for finishing your sandwich.
 SQUIDWARD (smug): And what are you doing here, Patrick?
+HOLD patrick milkshake
 PATRICK (smug): Same as you. Getting a milkshake with an umbrella.
 SQUIDWARD (nervous): I'm... just here for the free wifi.
 
@@ -136,6 +138,7 @@ CARD The next day...
 PLACE spongebob center right happy
 PLACE patrick midleft right happy
 PATRICK (happy): You came back to Weenie Hut Jr's? But you're a tough guy now.
+HOLD spongebob milkshake
 SPONGEBOB (happy): I am. But the milkshakes here have little umbrellas, Patrick.
 PATRICK (smug): Tough guys like umbrellas too.
 SPONGEBOB (excited): And I knitted you a sweater!

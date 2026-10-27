@@ -16,6 +16,7 @@ DEDEDE (sad): Vegetables? Like a common peasant?
 WADDLE_DEE (nervous): And walks. Every day. Around the castle.
 DEDEDE (angry): Walks?! I'm the king! The castle walks around ME!
 WADDLE_DEE (smug): The doctor says the castle will not walk around you.
+HOLD dedede carrot
 DEDEDE (sad): Fine. Bring me a carrot.
 
 # ------------------------------------------------------------ VEGETABLE VALLEY
@@ -23,6 +24,7 @@ MUSIC happy
 SCENE vegetable_valley
 PLACE adeleine center left happy
 PLACE kirby midleft right happy
+HOLD adeleine paintbrush
 ADELEINE (happy): Kirby, I'm painting the giant carrots! Aren't they beautiful?
 KIRBY (happy): Poyo!
 ADELEINE (surprised): Wait. There were twelve carrots this morning. Now there are seven.
@@ -35,6 +37,7 @@ MUSIC jazz
 SCENE ice_cream_island
 PLACE ribbon center left scared
 ENTER bandana_dee right midright surprised
+HOLD bandana_dee spear
 RIBBON (scared): The strawberry ice cream mountain! Someone ate the top off!
 BANDANA_DEE (surprised): The whole top? That's a lot of ice cream.
 RIBBON (nervous): There are footprints. Big, flat, waddly footprints.
@@ -48,6 +51,7 @@ SCENE dedede_castle
 PLACE dedede center left nervous
 ENTER bandana_dee left midleft smug
 ENTER kirby left left smug
+HOLD bandana_dee spear
 BANDANA_DEE (smug): Your Majesty, someone has been eating carrots, ice cream and pies all over Dream Land.
 DEDEDE (nervous): How terrible! Shocking! Wasn't me!
 KIRBY (smug): Poyo.
@@ -72,6 +76,7 @@ MUSIC romantic
 SCENE fountain_of_dreams
 PLACE kirby center right sad
 PLACE meta_knight midleft right neutral
+HOLD meta_knight sword
 META_KNIGHT: Kirby. You look troubled.
 KIRBY (sad): Poyo...
 META_KNIGHT (smug): The king is sneaking snacks. Everyone knows. Even the fish know.
@@ -117,6 +122,7 @@ DEDEDE (surprised): Hey. This is actually kind of fun.
 KIRBY (happy): Poyo!
 DEDEDE (excited): And now I'm hungry for real! Is there a snack at the top?
 KIRBY (smug): Poyo.
+HOLD dedede apple
 NARRATOR: There was. An apple. A whole, big, crunchy apple. It was the best apple the king had ever tasted.
 
 # ------------------------------------------------------------ RAINBOW RESORT
@@ -141,6 +147,7 @@ WADDLE_DEE (happy): Your Majesty, the doctor says you're the healthiest king in 
 DEDEDE (excited): Of course I am! I'm the best at everything!
 KIRBY (happy): Poyo!
 DEDEDE (smug): And as a reward, the doctor says I can have one slice of cake. Every Sunday.
+HOLD waddle_dee cake
 WADDLE_DEE (excited): Should I bring the cake, Your Majesty?
 DEDEDE (happy): Bring two slices. One for me. And one for my walking partner.
 KIRBY (excited): POYO!

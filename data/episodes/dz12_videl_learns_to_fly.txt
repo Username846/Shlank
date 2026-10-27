@@ -135,6 +135,7 @@ SCENE mount_paozu
 PLACE goku center left excited
 PLACE goten midright left excited
 SFX splash
+HOLD goku fishing_rod
 GOKU (excited): I've got him! The big fish! He's pulling!
 GOTEN (excited): Pull, Dad! Pull!
 SFX splash
@@ -146,6 +147,7 @@ MUSIC sneaky 2
 SCENE goku_house
 PLACE chi_chi center left angry
 PLACE goku midright left nervous
+HOLD goku fish
 CHI_CHI (angry): GOKU! My tomatoes! My garden! There's a giant fish on my porch!
 GOKU (nervous): It's dinner, Chi-Chi! For Videl!
 CHI_CHI (smug): ...Is it a good fish?

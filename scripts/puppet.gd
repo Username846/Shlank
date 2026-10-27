@@ -248,7 +248,7 @@ func _process(delta: float) -> void:
 
 func _is_animating() -> bool:
 	return talking or walking or _talk_open > 0.01 or _blink > 0.0 or absf(sin(_walk_phase)) > 0.01 \
-		or emotion in ["excited", "surprised", "angry", "nervous"] or held in ["golden_spatula", "detector"]
+		or emotion in ["excited", "surprised", "angry", "nervous"] or Props.animated(held)
 
 
 # ---------------------------------------------------------------- drawing --
@@ -525,89 +525,9 @@ func _arm(shoulder: Vector2, side: int, raise: float, length: float, width: floa
 	return hand
 
 
-## Draws the held prop at `hand`, pointing along `up`.
+## Draws the held prop at `hand`, pointing along `up` (the drawings live in Props).
 func _draw_prop(hand: Vector2, up: Vector2) -> void:
-	var ang := up.angle() + PI / 2
-	var xf := Transform2D(ang, hand)
-	match held:
-		"spatula", "golden_spatula":
-			var gold := Color(1.0, 0.82, 0.2)
-			Art.limb(ci, PackedVector2Array([xf * Vector2(0, 10), xf * Vector2(0, -36)]), 7, Color(0.55, 0.32, 0.15))
-			var head := PackedVector2Array()
-			for p in Art.rrect(Rect2(-14, -70, 28, 36), 5):
-				head.append(xf * p)
-			Art.shape(ci, head, gold, 3.0)
-			for i in 3:
-				var x := -7.0 + i * 7.0
-				Art.stroke(ci, PackedVector2Array([xf * Vector2(x, -64), xf * Vector2(x, -42)]), 2.5, gold.darkened(0.4))
-			var sp := xf * Vector2(18, -72)
-			var s := 5.0 + sin(_t * 8.0) * 2.0
-			Art.stroke(ci, PackedVector2Array([sp + Vector2(-s, 0), sp + Vector2(s, 0)]), 2.5, Color.WHITE)
-			Art.stroke(ci, PackedVector2Array([sp + Vector2(0, -s), sp + Vector2(0, s)]), 2.5, Color.WHITE)
-		"clarinet":
-			Art.limb(ci, PackedVector2Array([xf * Vector2(0, 30), xf * Vector2(0, -50)]), 9, Color(0.12, 0.12, 0.14))
-			var bell := PackedVector2Array()
-			for p in [Vector2(-5, 26), Vector2(5, 26), Vector2(12, 44), Vector2(-12, 44)]:
-				bell.append(xf * p)
-			Art.shape(ci, bell, Color(0.15, 0.15, 0.17), 3.0)
-			for i in 4:
-				Art.dot(ci, xf * Vector2(0, -35 + i * 14), 2.5, Color(0.85, 0.85, 0.9))
-		"detector":
-			var box := PackedVector2Array()
-			for p in Art.rrect(Rect2(-20, -40, 40, 34), 6):
-				box.append(xf * p)
-			Art.shape(ci, box, Color(0.7, 0.72, 0.75), 3.0, 0.2)
-			Art.stroke(ci, PackedVector2Array([xf * Vector2(10, -40), xf * Vector2(18, -72)]), 3.0)
-			var blink_on := fmod(_t * 3.0, 1.0) < 0.5
-			Art.dot(ci, xf * Vector2(18, -74), 6, Color(1, 0.15, 0.1) if blink_on else Color(0.45, 0.05, 0.05))
-			Art.dot(ci, xf * Vector2(-6, -24), 7, Color(0.2, 0.9, 0.4))
-		"net":
-			Art.limb(ci, PackedVector2Array([xf * Vector2(0, 20), xf * Vector2(0, -80)]), 5, Color(0.6, 0.42, 0.22))
-			var ring := Art.ellipse(xf * Vector2(0, -105), 24, 24, 24)
-			Art.fill(ci, ring, Color(1, 1, 1, 0.35))
-			for i in 5:
-				var x := -18.0 + i * 9.0
-				Art.stroke(ci, PackedVector2Array([xf * Vector2(x, -122), xf * Vector2(x, -88)]), 1.5, Color(1, 1, 1, 0.8))
-			Art.outline(ci, ring, 4.0, Color(0.6, 0.42, 0.22))
-		"patty":
-			var c := xf * Vector2(0, -20)
-			Art.blob(ci, c + Vector2(0, -6), 26, 12, Color(0.95, 0.72, 0.35), 3.0, 0.15)
-			Art.blob(ci, c + Vector2(0, 4), 27, 6, Color(0.45, 0.25, 0.12), 3.0)
-			Art.blob(ci, c + Vector2(0, 0), 28, 3, Color(0.4, 0.8, 0.3), 2.0)
-			Art.blob(ci, c + Vector2(0, 11), 25, 7, Color(0.95, 0.72, 0.35), 3.0)
-		"money":
-			var bill := PackedVector2Array()
-			for p in Art.rrect(Rect2(-24, -36, 48, 26), 3):
-				bill.append(xf * p)
-			Art.shape(ci, bill, Color(0.55, 0.85, 0.5), 3.0)
-			Art.text(ci, ThemeDB.fallback_font, xf * Vector2(-6, -16), "$", 18, Color(0.15, 0.45, 0.15), 0, HORIZONTAL_ALIGNMENT_LEFT)
-		"locket":
-			var c := xf * Vector2(0, -22)
-			Art.stroke(ci, PackedVector2Array([xf * Vector2(-4, 6), xf * Vector2(-10, -6), c + Vector2(-3, -12)]), 2.0, Color("c9a13a"))
-			Art.shape(ci, Art.heart(c, 15.0), Color("f2c14e"), 3.0, 0.15)
-			Art.shape(ci, Art.heart(c + Vector2(0, 1), 9.0), Color("f28cb8"), 2.0)
-		"ice_cream":
-			var cone := PackedVector2Array([xf * Vector2(-12, -14), xf * Vector2(12, -14), xf * Vector2(0, 14)])
-			Art.shape(ci, cone, Color("e3a95c"), 3.0)
-			Art.stroke(ci, PackedVector2Array([xf * Vector2(-6, -8), xf * Vector2(4, 4)]), 2.0, Color("b07a3a"))
-			Art.blob(ci, xf * Vector2(0, -22), 15, 12, Color("f7a7c4"), 3.0, 0.1)
-			Art.blob(ci, xf * Vector2(0, -40), 13, 11, Color("7a4a2a"), 3.0, 0.1)
-			Art.dot(ci, xf * Vector2(0, -54), 5, Color("d8352a"))
-		"fishing_rod":
-			var tip := xf * Vector2(10, -150)
-			Art.limb(ci, PackedVector2Array([xf * Vector2(0, 20), tip]), 5, Color("8a5a2b"))
-			var bob := tip + Vector2(46, 60 + sin(_t * 3.0) * 4.0)
-			Art.stroke(ci, Art.curve(tip, tip + Vector2(40, 0), bob, 8), 1.5, Color(1, 1, 1, 0.9))
-			Art.blob(ci, bob, 6, 6, Color("e6452f"), 2.0)
-		"beeper":
-			var box := PackedVector2Array()
-			for p in Art.rrect(Rect2(-14, -30, 28, 20), 4):
-				box.append(xf * p)
-			Art.shape(ci, box, Color("2b2b33"), 3.0)
-			var scr := PackedVector2Array()
-			for p in Art.rrect(Rect2(-9, -26, 18, 8), 2):
-				scr.append(xf * p)
-			Art.fill(ci, scr, Color("9ee66e"))
+	Props.draw(ci, held, hand, up, _t)
 
 
 func _leg_swing(side: int) -> float:

@@ -11,6 +11,7 @@ SCENE boarding_kitchen cut
 TITLE
 PLACE grandma center left excited
 ENTER arnold left midleft happy
+HOLD grandma map
 GRANDMA (excited): Ahoy, Eleanor! Look what I found in the attic! A real pirate map!
 ARNOLD (surprised): Grandma, that's the back of an old pizza menu.
 GRANDMA (smug): A pirate's pizza menu. Look! An X! And it says "Treasure: Hillwood Pier."
@@ -44,6 +45,7 @@ ENTER arnold left midleft happy
 ENTER gerald left left smug
 GRANDMA (excited): Here we are! The X marks the spot! Dig, me hearties!
 GERALD (surprised): Dig? It's a wooden pier.
+HOLD grandma map
 GRANDMA (smug): Then the treasure must be under the water. Or the map is upside down!
 ARNOLD (nervous): If we turn it over, the X is at... Green Meats.
 GRANDMA (excited): To the butcher shop! Anchors aweigh!
@@ -76,6 +78,7 @@ ENTER arnold left left happy
 HAROLD (happy): Hey Arnold! I'm working at Mister Green's shop today! Do you want a free meatball?
 ARNOLD (happy): Sure, Harold. Have you seen any treasure around here?
 HAROLD (smug): The meatballs are kind of a treasure.
+HOLD grandma map
 GRANDMA (excited): Wait! A clue! The map says "Look where the sun sets over brick."
 HAROLD (surprised): That's the rooftop! You can see the whole sunset from up there!
 GRANDMA (excited): Eleanor, take this meatball. For the voyage.
@@ -98,6 +101,7 @@ PLACE big_bob center left smug
 ENTER grandma left midleft excited
 ENTER arnold left left nervous
 BIG_BOB (smug): A treasure hunt? Through my store? Absolutely not.
+HOLD grandma map
 GRANDMA (angry): Stand aside, you landlubber! The map leads through your shop!
 BIG_BOB (surprised): Through my shop? Is there treasure in my shop?
 ARNOLD (nervous): We just need to get to the back stairs, Mister Pataki.
@@ -113,6 +117,7 @@ PLACE gerald left right smug
 ENTER helga right right nervous
 ENTER phoebe right farright neutral
 HELGA (angry): Ahem. Don't mind us. We're just here for the view.
+HOLD helga spoon
 GERALD (smug): With a spoon?
 HELGA (angry): It's a very nice spoon.
 GRANDMA (excited): Ahoy, new crew! Look! A loose brick! The treasure must be behind it!
@@ -139,10 +144,12 @@ PLACE helga midleft right sad
 PLACE phoebe center left neutral
 HELGA (sad): No gold. No jewels. Just old photos.
 PHOEBE (happy): But you spent the whole afternoon with Arnold.
+HOLD helga spoon
 HELGA (excited): I did, didn't I? He even said "nice spoon"!
 PHOEBE (smug): That was Gerald.
 HELGA (angry): Details, Phoebe!
 ENTER sid right right excited
+HOLD sid coin
 SID (excited): Guys! I found an actual old coin in the park! It says nineteen ninety-six!
 HELGA (smug): Sid, that's a quarter.
 SID (happy): A very old quarter.

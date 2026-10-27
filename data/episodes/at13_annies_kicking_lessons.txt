@@ -89,6 +89,7 @@ PLACE levi midright left neutral
 ERWIN (neutral): The King is holding a parade in Stohess. The Scouts march at the front.
 LEVI (smug): Marching. In clean uniforms. In front of rich people.
 ERWIN (happy): You'll carry the ceremonial sword, Levi. It's a great honor.
+HOLD levi sword
 LEVI (neutral): ...Is the sword clean?
 ERWIN (smug): It's been polished every day for a hundred years.
 LEVI (happy): Then I'll carry it.
@@ -158,6 +159,7 @@ PLACE eren center right surprised
 PLACE annie midleft right smug
 SFX thud
 SHAKE 0.6
+HOLD annie sword
 NARRATOR: Eren kicked. The thief flipped right over and landed in the fountain. The sword flew into the air and Annie caught it with one hand.
 EREN (surprised): I did it! I did the kick!
 ANNIE (smug): Sloppy. But it worked.
@@ -170,6 +172,7 @@ SCENE stohess
 PLACE levi center left neutral
 PLACE annie midright left neutral
 PLACE eren right left excited
+HOLD levi sword
 LEVI (neutral): The sword. Thank you, cadets.
 ANNIE (neutral): He did the kick, sir. I just caught it.
 LEVI (smug): The thief is in the fountain. The fountain is dirty now.

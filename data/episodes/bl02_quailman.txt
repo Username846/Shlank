@@ -10,6 +10,7 @@ MUSIC happy
 SCENE doug_room cut
 TITLE
 PLACE doug center right excited
+HOLD doug journal
 DOUG (excited): Dear Journal. Tomorrow is the Bluffington Science Fair, and my volcano is ready.
 DOUG (happy): It's got real lava. Well, baking soda. And a little bit of ketchup for color.
 ENTER porkchop left midleft happy
@@ -75,6 +76,7 @@ CONNIE (sad): Oh.
 MUSIC sneaky 2
 SCENE bluff_cafeteria
 PLACE roger midleft right smug
+HOLD roger paper_bag
 ROGER (smug): Here we go. Funnie's volcano. One bag of baking soda.
 ROGER (excited): And one bag of sugar. Heh heh heh.
 ENTER porkchop right midright angry
@@ -158,6 +160,7 @@ MUSIC romantic
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Second place. And Patti sat with me at lunch.
 DOUG (shy): She said my volcano was "really cool."
 PORKCHOP (smug): Arf.

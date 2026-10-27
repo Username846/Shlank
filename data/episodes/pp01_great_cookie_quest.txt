@@ -38,6 +38,7 @@ TOMMY (excited): Guys! We're going on a quest for the magic cookies!
 PHIL (excited): Cookies!
 LIL (excited): Magic cookies!
 TOMMY (happy): First we need tools. Chuckie, get my screwdriver.
+HOLD tommy screwdriver
 CHUCKIE (sad): I knew I was gonna lose another shoe.
 PHIL (happy): Do grown-ups get to eat worms whenever they want?
 LIL (smug): Grown-ups get to do anything they want, Phil.
@@ -73,7 +74,7 @@ TOMMY (happy): This is my daddy's workshop. He builds toys! Maybe there's a ladd
 SFX beep
 CHUCKIE (scared): Aaah! That robot just looked at me!
 TOMMY (excited): It's a reacher-grabber! Perfect!
-HOLD tommy net
+HOLD tommy grabber
 CHUCKIE (nervous): I don't think this is such a good idea.
 TOMMY (happy): Chuckie, what do you do when you're scared?
 CHUCKIE (sad): I cry and hide under the couch.
@@ -111,6 +112,7 @@ CHUCKIE (happy): Tommy, can I try?
 TOMMY (happy): Sure, Chuckie!
 SFX squeak
 CHUCKIE (surprised): I got the sandbox shovel! And a sock! And a worm!
+HOLD chuckie shovel
 TOMMY (excited): Phil is gonna be so jealous!
 
 # ------------------------------------------------------------- JAVA LAVA
@@ -132,6 +134,7 @@ SFX squeak
 TOMMY (excited): Almost... almost...
 SFX pop
 TOMMY (happy): Got it! The magic cookies!
+HOLD tommy cookie
 ENTER angelica right right excited
 ANGELICA (excited): Give me those cookies, you dumb babies!
 CHUCKIE (angry): Hey! That's not nice!

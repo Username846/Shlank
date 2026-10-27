@@ -13,6 +13,7 @@ PLACE larry center left happy
 PLACE spongebob midright left excited
 LARRY (happy): SpongeBob, I'm going on vacation. My first one in nine years. I need someone to watch Mussel Beach.
 SPONGEBOB (excited): Me? A lifeguard? A real lifeguard?
+HOLD spongebob whistle
 LARRY (smug): You've got the whistle. You've got the hat. You've got the heart.
 SPONGEBOB (excited): I won't let you down, Larry! Nobody will get hurt on my watch! Nobody!
 LARRY (nervous): Great. Just remember to let people have fun too, okay?
@@ -25,6 +26,7 @@ CARD Monday...
 PLACE spongebob center right excited
 PLACE patrick midleft right happy
 SFX ding
+HOLD spongebob whistle
 SPONGEBOB (excited): Patrick! Stop right there!
 PATRICK (surprised): I was just walking.
 SPONGEBOB (excited): You're walking too fast! Walking is how accidents start! Walk slower!
@@ -60,6 +62,8 @@ MUSIC sneaky
 SCENE mussel_beach
 PLACE squidward center left happy
 PLACE spongebob midright left excited
+HOLD squidward book
+HOLD spongebob whistle
 SQUIDWARD (happy): Ahh. Sun. Sand. A beach chair. And a book.
 SPONGEBOB (excited): Squidward! Is that book safe?
 SQUIDWARD (angry): It's a book about clarinets!
@@ -71,6 +75,7 @@ MUSIC sad
 SCENE mussel_beach
 CARD Wednesday...
 PLACE spongebob center right sad
+HOLD spongebob whistle
 NARRATOR: By Wednesday, Mussel Beach was empty. Nobody wanted to come. No running. No surfing. No sandcastles taller than six inches.
 SPONGEBOB (sad): Nobody got hurt. Not one fish. So why is everybody gone?
 SPONGEBOB (sad): Maybe they're all at home. Being safe.

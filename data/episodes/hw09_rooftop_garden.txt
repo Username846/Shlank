@@ -49,6 +49,7 @@ PLACE sid midleft right nervous
 PLACE stinky left right happy
 PLACE harold midright left neutral
 ARNOLD (excited): Okay, everyone. We need to dig, plant and water. Every day for a week.
+HOLD arnold shovel
 SID (nervous): What if there's worms? Or germs? Or worm germs?
 STINKY (happy): Gee, I grew a pumpkin once. Biggest one in Hillwood. Named him Ralph.
 HAROLD (excited): Can we grow pie?
@@ -65,6 +66,7 @@ PHOEBE (happy): Studies show that gardening improves the complexion, Rhonda.
 RHONDA (surprised): It does?
 PHOEBE (smug): And fresh flowers are very fashionable this season.
 RHONDA (excited): Then I'll be in charge of flowers! Only the most elegant ones! Hand me a shovel! A pink one!
+HOLD rhonda shovel
 
 # ------------------------------------------------------------ HILLWOOD ALLEY
 MUSIC happy 2
@@ -91,6 +93,7 @@ ARNOLD (happy): What do you want to plant?
 HELGA (shy): A rose bush. Pink. Like... a bow.
 HELGA (angry): Not like MY bow! Like any bow! Bows in general!
 ARNOLD (smug): Okay, Helga.
+HOLD helga watering_can
 NARRATOR: Helga planted a rose bush. She watered it every single day, when nobody was watching.
 
 # ------------------------------------------------------------ BIG BOB'S BEEPERS
@@ -130,6 +133,7 @@ PLACE stinky left right neutral
 ENTER big_bob right farright surprised
 BIG_BOB (surprised): What the? What are all you people doing here?
 GRANDPA (smug): Gardening, Bob. We do it at dawn. Old family tradition.
+HOLD big_bob spray_bottle
 STINKY (smug): Gee, Mr. Pataki, that's an awful big bottle of weed killer you got there.
 BIG_BOB (nervous): This? It's... uh... lemonade. For the plants.
 GERALD (smug): Plants don't drink lemonade, Mr. Pataki.
@@ -153,6 +157,7 @@ PLACE big_bob center left happy
 PLACE helga midright left shy
 PLACE arnold midleft right happy
 NARRATOR: The city named it the Vine Street Community Garden. There were tomatoes, pumpkins, roses and one small beeper stand on a wooden crate.
+HOLD big_bob beeper
 BIG_BOB (happy): Tomatoes, three for a dollar! Beepers, two for a hundred!
 ARNOLD (happy): Your roses are beautiful, Helga.
 HELGA (shy): They're not mine. They're anybody's. Roses in general.

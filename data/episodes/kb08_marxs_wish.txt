@@ -32,6 +32,7 @@ MUSIC jazz
 SCENE halberd_deck
 PLACE meta_knight center left neutral
 ENTER marx right midright happy
+HOLD meta_knight sword
 MARX (happy): Meta Knight! A challenge for you! At the Fountain of Dreams! The greatest swordsman in the universe will be there!
 META_KNIGHT (neutral): The greatest swordsman in the universe is standing in front of you.
 MARX (smug): Exactly! So you'll want to prove it. Bring your key. Three days from now.
@@ -70,6 +71,7 @@ PLACE marx center left excited
 PLACE dedede midleft right excited
 PLACE meta_knight midright left neutral
 PLACE kirby right left happy
+HOLD meta_knight sword
 DEDEDE (excited): Where's the free cake?
 MARX (smug): Right after we open the gate! Everyone, put in your keys!
 NARRATOR: The king put in his key. The knight put in his key. Kirby coughed up his key. It was a little sticky.
@@ -105,6 +107,7 @@ SCENE fountain_of_dreams
 PLACE marx center left sad
 PLACE meta_knight midright left neutral
 PLACE kirby midleft right sad
+HOLD meta_knight sword
 META_KNIGHT (neutral): You could wish to rule Dream Land. The whole planet. Anything you want.
 MARX (sad): If I ruled Dream Land, nobody would play with me. They'd just be scared.
 KIRBY (sad): Poyo...

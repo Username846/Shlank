@@ -41,6 +41,7 @@ PLACE lila midleft right excited
 MR_SIMMONS (happy): Welcome, class! Find a spot for your sleeping bag. And remember, don't touch the exhibits!
 LILA (excited): Oh, Arnold, isn't it ever so wonderful? A whole museum, all to ourselves!
 ARNOLD (happy): It's pretty great, Lila.
+HOLD lila flashlight
 LILA (happy): I've brought my flashlight, my pillow and a book about dinosaurs. I'm ever so prepared.
 MR_SIMMONS (smug): Lights out at ten. Very special dreams, everyone.
 
@@ -101,6 +102,7 @@ MUSIC tense
 SCENE hillwood_museum
 PLACE arnold center right nervous
 PLACE helga midleft right nervous
+HOLD arnold flashlight
 HELGA (nervous): Football head! Where do you think you're going?
 ARNOLD (nervous): To find out what's making that noise.
 HELGA (angry): You can't go alone! What if it's a dinosaur? What if it eats you?
@@ -114,6 +116,7 @@ SCENE hillwood_museum
 PLACE arnold center right surprised
 PLACE helga midleft right surprised
 SFX thud
+HOLD arnold flashlight
 NARRATOR: Arnold and Helga followed the sound. Down the hall. Past the paintings. Past the mummies. Into the basement.
 ARNOLD (surprised): Look. Footprints. Small ones.
 HELGA (surprised): Those aren't dinosaur feet. Those are... sneakers.
@@ -137,6 +140,7 @@ MUSIC jazz
 SCENE hillwood_museum
 PLACE mr_simmons center left surprised
 PLACE eugene midright left nervous
+HOLD eugene bone
 MR_SIMMONS (surprised): Eugene! Is that the dinosaur's missing bone? From the cart?
 EUGENE (nervous): I don't know. It was just in there. Labeled "Lost Bone, 1890."
 MR_SIMMONS (excited): Eugene! The museum has been looking for that bone for a hundred years!

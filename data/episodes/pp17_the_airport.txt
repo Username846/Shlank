@@ -14,6 +14,7 @@ PLACE charlotte midright left excited
 PLACE didi right left happy
 DREW (nervous): Thanks for watching Angelica this week, Didi. She's... a lot.
 DIDI (happy): We'll be fine, Drew. She's family.
+HOLD charlotte phone
 CHARLOTTE (excited): Jonathan! We land at nine! Have the car ready! And the coffee! And the other coffee!
 DREW (sad): She's going to be on the phone the whole flight.
 DIDI (smug): Can you even use phones on planes?
@@ -98,6 +99,7 @@ MUSIC sneaky
 SCENE the_airport
 PLACE chuckie center right nervous
 PLACE angelica midleft right smug
+HOLD chuckie suitcase
 CHUCKIE (nervous): Angelica, we got the purple suitcase. Now what do we do with it?
 ANGELICA (smug): Hide it behind that big plant. Nobody ever looks behind plants.
 CHUCKIE (nervous): What if the plant tells?
@@ -169,6 +171,7 @@ CARD That night...
 PLACE angelica center left happy
 PLACE didi midright left happy
 SFX beep
+HOLD didi phone
 DIDI (happy): Angelica, sweetie. There's a phone call for you. It's your mommy.
 ANGELICA (excited): Mommy! Hi, Mommy! I miss you!
 ANGELICA (happy): Yes, I'm being good. Mostly. Yes. I love you too.

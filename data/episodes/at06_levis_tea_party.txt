@@ -77,6 +77,7 @@ CARD The next day...
 PLACE levi center left nervous
 PLACE eren midright left nervous
 PLACE sasha right left nervous
+HOLD levi teacup
 NARRATOR: The tea was steeped for exactly four minutes. The cups were polished until you could see your soul in them. The cake was untouched.
 SASHA (nervous): The cake is staring at me, Captain.
 LEVI (angry): Look away, Braus.
@@ -103,6 +104,7 @@ PLACE connie_springer midright left nervous
 PLACE eren right left nervous
 JEAN (nervous): Springer, the nobles want more tea. Your turn to pour.
 CONNIE_SPRINGER (nervous): Pinky up. Pinky up. Don't spill. Don't breathe.
+HOLD connie_springer teacup
 NARRATOR: Connie poured the most careful cup of tea in history. It took two full minutes. Not a single drop was spilled.
 EREN (surprised): Connie, you did it!
 CONNIE_SPRINGER (excited): I did it! I'm a gentleman now!
@@ -140,6 +142,7 @@ PLACE mikasa midleft right neutral
 PLACE sasha midright left excited
 EREN (excited): Distract the nobles! Sasha, the cake!
 SASHA (excited): Finally!
+HOLD sasha cake
 NARRATOR: Sasha carried the cake outside to the Titan. Very slowly. Very carefully. It was the hardest thing she had ever done.
 MIKASA (neutral): Lord Balto, look at this painting. On the opposite wall. For a very long time.
 EREN (nervous): And Lady Fenn! Look at this... spoon!
@@ -150,6 +153,7 @@ SCENE stables
 PLACE smiling_titan center left happy
 PLACE sasha midright left sad
 PLACE hange right left excited
+HOLD sasha cake
 SASHA (sad): Here you go, Pete. The whole cake. Every last crumb.
 SMILING_TITAN (excited): Hehehe! Ca-ke!
 HANGE (excited): He said cake! Two syllables! Sasha, he said a new word!

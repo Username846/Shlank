@@ -655,6 +655,9 @@ static func _goomba(p: Puppet) -> void:
 		p._eye(Vector2(sx * 16, -84), 10, 14, 0, Color(0, 0, 0, 0), sx, 0.0, brown)
 	p._brows(-104, 16, 14, 7.0)
 	p._mouth(Vector2(0, -58), 34, 1)
+	# No arms: a held prop sits balanced on the cap
+	if p.held != "":
+		p._draw_prop(Vector2(20, -132), Vector2(0, -1))
 
 
 static func _troopa(p: Puppet) -> void:

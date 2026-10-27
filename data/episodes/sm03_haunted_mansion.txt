@@ -30,6 +30,7 @@ TOAD (nervous): Oh no. Nobody comes back from Boo Mansion in less than a day. Th
 LUIGI (surprised): Board games?
 TOAD (nervous): And they always cheat.
 LUIGI (sad): I have to go get him. Don't I?
+HOLD toad flashlight
 TOAD (smug): Take this flashlight. Ghosts hate flashlights.
 
 # ------------------------------------------------------------ PEACH'S CASTLE
@@ -105,6 +106,7 @@ SCENE boo_mansion
 PLACE luigi center right excited
 PLACE mario midleft right nervous
 PLACE daisy left right excited
+HOLD luigi flashlight
 LUIGI (nervous): Okay. Toad said ghosts hate flashlights. Here goes.
 SFX sparkle
 DAISY (excited): It's working! They're running away!

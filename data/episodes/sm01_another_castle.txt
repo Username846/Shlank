@@ -56,6 +56,7 @@ SCENE underground_bricks
 ENTER wario left center angry
 WARIO (angry): Sewers! Why is it always the sewers! My shoes are ruined!
 SFX coin
+HOLD wario coin
 WARIO (excited): Wait. A coin! Waaah! Coins everywhere down here!
 WARIO (smug): Forget the princess. I'm rich! Wah ha ha!
 
@@ -130,6 +131,7 @@ LUIGI (scared): Mario? Mario, where'd you go? This isn't funny!
 SFX squeak
 LUIGI (scared): Who's there?!
 ENTER donkey_kong right midright happy
+HOLD donkey_kong banana
 DONKEY_KONG (happy): Ooh ooh! Banana?
 LUIGI (surprised): Donkey Kong? What are you doing in a haunted house?
 DONKEY_KONG (sad): Lost. Very lost. Looking for princess too.

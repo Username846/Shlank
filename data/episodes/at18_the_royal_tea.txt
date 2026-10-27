@@ -24,6 +24,7 @@ CARD Manners class...
 PLACE levi center left neutral
 PLACE eren midright left nervous
 PLACE sasha right left excited
+HOLD levi teacup
 LEVI (neutral): Rule one. Hold the teacup by the handle. Little finger out.
 EREN (nervous): Why the little finger?
 LEVI (smug): Because rich people are weird. Rule two. Small bites. Very small.
@@ -107,6 +108,7 @@ SFX thud
 NARRATOR: Then it happened. Sasha leaned over to reach the sugar. Her elbow bumped the cake tray. The cake tray tipped. And every tiny, beautiful cake slid toward the edge of the table.
 SASHA (scared): THE CAKES!
 SFX whoosh
+HOLD sasha tray
 NARRATOR: Sasha dove. She caught the tray with one hand. She caught three falling cakes with the other. And she caught the last one in her mouth.
 
 # ------------------------------------------------------------ MITRAS

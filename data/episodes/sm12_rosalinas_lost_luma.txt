@@ -10,6 +10,7 @@ MUSIC sad
 SCENE comet_observatory cut
 TITLE
 PLACE rosalina center left sad
+HOLD rosalina wand
 NARRATOR: Far above the Mushroom Kingdom, in the Comet Observatory, Rosalina counted her Lumas. Like she did every night. One hundred and one. One hundred and two.
 ROSALINA (sad): One hundred and three... One is missing.
 ROSALINA (nervous): Little Polari. The smallest one. He fell during the meteor shower.
@@ -22,6 +23,7 @@ PLACE mario center right surprised
 PLACE luigi midleft right surprised
 PLACE rosalina midright left neutral
 SFX sparkle
+HOLD rosalina wand
 NARRATOR: A beam of starlight came down from the sky. And Rosalina floated down with it.
 MARIO (surprised): Rosalina! From space!
 LUIGI (surprised): Wow. She just... floats.
@@ -45,6 +47,7 @@ SCENE pipe_land
 PLACE mario center right nervous
 PLACE luigi midleft right nervous
 PLACE rosalina midright left sad
+HOLD rosalina wand
 MARIO (nervous): We looked in every pipe. No Luma.
 LUIGI (nervous): I looked in the scary pipes, too. Very scary. No Luma.
 ROSALINA (sad): Lumas love warm places. And they're drawn to bright light.
@@ -56,6 +59,7 @@ MARIO (smug): Luigi. It's always Bowser's castle.
 MUSIC sad
 SCENE comet_observatory
 PLACE rosalina center left sad
+HOLD rosalina wand
 NARRATOR: Back in the Comet Observatory, the other Lumas floated in a worried little circle. They were missing their brother.
 ROSALINA (sad): Don't worry, little ones. Mario and Luigi are very good at finding things.
 ROSALINA (smug): Mario once found a princess in eight different castles.
@@ -124,6 +128,7 @@ SCENE bowser_castle
 PLACE rosalina center left surprised
 PLACE bowser_jr midright left sad
 SFX sparkle
+HOLD rosalina wand
 NARRATOR: Then the castle filled with soft blue light. Rosalina floated through the doorway, and the little Luma zoomed straight into her arms.
 ROSALINA (happy): Polari. My little one. You're safe.
 BOWSER_JR (sad): His name's Polari? I called him Sparky.
@@ -135,6 +140,7 @@ MUSIC jazz
 SCENE bowser_castle
 PLACE rosalina center left happy
 PLACE bowser midright left nervous
+HOLD rosalina wand
 ROSALINA (happy): Bowser. Thank you for keeping him warm.
 BOWSER (nervous): I... uh... was going to take over the universe with him.
 ROSALINA (smug): I know.
@@ -147,6 +153,7 @@ SCENE bowser_castle
 PLACE rosalina center left happy
 PLACE bowser_jr midright left surprised
 SFX sparkle
+HOLD rosalina wand
 ROSALINA (happy): Junior. Polari would like to give you something.
 NARRATOR: The little Luma spun around three times and left a tiny glowing star on Bowser Jr.'s bib.
 BOWSER_JR (surprised): A star? For me?
@@ -170,6 +177,7 @@ SCENE comet_observatory
 CARD That night...
 PLACE rosalina center left happy
 SFX sparkle
+HOLD rosalina wand
 ROSALINA (happy): One hundred and one. One hundred and two. One hundred and three. Everyone is home.
 NARRATOR: Far below, on a balcony in Bowser's castle, a little koopa looked up at the sky. And the brightest star twinkled back.
 ROSALINA (smug): Polari. Go on. Say goodnight to your friend.

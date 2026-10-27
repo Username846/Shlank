@@ -33,6 +33,7 @@ MUSIC jazz
 SCENE ceres_station
 PLACE adam center left surprised
 ENTER space_pirate right midright nervous
+HOLD space_pirate clipboard
 ADAM (surprised): A Space Pirate. On my space station. With... a clipboard?
 SPACE_PIRATE (nervous): I'm here about the job? The sign said "Help Wanted."
 ADAM (smug): The sign meant scientists. Engineers. Pilots.

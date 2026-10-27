@@ -49,6 +49,7 @@ TOAD (nervous): Princess! I'm working at the smoothie bar this weekend! Want a s
 PEACH (happy): Toad! You have a job?
 TOAD (smug): I'm saving up for a new kart. A red one. With racing stripes.
 PEACH (excited): Then I'll have the biggest smoothie you've got!
+HOLD toad smoothie
 TOAD (excited): One Mega Mushroom Smoothie, coming up!
 
 # ------------------------------------------------------------ COCONUT MALL
@@ -128,6 +129,7 @@ PLACE toad center left surprised
 PLACE peach midright left surprised
 TOAD (surprised): Princess! Twenty smoothies! All over the floor! I have to clean it all!
 PEACH (happy): I'll help you, Toad.
+HOLD peach mop
 TOAD (surprised): A princess? With a mop?
 PEACH (smug): I've cleaned up after Bowser forty-two times. This is easy.
 TOAD (happy): You're the best princess ever!

@@ -13,6 +13,7 @@ SFX blast
 SHAKE 1.0
 ENTER trunks left center nervous 500
 TRUNKS (nervous): Did it work? Is this the right year?
+HOLD trunks sword
 NARRATOR: A time machine had just landed in the middle of West City. Out stepped a young man with purple hair and a very serious sword.
 TRUNKS (scared): I have to warn them. Before it's too late.
 TRUNKS (nervous): In three days, everything changes. And not in a good way.
@@ -118,6 +119,7 @@ PLACE bulma center left angry
 ENTER vegeta right midright nervous
 VEGETA (nervous): Woman. I mean. Bulma.
 BULMA (angry): Oh, NOW you show up.
+HOLD vegeta flower
 VEGETA (nervous): These are for you. Four hundred purple flowers. The color of royalty.
 BULMA (surprised): Vegeta?
 VEGETA (shy): And you are... the smartest person on this planet. Including me. Happy birthday.

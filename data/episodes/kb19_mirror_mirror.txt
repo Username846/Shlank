@@ -11,6 +11,7 @@ SCENE halberd_deck cut
 TITLE
 PLACE meta_knight center left smug
 PLACE kirby midright left surprised
+HOLD meta_knight sword
 NARRATOR: On the deck of his battleship, the Halberd, Meta Knight was polishing an old mirror he had found in the storage room. It was tall. It was shiny. It had a little star at the top.
 META_KNIGHT (smug): An antique. Very rare. Look at the craftsmanship, Kirby.
 KIRBY (surprised): Poyo?
@@ -33,6 +34,8 @@ MUSIC tense
 SCENE halberd_deck
 PLACE meta_knight center left scared
 PLACE bandana_dee midright left surprised
+HOLD meta_knight sword
+HOLD bandana_dee spear
 META_KNIGHT (scared): Kirby! Kirby! Come back through the mirror!
 BANDANA_DEE (surprised): Meta Knight? What happened?
 META_KNIGHT (nervous): Kirby fell into the mirror. It's an ancient Mirror Gate. To the Mirror World.
@@ -45,6 +48,7 @@ SCENE mirror_world
 PLACE kirby center right surprised
 PLACE dedede midleft right happy
 NARRATOR: Kirby walked through the Mirror World. And he met someone very familiar. Very big. Very blue. But very, very different.
+HOLD dedede cake
 DEDEDE (happy): Oh, hello there! Welcome, little friend! Would you like some cake? I baked it myself! For you!
 KIRBY (surprised): Poyo?!
 DEDEDE (happy): I love sharing! Sharing is my favorite thing! Here, have the whole cake!
@@ -67,6 +71,7 @@ MUSIC jazz
 SCENE halberd_deck
 PLACE meta_knight center left nervous
 PLACE magolor midright left excited
+HOLD meta_knight sword
 MAGOLOR (excited): A Mirror Gate? Oh, I've read about those! In the ancient Halcandran books!
 META_KNIGHT (nervous): Do you know how to bring Kirby back?
 MAGOLOR (smug): Of course! He has to find the mirror version of THIS mirror. On the other side. And jump through it.
@@ -110,6 +115,8 @@ SCENE halberd_deck
 PLACE meta_knight center left excited
 PLACE bandana_dee midright left excited
 SFX sparkle
+HOLD meta_knight sword
+HOLD bandana_dee spear
 NARRATOR: On the Halberd, the sun was touching the horizon. The mirror was starting to cloud over. And then, at the last second, a pink round shape came flying through the glass.
 META_KNIGHT (excited): KIRBY!
 BANDANA_DEE (excited): He made it!
@@ -121,7 +128,9 @@ MUSIC happy
 SCENE halberd_deck
 PLACE kirby center right happy
 PLACE meta_knight midleft right surprised
+HOLD meta_knight sword
 KIRBY (happy): Poyo!
+HOLD kirby cake
 META_KNIGHT (surprised): You brought a cake. From the Mirror World.
 KIRBY (smug): Poyo poyo.
 META_KNIGHT (nervous): A nice King Dedede gave it to you?
@@ -136,6 +145,7 @@ PLACE dedede center left angry
 PLACE kirby midright left happy
 DEDEDE (angry): Kirby! You ate my cake! Again!
 KIRBY (happy): Poyo.
+HOLD kirby cake
 DEDEDE (surprised): ...You brought me a cake? A different cake? With three layers?
 KIRBY (smug): Poyo poyo.
 DEDEDE (shy): ...That's actually very nice of you.

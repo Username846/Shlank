@@ -11,6 +11,7 @@ SCENE pataki_kitchen cut
 TITLE
 PLACE big_bob center left excited
 PLACE helga midright left sad
+HOLD big_bob balloon
 BIG_BOB (excited): Olga's coming home! For a whole week! I've got balloons, I've got streamers, I've got a cake shaped like a diploma!
 HELGA (sad): Great. Wonderful. Can somebody pass the cereal?
 BIG_BOB (excited): Not now, Olga's coming! Helga, get the door!
@@ -30,6 +31,7 @@ OLGA (happy): All A-pluses, Daddy. And I won the piano competition. And the poet
 BIG_BOB (excited): That's my girl!
 OLGA (excited): And how is my darling baby sister? Oh, I missed you so much!
 HELGA (smug): Hi, Olga. I got a B in spelling.
+HOLD big_bob cake
 BIG_BOB (neutral): That's nice, Helga. Olga, want some cake?
 
 # ------------------------------------------------------------ HELGA'S ROOM
@@ -38,6 +40,7 @@ SCENE helga_room
 PLACE helga center right sad
 HELGA (sad): A whole week. Seven days of "Olga this" and "Olga that."
 HELGA (angry): Nobody even asked what I've been up to. I've been up to plenty!
+HOLD helga book
 HELGA (shy): I wrote forty-two poems this month. About a certain football-headed someone.
 HELGA (sad): Not that anyone would care. They'd just say "That's nice, Helga. Olga, want some cake?"
 
@@ -150,5 +153,6 @@ OLGA (happy): Goodbye, Daddy. Goodbye, baby sister. I'll call every week.
 BIG_BOB (happy): Bye, Olga. Hey, Helga, want some cake? There's leftovers.
 HELGA (surprised): You're asking me?
 BIG_BOB (smug): It's shaped like a diploma. You'll get one someday.
+HOLD helga cake
 HELGA (happy): ...Pass the cake, Bob.
 END

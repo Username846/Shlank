@@ -65,6 +65,7 @@ PHOEBE (nervous): You could join him, Helga. It's a very noble cause.
 HELGA (angry): Me? Sit in a tree next to him? All night? Under the stars? Breathing the same air?
 HELGA (shy): ...That's the most romantic thing I've ever heard.
 HELGA (angry): I mean. Absolutely not. Pass me that rope, Phoebe.
+HOLD helga rope
 PHOEBE (smug): Here you go, Helga.
 
 # ------------------------------------------------------------ MIGHTY PETE
@@ -112,6 +113,7 @@ MUSIC sneaky
 SCENE hillwood_museum
 PLACE phoebe center left excited
 PLACE rhonda midright left nervous
+HOLD phoebe letter
 PHOEBE (excited): Rhonda! I found something in the city records! Mighty Pete is mentioned in a letter from 1860!
 RHONDA (nervous): Is that... good? Is that fashionable?
 PHOEBE (excited): It's a historic tree! It was planted by the founder of Hillwood! The city can't cut down a historic tree!

@@ -86,6 +86,7 @@ ANTHONY_HIGGS (excited): Commander! I heard Samus took the baby Metroid home! Fo
 ADAM (nervous): She did. To SR388. The most dangerous planet in the galaxy.
 ANTHONY_HIGGS (happy): Aw. That's so sweet. Taking your kid to see the grandparents.
 ADAM (surprised): ...I suppose that's one way to look at it.
+HOLD anthony_higgs cake
 ANTHONY_HIGGS (smug): I'm making her a "Welcome Back" cake. With green frosting.
 
 # ------------------------------------------------------------ SR388
@@ -176,6 +177,7 @@ CARD Back at Ceres...
 PLACE anthony_higgs center left excited
 PLACE samus midright left surprised
 PLACE baby_metroid midleft right neutral
+HOLD anthony_higgs cake
 ANTHONY_HIGGS (excited): Welcome back, Princess! I made a cake! With green frosting!
 SAMUS (surprised): ...Why green?
 ANTHONY_HIGGS (smug): For the little guy! Metroid colors!

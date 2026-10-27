@@ -129,7 +129,7 @@ static func beat_label(b: Dictionary) -> String:
 		"place": return "%s is on stage" % char_name(b.who)
 		"face": return "%s faces %s" % [char_name(b.who), b.dir]
 		"emote": return "%s looks %s" % [char_name(b.who), b.emotion]
-		"hold": return "%s holds %s" % [char_name(b.who), String(b.prop).replace("_", " ")]
+		"hold": return "%s holds %s" % [char_name(b.who), Props.label(String(b.prop)).to_lower()]
 		"jump": return "%s jumps" % char_name(b.who)
 		"camera": return "Camera: %s%s" % [b.mode, (" on " + char_name(b.who)) if b.who != "" else ""]
 		"shake": return "Shake"

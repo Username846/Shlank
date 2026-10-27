@@ -11,6 +11,7 @@ SCENE funnie_kitchen cut
 TITLE
 PLACE theda_funnie center left excited
 PLACE doug midright left happy
+HOLD theda_funnie pie
 THEDA_FUNNIE (excited): The fair is this weekend! And I'm entering my famous apple-cranberry pie!
 DOUG (happy): Mom, your pie is the best in Bluffington.
 THEDA_FUNNIE (nervous): Mrs. Dink has won the pie contest eleven years in a row.
@@ -29,6 +30,7 @@ DOUG (excited): And look. The ring toss. The grand prize is a giant stuffed quai
 SKEETER (smug): For Patti, right?
 DOUG (shy): She loves quails. I think. She said they were "cute" once.
 PORKCHOP (smug): Arf.
+HOLD doug tickets
 DOUG (nervous): I have twelve tickets. Each ring costs one. I need three in a row.
 
 # ------------------------------------------------------------ MR. DINK'S YARD
@@ -147,6 +149,7 @@ SCENE bluffington_fair
 PLACE theda_funnie center left excited
 PLACE doug midright left happy
 PLACE mr_dink midleft right happy
+HOLD theda_funnie pie
 THEDA_FUNNIE (excited): Doug! The judges just announced it! First prize! My pie won first prize!
 DOUG (excited): Mom! You did it!
 MR_DINK (happy): And my zucchini won "Most Dangerous Vegetable." It's a brand new category.

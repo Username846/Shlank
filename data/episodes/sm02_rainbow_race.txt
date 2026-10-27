@@ -130,6 +130,7 @@ CARD The final lap. Rainbow Road.
 PLACE mario midleft right excited
 PLACE luigi left right nervous
 PLACE wario midright left smug
+HOLD wario banana
 WARIO (smug): Final lap! No guardrails! And I've got a banana peel I found on the ground!
 MARIO (scared): Wario, don't!
 SFX squeak
@@ -172,11 +173,13 @@ PLACE peach center left happy
 PLACE luigi midleft right happy
 PLACE wario right left sad
 PLACE yoshi midright left happy
+HOLD peach trophy
 PEACH (happy): Luigi, here is your Golden Mushroom Cup. And the cake!
 LUIGI (excited): Thank you, Princess!
 WARIO (sad): I came in second. Second is the first loser.
 YOSHI (happy): Yoshi!
 PEACH (smug): And Wario, the judges saw the pyramid shortcut. You're disqualified.
 WARIO (angry): WAAAAH!
+HOLD luigi trophy
 LUIGI (happy): More cake for everyone!
 END

@@ -73,6 +73,7 @@ PLACE arnold center right nervous
 PLACE eugene midleft right nervous
 NARRATOR: The end of the line was quiet. Old tiles. Flickering lights. A station nobody had used in years.
 EUGENE (nervous): Arnold, where are we?
+HOLD arnold map
 ARNOLD (nervous): I don't know, Eugene. The map doesn't even show this station.
 EUGENE (scared): Are we lost forever? Will we have to live here? I don't have my pajamas!
 ARNOLD (neutral): Hey. We're not lost forever. We just have to find the way back. One stop at a time.

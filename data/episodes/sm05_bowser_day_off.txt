@@ -55,6 +55,7 @@ MUSIC happy 2
 SCENE kong_jungle
 PLACE donkey_kong center left nervous
 ENTER bowser right midright happy
+HOLD bowser banana
 BOWSER (happy): Donkey Kong! I'm being nice today. Would you like a banana?
 DONKEY_KONG (surprised): Bowser giving bananas?
 BOWSER (smug): I bought them at the store. With my own coins.

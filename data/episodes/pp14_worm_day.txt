@@ -122,6 +122,7 @@ PLACE lil midleft right nervous
 PLACE tommy midright left nervous
 NARRATOR: Under the porch, it was dark and muddy and smelled like old shoes. Something long and pink was wiggling in the mud.
 PHIL (nervous): There it is. The biggest worm in the whole world.
+HOLD phil worm
 LIL (nervous): It's not as big as a school bus.
 TOMMY (surprised): It's not even as big as a sausage.
 PHIL (sad): Angelica lied to us.
@@ -172,6 +173,7 @@ PLACE phil midleft right happy
 PLACE lil right left happy
 BETTY (happy): Howie, this flat soufflé is delicious. Best pancake I ever had.
 HOWARD (happy): You think so?
+HOLD phil worm
 PHIL (happy): Lillian. I let the little worm go home.
 LIL (happy): Me too, Phillip. It was the best worm day ever.
 END

@@ -11,6 +11,7 @@ SCENE doug_room cut
 TITLE
 PLACE doug center right nervous
 PLACE porkchop midleft right neutral
+HOLD doug journal
 DOUG (nervous): Dear Journal. Saturday is impossible. Homework at nine. Mow the lawn at ten. Help Judy with her play at noon.
 DOUG (scared): And at two o'clock, ice cream at Swirly's with Patti. The most important thing.
 PORKCHOP (nervous): Arf.
@@ -112,6 +113,7 @@ SCENE swirlys
 PLACE doug center right sad
 PLACE patti midleft right neutral
 DOUG (sad): I made a copy of myself. To get everything done. And now we both want to have ice cream with you.
+HOLD patti ice_cream
 PATTI (neutral): Doug. Why didn't you just tell me you were busy? I'd have moved our ice cream to Sunday.
 DOUG (surprised): You would?
 PATTI (smug): Of course. It's just ice cream. You don't need to clone yourself for ice cream.
@@ -140,6 +142,7 @@ PLACE porkchop midleft right nervous
 NARRATOR: Both Dougs checked their shoes. One had a hamster sticker. He sighed. He smiled. And at midnight, he went "poof."
 DOUG (sad): Bye, me. Thanks for mowing the lawn.
 PORKCHOP (sad): Arf.
+HOLD doug journal
 DOUG (smug): Dear Journal. Tomorrow I'm only going to do one thing. Ice cream with Patti.
 DOUG (happy): One Doug is plenty.
 END

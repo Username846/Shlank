@@ -11,6 +11,7 @@ SCENE dedede_castle cut
 TITLE
 PLACE dedede center left excited
 PLACE waddle_dee midright left happy
+HOLD dedede cake
 DEDEDE (excited): Behold, Waddle Dee! The biggest, fluffiest strawberry cake Dream Land has ever seen!
 WADDLE_DEE (happy): Wah! It's taller than me!
 DEDEDE (smug): Everything is taller than you. Now guard it. Nobody touches my cake until the royal party!
@@ -62,6 +63,8 @@ SCENE halberd_deck
 PLACE meta_knight midright left smug
 ENTER kirby left midleft nervous
 ENTER bandana_dee left left nervous
+HOLD meta_knight sword
+HOLD bandana_dee spear
 META_KNIGHT (smug): So. The king blames you, Kirby. And you wish to clear your name.
 KIRBY (sad): Poyo...
 META_KNIGHT (happy): Then you will need a clue. The thief left a trail of frosting toward the forest.
@@ -86,6 +89,7 @@ SCENE whispy_forest
 PLACE whispy_woods midright left angry
 ENTER kirby left left excited
 ENTER bandana_dee left midleft happy
+HOLD bandana_dee spear
 BANDANA_DEE (happy): Whispy Woods! Did you see anyone carrying a giant cake?
 WHISPY_WOODS (angry): Ohhh, did I! Someone dragged it right over my roots! Very rude!
 KIRBY (excited): Poyo!
@@ -112,6 +116,7 @@ SCENE cloudy_park
 PLACE magolor center left happy
 ENTER kirby left left angry
 ENTER bandana_dee left midleft nervous
+HOLD bandana_dee spear
 MAGOLOR (happy): Ah, Kirby, my dear friend! What brings you to Cloudy Park?
 KIRBY (angry): Poyo!
 MAGOLOR (nervous): A cake? What cake? I know nothing about any cake.
@@ -150,6 +155,7 @@ WADDLE_DEE (scared): Your Majesty, I think he's still holding it. In his mouth.
 DEDEDE (angry): Spit it out!
 SFX pop
 JUMP kirby
+HOLD kirby cake
 NARRATOR: Out comes the cake. Not a single crumb missing. Kirby, it turns out, has excellent self-control.
 
 # ------------------------------------------------------------ VEGETABLE VALLEY

@@ -11,6 +11,7 @@ SCENE toad_house cut
 TITLE
 PLACE toad center left excited
 PLACE mario midright left happy
+HOLD toad cake
 TOAD (excited): Mario! Today's the princess's birthday! And I baked her a cake! A seven-layer mushroom cake!
 MARIO (happy): Wahoo! That's-a beautiful, Toad!
 TOAD (nervous): But the castle is all the way on the other side of the kingdom. And I've never gone that far by myself.
@@ -23,6 +24,7 @@ MUSIC happy 2
 SCENE mushroom_kingdom
 PLACE toad center right excited
 ENTER luigi left midleft nervous
+HOLD toad cake
 LUIGI (nervous): Toad, are you sure? There's Goombas out there. And Koopas. And very steep hills.
 TOAD (excited): I'm sure, Luigi! I have a map, a cake and a lot of courage!
 LUIGI (nervous): That cake is bigger than you.
@@ -36,6 +38,7 @@ MARIO (smug): Secretly. Like-a ninjas.
 MUSIC jazz
 SCENE pipe_land
 PLACE toad center right nervous
+HOLD toad cake
 TOAD (nervous): Pipe Land. Okay. The map says go through the green pipe. Not the red pipe. Never the red pipe.
 NARRATOR: There were forty pipes. Thirty-nine of them were green.
 TOAD (nervous): Eeny, meeny, miny...
@@ -59,6 +62,7 @@ LUIGI (scared): Mario! You went in the red one!
 MUSIC tense
 SCENE ice_land
 PLACE toad center right scared
+HOLD toad cake
 TOAD (scared): Ice Land! It's so slippery! And so cold! My cake is getting frosty! Well, frostier!
 SFX slide_whistle
 NARRATOR: Toad slipped. He slid down a hill on his back, holding the cake above his head the whole way. Not a single crumb fell off.
@@ -82,6 +86,7 @@ MUSIC tense 2
 SCENE bowser_castle
 PLACE bowser center left smug
 PLACE toad midright left scared
+HOLD toad cake
 BOWSER (smug): Well, well. A little Toad. Carrying a big cake. All alone.
 TOAD (scared): It's for Princess Peach! It's her birthday!
 BOWSER (smug): I know. And I wasn't invited. So I'll take that cake, and she'll have to come HERE to get it.
@@ -94,6 +99,7 @@ MUSIC action
 SCENE bowser_castle
 PLACE bowser center left surprised
 PLACE toad midright left angry
+HOLD toad cake
 NARRATOR: Toad stood his ground. He did not run. He held the cake high and stared up at the King of the Koopas.
 BOWSER (nervous): Okay. Okay. Wow. Nobody has ever yelled at me like that. Except Mario. And Peach. And my mom.
 TOAD (smug): So I can go?
@@ -129,6 +135,7 @@ SCENE peach_castle
 PLACE peach center left surprised
 PLACE daisy midright left surprised
 ENTER toad right right excited
+HOLD toad cake
 TOAD (excited): Princess! Happy birthday! I made it!
 PEACH (surprised): Toad! You crossed the whole kingdom? By yourself?
 TOAD (smug): Through Pipe Land, down Ice Land and past Bowser. He only smelled the cake. Once.

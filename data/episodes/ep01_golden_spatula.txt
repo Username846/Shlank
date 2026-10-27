@@ -86,10 +86,12 @@ MR_KRABS (angry): Go! And take the pink one with ya!
 SCENE krusty_kitchen
 CARD Meanwhile, in the kitchen...
 PLACE spongebob center right
+HOLD spongebob fork
 SPONGEBOB: Maybe I can practice with a fork.
 SFX sizzle
 WAIT 0.6
 SPONGEBOB (sad): It fell through the holes. Okay. A spoon!
+HOLD spongebob spoon
 SFX splat
 ENTER squidward right right
 SQUIDWARD (smug): Having trouble? Try cooking with your face. It's flat enough.

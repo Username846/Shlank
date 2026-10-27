@@ -76,6 +76,7 @@ MUSIC spooky
 SCENE jaeger_basement
 PLACE hange center left nervous
 PLACE armin midright left happy
+HOLD hange book
 HANGE (nervous): Armin, these old books might have clues. Maybe someone tried to teach Titans before us.
 ARMIN (happy): This one is about farming. This one is about birds. This one is a cookbook.
 HANGE (excited): A cookbook! What does it say about potatoes?
@@ -89,6 +90,7 @@ MUSIC jazz 3
 SCENE shiganshina
 PLACE armin center left happy
 PLACE sasha midright left excited
+HOLD armin potato
 ARMIN (happy): Sasha, I need your help roasting potatoes. For science.
 SASHA (excited): Science potatoes! The best kind!
 ARMIN (smug): You can't eat them. They're for the Titan.
@@ -115,7 +117,7 @@ PLACE hange midleft right excited
 PLACE armin left right excited
 ENTER sasha right right excited
 SASHA (excited): I brought a potato! Maybe he needs to see one to learn the word!
-HOLD sasha patty
+HOLD sasha potato
 HANGE (excited): Sasha, that's brilliant! Show it to him!
 SASHA (excited): Pete! Look! A po-ta-to!
 SMILING_TITAN (excited): Hehe! Po... po...

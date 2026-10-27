@@ -15,6 +15,7 @@ WALT (excited): Skyler! The Candy Fair's tenth anniversary is Saturday! And they
 SKYLER (surprised): The batch you buried in the desert? In a time capsule?
 WALT (nervous): Yes. That batch.
 SKYLER (smug): Do you know where it is?
+HOLD walt map
 WALT (nervous): I made a map. I put the map somewhere safe.
 SKYLER (smug): Walt. Where's the map?
 
@@ -60,6 +61,7 @@ SCENE tohajiilee
 PLACE huell center left neutral
 PLACE saul midright left excited
 SFX thud
+HOLD huell shovel
 NARRATOR: Huell dug. And dug. And dug. Huell dug a hole so big you could fit a hot tub in it.
 SAUL (excited): Anything, Huell?
 HUELL (neutral): Rock.
@@ -94,6 +96,7 @@ SCENE tohajiilee
 PLACE mike center left neutral
 PLACE gale midright left excited
 MIKE (neutral): Gale. Why are you here?
+HOLD gale detector
 GALE (excited): I heard there was a treasure hunt! I brought a metal detector! And snacks!
 MIKE (surprised): A metal detector?
 GALE (smug): The time capsule is a metal box, isn't it? Metal box, metal detector. Science!
@@ -104,6 +107,7 @@ MUSIC sneaky 2
 SCENE tohajiilee
 PLACE gale center left excited
 SFX detector
+HOLD gale detector
 NARRATOR: Gale walked across the desert with his metal detector. Beep. A bottle cap. Beep. A spoon. Beep. One of Saul's cufflinks.
 SFX detector_crazy
 GALE (excited): Mr. White! Big signal! Very big signal! Over here!
@@ -114,6 +118,7 @@ MUSIC action 2
 SCENE tohajiilee
 PLACE huell center left neutral
 PLACE walt midright left excited
+HOLD huell shovel
 WALT (excited): Under the duck rock! Huell! Can you move the duck?
 HUELL (smug): Mm-hm.
 SFX thud
@@ -151,7 +156,9 @@ PLACE hank center left happy
 PLACE saul midright left excited
 PLACE skyler right left happy
 PLACE huell midleft right neutral
+HOLD huell shovel
 HANK (happy): Ha! The duck was guarding it the whole time!
+HOLD saul camera
 SAUL (excited): And I got it all on camera! "Saul Goodman and the Buried Blue Treasure"! Coming soon!
 SKYLER (smug): Saul, you just stood here and talked.
 SAUL (smug): That's what I do best, Skyler.

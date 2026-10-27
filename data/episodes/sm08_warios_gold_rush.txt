@@ -10,6 +10,7 @@ MUSIC sneaky
 SCENE desert_land cut
 TITLE
 PLACE wario center left excited
+HOLD wario map
 WARIO (excited): Wahahaha! Look at this! An old map! It says "Gold Mine. Lots of Gold. No Mario Allowed."
 WARIO (smug): Okay, I wrote that last part. But the gold part is real!
 WARIO (excited): Somewhere under this desert is a mountain of gold coins! And it's all going to be mine!
@@ -35,6 +36,7 @@ SCENE desert_land
 PLACE wario center left excited
 SFX thud
 NARRATOR: Wario dug. And dug. For three hours. He found a cactus, a boot and a very annoyed scorpion.
+HOLD wario map
 WARIO (angry): Where's the gold?! The map says right here!
 WARIO (surprised): Wait. Is the map upside down?
 SFX thud
@@ -80,6 +82,7 @@ SCENE toad_house
 PLACE toad center left nervous
 PLACE luigi midright left nervous
 PLACE mario right left smug
+HOLD toad rope
 TOAD (nervous): You'll need rope. Lots of rope. And a lamp. And these mushrooms, in case you get small.
 LUIGI (nervous): Why would we get small?
 TOAD (smug): You always get small, Luigi. Every time something touches you.
@@ -165,6 +168,7 @@ WARIO (sad): All that gold. Gone. Buried forever.
 LUIGI (happy): But you're okay, Wario. That's what matters.
 WARIO (nervous): Yeah. Yeah, I guess it is.
 MARIO (smug): And-a look in your mustache.
+HOLD wario coin
 WARIO (surprised): ...One gold coin! It was stuck in my mustache!
 SFX coin
 WARIO (excited): Wahahaha! I'm rich! Well. A little rich.

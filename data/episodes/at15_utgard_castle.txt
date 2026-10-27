@@ -39,6 +39,7 @@ PLACE ymir midright left smug
 REINER (excited): Look! A crate! From the old days! Maybe there's food!
 YMIR (smug): Probably a hundred years old.
 SFX squeak
+HOLD reiner jar
 REINER (happy): Canned herring! And crackers! And... a jar of something.
 YMIR (surprised): Is that pickled eggs?
 REINER (nervous): I think it used to be pickled eggs.

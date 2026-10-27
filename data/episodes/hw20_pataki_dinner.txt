@@ -134,6 +134,7 @@ CARD That night...
 PLACE arnold center right happy
 PLACE gerald midleft right surprised
 GERALD (surprised): So? Did you survive?
+HOLD arnold beeper
 ARNOLD (happy): It was great, Gerald. Big Bob gave me a beeper. A free one.
 GERALD (surprised): Big Bob gave something away for free? Now I've heard everything.
 ARNOLD (smug): And Olga said Helga talks about me all the time.

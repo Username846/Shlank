@@ -36,6 +36,7 @@ NARRATOR: It was not five minutes.
 MUSIC romantic
 SCENE bluffington_mall
 PLACE doug center right excited
+HOLD doug comic_book
 NARRATOR: The comic store had everything. Old comics. New comics. A first edition of "The Man-O-Steel." Doug lost all track of time.
 DOUG (excited): "Issue one hundred. Man-O-Steel meets his evil twin." Whoa.
 DOUG (happy): I'll just read one more page.
@@ -137,6 +138,7 @@ SCENE doug_room
 CARD That night...
 PLACE doug center right happy
 PLACE porkchop midleft right smug
+HOLD doug journal
 DOUG (happy): Dear Journal. I got new pants. They're the right length. They don't show my socks.
 PORKCHOP (smug): Arf.
 DOUG (shy): And I learned something. Beebe Bluff isn't as bad as she seems.

@@ -13,6 +13,7 @@ PLACE gale center left excited
 PLACE walt midright left neutral
 GALE (excited): Mr. White! It's an honor! Your blue rock candy is the purest I've ever seen. Ninety-nine point one percent! Majestic!
 WALT (neutral): Thank you. And you are?
+HOLD gale coffee
 GALE (happy): Gale Boetticher. Your new lab assistant. I brought coffee! I roasted the beans myself.
 WALT (surprised): You... roast your own beans?
 GALE (smug): Every Sunday. It's a whole process.
@@ -27,6 +28,7 @@ JESSE (angry): Yo, Mr. White. Who's the new guy? And why is he humming?
 WALT (neutral): That's Gale. He's very talented. He measured the sugar to the thousandth of a gram.
 JESSE (smug): I can measure to the thousandth of a gram.
 WALT (smug): Jesse, last week you measured with a coffee mug.
+HOLD jesse mug
 JESSE (angry): It was a big coffee mug!
 
 # ------------------------------------------------------------ THE SUPERLAB
@@ -118,6 +120,7 @@ MUSIC tense
 SCENE gale_apartment
 PLACE walt center left nervous
 SFX drumroll
+HOLD walt microphone
 NARRATOR: Walter White stood in front of the karaoke machine. He held the microphone like a test tube full of acid. The song began.
 WALT (nervous): ...La. La la.
 NARRATOR: Silence. Even the plants looked uncomfortable.
@@ -155,6 +158,7 @@ GALE (happy): Jesse. Your turn.
 JESSE (nervous): Nah. I'm good.
 GALE (smug): I have heavy metal on here. Lots of it.
 JESSE (excited): ...Hand me the mic, yo.
+HOLD jesse microphone
 SFX thud
 SHAKE 0.6
 NARRATOR: The neighbor stopped banging on the wall. The neighbor moved out.
@@ -166,6 +170,7 @@ CARD Monday morning...
 PLACE walt center left happy
 PLACE gale midright left happy
 PLACE jesse right left smug
+HOLD walt coffee
 WALT (happy): Good morning, Gale. I made coffee. From your beans.
 GALE (surprised): Mr. White! You're humming!
 WALT (smug): I'm not humming. I'm... resonating.

@@ -29,6 +29,7 @@ GOKU (happy): Easy! Eat a lot! Chi-Chi fell in love with me 'cause I ate eleven 
 CHI_CHI (angry): That is NOT why I fell in love with you!
 GOKU (surprised): It's not?
 CHI_CHI (smug): Krillin, sweetie. Just be polite. Listen to her. And bring flowers.
+HOLD krillin flower
 KRILLIN (excited): Flowers! Thanks, Chi-Chi!
 
 # ------------------------------------------------------------ GRAVITY ROOM
@@ -72,6 +73,7 @@ MUSIC romantic
 SCENE west_city
 CARD The next night...
 PLACE krillin center right nervous
+HOLD krillin flower
 NARRATOR: Krillin was ready. He had a suit. He had a car. He had flowers. He had sweat on every part of his body.
 KRILLIN (nervous): Okay. Be cool. Be polite. Listen. Don't eat eleven bowls of rice.
 KRILLIN (nervous): Show no mercy? No. That was bad advice.
@@ -84,6 +86,7 @@ PLACE goku center left excited
 PLACE master_roshi midleft right excited
 PLACE vegeta left right angry
 GOKU (excited): Shh! There he is! Across the street!
+HOLD master_roshi binoculars
 MASTER_ROSHI (excited): We're just here to support him. From a distance. With binoculars.
 VEGETA (angry): Why am I here?
 GOKU (happy): 'Cause you're his friend!
@@ -154,6 +157,7 @@ CARD The next morning...
 PLACE krillin center left happy
 PLACE master_roshi midright left smug
 KRILLIN (happy): Master Roshi, she wants to go out again. Next Saturday.
+HOLD master_roshi binoculars
 MASTER_ROSHI (smug): Wonderful! We'll bring better binoculars.
 KRILLIN (angry): NO!
 MASTER_ROSHI (happy): And a bigger mailbox.

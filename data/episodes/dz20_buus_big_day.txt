@@ -130,6 +130,7 @@ SCENE capsule_corp
 PLACE majin_buu center left excited
 PLACE goten midright left excited
 PLACE trunks right left excited
+HOLD majin_buu cake
 MAJIN_BUU (excited): Buu love party! Buu eat all cake!
 GOTEN (excited): Buu, can you turn the cake into MORE cake?
 MAJIN_BUU (smug): Buu try!
@@ -155,6 +156,7 @@ SCENE capsule_corp
 PLACE vegeta center left nervous
 PLACE goku midright left surprised
 SFX drumroll
+HOLD vegeta microphone
 NARRATOR: The Prince of all Saiyans stood on the stage. He held the microphone like it was a dangerous weapon. And he sang. Badly. Loudly. With his whole heart.
 GOKU (surprised): Vegeta can sing?
 NARRATOR: Vegeta could not sing. But everyone cheered anyway. Even Piccolo.

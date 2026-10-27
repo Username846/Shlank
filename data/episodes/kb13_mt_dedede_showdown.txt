@@ -13,6 +13,7 @@ PLACE dedede center left excited
 PLACE waddle_dee midright left nervous
 DEDEDE (excited): Waddle Dee! I challenge Kirby to a wrestling match! On top of Mt. DeDeDe! The most magnificent mountain in Dream Land!
 WADDLE_DEE (nervous): Sir, the last eleven times you fought Kirby, you lost.
+HOLD dedede hammer
 DEDEDE (smug): That's why this time I've been TRAINING! Push-ups! Sit-ups! Hammer swings!
 WADDLE_DEE (surprised): You did push-ups, sir?
 DEDEDE (nervous): ...I watched you do push-ups. Very closely.
@@ -22,6 +23,7 @@ MUSIC jazz
 SCENE kirby_house
 PLACE kirby center right happy
 PLACE bandana_dee midleft right excited
+HOLD bandana_dee spear
 BANDANA_DEE (excited): Kirby! King Dedede challenged you to a wrestling match! Tomorrow! On Mt. DeDeDe!
 KIRBY (happy): Poyo!
 BANDANA_DEE (nervous): He's been training for weeks. What have you been doing?
@@ -35,7 +37,9 @@ CARD Mt. DeDeDe...
 PLACE waddle_dee center left excited
 PLACE waddle_doo midright left excited
 NARRATOR: The next day, the top of Mt. DeDeDe was packed. Every Waddle Dee in the kingdom had come to watch. Some of them were selling popcorn. Some of them were selling foam hammers.
+HOLD waddle_dee popcorn
 WADDLE_DEE (excited): Popcorn! Get your popcorn! Fresh from the castle kitchen!
+HOLD waddle_doo hammer
 WADDLE_DOO (excited): Foam hammers! Wave them for your king!
 WADDLE_DEE (nervous): Doo, who are you cheering for?
 WADDLE_DOO (smug): The king. Officially. Kirby secretly.
@@ -70,6 +74,7 @@ MUSIC jazz
 SCENE mt_dedede
 PLACE meta_knight center left smug
 PLACE magolor midright left excited
+HOLD meta_knight sword
 META_KNIGHT (smug): Hm. The king has improved. He only fell out of the ring once.
 MAGOLOR (excited): I'm recording the whole thing! For my travel show! "Magolor's Popstar Adventures"!
 META_KNIGHT (surprised): You have a travel show?

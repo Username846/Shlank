@@ -118,6 +118,7 @@ PLACE space_pirate center left scared
 PLACE samus midright left angry
 SPACE_PIRATE (scared): Samus! I'm Kraid's assistant! He told me to wait at the cave entrance but I heard crashing!
 SAMUS (angry): ...Rope. Do you have rope?
+HOLD space_pirate scarf
 SPACE_PIRATE (nervous): I have a very long scarf. My mom knitted it.
 SAMUS (smug): ...That'll do.
 SPACE_PIRATE (sad): ...Please don't let it fall in the lava.

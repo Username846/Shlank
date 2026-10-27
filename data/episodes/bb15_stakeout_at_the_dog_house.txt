@@ -46,6 +46,7 @@ SCENE dog_house
 CARD 10 p.m....
 PLACE hank center left sad
 PLACE gomez midright left neutral
+HOLD hank hot_dog
 HANK (sad): Gomie. I've eaten five hot dogs. I never want to see a hot dog again.
 GOMEZ (neutral): There's a giant hot dog on the roof, Hank.
 HANK (sad): I know. It's looking at me.
@@ -58,6 +59,7 @@ SCENE dog_house
 PLACE walt center right nervous
 PLACE hank midleft right surprised
 SFX door
+HOLD walt sandwich
 WALT (nervous): Hank. Skyler made me bring you sandwiches. Turkey and swiss.
 HANK (surprised): Walt?! You're blowing our cover!
 WALT (nervous): I'm wearing a sweater vest, Hank. Nobody suspects a sweater vest.
@@ -109,6 +111,7 @@ PLACE walt midright left surprised
 SFX footstep
 HANK (angry): DEA! Freeze! Put down the chili dog!
 NARRATOR: The man in the trench coat dropped his chili dog. Then he ran. He was surprisingly fast.
+HOLD hank hot_dog
 HANK (sad): Ugh. I ate six hot dogs. I can't run.
 WALT (surprised): Hank, he's getting away!
 HANK (angry): Then YOU run, Walt!
@@ -118,6 +121,7 @@ MUSIC action 2
 SCENE dog_house
 PLACE walt center left nervous
 SFX whoosh
+HOLD walt ketchup
 NARRATOR: Walter White did not run. Walter White had never run in his life. Instead, he grabbed a bottle of mustard and a bottle of ketchup from the counter.
 WALT (smug): Reactive surfaces. Viscosity. Friction coefficient.
 SFX splat

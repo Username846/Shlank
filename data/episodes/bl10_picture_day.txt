@@ -11,6 +11,7 @@ SCENE doug_room cut
 TITLE
 PLACE doug center right excited
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (excited): Dear Journal. Tomorrow is picture day. And this year, I'm going to look perfect.
 DOUG (shy): Because this year, Patti is standing next to me in the class photo. Alphabetical order. Funnie, then Mayonnaise. Well, almost.
 PORKCHOP (smug): Arf.
@@ -155,6 +156,7 @@ SCENE doug_room
 CARD Two weeks later...
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. The pictures came back. My hair is in the shape of a question mark, and everybody loves it.
 DOUG (shy): And Patti asked for an extra copy.
 PORKCHOP (smug): Arf.

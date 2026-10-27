@@ -123,6 +123,7 @@ MUSIC sad
 SCENE junkyard
 PLACE jesse center right sad
 PLACE saul midleft right sad
+HOLD jesse paper_bag
 JESSE (sad): Saul. I found a sandwich wrapper.
 SAUL (excited): Pastrami?
 JESSE (sad): Tuna. And it's been here a while.
@@ -148,6 +149,7 @@ SCENE storage_unit
 PLACE walt center left surprised
 SFX door
 NARRATOR: Behind the storage unit was a little back door. It was not locked. Inside, there was a mattress. On the mattress, there were fourteen first-place ribbons, three trophies and a giant novelty check.
+HOLD walt money
 WALT (surprised): My prize money. It's all here.
 NARRATOR: There was also a sandwich wrapper. And taped to the wrapper, a little silver key.
 WALT (angry): ...SAUL.
@@ -171,6 +173,7 @@ SCENE saul_office
 CARD The next day...
 PLACE saul center left happy
 PLACE francesca midright left smug
+HOLD saul necklace
 SAUL (happy): Francesca. I've learned something. From now on, I'm keeping the key on a necklace.
 FRANCESCA (smug): A necklace.
 SAUL (excited): A gold one! With my face on it!

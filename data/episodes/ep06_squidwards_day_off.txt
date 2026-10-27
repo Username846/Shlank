@@ -62,6 +62,7 @@ SQUIDWARD (angry): Ow! Patrick, that's my head!
 PATRICK (surprised): It's much softer than the rock.
 SPONGEBOB (nervous): Okay! Step two! Soothing music!
 SFX squeak
+HOLD spongebob rubber_duck
 SQUIDWARD (angry): Is that a rubber duck?
 SPONGEBOB (happy): Thirty rubber ducks! It's a choir!
 

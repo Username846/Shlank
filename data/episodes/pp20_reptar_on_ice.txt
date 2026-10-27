@@ -11,6 +11,7 @@ SCENE pickles_living_room cut
 TITLE
 PLACE stu center left excited
 PLACE didi midright left happy
+HOLD stu tickets
 STU (excited): Deed! I got tickets! Front row! Reptar on Ice!
 DIDI (happy): Stu, that's wonderful! The kids will love it.
 STU (smug): I got tickets for everybody. The DeVilles. The Finsters. Drew and Charlotte. Even Pop.
@@ -123,6 +124,7 @@ SCENE reptar_arena
 PLACE tommy center right excited
 PLACE chuckie midleft right scared
 SFX slide_whistle
+HOLD tommy baby_bottle
 NARRATOR: The babies climbed over the little wall. They slid across the ice on their diapers. Tommy carried his bottle. Kimi carried a cup of hot cocoa.
 CHUCKIE (scared): Wait for me, Tommy! I'm sliding! I'm sliding the wrong way!
 TOMMY (excited): Hold on, Reptar! We're coming!
@@ -172,6 +174,7 @@ CARD That night...
 PLACE stu center left happy
 PLACE didi midright left happy
 PLACE tommy midleft right happy
+HOLD stu tickets
 STU (happy): The manager said it was the best show they ever had. He gave us free tickets for next year.
 DIDI (smug): And a bill for the hot cocoa they had to clean off the ice.
 TOMMY (happy): Chuckie, I think this was the best season ever.

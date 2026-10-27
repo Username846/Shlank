@@ -51,6 +51,7 @@ PLACE walt center left smug
 PLACE jesse midright left nervous
 SFX sizzle
 WALT (smug): Observe, Jesse. The Maillard reaction. Proteins and sugars, browning at high temperature.
+HOLD jesse chicken
 JESSE (nervous): It looks like regular chicken, Mr. White.
 WALT (smug): It IS regular chicken. Made perfectly. Ninety-nine point one percent perfect.
 JESSE (surprised): What's the other point nine percent?
@@ -90,6 +91,7 @@ MIKE (neutral): White. The inspector today. Former chemistry professor. Very par
 WALT (surprised): A chemist? Inspecting the kitchen?
 MIKE (smug): She's going to want to see a professional at work. Someone confident. Someone fast.
 WALT (smug): Then she'll see a professional.
+HOLD walt chicken
 NARRATOR: Walt stopped throwing away chickens. He started frying them very confidently. And very fast.
 
 # ------------------------------------------------------------ LOS POLLOS HERMANOS
@@ -139,6 +141,7 @@ WALT (shy): Thank you, Gus. It was... an interesting experiment.
 JESSE (excited): Can we put a picture of us on the wall? Employees of the Month?
 GUS (smug): You worked one day, Jesse.
 JESSE (smug): One perfect day.
+HOLD gus camera
 GUS (happy): ...I'll get the camera.
 
 # ------------------------------------------------------------ THE WHITE HOUSE

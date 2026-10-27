@@ -46,6 +46,8 @@ SCENE chez_paris
 CARD Friday night...
 PLACE arnold center right nervous
 PLACE gerald midleft right nervous
+HOLD gerald tray
+HOLD arnold tray
 NARRATOR: Arnold and Gerald became busboys. They wore tiny bow ties. They carried big trays.
 GERALD (nervous): Arnold, I just got told off for holding a spoon wrong. There's a wrong way to hold a spoon?
 ARNOLD (nervous): There are four spoons at every table. I don't know what three of them are for.
@@ -58,6 +60,7 @@ SCENE chez_paris
 PLACE rhonda center left smug
 PLACE arnold midright left surprised
 RHONDA (smug): Arnold? Is that you? Working at Chez Paris?
+HOLD arnold tray
 ARNOLD (surprised): Rhonda! Uh. Hi. Can I take your plate?
 RHONDA (smug): My family eats here every Friday. The escargot is divine.
 ARNOLD (nervous): Please don't tell anyone at school.
@@ -107,6 +110,7 @@ MUSIC tense 2
 SCENE chez_paris
 PLACE arnold center right nervous
 PLACE gerald midleft right nervous
+HOLD arnold receipt
 ARNOLD (nervous): Gerald. The bill. I just saw it. One hundred and sixty dollars.
 GERALD (nervous): We made forty bucks this weekend. Plus your eleven.
 ARNOLD (sad): Fifty-one dollars. We're short. By a lot.

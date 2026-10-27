@@ -140,6 +140,7 @@ MUSIC tense
 SCENE pokemon_tower
 PLACE ash center right excited
 PLACE misty midleft right nervous
+HOLD ash poke_ball
 ASH (excited): Gengar! I'm gonna catch you! Go, Poké Ball!
 SFX whoosh
 NARRATOR: The Poké Ball flew right through Gengar and bounced off the wall. Gengar laughed so hard it rolled on the floor.

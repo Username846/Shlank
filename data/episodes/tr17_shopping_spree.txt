@@ -24,6 +24,7 @@ SCENE celadon_store
 PLACE jessie center left excited
 PLACE james midright left nervous
 PLACE meowth midleft right smug
+HOLD jessie perfume
 JESSIE (excited): Look! "Eau de Ekans." The world's most expensive perfume! Ten thousand Poké Dollars!
 JAMES (nervous): Jessie, we have twelve Poké Dollars. And a button.
 MEOWTH (smug): Forget perfume. The store sells Pokémon on floor five. In Poké Balls. Hundreds of 'em.
@@ -61,6 +62,7 @@ PLACE james midright left smug
 PLACE meowth midleft right excited
 JESSIE (smug): One of everything, please. Wrap them up.
 JAMES (smug): We'll pay with this perfectly normal credit card.
+HOLD meowth sack
 MEOWTH (excited): While the clerk is busy, I'll fill the sack!
 SFX coin
 NARRATOR: The clerk looked at the card. It said "TEAM ROCKET" in big red letters. It had a picture of Meowth on it. And it was made of cardboard.
@@ -97,6 +99,7 @@ PLACE meowth center left excited
 PLACE ash midright left angry
 PLACE pikachu farright left angry
 SFX whoosh
+HOLD meowth sack
 MEOWTH (excited): Grab the sack and run! Down the escalator!
 ASH (angry): Team Rocket! Stop!
 PIKACHU (angry): Pika!
@@ -169,8 +172,10 @@ SCENE celadon_store
 PLACE brock center left excited
 PLACE misty midright left happy
 PLACE ash midleft right sad
+HOLD brock frying_pan
 BROCK (excited): I got my frying pan! And two hundred bandages!
 MISTY (happy): And I got my swimsuit! With the Staryu on it!
+HOLD ash potion
 ASH (sad): I got my Potions. But I'm too tired to carry them.
 BROCK (smug): Ash, sales are a marathon, not a sprint.
 ASH (sad): Then why do my feet hurt like I sprinted?

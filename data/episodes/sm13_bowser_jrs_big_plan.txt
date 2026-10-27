@@ -93,9 +93,11 @@ SCENE airship
 PLACE peach center left happy
 PLACE bowser_jr midright left surprised
 SFX ding
+HOLD peach cookie
 PEACH (happy): Cookies are ready! Chocolate chip!
 BOWSER_JR (surprised): You made cookies? On my airship? While kidnapped?
 PEACH (smug): Kidnappers need snacks too.
+HOLD bowser_jr cookie
 BOWSER_JR (excited): These are the best cookies I've ever had!
 PEACH (happy): Your papa likes them too. I bring him a box every time he kidnaps me.
 
@@ -180,6 +182,7 @@ PLACE bowser center left happy
 PLACE bowser_jr midright left happy
 BOWSER_JR (happy): Papa. Was it a good Father's Day?
 BOWSER (happy): The best one ever, Junior.
+HOLD bowser_jr cookie
 BOWSER_JR (smug): And Peach sent cookies home with us. A whole box.
 BOWSER (excited): Chocolate chip?! Gwahahaha! Best Father's Day EVER!
 END

@@ -35,6 +35,7 @@ JUDY (scared): It mowed my bush shaped like Shakespeare! He's just a stump now!
 MUSIC sneaky
 SCENE doug_room
 PLACE doug center right nervous
+HOLD doug journal
 DOUG (nervous): Dear Journal. Mister Dink's robot just mowed past my window.
 DOUG (scared): It mowed the hedge, the mailbox and Dad's lawn gnome.
 DOUG (sad): The lawn gnome was older than me.
@@ -141,6 +142,7 @@ PLACE patti midright left excited
 PLACE skeeter left right surprised
 SFX beep
 DOUG (excited): Got it! The remote! Off button!
+HOLD doug remote
 SFX ding
 PATTI (happy): It stopped!
 SKEETER (excited): Honk honk! Doug saved Bluffington!

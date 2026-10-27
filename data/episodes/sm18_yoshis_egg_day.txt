@@ -94,6 +94,7 @@ MUSIC jazz
 SCENE yoshis_island
 PLACE bowser_jr center left excited
 PLACE koopa_troopa midright left nervous
+HOLD bowser_jr egg
 BOWSER_JR (excited): We did it! The Golden Egg! It's so shiny!
 KOOPA_TROOPA (nervous): It's also very warm, Junior.
 BOWSER_JR (smug): Gold is warm. Everybody knows that.
@@ -105,6 +106,7 @@ MUSIC jazz 2
 SCENE yoshis_island
 PLACE bowser_jr center left nervous
 PLACE koopa_troopa midright left nervous
+HOLD bowser_jr egg
 BOWSER_JR (nervous): Koopa. The egg is... moving.
 KOOPA_TROOPA (scared): Moving?
 BOWSER_JR (nervous): It's wobbling. And cracking. And I think something is knocking from the inside.
@@ -175,6 +177,7 @@ SCENE yoshis_island
 PLACE toad center left excited
 PLACE yoshi midright left happy
 SFX fanfare
+HOLD toad basket
 TOAD (excited): The winner of the Egg Hunt! With seventy-three eggs! Me! Toad!
 YOSHI (happy): Yoshi!
 TOAD (smug): I told you. I'm very good at looking under things.

@@ -17,6 +17,7 @@ CONNIE_SPRINGER (happy): Morning, Jean! What's wrong?
 JEAN (angry): Buttercup's gone. Somebody left the gate open.
 CONNIE_SPRINGER (nervous): Um. Was it the gate with the broken latch?
 JEAN (angry): Connie!
+HOLD connie_springer apple
 CONNIE_SPRINGER (sad): I was trying to give her an apple!
 
 # ------------------------------------------------------------ SCOUT HQ
@@ -90,6 +91,7 @@ PLACE hange midright left happy
 ARMIN (excited): Hange, horses have a homing instinct. If Buttercup ran away, she might be going home.
 HANGE (happy): Home? Where was she born?
 ARMIN (excited): The records say a farm near the giant forest!
+HOLD hange notebook
 HANGE (excited): Then let's go! I'll bring my notebook. And snacks for any Titans we meet.
 ARMIN (nervous): Titans don't eat snacks.
 HANGE (smug): Potato Pete does.

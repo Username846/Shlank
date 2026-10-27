@@ -50,6 +50,7 @@ MUSIC happy 2
 SCENE tall_grass
 ENTER ash left midleft happy
 ENTER pikachu left left angry
+HOLD ash poke_ball
 ASH (happy): Come on, buddy. Get in the ball. It's comfy in there.
 PIKACHU (angry): Pika. Pika pika.
 ASH (nervous): You don't like balls? Okay. You can walk next to me. Like friends.

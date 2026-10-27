@@ -37,6 +37,7 @@ DARK_SAMUS (surprised): ...Samus Aran.
 SAMUS (neutral): ...You're on vacation.
 DARK_SAMUS (smug): ...Yes. I learned about fun on the snow day. I would like more fun.
 SAMUS (surprised): ...What did you pack?
+HOLD dark_samus towel
 DARK_SAMUS (happy): ...Phazon. And a towel.
 
 # ------------------------------------------------------------ AGON WASTES
@@ -66,6 +67,7 @@ MUSIC jazz
 SCENE agon_wastes
 PLACE dark_samus center left happy
 PLACE samus midright left surprised
+HOLD dark_samus book
 NARRATOR: Next, Dark Samus tried reading a book. It was called "Fun: A Beginner's Guide." She read the whole thing in four seconds.
 DARK_SAMUS (happy): ...Chapter three says to build a sandcastle.
 SAMUS (surprised): ...There's no water. It's a desert.
@@ -148,6 +150,7 @@ SCENE agon_wastes
 CARD Sunset...
 PLACE dark_samus center left happy
 PLACE samus midright left happy
+HOLD samus tropical_drink
 NARRATOR: The Space Pirate came back with two drinks. Both with tiny umbrellas. Samus and Dark Samus sat under a new umbrella and watched the sun go down over the canyon.
 DARK_SAMUS (happy): ...This is the best vacation I have ever had.
 SAMUS (smug): ...It's the only vacation you've ever had.
@@ -160,6 +163,7 @@ PLACE dark_samus center left happy
 PLACE samus midright left smug
 DARK_SAMUS (happy): ...Samus Aran. Chapter seven says vacations are better with friends.
 SAMUS (smug): ...We're not friends.
+HOLD dark_samus tropical_drink
 DARK_SAMUS (smug): ...We are sitting under the same umbrella. Drinking the same drink.
 SAMUS (nervous): ...That's a coincidence.
 DARK_SAMUS (happy): ...Chapter seven says that is how friendship starts.
@@ -170,6 +174,7 @@ SCENE agon_wastes
 PLACE ridley center left sad
 PLACE space_pirate midright left nervous
 RIDLEY (sad): Scree...
+HOLD space_pirate tropical_drink
 SPACE_PIRATE (nervous): Sir, I got you a drink too. With an umbrella.
 RIDLEY (surprised): Scree?
 SPACE_PIRATE (happy): Everybody deserves a vacation, sir. Even you.

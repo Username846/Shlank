@@ -22,6 +22,7 @@ MUSIC jazz
 SCENE drew_house
 PLACE charlotte center left excited
 PLACE drew midright left nervous
+HOLD charlotte phone
 CHARLOTTE (excited): Jonathan! Move the meeting to three! No, two! No, three-fifteen! Then call me back!
 DREW (nervous): Honey, the babies are here.
 CHARLOTTE (happy): Wonderful. Hello, babies. Don't touch anything.
@@ -121,6 +122,7 @@ MUSIC jazz 2
 SCENE drew_house
 PLACE charlotte center left scared
 PLACE drew midright left nervous
+HOLD charlotte phone
 CHARLOTTE (scared): Drew! I can't find my spare phone! Jonathan was going to call me on it!
 DREW (nervous): Did you check your purse? Your other purse? Your third purse?
 CHARLOTTE (angry): Of course I did!
@@ -134,7 +136,9 @@ PLACE lil center right happy
 PLACE charlotte midleft right surprised
 PLACE drew midright left happy
 SFX ding
+HOLD lil phone
 LIL (happy): Here, lady. Your little phone. It was under the couch with a cracker.
+HOLD charlotte phone
 CHARLOTTE (surprised): My phone! The baby found my phone! Drew! The baby found it!
 DREW (happy): Good girl, Lil!
 CHARLOTTE (excited): Jonathan! I'm back! Don't ask!
@@ -156,6 +160,7 @@ SCENE drew_house
 ENTER stu left farleft happy
 PLACE angelica center left sad
 PLACE didi midright left surprised
+HOLD stu doll
 STU (happy): Hey, Angelica! You left your doll in my car this morning!
 ANGELICA (excited): CYNTHIA!
 DIDI (surprised): She was in the car the whole time?

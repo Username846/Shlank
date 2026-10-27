@@ -67,6 +67,7 @@ PLACE arnold midleft right nervous
 PLACE gerald center left nervous
 ENTER sid right right scared
 ENTER stinky right farright nervous
+HOLD sid flashlight
 SID (scared): I brought garlic, a flashlight and my cousin's camera.
 STINKY (nervous): I brought a lemon puddin'. In case we get hungry. Or in case ghosts like puddin'.
 GERALD (nervous): Okay. Remember. If anyone screams, everybody runs.
@@ -85,6 +86,7 @@ ARNOLD (nervous): It's really dark back here.
 SFX beep
 GERALD (scared): Did you hear that?
 SFX beep
+HOLD sid flashlight
 SID (scared): It's the ghost! It's beeping at us! It wants its package!
 ARNOLD (surprised): Wait. Look. Behind the dumpster. Two glowing eyes.
 SID (scared): We're doomed!
@@ -133,6 +135,7 @@ SCENE big_bobs
 PLACE big_bob center left happy
 ENTER arnold left midleft happy
 ENTER gerald left left happy
+HOLD big_bob beeper
 BIG_BOB (happy): A cat! A cat was stealing my beepers! I'm gonna put it in a commercial!
 ARNOLD (happy): So no more ghost?
 BIG_BOB (excited): No more ghost! "Big Bob's Beepers: So good, even cats want one!"

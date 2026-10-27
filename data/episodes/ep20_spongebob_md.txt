@@ -144,9 +144,11 @@ PLACE mr_krabs center left sad
 ENTER spongebob right midright excited
 SPONGEBOB (excited): Mr. Krabs! I brought you something! A get-well present!
 MR_KRABS (surprised): Is it a balloon? Because I've had enough of those.
+HOLD spongebob money
 SPONGEBOB (happy): It's the money box. From the last three days. So you can count it.
 MR_KRABS (excited): Me money! Oh, lad! This is the best medicine in the whole world!
 SFX cash
+HOLD mr_krabs money
 MR_KRABS (happy): One dollar. Two dollars. Three dollars...
 
 # ------------------------------------------------------------ THE KRUSTY KRAB

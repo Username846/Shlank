@@ -35,6 +35,7 @@ MUSIC jazz
 SCENE gfs_olympus
 PLACE anthony_higgs center left excited
 PLACE samus midright left neutral
+HOLD anthony_higgs spatula
 ANTHONY_HIGGS (excited): I'm coming with you, Princess! I've got my plasma cannon and my grilling apron!
 SAMUS (neutral): I work alone.
 ANTHONY_HIGGS (smug): You worked alone last time. And the time before that. How about some company?
@@ -143,6 +144,7 @@ PLACE anthony_higgs center left angry
 PLACE space_pirate midright left scared
 ANTHONY_HIGGS (angry): STOP! Everybody stop!
 SPACE_PIRATE (scared): ...Why?
+HOLD anthony_higgs spatula
 ANTHONY_HIGGS (angry): Because you're cooking those burgers WRONG! You're flipping them way too much!
 SPACE_PIRATE (surprised): We are?
 ANTHONY_HIGGS (smug): Flip once. Only once. Let the grill do the work.
@@ -189,9 +191,11 @@ SCENE gfs_olympus
 CARD The Federation Cookout...
 PLACE anthony_higgs center left happy
 PLACE samus midright left happy
+HOLD anthony_higgs sauce
 ANTHONY_HIGGS (happy): Princess. The cookout is saved. Everyone's got sauce.
 SAMUS (happy): ...Good.
 ANTHONY_HIGGS (smug): Admit it. Having a partner was kind of nice.
 SAMUS (smug): ...Kind of.
+HOLD anthony_higgs burger
 ANTHONY_HIGGS (excited): I'll take it! Burger?
 END

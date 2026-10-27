@@ -10,6 +10,7 @@ MUSIC happy
 SCENE doug_room cut
 TITLE
 PLACE doug center right nervous
+HOLD doug journal
 DOUG (nervous): Dear Journal. Today is the day. The day I finally ask Patti Mayonnaise to the Beets concert.
 DOUG (shy): I have two tickets. I won them on the radio. Caller number nine.
 ENTER porkchop left midleft happy
@@ -17,7 +18,7 @@ SFX boing
 PORKCHOP (excited): Arf! Arf arf!
 FACE doug porkchop
 DOUG (happy): I know, Porkchop. Two tickets! Front row!
-HOLD doug money
+HOLD doug tickets
 DOUG (nervous): But what if she says no? What if she laughs? What if I sneeze on her?
 PORKCHOP (smug): Arf.
 DOUG (happy): You're right, boy. A Funnie never gives up. Let's go!
@@ -29,6 +30,7 @@ SCENE funnie_house
 ENTER doug left midleft happy
 ENTER skeeter right midright excited
 SKEETER (excited): Honk! Hey Doug! Honk honk!
+HOLD doug tickets
 DOUG (happy): Skeeter! Look what I've got. Two tickets to the Beets!
 JUMP skeeter
 SKEETER (surprised): The Beets? Killer! Who are you taking? Me? Is it me?
@@ -50,7 +52,7 @@ ROGER (smug): Well, well. If it isn't Funnie. Talking to yourself again?
 DOUG (scared): Roger!
 MOVE roger center
 HOLD doug none
-HOLD roger money
+HOLD roger tickets
 SFX whoosh
 ROGER (excited): What have we got here? Beets tickets! Thanks, Funnie!
 DOUG (angry): Give those back, Roger!
@@ -75,7 +77,7 @@ JUMP porkchop
 SFX squeak
 ROGER (scared): Hey! Call off your mutt! Fine! Take 'em!
 HOLD roger none
-HOLD doug money
+HOLD doug tickets
 RUN roger offright
 PATTI (happy): Wow. Doug, those are yours?
 DOUG (shy): Uh. Yeah. Mine. Ha ha.
@@ -130,11 +132,11 @@ ENTER skeeter left left
 SKEETER (nervous): Why are we at the Beebe mansion?
 DOUG (sad): The ducks took the tickets across the lake. Right into the Beebes' fountain.
 ENTER porkchop right midright excited
-HOLD porkchop money
+HOLD porkchop tickets
 PORKCHOP (excited): Arf! Arf arf!
 DOUG (excited): Porkchop! You found them! Good boy!
 HOLD porkchop none
-HOLD doug money
+HOLD doug tickets
 SFX fanfare
 
 # --------------------------------------------------------------- DINK'S YARD

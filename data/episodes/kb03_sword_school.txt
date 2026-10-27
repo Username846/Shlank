@@ -10,6 +10,7 @@ MUSIC tense
 SCENE halberd_deck cut
 TITLE
 PLACE meta_knight center left neutral
+HOLD meta_knight sword
 META_KNIGHT: The way of the sword is the way of honor. Discipline. Patience. Focus.
 META_KNIGHT (smug): Today, I accept students. Only the worthy may learn.
 ENTER bandana_dee left midleft excited
@@ -27,6 +28,10 @@ PLACE meta_knight center left neutral
 PLACE bandana_dee midleft right excited
 PLACE waddle_doo left right nervous
 PLACE kirby midright left happy
+HOLD waddle_doo sword
+HOLD kirby sword
+HOLD meta_knight sword
+HOLD bandana_dee spear
 META_KNIGHT: Lesson one. Hold the sword correctly. Firm grip. Point forward.
 BANDANA_DEE (excited): Like this?
 META_KNIGHT (smug): Good, Bandana Dee. Very good.
@@ -53,6 +58,7 @@ MUSIC happy
 SCENE green_greens
 PLACE bandana_dee center right excited
 PLACE kirby midleft right happy
+HOLD bandana_dee spear
 BANDANA_DEE (excited): Kirby, let's practice! Lunge! Parry! Spin!
 KIRBY (excited): Poyo!
 SFX whoosh
@@ -66,6 +72,7 @@ MUSIC tense 2
 SCENE halberd_deck
 PLACE meta_knight center left neutral
 PLACE waddle_doo midleft right sad
+HOLD meta_knight sword
 WADDLE_DOO (sad): Teacher, I'm not good at this. Everyone else is better. I just zap things.
 META_KNIGHT: Waddle Doo. Every warrior has a strength. Yours is your eye beam.
 WADDLE_DOO (surprised): You think that's a strength?
@@ -104,6 +111,7 @@ MUSIC action
 SCENE dedede_throne
 PLACE dedede center left excited
 PLACE waddle_dee midright left scared
+HOLD dedede hammer
 DEDEDE (excited): Lesson one of Hammer School! Swing as hard as you can!
 SFX thud
 SHAKE 0.8
@@ -119,6 +127,8 @@ PLACE meta_knight center left neutral
 PLACE bandana_dee midleft right nervous
 PLACE waddle_doo left right nervous
 PLACE kirby midright left excited
+HOLD meta_knight sword
+HOLD bandana_dee spear
 META_KNIGHT: Today, the final test. You will each spar with me.
 BANDANA_DEE (nervous): With you? The greatest swordsman in Dream Land?
 META_KNIGHT (smug): I will go easy. A little.
@@ -132,10 +142,13 @@ SCENE halberd_deck
 PLACE meta_knight center left neutral
 PLACE bandana_dee midleft right excited
 SFX sword
+HOLD meta_knight sword
+HOLD bandana_dee spear
 BANDANA_DEE (excited): Lunge! Parry! Spin!
 SFX sword
 SHAKE 0.4
 META_KNIGHT (surprised): Good! Your form is excellent!
+HOLD bandana_dee broom
 BANDANA_DEE (happy): I've been practicing every night. With a broom.
 META_KNIGHT (happy): You pass, Bandana Dee.
 BANDANA_DEE (excited): I passed!
@@ -145,6 +158,7 @@ MUSIC action 3
 SCENE halberd_deck
 PLACE meta_knight center left neutral
 PLACE waddle_doo midleft right excited
+HOLD meta_knight sword
 WADDLE_DOO (excited): Sword of light! Zap zap!
 SFX laser
 SHAKE 0.4
@@ -158,9 +172,11 @@ MUSIC action
 SCENE halberd_deck
 PLACE meta_knight center left neutral
 PLACE kirby midleft right excited
+HOLD meta_knight sword
 META_KNIGHT: Kirby. Your turn. Show me what you've learned.
 KIRBY (excited): Poyo!
 SFX whoosh
+HOLD kirby sword
 NARRATOR: Kirby spun. Faster and faster. A tiny pink tornado with a practice sword.
 SFX sword
 SHAKE 0.8
@@ -173,6 +189,8 @@ MUSIC sneaky 2
 SCENE dedede_castle
 PLACE dedede center left smug
 ENTER meta_knight right midright neutral
+HOLD dedede hammer
+HOLD meta_knight sword
 DEDEDE (smug): So, Meta Knight. How did your little sword school go?
 META_KNIGHT (smug): Three graduates. All excellent.
 DEDEDE (angry): Well, my Hammer School has a hundred students!
@@ -186,6 +204,7 @@ SCENE green_greens
 PLACE kirby center right happy
 PLACE bandana_dee midleft right happy
 PLACE waddle_doo left right happy
+HOLD bandana_dee spear
 BANDANA_DEE (happy): We all graduated! We're real swordfighters now!
 WADDLE_DOO (excited): With a light sword! Zap zap!
 KIRBY (excited): Poyo!

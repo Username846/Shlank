@@ -51,6 +51,7 @@ ENTER krillin left left happy
 GOHAN (happy): We made it! Snake Way!
 KRILLIN (surprised): It really does look like a giant snake. A giant, never-ending snake.
 GOHAN (nervous): Dad said it took him six months to run all the way.
+HOLD krillin sandwich
 KRILLIN (scared): Six months?! I only brought one sandwich!
 GOHAN (smug): We can fly, Krillin. It'll only take a few days.
 KRILLIN (sad): That's still a lot of days for one sandwich.

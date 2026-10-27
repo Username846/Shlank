@@ -40,6 +40,7 @@ PLACE james midright left excited
 PLACE meowth midleft right smug
 MEOWTH (smug): The twerps are planning a fancy dinner on the beach. Which means they'll be busy.
 JESSIE (smug): And busy twerps make careless twerps.
+HOLD james tray
 JAMES (excited): We'll be the waiters! I've always wanted to carry a tray with one hand!
 MEOWTH (excited): And while they're eatin' dessert, we grab Pikachu!
 JESSIE (happy): A romantic evening for them. A Pikachu for us. Everyone wins.
@@ -99,6 +100,7 @@ PLACE nurse_joy midright left happy
 ENTER james left left smug
 JAMES (smug): Good evening. I am your waiter. Jamesy. Would you like to hear tonight's specials?
 BROCK (surprised): We... have a waiter?
+HOLD james tray
 JAMES (smug): Tonight we have a lovely soup. And for dessert, the chef's surprise. It's a net.
 NURSE_JOY (surprised): A net?
 JAMES (nervous): I mean... a nut. A nut cake. A lovely nut cake.
@@ -123,6 +125,7 @@ PLACE jessie center left smug
 PLACE meowth midleft right excited
 ENTER misty right midright smug
 MEOWTH (excited): The twerp's Pikachu is right there. Totally distracted by all the lights.
+HOLD jessie net
 JESSIE (smug): On my signal, we throw the net.
 MISTY (smug): Hi. I'm the dishwasher. Can I help?
 JESSIE (surprised): Of course! Wash these. Quietly.
@@ -135,6 +138,7 @@ PLACE jessie center left excited
 PLACE james midright left excited
 PLACE meowth midleft right excited
 PLACE wobbuffet left right excited
+HOLD jessie net
 JESSIE (excited): Now! Throw the net!
 JAMES (surprised): It's... all tied up! In knots!
 MEOWTH (scared): And it's soaking wet!

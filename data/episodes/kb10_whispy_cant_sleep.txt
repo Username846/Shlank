@@ -24,6 +24,7 @@ SCENE kirby_house
 PLACE kirby center right nervous
 PLACE bandana_dee midleft right sad
 PLACE waddle_doo left right sad
+HOLD bandana_dee spear
 BANDANA_DEE (sad): Kirby, nobody in Dream Land is sleeping. Whispy keeps sighing all night.
 WADDLE_DOO (sad): I fell asleep standing up this morning. In the middle of a sentence. Zap... zzz.
 BANDANA_DEE (nervous): We have to help him sleep. For everyone's sake.
@@ -56,8 +57,10 @@ MUSIC jazz 2
 SCENE halberd_deck
 PLACE meta_knight center left neutral
 PLACE kirby midright left nervous
+HOLD meta_knight sword
 META_KNIGHT (neutral): The king's song failed? Unsurprising.
 KIRBY (sad): Poyo.
+HOLD meta_knight book
 META_KNIGHT (smug): A tree needs a story. A long, slow, very calm story. I have just the one. "The History of Sword Polishing, Volume One."
 KIRBY (surprised): Poyo?
 META_KNIGHT (smug): It's four hundred pages long. Nobody has ever reached page ten awake.
@@ -67,10 +70,12 @@ MUSIC romantic
 SCENE whispy_forest
 PLACE whispy_woods center left sad
 PLACE meta_knight midright left neutral
+HOLD meta_knight sword
 META_KNIGHT (neutral): Chapter one. The cloth. Choosing the right cloth for your blade is a matter of great importance.
 WHISPY_WOODS (sad): Mmm.
 META_KNIGHT (neutral): Chapter two. More about the cloth.
 WHISPY_WOODS (sad): Mmmm...
+HOLD meta_knight book
 NARRATOR: By chapter three, Kirby was asleep. By chapter four, Bandana Dee was asleep. By chapter five, Meta Knight had fallen asleep reading his own book.
 WHISPY_WOODS (sad): ...Still awake.
 
@@ -137,7 +142,9 @@ CARD The next morning...
 PLACE dedede center left happy
 PLACE meta_knight midright left neutral
 PLACE kirby midleft right excited
+HOLD meta_knight sword
 DEDEDE (happy): I slept twelve hours! I feel like a new king! Clearly my lullaby worked.
+HOLD meta_knight book
 META_KNIGHT (smug): Clearly my book worked.
 KIRBY (smug): Poyo.
 DEDEDE (surprised): What did Kirby do?

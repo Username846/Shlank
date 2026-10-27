@@ -15,6 +15,7 @@ PLACE jean right left nervous
 LEVI (neutral): You three. Go to the Karanes market. Buy soap, rope and tea. That's all.
 SASHA (excited): The market! There's a meat pie stand there! And a cheese man! And a bread lady!
 LEVI (angry): Soap. Rope. Tea.
+HOLD jean money
 JEAN (nervous): Yes, sir. I'll hold the money, sir.
 LEVI (smug): Good. Don't let Sasha touch it.
 SASHA (sad): ...Not even a little?
@@ -49,6 +50,7 @@ MUSIC jazz 2
 SCENE karanes
 PLACE sasha center left excited
 PLACE jean midright left angry
+HOLD jean money
 SASHA (excited): Jean! A meat pie! Just one! It's only two coins!
 JEAN (angry): No! We have exactly enough money for soap, rope and tea!
 SASHA (sad): What if I starve? Right here in the market? In front of the meat pie?
@@ -105,6 +107,7 @@ MUSIC romantic
 SCENE karanes
 PLACE jean center left nervous
 PLACE sasha midright left happy
+HOLD jean money
 JEAN (nervous): Okay. Here's what we'll do. We buy the soap. We buy the rope. We skip the tea.
 SASHA (surprised): Skip the tea? Captain Levi will be so mad!
 JEAN (smug): And with the tea money, we buy this kid and his family a meat pie. A big one.
@@ -130,6 +133,7 @@ PLACE levi center left neutral
 PLACE jean midright left nervous
 LEVI (neutral): Soap.
 JEAN (nervous): Here, sir. Lavender.
+HOLD jean rope
 LEVI (neutral): Rope.
 JEAN (nervous): Here, sir.
 LEVI (neutral): Tea.
@@ -154,6 +158,7 @@ CARD That evening...
 PLACE levi center left neutral
 PLACE sasha midright left surprised
 LEVI (neutral): Braus. Here.
+HOLD levi teacup
 SASHA (surprised): A cup of tea? For me? I thought you didn't have any tea, sir.
 LEVI (smug): I always keep an extra box. For emergencies.
 SASHA (happy): Is this an emergency?

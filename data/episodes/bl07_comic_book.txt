@@ -11,6 +11,7 @@ SCENE doug_room cut
 TITLE
 PLACE doug center right excited
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (excited): Dear Journal. The Bluffington Bugle is looking for a comic strip. A real comic strip. In print.
 DOUG (happy): And I know exactly what to draw. The adventures of Quailman!
 PORKCHOP (excited): Arf!
@@ -68,6 +69,7 @@ SCENE bluffington_school
 CARD The next Monday...
 PLACE doug center right surprised
 PLACE skeeter midleft right angry
+HOLD skeeter newspaper
 SKEETER (angry): Doug! Look at page six! There's a new comic! Klotzman!
 DOUG (surprised): Klotzman? But that's... my comic. With a leather jacket and green skin.
 SKEETER (angry): He even used the pie! Not cool, man. Honk.
@@ -79,6 +81,7 @@ MUSIC tense 2
 SCENE school_hallway
 PLACE doug center right angry
 ENTER roger left midleft smug
+HOLD doug newspaper
 DOUG (angry): Roger! You copied my comic!
 ROGER (smug): Copied? Please, Funnie. Klotzman is completely original. He's cooler, he's stronger, he's got a motorcycle.
 DOUG (angry): He has my pie!
@@ -91,6 +94,7 @@ MUSIC sad
 SCENE doug_room
 PLACE doug center right sad
 PLACE porkchop midleft right sad
+HOLD doug journal
 DOUG (sad): Dear Journal. Roger's going to end Quailman. In print. In front of everybody.
 PORKCHOP (sad): Arf.
 DOUG (sad): Maybe I should just stop drawing. Let Klotzman win.
@@ -137,6 +141,7 @@ MUSIC romantic
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. The Bugle says "Quailman and Klotzman" is the most popular comic in Bluffington history.
 DOUG (shy): And Roger drew the motorcycle. It's actually pretty good.
 PORKCHOP (smug): Arf.

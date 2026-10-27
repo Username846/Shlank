@@ -113,6 +113,7 @@ MUSIC jazz
 SCENE pilaf_castle
 PLACE bulma center left smug
 NARRATOR: Meanwhile, in the tower, Bulma had been busy. She hadn't built a Dragon Radar. She'd built something much better.
+HOLD bulma phone
 BULMA (smug): A phone. Out of a toaster, two screws and a hairpin.
 SFX beep
 BULMA (happy): Hello, Vegeta? It's me. Yes, I'm fine. No, don't come. The boys are handling it.

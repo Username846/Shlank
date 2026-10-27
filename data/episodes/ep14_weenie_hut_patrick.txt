@@ -24,6 +24,7 @@ MUSIC jazz
 SCENE weenie_hut
 PLACE patrick center left excited
 NARRATOR: Patrick's first day. He arrived three hours early. He had brought his own umbrella. For himself.
+HOLD patrick milkshake
 PATRICK (excited): Milkshake, umbrella. Milkshake, umbrella. Milkshake, umbrella.
 NARRATOR: He put umbrellas in milkshakes. He put umbrellas in sandwiches. He put an umbrella in the manager's hat.
 PATRICK (happy): Everything is better with a little umbrella.
@@ -68,6 +69,7 @@ MUSIC jazz 2
 SCENE weenie_hut
 PLACE patrick center left happy
 ENTER bubble_bass right midright angry
+HOLD bubble_bass milkshake
 BUBBLE_BASS (angry): Excuse me. Umbrella guy. There is an umbrella in my milkshake.
 PATRICK (happy): You're welcome!
 BUBBLE_BASS (angry): I didn't ask for an umbrella. I asked for a milkshake with extra pickles.
@@ -96,6 +98,7 @@ PLACE patrick midright left happy
 NARRATOR: Patrick made a milkshake out of paper. With an umbrella. Plankton did not drink it.
 PLANKTON (angry): Fine! Where is your manager?!
 PATRICK (smug): She went home. She left me in charge. I'm the boss now. Of the umbrellas.
+HOLD plankton contract
 PLANKTON (excited): The boss? You can sign papers? Here, sign this! Right here! It's a, uh, umbrella order form!
 PATRICK (excited): I love umbrella order forms!
 
@@ -117,6 +120,7 @@ PLACE patrick center left nervous
 PLACE plankton midright left excited
 ENTER spongebob right right scared 600
 SPONGEBOB (scared): Patrick! Don't sign it!
+HOLD plankton contract
 PATRICK (surprised): But it's an umbrella order form.
 SPONGEBOB (angry): Look at the small print! "I give Weenie Hut Jr's to Plankton forever."
 PATRICK (surprised): Where does it say umbrella?

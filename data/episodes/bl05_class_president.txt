@@ -152,6 +152,7 @@ MUSIC romantic
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Today I became Vice President of the fourth grade.
 DOUG (smug): My first official act: more tater tots at lunch.
 PORKCHOP (excited): Arf!

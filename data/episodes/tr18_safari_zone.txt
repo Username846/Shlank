@@ -46,6 +46,7 @@ MUSIC jazz 2
 SCENE safari_zone
 PLACE ash center right excited
 PLACE pikachu midleft right happy
+HOLD ash poke_ball
 ASH (excited): Look, Pikachu! A Rhyhorn! Here goes! Safari Ball, go!
 SFX whoosh
 SFX boing
@@ -160,6 +161,7 @@ PLACE ash center right surprised
 NARRATOR: Ash sat down in the tall grass, tired. He threw out some bait. He didn't chase anything. He just sat. And one by one, the Tauros came over to eat.
 ASH (surprised): They're coming to me. They're actually coming to me.
 SFX ding
+HOLD ash poke_ball
 NARRATOR: Ash threw one Safari Ball. Then another. Then another. Then all the rest.
 ASH (excited): I caught a Tauros! And another one! And another one!
 

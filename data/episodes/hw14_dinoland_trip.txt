@@ -14,6 +14,7 @@ PLACE arnold midright left happy
 PLACE eugene right left excited
 MR_SIMMONS (excited): Class! Tomorrow we're taking a very special field trip! To Dinoland!
 EUGENE (excited): Dinoland! I've always wanted to go to Dinoland!
+HOLD mr_simmons letter
 MR_SIMMONS (nervous): Eugene. About that. The park sent us a letter.
 EUGENE (surprised): A letter? About me?
 MR_SIMMONS (sad): You're not allowed on any of the rides. For safety reasons. Your safety. And the rides' safety.
@@ -153,6 +154,7 @@ SCENE school_bus
 CARD The ride home...
 PLACE eugene center left happy
 PLACE mr_simmons midright left happy
+HOLD mr_simmons letter
 MR_SIMMONS (happy): Eugene, the park sent a new letter. You're allowed on any ride now. With two seatbelts.
 EUGENE (excited): Really? Any ride?
 MR_SIMMONS (smug): They also named the cotton candy stand after you. "Eugene's Corner." They say it's their luckiest spot.

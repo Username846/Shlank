@@ -28,6 +28,7 @@ PLACE jessie midleft right excited
 PLACE james center left excited
 PLACE meowth midright left smug
 JESSIE (excited): We're in charge! I'm sitting in the big chair!
+HOLD james phone
 JAMES (excited): I'm ordering pizza on the Boss's phone!
 MEOWTH (smug): And I'm going to feed the prize Pokémon. Where is it, anyway?
 JESSIE (nervous): Wasn't it in that golden box?

@@ -40,6 +40,7 @@ PLACE jessie center left excited
 ENTER wobbuffet right midright happy
 JESSIE (excited): Wobbuffet! Do I look like a referee?
 WOBBUFFET (happy): Wobba.
+HOLD jessie whistle
 JESSIE (smug): I'll take that as a yes. Whistle, check. Striped shirt, check. Mustache, check.
 WOBBUFFET (nervous): Wobba wobba?
 JESSIE (angry): Yes, girls can have mustaches! It's a disguise!

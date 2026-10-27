@@ -11,6 +11,7 @@ SCENE dedede_throne cut
 TITLE
 PLACE dedede center left smug
 PLACE waddle_dee midright left nervous
+HOLD dedede hammer
 DEDEDE (smug): Waddle Dee! Breakfast! Then polish my hammer! Then fan me! Then make lunch!
 WADDLE_DEE (nervous): Your Majesty. I have a request. I'd like... a day off.
 DEDEDE (surprised): A what?
@@ -35,6 +36,7 @@ NARRATOR: Kirby knew exactly what people do with free time. They nap. They eat. 
 MUSIC sneaky
 SCENE dedede_throne
 PLACE dedede center left nervous
+HOLD dedede plate
 DEDEDE (nervous): Breakfast. How hard can breakfast be? You put food on a plate. You eat it.
 SFX thud
 NARRATOR: The king opened the kitchen cabinet. Everything fell out. Pots. Pans. Forty-seven jars of jam.
@@ -58,6 +60,7 @@ MUSIC tense
 SCENE dedede_castle
 PLACE dedede center left angry
 PLACE bandana_dee midright left nervous
+HOLD bandana_dee spear
 DEDEDE (angry): Bandana Dee! Where are my socks? My royal socks!
 BANDANA_DEE (nervous): Waddle Dee keeps them in the third drawer, Your Majesty.
 DEDEDE (angry): I checked the third drawer! There's just a little note!
@@ -87,6 +90,7 @@ SFX sizzle
 DEDEDE (scared): The soup is on fire! How is soup on fire?! Soup is wet!
 SFX blast
 SHAKE 0.6
+HOLD dedede hammer
 DEDEDE (sad): And I sat on my hammer. And I forgot to feed the royal fish.
 NARRATOR: The royal fish was fine. It ate a cracker that fell in the tank. It was having the best day of its life.
 DEDEDE (sad): I miss Waddle Dee.
@@ -96,6 +100,7 @@ MUSIC jazz 2
 SCENE cloudy_park
 PLACE meta_knight center left neutral
 ENTER dedede right midright sad
+HOLD meta_knight sword
 META_KNIGHT (neutral): Your Majesty. You look... burnt.
 DEDEDE (sad): The soup attacked me. And I can't find anything. And my socks are warm but I don't deserve them.
 META_KNIGHT (smug): Perhaps you've learned something today.

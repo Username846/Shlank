@@ -119,6 +119,7 @@ PLACE kirby midright left happy
 NARRATOR: Kine had flopped all the way back up the river. He sat down next to Kirby on the starting line.
 KINE (happy): Hey, little dude. Whatcha eating?
 KIRBY (happy): Poyo!
+HOLD kirby sandwich
 KINE (smug): A sandwich, huh? Mind if I have a bite? Racing is hard work for a fish.
 KIRBY (excited): Poyo poyo!
 NARRATOR: Kirby tore the sandwich in half. He gave the bigger half to Kine.
@@ -133,6 +134,7 @@ NARRATOR: Rick and Coo came walking back. Slowly. They looked very sorry.
 RICK (nervous): Kirby. Sorry we left you. We got so busy trying to win, we forgot the whole point.
 COO (nervous): Hoo. A friend who forgets his friend is not much of a friend.
 KIRBY (happy): Poyo!
+HOLD kirby basket
 NARRATOR: Kirby pulled two more sandwiches out of his picnic basket. One for Rick. One for Coo.
 
 # ------------------------------------------------------------ PEANUT PLAINS

@@ -35,6 +35,7 @@ PLACE saul center left excited
 PLACE francesca midright left neutral
 SAUL (excited): Francesca! I'm entering the sauce contest! Get me a sauce!
 FRANCESCA (neutral): You don't cook.
+HOLD saul jar
 SAUL (smug): I don't need to cook. I need to WIN. Go to the store. Buy the fanciest barbecue sauce they have. We'll put it in a new jar.
 FRANCESCA (smug): That's cheating.
 SAUL (happy): It's marketing.
@@ -46,6 +47,7 @@ CARD Sauce attempt one...
 PLACE walt center left nervous
 PLACE jesse midright left surprised
 SFX sizzle
+HOLD walt beaker
 JESSE (surprised): Yo, Mr. White. Why is your sauce smoking?
 WALT (nervous): It's not smoking. It's... caramelizing aggressively.
 SFX blast
@@ -85,6 +87,7 @@ PLACE gus center left neutral
 PLACE walt midright left nervous
 PLACE saul right left smug
 NARRATOR: In a clean, bright test kitchen, three sauces sat on a long white table. Gus's family recipe, in a glass bowl. Walt's science sauce, in a beaker. And Saul's sauce, in a jar with a big picture of Saul's face on it.
+HOLD saul jar
 GUS (neutral): Interesting jar, Saul.
 SAUL (smug): Branding, Gus. It's all branding.
 WALT (nervous): Who's the judge?
@@ -119,6 +122,7 @@ CARD Sauce one...
 PLACE huell center left neutral
 PLACE gus midright left neutral
 SFX chomp
+HOLD huell chicken
 NARRATOR: Huell dipped a chicken nugget into Gus's family sauce. He chewed. Slowly. Thoughtfully. For a very long time.
 HUELL (happy): ...Mm.
 GUS (happy): A good "mm," I hope.
@@ -167,6 +171,7 @@ SCENE madrigal_office
 PLACE gus center left surprised
 PLACE walt midright left surprised
 SFX ding
+HOLD walt beaker
 NARRATOR: Gus poured some of his family sauce into Walt's beaker. Walt stirred it. They each dipped a nugget and tasted it at exactly the same time.
 GUS (surprised): Walter. This is extraordinary.
 WALT (surprised): Your family recipe and my chemistry.

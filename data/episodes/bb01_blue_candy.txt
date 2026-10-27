@@ -11,6 +11,7 @@ SCENE chem_class cut
 TITLE
 PLACE walt center left neutral
 WALT: Chemistry is the study of change. Sugar, water and heat become something beautiful.
+HOLD walt candy
 WALT (smug): Today we're making rock candy. Perfect crystals. Ninety-nine point one percent pure.
 ENTER jesse right right happy
 JESSE (excited): Yo, Mister White! That candy is so blue! That's art, yo!
@@ -141,6 +142,7 @@ PLACE hank center left surprised
 PLACE flynn farleft right happy
 HANK (surprised): Walt? YOU'RE Heisenberg?
 WALT (smug): Say my name, Hank.
+HOLD hank candy
 HANK (excited): Heisenberg! This candy is incredible! It's like little blue minerals!
 ENTER jesse right midright excited
 JESSE (excited): We won, yo! First prize! Blue ribbon for the blue candy!

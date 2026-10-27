@@ -16,6 +16,7 @@ PLACE pikachu farleft right happy
 ASH (excited): This shortcut will save us a whole day! Trust me!
 MISTY (nervous): Ash, you said that about the last three shortcuts.
 BROCK (nervous): And we ended up in a swamp. Twice.
+HOLD ash map
 ASH (smug): This time, I've got a map!
 MISTY (angry): Ash. That map is upside down.
 

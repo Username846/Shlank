@@ -11,6 +11,7 @@ SCENE doug_room cut
 TITLE
 PLACE doug center right excited
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (excited): Dear Journal. Saturday is Skeeter's birthday. And this year, I'm throwing him a surprise party.
 PORKCHOP (excited): Arf!
 DOUG (nervous): The only problem is, Skeeter has never been surprised. Ever. Not once.
@@ -99,6 +100,7 @@ PLACE patti midleft right excited
 PLACE beebe midright left nervous
 PLACE theda_funnie farleft right happy
 DOUG (nervous): Okay, everybody! He's coming! Hide!
+HOLD theda_funnie cake
 PATTI (excited): The streamers are up! The cake is here!
 BEEBE (nervous): Where do I hide? This house is so small. My closet is bigger than this room.
 THEDA_FUNNIE (happy): Under the model airplanes, Beebe. Quickly, now.
@@ -147,6 +149,7 @@ SCENE doug_room
 CARD That night...
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Skeeter was surprised. For the first time ever. He honked for an hour.
 DOUG (shy): And Patti said I'm a good friend. A really good friend.
 PORKCHOP (smug): Arf.

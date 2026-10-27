@@ -36,6 +36,7 @@ MUSIC sad
 SCENE doug_room
 PLACE doug center right nervous
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (nervous): Dear Journal. What if Patti is Juliet? I'll have to say "I love you" in front of the whole school!
 DOUG (scared): What if Beebe is Juliet? I'll have to say it to Beebe!
 PORKCHOP (smug): Arf.
@@ -152,6 +153,7 @@ MUSIC romantic 2
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. I said "Juliet is the sun" in front of the whole school, and nobody laughed at me.
 DOUG (smug): Okay, they laughed. But the good kind of laughing.
 PORKCHOP (happy): Arf!

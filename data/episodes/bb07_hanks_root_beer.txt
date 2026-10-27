@@ -13,6 +13,7 @@ PLACE hank center left excited
 PLACE marie midright left nervous
 HANK (excited): Marie! Come look! My first batch! Schraderbräu! Homemade root beer!
 MARIE (nervous): Hank, you've filled the whole garage with bottles.
+HOLD hank bottle
 HANK (smug): Sixty bottles. For the family barbecue on Sunday. Everybody's gonna love it.
 MARIE (nervous): Did you follow a recipe?
 HANK (happy): Sort of. I added extra sugar. More sugar, more fizz. That's science, right?
@@ -63,6 +64,7 @@ SCENE white_house
 PLACE walt center left neutral
 PLACE skyler midright left nervous
 SFX door
+HOLD skyler phone
 SKYLER (nervous): Walt, it's Hank on the phone. He says his garage sounds like the Fourth of July.
 WALT (neutral): I was afraid of this. How many have burst?
 SKYLER (nervous): Twenty.
@@ -89,6 +91,7 @@ MUSIC tense
 SCENE schrader_house
 PLACE walt center left neutral
 PLACE jesse midright left nervous
+HOLD walt bottle
 NARRATOR: Walt opened the first bottle. Very slowly. It hissed like an angry snake. Then a fountain of root beer hit the ceiling.
 SFX hiss
 JESSE (surprised): Yo, it's raining root beer!
@@ -153,6 +156,7 @@ PLACE marie midright left smug
 PLACE skyler midleft right happy
 PLACE flynn right left excited
 PLACE walt farleft right happy
+HOLD hank bottle
 NARRATOR: Hank poured the last bottle of Schraderbräu into six tiny cups. Everyone took a sip.
 FLYNN (excited): This is the best root beer ever!
 SKYLER (surprised): Hank, this is actually delicious.
@@ -166,6 +170,7 @@ SCENE schrader_house
 CARD One week later...
 PLACE hank center left happy
 PLACE walt midright left nervous
+HOLD hank bottle
 HANK (happy): Walt, I listened to you. This time I used half the sugar. And plastic bottles.
 WALT (happy): Good, Hank. Very good.
 HANK (smug): And I put 'em in Marie's car. Where it's nice and warm.

@@ -72,6 +72,7 @@ PLACE bubble_bass right left smug
 KING_NEPTUNE (neutral): Chefs! You have one hour. Begin!
 SFX ding
 SPONGEBOB (excited): Flip! Flip! Flip!
+HOLD bubble_bass sandwich
 BUBBLE_BASS (smug): I'm making a sandwich. With one pickle. Placed exactly in the center.
 NARRATOR: The other chefs made soups. Cakes. A forty-layer seaweed lasagna. Bubble Bass made a sandwich and spent fifty minutes adjusting the pickle.
 
@@ -93,6 +94,7 @@ MUSIC sneaky 2
 SCENE poseidome
 PLACE king_neptune center left neutral
 PLACE bubble_bass midright left smug
+HOLD bubble_bass sandwich
 BUBBLE_BASS (smug): Your Majesty. A sandwich. One bun. One slice of bread. One pickle. Perfectly centered.
 SFX chomp
 KING_NEPTUNE (surprised): The pickle is... precisely in the middle.

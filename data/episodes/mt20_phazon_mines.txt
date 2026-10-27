@@ -191,6 +191,7 @@ PLACE samus midright left surprised
 PLACE ridley midleft right neutral
 ANTHONY_HIGGS (excited): Everybody! You know what we need after a day like this?
 SAMUS (surprised): ...Sleep?
+HOLD ridley sauce
 ANTHONY_HIGGS (smug): A cookout! I've got the grill! Ridley's got the sauce!
 RIDLEY (excited): SCREE!
 SAMUS (happy): ...Hey there, Anthony.

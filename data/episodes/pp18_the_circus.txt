@@ -46,6 +46,7 @@ MUSIC jazz 2
 SCENE the_circus
 PLACE stu center left excited
 PLACE chas midright left nervous
+HOLD stu cotton_candy
 STU (excited): Chas! Cotton candy! It's like eating a pink cloud!
 CHAS (nervous): Stu, do you know how much sugar is in that?
 STU (smug): Enough to fly on the trapeze myself!
@@ -122,6 +123,7 @@ SFX boing
 NARRATOR: Chuckie ran. He ran past the elephant. He ran past the lion. He ran right through the line of clowns, holding his nose the whole time.
 CHUCKIE (scared): Please don't take my nose! Please don't take my nose!
 NARRATOR: One clown honked his horn. Another one gave Chuckie a balloon. Nobody took his nose.
+HOLD chuckie balloon
 CHUCKIE (surprised): ...They gave me a balloon.
 
 # ------------------------------------------------------------ THE CIRCUS
@@ -155,6 +157,7 @@ SCENE the_circus
 PLACE angelica center left surprised
 PLACE chuckie midleft right smug
 ANGELICA (surprised): Finster! You walked through the clowns? And you still have your nose?
+HOLD chuckie balloon
 CHUCKIE (smug): They didn't want my nose, Angelica. They gave me a balloon.
 ANGELICA (angry): A balloon?! I want a balloon!
 CHUCKIE (smug): Then you have to walk past the clowns.

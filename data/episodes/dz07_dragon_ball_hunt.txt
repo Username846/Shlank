@@ -11,6 +11,7 @@ SCENE capsule_corp cut
 TITLE
 PLACE bulma center left excited
 PLACE goku midright left happy
+HOLD bulma dragon_radar
 BULMA (excited): Goku, look! The Dragon Radar! All seven Dragon Balls are active again!
 GOKU (excited): All seven? So we can summon Shenron?
 BULMA (smug): And make a wish. Anything we want.
@@ -48,6 +49,7 @@ GOKU (excited): The radar says the first ball is at the top of Korin Tower!
 BULMA (nervous): Goku, that tower goes above the clouds.
 GOKU (happy): I'll fly up! Be right back!
 SFX whoosh
+HOLD goku dragon_ball
 NARRATOR: Goku flew up. Then he flew back down. With the four-star Dragon Ball. And a bag of senzu beans. And a sandwich.
 BULMA (smug): Where did you get the sandwich?
 GOKU (happy): Korin made it!
@@ -57,6 +59,7 @@ MUSIC sneaky
 SCENE gravity_room
 PLACE vegeta center left smug
 PLACE trunks midright left nervous
+HOLD vegeta dragon_ball
 VEGETA (smug): The Dragon Balls. I've already found two of them. In my sock drawer.
 TRUNKS (surprised): Dad, why were Dragon Balls in your sock drawer?
 VEGETA (nervous): I was... keeping them safe. For years. Just in case.
@@ -85,6 +88,7 @@ PLACE krillin midright left scared
 FRIEZA (excited): Ah ha! The last Dragon Ball! In the middle of West City!
 KRILLIN (scared): Frieza?! What are you doing on Earth?
 FRIEZA (smug): Collecting, little bald man. And you're holding something of mine.
+HOLD krillin dragon_ball
 KRILLIN (nervous): This? It's just... an orange bowling ball.
 FRIEZA (angry): Hand it over!
 KRILLIN (scared): GOKU!

@@ -14,6 +14,7 @@ PLACE eren midright left smug
 HANNES (happy): Eren! Mikasa! Look at you two, all grown up in your Scout uniforms!
 EREN (smug): Hannes. Are you sleeping on duty again?
 HANNES (nervous): Sleeping? No! I was... resting my eyes. Very alertly.
+HOLD hannes pillow
 EREN (smug): You have a pillow.
 HANNES (smug): It's a tactical pillow.
 

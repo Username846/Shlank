@@ -142,6 +142,7 @@ PLACE phil midleft right happy
 PLACE lil left right happy
 NARRATOR: Stu helped stack every box back up. It took two hours. The store manager gave the babies one cookie each, for being so cute.
 TOMMY (happy): See, Chuckie? We got the treasure after all.
+HOLD chuckie cookie
 CHUCKIE (happy): Just one cookie, Tommy. But it's a good one.
 PHIL (excited): Lillian, I saved you the frozen pea.
 LIL (happy): Phillip, you're the best brother ever.

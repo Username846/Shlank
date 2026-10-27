@@ -12,4 +12,7 @@
   characters keep their old ids/names in `aka` so saved episodes still load.
 - Characters: `data/characters.json` + a drawing in `scripts/cast/` (most people are `HumanRig` settings).
   Locations: `data/locations.json` + a drawing in `scripts/sets/`. Episodes: `data/episodes/` + `index.json`.
+- Props: `scripts/props.gd` (ids, categories, drawings). When a line says someone has or uses an item, add a `HOLD`
+  in that scene (props reset every scene); add a new prop there if it doesn't exist. `tools/snapshot.tscn -- <out> props`
+  renders every prop; `prop_check` lists characters that can't hold anything.
 - Kirby only ever says "Poyo!" and variations.

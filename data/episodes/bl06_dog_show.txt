@@ -11,11 +11,13 @@ SCENE doug_room cut
 TITLE
 PLACE doug center right excited
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (excited): Dear Journal. The Bluffington Dog Show is on Saturday. And this year, Porkchop is going to win.
 PORKCHOP (excited): Arf! Arf arf!
 DOUG (happy): First prize is a lifetime supply of dog biscuits. And a trophy shaped like a fire hydrant.
 PORKCHOP (smug): Arf.
 DOUG (nervous): The only problem is, Porkchop doesn't really do dog stuff. He does Porkchop stuff.
+HOLD porkchop newspaper
 NARRATOR: Porkchop was, at that moment, reading the newspaper. Upside down.
 
 # ------------------------------------------------------------ THE FUNNIE HOUSE
@@ -49,6 +51,7 @@ SCENE bluffington_park
 PLACE doug center right excited
 PLACE porkchop midleft right neutral
 DOUG (excited): Okay, Porkchop. Practice time. Sit!
+HOLD porkchop lemonade
 NARRATOR: Porkchop sat. On a lawn chair. With sunglasses. And a lemonade.
 DOUG (nervous): Okay, that's... technically sitting. Now fetch!
 NARRATOR: Porkchop fetched. He fetched the newspaper, a sandwich and Mr. Dink's car keys.
@@ -125,6 +128,7 @@ ENTER porkchop right midright angry 600
 JUDY (scared): A beast! A wild beast! It's interrupting my silent interpretation of a leaf!
 PORKCHOP (angry): Arf! Arf arf!
 SFX boing
+HOLD porkchop sandwich
 NARRATOR: Porkchop distracted Killer with a perfect grilled cheese sandwich. Killer sat. Killer stayed. Killer was, it turns out, very hungry.
 JUDY (surprised): The dog... saved the mimes.
 PORKCHOP (smug): Arf.
@@ -148,6 +152,7 @@ SCENE doug_room
 CARD That night...
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Porkchop won Best in Show. And a lifetime supply of dog biscuits.
 DOUG (shy): And Patti hugged him. And then she almost hugged me. It was a near hug. That counts.
 NARRATOR: Porkchop shared his dog biscuits with Killer. They're pen pals now.

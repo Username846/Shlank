@@ -41,6 +41,8 @@ PLACE patti midright left nervous
 SFX thud
 SFX thud
 SKEETER (excited): One, two, three, four! Honk!
+HOLD patti guitar
+HOLD skeeter drumsticks
 NARRATOR: Skeeter drummed. Patti played her three chords. Doug sang. It was loud. It was messy. It sounded like a washing machine full of forks.
 PATTI (nervous): Was that... good?
 DOUG (sad): I think that was bad.
@@ -81,7 +83,10 @@ SFX thud
 NARRATOR: They tried again. Slower. Skeeter played the heartbeat. Patti played her chords along with it. Doug sang the song he'd written. It was about a dog.
 PATTI (surprised): Doug, that actually sounded good!
 SKEETER (excited): Honk! We're a real band!
+HOLD patti guitar
+HOLD skeeter drumsticks
 PHIL_FUNNIE (excited): That's my boy! Now let me get my tambourine!
+HOLD phil_funnie tambourine
 
 # ------------------------------------------------------------ BLUFFINGTON MALL
 MUSIC jazz
@@ -115,6 +120,7 @@ SCENE doug_room
 CARD The night before the dance...
 PLACE doug center right nervous
 PLACE porkchop midleft right neutral
+HOLD doug journal
 DOUG (nervous): Dear Journal. Tomorrow we play in front of the whole school. What if I forget the words?
 PORKCHOP (smug): Arf.
 DOUG (sad): What if my voice cracks? What if Patti's string breaks? What if Skeeter honks in the wrong place?
@@ -133,6 +139,9 @@ MR_BONE (nervous): And now, our student band. Please be... polite.
 DOUG (nervous): Hi, everybody. We're... uh... we don't have a name yet.
 SKEETER (excited): The Honkers!
 PATTI (smug): We're not called the Honkers, Skeeter.
+HOLD skeeter drumsticks
+HOLD patti guitar
+HOLD doug microphone
 DOUG (happy): We're the Funnie Bones. Junior. This song is called "Porkchop."
 
 # ------------------------------------------------------------ BLUFFINGTON GYM
@@ -142,6 +151,9 @@ PLACE doug center right happy
 PLACE patti midleft right happy
 PLACE skeeter midright left happy
 SFX thud
+HOLD skeeter drumsticks
+HOLD patti guitar
+HOLD doug microphone
 NARRATOR: They played slow. Like a heartbeat. Doug sang about his best friend: a dog who reads the newspaper, makes grilled cheese and is always there when you need him.
 PATTI (happy): Doug, look. Everybody's dancing.
 SKEETER (excited): Even Roger! Honk!
@@ -154,6 +166,7 @@ PLACE phil_funnie center left excited
 PLACE doug midright left happy
 PHIL_FUNNIE (excited): Doug! That was beautiful! Better than the Funnie Bones ever were!
 DOUG (shy): You think so, Dad?
+HOLD phil_funnie tambourine
 PHIL_FUNNIE (happy): I know so. Can I join for the encore? I brought my tambourine.
 DOUG (excited): Dad, the Funnie Bones are back together!
 PHIL_FUNNIE (smug): Cowbell, too.
@@ -164,6 +177,7 @@ SCENE doug_room
 CARD That night...
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. We played. Nobody threw anything. People danced.
 DOUG (shy): And Patti says we should write another song. About her horse.
 PORKCHOP (sad): Arf?

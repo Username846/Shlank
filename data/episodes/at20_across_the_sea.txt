@@ -60,6 +60,7 @@ PLACE sasha center left excited
 PLACE jean midright left surprised
 SASHA (excited): Jean! A man is selling cold sweet snow in a little cone!
 JEAN (surprised): Cold sweet snow? That's not real.
+HOLD sasha ice_cream
 SASHA (excited): It's called "ice cream"! I'm buying ten!
 JEAN (nervous): Sasha, we have a budget.
 SASHA (smug): Jean. It's cold. And sweet. And SNOW. I'm buying ten.
@@ -93,6 +94,7 @@ SCENE liberio
 PLACE mikasa center left neutral
 PLACE eren midright left sad
 NARRATOR: In a little park, a group of kids were playing. They wore armbands. One little girl dropped her ball, and it rolled to Eren's feet.
+HOLD eren ball
 EREN (sad): Here. Your ball.
 NARRATOR: The girl smiled and said "thank you." Then she ran back to her friends.
 MIKASA (neutral): She was just a kid. Like we were.
@@ -148,6 +150,7 @@ MUSIC happy
 SCENE the_ocean
 PLACE sasha center left happy
 PLACE connie_springer midright left happy
+HOLD sasha ice_cream
 SASHA (happy): Connie. I still have four ice creams. They're melting.
 CONNIE_SPRINGER (excited): Then we have to eat them fast!
 SASHA (smug): One for me. One for you. One for me. One for... me.

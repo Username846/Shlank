@@ -62,6 +62,7 @@ SCENE historia_farm
 PLACE levi center left neutral
 PLACE historia midright left surprised
 SFX splash
+HOLD levi towel
 NARRATOR: One hour later, all five pigs were pink and shiny. They had been scrubbed, rinsed and dried with a towel. One of them had a little bow.
 HISTORIA (surprised): Captain Levi. The pigs. They're... clean.
 LEVI (neutral): They were dirty.
@@ -73,6 +74,7 @@ MUSIC jazz
 SCENE historia_farm
 PLACE eren center right smug
 PLACE mikasa midleft right neutral
+HOLD eren bucket
 EREN (smug): Mikasa! I milked a cow! A whole bucket!
 MIKASA (neutral): That's a bucket of water, Eren.
 EREN (surprised): What? No it's not.

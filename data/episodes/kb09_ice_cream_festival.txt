@@ -34,6 +34,7 @@ MUSIC happy 2
 SCENE ice_cream_island
 PLACE adeleine center left excited
 PLACE kirby midright left happy
+HOLD adeleine paintbrush
 ADELEINE (excited): I'm painting the festival! Look, Kirby. The ice cream boats. The sprinkle rain. The big statue.
 KIRBY (happy): Poyo!
 ADELEINE (nervous): Wait. Is the statue's nose... drooping?
@@ -47,6 +48,7 @@ SCENE ice_cream_island
 PLACE ribbon center left scared
 PLACE kirby midright left nervous
 PLACE bandana_dee left right nervous
+HOLD bandana_dee spear
 RIBBON (scared): The statue's melting! The festival starts in one hour!
 BANDANA_DEE (nervous): The king is coming to see it! If it's a puddle when he gets here, he'll be so upset!
 KIRBY (nervous): Poyo!
@@ -59,6 +61,7 @@ SCENE whispy_forest
 PLACE whispy_woods center left neutral
 ENTER kirby right midright excited
 ENTER bandana_dee right right nervous
+HOLD bandana_dee spear
 BANDANA_DEE (nervous): Whispy! We need your shade! On Ice Cream Island!
 WHISPY_WOODS (surprised): My shade? I'm a tree. I don't walk.
 KIRBY (sad): Poyo...
@@ -94,6 +97,8 @@ MUSIC jazz
 SCENE halberd_deck
 PLACE meta_knight center left neutral
 ENTER bandana_dee right midright scared
+HOLD meta_knight sword
+HOLD bandana_dee spear
 BANDANA_DEE (scared): Meta Knight! The ice cream statue is melting! The wind blew away the leaves!
 META_KNIGHT (neutral): Then you need wind going the other direction. Cold wind.
 BANDANA_DEE (surprised): Where do we get cold wind?
@@ -105,6 +110,7 @@ MUSIC action 2
 SCENE ice_cream_island
 PLACE kirby center right excited
 PLACE bandana_dee midleft right excited
+HOLD bandana_dee spear
 BANDANA_DEE (excited): Kirby! Inhale the cold air from the freezer boats! Then blow it on the statue!
 KIRBY (excited): Poyo!
 SFX whoosh

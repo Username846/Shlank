@@ -24,6 +24,7 @@ SCENE casa_tranquila
 CARD Casa Tranquila...
 PLACE walt center left happy
 PLACE hector midright left neutral
+HOLD hector bell
 WALT (happy): Good evening, sir. I'm Walter White. I'll be calling the numbers tonight.
 HECTOR (neutral): Ding.
 WALT (surprised): ...Ding?
@@ -36,6 +37,7 @@ MUSIC sneaky
 SCENE casa_tranquila
 PLACE jesse center right surprised
 PLACE hector midleft right smug
+HOLD hector bell
 JESSE (surprised): Yo, Mr. White. This guy's won bingo every week for eleven years. The nurse said so.
 HECTOR (smug): Ding.
 JESSE (smug): Eleven years? Nobody's that lucky. You're cheating, old man.
@@ -59,6 +61,7 @@ MUSIC happy 2
 SCENE casa_tranquila
 PLACE jesse center right happy
 PLACE hector midleft right neutral
+HOLD hector bell
 JESSE (happy): Pudding, sir? Chocolate or vanilla?
 HECTOR (neutral): Ding ding.
 JESSE (surprised): Two dings. No chocolate? Vanilla, then?
@@ -75,6 +78,7 @@ PLACE walt midright left surprised
 SFX ding
 SFX ding
 SFX ding
+HOLD hector bell
 HECTOR (smug): Ding ding ding!
 WALT (surprised): Bingo? Already? I've only called four numbers.
 NARRATOR: Hector held up his card. Five in a row. Perfectly.
@@ -97,6 +101,7 @@ SCENE casa_tranquila
 CARD Game two...
 PLACE jesse center right excited
 PLACE hector midleft right neutral
+HOLD hector bell
 JESSE (excited): I'm watching you, old man. Like a hawk. Like a science hawk.
 HECTOR (neutral): Ding.
 NARRATOR: Jesse watched Hector very carefully. Hector watched Jesse very carefully. Neither of them blinked for six whole numbers.
@@ -108,6 +113,7 @@ MUSIC tense
 SCENE casa_tranquila
 PLACE jesse center right angry
 PLACE hector midleft right angry
+HOLD hector bell
 JESSE (angry): He's got two cards! Two cards, Mr. White!
 HECTOR (angry): Ding ding ding ding!
 NARRATOR: Then Hector pointed his finger. Right at Jesse's pocket. Where a second bingo card was sticking out.
@@ -130,6 +136,7 @@ SCENE casa_tranquila
 PLACE walt center left smug
 PLACE jesse midright left nervous
 PLACE hector right left smug
+HOLD hector bell
 WALT (smug): So. Jesse has two cards. Hector has two cards. And the nurse just told me Mrs. Gonzales has six.
 JESSE (surprised): SIX?
 WALT (happy): It turns out everybody here cheats a little. It's tradition.
@@ -143,6 +150,7 @@ CARD The final game...
 PLACE walt center left excited
 PLACE jesse midright left excited
 PLACE hector midleft right neutral
+HOLD hector bell
 WALT (excited): The grand prize! A twenty-dollar gift card to Los Pollos Hermanos! Everybody gets one card! ONE!
 JESSE (excited): No cheating, old man!
 HECTOR (smug): Ding ding.
@@ -156,7 +164,9 @@ PLACE hector center left surprised
 PLACE jesse midright left surprised
 PLACE walt midleft right neutral
 SFX drumroll
+HOLD hector bell
 WALT (excited): G, fifty-two!
+HOLD hector bell
 NARRATOR: Hector rang his bell. Jesse yelled. They had both filled their cards on exactly the same number.
 JESSE (surprised): BINGO!
 HECTOR (surprised): DING!
@@ -167,6 +177,7 @@ MUSIC happy
 SCENE casa_tranquila
 PLACE jesse center right happy
 PLACE hector midleft right neutral
+HOLD hector bell
 JESSE (happy): Okay, old man. You take it. You've been winning for eleven years. Don't stop now.
 HECTOR (surprised): Ding?
 JESSE (smug): Yeah. Keep the streak alive.
@@ -183,5 +194,6 @@ JESSE (happy): He said "ding." One ding. That's yes.
 WALT (smug): You made a friend, Jesse.
 JESSE (shy): ...He's kind of awesome, Mr. White.
 WALT (happy): Same time next week?
+HOLD jesse bell
 JESSE (excited): I'm bringing my own bell!
 END

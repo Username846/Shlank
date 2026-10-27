@@ -55,6 +55,7 @@ PLACE skeeter midright left nervous
 DOUG (excited): Okay, team! Dodge!
 SFX boing
 SKEETER (scared): Honk! I got hit!
+HOLD patti dodgeball
 PATTI (nervous): Skeeter, you dodged into the ball.
 SKEETER (sad): It looked lonely, man.
 DOUG (smug): Again! This time, dodge away from the ball.
@@ -153,6 +154,7 @@ PLACE doug center right excited
 PLACE roger midleft right surprised
 PLACE mr_bone midright left surprised
 NARRATOR: Doug caught the ball. He actually caught it. It was the first ball he had ever caught in his life.
+HOLD doug dodgeball
 MR_BONE (surprised): Klotz is out! The Funnie Bunch wins!
 ROGER (surprised): You caught it? YOU caught it?
 DOUG (surprised): I caught it!

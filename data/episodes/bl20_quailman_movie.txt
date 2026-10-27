@@ -47,6 +47,7 @@ MUSIC jazz 2
 SCENE funnie_garage
 PLACE phil_funnie center left excited
 PLACE doug midright left excited
+HOLD phil_funnie camera
 PHIL_FUNNIE (excited): Doug! I hear you're making a movie! I've got my old video camera! From 1985!
 DOUG (excited): Dad, that's perfect!
 PHIL_FUNNIE (smug): It's a little heavy. And it only records in black and white. And sometimes it records sideways.
@@ -98,6 +99,7 @@ SCENE bluffington_park
 PLACE doug center right scared
 PLACE judy midleft right excited
 SFX whoosh
+HOLD judy megaphone
 NARRATOR: The fan blew. The rope pulled. Quailman flew. Six feet up. Then four feet sideways. Then into a bush.
 DOUG (scared): Did we get it?!
 JUDY (excited): We got it! Sideways! In black and white! It's a masterpiece!
@@ -170,6 +172,7 @@ SCENE doug_room
 CARD That night...
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Quailman is a movie star. A sideways, black-and-white movie star.
 DOUG (shy): And Patti sat in the front row. She laughed the whole time. In a good way.
 PORKCHOP (smug): Arf.

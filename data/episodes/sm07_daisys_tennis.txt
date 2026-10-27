@@ -24,6 +24,7 @@ MUSIC jazz
 SCENE toad_house
 PLACE luigi center right nervous
 PLACE toad midleft right happy
+HOLD luigi tennis_racket
 LUIGI (nervous): Toad, I've never played tennis. I don't know the rules. I don't even know which end of the racket to hold.
 TOAD (happy): The round end hits the ball, Luigi!
 LUIGI (scared): Which one's the round end?!
@@ -51,6 +52,8 @@ PLACE daisy center left excited
 PLACE luigi midright left nervous
 DAISY (excited): Practice time, partner! Swing!
 SFX boing
+HOLD daisy tennis_racket
+HOLD luigi tennis_racket
 NARRATOR: Luigi swung. He missed the ball. He hit a tree. The tree was fine. Luigi was a little dizzy.
 LUIGI (sad): I'm sorry, Daisy. I'm terrible. You should pick Mario.
 DAISY (smug): I don't want Mario. Mario's good at everything. That's boring.
@@ -121,6 +124,7 @@ MARIO (excited): The final! Mario and Peach versus Luigi and Daisy! Brother vers
 LUIGI (nervous): Mario, go easy on me?
 MARIO (smug): I never go easy, Luigi! Wahoo!
 SFX boing
+HOLD luigi tennis_racket
 NARRATOR: Mario served. It was the fastest serve in Mushroom Kingdom history. Luigi closed his eyes. He swung.
 SFX boing
 LUIGI (surprised): Did I... hit it?
@@ -142,6 +146,7 @@ SCENE mushroom_kingdom
 PLACE daisy center left excited
 PLACE luigi midright left surprised
 PLACE mario right left happy
+HOLD daisy trophy
 DAISY (excited): We won! Luigi, we won the Tennis Cup!
 LUIGI (surprised): We did? I won something? Me?
 MARIO (happy): Congratulations, little brother. That was a super shot.

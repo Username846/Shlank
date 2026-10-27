@@ -61,6 +61,7 @@ PLACE mr_satan midright left happy
 MAJIN_BUU (happy): Mister Satan, you play with Buu?
 MR_SATAN (nervous): Sure, Buu. What do you like to play?
 MAJIN_BUU (excited): Buu like to throw mountains!
+HOLD mr_satan ball
 MR_SATAN (scared): Maybe something smaller. Like... catch? With a ball?
 MAJIN_BUU (excited): Ball! Buu like ball!
 SFX boing
@@ -71,6 +72,7 @@ SCENE buu_house
 CARD A few days later...
 PLACE mr_satan center right happy
 PLACE majin_buu midleft right happy
+HOLD mr_satan candy
 NARRATOR: Mr. Satan came back every day. He brought candy. He brought games. He taught Buu how to play cards, and lost every single time.
 MR_SATAN (happy): Buu, you're too good at this game.
 MAJIN_BUU (smug): Buu is champion of cards!

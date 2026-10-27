@@ -40,7 +40,9 @@ JEAN (smug): The ocean? Boring. We should paint a giant picture of the Scouts. F
 EREN (angry): Why would you be in front?
 JEAN (smug): Because I have the best hair.
 EREN (angry): It's Armin's design! We paint the ocean!
+HOLD jean paintbrush
 JEAN (angry): Fine! But I'm painting the biggest wave!
+HOLD eren paintbrush
 EREN (angry): No, I'M painting the biggest wave!
 
 # ------------------------------------------------------------ SCOUT HQ
@@ -75,6 +77,7 @@ SCENE trost_district
 PLACE smiling_titan center left happy
 PLACE hange midright left excited
 SMILING_TITAN (happy): Hehehe.
+HOLD smiling_titan bucket
 HANGE (excited): Look at him go! He's holding six buckets at once!
 NARRATOR: Potato Pete was an excellent bucket-holder. He did not spill a drop. He did, however, drink one bucket of blue paint. He thought it was soup.
 HANGE (nervous): Pete. Your tongue is blue.
@@ -100,6 +103,7 @@ PLACE jean midleft right angry
 EREN (angry): My wave is bigger!
 JEAN (angry): No, mine is!
 SFX splat
+HOLD eren paintbrush
 NARRATOR: Eren flicked his brush at Jean. Jean flicked his brush back. Within ten seconds, it was a full paint war.
 SFX splat
 SFX splat

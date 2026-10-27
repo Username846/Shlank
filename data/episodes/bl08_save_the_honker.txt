@@ -12,6 +12,8 @@ TITLE
 PLACE doug center right happy
 PLACE skeeter midleft right excited
 SKEETER (excited): Honk! Two Honker Burgers, extra honk!
+HOLD skeeter burger
+HOLD doug burger
 DOUG (happy): Dear Journal. There's no better place in the world than the Honker Burger on a Friday afternoon.
 NARRATOR: And then Doug saw the sign. "Closing Next Week. Coming Soon: Leaf It Be. A Salad Experience."
 DOUG (scared): A salad experience?!
@@ -35,6 +37,7 @@ MUSIC sneaky
 SCENE doug_room
 PLACE doug center right nervous
 PLACE porkchop midleft right neutral
+HOLD doug journal
 DOUG (nervous): Dear Journal. Patti thinks I'm the idea guy. I have no ideas. Not one.
 PORKCHOP (smug): Arf.
 DOUG (surprised): A party? At the Honker Burger? With music?
@@ -80,6 +83,7 @@ MUSIC happy
 SCENE lucky_duck_lake
 PLACE skeeter center right excited
 PLACE connie midleft right happy
+HOLD skeeter sign
 SKEETER (excited): Honk! Last poster! "Save the Honker! Saturday! Free Popcorn! Maybe the Beets!"
 CONNIE (nervous): Skeeter, we don't actually have the Beets.
 SKEETER (smug): That's why it says "maybe." Honk.
@@ -148,6 +152,7 @@ MUSIC romantic
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right smug
+HOLD doug journal
 DOUG (happy): Dear Journal. The Honker Burger is staying open. They're naming a burger after us. The Funnie Burger.
 DOUG (shy): It's got extra pickles. Patti's favorite.
 PORKCHOP (smug): Arf.

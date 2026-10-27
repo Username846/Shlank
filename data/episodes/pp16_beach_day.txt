@@ -14,6 +14,7 @@ PLACE betty midright left excited
 PLACE didi right left happy
 STU (excited): The beach! Sun, sand and surf!
 BETTY (excited): I'm gonna swim out to that buoy and back! Twice!
+HOLD didi sunscreen
 DIDI (happy): And I brought sunscreen. Lots of sunscreen. Everybody gets sunscreen.
 STU (nervous): Deed, I already have three layers on.
 DIDI (smug): Then you'll get a fourth.
@@ -93,6 +94,7 @@ MUSIC happy 2
 SCENE beach_day
 PLACE howard center left nervous
 PLACE kira midright left happy
+HOLD howard sandwich
 HOWARD (nervous): Kira, would you like a sandwich? I made cucumber. Or cucumber with the crusts cut off.
 KIRA (happy): Thank you, Howard. With the crusts, please.
 HOWARD (surprised): Really? Nobody ever picks the crusts.

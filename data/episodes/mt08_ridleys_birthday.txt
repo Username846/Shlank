@@ -45,6 +45,7 @@ MUSIC sneaky
 SCENE norfair
 PLACE space_pirate center left excited
 PLACE kraid midright left happy
+HOLD space_pirate balloon
 SPACE_PIRATE (excited): Decorations! I've got streamers! Balloons! A banner that says "Happy Evil Anniversary!"
 KRAID (excited): Grrr!
 NARRATOR: Kraid was in charge of the cake. He baked it in the lava. It came out a little crispy. Very crispy. Mostly charcoal.
@@ -130,6 +131,7 @@ SCENE tourian
 PLACE ridley center left excited
 PLACE mother_brain midright left smug
 NARRATOR: Inside the box was a toothbrush. A giant, fancy toothbrush. With four hundred bristles. One for every tooth.
+HOLD ridley toothbrush
 RIDLEY (excited): Scree! Scree scree!
 MOTHER_BRAIN (smug): Where is my slice of cake?
 NARRATOR: Kraid gave Mother Brain a slice of his charcoal cake. She ate it. In her jar. She said it was "crunchy." It was meant as a compliment.

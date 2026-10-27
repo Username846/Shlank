@@ -94,6 +94,8 @@ SCENE squidward_house
 PLACE spongebob center right excited
 PLACE patrick midleft right excited
 SPONGEBOB (excited): He's asleep! Operation Squidward Is Art begins!
+HOLD patrick paintbrush
+HOLD spongebob paintbrush
 PATRICK (excited): Paintbrushes, ready!
 SFX splat
 SFX splat

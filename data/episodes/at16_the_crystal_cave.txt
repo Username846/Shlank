@@ -15,6 +15,7 @@ HANGE (excited): Levi! A cave! Full of glowing crystals! Under an old chapel! Is
 LEVI (neutral): No.
 HANGE (excited): The crystals might be made by Titans! Hardened Titan skin! I need to study them!
 LEVI (smug): Crystals make dust. Dust gets everywhere.
+HOLD hange broom
 HANGE (happy): I'll bring a broom.
 LEVI (smug): You'll bring three brooms.
 
@@ -58,6 +59,7 @@ MUSIC jazz 2
 SCENE reiss_chapel
 PLACE hange center left excited
 PLACE levi midright left neutral
+HOLD hange crystal
 HANGE (excited): Levi! This crystal is warm! Feel it!
 LEVI (neutral): I'm not touching anything in this cave.
 HANGE (excited): And it hums! It's humming! Can you hear it?
@@ -111,6 +113,7 @@ HISTORIA (scared): Captain! The wall with my name! I want to save it!
 LEVI (angry): It's a wall, cadet! It's too big!
 HISTORIA (angry): Then I'll take a piece! Just the piece with my name!
 SFX sword
+HOLD historia crystal
 NARRATOR: Levi drew his blade, cut one clean slice of glowing crystal from the wall, and threw it to Historia. Then he grabbed her by the collar and ran.
 
 # ------------------------------------------------------------ REISS CHAPEL
@@ -131,6 +134,7 @@ MUSIC sad
 SCENE reiss_chapel
 PLACE historia center left sad
 PLACE levi midright left neutral
+HOLD historia crystal
 HISTORIA (sad): The cave is gone. All those crystals. And I only saved this little piece.
 LEVI (neutral): It's the piece that matters, isn't it?
 HISTORIA (shy): ...It has my name on it.
@@ -143,6 +147,7 @@ SCENE scout_hq
 CARD Back at headquarters...
 PLACE hange center left excited
 PLACE erwin midright left neutral
+HOLD hange crystal
 HANGE (excited): Commander! I saved a crystal sample! It's warm and it hums and it might be made of Titan!
 ERWIN (neutral): And the cave?
 HANGE (nervous): ...Fell down. A little.
@@ -156,6 +161,7 @@ SCENE scout_hq
 PLACE levi center left neutral
 PLACE hange midright left nervous
 LEVI (neutral): You owe me three brooms, Hange.
+HOLD hange broom
 HANGE (nervous): I brought three brooms!
 LEVI (smug): And you owe me three more. And a bucket. And a new jacket.
 HANGE (sad): A new jacket?
@@ -168,6 +174,7 @@ CARD That night...
 PLACE historia center left happy
 PLACE ymir midright left smug
 YMIR (smug): What's that glowing thing on your shelf?
+HOLD historia crystal
 HISTORIA (happy): A piece of my family. The only nice piece.
 YMIR (surprised): It's got your name on it.
 HISTORIA (smug): Someone remembered me, Ymir. Even before you did.

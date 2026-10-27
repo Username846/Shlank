@@ -35,6 +35,7 @@ SCENE red_ribbon_base
 CARD Outside the base...
 PLACE yamcha center left nervous
 PLACE krillin midright left smug
+HOLD yamcha baseball_bat
 YAMCHA (nervous): Krillin. Can I tell you something? I miss baseball. I was really good at baseball.
 KRILLIN (smug): You were the best, Yamcha. You hit a ball so hard it went into space.
 YAMCHA (happy): It did, didn't it?

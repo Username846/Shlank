@@ -37,6 +37,7 @@ SCENE mt_moon
 PLACE jessie center left smug
 PLACE james midright left excited
 PLACE meowth midleft right smug
+HOLD jessie moon_stone
 JESSIE (smug): The Moon Stone. The biggest, shiniest, most valuable rock in Kanto.
 JAMES (excited): We'll sell it to a museum! Or a very rich person with a very big shelf!
 MEOWTH (smug): And the Boss'll finally give us a raise.
@@ -87,6 +88,7 @@ MUSIC action
 SCENE mt_moon
 PLACE meowth center left excited
 PLACE pikachu midright left angry
+HOLD meowth vacuum
 MEOWTH (excited): The vacuum's on! Suck up that Moon Stone!
 SFX whoosh
 SHAKE 0.6

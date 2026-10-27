@@ -66,6 +66,7 @@ PLACE arnold midright left neutral
 EUGENE (nervous): Arnold, I'm worried. What if we're here all night? What if bears come?
 ARNOLD (neutral): There aren't any bears near Hillwood, Eugene.
 EUGENE (nervous): What about raccoons? Very big raccoons?
+HOLD arnold apple
 ARNOLD (smug): Then we'll share our apples.
 EUGENE (happy): I like that plan.
 ARNOLD (happy): Everybody's scared, Eugene. We just need something to do.

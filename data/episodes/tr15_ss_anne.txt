@@ -13,6 +13,7 @@ PLACE ash center right excited
 PLACE misty midleft right excited
 PLACE brock midright left excited
 PLACE pikachu farleft right happy
+HOLD ash tickets
 ASH (excited): Free tickets on the S.S. Anne! A whole cruise! With a buffet!
 MISTY (excited): And a swimming pool! And the ocean! It's a Water-type paradise!
 BROCK (excited): And so many beautiful passengers. Hello, ladies.

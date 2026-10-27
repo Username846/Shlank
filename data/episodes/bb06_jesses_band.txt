@@ -12,6 +12,9 @@ TITLE
 PLACE jesse center right excited
 PLACE badger midleft right excited
 PLACE skinny_pete midright left excited
+HOLD skinny_pete triangle
+HOLD badger guitar
+HOLD jesse guitar
 JESSE (excited): Yo! We got a gig! An actual gig! The high school talent night!
 BADGER (excited): TwaüghtHammër is going public, baby!
 SKINNY_PETE (excited): Our first real show. With a stage. And lights. And people who aren't us.
@@ -81,6 +84,7 @@ MUSIC happy
 SCENE pinkman_house
 PLACE badger center right excited
 PLACE skinny_pete midleft right happy
+HOLD skinny_pete triangle
 BADGER (excited): Okay! I'm the low frequency now. Like, the bass is my element.
 SKINNY_PETE (happy): I'm the high frequency. I play the triangle now.
 BADGER (surprised): Since when do we have a triangle?
@@ -105,6 +109,7 @@ SCENE white_backyard
 CARD Practice...
 PLACE walt center left neutral
 PLACE jesse midright left excited
+HOLD jesse guitar
 JESSE (excited): Okay, Mr. White. New song. We separated our frequencies. Ready?
 WALT (nervous): Ready.
 SFX ding
@@ -144,6 +149,9 @@ SCENE chem_class
 PLACE jesse center right excited
 PLACE badger midleft right excited
 PLACE skinny_pete midright left excited
+HOLD skinny_pete triangle
+HOLD badger guitar
+HOLD jesse guitar
 JESSE (excited): We are TwaüghtHammër!
 SFX thud
 SHAKE 0.6

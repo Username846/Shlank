@@ -35,6 +35,7 @@ MUSIC sneaky
 SCENE doug_room
 PLACE doug center right nervous
 PLACE porkchop midleft right surprised
+HOLD doug journal
 DOUG (nervous): Dear Journal. I just offered to help Roger Klotz. Roger. The guy who calls me "Funnie-boy" every day.
 PORKCHOP (surprised): Arf?
 DOUG (sad): I know, boy. But he looked so sad. Like his whole world ran out a window.
@@ -156,6 +157,7 @@ MUSIC romantic 2
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Roger Klotz said "thanks." And called me Doug. Once.
 DOUG (smug): I think the world might be ending.
 PORKCHOP (smug): Arf.

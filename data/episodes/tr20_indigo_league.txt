@@ -27,6 +27,7 @@ PLACE professor_oak midright left happy
 DELIA_KETCHUM (excited): Professor! Look! There's Ash! He's on the big screen!
 PROFESSOR_OAK (happy): He's come so far, Delia. All the way from Pallet Town.
 DELIA_KETCHUM (nervous): I hope he packed enough clean underwear.
+HOLD professor_oak poem
 PROFESSOR_OAK (smug): I wrote a poem for the final. "Ode to the League." Twenty verses.
 DELIA_KETCHUM (happy): ...Maybe save it for after.
 
@@ -37,6 +38,7 @@ PLACE jessie center left smug
 PLACE james midright left smug
 PLACE meowth midleft right smug
 JESSIE (smug): The Pokémon League. Every great trainer, in one place. With every great Pokémon.
+HOLD james hot_dog
 JAMES (smug): And we're the hot dog vendors. Nobody ever suspects the hot dog vendors.
 MEOWTH (excited): When the big final starts, we flip the switch. Our hot dog cart turns into a giant Pokémon vacuum!
 JAMES (happy): And we get to keep the hot dogs!
@@ -160,6 +162,7 @@ SCENE indigo_plateau
 PLACE jigglypuff center left angry
 PLACE meowth midleft right neutral
 SFX blast
+HOLD jigglypuff marker
 NARRATOR: When Jigglypuff saw that everyone had fallen asleep during its song, it got very angry. It pulled out its marker. And it drew on every sleeping face in the stadium.
 JIGGLYPUFF (angry): Jiggly! Jiggly!
 JIGGLYPUFF (smug): Puff.
@@ -188,6 +191,7 @@ PLACE professor_oak midright left happy
 PLACE pikachu farleft right happy
 DELIA_KETCHUM (excited): Ash! Win or lose, I'm so proud of you!
 ASH (happy): Thanks, Mom. Gary won the trophy. But I'm gonna win next year.
+HOLD professor_oak poem
 PROFESSOR_OAK (happy): That's the spirit, Ash. And now, my poem. "Ode to the League." Verse one.
 ASH (nervous): Pikachu, run!
 PIKACHU (happy): Pika pika!

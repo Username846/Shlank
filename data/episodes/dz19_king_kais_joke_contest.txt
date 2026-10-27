@@ -171,6 +171,7 @@ CARD The secret technique...
 PLACE king_kai center left smug
 PLACE goku midright left surprised
 PLACE yamcha right left surprised
+HOLD king_kai book
 KING_KAI (smug): The secret technique is... a book! "One Thousand Jokes for Every Occasion!"
 GOKU (surprised): ...That's the technique?
 KING_KAI (excited): Comedy is the strongest technique of all, Goku!

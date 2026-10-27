@@ -16,7 +16,6 @@ const MOODS := ["happy", "jazz", "tense", "sad", "sneaky", "spooky", "action", "
 const SFX_NAMES := ["pop", "boing", "gasp", "whoosh", "slam", "splat", "sting", "ding", "cash", "fanfare", "wahwah",
 	"drumroll", "sparkle", "chomp", "sizzle", "beep", "detector", "detector_crazy", "clarinet", "squeak", "bubbles", "slide_whistle",
 	"blast", "sword", "thud", "coin", "powerup", "jump_8bit", "hiss", "laser"]
-const PROPS := ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money", "locket", "ice_cream", "fishing_rod", "beeper"]
 const SPEEDS := [["Slow", 150.0], ["Walk", 300.0], ["Run", 520.0]]
 
 var doc: EpisodeDoc
@@ -782,7 +781,7 @@ func _build_inspector() -> void:
 			_choice_field("Emotion", b, "emotion", _pairs(Puppet.EMOTIONS))
 		"hold":
 			_char_field(b)
-			_choice_field("Prop", b, "prop", _pairs(PROPS))
+			_prop_field(b)
 		"jump":
 			_char_field(b)
 		"camera":
@@ -854,6 +853,43 @@ func _choice_field(label: String, b: Dictionary, key: String, options: Array) ->
 		_refresh(key == "mode"))
 	_inspector.add_child(opt)
 	return opt
+
+
+## Two pickers for a HOLD beat: the category (or Nothing), then the item in it.
+func _prop_field(b: Dictionary) -> void:
+	_inspector.add_child(UiKit.label("Prop", 15, Color(0.35, 0.35, 0.4)))
+	var cat_opt := _compact_option()
+	var item_opt := _compact_option()
+	var cur := String(b.get("prop", "none"))
+	var cur_cat := Props.category_of(cur)
+	cat_opt.add_item("Nothing")
+	for c in Props.CATEGORIES:
+		cat_opt.add_item(c[0])
+		if c[0] == cur_cat:
+			cat_opt.select(cat_opt.item_count - 1)
+	var fill_items := func(cat: String) -> void:
+		item_opt.clear()
+		for c in Props.CATEGORIES:
+			if c[0] == cat:
+				for id in c[1]:
+					item_opt.add_item(Props.label(id))
+					item_opt.set_item_metadata(item_opt.item_count - 1, id)
+					if id == String(b.get("prop", "")):
+						item_opt.select(item_opt.item_count - 1)
+		item_opt.visible = item_opt.item_count > 0
+	fill_items.call(cur_cat)
+	cat_opt.item_selected.connect(func(i: int) -> void:
+		var cat := "" if i == 0 else String(Props.CATEGORIES[i - 1][0])
+		b["prop"] = "none" if cat == "" else String(Props.CATEGORIES[i - 1][1][0])
+		fill_items.call(cat)
+		_mark_dirty()
+		_refresh(false))
+	item_opt.item_selected.connect(func(i: int) -> void:
+		b["prop"] = String(item_opt.get_item_metadata(i))
+		_mark_dirty()
+		_refresh(false))
+	_inspector.add_child(cat_opt)
+	_inspector.add_child(item_opt)
 
 
 ## The beat's character: a button that opens the character window.

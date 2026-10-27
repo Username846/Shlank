@@ -17,6 +17,7 @@ LEVI (angry): Listen up. At sundown, I inspect this castle. Every room. Every co
 EREN (nervous): Captain, shouldn't we be training to fight Titans?
 LEVI (angry): Dust is the enemy, Jaeger. Dust is everywhere. Dust never sleeps.
 ARMIN (nervous): Sir, what happens if we fail the inspection?
+HOLD levi toothbrush
 LEVI (smug): You'll clean it again. With a toothbrush. Your own toothbrush.
 MIKASA: Understood, Captain.
 
@@ -40,6 +41,7 @@ PLACE reiner midright left happy
 JEAN (angry): Why do I always get the stables? It smells like a horse exploded in here.
 REINER (happy): Because you're good with horses, Jean.
 JEAN (smug): I'm good with everything. That's my problem.
+HOLD reiner shovel
 REINER (happy): Grab a shovel. I'll take the left side.
 JEAN (sad): Fine. But I want it on the record that I'm a hero.
 REINER (smug): Noted.
@@ -106,6 +108,7 @@ SCENE titan_plains
 PLACE smiling_titan center left happy
 ENTER sasha left midleft nervous
 ENTER connie_springer left left nervous
+HOLD sasha potato
 SASHA (nervous): Here, Potato Pete! Potatoes! Lots of potatoes!
 SMILING_TITAN (excited): Hehehe!
 CONNIE_SPRINGER (excited): It's working! He's following the potato trail!
@@ -161,6 +164,7 @@ PLACE eren midleft right sad
 PLACE armin midright left nervous
 LEVI (smug): You failed the inspection.
 EREN (sad): Toothbrushes?
+HOLD levi toothbrush
 LEVI (smug): Toothbrushes. But first, one question.
 ARMIN (nervous): Sir?
 LEVI (shy): Did the Titan wipe his feet on the way out?

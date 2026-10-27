@@ -56,6 +56,7 @@ SCENE donut_plains
 PLACE peach center left happy
 PLACE toad midright left excited
 PEACH (happy): Toad, put the blanket here. Under the big donut block. For shade.
+HOLD toad lemonade
 TOAD (excited): Done! Should I put out the lemonade?
 PEACH (smug): Next to Yoshi. Not too close to Yoshi.
 TOAD (nervous): Why not too close?
@@ -67,6 +68,7 @@ MUSIC happy 2
 SCENE donut_plains
 PLACE waluigi center left excited
 PLACE daisy midright left happy
+HOLD waluigi sandwich
 WALUIGI (excited): Waluigi brought sandwiches! Purple sandwiches!
 DAISY (surprised): Why are they purple?
 WALUIGI (smug): Grape jelly. Extra grape jelly. Wah!
@@ -90,6 +92,7 @@ MUSIC jazz 2
 SCENE donut_plains
 PLACE bowser center left nervous
 PLACE mario midright left surprised
+HOLD bowser bowl
 BOWSER (nervous): Mario. I brought... potato salad.
 MARIO (surprised): Bowser. You made potato salad?
 BOWSER (smug): It has fire flakes in it. For flavor.
@@ -104,7 +107,9 @@ SCENE donut_plains
 PLACE rosalina center left happy
 PLACE peach midright left excited
 SFX sparkle
+HOLD rosalina wand
 NARRATOR: A beam of starlight came down from the sky, and Rosalina floated into the picnic carrying a tray that glowed like the night sky.
+HOLD rosalina cake
 ROSALINA (happy): I brought dessert. Star cake. Baked in the Comet Observatory.
 PEACH (excited): Rosalina! It's sparkling!
 ROSALINA (smug): The Lumas helped. They are very good at sprinkles.
@@ -126,6 +131,7 @@ SCENE donut_plains
 PLACE peach center left scared
 PLACE rosalina midright left nervous
 SFX whoosh
+HOLD rosalina wand
 PEACH (scared): Rosalina! The Boos took the star cake!
 ROSALINA (nervous): And the potato salad. And the purple sandwiches.
 PEACH (angry): They are NOT ruining my picnic!
@@ -154,6 +160,7 @@ KING_BOO (excited): Heh heh! You can't catch me, scaredy-cat!
 LUIGI (nervous): Maybe not. But I brought something.
 SFX whoosh
 LUIGI (smug): The Poltergust 3000. Never leave home without it.
+HOLD luigi vacuum
 KING_BOO (scared): NOT THE VACUUM!
 
 # ------------------------------------------------------------ DONUT PLAINS
@@ -162,6 +169,7 @@ SCENE donut_plains
 PLACE king_boo center left sad
 PLACE rosalina midright left happy
 SFX sparkle
+HOLD rosalina wand
 NARRATOR: Before Luigi could switch on the vacuum, Rosalina floated between them.
 ROSALINA (happy): King Boo. Why do you want to ruin the picnic?
 KING_BOO (sad): ...Because nobody invited me. Nobody ever invites the Boos.
@@ -173,6 +181,7 @@ MUSIC jazz 2
 SCENE donut_plains
 PLACE luigi center right nervous
 PLACE king_boo midleft right shy
+HOLD luigi sandwich
 LUIGI (nervous): Um. King Boo. Want a purple sandwich?
 KING_BOO (shy): ...You're offering King Boo a sandwich?
 LUIGI (smug): You're at a picnic. Picnics have sandwiches.

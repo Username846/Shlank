@@ -39,6 +39,7 @@ PLACE chuckie midleft right scared
 TOMMY (surprised): Wow. He's so big. And so green.
 CHUCKIE (scared): Tommy, he's not moving. Maybe he's sleeping. Let's not wake him up.
 TOMMY (excited): Look! A little box with buttons! Maybe it's his remote control!
+HOLD tommy remote
 CHUCKIE (scared): Tommy, don't push the buttons!
 TOMMY (excited): I'll just push the big one.
 SFX beep
@@ -115,6 +116,7 @@ SCENE nursery
 PLACE dil center right happy
 PLACE chuckie midleft right nervous
 NARRATOR: In all the excitement, Tommy had dropped the remote control. It landed in Dil's playpen.
+HOLD dil remote
 DIL (happy): Ba ba!
 CHUCKIE (nervous): Dil, give me the remote. Please. It's very important.
 DIL (smug): Ga ga.
@@ -140,6 +142,7 @@ MUSIC tense
 SCENE nursery
 PLACE chuckie center right nervous
 PLACE dil midleft right happy
+HOLD chuckie juice_box
 CHUCKIE (nervous): Dil. I'll trade you. My favorite blanket for the remote control.
 DIL (sad): Waaah.
 CHUCKIE (nervous): Okay. My blanket and my juice.
@@ -158,6 +161,7 @@ STU (happy): It stopped! Somebody hit the off switch!
 ENTER chuckie right right excited
 CHUCKIE (excited): I did it, Tommy! I turned off Reptar!
 TOMMY (happy): Chuckie, you're a hero!
+HOLD chuckie remote
 CHUCKIE (shy): I traded my juice for it.
 TOMMY (happy): That's the most bravest thing ever.
 

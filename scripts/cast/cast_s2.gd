@@ -527,6 +527,8 @@ static func _jigglypuff(p: Puppet) -> void:
 		p._eye(c + Vector2(sx * 20, -4), 13, 14, 8.0, Color("3fa0d8"), sx, 0.0, pink)
 	p._mouth(c + Vector2(0, 26), 16, 0)
 	Art.blob(ci, c + Vector2(48, 4 - raise.y * 16), 12, 10, pink, 3.0)
+	if p.held != "":
+		p._draw_prop(c + Vector2(48, 4 - raise.y * 16), Vector2(0.25, -1.0).normalized())
 
 
 
@@ -637,6 +639,9 @@ static func _phantoon(p: Puppet) -> void:
 		var x := -40.0 + k * 20.0
 		Art.shape(ci, PackedVector2Array([c + Vector2(x - 8, -86), c + Vector2(x, -120), c + Vector2(x + 8, -86)]), Color("8a3a8a"), 2.5)
 	p._mouth(c + Vector2(0, 34), 40, 2)
+	# Holds things curled in a front tentacle
+	if p.held != "":
+		p._draw_prop(c + Vector2(64 + sin(p._t * 3.0) * 6.0, 110), Vector2(0.2, -1.0).normalized())
 
 
 static func _crocomire(p: Puppet) -> void:

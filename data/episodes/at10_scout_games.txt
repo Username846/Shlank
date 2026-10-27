@@ -93,6 +93,7 @@ PLACE smiling_titan midright left happy
 ERWIN (excited): The final event! Each squad pulls against Potato Pete. Whoever pulls him over the line first wins the Scout Games!
 SMILING_TITAN (happy): Hehehe!
 ERWIN (smug): Squad Levi goes first.
+HOLD smiling_titan rope
 NARRATOR: Potato Pete held one end of a very thick rope. He smiled. He was having the best day of his life.
 
 # ------------------------------------------------------------ TITAN PLAINS
@@ -122,6 +123,7 @@ HANGE (excited): Squad Hange! Our turn!
 SASHA (nervous): Hange, he didn't move for Mikasa. How are we going to move him?
 HANGE (smug): We don't pull him. We make him WANT to come.
 ARMIN (surprised): Sasha. Do you still have that potato?
+HOLD sasha potato
 SASHA (nervous): I always have a potato.
 HANGE (excited): Hold it up, Sasha! High as you can!
 

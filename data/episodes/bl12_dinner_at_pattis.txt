@@ -65,6 +65,7 @@ PLACE patti midleft right happy
 PATTI (happy): Doug! Come on in! Dad's just finishing the meatloaf.
 DOUG (nervous): Good evening! Lovely weather! How's your lawnmower?
 PATTI (surprised): ...My lawnmower?
+HOLD doug flower
 DOUG (scared): I mean. Hi, Patti. I brought you a flower. For the science project.
 PATTI (smug): It's a flower for a science project about rocks?
 DOUG (shy): ...It's a rock-colored flower.
@@ -139,6 +140,7 @@ DOUG (nervous): It shows how lava flows, Mr. Bone. At four inches per second.
 MR_BONE (smug): It is the most ridiculous project I have ever seen.
 PATTI (nervous): Oh.
 MR_BONE (happy): A-plus. And may I have a spoon?
+HOLD mr_bone spoon
 
 # ---------------------------------------------------------------- DOUG'S ROOM
 MUSIC romantic
@@ -146,6 +148,7 @@ SCENE doug_room
 CARD That night...
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. We got an A-plus. Mr. Bone ate half the volcano.
 DOUG (shy): And Patti says I can come to dinner again next week. Her dad wants to hear about my lawnmower.
 PORKCHOP (smug): Arf.

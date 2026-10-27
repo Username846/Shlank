@@ -17,6 +17,7 @@ SFX thud
 SHAKE 0.6
 KIRBY (surprised): Poyo?!
 ENTER ribbon right midright scared
+HOLD ribbon crystal
 RIBBON (scared): Help! Oh, help! I crashed! And my crystal broke!
 KIRBY (nervous): Poyo poyo?
 
@@ -98,6 +99,7 @@ SFX bubbles
 NARRATOR: Kirby dove. He came back up. He dove again. He came back up with a fish.
 KIRBY (happy): Poyo!
 RIBBON (smug): That's a fish, Kirby.
+HOLD kirby fish
 NARRATOR: He dove a third time. He came back up with the shard. And a second fish, for lunch.
 SFX sparkle
 RIBBON (excited): Three shards!
@@ -133,6 +135,7 @@ SCENE halberd_deck
 PLACE meta_knight center left neutral
 ENTER kirby left midleft excited
 ENTER ribbon left left nervous
+HOLD meta_knight sword
 META_KNIGHT: Kirby. I have the final shard. It fell onto my ship.
 RIBBON (excited): Please, can we have it?
 META_KNIGHT (smug): You may have it. If Kirby can beat me in a duel.
@@ -150,6 +153,7 @@ PLACE ribbon midleft right excited
 RIBBON (excited): All five shards! Kirby, put them in the fountain!
 KIRBY (excited): Poyo!
 SFX sparkle
+HOLD ribbon crystal
 NARRATOR: The shards glowed. They spun together. With a great flash of light, the crystal was whole again.
 SFX powerup
 RIBBON (happy): It's fixed! Ripple Star will be safe!

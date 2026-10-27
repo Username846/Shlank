@@ -89,6 +89,7 @@ ENTER jessie left midleft excited
 ENTER james left left excited
 MEOWTH (smug): Psst. Jessie. James. I need ingredients. Anything.
 JESSIE (excited): I brought a can of beans!
+HOLD james mushroom
 JAMES (excited): And I found this mushroom on the ground!
 MEOWTH (scared): Is that mushroom glowing?
 JAMES (happy): A little!
@@ -115,6 +116,7 @@ PLACE nurse_joy center left happy
 PLACE meowth midright left nervous
 PLACE brock midleft right nervous
 NURSE_JOY (happy): Chef Meowth, what have you made?
+HOLD meowth mushroom
 MEOWTH (nervous): Haute cuisine! Cold beans with a glowing mushroom!
 NURSE_JOY (surprised): The mushroom is... humming.
 SFX beep
@@ -175,6 +177,7 @@ PLACE jessie midleft right sad
 PLACE james center left sad
 PLACE meowth midright left sad
 JESSIE (sad): No prize. No food. And Officer Jenny has our picture now.
+HOLD james mushroom
 JAMES (happy): At least we still have the glowing mushroom.
 MEOWTH (scared): James, don't eat the glowing mushroom!
 SFX chomp

@@ -97,6 +97,7 @@ SFX squeak
 NARRATOR: Tommy climbed out of his stroller. He climbed onto a chair. He climbed onto a counter. He reached for the jar.
 SFX thud
 TOMMY (surprised): It's... lollipops.
+HOLD tommy lollipop
 TOMMY (excited): The jar is full of lollipops!
 NARRATOR: Red ones. Green ones. Purple ones. Not a single tooth.
 
@@ -106,6 +107,7 @@ SCENE dentist_office
 PLACE didi center left surprised
 PLACE tommy midright left happy
 DIDI (surprised): Tommy! How did you get up there?
+HOLD tommy lollipop
 TOMMY (happy): Mommy, the jar is full of candy! The dentist doesn't take teeth! He gives lollipops!
 DIDI (nervous): Well, the lollipops are sugar-free. For after the checkup.
 TOMMY (excited): Okay! I'm ready for the big chair now!
@@ -118,6 +120,7 @@ PLACE stu center left nervous
 PLACE tommy midright left excited
 NARRATOR: The dentist counted Tommy's teeth. One, two, three, four. All perfect. Then he gave Tommy a sticker and a new toothbrush with Reptar on it.
 STU (nervous): Hey, Doc, could you look at my teeth too? While I'm stuck in this chair?
+HOLD tommy toothbrush
 TOMMY (excited): Reptar toothbrush! The best day ever!
 STU (sad): I didn't get a sticker.
 
@@ -127,6 +130,7 @@ SCENE the_playpen
 CARD Back home...
 PLACE tommy center right smug
 PLACE angelica midleft right surprised
+HOLD tommy lollipop
 TOMMY (smug): Angelica, the dentist didn't take my teeth. He counted them. And I got a lollipop.
 ANGELICA (surprised): A lollipop?! I never get a lollipop!
 TOMMY (smug): That's 'cause you're scared to go.
@@ -153,6 +157,7 @@ CARD That night...
 PLACE tommy center right happy
 PLACE didi midleft right happy
 DIDI (happy): Time to brush your teeth, Tommy. With your new Reptar toothbrush.
+HOLD tommy toothbrush
 TOMMY (happy): Brush, brush, brush.
 DIDI (happy): Good boy. Now, sleep tight. And remember, the dentist is your friend.
 TOMMY (smug): A friend with a jar of lollipops.

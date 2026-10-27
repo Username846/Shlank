@@ -39,6 +39,7 @@ NARRATOR: The star on the door began to glow. And a deep voice echoed through th
 MAGOLOR (nervous): Wetter the more it dries... Hmm. A very confused cloud?
 NARRATOR: The door did not open.
 KIRBY (excited): Poyo!
+HOLD kirby towel
 NARRATOR: Kirby pulled something out of Magolor's travel bag. A beach towel.
 
 # ------------------------------------------------------------ RAISIN RUINS
@@ -131,6 +132,7 @@ MUSIC happy
 SCENE raisin_ruins
 PLACE kirby center right happy
 PLACE magolor midleft right happy
+HOLD kirby strawberry
 NARRATOR: Kirby walked up to the strawberry. He looked at it for a long time. Then he did something nobody expected. He did not eat it.
 KIRBY (happy): Poyo.
 NARRATOR: He picked it up. He carried it outside. And he put it on a rock where everybody could see it.

@@ -66,6 +66,7 @@ WALT (smug): A fair. The traveling carnival is setting up next to the Mineral Sh
 HANK (surprised): The carnival guys stole Big Purple?
 WALT (nervous): Not necessarily. Maybe someone who walked through the carnival on the way to your house.
 HANK (smug): Walt, you're a natural detective. You ever think about joining the DEA?
+HOLD walt test_tube
 WALT (smug): I'm happy with my test tubes, Hank.
 
 # ------------------------------------------------------------ JUNKYARD
@@ -142,6 +143,7 @@ PLACE flynn left right happy
 HANK (excited): First place! Big Purple wins the Albuquerque Mineral Show!
 SFX fanfare
 MARIE (happy): Congratulations, honey.
+HOLD flynn trophy
 FLYNN (excited): Uncle Hank, can I hold the trophy?
 HANK (happy): Sure, kid. And Walt? Thanks. Your science stuff actually helped.
 WALT (smug): Chemistry is the study of change, Hank. Including changing your mind about chemistry teachers.

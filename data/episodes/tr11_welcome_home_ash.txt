@@ -107,6 +107,7 @@ SCENE ash_house
 PLACE professor_oak center left excited
 PLACE ash midright left nervous
 PLACE misty right left nervous
+HOLD professor_oak poem
 PROFESSOR_OAK (excited): And now, my poem. "Ode to Pidgey." Verse one. Oh, Pidgey, oh, Pidgey, you flap and you flap...
 ASH (nervous): How many verses did he say?
 MISTY (nervous): Fourteen.
@@ -120,6 +121,7 @@ PLACE meowth center left smug
 PLACE pikachu midright left surprised
 MEOWTH (smug): Psst. Pikachu. Want a croquette? A nice, warm, delicious croquette?
 PIKACHU (happy): Pika!
+HOLD meowth sack
 MEOWTH (excited): Just step into this nice, warm, delicious sack.
 PIKACHU (surprised): Pika?
 SFX whoosh
@@ -186,6 +188,7 @@ PLACE pikachu farright left happy
 PLACE professor_oak midleft right happy
 DELIA_KETCHUM (happy): Welcome home, Ash. I'm so proud of you.
 ASH (happy): Thanks, Mom. It's good to be home.
+HOLD professor_oak poem
 PROFESSOR_OAK (excited): And now, verse fourteen of my poem!
 ASH (nervous): Oh no, he's still going?
 PIKACHU (happy): Pika pika!

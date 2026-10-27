@@ -11,6 +11,7 @@ SCENE ceres_station cut
 TITLE
 PLACE adam center left neutral
 PLACE samus midright left neutral
+HOLD adam package
 ADAM (neutral): Lady. A simple delivery. One package to SkyTown on planet Elysia. Do not open it.
 SAMUS (neutral): ...What's in it?
 ADAM (smug): That's classified.
@@ -34,6 +35,7 @@ MUSIC tense
 SCENE skytown
 PLACE samus center right nervous
 SFX beep
+HOLD samus package
 NARRATOR: Samus checked the package. It was square. It was heavy. And it had just started beeping.
 SAMUS (nervous): ...
 SFX beep
@@ -50,6 +52,7 @@ NARRATOR: Out of the clouds came a big purple shape. Wings spread wide. A long s
 RIDLEY (angry): SCREEEEE!
 SAMUS (surprised): ...Ridley. Here?
 RIDLEY (smug): Scree scree!
+HOLD samus package
 SAMUS (angry): ...You want the package. Of course you do.
 
 # ------------------------------------------------------------ SKYTOWN
@@ -58,6 +61,7 @@ SCENE skytown
 PLACE samus center right excited
 PLACE anthony_higgs midleft right excited
 SFX whoosh
+HOLD samus package
 NARRATOR: Samus grabbed the package and jumped onto a zip line. Anthony jumped on right behind her. They zoomed across the clouds toward the next golden tower.
 ANTHONY_HIGGS (excited): WOOO! Princess, this is the best delivery EVER!
 SAMUS (nervous): ...It's still beeping.
@@ -108,6 +112,7 @@ SCENE skytown
 PLACE ridley center left excited
 PLACE anthony_higgs midright left scared
 SFX whoosh
+HOLD ridley package
 NARRATOR: The package flew out of Samus's hands. It tumbled through the air. And Ridley caught it in his claws.
 RIDLEY (excited): SCREEE!
 ANTHONY_HIGGS (scared): He's got it! He's flying away with it!

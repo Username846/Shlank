@@ -1,7 +1,7 @@
 extends Node
 ## Dev tool: renders screens to PNGs. Usage:
 ##   godot --path . res://tools/snapshot.tscn -- <out_dir> <mode> [arg]
-## modes: menu | cast | cast_ids <ids> | locations | loc_ids <ids> | episode <time_scale> | estimate <index> | estimate_files <paths...>
+## modes: menu | props | prop_check | holds <id:prop ...> | cast | cast_ids <ids> | locations | loc_ids <ids> | episode <time_scale> | estimate <index> | estimate_files <paths...>
 
 var out := "."
 var main: Node
@@ -65,6 +65,57 @@ func _ready() -> void:
 			main._new_episode_dialog(main._screen)
 			await _frames(5)
 			await _shot("new_episode")
+		"props":
+			# Contact sheets of every prop, 40 to a page.
+			var ids := Props.ids()
+			for page in ceili(ids.size() / 40.0):
+				var sheet := Control.new()
+				sheet.set_anchors_preset(Control.PRESET_FULL_RECT)
+				var bg := ColorRect.new()
+				bg.color = Color("dfe9f2")
+				bg.set_anchors_preset(Control.PRESET_FULL_RECT)
+				sheet.add_child(bg)
+				var canvas := Control.new()
+				canvas.set_anchors_preset(Control.PRESET_FULL_RECT)
+				sheet.add_child(canvas)
+				var chunk := ids.slice(page * 40, page * 40 + 40)
+				canvas.draw.connect(func() -> void:
+					for i in chunk.size():
+						var pos := Vector2(64 + (i % 10) * 128, 150 + (i / 10) * 180)
+						canvas.draw_circle(pos, 9, Color(0.95, 0.75, 0.6))
+						Props.draw(canvas, chunk[i], pos, Vector2.UP, 0.3)
+						canvas.draw_string(ThemeDB.fallback_font, pos + Vector2(-60, 26), chunk[i], HORIZONTAL_ALIGNMENT_CENTER, 120, 13, Color.BLACK))
+				add_child(sheet)
+				await _frames(3)
+				await _shot("props_%d" % page)
+				sheet.queue_free()
+		"prop_check":
+			# Lists characters whose drawing never draws the held prop.
+			var missing := []
+			for i in main._cast_order.size():
+				main.show_cast("", i)
+				await _frames(2)
+				var p: Puppet = null
+				for c in main._screen.get_children():
+					if c is Puppet:
+						p = c
+				p.held = "dodgeball"
+				var before := Props.draw_count
+				await _frames(3)
+				if Props.draw_count == before:
+					missing.append(main._cast_order[i])
+			print("PROP_CHECK missing=%d %s" % [missing.size(), " ".join(missing)])
+		"holds":
+			# Characters holding props in the cast viewer: -- <out> holds spongebob:spatula luigi:vacuum ...
+			for pair in args.slice(2):
+				var bits: PackedStringArray = pair.split(":")
+				main.show_cast("", main._cast_order.find(bits[0]))
+				await _frames(2)
+				for c in main._screen.get_children():
+					if c is Puppet:
+						c.held = bits[1]
+				await _frames(5)
+				await _shot("hold_%s_%s" % [bits[0], bits[1]])
 		"cast":
 			for i in main._cast_order.size():
 				main.show_cast("", i)

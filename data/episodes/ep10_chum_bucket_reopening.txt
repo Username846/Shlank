@@ -166,6 +166,7 @@ PLACE spongebob midright left excited
 SFX cash
 SFX cash
 MR_KRABS (excited): They're back! All of 'em! And hungry!
+HOLD spongebob spatula
 SPONGEBOB (excited): One Krabby Patty, coming right up! With extra parsley!
 MR_KRABS (smug): Lad. No parsley. Never again. Not in this restaurant.
 

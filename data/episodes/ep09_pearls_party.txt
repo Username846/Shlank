@@ -64,6 +64,7 @@ ENTER spongebob right midright excited
 SPONGEBOB (excited): Sandy, can you build a light show? Out of anything?
 SANDY (smug): SpongeBob, I could build a light show out of a jar of fireflies and a toaster.
 SPONGEBOB (excited): How much does that cost?
+HOLD sandy jar
 SANDY (happy): One jar of fireflies. And a toaster.
 SPONGEBOB (excited): We're still under budget!
 
@@ -113,6 +114,7 @@ SFX sparkle
 SANDY (excited): Fireflies, go!
 SPONGEBOB (excited): Music, Squidward!
 SFX clarinet
+HOLD patrick drumsticks
 PATRICK (excited): Drums!
 SFX thud
 SHAKE 0.4

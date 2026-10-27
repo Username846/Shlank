@@ -11,6 +11,7 @@ SCENE vegetable_valley cut
 TITLE
 PLACE adeleine center left excited
 PLACE kirby midleft right happy
+HOLD adeleine paintbrush
 ADELEINE (excited): Kirby, look! My new paintbrush! Watch what happens when I paint a flower.
 SFX sparkle
 KIRBY (surprised): Poyo!
@@ -58,6 +59,7 @@ ADELEINE (nervous): A monster? I only paint nice things.
 DEDEDE (angry): A big one! With teeth!
 WADDLE_DEE (nervous): And maybe frosting?
 DEDEDE (excited): Yes! Frosting!
+HOLD adeleine paintbrush
 ADELEINE (scared): Okay, okay! But I'm painting it small!
 
 # ------------------------------------------------------------ VEGETABLE VALLEY
@@ -114,6 +116,8 @@ MUSIC tense
 SCENE cloudy_park
 PLACE meta_knight center left neutral
 PLACE bandana_dee midright left nervous
+HOLD meta_knight sword
+HOLD bandana_dee spear
 BANDANA_DEE (nervous): Meta Knight! A paint dragon is eating Dream Land!
 META_KNIGHT (smug): A paint dragon? Then it has a weakness.
 BANDANA_DEE (surprised): What weakness?
@@ -126,6 +130,7 @@ MUSIC action 3
 SCENE orange_ocean
 PLACE kirby center right excited
 ENTER bandana_dee left left excited
+HOLD bandana_dee spear
 BANDANA_DEE (excited): Kirby! Paint washes off with water! Inhale the ocean!
 KIRBY (surprised): Poyo?
 BANDANA_DEE (nervous): Just a little bit of the ocean!
@@ -159,6 +164,7 @@ KIRBY (smug): Poyo.
 DEDEDE (sad): Fine. I'm sorry too. I'll pay for Whispy's new leaves.
 ADELEINE (happy): Maybe I'll only paint nice things from now on.
 KIRBY (excited): Poyo poyo!
+HOLD adeleine paintbrush
 ADELEINE (smug): And cake. For Kirby. Lots of cake.
 
 # ------------------------------------------------------------ GREEN GREENS
@@ -170,6 +176,7 @@ PLACE ribbon midright left happy
 SFX sparkle
 NARRATOR: That evening, Adeleine painted a sunset. It was so beautiful that it stayed in the sky an extra hour.
 RIBBON (happy): It's the prettiest sunset I've ever seen.
+HOLD adeleine painting
 ADELEINE (shy): It's my best painting.
 KIRBY (happy): Poyo.
 NARRATOR: Kirby did not eat the sunset. It was very hard for him. But he did not.

@@ -33,6 +33,8 @@ MUSIC jazz 2
 SCENE float_islands
 PLACE meta_knight center left smug
 PLACE bandana_dee midright left surprised
+HOLD meta_knight sword
+HOLD bandana_dee spear
 BANDANA_DEE (surprised): Meta Knight! Aren't you hot? In all that armor?
 META_KNIGHT (smug): A true knight is always prepared. Even at the beach.
 BANDANA_DEE (nervous): You're sweating. I can see it dripping out of your mask.
@@ -93,6 +95,7 @@ MUSIC happy 2
 SCENE float_islands
 PLACE dedede center left excited
 PLACE kirby midright left surprised
+HOLD dedede hammer
 NARRATOR: King Dedede joined Team Kine. He was terrible at volleyball. He hit the ball with his hammer. The ball went into space. Then it came back down and bounced off his head.
 DEDEDE (excited): Point for the King!
 KIRBY (surprised): Poyo?
@@ -139,6 +142,8 @@ MUSIC jazz
 SCENE float_islands
 PLACE meta_knight center left nervous
 PLACE bandana_dee midright left happy
+HOLD meta_knight sword
+HOLD bandana_dee spear
 NARRATOR: And then everyone noticed something. Meta Knight was soaked. Completely. From his mask to his boots.
 META_KNIGHT (nervous): ...The wave got me.
 BANDANA_DEE (happy): You're all wet! In your armor!

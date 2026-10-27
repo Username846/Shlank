@@ -11,6 +11,8 @@ SCENE gerald_field cut
 TITLE
 PLACE arnold midleft right happy
 PLACE gerald center left happy
+HOLD gerald baseball_bat
+HOLD arnold baseball
 ARNOLD (happy): Perfect day for baseball, Gerald.
 GERALD (smug): Every day is a perfect day for baseball, Arnold, my man.
 ENTER harold right right angry
@@ -137,6 +139,7 @@ SCENE green_meats
 PLACE harold center left excited
 PLACE stinky midleft right happy
 PLACE sid left right excited
+HOLD harold hot_dog
 HAROLD (excited): Victory party! Mister Green gave us free hot dogs!
 SID (excited): I hit a home run. Me. Sid. With my eyes closed.
 STINKY (happy): You sure did, Sid. Mighty fine swing.

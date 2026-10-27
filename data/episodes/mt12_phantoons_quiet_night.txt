@@ -12,6 +12,7 @@ TITLE
 PLACE phantoon center left happy
 NARRATOR: For a thousand years, the Wrecked Ship had been quiet. Dark. Peaceful. The perfect home for a ghost who liked quiet.
 PHANTOON (happy): Wooooo...
+HOLD phantoon book
 NARRATOR: Phantoon floated through the empty halls, humming to himself. He had a book. He had a cup of ghost tea. He was ready for a perfect night.
 PHANTOON (smug): Woo.
 
@@ -101,6 +102,7 @@ SPACE_PIRATE (nervous): Okay. Uh. We'll turn it down. A little.
 MUSIC spooky 2
 SCENE wrecked_ship
 PLACE phantoon center left happy
+HOLD phantoon book
 NARRATOR: It was quiet. For five minutes. Phantoon opened his book. He took a sip of ghost tea.
 PHANTOON (happy): Woo.
 SFX thud
@@ -187,6 +189,7 @@ PHANTOON (happy): Wooo.
 SAMUS (smug): ...You're welcome.
 PHANTOON (excited): Woo woo!
 SAMUS (surprised): ...Tea? With you?
+HOLD samus teacup
 SAMUS (happy): ...Okay. One cup.
 
 # ------------------------------------------------------------ WRECKED SHIP

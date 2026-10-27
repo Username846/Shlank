@@ -11,6 +11,7 @@ SCENE toad_town cut
 TITLE
 PLACE toadette center left excited
 PLACE toad midright left surprised
+HOLD toadette map
 TOADETTE (excited): Toad! Look what I found in the library! A treasure map! A real one!
 TOAD (surprised): A treasure map? Where does it go?
 TOADETTE (excited): It starts here in Toad Town! Then the pipes! Then the desert! Then... it's smudged.
@@ -35,6 +36,7 @@ SCENE pipe_land
 CARD Clue one...
 PLACE toadette center left excited
 PLACE toad midright left nervous
+HOLD toadette map
 TOADETTE (excited): The map says "go down the pipe with the crooked lid."
 TOAD (nervous): Toadette, there are about four hundred pipes here.
 TOADETTE (smug): Then we look for the crooked one.
@@ -48,6 +50,7 @@ SCENE underground_bricks
 PLACE toadette center left excited
 PLACE toad midright left surprised
 SFX coin
+HOLD toadette map
 TOADETTE (excited): Coins! Lots of coins! The map says take one and leave one.
 TOAD (surprised): Leave one? Why?
 TOADETTE (smug): It's treasure-hunter manners. You always leave something for the next person.
@@ -84,6 +87,7 @@ MUSIC tense
 SCENE desert_land
 PLACE toadette center left nervous
 PLACE toad midright left nervous
+HOLD toadette map
 TOADETTE (nervous): The map says "where the sun points at the stone face, dig."
 TOAD (nervous): There are three stone faces. And the sun's pointing at all of them.
 TOADETTE (smug): Wait for noon. When the shadow is shortest.
@@ -121,6 +125,7 @@ SCENE desert_land
 PLACE waluigi center left nervous
 PLACE toad midright left nervous
 WALUIGI (nervous): Small Toad. Is there water? Anywhere?
+HOLD toad juice_box
 TOAD (nervous): I have a juice box.
 WALUIGI (surprised): You would share with Waluigi?
 TOAD (happy): Treasure-hunter manners. You always help the next person.
@@ -157,6 +162,7 @@ PLACE wario center left surprised
 PLACE toadette midright left happy
 SFX sparkle
 NARRATOR: Inside the chest, there was no gold. There were books. Hundreds of old storybooks. And a note: "The greatest treasure is a good story. Share them."
+HOLD wario book
 WARIO (surprised): ...Books? BOOKS?! Where's the gold?!
 TOADETTE (excited): This is the best treasure ever!
 WARIO (angry): Wario does not read!
@@ -167,6 +173,7 @@ MUSIC jazz 2
 SCENE toad_town
 PLACE waluigi center left happy
 PLACE toad midright left happy
+HOLD waluigi book
 WALUIGI (happy): Small Toad. This book has a tall hero. Purple hat. Very handsome.
 TOAD (surprised): Really?
 WALUIGI (excited): It's about a wizard! A tall, purple wizard!

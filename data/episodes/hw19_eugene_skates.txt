@@ -110,6 +110,8 @@ PLACE harold center left smug
 PLACE sid midright left excited
 PLACE helga midleft right neutral
 HAROLD (smug): Here comes Eugene. Get ready to laugh.
+HOLD sid camera
+HOLD harold popcorn
 SID (excited): Camera's rolling!
 NARRATOR: Eugene skated out. He glided. He waved. He fell. And then he got up, bowed, and fell again, in a perfect spiral.
 SFX slide_whistle

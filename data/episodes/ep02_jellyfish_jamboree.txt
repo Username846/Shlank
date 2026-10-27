@@ -13,6 +13,7 @@ PLACE spongebob center right excited
 SPONGEBOB (excited): It's here! It's finally here! The Jellyfishing Jamboree!
 HOLD spongebob net
 ENTER patrick left midleft happy
+HOLD patrick net
 PATRICK (happy): Morning, SpongeBob! I brought my lucky net!
 SPONGEBOB (surprised): Patrick, that's a hamburger bun on a stick.
 PATRICK (smug): It's lucky because I can eat it if we lose.
@@ -39,6 +40,7 @@ PLACE squidward midright left neutral
 ENTER spongebob left left excited
 ENTER patrick left midleft happy
 ENTER larry right right smug
+HOLD larry net
 LARRY (smug): Feel the burn, losers. Larry the Lobster is here to take the Golden Net.
 SPONGEBOB (nervous): Larry? You don't even like jellyfishing!
 LARRY (smug): I like winning, bro. Jellyfish are just cardio with stingers.

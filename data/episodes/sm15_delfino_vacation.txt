@@ -57,6 +57,7 @@ MUSIC sneaky 2
 SCENE airship
 PLACE bowser_jr center left smug
 PLACE goomba midright left nervous
+HOLD bowser_jr paintbrush
 BOWSER_JR (smug): Ha! Ha ha! My magic paintbrush works perfectly! Everyone thinks Mario made the mess!
 GOOMBA (nervous): Junior, I thought you and Mario were getting along now.
 BOWSER_JR (angry): That was Father's Day! This is regular day!
@@ -84,6 +85,7 @@ NARRATOR: Mario sprayed. And sprayed. He cleaned the fountain. He cleaned the ma
 MARIO (excited): Wahoo! This is actually fun!
 SFX splash
 NARRATOR: And as the goop washed away, the townspeople started to smile. One of them even handed Mario a smoothie.
+HOLD mario smoothie
 MARIO (happy): A smoothie! Vacation is back!
 
 # ------------------------------------------------------------ DELFINO PLAZA
@@ -117,6 +119,7 @@ PLACE mario midright left angry
 SFX splat
 BOWSER_JR (smug): Ha! You'll never clean faster than I paint, Mario!
 MARIO (angry): Bowser Jr.! So it was you!
+HOLD bowser_jr paintbrush
 BOWSER_JR (excited): My magic brush is unstoppable!
 SFX splash
 NARRATOR: Mario sprayed the brush. The paint washed right off. And Bowser Jr. got soaked.

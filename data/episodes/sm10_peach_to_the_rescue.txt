@@ -115,6 +115,7 @@ PLACE bowser center left surprised
 ENTER peach right midright angry
 ENTER daisy right right angry
 PEACH (angry): Bowser! Release Mario. Right now.
+HOLD bowser cake
 BOWSER (nervous): Princess! Welcome! Can I get you a drink? Some tea? A nice cake?
 DAISY (angry): We didn't come here for cake!
 BOWSER (sad): ...It's a really good cake. I baked it myself.
@@ -141,6 +142,7 @@ PLACE peach midright left happy
 PLACE mario midleft right surprised
 PLACE luigi left right surprised
 PLACE yoshi farright left happy
+HOLD mario pillow
 NARRATOR: Bowser opened the cage. Mario stepped out, still holding the pillow.
 MARIO (surprised): Princess! You rescued me!
 PEACH (smug): It happens, Mario.
@@ -155,9 +157,11 @@ CARD One week later...
 PLACE peach center left happy
 PLACE daisy midright left happy
 PLACE toad midleft right excited
+HOLD toad letter
 TOAD (excited): Princess! A letter arrived! From Bowser's Castle!
 PEACH (happy): An invitation. "Dear Princess. Please come to a tea party at my castle. No kidnapping. I promise. Love, Bowser."
 DAISY (smug): You're actually going?
 PEACH (smug): Of course. He asked nicely.
+HOLD daisy tennis_racket
 DAISY (happy): Then I'm bringing my tennis racket. Just in case.
 END

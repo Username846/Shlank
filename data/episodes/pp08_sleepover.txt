@@ -27,6 +27,7 @@ PLACE lil right left excited
 TOMMY (excited): A sleepover! We get to stay up all night!
 PHIL (excited): Do we get to sleep, or just over?
 LIL (smug): Over, Phillip. That's the important part.
+HOLD chuckie flashlight
 CHUCKIE (nervous): I brought my flashlight. In case it gets dark.
 TOMMY (happy): It always gets dark at night, Chuckie.
 CHUCKIE (scared): That's why I brought it!
@@ -47,6 +48,7 @@ MUSIC happy 2
 SCENE pickles_kitchen
 PLACE stu center left excited
 PLACE didi midright left neutral
+HOLD stu popcorn
 STU (excited): Deed, I've got popcorn, I've got juice, and I've got the classic horror movie, "The Cookie That Ate Cleveland!"
 DIDI (smug): Stu, they're babies. They're watching "Goo Goo Ga Ga Land."
 STU (sad): Aw. That one doesn't even have a cookie in it.
@@ -99,6 +101,7 @@ PHIL (scared): Lillian, hold on to your diaper!
 LIL (scared): I'm holding, Phillip! I'm holding!
 TOMMY (nervous): Chuckie! Your flashlight!
 CHUCKIE (surprised): My flashlight! I brought my flashlight!
+HOLD chuckie flashlight
 
 # ------------------------------------------------------------ PICKLES LIVING ROOM
 MUSIC tense
@@ -117,6 +120,7 @@ SCENE nursery
 PLACE chuckie center right excited
 PLACE angelica midleft right scared
 PLACE tommy midright left surprised
+HOLD chuckie flashlight
 NARRATOR: Chuckie switched on his flashlight. It made a little circle of light on the wall. And in the light, the babies saw Angelica. Hiding under a blanket. Shaking.
 TOMMY (surprised): Angelica? Are you scared?
 ANGELICA (scared): No! I'm... I'm cold! It's very cold under here!
@@ -132,6 +136,7 @@ SCENE nursery
 PLACE chuckie center right happy
 PLACE angelica midleft right sad
 PLACE susie midright left happy
+HOLD chuckie flashlight
 CHUCKIE (happy): It's okay, Angelica. When I'm scared, I hold my flashlight. Want to hold it?
 ANGELICA (surprised): You'd let me?
 CHUCKIE (shy): Sure. Being scared is less scary when you've got a light.

@@ -127,6 +127,7 @@ MUSIC sneaky 3
 SCENE frieza_ship
 PLACE frieza center left angry
 FRIEZA (angry): A party? On Earth? And I wasn't invited?
+HOLD frieza gift
 FRIEZA (smug): How very rude. I shall attend anyway. With a gift.
 FRIEZA (happy): A lovely planet-sized explosion. Wrapped in a bow.
 NARRATOR: Frieza did not understand birthdays.
@@ -167,6 +168,7 @@ PLACE vegeta center left happy
 PLACE bulma midright left happy
 PLACE trunks right left happy
 PLACE gohan midleft right happy
+HOLD bulma cake
 BULMA (happy): Okay, everyone. Time for cake!
 GOHAN (excited): Make a wish, Vegeta!
 VEGETA (smug): I wish to be stronger than Kakarot.

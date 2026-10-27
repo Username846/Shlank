@@ -13,6 +13,7 @@ PLACE judy center left excited
 PLACE doug midright left nervous
 JUDY (excited): Douglas! Swirly's has agreed to host my first art show! Fourteen pieces! Each one a cry from the soul!
 DOUG (nervous): That's great, Judy. What are they of?
+HOLD judy painting
 JUDY (smug): Piece number one is a blank canvas. It's called "Bluffington on a Tuesday."
 DOUG (nervous): It's... white.
 JUDY (smug): So is Tuesday, Douglas.
@@ -22,6 +23,7 @@ MUSIC sneaky
 SCENE doug_room
 PLACE doug center right nervous
 PLACE porkchop midleft right neutral
+HOLD doug journal
 DOUG (nervous): Dear Journal. Mom says I have to help Judy with her art show. Hang the art. Hand out flyers. Make sure people come.
 DOUG (sad): The problem is, I don't understand any of it. One of them is just a sock. On a stick.
 PORKCHOP (smug): Arf.
@@ -137,6 +139,7 @@ MUSIC romantic 2
 SCENE doug_room
 PLACE doug center right happy
 PLACE porkchop midleft right happy
+HOLD doug journal
 DOUG (happy): Dear Journal. Judy sold eleven pieces. Even the blank one. She's a real artist now.
 DOUG (shy): And she called me her favorite brother. I'm her only brother. But still.
 PORKCHOP (smug): Arf.

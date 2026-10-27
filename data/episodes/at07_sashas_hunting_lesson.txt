@@ -37,6 +37,7 @@ SCENE stables
 PLACE jean center right smug
 PLACE connie_springer midleft right excited
 JEAN (smug): I'm bringing Buttercup. Real hunters ride horses.
+HOLD connie_springer net
 CONNIE_SPRINGER (excited): I'm bringing a net, a rope and three sandwiches.
 JEAN (surprised): Three sandwiches?
 CONNIE_SPRINGER (smug): Sasha said to bring bait.
@@ -115,6 +116,7 @@ SCENE giant_forest
 PLACE sasha center left excited
 PLACE connie_springer midright left excited
 PLACE jean farright left scared
+HOLD connie_springer net
 SASHA (excited): Connie! Now! The net!
 CONNIE_SPRINGER (excited): Which one's the net?
 SASHA (angry): The thing in your hands!

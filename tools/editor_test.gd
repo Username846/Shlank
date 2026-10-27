@@ -29,6 +29,21 @@ func _ready() -> void:
 	await _shot("t_editor")
 	ed._select_beat(6)
 	await _shot("t_editor_selected")
+	# A HOLD beat shows a category picker and an item picker
+	var hold_at := Vector2i(-1, -1)
+	for si in doc.scenes.size():
+		for bi in doc.scenes[si].beats.size():
+			if hold_at.x < 0 and doc.scenes[si].beats[bi].type == "hold":
+				hold_at = Vector2i(si, bi)
+	if hold_at.x >= 0:
+		ed._load_scene(hold_at.x)
+		await _frames(3)
+		ed._select_beat(hold_at.y)
+		await _frames(3)
+		print("HOLD BEAT: ", doc.scenes[hold_at.x].beats[hold_at.y].prop)
+		await _shot("t_hold_inspector")
+		ed._load_scene(0)
+		await _frames(3)
 	ed._open_location_picker()
 	await _frames(40)
 	await _shot("t_loc_picker")

@@ -14,6 +14,7 @@ SFX detector
 NARRATOR: Deep in the Chozo Ruins, Samus found a statue. It was holding a glowing orb. A power-up. The Morph Ball Bombs.
 SAMUS (neutral): ...
 SFX powerup
+HOLD samus orb
 NARRATOR: Samus took the orb. The ruins went very, very quiet.
 SAMUS (nervous): ...Uh oh.
 
@@ -166,6 +167,7 @@ MUSIC jazz
 SCENE tallon_overworld
 PLACE torizo center left neutral
 PLACE etecoon midright left nervous
+HOLD etecoon orb
 NARRATOR: When the pirates were gone, the smallest etecoon crept down from the tree. It held the glowing orb in both hands. It walked right up to Torizo.
 ETECOON (nervous): Eee...
 TORIZO (surprised): You... are giving back... the item?

@@ -136,6 +136,7 @@ SCENE schrader_house
 PLACE jesse center right happy
 PLACE walt midleft right happy
 JESSE (happy): Come here, little guy. We're not gonna spray you.
+HOLD jesse coffee_can
 NARRATOR: Jesse scooped the mouse into a coffee can. Walt sealed the hole in the closet wall with putty. No chemicals at all.
 WALT (happy): Problem solved. No termites. One mouse. Zero spray.
 JESSE (excited): We're the best bug men in Albuquerque, yo!
@@ -162,6 +163,7 @@ MARIE (nervous): So? The termites?
 WALT (smug): Gone, Marie. Every last one. Your purple things are safe.
 MARIE (happy): Walt! I knew you were good with chemicals!
 WALT (nervous): ...Yes. Chemicals. That's exactly what I used.
+HOLD marie money
 MARIE (excited): Here's your two hundred dollars! And a purple thank-you card!
 
 # ------------------------------------------------------------ PINKMAN HOUSE
@@ -170,6 +172,7 @@ SCENE pinkman_house
 CARD That night...
 PLACE jesse center right happy
 PLACE badger midleft right surprised
+HOLD jesse coffee_can
 BADGER (surprised): Yo, Jesse. Why do you have a mouse in a coffee can?
 JESSE (happy): That's Termite. He's my new roommate.
 BADGER (surprised): You named a mouse Termite?

@@ -62,6 +62,7 @@ PLACE phil midleft right excited
 PLACE lil midright left excited
 TOMMY (smug): Okay, guys. When the grown-ups aren't looking, we free the monkey.
 PHIL (excited): How do we open the cage?
+HOLD tommy screwdriver
 TOMMY (smug): The same way I open the playpen. With my screwdriver.
 LIL (surprised): You brought your screwdriver to the zoo?
 TOMMY (happy): I bring it everywhere. In my diaper.
@@ -125,6 +126,7 @@ TOMMY (excited): The monkey's on the lamp post! He's gonna get in trouble! We go
 PHIL (excited): What do monkeys like?
 LIL (excited): Bananas!
 TOMMY (happy): Chuckie! You still got that banana in your pocket?
+HOLD chuckie banana
 CHUCKIE (nervous): I was saving it for later, Tommy.
 TOMMY (smug): It IS later, Chuckie.
 
@@ -134,6 +136,7 @@ SCENE the_zoo
 PLACE chuckie center right nervous
 PLACE grandpa_lou midleft right surprised
 PLACE tommy midright left happy
+HOLD chuckie banana
 NARRATOR: Chuckie held up his banana. The monkey slid down the lamp post. He took the banana, patted Chuckie on the head, and walked right back into his cage.
 SFX door
 CHUCKIE (surprised): He went home, Tommy!
@@ -148,6 +151,7 @@ CARD The gift shop...
 PLACE angelica center left sad
 PLACE stu midright left smug
 ANGELICA (sad): Uncle Stu, I didn't get the giant Reptar.
+HOLD stu keychain
 STU (smug): Nope. But I got you something else. A little Reptar keychain.
 ANGELICA (surprised): It's... it's tiny.
 STU (happy): Small Reptar, big heart.

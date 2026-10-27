@@ -153,6 +153,7 @@ PLACE peach right left surprised
 SFX fanfare
 TOAD (excited): It's a tie! Mario and Peach! Co-champions of the Moo Moo Farm Kart Cup!
 MARIO (surprised): A tie?
+HOLD peach trophy
 PEACH (happy): I'll take it! We can share the trophy!
 MARIO (happy): Mario likes sharing!
 TOAD (smug): And the cow gets an honorary medal. For not moving.

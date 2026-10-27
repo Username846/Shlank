@@ -1,7 +1,6 @@
 extends Node
 ## App shell: menus (episodes, cast, locations, settings) and the episode player.
 
-const PROPS := ["none", "golden_spatula", "patty", "net", "clarinet", "detector", "money", "locket", "ice_cream", "fishing_rod", "beeper"]
 
 var _screen: Node
 ## Everyone with a puppet, in data order (the narrator has no body).
@@ -761,13 +760,37 @@ func show_cast(show: String = "", index: int = 0) -> void:
 		var b := UiKit.button(e.to_upper(), Color.WHITE, 16)
 		b.pressed.connect(func() -> void: p.set_emotion(e))
 		emo.add_child(b)
-	var props := HFlowContainer.new()
-	props.add_theme_constant_override("h_separation", 8)
+	# Props: pick a category, then an item in it
+	var props := HBoxContainer.new()
+	props.add_theme_constant_override("separation", 8)
 	vb.add_child(props)
-	for pr in PROPS:
-		var b := UiKit.button(pr.replace("_", " ").to_upper(), Color("dff1fb"), 14)
-		b.pressed.connect(func() -> void: p.held = "" if pr == "none" else pr)
-		props.add_child(b)
+	var hold_l := UiKit.label("HOLD", 18, Color(0.35, 0.35, 0.4))
+	hold_l.autowrap_mode = TextServer.AUTOWRAP_OFF
+	hold_l.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	props.add_child(hold_l)
+	var cat_opt := OptionButton.new()
+	var item_opt := OptionButton.new()
+	for o in [cat_opt, item_opt]:
+		o.add_theme_font_size_override("font_size", 16)
+		o.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		o.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	cat_opt.add_item("Nothing")
+	for c in Props.CATEGORIES:
+		cat_opt.add_item(c[0])
+	cat_opt.item_selected.connect(func(i: int) -> void:
+		item_opt.clear()
+		if i == 0:
+			p.held = ""
+		else:
+			for pr in Props.CATEGORIES[i - 1][1]:
+				item_opt.add_item(Props.label(pr))
+				item_opt.set_item_metadata(item_opt.item_count - 1, pr)
+			p.held = String(item_opt.get_item_metadata(0))
+		item_opt.visible = i > 0)
+	item_opt.item_selected.connect(func(i: int) -> void: p.held = String(item_opt.get_item_metadata(i)))
+	item_opt.visible = false
+	props.add_child(cat_opt)
+	props.add_child(item_opt)
 	_arrows(root, func(d: int) -> void: show_cast(show, index + d))
 	var walk := UiKit.button("WALK", UiKit.TEAL, 20)
 	walk.position = Vector2(330, 670)

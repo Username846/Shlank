@@ -48,9 +48,11 @@ SCENE sandbox
 PLACE tommy center right excited
 PLACE phil midleft right excited
 PLACE lil midright left excited
+HOLD tommy shovel
 TOMMY (excited): Okay, everybody! Dig! Dig to China!
 SFX splat
 PHIL (excited): I'm digging! I found a rock!
+HOLD lil worm
 LIL (excited): I found a worm! Is it from China?
 PHIL (surprised): It doesn't look like it's from China.
 LIL (smug): It's a world traveler, Phillip. It's very tired.
@@ -65,6 +67,7 @@ SFX splat
 PHIL (excited): Look! Spike's helping! He digs super fast!
 LIL (excited): He's got four shovels! On his feet!
 SPIKE (happy): Woof! Woof!
+HOLD spike bone
 PHIL (surprised): He found a bone! Is it a China bone?
 LIL (smug): It's his bone, Phillip. He buried it last week.
 
@@ -168,8 +171,10 @@ CARD Later...
 PLACE didi center left happy
 PLACE tommy midright left happy
 PLACE chuckie midleft right happy
+HOLD didi cookie
 DIDI (happy): Who wants a cookie? I made them extra big today.
 TOMMY (excited): Chuckie! Look! Cookies as big as our heads!
+HOLD tommy cookie
 CHUCKIE (excited): We didn't need to dig to China after all, Tommy!
 TOMMY (smug): China came to us.
 END

@@ -95,7 +95,7 @@ MEOWTH (nervous): There it is. In the healing machine. The Golden Poké Ball.
 JAMES (excited): It's so shiny!
 JESSIE (excited): Grab it!
 MOVE james midright
-HOLD james money
+HOLD james golden_poke_ball
 SFX sparkle
 JAMES (excited): Got it!
 SFX sting
@@ -148,7 +148,7 @@ JESSIE (angry): Everything was perfect! And then that blue blob ruined it!
 PLACE wobbuffet right left happy
 WOBBUFFET (happy): Wobba?
 MEOWTH (excited): Wait. Wobbuffet, you're holding something.
-HOLD wobbuffet money
+HOLD wobbuffet golden_poke_ball
 WOBBUFFET (excited): Wobbaaa-fett!
 JAMES (excited): The Golden Poké Ball! You saved it!
 JESSIE (happy): Wobbuffet, you beautiful blue disaster!
@@ -178,7 +178,7 @@ JESSIE (sad): So we lost the ball, the mech and the submarine.
 JAMES (happy): But we still have each other.
 MEOWTH (smug): And we've got this.
 ENTER wobbuffet right right happy
-HOLD wobbuffet money
+HOLD wobbuffet golden_poke_ball
 JESSIE (surprised): He kept it?!
 WOBBUFFET (excited): Wobbaaaa-fett!
 MUSIC happy 3
@@ -191,6 +191,7 @@ PLACE giovanni midright left neutral
 PLACE jessie midleft right excited
 PLACE james left right excited
 PLACE meowth farleft right excited
+HOLD jessie golden_poke_ball
 JESSIE (excited): Boss! The Golden Poké Ball, as promised!
 GIOVANNI (surprised): Hmm. It's... a tennis ball painted gold.
 JAMES (scared): It's what?

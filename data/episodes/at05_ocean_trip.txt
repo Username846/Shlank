@@ -51,7 +51,9 @@ PLACE erwin center left neutral
 PLACE levi midright left smug
 PLACE hange right left excited
 ERWIN: Is everyone ready?
+HOLD levi broom
 LEVI (smug): Ready. I packed a broom. The beach will be sandy.
+HOLD hange jar
 HANGE (excited): I packed jars! For collecting sea creatures! And one big jar for Pete!
 ERWIN (surprised): Pete is coming?
 HANGE (happy): He's never seen the ocean either!
