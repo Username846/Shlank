@@ -121,6 +121,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"skytown": _skytown(b)
 		"agon_wastes": _agon_wastes(b)
 		"phazon_mines": _phazon_mines(b)
+		# Kirby
+		"float_islands": _float_islands(b)
+		"mt_dedede": _mt_dedede(b)
+		"cookie_country": _cookie_country(b)
+		"raisin_ruins": _raisin_ruins(b)
+		"iceberg": _iceberg(b)
+		"peanut_plains": _peanut_plains(b)
+		"moonlight_mansion": _moonlight_mansion(b)
+		"waddle_dee_town": _waddle_dee_town(b)
+		"mirror_world": _mirror_world(b)
+		"halcandra": _halcandra(b)
 		_: return false
 	return true
 
@@ -279,6 +290,23 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 		"gfs_olympus":
 			var px := fmod(t * 30.0, W + 400) - 200
 			Art.shape(ci, PackedVector2Array([Vector2(px, 160), Vector2(px + 60, 150), Vector2(px + 80, 160), Vector2(px + 60, 170)]), Color("c8d0dc"), 2.0)
+		"float_islands":
+			for i in 3:
+				var y := 560.0 + i * 24.0 + sin(t * 1.5 + i) * 5.0
+				Art.stroke(ci, Art.curve(Vector2(-PAD, y), Vector2(640, y - 8), Vector2(W + PAD, y), 16), 3.0, Color(1, 1, 1, 0.6))
+		"iceberg":
+			for i in 30:
+				var x := fmod(i * 97.0 + t * 12.0, W + 200) - 100
+				var y := fmod(i * 53.0 + t * 40.0, H + 100) - 50
+				Art.dot(ci, Vector2(x, y), 3, Color(1, 1, 1, 0.85))
+		"mirror_world":
+			for i in 8:
+				var a := t * 0.4 + i * TAU / 8.0
+				Art.shape(ci, Art.star(Vector2(640 + cos(a) * 520, 300 + sin(a) * 200), 8), Color(1, 1, 1, 0.6), 0.0)
+		"halcandra":
+			for i in 5:
+				var k := fmod(t * 0.3 + i / 5.0, 1.0)
+				Art.dot(ci, Vector2(200 + i * 220, 600 - k * 400), 10 * (1.0 - k) + 3, Color(1.0, 0.5, 0.2, 1.0 - k))
 		_: pass
 
 
@@ -1787,4 +1815,139 @@ static func _phazon_mines(b: Backdrop) -> void:
 		Art.blob(b.ci, Vector2(x, 548), 18, 18, Color("2b2b33"), 3.0)
 	for i in 4:
 		Art.stroke(b.ci, Art.curve(Vector2(300 + i * 200, 100), Vector2(330 + i * 200, 250), Vector2(290 + i * 200, 400), 10), 6.0, Color("3fa0f0"))
+
+
+
+
+# --------------------------------------------------------------- Kirby --
+
+static func _float_islands(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("6ec8f6"), Color("e8f8ff"))
+	SetsExtra._water(b, 460, H + PAD, Color("4ab8e8"))
+	# A sandy island with palm trees and a little floating island above
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 560), 520, 90, PI, TAU, 30), Color("f6e0a0"), 4.5, 0.1)
+	SetsExtra._fill_band(b, 560, H + PAD, Color("f6e0a0"), false)
+	for x in [300, 980]:
+		Art.limb(b.ci, Art.curve(Vector2(x, 540), Vector2(x - 20, 420), Vector2(x + 20, 320), 10), 14, Color("c8945a"))
+		for k in 5:
+			var a: float = PI + k * PI / 4.0
+			Art.limb(b.ci, Art.curve(Vector2(x + 20, 320), Vector2(x + 20 + cos(a) * 50, 290), Vector2(x + 20 + cos(a) * 90, 340), 6), 12, Color("5ac85a"))
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(540, 160), Vector2(740, 160), Vector2(690, 230), Vector2(590, 230)]), 4), Color("8fe08a"), 4.0)
+
+
+static func _mt_dedede(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("e88a6a"), Color("f8d8b0"))
+	# A big mountain with Dedede's face carved in it and a wrestling ring on top
+	Art.shape(b.ci, PackedVector2Array([Vector2(-PAD, 600), Vector2(400, 200), Vector2(880, 200), Vector2(W + PAD, 600)]), Color("a8785a"), 5.0, 0.15)
+	SetsExtra._fill_band(b, 560, H + PAD, Color("8a6a4a"))
+	Art.blob(b.ci, Vector2(640, 330), 120, 100, Color("c8a080"), 4.0)
+	for sx in [-1, 1]:
+		Art.dot(b.ci, Vector2(640 + sx * 40, 310), 12, INK)
+	Art.shape(b.ci, PackedVector2Array([Vector2(600, 360), Vector2(680, 360), Vector2(700, 380), Vector2(580, 380)]), Color("f2c14e"), 3.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(560, 240), Vector2(600, 190), Vector2(640, 230), Vector2(680, 190), Vector2(720, 240)]), Color("e6452f"), 3.5)
+	Art.shape(b.ci, Art.rrect(Rect2(470, 160, 340, 40), 4), Color("4a78d0"), 3.0)
+
+
+static func _cookie_country(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("f6b8d0"), Color("fbe6f2"))
+	SetsMore._rolling(b, 500, Color("e8b878"), 11, 50.0)
+	SetsExtra._fill_band(b, 560, H + PAD, Color("c8945a"))
+	# Hills made of cookies, candy cane posts and chocolate rocks
+	for i in 5:
+		var c := Vector2(120 + i * 260, 470 + (i % 2) * 40)
+		Art.blob(b.ci, c, 70, 70, Color("d8a868"), 4.0, 0.1)
+		for k in 4:
+			Art.dot(b.ci, c + Vector2(cos(k * 1.7) * 36, sin(k * 1.7) * 36), 9, Color("6b4428"))
+	for x in [400, 900]:
+		Art.limb(b.ci, Art.curve(Vector2(x, 600), Vector2(x, 400), Vector2(x + 40, 380), 8), 14, Color.WHITE)
+		for k in 4:
+			Art.dot(b.ci, Vector2(x, 560 - k * 46), 7, Color("e6452f"))
+
+
+static func _raisin_ruins(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("c8a0d8"), Color("f0e0f0"))
+	SetsExtra._grass(b, 540, Color("9ac87a"))
+	# Old purple ruins, broken arches and a star door
+	_columns(b, [180.0, 360.0, 920.0, 1100.0], 260, 540, Color("c8b0d8"))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(140, 230, 260, 40)), Color("b8a0c8"), 4.0)
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 540), 130, 200, PI, TAU, 20), Color("8a6aa0"), 5.0, 0.12)
+	Art.shape(b.ci, Art.star(Vector2(640, 440), 40), Color("f6e05a"), 3.0)
+
+
+static func _iceberg(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("a8d8f8"), Color("f0f8ff"))
+	SetsExtra._water(b, 500, H + PAD, Color("4a90d0"))
+	# Floating chunks of ice and a big iceberg with an igloo
+	Art.shape(b.ci, PackedVector2Array([Vector2(300, 560), Vector2(380, 280), Vector2(560, 220), Vector2(800, 260), Vector2(960, 560)]), Color("e8f4fc"), 5.0, 0.1)
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 420), 110, 90, PI, TAU, 18) + PackedVector2Array([Vector2(750, 420), Vector2(530, 420)]), Color("f8fcff"), 4.0)
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 420), 30, 46, PI, TAU, 10), Color("6a8ab0"), 3.0)
+	for x in [120, 1140]:
+		Art.shape(b.ci, Art.rrect(Rect2(x - 70, 520, 140, 40), 10), Color("e8f4fc"), 3.5)
+
+
+static func _peanut_plains(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b)
+	SetsMore._rolling(b, 500, Color("a8e080"), 29, 40.0)
+	SetsExtra._grass(b, 560, Color("8fd06a"))
+	# Gentle plains with peanut-shaped bushes and a wooden signpost
+	for i in 4:
+		var x: float = 160.0 + i * 320.0
+		Art.blob(b.ci, Vector2(x, 530), 40, 30, Color("6fbf4a"), 3.5)
+		Art.blob(b.ci, Vector2(x + 50, 520), 34, 26, Color("6fbf4a"), 3.5)
+	Art.limb(b.ci, PackedVector2Array([Vector2(640, 600), Vector2(640, 420)]), 10, Color("8a5a36"))
+	b._sign(Rect2(540, 380, 200, 50), "PEANUT PLAINS", Color("c8945a"), Color.WHITE, 22)
+	SetsMore._kirby_tree(b, 1120, 560, 0.9)
+
+
+static func _moonlight_mansion(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("1a1a4a"), Color("4a3a7a"))
+	SetsMore._stars(b, 30, 51, Color(1, 1, 1, 0.8), 300)
+	Art.blob(b.ci, Vector2(1060, 120), 60, 60, Color("f6f0c0"), 3.0)
+	# A spooky mansion with round towers and glowing windows
+	SetsExtra._grass(b, 560, Color("3a5a4a"))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(380, 260, 520, 300)), Color("6a5a8a"), 5.0, 0.12)
+	for x in [380, 900]:
+		Art.shape(b.ci, Art.rrect(Rect2(x - 60, 180, 120, 380), 50), Color("5a4a7a"), 4.0)
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 70, 200), Vector2(x, 110), Vector2(x + 70, 200)]), Color("3a2a5a"), 4.0)
+	for i in 4:
+		Art.shape(b.ci, Art.rrect(Rect2(450 + i * 110, 320, 60, 80), 26), Color("f6e05a"), 3.0)
+	b._door(Rect2(600, 440, 80, 120), Color("3a2a5a"))
+
+
+static func _waddle_dee_town(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b)
+	SetsExtra._grass(b, 540, Color("8fe08a"))
+	# A cheerful village of round orange houses with blue bandana flags
+	for i in 4:
+		var x: float = 100.0 + i * 300.0
+		Art.shape(b.ci, Art.arc_pts(Vector2(x + 90, 540), 110, 160, PI, TAU, 20), Color("f2a65a"), 4.0, 0.12)
+		Art.shape(b.ci, Art.arc_pts(Vector2(x + 90, 540), 30, 60, PI, TAU, 10), Color("8a5a36"), 3.0)
+		for sx in [-1, 1]:
+			Art.dot(b.ci, Vector2(x + 90 + sx * 40, 460), 10, INK)
+		Art.limb(b.ci, PackedVector2Array([Vector2(x + 90, 380), Vector2(x + 90, 320)]), 4, Color("8a5a36"))
+		Art.shape(b.ci, PackedVector2Array([Vector2(x + 90, 320), Vector2(x + 140, 334), Vector2(x + 90, 348)]), Color("4a78d0"), 2.5)
+	b._sign(Rect2(460, 140, 360, 56), "WADDLE DEE TOWN", Color("f2a65a"), Color.WHITE, 30)
+
+
+static func _mirror_world(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("5a3a8a"), Color("c8a8e8"))
+	# A dimension of mirrors: tall shining panels and a reflected floor
+	for i in 7:
+		var x: float = -40.0 + i * 200.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 120 + (i % 2) * 40, 140, 360), 70), Color(0.85, 0.9, 1.0, 0.5), 5.0)
+		Art.stroke(b.ci, PackedVector2Array([Vector2(x + 30, 180 + (i % 2) * 40), Vector2(x + 60, 240 + (i % 2) * 40)]), 4.0, Color(1, 1, 1, 0.8))
+	SetsExtra._fill_band(b, 520, H + PAD, Color("8a6ab0"))
+	Art.shape(b.ci, Art.star(Vector2(640, 600), 30), Color("f6e05a"), 3.0)
+
+
+static func _halcandra(b: Backdrop) -> void:
+	SetsMore._kirby_sky(b, Color("4a1a2a"), Color("c8502a"))
+	# Magolor's volcanic home world: dark rock, glowing lava cracks and old machines
+	SetsExtra._fill_band(b, 520, H + PAD, Color("3a2a2a"))
+	for i in 5:
+		Art.stroke(b.ci, Art.curve(Vector2(80 + i * 260, 560), Vector2(120 + i * 260, 600), Vector2(90 + i * 260, 660), 8), 6.0, Color("f2602a"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(700, 520), Vector2(900, 180), Vector2(1000, 180), Vector2(1240, 520)]), Color("5a3a3a"), 5.0, 0.15)
+	Art.shape(b.ci, PackedVector2Array([Vector2(900, 180), Vector2(1000, 180), Vector2(980, 210), Vector2(920, 210)]), Color("f2602a"), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(160, 360, 280, 160), 20), Color("8a7a6a"), 4.0, 0.12)
+	Art.blob(b.ci, Vector2(300, 440), 40, 40, Color("6fd0f0"), 3.0)
 

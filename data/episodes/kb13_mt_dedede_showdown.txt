@@ -1,0 +1,162 @@
+@title Showdown on Mt. DeDeDe
+@series Kirby
+@season 2
+@icon warpstar
+@number 3
+@description King Dedede challenges Kirby to a wrestling match on top of Mt. DeDeDe, the mountain with the king's face carved into it. Dedede has been training for weeks. Kirby has been napping for weeks. The Waddle Dees sell popcorn.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC happy
+SCENE dedede_castle cut
+TITLE
+PLACE dedede center left excited
+PLACE waddle_dee midright left nervous
+DEDEDE (excited): Waddle Dee! I challenge Kirby to a wrestling match! On top of Mt. DeDeDe! The most magnificent mountain in Dream Land!
+WADDLE_DEE (nervous): Sir, the last eleven times you fought Kirby, you lost.
+DEDEDE (smug): That's why this time I've been TRAINING! Push-ups! Sit-ups! Hammer swings!
+WADDLE_DEE (surprised): You did push-ups, sir?
+DEDEDE (nervous): ...I watched you do push-ups. Very closely.
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC jazz
+SCENE kirby_house
+PLACE kirby center right happy
+PLACE bandana_dee midleft right excited
+BANDANA_DEE (excited): Kirby! King Dedede challenged you to a wrestling match! Tomorrow! On Mt. DeDeDe!
+KIRBY (happy): Poyo!
+BANDANA_DEE (nervous): He's been training for weeks. What have you been doing?
+KIRBY (smug): Poyo.
+NARRATOR: Kirby had been napping. For weeks. Under a tree. With a pillow shaped like a strawberry.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC jazz 2
+SCENE mt_dedede
+CARD Mt. DeDeDe...
+PLACE waddle_dee center left excited
+PLACE waddle_doo midright left excited
+NARRATOR: The next day, the top of Mt. DeDeDe was packed. Every Waddle Dee in the kingdom had come to watch. Some of them were selling popcorn. Some of them were selling foam hammers.
+WADDLE_DEE (excited): Popcorn! Get your popcorn! Fresh from the castle kitchen!
+WADDLE_DOO (excited): Foam hammers! Wave them for your king!
+WADDLE_DEE (nervous): Doo, who are you cheering for?
+WADDLE_DOO (smug): The king. Officially. Kirby secretly.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC action
+SCENE mt_dedede
+PLACE dedede center left excited
+PLACE kirby midright left happy
+SFX fanfare
+NARRATOR: King Dedede climbed into the ring. He was wearing a red cape and a golden belt. The crowd roared. Then Kirby climbed into the ring. He was wearing nothing. He waved.
+DEDEDE (excited): Prepare yourself, Kirby! The King of Dream Land is ready to RUMBLE!
+KIRBY (happy): Poyo!
+DEDEDE (angry): Don't "poyo" me! This is serious!
+KIRBY (smug): Poyo poyo.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC action 2
+SCENE mt_dedede
+PLACE dedede center left angry
+PLACE kirby midright left excited
+SFX drumroll
+SFX whoosh
+NARRATOR: Round one! Dedede charged. Kirby jumped. Dedede ran right into the ropes and bounced all the way back to his corner.
+DEDEDE (angry): Hold still!
+KIRBY (excited): Poyo!
+SFX boing
+NARRATOR: Dedede charged again. Kirby floated up into the air, puffed out his cheeks, and Dedede ran underneath him and out of the ring.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC jazz
+SCENE mt_dedede
+PLACE meta_knight center left smug
+PLACE magolor midright left excited
+META_KNIGHT (smug): Hm. The king has improved. He only fell out of the ring once.
+MAGOLOR (excited): I'm recording the whole thing! For my travel show! "Magolor's Popstar Adventures"!
+META_KNIGHT (surprised): You have a travel show?
+MAGOLOR (smug): Seven viewers! Very loyal!
+META_KNIGHT (nervous): ...I may be one of them.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC sneaky 2
+SCENE mt_dedede
+PLACE dedede center left nervous
+PLACE waddle_dee midright left nervous
+NARRATOR: Between rounds, King Dedede sat in his corner. Waddle Dee fanned him with a towel. The king was sweating. The king was out of breath. The king had not landed a single hit.
+DEDEDE (nervous): Waddle Dee. How am I doing?
+WADDLE_DEE (nervous): Very... enthusiastically, sir.
+DEDEDE (smug): Then it's time. The secret move. The one I've practiced in front of the mirror.
+WADDLE_DEE (scared): Sir, not the Belly Flop. The ring is very old.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC tense
+SCENE mt_dedede
+CARD Round two...
+PLACE dedede center left smug
+PLACE kirby midright left nervous
+DEDEDE (smug): Ha! Now for my secret move! The one I've been practicing! The Royal Belly Flop!
+KIRBY (nervous): Poyo?
+NARRATOR: Dedede climbed the corner post. He spread his arms wide. He jumped. And he came down like a giant blue cannonball.
+SFX thud
+SHAKE 1.0
+KIRBY (surprised): POYO!
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC action
+SCENE mt_dedede
+PLACE dedede center left surprised
+PLACE waddle_dee midright left scared
+SFX thud
+SHAKE 1.0
+NARRATOR: The Royal Belly Flop hit the ring so hard the whole mountain shook. The ring cracked. And the giant stone face of King Dedede, carved into the side of the mountain, began to crumble.
+WADDLE_DEE (scared): Your Majesty! Your face is falling off the mountain!
+DEDEDE (surprised): My FACE?!
+SFX blast
+NARRATOR: A huge boulder broke loose. The royal nose. And it was rolling straight toward the crowd of Waddle Dees.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC action 2
+SCENE mt_dedede
+PLACE kirby center right angry
+PLACE dedede midleft right scared
+KIRBY (angry): POYO!
+SFX whoosh
+NARRATOR: Kirby jumped out of the ring. He landed in front of the rolling stone nose. He opened his mouth wider than anyone had ever seen. And he inhaled.
+DEDEDE (scared): Kirby! It's too big!
+NARRATOR: The giant stone nose slowed down. It wobbled. And then, with a loud gulp, it disappeared into Kirby's mouth.
+SFX chomp
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC happy
+SCENE mt_dedede
+PLACE kirby center right surprised
+PLACE waddle_dee midleft right excited
+NARRATOR: Kirby had swallowed a nose. Kirby was now a pink ball with a big stone nose shape on his face. He gained the Stone ability. He turned into a rock. He sat very still.
+WADDLE_DEE (excited): Kirby saved us! Kirby saved all of us!
+KIRBY (surprised): ...Poyo.
+NARRATOR: The crowd cheered. Popcorn flew everywhere. Somebody started a chant.
+WADDLE_DEE (excited): KIR-BY! KIR-BY!
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC sad
+SCENE mt_dedede
+PLACE dedede center left sad
+PLACE kirby midright left happy
+DEDEDE (sad): I lost. Again. And my mountain doesn't have a nose anymore.
+KIRBY (happy): Poyo.
+DEDEDE (surprised): What are you doing?
+NARRATOR: Kirby spat out the stone nose. Carefully. Right back onto the mountain. It landed a little crooked.
+DEDEDE (surprised): ...My nose! You gave back my nose!
+KIRBY (smug): Poyo.
+
+# ------------------------------------------------------------ MT. DEDEDE
+MUSIC romantic
+SCENE mt_dedede
+CARD Sunset...
+PLACE dedede center left happy
+PLACE kirby midright left happy
+DEDEDE (happy): Kirby. You won the match. Fair and square. Mostly.
+KIRBY (happy): Poyo!
+DEDEDE (smug): But next time, I'll beat you! I'll train even harder! I'll watch Waddle Dee do even MORE push-ups!
+KIRBY (excited): Poyo poyo!
+NARRATOR: And from that day on, the face on Mt. DeDeDe had a slightly crooked nose. The king said it made him look distinguished.
+END

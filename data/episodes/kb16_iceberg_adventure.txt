@@ -1,0 +1,152 @@
+@title Iceberg Adventure
+@series Kirby
+@season 2
+@icon warpstar
+@number 6
+@description Kirby and Bandana Dee go ice skating on a giant iceberg. While they're skating, the iceberg breaks off and starts floating out to sea. They have no boat, no food and no map. Kine is on vacation. Coo is busy. And the iceberg is slowly melting.
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC happy
+SCENE iceberg cut
+TITLE
+PLACE bandana_dee center left excited
+PLACE kirby midright left happy
+NARRATOR: On the coldest day of the year, Kirby and Bandana Dee went ice skating on the giant iceberg near the shore. It was smooth, shiny and perfect for spinning.
+BANDANA_DEE (excited): Kirby! Watch this! A triple spin!
+SFX whoosh
+BANDANA_DEE (happy): Did you see it? Did you see it?
+KIRBY (excited): Poyo poyo!
+NARRATOR: Kirby tried a triple spin too. He did seven. Then he rolled across the whole iceberg like a bowling ball.
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC jazz
+SCENE iceberg
+PLACE kirby center right happy
+PLACE bandana_dee midleft right happy
+NARRATOR: They skated for hours. They made snow angels. They built a little ice fort next to the igloo. They had so much fun that they didn't notice a loud crack. Or a long, slow creak. Or the shore getting smaller.
+BANDANA_DEE (happy): Kirby, this is the best day! Let's stay here forever!
+KIRBY (happy): Poyo!
+NARRATOR: They were about to get their wish.
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC tense
+SCENE iceberg
+PLACE bandana_dee center left surprised
+PLACE kirby midright left surprised
+SFX splash
+BANDANA_DEE (surprised): Kirby... where's the shore?
+KIRBY (surprised): Poyo?
+NARRATOR: The shore was very, very far away. Just a thin green line. The iceberg had broken off and was floating out to sea.
+BANDANA_DEE (scared): We're drifting! We're on a floating iceberg! In the middle of the ocean!
+KIRBY (scared): POYO!
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC jazz 2
+SCENE dedede_castle
+PLACE dedede center left smug
+PLACE waddle_dee midright left nervous
+WADDLE_DEE (nervous): Your Majesty! Kirby and Bandana Dee are floating out to sea! On the iceberg!
+DEDEDE (smug): Ha! Good riddance! Now nobody will steal my cake!
+WADDLE_DEE (sad): Sir... Bandana Dee is one of us. He's a Waddle Dee.
+DEDEDE (surprised): ...My Bandana Dee? My best spear-holder?
+WADDLE_DEE (nervous): Yes, sir.
+DEDEDE (angry): Then get the ROYAL BOAT! Nobody takes my Bandana Dee!
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC sad
+SCENE iceberg
+CARD Hours later...
+PLACE bandana_dee center left sad
+PLACE kirby midright left nervous
+NARRATOR: The sun was going down. The iceberg was getting smaller. A little bit melted every hour. Bandana Dee sat in the igloo, holding his spear.
+BANDANA_DEE (sad): Kirby. What if nobody comes? What if the iceberg melts all the way?
+KIRBY (nervous): Poyo...
+BANDANA_DEE (sad): I didn't even get to say goodbye to the King. He's grumpy, but he's my King.
+KIRBY (happy): Poyo poyo.
+NARRATOR: Kirby gave him a hug. A cold, pink, round hug. It helped a little.
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC sneaky
+SCENE iceberg
+PLACE kirby center right excited
+PLACE bandana_dee midleft right surprised
+SFX sparkle
+NARRATOR: Then Kirby had an idea. He took a deep breath. He inhaled a big chunk of ice from the iceberg. And when he puffed back out, he had a frosty blue hat.
+KIRBY (excited): Poyo!
+BANDANA_DEE (surprised): The Ice ability! What are you going to do?
+SFX powerup
+NARRATOR: Kirby breathed out a cold, cold wind. Everywhere it touched, the melting edges of the iceberg froze solid again.
+BANDANA_DEE (excited): You're fixing the iceberg!
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC action
+SCENE iceberg
+PLACE bandana_dee center left excited
+PLACE kirby midright left happy
+NARRATOR: All night, Kirby blew ice. He froze the cracks. He froze the edges. He made the iceberg bigger and bigger. Bandana Dee kept watch with his spear.
+BANDANA_DEE (excited): Kirby! A shape! On the water! Something's coming!
+KIRBY (surprised): Poyo?
+NARRATOR: It was a fin. A big green fin. Swimming very fast.
+BANDANA_DEE (excited): It's Kine!
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC happy
+SCENE iceberg
+PLACE kine center left excited
+PLACE bandana_dee midright left happy
+PLACE kirby midleft right neutral
+KINE (excited): Little dudes! I heard you were lost at sea! I swam all night!
+BANDANA_DEE (happy): Kine! You came back from your vacation?
+KINE (smug): Dude, my best buds were floating away on an ice cube. I can relax later.
+KIRBY (excited): Poyo poyo!
+KINE (happy): Hop on my back! I'll swim you home!
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC tense
+SCENE iceberg
+PLACE kine center left nervous
+PLACE bandana_dee midright left nervous
+PLACE kirby midleft right neutral
+NARRATOR: But there was a problem. Kine could carry one passenger at a time. And the shore was very, very far away.
+KINE (nervous): Okay. I can take one of you. Then come back for the other. That's a whole day of swimming, dudes.
+BANDANA_DEE (nervous): Take Kirby first. I'll wait. I'm a Waddle Dee. We're good at waiting.
+KIRBY (angry): Poyo!
+NARRATOR: Kirby shook his head. Kirby was not going to leave his friend alone on an iceberg.
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC action 2
+SCENE iceberg
+PLACE dedede center left excited
+PLACE waddle_dee midright left excited
+SFX fanfare
+NARRATOR: And then, from the other direction, came a sound. A horn. A very loud, very royal horn. A big blue boat with a golden crown on the front was speeding across the waves.
+DEDEDE (excited): STAND BACK! THE ROYAL BOAT IS HERE!
+WADDLE_DEE (excited): We found them, Your Majesty!
+DEDEDE (smug): Of course we found them! I'm the King! I find everything!
+
+# ------------------------------------------------------------ ICEBERG
+MUSIC happy 2
+SCENE iceberg
+PLACE dedede center left happy
+PLACE bandana_dee midright left surprised
+PLACE kine midleft right neutral
+BANDANA_DEE (surprised): Your Majesty! You came for me?
+DEDEDE (nervous): Well, I, uh... I needed my best spear-holder back. That's all. Very practical.
+BANDANA_DEE (happy): You were worried!
+DEDEDE (angry): I was NOT worried! Get in the boat! Both of you! And the fish!
+KINE (smug): Thanks, King. I'll swim alongside.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC romantic
+SCENE dedede_castle
+CARD That night...
+PLACE dedede center left happy
+PLACE bandana_dee midright left happy
+PLACE kirby midleft right neutral
+NARRATOR: That night, back at the castle, there was hot cocoa for everyone. Bandana Dee wrapped himself in three blankets. Kirby wrapped himself in five.
+BANDANA_DEE (happy): Thank you for coming to get me, Your Majesty.
+DEDEDE (shy): ...Don't tell the other Waddle Dees I was worried.
+BANDANA_DEE (smug): You just said you were worried.
+DEDEDE (angry): I said DON'T TELL ANYONE!
+KIRBY (happy): Poyo!
+END

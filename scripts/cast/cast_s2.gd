@@ -29,6 +29,11 @@ static func draw(p: Puppet, style: String) -> bool:
 		"crocomire": _crocomire(p)
 		"draygon": _draygon(p)
 		"torizo": _torizo(p)
+		# Kirby
+		"rick": _rick(p)
+		"kine": _kine(p)
+		"coo": _coo(p)
+		"gooey": _gooey(p)
 		_: return false
 	return true
 
@@ -214,10 +219,25 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "skin": Color("8a5a3a"), "top": Color("5a7a9a"), "sleeves": "long", "bottom_col": Color("4a5a6a"),
 				"shoe": Color("2b2b33"), "hair": "none", "torso_w": 40.0, "arm_w": 11.0, "leg_w": 17.0, "head": Vector2(36, 38),
 				"torso_extra": _x_armor_plate, "extra": _small_beard}
+		# Kirby
+		"susie_haltmann":
+			return {"size": "adult", "top": Color("f4f4f2"), "sleeves": "long", "bottom": "skirt", "bottom_col": Color("2b2b33"),
+				"legs": Color("2b2b33"), "shoe": Color("2b2b33"), "hair": "bob", "hair_col": Color("f28cb8"), "lashes": 2,
+				"eye_iris": Color("3fae9a"), "base_lid": 0.2, "torso_w": 25.0, "torso_extra": _x_haltmann_jacket, "extra": _x_hair_clip}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_haltmann_jacket(p: Puppet) -> void:
+	for sx in [-1, 1]:
+		Art.shape(p.ci, PackedVector2Array([Vector2(sx * 4, -196), Vector2(sx * 25, -196), Vector2(sx * 25, -110), Vector2(sx * 10, -110)]),
+			Color("2b3a6a"), 2.5)
+	Art.shape(p.ci, Art.rrect(Rect2(-8, -186, 16, 10), 3), Color("e6452f"), 2.0)
+
+
+static func _x_hair_clip(p: Puppet, hc: Vector2) -> void:
+	Art.shape(p.ci, Art.rrect(Rect2(hc + Vector2(14, -34), Vector2(22, 10)), 4), Color("3fae9a"), 2.0)
 
 static func _x_armor_plate(p: Puppet) -> void:
 	Art.shape(p.ci, Art.rrect(Rect2(-40, -196, 80, 60), 10), Color("8a9ab0"), 3.5, 0.12)
@@ -685,4 +705,93 @@ static func _torizo(p: Puppet) -> void:
 	for sx in [-1, 1]:
 		Art.blob(ci, hc + Vector2(sx * 10 + 4, -6), 6, 5, glow, 0.0)
 	p._arm(Vector2(30, -200), 1, raise.y, 58, 12, stone, 12, stone.darkened(0.2))
+
+
+
+
+# --------------------------------------------------------------- Kirby --
+
+static func _rick(p: Puppet) -> void:
+	var ci := p.ci
+	var fur := Color("e8c8a0")
+	var raise := p._arm_raise()
+	# A chubby hamster: round body, white belly, round ears
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.5
+		Art.blob(ci, Vector2(sx * 22 + sw, -10), 18, 10, Color("c8a080"), 3.0)
+	p._arm(Vector2(-40, -70), -1, raise.x, 22, 9, fur, 8, fur)
+	Art.blob(ci, Vector2(0, -60), 54, 52, fur, 4.0, 0.1)
+	Art.blob(ci, Vector2(6, -50), 34, 34, Color("f8f0e0"), 0.0)
+	var hc := Vector2(6, -128)
+	for sx in [-1, 1]:
+		Art.blob(ci, hc + Vector2(sx * 30, -32), 16, 16, fur, 3.0)
+		Art.blob(ci, hc + Vector2(sx * 30, -32), 8, 8, Color("f2a0b0"), 0.0)
+	Art.blob(ci, hc, 46, 40, fur, 4.0, 0.1)
+	for sx in [-1, 1]:
+		p._eye(hc + Vector2(sx * 16, -6), 7, 10, 0, Color(0, 0, 0, 0), sx, 0.0, fur, Color("1d1d22"))
+		Art.blob(ci, hc + Vector2(sx * 30, 12), 8, 5, Color("f2a0b0"), 0.0)
+	Art.dot(ci, hc + Vector2(0, 8), 4, Color("c86a6a"))
+	p._mouth(hc + Vector2(0, 18), 16, 0)
+	p._arm(Vector2(46, -70), 1, raise.y, 22, 9, fur, 8, fur)
+
+
+static func _kine(p: Puppet) -> void:
+	var ci := p.ci
+	var body := Color("6ab8a0")
+	var bob := sin(p._t * 2.5) * 6.0
+	var c := Vector2(0, -110 + bob)
+	# A sunfish standing on his tail: big round body, orange lips, fins
+	Art.shape(ci, PackedVector2Array([c + Vector2(-20, 50), c + Vector2(20, 50), c + Vector2(30, 100 - bob), c + Vector2(-30, 100 - bob)]),
+		body.darkened(0.15), 3.0)
+	Art.shape(ci, PackedVector2Array([c + Vector2(-10, -60), c + Vector2(0, -110), c + Vector2(16, -60)]), body.darkened(0.1), 3.0)
+	Art.blob(ci, c, 64, 70, body, 4.0, 0.12)
+	Art.blob(ci, c + Vector2(10, 18), 40, 34, Color("e8f0d0"), 0.0)
+	for sx in [-1, 1]:
+		var fin := c + Vector2(sx * 60, 10)
+		Art.shape(ci, PackedVector2Array([fin, fin + Vector2(sx * 26, -16 - p._arm_raise().x * 12), fin + Vector2(sx * 22, 20)]), body.lightened(0.15), 3.0)
+	for sx in [-1, 1]:
+		p._eye(c + Vector2(sx * 22 + 10, -20), 9, 13, 0, Color(0, 0, 0, 0), sx, 0.0, body, Color("1d1d22"))
+	Art.blob(ci, c + Vector2(40, 22), 16, 12, Color("f2852a"), 3.0)
+	if p._talk_open > 0.1:
+		Art.blob(ci, c + Vector2(42, 22), 6, 4 * p._talk_open + 1, Color(0.36, 0.04, 0.1), 0.0)
+
+
+static func _coo(p: Puppet) -> void:
+	var ci := p.ci
+	var feathers := Color("8a5a9a")
+	var raise := p._arm_raise()
+	var flap := sin(p._t * 6.0) * 0.2
+	# A purple owl: big round body, yellow beak and feet, wide wings
+	for sx in [-1, 1]:
+		var base := Vector2(sx * 40, -100)
+		var wing := PackedVector2Array([base, base + Vector2(sx * 60, -30 - (raise.x if sx < 0 else raise.y) * 30).rotated(flap * sx),
+			base + Vector2(sx * 50, 30), base + Vector2(sx * 10, 40)])
+		Art.shape(ci, wing, feathers.darkened(0.12), 3.5)
+	for sx in [-1, 1]:
+		var sw := p._leg_swing(sx) * 0.4
+		Art.shape(ci, PackedVector2Array([Vector2(sx * 16 + sw - 12, -10), Vector2(sx * 16 + sw + 12, -10), Vector2(sx * 16 + sw, -28)]), Color("f2c14e"), 2.5)
+	Art.blob(ci, Vector2(0, -90), 54, 70, feathers, 4.0, 0.12)
+	Art.blob(ci, Vector2(0, -70), 34, 40, Color("e8d8f0"), 0.0)
+	var hc := Vector2(0, -130)
+	for sx in [-1, 1]:
+		Art.shape(ci, PackedVector2Array([hc + Vector2(sx * 20, -30), hc + Vector2(sx * 40, -66), hc + Vector2(sx * 44, -24)]), feathers, 3.0)
+		Art.blob(ci, hc + Vector2(sx * 20, -4), 18, 18, Color.WHITE, 2.5)
+		p._eye(hc + Vector2(sx * 20, -4), 9, 11, 0, Color(0, 0, 0, 0), sx, 0.1, Color.WHITE, Color("f6e05a"))
+	Art.shape(ci, PackedVector2Array([hc + Vector2(-8, 12), hc + Vector2(8, 12), hc + Vector2(0, 30)]), Color("f2c14e"), 2.5)
+
+
+static func _gooey(p: Puppet) -> void:
+	var ci := p.ci
+	var blue := Color("3d6fd0")
+	var squish := 1.0 + sin(p._t * 3.0) * 0.04
+	var c := Vector2(0, -56)
+	# A wobbly blue blob with a long tongue that is always sticking out
+	Art.shape(ci, Art.ellipse(c, 60 * squish, 54 / squish, 36), blue, 4.0, 0.12)
+	for sx in [-1, 1]:
+		Art.blob(ci, Vector2(sx * 30, -8), 18, 9, blue.darkened(0.15), 2.5)
+		p._eye(c + Vector2(sx * 18, -12), 9, 12, 0, Color(0, 0, 0, 0), sx, 0.0, blue, Color("1d1d22"))
+	var tongue := PackedVector2Array([c + Vector2(-8, 18), c + Vector2(8, 18), c + Vector2(12, 46 + p._talk_open * 8), c + Vector2(0, 54 + p._talk_open * 8),
+		c + Vector2(-12, 46 + p._talk_open * 8)])
+	Art.shape(ci, Art.smooth(tongue, 3), Color("e6609a"), 2.5)
+	Art.stroke(ci, Art.curve(c + Vector2(-20, 16), c + Vector2(0, 26), c + Vector2(20, 16), 8), 3.0)
 

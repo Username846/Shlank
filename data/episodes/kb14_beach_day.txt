@@ -1,0 +1,160 @@
+@title Beach Day on Float Islands
+@series Kirby
+@season 2
+@icon warpstar
+@number 4
+@description Kine invites everybody to Float Islands for a beach day. There's swimming, a sandcastle contest and a volleyball game. Meta Knight refuses to take off his armor. Dedede refuses to share his umbrella. And a big wave is coming.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC happy
+SCENE float_islands cut
+TITLE
+PLACE kine center left excited
+PLACE kirby midright left happy
+NARRATOR: The sun was shining on Float Islands. The water sparkled. The sand was warm. And Kine had invited everybody in Dream Land.
+KINE (excited): Welcome to my beach, dudes! Swimming! Sandcastles! Volleyball! Total relaxation!
+KIRBY (happy): Poyo!
+KINE (smug): Little dude, you're gonna love the water. It's like a big bath. That never ends.
+KIRBY (excited): Poyo poyo!
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC jazz
+SCENE float_islands
+PLACE dedede center left smug
+PLACE waddle_dee midright left nervous
+DEDEDE (smug): Waddle Dee! Set up the royal umbrella! The royal chair! The royal snack table!
+WADDLE_DEE (nervous): Yes, sir. Where, sir?
+DEDEDE (smug): In the best spot. The middle of the beach. Where everybody can see me relaxing.
+WADDLE_DEE (nervous): Sir, that's right where the volleyball net goes.
+DEDEDE (happy): Then the volleyball net can go somewhere less important!
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC jazz 2
+SCENE float_islands
+PLACE meta_knight center left smug
+PLACE bandana_dee midright left surprised
+BANDANA_DEE (surprised): Meta Knight! Aren't you hot? In all that armor?
+META_KNIGHT (smug): A true knight is always prepared. Even at the beach.
+BANDANA_DEE (nervous): You're sweating. I can see it dripping out of your mask.
+META_KNIGHT (nervous): ...That is sea spray.
+BANDANA_DEE (smug): We're fifty feet from the water.
+META_KNIGHT (angry): ...It is very windy spray.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC happy 2
+SCENE float_islands
+CARD The sandcastle contest...
+PLACE adeleine center left excited
+PLACE ribbon midright left happy
+NARRATOR: The sandcastle contest began. Adeleine painted a picture of a castle first, to plan it. Ribbon added tiny seashell windows. Gooey ate three buckets of sand by accident.
+ADELEINE (excited): Ribbon, look! Our castle has towers! And a moat! And a little drawbridge!
+RIBBON (happy): And a flag! Made of a leaf!
+ADELEINE (smug): It's going to win. I can feel it.
+RIBBON (nervous): Adeleine... look at Kirby's sandcastle.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC jazz
+SCENE float_islands
+PLACE kirby center right excited
+PLACE adeleine midleft right surprised
+NARRATOR: Kirby had inhaled a whole sand dune and spat it out in one big lump. Then he poked two holes in it with his finger. Then he put a strawberry on top.
+KIRBY (excited): Poyo!
+ADELEINE (surprised): ...Kirby, what is it?
+KIRBY (smug): Poyo poyo.
+ADELEINE (happy): ...A sand Kirby. With a strawberry hat. You know what? It's perfect.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC action
+SCENE float_islands
+CARD Volleyball...
+PLACE kine center left excited
+PLACE rick midright left excited
+SFX boing
+NARRATOR: The volleyball game was Team Kine against Team Rick. The net was set up next to Dedede's umbrella. Very, very close to Dedede's umbrella.
+KINE (excited): Spike it, little dude!
+SFX boing
+RICK (excited): Got it! Nice return!
+SFX thud
+NARRATOR: The ball hit Dedede's umbrella. The umbrella flew away. Dedede's snack table fell over.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC jazz 2
+SCENE float_islands
+PLACE dedede center left angry
+PLACE kine midright left nervous
+DEDEDE (angry): My umbrella! My snacks! My royal relaxation!
+KINE (nervous): Sorry, King. The ball got away from us.
+DEDEDE (angry): Then you'll have to let me play! On YOUR team! I'm an excellent volleyball player!
+KINE (surprised): ...You are?
+DEDEDE (smug): I've never played. But I'm sure I'm excellent.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC happy 2
+SCENE float_islands
+PLACE dedede center left excited
+PLACE kirby midright left surprised
+NARRATOR: King Dedede joined Team Kine. He was terrible at volleyball. He hit the ball with his hammer. The ball went into space. Then it came back down and bounced off his head.
+DEDEDE (excited): Point for the King!
+KIRBY (surprised): Poyo?
+DEDEDE (smug): It touched my head! That counts as a header! Very skillful!
+NARRATOR: It did not count. But nobody wanted to tell him.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC tense
+SCENE float_islands
+PLACE coo center left nervous
+PLACE kine midright left nervous
+NARRATOR: Up in the sky, Coo was keeping watch. And what Coo saw made his feathers stand straight up.
+COO (nervous): Hoo! Hoo! Everybody! A big wave! A very big wave! Coming right toward the beach!
+KINE (nervous): How big, Coo?
+COO (scared): As big as Castle Dedede! Hoo!
+KINE (scared): That's a really big wave, dude.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC action 2
+SCENE float_islands
+PLACE kirby center right scared
+PLACE adeleine midleft right scared
+SFX splash
+SHAKE 0.8
+NARRATOR: Everybody ran up the beach. The wave crashed down on the sand. It washed away the volleyball net. It washed away the snacks. And it washed toward the sandcastles.
+ADELEINE (scared): Our castles!
+KIRBY (scared): POYO!
+NARRATOR: Every sandcastle on the beach was flattened. Except one. A big lump of sand with a strawberry on top.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC happy
+SCENE float_islands
+PLACE adeleine center left surprised
+PLACE kirby midright left happy
+PLACE ribbon midleft right neutral
+ADELEINE (surprised): Kirby's sandcastle survived!
+KIRBY (happy): Poyo!
+RIBBON (surprised): Because it's just one big lump! No towers to fall over!
+ADELEINE (smug): Sometimes simple is best.
+NARRATOR: And the strawberry on top had not even moved.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC jazz
+SCENE float_islands
+PLACE meta_knight center left nervous
+PLACE bandana_dee midright left happy
+NARRATOR: And then everyone noticed something. Meta Knight was soaked. Completely. From his mask to his boots.
+META_KNIGHT (nervous): ...The wave got me.
+BANDANA_DEE (happy): You're all wet! In your armor!
+META_KNIGHT (sad): It is very heavy now. And very squishy.
+BANDANA_DEE (smug): Maybe take it off? Just for the beach?
+META_KNIGHT (shy): ...Just the cape.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC romantic
+SCENE float_islands
+CARD Sunset...
+PLACE kine center left happy
+PLACE kirby midright left happy
+NARRATOR: As the sun went down, everyone sat on the beach together. Kirby's sandcastle won the contest. Dedede's umbrella was found floating far out at sea, with a seagull sitting on it.
+KINE (happy): Best beach day ever, little dude.
+KIRBY (happy): Poyo!
+KINE (smug): Next week, we go snorkeling.
+KIRBY (excited): Poyo poyo!
+END

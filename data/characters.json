@@ -4054,6 +4054,110 @@
 			"Whispee Woods"
 		]
 	},
+	"rick": {
+		"name": "Rick",
+		"style": "rick",
+		"color": "#e8c8a0",
+		"width": 64,
+		"bio": "A big, friendly hamster from Grass Land. Fast on his feet, and Kirby's favorite ride.",
+		"catchphrase": "Hop on, Kirby!",
+		"voice": {
+			"pitch": 1.2,
+			"rate": 1.1,
+			"babble": 360,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Kirby",
+		"home": "peanut_plains"
+	},
+	"kine": {
+		"name": "Kine",
+		"style": "kine",
+		"color": "#6ab8a0",
+		"width": 64,
+		"bio": "A sunfish who loves swimming, but can also flop around on land when he has to. Very laid back.",
+		"catchphrase": "Just keep floatin'.",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 0.95,
+			"babble": 340,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Kirby",
+		"home": "float_islands"
+	},
+	"coo": {
+		"name": "Coo",
+		"style": "coo",
+		"color": "#8a5a9a",
+		"width": 64,
+		"bio": "A wise purple owl who can fly Kirby anywhere. Likes to give advice. Doesn't like being called a bird.",
+		"catchphrase": "Hoo, hoo. Listen closely.",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.0,
+			"babble": 310,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Kirby",
+		"home": "raisin_ruins"
+	},
+	"gooey": {
+		"name": "Gooey",
+		"style": "gooey",
+		"color": "#3d6fd0",
+		"width": 56,
+		"bio": "A blue blob with a long tongue. Nobody knows exactly what he is. Gooey doesn't know either. He's very happy about it.",
+		"catchphrase": "Gooey goo!",
+		"voice": {
+			"pitch": 1.6,
+			"rate": 1.2,
+			"babble": 440,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Kirby",
+		"home": "kirby_house"
+	},
+	"susie_haltmann": {
+		"name": "Susie",
+		"style": "susie_haltmann",
+		"color": "#f28cb8",
+		"width": 58,
+		"bio": "The very organized secretary of the Haltmann Works Company. Thinks Planet Popstar could use more efficiency.",
+		"catchphrase": "That's simply inefficient.",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.15,
+			"babble": 340,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		},
+		"show": "Kirby",
+		"home": "halcandra"
+	},
 	"narrator": {
 		"name": "Narrator",
 		"style": "none",

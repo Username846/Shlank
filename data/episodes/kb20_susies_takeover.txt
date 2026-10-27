@@ -1,0 +1,160 @@
+@title Susie's Takeover
+@series Kirby
+@season 2
+@icon warpstar
+@number 10
+@description A giant robot company called Haltmann Works lands on Planet Popstar, and its secretary, Susie, announces that Dream Land is "inefficient." She wants to replace the trees with factories and the naps with meetings. Kirby is against meetings. Everybody joins together to show Susie that some things are perfect just the way they are.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC tense
+SCENE green_greens cut
+TITLE
+PLACE kirby center right surprised
+PLACE waddle_dee midleft right scared
+SFX blast
+SHAKE 1.0
+NARRATOR: One morning, the sky over Dream Land went dark. A gigantic metal ship lowered itself onto the hills of Green Greens. On its side, in big letters, it said: HALTMANN WORKS COMPANY.
+WADDLE_DEE (scared): Kirby! What is that?!
+KIRBY (surprised): Poyo?!
+NARRATOR: A door opened. A ramp came down. And out walked a young woman with pink hair, a clipboard and a very serious expression.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC sneaky
+SCENE green_greens
+PLACE susie_haltmann center left smug
+PLACE kirby midright left surprised
+SUSIE_HALTMANN (smug): Greetings, citizens of Planet Popstar. I am Susie, Executive Secretary of the Haltmann Works Company.
+KIRBY (surprised): Poyo?
+SUSIE_HALTMANN (smug): We have studied your planet. It is lovely. And extremely inefficient.
+KIRBY (nervous): Poyo poyo?
+SUSIE_HALTMANN (happy): Too many trees. Too many naps. Not nearly enough meetings. We are here to improve everything.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC jazz
+SCENE dedede_castle
+PLACE dedede center left angry
+PLACE susie_haltmann midright left smug
+DEDEDE (angry): Improve? IMPROVE? This is MY kingdom! It's already perfect!
+SUSIE_HALTMANN (smug): Your Majesty, you eat cake for breakfast, lunch and dinner. That is not efficient.
+DEDEDE (surprised): ...It's very efficient. I never have to decide what to eat.
+SUSIE_HALTMANN (smug): We'll replace the cake with nutrient bars. Gray ones. They taste like cardboard.
+DEDEDE (scared): CARDBOARD?!
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC sad
+SCENE whispy_forest
+PLACE whispy_woods center left sad
+PLACE kirby midright left sad
+NARRATOR: Susie's robots marched into Whispy's Forest with measuring tapes and big gray plans. They were going to build a factory. Right where Whispy Woods stood.
+WHISPY_WOODS (sad): Kirby. They want to replace me with a smokestack. I've been here for five hundred years.
+KIRBY (sad): Poyo...
+WHISPY_WOODS (sad): They said I'm "not productive." I make apples. And shade. And birds live in me.
+KIRBY (angry): POYO!
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC tense
+SCENE kirby_house
+CARD That night...
+PLACE kirby center right angry
+PLACE meta_knight midleft right smug
+PLACE magolor midright left nervous
+META_KNIGHT (smug): Kirby. I have gathered everyone. We cannot fight a whole robot company. But we can show Susie what she would be destroying.
+MAGOLOR (nervous): I know Susie's company. They're from far away. I don't think they've ever seen a place like Dream Land before.
+KIRBY (angry): Poyo!
+META_KNIGHT (happy): Then tomorrow, we show her. All of it.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy
+SCENE green_greens
+CARD The next morning...
+PLACE susie_haltmann center left surprised
+PLACE rick midright left excited
+NARRATOR: The next morning, when Susie walked out of her ship, a big round hamster was waiting for her.
+RICK (excited): Hop on! We're taking you on a tour! The fastest tour in Dream Land!
+SUSIE_HALTMANN (surprised): A tour? I don't have time for a tour. I have seventeen meetings.
+RICK (smug): The tour IS the meeting. Hop on!
+SUSIE_HALTMANN (nervous): ...This is highly irregular.
+SFX whoosh
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC jazz 2
+SCENE peanut_plains
+PLACE susie_haltmann center left surprised
+PLACE coo midright left smug
+NARRATOR: Rick ran her across Peanut Plains. The grass was green. The wind was warm. Coo flew alongside them.
+COO (smug): Hoo, hoo. Take a deep breath, Miss Susie. What do you smell?
+SUSIE_HALTMANN (surprised): ...Flowers. And grass. And something baking.
+COO (happy): Waddle Dee Town. Three bakeries. Free Cake Day is Friday.
+SUSIE_HALTMANN (nervous): That's... extremely inefficient. And it smells wonderful.
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC happy 2
+SCENE float_islands
+PLACE susie_haltmann center left nervous
+PLACE kine midright left happy
+NARRATOR: At Float Islands, Kine taught her to float on her back in the warm water. Susie had never floated before. She held her clipboard above her head the whole time.
+KINE (happy): Just relax, dude. Let the water hold you up.
+SUSIE_HALTMANN (nervous): I am relaxing. Very efficiently.
+KINE (smug): You're holding a clipboard in the ocean.
+SUSIE_HALTMANN (shy): ...It's a waterproof clipboard.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC romantic
+SCENE moonlight_mansion
+CARD Evening...
+PLACE susie_haltmann center left surprised
+PLACE adeleine midright left happy
+NARRATOR: At Moonlight Mansion, Adeleine showed her the twelve portraits of the ghost family. Then Adeleine painted one more. A portrait of Susie. Smiling. On a hamster.
+ADELEINE (happy): For you. To remember Dream Land.
+SUSIE_HALTMANN (surprised): ...I'm smiling. In the picture.
+ADELEINE (smug): You were smiling on the hamster. I saw it.
+SUSIE_HALTMANN (shy): ...Nobody has ever painted me before.
+
+# ------------------------------------------------------------ WHISPY'S FOREST
+MUSIC sad
+SCENE whispy_forest
+PLACE susie_haltmann center left sad
+PLACE kirby midright left happy
+PLACE whispy_woods midleft right neutral
+NARRATOR: Last, Kirby took her to Whispy's Forest. The sun was setting through the leaves. Birds were singing in Whispy's branches. An apple fell, and Kirby caught it, and gave it to Susie.
+KIRBY (happy): Poyo.
+SUSIE_HALTMANN (sad): ...This is where we were going to build the factory.
+WHISPY_WOODS (nervous): Is it still?
+SUSIE_HALTMANN (sad): I've been to a hundred planets. They were all gray. All factories. All meetings. I didn't know places like this still existed.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy
+SCENE green_greens
+PLACE susie_haltmann center left happy
+PLACE dedede midright left nervous
+NARRATOR: The next morning, Susie stood on the ramp of the giant ship. Everyone in Dream Land had gathered to hear what she would say.
+SUSIE_HALTMANN (happy): Citizens of Planet Popstar. I have completed my evaluation. Your planet is extremely inefficient.
+DEDEDE (nervous): ...And?
+SUSIE_HALTMANN (smug): And it is the most wonderful place I have ever seen. Haltmann Works will not be changing a single tree.
+DEDEDE (excited): AND THE CAKE?!
+SUSIE_HALTMANN (happy): The cake stays, Your Majesty.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC happy 2
+SCENE green_greens
+PLACE kirby center right excited
+PLACE susie_haltmann midleft right happy
+SFX fanfare
+NARRATOR: Dream Land cheered. The Waddle Dees threw their hats. Whispy Woods dropped apples for everyone. Gooey licked the giant ship. Nobody stopped him.
+KIRBY (excited): POYO!
+SUSIE_HALTMANN (happy): And Kirby. I have one more announcement. I'm taking a vacation. Here. For one month. No meetings.
+KIRBY (excited): Poyo poyo!
+SUSIE_HALTMANN (shy): ...Maybe two months.
+
+# ------------------------------------------------------------ GREEN GREENS
+MUSIC romantic 2
+SCENE green_greens
+CARD Sunset...
+PLACE kirby center right happy
+PLACE susie_haltmann midleft right happy
+NARRATOR: That evening, everyone had a picnic on Green Greens. Kirby, Dedede, Meta Knight, the Waddle Dees, Rick, Kine, Coo, Gooey, Adeleine, Ribbon, Magolor, Marx, Whispy Woods and one secretary with pink hair who had finally put down her clipboard.
+SUSIE_HALTMANN (happy): Kirby. What do you call this? This feeling? Everyone together, doing nothing important?
+KIRBY (happy): Poyo.
+SUSIE_HALTMANN (smug): ...Poyo. I'll write that down.
+NARRATOR: And as the stars came out over Dream Land, Kirby fell asleep in the grass. Very, very efficiently.
+END

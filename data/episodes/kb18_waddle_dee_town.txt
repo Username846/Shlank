@@ -1,0 +1,145 @@
+@title Waddle Dee Town
+@series Kirby
+@season 2
+@icon warpstar
+@number 8
+@description The Waddle Dees have built their very own town, with houses, a bakery and a town square. Now they need a mayor. King Dedede says it should obviously be him. The Waddle Dees decide to hold an election. Bandana Dee is nominated. He is very nervous.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC happy
+SCENE waddle_dee_town cut
+TITLE
+PLACE waddle_dee center left excited
+PLACE bandana_dee midright left happy
+NARRATOR: For one whole year, on their days off, the Waddle Dees had been building something. Brick by brick. Board by board. And today, it was finished. A whole town. Just for Waddle Dees.
+WADDLE_DEE (excited): We did it! Waddle Dee Town! Our very own houses! Our very own bakery!
+BANDANA_DEE (happy): And a town square! With a fountain shaped like a Waddle Dee!
+WADDLE_DEE (smug): Every town needs a fountain shaped like its citizens.
+BANDANA_DEE (excited): It's perfect!
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC jazz
+SCENE waddle_dee_town
+PLACE kirby center right excited
+PLACE waddle_dee midleft right happy
+KIRBY (excited): Poyo!
+WADDLE_DEE (happy): Kirby! Welcome to Waddle Dee Town! Want a tour?
+KIRBY (happy): Poyo poyo!
+WADDLE_DEE (smug): This is the bakery. This is the library. This is the other bakery. And this is the third bakery.
+KIRBY (excited): POYO!
+NARRATOR: Kirby had never loved a town so much in his entire life.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC sneaky
+SCENE dedede_castle
+PLACE dedede center left angry
+PLACE waddle_doo midright left nervous
+DEDEDE (angry): A town? The Waddle Dees built a TOWN? Without asking the King?
+WADDLE_DOO (nervous): They built it on their days off, sir. With their own bricks.
+DEDEDE (smug): Well, every town needs a mayor. And who better to be mayor than the KING?
+WADDLE_DOO (nervous): Sir, they're having an election. Tomorrow.
+DEDEDE (surprised): An ELECTION? Like, with voting?
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC jazz 2
+SCENE waddle_dee_town
+PLACE waddle_dee center left excited
+PLACE bandana_dee midright left surprised
+WADDLE_DEE (excited): Bandana Dee! We want YOU to run for mayor!
+BANDANA_DEE (surprised): Me? Mayor?
+WADDLE_DEE (happy): You're the bravest Waddle Dee! You have a spear! And a bandana! You're basically famous!
+BANDANA_DEE (nervous): But I've never been in charge of anything. I just hold the King's spear.
+WADDLE_DEE (smug): Exactly. You know what NOT to do. You've watched the King for years.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC action
+SCENE waddle_dee_town
+CARD The campaign...
+PLACE dedede center left excited
+PLACE waddle_dee midright left nervous
+SFX fanfare
+NARRATOR: The next morning, King Dedede arrived in Waddle Dee Town with a giant banner, a marching band and a very big hat that said "VOTE KING."
+DEDEDE (excited): Citizens! Vote for me! I promise free cake for the King! Every day! Forever!
+WADDLE_DEE (nervous): Sir, what about free cake for us?
+DEDEDE (surprised): ...You want cake TOO?
+WADDLE_DEE (sad): ...That's a no, then.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC sad
+SCENE waddle_dee_town
+PLACE bandana_dee center left sad
+PLACE kirby midright left happy
+BANDANA_DEE (sad): Kirby. The King has a banner and a band and a giant hat. I just have a spear.
+KIRBY (happy): Poyo.
+BANDANA_DEE (sad): What do I even say in a speech? I've never given a speech.
+KIRBY (smug): Poyo poyo.
+NARRATOR: Kirby pointed at the town. At the bakeries. At the fountain. At all the little round houses.
+BANDANA_DEE (surprised): ...Talk about the town?
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC tense
+SCENE waddle_dee_town
+CARD The speeches...
+PLACE dedede center left smug
+SFX drumroll
+DEDEDE (smug): Citizens! I am the King! I have been King for twenty-one years! I have a castle! I have a hammer! I have the best hat!
+NARRATOR: The Waddle Dees clapped politely. Very politely. The kind of clapping that means "please stop talking."
+DEDEDE (excited): And if I'm mayor, Waddle Dee Town will be renamed... DEDEDE TOWN!
+NARRATOR: The clapping stopped completely.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC romantic
+SCENE waddle_dee_town
+PLACE bandana_dee center left nervous
+SFX footstep
+NARRATOR: Then it was Bandana Dee's turn. He climbed onto the fountain. He held his spear very tight. Every Waddle Dee in town was looking at him.
+BANDANA_DEE (nervous): Um. Hi. I'm Bandana Dee. I don't have a banner. Or a band. Or a hat.
+BANDANA_DEE (shy): But I helped build the third bakery. I carried forty bricks for the fountain. I know every one of your names.
+BANDANA_DEE (happy): This town is ours. We made it together. And if I'm mayor, I'll make sure it stays that way.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC happy
+SCENE waddle_dee_town
+PLACE waddle_dee center left excited
+PLACE kirby midright left excited
+SFX fanfare
+NARRATOR: For a moment, it was quiet. Then one Waddle Dee started clapping. Then ten. Then a hundred. Then every Waddle Dee in town was cheering.
+WADDLE_DEE (excited): BANDANA DEE! BANDANA DEE!
+KIRBY (excited): POYO! POYO!
+NARRATOR: The vote was counted that afternoon. Bandana Dee: three hundred and twelve votes. King Dedede: one vote.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC jazz
+SCENE waddle_dee_town
+PLACE dedede center left sad
+PLACE waddle_doo midright left nervous
+DEDEDE (sad): One vote. I only got one vote.
+WADDLE_DOO (nervous): Sir, at least somebody voted for you.
+DEDEDE (sad): ...It was me. I voted for me.
+WADDLE_DOO (nervous): Oh.
+DEDEDE (shy): ...And I almost voted for Bandana Dee. It was a very good speech.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC happy 2
+SCENE waddle_dee_town
+PLACE bandana_dee center left surprised
+PLACE dedede midright left nervous
+DEDEDE (nervous): Mayor Bandana Dee. Congratulations. Ahem. You did very well.
+BANDANA_DEE (surprised): Thank you, Your Majesty. Will you still need me to hold your spear?
+DEDEDE (smug): Mayors are very busy. I'll hold my own spear.
+BANDANA_DEE (happy): Really?
+DEDEDE (nervous): ...On weekends. You still hold it on weekdays.
+
+# ------------------------------------------------------------ WADDLE DEE TOWN
+MUSIC romantic 2
+SCENE waddle_dee_town
+CARD That evening...
+PLACE bandana_dee center left happy
+PLACE kirby midright left happy
+NARRATOR: That evening, Mayor Bandana Dee made his very first official decision. Every Friday in Waddle Dee Town would be Free Cake Day. For everybody. Even kings.
+BANDANA_DEE (happy): Kirby. Thank you for helping me find my speech.
+KIRBY (happy): Poyo!
+BANDANA_DEE (smug): And you're invited to Free Cake Day. Every week.
+KIRBY (excited): POYO POYO!
+NARRATOR: The three bakeries of Waddle Dee Town have never been busier.
+END

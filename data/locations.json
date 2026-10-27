@@ -1430,5 +1430,55 @@
 		"name": "Yogurt Yard",
 		"show": "Kirby",
 		"description": "Mountains that look like dessert."
+	},
+	"float_islands": {
+		"name": "Float Islands",
+		"description": "Sandy islands floating on a sparkling ocean, with palm trees and a beach.",
+		"show": "Kirby"
+	},
+	"mt_dedede": {
+		"name": "Mt. DeDeDe",
+		"description": "A big mountain with King Dedede's face carved into it. His wrestling ring is at the top.",
+		"show": "Kirby"
+	},
+	"cookie_country": {
+		"name": "Cookie Country",
+		"description": "Hills made of cookies, rocks made of chocolate and candy cane fence posts.",
+		"show": "Kirby"
+	},
+	"raisin_ruins": {
+		"name": "Raisin Ruins",
+		"description": "Ancient purple ruins with broken arches and a big star door.",
+		"show": "Kirby"
+	},
+	"iceberg": {
+		"name": "Iceberg",
+		"description": "A giant floating iceberg with an igloo on top. Very slippery.",
+		"show": "Kirby"
+	},
+	"peanut_plains": {
+		"name": "Peanut Plains",
+		"description": "Gentle green plains with peanut-shaped bushes. Rick's favorite place to run.",
+		"show": "Kirby"
+	},
+	"moonlight_mansion": {
+		"name": "Moonlight Mansion",
+		"description": "A spooky mansion under a full moon, with glowing windows and creaky doors.",
+		"show": "Kirby"
+	},
+	"waddle_dee_town": {
+		"name": "Waddle Dee Town",
+		"description": "A cheerful village of round orange houses, built by the Waddle Dees.",
+		"show": "Kirby"
+	},
+	"mirror_world": {
+		"name": "Mirror World",
+		"description": "A strange world behind a magic mirror, where everything is a reflection.",
+		"show": "Kirby"
+	},
+	"halcandra": {
+		"name": "Halcandra",
+		"description": "Magolor's volcanic home world, full of dark rock, lava and ancient machines.",
+		"show": "Kirby"
 	}
 }

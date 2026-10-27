@@ -1,0 +1,143 @@
+@title Mirror, Mirror
+@series Kirby
+@season 2
+@icon warpstar
+@number 9
+@description Meta Knight polishes an old mirror he found in the Halberd's storage room. Kirby bonks into it and falls right through, into the Mirror World, where everything is backwards. Up is down. Naps are bad. Dedede is nice. Kirby needs to find a way home before the mirror closes.
+
+# ------------------------------------------------------------ THE HALBERD
+MUSIC jazz
+SCENE halberd_deck cut
+TITLE
+PLACE meta_knight center left smug
+PLACE kirby midright left surprised
+NARRATOR: On the deck of his battleship, the Halberd, Meta Knight was polishing an old mirror he had found in the storage room. It was tall. It was shiny. It had a little star at the top.
+META_KNIGHT (smug): An antique. Very rare. Look at the craftsmanship, Kirby.
+KIRBY (surprised): Poyo?
+META_KNIGHT (nervous): Do not touch it. It is very old and very—
+SFX boing
+NARRATOR: Kirby bonked into the mirror. And went right through it.
+
+# ------------------------------------------------------------ MIRROR WORLD
+MUSIC spooky
+SCENE mirror_world
+PLACE kirby center right surprised
+SFX sparkle
+NARRATOR: On the other side, everything was purple and shiny. The sky was made of mirrors. The ground was made of mirrors. And every mirror showed a different Kirby, looking back.
+KIRBY (surprised): Poyo?!
+NARRATOR: One of the reflections waved. Kirby did not wave. The reflection waved anyway.
+KIRBY (scared): ...Poyo.
+
+# ------------------------------------------------------------ THE HALBERD
+MUSIC tense
+SCENE halberd_deck
+PLACE meta_knight center left scared
+PLACE bandana_dee midright left surprised
+META_KNIGHT (scared): Kirby! Kirby! Come back through the mirror!
+BANDANA_DEE (surprised): Meta Knight? What happened?
+META_KNIGHT (nervous): Kirby fell into the mirror. It's an ancient Mirror Gate. To the Mirror World.
+BANDANA_DEE (scared): How do we get him out?
+META_KNIGHT (nervous): The legend says the gate stays open until sunset. After that, it closes for a hundred years.
+
+# ------------------------------------------------------------ MIRROR WORLD
+MUSIC jazz 2
+SCENE mirror_world
+PLACE kirby center right surprised
+PLACE dedede midleft right happy
+NARRATOR: Kirby walked through the Mirror World. And he met someone very familiar. Very big. Very blue. But very, very different.
+DEDEDE (happy): Oh, hello there! Welcome, little friend! Would you like some cake? I baked it myself! For you!
+KIRBY (surprised): Poyo?!
+DEDEDE (happy): I love sharing! Sharing is my favorite thing! Here, have the whole cake!
+NARRATOR: In the Mirror World, King Dedede was the nicest person in the land.
+
+# ------------------------------------------------------------ MIRROR WORLD
+MUSIC sneaky
+SCENE mirror_world
+PLACE kirby center right nervous
+PLACE waddle_dee midleft right angry
+NARRATOR: And the Waddle Dees were the grumpiest. They stomped. They frowned. They refused to carry anything.
+WADDLE_DEE (angry): Ugh! Another visitor! Go away! We're not working today!
+KIRBY (nervous): Poyo?
+WADDLE_DEE (angry): Or tomorrow! Or ever! Waddle Dees are taking a permanent day off!
+KIRBY (surprised): ...Poyo.
+NARRATOR: Everything here was backwards. Kirby decided he wanted to go home. Right after the cake.
+
+# ------------------------------------------------------------ THE HALBERD
+MUSIC jazz
+SCENE halberd_deck
+PLACE meta_knight center left nervous
+PLACE magolor midright left excited
+MAGOLOR (excited): A Mirror Gate? Oh, I've read about those! In the ancient Halcandran books!
+META_KNIGHT (nervous): Do you know how to bring Kirby back?
+MAGOLOR (smug): Of course! He has to find the mirror version of THIS mirror. On the other side. And jump through it.
+META_KNIGHT (surprised): How will he know which mirror it is? You said every mirror shows a reflection.
+MAGOLOR (nervous): ...That part I'm less sure about.
+
+# ------------------------------------------------------------ MIRROR WORLD
+MUSIC tense
+SCENE mirror_world
+PLACE kirby center right nervous
+SFX sparkle
+NARRATOR: Kirby looked at the thousands of mirrors. Every one showed a Kirby. Every one looked the same. And the purple sky was turning orange. Sunset was coming.
+KIRBY (nervous): Poyo...
+NARRATOR: Then he remembered something. The mirror on the Halberd had a little star on top.
+KIRBY (excited): POYO!
+
+# ------------------------------------------------------------ MIRROR WORLD
+MUSIC action
+SCENE mirror_world
+PLACE kirby center right excited
+SFX whoosh
+NARRATOR: Kirby ran. Past a mirror with a heart on top. Past a mirror with a moon on top. Past a mirror with a strawberry on top, which was very hard to run past.
+KIRBY (excited): Poyo poyo!
+NARRATOR: And then, at the very end of the hall, he saw it. A tall mirror. With a little star on top. And on the other side of the glass, a blurry purple shape with a mask, waving its sword.
+KIRBY (excited): POYO!
+
+# ------------------------------------------------------------ MIRROR WORLD
+MUSIC tense
+SCENE mirror_world
+PLACE dedede center left nervous
+PLACE kirby midright left surprised
+DEDEDE (nervous): Oh no, little friend! You're leaving? Without the second cake?
+KIRBY (surprised): Poyo?
+DEDEDE (sad): I made it extra big. With three layers.
+KIRBY (nervous): ...Poyo.
+NARRATOR: Kirby looked at the cake. Kirby looked at the setting sun. Kirby made the hardest decision of his whole life.
+
+# ------------------------------------------------------------ THE HALBERD
+MUSIC action 2
+SCENE halberd_deck
+PLACE meta_knight center left excited
+PLACE bandana_dee midright left excited
+SFX sparkle
+NARRATOR: On the Halberd, the sun was touching the horizon. The mirror was starting to cloud over. And then, at the last second, a pink round shape came flying through the glass.
+META_KNIGHT (excited): KIRBY!
+BANDANA_DEE (excited): He made it!
+SFX thud
+NARRATOR: Kirby landed on the deck. He rolled three times. And he was holding a three-layer cake.
+
+# ------------------------------------------------------------ THE HALBERD
+MUSIC happy
+SCENE halberd_deck
+PLACE kirby center right happy
+PLACE meta_knight midleft right surprised
+KIRBY (happy): Poyo!
+META_KNIGHT (surprised): You brought a cake. From the Mirror World.
+KIRBY (smug): Poyo poyo.
+META_KNIGHT (nervous): A nice King Dedede gave it to you?
+KIRBY (happy): Poyo.
+META_KNIGHT (smug): ...I would very much like to meet that King Dedede.
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC romantic
+SCENE dedede_castle
+CARD The next day...
+PLACE dedede center left angry
+PLACE kirby midright left happy
+DEDEDE (angry): Kirby! You ate my cake! Again!
+KIRBY (happy): Poyo.
+DEDEDE (surprised): ...You brought me a cake? A different cake? With three layers?
+KIRBY (smug): Poyo poyo.
+DEDEDE (shy): ...That's actually very nice of you.
+NARRATOR: Somewhere, on the other side of a mirror, a very nice King Dedede smiled.
+END

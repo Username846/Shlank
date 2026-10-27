@@ -1,0 +1,160 @@
+@title Kirby's Animal Friends
+@series Kirby
+@season 2
+@icon warpstar
+@number 1
+@description Three new friends arrive in Dream Land: Rick the hamster, Kine the sunfish and Coo the owl. Each one wants to be Kirby's best friend. They decide to settle it with a race across Peanut Plains. Kirby just wants everybody to have a snack.
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC happy
+SCENE peanut_plains cut
+TITLE
+PLACE kirby center right happy
+PLACE rick midleft right excited
+NARRATOR: One sunny morning on Peanut Plains, Kirby was eating a picnic lunch when a big, round hamster came bouncing over the hill.
+RICK (excited): Hey there, little pink guy! I'm Rick! I'm new around here! Wanna be best friends?
+KIRBY (happy): Poyo!
+RICK (happy): Ha! That's a yes! I knew it! We're gonna run everywhere together!
+KIRBY (excited): Poyo poyo!
+
+# ------------------------------------------------------------ FLOAT ISLANDS
+MUSIC jazz
+SCENE float_islands
+PLACE kine center left happy
+PLACE kirby midright left surprised
+NARRATOR: That afternoon, Kirby went to the beach. A large green fish popped his head out of the waves and waved a fin.
+KINE (happy): Hey, little dude. I'm Kine. Just moved into the neighborhood. The water neighborhood.
+KIRBY (surprised): Poyo?
+KINE (smug): You wanna be best buds? I can take you swimming. I'm a very chill swimmer.
+KIRBY (happy): Poyo!
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC jazz 2
+SCENE raisin_ruins
+PLACE coo center left smug
+PLACE kirby midright left surprised
+NARRATOR: And that evening, as Kirby walked home through the old ruins, a purple owl landed on a broken column right in front of him.
+COO (smug): Hoo, hoo. You must be Kirby. I've heard a great deal about you.
+KIRBY (surprised): Poyo?
+COO (happy): I am Coo. I can fly you anywhere in Dream Land. And I give excellent advice. Would you like to be my best friend?
+KIRBY (happy): Poyo!
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC sneaky
+SCENE kirby_house
+CARD The next morning...
+PLACE rick center left angry
+PLACE coo midright left angry
+PLACE kine right left surprised
+NARRATOR: The next morning, three animals showed up at Kirby's front door. At exactly the same time.
+RICK (angry): Hey! I'm Kirby's best friend! He said "poyo"!
+COO (angry): Nonsense. He said "poyo" to me. With great sincerity.
+KINE (surprised): Wait. He said "poyo" to me too, dudes.
+RICK (nervous): ...He says "poyo" to everybody, doesn't he?
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC jazz
+SCENE kirby_house
+PLACE kirby center right happy
+PLACE rick midleft right smug
+PLACE coo midright left smug
+PLACE kine right left neutral
+KIRBY (happy): Poyo!
+RICK (smug): Only one way to settle this. A race! Across Peanut Plains! Whoever gets Kirby to the finish line first is his best friend!
+COO (smug): Hoo. I accept. I can fly, you know.
+KINE (nervous): Dudes. I'm a fish. That's not really fair.
+RICK (happy): There's a river! You'll be fine!
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC jazz 2
+SCENE peanut_plains
+PLACE rick center left smug
+PLACE coo midright left smug
+NARRATOR: Before the race, everyone stretched. Rick did lunges. Coo flapped his wings forty times. Kine did some very serious floating in the river.
+RICK (smug): I'm the fastest runner on Popstar, Coo. You'd better fly fast.
+COO (smug): Hoo. I've flown across all of Dream Land in a single afternoon.
+RICK (nervous): ...In one afternoon? Really?
+COO (happy): With a nap in the middle.
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC action
+SCENE peanut_plains
+CARD The great race...
+PLACE dedede center left excited
+PLACE waddle_dee midright left excited
+SFX drumroll
+DEDEDE (excited): As the king of Dream Land, I'll be the judge! On your marks! Get set!
+WADDLE_DEE (excited): GO!
+SFX whoosh
+NARRATOR: Rick ran. Coo flew. Kine flopped into the river. And Kirby sat in the middle of the starting line, eating a sandwich.
+DEDEDE (surprised): ...They left without Kirby.
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC action 2
+SCENE peanut_plains
+PLACE rick center left excited
+PLACE coo midright left excited
+SFX footstep
+RICK (excited): I'm winning! I'm winning! Nobody runs like Rick!
+COO (smug): Hoo! You're only winning on the ground. I'm winning in the sky.
+RICK (angry): That doesn't count!
+COO (smug): It counts double.
+RICK (surprised): ...Wait. Where's Kirby?
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC sad
+SCENE peanut_plains
+PLACE rick center left sad
+PLACE coo midright left sad
+NARRATOR: Rick stopped running. Coo landed on a bush. They looked back across the plains. Far away, at the starting line, a tiny pink dot was still eating a sandwich.
+RICK (sad): We forgot him. We were racing to be his best friend, and we forgot to bring him.
+COO (sad): Hoo. That is a very embarrassing mistake.
+RICK (nervous): Kine didn't forget. Look.
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC happy
+SCENE peanut_plains
+PLACE kine center left happy
+PLACE kirby midright left happy
+NARRATOR: Kine had flopped all the way back up the river. He sat down next to Kirby on the starting line.
+KINE (happy): Hey, little dude. Whatcha eating?
+KIRBY (happy): Poyo!
+KINE (smug): A sandwich, huh? Mind if I have a bite? Racing is hard work for a fish.
+KIRBY (excited): Poyo poyo!
+NARRATOR: Kirby tore the sandwich in half. He gave the bigger half to Kine.
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC jazz 2
+SCENE peanut_plains
+PLACE rick center left nervous
+PLACE coo midright left nervous
+PLACE kirby farright left happy
+NARRATOR: Rick and Coo came walking back. Slowly. They looked very sorry.
+RICK (nervous): Kirby. Sorry we left you. We got so busy trying to win, we forgot the whole point.
+COO (nervous): Hoo. A friend who forgets his friend is not much of a friend.
+KIRBY (happy): Poyo!
+NARRATOR: Kirby pulled two more sandwiches out of his picnic basket. One for Rick. One for Coo.
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC happy 2
+SCENE peanut_plains
+PLACE dedede center left smug
+PLACE waddle_dee midright left happy
+DEDEDE (smug): So who won the race?
+WADDLE_DEE (happy): Nobody crossed the finish line, Your Majesty. They're all having a picnic.
+DEDEDE (surprised): A picnic? In the middle of a race?
+WADDLE_DEE (smug): Kirby brought enough for everybody.
+DEDEDE (happy): ...Is there enough for a king?
+
+# ------------------------------------------------------------ PEANUT PLAINS
+MUSIC romantic
+SCENE peanut_plains
+CARD Sunset...
+PLACE kirby center right happy
+PLACE rick midleft right happy
+PLACE coo midright left happy
+NARRATOR: At sunset, Rick carried Kirby on his back. Coo flew above them. Kine swam alongside in the river. They crossed the finish line all together.
+RICK (happy): A tie! A four-way tie!
+COO (smug): Hoo. Best friends, all of us. That is the wisest answer.
+KIRBY (excited): POYO!
+END

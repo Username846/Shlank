@@ -1,0 +1,157 @@
+@title Gooey Goo
+@series Kirby
+@season 2
+@icon warpstar
+@number 2
+@description A blue blob with a long tongue falls out of the sky and lands in Kirby's backyard. His name is Gooey. He eats everything. Kirby also eats everything. Together, they eat their way across Cookie Country, until they find a cookie that's too big even for them.
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC happy
+SCENE kirby_house cut
+TITLE
+PLACE kirby center right surprised
+SFX boing
+NARRATOR: One morning, something fell out of the sky. It bounced once. It bounced twice. And it landed right in Kirby's garden, in the middle of the tomatoes.
+KIRBY (surprised): Poyo?
+NARRATOR: It was blue. It was round. It had a very long tongue. And it was eating a tomato.
+KIRBY (excited): Poyo poyo!
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC jazz
+SCENE kirby_house
+PLACE gooey center left happy
+PLACE kirby midright left happy
+GOOEY (happy): Gooey goo! Hi! I'm Gooey! I like tomatoes!
+KIRBY (happy): Poyo!
+GOOEY (excited): You like tomatoes too? Gooey goo! We're the same!
+KIRBY (excited): Poyo poyo!
+GOOEY (surprised): You like EVERYTHING? Gooey likes everything too! Gooey goo goo!
+
+# ------------------------------------------------------------ CASTLE DEDEDE
+MUSIC sneaky
+SCENE dedede_castle
+PLACE dedede center left angry
+PLACE waddle_dee midright left nervous
+DEDEDE (angry): Waddle Dee! There's a blue thing in Kirby's garden! It ate my royal tomato!
+WADDLE_DEE (nervous): Your royal tomato, sir? In Kirby's garden?
+DEDEDE (smug): I was going to steal it. Later. After my nap.
+WADDLE_DEE (nervous): ...That's not really your tomato then, sir.
+DEDEDE (angry): EVERY tomato is the king's tomato!
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC happy 2
+SCENE cookie_country
+CARD Cookie Country...
+PLACE gooey center left excited
+PLACE kirby midright left excited
+NARRATOR: Kirby took Gooey to the most delicious place in all of Dream Land. Cookie Country. Where the hills are cookies, the rocks are chocolate and the fence posts are candy canes.
+GOOEY (excited): GOOEY GOO! Everything is FOOD!
+KIRBY (excited): POYO!
+SFX chomp
+NARRATOR: Kirby inhaled a cookie hill. Gooey licked a chocolate rock. They both bit the same candy cane from opposite ends.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC sneaky
+SCENE cookie_country
+PLACE gooey center left happy
+PLACE kirby midright left happy
+NARRATOR: They ate a chocolate rock. They ate a gumdrop bush. They drank from a little stream of strawberry milk that ran down the side of the hill.
+GOOEY (happy): Gooey goo! This is the best place in the whole universe!
+KIRBY (excited): Poyo poyo!
+GOOEY (surprised): Kirby, what's that crunchy fence made of? It's red and white and stripy!
+KIRBY (happy): Poyo!
+NARRATOR: It was a candy cane fence. They ate a very long piece of it.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC jazz 2
+SCENE cookie_country
+PLACE waddle_doo center left angry
+PLACE gooey midright left nervous
+WADDLE_DOO (angry): Hey! That's the Cookie Country Fence! It keeps the cookie sheep in!
+GOOEY (nervous): Gooey goo? There are cookie sheep?
+WADDLE_DOO (angry): Little fluffy ones! Made of meringue! And now they're escaping!
+GOOEY (sad): Gooey is sorry. Gooey didn't know fences were important.
+WADDLE_DOO (smug): Fences are VERY important. That's why they're made of candy. So nobody eats them.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC action
+SCENE cookie_country
+PLACE kirby center right excited
+PLACE gooey midleft right excited
+SFX boing
+NARRATOR: Fluffy white meringue sheep were bouncing everywhere. Over the cookie hills. Under the chocolate rocks. Into the strawberry jam pond.
+KIRBY (excited): Poyo!
+GOOEY (excited): Gooey goo! Kirby and Gooey will catch them!
+SFX whoosh
+NARRATOR: Kirby inhaled the sheep. Very gently. Then spat them back into the field. Gooey caught them with his tongue. Very gently. Then put them back too.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC happy
+SCENE cookie_country
+PLACE waddle_doo center left surprised
+PLACE kirby midright left happy
+PLACE gooey midleft right neutral
+WADDLE_DOO (surprised): You caught all forty-two sheep! And you didn't eat a single one!
+KIRBY (happy): Poyo!
+WADDLE_DOO (happy): Okay, I forgive you for the fence. Here. Have a cookie. A really big one.
+GOOEY (excited): A BIG cookie? How big?
+WADDLE_DOO (smug): Biggest cookie in Dream Land. On top of the tallest hill.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC tense
+SCENE cookie_country
+PLACE gooey center left surprised
+PLACE kirby midright left surprised
+SFX drumroll
+NARRATOR: On top of the tallest hill sat a cookie. It was as big as a house. It had chocolate chips the size of beach balls. The smell could be smelled from three villages away.
+GOOEY (surprised): ...Gooey goo.
+KIRBY (surprised): ...Poyo.
+NARRATOR: For the first time in their lives, Kirby and Gooey looked at a food and thought: maybe this is too much.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC action 2
+SCENE cookie_country
+PLACE kirby center right excited
+PLACE gooey midleft right excited
+KIRBY (excited): POYO!
+GOOEY (excited): Gooey goo! Gooey goes left! Kirby goes right!
+SFX chomp
+NARRATOR: They ate. And ate. And ate. Kirby inhaled from one side. Gooey licked from the other. The cookie got smaller. And smaller. And they got bigger. And bigger.
+SFX chomp
+GOOEY (nervous): ...Gooey is very round now.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC sad
+SCENE cookie_country
+PLACE kirby center right sad
+PLACE gooey midleft right sad
+NARRATOR: Half the cookie was gone. Kirby and Gooey were lying on their backs in the cookie crumbs. They could not move. They could not eat one more bite.
+KIRBY (sad): Poyo...
+GOOEY (sad): Gooey goo... Gooey can't move. Gooey is stuck to the ground. By his own stomach.
+NARRATOR: Down the hill, the whole village was looking up at the half-eaten cookie. And they were hungry too.
+
+# ------------------------------------------------------------ COOKIE COUNTRY
+MUSIC happy 2
+SCENE cookie_country
+PLACE waddle_dee center left excited
+PLACE bandana_dee midright left excited
+PLACE kirby midleft right neutral
+WADDLE_DEE (excited): Kirby! Gooey! Are you going to finish the cookie?
+KIRBY (happy): Poyo!
+BANDANA_DEE (excited): Kirby says we can have the rest! For everybody!
+NARRATOR: So the whole village came up the hill. Waddle Dees. Cookie sheep. Even Dedede. Everybody got a piece of the biggest cookie in Dream Land.
+WADDLE_DEE (happy): Best cookie party ever!
+
+# ------------------------------------------------------------ KIRBY'S HOUSE
+MUSIC romantic
+SCENE kirby_house
+CARD That night...
+PLACE kirby center right happy
+PLACE gooey midleft right happy
+NARRATOR: That night, Gooey and Kirby lay in the garden and looked at the stars. Their stomachs were still very full.
+GOOEY (happy): Kirby. Can Gooey stay in Dream Land? Gooey likes it here. Gooey likes you.
+KIRBY (happy): Poyo!
+GOOEY (excited): Gooey goo! Best friends!
+KIRBY (sad): ...Poyo.
+GOOEY (smug): Gooey ate the last tomato. Sorry.
+END

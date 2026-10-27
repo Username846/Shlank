@@ -1,0 +1,163 @@
+@title The Raisin Ruins Riddle
+@series Kirby
+@season 2
+@icon warpstar
+@number 5
+@description Coo leads Kirby and Magolor to the Raisin Ruins, where an ancient star door has been locked for a thousand years. To open it, you have to solve three riddles. Coo is very wise. Magolor is very clever. Kirby says "poyo" a lot. Guess who solves them.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC spooky
+SCENE raisin_ruins cut
+TITLE
+PLACE coo center left smug
+PLACE kirby midright left surprised
+COO (smug): Hoo, hoo. Behold, Kirby. The Star Door of the Raisin Ruins. Locked for a thousand years.
+KIRBY (surprised): Poyo?
+COO (happy): Legend says that behind it is a great treasure. But only those who answer three riddles may enter.
+KIRBY (excited): Poyo poyo!
+COO (smug): Hoo. Don't get too excited. Nobody has solved them in a thousand years.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC jazz
+SCENE raisin_ruins
+PLACE magolor center left excited
+PLACE coo midright left surprised
+MAGOLOR (excited): A riddle door! An ancient treasure! I simply had to come! For my travel show!
+COO (surprised): Hoo. Do you know anything about riddles, Magolor?
+MAGOLOR (smug): I'm the cleverest traveler in the galaxy. Riddles are my specialty.
+COO (smug): Then you'll go first.
+MAGOLOR (nervous): ...Oh. Okay. Sure. Ha ha.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC tense
+SCENE raisin_ruins
+CARD Riddle one...
+PLACE magolor center left nervous
+PLACE kirby midright left happy
+SFX sparkle
+NARRATOR: The star on the door began to glow. And a deep voice echoed through the ruins. "What gets wetter and wetter the more it dries?"
+MAGOLOR (nervous): Wetter the more it dries... Hmm. A very confused cloud?
+NARRATOR: The door did not open.
+KIRBY (excited): Poyo!
+NARRATOR: Kirby pulled something out of Magolor's travel bag. A beach towel.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC happy
+SCENE raisin_ruins
+PLACE coo center left surprised
+PLACE kirby midright left smug
+PLACE magolor midleft right neutral
+SFX ding
+NARRATOR: The star on the door glowed brighter. One of its five points lit up gold.
+COO (surprised): Hoo! A towel! Of course! The more it dries you, the wetter it gets!
+KIRBY (smug): Poyo.
+MAGOLOR (surprised): Kirby got it? With one "poyo"? And MY towel?
+COO (happy): Hoo. A very wise poyo.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC tense
+SCENE raisin_ruins
+CARD Riddle two...
+PLACE coo center left nervous
+PLACE magolor midright left nervous
+SFX sparkle
+NARRATOR: "The more you take, the more you leave behind. What am I?"
+COO (nervous): Hoo. The more you take... Memories? Time? Hoo, this one is philosophical.
+MAGOLOR (nervous): Cookies! The more cookies you take, the more crumbs you leave behind!
+NARRATOR: The door did not open. But it did seem to think about it for a moment.
+MAGOLOR (sad): ...It was a good guess.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC jazz 2
+SCENE raisin_ruins
+PLACE kirby center right excited
+PLACE coo midleft right surprised
+NARRATOR: Kirby was walking in circles in the dirt. He walked forward. He looked back. He walked forward again. He looked back again.
+KIRBY (excited): Poyo! Poyo!
+COO (surprised): Kirby. What are you doing? You're making... footprints.
+KIRBY (happy): Poyo!
+COO (excited): Footsteps! The more you take, the more you leave behind! Hoo!
+SFX ding
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC sneaky
+SCENE raisin_ruins
+PLACE dedede center left smug
+PLACE waddle_dee midright left nervous
+DEDEDE (smug): A treasure door, eh? And the puffball is solving the riddles?
+WADDLE_DEE (nervous): Two out of three, sir.
+DEDEDE (excited): Then we wait until he solves the third one. And then we grab the treasure! Ha ha!
+WADDLE_DEE (nervous): Sir, that's not very fair.
+DEDEDE (smug): Kings don't have to be fair. Kings have to be RICH.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC tense
+SCENE raisin_ruins
+CARD Riddle three...
+PLACE coo center left nervous
+PLACE magolor midright left nervous
+SFX sparkle
+NARRATOR: "I can be cracked, I can be made, I can be told, I can be played. What am I?"
+COO (nervous): Hoo. Cracked, made, told, played... A code? A nut?
+MAGOLOR (excited): A joke! You crack a joke, you make a joke, you tell a joke, you play a joke!
+NARRATOR: The star glowed. Brighter than ever. The last points lit up gold.
+MAGOLOR (surprised): ...I got it? I GOT ONE!
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC action
+SCENE raisin_ruins
+PLACE dedede center left excited
+PLACE kirby midright left surprised
+SFX door
+NARRATOR: The Star Door rumbled open. Golden light poured out. And before anyone could move, a big blue king came charging up the hill.
+DEDEDE (excited): OUT OF THE WAY! THE TREASURE BELONGS TO THE KING!
+KIRBY (surprised): Poyo!
+SFX whoosh
+NARRATOR: Dedede ran right through the door. Into the golden light. And stopped.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC jazz
+SCENE raisin_ruins
+PLACE dedede center left surprised
+PLACE coo midright left surprised
+SFX sparkle
+NARRATOR: Behind the door was a small round room. And in the middle of the room, on a stone table, was a single, enormous, perfect strawberry. Glowing softly.
+DEDEDE (surprised): ...A strawberry? The treasure is a STRAWBERRY?
+COO (surprised): Hoo. The legend says it is the Strawberry of Eternal Friendship. It never goes bad. It always tastes perfect.
+DEDEDE (angry): I wanted GOLD!
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC happy
+SCENE raisin_ruins
+PLACE kirby center right happy
+PLACE magolor midleft right happy
+NARRATOR: Kirby walked up to the strawberry. He looked at it for a long time. Then he did something nobody expected. He did not eat it.
+KIRBY (happy): Poyo.
+NARRATOR: He picked it up. He carried it outside. And he put it on a rock where everybody could see it.
+MAGOLOR (surprised): You're... sharing it? With everyone?
+KIRBY (smug): Poyo poyo.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC romantic
+SCENE raisin_ruins
+PLACE coo center left happy
+PLACE dedede midright left sad
+COO (happy): Hoo. The Strawberry of Eternal Friendship can only be shared. Never kept. Kirby understood that without a single riddle.
+DEDEDE (sad): ...So I can't have it all to myself?
+COO (smug): You can have a slice. Like everybody else.
+DEDEDE (happy): ...Is it a big slice?
+COO (smug): Hoo. It's an eternal strawberry, Your Majesty. Every slice is big.
+
+# ------------------------------------------------------------ RAISIN RUINS
+MUSIC romantic 2
+SCENE raisin_ruins
+CARD Sunset...
+PLACE magolor center left happy
+PLACE kirby midright left happy
+NARRATOR: Everyone sat on the steps of the Raisin Ruins and shared the strawberry. Every slice tasted perfect. And somehow, no matter how many slices they cut, there was always one more.
+MAGOLOR (happy): Kirby. Today's episode of my travel show is going to be my best one ever. I got a riddle right.
+KIRBY (excited): Poyo!
+MAGOLOR (smug): I'm going to tell everyone I solved all three.
+KIRBY (angry): POYO.
+MAGOLOR (nervous): ...Okay, okay. One.
+END

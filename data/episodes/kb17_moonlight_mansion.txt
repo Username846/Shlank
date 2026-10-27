@@ -1,0 +1,150 @@
+@title Moonlight Mansion
+@series Kirby
+@season 2
+@icon warpstar
+@number 7
+@description On the night of the full moon, Adeleine is invited to paint the portraits in the spooky Moonlight Mansion. Ribbon and Kirby come along. The portraits start moving. The candles light themselves. And somebody keeps stealing Adeleine's paintbrushes.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC spooky
+SCENE moonlight_mansion cut
+TITLE
+PLACE adeleine center left nervous
+PLACE ribbon midright left nervous
+PLACE kirby farleft right happy
+NARRATOR: On the night of the full moon, a letter arrived for Adeleine. It said: "Please come to Moonlight Mansion and paint our portraits. Bring brushes. Come alone." Adeleine did not come alone.
+ADELEINE (nervous): Ribbon, it said come alone.
+RIBBON (nervous): It also said "Moonlight Mansion." Nobody goes to Moonlight Mansion alone.
+KIRBY (happy): Poyo!
+ADELEINE (smug): And Kirby insisted. Mostly because the letter said there would be snacks.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC spooky 2
+SCENE moonlight_mansion
+PLACE adeleine center left surprised
+PLACE ribbon midright left scared
+PLACE kirby midleft right neutral
+SFX door
+NARRATOR: The front door opened by itself. Inside, the hallway was long and dark. Rows of empty picture frames hung on the walls. And at the end of the hall, a single candle lit itself.
+RIBBON (scared): Adeleine. The candle. It just... lit. By itself.
+ADELEINE (surprised): Maybe it's a magic candle?
+RIBBON (scared): That is NOT less scary!
+KIRBY (excited): Poyo poyo!
+NARRATOR: Kirby ran straight toward the candle. Because next to the candle was a plate of cookies.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC jazz
+SCENE moonlight_mansion
+PLACE adeleine center left happy
+PLACE kirby midright left happy
+NARRATOR: In the big hall, there were twelve empty frames. And twelve blank canvases. And a note: "Paint us, please. We have forgotten what we look like."
+ADELEINE (happy): Who could have forgotten what they look like?
+KIRBY (surprised): Poyo?
+ADELEINE (excited): Well, I'm a painter. Painting is what I do. Let's start!
+NARRATOR: Adeleine set out her brushes. Red, blue, yellow, green. All in a neat row.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC sneaky
+SCENE moonlight_mansion
+PLACE adeleine center left surprised
+PLACE ribbon midright left nervous
+PLACE kirby midleft right neutral
+SFX whoosh
+ADELEINE (surprised): Wait. My red brush is gone. It was right here.
+RIBBON (nervous): Maybe it rolled away?
+SFX whoosh
+ADELEINE (surprised): And now the blue one is gone too!
+RIBBON (scared): Adeleine, something is stealing your brushes. Something we can't see.
+KIRBY (angry): Poyo!
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC spooky
+SCENE moonlight_mansion
+PLACE kirby center right nervous
+SFX hiss
+NARRATOR: Kirby followed a trail of red paint drops down a hallway. Up a staircase. Into a dusty old attic. And there, in the moonlight, floating in the air, were Adeleine's brushes. Painting by themselves.
+KIRBY (surprised): Poyo?!
+NARRATOR: They were painting a picture on the attic wall. A picture of a little girl. Smiling. With a bow in her hair.
+KIRBY (nervous): ...Poyo.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC tense
+SCENE moonlight_mansion
+PLACE adeleine center left surprised
+PLACE ribbon midright left surprised
+PLACE kirby farleft right nervous
+NARRATOR: Adeleine and Ribbon ran up the stairs after Kirby. They saw the brushes. They saw the painting. And then they saw who was holding the brushes.
+ADELEINE (surprised): ...It's a ghost. A little ghost girl.
+RIBBON (surprised): She's painting herself. From memory.
+NARRATOR: The ghost turned around. She looked scared. She dropped the brushes and hid behind a chimney.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC sad
+SCENE moonlight_mansion
+PLACE adeleine center left nervous
+PLACE kirby midright left happy
+ADELEINE (nervous): It's okay. We won't hurt you. Did you write the letter?
+NARRATOR: The ghost peeked out. She nodded. Very slowly.
+ADELEINE (sad): You've forgotten what you look like. That's why you were painting yourself.
+KIRBY (happy): Poyo.
+NARRATOR: Kirby picked up the red brush. He held it out to the ghost. She took it.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC jazz 2
+SCENE moonlight_mansion
+PLACE ribbon center left happy
+PLACE adeleine midright left excited
+PLACE kirby midleft right neutral
+NARRATOR: The ghost girl's name was Luna. She had lived in Moonlight Mansion with her family a long, long time ago. They had all been ghosts for so long, they couldn't remember their own faces.
+RIBBON (happy): That's why the frames are empty. The whole family forgot.
+ADELEINE (excited): Then we'll paint them! All twelve! Luna, you can tell me what everyone looked like!
+RIBBON (excited): And Kirby can hold the paint!
+KIRBY (excited): Poyo poyo!
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC happy
+SCENE moonlight_mansion
+CARD All night long...
+PLACE adeleine center left happy
+PLACE kirby midright left happy
+SFX sparkle
+NARRATOR: Adeleine painted all night. Luna described each face. A tall grandpa with a curly moustache. A mother with a big laugh. A baby brother with chubby cheeks. One by one, the ghosts came out of the walls to watch.
+ADELEINE (happy): Grandpa! Here you are! With your curly moustache!
+KIRBY (excited): Poyo!
+NARRATOR: The ghost grandpa looked at his portrait. And for the first time in a hundred years, he smiled.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC sneaky 2
+SCENE moonlight_mansion
+PLACE ribbon center left surprised
+PLACE kirby midright left nervous
+SFX chomp
+RIBBON (surprised): Kirby. Where did you get that cookie?
+KIRBY (nervous): Poyo...
+RIBBON (smug): That's the cookie from the ghost family's kitchen, isn't it?
+KIRBY (sad): Poyo.
+NARRATOR: The ghost baby floated over. He looked at the cookie. Then he laughed. A tiny ghost laugh. And handed Kirby another one.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC romantic
+SCENE moonlight_mansion
+CARD Dawn...
+PLACE adeleine center left happy
+PLACE ribbon midright left happy
+NARRATOR: As the sun came up, twelve portraits hung in twelve frames. A whole family. Smiling. And twelve ghosts stood in front of them, looking at their own faces. Remembering.
+ADELEINE (happy): We did it, Ribbon. Every single one.
+RIBBON (happy): Look at Luna. She can't stop staring at her picture.
+ADELEINE (shy): She said it's the best painting anyone ever made of her.
+RIBBON (smug): It's the only painting anyone ever made of her.
+ADELEINE (happy): Still counts.
+
+# ------------------------------------------------------------ MOONLIGHT MANSION
+MUSIC romantic 2
+SCENE moonlight_mansion
+PLACE kirby center right happy
+PLACE adeleine midleft right happy
+NARRATOR: As they left, the front door opened by itself again. But this time, it didn't feel spooky. It felt like a wave goodbye.
+KIRBY (happy): Poyo!
+ADELEINE (happy): Bye, Luna! We'll come back next full moon!
+NARRATOR: And in the highest window of Moonlight Mansion, a little ghost girl with a bow in her hair waved back.
+END

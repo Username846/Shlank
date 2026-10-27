@@ -647,6 +647,36 @@
 		},
 		{
 			"file": "res://data/episodes/kb10_whispy_cant_sleep.txt"
+		},
+		{
+			"file": "res://data/episodes/kb11_animal_friends.txt"
+		},
+		{
+			"file": "res://data/episodes/kb12_gooey_goo.txt"
+		},
+		{
+			"file": "res://data/episodes/kb13_mt_dedede_showdown.txt"
+		},
+		{
+			"file": "res://data/episodes/kb14_beach_day.txt"
+		},
+		{
+			"file": "res://data/episodes/kb15_raisin_ruins_riddle.txt"
+		},
+		{
+			"file": "res://data/episodes/kb16_iceberg_adventure.txt"
+		},
+		{
+			"file": "res://data/episodes/kb17_moonlight_mansion.txt"
+		},
+		{
+			"file": "res://data/episodes/kb18_waddle_dee_town.txt"
+		},
+		{
+			"file": "res://data/episodes/kb19_mirror_mirror.txt"
+		},
+		{
+			"file": "res://data/episodes/kb20_susies_takeover.txt"
 		}
 	]
 }
