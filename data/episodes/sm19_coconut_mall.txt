@@ -1,0 +1,180 @@
+@title Coconut Mall Madness
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 9
+@description Peach and Daisy go shopping at Coconut Mall for the Royal Ball. Daisy wants something orange. Peach wants something pink. Wario wants the mall's grand prize, a golden coconut, and he'll ride every escalator the wrong way to get it.
+
+# ------------------------------------------------------------ PEACH'S CASTLE
+MUSIC happy
+SCENE peach_castle cut
+TITLE
+PLACE peach center left excited
+PLACE daisy midright left excited
+PEACH (excited): Daisy! The Royal Ball is next week! We need new dresses!
+DAISY (excited): Coconut Mall! It has two hundred stores! And a fountain! And a smoothie bar!
+PEACH (happy): And the Golden Coconut contest! Whoever spends the most this weekend wins it.
+DAISY (smug): Peach, we're princesses. We'll win easily.
+PEACH (nervous): I'm on a budget this year, Daisy. The castle needs a new roof.
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC jazz
+SCENE coconut_mall
+CARD Coconut Mall...
+PLACE daisy center left excited
+PLACE peach midright left happy
+DAISY (excited): Look at it all! Shoes! Hats! A store that only sells crowns!
+PEACH (happy): Let's start with dresses.
+DAISY (smug): Orange. I need something orange. Very orange.
+PEACH (smug): Pink for me. Always pink.
+DAISY (happy): Hi, I'm Daisy, and I love this mall!
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC sneaky
+SCENE coconut_mall
+PLACE wario center left smug
+PLACE waluigi midright left excited
+WARIO (smug): The Golden Coconut. Solid gold. Worth a million coins.
+WALUIGI (excited): Wah! How do we win it?
+WARIO (happy): Spend the most money. So we buy everything. Then we return everything. Then we keep the coconut.
+WALUIGI (surprised): That's... actually kind of clever.
+WARIO (smug): Wario is a genius. A rich genius. Soon.
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC jazz 2
+SCENE coconut_mall
+PLACE toad center left nervous
+PLACE peach midright left happy
+TOAD (nervous): Princess! I'm working at the smoothie bar this weekend! Want a smoothie?
+PEACH (happy): Toad! You have a job?
+TOAD (smug): I'm saving up for a new kart. A red one. With racing stripes.
+PEACH (excited): Then I'll have the biggest smoothie you've got!
+TOAD (excited): One Mega Mushroom Smoothie, coming up!
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC action
+SCENE coconut_mall
+PLACE wario center left excited
+PLACE waluigi midright left excited
+SFX whoosh
+NARRATOR: Wario and Waluigi ran through the mall, buying everything in sight. Fifty hats. A hundred shoes. A piano. A canoe.
+WARIO (excited): Buy it! Buy all of it!
+WALUIGI (excited): Wah! I bought a llama!
+WARIO (surprised): You bought a WHAT?
+WALUIGI (smug): It was on sale!
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC happy 2
+SCENE coconut_mall
+PLACE peach center left happy
+PLACE daisy midright left excited
+PEACH (happy): Daisy, look. A store that sells nothing but tiaras.
+DAISY (excited): Ooh! That one has an orange jewel!
+PEACH (smug): You already have nine tiaras, Daisy.
+DAISY (smug): Ten is a much better number.
+PEACH (happy): ...It is a very good tiara.
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC jazz
+SCENE coconut_mall
+PLACE daisy center left happy
+PLACE peach midright left nervous
+DAISY (happy): Peach! I found the perfect orange dress! It has flowers! And ruffles!
+PEACH (nervous): It's beautiful, Daisy. And very expensive.
+DAISY (smug): And look at this pink one I found for you!
+PEACH (surprised): Oh, Daisy. It's perfect.
+PEACH (sad): But the castle roof...
+DAISY (happy): ...I'll get it for you. Friends help friends.
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC tense
+SCENE coconut_mall
+PLACE wario center left angry
+PLACE toad midright left nervous
+SFX stomp
+WARIO (angry): Smoothie boy! Make me a smoothie! The most expensive one! For the contest!
+TOAD (nervous): The most expensive one is the Mega Mushroom Smoothie. Fifty coins.
+WARIO (smug): Make me twenty!
+TOAD (surprised): Twenty?!
+WARIO (excited): And put gold sprinkles on them!
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC action 2
+SCENE coconut_mall
+PLACE waluigi center left scared
+PLACE wario midright left scared
+SFX slide_whistle
+NARRATOR: Wario and Waluigi tried to carry everything they had bought at once. Fifty hats. A hundred shoes. A piano. A canoe. A llama. And twenty smoothies. They stepped onto the escalator going down. The wrong way.
+WALUIGI (scared): Wario! It's going the wrong way!
+WARIO (scared): Run faster!
+SFX thud
+SHAKE 0.8
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC tense
+SCENE coconut_mall
+PLACE peach center left surprised
+PLACE daisy midright left surprised
+SFX splash
+NARRATOR: Everything they carried went flying. Hats flew. Shoes bounced. Smoothies rained down. The piano played one very loud chord. And the llama landed gently in the fountain.
+PEACH (surprised): Is that a llama?
+DAISY (surprised): In the fountain?
+PEACH (nervous): Wearing a hat?
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC jazz
+SCENE coconut_mall
+PLACE toad center left surprised
+PLACE peach midright left surprised
+TOAD (surprised): Princess! Twenty smoothies! All over the floor! I have to clean it all!
+PEACH (happy): I'll help you, Toad.
+TOAD (surprised): A princess? With a mop?
+PEACH (smug): I've cleaned up after Bowser forty-two times. This is easy.
+TOAD (happy): You're the best princess ever!
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC sad
+SCENE coconut_mall
+PLACE wario center left sad
+PLACE waluigi midright left sad
+WARIO (sad): We're covered in smoothie. And we have to pay for everything we broke.
+WALUIGI (sad): And keep the llama. The store says no returns on llamas.
+WARIO (angry): Why did you buy a LLAMA?!
+WALUIGI (shy): ...He looked lonely, Wario.
+WARIO (sad): Wah.
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC happy
+SCENE coconut_mall
+PLACE toad center left surprised
+PLACE peach midright left happy
+PLACE daisy midleft right neutral
+SFX fanfare
+TOAD (surprised): Princess! The mall manager just announced the Golden Coconut winner!
+PEACH (surprised): Who won?
+TOAD (excited): The person who made the most people smile! It was a secret rule! And they picked... Daisy! For buying you that dress!
+PEACH (excited): Daisy! You won!
+DAISY (surprised): I won?! I didn't even know that was a rule!
+
+# ------------------------------------------------------------ COCONUT MALL
+MUSIC jazz 2
+SCENE coconut_mall
+PLACE daisy center left happy
+PLACE peach midright left surprised
+DAISY (happy): Peach. The Golden Coconut is worth a million coins.
+PEACH (surprised): Daisy, that's amazing!
+DAISY (smug): Enough for a new castle roof.
+PEACH (surprised): You'd do that?
+DAISY (happy): Friends help friends. Also, I want to dance at the Ball without rain on my head.
+
+# ------------------------------------------------------------ PEACH'S CASTLE
+MUSIC romantic
+SCENE peach_castle
+CARD The Royal Ball...
+PLACE peach center left happy
+PLACE daisy midright left happy
+PEACH (happy): A new roof. New dresses. And my best friend.
+DAISY (excited): And look who came to the Ball. Wario and Waluigi. In matching hats.
+PEACH (surprised): ...With the llama?
+DAISY (smug): The llama is their date.
+END

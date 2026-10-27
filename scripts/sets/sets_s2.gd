@@ -99,6 +99,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"storage_unit": _storage_unit(b)
 		"four_corners": _four_corners(b)
 		"tohajiilee": _tohajiilee(b)
+		# Super Mario Brothers
+		"comet_observatory": _comet_observatory(b)
+		"delfino_plaza": _delfino_plaza(b)
+		"airship": _airship(b)
+		"luigis_mansion": _luigis_mansion(b)
+		"moo_moo_farm": _moo_moo_farm(b)
+		"yoshis_island": _yoshis_island(b)
+		"donut_plains": _donut_plains(b)
+		"coconut_mall": _coconut_mall(b)
+		"toad_town": _toad_town(b)
+		"waluigi_stadium": _waluigi_stadium(b)
 		_: return false
 	return true
 
@@ -214,6 +225,27 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 		"tohajiilee", "four_corners":
 			var x := fmod(t * 20.0, W + 400) - 200
 			b._cloud(Vector2(x, 90), 0.8)
+		"comet_observatory":
+			for i in 6:
+				var a := t * 0.3 + i * TAU / 6.0
+				Art.shape(ci, Art.star(Vector2(640 + cos(a) * 480, 200 + sin(a) * 90), 10), Color("f6e05a"), 2.0)
+		"airship":
+			var px := fmod(t * 40.0, W + 400) - 200
+			b._cloud(Vector2(px, 500), 1.6)
+			for k in 4:
+				var a := t * 12.0 + k * PI / 2.0
+				Art.stroke(ci, PackedVector2Array([Vector2(1040, 120), Vector2(1040 + cos(a) * 70, 120 + sin(a) * 14)]), 6.0, Color("6a6a7a"))
+		"delfino_plaza":
+			for i in 3:
+				var y := 580.0 + i * 24.0 + sin(t * 1.5 + i) * 5.0
+				Art.stroke(ci, Art.curve(Vector2(-PAD, y), Vector2(640, y - 8), Vector2(W + PAD, y), 16), 3.0, Color(1, 1, 1, 0.6))
+		"luigis_mansion":
+			var k := 0.5 + 0.5 * sin(t * 0.9)
+			Art.blob(ci, Vector2(900 + sin(t * 0.7) * 80, 260), 34, 30, Color(1, 1, 1, 0.25 + 0.35 * k), 0.0)
+		"waluigi_stadium":
+			for i in 6:
+				var on := fmod(t * 2.0 + i * 0.5, 2.0) > 1.0
+				Art.dot(ci, Vector2(140 + i * 200, 70), 12, Color("f2c14e") if on else Color("9b5fd0"))
 		_: pass
 
 
@@ -1443,4 +1475,161 @@ static func _tohajiilee(b: Backdrop) -> void:
 	Art.limb(b.ci, PackedVector2Array([Vector2(700, 600), Vector2(720, 470)]), 6, Color("8a5a36"))
 	Art.shape(b.ci, PackedVector2Array([Vector2(684, 600), Vector2(716, 600), Vector2(712, 640), Vector2(688, 640)]), Color("8a96a3"), 3.0)
 	Art.blob(b.ci, Vector2(780, 610), 60, 18, Color("c8a878"), 2.5)
+
+
+
+
+# ----------------------------------------------- Super Mario Brothers --
+
+static func _comet_observatory(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("0a0a2a"), Color("2a2a5a"))
+	SetsMore._stars(b, 60, 17, Color(1, 1, 1, 0.8), 600)
+	# A floating platform in space, a telescope dome and a library with a star door
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 560), 620, 70, 0, PI, 30), Color("c8c0e0"), 5.0, 0.12)
+	SetsExtra._fill_band(b, 560, H + PAD, Color("c8c0e0"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(300, 560), 160, 180, PI, TAU, 20), Color("8fd8e0"), 5.0, 0.12)
+	Art.limb(b.ci, PackedVector2Array([Vector2(300, 400), Vector2(400, 310)]), 22, Color("6a6a8a"))
+	Art.shape(b.ci, SetsExtra._rect(Rect2(820, 360, 240, 200)), Color("f4ecd8"), 4.0)
+	Art.shape(b.ci, Art.star(Vector2(940, 450), 50), Color("f6e05a"), 4.0)
+	Art.blob(b.ci, Vector2(640, 160), 70, 70, Color("f6e05a"), 4.0, 0.12)
+	for sx in [-1, 1]:
+		Art.dot(b.ci, Vector2(640 + sx * 20, 150), 7, INK)
+
+
+static func _delfino_plaza(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("5ac0f0"), Color("d8f4fa"))
+	SetsExtra._water(b, 480, H + PAD, Color("3fb0e0"))
+	# A sunny harbor town: pastel houses, a bell tower and a big shine statue
+	for i in 5:
+		var x: float = -20.0 + i * 270.0
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x, 260, 240, 240)), [Color("f6d6a0"), Color("f2b0b0"), Color("b8e0c8"), Color("f6e0a0"), Color("c8d8f0")][i], 4.0, 0.1)
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 10, 264), Vector2(x + 120, 210), Vector2(x + 250, 264)]), Color("e6702f"), 4.0)
+		b._window(Rect2(x + 80, 320, 80, 80), Color.WHITE, Color("8fc8f0"), false)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(1000, 60, 120, 200)), Color("f4ecd8"), 4.0)
+	Art.blob(b.ci, Vector2(1060, 120), 26, 26, Color("f2c14e"), 3.0)
+	SetsExtra._fill_band(b, 500, 560, Color("e8d8b0"))
+	Art.shape(b.ci, Art.star(Vector2(640, 440), 50), Color("f6e05a"), 4.0)
+
+
+static func _airship(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("e88a4a"), Color("f6d0a0"))
+	# The deck of Bowser's airship: wooden planks, a propeller and a cannon
+	SetsExtra._fill_band(b, 520, H + PAD, Color("8a5a36"))
+	for i in 16:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(-PAD + i * 90, 520), Vector2(-PAD + i * 90 - 30, H + PAD)]), 3.0, Color("6b4428"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(1040, 520), Vector2(1040, 120)]), 18, Color("6a6a7a"))
+	Art.blob(b.ci, Vector2(1040, 120), 18, 18, Color("6a6a7a"), 3.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(200, 480), Vector2(360, 440)]), 50, Color("2b2b33"))
+	Art.blob(b.ci, Vector2(190, 490), 36, 36, Color("2b2b33"), 3.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(560, 520), Vector2(560, 300), Vector2(760, 380), Vector2(560, 400)]), Color("e6452f"), 4.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(560, 520), Vector2(560, 290)]), 8, Color("6b4428"))
+	Art.blob(b.ci, Vector2(640, 360), 26, 22, Color("f4f2e6"), 2.5)
+
+
+static func _luigis_mansion(b: Backdrop) -> void:
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("2a1a3a"), Color("4a3a5a"))
+	b._sky_bottom = Color("4a3a5a")
+	SetsMore._stone_floor(b, 545, Color("5a4a4a"))
+	# A grand dusty hall: a staircase, portraits that watch you and a broken chandelier
+	for i in 7:
+		Art.shape(b.ci, SetsExtra._rect(Rect2(860 + i * 50, 545 - (i + 1) * 46, 500, 46)), Color("6a3a3a"), 3.0)
+	for x in [120, 380]:
+		Art.shape(b.ci, Art.rrect(Rect2(x, 140, 160, 200), 6), Color("c8a050"), 5.0)
+		Art.shape(b.ci, Art.rrect(Rect2(x + 14, 154, 132, 172), 4), Color("3a4a3a"), 2.0)
+		for sx in [-1, 1]:
+			Art.dot(b.ci, Vector2(x + 80 + sx * 20, 220), 7, Color("f2e86a"))
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, -PAD), Vector2(660, 120)]), 3.0)
+	Art.shape(b.ci, Art.rrect(Rect2(600, 120, 120, 20), 6), Color("c8a050"), 3.0)
+
+
+static func _moo_moo_farm(b: Backdrop) -> void:
+	SetsExtra._day_sky(b)
+	SetsMore._rolling(b, 440, Color("8fd06a"), 31, 50.0)
+	SetsExtra._grass(b, 540, Color("7cc95a"))
+	# A big red barn, a silo with a cow face, and a dirt racetrack
+	SetsExtra._house(b, Rect2(760, 280, 360, 260), Color("e6452f"), Color("8a2a1a"), Color("f4ecd8"))
+	Art.shape(b.ci, Art.rrect(Rect2(1140, 180, 110, 360), 50), Color("f4f2ec"), 4.0)
+	for d in [Vector2(1170, 260), Vector2(1220, 330), Vector2(1180, 420)]:
+		Art.blob(b.ci, d, 18, 14, INK, 0.0)
+	Art.shape(b.ci, PackedVector2Array([Vector2(-PAD, 600), Vector2(W + PAD, 580), Vector2(W + PAD, 660), Vector2(-PAD, 680)]), Color("c8a068"), 0.0)
+	SetsExtra._fence(b, 490, 560, Color("f4f2ec"))
+	b._sign(Rect2(220, 400, 300, 56), "MOO MOO FARM", Color("f4f2ec"), Color("e6452f"), 30)
+
+
+static func _yoshis_island(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("8fd8f8"), Color("fff4d0"))
+	# A storybook island: round crayon hills, flower bushes and spotted eggs
+	for i in 4:
+		Art.blob(b.ci, Vector2(-40 + i * 400, 560), 260, 200 - (i % 2) * 60, [Color("8fd06a"), Color("b8e080"), Color("7cc95a"), Color("a8d870")][i], 4.0, 0.08)
+	SetsExtra._fill_band(b, 560, H + PAD, Color("e8c890"))
+	for i in 5:
+		var x: float = 120.0 + i * 260.0
+		Art.blob(b.ci, Vector2(x, 580), 22, 28, Color.WHITE, 3.0)
+		Art.dot(b.ci, Vector2(x - 6, 572), 7, [Color("5ac85a"), Color("e6452f"), Color("4a78d0"), Color("f2c14e"), Color("9b5fd0")][i])
+	for x in [320, 900]:
+		for k in 5:
+			var a: float = k * TAU / 5.0
+			Art.blob(b.ci, Vector2(x + cos(a) * 18, 300 + sin(a) * 18), 12, 12, Color("f28cb8"), 2.5)
+		Art.dot(b.ci, Vector2(x, 300), 9, Color("f2c14e"))
+
+
+static func _donut_plains(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("5c94fc"), Color("cfe8fc"))
+	SetsExtra._mountains(b, 460, Color("8fd8b0"), 21)
+	# Rolling green plains, a donut lift block and a warp pipe
+	SetsMore._mario_ground(b, 540)
+	for i in 3:
+		var x: float = 400.0 + i * 70.0
+		Art.shape(b.ci, Art.rrect(Rect2(x, 300, 60, 40), 8), Color("f2a65a"), 3.5)
+		Art.blob(b.ci, Vector2(x + 30, 320), 10, 7, Color("c8642a"), 2.0)
+	SetsMore._pipe(b, 980, 400, 120, 540)
+	SetsMore._qblock(b, Vector2(780, 280))
+
+
+static func _coconut_mall(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("f6f0d8"), Color("e8dcb8"), 560, Color("d8c8a8"), "tile")
+	# Two floors of shops, escalators and a fountain with palm trees
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 260, W + PAD * 2, 20)), Color("8a96a3"), 4.0)
+	var shops := [["SHROOM", Color("e6452f")], ["KART", Color("4a78d0")], ["BANANA", Color("f2c14e")], ["SHELLS", Color("5aa84a")]]
+	for i in 4:
+		var x: float = 20.0 + i * 320.0
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x, 70, 280, 190)), Color("f4f2ec"), 3.5)
+		b._sign(Rect2(x + 40, 86, 200, 40), shops[i][0], shops[i][1], Color.WHITE, 22)
+	Art.limb(b.ci, PackedVector2Array([Vector2(160, 560), Vector2(420, 280)]), 46, Color("8a96a3"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(1120, 560), Vector2(860, 280)]), 46, Color("8a96a3"))
+	Art.shape(b.ci, Art.arc_pts(Vector2(640, 560), 140, 40, PI, TAU, 16), Color("6fb3e8"), 4.0)
+	Art.limb(b.ci, Art.curve(Vector2(640, 560), Vector2(630, 440), Vector2(650, 360), 8), 12, Color("a8784a"))
+	for k in 5:
+		var a: float = PI + k * PI / 4.0
+		Art.limb(b.ci, Art.curve(Vector2(650, 360), Vector2(650 + cos(a) * 50, 330), Vector2(650 + cos(a) * 90, 380), 6), 10, Color("4faf4a"))
+
+
+static func _toad_town(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("7ec8f6"), Color("e0f4ff"))
+	SetsExtra._grass(b, 540, Color("8fd06a"))
+	# Mushroom houses with spotted roofs, and Peach's castle on the hill
+	for i in 4:
+		var x: float = 80.0 + i * 310.0
+		var col: Color = [Color("e6452f"), Color("4a78d0"), Color("5aa84a"), Color("f2c14e")][i]
+		Art.shape(b.ci, Art.rrect(Rect2(x, 400, 140, 140), 20), Color("f4ecd8"), 4.0)
+		b._door(Rect2(x + 46, 460, 48, 80), Color("8a5a36"))
+		Art.shape(b.ci, Art.arc_pts(Vector2(x + 70, 410), 120, 100, PI, TAU, 18), col, 4.0, 0.1)
+		for d in [Vector2(-50, -30), Vector2(0, -70), Vector2(50, -30)]:
+			Art.blob(b.ci, Vector2(x + 70, 410) + d, 16, 14, Color.WHITE, 2.5)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(560, 90, 160, 110)), Color("f4ecd8"), 3.5)
+	Art.shape(b.ci, PackedVector2Array([Vector2(550, 94), Vector2(640, 40), Vector2(730, 94)]), Color("e6452f"), 3.5)
+
+
+static func _waluigi_stadium(b: Backdrop) -> void:
+	Art.gradient_rect(b.ci, Rect2(-PAD, -PAD, W + PAD * 2, H + PAD * 2), Color("2a1a4a"), Color("5a3a8a"))
+	b._sky_bottom = Color("5a3a8a")
+	# A purple arena with a dirt track, jumps and a giant Waluigi screen
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 100, W + PAD * 2, 280)), Color("4a2a6a"), 4.0)
+	for j in 3:
+		for i in 26:
+			Art.dot(b.ci, Vector2(-20 + i * 52 + (j % 2) * 26, 160 + j * 60), 14, Color.from_hsv(0.75 + fmod(i * 0.07, 0.2), 0.4, 0.95))
+	SetsExtra._fill_band(b, 470, H + PAD, Color("a8784a"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(420, 560), Vector2(560, 470), Vector2(700, 470), Vector2(840, 560)]), Color("8a5a36"), 4.0)
+	Art.shape(b.ci, Art.rrect(Rect2(500, 200, 280, 160), 8), Color("2b2b33"), 5.0)
+	Art.text(b.ci, b.sign_font, Vector2(500, 300), "WAH!", 70, Color("9b5fd0"), 6, HORIZONTAL_ALIGNMENT_CENTER, 280)
 

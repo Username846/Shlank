@@ -1,0 +1,195 @@
+@title Yoshi's Egg Day
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 8
+@description Every year on Yoshi's Island, the Yoshis celebrate Egg Day with a giant egg hunt. This year, Mario, Luigi and Peach are invited. Then the biggest, most special egg goes missing, and a little koopa in a bib has some explaining to do.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC happy
+SCENE yoshis_island cut
+TITLE
+PLACE yoshi center left excited
+PLACE mario midright left happy
+PLACE peach right left happy
+YOSHI (excited): Yoshi! Yoshi yoshi!
+MARIO (happy): Egg Day! The biggest day on Yoshi's Island!
+PEACH (excited): Look at all the colorful eggs! Spotted ones! Striped ones! Sparkly ones!
+YOSHI (happy): Yoshi!
+MARIO (smug): Yoshi says the egg hunt starts at noon. And whoever finds the Golden Egg wins.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC jazz
+SCENE yoshis_island
+PLACE luigi center right nervous
+PLACE toad midleft right excited
+TOAD (excited): Luigi! I'm going to find the Golden Egg! I've been practicing all year!
+LUIGI (nervous): Practicing what?
+TOAD (smug): Looking under things. I'm very good at looking under things.
+LUIGI (happy): That's actually a good skill for an egg hunt.
+TOAD (excited): I know!
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC sneaky
+SCENE yoshis_island
+PLACE bowser_jr center left smug
+PLACE koopa_troopa midright left nervous
+BOWSER_JR (smug): The Golden Egg. The most special egg on the whole island. If I bring it to Papa, he'll be so impressed.
+KOOPA_TROOPA (nervous): Junior, I don't think the Yoshis will like that.
+BOWSER_JR (excited): I'll just borrow it. For a little while.
+KOOPA_TROOPA (nervous): Borrowing is when you ask first.
+BOWSER_JR (smug): I'll ask after.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC action
+SCENE yoshis_island
+CARD Noon...
+PLACE yoshi center left excited
+PLACE toad midright left excited
+SFX fanfare
+NARRATOR: The bell rang. The egg hunt began. Yoshis ran everywhere. Toad looked under everything. Mario jumped on every block.
+TOAD (excited): I found one! A blue one!
+YOSHI (excited): Yoshi!
+SFX ding
+TOAD (happy): And another! A spotted one!
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC tense
+SCENE yoshis_island
+PLACE yoshi center left scared
+PLACE mario midright left surprised
+SFX gasp
+YOSHI (scared): YOSHI! Yoshi yoshi!
+MARIO (surprised): What's wrong, Yoshi?
+YOSHI (sad): Yoshi...
+MARIO (surprised): The Golden Egg? It's gone? Not hidden, but gone?
+YOSHI (sad): Yoshi.
+MARIO (angry): Somebody took it!
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC sad
+SCENE yoshis_island
+PLACE yoshi center left sad
+PLACE luigi midright left nervous
+YOSHI (sad): Yoshi...
+LUIGI (nervous): Don't worry, Yoshi. We'll find the Golden Egg.
+YOSHI (sad): Yoshi yoshi.
+LUIGI (surprised): It's special because it's the oldest egg on the island? It's been waiting a hundred years?
+YOSHI (sad): Yoshi.
+LUIGI (angry): Then we're finding it. Right now.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC sneaky 2
+SCENE yoshis_island
+PLACE peach center left smug
+PLACE luigi midright left nervous
+PEACH (smug): Luigi. Look at these footprints. Little claws. Going toward the beach.
+LUIGI (nervous): Claws? Like a dinosaur?
+PEACH (smug): Smaller. Like a koopa.
+LUIGI (surprised): A small koopa? Hmm. Who do we know that's small and a koopa?
+PEACH (smug): ...You know exactly who.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC jazz
+SCENE yoshis_island
+PLACE bowser_jr center left excited
+PLACE koopa_troopa midright left nervous
+BOWSER_JR (excited): We did it! The Golden Egg! It's so shiny!
+KOOPA_TROOPA (nervous): It's also very warm, Junior.
+BOWSER_JR (smug): Gold is warm. Everybody knows that.
+KOOPA_TROOPA (nervous): Is gold supposed to tick?
+BOWSER_JR (surprised): ...Tick?
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC jazz 2
+SCENE yoshis_island
+PLACE bowser_jr center left nervous
+PLACE koopa_troopa midright left nervous
+BOWSER_JR (nervous): Koopa. The egg is... moving.
+KOOPA_TROOPA (scared): Moving?
+BOWSER_JR (nervous): It's wobbling. And cracking. And I think something is knocking from the inside.
+SFX squeak
+KOOPA_TROOPA (scared): Junior. That's not a decoration egg. That's a REAL egg!
+BOWSER_JR (scared): It's HATCHING!
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC happy 2
+SCENE yoshis_island
+PLACE bowser_jr center left surprised
+SFX pop
+NARRATOR: The Golden Egg cracked open. And out popped a tiny baby Yoshi. Golden yellow, with big round eyes. It looked at Bowser Jr. And it smiled.
+BOWSER_JR (surprised): ...Hi.
+NARRATOR: The baby Yoshi hopped onto Bowser Jr.'s head and went to sleep.
+BOWSER_JR (shy): It thinks I'm its mama.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC tense
+SCENE yoshis_island
+PLACE mario center right angry
+PLACE bowser_jr midleft right nervous
+PLACE yoshi midright left surprised
+MARIO (angry): Bowser Jr.! You took the Golden Egg!
+BOWSER_JR (nervous): I'm sorry! I thought it was a treasure! Not a baby!
+YOSHI (surprised): Yoshi?!
+MARIO (surprised): The egg hatched?
+BOWSER_JR (sad): And it won't get off my head.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC sad
+SCENE yoshis_island
+PLACE bowser_jr center left sad
+PLACE yoshi midright left happy
+BOWSER_JR (sad): Here. Take the baby back. It belongs with you.
+YOSHI (happy): Yoshi.
+NARRATOR: Yoshi reached for the baby. But the baby held on to Bowser Jr.'s head even tighter.
+BOWSER_JR (surprised): It doesn't want to go!
+YOSHI (smug): Yoshi yoshi.
+BOWSER_JR (nervous): What did he say?
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC jazz
+SCENE yoshis_island
+PLACE peach center left happy
+PLACE bowser_jr midright left surprised
+PEACH (happy): Yoshi says baby Yoshis bond with the first face they see. The baby thinks you're family now.
+BOWSER_JR (surprised): Family? Me? I'm a koopa!
+PEACH (smug): Families come in all shapes, Junior.
+BOWSER_JR (nervous): But I can't take a baby to Papa's castle. It's all lava.
+PEACH (happy): Then you'll have to visit. Every week.
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC happy 2
+SCENE yoshis_island
+PLACE mario center right happy
+PLACE yoshi midleft right excited
+MARIO (happy): Yoshi! The baby is so tiny. And golden!
+YOSHI (excited): Yoshi! Yoshi yoshi!
+MARIO (surprised): She can already flutter jump? At one hour old?
+YOSHI (smug): Yoshi.
+MARIO (excited): She's going to be the best jumper on the island!
+YOSHI (happy): Yoshi!
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC happy
+SCENE yoshis_island
+PLACE toad center left excited
+PLACE yoshi midright left happy
+SFX fanfare
+TOAD (excited): The winner of the Egg Hunt! With seventy-three eggs! Me! Toad!
+YOSHI (happy): Yoshi!
+TOAD (smug): I told you. I'm very good at looking under things.
+YOSHI (excited): Yoshi yoshi!
+TOAD (happy): And the Golden Egg prize goes to... the baby! For being the best surprise ever!
+
+# ------------------------------------------------------------ YOSHI'S ISLAND
+MUSIC romantic
+SCENE yoshis_island
+CARD Sunset...
+PLACE bowser_jr center left happy
+PLACE mario midright left happy
+BOWSER_JR (happy): Mario. I'm going to come back every Saturday. To visit the baby.
+MARIO (happy): That's a good big brother.
+BOWSER_JR (smug): Don't tell Papa I'm a good big brother.
+MARIO (smug): Mario keeps secrets.
+BOWSER_JR (shy): ...Bye, little Goldie.
+END

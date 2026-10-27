@@ -1,0 +1,192 @@
+@title Waluigi Time
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 1
+@description Everybody's invited to the Mushroom Kingdom Kart Cup except Waluigi. Again. So Waluigi builds his own stadium, throws his own race and invites everybody. Nobody comes. Then Luigi shows up.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy
+SCENE mushroom_kingdom cut
+TITLE
+PLACE toad center left excited
+PLACE mario midright left happy
+TOAD (excited): The Mushroom Kingdom Kart Cup! Invitations for everybody! Mario! Luigi! Peach! Daisy! Yoshi! Even Bowser!
+MARIO (happy): Let's-a go! I love the Kart Cup!
+TOAD (happy): And Wario! And Donkey Kong! And the Koopas!
+MARIO (surprised): What about Waluigi?
+TOAD (nervous): Wa-who?
+MARIO (sad): ...Oh no.
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC sad
+SCENE waluigi_stadium
+PLACE waluigi center left angry
+PLACE wario midright left smug
+WALUIGI (angry): WAH! No invitation! Again! Every year, no invitation!
+WARIO (smug): I got one. Look. It's gold. It has my name on it.
+WALUIGI (sad): Why does nobody remember Waluigi?
+WARIO (smug): Because you're tall and purple and you say "wah" too much.
+WALUIGI (angry): YOU say "wah" too much!
+WARIO (happy): I say it the right amount.
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC sneaky
+SCENE waluigi_stadium
+PLACE waluigi center left excited
+WALUIGI (excited): Fine! If nobody invites Waluigi, Waluigi invites everybody!
+WALUIGI (smug): I'll build my own stadium! The Waluigi Stadium! With jumps! And mud! And a giant screen with my face on it!
+SFX powerup
+WALUIGI (excited): Waluigi time!
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC action
+SCENE waluigi_stadium
+CARD One week later...
+PLACE waluigi center left excited
+PLACE goomba midright left surprised
+SFX thud
+NARRATOR: Waluigi built a stadium. He built it himself. With a shovel, three hundred bricks and a lot of shouting.
+GOOMBA (surprised): Wow. You built all this?
+WALUIGI (smug): Every brick! Every jump! Every seat!
+GOOMBA (nervous): Why are all the seats purple?
+WALUIGI (angry): Because purple is the BEST color!
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC jazz 2
+SCENE waluigi_stadium
+PLACE waluigi center left excited
+PLACE koopa_troopa midright left nervous
+WALUIGI (excited): Koopa! Deliver these invitations! To everybody in the kingdom!
+KOOPA_TROOPA (nervous): All of these? There are two hundred!
+WALUIGI (smug): Two hundred and one. One for you.
+KOOPA_TROOPA (surprised): For me? You're inviting me?
+WALUIGI (happy): Waluigi invites EVERYBODY. That's the whole point.
+KOOPA_TROOPA (shy): ...Nobody ever invites the Koopas, either.
+
+# ------------------------------------------------------------ PEACH'S CASTLE
+MUSIC jazz
+SCENE peach_castle
+PLACE peach center left surprised
+PLACE daisy midright left surprised
+PEACH (surprised): Daisy. Did you get this? An invitation to the "Waluigi Cup." It's... purple.
+DAISY (surprised): It says "Saturday at Waluigi Stadium. Bring friends. PLEASE bring friends."
+PEACH (nervous): That's the same day as the Kart Cup.
+DAISY (sad): Oh. That's awkward.
+PEACH (nervous): ...Very awkward.
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC sad
+SCENE waluigi_stadium
+CARD Saturday...
+PLACE waluigi center left nervous
+NARRATOR: On Saturday morning, Waluigi stood in his brand-new stadium. Every seat was clean. Every jump was ready. The giant screen showed his face. And nobody came.
+WALUIGI (nervous): Maybe they're late. Everybody's late sometimes.
+WALUIGI (sad): ...Very late.
+WALUIGI (sad): Wah.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy 2
+SCENE mushroom_kingdom
+CARD The Kart Cup...
+PLACE toad center left excited
+PLACE peach midright left happy
+TOAD (excited): Racers, start your engines! The Kart Cup begins in ten minutes!
+PEACH (happy): Everyone's here. Mario, Daisy, Yoshi, Donkey Kong...
+TOAD (nervous): Except Luigi. Has anybody seen Luigi?
+PEACH (surprised): He's never late for the Kart Cup.
+TOAD (smug): Maybe he's practicing his victory pose.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC jazz 2
+SCENE mushroom_kingdom
+PLACE luigi center right nervous
+PLACE mario midleft right excited
+MARIO (excited): Luigi! The Kart Cup is starting! Come on!
+LUIGI (nervous): Mario. I saw Waluigi's stadium on the way here. He's standing there all alone.
+MARIO (surprised): All alone?
+LUIGI (sad): I know what that feels like. Everybody always forgets about Player Two.
+MARIO (nervous): ...Luigi?
+LUIGI (smug): You go to the Kart Cup, Mario. I'm going to Waluigi's.
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC happy
+SCENE waluigi_stadium
+PLACE waluigi center left sad
+ENTER luigi right midright happy
+LUIGI (happy): Hi, Waluigi. Is this the Waluigi Cup?
+WALUIGI (surprised): Luigi? You came? To MY race?
+LUIGI (smug): I got an invitation. It was very purple.
+WALUIGI (excited): WAH! Somebody came! Somebody actually came!
+LUIGI (happy): Want to race?
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC action
+SCENE waluigi_stadium
+PLACE waluigi center left excited
+PLACE luigi midright left excited
+SFX drumroll
+NARRATOR: And so the first Waluigi Cup began. Two racers. One track. Thirty purple seats, all empty.
+SFX whoosh
+WALUIGI (excited): Waluigi takes the lead!
+LUIGI (excited): Not for long! Luigi number one!
+SFX boing
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC sneaky
+SCENE mushroom_kingdom
+PLACE mario center right nervous
+PLACE peach midleft right nervous
+MARIO (nervous): Princess. The Kart Cup isn't the same without Luigi.
+PEACH (nervous): I keep thinking about Waluigi. All alone in his stadium.
+MARIO (smug): You know what? Let's-a go to Waluigi's.
+PEACH (excited): All of us?
+MARIO (excited): Everybody!
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC happy 2
+SCENE waluigi_stadium
+PLACE waluigi center left surprised
+PLACE luigi midright left happy
+SFX fanfare
+NARRATOR: Over the hill came karts. Mario. Peach. Daisy. Yoshi. Toad. Donkey Kong. Even Wario. Every racer from the Kart Cup came driving into Waluigi Stadium.
+WALUIGI (surprised): They're... they're all here.
+LUIGI (happy): Told you, Waluigi. You just needed one friend to start.
+WALUIGI (excited): WAH! WALUIGI CUP! EVERYBODY RACE!
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC jazz
+SCENE waluigi_stadium
+PLACE daisy center left excited
+PLACE yoshi midright left excited
+DAISY (excited): Hi, I'm Daisy! And this track is AMAZING!
+YOSHI (excited): Yoshi!
+DAISY (happy): Look at that jump! It goes over the mud AND the other mud!
+YOSHI (happy): Yoshi yoshi!
+DAISY (smug): Yoshi says the purple seats are actually really comfy.
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC action 2
+SCENE waluigi_stadium
+PLACE wario center left angry
+PLACE waluigi midright left smug
+SFX whoosh
+WARIO (angry): How are you winning? I've never seen you win anything!
+WALUIGI (smug): I built every jump. I know every shortcut.
+SFX boing
+WARIO (scared): WAAAH! I'm in the mud!
+WALUIGI (excited): Waluigi WINS!
+SFX fanfare
+
+# ------------------------------------------------------------ WALUIGI STADIUM
+MUSIC romantic
+SCENE waluigi_stadium
+CARD Sunset...
+PLACE waluigi center left happy
+PLACE luigi midright left happy
+WALUIGI (happy): Luigi. Thank you. You were the first one to come.
+LUIGI (shy): Player Twos have to stick together.
+WALUIGI (smug): Next year, the Waluigi Cup and the Kart Cup are the same race.
+LUIGI (happy): In your stadium?
+WALUIGI (excited): Purple seats for everybody! Wah!
+END

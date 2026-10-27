@@ -1,0 +1,170 @@
+@title Vacation in Delfino
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 5
+@description Mario, Peach and Toad fly to Isle Delfino for a relaxing vacation. Mario has never had a vacation. As soon as they land, someone covers the whole plaza in goopy paint, and the locals blame a man in a red cap.
+
+# ------------------------------------------------------------ PEACH'S CASTLE
+MUSIC happy
+SCENE peach_castle cut
+TITLE
+PLACE peach center left excited
+PLACE mario midright left surprised
+PEACH (excited): Mario! I've planned a vacation! Isle Delfino! Sunshine, beaches and fruit smoothies!
+MARIO (surprised): A vacation? Mario doesn't take vacations.
+PEACH (smug): You've saved me forty-two times this year. You need a break.
+MARIO (nervous): What if somebody needs saving?
+PEACH (happy): Then Luigi can save them.
+MARIO (smug): ...Okay. Let's-a go!
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC happy 2
+SCENE delfino_plaza
+CARD Isle Delfino...
+PLACE mario center right excited
+PLACE toad midleft right excited
+MARIO (excited): Wow! The water! The sunshine! The bell tower!
+TOAD (excited): And the fruit market! Bananas! Pineapples! Durians!
+MARIO (happy): Vacation! Mario is on vacation!
+TOAD (nervous): Um, Mario. Why is the fountain covered in brown goop?
+MARIO (surprised): ...Uh oh.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC tense
+SCENE delfino_plaza
+PLACE mario center right surprised
+PLACE peach midleft right nervous
+SFX splat
+NARRATOR: Everywhere they looked, there was goop. Brown, sticky, smelly goop. On the walls. On the statues. On the giant golden shine in the middle of the plaza.
+PEACH (nervous): Who would do this to such a beautiful town?
+MARIO (surprised): And look! A painted picture on the wall. A guy with a red cap and a big M!
+PEACH (surprised): Mario... that looks like you.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC sneaky
+SCENE delfino_plaza
+PLACE toad center left scared
+PLACE mario midright left nervous
+NARRATOR: The townspeople of Delfino gathered in the plaza. They pointed at the painting. Then they pointed at Mario.
+TOAD (scared): Mario, they think YOU did it!
+MARIO (nervous): Mario did not paint anything! Mario was on a plane!
+TOAD (nervous): They're saying you have to clean it all up. Or go to jail.
+MARIO (sad): ...So much for vacation.
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC sneaky 2
+SCENE airship
+PLACE bowser_jr center left smug
+PLACE goomba midright left nervous
+BOWSER_JR (smug): Ha! Ha ha! My magic paintbrush works perfectly! Everyone thinks Mario made the mess!
+GOOMBA (nervous): Junior, I thought you and Mario were getting along now.
+BOWSER_JR (angry): That was Father's Day! This is regular day!
+GOOMBA (nervous): What's the plan?
+BOWSER_JR (excited): Mario cleans all day, gets tired, and then Papa wins!
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC jazz
+SCENE delfino_plaza
+PLACE toad center left excited
+PLACE mario midright left surprised
+TOAD (excited): Mario! Professor E. Gadd sent you something! A water backpack! It's called F.L.U.D.D.!
+MARIO (surprised): A water backpack?
+SFX splash
+TOAD (happy): It sprays water! For cleaning goop!
+MARIO (excited): Mario can clean the whole town with this!
+TOAD (smug): And it can make you hover. For about three seconds.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC action
+SCENE delfino_plaza
+PLACE mario center right excited
+SFX splash
+NARRATOR: Mario sprayed. And sprayed. He cleaned the fountain. He cleaned the market. He hovered up and cleaned the bell tower.
+MARIO (excited): Wahoo! This is actually fun!
+SFX splash
+NARRATOR: And as the goop washed away, the townspeople started to smile. One of them even handed Mario a smoothie.
+MARIO (happy): A smoothie! Vacation is back!
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC happy 2
+SCENE delfino_plaza
+PLACE mario center right excited
+PLACE toad midleft right happy
+SFX splash
+MARIO (excited): Toad! Look! Mario can hover over the water!
+TOAD (happy): For three seconds!
+SFX splash
+MARIO (surprised): ...And then Mario falls in the water.
+TOAD (smug): For three seconds of hovering, that's a very big splash.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC sneaky
+SCENE delfino_plaza
+PLACE peach center left smug
+PLACE toad midright left surprised
+PEACH (smug): Toad. Look at the footprints in the goop. They're small. And they have claws.
+TOAD (surprised): Mario doesn't have claws!
+PEACH (smug): And look. A little bib. Stuck on a nail.
+TOAD (excited): It's Bowser Jr.!
+PEACH (nervous): ...And he's painting the bell tower right now.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC action 2
+SCENE delfino_plaza
+PLACE bowser_jr center left smug
+PLACE mario midright left angry
+SFX splat
+BOWSER_JR (smug): Ha! You'll never clean faster than I paint, Mario!
+MARIO (angry): Bowser Jr.! So it was you!
+BOWSER_JR (excited): My magic brush is unstoppable!
+SFX splash
+NARRATOR: Mario sprayed the brush. The paint washed right off. And Bowser Jr. got soaked.
+BOWSER_JR (sad): ...Okay, a little stoppable.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC tense
+SCENE delfino_plaza
+PLACE peach center left angry
+PLACE bowser_jr midright left nervous
+PEACH (angry): Junior. Why would you ruin a whole town?
+BOWSER_JR (nervous): Because... Mario gets all the attention! Everybody loves Mario! Nobody notices me unless I'm kidnapping somebody!
+PEACH (surprised): Oh, Junior.
+BOWSER_JR (sad): I just wanted to be good at something. Something big.
+PEACH (smug): You're good at painting. That was a VERY good painting of Mario.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC happy
+SCENE delfino_plaza
+PLACE mario center right happy
+PLACE bowser_jr midleft right surprised
+MARIO (happy): Bowser Jr. The town needs a new mural. On the big wall. Something happy.
+BOWSER_JR (surprised): You want ME to paint it?
+MARIO (smug): With regular paint. Not goop.
+BOWSER_JR (excited): I can paint the ocean! And the shine! And my papa!
+MARIO (happy): Maybe just the ocean.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC jazz 2
+SCENE delfino_plaza
+CARD The next day...
+PLACE peach center left happy
+PLACE toad midright left excited
+NARRATOR: Bowser Jr. painted all day. A beautiful mural of the sea, the sun, the bell tower and a little Koopa waving.
+TOAD (excited): Princess, it's actually really good!
+PEACH (happy): The townspeople love it. They're asking him to paint the hotel next.
+TOAD (smug): Bowser Jr., the official artist of Isle Delfino.
+PEACH (smug): His papa is going to be so confused.
+
+# ------------------------------------------------------------ DELFINO PLAZA
+MUSIC romantic
+SCENE delfino_plaza
+CARD Sunset...
+PLACE mario center right happy
+PLACE peach midleft right happy
+MARIO (happy): Princess. This was the best vacation Mario ever had.
+PEACH (smug): You spent the whole time cleaning.
+MARIO (smug): With a water backpack! And smoothies!
+PEACH (happy): Next year, we'll try a vacation with no goop.
+MARIO (nervous): ...Mario will bring the backpack anyway.
+END

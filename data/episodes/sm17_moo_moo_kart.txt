@@ -1,0 +1,193 @@
+@title Moo Moo Kart
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 7
+@description The Kart Cup comes to Moo Moo Farm, and the track is full of cows. Wario and Waluigi have a secret plan to win: banana peels, lots of them. Yoshi is very hungry, and bananas are his favorite.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC happy
+SCENE moo_moo_farm cut
+TITLE
+PLACE toad center left excited
+PLACE mario midright left excited
+TOAD (excited): Welcome to the Moo Moo Farm Kart Cup! Three laps! One track! Forty-two cows!
+MARIO (excited): Let's-a go! Mario's kart is ready!
+TOAD (nervous): Remember, racers. The cows have the right of way. Always.
+MARIO (surprised): Even in a race?
+TOAD (smug): Especially in a race. They're very slow and very stubborn.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC sneaky
+SCENE moo_moo_farm
+PLACE wario center left smug
+PLACE waluigi midright left excited
+WARIO (smug): Waluigi. The plan. You have the bananas?
+WALUIGI (excited): Three hundred banana peels! Wah! In the trunk!
+WARIO (happy): We drop them on the last turn. Everybody slips. We win.
+WALUIGI (nervous): What if we slip?
+WARIO (smug): Wario never slips. Wario is too heavy to slip.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC jazz
+SCENE moo_moo_farm
+PLACE yoshi center left happy
+PLACE luigi midright left happy
+YOSHI (happy): Yoshi!
+LUIGI (happy): Ready to race, Yoshi?
+YOSHI (excited): Yoshi yoshi!
+LUIGI (surprised): You're hungry? Already? You just ate eleven apples.
+YOSHI (sad): Yoshi...
+LUIGI (smug): Okay, okay. After the race, we'll get you a snack.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC action
+SCENE moo_moo_farm
+CARD The race begins...
+PLACE mario center right excited
+PLACE peach midleft right excited
+SFX drumroll
+SFX whoosh
+NARRATOR: Three. Two. One. GO! The karts zoomed off the starting line. Mario took the lead. Peach was right behind him. Daisy was right behind Peach.
+MARIO (excited): Wahoo!
+PEACH (excited): Watch out, Mario! Cow on the left!
+SFX boing
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC action 2
+SCENE moo_moo_farm
+PLACE mario center right surprised
+PLACE donkey_kong midleft right happy
+NARRATOR: A cow stood in the middle of the track. It did not move. It chewed. It looked at Mario. It chewed some more.
+MARIO (surprised): Excuse me, Mrs. Cow! Mario needs to pass!
+DONKEY_KONG (happy): Ooh ooh! Cow!
+SFX thud
+NARRATOR: Donkey Kong drove right into the cow. The cow did not move. Donkey Kong bounced backwards three feet.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC happy 2
+SCENE moo_moo_farm
+PLACE toad center left excited
+PLACE peach midright left happy
+TOAD (excited): And Peach takes the hairpin turn! Perfect drift!
+PEACH (happy): Thank you, Toad!
+TOAD (surprised): Wait, why are you talking to me? You're racing!
+PEACH (smug): I'm very good at multitasking.
+SFX whoosh
+TOAD (excited): She's gone! She's already in second place!
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC jazz 2
+SCENE moo_moo_farm
+CARD Lap two...
+PLACE daisy center left excited
+PLACE luigi midright left nervous
+DAISY (excited): Luigi! I'm passing you! Hi, I'm Daisy!
+LUIGI (nervous): I know who you are, Daisy!
+DAISY (smug): Just making sure you remember. When I WIN.
+LUIGI (smug): Not if Yoshi wins first.
+DAISY (surprised): Where IS Yoshi?
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC sneaky 2
+SCENE moo_moo_farm
+PLACE yoshi center left excited
+SFX chomp
+NARRATOR: Yoshi was not racing. Yoshi had stopped his kart by the barn. Yoshi had smelled something wonderful. Something yellow. Something in Wario's trunk.
+YOSHI (excited): Yoshi?
+SFX chomp
+YOSHI (happy): YOSHI!
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC jazz
+SCENE moo_moo_farm
+PLACE donkey_kong center left happy
+PLACE luigi midright left surprised
+DONKEY_KONG (happy): Ooh ooh! Cow friend!
+LUIGI (surprised): Donkey Kong, are you... riding the cow?
+DONKEY_KONG (excited): Ooh ooh ah ah!
+LUIGI (smug): I don't think that's allowed in a kart race.
+NARRATOR: The cow did not care about the rules. The cow walked very slowly across the finish line. Donkey Kong cheered.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC tense
+SCENE moo_moo_farm
+CARD The last lap...
+PLACE wario center left smug
+PLACE waluigi midright left excited
+WARIO (smug): Last turn! Now, Waluigi! Drop the bananas!
+WALUIGI (excited): Dropping! Opening the trunk!
+WALUIGI (surprised): ...Wario. The trunk is empty.
+WARIO (angry): EMPTY?! Three hundred banana peels! Where did they go?!
+WALUIGI (nervous): There's a little green tail sticking out of the barn.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC jazz
+SCENE moo_moo_farm
+PLACE yoshi center left happy
+PLACE wario midright left angry
+YOSHI (happy): Yoshi! Yoshi yoshi!
+WARIO (angry): You ATE them?! All of them?!
+YOSHI (smug): Yoshi.
+NARRATOR: Yoshi had not eaten the peels. Yoshi had eaten the bananas. Inside the peels. Very carefully. And then he had put all the empty peels back in a neat pile.
+WARIO (surprised): ...He folded them.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC action
+SCENE moo_moo_farm
+PLACE mario center right excited
+PLACE peach midleft right excited
+SFX whoosh
+NARRATOR: Meanwhile, on the last stretch, Mario and Peach were neck and neck. The finish line was right ahead. And so was a cow.
+PEACH (excited): Mario! The cow!
+MARIO (excited): Mario jumps!
+SFX jump_8bit
+NARRATOR: Mario jumped his kart right over the cow. Peach drove around the cow. They crossed the line at exactly the same time.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC happy
+SCENE moo_moo_farm
+PLACE toad center left excited
+PLACE mario midright left surprised
+PLACE peach right left surprised
+SFX fanfare
+TOAD (excited): It's a tie! Mario and Peach! Co-champions of the Moo Moo Farm Kart Cup!
+MARIO (surprised): A tie?
+PEACH (happy): I'll take it! We can share the trophy!
+MARIO (happy): Mario likes sharing!
+TOAD (smug): And the cow gets an honorary medal. For not moving.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC sneaky 2
+SCENE moo_moo_farm
+PLACE daisy center left surprised
+PLACE toad midright left smug
+DAISY (surprised): Toad. Why does the cow have a medal?
+TOAD (smug): Most Valuable Cow. She didn't move once in three laps.
+DAISY (happy): That's actually impressive.
+TOAD (excited): She's coming back next year! As the official cow of the Kart Cup!
+DAISY (smug): Hi, cow. I'm Daisy.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC jazz 2
+SCENE moo_moo_farm
+PLACE wario center left sad
+PLACE waluigi midright left sad
+WARIO (sad): Last place. Wario came in last.
+WALUIGI (sad): Waluigi came in second-to-last.
+WARIO (angry): Because a dinosaur ate our bananas!
+WALUIGI (smug): Maybe next time, we just... race normal?
+WARIO (surprised): ...Normal? Wario has never tried normal.
+
+# ------------------------------------------------------------ MOO MOO FARM
+MUSIC romantic
+SCENE moo_moo_farm
+CARD Sunset...
+PLACE luigi center right happy
+PLACE yoshi midleft right happy
+LUIGI (happy): Yoshi. You didn't finish the race.
+YOSHI (happy): Yoshi!
+LUIGI (smug): But you saved the whole race from the banana trap. You're a hero.
+YOSHI (excited): Yoshi yoshi!
+LUIGI (happy): ...And you're still hungry, aren't you?
+END

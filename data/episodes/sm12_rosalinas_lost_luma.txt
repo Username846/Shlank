@@ -1,0 +1,176 @@
+@title Rosalina's Lost Luma
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 2
+@description One of Rosalina's little star children, a Luma named Polari, has fallen out of the sky and landed somewhere in the Mushroom Kingdom. Rosalina asks Mario and Luigi for help. Bowser finds the Luma first, and decides to keep it.
+
+# ------------------------------------------------------------ COMET OBSERVATORY
+MUSIC sad
+SCENE comet_observatory cut
+TITLE
+PLACE rosalina center left sad
+NARRATOR: Far above the Mushroom Kingdom, in the Comet Observatory, Rosalina counted her Lumas. Like she did every night. One hundred and one. One hundred and two.
+ROSALINA (sad): One hundred and three... One is missing.
+ROSALINA (nervous): Little Polari. The smallest one. He fell during the meteor shower.
+ROSALINA (sad): I must find him. But I cannot leave the Observatory alone for long.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC jazz
+SCENE mushroom_kingdom
+PLACE mario center right surprised
+PLACE luigi midleft right surprised
+PLACE rosalina midright left neutral
+SFX sparkle
+NARRATOR: A beam of starlight came down from the sky. And Rosalina floated down with it.
+MARIO (surprised): Rosalina! From space!
+LUIGI (surprised): Wow. She just... floats.
+ROSALINA (sad): Mario. Luigi. I need your help. One of my Lumas has fallen to your kingdom.
+MARIO (happy): A lost little star? We'll find him! Let's-a go!
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky
+SCENE bowser_castle
+PLACE bowser center left surprised
+PLACE bowser_jr midright left excited
+BOWSER_JR (excited): Papa! Look what I found in the lava moat! A little star! It talks!
+BOWSER (surprised): A Luma? One of Rosalina's star babies?
+BOWSER_JR (happy): Can we keep him? Please, Papa? I'll feed him and walk him and everything!
+BOWSER (smug): Gwahaha! A star with cosmic power? Of course we'll keep him!
+BOWSER_JR (excited): His name is Sparky now!
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC jazz 2
+SCENE pipe_land
+PLACE mario center right nervous
+PLACE luigi midleft right nervous
+PLACE rosalina midright left sad
+MARIO (nervous): We looked in every pipe. No Luma.
+LUIGI (nervous): I looked in the scary pipes, too. Very scary. No Luma.
+ROSALINA (sad): Lumas love warm places. And they're drawn to bright light.
+MARIO (surprised): Warm and bright... Like lava?
+LUIGI (scared): Oh no. Not Bowser's castle.
+MARIO (smug): Luigi. It's always Bowser's castle.
+
+# ------------------------------------------------------------ COMET OBSERVATORY
+MUSIC sad
+SCENE comet_observatory
+PLACE rosalina center left sad
+NARRATOR: Back in the Comet Observatory, the other Lumas floated in a worried little circle. They were missing their brother.
+ROSALINA (sad): Don't worry, little ones. Mario and Luigi are very good at finding things.
+ROSALINA (smug): Mario once found a princess in eight different castles.
+ROSALINA (happy): We will bring Polari home. I promise.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC happy
+SCENE bowser_castle
+PLACE bowser_jr center left happy
+PLACE bowser midright left nervous
+BOWSER_JR (happy): Look, Papa! Sparky can spin! And glow! And he likes my drawings!
+BOWSER (nervous): Junior. The star needs to help with Papa's plan. Cosmic power. World domination.
+BOWSER_JR (sad): But he's my friend, Papa.
+BOWSER (nervous): ...Friends can do world domination together.
+BOWSER_JR (smug): He said he wants to play tag.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky 2
+SCENE bowser_castle
+PLACE mario center right excited
+PLACE luigi midleft right nervous
+SFX jump_8bit
+MARIO (excited): We're in! Shh. Quiet as a Goomba.
+LUIGI (nervous): Goombas aren't quiet, Mario. They go "bwomp bwomp bwomp."
+SFX footstep
+MARIO (smug): Then quiet as a Boo.
+LUIGI (scared): Please don't mention Boos.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC jazz
+SCENE bowser_castle
+PLACE koopa_troopa center left nervous
+PLACE goomba midright left nervous
+KOOPA_TROOPA (nervous): Goomba. Mario's in the castle. Should we stop him?
+GOOMBA (nervous): Every time we try, he jumps on us.
+KOOPA_TROOPA (sad): Every single time.
+GOOMBA (smug): So let's take a coffee break. A long one.
+KOOPA_TROOPA (happy): Best idea you've ever had.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC tense
+SCENE bowser_castle
+PLACE bowser center left angry
+PLACE mario midright left angry
+PLACE bowser_jr farleft right nervous
+BOWSER (angry): MARIO! I knew you'd come for the star!
+MARIO (angry): Give back the Luma, Bowser! Rosalina is worried sick!
+BOWSER (smug): Never! This star will give me cosmic power! Gwahaha!
+BOWSER_JR (nervous): Papa... he's not a power. He's Sparky.
+BOWSER (surprised): Junior?
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sad
+SCENE bowser_castle
+PLACE bowser_jr center left sad
+PLACE bowser midright left nervous
+BOWSER_JR (sad): Papa. Sparky misses his mama. He told me. He cries at night when he thinks I'm asleep.
+BOWSER (nervous): Stars cry?
+BOWSER_JR (sad): Little sparkly tears. They burn holes in my pillow.
+BOWSER (sad): ...Junior. If you were lost, Papa would look for you everywhere.
+BOWSER_JR (shy): I know, Papa.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC romantic
+SCENE bowser_castle
+PLACE rosalina center left surprised
+PLACE bowser_jr midright left sad
+SFX sparkle
+NARRATOR: Then the castle filled with soft blue light. Rosalina floated through the doorway, and the little Luma zoomed straight into her arms.
+ROSALINA (happy): Polari. My little one. You're safe.
+BOWSER_JR (sad): His name's Polari? I called him Sparky.
+ROSALINA (happy): He told me. He says you were very kind to him.
+BOWSER_JR (shy): ...He's a good star.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC jazz
+SCENE bowser_castle
+PLACE rosalina center left happy
+PLACE bowser midright left nervous
+ROSALINA (happy): Bowser. Thank you for keeping him warm.
+BOWSER (nervous): I... uh... was going to take over the universe with him.
+ROSALINA (smug): I know.
+BOWSER (sad): ...Sorry.
+ROSALINA (happy): Your son has a good heart, Bowser. Take care of it.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC happy 2
+SCENE bowser_castle
+PLACE rosalina center left happy
+PLACE bowser_jr midright left surprised
+SFX sparkle
+ROSALINA (happy): Junior. Polari would like to give you something.
+NARRATOR: The little Luma spun around three times and left a tiny glowing star on Bowser Jr.'s bib.
+BOWSER_JR (surprised): A star? For me?
+ROSALINA (smug): Whenever you look up at night, the brightest star will be him. Saying hello.
+BOWSER_JR (excited): Bye, Sparky! I mean Polari! Bye!
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC jazz 2
+SCENE mushroom_kingdom
+PLACE mario center right happy
+PLACE luigi midleft right surprised
+LUIGI (surprised): Mario. We didn't even have to fight Bowser.
+MARIO (happy): Bowser Jr. did the right thing.
+LUIGI (smug): And we didn't have to jump on anybody.
+MARIO (nervous): ...I kind of wanted to jump on somebody.
+LUIGI (happy): Next time, brother.
+
+# ------------------------------------------------------------ COMET OBSERVATORY
+MUSIC romantic 2
+SCENE comet_observatory
+CARD That night...
+PLACE rosalina center left happy
+SFX sparkle
+ROSALINA (happy): One hundred and one. One hundred and two. One hundred and three. Everyone is home.
+NARRATOR: Far below, on a balcony in Bowser's castle, a little koopa looked up at the sky. And the brightest star twinkled back.
+ROSALINA (smug): Polari. Go on. Say goodnight to your friend.
+END

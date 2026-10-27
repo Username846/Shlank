@@ -3312,6 +3312,113 @@
 			"Kooper Troopa"
 		]
 	},
+	"waluigi": {
+		"name": "Waluigi",
+		"style": "waluigi",
+		"color": "#7a3fa0",
+		"width": 58,
+		"bio": "Wario's tall, skinny partner in mischief. Never gets invited to anything. Says 'Wah!' a lot.",
+		"catchphrase": "Wah! Waluigi time!",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.15,
+			"babble": 310,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Super Mario Brothers",
+		"home": "waluigi_stadium"
+	},
+	"rosalina": {
+		"name": "Rosalina",
+		"style": "rosalina",
+		"color": "#8fd8e0",
+		"width": 62,
+		"bio": "The calm, kind guardian of the cosmos. Lives in the Comet Observatory with the little star Lumas.",
+		"catchphrase": "The stars are always watching over you.",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 0.95,
+			"babble": 350,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Super Mario Brothers",
+		"home": "comet_observatory"
+	},
+	"bowser_jr": {
+		"name": "Bowser Jr.",
+		"style": "bowser_jr",
+		"color": "#3f8f3a",
+		"width": 66,
+		"bio": "Bowser's little son. Wears a bib with a scary mouth drawn on it. Wants to be just like his papa.",
+		"catchphrase": "Papa! Watch this!",
+		"voice": {
+			"pitch": 1.5,
+			"rate": 1.2,
+			"babble": 420,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Super Mario Brothers",
+		"home": "airship"
+	},
+	"king_boo": {
+		"name": "King Boo",
+		"style": "king_boo",
+		"color": "#f6f4fa",
+		"width": 96,
+		"bio": "The ruler of all the Boos. Wears a crown. Loves scaring Luigi more than anything.",
+		"catchphrase": "Heh heh heh!",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.9,
+			"babble": 270,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Super Mario Brothers",
+		"home": "luigis_mansion"
+	},
+	"toadette": {
+		"name": "Toadette",
+		"style": "toadette",
+		"color": "#f28cb8",
+		"width": 54,
+		"bio": "A cheerful Toad with pink pigtails. Loves go-karts, treasure maps and helping Toad.",
+		"catchphrase": "Let's go!",
+		"voice": {
+			"pitch": 1.7,
+			"rate": 1.2,
+			"babble": 460,
+			"prefer": [
+				"samantha",
+				"zira",
+				"aria",
+				"jenny",
+				"female"
+			]
+		},
+		"show": "Super Mario Brothers",
+		"home": "toad_town"
+	},
 	"samus": {
 		"name": "Samus Aran",
 		"style": "power_suit",

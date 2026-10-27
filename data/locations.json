@@ -1163,6 +1163,56 @@
 		"show": "Super Mario Brothers",
 		"description": "A shining racetrack among the stars. No guardrails."
 	},
+	"comet_observatory": {
+		"name": "Comet Observatory",
+		"description": "Rosalina's home in space, with a telescope, a library and lots of little stars.",
+		"show": "Super Mario Brothers"
+	},
+	"delfino_plaza": {
+		"name": "Delfino Plaza",
+		"description": "A sunny harbor town on Isle Delfino, with a bell tower and a big golden shine.",
+		"show": "Super Mario Brothers"
+	},
+	"airship": {
+		"name": "Bowser's Airship",
+		"description": "A flying wooden ship with propellers, cannons and a Bowser flag.",
+		"show": "Super Mario Brothers"
+	},
+	"luigis_mansion": {
+		"name": "Luigi's Mansion",
+		"description": "A big, dusty, haunted mansion that Luigi won in a contest he never entered.",
+		"show": "Super Mario Brothers"
+	},
+	"moo_moo_farm": {
+		"name": "Moo Moo Farm",
+		"description": "A farm racetrack with a big red barn and lots of cows.",
+		"show": "Super Mario Brothers"
+	},
+	"yoshis_island": {
+		"name": "Yoshi's Island",
+		"description": "A storybook island of round hills, flowers and spotted eggs.",
+		"show": "Super Mario Brothers"
+	},
+	"donut_plains": {
+		"name": "Donut Plains",
+		"description": "Rolling green plains with floating donut blocks and warp pipes.",
+		"show": "Super Mario Brothers"
+	},
+	"coconut_mall": {
+		"name": "Coconut Mall",
+		"description": "A big mall with escalators, palm trees and a fountain in the middle.",
+		"show": "Super Mario Brothers"
+	},
+	"toad_town": {
+		"name": "Toad Town",
+		"description": "A friendly town of mushroom houses near Peach's castle.",
+		"show": "Super Mario Brothers"
+	},
+	"waluigi_stadium": {
+		"name": "Waluigi Stadium",
+		"description": "A purple dirt-track stadium with big jumps and a giant Waluigi screen.",
+		"show": "Super Mario Brothers"
+	},
 	"landing_site": {
 		"name": "Landing Site",
 		"show": "Metroid",

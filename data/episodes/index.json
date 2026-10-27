@@ -523,6 +523,36 @@
 			"file": "res://data/episodes/sm10_peach_to_the_rescue.txt"
 		},
 		{
+			"file": "res://data/episodes/sm11_waluigi_time.txt"
+		},
+		{
+			"file": "res://data/episodes/sm12_rosalinas_lost_luma.txt"
+		},
+		{
+			"file": "res://data/episodes/sm13_bowser_jrs_big_plan.txt"
+		},
+		{
+			"file": "res://data/episodes/sm14_luigis_mansion.txt"
+		},
+		{
+			"file": "res://data/episodes/sm15_delfino_vacation.txt"
+		},
+		{
+			"file": "res://data/episodes/sm16_toadettes_treasure_map.txt"
+		},
+		{
+			"file": "res://data/episodes/sm17_moo_moo_kart.txt"
+		},
+		{
+			"file": "res://data/episodes/sm18_yoshis_egg_day.txt"
+		},
+		{
+			"file": "res://data/episodes/sm19_coconut_mall.txt"
+		},
+		{
+			"file": "res://data/episodes/sm20_donut_plains_picnic.txt"
+		},
+		{
 			"file": "res://data/episodes/mt01_baby_metroid.txt",
 			"aka": [
 				"mt01_baby_metroyd"

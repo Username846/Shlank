@@ -1,0 +1,187 @@
+@title Toadette's Treasure Map
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 6
+@description Toadette finds an old treasure map in a bookshelf in Toad Town. Toad wants to find the treasure. Toadette wants to find the treasure faster. Wario wants to find the treasure first. The map leads all over the Mushroom Kingdom, and ends somewhere very surprising.
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC happy
+SCENE toad_town cut
+TITLE
+PLACE toadette center left excited
+PLACE toad midright left surprised
+TOADETTE (excited): Toad! Look what I found in the library! A treasure map! A real one!
+TOAD (surprised): A treasure map? Where does it go?
+TOADETTE (excited): It starts here in Toad Town! Then the pipes! Then the desert! Then... it's smudged.
+TOAD (excited): Let's go find it!
+TOADETTE (smug): I found the map. I'm the captain.
+TOAD (sad): ...Okay, Captain.
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC sneaky
+SCENE toad_town
+PLACE wario center left smug
+PLACE waluigi midright left smug
+WARIO (smug): Did you hear that, Waluigi? Treasure. Gold. Probably lots of gold.
+WALUIGI (excited): Wah! We follow them! We get the treasure first!
+WARIO (happy): Wario always gets the treasure. It's the law.
+WALUIGI (nervous): Which law?
+WARIO (smug): Wario law.
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC jazz
+SCENE pipe_land
+CARD Clue one...
+PLACE toadette center left excited
+PLACE toad midright left nervous
+TOADETTE (excited): The map says "go down the pipe with the crooked lid."
+TOAD (nervous): Toadette, there are about four hundred pipes here.
+TOADETTE (smug): Then we look for the crooked one.
+TOAD (surprised): That one! It's crooked! And it's wobbling!
+TOADETTE (excited): Down we go!
+SFX slide_whistle
+
+# ------------------------------------------------------------ UNDERGROUND
+MUSIC sneaky 2
+SCENE underground_bricks
+PLACE toadette center left excited
+PLACE toad midright left surprised
+SFX coin
+TOADETTE (excited): Coins! Lots of coins! The map says take one and leave one.
+TOAD (surprised): Leave one? Why?
+TOADETTE (smug): It's treasure-hunter manners. You always leave something for the next person.
+TOAD (happy): I'll leave my favorite button.
+TOADETTE (happy): That's very generous, Toad.
+
+# ------------------------------------------------------------ PIPE LAND
+MUSIC sneaky
+SCENE pipe_land
+PLACE wario center left angry
+PLACE waluigi midright left nervous
+WARIO (angry): Which pipe did they go down? There are four hundred pipes!
+WALUIGI (nervous): The crooked one! I saw a crooked one!
+WARIO (excited): Then we go down the crooked one!
+SFX slide_whistle
+WALUIGI (scared): Wario! You're too big! You're stuck!
+WARIO (angry): Push, Waluigi! PUSH!
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC jazz 2
+SCENE desert_land
+CARD Clue two...
+PLACE wario center left angry
+PLACE waluigi midright left nervous
+SFX stomp
+WARIO (angry): They went down a pipe and came out in the desert! It's so hot!
+WALUIGI (nervous): Wario, I'm melting. My mustache is sweating.
+WARIO (angry): Keep walking! The gold is close!
+WALUIGI (sad): Is there water near the gold?
+WARIO (smug): Gold is better than water.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC tense
+SCENE desert_land
+PLACE toadette center left nervous
+PLACE toad midright left nervous
+TOADETTE (nervous): The map says "where the sun points at the stone face, dig."
+TOAD (nervous): There are three stone faces. And the sun's pointing at all of them.
+TOADETTE (smug): Wait for noon. When the shadow is shortest.
+TOAD (surprised): How do you know that?
+TOADETTE (happy): I read a lot of books, Toad.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC action
+SCENE desert_land
+PLACE wario center left excited
+PLACE toadette midright left surprised
+SFX thud
+WARIO (excited): HA! The treasure is MINE! I dug here first!
+TOADETTE (surprised): Wario?! You followed us?!
+WARIO (smug): Wario follows the gold. You were just walking in front of it.
+SFX thud
+WARIO (surprised): There's a box! It's... small.
+TOADETTE (smug): That's not the treasure. That's the next clue.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC jazz 2
+SCENE desert_land
+PLACE toadette center left smug
+PLACE wario midright left angry
+TOADETTE (smug): The next clue says "the treasure is where the river meets the stars."
+WARIO (angry): There's no river in the desert!
+TOADETTE (happy): Then it's not in the desert. It's somewhere else.
+WARIO (angry): Wario dug a hole for NOTHING?!
+TOADETTE (smug): You dug a hole for the next clue. Treasure hunts take patience.
+WARIO (sad): Wario does not have patience.
+
+# ------------------------------------------------------------ DESERT LAND
+MUSIC jazz
+SCENE desert_land
+PLACE waluigi center left nervous
+PLACE toad midright left nervous
+WALUIGI (nervous): Small Toad. Is there water? Anywhere?
+TOAD (nervous): I have a juice box.
+WALUIGI (surprised): You would share with Waluigi?
+TOAD (happy): Treasure-hunter manners. You always help the next person.
+WALUIGI (shy): ...Thank you, small Toad. Wah.
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC sneaky
+SCENE toad_town
+CARD The last clue...
+PLACE toadette center left surprised
+PLACE toad midright left surprised
+PLACE wario right left angry
+TOADETTE (surprised): The last clue says "Go home. The treasure is where you started."
+TOAD (surprised): Where we started? Toad Town?
+WARIO (angry): We walked all the way to the desert and back?!
+TOADETTE (excited): The library! I found the map in the library!
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC tense
+SCENE toad_town
+PLACE toadette center left excited
+PLACE wario midright left excited
+SFX door
+TOADETTE (excited): Behind the bookshelf! There's a door!
+WARIO (excited): GOLD! Out of my way! Wario first!
+SFX door
+NARRATOR: Wario burst through the door. Inside was a small room. And a big wooden chest.
+WARIO (excited): Open! Open! OPEN!
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC happy
+SCENE toad_town
+PLACE wario center left surprised
+PLACE toadette midright left happy
+SFX sparkle
+NARRATOR: Inside the chest, there was no gold. There were books. Hundreds of old storybooks. And a note: "The greatest treasure is a good story. Share them."
+WARIO (surprised): ...Books? BOOKS?! Where's the gold?!
+TOADETTE (excited): This is the best treasure ever!
+WARIO (angry): Wario does not read!
+TOADETTE (smug): Maybe Wario should start.
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC jazz 2
+SCENE toad_town
+PLACE waluigi center left happy
+PLACE toad midright left happy
+WALUIGI (happy): Small Toad. This book has a tall hero. Purple hat. Very handsome.
+TOAD (surprised): Really?
+WALUIGI (excited): It's about a wizard! A tall, purple wizard!
+TOAD (happy): You can borrow it. Treasure-hunter manners.
+WALUIGI (shy): ...Waluigi loves treasure-hunter manners.
+
+# ------------------------------------------------------------ TOAD TOWN
+MUSIC romantic
+SCENE toad_town
+CARD One week later...
+PLACE toadette center left happy
+PLACE toad midright left happy
+TOADETTE (happy): Toad Town's new library opens today! With all the treasure books!
+TOAD (smug): And the very first person in line was Wario.
+TOADETTE (surprised): Wario?!
+TOAD (happy): He said he's looking for books about gold.
+TOADETTE (smug): ...It's a start.
+END

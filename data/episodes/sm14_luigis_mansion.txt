@@ -1,0 +1,177 @@
+@title Luigi's Mansion
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 4
+@description Luigi wins a mansion in a contest he never entered. It's big, dusty and full of ghosts. King Boo has trapped Mario inside a painting. Luigi has a flashlight, a vacuum cleaner and absolutely no courage at all.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC happy
+SCENE mushroom_kingdom cut
+TITLE
+PLACE luigi center right excited
+PLACE mario midleft right surprised
+LUIGI (excited): Mario! Mario! I won a mansion! A real mansion! Look at this letter!
+MARIO (surprised): A mansion? What contest did you enter?
+LUIGI (nervous): That's the thing. I didn't enter any contest.
+MARIO (smug): Then how did you win?
+LUIGI (happy): Lucky, I guess! Meet me there tonight! I'll throw a party!
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC spooky
+SCENE luigis_mansion
+CARD That night...
+PLACE luigi center right nervous
+SFX door
+NARRATOR: The mansion was huge. And dusty. And dark. The portraits on the walls had eyes that seemed to follow him.
+LUIGI (nervous): Mario? Mario, are you here? You said you'd come first.
+SFX gasp
+LUIGI (scared): W-was that a ghost? No. It was the wind. Wind in a mansion. Normal mansion wind.
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC spooky 2
+SCENE luigis_mansion
+PLACE king_boo center left smug
+PLACE luigi midright left scared
+SFX whoosh
+KING_BOO (smug): Heh heh heh. Welcome home, Luigi.
+LUIGI (scared): G-g-g-ghost! A big ghost! With a crown!
+KING_BOO (happy): I am King Boo. And I have a little surprise for you. Look at the painting behind you.
+LUIGI (scared): That's... Mario! In a painting!
+KING_BOO (smug): The contest was a trap. And your brother walked right into it.
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC tense
+SCENE luigis_mansion
+PLACE luigi center right scared
+SFX whoosh
+NARRATOR: King Boo vanished, laughing. Luigi stood alone in the dark hall, shaking from his hat to his shoes.
+LUIGI (scared): Mario's trapped. In a painting. And I'm alone. In a haunted mansion.
+LUIGI (sad): I should go home. I should hide under my bed for a hundred years.
+LUIGI (nervous): ...But Mario would never leave me here.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC sad
+SCENE mushroom_kingdom
+PLACE luigi center right sad
+PLACE peach midleft right nervous
+LUIGI (sad): Princess. Mario is trapped in a painting. And I'm too scared to go back in there.
+PEACH (nervous): Oh, Luigi.
+LUIGI (sad): Mario's the brave one. I'm just the one who screams.
+PEACH (smug): Luigi. You walked into a haunted mansion. Alone. At night. That's already brave.
+LUIGI (shy): ...I screamed the whole time.
+PEACH (happy): Brave people can scream. It's allowed.
+
+# ------------------------------------------------------------ TOAD HOUSE
+MUSIC jazz
+SCENE toad_house
+PLACE toad center left excited
+PLACE luigi midright left nervous
+TOAD (excited): Luigi! You need ghost-catching gear? I've got just the thing! A flashlight and a vacuum!
+LUIGI (nervous): A vacuum? For ghosts?
+TOAD (smug): It's a very special vacuum. The Poltergust 3000. Sucks up ghosts. And dust. And socks.
+LUIGI (surprised): Does it work?
+TOAD (happy): It worked on my socks!
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC action
+SCENE luigis_mansion
+PLACE luigi center right nervous
+SFX whoosh
+NARRATOR: The first ghost came out of the closet. Luigi screamed. Then he turned on the flashlight. The ghost froze.
+LUIGI (scared): It worked! The light freezes them! Now the vacuum!
+SFX whoosh
+NARRATOR: Whoooosh. The ghost went into the vacuum, along with two cobwebs and a lampshade.
+LUIGI (excited): I got one! I actually got one!
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC jazz 2
+SCENE luigis_mansion
+PLACE luigi center right excited
+SFX whoosh
+NARRATOR: Room after room, Luigi caught ghosts. In the library. In the kitchen. In the very scary bathroom.
+LUIGI (excited): Seven ghosts! Eight! I'm a ghost-catching machine!
+SFX gasp
+LUIGI (scared): AAAH! ...Oh. That's my reflection.
+LUIGI (smug): Still counts. Nine!
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC spooky
+SCENE luigis_mansion
+CARD The library...
+PLACE luigi center right nervous
+SFX gasp
+NARRATOR: In the library, the books started flying off the shelves. All by themselves. Round and round Luigi's head.
+LUIGI (scared): Flying books! Flying books!
+SFX whoosh
+NARRATOR: Luigi turned on the vacuum. All the books flew in. So did a little Boo who had been hiding behind a dictionary.
+LUIGI (smug): Ten.
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC sneaky
+SCENE luigis_mansion
+PLACE king_boo center left angry
+PLACE luigi midright left nervous
+KING_BOO (angry): You! The scaredy-cat brother! You've been catching my Boos!
+LUIGI (nervous): Let Mario go, King Boo!
+KING_BOO (smug): Never! Your brother will hang on my wall forever! Next to my favorite lamp.
+LUIGI (angry): Then I'm catching YOU!
+KING_BOO (happy): Heh heh heh. You'll have to catch me first.
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC action 2
+SCENE luigis_mansion
+PLACE king_boo center left smug
+PLACE luigi midright left angry
+SFX whoosh
+NARRATOR: King Boo flew around the room. Luigi chased him with the vacuum. King Boo flew up the stairs. Luigi chased him up the stairs. King Boo flew through a wall. Luigi ran into the wall.
+SFX thud
+LUIGI (sad): Ow.
+KING_BOO (smug): Heh heh heh! Too slow, Luigi!
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC sneaky 2
+SCENE luigis_mansion
+PLACE luigi center right smug
+NARRATOR: Luigi sat on the stairs. He rubbed his head. And then he had an idea.
+LUIGI (smug): Boos hide when you look at them. They only come close when you turn your back.
+LUIGI (excited): So I'll turn my back. On purpose.
+LUIGI (nervous): ...This is the bravest thing I've ever done.
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC action
+SCENE luigis_mansion
+PLACE king_boo center left excited
+PLACE luigi midright left nervous
+SFX whoosh
+NARRATOR: Luigi turned his back. King Boo crept closer. And closer. And closer.
+KING_BOO (excited): BOO!
+LUIGI (angry): FLASHLIGHT!
+SFX zap
+NARRATOR: The flashlight hit King Boo right in the face. He froze. And Luigi turned on the vacuum.
+SFX whoosh
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC happy
+SCENE luigis_mansion
+PLACE mario center left surprised
+PLACE luigi midright left happy
+SFX sparkle
+NARRATOR: With King Boo inside the vacuum, every painting in the mansion came to life. And out of one of them stepped a very confused plumber in red.
+MARIO (surprised): Luigi? You saved me?
+LUIGI (happy): I saved you, Mario!
+MARIO (excited): From King Boo? With a vacuum?
+LUIGI (smug): It's a very special vacuum.
+
+# ------------------------------------------------------------ LUIGI'S MANSION
+MUSIC romantic
+SCENE luigis_mansion
+CARD The next morning...
+PLACE mario center left happy
+PLACE luigi midright left happy
+MARIO (happy): Luigi. You were the bravest brother ever last night.
+LUIGI (shy): I was scared the whole time.
+MARIO (smug): That's what makes it brave.
+LUIGI (happy): ...Want to help me clean the mansion? It's very dusty.
+MARIO (nervous): ...Can we use the vacuum?
+END

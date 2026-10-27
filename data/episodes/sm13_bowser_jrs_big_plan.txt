@@ -1,0 +1,185 @@
+@title Bowser Jr.'s Big Plan
+@series Super Mario Brothers
+@season 2
+@icon mushroom
+@number 3
+@description It's Father's Day, and Bowser Jr. wants to give his papa the best present ever: Princess Peach, kidnapped, all by himself. He takes the airship. He takes the cannons. He forgets the snacks. Peach turns out to be a very difficult hostage.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC happy
+SCENE bowser_castle cut
+TITLE
+PLACE bowser_jr center left excited
+PLACE koopa_troopa midright left nervous
+BOWSER_JR (excited): Koopa! Tomorrow is Father's Day! And I'm going to get Papa the best present ever!
+KOOPA_TROOPA (nervous): A tie? A mug? A nice card?
+BOWSER_JR (smug): Princess Peach! Kidnapped! By me! All by myself!
+KOOPA_TROOPA (scared): Junior, your papa's been trying for years. It never works.
+BOWSER_JR (excited): That's because he never had ME helping!
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC action
+SCENE airship
+PLACE bowser_jr center left excited
+PLACE goomba midright left nervous
+SFX powerup
+BOWSER_JR (excited): Start the propellers! Load the cannons! Full speed to Peach's Castle!
+GOOMBA (nervous): Junior, does your papa know you took his airship?
+BOWSER_JR (smug): It's a surprise. Surprises don't need permission.
+GOOMBA (scared): I think surprises need a LITTLE permission.
+BOWSER_JR (excited): Full speed!
+
+# ------------------------------------------------------------ PEACH'S CASTLE
+MUSIC tense
+SCENE peach_castle
+PLACE peach center left surprised
+PLACE toad midright left scared
+SFX blast
+SHAKE 0.6
+TOAD (scared): Princess! An airship! A small Bowser! He's coming through the window!
+PEACH (surprised): A small Bowser?
+SFX whoosh
+NARRATOR: Bowser Jr. swung in through the window on a rope, grabbed Peach by the hand, and swung right back out again. It was very impressive. It was also very fast.
+TOAD (scared): The Princess has been kidnapped! Again!
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC jazz
+SCENE airship
+PLACE peach center left smug
+PLACE bowser_jr midright left excited
+BOWSER_JR (excited): Ha! You're my prisoner now, Princess!
+PEACH (smug): I see. And what's the plan?
+BOWSER_JR (smug): I give you to Papa for Father's Day. He'll be so proud!
+PEACH (nervous): Junior, that's very sweet. But kidnapping is not a good present.
+BOWSER_JR (angry): It's the BEST present! Papa loves kidnapping you!
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC sneaky
+SCENE airship
+PLACE peach center left smug
+PLACE goomba midright left nervous
+PEACH (smug): Goomba, is there a kitchen on this ship?
+GOOMBA (nervous): Uh. Yes. Why?
+PEACH (happy): Because I'm hungry. And so is Junior. I can hear his stomach from here.
+GOOMBA (nervous): We forgot the snacks.
+PEACH (smug): Then I'll bake. Point me to the flour.
+
+# ------------------------------------------------------------ MUSHROOM KINGDOM
+MUSIC action 2
+SCENE mushroom_kingdom
+PLACE mario center right angry
+PLACE luigi midleft right nervous
+MARIO (angry): Peach has been kidnapped! By Bowser's son!
+LUIGI (nervous): Mario, he's just a kid.
+MARIO (smug): A kid with an airship.
+LUIGI (scared): ...A kid with an airship and cannons.
+MARIO (excited): Let's-a go!
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC sneaky 2
+SCENE bowser_castle
+PLACE bowser center left surprised
+PLACE koopa_troopa midright left nervous
+BOWSER (surprised): Koopa. Where's my airship? I parked it right here.
+KOOPA_TROOPA (nervous): Um. Junior took it, sir.
+BOWSER (angry): JUNIOR TOOK MY AIRSHIP?!
+KOOPA_TROOPA (nervous): He said it was a surprise.
+BOWSER (angry): Get me the BIG airship! Now!
+KOOPA_TROOPA (scared): The really big one? With the giant Bowser head?
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC happy 2
+SCENE airship
+PLACE peach center left happy
+PLACE bowser_jr midright left surprised
+SFX ding
+PEACH (happy): Cookies are ready! Chocolate chip!
+BOWSER_JR (surprised): You made cookies? On my airship? While kidnapped?
+PEACH (smug): Kidnappers need snacks too.
+BOWSER_JR (excited): These are the best cookies I've ever had!
+PEACH (happy): Your papa likes them too. I bring him a box every time he kidnaps me.
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC sad
+SCENE airship
+PLACE bowser_jr center left sad
+PLACE peach midright left nervous
+BOWSER_JR (sad): Princess. Can I tell you something? I just want Papa to be proud of me.
+PEACH (nervous): Oh, Junior. He already is.
+BOWSER_JR (sad): How do you know?
+PEACH (happy): Because every time he kidnaps me, he talks about you. The whole time. "Junior did this. Junior said that."
+BOWSER_JR (surprised): ...He does?
+PEACH (smug): It's very annoying. I've heard all your stories.
+
+# ------------------------------------------------------------ SKY LAND
+MUSIC action
+SCENE sky_land
+PLACE mario center right excited
+PLACE luigi midleft right scared
+SFX jump_8bit
+MARIO (excited): Luigi! The airship is right above these clouds! Jump with me!
+LUIGI (scared): From cloud to cloud? These clouds are very fluffy, Mario!
+MARIO (smug): Fluffy is good for landing!
+SFX boing
+LUIGI (scared): Fluffy is NOT good for landing! I'm sinking!
+MARIO (happy): Bounce, Luigi! Bounce!
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC action
+SCENE airship
+PLACE mario center right angry
+PLACE bowser_jr midleft right angry
+SFX jump_8bit
+MARIO (angry): Bowser Jr.! Let the Princess go!
+BOWSER_JR (angry): Never! She's Papa's present!
+SFX blast
+NARRATOR: Bowser Jr. fired a cannon. Mario jumped. The cannonball hit a cloud. Mario landed on the deck right next to the cookie tray.
+MARIO (surprised): ...Are those chocolate chip?
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC tense
+SCENE airship
+PLACE bowser center left angry
+PLACE bowser_jr midright left scared
+SFX stomp
+SHAKE 0.8
+NARRATOR: Then the biggest airship of all pulled up next to them. Bowser's airship. And Bowser was not happy.
+BOWSER (angry): JUNIOR! You took my airship without asking!
+BOWSER_JR (scared): Papa! It was a surprise! For Father's Day!
+BOWSER (surprised): ...For Father's Day?
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC romantic
+SCENE airship
+PLACE bowser center left surprised
+PLACE bowser_jr midright left sad
+BOWSER_JR (sad): I kidnapped Princess Peach. For you. All by myself.
+BOWSER (surprised): You did that? By yourself? With no help?
+BOWSER_JR (shy): Goomba helped a little.
+BOWSER (happy): Junior... that's the sweetest thing anyone has ever done for me.
+BOWSER_JR (excited): You like it?
+BOWSER (smug): Gwahaha! Of course I do! But we're giving her back.
+
+# ------------------------------------------------------------ BOWSER'S AIRSHIP
+MUSIC happy
+SCENE airship
+PLACE peach center left happy
+PLACE mario midright left surprised
+PLACE bowser right left nervous
+BOWSER (nervous): Princess. Sorry about the kidnapping. My son gets carried away.
+PEACH (happy): He's a wonderful boy, Bowser. He just wanted to make you proud.
+MARIO (surprised): So... no fighting?
+BOWSER (smug): Not today, Mario. It's Father's Day.
+MARIO (happy): ...Happy Father's Day, Bowser.
+
+# ------------------------------------------------------------ BOWSER'S CASTLE
+MUSIC romantic 2
+SCENE bowser_castle
+CARD That evening...
+PLACE bowser center left happy
+PLACE bowser_jr midright left happy
+BOWSER_JR (happy): Papa. Was it a good Father's Day?
+BOWSER (happy): The best one ever, Junior.
+BOWSER_JR (smug): And Peach sent cookies home with us. A whole box.
+BOWSER (excited): Chocolate chip?! Gwahahaha! Best Father's Day EVER!
+END
