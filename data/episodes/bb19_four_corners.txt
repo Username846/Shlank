@@ -1,0 +1,176 @@
+@title Four Corners
+@series Breaking Bad
+@season 2
+@icon element
+@number 9
+@description The White and Schrader families take a road trip to the Four Corners monument, the only place in America where four states meet. Hank wants to stand in all four at once. Marie wants a purple souvenir. Walt wants to explain map projections. The car breaks down in the middle of the desert.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC happy
+SCENE white_house cut
+TITLE
+PLACE skyler center left smug
+PLACE walt midright left excited
+SKYLER (smug): Walt. A family road trip. Both families. Six hours in one car.
+WALT (excited): To Four Corners! The only point in the country where four states meet! New Mexico, Arizona, Utah and Colorado!
+SKYLER (nervous): With Hank. And Marie. In one car.
+WALT (happy): It'll be educational.
+SKYLER (smug): It'll be something.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC jazz
+SCENE desert_road
+CARD Hour one...
+PLACE hank center left excited
+PLACE flynn midright left excited
+HANK (excited): Flynn! License plate game! First one to spot a plate from all fifty states wins!
+FLYNN (excited): I see Texas! And Colorado!
+HANK (smug): I see Arizona, Utah AND Oklahoma.
+FLYNN (surprised): Where?!
+HANK (happy): In my heart, kid. And also on that truck.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC sneaky
+SCENE desert_road
+CARD Hour three...
+PLACE marie center left nervous
+PLACE skyler midright left smug
+MARIE (nervous): Skyler. I need a bathroom. Badly.
+SKYLER (smug): I told you not to get the extra-large lemonade, Marie.
+MARIE (angry): It was a purple lemonade! It was limited edition!
+SKYLER (smug): There's a gas station in forty miles.
+MARIE (scared): FORTY?!
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC jazz 2
+SCENE desert_road
+PLACE walt center right excited
+PLACE flynn midleft right sad
+PLACE hank midright left neutral
+WALT (excited): Flynn, did you know that on most maps, the states look flat? But the Earth is round. So every map is a little bit wrong!
+FLYNN (sad): Dad, we're on vacation.
+WALT (excited): The Mercator projection makes Greenland look as big as Africa!
+FLYNN (sad): Uncle Hank, can I switch seats with you?
+HANK (smug): Sorry, buddy. I'm driving.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC tense
+SCENE desert_road
+PLACE hank center left nervous
+PLACE walt midright left nervous
+PLACE marie midleft right neutral
+SFX thud
+SHAKE 0.6
+NARRATOR: The car made a loud clunk. Then a sad hiss. Then it rolled to a stop on the side of the road. In the middle of the desert. Twenty miles from anywhere.
+HANK (nervous): Uh oh.
+WALT (nervous): What does "uh oh" mean, Hank?
+HANK (sad): It means the car stopped, Walt.
+MARIE (scared): And the BATHROOM, Hank!
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC sad
+SCENE desert_road
+PLACE hank center left sad
+PLACE walt midright left neutral
+HANK (sad): Radiator's busted. We're out of coolant. No cell service.
+WALT (neutral): How much water do we have?
+HANK (smug): Six bottles. And Marie's purple lemonade.
+WALT (excited): Water! We can use the water in the radiator! It'll get us to the next town!
+HANK (nervous): Walt, we'll need that water to drink.
+WALT (smug): Then we drink the lemonade.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC action
+SCENE desert_road
+PLACE walt center right excited
+PLACE flynn midleft right surprised
+SFX splash
+WALT (excited): Flynn! Hand me the duct tape! And the gum! And that little fork from Marie's salad!
+FLYNN (surprised): What are you making?
+WALT (smug): A radiator patch. The gum seals the crack. The tape holds the gum. The fork... is for structural support.
+FLYNN (excited): Dad, that's kind of genius.
+WALT (happy): It's chemistry, Flynn.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC happy
+SCENE desert_road
+PLACE hank center left surprised
+PLACE skyler midright left surprised
+PLACE marie midleft right neutral
+SFX ding
+NARRATOR: Hank turned the key. The engine coughed. Sputtered. And started.
+HANK (surprised): It works! Walt, you crazy science man!
+SKYLER (surprised): Walt fixed a car? With gum?
+MARIE (excited): GO! GO! The bathroom!
+HANK (excited): Hold on to your lemonade, everybody!
+
+# ------------------------------------------------------------ FOUR CORNERS
+MUSIC jazz
+SCENE four_corners
+CARD Four Corners...
+PLACE hank center left excited
+PLACE flynn midright left excited
+HANK (excited): Here it is! Four states! Watch this! One foot in New Mexico, one in Arizona, one hand in Utah, one hand in Colorado!
+FLYNN (excited): Uncle Hank, you look like a pretzel!
+HANK (smug): I'm in four states at once, kid! I'm a federal agent in four jurisdictions!
+FLYNN (happy): Take a picture, Dad!
+SFX ding
+
+# ------------------------------------------------------------ FOUR CORNERS
+MUSIC happy 2
+SCENE four_corners
+PLACE flynn center left excited
+PLACE walt midright left happy
+FLYNN (excited): Dad! Your turn! Stand in all four states!
+WALT (nervous): I don't think my knees can do that, Flynn.
+FLYNN (smug): Uncle Hank did it.
+WALT (smug): Hank also pulled a muscle. Look at him.
+FLYNN (happy): ...Okay. Just stand in two. For the picture.
+
+# ------------------------------------------------------------ FOUR CORNERS
+MUSIC sneaky 2
+SCENE four_corners
+PLACE marie center left happy
+PLACE skyler midright left smug
+MARIE (happy): Skyler. Look. A purple keychain. Shaped like Colorado.
+SKYLER (smug): Colorado is a rectangle, Marie.
+MARIE (excited): A purple rectangle! It's perfect!
+SKYLER (happy): ...It is very purple.
+MARIE (smug): I'm getting four. One for each state.
+
+# ------------------------------------------------------------ FOUR CORNERS
+MUSIC jazz 2
+SCENE four_corners
+PLACE walt center right smug
+PLACE flynn midleft right surprised
+WALT (smug): Flynn. Here's something interesting. When they first built this monument, they got the location wrong. By about eighteen hundred feet.
+FLYNN (surprised): Really? So it's not the real four corners?
+WALT (happy): It's the legal four corners. Lawyers decided it was close enough.
+FLYNN (smug): That's the most interesting thing you've said all day, Dad.
+WALT (surprised): ...Really? More than the Mercator projection?
+
+# ------------------------------------------------------------ FOUR CORNERS
+MUSIC romantic
+SCENE four_corners
+CARD Sunset...
+PLACE skyler center left happy
+PLACE walt midright left happy
+SKYLER (happy): Walt. Today was... actually fun.
+WALT (surprised): Even with the car? And the desert? And Marie?
+SKYLER (smug): Especially the part where you fixed the car with gum and a salad fork.
+WALT (shy): I was very proud of the fork.
+SKYLER (happy): I know you were.
+
+# ------------------------------------------------------------ DESERT ROAD
+MUSIC romantic 2
+SCENE desert_road
+CARD The drive home...
+PLACE hank center left happy
+PLACE walt midright left happy
+HANK (happy): Walt. Thanks for saving the trip, buddy.
+WALT (happy): Anytime, Hank.
+HANK (smug): But next time, we're taking two cars.
+WALT (smug): And a real radiator.
+SFX thud
+HANK (nervous): ...Was that the fork?
+END

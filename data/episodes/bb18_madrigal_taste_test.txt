@@ -1,0 +1,187 @@
+@title The Madrigal Taste Test
+@series Breaking Bad
+@season 2
+@icon element
+@number 8
+@description Los Pollos Hermanos is owned by a big company called Madrigal, and Madrigal wants a new dipping sauce. Gus enters a sauce made from his secret family recipe. Walt enters a sauce made from science. Saul enters a sauce he bought at the supermarket. Huell is the official taste tester.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC happy
+SCENE pollos cut
+TITLE
+PLACE gus center left neutral
+PLACE walt midright left surprised
+GUS (neutral): Walter. Madrigal Electromotive is holding a sauce competition. The winner becomes the official dipping sauce of every Los Pollos Hermanos.
+WALT (surprised): A sauce competition?
+GUS (smug): I will be entering my family's secret recipe. It has been in my family for three generations.
+WALT (excited): I'd like to enter, too.
+GUS (happy): Of course, Walter. May the best sauce win.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC jazz
+SCENE superlab
+PLACE walt center left excited
+PLACE gale midright left excited
+WALT (excited): Gale. We're making a sauce. The most chemically perfect dipping sauce in history.
+GALE (excited): A sauce! Like a reaction, but delicious!
+WALT (smug): Sweet, sour, salty, savory. Every flavor in perfect balance.
+GALE (happy): And a hint of blue? For the brand?
+WALT (nervous): ...No blue, Gale. It's for chicken.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky
+SCENE saul_office
+PLACE saul center left excited
+PLACE francesca midright left neutral
+SAUL (excited): Francesca! I'm entering the sauce contest! Get me a sauce!
+FRANCESCA (neutral): You don't cook.
+SAUL (smug): I don't need to cook. I need to WIN. Go to the store. Buy the fanciest barbecue sauce they have. We'll put it in a new jar.
+FRANCESCA (smug): That's cheating.
+SAUL (happy): It's marketing.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC jazz 2
+SCENE superlab
+CARD Sauce attempt one...
+PLACE walt center left nervous
+PLACE jesse midright left surprised
+SFX sizzle
+JESSE (surprised): Yo, Mr. White. Why is your sauce smoking?
+WALT (nervous): It's not smoking. It's... caramelizing aggressively.
+SFX blast
+SHAKE 0.4
+JESSE (scared): It exploded! The sauce exploded!
+WALT (sad): ...Back to the drawing board.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC sneaky
+SCENE pollos
+PLACE gus center left neutral
+PLACE mike midright left neutral
+MIKE (neutral): You really think Walter can beat your family recipe?
+GUS (smug): No. But I want to see him try.
+MIKE (smug): And if he wins?
+GUS (happy): Then I will have learned something. That is also a victory, Michael.
+MIKE (neutral): ...You're a strange man, Gus.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC sneaky 2
+SCENE superlab
+CARD Sauce attempt seven...
+PLACE gale center left happy
+PLACE walt midright left nervous
+PLACE jesse midleft right neutral
+GALE (happy): Mr. White. What if the problem is that it's too perfect?
+WALT (surprised): Too perfect?
+GALE (smug): Every great recipe has a little imperfection. A little surprise. Like a poem with one unexpected word.
+WALT (nervous): What kind of surprise?
+JESSE (excited): Chili powder, yo! The sweet, then the heat!
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC tense
+SCENE madrigal_office
+CARD Madrigal Electromotive...
+PLACE gus center left neutral
+PLACE walt midright left nervous
+PLACE saul right left smug
+NARRATOR: In a clean, bright test kitchen, three sauces sat on a long white table. Gus's family recipe, in a glass bowl. Walt's science sauce, in a beaker. And Saul's sauce, in a jar with a big picture of Saul's face on it.
+GUS (neutral): Interesting jar, Saul.
+SAUL (smug): Branding, Gus. It's all branding.
+WALT (nervous): Who's the judge?
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC jazz 2
+SCENE madrigal_office
+PLACE saul center left smug
+PLACE walt midright left nervous
+SAUL (smug): Walt. Psst. What's in your sauce?
+WALT (nervous): That's classified, Saul.
+SAUL (smug): Come on. Lawyer-client privilege.
+WALT (angry): You're not my lawyer for sauce.
+SAUL (happy): I'm your lawyer for everything, Walt. Sauce is included.
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC jazz
+SCENE madrigal_office
+PLACE huell center left neutral
+PLACE saul midright left excited
+PLACE walt midleft right neutral
+SAUL (excited): Our official judge! The man with the most refined palate in Albuquerque! Huell!
+HUELL (neutral): Mm.
+WALT (surprised): Huell is the judge?
+SAUL (smug): Madrigal wanted an unbiased taster. Huell has no opinions about anything.
+HUELL (smug): Mm-hm.
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC sneaky
+SCENE madrigal_office
+CARD Sauce one...
+PLACE huell center left neutral
+PLACE gus midright left neutral
+SFX chomp
+NARRATOR: Huell dipped a chicken nugget into Gus's family sauce. He chewed. Slowly. Thoughtfully. For a very long time.
+HUELL (happy): ...Mm.
+GUS (happy): A good "mm," I hope.
+HUELL (smug): Mm-hm.
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC tense
+SCENE madrigal_office
+CARD Sauce two...
+PLACE huell center left neutral
+PLACE saul midright left nervous
+SFX chomp
+NARRATOR: Huell dipped a nugget into Saul's sauce. He chewed. He stopped chewing. He looked at Saul.
+HUELL (smug): Store.
+SAUL (nervous): What? No! That's a homemade sauce! I made it at home! With my hands!
+HUELL (smug): Price tag.
+SAUL (sad): ...Francesca forgot to take off the price tag.
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC jazz 2
+SCENE madrigal_office
+CARD Sauce three...
+PLACE huell center left neutral
+PLACE walt midright left nervous
+SFX chomp
+NARRATOR: Huell dipped a nugget into Walt's sauce. Sweet. Then sour. Then a tiny bit of heat, right at the end. Huell's eyes opened wide.
+HUELL (surprised): Oh.
+WALT (nervous): Is that a good "oh"?
+HUELL (excited): OH.
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC tense
+SCENE madrigal_office
+PLACE huell center left neutral
+PLACE gus midright left nervous
+PLACE walt right left nervous
+SFX drumroll
+NARRATOR: Huell put down his nugget. He looked at Gus. He looked at Walt. He thought about it for a very, very long time.
+HUELL (smug): Both.
+GUS (surprised): Both?
+HUELL (happy): Mix.
+
+# ------------------------------------------------------------ MADRIGAL OFFICE
+MUSIC happy
+SCENE madrigal_office
+PLACE gus center left surprised
+PLACE walt midright left surprised
+SFX ding
+NARRATOR: Gus poured some of his family sauce into Walt's beaker. Walt stirred it. They each dipped a nugget and tasted it at exactly the same time.
+GUS (surprised): Walter. This is extraordinary.
+WALT (surprised): Your family recipe and my chemistry.
+GUS (happy): Together, they are better than apart.
+SFX fanfare
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC romantic
+SCENE pollos
+CARD One month later...
+PLACE gus center left happy
+PLACE walt midright left happy
+PLACE jesse right left excited
+GUS (happy): The new official sauce of Los Pollos Hermanos. "Hermanos Blue."
+WALT (surprised): You named it Blue? It's orange.
+GUS (smug): It is a tribute, Walter.
+JESSE (excited): And it's got my chili powder, yo! The sweet, then the heat!
+END

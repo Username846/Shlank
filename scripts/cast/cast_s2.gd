@@ -168,10 +168,42 @@ static func _human(style: String) -> Dictionary:
 			return {"size": "adult", "top": Color("b88a5a"), "sleeves": "long", "bottom_col": Color("efe8d6"), "shoe": Color("5a3a24"),
 				"hair": "crew", "hair_col": Color("e8c860"), "skin": Color("f2c0a0"), "nose": "big", "torso_w": 32.0,
 				"torso_extra": _x_garrison_rose, "extra": CastMore._x_goatee.bind(Color("c8a050"))}
+		# Breaking Bad
+		"gale":
+			return {"size": "adult", "top": Color("f4ecd8"), "sleeves": "long", "bottom_col": Color("6a5a4a"), "shoe": Color("6b4428"),
+				"hair": "bob", "hair_col": Color("3a2416"), "glasses": true, "torso_w": 29.0,
+				"torso_extra": _x_sweater_vest.bind(Color("8a6a3a")), "extra": _x_small_moustache.bind(Color("3a2416"))}
+		"huell":
+			return {"size": "adult", "skin": Color("8a5a3a"), "top": Color("2b2b33"), "sleeves": "long", "bottom_col": Color("2b2b33"),
+				"hair": "crew", "hair_col": Color("1d1d22"), "hairline": -0.4, "base_lid": 0.5, "torso_w": 46.0, "belly": 22.0,
+				"arm_w": 12.0, "leg_w": 19.0, "head": Vector2(38, 38), "torso_extra": CastMore._x_tie.bind(Color("6a3a2a")),
+				"extra": CastMore._x_goatee.bind(Color("1d1d22"))}
+		"gomez":
+			return {"size": "adult", "skin": Color("c98a5a"), "top": Color("4a6a8a"), "sleeves": "short", "bottom_col": Color("3d4a5a"),
+				"hair": "crew", "hair_col": Color("1d1d22"), "torso_w": 33.0, "torso_extra": _x_dea_badge,
+				"extra": _x_small_moustache.bind(Color("1d1d22"))}
+		"hector":
+			return {"size": "adult", "skin": Color("c98a5a"), "top": Color("e8e0d0"), "sleeves": "long", "bottom_col": Color("5a4a3a"),
+				"hair": "crew", "hair_col": Color("e8e8e8"), "brow_col": Color("e8e8e8"), "base_lid": 0.55, "nose": "big", "torso_w": 30.0,
+				"torso_extra": _x_bell, "extra": _x_small_moustache.bind(Color("e8e8e8"))}
+		"francesca":
+			return {"size": "adult", "top": Color("2b3a4a"), "sleeves": "long", "bottom": "skirt", "bottom_col": Color("2b3a4a"),
+				"legs": Puppet.SKIN, "shoe": Color("2b2b33"), "hair": "bob", "hair_col": Color("e8c860"), "lashes": 2, "base_lid": 0.3,
+				"torso_w": 27.0, "extra": CastExtra._x_earrings}
 		_: return {}
 
 
 # --------------------------------------------------------- costume bits --
+
+static func _x_dea_badge(p: Puppet) -> void:
+	Art.shape(p.ci, Art.star(Vector2(-16, -170), 9), Color("f2c14e"), 2.0)
+
+
+static func _x_bell(p: Puppet) -> void:
+	# The little bell Hector rings to talk
+	Art.stroke(p.ci, PackedVector2Array([Vector2(-10, -196), Vector2(0, -150), Vector2(10, -196)]), 2.0)
+	Art.shape(p.ci, PackedVector2Array([Vector2(-10, -132), Vector2(-6, -150), Vector2(6, -150), Vector2(10, -132)]), Color("f2c14e"), 2.5)
+	Art.dot(p.ci, Vector2(0, -129), 3, Color("c8902a"))
 
 static func _x_freckles(p: Puppet, hc: Vector2) -> void:
 	for sx in [-1, 1]:

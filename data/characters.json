@@ -2933,6 +2933,110 @@
 			"Skinnee Pete"
 		]
 	},
+	"gale": {
+		"name": "Gale Boetticher",
+		"style": "gale",
+		"color": "#8a6a3a",
+		"width": 60,
+		"bio": "Walt's cheerful lab assistant. Loves chemistry, fancy coffee, poetry and karaoke.",
+		"catchphrase": "Majestic!",
+		"voice": {
+			"pitch": 1.15,
+			"rate": 1.05,
+			"babble": 350,
+			"prefer": [
+				"mark",
+				"christopher",
+				"eric",
+				"male"
+			]
+		},
+		"show": "Breaking Bad",
+		"home": "gale_apartment"
+	},
+	"huell": {
+		"name": "Huell",
+		"style": "huell",
+		"color": "#2b2b33",
+		"width": 74,
+		"bio": "Saul's very large, very quiet bodyguard. Excellent at standing. Even better at napping.",
+		"catchphrase": "...Mm-hm.",
+		"voice": {
+			"pitch": 0.75,
+			"rate": 0.85,
+			"babble": 270,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Breaking Bad",
+		"home": "storage_unit"
+	},
+	"gomez": {
+		"name": "Steve Gomez",
+		"style": "gomez",
+		"color": "#4a6a8a",
+		"width": 64,
+		"bio": "Hank's DEA partner and best friend. Patient, loyal and always the designated driver.",
+		"catchphrase": "Come on, Hank.",
+		"voice": {
+			"pitch": 0.95,
+			"rate": 1.05,
+			"babble": 310,
+			"prefer": [
+				"david",
+				"guy",
+				"mark",
+				"male"
+			]
+		},
+		"show": "Breaking Bad",
+		"home": "dea_office"
+	},
+	"hector": {
+		"name": "Hector Salamanca",
+		"style": "hector",
+		"color": "#e8e0d0",
+		"width": 62,
+		"bio": "A grumpy old man at Casa Tranquila who talks by ringing his little bell. One ding means yes. Lots of dings means trouble.",
+		"catchphrase": "Ding!",
+		"voice": {
+			"pitch": 0.7,
+			"rate": 0.8,
+			"babble": 260,
+			"prefer": [
+				"george",
+				"fred",
+				"daniel",
+				"male"
+			]
+		},
+		"show": "Breaking Bad",
+		"home": "casa_tranquila"
+	},
+	"francesca": {
+		"name": "Francesca",
+		"style": "francesca",
+		"color": "#2b3a4a",
+		"width": 58,
+		"bio": "Saul's sharp, unimpressed receptionist. Has seen it all and expects a raise.",
+		"catchphrase": "He's with a client.",
+		"voice": {
+			"pitch": 1.1,
+			"rate": 1.15,
+			"babble": 340,
+			"prefer": [
+				"susan",
+				"karen",
+				"female"
+			]
+		},
+		"show": "Breaking Bad",
+		"home": "saul_office"
+	},
 	"mario": {
 		"name": "Mario",
 		"style": "mario",

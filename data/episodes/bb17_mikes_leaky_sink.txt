@@ -1,0 +1,180 @@
+@title Mike's Leaky Sink
+@series Breaking Bad
+@season 2
+@icon element
+@number 7
+@description Mike's kitchen sink has been dripping for three weeks, and he refuses to call a plumber. "No half measures," he says. "I'll fix it myself." Jesse comes over to help. Walt comes over to supervise. The sink has never been in more danger.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC sad
+SCENE mike_house cut
+TITLE
+PLACE mike center left neutral
+SFX bubbles
+NARRATOR: Drip. Drip. Drip. For three weeks, Mike Ehrmantraut's kitchen sink had dripped. Every second. All night. All day.
+MIKE (neutral): Three weeks. Twenty-one days. About one point eight million drips.
+SFX bubbles
+MIKE (angry): Tonight, it ends.
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC jazz
+SCENE pollos
+PLACE jesse center right surprised
+PLACE mike midleft right neutral
+JESSE (surprised): Yo, Mike. You look tired.
+MIKE (neutral): My sink drips. I haven't slept in three weeks.
+JESSE (smug): Call a plumber, man.
+MIKE (angry): Plumbers charge two hundred dollars to tighten one nut. No half measures. I'll fix it myself.
+JESSE (excited): I can help! I fixed a toilet once!
+MIKE (neutral): ...Did it stay fixed?
+JESSE (nervous): For a while.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC sneaky
+SCENE mike_house
+CARD Saturday...
+PLACE mike center left neutral
+PLACE jesse midright left excited
+SFX door
+JESSE (excited): I brought tools! A wrench. Duct tape. And a plunger.
+MIKE (neutral): A plunger? For a sink?
+JESSE (smug): You never know, man.
+MIKE (smug): You always know with a plunger, kid. That's the problem.
+SFX bubbles
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC jazz 2
+SCENE mike_house
+PLACE walt center right smug
+PLACE mike midleft right angry
+SFX door
+WALT (smug): Mike. Jesse told me about your sink. I'm here to help.
+MIKE (angry): Nobody invited you, Walter.
+WALT (smug): A dripping faucet is a problem of pressure and seals. I'm a chemist. Seals are basically chemistry.
+MIKE (neutral): Seals are rubber.
+WALT (happy): Rubber is a polymer. Chemistry!
+MIKE (sad): ...Fine. Stand over there. Don't touch anything.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC tense
+SCENE mike_house
+PLACE mike center left neutral
+PLACE jesse midright left nervous
+MIKE (neutral): First, we turn off the water. Under the sink. The little valve.
+JESSE (nervous): Got it. Turning it.
+SFX squeak
+JESSE (surprised): It's stuck, Mike. Like, really stuck.
+MIKE (smug): It hasn't been turned in thirty years. Put your back into it.
+SFX squeak
+JESSE (scared): It came off! The whole valve came off in my hand!
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC action
+SCENE mike_house
+PLACE walt center right scared
+PLACE mike midleft right angry
+SFX splash
+SHAKE 0.6
+NARRATOR: Water sprayed out from under the sink. Straight up. Like a fountain. It hit the ceiling and rained down on all three of them.
+WALT (scared): Jesse! What did you do?!
+MIKE (angry): Towels! Get towels!
+WALT (nervous): Where do you keep your towels?
+MIKE (angry): In the bathroom, Walter! Like everybody!
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC action 2
+SCENE mike_house
+PLACE jesse center right scared
+PLACE walt midleft right excited
+SFX splash
+JESSE (scared): I'm plugging it with my thumb! It's not working!
+WALT (excited): Use the plunger!
+JESSE (surprised): The plunger?!
+WALT (excited): Suction! Pressure differential! Put it over the pipe!
+SFX boing
+NARRATOR: Jesse jammed the plunger over the broken pipe. The water stopped. Mostly.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC jazz
+SCENE mike_house
+PLACE mike center left neutral
+PLACE jesse midright left smug
+JESSE (smug): See? You always need a plunger.
+MIKE (neutral): Kid. Hold that plunger. Don't move. Don't sneeze. Don't think.
+JESSE (nervous): How long?
+MIKE (neutral): Until I find the main water shutoff outside.
+JESSE (nervous): How long is THAT?
+MIKE (smug): Depends how long it's been since anybody looked for it.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC sneaky 2
+SCENE mike_house
+CARD Twenty minutes later...
+PLACE walt center right sad
+PLACE jesse midleft right sad
+WALT (sad): Jesse. Your arms are shaking.
+JESSE (sad): I've been holding a plunger for twenty minutes, Mr. White.
+WALT (nervous): Want me to take a turn?
+JESSE (surprised): You'd do that?
+WALT (smug): Hand it here. Slowly. Like transferring a volatile compound.
+SFX splash
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC sneaky
+SCENE mike_house
+PLACE mike center left angry
+SFX footstep
+NARRATOR: Meanwhile, outside, Mike searched the yard for the main water valve. He checked by the porch. He checked by the fence. He checked under the garden gnome.
+MIKE (angry): Thirty years in this house. Never once needed this valve.
+MIKE (smug): Should've bought a house with a smaller yard.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC tense
+SCENE mike_house
+PLACE mike center left angry
+PLACE walt midright left nervous
+PLACE jesse midleft right neutral
+SFX splash
+MIKE (angry): Who let go of the plunger?
+WALT (nervous): It was a very complicated handoff, Mike.
+JESSE (angry): He went the wrong way!
+WALT (angry): You went the wrong way!
+SFX squeak
+MIKE (neutral): ...Water's off. Found the main valve. Under a bush.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC jazz 2
+SCENE mike_house
+PLACE mike center left neutral
+PLACE walt midright left sad
+PLACE jesse right left sad
+NARRATOR: The kitchen was soaked. The ceiling dripped. The floor squished. Three grown men stood in a puddle, holding a plunger, a wrench and a roll of duct tape.
+MIKE (neutral): So. Before you two came over, I had one drip.
+WALT (sad): And now?
+MIKE (smug): Now I have a swimming pool.
+JESSE (nervous): ...Sorry, Mike.
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC happy
+SCENE mike_house
+CARD An hour later...
+PLACE mike center left neutral
+PLACE jesse midright left excited
+NARRATOR: They dried the floor. Mike replaced the valve. Walt replaced the rubber seal in the faucet. Jesse wrapped everything in duct tape, just in case. Then Mike turned the water back on.
+JESSE (excited): Moment of truth...
+NARRATOR: Nothing. No drip. No spray. Just silence.
+MIKE (surprised): ...It's fixed.
+JESSE (excited): WE FIXED IT, YO!
+
+# ------------------------------------------------------------ MIKE'S HOUSE
+MUSIC romantic
+SCENE mike_house
+CARD That night...
+PLACE mike center left happy
+PLACE walt midright left smug
+WALT (smug): You see, Mike? No half measures. A full measure. Three men. One sink.
+MIKE (happy): Walter. You flooded my house.
+WALT (nervous): Temporarily.
+MIKE (smug): Next time, I'm calling a plumber.
+NARRATOR: That night, for the first time in three weeks, Mike Ehrmantraut slept like a baby. In his armchair. With the plunger next to him. Just in case.
+END

@@ -1,0 +1,177 @@
+@title Vamonos Pest
+@series Breaking Bad
+@season 2
+@icon element
+@number 4
+@description Marie's house has a termite problem, and she won't let anyone but "the best" fix it. Walt and Jesse borrow a bug tent from the Vamonos Pest company and pretend to be exterminators. Marie has a lot of rules. Most of them are about the color purple.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC tense
+SCENE schrader_house cut
+TITLE
+PLACE marie center left scared
+PLACE hank midright left nervous
+MARIE (scared): Hank! Termites! In the walls! I heard them chewing!
+HANK (nervous): Marie, it's probably the fridge.
+MARIE (angry): The fridge doesn't chew, Hank! I want an exterminator. The best one in Albuquerque. Today!
+HANK (sad): The best one is booked for three weeks.
+MARIE (angry): Then find the SECOND best!
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC jazz
+SCENE white_house
+PLACE skyler center left smug
+PLACE walt midright left nervous
+SKYLER (smug): Walt. Marie called. She needs an exterminator. And she says you're "good with chemicals."
+WALT (nervous): Skyler, I'm a chemistry teacher. Not a bug man.
+SKYLER (smug): She'll pay two hundred dollars.
+WALT (happy): ...I could be a bug man.
+
+# ------------------------------------------------------------ VAMONOS PEST
+MUSIC sneaky
+SCENE vamonos_pest
+CARD Vamonos Pest...
+PLACE jesse center right excited
+PLACE walt midleft right nervous
+JESSE (excited): Yo! I know a guy at Vamonos Pest! He said we can borrow the tent! And the truck! And the jumpsuits!
+WALT (nervous): Jesse, this tent is enormous.
+JESSE (smug): It's for houses, Mr. White. Houses are enormous.
+WALT (surprised): And it's striped. Red and yellow.
+JESSE (happy): That's so the bugs know you mean business.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC jazz 2
+SCENE schrader_house
+PLACE marie center left surprised
+PLACE walt midright left nervous
+PLACE jesse right left smug
+MARIE (surprised): Walt? Jesse? In jumpsuits?
+WALT (nervous): Marie. We're here about the... termites.
+JESSE (smug): Vamonos Pest, ma'am. The bugs go... vamonos.
+MARIE (smug): Rule one. Don't touch the purple pillows. Rule two. Don't touch the purple curtains. Rule three. Don't touch the purple anything.
+WALT (nervous): That's... most of the house.
+MARIE (happy): Exactly.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC jazz
+SCENE schrader_house
+PLACE jesse center right nervous
+PLACE marie midleft right smug
+JESSE (nervous): Um, ma'am. Can I sit on the couch? For a sec?
+MARIE (smug): That couch is lavender. Lavender is purple's cousin. No.
+JESSE (surprised): Purple has a cousin?
+MARIE (excited): Lilac, violet, plum, mauve, eggplant. It's a very big family.
+JESSE (smug): ...I'll just stand, yo.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC sneaky 2
+SCENE schrader_house
+PLACE walt center left neutral
+PLACE jesse midright left nervous
+WALT (neutral): Okay. First, we find the termites. Listen to the walls.
+JESSE (nervous): I hear... chewing. Mr. White, I hear chewing!
+WALT (surprised): Where?
+SFX chomp
+JESSE (surprised): ...Oh. That's Hank. In the kitchen. Eating chips.
+WALT (sad): Jesse.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC jazz
+SCENE schrader_house
+PLACE hank center left smug
+PLACE gomez midright left surprised
+HANK (smug): Gomie! Look at this. My brother-in-law and his little buddy, dressed as bug guys.
+GOMEZ (surprised): Is that a real tent? On your whole house?
+HANK (excited): Marie insisted. Big striped tent. We gotta sleep at your place tonight.
+GOMEZ (nervous): Hank, my couch is very small.
+HANK (smug): We'll make it work, Gomie. We always do.
+
+# ------------------------------------------------------------ VAMONOS PEST
+MUSIC action
+SCENE vamonos_pest
+PLACE jesse center right excited
+PLACE walt midleft right nervous
+SFX whoosh
+NARRATOR: Walt and Jesse pulled the giant striped tent over the Schrader house. It took an hour. Jesse fell off the roof twice. Walt got stuck inside the tent once.
+JESSE (excited): Done! The whole house is wrapped up like a big present!
+WALT (nervous): Now we need the bug spray. Jesse, where's the bug spray?
+JESSE (nervous): ...In the house. Under the tent.
+
+# ------------------------------------------------------------ VAMONOS PEST
+MUSIC tense
+SCENE vamonos_pest
+PLACE walt center left angry
+PLACE jesse midright left nervous
+WALT (angry): You left the spray INSIDE the tent?
+JESSE (nervous): I put it on the counter! So it'd be handy!
+WALT (angry): Handy for the termites!
+JESSE (smug): Maybe they'll spray themselves.
+WALT (sad): ...Get me the zipper.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC spooky
+SCENE schrader_house
+PLACE walt center left nervous
+PLACE jesse midright left scared
+NARRATOR: Inside the tent, everything was red and yellow light. Every purple thing looked orange. The house creaked.
+JESSE (scared): Mr. White. I hear chewing again. And it's not Hank.
+WALT (nervous): It's coming from the closet.
+SFX squeak
+JESSE (scared): The closet is moving!
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC jazz 2
+SCENE schrader_house
+PLACE walt center left surprised
+PLACE jesse midright left surprised
+SFX door
+NARRATOR: Walt opened the closet. There were no termites. There was a mouse. A small, brown mouse, chewing very happily on one of Hank's mineral boxes.
+WALT (surprised): A mouse. It's just a mouse.
+JESSE (surprised): Yo. It's eating Hank's rocks.
+WALT (smug): Not the rocks. The cardboard. Mice love cardboard.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC happy
+SCENE schrader_house
+PLACE jesse center right happy
+PLACE walt midleft right happy
+JESSE (happy): Come here, little guy. We're not gonna spray you.
+NARRATOR: Jesse scooped the mouse into a coffee can. Walt sealed the hole in the closet wall with putty. No chemicals at all.
+WALT (happy): Problem solved. No termites. One mouse. Zero spray.
+JESSE (excited): We're the best bug men in Albuquerque, yo!
+
+# ------------------------------------------------------------ VAMONOS PEST
+MUSIC happy 2
+SCENE vamonos_pest
+PLACE walt center left smug
+PLACE jesse midright left happy
+SFX whoosh
+NARRATOR: They pulled the giant tent off the house. It took an hour. Jesse fell off the roof only once this time.
+JESSE (happy): Getting better, yo! Only one fall!
+WALT (smug): A fifty percent improvement.
+JESSE (excited): Mr. White, we should start a business. Real bug men. Science bug men!
+WALT (nervous): Let's stick to candy, Jesse.
+
+# ------------------------------------------------------------ SCHRADER HOUSE
+MUSIC sneaky
+SCENE schrader_house
+CARD The next morning...
+PLACE marie center left nervous
+PLACE walt midright left smug
+MARIE (nervous): So? The termites?
+WALT (smug): Gone, Marie. Every last one. Your purple things are safe.
+MARIE (happy): Walt! I knew you were good with chemicals!
+WALT (nervous): ...Yes. Chemicals. That's exactly what I used.
+MARIE (excited): Here's your two hundred dollars! And a purple thank-you card!
+
+# ------------------------------------------------------------ PINKMAN HOUSE
+MUSIC romantic
+SCENE pinkman_house
+CARD That night...
+PLACE jesse center right happy
+PLACE badger midleft right surprised
+BADGER (surprised): Yo, Jesse. Why do you have a mouse in a coffee can?
+JESSE (happy): That's Termite. He's my new roommate.
+BADGER (surprised): You named a mouse Termite?
+JESSE (smug): He earned it, man.
+END

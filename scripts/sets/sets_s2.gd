@@ -88,6 +88,17 @@ static func draw_set(b: Backdrop, id: String) -> bool:
 		"reiss_chapel": _reiss_chapel(b)
 		"garrison_post": _garrison_post(b)
 		"liberio": _liberio(b)
+		# Breaking Bad
+		"casa_tranquila": _casa_tranquila(b)
+		"gale_apartment": _gale_apartment(b)
+		"vamonos_pest": _vamonos_pest(b)
+		"dog_house": _dog_house(b)
+		"isotopes_park": _isotopes_park(b)
+		"madrigal_office": _madrigal_office(b)
+		"mike_house": _mike_house(b)
+		"storage_unit": _storage_unit(b)
+		"four_corners": _four_corners(b)
+		"tohajiilee": _tohajiilee(b)
 		_: return false
 	return true
 
@@ -196,6 +207,13 @@ static func draw_fx(b: Backdrop, id: String) -> void:
 			for i in 3:
 				var k := fmod(t * 0.2 + i / 3.0, 1.0)
 				Art.dot(ci, Vector2(1060 + k * 60, 120 - k * 100), 16 + k * 30, Color(0.7, 0.7, 0.7, 0.4 * (1.0 - k)))
+		"dog_house":
+			var on := fmod(t, 1.2) > 0.6
+			Art.dot(ci, Vector2(300, 130), 10, Color("f2c14e") if on else Color("e6452f"))
+			Art.dot(ci, Vector2(980, 130), 10, Color("e6452f") if on else Color("f2c14e"))
+		"tohajiilee", "four_corners":
+			var x := fmod(t * 20.0, W + 400) - 200
+			b._cloud(Vector2(x, 90), 0.8)
 		_: pass
 
 
@@ -1274,4 +1292,155 @@ static func _liberio(b: Backdrop) -> void:
 	Art.shape(b.ci, SetsExtra._rect(Rect2(1040, 120, 60, 180)), Color("8a5a4a"), 4.0)
 	SetsMore._cobbles(b, 560, Color("a8a090"))
 	b._sign(Rect2(480, 250, 320, 44), "LIBERIO", Color("2b2b33"), Color("f4ecd8"), 28)
+
+
+
+
+# ------------------------------------------------------- Breaking Bad --
+
+static func _nm_sky(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("4a9ae0"), Color("f2dcb0"))
+
+
+static func _casa_tranquila(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("e8e0c8"), Color("d8ccb0"), 545, Color("b8b0a0"), "tile")
+	# Nursing home lounge: a TV on a cart, a bingo board and a big potted plant
+	Art.shape(b.ci, Art.rrect(Rect2(120, 140, 360, 260), 6), Color("f4f2ec"), 4.0)
+	for j in 5:
+		for i in 5:
+			Art.text(b.ci, b.sign_font, Vector2(140 + i * 66, 190 + j * 46), str(i * 15 + j + 1), 22, Color("4a78d0"), 0, HORIZONTAL_ALIGNMENT_CENTER, 60)
+	b._sign(Rect2(120, 100, 360, 44), "BINGO!", Color("e6452f"), Color.WHITE, 30)
+	Art.shape(b.ci, Art.rrect(Rect2(760, 260, 220, 160), 8), Color("4a4d55"), 4.0)
+	Art.shape(b.ci, Art.rrect(Rect2(776, 276, 188, 128), 4), Color("6fa0c0"), 2.0)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(780, 420, 180, 125)), Color("8a96a3"), 3.0)
+	SetsExtra._bush(b, Vector2(1140, 540), 1.0, Color("4f9a3a"))
+	b._sign(Rect2(520, 40, 300, 50), "CASA TRANQUILA", Color("8fb87a"), Color.WHITE, 26)
+
+
+static func _gale_apartment(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("e8d4b0"), Color("d4bc94"), 545, Color("8a5a36"))
+	# Gale's cozy apartment: bookshelves, a coffee machine, a karaoke TV and plants everywhere
+	_shelves(b, Rect2(60, 140, 300, 405), Color("8a5a36"), [Color("4a78d0"), Color("c8503a"), Color("5aa84a")], 91)
+	Art.shape(b.ci, Art.rrect(Rect2(500, 200, 280, 180), 8), Color("2b2b33"), 4.0)
+	Art.shape(b.ci, Art.rrect(Rect2(514, 214, 252, 152), 4), Color("3a5a8a"), 2.0)
+	Art.text(b.ci, b.sign_font, Vector2(514, 300), "LA LA LA", 30, Color("f2c14e"), 3, HORIZONTAL_ALIGNMENT_CENTER, 252)
+	SetsExtra._table(b, 1040, 420, 260, Color("c48a4f"))
+	Art.shape(b.ci, Art.rrect(Rect2(960, 330, 80, 90), 8), Color("8a96a3"), 3.5)
+	Art.blob(b.ci, Vector2(1100, 400), 22, 16, Color.WHITE, 3.0)
+	for x in [880, 1220]:
+		SetsExtra._bush(b, Vector2(x, 545), 0.6, Color("5aa84a"))
+
+
+static func _vamonos_pest(b: Backdrop) -> void:
+	_nm_sky(b)
+	SetsExtra._grass(b, 540, Color("c8b880"))
+	# A house wrapped in a big striped bug tent, and the Vamonos Pest truck
+	Art.shape(b.ci, Art.smooth(PackedVector2Array([Vector2(280, 540), Vector2(300, 260), Vector2(480, 140), Vector2(640, 120),
+		Vector2(800, 140), Vector2(980, 260), Vector2(1000, 540)]), 4), Color("f2c14e"), 5.0, 0.12)
+	for i in 7:
+		var x: float = 330.0 + i * 100.0
+		Art.stroke(b.ci, Art.curve(Vector2(x, 540), Vector2(x + 10, 300), Vector2(640 + (x - 640) * 0.3, 130), 10), 12.0, Color("e6452f"))
+	Art.shape(b.ci, Art.rrect(Rect2(1020, 420, 220, 120), 10), Color.WHITE, 4.0)
+	Art.blob(b.ci, Vector2(1070, 548), 22, 22, Color("2b2b33"), 3.0)
+	Art.blob(b.ci, Vector2(1190, 548), 22, 22, Color("2b2b33"), 3.0)
+	b._sign(Rect2(1030, 440, 200, 40), "VAMONOS PEST", Color("5aa84a"), Color.WHITE, 20)
+
+
+static func _dog_house(b: Backdrop) -> void:
+	_nm_sky(b)
+	b._sidewalk(560)
+	# A little drive-in hot dog stand with a giant hot dog on the roof
+	Art.shape(b.ci, SetsExtra._rect(Rect2(320, 260, 640, 300)), Color("f4ecd8"), 5.0, 0.1)
+	Art.shape(b.ci, SetsExtra._rect(Rect2(300, 240, 680, 40)), Color("e6452f"), 4.0)
+	Art.blob(b.ci, Vector2(640, 180), 220, 40, Color("e8b060"), 4.5)
+	Art.blob(b.ci, Vector2(640, 172), 200, 22, Color("c8503a"), 3.5)
+	Art.stroke(b.ci, Art.curve(Vector2(480, 164), Vector2(640, 150), Vector2(800, 164), 16), 6.0, Color("f2c14e"))
+	b._window(Rect2(400, 320, 480, 140), Color("e6452f"), Color("9ccbe8"), false)
+	b._sign(Rect2(440, 470, 400, 56), "THE DOG HOUSE", Color("2b3a6a"), Color("f2c14e"), 32)
+	for x in [300, 980]:
+		Art.limb(b.ci, PackedVector2Array([Vector2(x, 560), Vector2(x, 140)]), 6, Color("6a6a7a"))
+
+
+static func _isotopes_park(b: Backdrop) -> void:
+	SetsMore._sky(b, Color("3a8ad8"), Color("c8e4f8"))
+	# The ballpark: stands full of fans, the scoreboard and the green field
+	Art.shape(b.ci, SetsExtra._rect(Rect2(-PAD, 160, W + PAD * 2, 240)), Color("8a96a3"), 4.0)
+	for j in 3:
+		for i in 26:
+			Art.dot(b.ci, Vector2(-20 + i * 52 + (j % 2) * 26, 220 + j * 60), 14, Color.from_hsv(fmod(i * 0.11 + j * 0.37, 1.0), 0.45, 0.95))
+	Art.shape(b.ci, Art.rrect(Rect2(460, 30, 360, 120), 6), Color("2b3a2a"), 5.0)
+	Art.text(b.ci, b.sign_font, Vector2(460, 80), "ISOTOPES", 36, Color("f2c14e"), 3, HORIZONTAL_ALIGNMENT_CENTER, 360)
+	Art.text(b.ci, b.sign_font, Vector2(460, 130), "HOME 3  AWAY 2", 26, Color.WHITE, 3, HORIZONTAL_ALIGNMENT_CENTER, 360)
+	SetsExtra._fill_band(b, 400, H + PAD, Color("5aa84a"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(640, 440), Vector2(840, 540), Vector2(640, 640), Vector2(440, 540)]), Color("d8a868"), 4.0)
+
+
+static func _madrigal_office(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("e4eaf0"), Color("ccd6e0"), 545, Color("8a96a3"), "carpet")
+	# A tidy corporate test kitchen: a long table of sauces and a big company logo
+	b._sign(Rect2(380, 70, 520, 70), "MADRIGAL ELECTROMOTIVE", Color("2b3a6a"), Color.WHITE, 28)
+	SetsExtra._table(b, 640, 400, 700, Color("f4f4f2"))
+	var cols := [Color("e6452f"), Color("f2c14e"), Color("5aa84a"), Color("c8742a"), Color("9b5fd0")]
+	for i in 5:
+		var x: float = 360.0 + i * 140.0
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 16, 400), Vector2(x - 12, 340), Vector2(x - 6, 320), Vector2(x + 6, 320),
+			Vector2(x + 12, 340), Vector2(x + 16, 400)]), cols[i], 3.0)
+	for x in [80, 1100]:
+		b._window(Rect2(x, 160, 120, 220), Color("8a96a3"), Color("bfe0f2"))
+
+
+static func _mike_house(b: Backdrop) -> void:
+	SetsExtra._room(b, Color("d8ccb0"), Color("c4b494"), 545, Color("8a6a4a"))
+	# A plain, tidy living room: armchair, a TV, a window with blinds and a sink with a drip
+	Art.shape(b.ci, Art.rrect(Rect2(120, 340, 240, 205), 20), Color("8a6a4a"), 4.0, 0.12)
+	Art.shape(b.ci, Art.rrect(Rect2(140, 300, 200, 80), 16), Color("8a6a4a").darkened(0.1), 3.5)
+	b._window(Rect2(520, 120, 240, 200), Color("f4ecd8"), Color("bfe0f2"), false)
+	for i in 9:
+		Art.stroke(b.ci, PackedVector2Array([Vector2(524, 128 + i * 22), Vector2(756, 128 + i * 22)]), 3.0, Color("e8e0c8"))
+	Art.shape(b.ci, Art.rrect(Rect2(900, 360, 300, 185), 6), Color("c8c0b0"), 4.0)
+	Art.shape(b.ci, Art.rrect(Rect2(960, 340, 180, 30), 6), Color("8a96a3"), 3.0)
+	Art.limb(b.ci, PackedVector2Array([Vector2(1050, 300), Vector2(1050, 340)]), 6, Color("8a96a3"))
+
+
+static func _storage_unit(b: Backdrop) -> void:
+	_nm_sky(b)
+	SetsMore._stone_floor(b, 540, Color("b8b0a0"))
+	# A row of orange storage doors, one rolled up, with a mattress inside
+	for i in 6:
+		var x: float = -40.0 + i * 230.0
+		Art.shape(b.ci, SetsExtra._rect(Rect2(x, 220, 210, 320)), Color("c8b8a0"), 4.0)
+		if i == 3:
+			Art.shape(b.ci, SetsExtra._rect(Rect2(x + 10, 230, 190, 310)), Color("3a3a3a"), 2.0)
+			Art.shape(b.ci, Art.rrect(Rect2(x + 20, 470, 170, 60), 10), Color("f4f2ec"), 3.0)
+			Art.shape(b.ci, SetsExtra._rect(Rect2(x + 10, 230, 190, 40)), Color("e6702f"), 3.0)
+		else:
+			Art.shape(b.ci, SetsExtra._rect(Rect2(x + 10, 230, 190, 310)), Color("e6702f"), 3.0)
+			for k in 6:
+				Art.stroke(b.ci, PackedVector2Array([Vector2(x + 10, 270 + k * 44), Vector2(x + 200, 270 + k * 44)]), 2.0, Color("b85a1f"))
+	b._sign(Rect2(480, 150, 320, 50), "U-STORE-IT", Color("2b3a6a"), Color.WHITE, 30)
+
+
+static func _four_corners(b: Backdrop) -> void:
+	_nm_sky(b)
+	SetsMore._desert(b, 460)
+	# The monument: a flat plaza with a cross dividing four states
+	Art.shape(b.ci, PackedVector2Array([Vector2(240, 520), Vector2(1040, 520), Vector2(1180, 640), Vector2(100, 640)]), Color("d8c8a8"), 4.0)
+	Art.stroke(b.ci, PackedVector2Array([Vector2(640, 520), Vector2(640, 640)]), 4.0, Color("8a6a4a"))
+	Art.stroke(b.ci, PackedVector2Array([Vector2(170, 580), Vector2(1110, 580)]), 4.0, Color("8a6a4a"))
+	Art.blob(b.ci, Vector2(640, 580), 30, 12, Color("c8a050"), 3.0)
+	b._sign(Rect2(440, 400, 400, 56), "FOUR CORNERS", Color("8a5a36"), Color("f4ecd8"), 32)
+
+
+static func _tohajiilee(b: Backdrop) -> void:
+	_nm_sky(b)
+	SetsMore._desert(b, 440)
+	# Red rock buttes, scrub brush and a lone shovel stuck in the sand
+	for x in [200.0, 1080.0]:
+		Art.shape(b.ci, PackedVector2Array([Vector2(x - 160, 470), Vector2(x - 120, 260), Vector2(x + 120, 260), Vector2(x + 160, 470)]),
+			Color("c8704a"), 4.5, 0.15)
+	for i in 6:
+		SetsExtra._bush(b, Vector2(120 + i * 210, 560 + (i % 2) * 20), 0.4, Color("8a9a5a"))
+	Art.limb(b.ci, PackedVector2Array([Vector2(700, 600), Vector2(720, 470)]), 6, Color("8a5a36"))
+	Art.shape(b.ci, PackedVector2Array([Vector2(684, 600), Vector2(716, 600), Vector2(712, 640), Vector2(688, 640)]), Color("8a96a3"), 3.0)
+	Art.blob(b.ci, Vector2(780, 610), 60, 18, Color("c8a878"), 2.5)
 

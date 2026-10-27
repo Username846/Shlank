@@ -1,0 +1,174 @@
+@title Gale's Karaoke Night
+@series Breaking Bad
+@season 2
+@icon element
+@number 1
+@description Gus hires a new assistant for Walt's candy lab: Gale, a cheerful chemist who loves coffee, poetry and karaoke. Walt finds him a little too cheerful. Jesse finds him a little too much. Then Gale invites everybody over for karaoke night.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC happy
+SCENE superlab cut
+TITLE
+PLACE gale center left excited
+PLACE walt midright left neutral
+GALE (excited): Mr. White! It's an honor! Your blue rock candy is the purest I've ever seen. Ninety-nine point one percent! Majestic!
+WALT (neutral): Thank you. And you are?
+GALE (happy): Gale Boetticher. Your new lab assistant. I brought coffee! I roasted the beans myself.
+WALT (surprised): You... roast your own beans?
+GALE (smug): Every Sunday. It's a whole process.
+WALT (happy): ...I may like you.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC jazz
+SCENE superlab
+PLACE jesse center right angry
+PLACE walt midleft right neutral
+JESSE (angry): Yo, Mr. White. Who's the new guy? And why is he humming?
+WALT (neutral): That's Gale. He's very talented. He measured the sugar to the thousandth of a gram.
+JESSE (smug): I can measure to the thousandth of a gram.
+WALT (smug): Jesse, last week you measured with a coffee mug.
+JESSE (angry): It was a big coffee mug!
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC jazz 2
+SCENE superlab
+PLACE gale center left happy
+PLACE jesse midright left nervous
+GALE (happy): Jesse! I've heard so much about you. You're the one who invented the chili powder twist!
+JESSE (surprised): You know about the chili powder twist?
+GALE (excited): It's genius! The sweet, then the heat! It's like a poem!
+JESSE (shy): ...Thanks, man.
+GALE (excited): Want to hear a poem I wrote about it?
+JESSE (nervous): ...Maybe later.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC sneaky 2
+SCENE superlab
+PLACE gale center left happy
+PLACE walt midright left surprised
+GALE (happy): Mr. White, I made labels for everything. "Sugar." "Water." "Blue." "More Blue."
+WALT (surprised): What's the difference between "Blue" and "More Blue"?
+GALE (smug): About four drops, sir.
+WALT (happy): ...That's actually correct.
+GALE (excited): I knew you'd appreciate it!
+
+# ------------------------------------------------------------ LOS POLLOS HERMANOS
+MUSIC sneaky
+SCENE pollos
+PLACE gus center left neutral
+PLACE walt midright left nervous
+GUS (neutral): Walter. How is the new assistant?
+WALT (nervous): He's... very enthusiastic. He labeled every beaker. In calligraphy.
+GUS (happy): Gale is a valuable man. I hope you two will be friends.
+WALT (nervous): We're... working on it.
+GUS (smug): Good. Friendship makes better candy.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC happy 2
+SCENE superlab
+CARD Friday...
+PLACE gale center left excited
+PLACE walt midright left surprised
+PLACE jesse right left surprised
+GALE (excited): Everyone! Tonight! Karaoke night at my apartment! I have snacks! I have a disco ball!
+WALT (surprised): Karaoke?
+JESSE (surprised): Like... singing? In front of people?
+GALE (happy): It's the most fun you'll ever have! Seven o'clock! Don't be late!
+WALT (nervous): Jesse, I don't sing.
+JESSE (smug): Mr. White, I've heard you sing in the RV. You definitely don't sing.
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC happy
+SCENE gale_apartment
+CARD Gale's apartment...
+PLACE gale center left excited
+PLACE walt midright left nervous
+SFX door
+GALE (excited): Welcome! Welcome! Shoes off, please. The rug is from Peru.
+WALT (nervous): Gale, you have a lot of plants.
+GALE (happy): Forty-two plants. Each one has a name. That's Linus. That's Marie. That's Big Tom.
+WALT (surprised): You named a plant Marie?
+GALE (smug): She's very purple.
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC jazz
+SCENE gale_apartment
+PLACE gale center left excited
+PLACE jesse midright left surprised
+SFX drumroll
+NARRATOR: Gale turned on his karaoke machine. The disco ball spun. And Gale sang. Loudly. Joyfully. In three different languages, all in one song.
+JESSE (surprised): Yo. He's actually... really good.
+GALE (happy): Thank you! I practice every night! The neighbors love it!
+NARRATOR: The neighbor banged on the wall.
+GALE (nervous): ...Mostly love it.
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC sneaky 2
+SCENE gale_apartment
+PLACE jesse center right smug
+PLACE walt midleft right nervous
+JESSE (smug): Your turn, Mr. White.
+WALT (nervous): Absolutely not.
+JESSE (smug): Come on. You said "I am the one who sings" in the RV once.
+WALT (angry): I said "I am the one who KNOCKS." I was talking about the door.
+JESSE (happy): Close enough. Get up there.
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC tense
+SCENE gale_apartment
+PLACE walt center left nervous
+SFX drumroll
+NARRATOR: Walter White stood in front of the karaoke machine. He held the microphone like a test tube full of acid. The song began.
+WALT (nervous): ...La. La la.
+NARRATOR: Silence. Even the plants looked uncomfortable.
+WALT (sad): I told you. I don't sing.
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC romantic
+SCENE gale_apartment
+PLACE gale center left happy
+PLACE walt midright left sad
+GALE (happy): Mr. White. Singing is just chemistry. Air, vibration, resonance.
+WALT (surprised): Chemistry?
+GALE (smug): Breathe from your diaphragm. Like controlling a reaction. Slow, steady heat.
+WALT (nervous): Slow, steady heat...
+GALE (excited): Now! Sing it like you're making the purest candy in the world!
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC happy 2
+SCENE gale_apartment
+PLACE walt center left excited
+PLACE jesse midright left surprised
+PLACE gale right left excited
+SFX fanfare
+NARRATOR: And Walter White sang. Not well. But loudly. With his whole chest. The disco ball spun. Jesse's jaw dropped.
+JESSE (surprised): Mr. White! You're... you're doing it!
+WALT (excited): Ninety-nine point one percent pure singing!
+GALE (excited): Majestic! MAJESTIC!
+
+# ------------------------------------------------------------ GALE'S APARTMENT
+MUSIC jazz 2
+SCENE gale_apartment
+PLACE jesse center right nervous
+PLACE gale midleft right happy
+GALE (happy): Jesse. Your turn.
+JESSE (nervous): Nah. I'm good.
+GALE (smug): I have heavy metal on here. Lots of it.
+JESSE (excited): ...Hand me the mic, yo.
+SFX thud
+SHAKE 0.6
+NARRATOR: The neighbor stopped banging on the wall. The neighbor moved out.
+
+# ------------------------------------------------------------ THE SUPERLAB
+MUSIC romantic 2
+SCENE superlab
+CARD Monday morning...
+PLACE walt center left happy
+PLACE gale midright left happy
+PLACE jesse right left smug
+WALT (happy): Good morning, Gale. I made coffee. From your beans.
+GALE (surprised): Mr. White! You're humming!
+WALT (smug): I'm not humming. I'm... resonating.
+JESSE (smug): Same time next Friday, Gale?
+GALE (excited): I'll get a second disco ball!
+END

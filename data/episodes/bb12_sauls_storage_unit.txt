@@ -1,0 +1,192 @@
+@title Saul's Storage Unit
+@series Breaking Bad
+@season 2
+@icon element
+@number 2
+@description Saul Goodman keeps all of Walt's candy-fair prize money in a storage unit, guarded by his bodyguard Huell, who mostly guards it by lying on it. When Saul loses the key, Francesca says it's not her problem. Everyone has to get into the storage unit before the rent is due.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC happy
+SCENE saul_office cut
+TITLE
+PLACE saul center left excited
+PLACE francesca midright left neutral
+SAUL (excited): Francesca! Have you seen my keys? Little silver one. Says "Unit Four" on it.
+FRANCESCA (neutral): No.
+SAUL (nervous): Did you look?
+FRANCESCA (smug): No.
+SAUL (angry): Francesca! That key opens the storage unit with Walt's prize money!
+FRANCESCA (neutral): Then you should take better care of it. I'm on my break.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC jazz
+SCENE saul_office
+PLACE saul center left nervous
+PLACE walt midright left angry
+WALT (angry): You LOST the key? To my prize money? From fourteen candy fairs?
+SAUL (nervous): Misplaced. Not lost. It's somewhere. Everything is somewhere, Walt.
+WALT (angry): The storage company is closed for the weekend! And the rent is due Monday!
+SAUL (smug): Relax. Huell is guarding it. Nobody gets past Huell.
+WALT (nervous): Including us?
+SAUL (sad): ...Including us.
+
+# ------------------------------------------------------------ STORAGE UNIT
+MUSIC sneaky
+SCENE storage_unit
+PLACE huell center left neutral
+PLACE jesse midright left nervous
+JESSE (nervous): Yo, Huell. Is the door locked?
+HUELL (neutral): Mm-hm.
+JESSE (smug): Can you open it?
+HUELL (neutral): Mm-mm.
+JESSE (angry): Why not?
+HUELL (smug): No key.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC jazz 2
+SCENE saul_office
+CARD The search...
+PLACE saul center left nervous
+PLACE francesca midright left smug
+SAUL (nervous): Did I leave it in my other suit? The purple one?
+FRANCESCA (smug): You have nine purple suits.
+SAUL (nervous): The lavender one?
+FRANCESCA (smug): You have four lavender suits.
+SAUL (angry): Why do I have so many suits?!
+FRANCESCA (neutral): You told me it's your brand.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky 2
+SCENE saul_office
+PLACE saul center left nervous
+PLACE huell midright left neutral
+SAUL (nervous): Huell. Buddy. Pal. Did you see me put a key anywhere? A little silver one?
+HUELL (neutral): Mm-mm.
+SAUL (sad): You didn't see anything?
+HUELL (smug): Sandwich.
+SAUL (excited): A sandwich! You saw me with a sandwich! That's a clue!
+HUELL (happy): Mm-hm. Good sandwich.
+
+# ------------------------------------------------------------ STORAGE UNIT
+MUSIC jazz
+SCENE storage_unit
+PLACE walt center left neutral
+PLACE jesse midright left excited
+JESSE (excited): Mr. White! We can melt the lock! With science! Like in chemistry class!
+WALT (neutral): Jesse. This is a storage unit. Not a bank vault.
+JESSE (excited): So, a smaller science!
+WALT (smug): Or. We pick the lock.
+JESSE (surprised): You know how to pick a lock?
+WALT (smug): I'm a chemistry teacher, Jesse. I've been locked out of the supply closet many, many times.
+
+# ------------------------------------------------------------ STORAGE UNIT
+MUSIC tense
+SCENE storage_unit
+PLACE walt center left nervous
+PLACE huell midright left neutral
+SFX squeak
+WALT (nervous): Almost. Almost. Two more pins.
+HUELL (neutral): Mm.
+SFX squeak
+WALT (angry): Huell, could you please not breathe so loudly? I'm concentrating.
+HUELL (smug): ...Mm-hm.
+SFX squeak
+WALT (sad): And I broke the hairpin.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky 2
+SCENE saul_office
+PLACE saul center left excited
+PLACE francesca midright left neutral
+SAUL (excited): Francesca! Think! The last time you saw me holding a little silver key! Where was I?
+FRANCESCA (neutral): Tuesday. You were eating a sandwich at your desk.
+SAUL (excited): A sandwich! What kind?
+FRANCESCA (smug): Pastrami. You got mustard on the contract.
+SAUL (excited): The trash! I threw out the sandwich wrapper! The key must be in the trash!
+FRANCESCA (smug): The trash went out Wednesday.
+
+# ------------------------------------------------------------ JUNKYARD
+MUSIC action
+SCENE junkyard
+CARD The city dump...
+PLACE saul center left scared
+PLACE jesse midright left angry
+SAUL (scared): This is the worst day of my life. And I once got sued by a clown.
+JESSE (angry): We have to search the whole dump?
+SAUL (nervous): Just the Wednesday section. It's very organized. Mostly.
+SFX splat
+JESSE (angry): Yo! I stepped in something!
+SAUL (nervous): That's probably someone's Tuesday.
+
+# ------------------------------------------------------------ JUNKYARD
+MUSIC sad
+SCENE junkyard
+PLACE jesse center right sad
+PLACE saul midleft right sad
+JESSE (sad): Saul. I found a sandwich wrapper.
+SAUL (excited): Pastrami?
+JESSE (sad): Tuna. And it's been here a while.
+SAUL (sad): This is how it ends. Me. In a dump. Covered in other people's lunch.
+JESSE (smug): You could just... call Walt. See if he got in.
+SAUL (surprised): ...Why didn't I think of that?
+
+# ------------------------------------------------------------ STORAGE UNIT
+MUSIC jazz 2
+SCENE storage_unit
+PLACE huell center left neutral
+PLACE walt midright left nervous
+WALT (nervous): Huell. You've been guarding this unit for months. Do you ever go inside?
+HUELL (smug): Mm-hm.
+WALT (surprised): How? You don't have a key.
+HUELL (neutral): Back door.
+WALT (surprised): There's a BACK DOOR?
+HUELL (smug): Mm-hm.
+
+# ------------------------------------------------------------ STORAGE UNIT
+MUSIC happy
+SCENE storage_unit
+PLACE walt center left surprised
+SFX door
+NARRATOR: Behind the storage unit was a little back door. It was not locked. Inside, there was a mattress. On the mattress, there were fourteen first-place ribbons, three trophies and a giant novelty check.
+WALT (surprised): My prize money. It's all here.
+NARRATOR: There was also a sandwich wrapper. And taped to the wrapper, a little silver key.
+WALT (angry): ...SAUL.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky
+SCENE saul_office
+PLACE saul center left nervous
+PLACE walt midright left angry
+PLACE francesca right left smug
+SAUL (nervous): So it was in the storage unit. The whole time. Locked inside the thing it opens.
+WALT (angry): You spent three hours digging through the dump.
+SAUL (sad): Four. Jesse fell in a couch.
+FRANCESCA (smug): I could have told you that.
+SAUL (angry): Then WHY didn't you?!
+FRANCESCA (neutral): I was on my break.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC jazz
+SCENE saul_office
+CARD The next day...
+PLACE saul center left happy
+PLACE francesca midright left smug
+SAUL (happy): Francesca. I've learned something. From now on, I'm keeping the key on a necklace.
+FRANCESCA (smug): A necklace.
+SAUL (excited): A gold one! With my face on it!
+FRANCESCA (neutral): You'll lose the necklace.
+SAUL (smug): Then I'll get a second necklace. For the first necklace.
+FRANCESCA (smug): I'll need a raise.
+
+# ------------------------------------------------------------ STORAGE UNIT
+MUSIC romantic
+SCENE storage_unit
+CARD That evening...
+PLACE huell center left happy
+PLACE jesse midright left happy
+JESSE (happy): Yo, Huell. You knew about the back door the whole time. Why didn't you say anything?
+HUELL (smug): Nobody asked.
+JESSE (surprised): ...That's fair, man.
+HUELL (happy): Nap?
+JESSE (excited): Yeah. Nap.
+END

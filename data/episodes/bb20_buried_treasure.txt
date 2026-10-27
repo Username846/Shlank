@@ -1,0 +1,172 @@
+@title Buried Treasure
+@series Breaking Bad
+@season 2
+@icon element
+@number 10
+@description Years ago, Walt buried a time capsule in the desert at To'hajiilee with his very first batch of blue rock candy inside. Now he wants to dig it up for the Albuquerque Candy Fair's tenth anniversary. He's lost the map. Jesse remembers the spot. Jesse remembers it wrong. Everyone comes to help.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC happy
+SCENE white_house cut
+TITLE
+PLACE walt center right excited
+PLACE skyler midleft right surprised
+WALT (excited): Skyler! The Candy Fair's tenth anniversary is Saturday! And they want to display my very first batch of blue candy!
+SKYLER (surprised): The batch you buried in the desert? In a time capsule?
+WALT (nervous): Yes. That batch.
+SKYLER (smug): Do you know where it is?
+WALT (nervous): I made a map. I put the map somewhere safe.
+SKYLER (smug): Walt. Where's the map?
+
+# ------------------------------------------------------------ PINKMAN HOUSE
+MUSIC jazz
+SCENE pinkman_house
+PLACE jesse center right excited
+PLACE walt midleft right nervous
+JESSE (excited): The time capsule? Yo, I remember! We buried it near a rock! A big rock!
+WALT (nervous): Jesse, the desert is full of big rocks.
+JESSE (smug): This one looked like a duck.
+WALT (sad): ...Do you remember which direction the duck was facing?
+JESSE (nervous): Left? Probably left.
+
+# ------------------------------------------------------------ SAUL'S OFFICE
+MUSIC sneaky
+SCENE saul_office
+PLACE saul center left excited
+PLACE huell midright left neutral
+PLACE walt midleft right neutral
+SAUL (excited): A treasure hunt? In the desert? Count me in! I'll bring Huell! He's great with shovels!
+HUELL (neutral): Mm.
+SAUL (smug): And I'll film it. "Saul Goodman Finds Buried Treasure." It's an infomercial waiting to happen.
+WALT (angry): It's not treasure, Saul. It's candy.
+SAUL (happy): Treasure is whatever people pay to see, Walt.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC jazz 2
+SCENE tohajiilee
+CARD To'hajiilee...
+PLACE walt center right nervous
+PLACE jesse midleft right excited
+PLACE hank right left happy
+WALT (nervous): It looks... different than I remember.
+JESSE (excited): There's the duck rock! Right there!
+HANK (happy): That's a rock that looks like a duck. Okay. I see it.
+WALT (smug): Then we dig twenty paces east of the duck.
+JESSE (nervous): Or west. One of those.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC action
+SCENE tohajiilee
+PLACE huell center left neutral
+PLACE saul midright left excited
+SFX thud
+NARRATOR: Huell dug. And dug. And dug. Huell dug a hole so big you could fit a hot tub in it.
+SAUL (excited): Anything, Huell?
+HUELL (neutral): Rock.
+SAUL (sad): Just a rock?
+HUELL (smug): Duck rock.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC sad
+SCENE tohajiilee
+PLACE walt center right sad
+PLACE jesse midleft right sad
+WALT (sad): Six holes, Jesse. Six holes. And nothing.
+JESSE (sad): I'm sorry, Mr. White. I thought I remembered.
+WALT (sad): That first batch was special. It was the first thing I ever made that I was really proud of.
+JESSE (nervous): ...You were proud of it?
+WALT (shy): I was proud of us. You and me. Our first batch.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC sneaky
+SCENE tohajiilee
+PLACE hank center left smug
+PLACE gomez midright left happy
+HANK (smug): Gomie. Seven holes. All empty. And there's a rock that looks like a duck.
+GOMEZ (happy): You know what that means.
+HANK (excited): What?
+GOMEZ (smug): We're on a treasure hunt with a candy chemist, a lawyer and a guy who talks to rocks.
+HANK (happy): Best Saturday ever.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC jazz
+SCENE tohajiilee
+PLACE mike center left neutral
+PLACE gale midright left excited
+MIKE (neutral): Gale. Why are you here?
+GALE (excited): I heard there was a treasure hunt! I brought a metal detector! And snacks!
+MIKE (surprised): A metal detector?
+GALE (smug): The time capsule is a metal box, isn't it? Metal box, metal detector. Science!
+MIKE (happy): ...Kid, that's the first useful thing anyone's said all day.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC sneaky 2
+SCENE tohajiilee
+PLACE gale center left excited
+SFX detector
+NARRATOR: Gale walked across the desert with his metal detector. Beep. A bottle cap. Beep. A spoon. Beep. One of Saul's cufflinks.
+SFX detector_crazy
+GALE (excited): Mr. White! Big signal! Very big signal! Over here!
+NARRATOR: It was not twenty paces east of the duck. It was not twenty paces west of the duck. It was directly under the duck.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC action 2
+SCENE tohajiilee
+PLACE huell center left neutral
+PLACE walt midright left excited
+WALT (excited): Under the duck rock! Huell! Can you move the duck?
+HUELL (smug): Mm-hm.
+SFX thud
+SHAKE 0.6
+NARRATOR: Huell lifted the duck rock. All by himself. Underneath, in the sand, was a small metal box with a faded blue label: "Batch #1. W.W. and J.P."
+WALT (surprised): We found it.
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC happy
+SCENE tohajiilee
+PLACE walt center right happy
+PLACE jesse midleft right excited
+SFX sparkle
+NARRATOR: Walt opened the box. Inside, wrapped in wax paper, were the very first blue rock candy crystals he and Jesse had ever made. A little dusty. Still perfectly blue.
+JESSE (excited): Yo! It's still blue! After all this time!
+WALT (happy): Ninety-nine point one percent pure.
+JESSE (shy): And there's a note. In my handwriting.
+WALT (surprised): What does it say?
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC romantic
+SCENE tohajiilee
+PLACE jesse center right shy
+PLACE walt midleft right happy
+JESSE (shy): It says, "Mr. White, if you're reading this, we did it. Yeah, science."
+WALT (happy): ...Yeah, science, Jesse.
+JESSE (happy): We were kind of a good team, huh?
+WALT (smug): We still are.
+SFX fanfare
+
+# ------------------------------------------------------------ TO'HAJIILEE
+MUSIC jazz 2
+SCENE tohajiilee
+PLACE hank center left happy
+PLACE saul midright left excited
+PLACE skyler right left happy
+PLACE huell midleft right neutral
+HANK (happy): Ha! The duck was guarding it the whole time!
+SAUL (excited): And I got it all on camera! "Saul Goodman and the Buried Blue Treasure"! Coming soon!
+SKYLER (smug): Saul, you just stood here and talked.
+SAUL (smug): That's what I do best, Skyler.
+HUELL (happy): Mm-hm.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC romantic 2
+SCENE white_house
+CARD The Candy Fair...
+PLACE walt center right happy
+PLACE skyler midleft right happy
+PLACE flynn right left excited
+FLYNN (excited): Dad! Everybody at the Candy Fair loved it! They put it in a glass case!
+WALT (happy): Batch number one. Where it all began.
+SKYLER (happy): You and Jesse should be very proud.
+WALT (smug): We are. Yeah, science.
+FLYNN (nervous): Dad, please don't start saying "yeah, science."
+END

@@ -1,0 +1,183 @@
+@title Take Me Out to the Ball Game
+@series Breaking Bad
+@season 2
+@icon element
+@number 6
+@description Walt takes Flynn to an Isotopes baseball game for a father-son day. Walt wants to explain the physics of every pitch. Flynn wants a hot dog and a foul ball. Jesse shows up with a giant foam finger. Hank shows up with a bigger one.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC happy
+SCENE white_house cut
+TITLE
+PLACE walt center right excited
+PLACE flynn midleft right surprised
+WALT (excited): Flynn! I got us tickets! Isotopes versus the Sky Sox! Father-son day!
+FLYNN (surprised): Baseball? You? You don't like baseball, Dad.
+WALT (smug): I love baseball. It's applied physics. Parabolic trajectories. Air resistance.
+FLYNN (nervous): Dad, please don't do physics at the game.
+WALT (happy): Just a little physics.
+FLYNN (sad): It's never a little.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC jazz
+SCENE isotopes_park
+CARD Isotopes Park...
+PLACE flynn center left excited
+PLACE walt midright left happy
+FLYNN (excited): Dad, look! The whole field! And the scoreboard! And the hot dog guy!
+WALT (happy): Did you know a fastball leaves the pitcher's hand at about ninety miles an hour?
+FLYNN (smug): Did you know the hot dog guy is getting away?
+WALT (nervous): ...Hot dog first. Physics after.
+FLYNN (excited): Now you're talking!
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC sneaky
+SCENE isotopes_park
+PLACE jesse center right excited
+PLACE walt midleft right surprised
+JESSE (excited): Yo! Mr. White! Flynn! What's up!
+WALT (surprised): Jesse? What are you doing here?
+JESSE (smug): Badger got free tickets from his cousin. Check out my foam finger.
+WALT (nervous): It's very large.
+JESSE (excited): It's the biggest one they sell, yo! It says "NUMBER ONE"!
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC jazz 2
+SCENE isotopes_park
+PLACE hank center left excited
+PLACE jesse midright left surprised
+HANK (excited): Walt! Flynn! Look at me! I got the GIANT foam finger!
+JESSE (surprised): Yo, your foam finger is bigger than my foam finger.
+HANK (smug): It's the special edition. You have to ask for it.
+JESSE (angry): You can ASK for a bigger one?
+HANK (smug): Pinkman, you can always ask.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC happy 2
+SCENE isotopes_park
+CARD Inning three...
+PLACE walt center right excited
+PLACE flynn midleft right sad
+WALT (excited): See that curveball? The spin creates a pressure difference. The Magnus effect!
+FLYNN (sad): Dad.
+WALT (excited): The seams catch the air, and the ball moves sideways!
+FLYNN (sad): Dad. Everybody's looking at us.
+WALT (nervous): ...Sorry, Flynn. I'll explain it at home.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC jazz
+SCENE isotopes_park
+CARD Inning five...
+PLACE hank center left excited
+PLACE flynn midright left happy
+HANK (excited): Flynn! Peanuts! Catch!
+SFX boing
+FLYNN (happy): Got it!
+HANK (smug): See? You've got the hands, kid. Natural catcher.
+FLYNN (sad): I can catch peanuts, Uncle Hank. Peanuts aren't foul balls.
+HANK (happy): Every great catcher starts with peanuts.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC sad
+SCENE isotopes_park
+PLACE flynn center left sad
+PLACE jesse midright left nervous
+FLYNN (sad): Jesse. Can I tell you something?
+JESSE (nervous): Sure, man.
+FLYNN (sad): I just want to catch a foul ball. I've been to eleven games. I've never caught one.
+JESSE (surprised): Eleven games and no foul ball? That's messed up.
+FLYNN (sad): My dad thinks baseball is a math problem. I just want it to be baseball.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC jazz
+SCENE isotopes_park
+PLACE jesse center right smug
+PLACE walt midleft right nervous
+JESSE (smug): Mr. White. Flynn wants a foul ball. Like, really bad.
+WALT (nervous): A foul ball is random, Jesse. You can't predict it.
+JESSE (smug): Can't you, though? With all your physics?
+WALT (surprised): ...Actually. With the batter's stance, the pitch speed and the wind direction...
+JESSE (excited): There it is!
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC sneaky 2
+SCENE isotopes_park
+CARD Inning seven...
+PLACE walt center right excited
+PLACE hank midleft right surprised
+WALT (excited): Hank. The left-handed batter. He swings late every time. The ball will go foul. To section twelve.
+HANK (surprised): We're in section twelve.
+WALT (smug): Row C. About seat five.
+HANK (surprised): Flynn's in seat five.
+WALT (happy): I know.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC tense
+SCENE isotopes_park
+PLACE flynn center left nervous
+PLACE walt midright left excited
+SFX drumroll
+WALT (excited): Flynn! Hold up your glove! Right now!
+FLYNN (nervous): Why? Nothing's happening!
+WALT (excited): Trust me! Physics!
+SFX whoosh
+NARRATOR: The batter swung late. The ball spun off the bat, up into the air. Up, up, up. Toward section twelve. Row C. Seat five.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC action
+SCENE isotopes_park
+PLACE flynn center left excited
+PLACE jesse midright left excited
+PLACE hank right left excited
+SFX thud
+NARRATOR: The ball dropped right into Flynn's glove. Smack.
+FLYNN (excited): I CAUGHT IT! I CAUGHT A FOUL BALL!
+JESSE (excited): YO! FLYNN! THAT'S SICK!
+HANK (excited): That's my nephew! Woo!
+SFX fanfare
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC happy
+SCENE isotopes_park
+PLACE flynn center left surprised
+PLACE walt midright left happy
+FLYNN (surprised): Dad. You knew. You knew exactly where it would go.
+WALT (happy): A late swing. A left-handed batter. A three-mile-an-hour wind from the east.
+FLYNN (excited): That's awesome!
+WALT (smug): That's physics.
+FLYNN (happy): ...Okay. Physics is a little awesome.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC happy 2
+SCENE isotopes_park
+PLACE flynn center left excited
+PLACE skinny_pete midright left surprised
+SKINNY_PETE (surprised): Yo, little dude. Was that you? The foul ball catch? It's on the big screen!
+FLYNN (excited): It was me! My dad calculated it!
+SKINNY_PETE (surprised): Your dad... calculated a foul ball?
+FLYNN (smug): He's a scientist.
+SKINNY_PETE (happy): That is the coolest thing I've ever heard.
+
+# ------------------------------------------------------------ ISOTOPES PARK
+MUSIC jazz 2
+SCENE isotopes_park
+PLACE hank center left smug
+PLACE jesse midright left nervous
+HANK (smug): Pinkman. Wanna trade foam fingers?
+JESSE (nervous): For real?
+HANK (happy): Kid caught a foul ball. I'm feeling generous.
+JESSE (excited): YO! The special edition!
+HANK (smug): Don't let it go to your head.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC romantic
+SCENE white_house
+CARD That night...
+PLACE flynn center left happy
+PLACE walt midright left happy
+FLYNN (happy): Dad. Can we go again next week?
+WALT (happy): Of course, Flynn.
+FLYNN (smug): And this time, can you explain the curveball thing? The Magnus thing?
+WALT (excited): The Magnus effect! I'll make diagrams!
+FLYNN (nervous): ...Maybe just a few diagrams.
+END

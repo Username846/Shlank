@@ -1,0 +1,187 @@
+@title Bingo Night at Casa Tranquila
+@series Breaking Bad
+@season 2
+@icon element
+@number 3
+@description Walt's high school asks teachers to volunteer at Casa Tranquila's bingo night. Walt brings Jesse. They meet Hector, who talks with a little bell and has won bingo every week for eleven years. Jesse thinks he's cheating. Hector thinks Jesse is cheating. Everyone is cheating a little.
+
+# ------------------------------------------------------------ CHEMISTRY CLASS
+MUSIC happy
+SCENE chem_class cut
+TITLE
+PLACE walt center left neutral
+PLACE jesse midright left nervous
+WALT (neutral): Jesse. The school wants every teacher to do community service. I signed us up for bingo night at the nursing home.
+JESSE (nervous): Bingo? Like, with old people?
+WALT (smug): With senior citizens, Jesse. Very wise people.
+JESSE (smug): Do they have snacks?
+WALT (happy): They have pudding.
+JESSE (excited): I'm in.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC jazz
+SCENE casa_tranquila
+CARD Casa Tranquila...
+PLACE walt center left happy
+PLACE hector midright left neutral
+WALT (happy): Good evening, sir. I'm Walter White. I'll be calling the numbers tonight.
+HECTOR (neutral): Ding.
+WALT (surprised): ...Ding?
+NARRATOR: A nurse explained. Hector Salamanca talked by ringing his little bell. One ding meant yes. Two dings meant no. Lots of dings meant you were in trouble.
+WALT (nervous): It's very nice to meet you, Mr. Salamanca.
+HECTOR (smug): Ding.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC sneaky
+SCENE casa_tranquila
+PLACE jesse center right surprised
+PLACE hector midleft right smug
+JESSE (surprised): Yo, Mr. White. This guy's won bingo every week for eleven years. The nurse said so.
+HECTOR (smug): Ding.
+JESSE (smug): Eleven years? Nobody's that lucky. You're cheating, old man.
+HECTOR (angry): Ding ding ding ding ding!
+JESSE (scared): Whoa. Okay. Lots of dings. Lots of dings.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC jazz 2
+SCENE casa_tranquila
+CARD Game one...
+PLACE walt center left neutral
+PLACE jesse midright left excited
+WALT (neutral): B, seven.
+JESSE (excited): I have B seven!
+WALT (neutral): Jesse, you're not playing. You're handing out pudding.
+JESSE (sad): I made myself a card. To blend in.
+WALT (smug): You're thirty years younger than everyone in this room. You don't blend in.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC happy 2
+SCENE casa_tranquila
+PLACE jesse center right happy
+PLACE hector midleft right neutral
+JESSE (happy): Pudding, sir? Chocolate or vanilla?
+HECTOR (neutral): Ding ding.
+JESSE (surprised): Two dings. No chocolate? Vanilla, then?
+HECTOR (smug): Ding ding.
+JESSE (nervous): No vanilla either? What do you want?
+HECTOR (happy): Ding ding ding ding.
+JESSE (smug): ...Both. You want both. Respect.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC tense
+SCENE casa_tranquila
+PLACE hector center left smug
+PLACE walt midright left surprised
+SFX ding
+SFX ding
+SFX ding
+HECTOR (smug): Ding ding ding!
+WALT (surprised): Bingo? Already? I've only called four numbers.
+NARRATOR: Hector held up his card. Five in a row. Perfectly.
+WALT (nervous): ...Well. Congratulations, Mr. Salamanca.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC sneaky 2
+SCENE casa_tranquila
+PLACE jesse center right smug
+PLACE walt midleft right nervous
+JESSE (smug): See? Four numbers! He's totally cheating, Mr. White!
+WALT (nervous): Jesse, it's statistically possible.
+JESSE (smug): Is it statistically likely?
+WALT (sad): ...It's a one in about eight hundred thousand chance.
+JESSE (excited): CHEATING!
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC jazz
+SCENE casa_tranquila
+CARD Game two...
+PLACE jesse center right excited
+PLACE hector midleft right neutral
+JESSE (excited): I'm watching you, old man. Like a hawk. Like a science hawk.
+HECTOR (neutral): Ding.
+NARRATOR: Jesse watched Hector very carefully. Hector watched Jesse very carefully. Neither of them blinked for six whole numbers.
+JESSE (surprised): Wait. He's got TWO cards. One on his lap. One under his blanket.
+HECTOR (smug): Ding.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC tense
+SCENE casa_tranquila
+PLACE jesse center right angry
+PLACE hector midleft right angry
+JESSE (angry): He's got two cards! Two cards, Mr. White!
+HECTOR (angry): Ding ding ding ding!
+NARRATOR: Then Hector pointed his finger. Right at Jesse's pocket. Where a second bingo card was sticking out.
+JESSE (nervous): ...That's not mine.
+HECTOR (smug): Ding.
+JESSE (nervous): Okay, it's mine. But I'm not even playing!
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC sneaky
+SCENE casa_tranquila
+PLACE walt center left nervous
+NARRATOR: Walt looked around the room. Very carefully. Like a scientist.
+WALT (surprised): Mrs. Gonzales has three cards under her knitting.
+WALT (surprised): Mr. Patterson is marking numbers with a crayon. Before I call them.
+WALT (smug): Fascinating. This isn't a bingo game. It's an arms race.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC jazz 2
+SCENE casa_tranquila
+PLACE walt center left smug
+PLACE jesse midright left nervous
+PLACE hector right left smug
+WALT (smug): So. Jesse has two cards. Hector has two cards. And the nurse just told me Mrs. Gonzales has six.
+JESSE (surprised): SIX?
+WALT (happy): It turns out everybody here cheats a little. It's tradition.
+HECTOR (happy): Ding.
+JESSE (smug): ...I respect that.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC sneaky
+SCENE casa_tranquila
+CARD The final game...
+PLACE walt center left excited
+PLACE jesse midright left excited
+PLACE hector midleft right neutral
+WALT (excited): The grand prize! A twenty-dollar gift card to Los Pollos Hermanos! Everybody gets one card! ONE!
+JESSE (excited): No cheating, old man!
+HECTOR (smug): Ding ding.
+WALT (nervous): Two dings. That means no.
+JESSE (angry): He means "no" he won't cheat, or "no" he won't listen?
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC action
+SCENE casa_tranquila
+PLACE hector center left surprised
+PLACE jesse midright left surprised
+PLACE walt midleft right neutral
+SFX drumroll
+WALT (excited): G, fifty-two!
+NARRATOR: Hector rang his bell. Jesse yelled. They had both filled their cards on exactly the same number.
+JESSE (surprised): BINGO!
+HECTOR (surprised): DING!
+WALT (nervous): A tie. A tie in bingo. That's never happened before.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC happy
+SCENE casa_tranquila
+PLACE jesse center right happy
+PLACE hector midleft right neutral
+JESSE (happy): Okay, old man. You take it. You've been winning for eleven years. Don't stop now.
+HECTOR (surprised): Ding?
+JESSE (smug): Yeah. Keep the streak alive.
+NARRATOR: Hector looked at Jesse for a long time. Then he pushed the gift card back across the table.
+HECTOR (happy): Ding.
+
+# ------------------------------------------------------------ CASA TRANQUILA
+MUSIC romantic
+SCENE casa_tranquila
+PLACE walt center left happy
+PLACE jesse midright left happy
+WALT (happy): He gave it to you?
+JESSE (happy): He said "ding." One ding. That's yes.
+WALT (smug): You made a friend, Jesse.
+JESSE (shy): ...He's kind of awesome, Mr. White.
+WALT (happy): Same time next week?
+JESSE (excited): I'm bringing my own bell!
+END

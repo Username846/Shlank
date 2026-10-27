@@ -1029,6 +1029,56 @@
 		"show": "Breaking Bad",
 		"description": "Washing machines as far as the eye can see."
 	},
+	"casa_tranquila": {
+		"name": "Casa Tranquila",
+		"description": "A quiet nursing home with bingo every Tuesday and a very loud TV.",
+		"show": "Breaking Bad"
+	},
+	"gale_apartment": {
+		"name": "Gale's Apartment",
+		"description": "Books, plants, an espresso machine and a karaoke setup.",
+		"show": "Breaking Bad"
+	},
+	"vamonos_pest": {
+		"name": "Vamonos Pest",
+		"description": "A house covered in a giant striped bug tent, with the exterminators' truck out front.",
+		"show": "Breaking Bad"
+	},
+	"dog_house": {
+		"name": "The Dog House",
+		"description": "A little drive-in hot dog stand with a giant hot dog on the roof.",
+		"show": "Breaking Bad"
+	},
+	"isotopes_park": {
+		"name": "Isotopes Park",
+		"description": "Albuquerque's baseball stadium. Peanuts, hot dogs and a big scoreboard.",
+		"show": "Breaking Bad"
+	},
+	"madrigal_office": {
+		"name": "Madrigal Office",
+		"description": "The tidy corporate test kitchen of the company that owns Los Pollos Hermanos.",
+		"show": "Breaking Bad"
+	},
+	"mike_house": {
+		"name": "Mike's House",
+		"description": "A plain, tidy living room with an armchair, window blinds and a dripping sink.",
+		"show": "Breaking Bad"
+	},
+	"storage_unit": {
+		"name": "Storage Unit",
+		"description": "A row of orange storage units. Number four has a mattress in it.",
+		"show": "Breaking Bad"
+	},
+	"four_corners": {
+		"name": "Four Corners",
+		"description": "The monument where four states meet. You can stand in all of them at once.",
+		"show": "Breaking Bad"
+	},
+	"tohajiilee": {
+		"name": "To'hajiilee",
+		"description": "Red rocks and open desert west of Albuquerque. A good place to bury something.",
+		"show": "Breaking Bad"
+	},
 	"mushroom_kingdom": {
 		"name": "Mushroom Kingdom",
 		"show": "Super Mario Brothers",

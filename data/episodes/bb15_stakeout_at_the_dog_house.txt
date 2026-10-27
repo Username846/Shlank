@@ -1,0 +1,162 @@
+@title Stakeout at the Dog House
+@series Breaking Bad
+@season 2
+@icon element
+@number 5
+@description Hank and his partner Gomez are on a stakeout at the Dog House drive-in, waiting to catch a guy who's been stealing blue candy recipes. They have one car, six hot dogs and nothing to do for eight hours. Walt shows up with sandwiches. That's when things get complicated.
+
+# ------------------------------------------------------------ DEA OFFICE
+MUSIC tense
+SCENE dea_office cut
+TITLE
+PLACE hank center left excited
+PLACE gomez midright left neutral
+HANK (excited): Gomie! We've got a lead! The recipe thief! He's been stealing blue candy recipes from every candy fair in New Mexico!
+GOMEZ (neutral): And he's going to be at the Dog House tonight?
+HANK (smug): Our tip says he meets his buyers there. Every Thursday. At midnight.
+GOMEZ (happy): A stakeout. At a hot dog stand.
+HANK (excited): Best stakeout ever, Gomie.
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC jazz
+SCENE dog_house
+CARD The Dog House, 8 p.m....
+PLACE hank center left happy
+PLACE gomez midright left neutral
+HANK (happy): Six chili dogs. Two root beers. One very long night.
+GOMEZ (neutral): Hank, you already ate three of the chili dogs.
+HANK (smug): They're for focus, Gomie. Chili sharpens the senses.
+GOMEZ (smug): Your senses are going to be very sharp by midnight.
+HANK (excited): That's the plan!
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC sneaky
+SCENE white_house
+PLACE skyler center left smug
+PLACE walt midright left nervous
+SKYLER (smug): Walt. Marie says Hank's on a stakeout all night. At the Dog House.
+WALT (nervous): Hank? Looking for a recipe thief?
+SKYLER (happy): Make him some sandwiches. He'll be hungry.
+WALT (nervous): He's at a hot dog stand, Skyler.
+SKYLER (smug): Marie says he gets sick of hot dogs after the fourth one.
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC jazz 2
+SCENE dog_house
+CARD 10 p.m....
+PLACE hank center left sad
+PLACE gomez midright left neutral
+HANK (sad): Gomie. I've eaten five hot dogs. I never want to see a hot dog again.
+GOMEZ (neutral): There's a giant hot dog on the roof, Hank.
+HANK (sad): I know. It's looking at me.
+GOMEZ (smug): It doesn't have eyes.
+HANK (sad): It's looking at me in my heart, Gomie.
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC sneaky 2
+SCENE dog_house
+PLACE walt center right nervous
+PLACE hank midleft right surprised
+SFX door
+WALT (nervous): Hank. Skyler made me bring you sandwiches. Turkey and swiss.
+HANK (surprised): Walt?! You're blowing our cover!
+WALT (nervous): I'm wearing a sweater vest, Hank. Nobody suspects a sweater vest.
+HANK (happy): ...Turkey and swiss, huh? Get in the car.
+WALT (surprised): In the car?
+HANK (smug): You're on the stakeout now, buddy.
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC sneaky
+SCENE dog_house
+PLACE hank center left happy
+PLACE walt midright left nervous
+HANK (happy): Walt. Real talk. Do you ever wish you had a job like mine? Stakeouts? Car chases?
+WALT (nervous): Hank, I get nervous when the copy machine jams.
+HANK (smug): Ha! That's my brother-in-law.
+WALT (smug): But I would like to try your sunglasses.
+HANK (excited): Now you're talking! Agent White!
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC jazz
+SCENE dog_house
+CARD 11 p.m....
+PLACE walt center right neutral
+PLACE gomez midleft right happy
+GOMEZ (happy): So, Walt. You do the candy thing. The blue rock candy.
+WALT (smug): Ninety-nine point one percent pure.
+GOMEZ (smug): And you're sitting in a car with two DEA agents looking for a guy who steals blue candy recipes.
+WALT (nervous): ...It's a small town, Steve.
+GOMEZ (happy): Ha! It sure is.
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC tense
+SCENE dog_house
+CARD Midnight...
+PLACE hank center left excited
+PLACE gomez midright left nervous
+SFX footstep
+HANK (excited): There! A guy in a trench coat! At the counter! Ordering a chili dog!
+GOMEZ (nervous): Hank, a lot of people wear trench coats.
+HANK (smug): In New Mexico? In July?
+GOMEZ (surprised): ...Okay, that's suspicious.
+HANK (excited): Let's go!
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC action
+SCENE dog_house
+PLACE hank center left angry
+PLACE walt midright left surprised
+SFX footstep
+HANK (angry): DEA! Freeze! Put down the chili dog!
+NARRATOR: The man in the trench coat dropped his chili dog. Then he ran. He was surprisingly fast.
+HANK (sad): Ugh. I ate six hot dogs. I can't run.
+WALT (surprised): Hank, he's getting away!
+HANK (angry): Then YOU run, Walt!
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC action 2
+SCENE dog_house
+PLACE walt center left nervous
+SFX whoosh
+NARRATOR: Walter White did not run. Walter White had never run in his life. Instead, he grabbed a bottle of mustard and a bottle of ketchup from the counter.
+WALT (smug): Reactive surfaces. Viscosity. Friction coefficient.
+SFX splat
+NARRATOR: He squeezed both bottles across the parking lot. The man in the trench coat stepped in the mustard. He slid into the ketchup. He spun around three times and landed on the hood of Hank's car.
+WALT (happy): Physics.
+
+# ------------------------------------------------------------ THE DOG HOUSE
+MUSIC happy
+SCENE dog_house
+PLACE hank center left surprised
+PLACE gomez midright left surprised
+PLACE walt right left smug
+HANK (surprised): Walt. Did you just stop a suspect with condiments?
+WALT (smug): Mustard has a very low friction coefficient, Hank.
+GOMEZ (surprised): And look. In his coat. Thirty-two stolen candy recipes.
+HANK (excited): We got him! Walt, you're a hero!
+WALT (shy): I'm a chemistry teacher, Hank.
+
+# ------------------------------------------------------------ DEA OFFICE
+MUSIC jazz 2
+SCENE dea_office
+CARD The next morning...
+PLACE hank center left excited
+PLACE gomez midright left happy
+HANK (excited): The recipe thief is in custody. Thirty-two recipes returned to their owners.
+GOMEZ (happy): And one of them was Walt's.
+HANK (surprised): Walt's recipe? For the blue candy?
+GOMEZ (smug): He stole it from the State Fair. Walt never even noticed.
+HANK (happy): Ha! My brother-in-law saved his own recipe and didn't even know it.
+
+# ------------------------------------------------------------ THE WHITE HOUSE
+MUSIC romantic
+SCENE white_house
+CARD That evening...
+PLACE walt center right happy
+PLACE skyler midleft right smug
+SKYLER (smug): So. You caught a criminal last night.
+WALT (happy): With mustard, Skyler. And ketchup. And science.
+SKYLER (surprised): And Hank says you're the reason they got your recipe back.
+WALT (smug): ...I may have just saved my own candy empire.
+SKYLER (smug): Don't call it an empire, Walt.
+END
