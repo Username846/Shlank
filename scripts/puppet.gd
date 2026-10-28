@@ -364,6 +364,26 @@ func _eye(c: Vector2, rx: float, ry: float, iris_r: float, iris_col: Color, side
 	var hl_r := iris_r if iris_r > 0.0 else pupil_r * 1.6
 	Art.dot(ci, ic, pupil_r, Art.INK)
 	Art.dot(ci, ic + Vector2(-hl_r * 0.3, -hl_r * 0.35), hl_r * 0.22, Color(1, 1, 1, 0.9))
+	var lid := _eye_lid(c, rx, ry, pts, side, base_lid, lid_col, p)
+	Art.outline(ci, pts, 3.0)
+	# Emotion extras drawn around the eyes, so every character gets them.
+	if emotion == "shy":
+		Art.dot(ci, c + Vector2(side * rx * 0.55, ry * 1.45), rx * 0.62, Color(0.98, 0.45, 0.55, 0.55))
+	elif emotion == "nervous" and side > 0:
+		var drop := c + Vector2(rx * 1.35, -ry * 0.6)
+		var tear := PackedVector2Array([drop + Vector2(0, -10), drop + Vector2(5.5, 1), drop + Vector2(4, 6), drop + Vector2(0, 8),
+			drop + Vector2(-4, 6), drop + Vector2(-5.5, 1)])
+		Art.shape(ci, tear, Color(0.6, 0.85, 1.0), 2.5)
+	if lashes > 0 and lid < 0.6:
+		for i in lashes:
+			var a := -PI / 2 + (float(i) - (lashes - 1) / 2.0) * 0.45 + side * 0.15
+			var s := c + Vector2(cos(a) * rx, sin(a) * ry)
+			Art.stroke(ci, PackedVector2Array([s, s + Vector2(cos(a), sin(a)) * 9.0]), 3.0)
+
+
+## Draws the eyelid over eye outline `pts` for the current emotion and blink; returns how closed it is.
+func _eye_lid(c: Vector2, rx: float, ry: float, pts: PackedVector2Array, side: int, base_lid: float, lid_col: Color,
+		p: Dictionary) -> float:
 	var lid := clampf(maxf(maxf(p.lid, base_lid), _blink), 0.0, 1.0)
 	if lid > 0.01:
 		var base_y := c.y - ry + lid * 2.0 * ry
@@ -380,20 +400,23 @@ func _eye(c: Vector2, rx: float, ry: float, iris_r: float, iris_col: Color, side
 		var edge := Geometry2D.intersect_polyline_with_polygon(PackedVector2Array([Vector2(c.x - rx - 4, yl), Vector2(c.x + rx + 4, yr)]), pts)
 		for e in edge:
 			Art.stroke(ci, e, 3.0)
-	Art.outline(ci, pts, 3.0)
-	# Emotion extras drawn around the eyes, so every character gets them.
-	if emotion == "shy":
-		Art.dot(ci, c + Vector2(side * rx * 0.55, ry * 1.45), rx * 0.62, Color(0.98, 0.45, 0.55, 0.55))
-	elif emotion == "nervous" and side > 0:
-		var drop := c + Vector2(rx * 1.35, -ry * 0.6)
-		var tear := PackedVector2Array([drop + Vector2(0, -10), drop + Vector2(5.5, 1), drop + Vector2(4, 6), drop + Vector2(0, 8),
-			drop + Vector2(-4, 6), drop + Vector2(-5.5, 1)])
-		Art.shape(ci, tear, Color(0.6, 0.85, 1.0), 2.5)
-	if lashes > 0 and lid < 0.6:
-		for i in lashes:
-			var a := -PI / 2 + (float(i) - (lashes - 1) / 2.0) * 0.45 + side * 0.15
-			var s := c + Vector2(cos(a) * rx, sin(a) * ry)
-			Art.stroke(ci, PackedVector2Array([s, s + Vector2(cos(a), sin(a)) * 9.0]), 3.0)
+	return lid
+
+
+## A Kirby-style eye: a tall dark oval with a blue glow at the bottom and a white shine on top.
+func _bean_eye(c: Vector2, rx: float, ry: float, side: int, lid_col: Color, glow: Color = Color("2f5fd8")) -> void:
+	var p := _eye_params()
+	rx *= p.scale
+	ry *= p.scale
+	var look: Vector2 = p.look
+	c += Vector2(look.x * rx * 0.2, look.y * ry * 0.1)
+	var pts := Art.ellipse(c, rx, ry, 32)
+	Art.fill(ci, pts, Color("15162a"))
+	for poly in Geometry2D.intersect_polygons(pts, Art.ellipse(c + Vector2(0, ry * 0.75), rx * 0.9, ry * 0.45, 24)):
+		Art.fill(ci, poly, glow)
+	Art.fill(ci, Art.ellipse(c + Vector2(0, -ry * 0.5), rx * 0.55, ry * 0.27, 20), Color.WHITE)
+	_eye_lid(c, rx, ry, pts, side, 0.0, lid_col, p)
+	Art.outline(ci, pts, 2.5)
 
 
 func _brow(c: Vector2, half_w: float, side: int, thick: float = 4.0, color: Color = Art.INK) -> void:
@@ -515,7 +538,8 @@ func _arm(shoulder: Vector2, side: int, raise: float, length: float, width: floa
 	var hand := shoulder + dir * length
 	Art.limb(ci, Art.curve(shoulder, elbow, hand, 10), width, color)
 	if sleeve_r > 0.0:
-		Art.blob(ci, shoulder + dir * sleeve_r * 0.4, sleeve_r, sleeve_r * 0.85, sleeve_col, 3.0, 0.0, a * side)
+		# A short sleeve: a stubby tube over the top of the arm
+		Art.limb(ci, PackedVector2Array([shoulder, shoulder + dir * sleeve_r * 1.3]), sleeve_r * 1.5, sleeve_col)
 	Art.blob(ci, hand, hand_r, hand_r, hand_col, 3.0)
 	if side > 0 and held != "":
 		var up := Vector2(-dir.y, dir.x)

@@ -136,9 +136,9 @@ static func _human(style: String) -> Dictionary:
 				"legs": Puppet.SKIN, "shoe": Color("8a5a36"), "hair": "ponytail", "hair_col": Color("8a4a2a"), "lashes": 2, "torso_w": 28.0}
 		# Dragon Ball Z
 		"majin_buu":
-			return {"size": "adult", "skin": Color("f7a8c8"), "top": Color("3a2a4a"), "sleeves": "none", "bottom_col": Color("f4f4f2"),
-				"shoe": Color("f2c14e"), "hair": "none", "ears": false, "head": Vector2(40, 34), "head_shape": "wide", "torso_w": 46.0,
-				"belly": 30.0, "arm_w": 11.0, "leg_w": 20.0, "base_lid": 0.45, "torso_extra": _x_buu_belt,
+			return {"size": "adult", "skin": Color("f7a8c8"), "top": Color("f7a8c8"), "sleeves": "none", "bottom_col": Color("f4f4f2"),
+				"shoe": Color("f2c14e"), "hair": "none", "ears": false, "head": Vector2(46, 40), "head_y": -234.0, "head_shape": "wide",
+				"torso_w": 46.0, "belly": 30.0, "arm_w": 17.0, "leg_w": 24.0, "base_lid": 0.45, "torso_extra": _x_buu_belt,
 				"extra": _x_buu_antenna, "back_extra": CastMore._x_cape.bind(Color("6a3fa8"))}
 		"videl":
 			return {"size": "teen", "top": Color("f4f4f2"), "sleeves": "short", "bottom": "shorts", "bottom_col": Color("2b2b33"),
@@ -262,8 +262,9 @@ static func _x_bib(p: Puppet, size: String, col: Color) -> void:
 
 static func _x_star_crown(p: Puppet, hc: Vector2) -> void:
 	# Bangs swept over one eye, a little crown and a star wand
-	Art.shape(p.ci, Art.smooth(PackedVector2Array([hc + Vector2(-34, -20), hc + Vector2(-8, -40), hc + Vector2(30, -26),
-		hc + Vector2(6, 4), hc + Vector2(-10, -4)]), 4), Color("f4f0d8"), 3.0)
+	Art.shape(p.ci, Art.smooth(PackedVector2Array([hc + Vector2(-30, -26), hc + Vector2(-6, -40), hc + Vector2(32, -30),
+		hc + Vector2(32, 8), hc + Vector2(18, 12), hc + Vector2(6, -6), hc + Vector2(-6, -22), hc + Vector2(-20, -26)]), 4),
+		Color("f4f0d8"), 3.0)
 	CastMore._x_crown(p, hc)
 	Art.limb(p.ci, PackedVector2Array([Vector2(56, -150), Vector2(66, -220)]), 4, Color("f2c14e"))
 	Art.shape(p.ci, Art.star(Vector2(68, -232), 16), Color("f6e05a"), 2.5)
@@ -298,6 +299,13 @@ static func _x_kid_gi(p: Puppet, size: String, under: Color) -> void:
 
 
 static func _x_buu_belt(p: Puppet) -> void:
+	# Open black vest over the pink belly (clipped to the same round torso HumanRig draws)
+	var torso := Art.smooth(PackedVector2Array([Vector2(-46, -196), Vector2(46, -196), Vector2(76, -150), Vector2(41.4, -98),
+		Vector2(-41.4, -98), Vector2(-76, -150)]), 5)
+	for sx in [-1, 1]:
+		var side := PackedVector2Array([Vector2(sx * 16, -200), Vector2(sx * 90, -200), Vector2(sx * 90, -112), Vector2(sx * 40, -112)])
+		for poly in Geometry2D.intersect_polygons(torso, side):
+			Art.shape(p.ci, poly, Color("2b2238"), 3.0)
 	Art.shape(p.ci, Art.rrect(Rect2(-60, -118, 120, 18), 6), Color("f2c14e"), 3.0)
 	Art.shape(p.ci, Art.rrect(Rect2(-12, -122, 24, 26), 4), Color("2b2b33"), 2.5)
 	Art.text(p.ci, ThemeDB.fallback_font, Vector2(-12, -101), "M", 18, Color("e6452f"), 0, HORIZONTAL_ALIGNMENT_CENTER, 24)
@@ -498,14 +506,14 @@ static func _togepi(p: Puppet) -> void:
 	for dx in [-16, 0, 16]:
 		Art.shape(ci, PackedVector2Array([Vector2(dx - 8, -100), Vector2(dx, -116), Vector2(dx + 8, -100)]), cream, 3.0)
 	# Eggshell with red and blue triangles
-	var shell := PackedVector2Array([Vector2(-36, -64), Vector2(-24, -76), Vector2(-12, -62), Vector2(0, -76), Vector2(12, -62),
-		Vector2(24, -76), Vector2(36, -64), Vector2(34, -36), Vector2(20, -18), Vector2(-20, -18), Vector2(-34, -36)])
+	var shell := PackedVector2Array([Vector2(-36, -56), Vector2(-24, -66), Vector2(-12, -54), Vector2(0, -66), Vector2(12, -54),
+		Vector2(24, -66), Vector2(36, -56), Vector2(34, -32), Vector2(20, -18), Vector2(-20, -18), Vector2(-34, -32)])
 	Art.shape(ci, shell, Color.WHITE, 3.5, 0.08)
-	Art.shape(ci, PackedVector2Array([Vector2(-22, -54), Vector2(-8, -54), Vector2(-15, -36)]), Color("e6452f"), 2.0)
-	Art.shape(ci, PackedVector2Array([Vector2(8, -50), Vector2(22, -50), Vector2(15, -32)]), Color("4a78d0"), 2.0)
+	Art.shape(ci, PackedVector2Array([Vector2(-22, -48), Vector2(-8, -48), Vector2(-15, -32)]), Color("e6452f"), 2.0)
+	Art.shape(ci, PackedVector2Array([Vector2(8, -46), Vector2(22, -46), Vector2(15, -30)]), Color("4a78d0"), 2.0)
 	for sx in [-1, 1]:
-		p._eye(Vector2(sx * 12, -86), 5, 7, 0, Color(0, 0, 0, 0), sx, 0.0, cream)
-	p._mouth(Vector2(0, -76), 14, 0)
+		p._eye(Vector2(sx * 12, -88), 6, 8, 0, Color(0, 0, 0, 0), sx, 0.0, cream)
+	p._mouth(Vector2(0, -74), 14, 0)
 	p._arm(Vector2(26, -58), 1, raise.y, 14, 8, cream, 7, cream)
 
 
@@ -517,7 +525,7 @@ static func _jigglypuff(p: Puppet) -> void:
 	for sx in [-1, 1]:
 		var sw := p._leg_swing(sx) * 0.5
 		Art.blob(ci, Vector2(sx * 18 + sw, -8), 14, 8, pink, 3.0)
-	Art.blob(ci, c + Vector2(-48, 4 - raise.x * 16), 12, 10, pink, 3.0)
+	Art.blob(ci, c + CastMore._nub_dir(raise.x, -1) * 50.0, 12, 10, pink, 3.0)
 	for sx in [-1, 1]:
 		Art.shape(ci, PackedVector2Array([c + Vector2(sx * 18, -44), c + Vector2(sx * 40, -70), c + Vector2(sx * 42, -30)]), pink, 3.0)
 		Art.fill(ci, PackedVector2Array([c + Vector2(sx * 26, -44), c + Vector2(sx * 38, -60), c + Vector2(sx * 38, -36)]), Color("2b2b33"))
@@ -526,9 +534,9 @@ static func _jigglypuff(p: Puppet) -> void:
 	for sx in [-1, 1]:
 		p._eye(c + Vector2(sx * 20, -4), 13, 14, 8.0, Color("3fa0d8"), sx, 0.0, pink)
 	p._mouth(c + Vector2(0, 26), 16, 0)
-	Art.blob(ci, c + Vector2(48, 4 - raise.y * 16), 12, 10, pink, 3.0)
+	Art.blob(ci, c + CastMore._nub_dir(raise.y, 1) * 50.0, 12, 10, pink, 3.0)
 	if p.held != "":
-		p._draw_prop(c + Vector2(48, 4 - raise.y * 16), Vector2(0.25, -1.0).normalized())
+		p._draw_prop(c + CastMore._nub_dir(raise.y, 1) * 50.0, Vector2(0.25, -1.0).normalized())
 
 
 
@@ -600,9 +608,10 @@ static func _king_boo(p: Puppet) -> void:
 	Art.blob(ci, Vector2(0, -12), 50, 10, Color(0, 0, 0, 0.12), 0.0)
 	var body := Art.smooth(PackedVector2Array([c + Vector2(-80, -20), c + Vector2(-60, -80), c + Vector2(0, -100), c + Vector2(60, -80),
 		c + Vector2(80, -10), c + Vector2(60, 60), c + Vector2(110, 90), c + Vector2(20, 80), c + Vector2(-60, 70)]), 6)
-	Art.shape(ci, body, white, 4.0, 0.08)
+	# Stubby arms poking out from behind the body
 	for sx in [-1, 1]:
-		Art.blob(ci, c + Vector2(sx * 74, 10 - p._arm_raise().x * 10), 18, 12, white, 3.0)
+		Art.blob(ci, c + Vector2(sx * 84, 8 - p._arm_raise().x * 10), 22, 14, white, 3.0, 0.0, sx * -0.3)
+	Art.shape(ci, body, white, 4.0, 0.08)
 	for sx in [-1, 1]:
 		p._eye(c + Vector2(sx * 24, -30), 12, 16, 7.0, Color("9b5fd0"), sx, 0.2, white)
 	p._mouth(c + Vector2(0, 20), 70, 2)
@@ -648,7 +657,7 @@ static func _crocomire(p: Puppet) -> void:
 	var ci := p.ci
 	var red := Color("c8402a")
 	var raise := p._arm_raise()
-	p._arm(Vector2(-60, -200), -1, raise.x, 60, 14, red, 14, Color("f2c14e"))
+	p._arm(Vector2(-74, -200), -1, raise.x, 70, 14, red, 14, Color("f2c14e"))
 	for sx in [-1, 1]:
 		var sw := p._leg_swing(sx) * 0.4
 		Art.limb(ci, PackedVector2Array([Vector2(sx * 34, -80), Vector2(sx * 40 + sw, -10)]), 30, red.darkened(0.15))
@@ -733,7 +742,7 @@ static func _rick(p: Puppet) -> void:
 		Art.blob(ci, hc + Vector2(sx * 30, -32), 8, 8, Color("f2a0b0"), 0.0)
 	Art.blob(ci, hc, 46, 40, fur, 4.0, 0.1)
 	for sx in [-1, 1]:
-		p._eye(hc + Vector2(sx * 16, -6), 7, 10, 0, Color(0, 0, 0, 0), sx, 0.0, fur, Color("1d1d22"))
+		p._bean_eye(hc + Vector2(sx * 16, -6), 7, 10, sx, fur, Color("3a3f5a"))
 		Art.blob(ci, hc + Vector2(sx * 30, 12), 8, 5, Color("f2a0b0"), 0.0)
 	Art.dot(ci, hc + Vector2(0, 8), 4, Color("c86a6a"))
 	p._mouth(hc + Vector2(0, 18), 16, 0)
@@ -745,17 +754,16 @@ static func _kine(p: Puppet) -> void:
 	var body := Color("6ab8a0")
 	var bob := sin(p._t * 2.5) * 6.0
 	var c := Vector2(0, -110 + bob)
-	# A sunfish standing on his tail: big round body, orange lips, fins
-	Art.shape(ci, PackedVector2Array([c + Vector2(-20, 50), c + Vector2(20, 50), c + Vector2(30, 100 - bob), c + Vector2(-30, 100 - bob)]),
+	# A floating sunfish: big round body, tall fins top and bottom, a tail fin behind, orange lips
+	var flap := sin(p._t * 4.0) * 6.0
+	Art.shape(ci, PackedVector2Array([c + Vector2(-56, -6), c + Vector2(-92, -34 + flap), c + Vector2(-92, 30 + flap), c + Vector2(-56, 14)]),
 		body.darkened(0.15), 3.0)
-	Art.shape(ci, PackedVector2Array([c + Vector2(-10, -60), c + Vector2(0, -110), c + Vector2(16, -60)]), body.darkened(0.1), 3.0)
+	Art.shape(ci, PackedVector2Array([c + Vector2(-16, -56), c + Vector2(-4, -112), c + Vector2(18, -60)]), body.darkened(0.1), 3.0)
+	Art.shape(ci, PackedVector2Array([c + Vector2(-16, 56), c + Vector2(-4, 108), c + Vector2(18, 60)]), body.darkened(0.1), 3.0)
 	Art.blob(ci, c, 64, 70, body, 4.0, 0.12)
 	Art.blob(ci, c + Vector2(10, 18), 40, 34, Color("e8f0d0"), 0.0)
 	for sx in [-1, 1]:
-		var fin := c + Vector2(sx * 60, 10)
-		Art.shape(ci, PackedVector2Array([fin, fin + Vector2(sx * 26, -16 - p._arm_raise().x * 12), fin + Vector2(sx * 22, 20)]), body.lightened(0.15), 3.0)
-	for sx in [-1, 1]:
-		p._eye(c + Vector2(sx * 22 + 10, -20), 9, 13, 0, Color(0, 0, 0, 0), sx, 0.0, body, Color("1d1d22"))
+		p._bean_eye(c + Vector2(sx * 22 + 10, -20), 9, 13, sx, body, Color("3a3f5a"))
 	Art.blob(ci, c + Vector2(40, 22), 16, 12, Color("f2852a"), 3.0)
 	if p._talk_open > 0.1:
 		Art.blob(ci, c + Vector2(42, 22), 6, 4 * p._talk_open + 1, Color(0.36, 0.04, 0.1), 0.0)
@@ -794,7 +802,7 @@ static func _gooey(p: Puppet) -> void:
 	Art.shape(ci, Art.ellipse(c, 60 * squish, 54 / squish, 36), blue, 4.0, 0.12)
 	for sx in [-1, 1]:
 		Art.blob(ci, Vector2(sx * 30, -8), 18, 9, blue.darkened(0.15), 2.5)
-		p._eye(c + Vector2(sx * 18, -12), 9, 12, 0, Color(0, 0, 0, 0), sx, 0.0, blue, Color("1d1d22"))
+		p._bean_eye(c + Vector2(sx * 18, -12), 9, 12, sx, blue, Color("3a3f5a"))
 	var tongue := PackedVector2Array([c + Vector2(-8, 18), c + Vector2(8, 18), c + Vector2(12, 46 + p._talk_open * 8), c + Vector2(0, 54 + p._talk_open * 8),
 		c + Vector2(-12, 46 + p._talk_open * 8)])
 	Art.shape(ci, Art.smooth(tongue, 3), Color("e6609a"), 2.5)

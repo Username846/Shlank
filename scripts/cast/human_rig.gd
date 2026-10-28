@@ -105,7 +105,11 @@ static func draw(p: Puppet, c: Dictionary) -> void:
 		"big":
 			Art.blob(ci, hc + Vector2(5, ey + 16), 9, 10, skin, 3.0, 0.15)
 		"long":
-			Art.shape(ci, PackedVector2Array([hc + Vector2(-3, ey + 4), hc + Vector2(16, ey + 20), hc + Vector2(-2, ey + 22)]), skin, 3.0)
+			# A pointy nose between the eyes and the mouth, outlined only along the point
+			var mid := ey + er.y + 3.0
+			var nose := Art.curve(hc + Vector2(-1, mid - 6), hc + Vector2(24, mid + 2), hc + Vector2(0, mid + 5), 12)
+			Art.fill(ci, nose, skin)
+			Art.stroke(ci, nose, 3.0)
 	p._mouth(hc + Vector2(0, hr.y * 0.55), c.get("mouth_w", hr.x * 0.75), c.get("teeth", 0))
 	if c.has("extra"):
 		c.extra.call(p, hc)

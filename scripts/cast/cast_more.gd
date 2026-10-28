@@ -262,7 +262,9 @@ static func _x_cell_spots(p: Puppet) -> void:
 static func _x_cell_crest(p: Puppet, hc: Vector2) -> void:
 	for sx in [-1, 1]:
 		Art.shape(p.ci, PackedVector2Array([hc + Vector2(sx * 6, -32), hc + Vector2(sx * 30, -66), hc + Vector2(sx * 34, -20)]), Color("2b2b33"), 3.0)
-	Art.stroke(p.ci, PackedVector2Array([hc + Vector2(-10, 28), hc + Vector2(-16, 36)]), 3.0, Color("9b5fd0"))
+	# Purple marks under the eyes
+	for sx in [-1, 1]:
+		Art.stroke(p.ci, PackedVector2Array([hc + Vector2(sx * 12, 7), hc + Vector2(sx * 14, 14)]), 3.0, Color("9b5fd0"))
 
 
 static func _x_bug_wings(p: Puppet, hc: Vector2) -> void:
@@ -593,10 +595,11 @@ static func _yoshi(p: Puppet) -> void:
 		Art.limb(ci, PackedVector2Array([Vector2(sx * 14, -60), Vector2(sx * 16 + sw, -14)]), 16, green)
 		Art.blob(ci, Vector2(sx * 16 + sw + 8, -10), 18, 10, Color("e6702f"), 3.0)
 	p._arm(Vector2(-18, -128), -1, raise.x, 30, 9, green, 7, green)
+	# Red saddle on his back, tucked behind the body
+	Art.blob(ci, Vector2(-28, -110), 16, 18, Color("f6f2e6"), 3.0)
+	Art.blob(ci, Vector2(-26, -112), 14, 15, Color("e6302a"), 3.0)
 	Art.blob(ci, Vector2(0, -96), 30, 44, green, 4.0, 0.12)
 	Art.blob(ci, Vector2(6, -90), 18, 32, Color("f6f2e6"), 3.0)
-	# Red saddle
-	Art.blob(ci, Vector2(-22, -108), 18, 14, Color("e6302a"), 3.0)
 	var hc := Vector2(10, -170)
 	for k in 3:
 		Art.shape(ci, PackedVector2Array([hc + Vector2(-34, -20 + k * 18), hc + Vector2(-50, -12 + k * 18), hc + Vector2(-34, -4 + k * 18)]),
@@ -744,7 +747,7 @@ static func _ridley(p: Puppet) -> void:
 	for sx in [-1, 1]:
 		var sw := p._leg_swing(sx) * 0.6
 		Art.limb(ci, PackedVector2Array([Vector2(sx * 20, -110), Vector2(sx * 30 + sw, -60), Vector2(sx * 22 + sw, -10)]), 16, purple)
-	p._arm(Vector2(-22, -200), -1, raise.x, 50, 9, purple, 8, Color("e6452f"))
+	p._arm(Vector2(-26, -200), -1, raise.x, 50, 9, purple, 7, purple.lightened(0.15))
 	Art.blob(ci, Vector2(0, -160), 34, 66, purple, 4.0, 0.12)
 	for k in 4:
 		Art.stroke(ci, PackedVector2Array([Vector2(-18, -190 + k * 22), Vector2(18, -190 + k * 22)]), 2.5, Color("f2c14e"))
@@ -756,7 +759,7 @@ static func _ridley(p: Puppet) -> void:
 		hc + Vector2(-24, 16)]), 4), purple, 4.0, 0.12)
 	p._eye(hc + Vector2(6, -6), 7, 6, 3.0, Color("f2c14e"), 1, 0.3, purple, Color("f2c14e"))
 	p._mouth(hc + Vector2(36, 10), 30, 2)
-	p._arm(Vector2(22, -200), 1, raise.y, 50, 9, purple, 8, Color("e6452f"))
+	p._arm(Vector2(26, -200), 1, raise.y, 50, 9, purple, 7, purple.lightened(0.15))
 
 
 static func _kraid(p: Puppet) -> void:
@@ -914,6 +917,12 @@ static func _dachora(p: Puppet) -> void:
 
 # --------------------------------------------------------------- Kirby --
 
+## Direction from a round body's centre to a nub arm: level at rest, up to ~70 degrees when raised.
+static func _nub_dir(raise: float, side: int) -> Vector2:
+	var a := clampf(-0.12 + raise * 0.5, -0.3, 1.25)
+	return Vector2(side * cos(a), -sin(a) + 0.12)
+
+
 ## A round Dream Land resident: a ball with stubby arms and big feet.
 ## `kind` picks the face and extras.
 static func _ball(p: Puppet, body: Color, feet: Color, kind: String) -> void:
@@ -932,7 +941,8 @@ static func _ball(p: Puppet, body: Color, feet: Color, kind: String) -> void:
 				Color("e6304a") if sx < 0 else Color("4a78d0"), 3.5)
 			Art.blob(ci, c + Vector2(sx * 74, -r - 30), 9, 9, Color("f2c14e"), 2.5)
 	# Back nub arm, feet, body
-	var ab := c + Vector2(-r * 0.9, 8 - raise.x * 22)
+	# Nub arms slide around the body's edge as they raise, so they never float off it
+	var ab := c + _nub_dir(raise.x, -1) * r * 0.95
 	Art.blob(ci, ab, 16, 13, body, 3.5)
 	for sx in [-1, 1]:
 		var sw := p._leg_swing(sx) * 0.5
@@ -941,14 +951,14 @@ static func _ball(p: Puppet, body: Color, feet: Color, kind: String) -> void:
 	match kind:
 		"kirby":
 			for sx in [-1, 1]:
-				p._eye(c + Vector2(sx * 12, -12), 6, 15, 0, Color(0, 0, 0, 0), sx, 0.0, body, Color("1b2a6a"))
-				Art.blob(ci, c + Vector2(sx * 30, 6), 9, 5, Color("f2608a"), 0.0)
-			p._mouth(c + Vector2(0, 14), 16, 0)
+				p._bean_eye(c + Vector2(sx * 14, -14), 8, 19, sx, body)
+				Art.blob(ci, c + Vector2(sx * 32, 8), 10, 5, Color("f2608a"), 0.0)
+			p._mouth(c + Vector2(0, 16), 14, 0)
 		"dee", "bandana":
 			var face := Art.ellipse(c + Vector2(4, 4), r * 0.68, r * 0.58, 30)
 			Art.shape(ci, face, Color("f6dcae"), 0.0)
 			for sx in [-1, 1]:
-				p._eye(c + Vector2(sx * 13 + 4, -4), 6, 12, 0, Color(0, 0, 0, 0), sx, 0.0, Color("f6dcae"), Color("1d1d22"))
+				p._bean_eye(c + Vector2(sx * 13 + 4, -4), 7, 14, sx, Color("f6dcae"), Color("3a3f5a"))
 				Art.blob(ci, c + Vector2(sx * 28 + 4, 14), 7, 4, Color("f2a090"), 0.0)
 			if p._talk_open > 0.1:
 				Art.blob(ci, c + Vector2(4, 20), 5, 4 * p._talk_open + 1, Color(0.36, 0.04, 0.1), 2.0)
@@ -981,7 +991,7 @@ static func _ball(p: Puppet, body: Color, feet: Color, kind: String) -> void:
 	if p.held != "":
 		p._arm(c + Vector2(r * 0.7, 6), 1, raise.y, 24, 12, body, 12, body)
 	else:
-		Art.blob(ci, c + Vector2(r * 0.9, 8 - raise.y * 22), 16, 13, body, 3.5)
+		Art.blob(ci, c + _nub_dir(raise.y, 1) * r * 0.95, 16, 13, body, 3.5)
 
 
 static func _dedede(p: Puppet) -> void:
