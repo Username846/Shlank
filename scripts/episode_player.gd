@@ -33,6 +33,7 @@ var _hud: Control
 var _progress: ProgressBar
 var _time_label: Label
 var _pause_btn: Button
+var _scene_btn: Button
 var _pause_overlay: Control
 var _end_overlay: Control
 var _next_label: Label
@@ -41,12 +42,13 @@ var _next_t := AUTOPLAY_DELAY
 
 var _paused := false
 var _skip := false
+## Set by NEXT SCENE: the rest of this scene is skipped up to the next SCENE command.
+var _skip_scene := false
 var _quit := false
 var _index := 0
 var _total := 1.0
 var _done_time := 0.0
 var _shake := 0.0
-var _hud_idle := 0.0
 var _first_scene := true
 var _card_i := 0
 var _last_speaker := ""
@@ -118,7 +120,7 @@ func _build_ui() -> void:
 
 	_loc_label = UiKit.title_label("", 30, Color.WHITE)
 	_loc_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
-	_loc_label.position = Vector2(28, 20)
+	_loc_label.position = Vector2(28, 108)
 	_loc_label.modulate.a = 0.0
 	root.add_child(_loc_label)
 
@@ -127,35 +129,33 @@ func _build_ui() -> void:
 	_wipe = SceneTransition.new()
 	root.add_child(_wipe)
 
-	# HUD
+	_pause_overlay = _make_overlay("PAUSED", [["Resume", UiKit.YELLOW, toggle_pause], ["Back to Menu", UiKit.RED, quit]])
+	root.add_child(_pause_overlay)
+	# Playback controls, always visible in the top-left corner (drawn above the pause screen
+	# so they keep working while paused): pause, next scene, exit, then the progress bar.
 	_hud = Control.new()
 	_hud.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	_hud.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	root.add_child(_hud)
-	# Top-right cluster, left of the always-on volume/fullscreen buttons:
-	# playback buttons, with the progress bar and time underneath.
 	var cluster := VBoxContainer.new()
 	cluster.add_theme_constant_override("separation", 8)
-	cluster.position = Vector2(1280 - 206 - 10 - 194, 16)
-	cluster.custom_minimum_size = Vector2(194, 0)
+	cluster.position = Vector2(16, 16)
 	_hud.add_child(cluster)
 	var bar := HBoxContainer.new()
-	bar.alignment = BoxContainer.ALIGNMENT_END
 	bar.add_theme_constant_override("separation", 10)
 	cluster.add_child(bar)
-	_pause_btn = UiKit.button("II", UiKit.YELLOW, 24)
+	_pause_btn = UiKit.button("PAUSE", UiKit.YELLOW, 22)
 	_pause_btn.tooltip_text = "Pause (Space)"
-	_pause_btn.custom_minimum_size = Vector2(58, 56)
+	_pause_btn.custom_minimum_size = Vector2(120, 52)
 	_pause_btn.pressed.connect(toggle_pause)
 	bar.add_child(_pause_btn)
-	var skip_btn := UiKit.button(">>", UiKit.TEAL, 24)
-	skip_btn.tooltip_text = "Skip line (Right arrow / click)"
-	skip_btn.custom_minimum_size = Vector2(58, 56)
-	skip_btn.pressed.connect(func() -> void: _skip = true)
-	bar.add_child(skip_btn)
-	var quit_btn := UiKit.button("X", UiKit.RED, 24)
-	quit_btn.tooltip_text = "Back to menu (Esc)"
-	quit_btn.custom_minimum_size = Vector2(58, 56)
+	_scene_btn = UiKit.button("NEXT SCENE", UiKit.TEAL, 22)
+	_scene_btn.tooltip_text = "Jump to the next scene (Right arrow)"
+	_scene_btn.custom_minimum_size = Vector2(160, 52)
+	_scene_btn.pressed.connect(next_scene)
+	bar.add_child(_scene_btn)
+	var quit_btn := UiKit.button("EXIT", UiKit.RED, 22)
+	quit_btn.tooltip_text = "Back to the menu (Esc)"
+	quit_btn.custom_minimum_size = Vector2(100, 52)
 	quit_btn.pressed.connect(quit)
 	bar.add_child(quit_btn)
 	var prow := HBoxContainer.new()
@@ -166,7 +166,7 @@ func _build_ui() -> void:
 	_time_label.add_theme_constant_override("outline_size", 5)
 	_time_label.add_theme_color_override("font_outline_color", Art.INK)
 	_time_label.custom_minimum_size = Vector2(84, 0)
-	_time_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	_time_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 	prow.add_child(_time_label)
 	_progress = ProgressBar.new()
 	_progress.show_percentage = false
@@ -187,8 +187,7 @@ func _build_ui() -> void:
 	_progress.custom_minimum_size = Vector2(0, 10)
 	prow.add_child(_progress)
 
-	_pause_overlay = _make_overlay("PAUSED", [["Resume", UiKit.YELLOW, toggle_pause], ["Back to Menu", UiKit.RED, quit]])
-	root.add_child(_pause_overlay)
+	root.add_child(_hud)
 	_end_overlay = _make_overlay("THE END", [["Watch Again", UiKit.YELLOW, _restart], ["Back to Menu", UiKit.TEAL, quit]])
 	root.add_child(_end_overlay)
 	# "Up next" under the end buttons, when there's a next episode in the series
@@ -262,7 +261,18 @@ func toggle_pause() -> void:
 	_world.get_tree().paused = _paused
 	_pause_overlay.visible = _paused
 	Game.pause_speaking(_paused)
-	_pause_btn.text = ">" if _paused else "II"
+	_pause_btn.text = "PLAY" if _paused else "PAUSE"
+	_pause_btn.tooltip_text = "Resume (Space)" if _paused else "Pause (Space)"
+
+
+## Ends the current scene now and carries on from the next one (or the end screen).
+func next_scene() -> void:
+	if _end_overlay.visible:
+		return
+	if _paused:
+		toggle_pause()
+	_skip_scene = true
+	_skip = true
 
 
 func quit() -> void:
@@ -274,8 +284,6 @@ func quit() -> void:
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	if event is InputEventMouseMotion:
-		_hud_idle = 0.0
 	if event.is_action_pressed("ui_cancel"):
 		if _end_overlay.visible:
 			quit()
@@ -285,25 +293,18 @@ func _unhandled_input(event: InputEvent) -> void:
 	elif event is InputEventKey and event.pressed and not event.echo and event.keycode in [KEY_SPACE, KEY_P]:
 		toggle_pause()
 		get_viewport().set_input_as_handled()
-	elif event.is_action_pressed("ui_right") or event.is_action_pressed("ui_accept"):
-		_skip = true
-	elif event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT and not _paused:
-		_skip = true
-		_hud_idle = 0.0
-	elif event is InputEventScreenTouch and event.pressed:
-		_hud_idle = 0.0
+	elif event.is_action_pressed("ui_right") and not _end_overlay.visible:
+		next_scene()
+		get_viewport().set_input_as_handled()
 
 
 func _process(delta: float) -> void:
 	if not _paused:
-		_hud_idle += delta
 		if _shake > 0.0:
 			_shake -= delta
 			_cam.offset = Vector2(randf_range(-9, 9), randf_range(-7, 7)) * clampf(_shake * 3.0, 0.0, 1.0)
 		else:
 			_cam.offset = Vector2.ZERO
-	var hud_a := 1.0 if (_hud_idle < 2.5 or _paused) else 0.0
-	_hud.modulate.a = move_toward(_hud.modulate.a, hud_a, delta * 4.0)
 	# Only touch the bar/label when they change visibly (each redraw costs GPU uploads).
 	var prog := snappedf(clampf(_done_time / _total, 0.0, 1.0), 0.002)
 	if prog != _progress.value:
@@ -344,18 +345,27 @@ func _wait(sec: float, skippable: bool = true) -> void:
 func _run() -> void:
 	_quit = false
 	_skip = false
+	_skip_scene = false
 	var pos := {}
 	for i in ep.commands.size():
 		if _quit:
 			return
 		_index = i
 		var c: Dictionary = ep.commands[i]
+		if _skip_scene:
+			if c.type == "scene":
+				_skip_scene = false
+			elif c.type != "music":
+				# Skipped: count its time so the progress bar stays right, but don't play it.
+				_done_time += ep.command_duration(c, pos)
+				continue
 		var before := _done_time
 		await _exec(c)
 		# Keep the progress bar honest even if a command took more/less time than estimated.
 		var est := ep.command_duration(c, pos)
 		_done_time = maxf(_done_time, before + est * 0.25)
 		_skip = false
+	_skip_scene = false
 	if not _quit:
 		_done_time = _total
 		_next_t = AUTOPLAY_DELAY

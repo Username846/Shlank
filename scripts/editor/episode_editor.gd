@@ -214,6 +214,7 @@ func _build_ui() -> void:
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	rv.add_child(scroll)
+	DragScroller.attach(scroll)
 	_inspector = VBoxContainer.new()
 	_inspector.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_inspector.add_theme_constant_override("separation", 6)
@@ -386,6 +387,7 @@ func _open_location_picker() -> void:
 	var scroll := ScrollContainer.new()
 	scroll.custom_minimum_size = Vector2(900, 470)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	DragScroller.attach(scroll)
 	var vb := VBoxContainer.new()
 	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	vb.add_theme_constant_override("separation", 10)
@@ -444,6 +446,7 @@ func _open_character_picker(current: String, with_narrator: bool, on_pick: Calla
 	var scroll := ScrollContainer.new()
 	scroll.custom_minimum_size = Vector2(900, 470)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	DragScroller.attach(scroll)
 	var vb := VBoxContainer.new()
 	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	vb.add_theme_constant_override("separation", 10)
@@ -524,6 +527,7 @@ func _open_music_picker() -> void:
 	var scroll := ScrollContainer.new()
 	scroll.custom_minimum_size = Vector2(560, 450)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	DragScroller.attach(scroll)
 	var vb := VBoxContainer.new()
 	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	vb.add_theme_constant_override("separation", 6)

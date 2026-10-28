@@ -61,8 +61,10 @@ voices together. With autoplay on (the button turns yellow), the next episode in
 the series starts five seconds after one ends (after a season's last episode, the
 next season's first); the end screen also has a **Next Episode** button either way.
 
-Controls while watching: **Space** pauses, **→ / Enter / click** skips the
-current line, and **Esc** opens the pause menu. **F3** (or adding `?debug` to
+Controls while watching stay in the top-left corner: **PAUSE** (or **Space**),
+**NEXT SCENE** (or **→**) and **EXIT**; **Esc** opens the pause menu. Tapping or
+clicking the picture does nothing, so lines can't be skipped by accident. Episode
+and picker lists scroll by dragging with a finger or the mouse. **F3** (or adding `?debug` to
 the page URL) shows a performance overlay.
 
 ### Performance notes

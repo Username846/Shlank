@@ -348,6 +348,7 @@ func show_episode_list(series: String, season := 1) -> void:
 	scroll.size = Vector2(880, 500)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	root.add_child(scroll)
+	DragScroller.attach(scroll)
 	var list := VBoxContainer.new()
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 16)
@@ -510,6 +511,7 @@ func show_library_list(series: String, season := 1) -> void:
 	scroll.size = Vector2(880, 450)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	root.add_child(scroll)
+	DragScroller.attach(scroll)
 	var list := VBoxContainer.new()
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation", 10)
