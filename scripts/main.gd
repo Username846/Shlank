@@ -29,6 +29,7 @@ func _ready() -> void:
 	_reload_episodes()
 	_setup_perf_overlay()
 	_setup_global_controls()
+	_setup_landscape_lock()
 	show_menu()
 
 
@@ -121,6 +122,35 @@ func _on_volume(v: float, save: bool = true) -> void:
 func _toggle_fullscreen() -> void:
 	var full := DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED if full else DisplayServer.WINDOW_MODE_FULLSCREEN)
+
+
+## On phones and tablets, going fullscreen turns the game sideways: the browser locks the
+## screen to landscape (so a phone held upright rotates the game to fill it) and unlocks
+## it again when fullscreen ends. Browsers only allow the lock while fullscreen, which is
+## why it hooks the fullscreen change rather than the button. Desktops are left alone.
+func _setup_landscape_lock() -> void:
+	if not OS.has_feature("web"):
+		return
+	JavaScriptBridge.eval("""
+		(function () {
+			if (window.__shlankLandscapeLock) return;
+			window.__shlankLandscapeLock = true;
+			var touch = navigator.maxTouchPoints > 0 || window.matchMedia('(pointer: coarse)').matches;
+			if (!touch || !screen.orientation) return;
+			var onChange = function () {
+				var full = document.fullscreenElement || document.webkitFullscreenElement;
+				try {
+					if (full && screen.orientation.lock) {
+						screen.orientation.lock('landscape').catch(function () {});
+					} else if (!full && screen.orientation.unlock) {
+						screen.orientation.unlock();
+					}
+				} catch (e) {}
+			};
+			document.addEventListener('fullscreenchange', onChange);
+			document.addEventListener('webkitfullscreenchange', onChange);
+		})();
+	""", true)
 
 
 func _input(event: InputEvent) -> void:
