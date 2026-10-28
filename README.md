@@ -61,6 +61,11 @@ voices together. With autoplay on (the button turns yellow), the next episode in
 the series starts five seconds after one ends (after a season's last episode, the
 next season's first); the end screen also has a **Next Episode** button either way.
 
+**RANDOM EPISODE** (bottom right) plays a random episode from every series on the
+series screen (built-in shows only, not your own episodes), from any season on a
+show's season screen, or from that season on an episode list. Up next is another
+random pick from the same set, so autoplay keeps shuffling.
+
 Controls while watching stay in the top-left corner: **PAUSE** (or **Space**),
 **NEXT SCENE** (or **→**) and **EXIT**; **Esc** opens the pause menu. Tapping or
 clicking the picture does nothing, so lines can't be skipped by accident. Episode

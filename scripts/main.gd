@@ -350,6 +350,8 @@ func _episode_series_items() -> Dictionary:
 func show_episodes() -> void:
 	_reload_episodes()
 	_series_picker("WATCH EPISODES", _episode_series_items(), show_seasons, {YOURS: "film"})
+	_random_button(_screen, _episodes.filter(func(e): return _episode_group(e) != YOURS), show_episodes,
+		"Play a random episode from any series")
 
 
 ## Watch Episodes, second step: pick a season of the series ("Yours" goes straight to its list).
@@ -361,6 +363,8 @@ func show_seasons(series: String) -> void:
 	_series_picker(series.to_upper(), _season_items(series),
 		func(name: String) -> void: show_episode_list(series, _season_from_name(name)),
 		{}, "PICK A SEASON", show_episodes, series)
+	_random_button(_screen, _series_episodes(series), show_seasons.bind(series),
+		"Play a random episode from any season of %s" % series)
 
 
 func show_episode_list(series: String, season := 1) -> void:
@@ -422,6 +426,8 @@ func show_episode_list(series: String, season := 1) -> void:
 		play.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 		play.pressed.connect(_play_in_series.bind(series, _series_episodes(series).find(e)))
 		hb.add_child(play)
+	_random_button(root, shown, show_episode_list.bind(series, season),
+		"Play a random episode of yours" if series == YOURS else "Play a random episode from %s" % _season_name(season))
 	var more := UiKit.label("Make your own episodes with EDIT / CREATE on the title screen!", 18, Color.WHITE)
 	more.add_theme_constant_override("outline_size", 5)
 	more.add_theme_color_override("font_outline_color", Art.INK)
@@ -455,6 +461,28 @@ func _play_in_series(series: String, index: int) -> void:
 		next_title = shown[index + 1].script.title
 	var sc: EpisodeScript = shown[index].script
 	play_episode(sc, show_episode_list.bind(series, sc.season), next, next_title)
+
+
+## A RANDOM EPISODE button in the bottom-right corner that plays one of `pool` (episode
+## entries). Leaving the episode goes back to `back`. Nothing is added for an empty pool.
+func _random_button(root: Control, pool: Array, back: Callable, tip: String) -> void:
+	if pool.is_empty():
+		return
+	var b := UiKit.button("RANDOM EPISODE", UiKit.PINK, 24)
+	b.tooltip_text = tip
+	b.custom_minimum_size = Vector2(250, 56)
+	b.size = b.custom_minimum_size
+	b.position = Vector2(1280 - 16 - 250, 720 - 16 - 56)
+	b.pressed.connect(func() -> void: _play_random(pool, pool.pick_random(), back))
+	root.add_child(b)
+
+
+## Plays `e`, then offers another random episode from the same pool as "up next"
+## (a different one when the pool has more than one), so autoplay keeps shuffling.
+func _play_random(pool: Array, e: Dictionary, back: Callable) -> void:
+	var others := pool.filter(func(o): return o != e)
+	var nxt: Dictionary = others.pick_random() if not others.is_empty() else e
+	play_episode(e.script, back, _play_random.bind(pool, nxt, back), nxt.script.title)
 
 
 func play_episode(sc: EpisodeScript, on_exit: Callable = show_episodes, next: Callable = Callable(), next_title: String = "") -> void:
