@@ -146,13 +146,15 @@ func scene_length(scene_i: int) -> float:
 
 ## Where everybody is (and how they look) at time t within a scene.
 ## Returns {id: {x, facing, emotion, held, visible}} plus "_line": the beat being spoken.
-func state_at(scene_i: int, t: float) -> Dictionary:
+## `upto` >= 0 only counts the beats before that index.
+func state_at(scene_i: int, t: float, upto: int = -1) -> Dictionary:
 	var st := {}
 	var motion := {}  # id -> [x0, x1, t0, dur]
 	var pos := {}
 	var time := 0.0
 	var line := {}
-	for b in scenes[scene_i].beats:
+	var beats: Array = scenes[scene_i].beats
+	for b in (beats if upto < 0 else beats.slice(0, upto)):
 		if time > t + 0.0001:
 			break
 		var d := beat_duration(b, pos)
@@ -209,6 +211,14 @@ func state_at(scene_i: int, t: float) -> Dictionary:
 			st[who].visible = false
 	st["_line"] = line
 	return st
+
+
+## Who is on stage just before beat `beat_i` of a scene starts, left to right.
+func on_stage_before(scene_i: int, beat_i: int) -> Array:
+	var st := state_at(scene_i, beat_times(scene_i)[beat_i], beat_i)
+	var ids := st.keys().filter(func(id): return id != "_line" and st[id].visible)
+	ids.sort_custom(func(a, b): return st[a].x < st[b].x)
+	return ids
 
 
 func _char(st: Dictionary, who: String) -> Dictionary:

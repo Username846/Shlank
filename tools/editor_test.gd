@@ -42,6 +42,26 @@ func _ready() -> void:
 		await _frames(3)
 		print("HOLD BEAT: ", doc.scenes[hold_at.x].beats[hold_at.y].prop)
 		await _shot("t_hold_inspector")
+		# A dialogue beat's character picker lists who's on stage first
+		var beats: Array = doc.scenes[hold_at.x].beats
+		var say_i := -1
+		for bi in beats.size():
+			if say_i < 0 and bi > hold_at.y and beats[bi].type == "say" and beats[bi].who != "narrator":
+				say_i = bi
+		if say_i >= 0:
+			ed._select_beat(say_i)
+			await _frames(3)
+			var here: Array = doc.on_stage_before(hold_at.x, say_i)
+			ed._char_field(beats[say_i])  # a fresh field; press its button like a tap would
+			var field: Button = ed._inspector.get_child(ed._inspector.get_child_count() - 1)
+			field.pressed.emit()
+			await _frames(30)
+			var names := []
+			for l in ed._picker.find_children("*", "Label", true, false):
+				names.append(l.text)
+			print("ON STAGE: ", here, " heading shown: ", "ON STAGE NOW" in names)
+			await _shot("t_on_stage_picker")
+			ed._picker.queue_free()
 		ed._load_scene(0)
 		await _frames(3)
 	ed._open_location_picker()

@@ -442,7 +442,8 @@ func _location_tile(lid: String, is_current: bool) -> Button:
 
 
 ## Portraits of every character, one section per series. Calls `on_pick` with the chosen id.
-func _open_character_picker(current: String, with_narrator: bool, on_pick: Callable) -> void:
+## `on_stage` (ids) are shown first, under ON STAGE NOW, so the people in the scene are easy to find.
+func _open_character_picker(current: String, with_narrator: bool, on_pick: Callable, on_stage: Array = []) -> void:
 	var scroll := ScrollContainer.new()
 	scroll.custom_minimum_size = Vector2(900, 470)
 	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -451,6 +452,17 @@ func _open_character_picker(current: String, with_narrator: bool, on_pick: Calla
 	vb.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	vb.add_theme_constant_override("separation", 10)
 	scroll.add_child(vb)
+	if not on_stage.is_empty():
+		var here_l := UiKit.title_label("ON STAGE NOW", 26, UiKit.TEAL)
+		here_l.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		vb.add_child(here_l)
+		var here := GridContainer.new()
+		here.columns = 6
+		here.add_theme_constant_override("h_separation", 12)
+		here.add_theme_constant_override("v_separation", 12)
+		vb.add_child(here)
+		for cid in on_stage:
+			here.add_child(_character_tile(cid, cid == current, on_pick))
 	if with_narrator:
 		var nb := UiKit.button("NARRATOR", UiKit.YELLOW if current == "narrator" else Color.WHITE, 18)
 		nb.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
@@ -897,13 +909,18 @@ func _prop_field(b: Dictionary) -> void:
 
 
 ## The beat's character: a button that opens the character window.
+## Beats about someone already in the scene; their picker lists who's on stage first.
+const ON_STAGE_BEATS := ["say", "exit", "move", "emote", "hold", "face", "jump", "camera"]
+
+
 func _char_field(b: Dictionary, with_narrator: bool = false) -> void:
 	_inspector.add_child(UiKit.label("Character", 15, Color(0.35, 0.35, 0.4)))
 	var btn := _picker_button(func() -> void:
+		var here := doc.on_stage_before(scene_i, selected) if b.type in ON_STAGE_BEATS and selected >= 0 else []
 		_open_character_picker(b.who, with_narrator, func(cid: String) -> void:
 			b.who = cid
 			_mark_dirty()
-			_refresh(true)))
+			_refresh(true), here))
 	btn.text = TimelineStrip.char_name(b.who) + "  >"
 	btn.tooltip_text = String(Game.characters.get(b.who, {}).get("show", ""))
 	_inspector.add_child(btn)
